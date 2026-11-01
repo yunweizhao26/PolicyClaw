@@ -1,0 +1,271 @@
+{
+ "cleaned_sha256": "apple-109",
+ "text_sha256": "352c445de65ba75fedb576137de9906308d06282a11d2e5fbdaa51fd864cbd85",
+ "site_id": "apple-109",
+ "sections": 18,
+ "rules": 313,
+ "report": {
+  "sections": 18,
+  "raw_rules": 251,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [],
+     "exceptions": [
+      "without allowing us to access and collect data from your device’s camera or photo library"
+     ],
+     "data": {
+      "name": "photo",
+      "text": "data from your device’s photo library"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "allowing",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "data from your device’s photo library"
+    ],
+    "section": "apple-109#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [],
+     "exceptions": [
+      "without allowing us to access and collect data from your device’s camera or photo library"
+     ],
+     "data": {
+      "name": "photo",
+      "text": "data from your device’s photo library"
+     },
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "allowing",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "data from your device’s photo library"
+    ],
+    "section": "apple-109#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "after a maximum of 90 days from the time of collection"
+     ],
+     "data": {
+      "name": "user action",
+      "text": "This data"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "automatically deleted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after a maximum of 90 days from the time of collection"
+    ],
+    "section": "apple-109#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may sell",
+     "actor": {
+      "text": "BeReal",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "In the event of a merger, acquisition, reorganization or sale of assets, or bankruptcy"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may sell"
+    ],
+    "section": "apple-109#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may transfer",
+     "actor": {
+      "text": "BeReal",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In the event of a merger, acquisition, reorganization or sale of assets, or bankruptcy"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may transfer"
+    ],
+    "section": "apple-109#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "BeReal"
+     },
+     "conditions": [
+      "in furtherance of decisions that produce legal or similarly significant effects"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "does not currently engage in",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-109#s15"
+   }
+  ],
+  "residual_quotes": 33,
+  "quotes": 119,
+  "completeness": {
+   "gaps": 231,
+   "gap_words": 2285
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 119,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 58813,
+  "completion_tokens": 50064,
+  "thinking_tokens": 175,
+  "seconds": 725.3076248168945,
+  "failures": 0
+ },
+ "seconds": 726.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

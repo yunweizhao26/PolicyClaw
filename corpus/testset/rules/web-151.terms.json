@@ -1,0 +1,202 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometric information": "biometric data",
+    "identity verification documents": "age verification documentation",
+    "official identification card": "government id",
+    "payment information": "payment info",
+    "personally identifying information": "personal data",
+    "photograph": "photo",
+    "user name": "account name",
+    "user profile information": "profile information",
+    "username": "account name"
+   },
+   "parents": {
+    "account name": [
+     "account information"
+    ],
+    "age": [
+     "profile information"
+    ],
+    "age verification documentation": [
+     "age verification records"
+    ],
+    "biometric identifiers": [
+     "biometric data"
+    ],
+    "facial geometry": [
+     "biometric data",
+     "biometric identifiers"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "viewing history": [
+     "usage data"
+    ],
+    "support communications": [
+     "communications"
+    ],
+    "cookies": [
+     "technical information"
+    ],
+    "date of birth": [
+     "age verification records"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device parameters": [
+     "device information"
+    ],
+    "device information": [
+     "technical information"
+    ],
+    "email address": [
+     "account information"
+    ],
+    "financial details": [
+     "payment info"
+    ],
+    "gender": [
+     "profile information"
+    ],
+    "gender preferences": [
+     "profile information"
+    ],
+    "government id": [
+     "age verification documentation"
+    ],
+    "identification information": [
+     "personal data"
+    ],
+    "photo": [
+     "images"
+    ],
+    "user photo": [
+     "images",
+     "photo"
+    ],
+    "video": [
+     "user content"
+    ],
+    "ip address": [
+     "technical information"
+    ],
+    "location": [
+     "profile information"
+    ],
+    "phone number": [
+     "account information"
+    ],
+    "tax information": [
+     "legal compliance records"
+    ],
+    "usage data": [
+     "technical information"
+    ],
+    "user content": [
+     "profile information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "technical information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "financial service provider": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "tax authority": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Chaturbate compliance team": [
+     "first party"
+    ],
+    "internal team": [
+     "first party"
+    ],
+    "applicable third-party service provider": [
+     "third party"
+    ],
+    "Incode": [
+     "applicable third-party service provider",
+     "third party"
+    ],
+    "Twilio": [
+     "applicable third-party service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention": "fraud_detection",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "service_provision": "service provision",
+    "verification": "user verification"
+   },
+   "parents": {
+    "authentication": [
+     "user verification"
+    ],
+    "fraud_detection": [
+     "security"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "user verification": [
+     "service provision"
+    ],
+    "user support": [
+     "service provision"
+    ],
+    "payment": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2646,
+  "completion_tokens": 1002,
+  "thinking_tokens": 0,
+  "seconds": 10.903225421905518,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

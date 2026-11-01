@@ -1,0 +1,76 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "in-app behavior": "in-app activity",
+    "personal information such as your name, address, email, or contact details": "personal data",
+    "your device identifiers": "device identifiers",
+    "your personal data": "personal data"
+   },
+   "parents": {
+    "your device’s advertising ID": [
+     "advertising information",
+     "device identifiers"
+    ],
+    "device model": [
+     "device type"
+    ],
+    "gameplay statistics": [
+     "in-app activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "We",
+    "third-party services": "These providers"
+   },
+   "parents": {
+    "Admob": [
+     "These providers"
+    ],
+    "AppLovin": [
+     "These providers"
+    ],
+    "Ironsource": [
+     "These providers"
+    ],
+    "Meta": [
+     "These providers"
+    ],
+    "UnityAds": [
+     "These providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "for ad targeting": [
+     "serve ads"
+    ],
+    "to provide analytics": [
+     "reporting purposes"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 1630,
+  "completion_tokens": 378,
+  "thinking_tokens": 0,
+  "seconds": 4.834432125091553,
+  "failures": 0
+ },
+ "seconds": 4.9
+}

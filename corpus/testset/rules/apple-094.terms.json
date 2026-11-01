@@ -1,0 +1,256 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "biometric-data": "biometric data",
+    "biometric_data": "biometric data",
+    "browser and os": "browser and operating system software",
+    "cookies": "cookie",
+    "date and time of access": "date and time",
+    "device details": "device characteristics",
+    "ip address": "IP address",
+    "isp": "host from which you access the internet",
+    "network provider": "host from which you access the internet",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "referrer url": "referrer URL",
+    "social network profile": "social media profile",
+    "social network profile information": "social media profile",
+    "user query": "inquiry",
+    "web beacons": "web beacon"
+   },
+   "parents": {
+    "browsing timestamp": [
+     "date and time"
+    ],
+    "device properties": [
+     "device characteristics"
+    ],
+    "device settings": [
+     "device characteristics"
+    ],
+    "installed applications": [
+     "device characteristics"
+    ],
+    "storage and usage information": [
+     "device characteristics"
+    ],
+    "advertising id": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "IP address": [
+     "identifier"
+    ],
+    "government identifier": [
+     "identifier"
+    ],
+    "Japanese Personal Identification Number": [
+     "government identifier",
+     "identifier"
+    ],
+    "government-id": [
+     "identification documents"
+    ],
+    "financial transactional data": [
+     "financial data"
+    ],
+    "credit history": [
+     "financial data"
+    ],
+    "currency information": [
+     "financial data"
+    ],
+    "account_profile": [
+     "user profile"
+    ],
+    "profile picture": [
+     "photograph"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "pixel tag": [
+     "tags"
+    ],
+    "web beacon": [
+     "tags"
+    ],
+    "third party's name": [
+     "name",
+     "third party's contact details"
+    ],
+    "biometric data": [
+     "sensitive-data"
+    ],
+    "sensitive-data": [
+     "personal data"
+    ],
+    "user_information": [
+     "personal data"
+    ],
+    "additional personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "information",
+     "information collected"
+    ],
+    "app usage": [
+     "service use data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "employees": "employee",
+    "public authority": "government authority",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "National Banking and Securities Commission": [
+     "competent authorities of Mexico",
+     "government authority",
+     "public authorities"
+    ],
+    "National Electoral Institute": [
+     "competent authorities of Mexico",
+     "government authority",
+     "public authorities"
+    ],
+    "National Population Registry": [
+     "competent authorities of Mexico",
+     "government authority",
+     "public authorities"
+    ],
+    "Tax Administration Service": [
+     "competent authorities of Mexico",
+     "government authority",
+     "public authorities"
+    ],
+    "competent authorities of Mexico": [
+     "government authority",
+     "public authorities"
+    ],
+    "government authority": [
+     "public authorities"
+    ],
+    "Western Union group companies and affiliates": [
+     "affiliate"
+    ],
+    "advertising network": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "service providers"
+    ],
+    "consulting firm": [
+     "service providers"
+    ],
+    "isp": [
+     "service providers"
+    ],
+    "platform": [
+     "service providers"
+    ],
+    "another service or product supplier": [
+     "service providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "mobile apps": "app",
+    "public bodies and authorities": "government_agencies"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "affiliates": [
+     "third party"
+    ],
+    "commercial_entities": [
+     "third party"
+    ],
+    "consumer_reporting_agencies": [
+     "third party"
+    ],
+    "government_agencies": [
+     "third party"
+    ],
+    "other_third_party": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Western Union group": "Western Union",
+    "first party": "Western Union"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "third party service": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud-prevention": "fraud prevention",
+    "fraud_prevention": "fraud prevention",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "legal_compliance": "compliance",
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "service_improvement": "service improvement",
+    "service_provision": "provide service",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "verification": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4003,
+  "completion_tokens": 1751,
+  "thinking_tokens": 0,
+  "seconds": 28.4908766746521,
+  "failures": 0
+ },
+ "seconds": 28.6
+}

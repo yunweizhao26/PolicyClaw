@@ -1,0 +1,176 @@
+{
+ "cleaned_sha256": "pg-050",
+ "text_sha256": "4b01ca5d3d4428ba6d8031fa5c7bfaee31c2bc2ccfe80e200edfa5d6be1efd5b",
+ "site_id": "pg-050",
+ "sections": 6,
+ "rules": 185,
+ "report": {
+  "sections": 6,
+  "raw_rules": 105,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may associate",
+     "actor": {
+      "text": "Zum",
+      "name": "first party"
+     },
+     "data": {
+      "text": "that information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "associate",
+      "verb": "associate"
+     },
+     "operation": "alignment or combination",
+     "purpose": [],
+     "conditions": [
+      "If user also interact with our Services in another capacity, for instance as a Zumer or user of other apps Zum provides",
+      "with information Zum have collected from user in user’s capacity as a User or rider"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may associate"
+    ],
+    "section": "pg-050#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be included",
+     "actor": {
+      "text": "first party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "“Web Beacons” (also known as clear gifs)",
+      "name": "web beacons"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "included",
+      "verb": "include"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to deliver or communicate with Cookies",
+       "name": "service provision"
+      },
+      {
+       "text": "to track and measure the performance of our Services",
+       "name": "analytics"
+      },
+      {
+       "text": "to monitor how many visitors view our Services",
+       "name": "analytics"
+      },
+      {
+       "text": "to monitor the effectiveness of our advertising",
+       "name": "ad performance measurement"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "pg-050#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "first party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user’s account information",
+      "name": "account information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "User may correct user’s account information at any time by logging into user’s online or in-app account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "pg-050#s4"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 106,
+   "gap_words": 1251
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 44,
+  "compile_failures": 2,
+  "fixed_structurally": 2,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24490,
+  "completion_tokens": 20421,
+  "thinking_tokens": 0,
+  "seconds": 125.90985131263733,
+  "failures": 0
+ },
+ "seconds": 126.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

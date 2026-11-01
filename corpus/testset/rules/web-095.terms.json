@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "PI",
+    "personal information": "PI"
+   },
+   "parents": {
+    "child personal data": [
+     "PI"
+    ],
+    "cookies": [
+     "device ID"
+    ],
+    "ip address": [
+     "network identifier"
+    ],
+    "online identifier": [
+     "device and account identifiers"
+    ],
+    "gaming scores and statistics": [
+     "gameplay data"
+    ],
+    "recordings of on-screen gameplay": [
+     "gameplay data",
+     "video content"
+    ],
+    "call audio": [
+     "communications",
+     "voice data"
+    ],
+    "voice recording": [
+     "voice data"
+    ],
+    "voice transcription": [
+     "voice data"
+    ],
+    "shopping cart contents": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing behaviour",
+     "usage data"
+    ],
+    "software usage data": [
+     "usage data"
+    ],
+    "service usage data": [
+     "usage data"
+    ],
+    "user activity data": [
+     "user activity"
+    ],
+    "purchase details": [
+     "transaction details"
+    ],
+    "crash and performance logs": [
+     "device data"
+    ],
+    "operating system details": [
+     "device details"
+    ],
+    "device details": [
+     "device data"
+    ],
+    "avatar": [
+     "user profile"
+    ],
+    "about me statement": [
+     "user profile"
+    ],
+    "video content": [
+     "user-generated content"
+    ],
+    "financial information": [
+     "PI"
+    ],
+    "government-issued ID": [
+     "PI"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Sony Group Corporation companies"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "business transfer partner": [
+     "partner"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "game developer": [
+     "third party"
+    ],
+    "game publisher": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "financial institutions": [
+     "third party"
+    ],
+    "game and social media companies": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "parent": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligations",
+    "other": "fulfill purposes outlined in privacy policy",
+    "payment processing": "payment handling"
+   },
+   "parents": {
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "account creation": [
+     "service provision"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service improvement": [
+     "research and development"
+    ],
+    "payment handling": [
+     "order fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3085,
+  "completion_tokens": 765,
+  "thinking_tokens": 0,
+  "seconds": 14.213458061218262,
+  "failures": 0
+ },
+ "seconds": 14.3
+}

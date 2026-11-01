@@ -1,0 +1,368 @@
+{
+ "rules": "reconciled",
+ "unstable_pages": [],
+ "term_relations": false,
+ "all": {
+  "versions": 600,
+  "redundancy": {
+   "pairs": 99071,
+   "by_kind": {
+    "purpose": 24846,
+    "guard": 8934,
+    "source": 9804,
+    "action": 25151,
+    "duplicate": 15735,
+    "recipient": 13373,
+    "actor": 1228
+   },
+   "by_broader_field": {
+    "purpose": 35177,
+    "guard": 47127,
+    "source": 10611,
+    "action": 59002,
+    "recipient": 13373,
+    "actor": 1930
+   },
+   "distinct_pairs": 76073,
+   "versions_affected": 587,
+   "domains_affected": 587,
+   "rules_whose_data_name_is_an_action_node": 38
+  },
+  "coverage": {
+   "versions with rules": 600,
+   "versions: collection without retention or erasure": 8,
+   "versions: collection without retention, erasure, or retention time": 8,
+   "versions: child data without parental consent": 26,
+   "versions: gdpr scope without erasure": 4,
+   "versions: sale without opt-out": 14,
+   "versions: consent promise overlapped, same practice": 53,
+   "versions: consent promise overlapped, any disclosure": 116,
+   "versions: unconditional disclosure": 548,
+   "unconditional disclosure rules": 10634,
+   "unconditional disclosure rules, at most 3 per version (old count)": 1546,
+   "unconditional disclosure rules with a recipient": 8898,
+   "versions: gdpr scope": 480,
+   "versions: sale allowed": 226
+  },
+  "coverage_shares_pct": {
+   "versions: collection without retention or erasure": 1.33,
+   "versions: collection without retention, erasure, or retention time": 1.33,
+   "versions: child data without parental consent": 4.33,
+   "versions: gdpr scope without erasure": 0.67,
+   "versions: sale without opt-out": 2.33,
+   "versions: consent promise overlapped, same practice": 8.83,
+   "versions: consent promise overlapped, any disclosure": 19.33,
+   "versions: unconditional disclosure": 91.33,
+   "versions: gdpr scope": 80.0,
+   "versions: sale allowed": 37.67
+  },
+  "compliance_requirement_versions": {
+   "child data without parental consent": 26,
+   "gdpr scope without erasure": 4,
+   "sale without opt-out": 14,
+   "consent promise overlapped, same practice": 53,
+   "consent promise overlapped, any disclosure": 116
+  },
+  "compliance_rule_counts": {
+   "child rules": 106,
+   "child rules without parental consent": 87,
+   "consent promises": 271,
+   "promise overlaps, any disclosure": 18783,
+   "overlap_candidate": 498,
+   "overlap: incomparable": 462,
+   "unresolved": 122,
+   "mutually_exclusive": 123,
+   "overlap: deny more specific": 36
+  },
+  "domains_affected": {
+   "unconditional disclosure": 548,
+   "consent promise overlapped, any disclosure": 116,
+   "consent promise overlapped, same practice": 53,
+   "child data without parental consent": 26,
+   "sale without opt-out": 14,
+   "gdpr scope without erasure": 4,
+   "collection without retention or erasure": 8,
+   "collection without retention, erasure, or retention time": 8
+  },
+  "versions_with_any_compliance_candidate": 89,
+  "domains_with_any_compliance_candidate": 89,
+  "versions_with_any_compliance_candidate_old_share_check": 149,
+  "domains_with_any_compliance_candidate_old_share_check": 149
+ },
+ "web": {
+  "versions": 200,
+  "redundancy": {
+   "pairs": 48706,
+   "by_kind": {
+    "source": 5264,
+    "guard": 2770,
+    "duplicate": 4044,
+    "action": 14009,
+    "recipient": 6455,
+    "purpose": 15710,
+    "actor": 454
+   },
+   "by_broader_field": {
+    "action": 35343,
+    "source": 5340,
+    "guard": 24790,
+    "purpose": 21182,
+    "recipient": 6455,
+    "actor": 725
+   },
+   "distinct_pairs": 41176,
+   "versions_affected": 195,
+   "domains_affected": 195,
+   "rules_whose_data_name_is_an_action_node": 18
+  },
+  "coverage": {
+   "versions with rules": 200,
+   "versions: collection without retention or erasure": 2,
+   "versions: collection without retention, erasure, or retention time": 2,
+   "versions: child data without parental consent": 6,
+   "versions: gdpr scope without erasure": 1,
+   "versions: sale without opt-out": 2,
+   "versions: consent promise overlapped, same practice": 14,
+   "versions: consent promise overlapped, any disclosure": 32,
+   "versions: unconditional disclosure": 184,
+   "unconditional disclosure rules": 3451,
+   "unconditional disclosure rules, at most 3 per version (old count)": 518,
+   "unconditional disclosure rules with a recipient": 3049,
+   "versions: gdpr scope": 167,
+   "versions: sale allowed": 64
+  },
+  "coverage_shares_pct": {
+   "versions: collection without retention or erasure": 1.0,
+   "versions: collection without retention, erasure, or retention time": 1.0,
+   "versions: child data without parental consent": 3.0,
+   "versions: gdpr scope without erasure": 0.5,
+   "versions: sale without opt-out": 1.0,
+   "versions: consent promise overlapped, same practice": 7.0,
+   "versions: consent promise overlapped, any disclosure": 16.0,
+   "versions: unconditional disclosure": 92.0,
+   "versions: gdpr scope": 83.5,
+   "versions: sale allowed": 32.0
+  },
+  "compliance_requirement_versions": {
+   "child data without parental consent": 6,
+   "gdpr scope without erasure": 1,
+   "sale without opt-out": 2,
+   "consent promise overlapped, same practice": 14,
+   "consent promise overlapped, any disclosure": 32
+  },
+  "compliance_rule_counts": {
+   "child rules": 16,
+   "child rules without parental consent": 12,
+   "consent promises": 74,
+   "promise overlaps, any disclosure": 3198,
+   "overlap_candidate": 50,
+   "overlap: incomparable": 46,
+   "unresolved": 26,
+   "mutually_exclusive": 36,
+   "overlap: deny more specific": 4
+  },
+  "domains_affected": {
+   "unconditional disclosure": 184,
+   "consent promise overlapped, same practice": 14,
+   "consent promise overlapped, any disclosure": 32,
+   "sale without opt-out": 2,
+   "gdpr scope without erasure": 1,
+   "child data without parental consent": 6,
+   "collection without retention or erasure": 2,
+   "collection without retention, erasure, or retention time": 2
+  },
+  "versions_with_any_compliance_candidate": 23,
+  "domains_with_any_compliance_candidate": 23,
+  "versions_with_any_compliance_candidate_old_share_check": 41,
+  "domains_with_any_compliance_candidate_old_share_check": 41
+ },
+ "android": {
+  "versions": 200,
+  "redundancy": {
+   "pairs": 14759,
+   "by_kind": {
+    "purpose": 3108,
+    "guard": 1518,
+    "source": 1175,
+    "action": 4036,
+    "duplicate": 2471,
+    "recipient": 2120,
+    "actor": 331
+   },
+   "by_broader_field": {
+    "purpose": 4585,
+    "guard": 7359,
+    "source": 1260,
+    "action": 8356,
+    "recipient": 2120,
+    "actor": 571
+   },
+   "distinct_pairs": 12095,
+   "versions_affected": 194,
+   "domains_affected": 194,
+   "rules_whose_data_name_is_an_action_node": 3
+  },
+  "coverage": {
+   "versions with rules": 200,
+   "versions: collection without retention or erasure": 4,
+   "versions: collection without retention, erasure, or retention time": 4,
+   "versions: child data without parental consent": 12,
+   "versions: gdpr scope without erasure": 1,
+   "versions: sale without opt-out": 5,
+   "versions: consent promise overlapped, same practice": 15,
+   "versions: consent promise overlapped, any disclosure": 35,
+   "versions: unconditional disclosure": 174,
+   "unconditional disclosure rules": 2070,
+   "unconditional disclosure rules, at most 3 per version (old count)": 480,
+   "unconditional disclosure rules with a recipient": 1692,
+   "versions: gdpr scope": 157,
+   "versions: sale allowed": 49
+  },
+  "coverage_shares_pct": {
+   "versions: collection without retention or erasure": 2.0,
+   "versions: collection without retention, erasure, or retention time": 2.0,
+   "versions: child data without parental consent": 6.0,
+   "versions: gdpr scope without erasure": 0.5,
+   "versions: sale without opt-out": 2.5,
+   "versions: consent promise overlapped, same practice": 7.5,
+   "versions: consent promise overlapped, any disclosure": 17.5,
+   "versions: unconditional disclosure": 87.0,
+   "versions: gdpr scope": 78.5,
+   "versions: sale allowed": 24.5
+  },
+  "compliance_requirement_versions": {
+   "child data without parental consent": 12,
+   "gdpr scope without erasure": 1,
+   "sale without opt-out": 5,
+   "consent promise overlapped, same practice": 15,
+   "consent promise overlapped, any disclosure": 35
+  },
+  "compliance_rule_counts": {
+   "child rules": 53,
+   "child rules without parental consent": 50,
+   "consent promises": 80,
+   "promise overlaps, any disclosure": 2023,
+   "overlap_candidate": 41,
+   "overlap: incomparable": 41,
+   "unresolved": 19,
+   "mutually_exclusive": 38
+  },
+  "domains_affected": {
+   "unconditional disclosure": 174,
+   "consent promise overlapped, any disclosure": 35,
+   "consent promise overlapped, same practice": 15,
+   "child data without parental consent": 12,
+   "sale without opt-out": 5,
+   "gdpr scope without erasure": 1,
+   "collection without retention or erasure": 4,
+   "collection without retention, erasure, or retention time": 4
+  },
+  "versions_with_any_compliance_candidate": 29,
+  "domains_with_any_compliance_candidate": 29,
+  "versions_with_any_compliance_candidate_old_share_check": 47,
+  "domains_with_any_compliance_candidate_old_share_check": 47
+ },
+ "apple": {
+  "versions": 200,
+  "redundancy": {
+   "pairs": 35606,
+   "by_kind": {
+    "recipient": 4798,
+    "action": 7106,
+    "purpose": 6028,
+    "guard": 4646,
+    "duplicate": 9220,
+    "source": 3365,
+    "actor": 443
+   },
+   "by_broader_field": {
+    "action": 15303,
+    "recipient": 4798,
+    "guard": 14978,
+    "purpose": 9410,
+    "source": 4011,
+    "actor": 634
+   },
+   "distinct_pairs": 22802,
+   "versions_affected": 198,
+   "domains_affected": 198,
+   "rules_whose_data_name_is_an_action_node": 17
+  },
+  "coverage": {
+   "versions with rules": 200,
+   "versions: collection without retention or erasure": 2,
+   "versions: collection without retention, erasure, or retention time": 2,
+   "versions: child data without parental consent": 8,
+   "versions: gdpr scope without erasure": 2,
+   "versions: sale without opt-out": 7,
+   "versions: consent promise overlapped, same practice": 24,
+   "versions: consent promise overlapped, any disclosure": 49,
+   "versions: unconditional disclosure": 190,
+   "unconditional disclosure rules": 5113,
+   "unconditional disclosure rules, at most 3 per version (old count)": 548,
+   "unconditional disclosure rules with a recipient": 4157,
+   "versions: gdpr scope": 156,
+   "versions: sale allowed": 113
+  },
+  "coverage_shares_pct": {
+   "versions: collection without retention or erasure": 1.0,
+   "versions: collection without retention, erasure, or retention time": 1.0,
+   "versions: child data without parental consent": 4.0,
+   "versions: gdpr scope without erasure": 1.0,
+   "versions: sale without opt-out": 3.5,
+   "versions: consent promise overlapped, same practice": 12.0,
+   "versions: consent promise overlapped, any disclosure": 24.5,
+   "versions: unconditional disclosure": 95.0,
+   "versions: gdpr scope": 78.0,
+   "versions: sale allowed": 56.5
+  },
+  "compliance_requirement_versions": {
+   "child data without parental consent": 8,
+   "gdpr scope without erasure": 2,
+   "sale without opt-out": 7,
+   "consent promise overlapped, same practice": 24,
+   "consent promise overlapped, any disclosure": 49
+  },
+  "compliance_rule_counts": {
+   "child rules": 37,
+   "child rules without parental consent": 25,
+   "consent promises": 117,
+   "promise overlaps, any disclosure": 13562,
+   "mutually_exclusive": 49,
+   "unresolved": 77,
+   "overlap_candidate": 407,
+   "overlap: incomparable": 375,
+   "overlap: deny more specific": 32
+  },
+  "domains_affected": {
+   "unconditional disclosure": 190,
+   "child data without parental consent": 8,
+   "consent promise overlapped, any disclosure": 49,
+   "consent promise overlapped, same practice": 24,
+   "gdpr scope without erasure": 2,
+   "collection without retention or erasure": 2,
+   "collection without retention, erasure, or retention time": 2,
+   "sale without opt-out": 7
+  },
+  "versions_with_any_compliance_candidate": 37,
+  "domains_with_any_compliance_candidate": 37,
+  "versions_with_any_compliance_candidate_old_share_check": 61,
+  "domains_with_any_compliance_candidate_old_share_check": 61
+ },
+ "not_stated": {
+  "child data by data name": "the old check also took rules whose data name contains 'child'; data names are open text without a hierarchy in the schema",
+  "GDPR named in the text": "the old check also searched the condition and sentence for 'gdpr'; the schema states GDPR scope only through legal bases, transfer safeguards, and places in the European Economic Area",
+  "deletion requests in guards": "the old check also took guard atoms named like deletion or erasure; request.* names are chosen by the translator, so only the erasure operation counts",
+  "sensitive data only permitted": "the old coverage check needs a sensitivity label per data item; the schema has no data categories",
+  "data subsumption": "redundancy by a broader data item needs the policy's data relations (policyclaw/terms.py, one model call per policy), which this corpus run does not have, so data names are compared as names"
+ },
+ "run": {
+  "elapsed_s": 206.9,
+  "cpu_s": 900.7,
+  "peak_rss_mb_self": 239.8,
+  "peak_rss_mb_largest_child": 122.9,
+  "cpus": 8,
+  "slurm_job": "20734572",
+  "slurm_step": "3"
+ }
+}

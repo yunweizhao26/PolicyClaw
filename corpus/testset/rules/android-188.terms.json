@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browser information": "browser",
+    "facial image": "facial features",
+    "information": "data",
+    "information of the user": "customer information",
+    "personal information": "personal data",
+    "user data": "customer information",
+    "user information": "customer information",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "account number": [
+     "bank account details",
+     "financial account number"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "app data": [
+     "data"
+    ],
+    "bank account details": [
+     "financial data"
+    ],
+    "browser": [
+     "device information"
+    ],
+    "clickstream data": [
+     "data"
+    ],
+    "contact details": [
+     "customer information",
+     "personal data"
+    ],
+    "contacts": [
+     "personal data"
+    ],
+    "credit score": [
+     "financial data"
+    ],
+    "customer complaints or suggestions": [
+     "customer information"
+    ],
+    "customer information": [
+     "data"
+    ],
+    "deceased constituents account records": [
+     "bank account details",
+     "financial data"
+    ],
+    "device information": [
+     "data"
+    ],
+    "email address": [
+     "contact details",
+     "personal data"
+    ],
+    "facial features": [
+     "personal data"
+    ],
+    "financial account number": [
+     "financial data"
+    ],
+    "financial data": [
+     "data",
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "income": [
+     "financial data"
+    ],
+    "isp": [
+     "device information"
+    ],
+    "kyc documents": [
+     "KYC details"
+    ],
+    "KYC details": [
+     "customer information",
+     "personal data"
+    ],
+    "loan files": [
+     "financial data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "personal data": [
+     "customer information",
+     "data"
+    ],
+    "phone number": [
+     "contact details",
+     "personal data"
+    ],
+    "photos": [
+     "files"
+    ],
+    "postal address": [
+     "contact details",
+     "personal data"
+    ],
+    "tax identifier": [
+     "KYC details",
+     "financial data",
+     "personal data"
+    ],
+    "transaction records": [
+     "financial data"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "videos": [
+     "files"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "group companies": "affiliates",
+    "third party": "external organisations"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "Bajaj Finance": "BFL",
+    "Bajaj Finance Limited": "BFL",
+    "first party": "BFL"
+   },
+   "parents": {
+    "third-party extensions, plug-ins or add-ons": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "rendering service": "provide services",
+    "service delivery": "provide services",
+    "service provision": "provide services"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "app security": [
+     "security"
+    ],
+    "credit checking or reporting": [
+     "compliance"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "improving customer interactions": [
+     "service improvement"
+    ],
+    "payment processing": [
+     "provide services",
+     "services"
+    ],
+    "provide services": [
+     "services"
+    ],
+    "service evaluation or development": [
+     "service improvement"
+    ],
+    "service facilitation": [
+     "provide services",
+     "services"
+    ],
+    "service improvement": [
+     "services"
+    ],
+    "user account management": [
+     "provide services",
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2374,
+  "completion_tokens": 1130,
+  "thinking_tokens": 0,
+  "seconds": 19.881458044052124,
+  "failures": 0
+ },
+ "seconds": 20.0
+}

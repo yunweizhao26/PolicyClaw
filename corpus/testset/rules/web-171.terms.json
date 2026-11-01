@@ -1,0 +1,131 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "unspecified data": "information",
+    "user_data": "user data"
+   },
+   "parents": {
+    "account name": [
+     "log-in details",
+     "personal data"
+    ],
+    "avatar": [
+     "personal data",
+     "user-generated content"
+    ],
+    "communications": [
+     "user-provided info"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "device details": [
+     "personal data"
+    ],
+    "email address": [
+     "log-in details",
+     "personal data"
+    ],
+    "interests": [
+     "personal data",
+     "preferences"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "log-in details": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "password": [
+     "log-in details"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "session data": [
+     "usage data"
+    ],
+    "social media handle": [
+     "personal data"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user-generated content": [
+     "user-provided info"
+    ],
+    "user-provided info": [
+     "user data"
+    ],
+    "user data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliated companies": "affiliate"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "authorized users": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "legal_compliance": "compliance with legal obligation",
+    "service provision": "service delivery",
+    "service_provision": "service delivery"
+   },
+   "parents": {
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "security": [
+     "legitimate interests"
+    ],
+    "compliance with legal obligation": [
+     "legitimate interests"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "analytics": [
+     "service_improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1853,
+  "completion_tokens": 564,
+  "thinking_tokens": 0,
+  "seconds": 8.43983006477356,
+  "failures": 0
+ },
+ "seconds": 8.5
+}

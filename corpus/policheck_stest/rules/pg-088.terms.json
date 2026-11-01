@@ -1,0 +1,63 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account access": [
+     "information"
+    ],
+    "game score": [
+     "information"
+    ],
+    "message": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "transaction details": [
+     "information"
+    ],
+    "user-provided info": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad network": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "refunds": [
+     "accounting"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 685,
+  "completion_tokens": 152,
+  "thinking_tokens": 0,
+  "seconds": 8.15436339378357,
+  "failures": 0
+ },
+ "seconds": 8.2
+}

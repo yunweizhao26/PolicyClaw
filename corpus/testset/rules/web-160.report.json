@@ -1,0 +1,283 @@
+{
+ "cleaned_sha256": "web-160",
+ "text_sha256": "4a492f0300a0870ee4d29c43b7fe05e6bcaab894ca1ed6f7a24f24f273d0a96e",
+ "site_id": "web-160",
+ "sections": 13,
+ "rules": 342,
+ "report": {
+  "sections": 13,
+  "raw_rules": 292,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "request",
+      "verb": "request"
+     },
+     "actor": {
+      "name": "advertising partner",
+      "text": "These companies"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information about the user",
+      "text": "information about you"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may use their own tracking technologies to request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“Cookie Policy” section",
+       "name": "Cookie Policy",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use their own tracking technologies to request"
+    ],
+    "section": "web-160#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in some circumstances, for example to comply with a court order or law enforcement",
+      "if we have a good-faith belief that such sharing is required under applicable legal obligations"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be legally required to share",
+     "purpose": [
+      {
+       "text": "to comply with a court order or law enforcement",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "law enforcement"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be legally required to share"
+    ],
+    "section": "web-160#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "a copy of",
+      "verb": "copy"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are an EU resident",
+      "you have the right to a copy of the personal data that we hold about you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [
+      "some exceptions designed to protect the rights of others"
+     ],
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "polarity_text": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-160#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may contact",
+     "purpose": [
+      {
+       "text": "to ask you for further information to help you exercise your legal rights or to speed up our response",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-160#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data of minors under 16 years of age",
+      "name": "children's data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "legally-required affirmative authorization"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly share"
+    ],
+    "section": "web-160#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "need to",
+     "purpose": [
+      {
+       "text": "in order to provide the Services to you",
+       "name": "service provision"
+      },
+      {
+       "text": "to comply with our legal obligations",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-160#s11"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 94,
+  "completeness": {
+   "gaps": 325,
+   "gap_words": 3538
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 11,
+  "translated_quotes": 94,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 54012,
+  "completion_tokens": 52582,
+  "thinking_tokens": 0,
+  "seconds": 329.80789065361023,
+  "failures": 0
+ },
+ "seconds": 331.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

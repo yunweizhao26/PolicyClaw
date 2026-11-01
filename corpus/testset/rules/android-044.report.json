@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "android-044",
+ "text_sha256": "cc53590501d2fdec124ca59661e586cb45f5fa29516744011bb3aeed8e88a712",
+ "site_id": "android-044",
+ "sections": 13,
+ "rules": 74,
+ "report": {
+  "sections": 13,
+  "raw_rules": 70,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may obtain",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain types of personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when we are required to do so by law (for example, in relation to our direct marketing activities)",
+      "with your separate consent"
+     ],
+     "exceptions": [
+      "withdrawing your consent at any time by contacting us using the details at the end of this Notice"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your separate consent",
+     "withdrawing your consent at any time by contacting us using the details at the end of this Notice"
+    ],
+    "section": "android-044#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may obtain",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain types of personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "when we are required to do so by law (for example, in relation to our direct marketing activities)",
+      "with your separate consent"
+     ],
+     "exceptions": [
+      "withdrawing your consent at any time by contacting us using the details at the end of this Notice"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your separate consent",
+     "withdrawing your consent at any time by contacting us using the details at the end of this Notice"
+    ],
+    "section": "android-044#s3"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 56,
+  "completeness": {
+   "gaps": 94,
+   "gap_words": 1180
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 56,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 37267,
+  "completion_tokens": 18484,
+  "thinking_tokens": 0,
+  "seconds": 155.33780932426453,
+  "failures": 0
+ },
+ "seconds": 156.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

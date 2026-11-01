@@ -1,0 +1,29 @@
+{
+ "policy": "pg-008",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "; we use it to enhance your experience with opportunities like special promotions and offers.",
+   "prohibit": "We use your email address only for the purpose of sending the newsletter to you.",
+   "situation": "Using a user's collected email address to send or provide special promotions and offers.",
+   "reason": "One clause restricts using the email address solely for sending the newsletter, while another states personal information is used for special promotions and offers, without reconciling the two.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "When you visit our website, we may send cookies to your computer that uniquely identify your browser.",
+   "prohibit": "When you download and use our mobile applications, we don’t require you to provide any information and we don’t collect any information about you or your device, except we collect: (i) non-personal information about the duration the App is used and how the App is used, such as the screens viewed and actions taken within our mobile applications, which is used solely to enhance and improve our applications; and (ii) if the parents send us an email from the app or if they opt-in the newsletter form within the app, then only we collect the email addresses specifically to send newsletters only about our new app launches.",
+   "situation": "Collecting persistent identifiers/cookies when interacting with Queleas services.",
+   "reason": "This is primarily divided by mobile apps vs website, so it is an allowed carve-out / distinct scope."
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1749,
+  "completion_tokens": 361,
+  "thinking_tokens": 0,
+  "seconds": 7.590253829956055,
+  "failures": 0
+ }
+}

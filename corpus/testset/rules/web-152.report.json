@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "web-152",
+ "text_sha256": "7acaebfb9bd2b34b51b1f15141f88e71419ffb38671f217564cb349cc75950b3",
+ "site_id": "web-152",
+ "sections": 14,
+ "rules": 268,
+ "report": {
+  "sections": 14,
+  "raw_rules": 215,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "determine",
+      "verb": "determine"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "country",
+      "text": "your location on country-level"
+     },
+     "exceptions": [],
+     "operation": "derivation",
+     "polarity": "ALLOW",
+     "polarity_text": "determine",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-152#s8"
+   }
+  ],
+  "residual_quotes": 37,
+  "quotes": 133,
+  "completeness": {
+   "gaps": 478,
+   "gap_words": 4674
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 133,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 61568,
+  "completion_tokens": 48320,
+  "thinking_tokens": 0,
+  "seconds": 331.6660566329956,
+  "failures": 0
+ },
+ "seconds": 332.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

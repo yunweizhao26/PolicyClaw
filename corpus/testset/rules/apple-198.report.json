@@ -1,0 +1,258 @@
+{
+ "cleaned_sha256": "apple-198",
+ "text_sha256": "32ddd451d871c34dcedf9c00d23c329ef6ac4174559a424dbe32c8e6b128d7c4",
+ "site_id": "apple-198",
+ "sections": 18,
+ "rules": 318,
+ "report": {
+  "sections": 18,
+  "raw_rules": 204,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "neither have access",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "cookies or other tracking technologies that may be placed on your device you use to access the Services by such non-affiliated third parties",
+      "name": "cookies or other tracking technologies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-198#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "illegally obtaining access to",
+     "actor": {
+      "text": "third-party “hackers”",
+      "name": "third party"
+     },
+     "data": {
+      "text": "this information",
+      "name": "information collected on the Service"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtaining access to",
+      "verb": "obtain access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-198#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will comply with requests to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information we hold about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide access to",
+      "verb": "provide access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "For Residents of the European Union and EEA Countries:",
+      "Residents of the European Economic Area (“EEA”)",
+      "Where such rights apply",
+      "request that we"
+     ],
+     "exceptions": [
+      "certain information may be exempt from such requests in some circumstances, which may include if we need to keep processing your information for our legitimate interests or to comply with a legal obligation"
+     ],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-198#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will comply with requests to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "a copy of certain information we hold about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "For Residents of the European Union and EEA Countries:",
+      "Residents of the European Economic Area (“EEA”)",
+      "Where such rights apply",
+      "request that we"
+     ],
+     "exceptions": [
+      "certain information may be exempt from such requests in some circumstances, which may include if we need to keep processing your information for our legitimate interests or to comply with a legal obligation"
+     ],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-198#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "render the personal information unidentifiable",
+      "verb": "render"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "When personal information becomes unnecessary, the retention period has expired or the purpose of processing has been achieved"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "take appropriate measures to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "section 6 of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "render the personal information unidentifiable"
+    ],
+    "section": "apple-198#s18"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 93,
+  "completeness": {
+   "gaps": 222,
+   "gap_words": 2660
+  },
+  "unsatisfiable_guards": 4,
+  "qualifiers_without_effect": 44,
+  "translated_quotes": 93,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 62616,
+  "completion_tokens": 43470,
+  "thinking_tokens": 0,
+  "seconds": 496.79639506340027,
+  "failures": 0
+ },
+ "seconds": 498.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

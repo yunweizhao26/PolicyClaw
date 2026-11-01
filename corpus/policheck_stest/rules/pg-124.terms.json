@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware identifier": "hardware device ID",
+    "ip address": "IP address",
+    "mobile device type": "device type",
+    "personal information": "personal data",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "billing address": [
+     "contact info"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "financial details": [
+     "payment information"
+    ],
+    "hardware device ID": [
+     "device identifier"
+    ],
+    "password": [
+     "password or sensitive data"
+    ],
+    "app features accessed": [
+     "app usage and performance data"
+    ],
+    "app usage and performance data": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "cookies and tracking data": [
+     "usage data"
+    ],
+    "analytics information": [
+     "usage data"
+    ],
+    "personal data": [
+     "individual information"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "the Auction House": "Auction House"
+   },
+   "parents": {
+    "analytics provider": [
+     "service provider"
+    ],
+    "marketing partner": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unspecified-third-party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service operation or improvement": "service operation and optimization",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "marketing": [
+     "commercial"
+    ],
+    "order-fulfillment": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service provision and improvement"
+    ],
+    "service operation and optimization": [
+     "service provision and improvement"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ],
+    "customer-support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 1,
+  "prompt_tokens": 1891,
+  "completion_tokens": 552,
+  "thinking_tokens": 0,
+  "seconds": 48.274624824523926,
+  "failures": 0
+ },
+ "seconds": 48.4
+}

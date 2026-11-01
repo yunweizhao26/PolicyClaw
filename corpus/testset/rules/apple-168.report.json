@@ -1,0 +1,160 @@
+{
+ "cleaned_sha256": "apple-168",
+ "text_sha256": "c9bfceacc2a2413a032ca5678cfcad28a3375be20b27273e181267112b202982",
+ "site_id": "apple-168",
+ "sections": 22,
+ "rules": 394,
+ "report": {
+  "sections": 22,
+  "raw_rules": 312,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Company"
+     },
+     "conditions": [
+      "Important note in relation to Google and Gmail API",
+      "when you use Gmail API services through the Application"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "any of your personal data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "does not collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not collect"
+    ],
+    "section": "apple-168#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Company"
+     },
+     "conditions": [
+      "Important note in relation to Google and Gmail API",
+      "when you use Gmail API services through the Application"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "any of your personal data"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "does not store",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not store"
+    ],
+    "section": "apple-168#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can access",
+     "actor": {
+      "text": "Suppliers",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [
+      "through SSL-VPN defined on Firewalls",
+      "only provides access to the systems that it should use or is authorized to use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-168#s11"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 123,
+  "completeness": {
+   "gaps": 332,
+   "gap_words": 3450
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 54,
+  "translated_quotes": 123,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 75071,
+  "completion_tokens": 61054,
+  "thinking_tokens": 0,
+  "seconds": 820.2094633579254,
+  "failures": 0
+ },
+ "seconds": 822.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

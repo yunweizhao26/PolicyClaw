@@ -1,0 +1,147 @@
+{
+ "cleaned_sha256": "pg-144",
+ "text_sha256": "60ef68deed62bd1c885e8b7d56349a86df00b787a237583fb8b9e32266962413",
+ "site_id": "pg-144",
+ "sections": 4,
+ "rules": 65,
+ "report": {
+  "sections": 4,
+  "raw_rules": 59,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Provides access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [],
+     "data": {
+      "name": "photos",
+      "text": "photos the user has uploaded"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "Provides access to",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "the user"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-144#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Provides access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [],
+     "data": {
+      "name": "photos",
+      "text": "photos the user has been tagged in"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "Provides access to",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "the user"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-144#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "this Application"
+     },
+     "conditions": [
+      "require explicit authorization by the User"
+     ],
+     "data": {
+      "name": "account data",
+      "text": "Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "purpose": [],
+     "recipient": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party service",
+      "text": "your account on a third party service"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-144#s2"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 22,
+  "completeness": {
+   "gaps": 101,
+   "gap_words": 1055
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 22,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 14870,
+  "completion_tokens": 9031,
+  "thinking_tokens": 0,
+  "seconds": 58.0395348072052,
+  "failures": 0
+ },
+ "seconds": 58.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

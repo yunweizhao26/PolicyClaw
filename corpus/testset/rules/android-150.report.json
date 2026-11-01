@@ -1,0 +1,393 @@
+{
+ "cleaned_sha256": "android-150",
+ "text_sha256": "66d9f090723725a4978abefb738687c22594adf82993d156ffca208eba456b73",
+ "site_id": "android-150",
+ "sections": 19,
+ "rules": 187,
+ "report": {
+  "sections": 19,
+  "raw_rules": 164,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automated decision making",
+      "verb": "make decision"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-150#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "including",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-150#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "data": {
+      "name": "stored user data",
+      "text": "any information we store associated with you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: protect your, our, or others’ rights, property, or safety",
+       "name": "protect rights and safety"
+      },
+      {
+       "text": "to: enforce our policies or contracts",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: collect amounts owed to us",
+       "name": "enforce contracts"
+      },
+      {
+       "text": "to: assist with an investigation or prosecution of suspected or actual illegal activity",
+       "name": "investigate illegal activities"
+      }
+     ],
+     "conditions": [
+      "if we, in good faith, believe doing so is required or appropriate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: protect your, our, or others’ rights, property, or safety",
+     "to: enforce our policies or contracts",
+     "to: collect amounts owed to us",
+     "to: assist with an investigation or prosecution of suspected or actual illegal activity"
+    ],
+    "section": "android-150#s9"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "preserve",
+      "verb": "preserve"
+     },
+     "data": {
+      "name": "stored user data",
+      "text": "any information we store associated with you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may access, preserve, and disclose",
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: protect your, our, or others’ rights, property, or safety",
+       "name": "protect rights and safety"
+      },
+      {
+       "text": "to: enforce our policies or contracts",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: collect amounts owed to us",
+       "name": "enforce contracts"
+      },
+      {
+       "text": "to: assist with an investigation or prosecution of suspected or actual illegal activity",
+       "name": "investigate illegal activities"
+      }
+     ],
+     "conditions": [
+      "if we, in good faith, believe doing so is required or appropriate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: protect your, our, or others’ rights, property, or safety",
+     "to: enforce our policies or contracts",
+     "to: collect amounts owed to us",
+     "to: assist with an investigation or prosecution of suspected or actual illegal activity"
+    ],
+    "section": "android-150#s9"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "stored user data",
+      "text": "any information we store associated with you"
+     },
+     "recipient": {
+      "name": "external parties",
+      "text": "external parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may access, preserve, and disclose",
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to: comply with law enforcement or national security requests and legal process, such as a court order or subpoena",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: protect your, our, or others’ rights, property, or safety",
+       "name": "protect rights and safety"
+      },
+      {
+       "text": "to: enforce our policies or contracts",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: collect amounts owed to us",
+       "name": "enforce contracts"
+      },
+      {
+       "text": "to: assist with an investigation or prosecution of suspected or actual illegal activity",
+       "name": "investigate illegal activities"
+      }
+     ],
+     "conditions": [
+      "if we, in good faith, believe doing so is required or appropriate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: protect your, our, or others’ rights, property, or safety",
+     "to: enforce our policies or contracts",
+     "to: collect amounts owed to us",
+     "to: assist with an investigation or prosecution of suspected or actual illegal activity"
+    ],
+    "section": "android-150#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtaining access to",
+      "verb": "obtain"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "In accordance with Applicable Laws",
+      "Request Access to and Portability of Personal Information about you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Applicable Laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-150#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of certain “decisions that produce legal or similarly significant effects” concerning you",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "In accordance with Applicable Laws",
+      "Request to Opt-Out of Certain Processing Activities including, as applicable",
+      "if we engage in “profiling”"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Applicable Laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "as such terms are defined by applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-150#s10"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 77,
+  "completeness": {
+   "gaps": 286,
+   "gap_words": 2719
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 26,
+  "translated_quotes": 77,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 65289,
+  "completion_tokens": 41574,
+  "thinking_tokens": 0,
+  "seconds": 936.6223304271698,
+  "failures": 0
+ },
+ "seconds": 937.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

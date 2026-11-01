@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "precise location": "gps location",
+    "profile information": "profile data",
+    "user messages": "messages",
+    "your data": "data"
+   },
+   "parents": {
+    "account name": [
+     "contact information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "device identifier": [
+     "data",
+     "device details"
+    ],
+    "in-game activity": [
+     "browsing and interaction data"
+    ],
+    "messages": [
+     "browsing and interaction data"
+    ],
+    "gps location": [
+     "data"
+    ],
+    "coarse location": [
+     "data"
+    ],
+    "IP address": [
+     "data"
+    ],
+    "cookie data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "personal data": [
+     "collected data",
+     "data",
+     "information about you"
+    ],
+    "collected data": [
+     "data"
+    ],
+    "other data": [
+     "data"
+    ],
+    "unnecessary data": [
+     "data"
+    ],
+    "information about you": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public authorities": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud-detection": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2317,
+  "completion_tokens": 559,
+  "thinking_tokens": 0,
+  "seconds": 33.82048964500427,
+  "failures": 0
+ },
+ "seconds": 33.9
+}

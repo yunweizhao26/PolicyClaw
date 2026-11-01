@@ -1,0 +1,244 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact_info": "contact information",
+    "email_address": "email address",
+    "financial_info": "financial information",
+    "personal data": "Personal Data",
+    "personal_data": "Personal Data",
+    "phone_number": "phone number",
+    "postal_address": "physical address",
+    "profile picture": "profile photo"
+   },
+   "parents": {
+    "credit card details": [
+     "financial information"
+    ],
+    "tax information": [
+     "financial information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "physical address": [
+     "contact information"
+    ],
+    "contact information": [
+     "Personal Data"
+    ],
+    "personal data inferences": [
+     "Personal Data",
+     "inferences"
+    ],
+    "automatic data": [
+     "Personal Data"
+    ],
+    "age_verification_record": [
+     "information"
+    ],
+    "marketing_consent_records": [
+     "information"
+    ],
+    "opt-in data": [
+     "consent"
+    ],
+    "activity statistics": [
+     "activity data",
+     "usage data"
+    ],
+    "service use information": [
+     "information"
+    ],
+    "service use": [
+     "activity data"
+    ],
+    "device identifier": [
+     "technical data"
+    ],
+    "device characteristics": [
+     "technical data"
+    ],
+    "browser information": [
+     "technical data"
+    ],
+    "cookie data": [
+     "technology-collected information"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "saved events": [
+     "activity data"
+    ],
+    "events attended": [
+     "activity data"
+    ],
+    "followed lists": [
+     "activity data"
+    ],
+    "followed organizers": [
+     "activity data"
+    ],
+    "followed venues": [
+     "activity data"
+    ],
+    "profile photo": [
+     "profile"
+    ],
+    "date_of_birth": [
+     "Personal Data"
+    ],
+    "age": [
+     "Personal Data"
+    ],
+    "social network identity": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "organizers": "organizer",
+    "other users": "other user"
+   },
+   "parents": {
+    "followers": [
+     "other user"
+    ],
+    "parent company": [
+     "affiliate"
+    ],
+    "subsidiary": [
+     "affiliate"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party services": [
+     "third party"
+    ],
+    "third party or social media platform": [
+     "third party"
+    ],
+    "organizer": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third_party": "third party",
+    "users": "user"
+   },
+   "parents": {
+    "Organizer": [
+     "user"
+    ],
+    "user browser": [
+     "user device"
+    ],
+    "third party": [
+     "external sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "organizers": "organizer",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "organizer": [
+     "third party"
+    ],
+    "parent company": [
+     "affiliate"
+    ],
+    "subsidiary": [
+     "affiliate"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service improvements": "service improvement",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "services": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or reporting"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "marketing"
+    ],
+    "security": [
+     "legal compliance"
+    ],
+    "service improvement": [
+     "business operations"
+    ],
+    "analytics or reporting": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3153,
+  "completion_tokens": 1292,
+  "thinking_tokens": 0,
+  "seconds": 14.759999752044678,
+  "failures": 0
+ },
+ "seconds": 14.9
+}

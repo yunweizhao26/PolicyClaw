@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address"
+   },
+   "parents": {
+    "Google Analytics": [
+     "technical information"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "activity on service": [
+     "usage data"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "aggregate information": [
+     "non-personal information"
+    ],
+    "anonymized user data": [
+     "de-identified information",
+     "non-personal information"
+    ],
+    "de-identified information": [
+     "non-personal information"
+    ],
+    "browser type": [
+     "technical information"
+    ],
+    "browsing activity": [
+     "activity on service",
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "usage data"
+    ],
+    "pages viewed": [
+     "browsing activity",
+     "browsing history"
+    ],
+    "links clicked": [
+     "browsing activity"
+    ],
+    "time spent on pages": [
+     "browsing history",
+     "usage data"
+    ],
+    "timestamp": [
+     "technical information"
+    ],
+    "search queries": [
+     "usage data"
+    ],
+    "cookies": [
+     "technical information"
+    ],
+    "email address": [
+     "account information",
+     "identifiers"
+    ],
+    "government identification number": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "username": [
+     "account information",
+     "identifiers"
+    ],
+    "facial scan": [
+     "facial data"
+    ],
+    "facial data": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "account information": [
+     "user profile"
+    ],
+    "profile information": [
+     "user profile"
+    ],
+    "profile picture": [
+     "user profile"
+    ],
+    "social media profile url": [
+     "profile information"
+    ],
+    "public activity": [
+     "activity on service"
+    ],
+    "statistical information": [
+     "aggregate information",
+     "usage data"
+    ],
+    "user content": [
+     "content"
+    ],
+    "preferences": [
+     "user profile"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "ad networks": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other company": [
+     "third party"
+    ],
+    "other individuals": [
+     "third party"
+    ],
+    "other users": [
+     "other individuals",
+     "public",
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party service": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "integration partners": [
+     "third-party service"
+    ],
+    "third-party service": [
+     "third party"
+    ],
+    "user mobile device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligation",
+    "service provision": "provide service",
+    "user account management": "identity verification"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "service improvement": [
+     "service operations and quality",
+     "services"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "provide service": [
+     "services"
+    ],
+    "service-provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2333,
+  "completion_tokens": 787,
+  "thinking_tokens": 0,
+  "seconds": 9.464353084564209,
+  "failures": 0
+ },
+ "seconds": 9.6
+}

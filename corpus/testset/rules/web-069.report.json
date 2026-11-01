@@ -1,0 +1,210 @@
+{
+ "cleaned_sha256": "web-069",
+ "text_sha256": "db88752e6b1ca20e949f9631cca39d4a8ebf0c1a252c93c333894c43ac03db1d",
+ "site_id": "web-069",
+ "sections": 13,
+ "rules": 217,
+ "report": {
+  "sections": 13,
+  "raw_rules": 185,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "You have the right to access",
+      "submitting a privacy rights request",
+      "If an authorized agent submits a request on your behalf, we may require that the authorized agent provide written proof of their authority and we may separately verify your identity and confirm your request with you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Your Personal Information"
+     },
+     "exceptions": [
+      "if we cannot verify that it is yours"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-069#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are a Virginia, Connecticut, Colorado, Oregon, Texas, Utah, Montana, Delaware, Indiana, Iowa, Kentucky, Nebraska, New Hampshire, New Jersey, Rhode Island, Tennessee, Minnesota, or Maryland consumer",
+      "that would be used for significant decisions about you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to:\nOpt out of",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-069#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Consent means your freely given, specific, informed agreement to processing, shown by an affirmative action you have taken to communicate that you agree to your personal information being processed",
+      "We rely on Consent as the legal basis"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Information"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will rely on to process",
+     "purpose": [
+      {
+       "text": "for providing personalized advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "We rely on Consent as the legal basis"
+    ],
+    "section": "web-069#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only retain",
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "information relating to you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements",
+       "name": ""
+      }
+     ],
+     "conditions": [
+      "only for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements"
+    ],
+    "section": "web-069#s12"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 78,
+  "completeness": {
+   "gaps": 291,
+   "gap_words": 2896
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 28,
+  "translated_quotes": 78,
+  "compile_failures": 3,
+  "fixed_structurally": 2,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 45558,
+  "completion_tokens": 32911,
+  "thinking_tokens": 0,
+  "seconds": 301.0086591243744,
+  "failures": 0
+ },
+ "seconds": 302.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

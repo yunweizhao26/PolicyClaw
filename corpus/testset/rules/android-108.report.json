@@ -1,0 +1,508 @@
+{
+ "cleaned_sha256": "android-108",
+ "text_sha256": "b23f69617e198bc0918466298a37074384bf95ae0ce85d26f242c01ca161ff25",
+ "site_id": "android-108",
+ "sections": 7,
+ "rules": 160,
+ "report": {
+  "sections": 7,
+  "raw_rules": 104,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Gets",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the current network status",
+      "name": "network status"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Gets",
+      "verb": "get"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to alert users whether they are currently using the mobile network or determine whether a user's wifi network is available",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to alert users whether they are currently using the mobile network or determine whether a user's wifi network is available"
+    ],
+    "section": "android-108#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "would not be able to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the device’s IDFA",
+      "name": "IDFA"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "If you access our Service through a device made by Apple, Inc. (“Apple”), this term will apply",
+      "when you clicked the “Ask App Not to Track” button on your iPhone"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you access our Service through a device made by Apple, Inc. (“Apple”), this term will apply"
+    ],
+    "section": "android-108#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "could not use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the IDFA",
+      "name": "IDFA"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to track you across apps and services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "If you access our Service through a device made by Apple, Inc. (“Apple”), this term will apply",
+      "when you clicked the “Ask App Not to Track” button on your iPhone"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you access our Service through a device made by Apple, Inc. (“Apple”), this term will apply"
+    ],
+    "section": "android-108#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to send important notices, such as alerts about your account and changes to our terms, conditions, and policies",
+       "name": "administrative and account management"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to send important notices, such as alerts about your account and changes to our terms, conditions, and policies"
+    ],
+    "section": "android-108#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information collected from cookies",
+      "name": "cookie data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to improve users' experience and the overall quality of our Services",
+       "name": "improve service and user experience"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "modifying your browser settings",
+      "set your browser to decline all cookies automatically or to prompt you for a response each time a cookie is offered"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to improve users' experience and the overall quality of our Services"
+    ],
+    "section": "android-108#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access to a copy of",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "free of charge",
+      "retained",
+      "You have the following rights",
+      "The right to request",
+      "Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-108#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "You have the following rights",
+      "The right to request",
+      "proper",
+      "Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you are using the Services in the European Economic Area (“EEA”) and Switzerland"
+    ],
+    "section": "android-108#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "removal",
+      "verb": "remove"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "You have the following rights",
+      "The right to request",
+      "proper",
+      "Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you are using the Services in the European Economic Area (“EEA”) and Switzerland"
+    ],
+    "section": "android-108#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restriction of the processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "You have the following rights",
+      "The right to request",
+      "proper",
+      "Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you are using the Services in the European Economic Area (“EEA”) and Switzerland"
+    ],
+    "section": "android-108#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data concerning you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "another company",
+      "name": "another company"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmitted",
+      "verb": "transmit"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "You have the following rights",
+      "Where the processing of your personal data is either based on your consent or necessary for the performance of a contract with you and processing is carried out by automated means",
+      "where technically feasible",
+      "Before we can respond to a request to exercise one or more of the rights listed above, you may be required to verify your identity or your account details"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you are using the Services in the European Economic Area (“EEA”) and Switzerland"
+    ],
+    "section": "android-108#s6"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right not to be subject to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "If you are using the Services in the European Economic Area (“EEA”) and Switzerland",
+      "You have the following rights",
+      "The right not to be subject to any automatic individual decisions, including profiling, which produces legal effects on you or similarly significantly affects you"
+     ],
+     "exceptions": [
+      "we have your consent, this is authorized by Union or Member State law or this is necessary for the performance of a contract"
+     ],
+     "references": [
+      {
+       "text": "Union or Member State law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-108#s6"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 39,
+  "completeness": {
+   "gaps": 114,
+   "gap_words": 2068
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 39,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 28488,
+  "completion_tokens": 22560,
+  "thinking_tokens": 0,
+  "seconds": 201.31076192855835,
+  "failures": 0
+ },
+ "seconds": 201.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

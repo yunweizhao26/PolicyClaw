@@ -1,0 +1,235 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "real name": "legal name",
+    "username": "account username"
+   },
+   "parents": {
+    "account data": [
+     "Personal Data"
+    ],
+    "account details": [
+     "account data"
+    ],
+    "account status": [
+     "account details"
+    ],
+    "account username": [
+     "account details"
+    ],
+    "achievements": [
+     "game progress"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "app usage data": [
+     "activity data"
+    ],
+    "avatar": [
+     "profile data"
+    ],
+    "browser details": [
+     "user data"
+    ],
+    "browsing behavior": [
+     "activity data"
+    ],
+    "chat logs": [
+     "user-provided information"
+    ],
+    "chat message content": [
+     "chat logs"
+    ],
+    "child personal data": [
+     "Personal Data"
+    ],
+    "contact details": [
+     "Personal Data"
+    ],
+    "cookies": [
+     "cookie-like technologies"
+    ],
+    "crash data": [
+     "user data"
+    ],
+    "credit card information": [
+     "payment details"
+    ],
+    "credit card number": [
+     "credit card information"
+    ],
+    "device settings": [
+     "browser details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email links clicked": [
+     "activity data"
+    ],
+    "email opened": [
+     "activity data"
+    ],
+    "expiration date": [
+     "credit card information"
+    ],
+    "game data": [
+     "user data"
+    ],
+    "game ownership": [
+     "account details"
+    ],
+    "game progress": [
+     "game data"
+    ],
+    "hardware identifier": [
+     "cookie-like technologies"
+    ],
+    "in-game items": [
+     "game data"
+    ],
+    "information about your person": [
+     "Personal Data"
+    ],
+    "interaction details": [
+     "user-provided information"
+    ],
+    "ip address": [
+     "user data"
+    ],
+    "legal name": [
+     "name"
+    ],
+    "match history": [
+     "matchmaking data"
+    ],
+    "matchmaking data": [
+     "game data"
+    ],
+    "operating system": [
+     "browser details"
+    ],
+    "password": [
+     "account details"
+    ],
+    "payment details": [
+     "user data"
+    ],
+    "playtime": [
+     "game data"
+    ],
+    "preferences": [
+     "user data"
+    ],
+    "profile data": [
+     "account details"
+    ],
+    "scores and rankings": [
+     "game data"
+    ],
+    "security code": [
+     "credit card information"
+    ],
+    "security data": [
+     "user data"
+    ],
+    "transactional data": [
+     "user data"
+    ],
+    "user identifier": [
+     "account details"
+    ],
+    "user-provided information": [
+     "user data"
+    ],
+    "user data": [
+     "your data"
+    ],
+    "user information": [
+     "your data"
+    ],
+    "Personal Data": [
+     "your data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "user": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Valve"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection",
+    "service optimization": "service improvement"
+   },
+   "parents": {
+    "account registration": [
+     "service provision"
+    ],
+    "complete transaction": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "compliance"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "content customization": [
+     "marketing"
+    ],
+    "service improvement": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2561,
+  "completion_tokens": 847,
+  "thinking_tokens": 0,
+  "seconds": 10.949180603027344,
+  "failures": 0
+ },
+ "seconds": 11.1
+}

@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial data",
+    "ip address": "IP address",
+    "password": "account password",
+    "personal information": "personal data",
+    "unique device identifier": "device identifier",
+    "user account name": "account username",
+    "user content": "content",
+    "voice recording": "audio recording"
+   },
+   "parents": {
+    "account password": [
+     "log-in credentials"
+    ],
+    "account username": [
+     "log-in credentials"
+    ],
+    "user account identifier": [
+     "log-in credentials"
+    ],
+    "hashed email address": [
+     "email address"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "country": [
+     "location"
+    ],
+    "browsing and interaction data": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "search query": [
+     "browsing and interaction data"
+    ],
+    "search results": [
+     "browsing and interaction data"
+    ],
+    "audio recording": [
+     "sensory data"
+    ],
+    "photograph": [
+     "sensory data"
+    ],
+    "video recording": [
+     "sensory data"
+    ],
+    "browser language preference": [
+     "browser or device information"
+    ],
+    "browser type": [
+     "browser or device information"
+    ],
+    "operating system": [
+     "browser or device information"
+    ],
+    "device identifier": [
+     "browser or device information"
+    ],
+    "social network profile data": [
+     "profile information",
+     "social media data"
+    ],
+    "profile data": [
+     "profile information"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "information you provide": [
+     "user data"
+    ],
+    "information you submit": [
+     "information you provide",
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party advertisers": "advertiser",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "platform providers": [
+     "advertiser",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "first party agent": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "social network"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "YouTube": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "personalization": "personalisation",
+    "service-improvement": "service improvement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "debugging": [
+     "maintenance",
+     "service improvement"
+    ],
+    "maintenance": [
+     "service improvement"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud_detection": [
+     "security"
+    ],
+    "customer-service": [
+     "communication"
+    ],
+    "sweepstakes": [
+     "marketing"
+    ],
+    "research and development": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3318,
+  "completion_tokens": 904,
+  "thinking_tokens": 0,
+  "seconds": 14.578675746917725,
+  "failures": 0
+ },
+ "seconds": 14.7
+}

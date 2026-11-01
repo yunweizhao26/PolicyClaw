@@ -1,0 +1,95 @@
+{
+ "cleaned_sha256": "pg-147",
+ "text_sha256": "df57b8cdd5979626dc237c19c83540b2304aa1e3f30b20a1b2bd6c1270fb9e75",
+ "site_id": "pg-147",
+ "sections": 19,
+ "rules": 190,
+ "report": {
+  "sections": 19,
+  "raw_rules": 175,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not disclose",
+     "actor": {
+      "text": "Hothead",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for purposes other than those for which it was collected",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "with your consent or as required or permitted by law"
+     ],
+     "references": [
+      {
+       "text": "as required or permitted by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not disclose"
+    ],
+    "section": "pg-147#s10"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 71,
+  "completeness": {
+   "gaps": 144,
+   "gap_words": 1655
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 71,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 54626,
+  "completion_tokens": 36682,
+  "thinking_tokens": 0,
+  "seconds": 233.27803802490234,
+  "failures": 0
+ },
+ "seconds": 234.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

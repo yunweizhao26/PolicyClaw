@@ -1,0 +1,327 @@
+{
+ "cleaned_sha256": "android-106",
+ "text_sha256": "a998f023a482338cb84ca104ca31932ba50789fd1a28aaeda9c11ebfe6830d63",
+ "site_id": "android-106",
+ "sections": 4,
+ "rules": 71,
+ "report": {
+  "sections": 4,
+  "raw_rules": 68,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "no data is stored",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "Apple Arcade"
+     ],
+     "exceptions": [
+      "multiplayer: we read your Game Center gamer ID and gamertag in order to connect you with other players and post to leaderboards"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "no data is stored"
+    ],
+    "section": "android-106#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "no data is transmitted",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmitted",
+      "verb": "transmit"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "Apple Arcade"
+     ],
+     "exceptions": [
+      "multiplayer: we read your Game Center gamer ID and gamertag in order to connect you with other players and post to leaderboards"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "no data is transmitted"
+    ],
+    "section": "android-106#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "uses cookies and similar tracking technology (collectively, “ Cookies ”) to use",
+     "actor": {
+      "text": "Squarespace",
+      "name": "Squarespace"
+     },
+     "data": {
+      "text": "personal information about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "uses cookies and similar tracking technology (collectively, “ Cookies ”)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Squarespace Cookie Notice",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "uses cookies and similar tracking technology (collectively, “ Cookies ”) to use"
+    ],
+    "section": "android-106#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may do so",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "At any time you wish to access"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Subject Rights (DSRs) below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-106#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "any competent law enforcement body , regulatory, government agency, court or other third party",
+      "name": "law enforcement"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "(i) as a matter of applicable law or regulation, (ii) to exercise, establish or defend our legal rights, or (iii) to protect your vital interests or those of any other person",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "where we believe disclosure is necessary (i) as a matter of applicable law or regulation, (ii) to exercise, establish or defend our legal rights, or (iii) to protect your vital interests or those of any other person"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-106#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "at any time by using the contact details provided under the “How to contact us” heading below"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "“How to contact us” heading below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "prior to your withdrawal"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "conducted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-106#s4"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 42,
+  "completeness": {
+   "gaps": 122,
+   "gap_words": 926
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 42,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16226,
+  "completion_tokens": 16108,
+  "thinking_tokens": 0,
+  "seconds": 126.58056497573853,
+  "failures": 0
+ },
+ "seconds": 126.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

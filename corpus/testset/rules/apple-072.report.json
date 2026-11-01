@@ -1,0 +1,375 @@
+{
+ "cleaned_sha256": "apple-072",
+ "text_sha256": "efa9e0eebc8503174dfd370a2e0a5083d9fa11e2460cecb3552db07dd34f4e20",
+ "site_id": "apple-072",
+ "sections": 42,
+ "rules": 586,
+ "report": {
+  "sections": 42,
+  "raw_rules": 438,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Students",
+      "This only applies to people who use the App and identified themselves when registering as being from the United States or Canada (except Quebec) and 18 – 24 years old"
+     ],
+     "data": {
+      "name": "campus_check_result",
+      "text": "these results"
+     },
+     "exceptions": [],
+     "operation": "alignment_or_combination",
+     "polarity": "ALLOW",
+     "polarity_text": "combine",
+     "purpose": [
+      {
+       "text": "send the right offers, events, and features to the right users",
+       "name": "marketing"
+      },
+      {
+       "text": "understand which Bumble events are popular with students or not working so well",
+       "name": "analytics"
+      },
+      {
+       "text": "improve the App design to meet the needs of students",
+       "name": "service_optimization"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "first_party_data",
+      "text": "other relevant information we have"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-072#s26"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "used for this activity",
+      "once we have the “at campus? yes/no” result"
+     ],
+     "data": {
+      "name": "location",
+      "text": "It"
+     },
+     "exceptions": [],
+     "operation": "erasure_or_destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "permanently deleted",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-072#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are generally deleted",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Completed Pitches",
+      "name": "user-generated content"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "within 24 hours after download, unless we need to retain information for safety, legal or compliance purposes"
+     ],
+     "exceptions": [
+      "we need to retain information for safety, legal or compliance purposes"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "within 24 hours after download, unless we need to retain information for safety, legal or compliance purposes"
+    ],
+    "section": "apple-072#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are deleted",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your quiz responses",
+      "name": "survey response"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "exceptions": [
+      "a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+    ],
+    "section": "apple-072#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are deleted",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "quiz results",
+      "name": "survey response"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "exceptions": [
+      "a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+    ],
+    "section": "apple-072#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are deleted",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "associated information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "exceptions": [
+      "a longer retention period is required for safety, legal or compliance purposes"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after up to 90 days, after which they are deleted unless a longer retention period is required for safety, legal or compliance purposes"
+    ],
+    "section": "apple-072#s28"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right not to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "be affected by automatic decisions made without any human involvement",
+      "verb": "affect"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "especially if those decisions have significant or legal effects on you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-072#s36"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "advertising",
+      "verb": "advertise"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you see your state listed here",
+      "Right to Opt Out of Targeted Advertising"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "You have the right to opt-out of “targeted” advertising, as such term is defined in applicable privacy law"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "“targeted” advertising",
+     "purpose": [
+      {
+       "text": "advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable privacy law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-072#s40"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 209,
+  "completeness": {
+   "gaps": 534,
+   "gap_words": 5165
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 25,
+  "translated_quotes": 209,
+  "compile_failures": 4,
+  "fixed_structurally": 2,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 85,
+  "cached": 0,
+  "prompt_tokens": 138448,
+  "completion_tokens": 88968,
+  "thinking_tokens": 518,
+  "seconds": 1677.0867111682892,
+  "failures": 0
+ },
+ "seconds": 1679.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "cleaned_sha256": "web-120",
+ "text_sha256": "a72a46aae67e98ece860137e756f2233f0eabb073e6cccdd6824663575ddbdfd",
+ "site_id": "web-120",
+ "sections": 11,
+ "rules": 233,
+ "report": {
+  "sections": 11,
+  "raw_rules": 200,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "MediaFire",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your name",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "during account registration"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may provide"
+    ],
+    "section": "web-120#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "MediaFire",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "during account registration"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may provide"
+    ],
+    "section": "web-120#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "MediaFire",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your address",
+      "name": "address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "if you make a purchase"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may provide"
+    ],
+    "section": "web-120#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "MediaFire",
+      "name": "first party"
+     },
+     "data": {
+      "text": "financial information",
+      "name": "financial information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "if you make a purchase"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may provide"
+    ],
+    "section": "web-120#s1"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 67,
+  "completeness": {
+   "gaps": 341,
+   "gap_words": 3683
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 67,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 22,
+  "cached": 0,
+  "prompt_tokens": 44401,
+  "completion_tokens": 35325,
+  "thinking_tokens": 0,
+  "seconds": 246.4658830165863,
+  "failures": 0
+ },
+ "seconds": 247.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

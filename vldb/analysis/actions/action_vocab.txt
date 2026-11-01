@@ -1,0 +1,44 @@
+srun: job 18543542 queued and waiting for resources
+srun: job 18543542 has been allocated resources
+
+=== E0 rules (old extractor, free-form action): 144,300 rules, 637 distinct action strings, 478 distinct head verbs
+  action strings with 'and', 'or', ',' or '/': 47 rules (0.0%)
+  top   6 head verbs cover  57.4% of rules
+  top  10 head verbs cover  66.9% of rules
+  top  20 head verbs cover  77.9% of rules
+  top  50 head verbs cover  89.2% of rules
+  top 100 head verbs cover  95.8% of rules
+  most frequent head verbs: collect 27528, received_by 21341, use 14733, provide 7103, share 6705, disclose 5476, process 5121, store 4078, transfer 2272, send 2204, sell 1848, ask 1832, request 1803, delete 1770, access 1620, receive 1595, retain 1579, keep 1424, protect 1380, track 1003, give 986, hold 975, obtain 953, record 953, remove 785, contact 673, gather 669, place 606, restrict 604, submit 578, opt 563, object 517, distribute 500, maintain 498, release 486, set 484, see 469, correct 452, lease 435, monitor 434
+  head verbs seen once: 76
+
+=== new extractor on corpus windows (E1 recheck, Gemini 3.8 Flash): 14,499 rules, 746 distinct action strings, 282 distinct head verbs
+  action strings with 'and', 'or', ',' or '/': 251 rules (1.7%)
+  top   6 head verbs cover  62.7% of rules
+  top  10 head verbs cover  72.7% of rules
+  top  20 head verbs cover  83.7% of rules
+  top  50 head verbs cover  93.6% of rules
+  top 100 head verbs cover  97.4% of rules
+  most frequent head verbs: collect 3611, use 2393, share 983, disclose 711, process 707, store 693, provide 444, transfer 414, ask 352, receive 236, retain 217, keep 206, delete 188, sell 161, record 161, hold 159, send 141, obtain 140, gather 108, give 106, access 101, track 93, remove 89, pass 77, maintain 73, log 65, release 61, place 58, see 57, contact 56, request 51, monitor 51, combine 48, make 46, transmit 42, capture 40, require 39, save 38, distribute 36, retention 36
+  head verbs seen once: 80
+  six-verb name 'collect' (5395 rules) absorbs: collect 3605, ask 351, provide 268, receive 203, obtain 140, gather 108, record 99, give 66, request 51, access 43, capture 40, collection 34, place 32, submit 30, require 29, track 21, see 20, add 18
+  six-verb name 'use' (3945 rules) absorbs: use 2371, process 707, send 89, track 72, contact 55, monitor 51, combine 48, access 44, analyze 31, receive 30, associate 21, link 18, utilize 15, aggregate 14, make 13, place 13, relate 12, identify 11
+  six-verb name 'share' (2938 rules) absorbs: share 971, disclose 710, transfer 412, provide 169, pass 77, release 61, send 46, give 40, transmit 38, distribute 35, see 27, reveal 25, trade 23, tell 20, disclosure 18, viewable 18, access 14, divulge 13
+  six-verb name 'retain' (1681 rules) absorbs: store 686, retain 217, keep 199, hold 159, maintain 73, log 65, record 62, save 38, retention 36, storage 29, remember 19, place 13, set 10, contain 7, end 7, collect 6, inside 6, remain 4
+  six-verb name 'delete' (340 rules) absorbs: delete 188, remove 88, destroy 18, erase 15, removal 7, discard 6, deletion 3, treat 3, dispose 2, gelöscht 2, fulfill 1, display 1, securely 1, erasure 1, purge 1, shred 1, ask 1, set 1
+  six-verb name 'sell' (200 rules) absorbs: sell 161, make 14, rent 10, lease 3, trade 3, resold 3, sale 2, broker 2, resale 1, barter 1
+
+=== new extractor on PolicyIE (Gemini 3.8 Flash): 3,468 rules, 340 distinct action strings, 157 distinct head verbs
+  action strings with 'and', 'or', ',' or '/': 71 rules (2.0%)
+  top   6 head verbs cover  64.2% of rules
+  top  10 head verbs cover  74.6% of rules
+  top  20 head verbs cover  85.9% of rules
+  top  50 head verbs cover  93.9% of rules
+  top 100 head verbs cover  98.4% of rules
+  most frequent head verbs: collect 882, use 507, share 364, store 187, disclose 149, provide 137, process 114, transfer 87, receive 80, retain 79, ask 65, record 64, access 56, delete 49, send 33, display 28, log 27, analyze 26, sell 23, obtain 22, maintain 22, keep 20, gather 17, remove 16, see 15, combine 13, allow 13, track 12, remain 11, make 11, read 9, employ 9, request 8, place 7, associate 7, pass 7, require 7, handle 6, accessible 6, communicate 6
+  head verbs seen once: 59
+  six-verb name 'collect' (1324 rules) absorbs: collect 882, provide 93, receive 74, ask 65, record 43, access 23, obtain 22, gather 17, allow 12, share 8, request 8, track 8, require 7, set 6, solicit 5, submit 5, get 4, collection 4
+  six-verb name 'use' (853 rules) absorbs: use 502, process 114, access 30, analyze 26, send 15, combine 13, employ 9, read 8, associate 7, handle 6, communicate 6, receive 6, monitor 6, link 6, contact 5, protect 5, derive 4, identify 4
+  six-verb name 'share' (799 rules) absorbs: share 356, disclose 148, transfer 87, provide 43, display 24, send 16, see 15, make 11, pass 7, remain 5, always 5, use 5, restrict 4, exchange 4, publicly 4, accessible 4, sell 4, publish 4
+  six-verb name 'retain' (388 rules) absorbs: store 187, retain 79, log 27, maintain 22, record 21, keep 19, remain 6, hold 4, preserve 4, save 4, storage 3, host 2, place 2,  1, persist 1, find 1, take 1, available 1
+  six-verb name 'delete' (85 rules) absorbs: delete 49, remove 16, removal 6, deletion 3, erase 3, discard 2, erasure 2, take 1, destroy 1, complete 1, shre 1
+  six-verb name 'sell' (19 rules) absorbs: sell 19

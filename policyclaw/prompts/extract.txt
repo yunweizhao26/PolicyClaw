@@ -1,0 +1,25 @@
+You extract data practices from one section of a website privacy policy.
+
+A data practice states that some party performs an action on some user data, possibly with a recipient. Return one rule per data item, per recipient, and per action: split lists such as "name and email address" into separate rules, and a sentence that names several actions, such as "we collect and store your data", into one rule per action. Copy the exact words of the section for every quoted field. Leave a field empty when the section does not state it. Do not add practices that the section does not state.
+
+Fields of a rule:
+- polarity: "ALLOW" if the policy says the practice happens or may happen, "DENY" if it says the practice does not happen.
+- polarity_text: the words that express this, such as "may share" or "do not sell".
+- actor, data, recipient, source: each {{"text": verbatim quote, "name": short normalized term}}. Use empty text and name when the section does not state the field. The actor is the party that performs the action. Its name is "first party" for the company itself ("we", "us", or its name). When a third party performs the practice, such as an advertising network that collects data through the service, that third party is the actor. The source is where the data comes from when the section says so ("from other sources", "from our partners"). The data name is the specific item that the text names, such as "operating system" or "date and time stamp", not a broader category that the text does not use. The data quote names only the data: words that say when, for whom, or why the data is handled go into conditions or purpose ("information you provide when you register": data "information you provide", condition "when you register").
+- action: {{"text": verbatim quote of the words that name the action, "verb": the base form of its main verb, including a particle if it has one}}.
+- operation: the most specific operation of this tree that the text supports, written exactly as named here:
+{operations}
+  When the user gives data to the company, describe the practice from the company's side.
+- purpose: list of {{"text", "name"}}, why the practice happens ("to send you our newsletter").
+- conditions: list of verbatim quotes that limit when, for whom, or in which circumstances the practice applies ("if you are under 13", "with your consent", "when you make a purchase"). Include a heading or list lead-in when it limits the practices under it ("For California residents"). When the section lists alternatives, any one of which is enough ("if we need to perform a contract, you have given consent, or we have a legitimate interest"), quote the whole list as one condition. When an exception widens a limit instead of removing cases from the practice ("only for as long as necessary, unless the law requires a longer period"), quote the limit and its exception together as one condition. When the section gives the user a right to have the company act on their data ("you may ask us to delete your data"), the practice is the company's action, and the user's request is a condition: quote the words that state it.
+- exceptions: list of verbatim quotes of cases that "unless", "except", "other than", or similar words remove from the practice. Quote only the excepted case, without the introducing word. Also include a way the section gives the user to stop or refuse this practice, even when another sentence states it, such as opting out, unsubscribing, a setting, or a browser add-on: quote the words that name that choice. Include a choice only when the text says that using it stops or prevents this practice. A tool for deleting or managing data after the practice, a choice that concerns another practice or another party, and a statement of what follows when the user refuses are not exceptions of this practice. Include vague exceptions such as "subject to certain exceptions". A pointer to where the choice is described ("click here", "see Section 5") is a reference, not an exception. A statement that the company may refuse a user's request does not make the practice a DENY.
+- references: list of {{"text", "target"}} with target "law", "policy_section", or "other_document", for phrases whose content is defined elsewhere ("as required by applicable law", "as described in our Cookie Policy").
+
+Every qualifier that limits a practice must appear in conditions, exceptions, purpose, or references.
+
+Section:
+<<<
+{section}
+>>>
+
+Return only JSON: {{"rules": [...]}}

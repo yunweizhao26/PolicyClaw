@@ -1,0 +1,175 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "information": "data",
+    "location": "geographic location",
+    "user photo": "photo",
+    "your data": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "identifier"
+    ],
+    "account registration date": [
+     "timestamp"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "biographical information": [
+     "profile data"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browsing behavior": [
+     "activity data"
+    ],
+    "browsing history": [
+     "activity data",
+     "browsing behavior"
+    ],
+    "device identifier": [
+     "device information",
+     "identifier"
+    ],
+    "device settings": [
+     "device information"
+    ],
+    "hardware type": [
+     "device information"
+    ],
+    "hashed identifiers": [
+     "identifier"
+    ],
+    "listening history": [
+     "activity data"
+    ],
+    "network connectivity information": [
+     "device information"
+    ],
+    "network service provider": [
+     "network connectivity information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "search history": [
+     "activity data"
+    ],
+    "social media profile URL": [
+     "profile data"
+    ],
+    "software version": [
+     "device information"
+    ],
+    "tokens": [
+     "identifier"
+    ],
+    "photo": [
+     "profile data"
+    ],
+    "username": [
+     "identifier",
+     "profile data"
+    ],
+    "name": [
+     "profile data"
+    ],
+    "geographic location": [
+     "profile data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "acquirer": [
+     "third parties"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "advertising network": [
+     "third parties"
+    ],
+    "identity partners": [
+     "service provider",
+     "third parties"
+    ],
+    "other users": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad provider": [
+     "third party"
+    ],
+    "third-party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-operation": "service functionality"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service-operation-and-security": [
+     "service provision"
+    ],
+    "service functionality": [
+     "service provision"
+    ],
+    "user identification": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "product development": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2277,
+  "completion_tokens": 630,
+  "thinking_tokens": 0,
+  "seconds": 8.643933534622192,
+  "failures": 0
+ },
+ "seconds": 8.7
+}

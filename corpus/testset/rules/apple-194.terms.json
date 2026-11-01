@@ -1,0 +1,272 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "government_benefit_account_credentials": "ebt_account_credentials",
+    "hardware identifier": "device id",
+    "ip address": "IP address",
+    "password": "account password",
+    "personal information": "personal data",
+    "personal_information": "personal data"
+   },
+   "parents": {
+    "account login": [
+     "personal data"
+    ],
+    "account name": [
+     "name"
+    ],
+    "account number": [
+     "financial account information"
+    ],
+    "account password": [
+     "account login",
+     "ebt_account_credentials"
+    ],
+    "account username": [
+     "account login"
+    ],
+    "app usage": [
+     "browsing behavior"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "cookie data": [
+     "device details"
+    ],
+    "credit history": [
+     "financial account information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device id": [
+     "device details"
+    ],
+    "ebt_account_credentials": [
+     "account login",
+     "financial account information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "financial balance": [
+     "financial account information"
+    ],
+    "financial card number": [
+     "payment card number"
+    ],
+    "financial transaction history": [
+     "financial transactions"
+    ],
+    "financial transactions": [
+     "financial account information"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "government benefit information": [
+     "personal data"
+    ],
+    "household size": [
+     "personal data"
+    ],
+    "interests": [
+     "personal data"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "last_four_digits_of_ebt_card_or_account_number": [
+     "account number",
+     "payment card number"
+    ],
+    "mac address": [
+     "device id"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "payment card number": [
+     "financial account information"
+    ],
+    "phone call recording": [
+     "user correspondence"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "pin": [
+     "ebt_account_credentials"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "postal code": [
+     "location",
+     "postal address"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "referral url": [
+     "browsing behavior"
+    ],
+    "sensitive_personal_information": [
+     "personal data"
+    ],
+    "server logs": [
+     "device details"
+    ],
+    "social security number": [
+     "personal data",
+     "sensitive_personal_information"
+    ],
+    "survey response": [
+     "user-provided content"
+    ],
+    "user agent": [
+     "device details"
+    ],
+    "user correspondence": [
+     "user-provided content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "anyone else": "anyone",
+    "third parties": "non-affiliated third party",
+    "third party": "non-affiliated third party",
+    "vendors": "service providers"
+   },
+   "parents": {
+    "AppsFlyer": [
+     "service providers"
+    ],
+    "Google": [
+     "service providers"
+    ],
+    "Twilio": [
+     "service providers"
+    ],
+    "card networks": [
+     "financial services company",
+     "non-affiliated third party"
+    ],
+    "cookie owner": [
+     "non-affiliated third party"
+    ],
+    "financial services company": [
+     "non-affiliated third party"
+    ],
+    "law enforcement": [
+     "non-affiliated third party"
+    ],
+    "partner organizations": [
+     "non-affiliated third party"
+    ],
+    "payment processors": [
+     "non-affiliated third party",
+     "service providers"
+    ],
+    "professional agencies": [
+     "non-affiliated third party"
+    ],
+    "service providers": [
+     "non-affiliated third party"
+    ],
+    "affiliate": [
+     "anyone"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "non-affiliated third party": [
+     "anyone"
+    ],
+    "others": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Propel"
+   },
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "security": "fraud and security"
+   },
+   "parents": {
+    "identity verification": [
+     "account creation, identity and benefits verification"
+    ],
+    "analytics": [
+     "business operations and improvement"
+    ],
+    "service improvement": [
+     "business operations and improvement"
+    ],
+    "delivering communications": [
+     "communication"
+    ],
+    "checking EBT balance": [
+     "providing services"
+    ],
+    "providing services": [
+     "providing and tailoring services"
+    ],
+    "customization": [
+     "providing and tailoring services"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "responding to law enforcement and regulators": [
+     "compliance and legal obligation"
+    ],
+    "provision access and process payments": [
+     "providing services"
+    ],
+    "business operations and improvement": [
+     "business purposes"
+    ],
+    "other business purposes": [
+     "business purposes"
+    ],
+    "other specifically disclosed purpose": [
+     "other purpose"
+    ],
+    "other permitted purpose": [
+     "other purpose"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2906,
+  "completion_tokens": 967,
+  "thinking_tokens": 0,
+  "seconds": 10.881678104400635,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

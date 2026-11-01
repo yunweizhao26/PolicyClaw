@@ -1,0 +1,128 @@
+{
+ "cleaned_sha256": "apple-189",
+ "text_sha256": "855596394622c132d3b607687b94edbc57cbb42f3eaa2658acb66e8731ab1850",
+ "site_id": "apple-189",
+ "sections": 11,
+ "rules": 136,
+ "report": {
+  "sections": 11,
+  "raw_rules": 84,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "reported",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "ad view details",
+      "text": "The following data: the date and time a particular ad is served; a record if that ad was “clicked” or if it was shown as a “conversion” event; what the ad offer is about; what type of ad it is (e.g., text, image, or video); which ad placement is involved (where the ad offer is displayed within the App); whether you respond to the ad"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "might be reported",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "The following data: the date and time a particular ad is served; a record if that ad was “clicked” or if it was shown as a “conversion” event; what the ad offer is about; what type of ad it is (e.g., text, image, or video); which ad placement is involved (where the ad offer is displayed within the App); whether you respond to the ad"
+    ],
+    "section": "apple-189#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information automatically collected",
+      "text": "information information that is processed automatically"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "To provide you with interest-based (behavioral) advertising or other targeted content",
+       "name": "targeted advertising"
+      },
+      {
+       "text": "for marketing purposes (to show ads that may be of interest to you based on your preferences)",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information information that is processed automatically",
+     "for marketing purposes (to show ads that may be of interest to you based on your preferences)"
+    ],
+    "section": "apple-189#s4"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 178,
+   "gap_words": 1918
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 44,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 35455,
+  "completion_tokens": 16388,
+  "thinking_tokens": 0,
+  "seconds": 183.25807881355286,
+  "failures": 0
+ },
+ "seconds": 183.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ad interaction data": "ad engagement data",
+    "advertising identifier": "advertising ID",
+    "in-game activity": "in-game activities",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "profile picture": "profile photo",
+    "registration data": "registration Information",
+    "survey responses": "survey response",
+    "third-party identifier": "third-party account identifier",
+    "third-party user ID": "third-party account identifier",
+    "user ID": "User ID"
+   },
+   "parents": {
+    "Apple ID": [
+     "identifier",
+     "third-party account identifier",
+     "unique identifier"
+    ],
+    "account identifier": [
+     "identifier",
+     "unique identifier"
+    ],
+    "advertising ID": [
+     "identifier",
+     "unique identifier"
+    ],
+    "analytics identifier": [
+     "identifier",
+     "unique identifier"
+    ],
+    "app identifier": [
+     "identifier",
+     "unique identifier"
+    ],
+    "avatar": [
+     "profile information"
+    ],
+    "chat log": [
+     "communication data"
+    ],
+    "city-level location": [
+     "imprecise location",
+     "location"
+    ],
+    "country": [
+     "imprecise location",
+     "location"
+    ],
+    "customer support message": [
+     "communication data",
+     "user interactions"
+    ],
+    "device identifier": [
+     "device details",
+     "identifier",
+     "unique identifier"
+    ],
+    "email address": [
+     "Personal Information",
+     "identifying information"
+    ],
+    "game identifier": [
+     "identifier",
+     "unique identifier"
+    ],
+    "game scores": [
+     "in-game activities",
+     "user activity"
+    ],
+    "identifying information": [
+     "Personal Information"
+    ],
+    "imprecise location": [
+     "location"
+    ],
+    "in-game activities": [
+     "application usage details",
+     "user activity"
+    ],
+    "IP address": [
+     "identifier",
+     "unique identifier"
+    ],
+    "MAC address": [
+     "device identifier",
+     "identifier",
+     "unique identifier"
+    ],
+    "name": [
+     "Personal Information",
+     "identifying information"
+    ],
+    "payment provider": [
+     "transaction details"
+    ],
+    "payment timestamp": [
+     "transaction details"
+    ],
+    "Personal Information": [
+     "information"
+    ],
+    "playtime": [
+     "application usage details"
+    ],
+    "postal code": [
+     "imprecise location",
+     "location"
+    ],
+    "profile photo": [
+     "profile information"
+    ],
+    "purchased item": [
+     "purchases and product interaction history",
+     "transaction details"
+    ],
+    "purchases and product interaction history": [
+     "transaction history"
+    ],
+    "state or province": [
+     "imprecise location",
+     "location"
+    ],
+    "third-party account identifier": [
+     "identifier",
+     "unique identifier"
+    ],
+    "transaction ID": [
+     "identifier",
+     "transaction details",
+     "unique identifier"
+    ],
+    "transaction amount": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "transaction history"
+    ],
+    "User ID": [
+     "account identifier",
+     "identifier",
+     "unique identifier"
+    ],
+    "username": [
+     "account identifier",
+     "identifying information",
+     "profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate group": "affiliates",
+    "first party group member": "affiliates",
+    "marketing partners": "advertising partners",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "advertisers": [
+     "advertising partners",
+     "third party"
+    ],
+    "advertising partners": [
+     "third party"
+    ],
+    "user acquisition partners": [
+     "advertising partners",
+     "third party"
+    ],
+    "third-party developers": [
+     "third party"
+    ],
+    "third-party data controller": [
+     "third party"
+    ],
+    "service provider": [
+     "other companies",
+     "third party"
+    ],
+    "nonaffiliated companies": [
+     "third party"
+    ],
+    "acquirer": [
+     "third party"
+    ],
+    "other companies": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "payment provider": "payment processor"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party service": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "vendor": "service provider"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider"
+    ],
+    "Playwire": [
+     "service provider"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "legal compliance": "compliance",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "direct marketing": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "fraud-detection"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "user experience enhancement": [
+     "service improvement"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service operation and management": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3198,
+  "completion_tokens": 1671,
+  "thinking_tokens": 0,
+  "seconds": 27.951912879943848,
+  "failures": 0
+ },
+ "seconds": 28.1
+}

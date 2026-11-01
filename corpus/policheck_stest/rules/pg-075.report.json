@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "pg-075",
+ "text_sha256": "acb3a9e44f93d50a514bfbf24c07ddaeeaaba40b7c1bdd518a7565cc5ed3a385",
+ "site_id": "pg-075",
+ "sections": 11,
+ "rules": 43,
+ "report": {
+  "sections": 11,
+  "raw_rules": 40,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "so we can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reply to",
+      "verb": "reply"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for resolving issues with your personal data",
+       "name": "customer-service"
+      }
+     ],
+     "conditions": [
+      "If you have questions about data protection, or if you have any requests for resolving issues with your personal data",
+      "primarily contact us through the game"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-075#s11"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 16,
+  "completeness": {
+   "gaps": 48,
+   "gap_words": 483
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 16,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 2,
+  "prompt_tokens": 20525,
+  "completion_tokens": 5966,
+  "thinking_tokens": 0,
+  "seconds": 77.06299185752869,
+  "failures": 0
+ },
+ "seconds": 77.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

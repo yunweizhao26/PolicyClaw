@@ -1,0 +1,122 @@
+{
+ "cleaned_sha256": "android-122",
+ "text_sha256": "9b70c4d960770cdd2465e26113a459bd561e77e0216787bc26123ef68e6f1858",
+ "site_id": "android-122",
+ "sections": 7,
+ "rules": 118,
+ "report": {
+  "sections": 7,
+  "raw_rules": 104,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only be stored",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the IP address of your computer",
+      "name": "ip address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "will only be stored",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "only for the period of time in which you use the website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for the period of time in which you use the website"
+    ],
+    "section": "android-122#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transmitted",
+      "verb": "transmit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Only in exceptional cases"
+     ],
+     "data": {
+      "name": "ip address",
+      "text": "the full IP address"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be transmitted",
+     "purpose": [],
+     "recipient": {
+      "name": "Google",
+      "text": "Google in the USA"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will be transmitted"
+    ],
+    "section": "android-122#s3"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 75,
+  "completeness": {
+   "gaps": 165,
+   "gap_words": 1756
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 75,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 28504,
+  "completion_tokens": 20495,
+  "thinking_tokens": 0,
+  "seconds": 347.07174801826477,
+  "failures": 0
+ },
+ "seconds": 347.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

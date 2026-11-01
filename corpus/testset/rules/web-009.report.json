@@ -1,0 +1,99 @@
+{
+ "cleaned_sha256": "web-009",
+ "text_sha256": "4c95904049a33b24844cda1ba29fc7851b1495476a0362fe702d2ebca971d726",
+ "site_id": "web-009",
+ "sections": 18,
+ "rules": 177,
+ "report": {
+  "sections": 18,
+  "raw_rules": 152,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": "your data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "to help us operate and improve our services",
+       "name": "operate and improve our services"
+      },
+      {
+       "text": "process orders",
+       "name": "process orders"
+      },
+      {
+       "text": "comply with your instructions and our contractual obligations",
+       "name": "comply with instructions and contractual obligations"
+      },
+      {
+       "text": "support user safety while using our platform",
+       "name": "support user safety"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "third-party vendors that help us operate and improve our services, process orders, comply with your instructions and our contractual obligations, and support user safety while using our platform. This includes payment processors, content delivery networks (CDNs), cloud-based hosting services, monitoring services, email service providers, quality assurance and testing vendors, fraud and abuse prevention vendors, customer relations management (CRM) vendors, chatbot providers, shipment vendors, and identity (including age) verification providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us operate and improve our services"
+    ],
+    "section": "web-009#s7"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 198,
+   "gap_words": 1767
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 91,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 32,
+  "cached": 0,
+  "prompt_tokens": 51219,
+  "completion_tokens": 27359,
+  "thinking_tokens": 0,
+  "seconds": 603.3287479877472,
+  "failures": 0
+ },
+ "seconds": 604.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

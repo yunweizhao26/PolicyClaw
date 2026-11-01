@@ -1,0 +1,180 @@
+{
+ "cleaned_sha256": "pg-116",
+ "text_sha256": "839de51ec10fc58000cb54f855c71cf6b544b981ec6d81b9155388c6ab4814c1",
+ "site_id": "pg-116",
+ "sections": 17,
+ "rules": 216,
+ "report": {
+  "sections": 17,
+  "raw_rules": 166,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "as a data subject under local law",
+      "If you would like to access, delete, or correct your information or otherwise exercise your rights, please contact us as set out in the Contact Us section below"
+     ],
+     "exceptions": [
+      "certain exceptions prescribed by law"
+     ],
+     "references": [
+      {
+       "text": "local law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "prescribed by law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Contact Us section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-116#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rely on your consent to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send you direct marketing messages",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about our products, services and promotions",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "We rely on your consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-116#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rely on your consent to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deliver targeted advertisements to you",
+      "verb": "deliver"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "both on and off the Services",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [
+      "We rely on your consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-116#s15"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 60,
+  "completeness": {
+   "gaps": 234,
+   "gap_words": 2473
+  },
+  "unsatisfiable_guards": 4,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 60,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 53313,
+  "completion_tokens": 34874,
+  "thinking_tokens": 236,
+  "seconds": 245.46040868759155,
+  "failures": 0
+ },
+ "seconds": 246.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

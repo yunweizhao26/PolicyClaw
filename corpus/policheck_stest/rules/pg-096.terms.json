@@ -1,0 +1,233 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "location data": "location",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "GPS data": [
+     "location"
+    ],
+    "accident history": [
+     "driving record"
+    ],
+    "browser language": [
+     "browser info"
+    ],
+    "browser type": [
+     "browser info"
+    ],
+    "visited pages": [
+     "browsing history"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "cookie ID": [
+     "unique identifier"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment info"
+    ],
+    "payment info": [
+     "financial information"
+    ],
+    "credit history": [
+     "financial information"
+    ],
+    "transaction details": [
+     "financial information"
+    ],
+    "driver license number": [
+     "driver license"
+    ],
+    "driver license": [
+     "personal data"
+    ],
+    "email communications": [
+     "contact info"
+    ],
+    "employer address": [
+     "postal address"
+    ],
+    "employer name": [
+     "name"
+    ],
+    "interaction data": [
+     "browsing history"
+    ],
+    "passport number": [
+     "personal data"
+    ],
+    "service usage data": [
+     "information regarding your use of services"
+    ],
+    "vehicle performance data": [
+     "data gathered from in-vehicle and in-equipment technologies",
+     "vehicle usage data"
+    ],
+    "vehicle usage data": [
+     "service and vehicle usage data"
+    ],
+    "vehicle subscription and use info": [
+     "service and vehicle usage data"
+    ],
+    "zip code": [
+     "postal address"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "first party employees": "employees"
+   },
+   "parents": {
+    "ad network and other service providers": [
+     "service provider"
+    ],
+    "employees": [
+     "affiliates and their employees",
+     "first party"
+    ],
+    "credit card provider": [
+     "payment processors",
+     "third party payor"
+    ],
+    "user service providers": [
+     "third party"
+    ],
+    "payment processors": [
+     "service provider"
+    ],
+    "licensees and vendors": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "credit bureau": "consumer reporting agency"
+   },
+   "parents": {
+    "consumer reporting agency": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "regulatory authority": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "maintain your account with us": "account-management",
+    "other": "for the purposes described in this policy",
+    "respond to your inquiries": "customer-support"
+   },
+   "parents": {
+    "ascertain whether you are in compliance with our polices and rules": [
+     "legal",
+     "legal enforcement"
+    ],
+    "dispute resolution": [
+     "legal"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "legal enforcement": [
+     "legal"
+    ],
+    "to assist us with ensuring that our vehicles are used only in accordance with applicable laws and our rules and policies": [
+     "legal",
+     "legal enforcement"
+    ],
+    "to ensure that the vehicle is not driven to unauthorized locations": [
+     "legal",
+     "to assist us with ensuring that our vehicles are used only in accordance with applicable laws and our rules and policies"
+    ],
+    "to locate a lost or stolen vehicle": [
+     "legal",
+     "service provision"
+    ],
+    "to provide roadside assistance": [
+     "service provision"
+    ],
+    "to ensure that a vehicle is available at the place and time you have reserved": [
+     "service provision"
+    ],
+    "to help you find our vehicles": [
+     "service provision"
+    ],
+    "to bill you": [
+     "service provision"
+    ],
+    "to process your subscription": [
+     "service provision",
+     "services"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "account-management": [
+     "service provision"
+    ],
+    "to provide content and offers that we think may be of interest to you": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "profiling": [
+     "advertising"
+    ],
+    "for quality control, training and similar purposes": [
+     "operations"
+    ],
+    "analytics": [
+     "provide and improve our products and services"
+    ],
+    "service provision": [
+     "provide and improve our products and services"
+    ],
+    "customer-support": [
+     "communication"
+    ],
+    "to obtain your driving record from such regulatory bodies": [
+     "legal compliance",
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3042,
+  "completion_tokens": 1153,
+  "thinking_tokens": 0,
+  "seconds": 26.42491316795349,
+  "failures": 0
+ },
+ "seconds": 26.5
+}

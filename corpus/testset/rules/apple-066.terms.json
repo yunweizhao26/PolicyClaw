@@ -1,0 +1,168 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device_information": "device information",
+    "email_address": "email address",
+    "facial features": "face data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal_data": "Personal Information",
+    "usage information": "usage data",
+    "user-generated content": "user content",
+    "user_content": "user content"
+   },
+   "parents": {
+    "all personal data": [
+     "Personal Information"
+    ],
+    "inaccurate personal information": [
+     "Personal Information"
+    ],
+    "email address": [
+     "Personal Information",
+     "contact information"
+    ],
+    "device_identifier": [
+     "device information"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device language": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "biometric data": [
+     "Personal Information"
+    ],
+    "face data": [
+     "biometric data",
+     "user content"
+    ],
+    "photos": [
+     "user content"
+    ],
+    "videos": [
+     "user content"
+    ],
+    "avatar": [
+     "user content"
+    ],
+    "uploaded images": [
+     "user content"
+    ],
+    "generated images": [
+     "user content"
+    ],
+    "user_comment": [
+     "user content"
+    ],
+    "social media handle": [
+     "contact information"
+    ],
+    "social_activity": [
+     "activity_log"
+    ],
+    "cookies": [
+     "browsing history",
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "Personal Information": [
+     "data",
+     "information"
+    ],
+    "non-personal data": [
+     "information"
+    ],
+    "user content": [
+     "user_data"
+    ],
+    "user_data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Amplitude": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "OpenAI": [
+     "third party"
+    ],
+    "Replicate": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "service delivery": "provide service",
+    "service provision": "provide service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "order fulfilment": [
+     "transaction management"
+    ],
+    "service optimization": [
+     "provide service"
+    ],
+    "services": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2283,
+  "completion_tokens": 690,
+  "thinking_tokens": 0,
+  "seconds": 11.529889583587646,
+  "failures": 0
+ },
+ "seconds": 11.6
+}

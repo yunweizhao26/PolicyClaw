@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "apple-134",
+ "text_sha256": "6e77df9bd10ba9d9a138ff1065ddb9e204197a6a76ed785f9cd4f0a53a17c6dc",
+ "site_id": "apple-134",
+ "sections": 11,
+ "rules": 64,
+ "report": {
+  "sections": 11,
+  "raw_rules": 51,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Transfers",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "our advertising and analytics suppliers",
+      "name": "advertising and analytics suppliers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Transfers",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "to the United States of America",
+      "protected by appropriate safeguards, namely the use of standard data protection clauses adopted or approved by the European Commission, a copy of which can be obtained from\nhttps://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32010D0087"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32010D0087",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-134#s5"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 48,
+  "completeness": {
+   "gaps": 135,
+   "gap_words": 1011
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 48,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 19,
+  "cached": 1,
+  "prompt_tokens": 31269,
+  "completion_tokens": 13248,
+  "thinking_tokens": 0,
+  "seconds": 213.82961177825928,
+  "failures": 0
+ },
+ "seconds": 214.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

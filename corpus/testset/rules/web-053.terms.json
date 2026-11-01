@@ -1,0 +1,306 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "Account Information",
+    "account_information": "Account Information",
+    "contact details": "Contact Information",
+    "contact_information": "Contact Information",
+    "content you provide through the use of the services": "Content you provide through the use of the Services",
+    "customer product usage information": "Customer Product Usage Information",
+    "customer_support_and_professional_services_information": "Customer Support and Professional Services Information",
+    "device information and identifiers": "Device Information and Identifiers",
+    "device_information": "Device Information and Identifiers",
+    "ip address": "IP address",
+    "other content you submit": "Other Content You Submit",
+    "payment_and_identity_verification_information": "Payment and Identity Verification Information",
+    "personal data": "Personal Data",
+    "personal_data": "Personal Data",
+    "profile information": "Profile Information",
+    "profile_information": "Profile Information",
+    "prompts": "AI prompts",
+    "username": "account name"
+   },
+   "parents": {
+    "AI inputs": [
+     "Content you provide through the use of the Services"
+    ],
+    "AI prompts": [
+     "AI inputs"
+    ],
+    "account": [
+     "Account Information"
+    ],
+    "account details": [
+     "Account Information"
+    ],
+    "account name": [
+     "Account Information"
+    ],
+    "bank account details": [
+     "Payment and Identity Verification Information"
+    ],
+    "billing address": [
+     "Contact Information",
+     "Payment and Identity Verification Information"
+    ],
+    "browser": [
+     "Device Information and Identifiers"
+    ],
+    "call_recordings": [
+     "Customer Support and Professional Services Information"
+    ],
+    "call_records": [
+     "Customer Support and Professional Services Information"
+    ],
+    "sales call recordings": [
+     "call_recordings"
+    ],
+    "chat logs": [
+     "Customer Support and Professional Services Information"
+    ],
+    "children's personal data": [
+     "Personal Data"
+    ],
+    "city": [
+     "location"
+    ],
+    "state": [
+     "location"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "physical address": [
+     "Contact Information",
+     "location"
+    ],
+    "credit card number": [
+     "Payment and Identity Verification Information"
+    ],
+    "email address": [
+     "Contact Information"
+    ],
+    "phone number": [
+     "Contact Information"
+    ],
+    "cookies": [
+     "cookies and similar tracking technologies"
+    ],
+    "device type": [
+     "Device Information and Identifiers"
+    ],
+    "hardware identifier": [
+     "Device Information and Identifiers"
+    ],
+    "mobile identifier": [
+     "Device Information and Identifiers"
+    ],
+    "hostname": [
+     "Device Information and Identifiers"
+    ],
+    "operating system": [
+     "Device Information and Identifiers"
+    ],
+    "user agent": [
+     "Device Information and Identifiers"
+    ],
+    "HTTP headers": [
+     "Device Information and Identifiers"
+    ],
+    "IP address": [
+     "Device Information and Identifiers"
+    ],
+    "visitor IP address": [
+     "IP address",
+     "website usage data"
+    ],
+    "email link click status": [
+     "email engagement information"
+    ],
+    "email received and opened status": [
+     "email engagement information"
+    ],
+    "error logs": [
+     "version data and error tracking"
+    ],
+    "files uploaded by user": [
+     "Content you provide through the use of the Services"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "job title": [
+     "Profile Information"
+    ],
+    "organization name": [
+     "Profile Information"
+    ],
+    "organization details": [
+     "Profile Information"
+    ],
+    "password": [
+     "Account Information"
+    ],
+    "personal photo": [
+     "Profile Information"
+    ],
+    "user profile": [
+     "Profile Information"
+    ],
+    "user profile information": [
+     "Profile Information"
+    ],
+    "user submissions": [
+     "Other Content You Submit"
+    ],
+    "user-generated content": [
+     "Content you provide through the use of the Services"
+    ],
+    "user_content": [
+     "Content you provide through the use of the Services"
+    ],
+    "code": [
+     "Content you provide through the use of the Services"
+    ],
+    "chat commands": [
+     "Content you provide through the use of the Services"
+    ],
+    "support requests": [
+     "Customer Support and Professional Services Information"
+    ],
+    "customer product usage metrics": [
+     "Customer Product Usage Information"
+    ],
+    "historical user count": [
+     "Customer Product Usage Information"
+    ],
+    "number of active users": [
+     "Customer Product Usage Information"
+    ],
+    "audit logs": [
+     "activity data"
+    ],
+    "page views": [
+     "website usage data"
+    ],
+    "browsing history": [
+     "website usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partners": "partner",
+    "user": "other users"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "private code modeling service providers": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party agent": [
+     "third party"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "resellers": [
+     "third party"
+    ],
+    "reverse IP lookup service": [
+     "third party"
+    ],
+    "social media monitoring companies": [
+     "third party"
+    ],
+    "third-party account": [
+     "third party"
+    ],
+    "user": [
+     "user_or_third_party"
+    ],
+    "third party": [
+     "user_or_third_party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "GitLab"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "compliance with legal obligation": "compliance",
+    "customer_support": "customer-support",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "legal_compliance": "compliance",
+    "payment_processing": "payment processing",
+    "research_and_development": "research-and-development",
+    "service optimization": "product improvement",
+    "service personalization": "personalization",
+    "service provision": "service delivery",
+    "service_improvement": "product improvement",
+    "service_provision": "service delivery"
+   },
+   "parents": {
+    "payment processing": [
+     "finance"
+    ],
+    "fraud detection and prevention": [
+     "fraud_prevention_and_security",
+     "security"
+    ],
+    "fraud_prevention_and_security": [
+     "security"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "AI model training": [
+     "training"
+    ],
+    "service delivery": [
+     "services"
+    ],
+    "account_management": [
+     "services"
+    ],
+    "authentication": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3934,
+  "completion_tokens": 1593,
+  "thinking_tokens": 0,
+  "seconds": 23.733795404434204,
+  "failures": 0
+ },
+ "seconds": 23.8
+}

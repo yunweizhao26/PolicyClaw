@@ -1,0 +1,30 @@
+{
+ "policy": "pg-060",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Our apps relies on technology called Unity Analytics to monitor and collect data about player activities within the apps.",
+   "prohibit": "When you download and use our apps we don’t require that you provide any information nor we do not collect any information about you.",
+   "situation": "A user downloads and plays an app released before 2018.",
+   "reason": "The policy states it does not collect any information about the user upon downloading/using the app, while simultaneously stating it uses Unity Analytics to monitor and collect player activity data.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "Our kids apps relies on technology called Unity Analytics to monitor and collect data about player activities within the app.",
+   "prohibit": "When you download and use our kids apps we don’t require that you provide any information nor we do not collect any information about you.",
+   "situation": "A user downloads and uses an educational app designed for kids.",
+   "reason": "The policy flatly asserts that no information is collected about the user, yet explicitly states it monitors and collects data about player activities within the app via Unity Analytics.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2050,
+  "completion_tokens": 298,
+  "thinking_tokens": 0,
+  "seconds": 4.453733921051025,
+  "failures": 0
+ }
+}

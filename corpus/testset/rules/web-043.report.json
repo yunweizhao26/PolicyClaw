@@ -1,0 +1,727 @@
+{
+ "cleaned_sha256": "web-043",
+ "text_sha256": "9d9b0c2d46e305be60924164a83612e239aa87a884f596383c40183a4c49ab52",
+ "site_id": "web-043",
+ "sections": 23,
+ "rules": 326,
+ "report": {
+  "sections": 23,
+  "raw_rules": 246,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Law enforcement and other public and private agencies",
+      "name": "law enforcement and other agencies"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "(i) to comply with any applicable law, regulation, legal process or governmental request (e.g., from creditors, tax authorities, law enforcement agencies, in response to a garnishment, levy, or lien notice, etc.)",
+       "name": "legal compliance"
+      },
+      {
+       "text": "(ii) to establish, exercise or defend our legal rights",
+       "name": "legal defense"
+      },
+      {
+       "text": "(iii) to enforce or comply with our\nGeneral Terms\nor other applicable agreements or policies",
+       "name": "enforce terms and policies"
+      },
+      {
+       "text": "(iv) to protect our or our customers' rights or property, or the security or integrity of our Services",
+       "name": "security and fraud prevention"
+      },
+      {
+       "text": "(v) for an investigation of suspected or actual illegal activity",
+       "name": "investigation of illegal activity"
+      },
+      {
+       "text": "(vi) to protect us, users of our Services or the public from harm, fraud, or potentially prohibited or illegal activities",
+       "name": "security and fraud prevention"
+      }
+     ],
+     "conditions": [
+      "If we believe that disclosure is reasonably necessary (i) to comply with any applicable law, regulation, legal process or governmental request (e.g., from creditors, tax authorities, law enforcement agencies, in response to a garnishment, levy, or lien notice, etc.); (ii) to establish, exercise or defend our legal rights; (iii) to enforce or comply with our\nGeneral Terms\nor other applicable agreements or policies; (iv) to protect our or our customers' rights or property, or the security or integrity of our Services; (v) for an investigation of suspected or actual illegal activity; or (vi) to protect us, users of our Services or the public from harm, fraud, or potentially prohibited or illegal activities."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Terms",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-043#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "a subsequent owner, co-owner, or operator of one or more of the Services",
+      "name": "subsequent owner or operator"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "To",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "To enable them to continue to run the Services after the change of owner or operator",
+       "name": "service continuity"
+      },
+      {
+       "text": "To enable the completion of the relevant merger, restructuring, financing, acquisition, divestiture, dissolution or other corporate change",
+       "name": "corporate transaction"
+      }
+     ],
+     "conditions": [
+      "If we do or try to do a corporate merger, consolidation, or restructuring (including during due diligence and negotiation of these); the sale of substantially all of our stock and/or assets; the financing, acquisition, divestiture, or dissolution of all or a portion of our business; or other corporate change."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-043#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "actor": {
+      "text": "third parties that help us advertise our products and services to you",
+      "name": "third-party advertising network"
+     },
+     "data": {
+      "text": "information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from your activity on the web, including but not limited to, browsing or purchasing products on or through our websites or on third party websites or your activity on mobile sites and applications",
+      "name": "user online activity"
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to help us advertise our products and services to you as informed by your interests",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "stop or disable them via your browser settings"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us advertise our products and services to you as informed by your interests"
+    ],
+    "section": "web-043#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "help us advertise",
+     "actor": {
+      "text": "third parties that help us advertise our products and services to you",
+      "name": "third-party advertising network"
+     },
+     "data": {
+      "text": "information collected from your activity on the web, including but not limited to, browsing or purchasing products on or through our websites or on third party websites or your activity on mobile sites and applications",
+      "name": "user online activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "advertise",
+      "verb": "advertise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to help us advertise our products and services to you as informed by your interests",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "stop or disable them via your browser settings"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us advertise our products and services to you as informed by your interests"
+    ],
+    "section": "web-043#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "where it necessary for us:\nTo deal with and resolve requests, disputes or complaints"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will keep",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "where it necessary for us:\nTo deal with and resolve requests, disputes or complaints"
+    ],
+    "section": "web-043#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "where it necessary for us:\nFor litigation or regulatory matters"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will keep",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "where it necessary for us:\nFor litigation or regulatory matters"
+    ],
+    "section": "web-043#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Deletion of",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on the jurisdiction in which you reside",
+      "you may be entitled under applicable law to request: Deletion of the personal information we have collected from you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information we have collected from you"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "entitled",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may be entitled under applicable law to request: Deletion of the personal information we have collected from you"
+    ],
+    "section": "web-043#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Correction of",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on the jurisdiction in which you reside",
+      "you may be entitled under applicable law to request: Correction of the personal information we have collected about you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information we have collected about you"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "entitled",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may be entitled under applicable law to request: Correction of the personal information we have collected about you"
+    ],
+    "section": "web-043#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right under certain circumstances:\nto request",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data held by us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "to request the rectification",
+      "You may need to verify your identity before granting access of otherwise changing or correcting your information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto request"
+    ],
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right under certain circumstances:\nto request",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data held by us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "to request the rectification or erasure of your personal data held by us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto request"
+    ],
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "have the right under certain circumstances:\nto request that we cease",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "to request that we cease processing your data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto request that we cease"
+    ],
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right under certain circumstances:\nto request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict the processing of",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "to request that we restrict the processing of your personal data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto request"
+    ],
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "have the right under certain circumstances:\nto object to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling activities",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "based on our own legitimate interests",
+      "to object to profiling activities based on our own legitimate interests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "have the right under certain circumstances:\nto object to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "solely automated",
+      "producing legal or similar effects",
+      "to object to solely automated processing producing legal or similar effects"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right under certain circumstances:\nto request",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "a third party",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "be transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "to request that your data be transferred to a third party (data portability)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto request"
+    ],
+    "section": "web-043#s16"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "have the right under certain circumstances:\nto withdraw your consent to our",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the EU or the UK",
+      "under certain circumstances",
+      "where such processing is based on consent",
+      "to withdraw your consent to our processing of your data (where such processing is based on consent)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right under certain circumstances:\nto withdraw your consent to our"
+    ],
+    "section": "web-043#s16"
+   }
+  ],
+  "residual_quotes": 36,
+  "quotes": 122,
+  "completeness": {
+   "gaps": 419,
+   "gap_words": 4307
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 122,
+  "compile_failures": 7,
+  "fixed_structurally": 1,
+  "fixed_by_call": 6
+ },
+ "usage": {
+  "calls": 47,
+  "cached": 0,
+  "prompt_tokens": 83879,
+  "completion_tokens": 51402,
+  "thinking_tokens": 0,
+  "seconds": 453.64830708503723,
+  "failures": 0
+ },
+ "seconds": 455.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

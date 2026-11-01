@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "apple-122",
+ "text_sha256": "18e20bffb37474a747e68a97c3421e66b8b610e84429284fbf4d09423a5805ef",
+ "site_id": "apple-122",
+ "sections": 6,
+ "rules": 133,
+ "report": {
+  "sections": 6,
+  "raw_rules": 112,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not perform",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "perform automated decision making",
+      "verb": "perform"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-122#s6"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 54,
+  "completeness": {
+   "gaps": 191,
+   "gap_words": 1863
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 54,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24081,
+  "completion_tokens": 18885,
+  "thinking_tokens": 0,
+  "seconds": 266.3400876522064,
+  "failures": 0
+ },
+ "seconds": 266.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

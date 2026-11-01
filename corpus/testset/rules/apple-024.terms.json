@@ -1,0 +1,165 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "claims related data": "claims information",
+    "driver's license number": "driver license number",
+    "drivers license number": "driver license number",
+    "personal information": "personal data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "GPS coordinates": [
+     "location",
+     "precise geolocation"
+    ],
+    "accelerometer data": [
+     "sensor data"
+    ],
+    "altimeter data": [
+     "sensor data"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "call audio": [
+     "audio recordings"
+    ],
+    "claims": [
+     "claims information",
+     "commercial information"
+    ],
+    "claims history": [
+     "claims information",
+     "driving and claims history"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "credit inquiry": [
+     "credit information"
+    ],
+    "debit card number": [
+     "financial information"
+    ],
+    "device identifier": [
+     "online identifier"
+    ],
+    "driver license number": [
+     "identifiers"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "gyroscope data": [
+     "sensor data"
+    ],
+    "health data": [
+     "health and medical information"
+    ],
+    "health insurance information": [
+     "insurance policy"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "lienholder information": [
+     "claims information"
+    ],
+    "magnetometer data": [
+     "sensor data"
+    ],
+    "payment history": [
+     "commercial information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "policy number": [
+     "insurance policy"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "real name": [
+     "name"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "social security number": [
+     "identifiers"
+    ],
+    "vehicle changes": [
+     "commercial information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "credit bureau": "consumer reporting agency"
+   },
+   "parents": {
+    "state insurance department": [
+     "government agency"
+    ],
+    "law enforcement authority": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "employees": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud prevention and detection",
+    "targeted advertising": "advertising"
+   },
+   "parents": {
+    "fraud detection": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention": [
+     "fraud prevention and detection"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "personalization of services": [
+     "personalization"
+    ],
+    "user experience enhancement": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2574,
+  "completion_tokens": 735,
+  "thinking_tokens": 0,
+  "seconds": 10.559196949005127,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

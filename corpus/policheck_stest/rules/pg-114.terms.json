@@ -1,0 +1,161 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware device ID": "device identifier",
+    "ip address": "IP address",
+    "mobile device type": "device hardware type",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "billing address": [
+     "contact info",
+     "financial data"
+    ],
+    "credit card number": [
+     "financial data",
+     "financial details"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "financial details": [
+     "financial data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "password": [
+     "password or sensitive data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "app usage and performance data": [
+     "usage information"
+    ],
+    "browsing activity": [
+     "usage information"
+    ],
+    "browsing history": [
+     "usage information"
+    ],
+    "interaction details": [
+     "usage information"
+    ],
+    "cookies and tracking data": [
+     "usage information"
+    ],
+    "order total": [
+     "financial data",
+     "transaction history"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "individual information": [
+     "personal data"
+    ],
+    "user data": [
+     "information"
+    ],
+    "aggregate information": [
+     "information"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "account name": [
+     "personal data"
+    ],
+    "device hardware type": [
+     "mobile device info"
+    ],
+    "operating system": [
+     "mobile device info"
+    ],
+    "carrier": [
+     "mobile device info"
+    ],
+    "device identifier": [
+     "mobile device info"
+    ],
+    "IP address": [
+     "mobile device info"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Morton Subastas": "Auction House",
+    "first party": "Auction House",
+    "the Auction House": "Auction House"
+   },
+   "parents": {
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "marketing partner": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unspecified-third-party": [
+     "third party"
+    ],
+    "legal representative": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third-party payment processor": "payment processor"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "order-fulfillment": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service operation or improvement"
+    ],
+    "marketing": [
+     "commercial"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 2,
+  "prompt_tokens": 1438,
+  "completion_tokens": 661,
+  "thinking_tokens": 0,
+  "seconds": 43.69781827926636,
+  "failures": 0
+ },
+ "seconds": 43.8
+}

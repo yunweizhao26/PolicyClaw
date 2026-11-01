@@ -1,0 +1,132 @@
+{
+ "cleaned_sha256": "apple-061",
+ "text_sha256": "9c1d7c01900ee6713cb1bd9202931fc35f75427404d6b8b0368339144aecd8eb",
+ "site_id": "apple-061",
+ "sections": 9,
+ "rules": 159,
+ "report": {
+  "sections": 9,
+  "raw_rules": 151,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions producing legal or similarly significant effects",
+       "name": "legal"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-061#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "Subject to certain limits and conditions provided under law",
+      "The sections below apply to you if you use the Services while in the European Economic Area, Switzerland, or the United Kingdom (collectively,\n“Europe”\n)",
+      "request that we restrict processing in certain circumstances (like to retain but not further process pending resolution of a claim)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Rights section above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-061#s8"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 173,
+   "gap_words": 1769
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 74,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 35078,
+  "completion_tokens": 29970,
+  "thinking_tokens": 0,
+  "seconds": 374.6673197746277,
+  "failures": 0
+ },
+ "seconds": 375.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

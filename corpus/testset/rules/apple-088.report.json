@@ -1,0 +1,235 @@
+{
+ "cleaned_sha256": "apple-088",
+ "text_sha256": "5cc1a4c94e7bd4e39138dcb75f07bd57185f54dfee098d1036df9eb86a962058",
+ "site_id": "apple-088",
+ "sections": 9,
+ "rules": 250,
+ "report": {
+  "sections": 9,
+  "raw_rules": 199,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may stay",
+     "actor": {
+      "text": "first party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stay",
+      "verb": "stay"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "Some of these cookies are “persistent” cookies",
+      "on your browser into the future"
+     ],
+     "exceptions": [
+      "until they expire or you delete them"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "apple-088#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Residents of certain jurisdictions (including Colorado, Connecticut, Virginia, Oregon, Utah and others) have the right to make certain requests regarding your “personal information” or “personal data”",
+      "you have the right to ask us to",
+      "if applicable",
+      "To exercise any of these rights, please send an email to\nprivacy@newsbreak.com\nwith a subject of “Privacy Law Request”",
+      "we need to verify your identity (that you are the person with whom we collected personal information) before processing your request"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [
+      "Opt you out",
+      "We may deny your request if we cannot verify your identity with sufficient certainty"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "right to ask us to:\n● Opt you out",
+     "purpose": [
+      {
+       "text": "for purposes of profiling in furtherance of decisions that produce legal or similarly significant effects",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“Notice to California Residents” below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to ask us to:\n● Opt you out"
+    ],
+    "section": "apple-088#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "California residents have the following rights with regard to their personal information:",
+      "The right to deletion of personal information;",
+      "If we are able to verify your identity, we will respond to your request to the extent we are able to and as required by law."
+     ],
+     "exceptions": [
+      "Certain personal information may be exempt from such requests under applicable law."
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right to deletion",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "under applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "as required by law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-088#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "California residents have the following rights with regard to their personal information:",
+      "The right to correct inaccurate personal information we maintain about you.",
+      "If we are able to verify your identity, we will respond to your request to the extent we are able to and as required by law."
+     ],
+     "exceptions": [
+      "Certain personal information may be exempt from such requests under applicable law."
+     ],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right to correct",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "under applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "as required by law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-088#s8"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 195,
+   "gap_words": 2643
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 43,
+  "translated_quotes": 74,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 19,
+  "cached": 0,
+  "prompt_tokens": 37871,
+  "completion_tokens": 41051,
+  "thinking_tokens": 0,
+  "seconds": 506.7079951763153,
+  "failures": 0
+ },
+ "seconds": 507.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

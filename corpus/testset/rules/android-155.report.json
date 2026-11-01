@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "android-155",
+ "text_sha256": "457d31d843575f2ea94e7ca9db6371667f1339239f62d257c0e66e20ed06e8c3",
+ "site_id": "android-155",
+ "sections": 33,
+ "rules": 77,
+ "report": {
+  "sections": 33,
+  "raw_rules": 65,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "inform",
+      "verb": "inform"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In case of information leakage and other security incidents",
+      "through push notifications, announcements and other forms"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-155#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "an email",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sending",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to notify you by prominently displaying the changes on the page or sending you an email before the changes take effect",
+       "name": "service-related announcements"
+      }
+     ],
+     "conditions": [
+      "If such changes would result in a material diminution of your rights under this Policy",
+      "before the changes take effect"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to notify you by prominently displaying the changes on the page or sending you an email before the changes take effect"
+    ],
+    "section": "android-155#s32"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 40,
+  "completeness": {
+   "gaps": 64,
+   "gap_words": 812
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 40,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 63623,
+  "completion_tokens": 14015,
+  "thinking_tokens": 0,
+  "seconds": 1057.7974123954773,
+  "failures": 0
+ },
+ "seconds": 1058.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

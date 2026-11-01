@@ -1,0 +1,201 @@
+{
+ "cleaned_sha256": "apple-165",
+ "text_sha256": "6b195f470ab00f392fab7858625e3d97c83a883d23f04392ed08a8d02a6ae2a0",
+ "site_id": "apple-165",
+ "sections": 4,
+ "rules": 65,
+ "report": {
+  "sections": 4,
+  "raw_rules": 51,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not permit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "permit behaviourally targeted advertising to children under the age of 13 years",
+      "verb": "permit"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "behaviourally targeted advertising to children under the age of 13 years",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-165#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not trade",
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information you provide to us"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "name": "trade",
+      "text": "trade",
+      "verb": "trade"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "your prior consent"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not trade"
+    ],
+    "section": "apple-165#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not rent",
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information you provide to us"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "name": "rent",
+      "text": "rent",
+      "verb": "rent"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "your prior consent"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not rent"
+    ],
+    "section": "apple-165#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not disclose",
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information you provide to us"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "name": "disclose",
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "your prior consent"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not disclose"
+    ],
+    "section": "apple-165#s4"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 39,
+  "completeness": {
+   "gaps": 145,
+   "gap_words": 1233
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 39,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 17325,
+  "completion_tokens": 11149,
+  "thinking_tokens": 0,
+  "seconds": 92.99507808685303,
+  "failures": 0
+ },
+ "seconds": 93.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

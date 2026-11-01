@@ -1,0 +1,196 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_activity": "browsing activity",
+    "communication contents": "communication content",
+    "health information": "health info",
+    "ip address": "IP address",
+    "medical record number": "health record number",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "approximate location": [
+     "device location"
+    ],
+    "general location": [
+     "device location"
+    ],
+    "precise location": [
+     "device location"
+    ],
+    "age": [
+     "demographic info"
+    ],
+    "date of birth": [
+     "demographic info"
+    ],
+    "gender": [
+     "demographic info"
+    ],
+    "education level": [
+     "demographic info"
+    ],
+    "payment card number": [
+     "debit and credit card information"
+    ],
+    "health conditions": [
+     "health info"
+    ],
+    "health symptoms": [
+     "health info"
+    ],
+    "medications": [
+     "health info"
+    ],
+    "health record number": [
+     "health info"
+    ],
+    "health info": [
+     "personal health information"
+    ],
+    "personal health information": [
+     "personal data"
+    ],
+    "protected health information": [
+     "personal health information"
+    ],
+    "preferred first name": [
+     "name"
+    ],
+    "link clicks": [
+     "logged user events"
+    ],
+    "site_visit_history": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "device_network_usage_information"
+    ],
+    "email_interaction_data": [
+     "device_network_usage_information"
+    ],
+    "chat logs": [
+     "communication content"
+    ],
+    "survey responses": [
+     "user feedback"
+    ],
+    "personal information about dependents and family members": [
+     "personal data"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party applications and websites": [
+     "third party"
+    ],
+    "Kaiser Permanente staff and health care professionals": [
+     "affiliate",
+     "health care providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google Health Connect": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "vendor or contractor": "service provider"
+   },
+   "parents": {
+    "Kaiser Permanente health care professionals": [
+     "first party"
+    ],
+    "people who test and support these systems": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "health care delivery": [
+     "healthcare"
+    ],
+    "treatment": [
+     "healthcare"
+    ],
+    "payment": [
+     "healthcare"
+    ],
+    "fraud detection and prevention": [
+     "security and fraud prevention"
+    ],
+    "legal compliance": [
+     "legal compliance and protection"
+    ],
+    "customized experience on our Site": [
+     "service_customization",
+     "website and mobile app user experience"
+    ],
+    "help find a facility, doctor, or directions within a facility": [
+     "service provision"
+    ],
+    "provide timely notices when you visit a facility": [
+     "communication"
+    ],
+    "to: communicate your health information, or the health information of someone you are caring for, to health care providers treating you or the other person": [
+     "communication",
+     "treatment"
+    ],
+    "quality control": [
+     "service improvement"
+    ],
+    "analytics": [
+     "service_operation"
+    ],
+    "business operations": [
+     "service operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2757,
+  "completion_tokens": 894,
+  "thinking_tokens": 0,
+  "seconds": 11.695775508880615,
+  "failures": 0
+ },
+ "seconds": 11.8
+}

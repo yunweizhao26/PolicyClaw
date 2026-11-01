@@ -1,0 +1,22 @@
+{
+ "policy": "pg-183",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "In addition to the above, Grubhub may need to use or disclose your personal information for: (i) providing our Services, including by providing information to Merchants, delivery providers, payment processors, and other service providers that we rely on to process and fulfill orders or other service providers that help us keep the Platform and our Services running smoothly;",
+   "prohibit": "We also do not share this information with third parties for business or commercial purposes, though we may disclose it to our service providers, or for other lawful purposes, as described in greater detail in Section 1.11 below.",
+   "situation": "Disclosing geolocation data to third-party Merchants or delivery providers for business or commercial purposes to facilitate order fulfillment.",
+   "reason": "Section 1.5 strictly bans sharing geolocation data with third parties for business/commercial purposes (except service providers), but Section 1.11 permits disclosing personal information to Merchants and delivery providers.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 6759,
+  "completion_tokens": 238,
+  "thinking_tokens": 0,
+  "seconds": 2.7422077655792236,
+  "failures": 0
+ }
+}

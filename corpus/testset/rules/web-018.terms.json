@@ -1,0 +1,458 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometrics": "biometric data",
+    "contact information": "contact details",
+    "contacts": "contact list",
+    "cookies": "cookie data",
+    "email address": "email",
+    "identification and signature information": "identification and signature info",
+    "ip address": "IP address",
+    "payment card information": "payment card details",
+    "payment information": "payment details",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "precise geolocation": "precise geographic location",
+    "precise geolocation data": "precise geographic location",
+    "sensitive personal information": "sensitive data",
+    "transaction information": "transaction details",
+    "user details": "user data",
+    "user_preferences": "user preferences"
+   },
+   "parents": {
+    "GPS": [
+     "location data"
+    ],
+    "IP address": [
+     "device identifier"
+    ],
+    "account balance": [
+     "financial account information"
+    ],
+    "account creation date": [
+     "account details",
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account profile data": [
+     "account details",
+     "account information"
+    ],
+    "bank account number": [
+     "financial account information"
+    ],
+    "browsing and purchasing habits": [
+     "commercial information"
+    ],
+    "browsing history": [
+     "technical usage data"
+    ],
+    "city": [
+     "location",
+     "location data"
+    ],
+    "credit card number": [
+     "financial account information",
+     "payment card details"
+    ],
+    "credit history": [
+     "financial information"
+    ],
+    "credit report": [
+     "financial information"
+    ],
+    "credit score": [
+     "creditworthiness"
+    ],
+    "creditworthiness": [
+     "financial information"
+    ],
+    "date and time of visit": [
+     "technical usage data"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "email": [
+     "contact details"
+    ],
+    "error report": [
+     "technical usage data"
+    ],
+    "facial geometry": [
+     "biometric data"
+    ],
+    "financial account information": [
+     "financial information"
+    ],
+    "fraud and risk assessment": [
+     "information related to legal requirements"
+    ],
+    "gender": [
+     "personal aspects"
+    ],
+    "geolocation": [
+     "location data"
+    ],
+    "government id": [
+     "identification and signature info"
+    ],
+    "health information": [
+     "sensitive data"
+    ],
+    "income": [
+     "financial information"
+    ],
+    "interests": [
+     "personal aspects",
+     "preferences"
+    ],
+    "linked account information": [
+     "account information"
+    ],
+    "location": [
+     "location data"
+    ],
+    "national id number": [
+     "government id"
+    ],
+    "package tracking": [
+     "commercial information"
+    ],
+    "page load and view statistics": [
+     "technical usage data"
+    ],
+    "payment amount": [
+     "transaction details"
+    ],
+    "payment card details": [
+     "financial account information",
+     "payment details"
+    ],
+    "payment details": [
+     "financial information"
+    ],
+    "payment history": [
+     "transaction history"
+    ],
+    "payment link": [
+     "PayPal link"
+    ],
+    "payment transaction history": [
+     "transaction history"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "identification and signature info"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise geographic location": [
+     "geolocation",
+     "location data"
+    ],
+    "preferences and shopping behavior": [
+     "commercial information"
+    ],
+    "profile photo": [
+     "account information"
+    ],
+    "profiling data": [
+     "inferences"
+    ],
+    "purchase history": [
+     "commercial information",
+     "transaction history"
+    ],
+    "recipient name": [
+     "name"
+    ],
+    "referring URL": [
+     "technical usage data"
+    ],
+    "registration and contact information": [
+     "contact details"
+    ],
+    "response time": [
+     "technical usage data"
+    ],
+    "search history": [
+     "technical usage data"
+    ],
+    "selling history": [
+     "commercial information"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "shipping address": [
+     "postal address"
+    ],
+    "signature": [
+     "identification and signature info"
+    ],
+    "social network metrics": [
+     "commercial information"
+    ],
+    "social security number": [
+     "government id",
+     "sensitive data"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "transaction history": [
+     "commercial information"
+    ],
+    "transactions": [
+     "commercial information"
+    ],
+    "unpaid debt": [
+     "financial information"
+    ],
+    "user profile content": [
+     "account details",
+     "account information"
+    ],
+    "username": [
+     "account details",
+     "account information"
+    ],
+    "voice recording": [
+     "biometric data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "credit reporting agency": "credit bureau",
+    "legal representative": "agent or legal representative",
+    "other organization": "other organisations",
+    "other user": "other PayPal users",
+    "other users": "other PayPal users",
+    "partner": "business partner",
+    "police enforcement authorities": "police",
+    "supervisory authorities": "Supervisory Authority",
+    "supervisory authority": "Supervisory Authority",
+    "tax authority": "tax authorities",
+    "unaffiliated third parties": "nonaffiliates"
+   },
+   "parents": {
+    "credit bureau": [
+     "third party"
+    ],
+    "debt collection agency": [
+     "service provider",
+     "third party"
+    ],
+    "identity verification service": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "police": [
+     "enforcement authorities",
+     "law enforcement"
+    ],
+    "security forces": [
+     "law enforcement"
+    ],
+    "law enforcement": [
+     "law enforcement and regulatory authorities",
+     "public authority"
+    ],
+    "enforcement authorities": [
+     "law enforcement and regulatory authorities"
+    ],
+    "tax authorities": [
+     "government agency",
+     "public authority"
+    ],
+    "Supervisory Authority": [
+     "public authority"
+    ],
+    "government agency": [
+     "public authority"
+    ],
+    "public authority": [
+     "various authorities"
+    ],
+    "other PayPal users": [
+     "user"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "integration partner": [
+     "business partner"
+    ],
+    "third-party partner": [
+     "business partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "financial company": [
+     "third party"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "advertising network": [
+     "service provider",
+     "third party"
+    ],
+    "nonaffiliates": [
+     "third party"
+    ],
+    "intellectual property right owners": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "credit bureau": [
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "user connected financial accounts": [
+     "linked account"
+    ],
+    "visa and digital wallet": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "PayPal"
+   },
+   "parents": {
+    "credit reporting agency": [
+     "third party"
+    ],
+    "debt collection agency": [
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "other user": [
+     "third party",
+     "user"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account_linking": "account association",
+    "compliance with applicable law": "compliance",
+    "events and competitions": "contests",
+    "for the purpose of facilitating and maintaining such an arrangement": "facilitating and maintaining integration arrangement",
+    "fraud prevention": "fraud detection and prevention",
+    "fraud prevention and risk management": "fraud and risk management",
+    "fraud prevention and risk mitigation": "fraud detection and prevention",
+    "fraud_prevention": "fraud detection and prevention",
+    "fulfil our pre-contractual and contractual obligations to you": "contract fulfilment",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "payment_accuracy": "payment accuracy",
+    "personalization": "personalisation",
+    "processing contacts": "contact management",
+    "risk management and fraud prevention": "fraud detection and prevention",
+    "targeted advertising": "advertising",
+    "to ensure people make payments to the correct user": "payment accuracy",
+    "transaction processing": "order processing"
+   },
+   "parents": {
+    "compliance": [
+     "legal"
+    ],
+    "fraud detection and prevention": [
+     "fraud and risk management",
+     "fraud prevention and security"
+    ],
+    "financial risk management": [
+     "fraud and risk management"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "content customization and targeted advertising": [
+     "marketing",
+     "personalisation"
+    ],
+    "service personalization": [
+     "personalisation"
+    ],
+    "payment processing": [
+     "payment administration"
+    ],
+    "order processing": [
+     "payment processing"
+    ],
+    "order fulfillment": [
+     "fulfillment"
+    ],
+    "product improvement": [
+     "analytics and service improvement"
+    ],
+    "analytics": [
+     "analytics and service improvement"
+    ],
+    "analytics and service improvement": [
+     "service management and improvement"
+    ],
+    "service development": [
+     "product improvement"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "account maintenance": [
+     "account administration"
+    ],
+    "payment accuracy": [
+     "contact management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5561,
+  "completion_tokens": 2616,
+  "thinking_tokens": 0,
+  "seconds": 20.835006713867188,
+  "failures": 0
+ },
+ "seconds": 21.0
+}

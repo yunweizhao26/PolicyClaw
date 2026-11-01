@@ -1,0 +1,372 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "aggregated reports": "aggregate data",
+    "cookies": "cookie",
+    "health information": "health data",
+    "ip address": "IP address",
+    "payment information": "payment details",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "publicly available information": "publicly available data",
+    "unique identifiers": "unique identifier",
+    "user name": "name",
+    "user-generated content": "user content",
+    "video viewing history": "video viewing activity"
+   },
+   "parents": {
+    "ad interaction data": [
+     "activity data",
+     "interaction data"
+    ],
+    "ad view and interaction data": [
+     "advertising data",
+     "interaction data"
+    ],
+    "ad interaction details": [
+     "ad interaction data"
+    ],
+    "interactions_with_advertisements": [
+     "interaction data"
+    ],
+    "advertising id": [
+     "device identifier",
+     "unique identifier"
+    ],
+    "cookie-related identifiers": [
+     "cookie data",
+     "unique identifier"
+    ],
+    "cookie data": [
+     "cookie"
+    ],
+    "browsing history": [
+     "activity data"
+    ],
+    "site browsing history": [
+     "browsing history"
+    ],
+    "browsing_and_search_activity": [
+     "activity data"
+    ],
+    "search history": [
+     "browsing_and_search_activity"
+    ],
+    "search terms": [
+     "search history"
+    ],
+    "search trends": [
+     "search history"
+    ],
+    "calories burned": [
+     "health data"
+    ],
+    "heart rate": [
+     "health metrics",
+     "vital signs"
+    ],
+    "vital signs": [
+     "health metrics"
+    ],
+    "skin temperature": [
+     "health metrics",
+     "vital signs"
+    ],
+    "height": [
+     "health data"
+    ],
+    "weight": [
+     "health data"
+    ],
+    "sleep patterns": [
+     "health data"
+    ],
+    "medical history": [
+     "health data"
+    ],
+    "health metrics": [
+     "health data"
+    ],
+    "calling-party number": [
+     "phone number"
+    ],
+    "receiving-party number": [
+     "phone number"
+    ],
+    "forwarding numbers": [
+     "phone number"
+    ],
+    "email address": [
+     "identifying information"
+    ],
+    "sender and recipient email address": [
+     "email address"
+    ],
+    "home or work addresses": [
+     "places that are important to you",
+     "postal address"
+    ],
+    "shipping address": [
+     "postal address"
+    ],
+    "email content": [
+     "content"
+    ],
+    "documents": [
+     "content"
+    ],
+    "videos": [
+     "content",
+     "media"
+    ],
+    "photos": [
+     "content",
+     "media"
+    ],
+    "photograph": [
+     "photos"
+    ],
+    "website content": [
+     "content"
+    ],
+    "blog": [
+     "website content"
+    ],
+    "name and photo": [
+     "profile information"
+    ],
+    "voice and audio recordings": [
+     "content"
+    ],
+    "user content created": [
+     "user content"
+    ],
+    "stored content": [
+     "content"
+    ],
+    "government identifier": [
+     "identifying information"
+    ],
+    "tax identification number": [
+     "government identifier"
+    ],
+    "password": [
+     "passwords"
+    ],
+    "gps and sensor data": [
+     "location",
+     "sensor data"
+    ],
+    "network access points": [
+     "nearby device and network data"
+    ],
+    "nearby device and network data": [
+     "location"
+    ],
+    "video viewing activity": [
+     "activity data"
+    ],
+    "purchase activity": [
+     "activity data"
+    ],
+    "service activity": [
+     "activity data"
+    ],
+    "third-party site and app activity": [
+     "activity data"
+    ],
+    "system activity": [
+     "activity data"
+    ],
+    "topics based on sensitive categories": [
+     "sensitive data"
+    ],
+    "race or ethnicity": [
+     "sensitive data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "email booking details": [
+     "email content"
+    ],
+    "crash reports": [
+     "device information"
+    ],
+    "browser type and settings": [
+     "device information"
+    ],
+    "device type and settings": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "carrier name": [
+     "device information"
+    ],
+    "installed apps": [
+     "device information"
+    ],
+    "activity information": [
+     "activity data"
+    ],
+    "user activity": [
+     "activity data"
+    ],
+    "activity": [
+     "activity data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "unspecified user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "first party": "Google",
+    "other users": "other user",
+    "other_people": "other user",
+    "partners": "business partners",
+    "service_providers": "service providers",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Google employees, contractors, and agents": [
+     "Google"
+    ],
+    "advertiser": [
+     "business partners",
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "domain_administrators": [
+     "third party"
+    ],
+    "Lumen": [
+     "third party"
+    ],
+    "government": [
+     "appropriate authorities",
+     "third party"
+    ],
+    "law_enforcement_or_other_third_parties": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "public": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "publicly accessible sources": "online or other public sources"
+   },
+   "parents": {
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Google"
+   },
+   "parents": {
+    "Google Analytics customer": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "service_providers": [
+     "third party"
+    ],
+    "domain administrator and account resellers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "personalization": "personalisation",
+    "preferences": "preference administration",
+    "service operation and maintenance": "service maintenance",
+    "service optimization": "service improvement",
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "service_provision": "provide service",
+    "verify-identity": "verify identity"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "prevent abuse and fraud": [
+     "security"
+    ],
+    "recommend a YouTube video": [
+     "personalisation"
+    ],
+    "personalization of content": [
+     "personalisation"
+    ],
+    "service improvement": [
+     "improve-service"
+    ],
+    "make services and products more helpful": [
+     "service improvement"
+    ],
+    "service development": [
+     "research and development"
+    ],
+    "offer features like driving directions, search results, and location-based ads": [
+     "location based services"
+    ],
+    "verify identity": [
+     "authentication"
+    ],
+    "report use statistics to rights holders": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4811,
+  "completion_tokens": 1942,
+  "thinking_tokens": 0,
+  "seconds": 38.01236081123352,
+  "failures": 0
+ },
+ "seconds": 38.2
+}

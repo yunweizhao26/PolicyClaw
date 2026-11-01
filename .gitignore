@@ -1,0 +1,64 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+
+# Separate working repository.
+privacy_policy_logic/
+
+# Frozen manuscript copies are maintained outside this artifact branch.
+docs/
+paper/
+
+# Generated local analysis cache.
+data/longitudinal_edges/.load_clean_cache_*.pkl
+local_runs/*
+!local_runs/privaseer_longitudinal/
+
+# Local secrets and expanded release archives.
+.env
+artifact/
+
+# LLM response caches (paid answers, kept on disk; to be packed into LFS archives) and job logs.
+**/llm_cache/
+**/extract_cache/
+**/judge_cache/
+**/relate_cache/
+**/prep_cache/
+vldb/analysis/prep/logs/
+vldb/analysis/*/logs/
+corpus/**/logs/
+*.out
+# The paper is maintained in the Overleaf repository (privacy_policy_logic).
+vldb/main.pdf
+vldb/main.log
+vldb/main.blg
+# Old pilot runs: archive candidates (vldb/inventory/CLEANUP_PLAN.md); evidence subfolder kept.
+experiments/pilots/*
+!experiments/pilots/v21_gemini_extraction_full100_20260921/
+experiments/pilots/v21_gemini_extraction_full100_20260921/failed_attempts/
+
+# Store crawler outputs (corpus/stores): Parquet shards, never committed
+corpus/stores/data/
+corpus/stores/data_smoke/
+corpus/stores/data_smoke_run/
+corpus/stores/data_full/
+corpus/stores/data_smoke2/
+
+# Raw crawl pages, candidate frames, classifier weights, baseline containers and the
+# superseded first selection (about 24 GiB): kept on scratch, too large for GitHub
+corpus/classify/pool/
+corpus/classify/rounds/*/model.bin
+corpus/classify/rounds/*/scores.parquet
+corpus/classify/final/*.parquet
+corpus/policheck_stest/baselines/work/
+corpus/stage2/out/privaseer/
+corpus/testset/v1/
+corpus/testset/fetch/
+corpus/testset/parsed/
+corpus/testset/apple_pages/
+corpus/testset/candidates_*.parquet
+corpus/testset/apps_*.parquet
+corpus/testset/reuse.sqlite*
+corpus/testset/.fetch.lock

@@ -1,0 +1,298 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive personal data",
+    "user details": "personal details"
+   },
+   "parents": {
+    "age": [
+     "personal data"
+    ],
+    "boarding pass": [
+     "electronic travel documents"
+    ],
+    "booking details": [
+     "booking records"
+    ],
+    "booking history": [
+     "booking details"
+    ],
+    "booking personal data": [
+     "personal data"
+    ],
+    "booking records": [
+     "records"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "technical information"
+    ],
+    "cctv footage": [
+     "video footage"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookie data": [
+     "technical information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "electronic travel documents": [
+     "travel and booking details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email interaction information": [
+     "interaction details"
+    ],
+    "face photo": [
+     "photograph"
+    ],
+    "health and medical conditions": [
+     "health data"
+    ],
+    "health data": [
+     "sensitive personal data"
+    ],
+    "interaction details": [
+     "browsing and interaction data"
+    ],
+    "loyalty program number": [
+     "loyalty program details"
+    ],
+    "meal preferences": [
+     "sensitive personal data"
+    ],
+    "medical history": [
+     "health data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "passenger details": [
+     "personal data"
+    ],
+    "payment details": [
+     "transaction information"
+    ],
+    "photograph": [
+     "user image"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "purchase history": [
+     "transaction information"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "transaction information": [
+     "records"
+    ],
+    "travel and booking details": [
+     "booking details"
+    ],
+    "travel patterns and interests": [
+     "travel profile"
+    ],
+    "travel patterns and preferences": [
+     "travel profile"
+    ],
+    "travel profile": [
+     "user profile"
+    ],
+    "user image": [
+     "personal data"
+    ],
+    "user information": [
+     "personal data"
+    ],
+    "video footage": [
+     "user image"
+    ],
+    "website activity": [
+     "browsing activity"
+    ],
+    "website visit and interaction data": [
+     "browsing and interaction data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business partners": "Business Partners",
+    "other members of royal caribbean group": "other members in Royal Caribbean Group",
+    "service provider": "Suppliers",
+    "suppliers": "Suppliers",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Royal Caribbean Cruises": [
+     "Royal Caribbean Group"
+    ],
+    "other members in Royal Caribbean Group": [
+     "Royal Caribbean Group"
+    ],
+    "affiliate": [
+     "Royal Caribbean Group"
+    ],
+    "ports and customs authorities": [
+     "authorities",
+     "public authorities"
+    ],
+    "authorities": [
+     "public authorities"
+    ],
+    "courts": [
+     "public authorities"
+    ],
+    "Business Partners": [
+     "third parties"
+    ],
+    "Suppliers": [
+     "third parties"
+    ],
+    "travel partners": [
+     "third parties"
+    ],
+    "third party social media platforms": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "business partners": "business partner",
+    "service provider": "Suppliers",
+    "supplier": "Suppliers"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "credit check service provider": [
+     "Suppliers",
+     "third party"
+    ],
+    "travel partner": [
+     "third party"
+    ],
+    "Suppliers": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Celebrity Cruises Inc.": [
+     "affiliate"
+    ],
+    "Silversea Cruises Ltd.": [
+     "affiliate"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "Cookies": [
+     "tracking technologies"
+    ],
+    "Business Partners": [
+     "third party"
+    ],
+    "Suppliers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "authentication and identify the user": "authentication",
+    "health and safety onboard": "health and safety",
+    "marketing and promotions": "marketing",
+    "targeted advertising": "advertising",
+    "to improve Our products and services": "improve service",
+    "to process Our ships in the ports at which they call": "docking authorization"
+   },
+   "parents": {
+    "casino marketing and promotions": [
+     "marketing"
+    ],
+    "personalized marketing": [
+     "marketing",
+     "personalization"
+    ],
+    "marketing analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "track email opening": [
+     "analytics",
+     "marketing analytics"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "manage health threats": [
+     "health and safety",
+     "security"
+    ],
+    "health and safety": [
+     "safety"
+    ],
+    "platform improvement": [
+     "improve service"
+    ],
+    "personalized service": [
+     "personalization",
+     "service provision"
+    ],
+    "booking convenience": [
+     "service provision"
+    ],
+    "debugging": [
+     "platform functionality"
+    ],
+    "session continuation": [
+     "platform functionality"
+    ],
+    "user preferences": [
+     "platform functionality"
+    ],
+    "vital interests": [
+     "health and safety"
+    ],
+    "for business management activities, including to assist with incident management and to enable Us to conduct reporting": [
+     "For Our business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3890,
+  "completion_tokens": 1386,
+  "thinking_tokens": 0,
+  "seconds": 14.955955505371094,
+  "failures": 0
+ },
+ "seconds": 15.1
+}

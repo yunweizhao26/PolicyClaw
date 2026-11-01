@@ -1,0 +1,398 @@
+{
+ "dollars_per_query": {
+  "LOW": {
+   "exclusion/8": 0.0017,
+   "exclusion/16": 0.0028,
+   "exclusion/32": 0.0048,
+   "exclusion/64": 0.0094,
+   "exclusion/128": 0.0193,
+   "implication/8": 0.0019,
+   "implication/16": 0.003,
+   "implication/32": 0.004,
+   "implication/64": 0.0053,
+   "implication/128": 0.0126
+  },
+  "HIGH": {
+   "exclusion/8": 0.0101,
+   "exclusion/16": 0.0222,
+   "exclusion/32": 0.0457,
+   "exclusion/64": 0.0993,
+   "exclusion/128": 0.1629,
+   "implication/8": 0.0092,
+   "implication/16": 0.018,
+   "implication/32": 0.0418,
+   "implication/64": 0.096,
+   "implication/128": 0.1571
+  }
+ },
+ "low_thinking": {
+  "exclusion/none": {
+   "calls": 72,
+   "recall": 31.7
+  },
+  "exclusion/thinking": {
+   "calls": 108,
+   "recall": 85.4
+  },
+  "implication/none": {
+   "calls": 127,
+   "recall": 47.8
+  },
+  "implication/thinking": {
+   "calls": 53,
+   "recall": 85.4
+  }
+ },
+ "LOW": {
+  "exclusion/8": {
+   "truth_per_query": 0.3,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 4.8,
+   "solver_s": 0.025,
+   "failures": 0
+  },
+  "exclusion/16": {
+   "truth_per_query": 1.2,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    97.1,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 99.0,
+   "exact_sets": 99.4,
+   "seeds_agree": 98.3,
+   "model_s": 5.7,
+   "solver_s": 0.033,
+   "failures": 0
+  },
+  "exclusion/32": {
+   "truth_per_query": 5.2,
+   "truth_median": 2,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    75.2,
+    97.7
+   ],
+   "precision": 99.3,
+   "recall": 89.4,
+   "exact_sets": 86.1,
+   "seeds_agree": 80.0,
+   "model_s": 7.7,
+   "solver_s": 0.076,
+   "failures": 0
+  },
+  "exclusion/64": {
+   "truth_per_query": 42.8,
+   "truth_median": 30,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    84.9,
+    92.9
+   ],
+   "precision": 99.0,
+   "recall": 89.2,
+   "exact_sets": 52.2,
+   "seeds_agree": 30.0,
+   "model_s": 13.8,
+   "solver_s": 0.304,
+   "failures": 0
+  },
+  "exclusion/128": {
+   "truth_per_query": 172.1,
+   "truth_median": 133,
+   "policies": 30,
+   "median_query_recall": 83.0,
+   "recall_ci": [
+    51.4,
+    73.4
+   ],
+   "precision": 98.7,
+   "recall": 61.9,
+   "exact_sets": 13.3,
+   "seeds_agree": 3.3,
+   "model_s": 26.8,
+   "solver_s": 1.37,
+   "failures": 0
+  },
+  "implication/8": {
+   "truth_per_query": 0.5,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 4.8,
+   "solver_s": 0.033,
+   "failures": 0
+  },
+  "implication/16": {
+   "truth_per_query": 1.3,
+   "truth_median": 1,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    98.8,
+    100.0
+   ],
+   "precision": 99.6,
+   "recall": 99.6,
+   "exact_sets": 98.9,
+   "seeds_agree": 96.7,
+   "model_s": 5.3,
+   "solver_s": 0.063,
+   "failures": 0
+  },
+  "implication/32": {
+   "truth_per_query": 6.1,
+   "truth_median": 5,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    92.2,
+    97.6
+   ],
+   "precision": 99.1,
+   "recall": 95.1,
+   "exact_sets": 81.1,
+   "seeds_agree": 71.7,
+   "model_s": 5.9,
+   "solver_s": 0.165,
+   "failures": 0
+  },
+  "implication/64": {
+   "truth_per_query": 21.2,
+   "truth_median": 21,
+   "policies": 60,
+   "median_query_recall": 85.7,
+   "recall_ci": [
+    72.6,
+    83.2
+   ],
+   "precision": 96.2,
+   "recall": 77.9,
+   "exact_sets": 25.0,
+   "seeds_agree": 8.3,
+   "model_s": 9.1,
+   "solver_s": 0.738,
+   "failures": 0
+  },
+  "implication/128": {
+   "truth_per_query": 75.6,
+   "truth_median": 72,
+   "policies": 30,
+   "median_query_recall": 53.8,
+   "recall_ci": [
+    52.4,
+    63.4
+   ],
+   "precision": 94.7,
+   "recall": 58.2,
+   "exact_sets": 1.7,
+   "seeds_agree": 0.0,
+   "model_s": 15.7,
+   "solver_s": 3.295,
+   "failures": 1
+  }
+ },
+ "LOW_dollars": {
+  "join1": 3.973,
+  "join2": 3.597,
+  "join3": 4.252
+ },
+ "HIGH": {
+  "exclusion/8": {
+   "truth_per_query": 0.3,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 19.3,
+   "solver_s": 0.025,
+   "failures": 0
+  },
+  "exclusion/16": {
+   "truth_per_query": 1.1,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 38.2,
+   "solver_s": 0.033,
+   "failures": 0
+  },
+  "exclusion/32": {
+   "truth_per_query": 5.2,
+   "truth_median": 2,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 72.6,
+   "solver_s": 0.076,
+   "failures": 0
+  },
+  "exclusion/64": {
+   "truth_per_query": 42.8,
+   "truth_median": 30,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 150.9,
+   "solver_s": 0.304,
+   "failures": 0
+  },
+  "exclusion/128": {
+   "truth_per_query": 172.1,
+   "truth_median": 133,
+   "policies": 30,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    99.8,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 99.9,
+   "exact_sets": 91.7,
+   "seeds_agree": 100.0,
+   "model_s": 266.1,
+   "solver_s": 1.37,
+   "failures": 0
+  },
+  "implication/8": {
+   "truth_per_query": 0.5,
+   "truth_median": 0,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 17.9,
+   "solver_s": 0.033,
+   "failures": 0
+  },
+  "implication/16": {
+   "truth_per_query": 1.4,
+   "truth_median": 1,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 29.5,
+   "solver_s": 0.063,
+   "failures": 0
+  },
+  "implication/32": {
+   "truth_per_query": 6.1,
+   "truth_median": 5,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 64.6,
+   "solver_s": 0.165,
+   "failures": 0
+  },
+  "implication/64": {
+   "truth_per_query": 21.2,
+   "truth_median": 21,
+   "policies": 60,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 100.0,
+   "exact_sets": 100.0,
+   "seeds_agree": 100.0,
+   "model_s": 156.9,
+   "solver_s": 0.738,
+   "failures": 0
+  },
+  "implication/128": {
+   "truth_per_query": 75.7,
+   "truth_median": 72,
+   "policies": 30,
+   "median_query_recall": 100.0,
+   "recall_ci": [
+    99.0,
+    100.0
+   ],
+   "precision": 100.0,
+   "recall": 99.6,
+   "exact_sets": 88.3,
+   "seeds_agree": 100.0,
+   "model_s": 232.0,
+   "solver_s": 3.295,
+   "failures": 0
+  }
+ },
+ "HIGH_dollars": {
+  "join1": 39.014
+ }
+}

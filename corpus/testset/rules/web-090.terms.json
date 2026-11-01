@@ -1,0 +1,228 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "information": "Information",
+    "ip address": "IP address",
+    "personal data": "Information",
+    "personal information": "Information",
+    "user data": "Information",
+    "user information": "Information",
+    "user name": "account name",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "Discord username": [
+     "account identifiers",
+     "personal identifiers"
+    ],
+    "IP address": [
+     "personal identifiers"
+    ],
+    "account details": [
+     "Account data"
+    ],
+    "account identifiers": [
+     "personal identifiers"
+    ],
+    "account name": [
+     "account identifiers",
+     "personal identifiers"
+    ],
+    "address": [
+     "contact details",
+     "location"
+    ],
+    "browser type": [
+     "device and technical details"
+    ],
+    "country": [
+     "location"
+    ],
+    "credit card number": [
+     "payment credentials",
+     "payment details",
+     "payment information",
+     "sensitive personal information"
+    ],
+    "date of birth": [
+     "Information"
+    ],
+    "device identifier": [
+     "device and technical details",
+     "personal identifiers"
+    ],
+    "device type": [
+     "device and technical details"
+    ],
+    "email address": [
+     "contact details",
+     "personal identifiers"
+    ],
+    "operating system": [
+     "device and technical details"
+    ],
+    "password": [
+     "account details"
+    ],
+    "payer name": [
+     "name",
+     "payment details",
+     "payment information"
+    ],
+    "payment credentials": [
+     "payment details",
+     "payment information",
+     "sensitive personal information"
+    ],
+    "payment details": [
+     "commercial information",
+     "payment information"
+    ],
+    "payment status": [
+     "payment details",
+     "payment information"
+    ],
+    "phone number": [
+     "contact details",
+     "personal identifiers"
+    ],
+    "platform activity": [
+     "user activity"
+    ],
+    "postal code": [
+     "address",
+     "location"
+    ],
+    "purchase records": [
+     "commercial information"
+    ],
+    "sensitive personal information": [
+     "Information"
+    ],
+    "third party passwords": [
+     "password"
+    ],
+    "transaction identifier": [
+     "commercial information"
+    ],
+    "usage statistics": [
+     "user activity"
+    ],
+    "user activity": [
+     "browsing history"
+    ],
+    "user identifier": [
+     "account identifiers",
+     "personal identifiers"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "user profile content": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service providers": "service provider",
+    "users": "user"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider",
+     "third party"
+    ],
+    "Google Cloud Platform": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "trusted security providers": [
+     "other security or service providers"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "DeviantArt"
+   },
+   "parents": {
+    "affiliate": [
+     "DeviantArt"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "enforce our policies or legal agreements": "enforce legal terms",
+    "legal compliance": "comply with the law",
+    "provide service": "provide our Services",
+    "provide services": "provide our Services"
+   },
+   "parents": {
+    "contest administration": [
+     "service delivery"
+    ],
+    "ensure transaction security": [
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "protect against fraud or abuse"
+    ],
+    "identification": [
+     "fraud prevention and security"
+    ],
+    "payment processing": [
+     "service delivery"
+    ],
+    "personalization": [
+     "service personalization and improvement"
+    ],
+    "protect against fraud or abuse": [
+     "fraud prevention and security"
+    ],
+    "protect rights or property": [
+     "protect the rights, property, or safety of DeviantArt, our users, employees, agents, or the public"
+    ],
+    "provide our Services": [
+     "help us deliver and improve our services",
+     "service delivery",
+     "service provision and improvement"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service delivery": [
+     "operations"
+    ],
+    "website_customization": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3031,
+  "completion_tokens": 1268,
+  "thinking_tokens": 0,
+  "seconds": 14.547148942947388,
+  "failures": 0
+ },
+ "seconds": 14.6
+}

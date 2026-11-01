@@ -1,0 +1,105 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "transaction data": "financial transaction data",
+    "unique device identifier": "device identifier"
+   },
+   "parents": {
+    "ad interactions": [
+     "browsing and interaction data"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "usage data"
+    ],
+    "communication content": [
+     "correspondence data"
+    ],
+    "communication metadata": [
+     "correspondence data"
+    ],
+    "correspondence data": [
+     "personal data"
+    ],
+    "device identifier": [
+     "personal data"
+    ],
+    "duration of usage": [
+     "service usage timing frequency and pattern"
+    ],
+    "financial transaction data": [
+     "personal data"
+    ],
+    "information provided for in-app notifications": [
+     "notification data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "notification data": [
+     "personal data"
+    ],
+    "operating system": [
+     "usage data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "referring url": [
+     "browsing and interaction data"
+    ],
+    "service usage timing frequency and pattern": [
+     "usage data"
+    ],
+    "transaction details": [
+     "financial transaction data"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "vital interests": "vital interest"
+   },
+   "parents": {
+    "profiling": [
+     "advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1586,
+  "completion_tokens": 396,
+  "thinking_tokens": 0,
+  "seconds": 7.960977077484131,
+  "failures": 0
+ },
+ "seconds": 8.0
+}

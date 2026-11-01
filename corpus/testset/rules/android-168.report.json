@@ -1,0 +1,1037 @@
+{
+ "cleaned_sha256": "android-168",
+ "text_sha256": "6f66c809ad21040b4cea8481482f9808f72f32c70596963d1652d85d20cb8e06",
+ "site_id": "android-168",
+ "sections": 15,
+ "rules": 389,
+ "report": {
+  "sections": 15,
+  "raw_rules": 231,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "operations": [
+      "storage"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "conditions": [
+      "for an additional period to the extent deletion would require us to overwrite our automated disaster recovery backup systems or to the extent we deem it necessary to assert or defend legal claims during any relevant retention period"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "operations": [
+      "erasure or destruction"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "conditions": [
+      "when you withdraw your consent (where applicable)",
+      "provided that we are not legally required or otherwise permitted to continue to hold such personal information"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "directly from our customers, users of our Sites, writers and publishers who publish content on our platform and representatives of entities with which we do business or may do business"
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "data broker",
+      "text": "from data aggregators and data brokers"
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [
+      {
+       "text": "to create profiles about or infer characteristics about individuals",
+       "name": "profiling"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [
+      {
+       "text": "to create profiles about or infer characteristics about individuals",
+       "name": "profiling"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "providing our Services"
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "providing our Services"
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "engage in the automated processing",
+      "verb": "engage"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "operations": [
+      "profiling"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [
+      {
+       "text": "to create profiles about individuals that are used in furtherance of decisions with legal or other similarly significant effects, such as the provision or denial of financial or lending services, housing, insurance, or access to essential goods or services",
+       "name": "profiling"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "name",
+      "text": "name"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "social media handle",
+      "text": "Instagram and Facebook profile links"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "postal address",
+      "text": "your billing address"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "telephone number",
+      "text": "contact numbers"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "user name",
+      "text": "account name"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "password",
+      "text": "password"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "profile avatar",
+      "text": "account avatar"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "ip address",
+      "text": "IP address"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide legal and accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "gender",
+      "text": "sex/gender"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, and provide analytics information"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "social connections",
+      "text": "customers you follow and who follows your account"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate email communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "payment details",
+      "text": "payment information"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that process payments, verify customer information, manage customer information and provide customer service, facilitate email communications, provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, provide analytics information, and provide accounting services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "data": {
+      "name": "website activity",
+      "text": "information regarding your interaction with our Sites and advertisements"
+     },
+     "operations": [
+      "disclosure"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [
+      {
+       "text": "for a business purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the 12 months prior to the date of this Policy"
+     ],
+     "exceptions": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers that provide security services and cloud-based data storage, host our website and assist with other IT-related functions, advertise and market our products, and provide analytics information"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "grants the rights described below",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are a Colorado resident",
+      "Right to Know:",
+      "access such data"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Colorado Privacy Act (\"CPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-168#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "EU/UK Data Privacy Rights",
+      "subject to certain limitations and/or restrictions",
+      "when incorrect, out of date or incomplete",
+      "right to:\ncorrect personal information"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to:\ncorrect personal information"
+    ],
+    "section": "android-168#s15"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 471,
+   "gap_words": 5310
+  },
+  "unsatisfiable_guards": 4,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 91,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 54100,
+  "completion_tokens": 56313,
+  "thinking_tokens": 0,
+  "seconds": 928.4572038650513,
+  "failures": 0
+ },
+ "seconds": 929.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

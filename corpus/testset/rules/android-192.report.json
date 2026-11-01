@@ -1,0 +1,127 @@
+{
+ "cleaned_sha256": "android-192",
+ "text_sha256": "fed8e47f3a8ba9f2bae1696b16a93e255ead894f05cdeb9294c01fc51f7e99be",
+ "site_id": "android-192",
+ "sections": 16,
+ "rules": 199,
+ "report": {
+  "sections": 16,
+  "raw_rules": 140,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "contact",
+     "actor": {
+      "text": "our support team",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "To exercise your rights",
+       "name": "legal compliance"
+      },
+      {
+       "text": "for questions or complaints related to this Policy or the processing of your personal data",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-192#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will edit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your data",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "edit",
+      "verb": "edit"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "in line with your request",
+      "within a period of 7 days from the receipt of the request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will edit"
+    ],
+    "section": "android-192#s11"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 120,
+   "gap_words": 1228
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 18,
+  "translated_quotes": 74,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 48322,
+  "completion_tokens": 32594,
+  "thinking_tokens": 0,
+  "seconds": 765.4865031242371,
+  "failures": 0
+ },
+ "seconds": 766.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

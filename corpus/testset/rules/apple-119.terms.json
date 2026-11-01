@@ -1,0 +1,343 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "sensitive personal information": "sensitive data"
+   },
+   "parents": {
+    "account profile": [
+     "Personal Information"
+    ],
+    "ad engagement data": [
+     "website activity"
+    ],
+    "background and criminal checks": [
+     "criminal history"
+    ],
+    "battery_charge": [
+     "device details"
+    ],
+    "battery_state": [
+     "device details"
+    ],
+    "battery_usage": [
+     "device details"
+    ],
+    "beacons": [
+     "tracking technologies"
+    ],
+    "biometrics": [
+     "sensitive data"
+    ],
+    "browser_type": [
+     "device details"
+    ],
+    "browsing_history": [
+     "website activity"
+    ],
+    "computer_type": [
+     "device details"
+    ],
+    "contact details": [
+     "identifiers"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "credit card number": [
+     "financial info"
+    ],
+    "criminal history": [
+     "sensitive data"
+    ],
+    "de-identified information": [
+     "data"
+    ],
+    "demographic information": [
+     "Personal Information"
+    ],
+    "device details": [
+     "data"
+    ],
+    "education info": [
+     "Personal Information"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "employment info": [
+     "Personal Information"
+    ],
+    "financial info": [
+     "sensitive data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "government identifier": [
+     "identifiers"
+    ],
+    "government-issued id": [
+     "government identifier",
+     "identifiers"
+    ],
+    "hardware_model": [
+     "device details"
+    ],
+    "health": [
+     "sensitive data"
+    ],
+    "identifiers": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "interests": [
+     "personal preferences"
+    ],
+    "ip_address": [
+     "identifiers"
+    ],
+    "mac_address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "os": [
+     "device details"
+    ],
+    "other user data": [
+     "Personal Information"
+    ],
+    "pages_visited": [
+     "website activity"
+    ],
+    "personal preferences": [
+     "Personal Information"
+    ],
+    "phone number": [
+     "contact details",
+     "identifiers"
+    ],
+    "pixel tags": [
+     "tracking technologies"
+    ],
+    "political beliefs": [
+     "sensitive data"
+    ],
+    "postal address": [
+     "contact details",
+     "identifiers"
+    ],
+    "protected class info": [
+     "sensitive data"
+    ],
+    "purchase details": [
+     "financial info"
+    ],
+    "purchase history": [
+     "usage data"
+    ],
+    "race or ethnicity": [
+     "protected class info",
+     "sensitive data"
+    ],
+    "religious beliefs": [
+     "sensitive data"
+    ],
+    "screen_resolution": [
+     "device details"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "social security number": [
+     "government identifier",
+     "identifiers",
+     "sensitive data"
+    ],
+    "software_version": [
+     "device details"
+    ],
+    "special status designations": [
+     "demographic information"
+    ],
+    "time_spent": [
+     "usage data",
+     "website activity"
+    ],
+    "tracking technologies": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "user profile content": [
+     "Personal Information"
+    ],
+    "website activity": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "affiliate",
+    "third-party sponsor": "sponsors"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "advertising partner": [
+     "business partner",
+     "partners",
+     "third party"
+    ],
+    "business partner": [
+     "partners",
+     "third party"
+    ],
+    "data processor": [
+     "service provider"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsors": [
+     "third party"
+    ],
+    "vendors": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user_device": "user device"
+   },
+   "parents": {
+    "data enrichment companies": [
+     "other_sources"
+    ],
+    "joint marketing partners": [
+     "other_sources"
+    ],
+    "marketing companies": [
+     "other_sources"
+    ],
+    "publicly available databases": [
+     "other_sources"
+    ],
+    "service providers": [
+     "other_sources"
+    ],
+    "social network": [
+     "other_sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Dollar General",
+    "third party service provider": "service provider"
+   },
+   "parents": {
+    "Adobe Systems Inc.": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "legal",
+    "provide customer service": "customer support",
+    "sale": "commercial",
+    "services": "service_provision"
+   },
+   "parents": {
+    "cross-context behavioral advertising": [
+     "advertising",
+     "targeted advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "provide targeted advertising and marketing": [
+     "advertising",
+     "marketing"
+    ],
+    "measure_marketing_success": [
+     "marketing"
+    ],
+    "aggregate_statistics": [
+     "analytics"
+    ],
+    "compile_statistics": [
+     "analytics"
+    ],
+    "track_user_activity": [
+     "analytics"
+    ],
+    "order processing and fulfillment": [
+     "provide goods or services requested by user",
+     "service_provision"
+    ],
+    "process payments": [
+     "service_provision"
+    ],
+    "customer support": [
+     "service_provision"
+    ],
+    "provide goods or services requested by user": [
+     "service_provision"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "ensure security and integrity": [
+     "security"
+    ],
+    "counter wrong or unlawful actions": [
+     "legal",
+     "security"
+    ],
+    "vendor_management": [
+     "operations"
+    ],
+    "perform services for our business": [
+     "operations"
+    ],
+    "verify customer information": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2819,
+  "completion_tokens": 1440,
+  "thinking_tokens": 0,
+  "seconds": 12.82525110244751,
+  "failures": 0
+ },
+ "seconds": 12.9
+}

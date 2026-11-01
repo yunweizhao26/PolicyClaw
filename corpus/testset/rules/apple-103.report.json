@@ -1,0 +1,255 @@
+{
+ "cleaned_sha256": "apple-103",
+ "text_sha256": "d34225501b28cf8037a89d4adf96cd75241ae03e6efe4c9fa8e502b0e8571d58",
+ "site_id": "apple-103",
+ "sections": 14,
+ "rules": 406,
+ "report": {
+  "sections": 14,
+  "raw_rules": 343,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "serve",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "serve",
+      "verb": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "ads about other companies tailored to your interests",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Advertising programs: Relevant Ads"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-103#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "serve",
+     "actor": {
+      "text": "our advertising partners",
+      "name": "advertising partners"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "serve",
+      "verb": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "ads about other companies tailored to your interests",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Advertising programs: Relevant Ads"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-103#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "these groups",
+      "name": "audience groups"
+     },
+     "recipient": {
+      "text": "other brands",
+      "name": "other brands"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to provide more tailored offers and ads, enhanced experiences, and campaign measurement",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Advertising programs: Tailored Offers and Ads program"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "apple-103#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "ad IDs",
+      "name": "ad ID"
+     },
+     "recipient": {
+      "text": "other brands",
+      "name": "other brands"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to provide more tailored offers and ads, enhanced experiences, and campaign measurement",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Advertising programs: Tailored Offers and Ads program"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "apple-103#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "insights",
+      "name": "insights"
+     },
+     "recipient": {
+      "text": "other brands",
+      "name": "other brands"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to provide more tailored offers and ads, enhanced experiences, and campaign measurement",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Advertising programs: Tailored Offers and Ads program"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "apple-103#s3"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 98,
+  "completeness": {
+   "gaps": 474,
+   "gap_words": 3248
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 98,
+  "compile_failures": 5,
+  "fixed_structurally": 0,
+  "fixed_by_call": 5
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 58206,
+  "completion_tokens": 54927,
+  "thinking_tokens": 0,
+  "seconds": 686.2300930023193,
+  "failures": 0
+ },
+ "seconds": 687.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

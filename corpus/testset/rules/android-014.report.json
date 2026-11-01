@@ -1,0 +1,207 @@
+{
+ "cleaned_sha256": "android-014",
+ "text_sha256": "216c59ce17428152a88bc8a2b5a39787d61fe4cbd39ced390a896859067c69e1",
+ "site_id": "android-014",
+ "sections": 15,
+ "rules": 307,
+ "report": {
+  "sections": 15,
+  "raw_rules": 253,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "train",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "train",
+      "verb": "train"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "support our products and services including those using generative artificial intelligence",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-014#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our Services"
+     },
+     "conditions": [],
+     "data": {
+      "name": "device notification address",
+      "text": "updates"
+     },
+     "exceptions": [
+      "updating your\nsettings"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "Send",
+     "purpose": [
+      {
+       "text": "Send you updates, including by push notification",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Send you updates, including by push notification"
+    ],
+    "section": "android-014#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our Services"
+     },
+     "conditions": [],
+     "data": {
+      "name": "phone number",
+      "text": "updates"
+     },
+     "exceptions": [
+      "updating your\nsettings"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "Send",
+     "purpose": [
+      {
+       "text": "Send you updates, including by SMS, or phone",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Send you updates, including by SMS, or phone"
+    ],
+    "section": "android-014#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sharing",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "law enforcement",
+      "name": "law enforcement"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "If you live in the EEA, Switzerland, or the UK",
+      "in certain circumstances, transfers can also take place on the basis of exemptions provided under data protection law",
+      "in emergency situations where we learn that a person’s life is at risk"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-014#s13"
+   }
+  ],
+  "residual_quotes": 37,
+  "quotes": 112,
+  "completeness": {
+   "gaps": 391,
+   "gap_words": 3918
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 112,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 56662,
+  "completion_tokens": 46667,
+  "thinking_tokens": 0,
+  "seconds": 351.7468888759613,
+  "failures": 0
+ },
+ "seconds": 353.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

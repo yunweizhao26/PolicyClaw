@@ -1,0 +1,23 @@
+You translate qualifiers of privacy-policy rules into logical formulas.
+
+Formula syntax (JSON):
+- {{"op": "and", "args": [...]}}, {{"op": "or", "args": [...]}}, {{"op": "not", "arg": ...}}
+- {{"op": "bool", "var": NAME}} for a true-or-false variable
+- {{"op": "cmp", "var": NAME, "cmp": "<" or "<=" or ">" or ">=" or "==", "value": INTEGER}} for an integer variable
+- {{"op": "eq", "var": NAME, "value": STRING}} for a variable that takes a value
+- {{"op": "residual", "id": ID, "text": QUOTE}} for any part that the variables below cannot express
+
+Variables (NAME in a variable name is snake_case and names what the variable is about; use the same NAME for the same meaning across all quotes below):
+{variables}
+
+Translate each quote on its own and state what it says positively. A condition quote can contain alternatives or its own exception: "only for as long as necessary, unless the law requires a longer period" holds when the retention is necessary or the law requires it, so return {{"op": "or", "args": [{{"op": "residual", "id": ID, "text": "only for as long as necessary"}}, {{"op": "bool", "var": "law.required"}}]}}. A list of alternatives, any one of which is enough, is an "or". For the exception quote "required by law", return {{"op": "bool", "var": "law.required"}}, not its negation. A quote that names a way to opt out or refuse, such as "Google Analytics Opt-out Browser Add-on", means the user used it: return, for example, {{"op": "bool", "var": "opt_out.google_analytics"}}. Use a variable whenever one fits. Something that the user or the company does, or that happens, is an event, such as "when you contact us" ({{"op": "bool", "var": "event.contact_us"}}) or "if you post a photo" ({{"op": "bool", "var": "event.post_photo"}}). A legal basis, a transfer safeguard, a place of processing, or a retention period uses its variable when the list below has one. Return a residual only for a part that no variable can express, such as "where appropriate". An exception that points to the rest of the policy, such as "except as set forth in this Policy" or "except as described below", means that another part of the policy permits the practice: return {{"op": "bool", "var": "policy.permits"}}. A vague exception whose cases the section does not list is a residual. If a quote does not restrict when, for whom, or in which circumstances the practice applies, such as "at any time" or "as described in this policy", return {{"op": "true"}}.
+
+Section, for context:
+<<<
+{section}
+>>>
+
+Quotes:
+{quotes}
+
+Return only JSON: {{"formulas": {{"<quote id>": FORMULA, ...}}}}

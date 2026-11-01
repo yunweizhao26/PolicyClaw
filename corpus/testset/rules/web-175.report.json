@@ -1,0 +1,188 @@
+{
+ "cleaned_sha256": "web-175",
+ "text_sha256": "73e948879f8d6da8abbebaaa7cde486e94fe03c57fb2323c16c7fb6167536426",
+ "site_id": "web-175",
+ "sections": 11,
+ "rules": 57,
+ "report": {
+  "sections": 11,
+  "raw_rules": 53,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do NOT sell",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user data",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "advertisers",
+      "name": "advertiser"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do NOT sell"
+    ],
+    "section": "web-175#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do NOT sell",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user data",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "third-party marketing firms",
+      "name": "third-party marketing firm"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do NOT sell"
+    ],
+    "section": "web-175#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Anonymization",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Anonymization",
+      "verb": "anonymize"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Where applicable"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-175#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Pseudonymization",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Pseudonymization",
+      "verb": "pseudonymize"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Where applicable"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-175#s8"
+   }
+  ],
+  "residual_quotes": 2,
+  "quotes": 27,
+  "completeness": {
+   "gaps": 65,
+   "gap_words": 379
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 27,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 27786,
+  "completion_tokens": 10361,
+  "thinking_tokens": 0,
+  "seconds": 90.99939107894897,
+  "failures": 0
+ },
+ "seconds": 91.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

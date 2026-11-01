@@ -1,0 +1,167 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie / pixel tag",
+    "financial information": "financial info",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "user_identifier": "user identifier",
+    "user_profile": "user profile"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "app usage": [
+     "user activity"
+    ],
+    "bank account number": [
+     "financial info",
+     "payment details"
+    ],
+    "browsing history": [
+     "user activity"
+    ],
+    "credit card number": [
+     "financial info",
+     "payment details"
+    ],
+    "payment details": [
+     "financial info"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "facial geometry": [
+     "biometric data"
+    ],
+    "imprecise location": [
+     "IP address"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "school name": [
+     "educational history"
+    ],
+    "education qualification": [
+     "educational history"
+    ],
+    "web beacons": [
+     "cookie / pixel tag"
+    ],
+    "pseudonymous identifier": [
+     "user identifier"
+    ],
+    "user agent": [
+     "device information"
+    ],
+    "user segments": [
+     "analytics"
+    ],
+    "personal property records": [
+     "commercial information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Incolore Corporation": [
+     "affiliate"
+    ],
+    "Pixiv Marketing, Inc.": [
+     "affiliate"
+    ],
+    "Pixiv Qualia Inc.": [
+     "affiliate"
+    ],
+    "Pixiv Technologies, Inc.": [
+     "affiliate"
+    ],
+    "payment processor": [
+     "third parties"
+    ],
+    "survey provider": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "compliance",
+    "services": "service_provision"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "user authentication": [
+     "account management"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "service performance": [
+     "operations"
+    ],
+    "customer support": [
+     "service_provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2497,
+  "completion_tokens": 547,
+  "thinking_tokens": 0,
+  "seconds": 9.651395320892334,
+  "failures": 0
+ },
+ "seconds": 9.7
+}

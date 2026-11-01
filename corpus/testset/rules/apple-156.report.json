@@ -1,0 +1,375 @@
+{
+ "cleaned_sha256": "apple-156",
+ "text_sha256": "ce4b18088e7ac83faf5a0057a28a71c905cfc0597cd2ac806444bb72bb02eb64",
+ "site_id": "apple-156",
+ "sections": 27,
+ "rules": 444,
+ "report": {
+  "sections": 27,
+  "raw_rules": 353,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "identity documents",
+      "text": "identity documents"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "name": "ask to upload",
+      "text": "ask you to upload"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may ask",
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to help maintain platform safety, prevent fraud, prevent violations of our terms and policies, and protect your account security",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask you to upload"
+    ],
+    "section": "apple-156#s2"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "user image",
+      "text": "photo or video of yourself"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "name": "ask to take",
+      "text": "ask you to take"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may ask",
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to help maintain platform safety, prevent fraud, prevent violations of our terms and policies, and protect your account security",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask you to take"
+    ],
+    "section": "apple-156#s2"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "user image",
+      "text": "that photo"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "store",
+      "text": "stored"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may also be stored",
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "If you upload a photo for verification purposes"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Biographical Information section above",
+       "name": "Biographical Information section",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may also be stored"
+    ],
+    "section": "apple-156#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information associated with you, including identifiers such as your phone number",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "If you visit any web pages on Clubhouse, with or without being logged into an account; or, if you participate in Clubhouse features or create content as a guest (i.e., where we do not require you to log in or have a registered account)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information associated with you, including identifiers such as your phone number"
+    ],
+    "section": "apple-156#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information associated with you, including identifiers such as your phone number",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "If you visit any web pages on Clubhouse, with or without being logged into an account; or, if you participate in Clubhouse features or create content as a guest (i.e., where we do not require you to log in or have a registered account)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information associated with you, including identifiers such as your phone number"
+    ],
+    "section": "apple-156#s5"
+   },
+   {
+    "rule": {
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "purpose": [],
+     "polarity_text": "",
+     "operation": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-156#s7"
+   },
+   {
+    "rule": {
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "Privacy Policy",
+       "target": "policy_section"
+      },
+      {
+       "text": "Community Guidelines",
+       "name": "Community Guidelines",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "purpose": [],
+     "polarity_text": "",
+     "operation": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-156#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not disclose",
+     "actor": {
+      "text": "Clubhouse",
+      "name": "first party"
+     },
+     "data": {
+      "text": "“sensitive personal information”",
+      "name": "sensitive personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "those specified in section 7027, subsection (m), of the CCPA Regulations"
+     ],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "section 7027, subsection (m), of the CCPA Regulations",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not disclose"
+    ],
+    "section": "apple-156#s15"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use automated decision-making without human intervention, including profiling",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "in a way that produces legal effects concerning you or otherwise significantly affects you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-156#s20"
+   }
+  ],
+  "residual_quotes": 43,
+  "quotes": 202,
+  "completeness": {
+   "gaps": 452,
+   "gap_words": 4619
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 202,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 55,
+  "cached": 0,
+  "prompt_tokens": 100198,
+  "completion_tokens": 72028,
+  "thinking_tokens": 0,
+  "seconds": 979.5434365272522,
+  "failures": 0
+ },
+ "seconds": 981.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

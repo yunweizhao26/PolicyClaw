@@ -1,0 +1,94 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "personal identification information": "personal data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "SSN": [
+     "personal data"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "demographic information": [
+     "aggregate information",
+     "non-personal information"
+    ],
+    "device identifier": [
+     "non-personal information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "feedback": [
+     "user data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "advertising network"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "communication": [
+     "service"
+    ],
+    "customer support": [
+     "service"
+    ],
+    "order fulfillment": [
+     "service"
+    ],
+    "service improvement": [
+     "service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1200,
+  "completion_tokens": 382,
+  "thinking_tokens": 0,
+  "seconds": 6.898958921432495,
+  "failures": 0
+ },
+ "seconds": 7.0
+}

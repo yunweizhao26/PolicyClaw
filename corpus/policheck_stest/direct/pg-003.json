@@ -1,0 +1,22 @@
+{
+ "policy": "pg-003",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Facebook will share with Us, based on the Facebook privacy policy, the information available on your Facebook account, including, without limitation, your profile information, friends’ names, photos, privacy settings and certain other information that will be explained to you (and authorized by you) during the App’s log-in process.",
+   "prohibit": "Currently, Web sites and Apps do not collect Personal Information.",
+   "situation": "A user logs into the App using their Facebook account, transmitting personally identifiable profile details to the App.",
+   "reason": "The policy flatly asserts that Apps do not collect Personal Information, yet explicitly provides that Facebook will share identifying personal profile information with the App.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2336,
+  "completion_tokens": 186,
+  "thinking_tokens": 0,
+  "seconds": 6.838665723800659,
+  "failures": 0
+ }
+}

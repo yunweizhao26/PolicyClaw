@@ -1,0 +1,324 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "cookies": "cookie",
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "account login credential": [
+     "account information"
+    ],
+    "account number": [
+     "financial info"
+    ],
+    "bank debit card number": [
+     "financial info"
+    ],
+    "credit card number": [
+     "financial info"
+    ],
+    "credit history": [
+     "financial info"
+    ],
+    "credit score": [
+     "financial info"
+    ],
+    "financial account transaction": [
+     "financial info"
+    ],
+    "financial preferences": [
+     "financial info"
+    ],
+    "financial status": [
+     "financial info"
+    ],
+    "user income": [
+     "financial info"
+    ],
+    "pin": [
+     "account login credential"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "address": [
+     "contact info"
+    ],
+    "postal address": [
+     "address",
+     "contact info"
+    ],
+    "contact person name": [
+     "contact list",
+     "name"
+    ],
+    "contact list": [
+     "contact info"
+    ],
+    "audio recordings": [
+     "audio video"
+    ],
+    "video footage": [
+     "audio video"
+    ],
+    "photograph": [
+     "audio video"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "device id": [
+     "device data",
+     "user identifiers"
+    ],
+    "ip address": [
+     "device data",
+     "user identifiers"
+    ],
+    "ad interaction data": [
+     "interaction data"
+    ],
+    "browsing behavior": [
+     "interaction data"
+    ],
+    "visit frequency": [
+     "interaction data"
+    ],
+    "browsing history": [
+     "browsing and search history",
+     "interaction data"
+    ],
+    "browsing and search history": [
+     "interaction data"
+    ],
+    "keystrokes": [
+     "interaction data"
+    ],
+    "device location": [
+     "location"
+    ],
+    "precise location": [
+     "device location",
+     "location"
+    ],
+    "driver licence": [
+     "government id"
+    ],
+    "passport number": [
+     "government id"
+    ],
+    "social security number": [
+     "government id"
+    ],
+    "government id": [
+     "person identifiers"
+    ],
+    "education history": [
+     "education info"
+    ],
+    "education qualification": [
+     "education info"
+    ],
+    "employer": [
+     "professional information"
+    ],
+    "citizenship": [
+     "protected classifications"
+    ],
+    "gender": [
+     "protected classifications"
+    ],
+    "marital status": [
+     "protected classifications"
+    ],
+    "race ethncity": [
+     "protected classifications",
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "device data": [
+     "personal data"
+    ],
+    "education info": [
+     "personal data"
+    ],
+    "financial info": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "person identifiers"
+    ],
+    "person identifiers": [
+     "personal data"
+    ],
+    "user identifiers": [
+     "person identifiers"
+    ],
+    "professional information": [
+     "personal data"
+    ],
+    "protected classifications": [
+     "personal data"
+    ],
+    "audio video": [
+     "personal data"
+    ],
+    "interaction data": [
+     "personal data"
+    ],
+    "mobile subscriber details": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "subsidiary": [
+     "affiliate"
+    ],
+    "regulator": [
+     "government agency"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "court": [
+     "government agency"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "marketing company": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "professional advisor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "credit reporting agency": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "public records": [
+     "publicly available personal data"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "our network advertising firm that works with our third-party network advertiser": [
+     "third party"
+    ],
+    "third-party advertising service providers": [
+     "third party"
+    ],
+    "mobile carrier": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business purposes": "business operations",
+    "fraud prevention and security": "fraud detection",
+    "legal compliance": "compliance",
+    "operations": "business operations"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "identity verification": [
+     "fraud detection"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "location-based-service": [
+     "services"
+    ],
+    "marketing": [
+     "provide and market and develop our products and services"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "process transactions": [
+     "order fulfillment",
+     "service provision"
+    ],
+    "security": [
+     "fraud detection"
+    ],
+    "service improvement": [
+     "business operations"
+    ],
+    "service provision": [
+     "provide and market and develop our products and services"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "administer user accounts": [
+     "order fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2751,
+  "completion_tokens": 1118,
+  "thinking_tokens": 0,
+  "seconds": 11.354735851287842,
+  "failures": 0
+ },
+ "seconds": 11.5
+}

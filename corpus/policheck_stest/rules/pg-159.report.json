@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "pg-159",
+ "text_sha256": "a1c10c64f88c2a77c7450a2265b9c8038015204710943187d2ea9ff60f02b33b",
+ "site_id": "pg-159",
+ "sections": 17,
+ "rules": 133,
+ "report": {
+  "sections": 17,
+  "raw_rules": 123,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "accessed",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "public",
+      "text": "the public"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personally identifiable information",
+      "text": "personally identifiable information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "NONE ... can be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-159#s6"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 58,
+  "completeness": {
+   "gaps": 106,
+   "gap_words": 1060
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 58,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 45698,
+  "completion_tokens": 21439,
+  "thinking_tokens": 0,
+  "seconds": 152.77605271339417,
+  "failures": 0
+ },
+ "seconds": 153.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

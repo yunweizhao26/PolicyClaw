@@ -1,0 +1,332 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email addresses": "email address",
+    "information collected": "collected information",
+    "information provided by user": "information provided",
+    "personal information": "personal data",
+    "phone numbers": "phone number",
+    "technical information": "technical data",
+    "user comments": "comments"
+   },
+   "parents": {
+    "AI output": [
+     "information"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "account settings": [
+     "account details"
+    ],
+    "accounts you follow and that follow you": [
+     "account details"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "audio recordings": [
+     "user content"
+    ],
+    "automatically collected information": [
+     "information"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "broadcast video": [
+     "video"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "clipboard images": [
+     "photographs"
+    ],
+    "clipboard text": [
+     "textual content"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "communication preferences": [
+     "account settings"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "contact list": [
+     "personal data"
+    ],
+    "cookie identifier": [
+     "device identifier"
+    ],
+    "cookies": [
+     "technical data"
+    ],
+    "correspondence": [
+     "information provided"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "delivery information": [
+     "transaction details"
+    ],
+    "device identifier": [
+     "technical data"
+    ],
+    "driver license": [
+     "proof of identity"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "friends list": [
+     "account details"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "collected information": [
+     "information"
+    ],
+    "information from other sources": [
+     "information"
+    ],
+    "information provided": [
+     "information"
+    ],
+    "information you submit": [
+     "user input"
+    ],
+    "interests": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "messages": [
+     "user content"
+    ],
+    "metadata": [
+     "technical data"
+    ],
+    "names": [
+     "contact information"
+    ],
+    "online activity": [
+     "usage data"
+    ],
+    "password": [
+     "account details"
+    ],
+    "payment card information": [
+     "financial information"
+    ],
+    "payment details": [
+     "transaction details"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photographs": [
+     "user content"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile picture": [
+     "account details",
+     "photographs"
+    ],
+    "proof of age": [
+     "personal data"
+    ],
+    "proof of identity": [
+     "personal data"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "questions": [
+     "user input"
+    ],
+    "requests": [
+     "correspondence"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "shared information": [
+     "information provided"
+    ],
+    "technical data": [
+     "information"
+    ],
+    "textual content": [
+     "user content"
+    ],
+    "third party account profile": [
+     "information from other sources"
+    ],
+    "transaction details": [
+     "financial information"
+    ],
+    "uploaded files": [
+     "user content"
+    ],
+    "usage data": [
+     "automatically collected information"
+    ],
+    "user content": [
+     "information provided"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "user identifier": [
+     "account details"
+    ],
+    "user input": [
+     "information provided"
+    ],
+    "username": [
+     "account details"
+    ],
+    "video": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "TT Commerce & Global Services": [
+     "first party"
+    ],
+    "affiliates": [
+     "first party"
+    ],
+    "third-party platforms": [
+     "third party"
+    ],
+    "merchants": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "researchers": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "device clipboard": [
+     "user device"
+    ],
+    "device phone book": [
+     "user device"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "third party website": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "business partner"
+    ],
+    "advertising partners": [
+     "business partner"
+    ],
+    "payment processors": [
+     "service provider"
+    ],
+    "support providers": [
+     "service provider"
+    ],
+    "third-party platforms": [
+     "business partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service provision": "provide service",
+    "service_provision": "provide service"
+   },
+   "parents": {
+    "account verification": [
+     "identity verification"
+    ],
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "business_operations",
+     "marketing"
+    ],
+    "marketing": [
+     "business_operations"
+    ],
+    "analytics": [
+     "business_operations"
+    ],
+    "research": [
+     "business_operations"
+    ],
+    "legal dispute": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3057,
+  "completion_tokens": 1157,
+  "thinking_tokens": 0,
+  "seconds": 23.462297677993774,
+  "failures": 0
+ },
+ "seconds": 23.6
+}

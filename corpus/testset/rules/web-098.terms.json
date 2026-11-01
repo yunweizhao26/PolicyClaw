@@ -1,0 +1,171 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "payment information": "billing information"
+   },
+   "parents": {
+    "audio or visual information": [
+     "personal data"
+    ],
+    "billing information": [
+     "personal data",
+     "transaction details"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing and clickstream activity": [
+     "network activity"
+    ],
+    "communications": [
+     "personal data"
+    ],
+    "device information": [
+     "personal data"
+    ],
+    "email address": [
+     "identifiers",
+     "personal data"
+    ],
+    "government-issued id": [
+     "identifiers",
+     "personal data",
+     "sensitive data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "ip address": [
+     "device information",
+     "identifiers",
+     "network activity",
+     "personal data"
+    ],
+    "isp": [
+     "device information",
+     "network activity"
+    ],
+    "language preferences": [
+     "device information"
+    ],
+    "name": [
+     "identifiers",
+     "personal data"
+    ],
+    "network activity": [
+     "personal data"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "phone number": [
+     "identifiers",
+     "personal data"
+    ],
+    "profile inferences": [
+     "personal data"
+    ],
+    "records": [
+     "personal data"
+    ],
+    "referring url": [
+     "browsing and clickstream activity",
+     "network activity"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social media profile information": [
+     "personal data",
+     "user account information"
+    ],
+    "timestamp": [
+     "browsing and clickstream activity",
+     "network activity"
+    ],
+    "transaction details": [
+     "personal data"
+    ],
+    "user account information": [
+     "personal data"
+    ],
+    "user interaction data": [
+     "browsing and clickstream activity",
+     "network activity"
+    ],
+    "username": [
+     "identifiers",
+     "personal data",
+     "user account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "affiliate",
+    "analytics provider": "analytics partners",
+    "promotional partners": "commercial partner",
+    "service providers": "service provider",
+    "social networks": "social network"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {
+    "third-party": "third party sources"
+   },
+   "parents": {
+    "advertising and marketing partners": [
+     "third party sources"
+    ],
+    "social media platform": [
+     "third party sources"
+    ],
+    "third party sources": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Wix"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising analytics": [
+     "other"
+    ],
+    "fraud prevention": [
+     "other"
+    ],
+    "service provision": [
+     "other"
+    ],
+    "targeted advertising": [
+     "other"
+    ],
+    "user account management": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1625,
+  "completion_tokens": 780,
+  "thinking_tokens": 0,
+  "seconds": 25.014148712158203,
+  "failures": 0
+ },
+ "seconds": 25.1
+}

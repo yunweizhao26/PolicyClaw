@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "android-147",
+ "text_sha256": "a519f4ec4fcaace579c44264f70c8aae300f7a5d60b570f4236356562b668cd8",
+ "site_id": "android-147",
+ "sections": 17,
+ "rules": 250,
+ "report": {
+  "sections": 17,
+  "raw_rules": 187,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "placed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "small text file",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "placed",
+      "verb": "place"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to-enter login details each time you visit",
+       "name": "user-preference"
+      }
+     ],
+     "conditions": [
+      "when you visit our Websites or access the Games"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to-enter login details each time you visit"
+    ],
+    "section": "android-147#s6"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 111,
+  "completeness": {
+   "gaps": 193,
+   "gap_words": 1625
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 26,
+  "translated_quotes": 111,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 54527,
+  "completion_tokens": 37552,
+  "thinking_tokens": 918,
+  "seconds": 912.1293256282806,
+  "failures": 0
+ },
+ "seconds": 913.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

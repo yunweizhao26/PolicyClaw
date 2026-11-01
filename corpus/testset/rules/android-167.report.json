@@ -1,0 +1,278 @@
+{
+ "cleaned_sha256": "android-167",
+ "text_sha256": "45fa57a52003e3971c657fe71397a28c6748537a1a7e0c39a40b4178f6649176",
+ "site_id": "android-167",
+ "sections": 14,
+ "rules": 238,
+ "report": {
+  "sections": 14,
+  "raw_rules": 189,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "a hashed or masked identifier (contact information)",
+      "name": "pseudonymous identifier"
+     },
+     "recipient": {
+      "text": "third parties, such as partners and social networks",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to inform the offers we send you",
+       "name": "targeted marketing"
+      },
+      {
+       "text": "for advertising measurement or analytics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "along with connection and usage information about you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "along with connection and usage information about you"
+    ],
+    "section": "android-167#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "affiliate",
+      "text": "Our Related Entities"
+     },
+     "conditions": [
+      "provided that if applicable law requires, your prior consent will be obtained"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "pursuant to that Related Entity’s own policies"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may contact",
+     "purpose": [
+      {
+       "text": "with respect to products and services",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-167#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "automated processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "The above rights are exercisable by you only where applicable law grants you such rights and to the extent that no exception or exemption under applicable law applies",
+      "to the extent applicable and to the extent granted under applicable law"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "exceptions": [
+      "The right to opt-out of automated processing and profiling in furtherance of decisions that produce legal or significantly similar effects"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "right to opt-out",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce legal or significantly similar effects",
+       "name": "unspecified"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-167#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "The above rights are exercisable by you only where applicable law grants you such rights and to the extent that no exception or exemption under applicable law applies",
+      "to the extent applicable and to the extent granted under applicable law"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "exceptions": [
+      "The right to opt-out of automated processing and profiling in furtherance of decisions that produce legal or significantly similar effects"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "right to opt-out",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce legal or significantly similar effects",
+       "name": "unspecified"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-167#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "The following section of this Privacy Policy only applies to Canadian residents.",
+      "The right to request",
+      "The above rights are only exercisable by you where applicable law in the jurisdiction in which you reside actually grant you the right being exerted."
+     ],
+     "exceptions": [
+      "all exemptions and exceptions, as applicable"
+     ],
+     "references": [
+      {
+       "text": "Canadian laws and regulations",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-167#s13"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 106,
+  "completeness": {
+   "gaps": 349,
+   "gap_words": 3973
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 106,
+  "compile_failures": 5,
+  "fixed_structurally": 2,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 60223,
+  "completion_tokens": 39935,
+  "thinking_tokens": 206,
+  "seconds": 796.5793354511261,
+  "failures": 0
+ },
+ "seconds": 797.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

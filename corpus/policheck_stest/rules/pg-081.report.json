@@ -1,0 +1,236 @@
+{
+ "cleaned_sha256": "pg-081",
+ "text_sha256": "d8b419ab9ffe5d6031b976a70bd4499b43f13506a421343c211fd26922eb27a0",
+ "site_id": "pg-081",
+ "sections": 1,
+ "rules": 18,
+ "report": {
+  "sections": 1,
+  "raw_rules": 14,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "the Operator (AllGymnastics)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "them",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "cancelled",
+      "verb": "cancel"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "ask for them to be cancelled"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask for them to be cancelled"
+    ],
+    "section": "pg-081#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "the Operator (AllGymnastics)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "them",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "updated",
+      "verb": "update"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "ask for them to be updated"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask for them to be updated"
+    ],
+    "section": "pg-081#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "the Operator (AllGymnastics)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "them",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "corrected",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "ask for them to be corrected"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask for them to be corrected"
+    ],
+    "section": "pg-081#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "the Operator (AllGymnastics)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "their",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transformation to anonymous format",
+      "verb": "transform"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "ask for their transformation to anonymous format"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask for their transformation to anonymous format"
+    ],
+    "section": "pg-081#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "the Operator (AllGymnastics)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any data held in violation of the law",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "block",
+      "verb": "block"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "ask to block any data held in violation of the law"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask to block any data held in violation of the law"
+    ],
+    "section": "pg-081#s1"
+   }
+  ],
+  "residual_quotes": 0,
+  "quotes": 5,
+  "completeness": {
+   "gaps": 38,
+   "gap_words": 420
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 5,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 4029,
+  "completion_tokens": 2670,
+  "thinking_tokens": 0,
+  "seconds": 17.334741353988647,
+  "failures": 0
+ },
+ "seconds": 17.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

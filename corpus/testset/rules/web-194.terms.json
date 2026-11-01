@@ -1,0 +1,107 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "personal data": "PII",
+    "referrer URL": "referral data",
+    "web beacon": "pixel tag"
+   },
+   "parents": {
+    "IP address": [
+     "automatically collected info",
+     "log information"
+    ],
+    "access date and time": [
+     "automatically collected info",
+     "log information"
+    ],
+    "browser and OS": [
+     "automatically collected info",
+     "log information"
+    ],
+    "browsing behavior": [
+     "automatically collected info"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "domain name": [
+     "automatically collected info",
+     "log information"
+    ],
+    "referral data": [
+     "automatically collected info",
+     "log information"
+    ],
+    "log information": [
+     "automatically collected info"
+    ],
+    "anonymous website visit info": [
+     "general website visit info"
+    ],
+    "general website visit info": [
+     "automatically collected info"
+    ],
+    "automatically collected info": [
+     "collected information"
+    ],
+    "collected information": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "PII": [
+     "information"
+    ],
+    "other data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party vendors": "service providers"
+   },
+   "parents": {
+    "Google Analytics": [
+     "contracted entities",
+     "service providers"
+    ],
+    "contracted entities": [
+     "service providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "service improvement": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1281,
+  "completion_tokens": 458,
+  "thinking_tokens": 0,
+  "seconds": 7.354844570159912,
+  "failures": 0
+ },
+ "seconds": 7.4
+}

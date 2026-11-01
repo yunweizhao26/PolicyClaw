@@ -1,0 +1,115 @@
+{
+ "cleaned_sha256": "android-086",
+ "text_sha256": "f84500dec3df527f59fd5e3eaa6f99364cb22bbc2def90e70fdf7c1d2c5e97b1",
+ "site_id": "android-086",
+ "sections": 12,
+ "rules": 206,
+ "report": {
+  "sections": 12,
+  "raw_rules": 186,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not ... have access to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your account credentials with such third-party services",
+      "name": "account credentials"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-086#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "solicit",
+      "verb": "solicit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "any personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly solicit",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "children",
+      "text": "from children under 18 (or older if required in an applicable jurisdiction to comply with applicable laws)"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly solicit"
+    ],
+    "section": "android-086#s8"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 87,
+  "completeness": {
+   "gaps": 372,
+   "gap_words": 3473
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 87,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 48035,
+  "completion_tokens": 36304,
+  "thinking_tokens": 0,
+  "seconds": 286.86068081855774,
+  "failures": 0
+ },
+ "seconds": 287.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,904 @@
+{
+ "cleaned_sha256": "android-072",
+ "text_sha256": "97365e68f487e8a77246b73bab5d64934a96d63ce849e0a700d8269d7d482353",
+ "site_id": "android-072",
+ "sections": 6,
+ "rules": 24,
+ "report": {
+  "sections": 6,
+  "raw_rules": 24,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to write",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "files on external storage (SD card, USB flash)",
+      "name": "files on external storage"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "write",
+      "verb": "write"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to read and write files on external storage (SD card, USB flash)",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE (Android pre 11) or MANAGE_EXTERNAL_STORAGE (Android 11+)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to write"
+    ],
+    "section": "android-072#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "姓名",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集",
+     "姓名"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "姓名",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "姓名"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "姓名",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售",
+     "姓名"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电子邮件地址",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电子邮件地址",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电子邮件地址",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电话号码",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电话号码",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "电话号码",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "信用卡",
+      "name": "credit card number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "信用卡",
+      "name": "credit card number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "信用卡",
+      "name": "credit card number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "使用应用程序的信息",
+      "name": "app usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集",
+     "使用应用程序的信息"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "使用应用程序的信息",
+      "name": "app usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "使用应用程序的信息"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "使用应用程序的信息",
+      "name": "app usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售",
+     "使用应用程序的信息"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "任何其他数据",
+      "name": "other data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "收集",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "收集",
+     "任何其他数据"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "任何其他数据",
+      "name": "other data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "转让",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "任何其他数据"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "不会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "任何其他数据",
+      "name": "other data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "出售",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "不会",
+     "ZArchiver",
+     "出售",
+     "任何其他数据"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "会",
+     "actor": {
+      "text": "ZArchiver",
+      "name": "first party"
+     },
+     "data": {
+      "text": "存档密码",
+      "name": "password"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "存储",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "以便访问加密文件",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "在一段时间内"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "会",
+     "ZArchiver",
+     "存储",
+     "存档密码",
+     "在一段时间内"
+    ],
+    "section": "android-072#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "读取",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "外部存储器（SD卡，USB闪存）上的文件",
+      "name": "files on external storage"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "外部存储器（SD卡，USB闪存）",
+      "name": "external storage"
+     },
+     "action": {
+      "text": "读取",
+      "verb": "read"
+     },
+     "operation": "retrieval",
+     "purpose": [],
+     "conditions": [
+      "READ_EXTERNAL_STORAGE 和 WRITE_EXTERNAL_STORAGE (Android 11以前) 或 MANAGE_EXTERNAL_STORAGE (Android 11以上)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "读取",
+     "读取",
+     "外部存储器（SD卡，USB闪存）上的文件",
+     "外部存储器（SD卡，USB闪存）"
+    ],
+    "section": "android-072#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "写入",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "外部存储器（SD卡，USB闪存）上的文件",
+      "name": "files on external storage"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "写入",
+      "verb": "write"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "READ_EXTERNAL_STORAGE 和 WRITE_EXTERNAL_STORAGE (Android 11以前) 或 MANAGE_EXTERNAL_STORAGE (Android 11以上)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "写入",
+     "写入",
+     "外部存储器（SD卡，USB闪存）上的文件"
+    ],
+    "section": "android-072#s6"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 4,
+  "completeness": {
+   "gaps": 27,
+   "gap_words": 183
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 4,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 10778,
+  "completion_tokens": 6072,
+  "thinking_tokens": 0,
+  "seconds": 51.08296751976013,
+  "failures": 0
+ },
+ "seconds": 51.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

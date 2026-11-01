@@ -1,0 +1,30 @@
+{
+ "policy": "pg-022",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "We may lease, rent, sell or share this information with any third parties to the extent legally possible.",
+   "prohibit": "TextMe does not sell personal information.",
+   "situation": "When TextMe handles personal information of users, specifically regarding whether it sells that information to third parties.",
+   "reason": "One provision explicitly claims TextMe does not sell personal information, while another states TextMe may sell this information to any third parties without an exception reconciling them.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We may use third parties to provide hosting, data storage, and direct marketing services. We may lease, rent, sell or share this information with any third parties to the extent legally possible.",
+   "prohibit": "We do not currently share personal information with third parties for their direct marketing purposes.",
+   "situation": "Sharing user personal information with third parties for their direct marketing purposes.",
+   "reason": "One sentence states TextMe does not share personal information with third parties for their direct marketing, while the other permits sharing or selling information with third parties for direct marketing services.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 7405,
+  "completion_tokens": 290,
+  "thinking_tokens": 0,
+  "seconds": 3.458432912826538,
+  "failures": 0
+ }
+}

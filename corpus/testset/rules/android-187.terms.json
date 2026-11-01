@@ -1,0 +1,89 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal data": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "user name": "user account name"
+   },
+   "parents": {
+    "Personal Data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "contact data": [
+     "Personal Data",
+     "data"
+    ],
+    "email address": [
+     "Personal Data",
+     "contact data"
+    ],
+    "ip address": [
+     "Personal Data",
+     "data"
+    ],
+    "account information": [
+     "data"
+    ],
+    "social media profile": [
+     "account information"
+    ],
+    "user account name": [
+     "account information"
+    ],
+    "user id": [
+     "Personal Data",
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Webbium AB": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Webbium AB"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation"
+   },
+   "parents": {
+    "dispute resolution": [
+     "compliance with legal obligation"
+    ],
+    "enforcement of agreements": [
+     "compliance with legal obligation"
+    ],
+    "customer support": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1032,
+  "completion_tokens": 517,
+  "thinking_tokens": 0,
+  "seconds": 8.451529026031494,
+  "failures": 0
+ },
+ "seconds": 8.5
+}

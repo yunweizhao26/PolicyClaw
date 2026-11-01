@@ -1,0 +1,431 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "analytics data": "analytics",
+    "automatically collected information": "automatically collected data",
+    "browsing-history": "browsing history",
+    "contact information": "contact details",
+    "cookies and tracking technologies": "cookies and related technologies",
+    "derived metrics": "derived interaction metrics",
+    "interaction metrics": "derived interaction metrics",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "traffic data": "traffic",
+    "transcripts": "transcript",
+    "usage information": "usage data",
+    "user ID": "account identifier",
+    "user behavior": "browsing behavior",
+    "user feedback": "survey responses",
+    "user preferences": "preferences",
+    "user profile": "profile data",
+    "user-provided information": "user-provided data",
+    "voice audio": "audio"
+   },
+   "parents": {
+    "account log-in": [
+     "user identifier"
+    ],
+    "approximate location": [
+     "geographic location",
+     "location",
+     "location data"
+    ],
+    "audiovisual data": [
+     "multimedia content"
+    ],
+    "call recordings": [
+     "audiovisual data"
+    ],
+    "chat logs": [
+     "chat message content"
+    ],
+    "chat message content": [
+     "message contents"
+    ],
+    "comment content": [
+     "user content"
+    ],
+    "country": [
+     "location"
+    ],
+    "customer ID": [
+     "user identifier"
+    ],
+    "customer support records": [
+     "records"
+    ],
+    "derived interaction metrics": [
+     "inferences"
+    ],
+    "device type": [
+     "internet and network activity"
+    ],
+    "email address": [
+     "contact details",
+     "user identifier"
+    ],
+    "email link clicks": [
+     "interaction details"
+    ],
+    "email opening status": [
+     "interaction details"
+    ],
+    "email read count": [
+     "interaction details"
+    ],
+    "facial recognition templates": [
+     "sensitive data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "followed links": [
+     "browsing activity"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "geographic location": [
+     "location",
+     "location data"
+    ],
+    "IP address": [
+     "internet and network activity"
+    ],
+    "job title": [
+     "professional or employment-related information"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "last name": [
+     "name"
+    ],
+    "location data": [
+     "information"
+    ],
+    "log data": [
+     "internet and network activity"
+    ],
+    "message contents": [
+     "user content"
+    ],
+    "military status": [
+     "demographic data"
+    ],
+    "mouse activity": [
+     "usage data"
+    ],
+    "national identification number": [
+     "sensitive data"
+    ],
+    "network device identifiers": [
+     "unique identifier"
+    ],
+    "operating system": [
+     "internet and network activity"
+    ],
+    "organization name": [
+     "professional or employment-related information"
+    ],
+    "payment card number": [
+     "payment details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise location": [
+     "location",
+     "location data"
+    ],
+    "preferred language": [
+     "preferences"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "push notification token": [
+     "unique identifier"
+    ],
+    "region": [
+     "location"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "service usage data": [
+     "usage data"
+    ],
+    "session data": [
+     "usage data"
+    ],
+    "speech-to-text transcription": [
+     "transcript"
+    ],
+    "state / province / country of residence": [
+     "location"
+    ],
+    "system logs": [
+     "log data"
+    ],
+    "technical and analytics data": [
+     "analytics"
+    ],
+    "testimonial": [
+     "user content"
+    ],
+    "transcript": [
+     "multimedia content"
+    ],
+    "unique identifier": [
+     "user identifier"
+    ],
+    "usage and device information": [
+     "usage data"
+    ],
+    "usage data": [
+     "automatically collected data"
+    ],
+    "account identifier": [
+     "user identifier"
+    ],
+    "user interests": [
+     "interests"
+    ],
+    "profile data": [
+     "user data"
+    ],
+    "username": [
+     "user identifier"
+    ],
+    "vector embeddings": [
+     "derived data"
+    ],
+    "video recording": [
+     "audiovisual data",
+     "video"
+    ],
+    "viewing activity": [
+     "usage data"
+    ],
+    "visit date and time": [
+     "date and time"
+    ],
+    "visited pages": [
+     "browsing activity"
+    ],
+    "visitor movements": [
+     "browsing activity"
+    ],
+    "vocal geometry": [
+     "sensitive data"
+    ],
+    "audio": [
+     "audiovisual data"
+    ],
+    "voiceprints": [
+     "sensitive data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "marketing partners": "marketing partner",
+    "public authority": "public authorities",
+    "third party": "third parties"
+   },
+   "parents": {
+    "analytics providers": [
+     "service providers",
+     "third parties"
+    ],
+    "social networks": [
+     "third parties"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "public authorities": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "third-party service providers": [
+     "service providers",
+     "third parties"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party data providers": "information broker",
+    "user device": "device"
+   },
+   "parents": {
+    "brand partnerships": [
+     "business partner"
+    ],
+    "browser": [
+     "device"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "call recordings": [
+     "transcripts"
+    ],
+    "children": [
+     "user"
+    ],
+    "customer": [
+     "user"
+    ],
+    "information broker": [
+     "third party"
+    ],
+    "publicly available sources": [
+     "other sources"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Palo Alto Networks",
+    "third-party partner": "third party partner",
+    "third-party provider": "third party provider"
+   },
+   "parents": {
+    "Adobe Analytics": [
+     "service provider",
+     "third party",
+     "third party provider"
+    ],
+    "Facebook": [
+     "social network",
+     "third party"
+    ],
+    "Line": [
+     "social network",
+     "third party"
+    ],
+    "LinkedIn": [
+     "social network",
+     "third party"
+    ],
+    "Quora": [
+     "social network",
+     "third party"
+    ],
+    "Reddit": [
+     "social network",
+     "third party"
+    ],
+    "Twitter": [
+     "social network",
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "third party provider": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer support": "customer service",
+    "fraud_detection_and_prevention": "fraud prevention",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "services": "service provision",
+    "user support": "customer service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "user verification": [
+     "authentication",
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service personalization": [
+     "personalization"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "streamline administration": [
+     "service administration"
+    ],
+    "maintain customer account health": [
+     "relationship management"
+    ],
+    "optimize sales force effectiveness": [
+     "business operations"
+    ],
+    "run business": [
+     "business operations"
+    ],
+    "service administration": [
+     "business operations"
+    ],
+    "customer service": [
+     "relationship management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5130,
+  "completion_tokens": 1993,
+  "thinking_tokens": 0,
+  "seconds": 16.338582038879395,
+  "failures": 0
+ },
+ "seconds": 16.4
+}

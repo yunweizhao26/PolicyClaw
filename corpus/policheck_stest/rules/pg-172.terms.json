@@ -1,0 +1,353 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising_id": "advertising identifier",
+    "commercial_information": "commercial information",
+    "email_address": "email address",
+    "geolocation information": "geolocation",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "service_usage_data": "interaction details",
+    "unspecified data": "information",
+    "user data": "information about the user",
+    "user_provided_data": "information provided"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "identifiers"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifiers"
+    ],
+    "advertising data": [
+     "online activity"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "bluetooth_signal": [
+     "network_connection_data"
+    ],
+    "wifi_network": [
+     "network_connection_data"
+    ],
+    "browser type": [
+     "browser_information"
+    ],
+    "browser_information": [
+     "device information"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "browsing behavior": [
+     "online activity"
+    ],
+    "clicks": [
+     "browsing behavior"
+    ],
+    "pages visited": [
+     "browsing history"
+    ],
+    "cookies": [
+     "tracking mechanisms"
+    ],
+    "remarketing cookies": [
+     "cookies"
+    ],
+    "pixels": [
+     "tracking mechanisms"
+    ],
+    "country": [
+     "location information"
+    ],
+    "geolocation": [
+     "location information"
+    ],
+    "location": [
+     "location information"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "device usage information": [
+     "device information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "physical_address": [
+     "location information",
+     "personal data"
+    ],
+    "password": [
+     "account information"
+    ],
+    "employer": [
+     "personal data"
+    ],
+    "job applications": [
+     "personal data"
+    ],
+    "resume": [
+     "job applications"
+    ],
+    "loyalty_card_number": [
+     "account information",
+     "identifiers"
+    ],
+    "social media account details": [
+     "social_media_account"
+    ],
+    "social_media_account": [
+     "account information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "social media content": [
+     "user_content"
+    ],
+    "photo": [
+     "user_content"
+    ],
+    "video": [
+     "user_content"
+    ],
+    "receipt": [
+     "commercial information"
+    ],
+    "shopping_list": [
+     "commercial information"
+    ],
+    "search history": [
+     "online activity"
+    ],
+    "service_feature_usage": [
+     "interaction details"
+    ],
+    "time spent": [
+     "interaction details"
+    ],
+    "usage_timestamp": [
+     "timestamp"
+    ],
+    "personal data": [
+     "information about the user"
+    ],
+    "information provided": [
+     "information about the user"
+    ],
+    "information about the user": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertisers using affiliate networks": [
+     "advertiser"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "Alida": [
+     "third parties"
+    ],
+    "Facebook": [
+     "social network",
+     "third parties"
+    ],
+    "Foursquare Labs, Inc.": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "Greenhouse": [
+     "third parties"
+    ],
+    "LiveRamp": [
+     "advertiser",
+     "third parties"
+    ],
+    "marketing automation service providers": [
+     "third parties"
+    ],
+    "service providers of advertisers": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ],
+    "affiliate program networks": [
+     "third parties"
+    ],
+    "companies that incorporate our technology into their services": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "advertising partner": "Advertising Partners"
+   },
+   "parents": {
+    "Advertising Partners": [
+     "partners",
+     "third party",
+     "third_parties"
+    ],
+    "Alida": [
+     "third party",
+     "third_parties"
+    ],
+    "Facebook": [
+     "Facebook, Google, Pinterest, and Twitter",
+     "third party",
+     "third_parties"
+    ],
+    "Google": [
+     "Facebook, Google, Pinterest, and Twitter",
+     "third party",
+     "third_parties"
+    ],
+    "Pinterest": [
+     "Facebook, Google, Pinterest, and Twitter",
+     "third party",
+     "third_parties"
+    ],
+    "Twitter": [
+     "Facebook, Google, Pinterest, and Twitter",
+     "third party",
+     "third_parties"
+    ],
+    "Greenhouse database": [
+     "Greenhouse"
+    ],
+    "Greenhouse": [
+     "third party",
+     "third_parties"
+    ],
+    "LiveRamp": [
+     "third party",
+     "third_parties"
+    ],
+    "third party website": [
+     "third party",
+     "third_parties"
+    ],
+    "third_party_service_providers": [
+     "third party",
+     "third_parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Foursquare Labs, Inc.": "Foursquare",
+    "partner": "our partners"
+   },
+   "parents": {
+    "Google Analytics": [
+     "analytics provider"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "Braze": [
+     "third party"
+    ],
+    "Greenhouse": [
+     "third party"
+    ],
+    "AppsFlyer": [
+     "third party"
+    ],
+    "Foursquare": [
+     "third party"
+    ],
+    "Google and Facebook": [
+     "third party"
+    ],
+    "our partners": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation",
+    "security": "fraud prevention and security"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service improvement": [
+     "product development and improvement",
+     "service operation and improvement"
+    ],
+    "service operation and improvement": [
+     "product development and improvement"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "user preferences": [
+     "personalisation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3217,
+  "completion_tokens": 1891,
+  "thinking_tokens": 0,
+  "seconds": 55.53251504898071,
+  "failures": 0
+ },
+ "seconds": 55.6
+}

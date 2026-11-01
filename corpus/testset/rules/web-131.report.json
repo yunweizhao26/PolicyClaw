@@ -1,0 +1,895 @@
+{
+ "cleaned_sha256": "web-131",
+ "text_sha256": "d370f131d197272b2b6d6b60ac9280b7f4ae59af92d65d0e898058b0f8e6dcc0",
+ "site_id": "web-131",
+ "sections": 43,
+ "rules": 723,
+ "report": {
+  "sections": 43,
+  "raw_rules": 549,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collects",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Riskified",
+      "text": "Riskified"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing behavior",
+      "text": "information on your behaviour in our checkout process"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information on your behaviour in our checkout process"
+    ],
+    "section": "web-131#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "Riskified",
+      "text": "Riskified"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing behavior",
+      "text": "information on your behaviour in our checkout process"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information on your behaviour in our checkout process"
+    ],
+    "section": "web-131#s10"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will process",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [],
+     "conditions": [
+      "as part of these communications"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "record",
+      "verb": "record"
+     },
+     "data": {
+      "name": "phone call audio",
+      "text": "dialer and zoom calls"
+     },
+     "operations": [
+      "recording"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may record",
+     "recipient": {
+      "name": "Salesloft, Inc.",
+      "text": "Salesloft, Inc., 1180 West Peachtree St NW Suite 2400, Atlanta, GA 30309"
+     },
+     "source": {
+      "name": "prospects and customers",
+      "text": "prospects and customers"
+     },
+     "purpose": [
+      {
+       "text": "In order to continue to provide excellent customer service and to continuously improve it",
+       "name": "customer service"
+      },
+      {
+       "text": "for internal training and coaching",
+       "name": "training and education"
+      },
+      {
+       "text": "for documentation purposes",
+       "name": "documentation"
+      }
+     ],
+     "conditions": [
+      "in certain countries",
+      "with their consent",
+      "using the Salesloft platform provided by Salesloft, Inc., 1180 West Peachtree St NW Suite 2400, Atlanta, GA 30309"
+     ],
+     "exceptions": [
+      "end the call",
+      "ask the team to switch off the recording or transcription at any time",
+      "opt out when you join the call"
+     ],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "transcribe",
+      "verb": "transcribe"
+     },
+     "data": {
+      "name": "phone call audio",
+      "text": "dialer and zoom calls"
+     },
+     "operations": [
+      "adaptation or alteration"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "recipient": {
+      "name": "Salesloft, Inc.",
+      "text": "Salesloft, Inc., 1180 West Peachtree St NW Suite 2400, Atlanta, GA 30309"
+     },
+     "source": {
+      "name": "prospects and customers",
+      "text": "prospects and customers"
+     },
+     "purpose": [
+      {
+       "text": "In order to continue to provide excellent customer service and to continuously improve it",
+       "name": "customer service"
+      },
+      {
+       "text": "for internal training and coaching",
+       "name": "training and education"
+      },
+      {
+       "text": "for documentation purposes",
+       "name": "documentation"
+      }
+     ],
+     "conditions": [
+      "in certain countries",
+      "with their consent",
+      "using the Salesloft platform provided by Salesloft, Inc., 1180 West Peachtree St NW Suite 2400, Atlanta, GA 30309"
+     ],
+     "exceptions": [
+      "end the call",
+      "ask the team to switch off the recording or transcription at any time",
+      "opt out when you join the call"
+     ],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "create an automated transcript and summary of",
+      "verb": "create"
+     },
+     "data": {
+      "name": "call transcript",
+      "text": "video and telephone meetings"
+     },
+     "operations": [
+      "adaptation or alteration"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may also create",
+     "recipient": {
+      "name": "Granola, Inc.",
+      "text": "Granola, Inc.- 1151 Walker Rd Ste 417, Dover, DE 19904, United States"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for note-taking purposes",
+       "name": "note taking"
+      },
+      {
+       "text": "for internal training and coaching",
+       "name": "training and education"
+      },
+      {
+       "text": "for documentation purposes",
+       "name": "documentation"
+      }
+     ],
+     "conditions": [
+      "with the consent of the participants",
+      "using the Granola service provided by Granola, Inc.- 1151 Walker Rd Ste 417, Dover, DE 19904, United States"
+     ],
+     "exceptions": [
+      "end the call",
+      "ask the team to switch off the recording or transcription at any time",
+      "opt out when you join the call"
+     ],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "data": {
+      "name": "call transcript",
+      "text": "recorded calls, including transcriptions"
+     },
+     "operations": [
+      "storage"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will be securely stored",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "for a period of two years from the date of the call"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "section 23",
+       "name": "policy_section"
+      }
+     ],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "data": {
+      "name": "phone call recording",
+      "text": "recordings"
+     },
+     "operations": [
+      "erasure or destruction"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will be automatically deleted",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "After this period"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "section 23",
+       "name": "policy_section"
+      }
+     ],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "sales contact forms"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "recipient": {
+      "name": "HubSpot",
+      "text": "HubSpot"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "For the provision of our contact forms",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "section 14",
+       "name": "policy_section"
+      }
+     ],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "customer database",
+      "text": "customer database, which includes our existing and potential customers"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "recipient": {
+      "name": "Salesforce.com Germany GmbH",
+      "text": "Salesforce.com Germany GmbH, Erika-Mann-Str. 31, 80636 München, Deutschland"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to manage our customer database, which includes our existing and potential customers",
+       "name": "customer relationship management"
+      },
+      {
+       "text": "to organize sales and communication processes",
+       "name": "business operations"
+      },
+      {
+       "text": "to analyse our customer-related processes",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "email address",
+      "text": "valid email address"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "recipient": {
+      "name": "Zendesk Inc.",
+      "text": "Zendesk Inc."
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [
+      {
+       "text": "so that we know who the inquiry comes from",
+       "name": "user identification"
+      },
+      {
+       "text": "can respond to it",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "If you contact our support team with questions about your subscription, for example via our contact form"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s27"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "match",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data on how you interact with and use our services",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "match",
+      "verb": "match"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "In order for us to properly analyse the survey results",
+       "name": "analytics"
+      },
+      {
+       "text": "to get better insights on how our users respond to our services",
+       "name": "analytics"
+      },
+      {
+       "text": "to improve our DeepL product offering deceit and services based on the collected survey information",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [
+      "where you have provided us with your consent to do so, which we will collect when you submit the survey form"
+     ],
+     "exceptions": [
+      "sending an email to privacy(at)deepl.com"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to improve our DeepL product offering deceit and services based on the collected survey information"
+    ],
+    "section": "web-131#s30"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may reach out to",
+     "actor": {
+      "text": "DeepL",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reach out to",
+      "verb": "reach out to"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to ask about your experience and/or satisfaction with our products",
+       "name": "customer service"
+      }
+     ],
+     "conditions": [
+      "occasionally"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may reach out to"
+    ],
+    "section": "web-131#s30"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not take place",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Automated decision-making",
+      "verb": "make a decision"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art. 22 GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-131#s35"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "restrict use",
+      "verb": "restrict"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you wish to exercise any of the rights listed below, please contact us at the above address",
+      "Should you wish to restrict use",
+      "as far as legally possible"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "restriction",
+     "polarity": "ALLOW",
+     "polarity_text": "will comply with your request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-131#s39"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have any access to",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "Cloudflare, Inc",
+      "text": "Cloudflare"
+     },
+     "conditions": [],
+     "data": {
+      "name": "input content",
+      "text": "translation requests"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s41"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have any access to",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "Cloudflare, Inc",
+      "text": "Cloudflare"
+     },
+     "conditions": [],
+     "data": {
+      "name": "customer data",
+      "text": "other customer data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s41"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have any access to",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "Cloudflare, Inc",
+      "text": "Cloudflare"
+     },
+     "conditions": [],
+     "data": {
+      "name": "metadata",
+      "text": "meta-data (such as your IP address)"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "only to",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-131#s41"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "We use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "UserTesting, Inc.",
+      "name": "UserTesting"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use a service provided by",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to conduct interviews with you",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-131#s42"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "We use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Zoom Video Communications, Inc. (\"Zoom\")",
+      "name": "Zoom Video Communications"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use a service provided by",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Host Webinars",
+       "name": "services"
+      },
+      {
+       "text": "on whose platform the webinars are held",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-131#s42"
+   }
+  ],
+  "residual_quotes": 107,
+  "quotes": 328,
+  "completeness": {
+   "gaps": 813,
+   "gap_words": 7087
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 24,
+  "translated_quotes": 328,
+  "compile_failures": 14,
+  "fixed_structurally": 4,
+  "fixed_by_call": 10
+ },
+ "usage": {
+  "calls": 84,
+  "cached": 0,
+  "prompt_tokens": 155820,
+  "completion_tokens": 113861,
+  "thinking_tokens": 0,
+  "seconds": 898.1107840538025,
+  "failures": 0
+ },
+ "seconds": 901.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

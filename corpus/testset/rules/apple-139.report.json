@@ -1,0 +1,965 @@
+{
+ "cleaned_sha256": "apple-139",
+ "text_sha256": "629f5c321b3c4bbf26d008c830642fa3d9fed9d2c568a4fc31664cf31a5deaa1",
+ "site_id": "apple-139",
+ "sections": 26,
+ "rules": 273,
+ "report": {
+  "sections": 26,
+  "raw_rules": 219,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "has access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "the provider"
+     },
+     "conditions": [
+      "In doing so"
+     ],
+     "data": {
+      "name": "usage data",
+      "text": "your Usage Information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "has access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-139#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Toyota"
+     },
+     "conditions": [
+      "depending on your interaction with us, including the types of products or services you use",
+      "in the United States"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "from you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "depending on your interaction with us, including the types of products or services you use"
+    ],
+    "section": "apple-139#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in the United States"
+     ],
+     "data": {
+      "name": "contact and demographic information",
+      "text": "Contact and Demographic Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may have disclosed",
+     "purpose": [
+      {
+       "text": "Customer support (customer relationship management, manage customer service requests, manage open customer matters, system records of interactions with customers across multiple touchpoints)",
+       "name": "customer support"
+      },
+      {
+       "text": "Roadside assistance (emergency road assistance such as tow services, fuel)",
+       "name": "roadside assistance"
+      },
+      {
+       "text": "Vehicle services (service reminders, warranty, express maintenance)",
+       "name": "vehicle services"
+      }
+     ],
+     "references": [
+      {
+       "text": "How We Use The Information We Collect",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers and/or contractors, such as cloud hosting, data analysis, payment processing, order fulfillment, customer service, advertising, and marketing vendors"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-139#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in the United States"
+     ],
+     "data": {
+      "name": "contact and demographic information",
+      "text": "Contact and Demographic Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may have disclosed",
+     "purpose": [
+      {
+       "text": "Customer support (customer relationship management, manage customer service requests, manage open customer matters, system records of interactions with customers across multiple touchpoints)",
+       "name": "customer support"
+      },
+      {
+       "text": "Roadside assistance (emergency road assistance such as tow services, fuel)",
+       "name": "roadside assistance"
+      },
+      {
+       "text": "Vehicle services (service reminders, warranty, express maintenance)",
+       "name": "vehicle services"
+      }
+     ],
+     "references": [
+      {
+       "text": "How We Use The Information We Collect",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "other parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-139#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in the United States"
+     ],
+     "data": {
+      "name": "product and service data",
+      "text": "Product and Service Data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may have disclosed",
+     "purpose": [
+      {
+       "text": "Dealer service support (identify and provide services to the consumer, improve timing during dealer visits, and enhance overall dealership experience)",
+       "name": "service support"
+      }
+     ],
+     "references": [
+      {
+       "text": "How We Use The Information We Collect",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "Service providers and/or contractors, such as cloud hosting, data analysis, payment processing, order fulfillment, customer service, advertising, and marketing vendors"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-139#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in the United States"
+     ],
+     "data": {
+      "name": "product and service data",
+      "text": "Product and Service Data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may have disclosed",
+     "purpose": [
+      {
+       "text": "Dealer service support (identify and provide services to the consumer, improve timing during dealer visits, and enhance overall dealership experience)",
+       "name": "service support"
+      }
+     ],
+     "references": [
+      {
+       "text": "How We Use The Information We Collect",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "How We Disclose Information section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "other parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-139#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "minors under the age of 18",
+      "opting out of the sale or sharing of your Personal Information"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may sell",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [
+      {
+       "text": "Your Privacy Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "minors under the age of 18",
+      "opting out of the sale or sharing of your Personal Information"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [
+      {
+       "text": "Your Privacy Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "of minors under the age of 18"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly sell",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "of minors under the age of 18"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly share",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "of minors under the age of 18"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly use",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "of minors under the age of 18"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "mobile phone numbers that are collected by Toyota exclusively and solely for SMS purposes"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may have sold",
+     "purpose": [
+      {
+       "text": "To provide advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "vehicle financing, insurance, and satellite radio subscription services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "mobile phone numbers that are collected by Toyota exclusively and solely for SMS purposes"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "purpose": [
+      {
+       "text": "To provide advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "vehicle financing, insurance, and satellite radio subscription services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Toyota"
+     },
+     "conditions": [
+      "collected by Toyota exclusively and solely for SMS purposes"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "will not be shared",
+     "purpose": [
+      {
+       "text": "for their own marketing or promotional purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Toyota"
+     },
+     "conditions": [
+      "collected by Toyota exclusively and solely for SMS purposes"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "nor sold",
+     "purpose": [
+      {
+       "text": "for their own marketing or promotional purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may have sold",
+     "purpose": [
+      {
+       "text": "To provide advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "vehicle financing, insurance, and satellite radio subscription services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "purpose": [
+      {
+       "text": "To provide advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "vehicle financing, insurance, and satellite radio subscription services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-139#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Interaction and Feedback Data",
+      "name": "Interaction and Feedback Data"
+     },
+     "recipient": {
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "To provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out preference signals"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have shared"
+    ],
+    "section": "apple-139#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Online Activity Data",
+      "name": "Online Activity Data"
+     },
+     "recipient": {
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "To provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out preference signals"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have shared"
+    ],
+    "section": "apple-139#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Marketing Interaction Data",
+      "name": "Marketing Interaction Data"
+     },
+     "recipient": {
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "To provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out preference signals"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have shared"
+    ],
+    "section": "apple-139#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have shared",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Research data",
+      "name": "Research data"
+     },
+     "recipient": {
+      "text": "third parties who provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "To provide advertising, vehicle financing, insurance, and satellite radio subscription services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out preference signals"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have shared"
+    ],
+    "section": "apple-139#s20"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 98,
+  "completeness": {
+   "gaps": 437,
+   "gap_words": 5406
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 98,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 50,
+  "cached": 0,
+  "prompt_tokens": 86343,
+  "completion_tokens": 47305,
+  "thinking_tokens": 0,
+  "seconds": 910.6290318965912,
+  "failures": 0
+ },
+ "seconds": 912.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

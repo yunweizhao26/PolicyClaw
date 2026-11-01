@@ -1,0 +1,205 @@
+{
+ "cleaned_sha256": "android-095",
+ "text_sha256": "f3106cf21ae6bfaab625ce89a0d59d2f9fa6580629835ceedc9ac890f0e14269",
+ "site_id": "android-095",
+ "sections": 32,
+ "rules": 208,
+ "report": {
+  "sections": 32,
+  "raw_rules": 135,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "assisting us in delivering our contests, sweepstakes, or survey offerings",
+       "name": "service delivery"
+      },
+      {
+       "text": "processing the responses",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties who assist us in delivering our contests, sweepstakes, or survey offerings and processing the responses"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "assisting us in delivering our contests, sweepstakes, or survey offerings"
+    ],
+    "section": "android-095#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "with your consent or at your direction"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "certain other third parties, including online marketplaces that you may wish to access to pay for virtual items"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "certain other third parties, including online marketplaces that you may wish to access to pay for virtual items"
+    ],
+    "section": "android-095#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to ask us to complete",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "complete",
+      "verb": "complete"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Depending on the privacy laws that apply to our use of your personal data",
+      "You may have the right to ask us to",
+      "complete your personal data if it is wrong or incomplete"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have the right to ask us to complete"
+    ],
+    "section": "android-095#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "maintain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "maintain physical, technical, electronic and procedural measures intended to protect",
+      "verb": "protect"
+     },
+     "operation": "security/defense",
+     "purpose": [
+      {
+       "text": "intended to protect personal data from unauthorized processing",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-095#s25"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 60,
+  "completeness": {
+   "gaps": 176,
+   "gap_words": 2106
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 60,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 10,
+  "prompt_tokens": 57270,
+  "completion_tokens": 28668,
+  "thinking_tokens": 0,
+  "seconds": 276.8092086315155,
+  "failures": 0
+ },
+ "seconds": 277.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

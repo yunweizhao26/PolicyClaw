@@ -1,0 +1,147 @@
+{
+ "cleaned_sha256": "web-098",
+ "text_sha256": "0cdeeeddcebe0628f8bccc65bf7e691626842c65e93fc997b1829e8e14878ed6",
+ "site_id": "web-098",
+ "sections": 5,
+ "rules": 66,
+ "report": {
+  "sections": 5,
+  "raw_rules": 66,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "lead enhancement companies",
+      "text": "lead enhancement companies"
+     },
+     "action": {
+      "name": "collect",
+      "text": "collect"
+     },
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [
+      {
+       "text": "to help us to improve our service offering",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [
+      "in some cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us to improve our service offering"
+    ],
+    "section": "web-098#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "our Third Party Service Providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-098#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "\"sold\"",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may have \"sold\"",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-098#s4"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 25,
+  "completeness": {
+   "gaps": 91,
+   "gap_words": 770
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 25,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 17290,
+  "completion_tokens": 12164,
+  "thinking_tokens": 0,
+  "seconds": 108.78734707832336,
+  "failures": 0
+ },
+ "seconds": 109.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

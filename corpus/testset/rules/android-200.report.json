@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "android-200",
+ "text_sha256": "1f7b2df03e17caf392e401e648eee4c68fa6ab0d782fa8c10757d22b5ad2c441",
+ "site_id": "android-200",
+ "sections": 9,
+ "rules": 96,
+ "report": {
+  "sections": 9,
+  "raw_rules": 92,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for business purposes",
+       "name": "service provision"
+      },
+      {
+       "text": "to assist us with software maintenance and support, direct purchase transactions (e.g., merchant of record), marketing, consulting, social media, market research, valid use verification, license compliance, and security",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "trusted third parties, service providers, or partners who perform services or functions on our behalf"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to assist us with software maintenance and support, direct purchase transactions (e.g., merchant of record), marketing, consulting, social media, market research, valid use verification, license compliance, and security"
+    ],
+    "section": "android-200#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not currently maintain",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "maintain any\nautomated decision-making\n, including profiling",
+      "verb": "maintain"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "This section applies if you are a user in the EU (for these purposes, reference to the EU also includes the European Economic Area countries of Iceland, Liechtenstein and Norway and, to the extent applicable, Switzerland and the United Kingdom, provided that the latter is deemed a third country from an EU perspective, and vice versa)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-200#s8"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 46,
+  "completeness": {
+   "gaps": 167,
+   "gap_words": 1747
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 46,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 28946,
+  "completion_tokens": 19029,
+  "thinking_tokens": 0,
+  "seconds": 398.3292233943939,
+  "failures": 0
+ },
+ "seconds": 398.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

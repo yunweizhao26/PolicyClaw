@@ -1,0 +1,161 @@
+{
+ "cleaned_sha256": "apple-117",
+ "text_sha256": "eb23f51fe3dbb7b20f447c2800930bbad487def2159a01462b3ef3ba144c48e2",
+ "site_id": "apple-117",
+ "sections": 14,
+ "rules": 186,
+ "report": {
+  "sections": 14,
+  "raw_rules": 152,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be combined",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "This information",
+      "name": "precise geolocation"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "combined",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be combined"
+    ],
+    "section": "apple-117#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "offer",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "such personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "The right to confirm whether or not we process your personal data and to access such personal data together with certain additional information (including information about categories of or specific third party disclosures, as required by law)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable data protection or privacy law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "as required by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-117#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not engage in",
+     "actor": {
+      "text": "MyRadar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling in furtherance of a decision that produces a legal or similarly significant effect concerning the consumer",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-117#s8"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 43,
+  "completeness": {
+   "gaps": 150,
+   "gap_words": 1475
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 43,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 39639,
+  "completion_tokens": 30679,
+  "thinking_tokens": 207,
+  "seconds": 545.0629410743713,
+  "failures": 0
+ },
+ "seconds": 545.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

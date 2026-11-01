@@ -1,0 +1,22 @@
+{
+ "policy": "pg-134",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "If at any moment the app were to request Personally Identifiable Information (PII) that would allow us to contact him, such as his name or mobile phone number, the user shall be free to provide such information.",
+   "prohibit": "The app does not collect you name nor your last name, therefore any information collected by the app won’t be associated directly with you and it will be handled anonymously.",
+   "situation": "When a user provides their name to the application upon request.",
+   "reason": "One section explicitly states the app does not collect the user's name, while another section permits requesting and collecting the user's name.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 3980,
+  "completion_tokens": 179,
+  "thinking_tokens": 0,
+  "seconds": 2.350489377975464,
+  "failures": 0
+ }
+}

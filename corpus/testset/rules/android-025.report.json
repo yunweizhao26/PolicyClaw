@@ -1,0 +1,257 @@
+{
+ "cleaned_sha256": "android-025",
+ "text_sha256": "8609ebbec87e5b198c64d8d277490912708dc44ecf6b45307e50d0b0d4be1049",
+ "site_id": "android-025",
+ "sections": 9,
+ "rules": 119,
+ "report": {
+  "sections": 9,
+  "raw_rules": 116,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "Dropbox",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "by logging into your Dropbox account and going to your account settings page"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "Dropbox",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "from your Dropbox account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "a copy of Your Stuff",
+      "name": "Your Stuff"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "download",
+      "verb": "download"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "in a machine readable format as outlined\nhere"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can also",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "a copy of personal data you provided to us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "ask",
+      "verb": "ask"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "ask us for"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can also",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data... that we’ve collected",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "ask",
+      "verb": "ask"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "ask us for a copy of"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You can submit a data access request",
+      "by clicking\nhere\n(if you have a Dropbox account) or\nhere\n(if you don't have a Dropbox account)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-025#s8"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 34,
+  "completeness": {
+   "gaps": 174,
+   "gap_words": 1464
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 34,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 28891,
+  "completion_tokens": 20442,
+  "thinking_tokens": 0,
+  "seconds": 129.15081214904785,
+  "failures": 0
+ },
+ "seconds": 129.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

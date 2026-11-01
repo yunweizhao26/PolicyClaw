@@ -1,0 +1,200 @@
+{
+ "cleaned_sha256": "android-019",
+ "text_sha256": "e2afd3f3e28ea6fe41fa97f92b76699ae474cf6670c5f556351524731f342e89",
+ "site_id": "android-019",
+ "sections": 26,
+ "rules": 232,
+ "report": {
+  "sections": 26,
+  "raw_rules": 211,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "avatar or “skin”",
+      "name": "avatar"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "1. PERSONAL INFORMATION WE COLLECT",
+      "Information you provide to us",
+      "Registration information",
+      "Website",
+      "if you register to play a Game on the Website, you will be asked to create an avatar or “skin” and a username, which are optional"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will use"
+    ],
+    "section": "android-019#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "username",
+      "name": "username"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "1. PERSONAL INFORMATION WE COLLECT",
+      "Information you provide to us",
+      "Registration information",
+      "Website",
+      "if you register to play a Game on the Website, you will be asked to create an avatar or “skin” and a username, which are optional"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will use"
+    ],
+    "section": "android-019#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "please email us at\ndataprotection@miniclip.com",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "know",
+      "verb": "know"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "To authorize an agent to make a request to know or delete or opt out on your behalf"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-019#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "please email us at\ndataprotection@miniclip.com",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "To authorize an agent to make a request to know or delete or opt out on your behalf"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-019#s24"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 122,
+  "completeness": {
+   "gaps": 295,
+   "gap_words": 2576
+  },
+  "unsatisfiable_guards": 6,
+  "qualifiers_without_effect": 109,
+  "translated_quotes": 122,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 76942,
+  "completion_tokens": 45154,
+  "thinking_tokens": 0,
+  "seconds": 349.21925115585327,
+  "failures": 0
+ },
+ "seconds": 350.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

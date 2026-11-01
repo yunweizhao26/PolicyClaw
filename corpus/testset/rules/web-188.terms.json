@@ -1,0 +1,99 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "personally_identifiable_information": "personal data"
+   },
+   "parents": {
+    "cookie_numbers": [
+     "cookies"
+    ],
+    "email_address": [
+     "personal data"
+    ],
+    "real_name": [
+     "personal data"
+    ],
+    "date_of_birth": [
+     "personal data"
+    ],
+    "username": [
+     "account information"
+    ],
+    "device_identifier": [
+     "device_information"
+    ],
+    "browser_type": [
+     "device_information"
+    ],
+    "ip_address": [
+     "device_information"
+    ],
+    "unique_user_id": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "ad_partners": [
+     "third party"
+    ],
+    "another service provider": [
+     "service_provider"
+    ],
+    "service_provider": [
+     "third party"
+    ],
+    "purchaser or acquirer of assets": [
+     "any company or organization",
+     "successor entity"
+    ],
+    "successor entity": [
+     "any company or organization"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "third_party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account_management": [
+     "service_provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service_administration": [
+     "service_provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1464,
+  "completion_tokens": 409,
+  "thinking_tokens": 0,
+  "seconds": 8.752868175506592,
+  "failures": 0
+ },
+ "seconds": 8.8
+}

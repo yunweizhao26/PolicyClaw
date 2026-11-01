@@ -1,0 +1,138 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "feedback information": "feedback",
+    "personal information": "personal data",
+    "profile picture": "avatar",
+    "username": "user name"
+   },
+   "parents": {
+    "advertiser identifiers": [
+     "identifiers"
+    ],
+    "browser version": [
+     "browser"
+    ],
+    "browser": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "unique device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "internal identifier": [
+     "identifiers"
+    ],
+    "IP address": [
+     "device information",
+     "identifiers"
+    ],
+    "country": [
+     "location"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "purchase history": [
+     "purchase data"
+    ],
+    "game progress": [
+     "gameplay data"
+    ],
+    "social network credentials": [
+     "social network data"
+    ],
+    "user text messages": [
+     "message content"
+    ],
+    "message content": [
+     "user-generated content"
+    ],
+    "screenshots": [
+     "user-generated content"
+    ],
+    "avatar": [
+     "account profile content"
+    ],
+    "nickname": [
+     "name"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "social media, advertising and analytics partners",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media, advertising and analytics partners": [
+     "third party"
+    ],
+    "third parties in various countries": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "users under the age of 16": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "personalise content and ads": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "access control": [
+     "security"
+    ],
+    "legal_claims": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2205,
+  "completion_tokens": 500,
+  "thinking_tokens": 0,
+  "seconds": 11.332432508468628,
+  "failures": 0
+ },
+ "seconds": 11.4
+}

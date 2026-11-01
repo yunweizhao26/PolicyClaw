@@ -1,0 +1,242 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "customer end user data": "Customer End User Data",
+    "information": "data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data"
+   },
+   "parents": {
+    "sensitive personal information": [
+     "Personal Data"
+    ],
+    "Customer End User Data": [
+     "Personal Data"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "physical address": [
+     "contact info",
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "cookies data": [
+     "Personal Data",
+     "cookies"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "details of your visits to our Website": [
+     "browsing activity"
+    ],
+    "user behavior": [
+     "behavioral data"
+    ],
+    "payment card number": [
+     "commercial information"
+    ],
+    "job title": [
+     "employment information"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "statistical and performance information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Amplitude’s corporate affiliates",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "service provider",
+     "third party"
+    ],
+    "advertising technology provider": [
+     "service provider",
+     "third party"
+    ],
+    "Amplitude’s corporate affiliates": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising cookies": [
+     "tracking technologies"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Amplitude",
+    "third-party service provider": "third party service provider"
+   },
+   "parents": {
+    "AddThis": [
+     "third party"
+    ],
+    "Datadog": [
+     "third party"
+    ],
+    "Facebook": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Google Ad Manager": [
+     "Google",
+     "third party"
+    ],
+    "Google Ads": [
+     "Google",
+     "third party"
+    ],
+    "Google Analytics": [
+     "Google",
+     "third party"
+    ],
+    "Intercom": [
+     "third party"
+    ],
+    "LinkedIn": [
+     "third party"
+    ],
+    "Marketo": [
+     "third party"
+    ],
+    "Microsoft Advertising": [
+     "third party"
+    ],
+    "Mutiny": [
+     "third party"
+    ],
+    "Naver": [
+     "third party"
+    ],
+    "OpenAI": [
+     "third party"
+    ],
+    "Partnerstack": [
+     "third party"
+    ],
+    "PathFactory": [
+     "third party"
+    ],
+    "Reddit": [
+     "third party"
+    ],
+    "Sentry": [
+     "third party"
+    ],
+    "StackAdapt": [
+     "third party"
+    ],
+    "X": [
+     "third party"
+    ],
+    "third party agents Amplitude engages": [
+     "third party"
+    ],
+    "third party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "enforcing terms": "enforce agreements",
+    "legal compliance": "compliance with legal obligations",
+    "service optimization": "product improvement"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "debugging": [
+     "service provision",
+     "service-provision"
+    ],
+    "authentication": [
+     "user-account-management"
+    ],
+    "service notifications": [
+     "communication"
+    ],
+    "customer support": [
+     "communication",
+     "service-provision"
+    ],
+    "user experience optimization": [
+     "product improvement"
+    ],
+    "product improvement": [
+     "service provision"
+    ],
+    "provide the service": [
+     "service provision",
+     "service-provision"
+    ],
+    "security": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2911,
+  "completion_tokens": 1148,
+  "thinking_tokens": 0,
+  "seconds": 14.95845651626587,
+  "failures": 0
+ },
+ "seconds": 15.1
+}

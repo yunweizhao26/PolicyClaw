@@ -1,0 +1,127 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device id",
+    "non-personal information": "non-personal data",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "precise location": "precise geolocation",
+    "username": "user account name"
+   },
+   "parents": {
+    "advertising id": [
+     "device id",
+     "persistent identifier"
+    ],
+    "credit card number": [
+     "billing information"
+    ],
+    "city": [
+     "coarse location"
+    ],
+    "device id": [
+     "device information",
+     "persistent identifier"
+    ],
+    "ip address": [
+     "persistent identifier"
+    ],
+    "photograph": [
+     "user-generated content"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Gamexis"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide the service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "facilitate communication": [
+     "communication"
+    ],
+    "send push notifications": [
+     "communication"
+    ],
+    "customer support": [
+     "communication",
+     "provide the service"
+    ],
+    "payment": [
+     "provide the service"
+    ],
+    "registration": [
+     "provide the service"
+    ],
+    "fulfillment": [
+     "provide the service"
+    ],
+    "improve the service": [
+     "provide the service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1850,
+  "completion_tokens": 471,
+  "thinking_tokens": 0,
+  "seconds": 9.360512018203735,
+  "failures": 0
+ },
+ "seconds": 9.4
+}

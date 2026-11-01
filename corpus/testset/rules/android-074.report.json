@@ -1,0 +1,262 @@
+{
+ "cleaned_sha256": "android-074",
+ "text_sha256": "d7a59e40214c3143d0b1eecce986bfe9002fbbdd7b3e53a71c83ee23605cfb2d",
+ "site_id": "android-074",
+ "sections": 18,
+ "rules": 272,
+ "report": {
+  "sections": 18,
+  "raw_rules": 230,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Relation to Performance"
+     ],
+     "data": {
+      "name": "cookies",
+      "text": "cookies"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "For performance review of our websites, applications, services and tools",
+       "name": "analytics"
+      },
+      {
+       "text": "to help us understand our visitor’s usage of our website",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us understand our visitor’s usage of our website"
+    ],
+    "section": "android-074#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Relation to Performance"
+     ],
+     "data": {
+      "name": "web tools",
+      "text": "web tools"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "For performance review of our websites, applications, services and tools",
+       "name": "analytics"
+      },
+      {
+       "text": "to help us understand our visitor’s usage of our website",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us understand our visitor’s usage of our website"
+    ],
+    "section": "android-074#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Relation to Performance"
+     ],
+     "data": {
+      "name": "tracking technologies",
+      "text": "other similar technologies"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "For performance review of our websites, applications, services and tools",
+       "name": "analytics"
+      },
+      {
+       "text": "to help us understand our visitor’s usage of our website",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us understand our visitor’s usage of our website"
+    ],
+    "section": "android-074#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate with you electronically regarding security, privacy, and governance matters relating to your use of the Services",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "regarding security, privacy, and governance matters relating to your use of the Services",
+       "name": "customer-service"
+      }
+     ],
+     "conditions": [
+      "When you use the Services or provide Confidential Data to us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-074#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify you electronically by posting a notice on the Services, emailing you, or sending a push notification",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we become aware that a security system has been breached"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-074#s14"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 107,
+  "completeness": {
+   "gaps": 224,
+   "gap_words": 2740
+  },
+  "unsatisfiable_guards": 5,
+  "qualifiers_without_effect": 25,
+  "translated_quotes": 107,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 60351,
+  "completion_tokens": 41471,
+  "thinking_tokens": 0,
+  "seconds": 285.95971512794495,
+  "failures": 0
+ },
+ "seconds": 287.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

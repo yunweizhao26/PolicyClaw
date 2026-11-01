@@ -1,0 +1,2374 @@
+{
+ "cleaned_sha256": "web-106",
+ "text_sha256": "f417f4ae6975392ff8bcff26e8bc1e0675b5d6a3ac6bb3a25417eda159fc6114",
+ "site_id": "web-106",
+ "sections": 11,
+ "rules": 136,
+ "report": {
+  "sections": 11,
+  "raw_rules": 128,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third party",
+      "text": "other sources, such as list vendors"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "right to\nobtain\nit from them and use it",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third party",
+      "text": "them"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you access and use our services"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to verify your identity when you access and use our services and to ensure the security of your personal data",
+       "name": "security"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In order to comply with our contractual obligations to you. In other cases, it is in our legitimate business interests to be able to identify and authenticate you"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "security"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In order to comply with our contractual obligations to you. In other cases, it is in our legitimate business interests to be able to identify and authenticate you"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may be\n...\nprocessed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "security"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you request something from Red Hat, such as a product or service, a call back, a newsletter subscription, or specific marketing or other materials"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to respond to your request",
+       "name": "service provision"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you provide"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Where required by applicable law, we will obtain your consent before sending marketing messages"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may\n...\ncontact",
+     "purpose": [
+      {
+       "text": "as part of customer satisfaction surveys or for market research purposes",
+       "name": "analytics"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "our representatives"
+     },
+     "conditions": [
+      "Where required by applicable law, we will obtain your consent before sending marketing messages"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may\n...\ncontact",
+     "purpose": [
+      {
+       "text": "as part of customer satisfaction surveys or for market research purposes",
+       "name": "analytics"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In order to comply with our contractual obligations to you when responding to your requests. In other cases it is in our legitimate business interests to be able to provide customers and prospective customers with information, goods, or services they request"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "service provision"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In order to comply with our contractual obligations to you when responding to your requests. In other cases it is in our legitimate business interests to be able to provide customers and prospective customers with information, goods, or services they request"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may be\n...\nprocessed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "service provision"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "conditions": [
+      "Subject to your preferences"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to notify you about product and service offerings as well as events that we believe may be of interest to you, including to respond directly to your requests for information, including registrations for newsletters or other specific requests",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may\n...\nuse",
+     "purpose": [
+      {
+       "text": "to personalize your online experience with our content and advertisements and to develop internal marketing and business intelligence",
+       "name": "personalization"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to measure the effectiveness of our marketing campaigns and events, for the purposes of developing and modelling marketing audiences, to assist in prioritization, or to tailor our communication efforts",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-106#s3"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to provide support for products or services you have obtained from us and answer other questions",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "have incidental access to",
+      "verb": "have incidental access to"
+     },
+     "data": {
+      "name": "user data",
+      "text": "data that you have provided to us or data that is located on your systems"
+     },
+     "operations": [
+      "access"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may sometimes have incidental access to",
+     "purpose": [],
+     "conditions": [
+      "In the course of providing technical support to you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable agreement between you and Red Hat, such as our Enterprise Agreement",
+       "name": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "name",
+      "text": "name"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "name",
+      "text": "name"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "job title",
+      "text": "title"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "job title",
+      "text": "title"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "company name",
+      "text": "company name"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "company name",
+      "text": "company name"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "phone number",
+      "text": "telephone number"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "phone number",
+      "text": "telephone number"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "postal address",
+      "text": "postal address"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "postal address",
+      "text": "postal address"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "account number",
+      "text": "account number"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "account number",
+      "text": "account number"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "user identifier",
+      "text": "username/user ID"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "user identifier",
+      "text": "username/user ID"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "payment info",
+      "text": "payment information"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "payment info",
+      "text": "payment information"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "purchase history",
+      "text": "purchase records"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "purchase history",
+      "text": "purchase records"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "service use",
+      "text": "information about your use of the product or service"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "service use",
+      "text": "information about your use of the product or service"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "event registration data",
+      "text": "information about your registration or participation in an event"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "event registration data",
+      "text": "information about your registration or participation in an event"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "preferences",
+      "text": "your language and other preferences"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "preferences",
+      "text": "your language and other preferences"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "credit status",
+      "text": "credit and billing status"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "credit status",
+      "text": "credit and billing status"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "support inquiries",
+      "text": "support inquiries"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "support inquiries",
+      "text": "support inquiries"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "this information"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "purpose": [
+      {
+       "text": "in order to comply with our contractual obligations to you",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "the personal data you provide"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "for the purpose of enhancing and customizing your experience on our websites",
+       "name": "personalization"
+      },
+      {
+       "text": "to deliver content and product and service offerings relevant to your interests, including targeted offers through our website, third-party sites or email",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "When you use our websites and/or respond to our emails",
+      "with your consent, where required by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "this information"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may also use",
+     "purpose": [
+      {
+       "text": "to help us improve and further develop our websites, products and services",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "the personal data you provide"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "for the purpose of assessing your application, considering you for future positions and carrying out human resources functions in accordance with applicable law",
+       "name": "recruitment"
+      }
+     ],
+     "conditions": [
+      "When you apply for a position at Red Hat"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "law"
+      },
+      {
+       "text": "Red Hat Candidate Privacy Notice",
+       "name": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "contract data",
+      "text": "the information necessary for entering into or performing a contract with Red Hat"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [],
+     "conditions": [
+      "If you are in the People’s Republic of China (PRC, for the purpose of this Privacy Statement only, excluding Hong Kong, Macau and Taiwan)",
+      "without your express consent or the act of providing the information to Red Hat by you is deemed as consent"
+     ],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "contract data",
+      "text": "the information necessary for entering into or performing a contract with Red Hat"
+     },
+     "operations": [
+      "processing"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [],
+     "conditions": [
+      "If you are in the People’s Republic of China (PRC, for the purpose of this Privacy Statement only, excluding Hong Kong, Macau and Taiwan)",
+      "without your express consent or the act of providing the information to Red Hat by you is deemed as consent"
+     ],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "DENY",
+     "polarity_text": "will not use",
+     "purpose": [],
+     "conditions": [
+      "in a manner that is inconsistent with the purpose of its original collection"
+     ],
+     "exceptions": [
+      "we have provided you additional notice and you have consented"
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about our use of your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Where a law or regulation related to the protection or privacy of personal data or similar legal requirement (a “Data Protection Law”) applies to the processing of your personal data",
+      "depending on the applicable Data Protection Law",
+      "The right to request information about our use of your personal data"
+     ],
+     "exceptions": [
+      "subject to some limitations"
+     ],
+     "references": [
+      {
+       "text": "Data Protection Law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "disclose"
+    ],
+    "section": "web-106#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Red Hat"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "security",
+     "polarity": "ALLOW",
+     "polarity_text": "intends to protect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "security",
+     "polarity": "ALLOW",
+     "polarity_text": "have implemented appropriate physical, administrative and technical safeguards to help us protect",
+     "purpose": [
+      {
+       "text": "from unauthorized access, use and disclosure",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "encrypt",
+      "verb": "encrypt"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when we transmit such information over the Internet"
+     ],
+     "data": {
+      "name": "payment data",
+      "text": "payment information"
+     },
+     "exceptions": [],
+     "operation": "security",
+     "polarity": "ALLOW",
+     "polarity_text": "encrypt",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "actor": {
+      "name": "business partner",
+      "text": "our business partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "such information"
+     },
+     "exceptions": [],
+     "operation": "security",
+     "polarity": "ALLOW",
+     "polarity_text": "require",
+     "purpose": [
+      {
+       "text": "from unauthorized access, use and disclosure",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "actor": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "such information"
+     },
+     "exceptions": [],
+     "operation": "security",
+     "polarity": "ALLOW",
+     "polarity_text": "require",
+     "purpose": [
+      {
+       "text": "from unauthorized access, use and disclosure",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-106#s9"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 53,
+  "completeness": {
+   "gaps": 258,
+   "gap_words": 3776
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 53,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 19,
+  "cached": 0,
+  "prompt_tokens": 37618,
+  "completion_tokens": 34520,
+  "thinking_tokens": 0,
+  "seconds": 289.1712477207184,
+  "failures": 0
+ },
+ "seconds": 290.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

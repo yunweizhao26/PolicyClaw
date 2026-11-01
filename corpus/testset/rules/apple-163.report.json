@@ -1,0 +1,138 @@
+{
+ "cleaned_sha256": "apple-163",
+ "text_sha256": "1e6e50b036b42f656d9e576d5d0ec4f6dabc4899c5c2b77879f23ec5da14278b",
+ "site_id": "apple-163",
+ "sections": 25,
+ "rules": 340,
+ "report": {
+  "sections": 25,
+  "raw_rules": 305,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "if you receive an email from us"
+     ],
+     "data": {
+      "name": "email interaction",
+      "text": "information about your interactions with the message (e.g., whether you opened, forwarded, or clicked-through to our Services)"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may be collected",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about your interactions with the message (e.g., whether you opened, forwarded, or clicked-through to our Services)"
+    ],
+    "section": "apple-163#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may automatically collect",
+     "actor": {
+      "text": "cookies, pixel tags, scripts and/or software development kits (SDKs) and similar technologies",
+      "name": "cookies, pixel tags, scripts and SDKs"
+     },
+     "data": {
+      "text": "certain personal information about your interaction with the Digital Services",
+      "name": "interaction data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to better understand who is using the Digital Services, how people are using them, and how to improve their effectiveness as well as the effectiveness of any related content",
+       "name": "analytics"
+      },
+      {
+       "text": "to help us or our third-party partners and providers serve more targeted advertising to you across the Internet",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "adjust your device or Internet browser settings to limit certain tracking or to decline cookies",
+      "delete cookies and/or disable your device or browser from receiving cookies or adjust your tracking preferences"
+     ],
+     "references": [
+      {
+       "text": "“Your Choices and Legal Rights” section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may automatically collect"
+    ],
+    "section": "apple-163#s4"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 135,
+  "completeness": {
+   "gaps": 349,
+   "gap_words": 3976
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 135,
+  "compile_failures": 6,
+  "fixed_structurally": 0,
+  "fixed_by_call": 6
+ },
+ "usage": {
+  "calls": 51,
+  "cached": 0,
+  "prompt_tokens": 89406,
+  "completion_tokens": 58402,
+  "thinking_tokens": 230,
+  "seconds": 557.2340347766876,
+  "failures": 0
+ },
+ "seconds": 559.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

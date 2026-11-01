@@ -1,0 +1,100 @@
+{
+ "cleaned_sha256": "pg-136",
+ "text_sha256": "21f703ce606450a70397e824c97fe8f1ddb18eb9069fb9e210f5529d9c98889f",
+ "site_id": "pg-136",
+ "sections": 4,
+ "rules": 78,
+ "report": {
+  "sections": 4,
+  "raw_rules": 70,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have a legitimate interest to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "necessary data",
+      "name": "necessary data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "In order to keep the Service and its social features safe and fair, to fight fraud and ensure acceptable use otherwise",
+       "name": "fraud_prevention_and_security"
+      },
+      {
+       "text": "to\nAnalyze and monitor use of the Service and its social features",
+       "name": "analytics"
+      },
+      {
+       "text": "to\nModerate chats either automatically or manually",
+       "name": "fraud_prevention_and_security"
+      },
+      {
+       "text": "to\nTake action against fraudulent or misbehaving players",
+       "name": "fraud_prevention_and_security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to\nModerate chats either automatically or manually",
+     "to\nTake action against fraudulent or misbehaving players"
+    ],
+    "section": "pg-136#s2"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 32,
+  "completeness": {
+   "gaps": 124,
+   "gap_words": 1351
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 32,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 15953,
+  "completion_tokens": 12617,
+  "thinking_tokens": 0,
+  "seconds": 82.70758652687073,
+  "failures": 0
+ },
+ "seconds": 83.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

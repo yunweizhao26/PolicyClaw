@@ -1,0 +1,365 @@
+{
+ "cleaned_sha256": "web-166",
+ "text_sha256": "288966526ae96ff422826117a3d6b2b1effb9c0b0a86e9f924cb4eef7b37b77d",
+ "site_id": "web-166",
+ "sections": 27,
+ "rules": 338,
+ "report": {
+  "sections": 27,
+  "raw_rules": 295,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "companies, organizations or individuals outside of NETGEAR",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to:\nmeet any applicable law, regulation, legal process or enforceable governmental request",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to:\nenforce applicable Terms of Use, including investigation of potential violations",
+       "name": "service administration"
+      },
+      {
+       "text": "to:\ndetect, prevent, or otherwise address fraud, security or technical issues",
+       "name": "fraud prevention"
+      },
+      {
+       "text": "to:\nprotect or defend our rights, or for our operational business purposes",
+       "name": "service administration"
+      },
+      {
+       "text": "to:\nprotect against harm to the rights, property or safety of NETGEAR and its employees, our users or the public as required or permitted by law",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we have a good faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:\nmeet any applicable law, regulation, legal process or enforceable governmental request;\nenforce applicable Terms of Use, including investigation of potential violations;\ndetect, prevent, or otherwise address fraud, security or technical issues;\nprotect or defend our rights, or for our operational business purposes; or\nprotect against harm to the rights, property or safety of NETGEAR and its employees, our users or the public as required or permitted by law."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law, regulation, legal process or enforceable governmental request",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Terms of Use",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "as required or permitted by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nenforce applicable Terms of Use, including investigation of potential violations",
+     "to:\ndetect, prevent, or otherwise address fraud, security or technical issues",
+     "to:\nprotect or defend our rights, or for our operational business purposes",
+     "to:\nprotect against harm to the rights, property or safety of NETGEAR and its employees, our users or the public as required or permitted by law"
+    ],
+    "section": "web-166#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in profiling of consumers in furtherance of automated decisions",
+      "verb": "engage in"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "that produce legal or similarly significant effects"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as those terms are defined under applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-166#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "service providers",
+      "name": "third party service providers"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "to provide, improve, and protect the Sites, Products and Services on our behalf",
+       "name": "provide, improve, and protect the Sites, Products and Services on our behalf"
+      }
+     ],
+     "conditions": [
+      "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+    ],
+    "section": "web-166#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "service providers",
+      "name": "third party service providers"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to provide, improve, and protect the Sites, Products and Services on our behalf",
+       "name": "provide, improve, and protect the Sites, Products and Services on our behalf"
+      }
+     ],
+     "conditions": [
+      "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+    ],
+    "section": "web-166#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "service providers",
+      "name": "third party service providers"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to provide, improve, and protect the Sites, Products and Services on our behalf",
+       "name": "provide, improve, and protect the Sites, Products and Services on our behalf"
+      }
+     ],
+     "conditions": [
+      "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "under contracts with service providers that restrict their access, use, and disclosure of personal data in compliance with our DPF obligations, including the onward transfer provisions"
+    ],
+    "section": "web-166#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are an EU, UK or Swiss individual",
+      "may make such requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-166#s18"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly allow",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "allow children under 18 to set up NETGEAR or Meural accounts",
+      "verb": "allow"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "under 18"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-166#s23"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 132,
+  "completeness": {
+   "gaps": 397,
+   "gap_words": 4428
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 132,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 53,
+  "cached": 0,
+  "prompt_tokens": 91251,
+  "completion_tokens": 62058,
+  "thinking_tokens": 302,
+  "seconds": 456.6307621002197,
+  "failures": 0
+ },
+ "seconds": 458.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "cleaned_sha256": "web-001",
+ "text_sha256": "d37582125b57c49d90921cf637e6803e42ca6bcb2c428eb1bb71e250c6b7fdee",
+ "site_id": "web-001",
+ "sections": 17,
+ "rules": 312,
+ "report": {
+  "sections": 17,
+  "raw_rules": 279,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when using our services"
+     ],
+     "data": {
+      "name": "user content uploaded",
+      "text": "the content you upload"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "the content you upload"
+    ],
+    "section": "web-001#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when using our services"
+     ],
+     "data": {
+      "name": "user content received",
+      "text": "the content you receive from others"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "others"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "the content you receive from others"
+    ],
+    "section": "web-001#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will have access to",
+     "actor": {
+      "text": "domain administrator and resellers who manage your account",
+      "name": "domain administrator and account resellers"
+     },
+     "data": {
+      "text": "information stored in your account, like your email",
+      "name": "email"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you’re a student or work for an organization that uses Google services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-001#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "outside of Google",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to: Enforce applicable Terms of Service, including investigation of potential violations",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we have a good-faith belief that disclosure of the information is reasonably necessary"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Enforce applicable Terms of Service, including investigation of potential violations"
+    ],
+    "section": "web-001#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "outside of Google",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to: Detect, prevent, or otherwise address fraud, security, or technical issues",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "if we have a good-faith belief that disclosure of the information is reasonably necessary"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Detect, prevent, or otherwise address fraud, security, or technical issues"
+    ],
+    "section": "web-001#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "outside of Google",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to: Protect against harm to the rights, property or safety of Google, our users, or the public",
+       "name": "protection of rights and safety"
+      }
+     ],
+     "conditions": [
+      "if we have a good-faith belief that disclosure of the information is reasonably necessary"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Protect against harm to the rights, property or safety of Google, our users, or the public"
+    ],
+    "section": "web-001#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to show you ads",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-001#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information you provide to us which personally identifies you, such as your name, email address, or billing information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "provide",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information you provide to us which personally identifies you, such as your name, email address, or billing information"
+    ],
+    "section": "web-001#s11"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 135,
+  "completeness": {
+   "gaps": 620,
+   "gap_words": 5604
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 135,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 70120,
+  "completion_tokens": 48486,
+  "thinking_tokens": 0,
+  "seconds": 647.3265755176544,
+  "failures": 0
+ },
+ "seconds": 648.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

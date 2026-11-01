@@ -1,0 +1,168 @@
+{
+ "cleaned_sha256": "web-167",
+ "text_sha256": "33e864582ef80abae6efeb566437f4d77a0500149afe45c416cd311427add624",
+ "site_id": "web-167",
+ "sections": 23,
+ "rules": 308,
+ "report": {
+  "sections": 23,
+  "raw_rules": 184,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also allow",
+     "actor": {
+      "text": "other members of the FootballCo Group",
+      "name": "other members of the FootballCo Group"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "users",
+      "name": "users"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "with relevant offers, competitions and the latest news",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "if Users have consented to this as required by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-167#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for certain marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "Users can tell us whether or not they wish to be contacted for certain marketing purposes and if so, how we can contact you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-167#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "should be directed to",
+     "actor": {
+      "text": "Football Co Media Limited",
+      "name": "first party"
+     },
+     "data": {
+      "text": "questions, comments, requests regarding this Privacy Policy",
+      "name": "inquiry"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "directed to",
+      "verb": "direct"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Football Co Media Limited"
+    ],
+    "section": "web-167#s21"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 66,
+  "completeness": {
+   "gaps": 240,
+   "gap_words": 2678
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 66,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 64861,
+  "completion_tokens": 39068,
+  "thinking_tokens": 0,
+  "seconds": 280.5486161708832,
+  "failures": 0
+ },
+ "seconds": 281.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,63 @@
+708 verb-operation nodes covering 17407 rules; unanimous 642, two of three 63, split 3
+usage: [{'calls': 708, 'cached': 0, 'prompt_tokens': 318465, 'completion_tokens': 24756, 'thinking_tokens': 3940, 'seconds': 1030.5463905334473, 'failures': 0}, {'calls': 708, 'cached': 0, 'prompt_tokens': 318465, 'completion_tokens': 24190, 'thinking_tokens': 22750, 'seconds': 1112.2374505996704, 'failures': 0}, {'calls': 708, 'cached': 0, 'prompt_tokens': 318465, 'completion_tokens': 24256, 'thinking_tokens': 876, 'seconds': 955.2820868492126, 'failures': 0}]
+
+COVERAGE: the extractor marked 65 of 17407 rules (0.37%) as an operation outside the tree, over 24 verbs
+  narrower: 11 rules: send (5, under storage); encrypt (1, under adaptation or alteration); generate (1, under recording); create (1, under adaptation or alteration); identify (1, under use); accept (1, under collection); place (1, under storage)
+  new operation: 6 rules: safeguard (6, proposed: protection)
+  not a data operation: 48 rules: protect (23); request (6); embed (3); use (2); take (2); guarantee (2); review (1); withdraw (1); prevent (1); have (1); contain (1); be (1); maintain (1); secure (1, proposed: security protection); require (1); put in place (1)
+
+processing
+    same as: process (803), handle (15), treat (5), deal with (2), verarbeiten (2), process by (2), process on (1), continue processing (1)
+    narrower: manage (12), aggregate (2), summarize (1), identify (1), extract (1), transmit (1), respond (1), generate (1)
+collection
+    same as: collect (3692), gather (135), obtain (99), acquire (6), get (4), erhalten (3), erfassen (2), assist in collecting (1), bereitstellen (1)
+    narrower: provide (383), receive (262), ask (164), ask for (135), request (49), give (48), capture (34), require (30), enter (28), submit (24), solicit (19), access (18), share (13), have access to (11), ask to provide (11), send (10), purchase (10), share with (9), add (9), accept (4), transmit (4), learn (4), supply (4), volunteer (4), disclose (3)
+recording
+    same as: record (192), log (81), keep (14), keep track of (13), create (7), capture (6), note (5), keep a record of (3), register (1), keep track (1), register on (1)
+    narrower: track (121), monitor (35), collect (28), set (10), generate (3), measure (3), see (3), observe (2), trace (2), remember (1), generate (1), make a note of (1), count (1), follow (1)
+organisation
+    same as: 
+    narrower: aggregate (7), assign (3), segment (2), categorise (2), register (1), add (1), compile (1)
+structuring
+    same as: 
+    narrower: compile (3), enter into (2), add (2)
+storage
+    same as: store (723), retain (278), keep (174), hold (147), maintain (83), save (45), remain (8), speichern (7), preserve (6), store at (5), persist (3), have (3), reside in (2), store on (2), reside (1), conserve (1)
+    narrower: place (51), remember (23), set (10), transfer (5), send (5), place on (3), maintain on (3), host (2), archive (2), encrypt (2), add (2), keep a record of (2), back up (1), available on backup (1), contain behind (1), download (1), issue (1), encrypt into (1), look after (1), put (1), place (1)
+adaptation or alteration
+    same as: edit (18), change (17), modify (8), alter (1)
+    narrower: update (33), correct (31), encrypt (10), rectify (7), amend (6), aggregate (6), shorten (4), add (3), derive from (2), use (2), derive (2), derive through (1), adjust (1), replace (1), tag (1), apply (1), encrypt (1), enhance (1), create (1), encode (1), de-identify (1), create (1), include (1), extend (1), truncate (1)
+retrieval
+    same as: access (26), recall (5), retrieve (2)
+    narrower: read (3), download (1)
+consultation
+    same as: access (85), see (60), have access to (51), view (28), have access (14), read (10), look at (5)
+    narrower: review (12), monitor (12), moderate (9), search (5), inspect (3), check (2), overview (2), probe into (2), scan (1), download (1), extract (1), compare (1)
+use
+    same as: use (2798), utilize (24), utilise (9), verwenden (8), make use of (3), handle (2), continue to use (2), kommen (1)
+    narrower: send (109), contact (77), analyze (71), monitor (24), track (24), analyse (21), provide (20), identify (19), access (19), process (19), deliver (15), personalize (14), make (12), recognize (11), maintain (9), call (9), respond (9), optimize (9), communicate (8), serve (8), email (8), setup (8), notify (7), count (7), consider (7)
+disclosure
+    same as: disclose (545), share (350), release (40), provide (21), distribute (16), reveal (15), divulge (9), share with (1)
+    narrower: rent (17), trade (12), lease (7), pass on (4), outsource (3), exchange (3), include (3), pass (2), access (2), barter (2), give away (2), broker (2), receive (2), have access to (1), filter (1), sublicense (1), offshore (1), assign (1), licence (1)
+disclosure by transmission
+    same as: share (917), transfer (377), disclose (333), provide (199), send (84), give (50), transmit (48), pass (45), pass on (31), release (18), communicate (16), transfer to (13), receive (11), share with (10), reveal (7), provide to (6), weitergeben (6), supply (4), transmit to (4), make available (3), forward (3), pass along (2), divulge (2), pass on to (2), send to (1)
+    narrower: tell (20), exchange (15), distribute (13), report (13), rent (13), submit (11), trade (10), lease (7), store (7), notify (6), assign (6), offer (4), let know (3), inform (3), send back (3), offshore (2), email (2), see (2), subscribe (2), submit to (2), access (1), entrust (1), introduce (1), return (1), reference (1)
+dissemination or otherwise making available
+    same as: share (20), make available (15), release (11), disclose (7), be available (7), access (6), visible (5), make accessible (4), distribute (3), become accessible (3), allow (3), accessible (1), be visible (1), disseminate (1)
+    narrower: display (40), post (20), publish (14), see (12), viewable (12), view (9), show (6), share through (5), present (5), appear (4), make visible (3), repost (2), use (2), include (2), re-post (2), locate (1), make publicly available (1), provide with rights to view (1), publicize (1), be visible to (1), read (1), provide (1), reference (1), grant (1), upload (1)
+alignment or combination
+    same as: link (39), associate (29), connect (7), tie (6), integrate (3), merge (2), link to (2), merge with (1), herstellen (1)
+    narrower: combine (63), supplement (10), relate (9), aggregate (6), incorporate (6), use (5), add (4), match (4), enrich (2), tie back to (1), use with (1), sync (1)
+restriction
+    same as: place (1)
+    narrower: isolate (6), use (2), deactivate (2), limit access to (2), suppress (1), collect (1), store (1), delay (1), filter out (1), restrict access to (1), withhold (1), block (1), apply (1)
+erasure or destruction
+    same as: remove (107), discard (5), dispose of (4), forget (1)
+    narrower: delete (201), destroy (20), anonymise (17), erase (15), de-identify (12), anonymize (8), shred (3), burn (2), löschen (2), obfuscate (1), aggregate (1), suppress (1), purge (1), truncate (1), shorten (1)
+profiling
+    same as: profile (4), analyse (3), conduct profiling (1), erstellen (1)
+    narrower: track (7), identify (7), assign (3), estimate (3), add (2), monitor (2), target (2), process (2), recommend (1), determine (1), learn about (1), build (1), bewerten (1), analysieren (1), personalize (1), recognize (1), tailor (1)
+sale
+    same as: sell (172)
+    narrower: trade (10), rent (9), resell (4), broker (3), lease (2), license (1)
+[covered operation, but the verb names no data operation or had no majority] need@collection (23, not a data operation), be@dissemination or otherwise making available (22, not a data operation), receive@use (22, not a data operation), use@profiling (21, invalid), restrict@restriction (15, not a data operation), employ@use (14, not a data operation), include@collection (14, not a data operation), safeguard@storage (12, not a data operation), use@disclosure by transmission (12, no majority), require@use (11, not a data operation), protect@storage (10, not a data operation), protect@processing (9, not a data operation), make@dissemination or otherwise making available (8, not a data operation), limit@restriction (7, not a data operation), make available@sale (7, no majority), opt out@use (7, not a data operation), make@sale (7, not a data operation), choose@collection (6, not a data operation), place@recording (6, not a data operation), contain@storage (6, not a data operation), remain@dissemination or otherwise making available (5, not a data operation), restrict access@restriction (5, not a data operation), protect@use (5, not a data operation), prevent@use (5, not a data operation), be@collection (5, not a data operation), adopt@processing (5, not a data operation), become@dissemination or otherwise making available (4, not a data operation), protect@restriction (4, not a data operation), authorize@dissemination or otherwise making available (4, not a data operation), employ@collection (4, not a data operation), stop processing@restriction (4, not a data operation), offer@use (4, not a data operation), opt out@restriction (4, not a data operation), permit@disclosure (4, not a data operation), use@disclosure (3, no majority), safeguard@restriction (3, not a data operation), ensure@use (3, not a data operation), permit@use (3, not a data operation), help@use (3, not a data operation), stop@use (3, not a data operation)

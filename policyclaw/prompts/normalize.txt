@@ -1,0 +1,30 @@
+A user asks about one privacy policy. The question may be vague or loosely worded. Restate it using only the terms of this policy, so that it can be checked against the policy's rules.
+
+Actions this policy uses, grouped under the operation tree (verb@operation):
+{actions}
+
+The operation tree:
+{tree}
+
+Actor terms of this policy: {actors}
+Data terms of this policy: {data}
+Recipient terms of this policy: {recipients}
+Source terms of this policy: {sources}
+Purpose terms of this policy: {purposes}
+
+Condition variables that this policy's rules use:
+{variables}
+
+Question: {scenario}
+
+Return only JSON:
+{{"action": the most specific action or operation above that the question supports, "none" if the question asks about an action the policy never mentions,
+ "actor": the actor term above that the question is about,
+ "data": the question's data in the policy's terms: the most specific data term above that equals or includes it, or the question's own words if none does,
+ "data_covered_by": [every data term above that includes the question's data],
+ "recipient": likewise, or "", "recipient_covered_by": [...],
+ "source": likewise, or "", "source_covered_by": [...],
+ "purpose": likewise, or "", "purpose_covered_by": [...],
+ "facts": [formulas over the condition variables above that the question states],
+ "interpretation": "the question restated in one sentence in the policy's terms"}}
+Choose an action higher in the tree when the question is vaguer than every action of the policy. Take facts only from the question. {closed_world} Formula syntax: {{"op": "bool", "var": NAME}}, {{"op": "not", "arg": FORMULA}}, {{"op": "cmp", "var": NAME, "cmp": "==", "value": INTEGER}}, {{"op": "eq", "var": NAME, "value": STRING}}.

@@ -1,0 +1,257 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "personal information": "personal data",
+    "profile picture": "profile photo",
+    "user feedback": "feedback"
+   },
+   "parents": {
+    "address": [
+     "contact info",
+     "personal identifiers"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "bank routing number": [
+     "financial information"
+    ],
+    "browsing history": [
+     "electronic network activity",
+     "usage data"
+    ],
+    "car insurance information": [
+     "personal identifiers",
+     "vehicle information"
+    ],
+    "date of birth": [
+     "personal identifiers"
+    ],
+    "device characteristics": [
+     "device details"
+    ],
+    "device identifier": [
+     "device characteristics",
+     "electronic network activity"
+    ],
+    "driving license details": [
+     "identity verification documents",
+     "personal identifiers"
+    ],
+    "electronic network activity": [
+     "usage data"
+    ],
+    "email address": [
+     "contact info",
+     "personal identifiers"
+    ],
+    "gender": [
+     "driving license details"
+    ],
+    "government-issued id number": [
+     "personal identifiers"
+    ],
+    "identity verification documents": [
+     "safety and verification information"
+    ],
+    "inferences": [
+     "inferred data"
+    ],
+    "live location": [
+     "real-time location"
+    ],
+    "payment details": [
+     "financial information",
+     "transactional information"
+    ],
+    "phone call contents": [
+     "communications information"
+    ],
+    "phone number": [
+     "contact info",
+     "personal identifiers"
+    ],
+    "pickup and destination": [
+     "location"
+    ],
+    "pickup and drop-off locations": [
+     "location"
+    ],
+    "platform usage data": [
+     "usage data"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile photo": [
+     "personal identifiers",
+     "profile information"
+    ],
+    "pronouns": [
+     "preferences",
+     "profile information"
+    ],
+    "real-time location": [
+     "location"
+    ],
+    "rider statistics": [
+     "profile information"
+    ],
+    "route stops": [
+     "location"
+    ],
+    "selfie photo": [
+     "personal identifiers"
+    ],
+    "service usage": [
+     "platform usage data",
+     "usage data"
+    ],
+    "tax information": [
+     "financial information"
+    ],
+    "tracking technology data": [
+     "electronic network activity"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "vehicle information": [
+     "personal identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user"
+   },
+   "parents": {
+    "driver": [
+     "other user",
+     "rider or driver",
+     "third party"
+    ],
+    "rider": [
+     "other user",
+     "rider or driver",
+     "third party"
+    ],
+    "rider or driver": [
+     "other user",
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "trusted contact": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Lyft"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "insurance handling": "claims management",
+    "user account management": "account administration"
+   },
+   "parents": {
+    "account administration": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "authentication": [
+     "identity verification",
+     "security"
+    ],
+    "identity verification": [
+     "account administration",
+     "security"
+    ],
+    "claims management": [
+     "legal compliance"
+    ],
+    "legal claims": [
+     "legal compliance"
+    ],
+    "investigation": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "emergency assistance": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "feedback collection": [
+     "service improvement"
+    ],
+    "research and development": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service provision": [
+     "service operation and improvement"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "preferences": [
+     "account administration"
+    ],
+    "service operation and improvement": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3292,
+  "completion_tokens": 1156,
+  "thinking_tokens": 0,
+  "seconds": 28.953975439071655,
+  "failures": 0
+ },
+ "seconds": 29.2
+}

@@ -1,0 +1,247 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "demographic information": "demographic data",
+    "personal information": "personal data",
+    "photograph": "photo",
+    "user account information": "account information",
+    "vehicle information": "vehicle details"
+   },
+   "parents": {
+    "GPS location": [
+     "location"
+    ],
+    "call_audio": [
+     "audio recordings",
+     "voice recording"
+    ],
+    "first name and last initial": [
+     "name"
+    ],
+    "driver images": [
+     "photo"
+    ],
+    "credit card number": [
+     "financial data",
+     "financial details",
+     "payment information"
+    ],
+    "partial credit card number": [
+     "financial data",
+     "financial details",
+     "payment information"
+    ],
+    "payment methods": [
+     "financial data",
+     "financial details",
+     "payment information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "email_content": [
+     "communication content"
+    ],
+    "pick-up and drop-off locations": [
+     "location"
+    ],
+    "sms and text messages": [
+     "communication details"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "screen resolution": [
+     "device details"
+    ],
+    "unique device identifier": [
+     "device details"
+    ],
+    "telematics data": [
+     "service usage information"
+    ],
+    "in-vehicle recording data": [
+     "in-vehicle and external event recordings"
+    ],
+    "notes about service requirements": [
+     "service-related information"
+    ],
+    "purchase history": [
+     "financial data",
+     "transaction details"
+    ],
+    "order history": [
+     "service usage information",
+     "transaction details"
+    ],
+    "interaction details": [
+     "service usage information",
+     "usage and activity information"
+    ],
+    "browsing behavior": [
+     "usage and activity information"
+    ],
+    "electronic path information": [
+     "usage and activity information"
+    ],
+    "referrer url": [
+     "electronic path information"
+    ],
+    "url requested": [
+     "electronic path information"
+    ],
+    "date and time stamp": [
+     "communication metadata"
+    ],
+    "communication metadata": [
+     "metadata"
+    ],
+    "support communication": [
+     "communication details"
+    ],
+    "voice recording": [
+     "audio recordings"
+    ],
+    "driver's license": [
+     "legal and regulatory information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "delivery user": [
+     "user"
+    ],
+    "driver": [
+     "other_user",
+     "user"
+    ],
+    "other_user": [
+     "third party",
+     "user"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "rider": [
+     "other_user",
+     "rider or delivery user",
+     "user"
+    ],
+    "rider or delivery user": [
+     "user"
+    ],
+    "subcontractor": [
+     "service provider"
+    ],
+    "user": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third parties and service providers"
+    ],
+    "third party": [
+     "third parties and service providers"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third parties and service providers": "service providers and business partners"
+   },
+   "parents": {
+    "administrator": [
+     "enterprise platform user"
+    ],
+    "authorized users": [
+     "enterprise platform user"
+    ],
+    "driver": [
+     "user"
+    ],
+    "service provider": [
+     "service providers and business partners",
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "service providers and business partners",
+     "third party"
+    ],
+    "enterprise platform user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "service_provision": "service delivery"
+   },
+   "parents": {
+    "account management": [
+     "business operations",
+     "service delivery"
+    ],
+    "user access": [
+     "account management"
+    ],
+    "debugging": [
+     "service management",
+     "service optimization"
+    ],
+    "service notifications": [
+     "communication"
+    ],
+    "enforce terms or policies": [
+     "legal compliance"
+    ],
+    "legal defense": [
+     "legal compliance"
+    ],
+    "safety": [
+     "fraud_prevention_and_security"
+    ],
+    "preferences": [
+     "personalization"
+    ],
+    "marketing": [
+     "commercial"
+    ],
+    "payment processing": [
+     "service delivery"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3516,
+  "completion_tokens": 1049,
+  "thinking_tokens": 0,
+  "seconds": 60.08715581893921,
+  "failures": 0
+ },
+ "seconds": 60.2
+}

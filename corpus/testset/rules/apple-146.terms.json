@@ -1,0 +1,231 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audio data": "audio",
+    "audio_data": "audio",
+    "camera_data": "camera-data",
+    "contact info": "contact details",
+    "device camera": "camera-data",
+    "personal information": "personal data",
+    "personal-data": "personal data",
+    "personal_data": "personal data"
+   },
+   "parents": {
+    "AppsFlyer unique identifier": [
+     "unique identifiers"
+    ],
+    "account credentials": [
+     "registration information"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "audio recordings": [
+     "audio"
+    ],
+    "audio analysis": [
+     "audio"
+    ],
+    "audio": [
+     "device_permission_data"
+    ],
+    "camera-data": [
+     "device_permission_data"
+    ],
+    "child personal information": [
+     "personal data"
+    ],
+    "child profile information": [
+     "child personal information",
+     "profile information"
+    ],
+    "coarse geolocation": [
+     "location"
+    ],
+    "cookies": [
+     "unique identifiers"
+    ],
+    "device ID": [
+     "unique identifiers"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "images": [
+     "camera-data",
+     "photos and videos"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "nickname": [
+     "profile information"
+    ],
+    "online identifier": [
+     "unique identifiers"
+    ],
+    "password": [
+     "account credentials",
+     "registration information"
+    ],
+    "payment-card-details": [
+     "payment information"
+    ],
+    "performance scores": [
+     "learning progress data"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "prior experience level": [
+     "profile information"
+    ],
+    "push notification token": [
+     "unique identifiers"
+    ],
+    "song selection": [
+     "musical preferences"
+    ],
+    "favorite artists": [
+     "musical preferences"
+    ],
+    "preferred genre": [
+     "musical preferences"
+    ],
+    "songs played": [
+     "learning progress data"
+    ],
+    "sounds played": [
+     "learning progress data"
+    ],
+    "vocal expression data": [
+     "audio"
+    ],
+    "voice comments": [
+     "audio recordings",
+     "voice recordings"
+    ],
+    "voice recordings": [
+     "audio recordings"
+    ],
+    "web beacons": [
+     "other tracking technology data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "contractors": [
+     "service provider",
+     "third party"
+    ],
+    "employees": [
+     "internal"
+    ],
+    "marketing partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party AI services": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "AppsFlyer": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "marketing partner": [
+     "third party"
+    ],
+    "payment-processor": [
+     "third party"
+    ],
+    "application-store": [
+     "third party"
+    ],
+    "user browser": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "perform a contract": "contract performance",
+    "perform-contract": "contract performance",
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "targeted advertising": "advertising",
+    "train AI": "develop-train-ai"
+   },
+   "parents": {
+    "account registration": [
+     "account administration"
+    ],
+    "account administration": [
+     "provide service"
+    ],
+    "ai feedback": [
+     "feedback"
+    ],
+    "content recommendation": [
+     "personalization"
+    ],
+    "contract execution": [
+     "contract performance"
+    ],
+    "develop-train-ai": [
+     "model training"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ],
+    "legal defense": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service functionality": [
+     "provide service"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service-optimization-personalization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3270,
+  "completion_tokens": 1129,
+  "thinking_tokens": 0,
+  "seconds": 13.873298645019531,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

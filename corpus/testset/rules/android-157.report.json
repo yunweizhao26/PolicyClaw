@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "android-157",
+ "text_sha256": "beb57af8f40aa7b9e7344323a912af3869864867abd34fb80a58002a916b476a",
+ "site_id": "android-157",
+ "sections": 23,
+ "rules": 405,
+ "report": {
+  "sections": 23,
+  "raw_rules": 210,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "affiliates",
+      "name": "affiliates"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to facilitate provision of Services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "on a need-to-know basis"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-157#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "our and their employees, agents and representatives",
+      "name": "employees and agents"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to facilitate provision of Services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "on a need-to-know basis"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-157#s9"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 67,
+  "completeness": {
+   "gaps": 150,
+   "gap_words": 2152
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 67,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 63223,
+  "completion_tokens": 46666,
+  "thinking_tokens": 0,
+  "seconds": 1102.6262300014496,
+  "failures": 0
+ },
+ "seconds": 1103.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

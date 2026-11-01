@@ -1,0 +1,203 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email message": "email",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account name": [
+     "account credentials"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment card number"
+    ],
+    "debit card number": [
+     "financial information",
+     "payment card number"
+    ],
+    "driver's license number": [
+     "driver's license or state identification card number",
+     "government identifier"
+    ],
+    "driver's license or state identification card number": [
+     "government identifier"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "employment history": [
+     "employment",
+     "professional information"
+    ],
+    "insurance policy number": [
+     "financial information"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "postal address": [
+     "address",
+     "contact information"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "real name": [
+     "name"
+    ],
+    "social security number": [
+     "government identifier"
+    ],
+    "telephone number": [
+     "contact information"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ],
+    "your data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "service providers": "service provider",
+    "vendors": "vendor"
+   },
+   "parents": {
+    "authorized third parties": [
+     "third party"
+    ],
+    "consumer reporting agency": [
+     "third party"
+    ],
+    "data brokers": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "Agents or professional advisors authorized to disclose data on behalf of the individual": [
+     "third party"
+    ],
+    "individual and corporate customers, affiliates, vendors and counterparties to transactions or disputes": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention": "fraud prevention",
+    "legal_obligation": "legal compliance",
+    "order fulfilment": "fulfill orders",
+    "prevent fraud": "fraud prevention",
+    "research_and_development": "research and development",
+    "service administration": "business operations"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "employment evaluation": [
+     "recruiting and hiring"
+    ],
+    "fulfill orders": [
+     "fulfill transaction",
+     "provide_service"
+    ],
+    "fulfill transaction": [
+     "provide_service"
+    ],
+    "customer support": [
+     "service delivery",
+     "service provision"
+    ],
+    "service delivery": [
+     "provide_service",
+     "service provision"
+    ],
+    "service provision": [
+     "provide_service"
+    ],
+    "payment processing": [
+     "enforce_legal_terms",
+     "fulfill transaction"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "reduce credit risk": [
+     "security"
+    ],
+    "protect users": [
+     "security"
+    ],
+    "service improvement": [
+     "research and development"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3138,
+  "completion_tokens": 947,
+  "thinking_tokens": 0,
+  "seconds": 10.568180084228516,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

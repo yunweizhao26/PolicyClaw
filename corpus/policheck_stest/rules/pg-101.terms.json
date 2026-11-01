@@ -1,0 +1,104 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personal information": "non-personal data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "country": [
+     "location"
+    ],
+    "name": [
+     "data about user",
+     "personal data"
+    ],
+    "email address": [
+     "data about user",
+     "personal data"
+    ],
+    "gender": [
+     "data about user",
+     "personal data"
+    ],
+    "profile photo": [
+     "data about user",
+     "personal data",
+     "social media profile information"
+    ],
+    "facebook id": [
+     "social media profile information",
+     "user id"
+    ],
+    "facebook friend id": [
+     "social network friends"
+    ],
+    "like": [
+     "social media profile information"
+    ],
+    "dislike": [
+     "social media profile information"
+    ],
+    "recommendation": [
+     "social media profile information"
+    ],
+    "game checkin": [
+     "social media profile information"
+    ],
+    "social network friends": [
+     "social media profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third parties",
+     "third party service providers"
+    ],
+    "third party service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "internal personnel": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics": [
+     "service improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "security": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1550,
+  "completion_tokens": 459,
+  "thinking_tokens": 0,
+  "seconds": 9.847188711166382,
+  "failures": 0
+ },
+ "seconds": 9.9
+}

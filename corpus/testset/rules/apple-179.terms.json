@@ -1,0 +1,135 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device ID",
+    "personal information": "personal data",
+    "user data": "personal data"
+   },
+   "parents": {
+    "GPS coordinates": [
+     "location"
+    ],
+    "account name": [
+     "personal data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "aggregate data": [
+     "data"
+    ],
+    "browsing history": [
+     "data"
+    ],
+    "carrier": [
+     "data"
+    ],
+    "contacts": [
+     "personal data",
+     "personal data about other people"
+    ],
+    "content or information you have publicly posted": [
+     "user content"
+    ],
+    "device ID": [
+     "data"
+    ],
+    "device settings": [
+     "data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "hardware model": [
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal data about other people": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "social media data": [
+     "data"
+    ],
+    "user content": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "ad network": [
+     "service provider",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "marketing": "advertising"
+   },
+   "parents": {
+    "advertising": [
+     "service provision"
+    ],
+    "communication": [
+     "service provision"
+    ],
+    "payment": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "social or sharing features": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1753,
+  "completion_tokens": 518,
+  "thinking_tokens": 0,
+  "seconds": 9.180874586105347,
+  "failures": 0
+ },
+ "seconds": 9.3
+}

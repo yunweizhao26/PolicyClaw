@@ -1,0 +1,296 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audiovisual recording": "audiovisual data",
+    "information": "data",
+    "ip address": "IP address",
+    "location data": "location",
+    "personal information": "personal data",
+    "personal information of child": "child personal data",
+    "personally identifiable information": "personal data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "technical information"
+    ],
+    "account credentials": [
+     "personal data"
+    ],
+    "audio data": [
+     "personal data"
+    ],
+    "audiovisual data": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "browser and operating system software": [
+     "device information",
+     "technical information"
+    ],
+    "browser type": [
+     "browser and operating system software",
+     "technical information"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "camera information": [
+     "device information"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "contacts": [
+     "personal data"
+    ],
+    "cookies": [
+     "cookies or other tracking technologies"
+    ],
+    "cookies or other tracking technologies": [
+     "technical information"
+    ],
+    "data provided by other companies": [
+     "data"
+    ],
+    "date of birth": [
+     "demographic data",
+     "personal data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "derived data": [
+     "biometric data"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device parameters": [
+     "device information"
+    ],
+    "device type": [
+     "device information",
+     "device parameters"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "full name": [
+     "name"
+    ],
+    "health information": [
+     "sensitive personal information"
+    ],
+    "imagery of physical characteristics": [
+     "biometric data",
+     "physical characteristics"
+    ],
+    "interaction": [
+     "usage data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "operating system": [
+     "browser and operating system software"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "physical address": [
+     "contact information"
+    ],
+    "physical characteristics": [
+     "biometric data"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "profile data": [
+     "personal data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal information"
+    ],
+    "requested data for activity or event": [
+     "personal data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "social network activity": [
+     "user activity"
+    ],
+    "street address": [
+     "physical address"
+    ],
+    "technical information": [
+     "data"
+    ],
+    "usage data": [
+     "technical information"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "user comment": [
+     "Submitted Content"
+    ],
+    "user identity": [
+     "personal data"
+    ],
+    "video recording": [
+     "audiovisual data"
+    ],
+    "video viewing activity": [
+     "user activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertisers",
+    "partners": "partner"
+   },
+   "parents": {
+    "LiveRamp": [
+     "partner",
+     "service provider"
+    ],
+    "MLB Clubs": [
+     "MLB Entities"
+    ],
+    "MLB Entities": [
+     "affiliates"
+    ],
+    "advertising vendor": [
+     "service provider",
+     "vendor"
+    ],
+    "analytics provider": [
+     "service provider",
+     "vendor"
+    ],
+    "vendor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "parent or guardian": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "MLB Entities",
+    "service provider": "Service Provider"
+   },
+   "parents": {
+    "LiveRamp": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "Service Provider": [
+     "third party"
+    ],
+    "affiliates": [
+     "MLB Entities"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "order fulfillment": "fulfillment",
+    "personalization": "customization",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "In connection with loyalty, membership or rewards programs operated or accessible from the MLB Properties": [
+     "service provision"
+    ],
+    "To communicate with you about the league or MLB Club(s)/MiLB Club(s) applicable to your interactions with the MLB Properties and about products, services, sponsors, partners or affiliates related to a purchase you have made or rules or terms to which you have agreed, to the extent the sending of such communication is permissible under applicable law": [
+     "marketing"
+    ],
+    "To provide you with information you have requested, or with products, services or content you have purchased, used or otherwise engaged with (e.g., a sweepstakes, rewards program, subscription to goods or services, etc.) and to communicate with you (including via postal mail) about the same": [
+     "service provision"
+    ],
+    "To send you periodic surveys to help improve the MLB Properties or your Major League/Minor League Baseball experience": [
+     "service improvement"
+    ],
+    "account management": [
+     "admin"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "for internal purposes amongst MLB Entities (e.g., to learn about the age distribution of our users)": [
+     "internal purposes"
+    ],
+    "security": [
+     "fraud_prevention_and_security"
+    ],
+    "in order to perform a contract with you": [
+     "fulfill obligations"
+    ],
+    "service improvement": [
+     "service optimization"
+    ],
+    "troubleshooting": [
+     "service optimization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3626,
+  "completion_tokens": 1407,
+  "thinking_tokens": 0,
+  "seconds": 19.74216604232788,
+  "failures": 0
+ },
+ "seconds": 19.8
+}

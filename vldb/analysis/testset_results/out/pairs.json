@@ -1,0 +1,890 @@
+{
+ "rules": "reconciled",
+ "unstable_pages": [],
+ "all": {
+  "versions": 600,
+  "versions_with_rules": 600,
+  "pairs": 17918,
+  "outcomes": {
+   "mutually_exclusive": 1043,
+   "overlap_candidate": 9296,
+   "unresolved": 7579
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 5.82,
+   "overlap_candidate": 51.88,
+   "unresolved": 42.3
+  },
+  "decided_share_pct": 57.7,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 666,
+    "exclusive guards": 377
+   },
+   "overlap_candidate": {
+    "incomparable": 8623,
+    "deny more specific": 469,
+    "allow more specific": 185,
+    "same scope": 19
+   },
+   "unresolved": {
+    "incomparable": 7243,
+    "deny more specific": 270,
+    "allow more specific": 66
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 1593,
+   "one true": 4153,
+   "neither true": 3550
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 251,
+   "neither true": 792
+  },
+  "overlap_same_section": 762,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 7579,
+   "blocking_in": {
+    "deny": 3741,
+    "allow+deny": 1574,
+    "allow": 2264
+   },
+   "a_guard_entirely_untranslated": 4587,
+   "blocking_residuals_per_pair_median": 1
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 17918
+   },
+   "pairs_whose_outcome_changes": 8622,
+   "relations": {
+    "incomparable": 11957,
+    "allow more specific": 2529,
+    "deny more specific": 2045,
+    "same scope": 1387
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 178,
+   "overlap_candidate": 451,
+   "unresolved": 444
+  },
+  "versions_with_a_pair": 515,
+  "versions_with_a_same_scope_conflict": 15,
+  "pages_with_a_same_scope_conflict": 15,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 3587,
+   "disclosure": 1935,
+   "use": 1734,
+   "processing": 719,
+   "disclosure by transmission": 624,
+   "sale": 393,
+   "storage": 192,
+   "erasure or destruction": 73,
+   "consultation": 12,
+   "dissemination or otherwise making available": 8,
+   "adaptation or alteration": 5,
+   "profiling": 5,
+   "recording": 4,
+   "other": 3,
+   "alignment or combination": 2
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 2803,
+   "use@use": 1349,
+   "disclose@disclosure": 1106,
+   "share@disclosure": 716,
+   "process@processing": 590,
+   "sell@sale": 345,
+   "share@disclosure by transmission": 262,
+   "receive@collection": 177,
+   "collection": 154,
+   "disclose@disclosure by transmission": 127
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 60,
+    "rules_min": 7,
+    "rules_median": 37.0,
+    "rules_max": 60,
+    "pairs": 69,
+    "pairs_per_version": 1.15,
+    "versions_with_pair_pct": 40.0,
+    "overlap_candidates": 40
+   },
+   {
+    "decile": 2,
+    "versions": 60,
+    "rules_min": 61,
+    "rules_median": 77.0,
+    "rules_max": 97,
+    "pairs": 374,
+    "pairs_per_version": 6.2333,
+    "versions_with_pair_pct": 70.0,
+    "overlap_candidates": 193
+   },
+   {
+    "decile": 3,
+    "versions": 60,
+    "rules_min": 98,
+    "rules_median": 121.5,
+    "rules_max": 135,
+    "pairs": 497,
+    "pairs_per_version": 8.2833,
+    "versions_with_pair_pct": 83.33,
+    "overlap_candidates": 265
+   },
+   {
+    "decile": 4,
+    "versions": 60,
+    "rules_min": 135,
+    "rules_median": 151.5,
+    "rules_max": 167,
+    "pairs": 715,
+    "pairs_per_version": 11.9167,
+    "versions_with_pair_pct": 85.0,
+    "overlap_candidates": 381
+   },
+   {
+    "decile": 5,
+    "versions": 60,
+    "rules_min": 167,
+    "rules_median": 180.5,
+    "rules_max": 197,
+    "pairs": 893,
+    "pairs_per_version": 14.8833,
+    "versions_with_pair_pct": 90.0,
+    "overlap_candidates": 478
+   },
+   {
+    "decile": 6,
+    "versions": 60,
+    "rules_min": 197,
+    "rules_median": 213.5,
+    "rules_max": 233,
+    "pairs": 1284,
+    "pairs_per_version": 21.4,
+    "versions_with_pair_pct": 91.67,
+    "overlap_candidates": 779
+   },
+   {
+    "decile": 7,
+    "versions": 60,
+    "rules_min": 233,
+    "rules_median": 252.0,
+    "rules_max": 272,
+    "pairs": 1528,
+    "pairs_per_version": 25.4667,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 819
+   },
+   {
+    "decile": 8,
+    "versions": 60,
+    "rules_min": 272,
+    "rules_median": 301.5,
+    "rules_max": 325,
+    "pairs": 1626,
+    "pairs_per_version": 27.1,
+    "versions_with_pair_pct": 98.33,
+    "overlap_candidates": 958
+   },
+   {
+    "decile": 9,
+    "versions": 60,
+    "rules_min": 326,
+    "rules_median": 360.0,
+    "rules_max": 412,
+    "pairs": 1997,
+    "pairs_per_version": 33.2833,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 1063
+   },
+   {
+    "decile": 10,
+    "versions": 60,
+    "rules_min": 414,
+    "rules_median": 533.0,
+    "rules_max": 5748,
+    "pairs": 8935,
+    "pairs_per_version": 148.9167,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 4320
+   }
+  ]
+ },
+ "web": {
+  "versions": 200,
+  "versions_with_rules": 200,
+  "pairs": 7027,
+  "outcomes": {
+   "mutually_exclusive": 399,
+   "overlap_candidate": 3156,
+   "unresolved": 3472
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 5.68,
+   "overlap_candidate": 44.91,
+   "unresolved": 49.41
+  },
+  "decided_share_pct": 50.59,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 280,
+    "exclusive guards": 119
+   },
+   "overlap_candidate": {
+    "incomparable": 2939,
+    "deny more specific": 157,
+    "allow more specific": 56,
+    "same scope": 4
+   },
+   "unresolved": {
+    "incomparable": 3314,
+    "deny more specific": 133,
+    "allow more specific": 25
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 744,
+   "one true": 1489,
+   "neither true": 923
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 67,
+   "neither true": 332
+  },
+  "overlap_same_section": 261,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 3472,
+   "blocking_in": {
+    "allow+deny": 830,
+    "allow": 815,
+    "deny": 1827
+   },
+   "a_guard_entirely_untranslated": 2338,
+   "blocking_residuals_per_pair_median": 1.0
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 7027
+   },
+   "pairs_whose_outcome_changes": 3871,
+   "relations": {
+    "incomparable": 4818,
+    "allow more specific": 1050,
+    "deny more specific": 704,
+    "same scope": 455
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 58,
+   "overlap_candidate": 149,
+   "unresolved": 149
+  },
+  "versions_with_a_pair": 176,
+  "versions_with_a_same_scope_conflict": 3,
+  "pages_with_a_same_scope_conflict": 3,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 1133,
+   "use": 733,
+   "disclosure": 572,
+   "processing": 370,
+   "disclosure by transmission": 162,
+   "storage": 79,
+   "sale": 63,
+   "erasure or destruction": 32,
+   "dissemination or otherwise making available": 5,
+   "recording": 3,
+   "adaptation or alteration": 2,
+   "profiling": 2
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 737,
+   "use@use": 473,
+   "disclose@disclosure": 303,
+   "process@processing": 277,
+   "share@disclosure": 215,
+   "collection": 120,
+   "receive@collection": 76,
+   "share@disclosure by transmission": 67,
+   "sell@sale": 56,
+   "transfer@disclosure by transmission": 40
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 20,
+    "rules_min": 10,
+    "rules_median": 41.0,
+    "rules_max": 55,
+    "pairs": 23,
+    "pairs_per_version": 1.15,
+    "versions_with_pair_pct": 55.0,
+    "overlap_candidates": 10
+   },
+   {
+    "decile": 2,
+    "versions": 20,
+    "rules_min": 57,
+    "rules_median": 77.0,
+    "rules_max": 94,
+    "pairs": 121,
+    "pairs_per_version": 6.05,
+    "versions_with_pair_pct": 75.0,
+    "overlap_candidates": 68
+   },
+   {
+    "decile": 3,
+    "versions": 20,
+    "rules_min": 95,
+    "rules_median": 124.0,
+    "rules_max": 135,
+    "pairs": 182,
+    "pairs_per_version": 9.1,
+    "versions_with_pair_pct": 80.0,
+    "overlap_candidates": 107
+   },
+   {
+    "decile": 4,
+    "versions": 20,
+    "rules_min": 136,
+    "rules_median": 152.0,
+    "rules_max": 165,
+    "pairs": 283,
+    "pairs_per_version": 14.15,
+    "versions_with_pair_pct": 85.0,
+    "overlap_candidates": 169
+   },
+   {
+    "decile": 5,
+    "versions": 20,
+    "rules_min": 167,
+    "rules_median": 177.0,
+    "rules_max": 193,
+    "pairs": 359,
+    "pairs_per_version": 17.95,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 191
+   },
+   {
+    "decile": 6,
+    "versions": 20,
+    "rules_min": 193,
+    "rules_median": 201.0,
+    "rules_max": 221,
+    "pairs": 319,
+    "pairs_per_version": 15.95,
+    "versions_with_pair_pct": 85.0,
+    "overlap_candidates": 191
+   },
+   {
+    "decile": 7,
+    "versions": 20,
+    "rules_min": 224,
+    "rules_median": 248.0,
+    "rules_max": 268,
+    "pairs": 485,
+    "pairs_per_version": 24.25,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 233
+   },
+   {
+    "decile": 8,
+    "versions": 20,
+    "rules_min": 269,
+    "rules_median": 302.5,
+    "rules_max": 320,
+    "pairs": 582,
+    "pairs_per_version": 29.1,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 379
+   },
+   {
+    "decile": 9,
+    "versions": 20,
+    "rules_min": 320,
+    "rules_median": 342.5,
+    "rules_max": 391,
+    "pairs": 726,
+    "pairs_per_version": 36.3,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 387
+   },
+   {
+    "decile": 10,
+    "versions": 20,
+    "rules_min": 392,
+    "rules_median": 532.0,
+    "rules_max": 5748,
+    "pairs": 3947,
+    "pairs_per_version": 197.35,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 1421
+   }
+  ]
+ },
+ "android": {
+  "versions": 200,
+  "versions_with_rules": 200,
+  "pairs": 3663,
+  "outcomes": {
+   "mutually_exclusive": 255,
+   "overlap_candidate": 1836,
+   "unresolved": 1572
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 6.96,
+   "overlap_candidate": 50.12,
+   "unresolved": 42.92
+  },
+  "decided_share_pct": 57.08,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 137,
+    "exclusive guards": 118
+   },
+   "overlap_candidate": {
+    "incomparable": 1688,
+    "deny more specific": 90,
+    "allow more specific": 54,
+    "same scope": 4
+   },
+   "unresolved": {
+    "incomparable": 1510,
+    "deny more specific": 45,
+    "allow more specific": 17
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 287,
+   "one true": 794,
+   "neither true": 755
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 46,
+   "neither true": 209
+  },
+  "overlap_same_section": 190,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 1572,
+   "blocking_in": {
+    "deny": 791,
+    "allow+deny": 336,
+    "allow": 445
+   },
+   "a_guard_entirely_untranslated": 961,
+   "blocking_residuals_per_pair_median": 1.0
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 3663
+   },
+   "pairs_whose_outcome_changes": 1827,
+   "relations": {
+    "incomparable": 2259,
+    "allow more specific": 588,
+    "deny more specific": 461,
+    "same scope": 355
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 60,
+   "overlap_candidate": 138,
+   "unresolved": 133
+  },
+  "versions_with_a_pair": 156,
+  "versions_with_a_same_scope_conflict": 4,
+  "pages_with_a_same_scope_conflict": 4,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 776,
+   "use": 360,
+   "disclosure": 225,
+   "processing": 183,
+   "disclosure by transmission": 122,
+   "storage": 77,
+   "sale": 67,
+   "erasure or destruction": 13,
+   "consultation": 10,
+   "other": 1,
+   "alignment or combination": 1,
+   "adaptation or alteration": 1
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 653,
+   "use@use": 330,
+   "process@processing": 174,
+   "disclose@disclosure": 120,
+   "share@disclosure": 92,
+   "sell@sale": 56,
+   "receive@collection": 42,
+   "transfer@disclosure by transmission": 40,
+   "share@disclosure by transmission": 38,
+   "store@storage": 35
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 20,
+    "rules_min": 7,
+    "rules_median": 28.5,
+    "rules_max": 43,
+    "pairs": 15,
+    "pairs_per_version": 0.75,
+    "versions_with_pair_pct": 35.0,
+    "overlap_candidates": 7
+   },
+   {
+    "decile": 2,
+    "versions": 20,
+    "rules_min": 44,
+    "rules_median": 62.5,
+    "rules_max": 76,
+    "pairs": 158,
+    "pairs_per_version": 7.9,
+    "versions_with_pair_pct": 60.0,
+    "overlap_candidates": 107
+   },
+   {
+    "decile": 3,
+    "versions": 20,
+    "rules_min": 76,
+    "rules_median": 91.5,
+    "rules_max": 104,
+    "pairs": 106,
+    "pairs_per_version": 5.3,
+    "versions_with_pair_pct": 55.0,
+    "overlap_candidates": 29
+   },
+   {
+    "decile": 4,
+    "versions": 20,
+    "rules_min": 105,
+    "rules_median": 119.5,
+    "rules_max": 135,
+    "pairs": 180,
+    "pairs_per_version": 9.0,
+    "versions_with_pair_pct": 85.0,
+    "overlap_candidates": 110
+   },
+   {
+    "decile": 5,
+    "versions": 20,
+    "rules_min": 135,
+    "rules_median": 146.5,
+    "rules_max": 159,
+    "pairs": 223,
+    "pairs_per_version": 11.15,
+    "versions_with_pair_pct": 80.0,
+    "overlap_candidates": 98
+   },
+   {
+    "decile": 6,
+    "versions": 20,
+    "rules_min": 160,
+    "rules_median": 171.5,
+    "rules_max": 193,
+    "pairs": 247,
+    "pairs_per_version": 12.35,
+    "versions_with_pair_pct": 80.0,
+    "overlap_candidates": 131
+   },
+   {
+    "decile": 7,
+    "versions": 20,
+    "rules_min": 194,
+    "rules_median": 209.5,
+    "rules_max": 225,
+    "pairs": 306,
+    "pairs_per_version": 15.3,
+    "versions_with_pair_pct": 90.0,
+    "overlap_candidates": 136
+   },
+   {
+    "decile": 8,
+    "versions": 20,
+    "rules_min": 228,
+    "rules_median": 247.5,
+    "rules_max": 265,
+    "pairs": 536,
+    "pairs_per_version": 26.8,
+    "versions_with_pair_pct": 95.0,
+    "overlap_candidates": 277
+   },
+   {
+    "decile": 9,
+    "versions": 20,
+    "rules_min": 266,
+    "rules_median": 302.0,
+    "rules_max": 359,
+    "pairs": 672,
+    "pairs_per_version": 33.6,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 345
+   },
+   {
+    "decile": 10,
+    "versions": 20,
+    "rules_min": 360,
+    "rules_median": 447.5,
+    "rules_max": 1215,
+    "pairs": 1220,
+    "pairs_per_version": 61.0,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 596
+   }
+  ]
+ },
+ "apple": {
+  "versions": 200,
+  "versions_with_rules": 200,
+  "pairs": 7228,
+  "outcomes": {
+   "mutually_exclusive": 389,
+   "overlap_candidate": 4304,
+   "unresolved": 2535
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 5.38,
+   "overlap_candidate": 59.55,
+   "unresolved": 35.07
+  },
+  "decided_share_pct": 64.93,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 249,
+    "exclusive guards": 140
+   },
+   "overlap_candidate": {
+    "incomparable": 3996,
+    "deny more specific": 222,
+    "allow more specific": 75,
+    "same scope": 11
+   },
+   "unresolved": {
+    "incomparable": 2419,
+    "deny more specific": 92,
+    "allow more specific": 24
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 562,
+   "one true": 1870,
+   "neither true": 1872
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 138,
+   "neither true": 251
+  },
+  "overlap_same_section": 311,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 2535,
+   "blocking_in": {
+    "allow+deny": 408,
+    "allow": 1004,
+    "deny": 1123
+   },
+   "a_guard_entirely_untranslated": 1288,
+   "blocking_residuals_per_pair_median": 1
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 7228
+   },
+   "pairs_whose_outcome_changes": 2924,
+   "relations": {
+    "incomparable": 4880,
+    "allow more specific": 891,
+    "deny more specific": 880,
+    "same scope": 577
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 60,
+   "overlap_candidate": 164,
+   "unresolved": 162
+  },
+  "versions_with_a_pair": 183,
+  "versions_with_a_same_scope_conflict": 8,
+  "pages_with_a_same_scope_conflict": 8,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 1678,
+   "disclosure": 1138,
+   "use": 641,
+   "disclosure by transmission": 340,
+   "sale": 263,
+   "processing": 166,
+   "storage": 36,
+   "erasure or destruction": 28,
+   "profiling": 3,
+   "dissemination or otherwise making available": 3,
+   "consultation": 2,
+   "adaptation or alteration": 2,
+   "other": 2,
+   "alignment or combination": 1,
+   "recording": 1
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 1413,
+   "disclose@disclosure": 683,
+   "use@use": 546,
+   "share@disclosure": 409,
+   "sell@sale": 233,
+   "share@disclosure by transmission": 157,
+   "process@processing": 139,
+   "disclose@disclosure by transmission": 82,
+   "obtain@collection": 70,
+   "receive@collection": 59
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 20,
+    "rules_min": 21,
+    "rules_median": 61.5,
+    "rules_max": 79,
+    "pairs": 22,
+    "pairs_per_version": 1.1,
+    "versions_with_pair_pct": 45.0,
+    "overlap_candidates": 9
+   },
+   {
+    "decile": 2,
+    "versions": 20,
+    "rules_min": 81,
+    "rules_median": 122.0,
+    "rules_max": 135,
+    "pairs": 146,
+    "pairs_per_version": 7.3,
+    "versions_with_pair_pct": 90.0,
+    "overlap_candidates": 61
+   },
+   {
+    "decile": 3,
+    "versions": 20,
+    "rules_min": 136,
+    "rules_median": 159.0,
+    "rules_max": 168,
+    "pairs": 227,
+    "pairs_per_version": 11.35,
+    "versions_with_pair_pct": 90.0,
+    "overlap_candidates": 111
+   },
+   {
+    "decile": 4,
+    "versions": 20,
+    "rules_min": 170,
+    "rules_median": 191.0,
+    "rules_max": 212,
+    "pairs": 407,
+    "pairs_per_version": 20.35,
+    "versions_with_pair_pct": 95.0,
+    "overlap_candidates": 275
+   },
+   {
+    "decile": 5,
+    "versions": 20,
+    "rules_min": 213,
+    "rules_median": 229.0,
+    "rules_max": 242,
+    "pairs": 432,
+    "pairs_per_version": 21.6,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 277
+   },
+   {
+    "decile": 6,
+    "versions": 20,
+    "rules_min": 243,
+    "rules_median": 264.0,
+    "rules_max": 276,
+    "pairs": 550,
+    "pairs_per_version": 27.5,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 375
+   },
+   {
+    "decile": 7,
+    "versions": 20,
+    "rules_min": 277,
+    "rules_median": 301.5,
+    "rules_max": 318,
+    "pairs": 466,
+    "pairs_per_version": 23.3,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 251
+   },
+   {
+    "decile": 8,
+    "versions": 20,
+    "rules_min": 319,
+    "rules_median": 339.5,
+    "rules_max": 374,
+    "pairs": 661,
+    "pairs_per_version": 33.05,
+    "versions_with_pair_pct": 95.0,
+    "overlap_candidates": 335
+   },
+   {
+    "decile": 9,
+    "versions": 20,
+    "rules_min": 375,
+    "rules_median": 411.5,
+    "rules_max": 461,
+    "pairs": 832,
+    "pairs_per_version": 41.6,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 389
+   },
+   {
+    "decile": 10,
+    "versions": 20,
+    "rules_min": 464,
+    "rules_median": 591.0,
+    "rules_max": 2906,
+    "pairs": 3485,
+    "pairs_per_version": 174.25,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 2221
+   }
+  ]
+ },
+ "solver_time": {
+  "rule_sets": 600,
+  "workers": 8,
+  "wall_s": 33.9,
+  "pair_outcome_ms": {
+   "pairs": 17918,
+   "median": 2.641,
+   "p95": 5.426,
+   "max": 136.552,
+   "total_s": 54.82
+  },
+  "relation_ms": {
+   "pairs": 16875,
+   "median": 0.477,
+   "p95": 4.588,
+   "max": 27.65,
+   "total_s": 22.13
+  }
+ },
+ "checks": {
+  "every_unresolved_pair_has_a_blocking_residual": true,
+  "ablation_makes_every_pair_an_overlap": true
+ },
+ "run": {
+  "elapsed_s": 34.2,
+  "cpu_s": 143.8,
+  "peak_rss_mb_self": 36.2,
+  "peak_rss_mb_largest_child": 104.6,
+  "cpus": 8,
+  "slurm_job": "20734572",
+  "slurm_step": "1"
+ }
+}

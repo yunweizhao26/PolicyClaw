@@ -1,0 +1,366 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "drivers license": "driver license number",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "sex": "gender",
+    "survey responses": "survey response",
+    "telecoms provider": "carrier",
+    "unspecified-data": "unspecified data",
+    "your information": "user information"
+   },
+   "parents": {
+    "account data": [
+     "Personal Information"
+    ],
+    "ad clicks": [
+     "usage data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "amount of time spent on page": [
+     "usage data"
+    ],
+    "anonymized data": [
+     "information"
+    ],
+    "bank account details": [
+     "financial information"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "browser information": [
+     "device type"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "citizenship": [
+     "sensitive data"
+    ],
+    "comments and reviews posted": [
+     "user content"
+    ],
+    "contact details": [
+     "contact information"
+    ],
+    "contact info": [
+     "contact information"
+    ],
+    "contact information": [
+     "Personal Information"
+    ],
+    "contacts": [
+     "user data"
+    ],
+    "cookie identifier": [
+     "device identifier"
+    ],
+    "credit history": [
+     "financial information"
+    ],
+    "date and time of visit": [
+     "usage data"
+    ],
+    "date of birth": [
+     "Personal Information"
+    ],
+    "de-identified-aggregated data": [
+     "information"
+    ],
+    "demographic data": [
+     "Personal Information"
+    ],
+    "device identifier": [
+     "Personal Information"
+    ],
+    "driver license number": [
+     "government ID"
+    ],
+    "electronic personal data": [
+     "Personal Information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "employee data": [
+     "Personal Information"
+    ],
+    "engagement information": [
+     "usage data"
+    ],
+    "financial information": [
+     "Personal Information"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "government ID": [
+     "Personal Information"
+    ],
+    "hardware device identifier": [
+     "device identifier"
+    ],
+    "imei": [
+     "hardware device identifier"
+    ],
+    "information collected from your child": [
+     "Personal Information"
+    ],
+    "information directly from children": [
+     "information collected from your child"
+    ],
+    "interest profile": [
+     "user data"
+    ],
+    "ip address": [
+     "device identifier"
+    ],
+    "job application details": [
+     "Personal Information"
+    ],
+    "job title": [
+     "employee data"
+    ],
+    "language preferences": [
+     "preferences"
+    ],
+    "links clicked": [
+     "usage data"
+    ],
+    "listings created": [
+     "user content"
+    ],
+    "location": [
+     "Personal Information"
+    ],
+    "log-in credentials": [
+     "account data"
+    ],
+    "mac address": [
+     "hardware device identifier"
+    ],
+    "name": [
+     "Personal Information"
+    ],
+    "passport number": [
+     "government ID"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photos posted": [
+     "user content"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "profile data": [
+     "account data"
+    ],
+    "profile picture": [
+     "profile data"
+    ],
+    "purchase history": [
+     "transactions"
+    ],
+    "push notification credentials": [
+     "account data"
+    ],
+    "push notification tokens": [
+     "push notification credentials"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "server log": [
+     "usage data"
+    ],
+    "shipping address": [
+     "postal address"
+    ],
+    "social network contacts": [
+     "contacts"
+    ],
+    "social security number": [
+     "government ID"
+    ],
+    "survey response": [
+     "user content"
+    ],
+    "third-party account information": [
+     "account data"
+    ],
+    "transactions": [
+     "financial information"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "user communication content": [
+     "user content"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "user data": [
+     "Personal Information"
+    ],
+    "user id": [
+     "account data"
+    ],
+    "user information": [
+     "Personal Information"
+    ],
+    "user settings": [
+     "preferences"
+    ],
+    "user submissions": [
+     "user content"
+    ],
+    "username": [
+     "account data"
+    ],
+    "viewed items": [
+     "browsing history"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party provider": "service provider"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "App Stores or SNS": [
+     "third-party services and organizations"
+    ],
+    "third-party application": [
+     "third party",
+     "third-party services and organizations"
+    ],
+    "third-party services and organizations": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Wanelo",
+    "other users": "other user"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media feature": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "service quality": "quality assurance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "develop-website-content": [
+     "development"
+    ],
+    "dispute-resolution": [
+     "legal-compliance"
+    ],
+    "diversity management": [
+     "personnel-management"
+    ],
+    "fraud prevention": [
+     "fraud prevention or legal investigation",
+     "security"
+    ],
+    "fraud-detection": [
+     "fraud prevention or legal investigation",
+     "security"
+    ],
+    "fraud prevention or legal investigation": [
+     "security"
+    ],
+    "compliance with legal obligation": [
+     "legal-compliance"
+    ],
+    "legal enforcement or defence": [
+     "legal-compliance"
+    ],
+    "payment processing": [
+     "commercial operations"
+    ],
+    "personnel-management": [
+     "operations"
+    ],
+    "product development": [
+     "development"
+    ],
+    "service communication": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3718,
+  "completion_tokens": 1440,
+  "thinking_tokens": 0,
+  "seconds": 44.6321234703064,
+  "failures": 0
+ },
+ "seconds": 44.7
+}

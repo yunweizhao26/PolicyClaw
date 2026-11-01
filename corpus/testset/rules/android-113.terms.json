@@ -1,0 +1,167 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browser_type": "browser-type",
+    "browsing_history": "browsing-history",
+    "cookies": "cookie_data",
+    "date-of-birth": "date of birth",
+    "date_of_birth": "date of birth",
+    "device_information": "device-information",
+    "email-address": "email address",
+    "email_address": "email address",
+    "ip_address": "ip-address",
+    "operating_system": "operating-system",
+    "personal information": "personal data",
+    "user-name": "name",
+    "user_actions": "user-activity",
+    "username": "account-name"
+   },
+   "parents": {
+    "account profile": [
+     "personal data",
+     "user_provided_data"
+    ],
+    "account-name": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "browser-type": [
+     "device-information"
+    ],
+    "browsing-history": [
+     "interactions",
+     "user-activity"
+    ],
+    "cookie_data": [
+     "personal data"
+    ],
+    "date of birth": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "device-information": [
+     "personal data"
+    ],
+    "email address": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "gender": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "interactions": [
+     "personal data"
+    ],
+    "ip-address": [
+     "device-information",
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "operating-system": [
+     "device-information"
+    ],
+    "password": [
+     "account profile",
+     "personal data",
+     "user_provided_data"
+    ],
+    "personal data": [
+     "any data"
+    ],
+    "user-activity": [
+     "interactions"
+    ],
+    "user_provided_data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third-party accounts"
+    ],
+    "other_users": [
+     "public"
+    ],
+    "public": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Wattpad"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "authorized service providers": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer-support",
+    "security": "fraud_prevention_and_security",
+    "service_provision": "service-provision"
+   },
+   "parents": {
+    "promotions": [
+     "marketing"
+    ],
+    "service-communication": [
+     "communication"
+    ],
+    "account-management": [
+     "service-provision"
+    ],
+    "customer-support": [
+     "service-provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "development": [
+     "service-optimization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1955,
+  "completion_tokens": 1541,
+  "thinking_tokens": 0,
+  "seconds": 23.166623830795288,
+  "failures": 0
+ },
+ "seconds": 23.3
+}

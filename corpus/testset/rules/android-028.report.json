@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "android-028",
+ "text_sha256": "d32d721ecf8dfa0543d51e063c60f306b9867f1b3c35f0b2270a42abe28e8657",
+ "site_id": "android-028",
+ "sections": 19,
+ "rules": 193,
+ "report": {
+  "sections": 19,
+  "raw_rules": 178,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "affiliate",
+      "text": "Our affiliate and group companies"
+     },
+     "conditions": [],
+     "exceptions": [
+      "prohibited under applicable law"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "for use on their own behalf to market JioHotstar Services, our other services, and the services and products generally offered by our affiliate and group companies and/or third parties",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-028#s9"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 71,
+  "completeness": {
+   "gaps": 199,
+   "gap_words": 2664
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 71,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 61935,
+  "completion_tokens": 41675,
+  "thinking_tokens": 0,
+  "seconds": 302.96649050712585,
+  "failures": 0
+ },
+ "seconds": 304.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

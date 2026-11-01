@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "pg-199",
+ "text_sha256": "09e16a5b2714405918346f788543420baecc5a69117901f5d06c6bcb497fff2b",
+ "site_id": "pg-199",
+ "sections": 21,
+ "rules": 236,
+ "report": {
+  "sections": 21,
+  "raw_rules": 211,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "emailing",
+      "verb": "email"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "provide an additional notice",
+       "name": "admin.privacy_updates"
+      }
+     ],
+     "conditions": [
+      "In case of material or significant changes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-199#s4"
+   }
+  ],
+  "residual_quotes": 33,
+  "quotes": 111,
+  "completeness": {
+   "gaps": 260,
+   "gap_words": 2863
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 111,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 38,
+  "cached": 0,
+  "prompt_tokens": 66158,
+  "completion_tokens": 42277,
+  "thinking_tokens": 231,
+  "seconds": 314.10837149620056,
+  "failures": 0
+ },
+ "seconds": 315.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

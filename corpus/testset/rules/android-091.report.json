@@ -1,0 +1,573 @@
+{
+ "cleaned_sha256": "android-091",
+ "text_sha256": "15374f50783f961c94729c6ac6c41182e24145c941a32a7f9bfd7021586917ca",
+ "site_id": "android-091",
+ "sections": 24,
+ "rules": 353,
+ "report": {
+  "sections": 24,
+  "raw_rules": 276,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is for",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "call data",
+      "name": "call logs"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for the purpose of improving the quality of our services and providing you with the optimal experience (such as detection and blockage of spam caller by our algorithms)",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [
+      "in Telco Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "is for",
+     "in Telco Services"
+    ],
+    "section": "android-091#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide ... access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Your chosen third-party social platform"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "certain personal information retained by them about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure to first party",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "user",
+      "text": "users"
+     },
+     "conditions": [
+      "when users use our Services"
+     ],
+     "data": {
+      "name": "phone number",
+      "text": "your phone number"
+     },
+     "exceptions": [],
+     "operation": "disclosure to first party",
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "our Services"
+     },
+     "references": [],
+     "source": {
+      "name": "address book",
+      "text": "their mobile address book"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "user",
+      "text": "users"
+     },
+     "conditions": [
+      "when users use our Services"
+     ],
+     "data": {
+      "name": "name",
+      "text": "name"
+     },
+     "exceptions": [],
+     "operation": "disclosure to first party",
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "our Services"
+     },
+     "references": [],
+     "source": {
+      "name": "address book",
+      "text": "their mobile address book"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "user",
+      "text": "users"
+     },
+     "conditions": [
+      "when users use our Services"
+     ],
+     "data": {
+      "name": "user content",
+      "text": "comments in a special field to your personal profile"
+     },
+     "exceptions": [],
+     "operation": "disclosure to first party",
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "our Services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "the authorities",
+      "name": "authorities"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide disclosure to",
+      "verb": "provide disclosure to"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to comply with legal obligations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to prevent and/or detect fraud",
+       "name": "fraud prevention and detection"
+      }
+     ],
+     "conditions": [
+      "when required by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-091#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third party services providers and partners who provide a specific Service on our behalf, perform data storage or data processing services, including those located outside your territory and to assist us in analysing how our Services are performing",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to provide a specific Service on our behalf",
+       "name": "service provision"
+      },
+      {
+       "text": "perform data storage or data processing services",
+       "name": "data processing"
+      },
+      {
+       "text": "to assist us in analysing how our Services are performing",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "When you use any of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide a specific Service on our behalf"
+    ],
+    "section": "android-091#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "transferred",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information regarding the payment and payment methods (including payment institutions, PSP (payment service provider), payment broker, payment service provider, technical integrator) of the Services",
+      "name": "payment information"
+     },
+     "recipient": {
+      "text": "our Business Partners as a third party",
+      "name": "business partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for the performance, development and analysis of the core service we provide under our Terms of Service agreement",
+       "name": "service provision"
+      },
+      {
+       "text": "so that our Company, as data controller, can fulfill its legal obligation",
+       "name": "compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Terms of Service agreement",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for the performance, development and analysis of the core service we provide under our Terms of Service agreement"
+    ],
+    "section": "android-091#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "Getcontact",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third-party service providers that help us operate the Service, such as hosting providers and customer support providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to help us operate the Service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "with the User's consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us operate the Service"
+    ],
+    "section": "android-091#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your basic profile information",
+      "name": "profile data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "from within the Getcontact app",
+      "before we let you access or update your personal information",
+      "We will require you to verify your identity or provide additional information related to your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "preferences",
+      "name": "privacy preferences"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "from within the Getcontact app",
+      "before we let you access or update your personal information",
+      "We will require you to verify your identity or provide additional information related to your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can also obtain",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "a copy of information that is not available in our app",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "so you can move it or store it wherever you want",
+       "name": "user data portability"
+      }
+     ],
+     "conditions": [
+      "in a portable format"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request copies of",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "copies of your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "request copies of",
+      "verb": "copy"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "under existing and applicable data protection legislation",
+      "Right to access : the right to request copies of your personal data from us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-091#s21"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 141,
+  "completeness": {
+   "gaps": 220,
+   "gap_words": 2899
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 141,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 47,
+  "cached": 0,
+  "prompt_tokens": 78224,
+  "completion_tokens": 55833,
+  "thinking_tokens": 0,
+  "seconds": 642.7669076919556,
+  "failures": 0
+ },
+ "seconds": 644.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

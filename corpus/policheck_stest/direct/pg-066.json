@@ -1,0 +1,30 @@
+{
+ "policy": "pg-066",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Among the types of Personal Data that this Application collects, by itself or through third parties, there are: Cookies and Usage Data.",
+   "prohibit": "We DO NOT collect, store or use any personal information while you visit, download or upgrade our products.",
+   "situation": "A user visits or downloads the application, and the application collects personal data directly by itself.",
+   "reason": "One statement claims the owner does not collect or store personal information when users visit or download products, while the other states the application collects personal data by itself.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We may use personal information submitted by you only for the following purposes: help us develop, deliver, and improve our products and services and supply higher quality service; manage online surveys and other activities you’ve participated in.",
+   "prohibit": "We DO NOT collect, store or use any personal information while you visit, download or upgrade our products.",
+   "situation": "A user visits or uses the application and submits personal information for product improvements or online surveys.",
+   "reason": "One clause explicitly denies collecting, storing, or using any personal information during product visits, while the other explicitly permits using personal information submitted by the user.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 3605,
+  "completion_tokens": 318,
+  "thinking_tokens": 0,
+  "seconds": 3.3430607318878174,
+  "failures": 0
+ }
+}

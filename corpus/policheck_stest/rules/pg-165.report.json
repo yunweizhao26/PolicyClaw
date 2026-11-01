@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "pg-165",
+ "text_sha256": "18bb481204a80851623054960c76cd1e3bcbf3061fa6be229f922b3e4c119a6f",
+ "site_id": "pg-165",
+ "sections": 8,
+ "rules": 45,
+ "report": {
+  "sections": 8,
+  "raw_rules": 37,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party advertising companies",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to serve ads when you visit the Mobile App",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-165#s4"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 14,
+  "completeness": {
+   "gaps": 30,
+   "gap_words": 377
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 14,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 17255,
+  "completion_tokens": 7680,
+  "thinking_tokens": 0,
+  "seconds": 47.33219361305237,
+  "failures": 0
+ },
+ "seconds": 47.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

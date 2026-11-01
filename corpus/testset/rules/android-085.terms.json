@@ -1,0 +1,416 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "bank details": "bank account number",
+    "billing information": "billing data",
+    "data": "any information, data or content",
+    "device information": "device data",
+    "identity theft protection data": "Identity Theft Protection Data",
+    "information": "any information, data or content",
+    "location data": "location",
+    "mobile endpoint device information": "device data",
+    "password": "account password",
+    "personal data": "personal Information",
+    "ssn": "social security number",
+    "theft alerts data": "theft alert data",
+    "visited URLs": "browsing history",
+    "web browsing history": "browsing history",
+    "zip code": "postal code"
+   },
+   "parents": {
+    "account data": [
+     "personal Information"
+    ],
+    "account password": [
+     "account data"
+    ],
+    "account username": [
+     "account data",
+     "identifiers"
+    ],
+    "analytics data": [
+     "any information, data or content"
+    ],
+    "app download location": [
+     "location"
+    ],
+    "app events": [
+     "application behavior"
+    ],
+    "app usage frequency": [
+     "application behavior"
+    ],
+    "application behavior": [
+     "application data"
+    ],
+    "application details": [
+     "application data"
+    ],
+    "application files": [
+     "application data"
+    ],
+    "application network services": [
+     "application behavior"
+    ],
+    "bank account number": [
+     "identity theft protection identifiers"
+    ],
+    "billing data": [
+     "payment data"
+    ],
+    "cell tower or wi-fi hotspots": [
+     "location"
+    ],
+    "client device information": [
+     "device data"
+    ],
+    "credit card expiration date": [
+     "payment data"
+    ],
+    "credit card number": [
+     "identity theft protection identifiers",
+     "payment card number"
+    ],
+    "credit card security code": [
+     "payment data"
+    ],
+    "customer data": [
+     "any information, data or content"
+    ],
+    "date and time stamp": [
+     "any information, data or content"
+    ],
+    "device details": [
+     "device data"
+    ],
+    "device identifier": [
+     "device data",
+     "identifiers"
+    ],
+    "device manufacturer": [
+     "device data"
+    ],
+    "device type": [
+     "device data"
+    ],
+    "domain names": [
+     "browsing history"
+    ],
+    "driver's license number": [
+     "government identifier",
+     "identity theft protection identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "email message": [
+     "any information, data or content"
+    ],
+    "government identifier": [
+     "identity theft protection identifiers"
+    ],
+    "gps coordinates": [
+     "location"
+    ],
+    "health insurance information": [
+     "sensitive personal data"
+    ],
+    "identity theft protection identifiers": [
+     "Identity Theft Protection Data",
+     "identifiers"
+    ],
+    "installed apps metadata": [
+     "application details"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "name": [
+     "personal Information"
+    ],
+    "network carrier": [
+     "device data"
+    ],
+    "network type": [
+     "device data"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "operating system files details": [
+     "device details"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "payment amount": [
+     "payment data"
+    ],
+    "payment card number": [
+     "payment data"
+    ],
+    "payment method": [
+     "payment data"
+    ],
+    "personal Information": [
+     "customer data"
+    ],
+    "personal data categories": [
+     "personal Information"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "photograph": [
+     "any information, data or content"
+    ],
+    "postal code": [
+     "identity theft protection identifiers",
+     "location"
+    ],
+    "promotional communication": [
+     "any information, data or content"
+    ],
+    "purchase confirmation": [
+     "transactional communication"
+    ],
+    "reports": [
+     "any information, data or content"
+    ],
+    "scan results": [
+     "application data"
+    ],
+    "security disposition of device": [
+     "device data"
+    ],
+    "sensitive personal data": [
+     "personal Information"
+    ],
+    "sku": [
+     "purchase confirmation"
+    ],
+    "social security number": [
+     "government identifier",
+     "identity theft protection identifiers"
+    ],
+    "subscriber id": [
+     "identifiers"
+    ],
+    "support email information": [
+     "customer data"
+    ],
+    "text message": [
+     "any information, data or content"
+    ],
+    "theft alert data": [
+     "any information, data or content"
+    ],
+    "transactional communication": [
+     "customer data"
+    ],
+    "url": [
+     "browsing history"
+    ],
+    "user-entered application data": [
+     "application data"
+    ],
+    "user-provided information": [
+     "customer data"
+    ],
+    "video": [
+     "any information, data or content"
+    ],
+    "browsing history": [
+     "application behavior"
+    ],
+    "wi-fi ssid": [
+     "identifiers"
+    ],
+    "your information": [
+     "any information, data or content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties",
+    "third-party service providers": "third party service providers"
+   },
+   "parents": {
+    "identification verification companies": [
+     "third party service providers"
+    ],
+    "consumer reporting agencies": [
+     "third party service providers"
+    ],
+    "credit bureaus": [
+     "third party service providers"
+    ],
+    "payment validation companies": [
+     "third party service providers"
+    ],
+    "law enforcement agencies": [
+     "public authorities",
+     "third party service providers"
+    ],
+    "others": [
+     "third party service providers"
+    ],
+    "data analytics provider": [
+     "service provider"
+    ],
+    "third party service providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "contractor": [
+     "third parties"
+    ],
+    "resellers": [
+     "third parties"
+    ],
+    "actual or potential buyer": [
+     "third parties"
+    ],
+    "public authorities": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "on your device"
+   },
+   "parents": {
+    "users outside the United States": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "CSIdentity": "CSID",
+    "our partners": "first party's partner",
+    "partner": "first party's partner"
+   },
+   "parents": {
+    "CSID": [
+     "first party's partner",
+     "services providers"
+    ],
+    "CSIdentity service providers": [
+     "services providers"
+    ],
+    "F-Secure, Inc.": [
+     "first party"
+    ],
+    "third-party payment processor": [
+     "services providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics": "For data analysis",
+    "legal compliance": "compliance with legal obligations",
+    "provide service": "provide products and services",
+    "service improvement": "product improvement purposes",
+    "service provision": "provide products and services",
+    "service-provision": "provide products and services",
+    "to perform data analytics": "For data analysis",
+    "to provide the service to you": "provide products and services"
+   },
+   "parents": {
+    "analyze data for product performance": [
+     "For data analysis"
+    ],
+    "to conduct market research": [
+     "For data analysis"
+    ],
+    "to perform analysis on known and new mobile threats": [
+     "For data analysis"
+    ],
+    "to produce popularity of applications by region, and to perform our mobile threat analysis": [
+     "For data analysis"
+    ],
+    "authentication or security": [
+     "security"
+    ],
+    "billing": [
+     "to perform accounting, auditing, billing reconciliation, and collection activities"
+    ],
+    "comply with a law, regulation, or legal process (including to meet national security or law enforcement requirements)": [
+     "compliance with legal obligations"
+    ],
+    "engage in joint promotional activities": [
+     "marketing"
+    ],
+    "to send you information about product announcements and special promotions from F‑Secure or our business partners": [
+     "marketing"
+    ],
+    "for purposes of providing services through the F‑Secure Premium Plus product": [
+     "provide products and services"
+    ],
+    "for purposes of providing you with the services requested": [
+     "provide products and services"
+    ],
+    "fulfill your product or service requests": [
+     "provide products and services"
+    ],
+    "in order to provide the Identity Protection services": [
+     "provide products and services"
+    ],
+    "to deliver the App": [
+     "provide products and services"
+    ],
+    "to perform the Theft Alert services": [
+     "provide products and services"
+    ],
+    "to verify your identity and provide you with the requested Identity Protection services": [
+     "provide products and services"
+    ],
+    "to help you locate your phone near its last known location": [
+     "provide products and services"
+    ],
+    "investigate fraud, security, or technical issues": [
+     "security"
+    ],
+    "to perform security scans": [
+     "security"
+    ],
+    "protect the safety or security of any person, entity or facility": [
+     "security"
+    ],
+    "to provide our services by conducting scans of application files to determine if any applications are behaving maliciously": [
+     "provide products and services",
+     "security"
+    ],
+    "customer support": [
+     "support our products and services"
+    ],
+    "to provide you with assistance and applicable insurance coverage if your identity is compromised": [
+     "customer support"
+    ],
+    "service-operation-and-support": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3903,
+  "completion_tokens": 2159,
+  "thinking_tokens": 0,
+  "seconds": 18.936625957489014,
+  "failures": 0
+ },
+ "seconds": 19.0
+}

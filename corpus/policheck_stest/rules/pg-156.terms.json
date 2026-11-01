@@ -1,0 +1,204 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Customer information": "Customer data",
+    "contact information": "contact info",
+    "information": "data",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "product data": "Product Data",
+    "referring URL": "referrer URL",
+    "resume information": "resume",
+    "services data": "Services Data",
+    "user data": "Customer data"
+   },
+   "parents": {
+    "child personal information": [
+     "information about children",
+     "personal data"
+    ],
+    "information about children": [
+     "personal data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "name": [
+     "contact info"
+    ],
+    "job title": [
+     "contact info"
+    ],
+    "shipping address": [
+     "contact info",
+     "postal address"
+    ],
+    "bank account number": [
+     "financial data",
+     "payment data"
+    ],
+    "credit card number": [
+     "financial data",
+     "payment data"
+    ],
+    "expiration date": [
+     "payment data"
+    ],
+    "browser type": [
+     "browser and OS type"
+    ],
+    "operating system": [
+     "browser and OS type"
+    ],
+    "cookies data": [
+     "cookies and web beacons data"
+    ],
+    "cookies": [
+     "cookies and web beacons data"
+    ],
+    "web beacons": [
+     "cookies and web beacons data"
+    ],
+    "employment application information": [
+     "employment data"
+    ],
+    "resume": [
+     "employment application information",
+     "employment data"
+    ],
+    "application history": [
+     "employment application information",
+     "employment data"
+    ],
+    "employment preferences": [
+     "employment application information",
+     "employment data"
+    ],
+    "references and qualifications": [
+     "employment application information",
+     "employment data"
+    ],
+    "educational and professional background": [
+     "employment data"
+    ],
+    "user submissions": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "third-party service provider": [
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Community Brands"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "payment processor": [
+     "third-party service provider"
+    ],
+    "third-party analytics service provider": [
+     "third-party service provider"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "enforce legal agreements": "enforce agreements and policies",
+    "legal-compliance": "legal compliance",
+    "pursue legitimate business interests": "legitimate interests"
+   },
+   "parents": {
+    "authentication": [
+     "verification"
+    ],
+    "award prizes": [
+     "marketing"
+    ],
+    "communication": [
+     "human-resource-recruiting"
+    ],
+    "contact user": [
+     "to contact you"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "dispute resolution": [
+     "dispute-resolution"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ],
+    "for billing purposes": [
+     "contract negotiation and fulfillment"
+    ],
+    "for purposes of monitoring or improving the use and satisfaction of the Websites": [
+     "service-improvement"
+    ],
+    "fulfill contractual obligations": [
+     "contract negotiation and fulfillment"
+    ],
+    "prevent harm": [
+     "security"
+    ],
+    "service-improvement": [
+     "service provision"
+    ],
+    "to contact you": [
+     "communication",
+     "to contact you for any purpose"
+    ],
+    "to contact you about the products/services on our Website in which you have expressed interest": [
+     "to contact you"
+    ],
+    "to fill your orders": [
+     "contract negotiation and fulfillment"
+    ],
+    "to notify winners": [
+     "award prizes",
+     "to contact you"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2864,
+  "completion_tokens": 1014,
+  "thinking_tokens": 0,
+  "seconds": 12.899343252182007,
+  "failures": 0
+ },
+ "seconds": 13.0
+}

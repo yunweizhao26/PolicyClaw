@@ -1,0 +1,305 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "device information": "device info",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "profile information": "profile info",
+    "user files": "files",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "Flash cookie": [
+     "cookie",
+     "tracking technology data"
+    ],
+    "cookie": [
+     "tracking technology data"
+    ],
+    "cookie data": [
+     "tracking technology data"
+    ],
+    "IP address": [
+     "device and network information",
+     "device info"
+    ],
+    "access times": [
+     "usage data"
+    ],
+    "account activity": [
+     "account information"
+    ],
+    "account credentials": [
+     "account information"
+    ],
+    "account name": [
+     "account information",
+     "name"
+    ],
+    "account usage history": [
+     "account information",
+     "usage data"
+    ],
+    "ad interactions": [
+     "interaction data",
+     "usage data"
+    ],
+    "banking information": [
+     "billing information"
+    ],
+    "credit card number": [
+     "banking information",
+     "billing information"
+    ],
+    "browser details": [
+     "device info"
+    ],
+    "browser language": [
+     "browser details"
+    ],
+    "browser type": [
+     "browser details"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "page views": [
+     "browsing history",
+     "usage data"
+    ],
+    "link clicks": [
+     "click information"
+    ],
+    "click information": [
+     "usage data"
+    ],
+    "clicked acceptance": [
+     "user actions"
+    ],
+    "connection type": [
+     "device and network information"
+    ],
+    "network type": [
+     "device and network information"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info",
+     "location"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "crash log": [
+     "system data"
+    ],
+    "device identifier": [
+     "device info",
+     "unique identifier"
+    ],
+    "device settings": [
+     "device info"
+    ],
+    "device specs": [
+     "device info"
+    ],
+    "display name": [
+     "name",
+     "profile info"
+    ],
+    "profile picture": [
+     "profile info"
+    ],
+    "hardware make": [
+     "device specs"
+    ],
+    "hardware model": [
+     "device specs"
+    ],
+    "operating system": [
+     "device specs"
+    ],
+    "os version": [
+     "operating system"
+    ],
+    "screen resolution": [
+     "device specs"
+    ],
+    "software version": [
+     "device specs"
+    ],
+    "system configuration": [
+     "system data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "isp": [
+     "device and network information"
+    ],
+    "log file information": [
+     "usage data"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "payment confirmation": [
+     "billing information"
+    ],
+    "purchase history": [
+     "account activity"
+    ],
+    "push notification": [
+     "user messages"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "survey response": [
+     "feedback provided directly to us",
+     "user data"
+    ],
+    "user actions": [
+     "usage data"
+    ],
+    "user behavior": [
+     "usage data"
+    ],
+    "files": [
+     "user content"
+    ],
+    "user messages": [
+     "user content"
+    ],
+    "user profile": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social network": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "MediaFire",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "advertiser": [
+     "advertising companies",
+     "third party"
+    ],
+    "advertising companies": [
+     "third party"
+    ],
+    "payment processor": [
+     "partner",
+     "third party"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party partner": [
+     "partner",
+     "third party"
+    ],
+    "third party platform": [
+     "third party"
+    ],
+    "other third party": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service personalization": "personalization",
+    "user communication": "communication"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "authentication": [
+     "user account management"
+    ],
+    "customer support": [
+     "communication",
+     "service operation"
+    ],
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "payment processing": [
+     "transaction processing"
+    ],
+    "research and development": [
+     "analytics or research"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3083,
+  "completion_tokens": 1244,
+  "thinking_tokens": 0,
+  "seconds": 15.337279558181763,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

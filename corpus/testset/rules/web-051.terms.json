@@ -1,0 +1,224 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Personal Information": "Personal Data",
+    "information": "data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "web beacons": "pixel tags"
+   },
+   "parents": {
+    "Personal Data": [
+     "data"
+    ],
+    "sensitive personal information": [
+     "Personal Data"
+    ],
+    "business contact information": [
+     "Personal Data"
+    ],
+    "email address": [
+     "business contact information"
+    ],
+    "phone number": [
+     "business contact information"
+    ],
+    "postal address": [
+     "business contact information"
+    ],
+    "first name": [
+     "business contact information"
+    ],
+    "last name": [
+     "business contact information"
+    ],
+    "job title": [
+     "business contact information"
+    ],
+    "company name": [
+     "business contact information"
+    ],
+    "city": [
+     "postal address"
+    ],
+    "country": [
+     "postal address"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "passwords": [
+     "log-in details"
+    ],
+    "browsing activities": [
+     "usage data"
+    ],
+    "telemetry": [
+     "usage data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "marketing interactions": [
+     "interaction data"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "data processed through the Services": [
+     "data"
+    ],
+    "other data processed through the Services": [
+     "data processed through the Services"
+    ],
+    "anonymized data": [
+     "data",
+     "otherwise transformed data"
+    ],
+    "otherwise transformed data": [
+     "data"
+    ],
+    "backups": [
+     "data"
+    ],
+    "billing information": [
+     "data"
+    ],
+    "business profile": [
+     "data"
+    ],
+    "communications": [
+     "data"
+    ],
+    "device information": [
+     "data"
+    ],
+    "training and certification data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "threat indicators": [
+     "data"
+    ],
+    "confidential information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advisor": [
+     "third parties"
+    ],
+    "affiliate": [
+     "another company"
+    ],
+    "customer": [
+     "third parties"
+    ],
+    "distributor": [
+     "partner",
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "vendor": [
+     "service provider",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "publicly available source": [
+     "third party"
+    ],
+    "website": [
+     "first-party service"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Check Point"
+   },
+   "parents": {
+    "Check Point US": [
+     "Check Point"
+    ],
+    "authorized employees": [
+     "authorized individuals who need such access for the purposes described in this Privacy Policy",
+     "employee"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service provision": "provide-service",
+    "service-provision": "provide-service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "billing": [
+     "account management",
+     "customer relationship management"
+    ],
+    "customer relationship management": [
+     "customer support"
+    ],
+    "fraud-prevention": [
+     "security",
+     "service operation and improvement"
+    ],
+    "backup": [
+     "archiving"
+    ],
+    "account management": [
+     "provide-service"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "service operation and improvement": [
+     "services"
+    ],
+    "provide-service": [
+     "services"
+    ],
+    "user preferences or service customization": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2477,
+  "completion_tokens": 1116,
+  "thinking_tokens": 0,
+  "seconds": 13.431722402572632,
+  "failures": 0
+ },
+ "seconds": 13.5
+}

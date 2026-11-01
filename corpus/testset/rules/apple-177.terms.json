@@ -1,0 +1,473 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising data": "advertisement views",
+    "commercial information": "Commercial Information",
+    "datos personales": "Personal Data",
+    "device information": "Device Information",
+    "employment information": "Employment Information",
+    "financial institution name": "bank name",
+    "full name": "first and last name",
+    "identifier": "Identifiers",
+    "identifiers": "Identifiers",
+    "información laboral o profesional": "Employment Information",
+    "ip address": "IP address",
+    "language preferences": "language",
+    "log-in details": "log-in credentials",
+    "login details": "log-in credentials",
+    "marketing data": "Marketing Data",
+    "other collected information": "collected information",
+    "payment receipt": "credit card receipt",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "professional background": "Employment Information",
+    "receipt": "credit card receipt",
+    "telephone number": "phone number",
+    "time spent on page": "browsing time",
+    "transaction timestamps": "transaction date and time",
+    "user content": "User Content",
+    "user interests": "interests",
+    "user preferences and feedback": "preferences and feedback",
+    "user reviews": "service reviews",
+    "user-generated content": "User Content"
+   },
+   "parents": {
+    "CPU usage": [
+     "device details"
+    ],
+    "RAM": [
+     "device details"
+    ],
+    "account history": [
+     "Commercial Information"
+    ],
+    "advertising ID": [
+     "device details",
+     "online identifier",
+     "unique identifier"
+    ],
+    "bank account number": [
+     "financial transactional data"
+    ],
+    "billing postal code": [
+     "contact details"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browser version": [
+     "device details"
+    ],
+    "card security code": [
+     "payment card data"
+    ],
+    "carrier": [
+     "device details"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "credit card receipt": [
+     "payment card data",
+     "transaction details"
+    ],
+    "debit card number": [
+     "payment card number"
+    ],
+    "derived location": [
+     "geographic location"
+    ],
+    "device details": [
+     "Device Information"
+    ],
+    "device hardware model": [
+     "device details"
+    ],
+    "device identifier": [
+     "device details",
+     "unique identifier"
+    ],
+    "device location": [
+     "device details"
+    ],
+    "device manufacturer": [
+     "device details"
+    ],
+    "device model": [
+     "device details"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email address": [
+     "Identifiers",
+     "contact details"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "IP address": [
+     "device details",
+     "online identifier"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "language settings": [
+     "device details"
+    ],
+    "mac address": [
+     "device details",
+     "online identifier",
+     "unique identifier"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "name": [
+     "Identifiers",
+     "contact details"
+    ],
+    "network details": [
+     "device details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "pages viewed": [
+     "browsing history"
+    ],
+    "partial bank account number": [
+     "bank account number"
+    ],
+    "password": [
+     "log-in credentials"
+    ],
+    "payment card expiration date": [
+     "payment card data"
+    ],
+    "payment card number": [
+     "payment card data"
+    ],
+    "phone number": [
+     "Identifiers",
+     "contact details"
+    ],
+    "physical location of device": [
+     "location"
+    ],
+    "purchase history": [
+     "Commercial Information"
+    ],
+    "screen resolution": [
+     "device details"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "service reviews": [
+     "User Content"
+    ],
+    "service use history": [
+     "Commercial Information"
+    ],
+    "site identifiers": [
+     "Identifiers"
+    ],
+    "social media identifier": [
+     "online identifier",
+     "unique identifier"
+    ],
+    "tax identification number": [
+     "Identifiers",
+     "sensitive personal data"
+    ],
+    "browsing time": [
+     "browsing history"
+    ],
+    "transaction data": [
+     "Commercial Information"
+    ],
+    "transaction date and time": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "Commercial Information"
+    ],
+    "transaction history": [
+     "Commercial Information"
+    ],
+    "transaction-level data": [
+     "Commercial Information"
+    ],
+    "user identifier": [
+     "unique identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Dwolla, Inc.": "Dwolla",
+    "advertising partners": "advertising partner",
+    "business partners": "business partner",
+    "government authority": "government agency",
+    "law enforcement agency": "law enforcement",
+    "successor entity": "acquirer",
+    "the general public": "public",
+    "third party": "third parties",
+    "third party advertising partners": "socios publicitarios externos",
+    "third-party advertising partner": "socios publicitarios externos"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "Dwolla": [
+     "service provider"
+    ],
+    "NextRoll": [
+     "advertising partner",
+     "socios publicitarios externos"
+    ],
+    "acquirer": [
+     "third parties"
+    ],
+    "advertising network": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "business partner"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "commercial partner": [
+     "business partner"
+    ],
+    "consultant": [
+     "professional advisor"
+    ],
+    "government agency": [
+     "authorities"
+    ],
+    "law enforcement": [
+     "authorities"
+    ],
+    "marketing partners": [
+     "business partner"
+    ],
+    "merchant partner": [
+     "business partner"
+    ],
+    "professional advisor": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "socios publicitarios externos": [
+     "advertising partner",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "Dwolla, Inc.": "Dwolla",
+    "commercial partners": "business partners",
+    "user": "the user",
+    "various sources": "several sources"
+   },
+   "parents": {
+    "Dwolla": [
+     "financial services partner",
+     "third-party payment processor"
+    ],
+    "Stripe": [
+     "third-party payment processor"
+    ],
+    "financial services partner": [
+     "business partners"
+    ],
+    "merchant partner": [
+     "business partners"
+    ],
+    "referral partner": [
+     "business partners"
+    ],
+    "third-party payment processor": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Dwolla, Inc.": "Dwolla",
+    "Plaid, Inc.": "Plaid",
+    "third-party advertising companies": "advertising partner"
+   },
+   "parents": {
+    "Dwolla": [
+     "third-party payment services"
+    ],
+    "NextRoll": [
+     "advertising partner"
+    ],
+    "Plaid": [
+     "third-party payment services"
+    ],
+    "Stripe": [
+     "third-party payment services"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "merchant partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party payment services": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-creation": "account administration",
+    "anonymization": "Aggregation and/or anonymization",
+    "customer relationship management": "Relationship building and engagement",
+    "data aggregation": "Aggregation and/or anonymization",
+    "fraud prevention and security": "Security and fraud prevention",
+    "fraud_detection": "fraud detection",
+    "legal compliance": "Legal and compliance",
+    "marketing": "advertising",
+    "para nuestros fines operativos, comerciales o empresariales": "operational business or commercial purposes",
+    "payment processing": "payment",
+    "processing payments": "payment",
+    "product improvement": "Services improvement",
+    "provide personalized content": "personalization",
+    "provide personalized services and content": "personalization",
+    "providing customer service": "customer support",
+    "quality and security control": "activities relating to quality and safety control or product improvement",
+    "service improvement": "Services improvement",
+    "service operation": "Services operation",
+    "service personalization": "personalization",
+    "targeted-advertising": "targeted advertising",
+    "tax reporting": "for tax reporting purposes",
+    "to make referrals and generate referral bonuses": "referrals and referral bonuses",
+    "user engagement": "Relationship building and engagement",
+    "user_support": "customer support"
+   },
+   "parents": {
+    "account administration": [
+     "service provision"
+    ],
+    "analyze advertising effectiveness": [
+     "analytics"
+    ],
+    "compliance": [
+     "Legal and compliance"
+    ],
+    "countering wrong or unlawful actions": [
+     "Legal and compliance"
+    ],
+    "dispute resolution": [
+     "Legal and compliance"
+    ],
+    "enforce terms": [
+     "Legal and compliance"
+    ],
+    "ensuring safety, security, and integrity": [
+     "Security and fraud prevention"
+    ],
+    "for tax reporting purposes": [
+     "Legal and compliance"
+    ],
+    "fraud detection": [
+     "Security and fraud prevention"
+    ],
+    "fraud prevention": [
+     "Security and fraud prevention"
+    ],
+    "legal protection": [
+     "Legal and compliance"
+    ],
+    "legal response": [
+     "Legal and compliance"
+    ],
+    "originate credit transfers to bank accounts": [
+     "payment"
+    ],
+    "payment": [
+     "performing services for our business",
+     "service provision"
+    ],
+    "Services improvement": [
+     "service optimization"
+    ],
+    "promotional-program": [
+     "promotions or discounts"
+    ],
+    "customer support": [
+     "performing services for our business"
+    ],
+    "security": [
+     "Security and fraud prevention"
+    ],
+    "service administration": [
+     "service provision"
+    ],
+    "service enhancement": [
+     "Services improvement"
+    ],
+    "service performance optimization": [
+     "Services improvement"
+    ],
+    "service validation": [
+     "verification"
+    ],
+    "servicing accounts": [
+     "performing services for our business"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "to claim cash back rewards offers": [
+     "promotions or discounts"
+    ],
+    "to update your history of Upside use": [
+     "Services operation"
+    ],
+    "to verify your claims for cash back rewards offers": [
+     "verification"
+    ],
+    "user analytics": [
+     "analytics"
+    ],
+    "verifying customer information": [
+     "performing services for our business",
+     "verification"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 6718,
+  "completion_tokens": 2432,
+  "thinking_tokens": 0,
+  "seconds": 18.57769799232483,
+  "failures": 0
+ },
+ "seconds": 18.7
+}

@@ -1,0 +1,294 @@
+{
+ "cleaned_sha256": "apple-145",
+ "text_sha256": "36b9c3ecfaa46ff599a1bcb171f39f2b147802578bc05d11b589618094064f60",
+ "site_id": "apple-145",
+ "sections": 9,
+ "rules": 174,
+ "report": {
+  "sections": 9,
+  "raw_rules": 141,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to help us run our platform",
+       "name": "service operation"
+      },
+      {
+       "text": "give you a better experience",
+       "name": "service optimization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us run our platform"
+    ],
+    "section": "apple-145#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "affiliate",
+      "text": "Different parts of our group"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your data"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "might be",
+     "purpose": [
+      {
+       "text": "for things like IT support",
+       "name": "it_support"
+      },
+      {
+       "text": "customer service",
+       "name": "customer_support"
+      },
+      {
+       "text": "platform operations",
+       "name": "service_provision"
+      }
+     ],
+     "recipient": {
+      "name": "affiliate",
+      "text": "the entity best equipped for the job"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for things like IT support"
+    ],
+    "section": "apple-145#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your data",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive it in a portable format",
+      "verb": "receive"
+     },
+     "operation": "retrieval",
+     "purpose": [],
+     "conditions": [
+      "You Have The Right To: Access a copy of your data and receive it in a portable format"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You Have The Right To: Access a copy of your data and receive it in a portable format"
+    ],
+    "section": "apple-145#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Correct",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "anything that’s wrong",
+      "name": "incorrect personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "You Have The Right To: Correct anything that’s wrong"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You Have The Right To: Correct anything that’s wrong"
+    ],
+    "section": "apple-145#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your info",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "You Have The Right To: Delete your information",
+      "Once we get your request and confirm it’s really you",
+      "within the time the law gives us"
+     ],
+     "exceptions": [
+      "one of the above reasons applies"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You Have The Right To: Delete your information"
+    ],
+    "section": "apple-145#s6"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "don’t do this now",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your data",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used for automated decisions that could have a legal or similarly significant impact on you",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "used for automated decisions that could have a legal or similarly significant impact on you"
+    ],
+    "section": "apple-145#s6"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 62,
+  "completeness": {
+   "gaps": 430,
+   "gap_words": 3266
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 62,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 42914,
+  "completion_tokens": 26617,
+  "thinking_tokens": 0,
+  "seconds": 294.04615902900696,
+  "failures": 0
+ },
+ "seconds": 294.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

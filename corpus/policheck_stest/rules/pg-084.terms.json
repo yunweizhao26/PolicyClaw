@@ -1,0 +1,335 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "data": "Information",
+    "health insurance information": "health insurance",
+    "information": "Information",
+    "personal data": "Personal Data",
+    "your Information": "Information"
+   },
+   "parents": {
+    "De-Identified information": [
+     "Information"
+    ],
+    "Personal Data collection, use and disclosure information": [
+     "Information"
+    ],
+    "account name": [
+     "Personal Data",
+     "user identifier"
+    ],
+    "aggregated and anonymized data": [
+     "Information"
+    ],
+    "biometrics": [
+     "Personal Data"
+    ],
+    "blood pressure": [
+     "health and location data from Google Fit and Apple Health Kit",
+     "health information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing activity": [
+     "Information",
+     "browsing history"
+    ],
+    "browsing behavior": [
+     "Information",
+     "browsing history"
+    ],
+    "browsing history": [
+     "Information"
+    ],
+    "clickstream data": [
+     "browsing history"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "contact info": [
+     "Personal Data"
+    ],
+    "contents of communications": [
+     "Information"
+    ],
+    "cookie": [
+     "device identifier"
+    ],
+    "data from third party sources": [
+     "Information"
+    ],
+    "date of birth": [
+     "Personal Data"
+    ],
+    "device identifier": [
+     "Personal Data",
+     "device information"
+    ],
+    "device information": [
+     "Information"
+    ],
+    "device usage data": [
+     "device information"
+    ],
+    "diet preferences": [
+     "health information"
+    ],
+    "eating habits": [
+     "health information"
+    ],
+    "email address": [
+     "Personal Data",
+     "contact info"
+    ],
+    "employer": [
+     "Personal Data"
+    ],
+    "financial information": [
+     "Personal Data"
+    ],
+    "gender": [
+     "Personal Data"
+    ],
+    "glucose level": [
+     "health and location data from Google Fit and Apple Health Kit",
+     "health information"
+    ],
+    "gps coordinate": [
+     "location"
+    ],
+    "health and location data from Google Fit and Apple Health Kit": [
+     "health information",
+     "location"
+    ],
+    "health goals": [
+     "health information"
+    ],
+    "health information": [
+     "Personal Data"
+    ],
+    "health insurance": [
+     "health information"
+    ],
+    "heart rate": [
+     "health and location data from Google Fit and Apple Health Kit",
+     "health information"
+    ],
+    "height": [
+     "biometrics",
+     "physical characteristics"
+    ],
+    "inferences": [
+     "Information"
+    ],
+    "information that we collect through our Sites and Services": [
+     "Information"
+    ],
+    "information we maintain about you": [
+     "Information"
+    ],
+    "insurance policy number": [
+     "Personal Data",
+     "health insurance"
+    ],
+    "ip address": [
+     "device identifier",
+     "device information"
+    ],
+    "isp": [
+     "device information"
+    ],
+    "job title": [
+     "Personal Data"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "mood": [
+     "health information"
+    ],
+    "name": [
+     "Personal Data",
+     "contact info"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "organization name": [
+     "Personal Data"
+    ],
+    "password": [
+     "Personal Data"
+    ],
+    "payment card information": [
+     "financial information",
+     "payment information"
+    ],
+    "payment information": [
+     "Personal Data",
+     "financial information"
+    ],
+    "Personal Data": [
+     "Information"
+    ],
+    "phone number": [
+     "Personal Data",
+     "contact info"
+    ],
+    "physical activity": [
+     "health and location data from Google Fit and Apple Health Kit",
+     "health information"
+    ],
+    "physical characteristics": [
+     "biometrics",
+     "health and location data from Google Fit and Apple Health Kit",
+     "health information"
+    ],
+    "postal address": [
+     "Personal Data",
+     "contact info",
+     "location"
+    ],
+    "race or ethnicity": [
+     "Personal Data"
+    ],
+    "records": [
+     "Information"
+    ],
+    "referrer url": [
+     "browsing history"
+    ],
+    "similar data collected from connected devices and activity trackers": [
+     "health information"
+    ],
+    "sleep habits": [
+     "health information"
+    ],
+    "sleep tracking data": [
+     "health information"
+    ],
+    "unspecified user data": [
+     "Information"
+    ],
+    "user identifier": [
+     "Personal Data"
+    ],
+    "user profile content": [
+     "Information"
+    ],
+    "users visiting pages": [
+     "browsing history"
+    ],
+    "weight": [
+     "biometrics",
+     "physical characteristics"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "Lark Partners"
+   },
+   "parents": {
+    "Lark Partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "smart device": "connected devices"
+   },
+   "parents": {
+    "connected devices": [
+     "user device"
+    ],
+    "third party sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "Lark Partner",
+    "third party vendor": "service provider"
+   },
+   "parents": {
+    "network advertisers": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud prevention",
+    "fraud prevention and security": "fraud prevention"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "enforce terms": [
+     "legal compliance",
+     "legal enforcement"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "policy updates": [
+     "notification"
+    ],
+    "service-related communications": [
+     "notification"
+    ],
+    "troubleshooting": [
+     "service optimization"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "perform service": [
+     "service provision"
+    ],
+    "sign-in": [
+     "service provision"
+    ],
+    "internal operations": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3122,
+  "completion_tokens": 1530,
+  "thinking_tokens": 0,
+  "seconds": 38.64232563972473,
+  "failures": 0
+ },
+ "seconds": 38.7
+}

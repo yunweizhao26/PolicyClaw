@@ -1,0 +1,255 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account log-in": "account credentials",
+    "demographic information": "demographic data",
+    "demographic_data": "demographic data",
+    "identifiers": "identifier",
+    "identifying information": "identifier",
+    "inferences": "derived_data",
+    "information": "data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "precise_geographic_location": "precise location",
+    "purchase history": "order_history",
+    "transaction history": "order_history",
+    "usage information": "usage data",
+    "usage_data": "usage data",
+    "user data": "data"
+   },
+   "parents": {
+    "account credentials": [
+     "account information"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial card number",
+     "payment_card_number"
+    ],
+    "financial card number": [
+     "payment information",
+     "payment_card_number"
+    ],
+    "payment_card_number": [
+     "payment information"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "phone number": [
+     "identifier"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "ip address": [
+     "identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "social security number": [
+     "identifier"
+    ],
+    "drivers license number": [
+     "identifier"
+    ],
+    "passport number": [
+     "identifier"
+    ],
+    "physical address": [
+     "identifier"
+    ],
+    "street address": [
+     "physical address"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "marital status": [
+     "demographic data"
+    ],
+    "race or ethnic origin": [
+     "demographic data",
+     "protected classifications"
+    ],
+    "health insurance information": [
+     "health information",
+     "insurance information"
+    ],
+    "job history": [
+     "professional information"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "opt-in data": [
+     "consent record"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "log data": [
+     "usage data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "identifier": [
+     "personal data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "health information": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "inaccurate data": [
+     "data"
+    ],
+    "information we obtain": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "ad_network",
+    "franchisee": "franchise organizations"
+   },
+   "parents": {
+    "ad_network": [
+     "third party"
+    ],
+    "data_broker": [
+     "third party"
+    ],
+    "loyalty program partners": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party"
+    ],
+    "social_network": [
+     "third party"
+    ],
+    "third_party_analytics": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "fellow brands": "affiliate",
+    "third party": "third parties"
+   },
+   "parents": {
+    "data analytics providers": [
+     "service providers",
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "social media platforms": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "franchisee": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "payment_processing": "payment processing",
+    "personalization": "customization",
+    "service_optimization": "service improvement"
+   },
+   "parents": {
+    "targeted_advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "newsletter": [
+     "communication",
+     "marketing"
+    ],
+    "promotion notification": [
+     "communication",
+     "marketing",
+     "promotions"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "order delivery": [
+     "fulfillment",
+     "services"
+    ],
+    "order processing": [
+     "fulfillment",
+     "services"
+    ],
+    "payment processing": [
+     "fulfillment"
+    ],
+    "fulfillment": [
+     "services"
+    ],
+    "loyalty program": [
+     "promotions"
+    ],
+    "provide requested services": [
+     "services"
+    ],
+    "service_provision": [
+     "services"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "protect_first_party": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2589,
+  "completion_tokens": 1206,
+  "thinking_tokens": 0,
+  "seconds": 21.14579749107361,
+  "failures": 0
+ },
+ "seconds": 21.3
+}

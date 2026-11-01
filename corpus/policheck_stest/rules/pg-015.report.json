@@ -1,0 +1,85 @@
+{
+ "cleaned_sha256": "pg-015",
+ "text_sha256": "1d512dd1bc3e1887763d78cf897294c3059c114b7a38eaf2b446980b42bec4fd",
+ "site_id": "pg-015",
+ "sections": 5,
+ "rules": 91,
+ "report": {
+  "sections": 5,
+  "raw_rules": 90,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "By using the website and providing us with information",
+      "to servers located outside your resident jurisdiction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to servers located outside your resident jurisdiction"
+    ],
+    "section": "pg-015#s5"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 92,
+   "gap_words": 1296
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 38,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 19539,
+  "completion_tokens": 18828,
+  "thinking_tokens": 0,
+  "seconds": 142.52647805213928,
+  "failures": 0
+ },
+ "seconds": 143.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

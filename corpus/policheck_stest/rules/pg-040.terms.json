@@ -1,0 +1,187 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "information": "data",
+    "personal details": "personal data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "booking and travel info": [
+     "personal data"
+    ],
+    "booking information": [
+     "booking and travel info"
+    ],
+    "flight booking details": [
+     "booking information"
+    ],
+    "flight info": [
+     "travel arrangement data"
+    ],
+    "reservation/checking data": [
+     "booking and travel info"
+    ],
+    "travel arrangement data": [
+     "booking and travel info"
+    ],
+    "browsing activity": [
+     "usage information"
+    ],
+    "cookies": [
+     "usage information"
+    ],
+    "marketing emails": [
+     "marketing communication"
+    ],
+    "marketing communication": [
+     "communications"
+    ],
+    "marketing information": [
+     "personal data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "facial geometry": [
+     "sensitive data"
+    ],
+    "payment info": [
+     "personal data"
+    ],
+    "payments": [
+     "payment info"
+    ],
+    "purchase history": [
+     "transaction history"
+    ],
+    "service usage data": [
+     "transaction history"
+    ],
+    "user choices": [
+     "user preferences"
+    ],
+    "user preferences": [
+     "personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "customer support inquiry": [
+     "request information"
+    ],
+    "request information": [
+     "communications"
+    ],
+    "information you provide": [
+     "data"
+    ],
+    "interaction data": [
+     "usage information"
+    ],
+    "contract information": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "group companies": "affiliate",
+    "third party": "third parties"
+   },
+   "parents": {
+    "British Airways Holidays Limited": [
+     "affiliate"
+    ],
+    "British Airways Plc": [
+     "affiliate"
+    ],
+    "French national public services": [
+     "competent authorities"
+    ],
+    "border control agencies and customs authorities": [
+     "competent authorities"
+    ],
+    "border control and immigration outside of these territories": [
+     "competent authorities"
+    ],
+    "customs and immigration authorities": [
+     "competent authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "booking partner": [
+     "third party"
+    ],
+    "group airlines": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "British Airways",
+    "third party": "third parties"
+   },
+   "parents": {
+    "British Airways": [
+     "air carriers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fulfillment": "fulfill service",
+    "legal compliance": "compliance with legal obligations",
+    "legal-compliance": "compliance with legal obligations",
+    "order fulfillment": "fulfill service",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "administer loyalty benefits": [
+     "service provision"
+    ],
+    "fulfill service": [
+     "service provision"
+    ],
+    "user service requests": [
+     "service provision"
+    ],
+    "dispute resolution": [
+     "customer support"
+    ],
+    "opt-out management": [
+     "service-administration"
+    ],
+    "payment processing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2512,
+  "completion_tokens": 836,
+  "thinking_tokens": 0,
+  "seconds": 11.8679838180542,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

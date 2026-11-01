@@ -1,0 +1,93 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal-information": "Personal Information",
+    "sensitive-data": "sensitive personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "information"
+    ],
+    "Personal Information": [
+     "information"
+    ],
+    "YouTube API data": [
+     "information"
+    ],
+    "communication content": [
+     "information"
+    ],
+    "contact details": [
+     "Personal Information",
+     "information"
+    ],
+    "demographic data": [
+     "Personal Information",
+     "information"
+    ],
+    "device and app interaction information": [
+     "device information",
+     "information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "domain server": [
+     "device information",
+     "information"
+    ],
+    "financial information": [
+     "Personal Information",
+     "information",
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "Personal Information",
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "profiling": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1209,
+  "completion_tokens": 628,
+  "thinking_tokens": 0,
+  "seconds": 7.539877653121948,
+  "failures": 0
+ },
+ "seconds": 7.6
+}

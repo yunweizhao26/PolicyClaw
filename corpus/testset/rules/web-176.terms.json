@@ -1,0 +1,202 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "course interaction information": "browsing behavior",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "academic information": [
+     "information",
+     "personal data"
+    ],
+    "account name": [
+     "contact details",
+     "personal data"
+    ],
+    "admissions application information": [
+     "application information",
+     "application materials"
+    ],
+    "application information": [
+     "information",
+     "information provided by user"
+    ],
+    "application logs": [
+     "information"
+    ],
+    "application materials": [
+     "information provided by user"
+    ],
+    "automated tool results": [
+     "information"
+    ],
+    "biometric data": [
+     "personal data"
+    ],
+    "browsing behavior": [
+     "information"
+    ],
+    "browsing history": [
+     "information"
+    ],
+    "collected information": [
+     "information"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookies": [
+     "information"
+    ],
+    "educational and employment history": [
+     "personal data"
+    ],
+    "email address": [
+     "contact details",
+     "personal data"
+    ],
+    "employment status": [
+     "educational and employment history",
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "health information": [
+     "personal data"
+    ],
+    "information provided by user": [
+     "information"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "name": [
+     "contact details",
+     "personal data"
+    ],
+    "participation in online learning platforms": [
+     "browsing behavior",
+     "information"
+    ],
+    "payment data": [
+     "financial information",
+     "personal data"
+    ],
+    "personal data": [
+     "information",
+     "user data"
+    ],
+    "prospective student and family information": [
+     "personal data"
+    ],
+    "recommendations": [
+     "application materials"
+    ],
+    "test scores": [
+     "academic information",
+     "browsing behavior"
+    ],
+    "user data": [
+     "information"
+    ],
+    "user profile": [
+     "information provided by user"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "vender": "service provider"
+   },
+   "parents": {
+    "US Department of Homeland Security": [
+     "US",
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "software vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "other_sources"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "education vendor"
+   },
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ],
+    "admission reviewers": [
+     "first party",
+     "university staff"
+    ],
+    "university staff": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "administration": "administering the organization",
+    "personnel management": "human resources management",
+    "quality improvement": "internal quality improvement",
+    "service provision": "provide the service"
+   },
+   "parents": {
+    "administrative processes to provide educational services": [
+     "administering the organization"
+    ],
+    "manage non-degree program": [
+     "administering the organization"
+    ],
+    "program oversight": [
+     "administering the organization"
+    ],
+    "assess application": [
+     "admissions"
+    ],
+    "process applications for admission": [
+     "admissions"
+    ],
+    "trend analysis": [
+     "analytics"
+    ],
+    "internal quality improvement": [
+     "service quality"
+    ],
+    "required federal filings": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2173,
+  "completion_tokens": 910,
+  "thinking_tokens": 0,
+  "seconds": 26.258416175842285,
+  "failures": 0
+ },
+ "seconds": 26.3
+}

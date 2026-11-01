@@ -1,0 +1,249 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_history": "browsing activity",
+    "commercial_info": "commercial information",
+    "device identifier": "device id",
+    "location": "geolocation",
+    "mobile advertising id": "advertising identifier",
+    "payment_info": "payment details",
+    "personal_info": "personal data",
+    "precise_geolocation": "precise location"
+   },
+   "parents": {
+    "account identifier": [
+     "identifiers"
+    ],
+    "ad response": [
+     "advertising data"
+    ],
+    "ad size": [
+     "advertising data"
+    ],
+    "ad visibility duration": [
+     "advertising data"
+    ],
+    "ads displayed and their location": [
+     "advertising data"
+    ],
+    "advertising identifier": [
+     "identifiers"
+    ],
+    "audio data": [
+     "electronic data"
+    ],
+    "browser details": [
+     "device details",
+     "device information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "clear gifs": [
+     "cookies and similar technologies"
+    ],
+    "crash data": [
+     "diagnostic data"
+    ],
+    "email address": [
+     "contact_info",
+     "identifiers"
+    ],
+    "gameplay data": [
+     "in-game activity"
+    ],
+    "gameplay statistics": [
+     "gameplay data"
+    ],
+    "imprecise location": [
+     "geolocation"
+    ],
+    "in-game activity": [
+     "activities"
+    ],
+    "internet log files": [
+     "browsing activity"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "non-essential cookies": [
+     "cookies"
+    ],
+    "operating system": [
+     "device details",
+     "device information"
+    ],
+    "phone number": [
+     "contact_info",
+     "identifiers"
+    ],
+    "photo": [
+     "electronic data"
+    ],
+    "precise location": [
+     "geolocation"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "ssn": [
+     "identifiers"
+    ],
+    "system performance": [
+     "diagnostic data"
+    ],
+    "text message": [
+     "electronic data"
+    ],
+    "tracking pixels": [
+     "cookies and similar technologies"
+    ],
+    "user id": [
+     "account identifier",
+     "identifiers"
+    ],
+    "user interaction with ad": [
+     "advertising data"
+    ],
+    "video": [
+     "electronic data"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device id": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partners",
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency",
+     "third party"
+    ],
+    "regulator": [
+     "government agency",
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "other apps business units": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child",
+    "third party": "third parties"
+   },
+   "parents": {
+    "child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network",
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party analytics service": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "third party": [
+     "recipient of user data"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection",
+    "legal compliance": "compliance with legal obligations",
+    "security": "safety_security",
+    "service improvement": "product_improvement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "ad personalization": [
+     "advertising",
+     "personalization"
+    ],
+    "ad targeting": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "advertising analytics": [
+     "analytics"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "dispute resolution": [
+     "compliance with legal obligations"
+    ],
+    "establishment, exercise, or defense of legal claims": [
+     "compliance with legal obligations",
+     "protection of rights"
+    ],
+    "fraud detection": [
+     "safety_security"
+    ],
+    "legal protection of third parties": [
+     "protection of rights"
+    ],
+    "protection of rights": [
+     "compliance with legal obligations"
+    ],
+    "remember your previously selected preferences": [
+     "personalization"
+    ],
+    "service monitoring": [
+     "analytics"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2796,
+  "completion_tokens": 1172,
+  "thinking_tokens": 0,
+  "seconds": 12.02057433128357,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

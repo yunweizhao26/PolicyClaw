@@ -1,0 +1,107 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "public post content": "postings"
+   },
+   "parents": {
+    "IP address": [
+     "browsing and device information"
+    ],
+    "ISP": [
+     "browsing and device information"
+    ],
+    "browser type": [
+     "browsing and device information"
+    ],
+    "device type": [
+     "browsing and device information"
+    ],
+    "hardware configuration": [
+     "browsing and device information"
+    ],
+    "operating system": [
+     "browsing and device information"
+    ],
+    "browsing history": [
+     "browsing and device information",
+     "browsing behavior"
+    ],
+    "referrer URL": [
+     "browsing and device information",
+     "browsing behavior"
+    ],
+    "billing details": [
+     "account information",
+     "financial details"
+    ],
+    "email address": [
+     "account information",
+     "personally identifiable information"
+    ],
+    "child information": [
+     "personally identifiable information"
+    ],
+    "financial details": [
+     "account information"
+    ],
+    "browsing and device information": [
+     "non-personal information"
+    ],
+    "user activity": [
+     "non-personal information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "unaffiliated third party": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics": [
+     "service provision"
+    ],
+    "communication": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1497,
+  "completion_tokens": 392,
+  "thinking_tokens": 0,
+  "seconds": 19.37758779525757,
+  "failures": 0
+ },
+ "seconds": 19.5
+}

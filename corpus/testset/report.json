@@ -1,0 +1,564 @@
+{
+  "revision": 2,
+  "generated_at": "2026-10-21T05:27:06+00:00",
+  "selection_complete": true,
+  "audit_valid": true,
+  "frames": {
+    "web": {
+      "counts": {
+        "classifier_rows": 3180975,
+        "classifier_unique_urls": 3180975,
+        "privaseer_rows": 3967480,
+        "rows_without_tranco_domain": 3623238,
+        "rows_with_tranco_domain": 344242,
+        "latest_urls_with_tranco_domain": 257415,
+        "latest_urls_with_fasttext_score": 257415,
+        "organizations_before_exclusions": 137028,
+        "excluded_organizations": 37,
+        "candidates": 136991
+      },
+      "shards": 445,
+      "skipped": [],
+      "score_rule": "Metadata only: maximum available score per URL; latest crawl per URL, then max score per PSL domain, latest timestamp, shortest URL, lexical URL. Missing scores do not exclude domains.",
+      "policy_url_method": "First eligible privacy link among the first three on the final current homepage",
+      "psl_sha256": "3e6ca639b7ef33f86ec0e6fe9a475857cf2585f28fdf485f38f14d5f00c1c2a4"
+    },
+    "android": {
+      "counts": {
+        "raw_rows": 7659561,
+        "us_details_200_rows": 3471200,
+        "rows_with_parse_errors": 0,
+        "unique_us_apps": 3471200,
+        "unique_apps_with_policy_url": 3466921,
+        "apps_missing_developerId": 0,
+        "organizations_before_exclusions": 1202799,
+        "excluded_organizations": 20,
+        "candidates": 1202779
+      },
+      "shards": 4559,
+      "skipped": [],
+      "revision": 2,
+      "psl_sha256": "3e6ca639b7ef33f86ec0e6fe9a475857cf2585f28fdf485f38f14d5f00c1c2a4",
+      "app_metadata_source": "apps_android.parquet (frozen first-run parsed universe)"
+    },
+    "apple": {
+      "counts": {
+        "raw_rows": 2917044,
+        "us_lookup_rows": 1805157,
+        "us_lookup_app_records": 1576995,
+        "us_lookup_without_payload": 228162,
+        "us_app_page_rows": 772885,
+        "unique_us_lookup_apps": 1576995,
+        "top3000_apps": 3000,
+        "top3000_without_us_app_page_at_snapshot": 1516,
+        "recovery_http_200": 1514,
+        "recovery_http_404": 2,
+        "unique_apps_with_us_page_policy_url": 748188,
+        "apps_missing_artistId": 0,
+        "organizations_before_exclusions": 437955,
+        "excluded_organizations": 10,
+        "candidates": 437945,
+        "policy_urls_from_supplied_link_tables": 739122,
+        "policy_urls_changed_by_supplied_table_priority": 1,
+        "pilot_us_app_page_rows_recovered_from_legacy_schema": 4377,
+        "pilot_us_apps_recovered_from_legacy_schema": 4377,
+        "apps_with_links_added_by_pilot_and_table_alignment": 2178,
+        "recovered_top_apps_with_preexisting_legacy_pilot_us_page": 2
+      },
+      "shards": 907,
+      "skipped": [
+        {
+          "path": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data_full/apple/meta/part-00899.parquet",
+          "reason": "modified_in_last_120_seconds"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00000.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00001.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00002.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00003.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00004.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00006.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00005.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        },
+        {
+          "source": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/stores/data/apple/meta/part-00007.parquet",
+          "skipped": "KeyError:'Field \"storefront\" does not exist in schema'",
+          "resolved_by": "apple_link_priority: explicit US request URL in legacy pilot schema"
+        }
+      ],
+      "policy_url_method": "Supplied full/pilot link tables first; recovered US pages override; parsed US pages fill missing mappings",
+      "recovery_request_limiter": "1 request attempt per second, including retries",
+      "recovery_http_attempts": {
+        "total": 1516
+      },
+      "revision": 2,
+      "psl_sha256": "3e6ca639b7ef33f86ec0e6fe9a475857cf2585f28fdf485f38f14d5f00c1c2a4",
+      "app_metadata_source": "apps_apple.parquet (frozen first-run parsed universe)"
+    }
+  },
+  "funnels": {
+    "web": {
+      "organizations_before_exclusions": 137028,
+      "frame_excluded": 37,
+      "candidates": 136991,
+      "walked": 537,
+      "selected": 200,
+      "not_walked": 136454,
+      "policy_link_attempts": 479,
+      "unique_fetches": 438,
+      "reused_fetches": 75,
+      "fetched_now": 363,
+      "http_2xx": 462,
+      "visible_at_least_100": 449,
+      "verified": 449,
+      "complete_english": 249,
+      "frame_rejection_reasons": {
+        "policyie_test_site_domain": 3,
+        "development_domain": 34
+      },
+      "rejection_reasons": {
+        "home_page_not_fetched": 119,
+        "no_eligible_link_among_first_three": 129,
+        "no_privacy_link": 89
+      },
+      "link_rejection_reasons": {
+        "verifier_partial_policy": 58,
+        "duplicate_registered_domain": 41,
+        "verifier_not_policy": 104,
+        "http_not_2xx": 17,
+        "verifier_cookie_only": 9,
+        "visible_text_under_100_chars": 13,
+        "policyie_containment_ge_0.5": 4,
+        "verifier_other_legal": 23,
+        "not_english": 6,
+        "duplicate_visible_text_jaccard_ge_0.5": 4
+      },
+      "home_attempts": 537,
+      "home_http_2xx": 418
+    },
+    "android": {
+      "organizations_before_exclusions": 1202799,
+      "frame_excluded": 20,
+      "candidates": 1202779,
+      "walked": 417,
+      "selected": 200,
+      "not_walked": 1202362,
+      "policy_link_attempts": 417,
+      "unique_fetches": 414,
+      "reused_fetches": 413,
+      "fetched_now": 1,
+      "http_2xx": 385,
+      "visible_at_least_100": 337,
+      "verified": 337,
+      "complete_english": 282,
+      "frame_rejection_reasons": {
+        "development_domain": 17,
+        "policyie_test_app_id": 1,
+        "policyie_test_site_domain": 2
+      },
+      "rejection_reasons": {
+        "visible_text_under_100_chars": 48,
+        "http_not_2xx": 32,
+        "duplicate_registered_domain": 66,
+        "verifier_not_policy": 20,
+        "verifier_partial_policy": 14,
+        "duplicate_visible_text_jaccard_ge_0.5": 13,
+        "policyie_containment_ge_0.5": 2,
+        "verifier_other_legal": 12,
+        "development_domain": 1,
+        "not_english": 9
+      },
+      "link_rejection_reasons": {}
+    },
+    "apple": {
+      "organizations_before_exclusions": 437955,
+      "frame_excluded": 10,
+      "candidates": 437945,
+      "walked": 450,
+      "selected": 200,
+      "not_walked": 437495,
+      "policy_link_attempts": 450,
+      "unique_fetches": 447,
+      "reused_fetches": 445,
+      "fetched_now": 2,
+      "http_2xx": 380,
+      "visible_at_least_100": 338,
+      "verified": 338,
+      "complete_english": 272,
+      "frame_rejection_reasons": {
+        "development_domain": 9,
+        "policyie_test_site_domain": 1
+      },
+      "rejection_reasons": {
+        "visible_text_under_100_chars": 42,
+        "http_not_2xx": 70,
+        "verifier_other_legal": 22,
+        "duplicate_registered_domain": 57,
+        "verifier_not_policy": 31,
+        "verifier_partial_policy": 12,
+        "duplicate_visible_text_jaccard_ge_0.5": 14,
+        "not_english": 1,
+        "development_domain": 1
+      },
+      "link_rejection_reasons": {}
+    }
+  },
+  "endpoints": {
+    "web": {
+      "first": {
+        "id": "web-001",
+        "rank": 1,
+        "organization_name": "google.com",
+        "size_proxy_name": "Tranco rank",
+        "size_proxy": 1.0
+      },
+      "last": {
+        "id": "web-200",
+        "rank": 537,
+        "organization_name": "bbb.org",
+        "size_proxy_name": "Tranco rank",
+        "size_proxy": 1340.0
+      }
+    },
+    "android": {
+      "first": {
+        "id": "android-001",
+        "rank": 6,
+        "organization_name": "Microsoft Corporation",
+        "size_proxy_name": "realInstalls",
+        "size_proxy": 6098360230.0
+      },
+      "last": {
+        "id": "android-200",
+        "rank": 417,
+        "organization_name": "Sketchbook",
+        "size_proxy_name": "realInstalls",
+        "size_proxy": 192639322.0
+      }
+    },
+    "apple": {
+      "first": {
+        "id": "apple-001",
+        "rank": 2,
+        "organization_name": "Spotify",
+        "size_proxy_name": "userRatingCount",
+        "size_proxy": 42587623.0
+      },
+      "last": {
+        "id": "apple-200",
+        "rank": 450,
+        "organization_name": "Locket Labs, Inc.",
+        "size_proxy_name": "userRatingCount",
+        "size_proxy": 579159.0
+      }
+    }
+  },
+  "maximum_pairwise_jaccard": 0.49082834524039387,
+  "maximum_pair": [
+    "android-065",
+    "android-108"
+  ],
+  "maximum_policyie_containment": 0.45191992123400065,
+  "maximum_policyie_match": {
+    "id": "android-040",
+    "policyie_containment": 0.45191992123400065,
+    "policyie_policy": "sanitized_split/train/week8/com_bagelcode_slots1",
+    "policyie_intersection": 1377,
+    "policyie_denominator": 3047
+  },
+  "gemini": {
+    "input_tokens": 1341753,
+    "output_tokens": 50940,
+    "thinking_tokens": 106962,
+    "billed_output_tokens": 157902,
+    "api_responses": 311,
+    "responses_missing_usage": 0,
+    "api_errors_without_usage": 0,
+    "observed_cost_usd": 1.59844725,
+    "cost_usd": 1.59844725,
+    "input_usd_per_million": 0.75,
+    "output_usd_per_million": 3.75,
+    "rate_basis": "Same configured rates as v1; thinking is billed as output",
+    "cache_reuses": 705
+  },
+  "resources": [
+    {
+      "step": "v2_selfcheck",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_selfcheck.py"
+      ],
+      "started_at": 1792554701.8140974,
+      "finished_at": 1792554706.822756,
+      "elapsed_s": 5.0086588859558105,
+      "cpu_user_s": 0.412711,
+      "cpu_system_s": 0.09364,
+      "peak_process_rss_kib": 89016,
+      "peak_tree_rss_bytes": 83619840,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_archive",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/archive_revision.py"
+      ],
+      "started_at": 1792554707.0002162,
+      "finished_at": 1792554720.017611,
+      "elapsed_s": 13.017395257949829,
+      "cpu_user_s": 1.447605,
+      "cpu_system_s": 0.9500719999999999,
+      "peak_process_rss_kib": 660528,
+      "peak_tree_rss_bytes": 678821888,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_psl",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/psl.py"
+      ],
+      "started_at": 1792554720.2166128,
+      "finished_at": 1792554722.2211785,
+      "elapsed_s": 2.004565954208374,
+      "cpu_user_s": 0.17413399999999998,
+      "cpu_system_s": 0.041521999999999996,
+      "peak_process_rss_kib": 72148,
+      "peak_tree_rss_bytes": 69718016,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_exclusions",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/exclusions.py"
+      ],
+      "started_at": 1792554722.4151866,
+      "finished_at": 1792554751.9465678,
+      "elapsed_s": 29.531381130218506,
+      "cpu_user_s": 25.196432,
+      "cpu_system_s": 0.19449899999999998,
+      "peak_process_rss_kib": 253600,
+      "peak_tree_rss_bytes": 248696832,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_app_frames",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/rebuild_app_frames.py"
+      ],
+      "started_at": 1792554752.1997123,
+      "finished_at": 1792554909.4654548,
+      "elapsed_s": 157.26574277877808,
+      "cpu_user_s": 145.950072,
+      "cpu_system_s": 7.436027,
+      "peak_process_rss_kib": 6216764,
+      "peak_tree_rss_bytes": 6280728576,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_web_frame",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/web.py"
+      ],
+      "started_at": 1792554909.7236638,
+      "finished_at": 1792555203.5829902,
+      "elapsed_s": 293.85932660102844,
+      "cpu_user_s": 195.91931399999999,
+      "cpu_system_s": 40.501867,
+      "peak_process_rss_kib": 1987460,
+      "peak_tree_rss_bytes": 2009452544,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_selection",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_select.py"
+      ],
+      "started_at": 1792555203.851462,
+      "finished_at": 1792559695.122772,
+      "elapsed_s": 4491.271310567856,
+      "cpu_user_s": 159.606919,
+      "cpu_system_s": 9.82206,
+      "peak_process_rss_kib": 6712060,
+      "peak_tree_rss_bytes": 6644920320,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_audit",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_audit.py"
+      ],
+      "started_at": 1792559695.4532943,
+      "finished_at": 1792559852.2253659,
+      "elapsed_s": 156.7720718383789,
+      "cpu_user_s": 97.327257,
+      "cpu_system_s": 4.534664,
+      "peak_process_rss_kib": 6538064,
+      "peak_tree_rss_bytes": 6702374912,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 1,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_report",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_report.py"
+      ],
+      "started_at": 1792559852.5112512,
+      "finished_at": 1792559856.517528,
+      "elapsed_s": 4.006277084350586,
+      "cpu_user_s": 0.423257,
+      "cpu_system_s": 0.105086,
+      "peak_process_rss_kib": 150956,
+      "peak_tree_rss_bytes": 115458048,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20495716",
+      "hostname": "cs631.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_audit",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_audit.py"
+      ],
+      "started_at": 1792560183.5571418,
+      "finished_at": 1792560423.0141027,
+      "elapsed_s": 239.4569616317749,
+      "cpu_user_s": 166.341868,
+      "cpu_system_s": 6.053187,
+      "peak_process_rss_kib": 8030888,
+      "peak_tree_rss_bytes": 8198541312,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20501447",
+      "hostname": "cs606.hpc.nyu.edu"
+    },
+    {
+      "step": "v2_report",
+      "command": [
+        "/scratch/yz5944/miniconda3/envs/llm/bin/python",
+        "-B",
+        "corpus/testset/revision_report.py"
+      ],
+      "started_at": 1792560423.3201592,
+      "finished_at": 1792560427.326615,
+      "elapsed_s": 4.00645637512207,
+      "cpu_user_s": 0.45810599999999996,
+      "cpu_system_s": 0.08688499999999999,
+      "peak_process_rss_kib": 150244,
+      "peak_tree_rss_bytes": 144822272,
+      "peak_tree_sample_interval_s": 0.5,
+      "exit_code": 0,
+      "slurm_job_id": "20501447",
+      "hostname": "cs606.hpc.nyu.edu"
+    }
+  ],
+  "tranco": {
+    "date": "2026-10-15",
+    "list_id": "Y8JGG",
+    "filename": "tranco-Y8JGG-2026-10-15.csv",
+    "sha256": "0250f6aeb2738dbdae60c23a52f0a76eb80410d3181fc481167f5e6192c70b19",
+    "rows": 1000000,
+    "api_url": "https://tranco-list.eu/api/lists/date/2026-10-15",
+    "download_url": "https://tranco-list.eu/download/Y8JGG/1000000",
+    "fetched_at": "2026-10-21T01:34:50+00:00"
+  },
+  "psl": {
+    "filename": "public_suffix_list.dat",
+    "source_url": "https://publicsuffix.org/list/public_suffix_list.dat",
+    "final_url": "https://publicsuffix.org/list/public_suffix_list.dat",
+    "fetched_at": "2026-10-21T03:52:01+00:00",
+    "date": "2026-10-21",
+    "version": "2026-10-17_18-52-06_UTC",
+    "sha256": "3e6ca639b7ef33f86ec0e6fe9a475857cf2585f28fdf485f38f14d5f00c1c2a4",
+    "sections": [
+      "ICANN",
+      "PRIVATE"
+    ]
+  },
+  "state": {
+    "revision": 2,
+    "complete": true,
+    "selected": {
+      "web": 200,
+      "android": 200,
+      "apple": 200
+    },
+    "rejected_considered": 804,
+    "rejected_links": 279,
+    "error": null
+  },
+  "failure": null,
+  "review_lists": {
+    "web": "selected_web_policies.tsv",
+    "duplicates": "duplicate_registered_domains.tsv",
+    "mismatches": "policy_domain_mismatches.tsv",
+    "cross_arm": "cross_arm_organizations.tsv",
+    "links": "rejected_links.tsv"
+  }
+}

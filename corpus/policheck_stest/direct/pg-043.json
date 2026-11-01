@@ -1,0 +1,30 @@
+{
+ "policy": "pg-043",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "This permission indicates to read user mobile contacts when there is a feature or function of incoming/outgoing call or sms to read the required contact.",
+   "prohibit": "Our company policy is clear about personal and personal information, we decided to do not collect, store, disclose or transmit any kind of personal and non personal information neither we define such functionalities in our apps through which we need to collect any kind of personal and non-personal information.",
+   "situation": "When a user uses an app with call or SMS features requiring access to read mobile contacts.",
+   "reason": "The policy flatly denies collecting any personal information or building functionalities to collect it, yet explicitly provides permissions to read contacts without an exception.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "Most of Maps and GPS based application need location permission to access user current location or may be user want to share his/her location with others friends in his/her contact list so for this function we need location permission when user grant it we can access the current location of user to perform required task.",
+   "prohibit": "Our company policy is clear about personal and personal information, we decided to do not collect, store, disclose or transmit any kind of personal and non personal information neither we define such functionalities in our apps through which we need to collect any kind of personal and non-personal information.",
+   "situation": "When a user uses a Maps or GPS-based application that accesses their current location.",
+   "reason": "The policy claims it never collects or defines functionalities to collect any personal or non-personal information, while directly stating it accesses the user's location.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1383,
+  "completion_tokens": 355,
+  "thinking_tokens": 0,
+  "seconds": 3.5660312175750732,
+  "failures": 0
+ }
+}

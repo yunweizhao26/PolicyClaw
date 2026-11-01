@@ -1,0 +1,223 @@
+{
+ "cleaned_sha256": "web-094",
+ "text_sha256": "64509ff33bd46154943aacc8fec4e7494b592c12d45f52d3fd44553d23b51559",
+ "site_id": "web-094",
+ "sections": 4,
+ "rules": 77,
+ "report": {
+  "sections": 4,
+  "raw_rules": 67,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "CA.gov or CDT",
+      "name": "first party"
+     },
+     "data": {
+      "text": "their Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: access to their Personal Information",
+      "To make this request, use the contact information listed below."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Govt. Code § 11015.5",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-094#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "CA.gov or CDT",
+      "name": "first party"
+     },
+     "data": {
+      "text": "their Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: deletion of their Personal Information",
+      "To make this request, use the contact information listed below."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Govt. Code § 11015.5",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: deletion of their Personal Information"
+    ],
+    "section": "web-094#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "CA.gov or CDT",
+      "name": "first party"
+     },
+     "data": {
+      "text": "their Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correction",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: correction of any inaccuracies or incompleteness to their Personal Information",
+      "To make this request, use the contact information listed below."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Govt. Code § 11015.5",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: correction of any inaccuracies or incompleteness to their Personal Information"
+    ],
+    "section": "web-094#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "CA.gov or CDT",
+      "name": "first party"
+     },
+     "data": {
+      "text": "their Electronically Collected Personal Information",
+      "name": "Electronically Collected Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "discarded without reuse or distribution",
+      "verb": "discard"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: that their Electronically Collected Personal Information be discarded without reuse or distribution",
+      "To make this request, use the contact information listed below."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Govt. Code § 11015.5",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Individuals who provide Personal Information to CA.gov or CDT personnel have the right to request: that their Electronically Collected Personal Information be discarded without reuse or distribution"
+    ],
+    "section": "web-094#s3"
+   }
+  ],
+  "residual_quotes": 2,
+  "quotes": 19,
+  "completeness": {
+   "gaps": 84,
+   "gap_words": 961
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 19,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 7,
+  "cached": 0,
+  "prompt_tokens": 13709,
+  "completion_tokens": 14738,
+  "thinking_tokens": 0,
+  "seconds": 91.74636578559875,
+  "failures": 0
+ },
+ "seconds": 92.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

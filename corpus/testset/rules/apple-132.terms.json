@@ -1,0 +1,692 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ai-inferred command intent": "AI-inferred command intent",
+    "ambient noise levels": "ambient noise",
+    "any information": "any data",
+    "background noise levels": "ambient noise",
+    "data": "any data",
+    "demographic data": "demographic and interest information",
+    "demographic information": "demographic and interest information",
+    "device identifiers": "device identifier",
+    "device-id": "device identifier",
+    "email-address": "email address",
+    "functional data": "Functional Data",
+    "identifying information": "identifying data",
+    "inferred command intent": "AI-inferred command intent",
+    "information": "any data",
+    "information that directly identifies you": "identifying data",
+    "ip address": "IP address",
+    "language preferences": "language preference",
+    "login info": "account credentials",
+    "password": "account password",
+    "passwords": "account password",
+    "payment details": "payment data",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "pseudonymous advertising identifiers": "pseudonymous advertising identifier",
+    "request or conversation content": "content of request or conversation",
+    "sensitive personal information": "sensitive data",
+    "tool-call instruction": "resulting instruction",
+    "tool-call logs": "system logs",
+    "transcripts": "audio transcripts",
+    "transcripts of voice interactions": "audio transcripts",
+    "user id": "user ID",
+    "voice recordings": "voice audio recordings",
+    "voice transcripts": "audio transcripts"
+   },
+   "parents": {
+    "AI-inferred command intent": [
+     "command metadata"
+    ],
+    "Functional Data": [
+     "any data"
+    ],
+    "HTTP headers": [
+     "technical information"
+    ],
+    "IP address": [
+     "computer specifications",
+     "device identifier",
+     "location"
+    ],
+    "account access": [
+     "account credentials"
+    ],
+    "account credentials": [
+     "account identifier",
+     "identifying data",
+     "personal data"
+    ],
+    "account identifier": [
+     "identifiers"
+    ],
+    "account name": [
+     "account identifier"
+    ],
+    "account password": [
+     "account credentials"
+    ],
+    "additional data": [
+     "any data"
+    ],
+    "additional usage data": [
+     "usage data"
+    ],
+    "advanced feature data": [
+     "any data"
+    ],
+    "advertising engagement data": [
+     "interaction data"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "pseudonymous identifiers"
+    ],
+    "advertising logs": [
+     "advertising engagement data"
+    ],
+    "age": [
+     "demographic and interest information"
+    ],
+    "aggregate data": [
+     "any data"
+    ],
+    "ambient noise": [
+     "audio data"
+    ],
+    "anonymized ID": [
+     "identifiers"
+    ],
+    "app activity": [
+     "usage data"
+    ],
+    "audio data": [
+     "any data"
+    ],
+    "audio transcripts": [
+     "audio data"
+    ],
+    "billing address": [
+     "payment data",
+     "physical address"
+    ],
+    "browser type": [
+     "computer specifications"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "browsing session information": [
+     "browsing behavior"
+    ],
+    "cell tower locations": [
+     "geolocation"
+    ],
+    "clicks": [
+     "interaction data"
+    ],
+    "command metadata": [
+     "metadata"
+    ],
+    "communications": [
+     "personal data"
+    ],
+    "computer specifications": [
+     "device data"
+    ],
+    "consent preferences": [
+     "preferences"
+    ],
+    "contact information": [
+     "identifying data",
+     "personal data"
+    ],
+    "content management and activity information": [
+     "usage data"
+    ],
+    "content of request or conversation": [
+     "request"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "credit card number": [
+     "payment data"
+    ],
+    "customer data": [
+     "any data"
+    ],
+    "customer support message": [
+     "communications"
+    ],
+    "demographic and interest information": [
+     "personal data"
+    ],
+    "device data": [
+     "any data"
+    ],
+    "device fingerprint": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device performance data": [
+     "device data"
+    ],
+    "device type": [
+     "computer specifications"
+    ],
+    "diagnostic data": [
+     "device performance data",
+     "system data"
+    ],
+    "email address": [
+     "account credentials",
+     "contact information"
+    ],
+    "email message": [
+     "communications"
+    ],
+    "error logs": [
+     "diagnostic data"
+    ],
+    "gender": [
+     "demographic and interest information"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "geolocation": [
+     "geographic location"
+    ],
+    "gift card usage data": [
+     "usage data"
+    ],
+    "hardware device id": [
+     "device identifier"
+    ],
+    "hardware id": [
+     "device identifier"
+    ],
+    "hardware model": [
+     "computer specifications"
+    ],
+    "household, group and player identifiers": [
+     "account identifier"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "identifying data": [
+     "personal data"
+    ],
+    "imprecise location": [
+     "location"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "interactions with Sonos site, Sonos Radio content, Sonos Products, Sonos app and other Services": [
+     "usage data"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "language preference": [
+     "preferences"
+    ],
+    "listening activity": [
+     "usage data"
+    ],
+    "listening context": [
+     "listening activity"
+    ],
+    "mac address": [
+     "device identifier"
+    ],
+    "mobile advertising identifier": [
+     "advertising identifier"
+    ],
+    "name": [
+     "contact information",
+     "identifying data"
+    ],
+    "operating system": [
+     "computer specifications"
+    ],
+    "organization information": [
+     "identifying data"
+    ],
+    "other data": [
+     "any data"
+    ],
+    "payment data": [
+     "personal data"
+    ],
+    "persistent identifiers": [
+     "identifiers"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "physical address": [
+     "contact information",
+     "location"
+    ],
+    "pixels": [
+     "cookies"
+    ],
+    "playback/track metadata": [
+     "metadata",
+     "track and station data"
+    ],
+    "postal address": [
+     "physical address"
+    ],
+    "postal code": [
+     "location",
+     "physical address"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "product choice": [
+     "product ownership information"
+    ],
+    "product ownership information": [
+     "device data"
+    ],
+    "product serial number": [
+     "hardware id"
+    ],
+    "profile information": [
+     "identifying data"
+    ],
+    "pseudonymous advertising identifier": [
+     "advertising identifier"
+    ],
+    "pseudonymous identifiers": [
+     "identifiers"
+    ],
+    "recipient data": [
+     "contact information"
+    ],
+    "recruitment information": [
+     "personal data"
+    ],
+    "resulting instruction": [
+     "command metadata"
+    ],
+    "room acoustics": [
+     "ambient noise"
+    ],
+    "room names": [
+     "device data"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "service use information": [
+     "usage data"
+    ],
+    "social media handle": [
+     "contact information",
+     "identifiers"
+    ],
+    "speaker setup": [
+     "device data"
+    ],
+    "support requests": [
+     "communications"
+    ],
+    "survey response": [
+     "personal data"
+    ],
+    "system data": [
+     "device data"
+    ],
+    "tags": [
+     "cookies"
+    ],
+    "technical information": [
+     "computer specifications"
+    ],
+    "the relevant data": [
+     "any data"
+    ],
+    "this information": [
+     "any data"
+    ],
+    "track and station data": [
+     "content management and activity information"
+    ],
+    "track data": [
+     "track and station data"
+    ],
+    "unspecified": [
+     "any data"
+    ],
+    "unspecified data": [
+     "any data"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ],
+    "usage data": [
+     "any data"
+    ],
+    "user ID": [
+     "identifiers"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "user data of others": [
+     "personal data"
+    ],
+    "user post": [
+     "communications"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "user profiles": [
+     "profile information"
+    ],
+    "viewing data": [
+     "aggregate data"
+    ],
+    "voice": [
+     "audio data"
+    ],
+    "voice audio recordings": [
+     "audio data"
+    ],
+    "voice commands": [
+     "voice input"
+    ],
+    "voice control information": [
+     "usage data",
+     "voice input"
+    ],
+    "voice data": [
+     "audio data"
+    ],
+    "voice input": [
+     "audio data"
+    ],
+    "web beacons": [
+     "cookies"
+    ],
+    "wifi access points data": [
+     "geolocation"
+    ],
+    "written authorization": [
+     "consent"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "advertising service providers": "advertising service provider",
+    "the cloud": "cloud service",
+    "third-party radio content providers": "radio content partner"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "third-party advertiser": [
+     "advertiser",
+     "third party"
+    ],
+    "advertising partner": [
+     "partners",
+     "third party"
+    ],
+    "advertising service provider": [
+     "advertising partner",
+     "service provider",
+     "third party"
+    ],
+    "third-party advertising network": [
+     "third party"
+    ],
+    "agent": [
+     "agents or contractors"
+    ],
+    "agents or contractors": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "cloud server": [
+     "cloud service"
+    ],
+    "sonos cloud infrastructure": [
+     "cloud service",
+     "first party"
+    ],
+    "investigative organization": [
+     "third party"
+    ],
+    "law enforcement": [
+     "legal body",
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "radio content partner": [
+     "partners",
+     "third party"
+    ],
+    "service partner": [
+     "partners",
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media partner": [
+     "partners",
+     "social network",
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "technology partner": [
+     "partners",
+     "third party"
+    ],
+    "third party vendor": [
+     "service provider",
+     "third party"
+    ],
+    "third-party businesses": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ],
+    "voice partner": [
+     "partners",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party voice services": [
+     "third party"
+    ],
+    "third-party data providers": [
+     "third party"
+    ],
+    "Sonos product": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising service providers": "advertising service provider",
+    "first party": "Sonos",
+    "unspecified third party": "third party"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ],
+    "advertising service provider": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party AI assistant": [
+     "third party"
+    ],
+    "third-party advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance and regulatory": "compliance",
+    "display interest-based ads": "Interest-based advertising",
+    "fraud prevention and security": "fraud prevention",
+    "fraud-detection": "fraud prevention",
+    "fulfillment": "contract fulfillment",
+    "fulfillment of contract": "contract fulfillment",
+    "identity verification": "authentication",
+    "legal compliance": "compliance",
+    "order fulfilment": "order fulfillment",
+    "personalization": "customization",
+    "provide customer support": "customer support",
+    "service improvement": "product improvement",
+    "service quality": "quality control",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "support": "customer support",
+    "targeted advertising": "Interest-based advertising"
+   },
+   "parents": {
+    "display interest-based ads for features, products, and services that might be of interest to you": [
+     "Interest-based advertising"
+    ],
+    "Interest-based advertising": [
+     "advertising"
+    ],
+    "ad delivery": [
+     "advertising"
+    ],
+    "ad measurement": [
+     "advertising"
+    ],
+    "ad optimization": [
+     "advertising"
+    ],
+    "prompt messaging such as cart abandonment messages": [
+     "communications",
+     "marketing"
+    ],
+    "marketing": [
+     "advertising"
+    ],
+    "order fulfillment": [
+     "contract fulfillment",
+     "fulfill service"
+    ],
+    "payment processing": [
+     "fulfill service"
+    ],
+    "account management": [
+     "fulfill service"
+    ],
+    "basic function": [
+     "enable the functionality",
+     "service operation"
+    ],
+    "enable the functionality": [
+     "service operation"
+    ],
+    "service performance": [
+     "service operation"
+    ],
+    "service reliability": [
+     "service operation"
+    ],
+    "service optimization": [
+     "product improvement"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service operation"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "analytics_research": [
+     "analytics",
+     "research"
+    ],
+    "analytics": [
+     "analytics or system management"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5926,
+  "completion_tokens": 3299,
+  "thinking_tokens": 0,
+  "seconds": 24.369239568710327,
+  "failures": 0
+ },
+ "seconds": 24.5
+}

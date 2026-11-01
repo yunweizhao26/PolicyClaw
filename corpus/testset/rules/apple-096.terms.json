@@ -1,0 +1,366 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "contact_info": "contact details",
+    "date of birth": "birth date",
+    "date-of-birth": "birth date",
+    "date_of_birth": "birth date",
+    "driver's license": "driver license",
+    "email address": "email",
+    "email-address": "email",
+    "employment_status": "employment status",
+    "identification card data": "driver's license information",
+    "ip-address": "ip address",
+    "ip_address": "ip address",
+    "personal data": "Personal Data",
+    "personal-data": "Personal Data",
+    "personal_data": "Personal Data",
+    "phone-number": "phone number",
+    "phone_number": "phone number",
+    "postal-address": "postal address",
+    "postal_code": "postal code",
+    "protected_health_information": "protected health information",
+    "purchase_history": "purchase history",
+    "server_logs": "server logs",
+    "video_recording": "video recording"
+   },
+   "parents": {
+    "email": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "delivery address": [
+     "postal address"
+    ],
+    "drivers_license_number": [
+     "driver license",
+     "national_id_number"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "precise location data": [
+     "geolocation data"
+    ],
+    "precise location": [
+     "geolocation data"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "mac-address": [
+     "device-identifier"
+    ],
+    "mobile advertising identifier": [
+     "device-identifier",
+     "unique identifiers"
+    ],
+    "cookies and similar technologies": [
+     "unique identifiers"
+    ],
+    "loyalty number": [
+     "account-identifier",
+     "user_identifier"
+    ],
+    "loyalty card details": [
+     "account data"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "website activity"
+    ],
+    "browsing_history": [
+     "browsing activity",
+     "website activity"
+    ],
+    "store preference": [
+     "browsing_preferences",
+     "preferences"
+    ],
+    "shopping preferences": [
+     "preferences"
+    ],
+    "payment details": [
+     "financial details",
+     "payment information",
+     "payment_data"
+    ],
+    "video recording": [
+     "recording",
+     "video"
+    ],
+    "voice_recording": [
+     "recording"
+    ],
+    "voice audio": [
+     "recording"
+    ],
+    "health and medical data": [
+     "health data"
+    ],
+    "health and wellness data": [
+     "health data"
+    ],
+    "health-history": [
+     "health data"
+    ],
+    "health information": [
+     "health data"
+    ],
+    "health_data": [
+     "health data"
+    ],
+    "protected health information": [
+     "health data"
+    ],
+    "photograph": [
+     "image"
+    ],
+    "photo": [
+     "image"
+    ],
+    "motion-sensor-data": [
+     "motion details"
+    ],
+    "Personal Data": [
+     "data",
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "ad tech company": "ad tech companies and other tracking providers",
+    "partner": "business partner",
+    "service providers": "service provider",
+    "subsidiary or affiliate": "parent and affiliate entities",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "ad tech companies and other tracking providers": [
+     "third parties"
+    ],
+    "analytics provider and advertising partner": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "business_partner": [
+     "third parties"
+    ],
+    "delivery partner": [
+     "third parties"
+    ],
+    "payment processor": [
+     "data_processor",
+     "service provider"
+    ],
+    "data_processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ],
+    "insurance carriers": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "legal authority"
+    ],
+    "government unit that engaged in civil immigration enforcement": [
+     "legal authority"
+    ],
+    "third party brands": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "website": [
+     "website or app"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "our fuel reward partners": [
+     "third party"
+    ],
+    "our third party partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "AI service": [
+     "third party"
+    ],
+    "subsidiary": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "fraud prevention and security": "fraud prevention and detection",
+    "fraud_prevention_and_security": "fraud prevention and detection",
+    "prevent fraud and security incidents": "fraud prevention and detection",
+    "service provision": "provide our products and services",
+    "service-provision": "provide our products and services",
+    "service_optimization": "service optimization",
+    "service_provision": "provide our products and services",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "administer rewards": [
+     "administer offering"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "personalized content and ads": [
+     "advertising"
+    ],
+    "analytics": [
+     "analytical, statistical, research, operational, product-development, and business purposes"
+    ],
+    "comply with legal obligations": [
+     "legal compliance"
+    ],
+    "to the government or private parties to comply with law or valid legal process": [
+     "Additional Business Purposes for which we collect, and may disclose, Personal Data include sharing Personal Data with Third Parties for other than a Sale or one of the foregoing Business Purposes as required or permitted by applicable law, such as to our vendors that perform services for us, to the government or private parties to comply with law or valid legal process, to the Consumer or other parties at the Consumer’s request or direction, for the additional purposes explained in our online Privacy Policy or at the point of collection, and to assignees as part of a merger or asset sale (“Other Business Purposes”)",
+     "comply with legal obligations",
+     "legal compliance"
+    ],
+    "order fulfillment": [
+     "fulfillment",
+     "order processing"
+    ],
+    "fulfillment": [
+     "provide our products and services"
+    ],
+    "order processing": [
+     "provide our products and services"
+    ],
+    "account registration": [
+     "provide our products and services"
+    ],
+    "confirm membership": [
+     "provide our products and services"
+    ],
+    "eligibility check": [
+     "provide our products and services"
+    ],
+    "redeem points": [
+     "administer rewards"
+    ],
+    "track reward points and adjust balance": [
+     "administer rewards"
+    ],
+    "loss prevention": [
+     "security"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "crime_prevention_and_safety": [
+     "security"
+    ],
+    "service personalization": [
+     "personalization"
+    ],
+    "personalize the recommendations you receive": [
+     "personalization"
+    ],
+    "personalize your experiences with us": [
+     "personalization"
+    ],
+    "provide functionality": [
+     "provide our products and services"
+    ],
+    "provide the features you request": [
+     "provide our products and services"
+    ],
+    "customer support": [
+     "support services"
+    ],
+    "manage attendees and contact user": [
+     "communication"
+    ],
+    "user research": [
+     "better understand your interests"
+    ],
+    "understand you as a shopper": [
+     "better understand your interests"
+    ],
+    "profiling decisions": [
+     "profiling"
+    ],
+    "to our vendors that perform services for us": [
+     "Additional Business Purposes for which we collect, and may disclose, Personal Data include sharing Personal Data with Third Parties for other than a Sale or one of the foregoing Business Purposes as required or permitted by applicable law, such as to our vendors that perform services for us, to the government or private parties to comply with law or valid legal process, to the Consumer or other parties at the Consumer’s request or direction, for the additional purposes explained in our online Privacy Policy or at the point of collection, and to assignees as part of a merger or asset sale (“Other Business Purposes”)",
+     "vendor operations"
+    ],
+    "to assignees as part of a merger or asset sale": [
+     "Additional Business Purposes for which we collect, and may disclose, Personal Data include sharing Personal Data with Third Parties for other than a Sale or one of the foregoing Business Purposes as required or permitted by applicable law, such as to our vendors that perform services for us, to the government or private parties to comply with law or valid legal process, to the Consumer or other parties at the Consumer’s request or direction, for the additional purposes explained in our online Privacy Policy or at the point of collection, and to assignees as part of a merger or asset sale (“Other Business Purposes”)"
+    ],
+    "to the Consumer or other parties at the Consumer’s request or direction": [
+     "Additional Business Purposes for which we collect, and may disclose, Personal Data include sharing Personal Data with Third Parties for other than a Sale or one of the foregoing Business Purposes as required or permitted by applicable law, such as to our vendors that perform services for us, to the government or private parties to comply with law or valid legal process, to the Consumer or other parties at the Consumer’s request or direction, for the additional purposes explained in our online Privacy Policy or at the point of collection, and to assignees as part of a merger or asset sale (“Other Business Purposes”)"
+    ],
+    "for the additional purposes explained in our online Privacy Policy or at the point of collection": [
+     "Additional Business Purposes for which we collect, and may disclose, Personal Data include sharing Personal Data with Third Parties for other than a Sale or one of the foregoing Business Purposes as required or permitted by applicable law, such as to our vendors that perform services for us, to the government or private parties to comply with law or valid legal process, to the Consumer or other parties at the Consumer’s request or direction, for the additional purposes explained in our online Privacy Policy or at the point of collection, and to assignees as part of a merger or asset sale (“Other Business Purposes”)"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5782,
+  "completion_tokens": 2511,
+  "thinking_tokens": 0,
+  "seconds": 37.089359998703,
+  "failures": 0
+ },
+ "seconds": 37.2
+}

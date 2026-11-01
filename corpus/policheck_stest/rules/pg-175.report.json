@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "pg-175",
+ "text_sha256": "6b9d91967db4e399c4da701498578590e91c7a06ceed66040092476c1d5edc45",
+ "site_id": "pg-175",
+ "sections": 3,
+ "rules": 48,
+ "report": {
+  "sections": 3,
+  "raw_rules": 48,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "If you’d like us to delete User Provided Data that you have provided via the Application, please contact us at admin@appsrescue.com"
+     ],
+     "data": {
+      "name": "user provided info",
+      "text": "User Provided Data that you have provided via the Application"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will respond in a reasonable time",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you’d like us to delete User Provided Data that you have provided via the Application, please contact us at admin@appsrescue.com"
+    ],
+    "section": "pg-175#s2"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 17,
+  "completeness": {
+   "gaps": 36,
+   "gap_words": 414
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 17,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 8772,
+  "completion_tokens": 7662,
+  "thinking_tokens": 0,
+  "seconds": 48.99728488922119,
+  "failures": 0
+ },
+ "seconds": 49.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

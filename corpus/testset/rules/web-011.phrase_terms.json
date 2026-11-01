@@ -1,0 +1,169 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "end-customer data": "data related to your end customers",
+    "your billing information": "billing and transaction information",
+    "your credit card details": "credit card details",
+    "your current IP": "IP",
+    "your personal": "personal",
+    "zone configuration": "information regarding zone configurations",
+    "zone count": "the number of zones"
+   },
+   "parents": {
+    "Personal data included in tax and accounting documents": [
+     "Personal data"
+    ],
+    "account identifiers": [
+     "data"
+    ],
+    "address details": [
+     "the address information provided"
+    ],
+    "audio": [
+     "video calls"
+    ],
+    "billing": [
+     "billing and transaction information"
+    ],
+    "credit card details": [
+     "billing and transaction information"
+    ],
+    "customer usage metrics": [
+     "usage"
+    ],
+    "email address": [
+     "data that could be used to identify you",
+     "personal data"
+    ],
+    "full name": [
+     "data that could be used to identify you",
+     "personal data"
+    ],
+    "historical spend data": [
+     "billing and transaction information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal information about your visits that is not explicitly provided": [
+     "personal information"
+    ],
+    "postal address": [
+     "address details"
+    ],
+    "sensitive information, such as your passwords": [
+     "personal information"
+    ],
+    "service usage details": [
+     "usage"
+    ],
+    "the email address provided during signup": [
+     "email address"
+    ],
+    "their data": [
+     "data"
+    ],
+    "transient query logs": [
+     "operational data stored within our data warehouse"
+    ],
+    "billing and transaction information": [
+     "personal data"
+    ],
+    "your personal account details": [
+     "personal data"
+    ],
+    "your provided information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google BigQuery": [
+     "third parties"
+    ],
+    "Salesforce": [
+     "third parties"
+    ],
+    "Savio": [
+     "third parties"
+    ],
+    "a service called Braintree": [
+     "third parties"
+    ],
+    "a service called Coinify": [
+     "third parties"
+    ],
+    "a service called Disqus": [
+     "third parties"
+    ],
+    "a service called SendGrid": [
+     "third parties"
+    ],
+    "a service called Zendesk": [
+     "third parties"
+    ],
+    "a third-party service called MaxMind": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "Braintree, one of the most secure payment providers": "Braintree",
+    "Loqate (GBG)": "Loqate",
+    "we": "We"
+   },
+   "parents": {
+    "We": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "to assist with address verification, standardization, formatting, and autocomplete functionality": [
+     "To help keep account information accurate"
+    ],
+    "maintain accurate contact records, and keep customer information up to date across our systems": [
+     "To help keep account information accurate"
+    ],
+    "support our tax and regulatory compliance requirements": [
+     "compliance with a legal obligation to which bunny.net is subject"
+    ],
+    "to detect and prevent credit card fraud": [
+     "for secure payment processing on our behalf"
+    ],
+    "verify your payment details when you top up your account": [
+     "for secure payment processing on our behalf"
+    ],
+    "to improve customer communications and support quality": [
+     "to manage our support"
+    ],
+    "to provide the requested functionality": [
+     "allows us to provide our services"
+    ],
+    "to give users the ability to leave comments under our articles": [
+     "allows us to provide our services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 4405,
+  "completion_tokens": 901,
+  "thinking_tokens": 0,
+  "seconds": 8.755228281021118,
+  "failures": 0
+ },
+ "seconds": 8.9
+}

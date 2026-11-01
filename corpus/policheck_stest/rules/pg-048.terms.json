@@ -1,0 +1,263 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial details",
+    "information": "data",
+    "payment details": "financial details",
+    "personal information": "personal data",
+    "user information": "user data"
+   },
+   "parents": {
+    "DNT browser signals": [
+     "opt-out mechanism signal"
+    ],
+    "account name": [
+     "account details"
+    ],
+    "account permissions": [
+     "account details"
+    ],
+    "account profile": [
+     "account details"
+    ],
+    "alias": [
+     "name"
+    ],
+    "app features used": [
+     "service usage"
+    ],
+    "browser type": [
+     "browser and device characteristics"
+    ],
+    "browsing behavior": [
+     "service usage"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "contacts": [
+     "account details",
+     "social network data"
+    ],
+    "country": [
+     "location"
+    ],
+    "data stored in user account": [
+     "data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "device information",
+     "online identifier"
+    ],
+    "device location": [
+     "device information",
+     "location"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "education": [
+     "education information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "employment history": [
+     "professional or employment-related information"
+    ],
+    "employment status": [
+     "professional or employment-related information"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "fingerprint": [
+     "sensitive data"
+    ],
+    "hardware manufacturer": [
+     "device information"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "interest data": [
+     "personal data"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "isp": [
+     "network information"
+    ],
+    "language preference": [
+     "system configuration"
+    ],
+    "log data": [
+     "technical information"
+    ],
+    "name": [
+     "contact information",
+     "personal data"
+    ],
+    "network information": [
+     "technical information"
+    ],
+    "online identifier": [
+     "unique personal identifier"
+    ],
+    "operating system": [
+     "browser and device characteristics",
+     "device information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "professional or employment-related information": [
+     "personal data"
+    ],
+    "profile data": [
+     "account details"
+    ],
+    "profile picture": [
+     "account profile"
+    ],
+    "public profile information": [
+     "account profile"
+    ],
+    "publicly available data": [
+     "data"
+    ],
+    "purchase history": [
+     "transaction history"
+    ],
+    "questions or comments": [
+     "user-generated content"
+    ],
+    "referrer url": [
+     "log data"
+    ],
+    "search history": [
+     "browsing behavior"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "service usage": [
+     "log data"
+    ],
+    "social network data": [
+     "personal data"
+    ],
+    "software version": [
+     "system configuration"
+    ],
+    "system configuration": [
+     "technical information"
+    ],
+    "transaction history": [
+     "financial details"
+    ],
+    "unique personal identifier": [
+     "personal data"
+    ],
+    "user-generated content": [
+     "user data"
+    ],
+    "username": [
+     "account details",
+     "online identifier"
+    ],
+    "voiceprint": [
+     "sensitive data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Maps Platform APIs": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "social network"
+    ],
+    "children under 18 years of age": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "MTP Holdings inc"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "services": "service provision",
+    "to fulfill the purposes outlined in this privacy notice": "for the purposes set out in this privacy notice",
+    "unspecified": "other"
+   },
+   "parents": {
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "identity-verification": [
+     "security"
+    ],
+    "troubleshooting": [
+     "service operation"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2502,
+  "completion_tokens": 1022,
+  "thinking_tokens": 0,
+  "seconds": 10.000876188278198,
+  "failures": 0
+ },
+ "seconds": 10.1
+}

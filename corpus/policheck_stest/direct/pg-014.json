@@ -1,0 +1,22 @@
+{
+ "policy": "pg-014",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "With User's opt-in consent, the AAA Mobile App may use the location data to send information related to AAA discounts available nearby via push notifications to the User's device.",
+   "prohibit": "After your roadside assistance service request has been closed, your current location will no longer be shared with or visible to the roadside assistance provider or us.",
+   "situation": "Accessing or using a user's current location to provide nearby discount notifications after a roadside assistance request has been closed.",
+   "reason": "One clause explicitly states AAA ('us') will no longer have visibility of current location after closing a service request, conflicting with ongoing background location use for nearby discounts.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 5124,
+  "completion_tokens": 183,
+  "thinking_tokens": 0,
+  "seconds": 6.34730863571167,
+  "failures": 0
+ }
+}

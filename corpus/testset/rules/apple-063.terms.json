@@ -1,0 +1,174 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "company name": "company",
+    "personal information": "personal data",
+    "survey responses": "survey response",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "audio content of recorded calls or meetings": [
+     "audio recording",
+     "content of calls and online meetings"
+    ],
+    "audio recording": [
+     "user-provided content"
+    ],
+    "authentication credentials": [
+     "personal data"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "business street address": [
+     "address"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "customer support queries": [
+     "feedback and support communications"
+    ],
+    "device identifiers": [
+     "online identifiers"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "dietary preferences": [
+     "preferences"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "events attended": [
+     "education and training history"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "mobile phone number": [
+     "phone number"
+    ],
+    "photograph": [
+     "profile information",
+     "user-provided content"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "survey response": [
+     "user-provided content"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "training data": [
+     "education and training history"
+    ],
+    "user-provided content": [
+     "user-provided information"
+    ],
+    "video content of recorded calls or meetings": [
+     "content of calls and online meetings",
+     "video recording"
+    ],
+    "video recording": [
+     "user-provided content"
+    ],
+    "visited pages and features used": [
+     "content interaction data"
+    ],
+    "voice recording": [
+     "audio recording"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Workday"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service improvement": "improve products and services",
+    "user account management": "account management"
+   },
+   "parents": {
+    "account creation": [
+     "account management"
+    ],
+    "contacting about services": [
+     "communication"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "troubleshooting and support": [
+     "customer support"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "performance monitoring and analytics": [
+     "analytics"
+    ],
+    "fraud prevention and enforcement": [
+     "security"
+    ],
+    "security and fraud prevention": [
+     "security"
+    ],
+    "enforcing terms and agreements": [
+     "legal compliance"
+    ],
+    "defense or pursuit of legal claims": [
+     "legal compliance"
+    ],
+    "supplement and enrich records": [
+     "maintain records"
+    ],
+    "understand feedback": [
+     "analytics"
+    ],
+    "service provision": [
+     "service provision and operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2786,
+  "completion_tokens": 603,
+  "thinking_tokens": 0,
+  "seconds": 13.858264923095703,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

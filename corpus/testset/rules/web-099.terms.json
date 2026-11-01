@@ -1,0 +1,310 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browser plug-in types and versions": "browser plug-in details",
+    "http headers": "HTTP headers",
+    "information": "data",
+    "ip address": "IP address",
+    "login details": "log data",
+    "organization": "company name",
+    "payment details": "financial transaction details",
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive personal data",
+    "tracking pixels": "pixels",
+    "web beacons": "clear gifs"
+   },
+   "parents": {
+    "bank account number": [
+     "financial data"
+    ],
+    "billing address": [
+     "contact data",
+     "postal address"
+    ],
+    "browser language": [
+     "device technical information",
+     "technical data"
+    ],
+    "browser plug-in details": [
+     "device technical information",
+     "technical data"
+    ],
+    "browser type": [
+     "device technical information",
+     "technical data"
+    ],
+    "browser version": [
+     "device technical information",
+     "technical data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "clear gifs": [
+     "digital technologies",
+     "statistical and digital technologies"
+    ],
+    "communication preferences": [
+     "marketing communications"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "cookies": [
+     "digital technologies",
+     "statistical and digital technologies"
+    ],
+    "date of birth": [
+     "identity data"
+    ],
+    "delivery address": [
+     "contact data",
+     "postal address"
+    ],
+    "device details": [
+     "device technical information",
+     "technical data"
+    ],
+    "device technical information": [
+     "technical data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "feedback": [
+     "profile data"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "financial transaction details": [
+     "transaction data"
+    ],
+    "first name": [
+     "identity data"
+    ],
+    "first-party cookies": [
+     "cookies"
+    ],
+    "gender": [
+     "identity data"
+    ],
+    "identity data": [
+     "personal data"
+    ],
+    "information about criminal convictions and offenses": [
+     "sensitive personal data"
+    ],
+    "interests": [
+     "profile data",
+     "user preferences"
+    ],
+    "IP address": [
+     "device technical information",
+     "technical data"
+    ],
+    "javascript": [
+     "digital technologies"
+    ],
+    "job title": [
+     "identity data"
+    ],
+    "last name": [
+     "identity data"
+    ],
+    "location": [
+     "technical data"
+    ],
+    "log data": [
+     "technical data"
+    ],
+    "maiden name": [
+     "identity data"
+    ],
+    "marital status": [
+     "identity data"
+    ],
+    "operating system": [
+     "device technical information",
+     "technical data"
+    ],
+    "password": [
+     "log data",
+     "profile data"
+    ],
+    "payment card number": [
+     "financial data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal title": [
+     "identity data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "pixels": [
+     "digital technologies",
+     "statistical and digital technologies"
+    ],
+    "platform": [
+     "device technical information",
+     "technical data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "profile data": [
+     "personal data"
+    ],
+    "purchase history": [
+     "profile data",
+     "transaction data"
+    ],
+    "referring url": [
+     "technical data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "strictly necessary cookies": [
+     "cookies"
+    ],
+    "survey responses": [
+     "profile data"
+    ],
+    "technical data": [
+     "personal data"
+    ],
+    "time zone": [
+     "device technical information",
+     "technical data"
+    ],
+    "transaction data": [
+     "personal data"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user ID": [
+     "identity data",
+     "profile data"
+    ],
+    "user identifier": [
+     "identity data",
+     "profile data"
+    ],
+    "user preferences": [
+     "profile data"
+    ],
+    "username": [
+     "identity data",
+     "log data",
+     "profile data",
+     "user ID"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "internal organization": "affiliate",
+    "purchaser": "prospective or actual purchasers"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "other data controller": [
+     "third party"
+    ],
+    "prospective or actual purchasers": [
+     "third party"
+    ],
+    "research entities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "sellers": "seller"
+   },
+   "parents": {
+    "seller": [
+     "customer"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service development": "product development",
+    "user account management": "account management",
+    "verification": "identity verification"
+   },
+   "parents": {
+    "advertising": [
+     "advertising or marketing"
+    ],
+    "marketing": [
+     "advertising or marketing"
+    ],
+    "analytics": [
+     "analytics or website improvement"
+    ],
+    "internal audit": [
+     "audit"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "survey participation": [
+     "customer relationship management"
+    ],
+    "website operation": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2904,
+  "completion_tokens": 1552,
+  "thinking_tokens": 0,
+  "seconds": 13.604401350021362,
+  "failures": 0
+ },
+ "seconds": 13.7
+}

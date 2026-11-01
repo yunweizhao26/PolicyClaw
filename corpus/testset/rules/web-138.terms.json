@@ -1,0 +1,179 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "user-provided information": "user-provided data"
+   },
+   "parents": {
+    "basic contact information": [
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "account name": [
+     "personal data"
+    ],
+    "payment method": [
+     "financial information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "personal data of children": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user-provided data": [
+     "data"
+    ],
+    "other data": [
+     "user-provided data"
+    ],
+    "connection details": [
+     "data"
+    ],
+    "IP address": [
+     "connection details"
+    ],
+    "device identifier": [
+     "connection details"
+    ],
+    "referring url": [
+     "connection details"
+    ],
+    "log data": [
+     "connection details"
+    ],
+    "online activity information": [
+     "data"
+    ],
+    "transaction details": [
+     "online activity information"
+    ],
+    "browsing preferences": [
+     "data"
+    ],
+    "customer support records": [
+     "data"
+    ],
+    "file": [
+     "data"
+    ],
+    "precise location": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "Synology affiliates",
+    "other third party": "entities deemed necessary to carry out providing Services"
+   },
+   "parents": {
+    "authorized logistics companies": [
+     "service provider",
+     "third-party service providers"
+    ],
+    "authorized repair and support centers": [
+     "service provider",
+     "third-party service providers"
+    ],
+    "subsidiaries": [
+     "Synology affiliates"
+    ],
+    "service provider": [
+     "third-party service providers"
+    ],
+    "third-party service providers": [
+     "third party"
+    ],
+    "entities deemed necessary to carry out providing Services": [
+     "third party"
+    ],
+    "third parties involved in a legal proceeding": [
+     "third party"
+    ],
+    "courts": [
+     "government-affiliated institutions"
+    ],
+    "law enforcement agencies": [
+     "government-affiliated institutions"
+    ],
+    "government-affiliated institutions": [
+     "governments"
+    ],
+    "data controller": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision",
+    "to carry out providing these Services": "service provision",
+    "to work on our behalf or for us": "for purposes of performing these tasks on our behalf"
+   },
+   "parents": {
+    "customer-support": [
+     "service provision"
+    ],
+    "fraud-detection": [
+     "security",
+     "to assist us in detecting and dealing with data breaches, illegal activities, and fraud"
+    ],
+    "in response to a verified request relating to a government or criminal investigation": [
+     "to comply with our obligations under relevant laws and regulations"
+    ],
+    "service-improvement": [
+     "to help us provide, analyze, and improve our Services"
+    ],
+    "service provision": [
+     "to help us provide, analyze, and improve our Services"
+    ],
+    "to assist us in detecting and dealing with data breaches, illegal activities, and fraud": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1848,
+  "completion_tokens": 825,
+  "thinking_tokens": 0,
+  "seconds": 8.99876856803894,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

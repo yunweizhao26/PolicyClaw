@@ -1,0 +1,724 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "audio-recordings": "audio recordings",
+    "call logs": "call log",
+    "call_logs": "call log",
+    "chat_history": "chat history",
+    "child's personal data": "child's data",
+    "children's data": "child's data",
+    "contact details": "contact data",
+    "contact info": "contact data",
+    "contact_information": "contact data",
+    "contacts": "contact list",
+    "crash reports": "crash dumps",
+    "date and time stamp": "date and time",
+    "device and usage data": "device and device usage data",
+    "device hardware specifications": "device hardware parameters",
+    "device usage data": "device and device usage data",
+    "email contents": "email content",
+    "error reports": "crash dumps",
+    "gestures": "gesture data",
+    "images and photos": "images",
+    "information": "data",
+    "ip address": "IP address",
+    "passwords": "password",
+    "payment details": "payment data",
+    "payment information": "payment data",
+    "photos": "images",
+    "pictures library": "photos library",
+    "precise geolocation information": "precise geographic location",
+    "precise location": "precise geographic location",
+    "sensitive personal information": "sensitive data",
+    "service data": "required service data",
+    "service_usage_data": "required service data",
+    "text message content": "message_content",
+    "text_messages": "text message",
+    "user identifier": "user id",
+    "user prompts": "prompts",
+    "username": "user name",
+    "video recording": "video data",
+    "video recordings": "video data",
+    "videos": "video data",
+    "voice recording": "voice data",
+    "voice recordings": "voice data",
+    "your data": "user data"
+   },
+   "parents": {
+    "account activity data": [
+     "account data"
+    ],
+    "account age": [
+     "account information"
+    ],
+    "account identifier": [
+     "account information"
+    ],
+    "account profile data": [
+     "account data"
+    ],
+    "account settings": [
+     "account information"
+    ],
+    "account status": [
+     "account information"
+    ],
+    "achievements": [
+     "gameplay statistics"
+    ],
+    "activity history": [
+     "activity data"
+    ],
+    "ad clicks": [
+     "clicks"
+    ],
+    "aggregated de-identified diagnostic data": [
+     "diagnostic data"
+    ],
+    "app usage duration": [
+     "app usage"
+    ],
+    "application activity": [
+     "activity data"
+    ],
+    "audio recordings": [
+     "audio"
+    ],
+    "authentication data": [
+     "credentials"
+    ],
+    "biometric image": [
+     "biometric data"
+    ],
+    "biometric template": [
+     "biometric data"
+    ],
+    "biometric verification data": [
+     "biometric data"
+    ],
+    "body measurements": [
+     "biometric data"
+    ],
+    "browser configuration": [
+     "browser settings"
+    ],
+    "browser settings": [
+     "settings"
+    ],
+    "browser usage data": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browser usage data"
+    ],
+    "calendar entries": [
+     "calendar"
+    ],
+    "calendar events": [
+     "calendar"
+    ],
+    "calendar items": [
+     "calendar"
+    ],
+    "call log": [
+     "communication data"
+    ],
+    "cellular network data": [
+     "network connection information"
+    ],
+    "chat history": [
+     "chat logs"
+    ],
+    "chat message content": [
+     "content"
+    ],
+    "chat text": [
+     "text input"
+    ],
+    "clicks": [
+     "interaction data"
+    ],
+    "coarse location": [
+     "location data"
+    ],
+    "communication participants": [
+     "communication data"
+    ],
+    "communication timestamp": [
+     "time stamp"
+    ],
+    "communications contents": [
+     "content"
+    ],
+    "crash dumps": [
+     "diagnostic data"
+    ],
+    "credit card number": [
+     "payment data"
+    ],
+    "custom word list": [
+     "input data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "device hardware parameters": [
+     "device information"
+    ],
+    "device location": [
+     "location data"
+    ],
+    "device readiness for update": [
+     "device status"
+    ],
+    "device software version": [
+     "software information"
+    ],
+    "document contents": [
+     "content"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "email content": [
+     "content"
+    ],
+    "emails": [
+     "content"
+    ],
+    "encryption keys": [
+     "credentials"
+    ],
+    "facial recognition data": [
+     "biometric data"
+    ],
+    "file content": [
+     "content"
+    ],
+    "file contents": [
+     "content"
+    ],
+    "game achievements": [
+     "achievements"
+    ],
+    "game progress": [
+     "gameplay statistics"
+    ],
+    "gamerpic": [
+     "images"
+    ],
+    "gamertag": [
+     "account identifier"
+    ],
+    "handwriting": [
+     "input data"
+    ],
+    "handwritten words": [
+     "handwriting"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hash of file contents": [
+     "hash"
+    ],
+    "in-game communications": [
+     "communication data"
+    ],
+    "inferences": [
+     "derived data"
+    ],
+    "iris scan data": [
+     "biometric data"
+    ],
+    "leaderboard scores": [
+     "gameplay statistics"
+    ],
+    "malware detection data": [
+     "diagnostic data"
+    ],
+    "microphone data": [
+     "audio"
+    ],
+    "opt-out preference": [
+     "privacy preferences"
+    ],
+    "password hint": [
+     "credentials"
+    ],
+    "password": [
+     "credentials"
+    ],
+    "payment and account history": [
+     "payment data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "postal code": [
+     "location data"
+    ],
+    "precise geographic location": [
+     "location data"
+    ],
+    "privacy preferences": [
+     "privacy settings"
+    ],
+    "purchase history": [
+     "payment and account history"
+    ],
+    "purchase receipts": [
+     "payment data"
+    ],
+    "ratings, reviews, or problem reports": [
+     "feedback"
+    ],
+    "screen images": [
+     "images"
+    ],
+    "screenshot": [
+     "images"
+    ],
+    "search history": [
+     "search activity"
+    ],
+    "search queries": [
+     "search activity"
+    ],
+    "search-results": [
+     "search activity"
+    ],
+    "sms content": [
+     "content"
+    ],
+    "stored content": [
+     "content"
+    ],
+    "message_content": [
+     "content"
+    ],
+    "transcript of voice data": [
+     "voice data"
+    ],
+    "typed text": [
+     "input data"
+    ],
+    "typed words": [
+     "typed text"
+    ],
+    "uploaded content": [
+     "content"
+    ],
+    "uploaded files": [
+     "files"
+    ],
+    "user consent": [
+     "user choices"
+    ],
+    "user-generated content": [
+     "user content"
+    ],
+    "user-provided content": [
+     "user content"
+    ],
+    "verbal_feedback": [
+     "feedback"
+    ],
+    "video calls": [
+     "communication data"
+    ],
+    "video data": [
+     "content"
+    ],
+    "voice data": [
+     "audio"
+    ],
+    "voice mail": [
+     "communication data"
+    ],
+    "webpage screenshots": [
+     "screenshot"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Microsoft-controlled affiliates and subsidiaries",
+    "first party": "Microsoft",
+    "partners": "partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "OneDrive": [
+     "Microsoft apps and services"
+    ],
+    "Password Monitor service": [
+     "Microsoft apps and services"
+    ],
+    "banks": [
+     "financial services providers"
+    ],
+    "payment processors": [
+     "financial services providers"
+    ],
+    "parents": [
+     "family members"
+    ],
+    "child": [
+     "family members"
+    ],
+    "third-party ad partners": [
+     "third parties"
+    ],
+    "third-party apps": [
+     "third-party services"
+    ],
+    "third-party customers": [
+     "third parties"
+    ],
+    "third-party services": [
+     "third parties"
+    ],
+    "advertiser": [
+     "internal and external partners",
+     "third parties"
+    ],
+    "vendor": [
+     "service provider",
+     "vendors or agents working on our behalf"
+    ],
+    "vendors or agents working on our behalf": [
+     "service provider"
+    ],
+    "search engine": [
+     "visited websites and online services"
+    ],
+    "social media service": [
+     "third-party services"
+    ],
+    "streaming media servers": [
+     "third-party services"
+    ],
+    "an external notification provider": [
+     "service provider"
+    ],
+    "emergency calling service providers": [
+     "service provider"
+    ],
+    "law enforcement authorities": [
+     "third parties"
+    ],
+    "National Center for Missing and Exploited Children": [
+     "third parties"
+    ],
+    "mobile operator": [
+     "third parties"
+    ],
+    "partner": [
+     "internal and external partners"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "user-specified recipient": [
+     "recipient"
+    ],
+    "recipient-group": [
+     "recipient"
+    ],
+    "contacts": [
+     "other users"
+    ],
+    "family members": [
+     "recipient-group"
+    ],
+    "enterprise customers": [
+     "recipient-group"
+    ],
+    "anyone else who uses and has access to the same payment method to make a purchase from Microsoft": [
+     "anyone"
+    ],
+    "public": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertisers and partners": [
+     "partner",
+     "third parties"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "affiliates and partners": [
+     "affiliate",
+     "partner"
+    ],
+    "child": [
+     "user"
+    ],
+    "data broker": [
+     "third parties"
+    ],
+    "from your XBOX console, PC, or mobile device": [
+     "user device"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "other third party": [
+     "third parties"
+    ],
+    "other users": [
+     "user"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "subsidiary": [
+     "affiliate"
+    ],
+    "third-party financial institutions": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Microsoft",
+    "user organization": "managing organization"
+   },
+   "parents": {
+    "organization administrators": [
+     "administrator"
+    ],
+    "child": [
+     "user"
+    ],
+    "parent": [
+     "user"
+    ],
+    "Microsoft Azure": [
+     "Microsoft"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "third-party analytics providers": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "third-party sites": [
+     "visited websites and online services"
+    ],
+    "destination website": [
+     "visited websites and online services"
+    ],
+    "app developer": [
+     "publisher or developer"
+    ],
+    "third party applications or extensions that run on Windows or Edge browser": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "conduct our business operations": "business operations",
+    "improve-products-or-services": "improve service or product",
+    "legal compliance": "legal",
+    "maintenance": "maintain service",
+    "operate our business": "business operations",
+    "product improvement": "improve service or product",
+    "product improvement or development": "improve service or product",
+    "protect the security and safety of our systems and our customers": "protect the safety and security of our systems and customers",
+    "provide the service": "product provision",
+    "provide-service": "product provision",
+    "service delivery": "product provision",
+    "service improvement": "improve service or product",
+    "service provision": "product provision",
+    "service-improvement": "improve service or product",
+    "service-provision": "product provision",
+    "service_functionality": "service functionality",
+    "service_improvement": "improve service or product",
+    "service_maintenance": "maintain service",
+    "service_optimization": "service optimization",
+    "service_provision": "product provision",
+    "targeted advertising": "advertising"
+   },
+   "parents": {
+    "AI training": [
+     "product development"
+    ],
+    "build, train, and improve the accuracy of our automated systems – such as AI": [
+     "product development"
+    ],
+    "develop_and_deploy_ai_features": [
+     "product development"
+    ],
+    "customer support": [
+     "support"
+    ],
+    "diagnose and resolve problems": [
+     "troubleshooting"
+    ],
+    "troubleshoot issues": [
+     "troubleshooting"
+    ],
+    "problem resolution": [
+     "troubleshooting"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention and credit risk reduction": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "authentication": [
+     "authentication and security"
+    ],
+    "authentication and security": [
+     "security"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "marketing": [
+     "marketing or advertising"
+    ],
+    "advertising": [
+     "marketing or advertising"
+    ],
+    "personalize the content of the communication": [
+     "personalization"
+    ],
+    "personalize-content-or-ads": [
+     "personalization"
+    ],
+    "user personalization": [
+     "personalization"
+    ],
+    "preferences": [
+     "preferences or personalization"
+    ],
+    "personalization": [
+     "preferences or personalization"
+    ],
+    "product activation": [
+     "service operation"
+    ],
+    "resolve disputes": [
+     "legal"
+    ],
+    "respond to legal process": [
+     "legal"
+    ],
+    "meet our contractual and legal obligations": [
+     "legal"
+    ],
+    "service maintenance and security": [
+     "security"
+    ],
+    "security of our products": [
+     "security"
+    ],
+    "security-and-safety": [
+     "security"
+    ],
+    "safety": [
+     "security-and-safety"
+    ],
+    "sweepstakes, contests, or promotions": [
+     "marketing"
+    ],
+    "deliver push notifications": [
+     "notifications"
+    ],
+    "notifications": [
+     "communication"
+    ],
+    "communicate with the customer": [
+     "communication"
+    ],
+    "improve location services": [
+     "improve service or product"
+    ],
+    "improve and develop our products and services": [
+     "improve service or product"
+    ],
+    "complete any transaction": [
+     "transaction processing"
+    ],
+    "fulfill the transactions you request": [
+     "transaction processing"
+    ],
+    "fulfill your purchases with us": [
+     "transaction processing"
+    ],
+    "warranty registration": [
+     "business operations"
+    ],
+    "operations": [
+     "business operations"
+    ],
+    "necessary operational purposes": [
+     "business operations"
+    ],
+    "provide any product you have requested or authorized": [
+     "product provision"
+    ],
+    "provide the products and services you use": [
+     "product provision"
+    ],
+    "provide the products you use": [
+     "product provision"
+    ],
+    "provide the product and business operations": [
+     "product provision"
+    ],
+    "user-requested service": [
+     "product provision"
+    ],
+    "debugging": [
+     "troubleshooting"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 11498,
+  "completion_tokens": 3064,
+  "thinking_tokens": 0,
+  "seconds": 37.84551453590393,
+  "failures": 0
+ },
+ "seconds": 38.1
+}

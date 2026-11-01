@@ -1,0 +1,428 @@
+{
+ "cleaned_sha256": "android-113",
+ "text_sha256": "ea0c6ec055b102ed6fa225f1f495930deec2a6881881e2771281565644233cd1",
+ "site_id": "android-113",
+ "sections": 8,
+ "rules": 161,
+ "report": {
+  "sections": 8,
+  "raw_rules": 141,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Calculate",
+      "verb": "calculate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "this Personal Information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use this Personal Information to:\nCalculate",
+     "purpose": [
+      {
+       "text": "to better understand our users",
+       "name": "analytics"
+      },
+      {
+       "text": "improve our Services, and develop new features",
+       "name": "service-optimization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "use this Personal Information to:\nCalculate"
+    ],
+    "section": "android-113#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "for the purposes described in this Privacy Notice",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "affiliate",
+      "text": "our subsidiaries"
+     },
+     "references": [
+      {
+       "text": "",
+       "name": "this Privacy Notice",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "for the purposes described in this Privacy Notice",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "affiliate",
+      "text": "affiliates"
+     },
+     "references": [
+      {
+       "text": "",
+       "name": "this Privacy Notice",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "only where it’s necessary to provide any of the Services to you (e.g., email providers, server providers, etc.)"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "service_provider",
+      "text": "third-party service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in connection with its AdSense for Platforms (AFP) program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "purpose": [],
+     "recipient": {
+      "name": "Google",
+      "text": "Google"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with its AdSense for Platforms (AFP) program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "purpose": [
+      {
+       "text": "to determine eligibility for the AFP program by Google in accordance with its\nPrivacy Policy",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "Google",
+      "text": "Google"
+     },
+     "references": [
+      {
+       "text": "",
+       "name": "Privacy Policy",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if required to do so by law or in the good-faith belief that such action is necessary to comply with applicable laws, in response to a court order, judicial or other government subpoena or warrant, or to otherwise cooperate with law enforcement or other governmental agencies"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "law_enforcement",
+      "text": "law enforcement"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if required to do so by law or in the good-faith belief that such action is necessary to comply with applicable laws, in response to a court order, judicial or other government subpoena or warrant, or to otherwise cooperate with law enforcement or other governmental agencies"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "government_agency",
+      "text": "other governmental agencies"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "that we believe, in good faith, is appropriate or necessary to (i) take precautions against liability, (ii) protect ourselves or others from fraudulent, abusive, or unlawful uses or activity, (iii) investigate and defend ourselves against any third-party claims or allegations, (iv) protect the security or integrity of our Services and any facilities or equipment used to make our Services available, or (v) protect our property or other legal rights, including to enforce our agreements, or the rights, property, or safety of others"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "reserve the right to disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if Wattpad is involved in a merger, acquisition, debt financing, asset sale, or similar transaction, as well as in the event of an insolvency, bankruptcy, or receivership in which information is transferred to one or more third parties as one of our business assets"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may also disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "affiliate",
+      "text": "our affiliated/related/parent companies"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-113#s5"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 45,
+  "completeness": {
+   "gaps": 238,
+   "gap_words": 2128
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 45,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 30221,
+  "completion_tokens": 24272,
+  "thinking_tokens": 0,
+  "seconds": 248.85113787651062,
+  "failures": 0
+ },
+ "seconds": 249.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

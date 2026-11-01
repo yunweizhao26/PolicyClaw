@@ -1,0 +1,302 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account log-in": "Account log-in",
+    "identifiers": "Identifiers",
+    "inferences": "Inferences",
+    "precise location": "Precise location",
+    "street address": "address",
+    "telephone number": "phone number",
+    "text messaging opt-in data": "Text messaging opt-in data",
+    "transaction history": "Transaction history",
+    "usage information": "usage"
+   },
+   "parents": {
+    "Precise location": [
+     "Location",
+     "sensitive personal information"
+    ],
+    "demographic information (age)": [
+     "age",
+     "demographic information"
+    ],
+    "age": [
+     "demographic information",
+     "protected classifications"
+    ],
+    "gender": [
+     "demographic information",
+     "protected classifications"
+    ],
+    "marital status": [
+     "demographic information",
+     "protected classifications"
+    ],
+    "ethnicity": [
+     "demographic information",
+     "protected classifications"
+    ],
+    "race": [
+     "demographic information",
+     "protected classifications"
+    ],
+    "household income": [
+     "demographic information"
+    ],
+    "driver’s license or state identification card number": [
+     "Identifiers",
+     "sensitive personal information"
+    ],
+    "passport number": [
+     "Identifiers",
+     "sensitive personal information"
+    ],
+    "social security number": [
+     "Identifiers",
+     "sensitive personal information"
+    ],
+    "email address": [
+     "Identifiers"
+    ],
+    "phone number": [
+     "Identifiers"
+    ],
+    "name": [
+     "Identifiers"
+    ],
+    "IP address": [
+     "Identifiers"
+    ],
+    "device identifiers": [
+     "Identifiers"
+    ],
+    "address": [
+     "Identifiers"
+    ],
+    "bank account number": [
+     "financial information",
+     "payment information"
+    ],
+    "credit card number": [
+     "credit or debit card number",
+     "financial information",
+     "payment information"
+    ],
+    "debit card number": [
+     "credit or debit card number",
+     "financial information",
+     "payment information"
+    ],
+    "credit or debit card number": [
+     "financial information",
+     "payment information"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "employment history": [
+     "employment",
+     "professional information"
+    ],
+    "employment records": [
+     "employment",
+     "professional information"
+    ],
+    "employment": [
+     "professional information"
+    ],
+    "sensitive personal information": [
+     "personal information"
+    ],
+    "personal information associated with your MySonic Rewards account": [
+     "personal information"
+    ],
+    "personal information of children under the age of 18": [
+     "personal information"
+    ],
+    "any data concerning those under the age of 18": [
+     "personal data"
+    ],
+    "account information": [
+     "personal information"
+    ],
+    "Account log-in": [
+     "sensitive personal information"
+    ],
+    "personal information": [
+     "information"
+    ],
+    "your personal information": [
+     "your information"
+    ],
+    "your inaccurate information": [
+     "your information"
+    ],
+    "information that we receive in-person": [
+     "information"
+    ],
+    "information we receive online": [
+     "information"
+    ],
+    "some information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "the multi-brand restaurant company Inspire Brands and our fellow brands within the Inspire family (Arby’s, Baskin-Robbins, Buffalo Wild Wings, Dunkin’, and Jimmy John’s), and any future fellow brands": "affiliates"
+   },
+   "parents": {
+    "advertising partners": [
+     "any third parties"
+    ],
+    "another business": [
+     "any third parties"
+    ],
+    "data analytics providers": [
+     "any third parties",
+     "service providers"
+    ],
+    "data brokers": [
+     "another business",
+     "any third parties"
+    ],
+    "loyalty program partners": [
+     "any third parties"
+    ],
+    "service providers": [
+     "any third parties"
+    ],
+    "social networks": [
+     "any third parties"
+    ],
+    "affiliates": [
+     "any third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "data analytics providers": [
+     "service providers",
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "social media platforms": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "us": "We",
+    "we": "We",
+    "you": "You",
+    "your franchise organization": "the franchisee"
+   },
+   "parents": {
+    "California consumers": [
+     "You"
+    ],
+    "SONIC’s websites, apps, emails, and advertisements": [
+     "We"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "for other purposes required by law": "as otherwise required by law",
+    "providing advertising and marketing services": "marketing, advertising, and related services",
+    "to administer our loyalty program": "provide our loyalty program",
+    "to process payments": "processing payments",
+    "to process your orders": "process your orders",
+    "to protect us, our stakeholders, and you": "to protect our company and its stakeholders (including you), for example by securing our systems, identifying fraud, and detecting fraudulent credit card purchases",
+    "to show you relevant and personalized advertisements (targeted advertising)": "for targeted advertising"
+   },
+   "parents": {
+    "communicate with you about our terms and policies": [
+     "to communicate with you"
+    ],
+    "send you our newsletter": [
+     "to communicate with you"
+    ],
+    "to notify you": [
+     "to communicate with you"
+    ],
+    "to respond to your inquiries": [
+     "to communicate with you"
+    ],
+    "customize our offerings": [
+     "to improve and customize our offerings"
+    ],
+    "deliver orders": [
+     "fulfilling and delivering orders",
+     "processing your purchases of or requests for products and services"
+    ],
+    "process your orders": [
+     "processing your purchases of or requests for products and services"
+    ],
+    "processing payments": [
+     "processing your purchases of or requests for products and services"
+    ],
+    "fulfilling and delivering orders": [
+     "processing your purchases of or requests for products and services"
+    ],
+    "to investigate potential fraud": [
+     "detecting, investigating, or protecting against wrongful, fraudulent, or otherwise illegal activity"
+    ],
+    "to respond to a court order, subpoena, or government agency or investigatory body request": [
+     "as otherwise required by law"
+    ],
+    "for targeted advertising": [
+     "marketing, advertising, and related services"
+    ],
+    "to present offers we think you may be interested in": [
+     "marketing, advertising, and related services"
+    ],
+    "to manage your participation in SONIC SMS marketing": [
+     "marketing, advertising, and related services"
+    ],
+    "auditing related to ad impressions": [
+     "marketing, advertising, and related services"
+    ],
+    "facilitating and measuring the effectiveness of advertisements and web searches": [
+     "marketing, advertising, and related services"
+    ],
+    "to understand user behavior such as assisting us to see what pages people visit on our sites": [
+     "analytics"
+    ],
+    "protecting against security and fraud": [
+     "protect our business"
+    ],
+    "to protect our company and its stakeholders (including you), for example by securing our systems, identifying fraud, and detecting fraudulent credit card purchases": [
+     "protect our business"
+    ],
+    "to protect ourselves": [
+     "protect our business"
+    ],
+    "ensuring security and integrity of your personal information": [
+     "protecting against security and fraud"
+    ],
+    "detecting, investigating, or protecting against wrongful, fraudulent, or otherwise illegal activity": [
+     "protecting against security and fraud"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 7158,
+  "completion_tokens": 2093,
+  "thinking_tokens": 0,
+  "seconds": 17.74545693397522,
+  "failures": 0
+ },
+ "seconds": 17.9
+}

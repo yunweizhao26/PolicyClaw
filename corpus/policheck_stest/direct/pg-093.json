@@ -1,0 +1,22 @@
+{
+ "policy": "pg-093",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "As is true of most Web sites, we automatically gather information about your computer and device such as your IP address, browser type, referring/exit pages, and operating system.",
+   "prohibit": "We do not request, collect, or access your location information.",
+   "situation": "A user visits the website, where their IP address (which reveals geographic location information) is automatically gathered.",
+   "reason": "The policy flatly denies collecting or accessing location information without qualifying whether IP-based location data is excluded or exempt.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1621,
+  "completion_tokens": 127,
+  "thinking_tokens": 0,
+  "seconds": 1.9850480556488037,
+  "failures": 0
+ }
+}

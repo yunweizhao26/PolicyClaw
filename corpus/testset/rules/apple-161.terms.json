@@ -1,0 +1,139 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "facial geometry": "face data",
+    "installed apps": "application identifier",
+    "user uploaded content": "user profile content"
+   },
+   "parents": {
+    "ad interaction": [
+     "preference data",
+     "user activity"
+    ],
+    "advertising identifier": [
+     "hardware device identifier",
+     "identifier"
+    ],
+    "card details": [
+     "payment data"
+    ],
+    "hardware device identifier": [
+     "identifier"
+    ],
+    "ip address": [
+     "identifier",
+     "technical information"
+    ],
+    "device characteristics": [
+     "technical information"
+    ],
+    "face data": [
+     "user profile content"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "payment data": [
+     "personal data"
+    ],
+    "surname": [
+     "invoice information",
+     "name"
+    ],
+    "name": [
+     "invoice information"
+    ],
+    "search query": [
+     "user inputs"
+    ],
+    "user prompt": [
+     "user inputs"
+    ],
+    "user profile content": [
+     "user inputs"
+    ],
+    "technical information": [
+     "user inputs"
+    ],
+    "user activity": [
+     "preference data"
+    ],
+    "app activity": [
+     "user activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "first party": [
+     "MWM Group"
+    ],
+    "consultant": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "partner"
+    ],
+    "analytics provider": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide-service-or-feature",
+    "service_improvement": "improve-service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "account administration": [
+     "provide-service-or-feature"
+    ],
+    "customer support": [
+     "provide-service-or-feature"
+    ],
+    "payment execution": [
+     "provide-service-or-feature"
+    ],
+    "verify-user-identity": [
+     "service-operation-and-security"
+    ],
+    "prevent-fraud": [
+     "service-operation-and-security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1821,
+  "completion_tokens": 568,
+  "thinking_tokens": 0,
+  "seconds": 6.820874214172363,
+  "failures": 0
+ },
+ "seconds": 6.9
+}

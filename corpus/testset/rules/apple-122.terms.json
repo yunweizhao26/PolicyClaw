@@ -1,0 +1,218 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "date of birth": "birth date",
+    "payment card number": "credit card number",
+    "personal information": "personal data",
+    "postal address": "billing and shipping address",
+    "pseudonymous personal data": "pseudonymized data"
+   },
+   "parents": {
+    "account data": [
+     "personal data"
+    ],
+    "app usage data": [
+     "data"
+    ],
+    "billing and shipping address": [
+     "contact details"
+    ],
+    "birth date": [
+     "personal data"
+    ],
+    "children data": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contextual information about your app usage": [
+     "app usage data"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "first name": [
+     "name"
+    ],
+    "general device location": [
+     "location data"
+    ],
+    "geographic coordinates": [
+     "location data"
+    ],
+    "last name": [
+     "name"
+    ],
+    "latitude": [
+     "geographic coordinates"
+    ],
+    "location": [
+     "location data"
+    ],
+    "location data": [
+     "personal data"
+    ],
+    "longitude": [
+     "geographic coordinates"
+    ],
+    "motion activity": [
+     "app usage data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "OS version": [
+     "device details"
+    ],
+    "other information about your device": [
+     "device information"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal information not held in your account": [
+     "personal data"
+    ],
+    "personal, directly identifiable account related information": [
+     "account data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "pseudonymized data": [
+     "data",
+     "personal data"
+    ],
+    "pseudonymized datasets including altered location data": [
+     "pseudonymized data"
+    ],
+    "pseudonymized unique push notification device identifier": [
+     "device identifier",
+     "pseudonymized data"
+    ],
+    "purchase history": [
+     "account data"
+    ],
+    "screens viewed": [
+     "app usage data"
+    ],
+    "searches made": [
+     "app usage data"
+    ],
+    "support requests": [
+     "user data"
+    ],
+    "taps": [
+     "app usage data"
+    ],
+    "transit modes enabled": [
+     "app usage data"
+    ],
+    "trips planned": [
+     "app usage data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user locations": [
+     "location data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "integration partner": [
+     "third party"
+    ],
+    "public transit providers": [
+     "third party",
+     "transit agency or shared mobility provider"
+    ],
+    "researchers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "transit agency or shared mobility provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "support": "customer support"
+   },
+   "parents": {
+    "debugging": [
+     "analytics or research"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "service delivery": [
+     "services"
+    ],
+    "account management": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1896,
+  "completion_tokens": 900,
+  "thinking_tokens": 0,
+  "seconds": 10.826089859008789,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

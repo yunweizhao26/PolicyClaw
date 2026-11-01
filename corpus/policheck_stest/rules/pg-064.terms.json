@@ -1,0 +1,243 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "personal information": "personal data",
+    "personally identifiable data": "personal data",
+    "unique identifier": "UID",
+    "user-id": "UID"
+   },
+   "parents": {
+    "_p_hfp_client_id": [
+     "cookie"
+    ],
+    "mp_d210c8e8b587f7b678df3c052dbe5ff1_mixpanel": [
+     "cookie"
+    ],
+    "app usage frequency": [
+     "app usage",
+     "app use"
+    ],
+    "app usage": [
+     "app use"
+    ],
+    "clicks": [
+     "browsing history"
+    ],
+    "clickstream": [
+     "browsing history"
+    ],
+    "email content": [
+     "communications",
+     "email"
+    ],
+    "email": [
+     "communications"
+    ],
+    "call audio": [
+     "communications"
+    ],
+    "email interaction": [
+     "interaction data"
+    ],
+    "in-app events": [
+     "app usage",
+     "app use"
+    ],
+    "user interface interactions": [
+     "interaction data",
+     "user interactions"
+    ],
+    "video preferences": [
+     "preferences"
+    ],
+    "video viewing activity": [
+     "browsing activity"
+    ],
+    "website performance data": [
+     "performance data"
+    ],
+    "ad performance": [
+     "performance data"
+    ],
+    "cognitive performance data": [
+     "performance data"
+    ],
+    "payment card number": [
+     "payment information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "session key": [
+     "UID"
+    ],
+    "random ID": [
+     "UID"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "screen size": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browser plugins": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "insurance company": "Insurance Companies"
+   },
+   "parents": {
+    "customer support representatives": [
+     "first party"
+    ],
+    "distribution partner": [
+     "third party"
+    ],
+    "Insurance Companies": [
+     "third party"
+    ],
+    "localization partner": [
+     "third party"
+    ],
+    "public authority": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social networks": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Cloudflare": [
+     "service provider"
+    ],
+    "CookieYes": [
+     "service provider"
+    ],
+    "Elfsight": [
+     "service provider"
+    ],
+    "Facebook": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "Google DoubleClick": [
+     "advertising network",
+     "third party"
+    ],
+    "Mixpanel": [
+     "service provider"
+    ],
+    "Scorecard Research": [
+     "third party"
+    ],
+    "Twitter": [
+     "third party"
+    ],
+    "Vimeo": [
+     "third party"
+    ],
+    "YouTube": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "insurance company": [
+     "third party"
+    ],
+    "localization partner": [
+     "partner organization",
+     "third party"
+    ],
+    "partner organization": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision",
+    "user experience enhancement": "service optimization"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "basic service functionality": [
+     "functionality",
+     "service provision"
+    ],
+    "register user": [
+     "account-management"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service performance evaluation": [
+     "analytics"
+    ],
+    "preferences": [
+     "personalization"
+    ],
+    "track success of referral program": [
+     "analytics"
+    ],
+    "transactional communication": [
+     "customer support"
+    ],
+    "verification": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2945,
+  "completion_tokens": 998,
+  "thinking_tokens": 0,
+  "seconds": 12.36481237411499,
+  "failures": 0
+ },
+ "seconds": 12.4
+}

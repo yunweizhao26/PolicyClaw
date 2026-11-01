@@ -1,0 +1,343 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "de-identified information": "de-identified data",
+    "internet and network activity information": "internet activity information",
+    "location data": "location",
+    "personal information": "personal data",
+    "precise geolocation data": "precise geolocation",
+    "precise location": "precise geolocation",
+    "sensitive personal information": "sensitive personal data",
+    "usage information": "usage data",
+    "web browser type": "browser type"
+   },
+   "parents": {
+    "account login credentials": [
+     "account information",
+     "login credentials"
+    ],
+    "ad engagement": [
+     "activity data"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifiers"
+    ],
+    "audio and video recordings": [
+     "audio data"
+    ],
+    "browser type": [
+     "browsing and device information"
+    ],
+    "browsing activity": [
+     "browsing information",
+     "internet activity information"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "browsing information",
+     "internet activity information"
+    ],
+    "contact info": [
+     "identifiers"
+    ],
+    "date of birth": [
+     "demographic information",
+     "protected classification"
+    ],
+    "delivery address": [
+     "contact info"
+    ],
+    "device ID": [
+     "device identifier",
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device manufacturer": [
+     "browsing and device information"
+    ],
+    "device type": [
+     "browsing and device information"
+    ],
+    "direct messages": [
+     "user content"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers"
+    ],
+    "gender": [
+     "demographic information",
+     "protected classification"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "image": [
+     "images"
+    ],
+    "images": [
+     "user content"
+    ],
+    "links clicked": [
+     "browsing activity",
+     "browsing information"
+    ],
+    "login credentials": [
+     "account information"
+    ],
+    "mobile carrier": [
+     "network information"
+    ],
+    "operating system": [
+     "browsing and device information"
+    ],
+    "pages viewed": [
+     "browsing activity",
+     "browsing information"
+    ],
+    "payment card information": [
+     "financial_data"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "purchase history": [
+     "commercial information",
+     "purchase and subscription data"
+    ],
+    "push notification token": [
+     "device identifier",
+     "identifiers"
+    ],
+    "search terms": [
+     "browsing activity",
+     "browsing information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "social media account information": [
+     "third-party account linking information"
+    ],
+    "social media handle": [
+     "identifiers"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "song play history": [
+     "usage data"
+    ],
+    "song plays": [
+     "usage data"
+    ],
+    "third-party messaging account information": [
+     "third-party account linking information"
+    ],
+    "time spent on pages or in mobile applications": [
+     "service usage",
+     "usage data"
+    ],
+    "user reactions": [
+     "user content"
+    ],
+    "username": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "ad network",
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "ad network": [
+     "advertising partners"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "arbitrators": [
+     "third parties"
+    ],
+    "artificial intelligence tools": [
+     "service provider"
+    ],
+    "co-sponsors": [
+     "sponsors"
+    ],
+    "court": [
+     "third parties"
+    ],
+    "data broker": [
+     "third parties"
+    ],
+    "investigators": [
+     "third parties"
+    ],
+    "investors": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "legal service provider": [
+     "advisor",
+     "service provider"
+    ],
+    "measurement partners": [
+     "advertising partners",
+     "business partners"
+    ],
+    "other users": [
+     "user"
+    ],
+    "safety and security partners": [
+     "service provider"
+    ],
+    "third parties operating, providing services for, and/or hosting such league or tournament": [
+     "third parties"
+    ],
+    "third party that owns, operates, or controls access to the premises on which the applicable jukebox is located": [
+     "third parties"
+    ],
+    "vendors": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "publicly available data": [
+     "publicly available sources"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "marketing partner": [
+     "third party"
+    ],
+    "third-party website": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "Google": [
+     "analytics provider",
+     "third-party analytics services"
+    ],
+    "advertising network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party",
+     "third-party providers"
+    ],
+    "third-party analytics services": [
+     "third party",
+     "third-party providers"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "third-party providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention": "fraud detection and prevention",
+    "operations": "operate our business",
+    "personalization": "content customization",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "content customization": [
+     "service provision"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "enhance the security and safety of the data we maintain": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "enforce terms": [
+     "legal compliance"
+    ],
+    "legal_compliance": [
+     "legal compliance"
+    ],
+    "legal-compliance": [
+     "legal compliance"
+    ],
+    "service maintenance": [
+     "service operation"
+    ],
+    "service performance": [
+     "service operation"
+    ],
+    "access control": [
+     "service provision"
+    ],
+    "service administration": [
+     "service operation"
+    ],
+    "product improvement": [
+     "service operation"
+    ],
+    "cross-device tracking": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4479,
+  "completion_tokens": 1931,
+  "thinking_tokens": 0,
+  "seconds": 18.067462921142578,
+  "failures": 0
+ },
+ "seconds": 18.2
+}

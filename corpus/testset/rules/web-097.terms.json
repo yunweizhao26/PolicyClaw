@@ -1,0 +1,58 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personally identifying information": "personal information"
+   },
+   "parents": {
+    "account activity": [
+     "personal information"
+    ],
+    "contact information": [
+     "personal information"
+    ],
+    "user ID": [
+     "personal information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "third-party analytics provider": [
+     "third party",
+     "third-party organizations"
+    ],
+    "third-party organizations": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third-party analytics provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {}
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1192,
+  "completion_tokens": 222,
+  "thinking_tokens": 0,
+  "seconds": 8.819478750228882,
+  "failures": 0
+ },
+ "seconds": 8.9
+}

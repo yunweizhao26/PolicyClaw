@@ -1,0 +1,124 @@
+{
+ "cleaned_sha256": "android-197",
+ "text_sha256": "704cd779b348e85fa9da710bf33bec0fc8a453ca6510bb36d416a9fd5446d184",
+ "site_id": "android-197",
+ "sections": 5,
+ "rules": 107,
+ "report": {
+  "sections": 5,
+  "raw_rules": 74,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not exchange",
+     "actor": {
+      "text": "Ridmik",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exchange",
+      "verb": "exchange"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "approved by you",
+      "With your consent, for example, when you authorize or agree us to share your information with other third parties for their own marketing purposes subject to their separate privacy policies"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not exchange"
+    ],
+    "section": "android-197#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not sell",
+     "actor": {
+      "text": "Ridmik",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "approved by you",
+      "With your consent, for example, when you authorize or agree us to share your information with other third parties for their own marketing purposes subject to their separate privacy policies"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not sell"
+    ],
+    "section": "android-197#s2"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 36,
+  "completeness": {
+   "gaps": 110,
+   "gap_words": 1341
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 36,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 9,
+  "cached": 0,
+  "prompt_tokens": 18310,
+  "completion_tokens": 15487,
+  "thinking_tokens": 0,
+  "seconds": 287.54562544822693,
+  "failures": 0
+ },
+ "seconds": 287.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "ad views and clicks": [
+     "usage data"
+    ],
+    "analytics": [
+     "usage data"
+    ],
+    "assessment data": [
+     "test results"
+    ],
+    "behavioral data": [
+     "usage data"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "delivery address": [
+     "contact info",
+     "payment details",
+     "postal address"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "government-issued id": [
+     "personal data"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal information records": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photo": [
+     "personal data"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "product usage data": [
+     "usage data"
+    ],
+    "survey response": [
+     "market research"
+    ],
+    "test results": [
+     "browsing and interaction data",
+     "product usage data"
+    ],
+    "user name": [
+     "personal data"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "user progress": [
+     "browsing and interaction data",
+     "product usage data"
+    ],
+    "video recording": [
+     "personal data"
+    ],
+    "voice audio": [
+     "browsing and interaction data"
+    ],
+    "voice audio recordings": [
+     "voice audio"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "government bodies": "government authorities"
+   },
+   "parents": {
+    "law enforcement": [
+     "government authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or reporting": "analytics",
+    "legal compliance": "compliance with legal obligations",
+    "service update": "service notifications",
+    "sweepstakes administration": "administer contest or sweepstakes",
+    "targeted advertising": "tailored advertising"
+   },
+   "parents": {
+    "ad analytics": [
+     "analytics"
+    ],
+    "deliver order": [
+     "service performance"
+    ],
+    "identity verification": [
+     "service provision",
+     "verification and admissions"
+    ],
+    "product recommendation": [
+     "marketing"
+    ],
+    "service development": [
+     "service improvement"
+    ],
+    "tailored advertising": [
+     "marketing"
+    ],
+    "user account management": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1989,
+  "completion_tokens": 758,
+  "thinking_tokens": 0,
+  "seconds": 8.102338790893555,
+  "failures": 0
+ },
+ "seconds": 8.2
+}

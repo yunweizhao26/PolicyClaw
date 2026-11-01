@@ -1,0 +1,26 @@
+Which rule does the policy apply?
+
+Each item shows two rules extracted from the same privacy policy: rule 1 permits a practice (ALLOW) and rule 2
+prohibits it (DENY). condition_predicate is the formula of each rule's condition; "[untranslated: ...]" is text the
+formula does not express, and "true" means no condition. The policy sections the rules came from follow the item.
+
+Consider a situation in which both rules could apply: the practice and the data they share, under circumstances in
+which the conditions of both rules hold, as far as the text allows. Read the sections and decide what the policy
+says happens in that situation. Label the item with exactly one of:
+- allow: the text permits the practice there, for example because rule 2 covers a narrower case that excludes this
+  situation, or because rule 1 states an exception to rule 2 that holds here.
+- deny: the text prohibits the practice there, for example because rule 2 carves a narrower case out of rule 1
+  (children, sensitive data, a user who opted out) or states a prohibition that rule 1's permission does not override.
+- no_overlap: according to the text, the two rules can never apply to the same situation, although their formulas
+  suggest they can.
+- contradiction: the text plainly says that the practice happens (or may happen) and that it does not, for the same
+  situation, and nothing in the text says which statement governs. Read literally, the two statements cannot both be
+  true there.
+- unresolved: both statements apply to the situation and the text does not say which governs, but the conflict
+  arises from general or vague wording rather than from two plainly opposite statements.
+- different_practice: the rules are about different practices (different data, recipient, purpose, or party), so no
+  situation falls under both.
+- extraction_error: one rule is not supported by the text, so the question does not arise.
+
+Also say which rule the text treats as the narrower one ("1", "2", or "neither"), quote the words of the text that
+decide the label, and give a reason of at most 40 words.

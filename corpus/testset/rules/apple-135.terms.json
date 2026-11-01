@@ -1,0 +1,186 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "coarse location": "Non-precise location data",
+    "customer proprietary network information": "CPNI",
+    "facial geometry": "Facial geometry",
+    "facial geometry data": "Facial geometry",
+    "inferences": "Inferences",
+    "information": "data",
+    "message and other user-generated content": "message and other user generated content",
+    "precise geolocation": "Precise geolocation data",
+    "sensitive personal data": "sensitive data",
+    "telecom data": "CPNI",
+    "user generated content": "message and other user generated content",
+    "user-generated content": "message and other user generated content"
+   },
+   "parents": {
+    "Facial geometry": [
+     "biometric data"
+    ],
+    "facial geometry scans": [
+     "Facial geometry"
+    ],
+    "Precise geolocation data": [
+     "location"
+    ],
+    "Non-precise location data": [
+     "location"
+    ],
+    "payment card information": [
+     "payment data"
+    ],
+    "driver license": [
+     "government ID",
+     "identity documents"
+    ],
+    "state ID": [
+     "government ID",
+     "identity documents"
+    ],
+    "driver license number": [
+     "government-issued identification number"
+    ],
+    "photos": [
+     "content"
+    ],
+    "videos": [
+     "content"
+    ],
+    "message": [
+     "communications"
+    ],
+    "messages": [
+     "communications"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "contact list": [
+     "personal data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "profile data": [
+     "account details"
+    ],
+    "browsing behavior": [
+     "online activities"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "linked third-party service": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party sources": "other sources"
+   },
+   "parents": {
+    "from you": [
+     "user"
+    ],
+    "other individuals": [
+     "user"
+    ],
+    "other sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "identity verification service": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud detection and prevention",
+    "identity verification": "authentication and authorization",
+    "marketing": "advertising and marketing",
+    "service-delivery": "service provision",
+    "targeted advertising": "advertising",
+    "to comply with our legal requirements, respond to emergencies, and protect our property and rights": "compliance"
+   },
+   "parents": {
+    "advertising": [
+     "advertising and marketing",
+     "research, development, analytics, or advertising and other lawful business purposes"
+    ],
+    "analytics": [
+     "research and development",
+     "research, development, analytics, or advertising and other lawful business purposes"
+    ],
+    "authentication and authorization": [
+     "fraud detection and prevention"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "safety": [
+     "compliance"
+    ],
+    "fraud detection and prevention": [
+     "compliance"
+    ],
+    "security": [
+     "compliance"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "maintenance": [
+     "service provision"
+    ],
+    "research and development": [
+     "research, development, analytics, or advertising and other lawful business purposes"
+    ],
+    "advertising and marketing": [
+     "research, development, analytics, or advertising and other lawful business purposes"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3067,
+  "completion_tokens": 1043,
+  "thinking_tokens": 0,
+  "seconds": 11.32799768447876,
+  "failures": 0
+ },
+ "seconds": 11.4
+}

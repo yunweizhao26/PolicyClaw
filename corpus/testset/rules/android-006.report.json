@@ -1,0 +1,111 @@
+{
+ "cleaned_sha256": "android-006",
+ "text_sha256": "729b24d4584697c26814298dc214db44b29f2fde992f9e06f71cf393c1c64223",
+ "site_id": "android-006",
+ "sections": 18,
+ "rules": 156,
+ "report": {
+  "sections": 18,
+  "raw_rules": 152,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "third-party bot developers",
+      "text": "They"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "should ask you for your permission before",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-006#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notified to",
+      "verb": "notify"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "Important changes made to this Privacy Policy",
+      "via Telegram"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-006#s16"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 87,
+  "completeness": {
+   "gaps": 300,
+   "gap_words": 2670
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 87,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 55852,
+  "completion_tokens": 26413,
+  "thinking_tokens": 0,
+  "seconds": 392.2367136478424,
+  "failures": 0
+ },
+ "seconds": 393.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

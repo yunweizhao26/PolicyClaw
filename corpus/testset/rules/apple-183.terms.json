@@ -1,0 +1,217 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising interaction information": "ad interaction data",
+    "application usage": "app usage data",
+    "application usage information": "app usage data",
+    "crash reports": "crash information",
+    "device identifiers": "device identifier",
+    "gameplay activity and progress": "gameplay activity",
+    "identifiers": "identifier",
+    "ip address": "IP address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "ad interaction data": [
+     "interaction data"
+    ],
+    "application version": [
+     "device information"
+    ],
+    "approximate location": [
+     "information"
+    ],
+    "children's personal information": [
+     "personal data"
+    ],
+    "complete payment card information": [
+     "payment data"
+    ],
+    "crash information": [
+     "diagnostic information"
+    ],
+    "customer support messages": [
+     "user-provided content"
+    ],
+    "device identifier": [
+     "device information",
+     "identifier"
+    ],
+    "device type and model": [
+     "device information"
+    ],
+    "diagnostic information": [
+     "performance and technical information"
+    ],
+    "gameplay activity": [
+     "gameplay details"
+    ],
+    "IP address": [
+     "device information",
+     "identifier"
+    ],
+    "language and regional settings": [
+     "device information"
+    ],
+    "mobile network information": [
+     "device information"
+    ],
+    "operating system and version": [
+     "device information"
+    ],
+    "payment data": [
+     "transaction-related information"
+    ],
+    "precise real-time GPS location information": [
+     "information"
+    ],
+    "session information": [
+     "interaction data"
+    ],
+    "user name": [
+     "identifier",
+     "identity"
+    ],
+    "user-provided content": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "analytics services": [
+     "service providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "authorized employees": [
+     "first party"
+    ],
+    "independent third-party service providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "fraud_detection": "fraud prevention",
+    "fraud_prevention": "fraud prevention",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "service-provision": "service provision",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision",
+    "troubleshooting": "debugging"
+   },
+   "parents": {
+    "advertising": [
+     "other"
+    ],
+    "analytics": [
+     "other",
+     "service operation and improvement",
+     "service-related purposes"
+    ],
+    "compliance": [
+     "other"
+    ],
+    "customer support": [
+     "other",
+     "service-related purposes"
+    ],
+    "debugging": [
+     "other",
+     "service operation and improvement",
+     "service-related purposes"
+    ],
+    "fraud prevention": [
+     "other",
+     "security"
+    ],
+    "fraud-detection": [
+     "fraud prevention",
+     "other",
+     "security"
+    ],
+    "localization": [
+     "other",
+     "service operation and improvement",
+     "service provision",
+     "service-related purposes"
+    ],
+    "perform duties": [
+     "other"
+    ],
+    "process refunds": [
+     "other",
+     "service provision",
+     "service-related purposes"
+    ],
+    "provide purchased content": [
+     "other",
+     "service provision",
+     "service-related purposes"
+    ],
+    "security": [
+     "other",
+     "service operation and improvement",
+     "service-related purposes"
+    ],
+    "service improvement": [
+     "other",
+     "service operation and improvement",
+     "service-related purposes"
+    ],
+    "service operation and improvement": [
+     "other"
+    ],
+    "service provision": [
+     "other",
+     "service operation and improvement",
+     "service-related purposes"
+    ],
+    "service-related purposes": [
+     "other"
+    ],
+    "verify purchases": [
+     "other",
+     "service provision",
+     "service-related purposes"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2023,
+  "completion_tokens": 1436,
+  "thinking_tokens": 0,
+  "seconds": 23.561729431152344,
+  "failures": 0
+ },
+ "seconds": 23.6
+}

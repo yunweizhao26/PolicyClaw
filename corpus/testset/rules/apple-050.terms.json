@@ -1,0 +1,84 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "creditworthiness information": "creditworthiness"
+   },
+   "parents": {
+    "account balances": [
+     "personal information"
+    ],
+    "account transactions": [
+     "financial transactions and experiences",
+     "personal information"
+    ],
+    "credit history": [
+     "creditworthiness",
+     "personal information"
+    ],
+    "creditworthiness": [
+     "personal information"
+    ],
+    "financial transactions and experiences": [
+     "personal information"
+    ],
+    "income": [
+     "creditworthiness",
+     "personal information"
+    ],
+    "insurance claim history": [
+     "personal information"
+    ],
+    "social security number": [
+     "personal information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "nonaffiliates"
+   },
+   "parents": {
+    "other financial companies": [
+     "nonaffiliates"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "legal": [
+     "operations"
+    ],
+    "service": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 999,
+  "completion_tokens": 311,
+  "thinking_tokens": 0,
+  "seconds": 7.606205701828003,
+  "failures": 0
+ },
+ "seconds": 7.7
+}

@@ -1,0 +1,244 @@
+{
+ "cleaned_sha256": "apple-092",
+ "text_sha256": "dd3a900841c5e1cc7d4d791ed7605dd33ffcb28e6c6c889cf4f98e7f4c5540a4",
+ "site_id": "apple-092",
+ "sections": 16,
+ "rules": 197,
+ "report": {
+  "sections": 16,
+  "raw_rules": 124,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "in order to fulfill our service commitment to you",
+       "name": "fulfillment of service commitment"
+      }
+     ],
+     "conditions": [
+      "inside and outside of the United States, including in countries that have privacy protections that may be less stringent than your jurisdiction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "inside and outside of the United States, including in countries that have privacy protections that may be less stringent than your jurisdiction"
+    ],
+    "section": "apple-092#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "store",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "in order to fulfill our service commitment to you",
+       "name": "fulfillment of service commitment"
+      }
+     ],
+     "conditions": [
+      "inside and outside of the United States, including in countries that have privacy protections that may be less stringent than your jurisdiction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "inside and outside of the United States, including in countries that have privacy protections that may be less stringent than your jurisdiction"
+    ],
+    "section": "apple-092#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "account information",
+      "name": "account details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "at any time by logging into your account or by submitting a request to the ParkMobile Help Center"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-092#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "that produces legal effects concerning you or significantly affects you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "right not to be subject to a decision based solely on automated processing, i.e., profiling"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right not to be subject to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-092#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "sensitive Personal Data",
+      "name": "sensitive data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "if you are a resident of Mexico the following will also apply to you"
+     ],
+     "exceptions": [
+      "to perform the services for which the information is collected"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "apple-092#s15"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 67,
+  "completeness": {
+   "gaps": 274,
+   "gap_words": 2941
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 67,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 51710,
+  "completion_tokens": 26535,
+  "thinking_tokens": 0,
+  "seconds": 450.91351437568665,
+  "failures": 0
+ },
+ "seconds": 451.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

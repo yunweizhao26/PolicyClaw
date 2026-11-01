@@ -1,0 +1,148 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "financial information": "financial details",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "preferred means of communication": "communication preferences"
+   },
+   "parents": {
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "email": [
+     "communications"
+    ],
+    "visited pages": [
+     "browsing activity"
+    ],
+    "visit time": [
+     "browsing activity"
+    ],
+    "browser version": [
+     "browsing activity"
+    ],
+    "donation details": [
+     "donation history"
+    ],
+    "salary": [
+     "financial details"
+    ],
+    "minors' personal information": [
+     "Personal Information"
+    ],
+    "sensitive personal data": [
+     "Personal Information"
+    ],
+    "public personal data": [
+     "Personal Information"
+    ],
+    "directory information": [
+     "Personal Information"
+    ],
+    "race or ethnicity": [
+     "demographic data",
+     "sensitive personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "unaffiliated third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social media platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Stanford"
+   },
+   "parents": {
+    "Faculty, staff and other Stanford affiliates": [
+     "Stanford"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "the purposes we described above": "other"
+   },
+   "parents": {
+    "administer service": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "dispute resolution": [
+     "legal remedies or defense"
+    ],
+    "enforcing terms or policies": [
+     "compliance"
+    ],
+    "infrastructure maintainance": [
+     "administer service"
+    ],
+    "marketing": [
+     "marketing or advertising"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "purposes described above, including as part of your application package for graduate or undergraduate admissions or financial aid opportunities": [
+     "other"
+    ],
+    "to fulfill a legitimate interest or another lawful basis for retaining the information beyond the period which is necessary, including a legal action": [
+     "compliance"
+    ],
+    "transaction": [
+     "service provision"
+    ],
+    "user authentication": [
+     "security",
+     "user-account-management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2424,
+  "completion_tokens": 784,
+  "thinking_tokens": 0,
+  "seconds": 10.977534532546997,
+  "failures": 0
+ },
+ "seconds": 11.1
+}

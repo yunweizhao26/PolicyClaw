@@ -1,0 +1,152 @@
+{
+ "cleaned_sha256": "android-003",
+ "text_sha256": "077d5593dd8c447b91cbc3cdc4df579ab8bd282cebe393751a15a1c41fdf437d",
+ "site_id": "android-003",
+ "sections": 9,
+ "rules": 168,
+ "report": {
+  "sections": 9,
+  "raw_rules": 154,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You can access"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-003#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "download",
+      "verb": "download"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You can",
+      "download your data from within the Snapchat app"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-003#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "most of your basic information, including account details (information about you, like your name, username, email address, birthday, and phone number)",
+      "name": "basic information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You can access"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-003#s1"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 269,
+   "gap_words": 2750
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 92,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 38002,
+  "completion_tokens": 28227,
+  "thinking_tokens": 0,
+  "seconds": 208.10375118255615,
+  "failures": 0
+ },
+ "seconds": 209.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

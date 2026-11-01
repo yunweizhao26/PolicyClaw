@@ -1,0 +1,198 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email-address": "email address",
+    "identifiers": "identifier",
+    "personal data": "Personal Information",
+    "personal identifiers": "identifier",
+    "personal information": "Personal Information",
+    "personal_identifiers": "identifier",
+    "professional and employment information": "employment_information",
+    "professional information": "employment_information",
+    "technical information": "technical data",
+    "telephone-number": "phone number",
+    "voice_recording": "audio recordings"
+   },
+   "parents": {
+    "contact details": [
+     "identifier"
+    ],
+    "date of birth": [
+     "Personal Information"
+    ],
+    "email address": [
+     "contact details",
+     "identifier"
+    ],
+    "job": [
+     "employment_information"
+    ],
+    "job title": [
+     "employment_information",
+     "job"
+    ],
+    "job_application_information": [
+     "Personal Information"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "passport number": [
+     "identifier"
+    ],
+    "phone call audio": [
+     "audio recordings"
+    ],
+    "phone number": [
+     "contact details",
+     "identifier"
+    ],
+    "purchases": [
+     "commercial information",
+     "commercial transaction information"
+    ],
+    "commercial transaction information": [
+     "commercial information"
+    ],
+    "sensitive personal data": [
+     "Personal Information"
+    ],
+    "training_records": [
+     "program participation and attendance information"
+    ],
+    "device_information": [
+     "technical data"
+    ],
+    "user content": [
+     "user_provided_content"
+    ],
+    "identifier": [
+     "Personal Information"
+    ],
+    "employment_information": [
+     "Personal Information"
+    ],
+    "Personal Information": [
+     "information"
+    ],
+    "technical data": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "AMD group of affiliates and subsidiaries"
+   },
+   "parents": {
+    "AMD group of affiliates and subsidiaries": [
+     "first party"
+    ],
+    "consultant": [
+     "service provider"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "distributors": [
+     "business_partners"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "selected third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "other_third_parties"
+   },
+   "parents": {
+    "child": [
+     "individual",
+     "user"
+    ],
+    "first-party storage": [
+     "first party"
+    ],
+    "third_party_sources": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "AMD"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_service": "customer support",
+    "legal-compliance": "legal compliance",
+    "order fulfillment": "fulfillment",
+    "order_fulfillment": "fulfillment",
+    "to provide products and services": "service provision",
+    "user_accounts": "account_management"
+   },
+   "parents": {
+    "audit our customers’ compliance with export restrictions": [
+     "compliance",
+     "legal compliance"
+    ],
+    "better understand how AMD Products operate and how they are used": [
+     "analytics"
+    ],
+    "improve and develop AMD Products": [
+     "product development",
+     "service_improvement"
+    ],
+    "improve product performance, reliability, and security": [
+     "service_improvement"
+    ],
+    "perform predictive analysis, diagnostics, health checks, and other usage intelligence for the purpose of assisting customers": [
+     "analytics",
+     "customer support"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "registration": [
+     "account_management"
+    ],
+    "support or carry out AMD support of products": [
+     "customer support"
+    ],
+    "to assess the failure": [
+     "troubleshoot AMD Product errors and remediate failures during the installation process"
+    ],
+    "troubleshoot AMD Product errors and remediate failures during the installation process": [
+     "customer support"
+    ],
+    "verify compliance and monitor systems and infrastructure performance to ensure the integrity, stability, and security of AMD products": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3216,
+  "completion_tokens": 1548,
+  "thinking_tokens": 0,
+  "seconds": 17.266890287399292,
+  "failures": 0
+ },
+ "seconds": 17.3
+}

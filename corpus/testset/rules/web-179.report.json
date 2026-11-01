@@ -1,0 +1,193 @@
+{
+ "cleaned_sha256": "web-179",
+ "text_sha256": "64ac2a4a57a191c5518dd25ecc21326f861fd387b0c40bd81fed4a66d3cad331",
+ "site_id": "web-179",
+ "sections": 18,
+ "rules": 319,
+ "report": {
+  "sections": 18,
+  "raw_rules": 228,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permit",
+     "actor": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use online tracking technologies",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for analytics and advertising",
+       "name": "analytics"
+      },
+      {
+       "text": "including to help manage and display advertisements",
+       "name": "advertising"
+      },
+      {
+       "text": "to tailor advertisements to your interests",
+       "name": "advertising"
+      },
+      {
+       "text": "to send abandoned shopping cart reminders",
+       "name": "marketing"
+      },
+      {
+       "text": "to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "on our Services",
+      "depending on your communication preferences"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-179#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permit",
+     "actor": {
+      "text": "service providers",
+      "name": "service provider"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use online tracking technologies",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for analytics and advertising",
+       "name": "analytics"
+      },
+      {
+       "text": "including to help manage and display advertisements",
+       "name": "advertising"
+      },
+      {
+       "text": "to tailor advertisements to your interests",
+       "name": "advertising"
+      },
+      {
+       "text": "to send abandoned shopping cart reminders",
+       "name": "marketing"
+      },
+      {
+       "text": "to provide advertising about products and services tailored to your interests which may appear either on our Services or on other websites",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "on our Services",
+      "depending on your communication preferences"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-179#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly ... market to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "children under 18 years of age",
+      "name": "children under 18"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "market to",
+      "verb": "market to"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-179#s13"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 109,
+  "completeness": {
+   "gaps": 243,
+   "gap_words": 2282
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 109,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 56684,
+  "completion_tokens": 48986,
+  "thinking_tokens": 0,
+  "seconds": 353.2115726470947,
+  "failures": 0
+ },
+ "seconds": 354.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

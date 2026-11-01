@@ -1,0 +1,229 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Personal Information": "PII",
+    "installed apps": "installed applications",
+    "payment information": "payment details",
+    "personal data": "PII",
+    "personal information": "PII",
+    "personally identifying information": "PII",
+    "user data": "information"
+   },
+   "parents": {
+    "GPS coordinates": [
+     "precise location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "area code": [
+     "location"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "credit card details": [
+     "payment card details"
+    ],
+    "payment card details": [
+     "payment details"
+    ],
+    "bank account details": [
+     "payment details"
+    ],
+    "credit card expiry date": [
+     "credit card details"
+    ],
+    "credit card number": [
+     "credit card details"
+    ],
+    "transaction ID": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "payment details"
+    ],
+    "receipts": [
+     "payment details"
+    ],
+    "browsing activity": [
+     "user activity"
+    ],
+    "browsing behavior": [
+     "user activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "search terms": [
+     "browsing activity"
+    ],
+    "referring URL": [
+     "browsing history"
+    ],
+    "gameplay data": [
+     "user activity"
+    ],
+    "content preferences": [
+     "account settings"
+    ],
+    "language preferences": [
+     "account settings"
+    ],
+    "communication preferences": [
+     "account settings"
+    ],
+    "service requests": [
+     "user_communication"
+    ],
+    "correspondence": [
+     "user_communication"
+    ],
+    "social media profile": [
+     "profile information"
+    ],
+    "name": [
+     "PII"
+    ],
+    "email address": [
+     "PII"
+    ],
+    "phone number": [
+     "PII"
+    ],
+    "government-issued identification": [
+     "PII"
+    ],
+    "unique customer ID": [
+     "PII"
+    ],
+    "password": [
+     "PII"
+    ],
+    "date of birth": [
+     "PII"
+    ],
+    "age": [
+     "PII"
+    ],
+    "gender": [
+     "PII"
+    ],
+    "profession": [
+     "PII"
+    ],
+    "PII": [
+     "information"
+    ],
+    "location": [
+     "information"
+    ],
+    "diagnostic information": [
+     "information"
+    ],
+    "user activity": [
+     "information"
+    ],
+    "user generated content": [
+     "information"
+    ],
+    "cookie": [
+     "information"
+    ],
+    "ad identifier": [
+     "information"
+    ],
+    "IP address": [
+     "information"
+    ],
+    "contact list": [
+     "information"
+    ],
+    "unspecified user data": [
+     "information"
+    ],
+    "private information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider"
+    ],
+    "other service provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "service provision": "providing services",
+    "service_communication": "service communication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention and enhancing safety",
+     "fraud_detection_or_enforcement"
+    ],
+    "fraud detection and prevention and enhancing safety": [
+     "fraud_detection_or_enforcement"
+    ],
+    "service provision and contract performance": [
+     "contractual_fulfillment",
+     "providing services"
+    ],
+    "service optimization": [
+     "service performance"
+    ],
+    "providing services": [
+     "service performance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3155,
+  "completion_tokens": 899,
+  "thinking_tokens": 0,
+  "seconds": 12.365431308746338,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

@@ -1,0 +1,179 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "bank account details": [
+     "financial information",
+     "personal data"
+    ],
+    "billing address": [
+     "financial information",
+     "postal address"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "activity on page": [
+     "browsing behavior"
+    ],
+    "navigation paths": [
+     "browsing behavior"
+    ],
+    "time spent on page": [
+     "browsing behavior"
+    ],
+    "duration of access": [
+     "session data"
+    ],
+    "access times": [
+     "session data"
+    ],
+    "email interaction": [
+     "engagement with marketing communications"
+    ],
+    "engagement with marketing communications": [
+     "communications"
+    ],
+    "voice recording": [
+     "call"
+    ],
+    "call": [
+     "communications"
+    ],
+    "first name": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "payment history": [
+     "financial information"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ],
+    "financial information": [
+     "information"
+    ],
+    "job application details": [
+     "information"
+    ],
+    "social media data": [
+     "information"
+    ],
+    "session data": [
+     "information"
+    ],
+    "coarse location": [
+     "information"
+    ],
+    "marketing preferences": [
+     "personal data"
+    ],
+    "ip address": [
+     "unique identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "business transferee": [
+     "third party"
+    ],
+    "professional advisor": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party advertising company": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising network": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-improvement": "improve service",
+    "service-operation": "service operations"
+   },
+   "parents": {
+    "interest-based advertising": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "training ai models": [
+     "ai technology processing"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "protection of rights": [
+     "legal compliance"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ],
+    "staff-training": [
+     "customer-service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2453,
+  "completion_tokens": 695,
+  "thinking_tokens": 0,
+  "seconds": 9.38953948020935,
+  "failures": 0
+ },
+ "seconds": 9.5
+}

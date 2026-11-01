@@ -1,0 +1,24 @@
+labels valid
+labels for 1300 of 1300 items
+
+== web: 400 rules from 200 policies; fidelity {'full': 280, 'minor': 75, 'substantial': 43, 'source_ambiguous': 2}
+   substantial 0.107 [0.077, 0.138]
+   substantial, share of all rules by fields wrong: {'condition fields only': '0.072', 'flow fields only': '0.020', 'flow and condition fields': '0.015'}
+   error types among substantial: {'hallucinated_condition': 19, 'missing_condition': 13, 'actor_entity_extraction': 8, 'condition_polarity': 5, 'data_type_extraction': 3, 'recipient_extraction': 2, 'operation_extraction': 2, 'other': 2, 'segmentation_context_loss': 1, 'referential_ambiguity': 1}
+
+== android: 400 rules from 200 policies; fidelity {'substantial': 50, 'minor': 78, 'full': 272}
+   substantial 0.125 [0.095, 0.158]
+   substantial, share of all rules by fields wrong: {'condition fields only': '0.085', 'flow fields only': '0.035', 'flow and condition fields': '0.005'}
+   error types among substantial: {'hallucinated_condition': 17, 'missing_condition': 16, 'actor_entity_extraction': 11, 'other': 8, 'operation_extraction': 5, 'condition_polarity': 3, 'segmentation_context_loss': 3, 'referential_ambiguity': 1}
+
+== apple: 400 rules from 200 policies; fidelity {'substantial': 52, 'full': 266, 'minor': 82}
+   substantial 0.130 [0.100, 0.163]
+   substantial, share of all rules by fields wrong: {'condition fields only': '0.077', 'flow and condition fields': '0.028', 'flow fields only': '0.025'}
+   error types among substantial: {'hallucinated_condition': 23, 'missing_condition': 16, 'referential_ambiguity': 6, 'other': 5, 'actor_entity_extraction': 5, 'condition_polarity': 5, 'recipient_extraction': 5, 'data_type_extraction': 4, 'segmentation_context_loss': 3, 'operation_extraction': 2}
+
+== all arms: 1200 rules from 600 policies; fidelity {'full': 818, 'minor': 235, 'substantial': 145, 'source_ambiguous': 2}
+   substantial 0.121 [0.102, 0.140]
+   substantial, share of all rules by fields wrong: {'condition fields only': '0.078', 'flow fields only': '0.027', 'flow and condition fields': '0.016'}
+   error types among substantial: {'hallucinated_condition': 59, 'missing_condition': 45, 'actor_entity_extraction': 24, 'other': 15, 'condition_polarity': 13, 'operation_extraction': 9, 'referential_ambiguity': 8, 'data_type_extraction': 7, 'recipient_extraction': 7, 'segmentation_context_loss': 7}
+
+E1 check (100 rules): exact agreement with the final labels 0.610; substantial rate final 0.340, this labeling 0.280; sensitivity 0.588 (34), specificity 0.879 (66)

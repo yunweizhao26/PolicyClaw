@@ -1,0 +1,135 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising ID",
+    "data": "Data",
+    "geographic location": "geo-location information",
+    "the Data": "Data",
+    "user name": "name",
+    "your Data": "Data"
+   },
+   "parents": {
+    "GPS location": [
+     "geo-location information"
+    ],
+    "IMEI": [
+     "device identifier"
+    ],
+    "MAC address": [
+     "device identifier"
+    ],
+    "advertising ID": [
+     "device identifier"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "health information": [
+     "special categories of data"
+    ],
+    "philosophical beliefs": [
+     "special categories of data"
+    ],
+    "political opinions": [
+     "special categories of data"
+    ],
+    "race": [
+     "special categories of data"
+    ],
+    "religion": [
+     "special categories of data"
+    ],
+    "sexual orientation": [
+     "special categories of data"
+    ],
+    "access and session times": [
+     "usage data"
+    ],
+    "ad interactions": [
+     "usage data"
+    ],
+    "application usage": [
+     "usage data"
+    ],
+    "applications present on the device or in use at a particular time on the device": [
+     "usage data"
+    ],
+    "log data": [
+     "usage data"
+    ],
+    "software session activity": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "third party advertising partner": [
+     "advertiser",
+     "third party"
+    ],
+    "affiliate": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Facebook profile": [
+     "social network"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Vivid Games"
+   },
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party advertising partner": [
+     "advertisers",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "services"
+    ],
+    "service operation": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1934,
+  "completion_tokens": 596,
+  "thinking_tokens": 0,
+  "seconds": 8.53773021697998,
+  "failures": 0
+ },
+ "seconds": 8.6
+}

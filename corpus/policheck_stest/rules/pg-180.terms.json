@@ -1,0 +1,95 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "country": [
+     "location"
+    ],
+    "check-ins": [
+     "app usage"
+    ],
+    "dislikes": [
+     "profile information",
+     "social network profile information"
+    ],
+    "likes": [
+     "profile information",
+     "social network profile information"
+    ],
+    "organizations and links on profile": [
+     "profile information",
+     "social network profile information"
+    ],
+    "profile picture": [
+     "profile information",
+     "social network profile information"
+    ],
+    "profile information": [
+     "social network profile information"
+    ],
+    "social network connections": [
+     "social network profile information"
+    ],
+    "social network identifier": [
+     "social network profile information",
+     "user identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children below the aforementioned age": "children"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "employee": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "customer support": [
+     "service provision"
+    ],
+    "maintenance": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1561,
+  "completion_tokens": 384,
+  "thinking_tokens": 0,
+  "seconds": 8.06085729598999,
+  "failures": 0
+ },
+ "seconds": 8.1
+}

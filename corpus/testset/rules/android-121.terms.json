@@ -1,0 +1,138 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email-address": "email address",
+    "payment details": "financial information",
+    "personal data": "PII",
+    "personal information": "PII",
+    "personally identifiable data": "PII",
+    "photos": "photo"
+   },
+   "parents": {
+    "email address": [
+     "contact information"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "contact list": [
+     "contact information"
+    ],
+    "photo": [
+     "files",
+     "user content"
+    ],
+    "support-query": [
+     "user content"
+    ],
+    "financial information": [
+     "PII",
+     "purchase history"
+    ],
+    "contact information": [
+     "PII",
+     "information"
+    ],
+    "location": [
+     "PII",
+     "information"
+    ],
+    "browsing behavior": [
+     "information"
+    ],
+    "call log": [
+     "information"
+    ],
+    "camera": [
+     "information"
+    ],
+    "files": [
+     "information"
+    ],
+    "hardware identifier": [
+     "information"
+    ],
+    "PII": [
+     "information"
+    ],
+    "purchase history": [
+     "information"
+    ],
+    "user content": [
+     "information"
+    ],
+    "user input": [
+     "information"
+    ],
+    "user-id": [
+     "information"
+    ],
+    "Wi-Fi network connection details": [
+     "information"
+    ],
+    "unspecified data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "competent authorities": [
+     "third party"
+    ],
+    "law enforcement": [
+     "competent authorities",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "first party": [
+     "anyone"
+    ],
+    "third party": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "service improvement"
+    ],
+    "user-experience": [
+     "service improvement"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1658,
+  "completion_tokens": 604,
+  "thinking_tokens": 0,
+  "seconds": 10.107049942016602,
+  "failures": 0
+ },
+ "seconds": 10.2
+}

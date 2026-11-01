@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "web-161",
+ "text_sha256": "4fc0c01b20b0398939b7b2dfb35a2811d8639a9462c0f61304414720256f3657",
+ "site_id": "web-161",
+ "sections": 5,
+ "rules": 96,
+ "report": {
+  "sections": 5,
+  "raw_rules": 87,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "third-party tools that place a multi-session cookie prior to the user interacting with the tool, for example by playing an embedded video"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-161#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 26,
+  "completeness": {
+   "gaps": 108,
+   "gap_words": 1269
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 26,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 9,
+  "cached": 0,
+  "prompt_tokens": 17841,
+  "completion_tokens": 14817,
+  "thinking_tokens": 0,
+  "seconds": 96.26633286476135,
+  "failures": 0
+ },
+ "seconds": 96.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

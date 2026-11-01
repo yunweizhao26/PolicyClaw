@@ -1,0 +1,136 @@
+{
+ "cleaned_sha256": "apple-011",
+ "text_sha256": "4c9d1da1bdef27ceb3704104c3315a0aa3699fd88f07d5657496b1d9201a56e3",
+ "site_id": "apple-011",
+ "sections": 7,
+ "rules": 130,
+ "report": {
+  "sections": 7,
+  "raw_rules": 129,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request access to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [
+      "to the extent required by applicable law",
+      "If you wish to do any of these things, you may go to Data Privacy Queries"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as required by applicable law"
+    ],
+    "section": "apple-011#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "to the extent required by applicable law",
+      "If you wish to do any of these things, you may go to Data Privacy Queries"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as required by applicable law"
+    ],
+    "section": "apple-011#s4"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 35,
+  "completeness": {
+   "gaps": 197,
+   "gap_words": 1843
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 35,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 26984,
+  "completion_tokens": 23085,
+  "thinking_tokens": 0,
+  "seconds": 385.42529106140137,
+  "failures": 0
+ },
+ "seconds": 385.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

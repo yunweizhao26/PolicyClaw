@@ -1,0 +1,1903 @@
+{
+ "cleaned_sha256": "apple-021",
+ "text_sha256": "5ad0cb393199d67b299f1cc12c8205bfa09307a888e32cdacd5e63fadf4a1ade",
+ "site_id": "apple-021",
+ "sections": 16,
+ "rules": 242,
+ "report": {
+  "sections": 16,
+  "raw_rules": 204,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "approximate",
+      "verb": "approximate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "location",
+      "text": "your location"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'derivation'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": "your IP address"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "approximate",
+      "verb": "approximate"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our third-party partners and service providers"
+     },
+     "conditions": [],
+     "data": {
+      "name": "location",
+      "text": "your location"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'derivation'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": "your IP address"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "ip address",
+      "text": "your IP address"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "ip address",
+      "text": "your IP address"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "browser type",
+      "text": "browser type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "browser type",
+      "text": "browser type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "isp",
+      "text": "internet service provider"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "isp",
+      "text": "internet service provider"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "platform type",
+      "text": "platform type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "platform type",
+      "text": "platform type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "hardware model",
+      "text": "device type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "hardware model",
+      "text": "device type"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "operating system",
+      "text": "operating system"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "operating system",
+      "text": "operating system"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "date and time of visit",
+      "text": "date and time stamp"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "date and time of visit",
+      "text": "date and time stamp"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "device identifier",
+      "text": "a unique device or account ID"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "device identifier",
+      "text": "a unique device or account ID"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "usage data",
+      "text": "usage information"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "some of our service providers and third-party partners"
+     },
+     "conditions": [
+      "automatically",
+      "when you use our Services or interact with our emails"
+     ],
+     "data": {
+      "name": "usage data",
+      "text": "usage information"
+     },
+     "exceptions": [
+      "disable cookies"
+     ],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "also use technologies, including cookies and web beacons and software development kits (“SDKs”), to automatically collect",
+     "purpose": [],
+     "references": [
+      {
+       "text": "Your Controls",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "infer",
+      "verb": "infer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "profile information",
+      "text": "additional information about you"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'profiling'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": "the information you provide, or from your interactions with our Services"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "extract",
+      "verb": "extract"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "biometric data",
+      "text": "facial geometry data"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "extract",
+     "purpose": [
+      {
+       "text": "to verify your identity",
+       "name": "identity verification"
+      },
+      {
+       "text": "detect/prevent fraud",
+       "name": "fraud prevention"
+      }
+     ],
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": "selfies/photographs/videos"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "name",
+      "text": "name"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "business partner",
+      "text": "companies that we do business with"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "contact details",
+      "text": "contact data"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "business partner",
+      "text": "companies that we do business with"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "inferred personal characteristics",
+      "text": "inferences about your preferences and attributes"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "business partner",
+      "text": "companies that we do business with"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "fraud risk score",
+      "text": "inferred fraud risk"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "business partner",
+      "text": "identity verification and fraud prevention partners"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "financial information",
+      "text": "financial account information about you"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "third parties, such as your financial institutions"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "the third-party service"
+     },
+     "conditions": [
+      "If you link, connect, or log in to your Robinhood Account with a third-party service (e.g., Google, Apple, or a third-party artificial intelligence (AI) agent)",
+      "controlled by that service or as authorized by you via your privacy settings at that service"
+     ],
+     "data": {
+      "name": "profile information",
+      "text": "information such as your profile information from that service"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'disclosure by transmission'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may send",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "advertising data",
+      "text": "information in connection with our ad campaigns that surface on other platforms, such as the ads you click on and other interactions with our ads"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are in another user’s contact list and they choose to disclose that list with us"
+     ],
+     "data": {
+      "name": "contact details",
+      "text": "the contact information"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'processing'}",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are in another user’s contact list and they choose to disclose that list with us",
+      "in the event of a referral"
+     ],
+     "data": {
+      "name": "user connection",
+      "text": "your association with that user"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'processing'}",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "credit information",
+      "text": "credit-related information about you"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "third parties, such as credit bureaus"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "if you apply for a credit card with Robinhood"
+     ],
+     "data": {
+      "name": "credit history",
+      "text": "your credit history"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "credit bureau",
+      "text": "credit bureaus and other partners"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "if you apply for a credit card with Robinhood"
+     ],
+     "data": {
+      "name": "credit score",
+      "text": "credit scores"
+     },
+     "exceptions": [],
+     "operation": "{'name': 'collection'}",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "references": [],
+     "source": {
+      "name": "credit bureau",
+      "text": "credit bureaus and other partners"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rights to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Additional US State Privacy Rights",
+      "Residents of some states may have rights with respect to their personal information, such as rights to access, delete, or correct such information and to opt out of certain processing activities"
+     ],
+     "exceptions": [
+      "where personal information is governed instead by federal financial privacy laws, such as the GLBA",
+      "some or all of your information may be exempt from certain state privacy laws, such as the California Consumer Privacy Act (CCPA), because it is governed by federal financial privacy laws like the Gramm-Leach-Bliley Act (GLBA)"
+     ],
+     "references": [
+      {
+       "text": "GLBA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "federal financial privacy laws, such as the GLBA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "California Consumer Privacy Act (CCPA)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Gramm-Leach-Bliley Act (GLBA)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-021#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in accordance with your settings"
+     ],
+     "data": {
+      "name": "user-generated content",
+      "text": "your shared content"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Display your shared content and selected profile information to other Users in accordance with your settings",
+       "name": "service operation or improvement"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "other Users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Display your shared content and selected profile information to other Users in accordance with your settings"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in accordance with your settings"
+     ],
+     "data": {
+      "name": "user profile",
+      "text": "selected profile information"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Display your shared content and selected profile information to other Users in accordance with your settings",
+       "name": "service operation or improvement"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "other Users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Display your shared content and selected profile information to other Users in accordance with your settings"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Generate and display trading-related posts or profile statistics",
+       "name": "service operation or improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Generate and display trading-related posts or profile statistics"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Personalize the order and selection of content shown in your feed, including through machine learning models that use recent activity signals",
+       "name": "personalization or customization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Personalize the order and selection of content shown in your feed, including through machine learning models that use recent activity signals"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Enforce our Terms and App Use Standards, including content moderation, fraud prevention, and abuse detection",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Terms",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "App Use Standards",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Enforce our Terms and App Use Standards, including content moderation, fraud prevention, and abuse detection"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Conduct eligibility checks at onboarding and on an ongoing basis to determine continued access to Social",
+       "name": "service operation or improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Conduct eligibility checks at onboarding and on an ongoing basis to determine continued access to Social"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Comply with legal and regulatory obligations, including restrictions applicable to licensed users, insiders, associated persons, and other restricted categories of Users",
+       "name": "compliance or legal legal obligation"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Comply with legal and regulatory obligations, including restrictions applicable to licensed users, insiders, associated persons, and other restricted categories of Users"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information collected in connection with Social"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Improve and develop Social features and related Services",
+       "name": "service operation or improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Improve and develop Social features and related Services"
+    ],
+    "section": "apple-021#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "use",
+     "data": {
+      "name": "identifiers",
+      "text": "Identifiers (e.g., real name, alias, postal address, unique personal identifier, online identifier, IP address, email address, account name)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To provide Social",
+       "name": "service provision"
+      },
+      {
+       "text": "to provide customer support",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "use",
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial Information\n(e.g., records of products or services purchased, obtained, or considered, or other purchasing histories)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To provide Social",
+       "name": "service provision"
+      },
+      {
+       "text": "to verify transaction for sharing on Social",
+       "name": "verification"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "collection",
+     "data": {
+      "name": "social content",
+      "text": "Social Content\n(e.g., your commentary on a trade, comments or reactions to other users’ posts)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "You provide this information directly when you use Robinhood Social"
+     },
+     "purpose": [],
+     "conditions": [
+      "when you use Robinhood Social"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "use",
+     "data": {
+      "name": "social content",
+      "text": "Social Content\n(e.g., your commentary on a trade, comments or reactions to other users’ posts)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To provide Social",
+       "name": "service provision"
+      },
+      {
+       "text": "to personalize the order in which we show you other users’ posts",
+       "name": "personalization"
+      },
+      {
+       "text": "to monitor for fraud or violations of Terms of Use",
+       "name": "fraud prevention and security"
+      },
+      {
+       "text": "to communicate with you about products and offers",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "use",
+     "data": {
+      "name": "usage data",
+      "text": "Usage data or other similar network activity\n(e.g., interactions with the app, search history within the app)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To provide Social",
+       "name": "service provision"
+      },
+      {
+       "text": "to personalize the order in which we show you other users’ posts",
+       "name": "personalization"
+      },
+      {
+       "text": "to communicate with you about products and offers",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "",
+      "name_text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "operation": "use",
+     "data": {
+      "name": "inferences",
+      "text": "Inferences drawn from other personal information\n(e.g., profiles reflecting preferences, characteristics, behavior, attitudes)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To provide Social",
+       "name": "service provision"
+      },
+      {
+       "text": "to personalize the order in which we show you other users’ posts",
+       "name": "personalization"
+      },
+      {
+       "text": "to communicate with you about products and offers",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-021#s14"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 245,
+   "gap_words": 2311
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 79,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 53588,
+  "completion_tokens": 44359,
+  "thinking_tokens": 0,
+  "seconds": 690.3675291538239,
+  "failures": 0
+ },
+ "seconds": 691.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "web-135",
+ "text_sha256": "dcb1a68e131b6d8817a4d86ac9d4956b594ee92108216753d23e8c0c8bc00670",
+ "site_id": "web-135",
+ "sections": 30,
+ "rules": 312,
+ "report": {
+  "sections": 30,
+  "raw_rules": 262,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [],
+     "recipient": {
+      "name": "licensee",
+      "text": "third parties that license our Editorial Content"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-135#s10"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 110,
+  "completeness": {
+   "gaps": 695,
+   "gap_words": 6392
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 110,
+  "compile_failures": 2,
+  "fixed_structurally": 2,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 52,
+  "cached": 1,
+  "prompt_tokens": 95980,
+  "completion_tokens": 57209,
+  "thinking_tokens": 0,
+  "seconds": 546.1078610420227,
+  "failures": 0
+ },
+ "seconds": 548.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,20 @@
+A user or auditor asks about one privacy policy. Convert the scenario into a structured query over the policy's vocabulary.
+
+Terms used in the policy's rules:
+{vocab}
+
+Condition variables used in the policy's rules, with example source text:
+{variables}
+
+Scenario: {scenario}
+
+Return only JSON:
+{{"flow": {{"actor": TERM, "verb": VERB, "operation": OPERATION, "data": TERM, "recipient": TERM or "", "source": TERM or "", "purpose": TERM or ""}},
+ "covers": {{"actor": [...], "action": [...], "data": [...], "recipient": [...], "source": [...], "purpose": [...]}},
+ "facts": [FORMULA, ...]}}
+- flow: short terms for the scenario's own actor, data, recipient, source (where the data comes from, if the scenario says), and purpose. The actor is "first party" when the company acts. VERB is the base form of the verb that names the action. OPERATION is the most specific operation of this tree that the scenario supports, written exactly as named here:
+{operations}
+- covers: for each slot, every policy term listed above whose meaning equals or includes the scenario's term. Use an empty list when no policy term covers it.
+- facts: what the scenario text states about the context, as formulas over the condition variables above or these variables:
+{standard}
+  Reuse the policy's variable names when they mean the same thing. Syntax: {{"op": "bool", "var": NAME}}, {{"op": "not", "arg": FORMULA}}, {{"op": "cmp", "var": NAME, "cmp": "==", "value": INTEGER}}, {{"op": "eq", "var": NAME, "value": STRING}}. Take facts only from the scenario text. The example source text above shows how the policy uses each variable and is not part of the scenario.

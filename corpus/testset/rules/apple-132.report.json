@@ -1,0 +1,472 @@
+{
+ "cleaned_sha256": "apple-132",
+ "text_sha256": "ba983951c1784c14755ba242c16fb353982bdaac04d52c85543274f98cd100c6",
+ "site_id": "apple-132",
+ "sections": 32,
+ "rules": 863,
+ "report": {
+  "sections": 32,
+  "raw_rules": 599,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in public-facing posts or replies"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "apple-132#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "only as necessary, such as to complete a transaction or to provide a Product or Service you have requested or authorized",
+      "only with vendors or agents working on our behalf",
+      "for the purpose of performing services on behalf and under the instructions of Sonos",
+      "in accordance with this Statement",
+      "It is our legitimate interest to share information with these parties for these purposes"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "only share",
+     "purpose": [
+      {
+       "text": "to carry out services like website management and hosting, cloud-related services, online Sonos Product purchases and shipping (including fulfilling orders for Products or Services, delivering packages, sending postal mail and email), credit cards and other alternative payment processing, email communications, analysing data, providing marketing assistance, transmitting content, if applicable scoring credit risk, and providing customer service",
+       "name": "carry out services like website management and hosting, cloud-related services, online Sonos Product purchases and shipping (including fulfilling orders for Products or Services, delivering packages, sending postal mail and email), credit cards and other alternative payment processing, email communications, analysing data, providing marketing assistance, transmitting content, if applicable scoring credit risk, and providing customer service"
+      },
+      {
+       "text": "to complete a transaction or to provide a Product or Service you have requested or authorized",
+       "name": "complete a transaction or to provide a Product or Service you have requested or authorized"
+      },
+      {
+       "text": "for the purpose of performing services on behalf and under the instructions of Sonos",
+       "name": "performing services on behalf and under the instructions of Sonos"
+      }
+     ],
+     "recipient": {
+      "name": "third-party vendors",
+      "text": "third-party vendors"
+     },
+     "references": [
+      {
+       "text": "this Statement",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only as necessary, such as to complete a transaction or to provide a Product or Service you have requested or authorized"
+    ],
+    "section": "apple-132#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will only process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Statement",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-132#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "CO, CT, MD, NE, NJ, UT, TX, VA Residents",
+      "request to access such data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-132#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "engages in",
+     "actor": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "set",
+      "verb": "set"
+     },
+     "operation": "recording",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "through cookies",
+      "under VA, CO, CT, MD, TX, NE, NJ, and UT state laws"
+     ],
+     "exceptions": [
+      "disable sharing through cookies set by third parties that may be considered targeted advertising under such laws, adjust your settings by navigating to the footer of our website and clicking “Your Privacy Choices”"
+     ],
+     "references": [
+      {
+       "text": "VA, CO, CT, MD, TX, NE, NJ, and UT state laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Our Use of Cookies, Pixels, and Other Similar Technologies section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-132#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sharing",
+     "actor": {
+      "text": "Sonos",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "through cookies set by third parties that may be considered targeted advertising under such laws"
+     ],
+     "exceptions": [
+      "To disable sharing through cookies set by third parties that may be considered targeted advertising under such laws, adjust your settings by navigating to the footer of our website and clicking “Your Privacy Choices”"
+     ],
+     "references": [
+      {
+       "text": "VA, CO, CT, MD, TX, NE, NJ, and UT state laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Our Use of Cookies, Pixels, and Other Similar Technologies section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-132#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensitive personal information",
+      "text": "sensitive personal information covered by this notice"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "purpose": [
+      {
+       "text": "purposes other than those specified above to perform the Services or provide goods reasonably expected by you",
+       "name": "services"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as defined in the CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "apple-132#s26"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "China Addendum",
+      "For Users of Sonos Products and Services in China",
+      "This section applies to you if you use Sonos products and services (including Sonos app) and reside in China"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Additional Usage Data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to deliver functionality",
+       "name": "basic function"
+      },
+      {
+       "text": "to improve your experience with Sonos Products",
+       "name": "service improvement"
+      },
+      {
+       "text": "to offer better, personalized Sonos Products and Services",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to improve your experience with Sonos Products"
+    ],
+    "section": "apple-132#s30"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only retain",
+     "actor": {
+      "text": "Sonos",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to fulfil the purposes as stated in this Statement",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "only for as long as necessary to fulfil the purposes as stated in this Statement"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Statement",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as necessary to fulfil the purposes as stated in this Statement"
+    ],
+    "section": "apple-132#s31"
+   }
+  ],
+  "residual_quotes": 59,
+  "quotes": 278,
+  "completeness": {
+   "gaps": 785,
+   "gap_words": 8598
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 86,
+  "translated_quotes": 278,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 68,
+  "cached": 0,
+  "prompt_tokens": 136435,
+  "completion_tokens": 131482,
+  "thinking_tokens": 0,
+  "seconds": 1561.1613931655884,
+  "failures": 0
+ },
+ "seconds": 1564.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

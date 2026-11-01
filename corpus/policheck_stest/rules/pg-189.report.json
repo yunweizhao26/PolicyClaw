@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "pg-189",
+ "text_sha256": "9fa8d9c3c867a2abfe351b09c1baef6f2741bdc7ad83d643ddf40f2b081f1071",
+ "site_id": "pg-189",
+ "sections": 3,
+ "rules": 60,
+ "report": {
+  "sections": 3,
+  "raw_rules": 49,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to",
+     "actor": {
+      "text": "our company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Based on Japanese law, or the law applicable to each user",
+      "If users wish to exercise their various rights related to the collected information or make various requests or inquiries, they may contact us through the following method. Upon confirming the content of the communication our company will respond appropriately"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Japanese law, or the law applicable to each user",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-189#s2"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 21,
+  "completeness": {
+   "gaps": 50,
+   "gap_words": 516
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 21,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 6,
+  "cached": 0,
+  "prompt_tokens": 11147,
+  "completion_tokens": 8168,
+  "thinking_tokens": 0,
+  "seconds": 54.33349132537842,
+  "failures": 0
+ },
+ "seconds": 54.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

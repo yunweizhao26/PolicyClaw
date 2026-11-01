@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "web-129",
+ "text_sha256": "45231b655ec9ac053ff84082394f1c3c7e0d476b99d6638e581607d338aaaa9e",
+ "site_id": "web-129",
+ "sections": 15,
+ "rules": 199,
+ "report": {
+  "sections": 15,
+  "raw_rules": 147,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "reach out",
+      "verb": "reach out"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you apply for or express interest in our influencer program"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may reach out",
+     "purpose": [
+      {
+       "text": "about potential marketing opportunities",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-129#s4"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 149,
+   "gap_words": 1625
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 82,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 50489,
+  "completion_tokens": 37189,
+  "thinking_tokens": 0,
+  "seconds": 339.5033075809479,
+  "failures": 0
+ },
+ "seconds": 340.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

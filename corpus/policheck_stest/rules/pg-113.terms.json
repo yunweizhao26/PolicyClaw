@@ -1,0 +1,315 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "aggregated or non-personally identifiable information": "aggregated data",
+    "contact information": "contact info",
+    "device information": "device details",
+    "ip address": "IP address",
+    "isp": "ISP",
+    "personal information": "personal data",
+    "registration information": "registration data",
+    "service use details": "service usage",
+    "travel information": "travel details",
+    "unique device identifier": "device identifier",
+    "user_materials": "user materials",
+    "vehicle information": "vehicle details"
+   },
+   "parents": {
+    "coarse location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "idfa": [
+     "advertising identifier"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "address",
+     "contact info"
+    ],
+    "address": [
+     "contact info"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "password": [
+     "account information"
+    ],
+    "payment card information": [
+     "payment data"
+    ],
+    "payment data": [
+     "transaction details"
+    ],
+    "third-party cookies": [
+     "cookies"
+    ],
+    "communication preferences": [
+     "communication and content preferences",
+     "preferences"
+    ],
+    "favorite member stations": [
+     "preferences"
+    ],
+    "listening data": [
+     "consumption data",
+     "usage data"
+    ],
+    "consumption data": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "email interaction": [
+     "usage data"
+    ],
+    "search terms": [
+     "interaction details"
+    ],
+    "interaction details": [
+     "interactions with our services"
+    ],
+    "interactions with our services": [
+     "service usage"
+    ],
+    "usage data": [
+     "service usage"
+    ],
+    "device details": [
+     "device information and service usage"
+    ],
+    "service usage": [
+     "device information and service usage"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "ISP": [
+     "device details"
+    ],
+    "donations": [
+     "donation activity"
+    ],
+    "donation activity": [
+     "donation information"
+    ],
+    "user materials": [
+     "user submissions"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "member stations": "member station",
+    "service providers": "service provider",
+    "the United States and other jurisdictions where we, our service providers, or vendors we work with operate": "the United States and in other jurisdictions where we, our service providers, or vendors operate",
+    "vendors": "vendor"
+   },
+   "parents": {
+    "Google": [
+     "service provider",
+     "sponsorship vendor",
+     "vendor"
+    ],
+    "newsletter sponsorship vendor": [
+     "sponsorship vendor",
+     "vendor"
+    ],
+    "sponsorship vendor": [
+     "service provider",
+     "vendor"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "authorized third-party applications": [
+     "third-party application"
+    ],
+    "third-party application": [
+     "third party"
+    ],
+    "advertising platforms": [
+     "third party"
+    ],
+    "friend": [
+     "persons contacted on your behalf"
+    ],
+    "member station": [
+     "NPR Network"
+    ],
+    "licensees of member stations": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "first party application": [
+     "first party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "NPR",
+    "member stations": "member station",
+    "vendors": "vendor"
+   },
+   "parents": {
+    "Google Universal Analytics": [
+     "Google",
+     "third party"
+    ],
+    "authorized vendor": [
+     "third party",
+     "vendor"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "member station": [
+     "third party"
+    ],
+    "licensees of member stations": [
+     "third party"
+    ],
+    "automobile manufacturer": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "third-party developers": [
+     "third party"
+    ],
+    "wireless carrier": [
+     "third party"
+    ],
+    "Bitly": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "ad-serving": [
+     "advertising"
+    ],
+    "ad-targeting": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "enforce terms": [
+     "legal compliance"
+    ],
+    "law enforcement": [
+     "legal compliance"
+    ],
+    "protection of rights": [
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "tailored advertising": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "user-identification": [
+     "tracking"
+    ],
+    "service-improvement": [
+     "manage_service",
+     "service provision"
+    ],
+    "service-operation": [
+     "manage_service",
+     "service provision"
+    ],
+    "manage_service": [
+     "service provision"
+    ],
+    "provide_service": [
+     "service provision"
+    ],
+    "content_delivery": [
+     "service provision"
+    ],
+    "fulfilment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4033,
+  "completion_tokens": 1399,
+  "thinking_tokens": 0,
+  "seconds": 31.932608127593994,
+  "failures": 0
+ },
+ "seconds": 32.0
+}

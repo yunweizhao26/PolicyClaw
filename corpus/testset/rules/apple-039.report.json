@@ -1,0 +1,221 @@
+{
+ "cleaned_sha256": "apple-039",
+ "text_sha256": "0808c33d71d1bde0d0a0891bc8e68fafdaf06b17a74a139bbb82a61c6b22d780",
+ "site_id": "apple-039",
+ "sections": 6,
+ "rules": 187,
+ "report": {
+  "sections": 6,
+  "raw_rules": 141,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "communicate with",
+      "verb": "communicate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "To communicate with you about new products, offers, promotions, rewards, contests, upcoming events, and other information about the Service and those products and services of our selected partners",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "see the Email and SMS Preferences section of this Policy for how to change your preferences for promotional communications.",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-039#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "display",
+      "verb": "display"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "Advertising. To display advertising to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "see the Cookies section of this Policy for information about personalized advertising and your advertising choices",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "see the Cookie Policy at\nhttps://pocketgems.com/cookie-policy/",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-039#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "You may elect to sign up for the Episode Interactive email newsletter"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also contact",
+     "purpose": [
+      {
+       "text": "with targeted email promotions",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-039#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to better target our ads",
+       "name": "advertising"
+      },
+      {
+       "text": "to help us understand how users interact with our Service including any of our ads",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-039#s4"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 35,
+  "completeness": {
+   "gaps": 131,
+   "gap_words": 1408
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 35,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23228,
+  "completion_tokens": 24218,
+  "thinking_tokens": 0,
+  "seconds": 284.4743928909302,
+  "failures": 0
+ },
+ "seconds": 285.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

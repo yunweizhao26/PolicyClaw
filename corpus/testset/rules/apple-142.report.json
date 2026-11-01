@@ -1,0 +1,208 @@
+{
+ "cleaned_sha256": "apple-142",
+ "text_sha256": "3758b12ac9fa3cd7cfb38892768345966496183f68dff2a0bf0ecaf78efd1dbd",
+ "site_id": "apple-142",
+ "sections": 10,
+ "rules": 238,
+ "report": {
+  "sections": 10,
+  "raw_rules": 211,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may transfer",
+     "purpose": [],
+     "conditions": [
+      "in connection with a business transaction (or potential business transaction) such as a corporate divestiture, merger, consolidation, acquisition, reorganization, or sale of assets, or in the event of bankruptcy or dissolution"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may transfer"
+    ],
+    "section": "apple-142#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sell or share or disclose",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "clicking the \"Do not sell or share my personal information\" link in the footer of our website and opting out"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "sell or share or disclose"
+    ],
+    "section": "apple-142#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sell or share or disclose",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for online targeted advertising activities",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "clicking the \"Do not sell or share my personal information\" link in the footer of our website and opting out"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "sell or share or disclose"
+    ],
+    "section": "apple-142#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sell or share or disclose",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for online targeted advertising activities",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "clicking the \"Do not sell or share my personal information\" link in the footer of our website and opting out"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "sell or share or disclose"
+    ],
+    "section": "apple-142#s8"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 100,
+  "completeness": {
+   "gaps": 255,
+   "gap_words": 2427
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 100,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 41662,
+  "completion_tokens": 38060,
+  "thinking_tokens": 0,
+  "seconds": 426.9643220901489,
+  "failures": 0
+ },
+ "seconds": 428.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

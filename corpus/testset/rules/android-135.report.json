@@ -1,0 +1,228 @@
+{
+ "cleaned_sha256": "android-135",
+ "text_sha256": "424a5b36827045cfffb2bff2c2aaf6a5dd30d23467054464a8bc00dc30eaa381",
+ "site_id": "android-135",
+ "sections": 11,
+ "rules": 83,
+ "report": {
+  "sections": 11,
+  "raw_rules": 70,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "neither stored",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [
+      "To offer location-based services"
+     ],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "nor used for any purpose beyond this",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "external entities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "utilized",
+      "verb": "utilize"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "is not utilized",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared with",
+      "verb": "share with"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "or shared with",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "any third party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Our game"
+     },
+     "conditions": [
+      "with Legal Consequences"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "does not engage in",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-135#s7"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 18,
+  "completeness": {
+   "gaps": 171,
+   "gap_words": 1608
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 18,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 25618,
+  "completion_tokens": 12307,
+  "thinking_tokens": 0,
+  "seconds": 410.68405961990356,
+  "failures": 0
+ },
+ "seconds": 411.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

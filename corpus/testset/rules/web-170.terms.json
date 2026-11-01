@@ -1,0 +1,281 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_history": "browsing history",
+    "ip address": "IP address",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal_data": "Personal Information",
+    "profile name": "account name",
+    "user feedback": "feedback",
+    "username": "account name"
+   },
+   "parents": {
+    "account name": [
+     "account information",
+     "user profile"
+    ],
+    "password": [
+     "account information",
+     "log-in credentials"
+    ],
+    "log-in credentials": [
+     "account information"
+    ],
+    "bank account details": [
+     "payment details"
+    ],
+    "financial account number": [
+     "bank account details",
+     "payment details"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "user agent": [
+     "browser information"
+    ],
+    "email address": [
+     "Personal Information"
+    ],
+    "hashed email": [
+     "deterministic and probabilistic signals"
+    ],
+    "ad identifiers": [
+     "identifier"
+    ],
+    "unique user identifier": [
+     "identifier"
+    ],
+    "online identification code": [
+     "identifier"
+    ],
+    "user id": [
+     "identifier"
+    ],
+    "EUID": [
+     "identifier"
+    ],
+    "pseudonymous and declared IDs": [
+     "identifier"
+    ],
+    "IP address": [
+     "network connection details",
+     "online identification code"
+    ],
+    "games played": [
+     "game data"
+    ],
+    "in-game statistics": [
+     "game data"
+    ],
+    "liked games": [
+     "game data"
+    ],
+    "profile background": [
+     "user profile"
+    ],
+    "profile photo": [
+     "user profile"
+    ],
+    "purchase history": [
+     "game data",
+     "transaction details"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "tax identification number": [
+     "identity information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "date of birth": [
+     "identity information"
+    ],
+    "visit_duration": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "browsing and interaction behavior": [
+     "usage data"
+    ],
+    "website_statistics": [
+     "usage data"
+    ],
+    "user-provided content": [
+     "data"
+    ],
+    "feedback": [
+     "user-provided content"
+    ],
+    "resumes": [
+     "user-provided content"
+    ],
+    "message": [
+     "user-provided content"
+    ],
+    "cookies": [
+     "technologies"
+    ],
+    "gender external account": [
+     "gender"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "game developer": "external game developers",
+    "identity partners/service providers": "ID-providers"
+   },
+   "parents": {
+    "ad networks": [
+     "advertising companies",
+     "third parties"
+    ],
+    "advertising companies": [
+     "third parties"
+    ],
+    "external consultants": [
+     "third parties"
+    ],
+    "external game developers": [
+     "third parties"
+    ],
+    "ID-providers": [
+     "third parties"
+    ],
+    "other companies": [
+     "third parties"
+    ],
+    "other subcontractors of CrazyGames": [
+     "third parties"
+    ],
+    "suppliers of IT and payment services": [
+     "third parties"
+    ],
+    "third-party advertisers": [
+     "advertising companies",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "CrazyGames",
+    "third-party service provider": "processor"
+   },
+   "parents": {
+    "33Across": [
+     "third party"
+    ],
+    "Audigent": [
+     "third party"
+    ],
+    "Criteo": [
+     "third party"
+    ],
+    "Facebook": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "ID5": [
+     "third party"
+    ],
+    "LiveRamp": [
+     "third party"
+    ],
+    "Lotame": [
+     "third party"
+    ],
+    "Trade Desk": [
+     "third party"
+    ],
+    "Network Advertising Initiative companies": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "external payment provider": [
+     "processor",
+     "third party"
+    ],
+    "processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligation"
+   },
+   "parents": {
+    "administrative or legal notices": [
+     "communication"
+    ],
+    "administrative-communication": [
+     "communication"
+    ],
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service updates": [
+     "communication"
+    ],
+    "order fulfillment": [
+     "service execution"
+    ],
+    "fraud_detection": [
+     "fraud detection and prevention"
+    ],
+    "user identification": [
+     "account management"
+    ],
+    "service-operation": [
+     "business operations"
+    ],
+    "service execution": [
+     "business operations"
+    ],
+    "service provision": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2789,
+  "completion_tokens": 1167,
+  "thinking_tokens": 0,
+  "seconds": 14.609095811843872,
+  "failures": 0
+ },
+ "seconds": 14.7
+}

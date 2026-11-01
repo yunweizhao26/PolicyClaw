@@ -1,0 +1,171 @@
+{
+ "cleaned_sha256": "android-096",
+ "text_sha256": "b14f57229d35ac00405f31fbbdda1a785190e699d95c48e65c822bb1f1914c43",
+ "site_id": "android-096",
+ "sections": 16,
+ "rules": 140,
+ "report": {
+  "sections": 16,
+  "raw_rules": 129,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "basic profile details",
+      "text": "basic profile details"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to help you develop meaningful connections",
+       "name": "service-provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help you develop meaningful connections"
+    ],
+    "section": "android-096#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal interests",
+      "text": "the types of people you’d like to meet"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to help you develop meaningful connections",
+       "name": "service-provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help you develop meaningful connections"
+    ],
+    "section": "android-096#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in the (hopefully rare) event you experience any crash or other problem while using our Services"
+     ],
+     "data": {
+      "name": "device information",
+      "text": "certain device information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to help us diagnose problems",
+       "name": "troubleshooting"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us diagnose problems"
+    ],
+    "section": "android-096#s5"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 61,
+  "completeness": {
+   "gaps": 181,
+   "gap_words": 1965
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 61,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 44849,
+  "completion_tokens": 22392,
+  "thinking_tokens": 0,
+  "seconds": 207.25393223762512,
+  "failures": 0
+ },
+ "seconds": 208.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

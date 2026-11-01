@@ -1,0 +1,136 @@
+{
+ "cleaned_sha256": "android-180",
+ "text_sha256": "9b63a104625774ba9126916d6e613e042bcf250fd3591e8e430061b3b9baaf21",
+ "site_id": "android-180",
+ "sections": 8,
+ "rules": 179,
+ "report": {
+  "sections": 8,
+  "raw_rules": 152,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "aim to respond to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "within 45 days of receiving that request",
+      "a consumer request for access or deletion"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-180#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to present tailored advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "provided you have given your consent if required by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Cookie Notice",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as required by applicable law"
+    ],
+    "section": "android-180#s7"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 73,
+  "completeness": {
+   "gaps": 182,
+   "gap_words": 1826
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 73,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 34414,
+  "completion_tokens": 31370,
+  "thinking_tokens": 0,
+  "seconds": 500.8307538032532,
+  "failures": 0
+ },
+ "seconds": 501.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

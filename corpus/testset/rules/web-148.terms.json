@@ -1,0 +1,89 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user profiles": "user profile"
+   },
+   "parents": {
+    "email address": [
+     "personal data",
+     "user profile"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "feedback": [
+     "survey responses"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "government authority": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "visitors": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Department of State"
+   },
+   "parents": {
+    "GovDelivery": [
+     "third-party providers"
+    ],
+    "ForeSee": [
+     "third-party providers"
+    ],
+    "third party application": [
+     "third-party providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service optimization": "service improvement",
+    "service_improvement": "service improvement",
+    "user-experience": "service improvement"
+   },
+   "parents": {
+    "communications": [
+     "communication"
+    ],
+    "service improvement": [
+     "website-operation"
+    ],
+    "remember_session": [
+     "website-operation"
+    ],
+    "account registration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1684,
+  "completion_tokens": 435,
+  "thinking_tokens": 0,
+  "seconds": 9.023537397384644,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

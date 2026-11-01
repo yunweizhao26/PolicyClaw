@@ -1,0 +1,173 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "de-identified information": "anonymous data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "CVV": [
+     "financial data"
+    ],
+    "card number": [
+     "financial data"
+    ],
+    "credit card expiration date": [
+     "financial data"
+    ],
+    "credit card information": [
+     "financial data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "hardware model": [
+     "hardware info"
+    ],
+    "name": [
+     "contact data"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "username": [
+     "account credentials"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "vendor": "Vendor"
+   },
+   "parents": {
+    "other health care Vendors": [
+     "Vendor"
+    ],
+    "payment processor": [
+     "business partners"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "affiliates": [
+     "third party"
+    ],
+    "subcontractors": [
+     "third party"
+    ],
+    "Vendor": [
+     "third party"
+    ],
+    "unaffiliated third party websites or mobile applications": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ],
+    "other third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user browser": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "business partners": "business partner"
+   },
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other health care Vendors": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "subcontractors": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "any_purpose",
+     "marketing"
+    ],
+    "analytics": [
+     "any_purpose",
+     "service improvement"
+    ],
+    "communications": [
+     "any_purpose",
+     "service provision"
+    ],
+    "customer support": [
+     "any_purpose",
+     "communications"
+    ],
+    "marketing": [
+     "any_purpose"
+    ],
+    "other": [
+     "any_purpose"
+    ],
+    "payment processing": [
+     "any_purpose",
+     "service provision"
+    ],
+    "personalization": [
+     "any_purpose",
+     "service improvement"
+    ],
+    "security": [
+     "any_purpose",
+     "service provision"
+    ],
+    "service improvement": [
+     "any_purpose"
+    ],
+    "service provision": [
+     "any_purpose"
+    ],
+    "user account management": [
+     "any_purpose",
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2701,
+  "completion_tokens": 631,
+  "thinking_tokens": 0,
+  "seconds": 29.949580430984497,
+  "failures": 0
+ },
+ "seconds": 30.0
+}

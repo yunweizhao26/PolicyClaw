@@ -1,0 +1,202 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audio file": "audio",
+    "calendar data": "calendar",
+    "information": "data",
+    "payment information": "payment data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data"
+   },
+   "parents": {
+    "Firebase Cloud Messaging token": [
+     "online identifiers"
+    ],
+    "GPS location": [
+     "location"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "calendar": [
+     "data"
+    ],
+    "call log": [
+     "data"
+    ],
+    "children's data": [
+     "Personal Data"
+    ],
+    "contact details": [
+     "Personal Data"
+    ],
+    "contacts": [
+     "Personal Data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "country": [
+     "location"
+    ],
+    "crash data": [
+     "log data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "full name": [
+     "Personal Data"
+    ],
+    "genetic data": [
+     "sensitive data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "installed apps": [
+     "device type"
+    ],
+    "photos": [
+     "photos and videos"
+    ],
+    "videos": [
+     "photos and videos"
+    ],
+    "political opinions": [
+     "sensitive data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive data"
+    ],
+    "religious beliefs": [
+     "sensitive data"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "trade union membership": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "microphone recording": [
+     "audio"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "recipients": "RECIPIENTS",
+    "third party": "third parties"
+   },
+   "parents": {
+    "acquirer": [
+     "RECIPIENTS",
+     "third parties"
+    ],
+    "advertiser": [
+     "RECIPIENTS",
+     "third parties"
+    ],
+    "law enforcement": [
+     "RECIPIENTS",
+     "third parties"
+    ],
+    "recipient in an adequate protection country": [
+     "RECIPIENTS"
+    ],
+    "service provider": [
+     "RECIPIENTS",
+     "third parties"
+    ],
+    "third parties": [
+     "RECIPIENTS"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third-party service providers": [
+     "third-party sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "app store provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "apply those designs": "apply the applicable design for your device and calendar",
+    "business purpose": "business operations",
+    "perform contract": "contractual requirement",
+    "providing you the dialer feature": "provide you with our dialer",
+    "service provision": "provide you with our Services"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "execute our contract with you and provide you with our services": [
+     "contractual requirement",
+     "provide you with our Services"
+    ],
+    "provide you with our Services": [
+     "provide and improve services"
+    ],
+    "provide you with certain features and as part of the performance of our Apps": [
+     "provide you with our Services"
+    ],
+    "provide you with our dialer": [
+     "provide you with certain features and as part of the performance of our Apps",
+     "provide you with our Services"
+    ],
+    "identify your caller": [
+     "provide you with certain features and as part of the performance of our Apps",
+     "provide you with our Services"
+    ],
+    "apply the applicable design for your device and calendar": [
+     "provide you with certain features and as part of the performance of our Apps",
+     "provide you with our Services"
+    ],
+    "fraud and misuse prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2608,
+  "completion_tokens": 815,
+  "thinking_tokens": 0,
+  "seconds": 28.06752872467041,
+  "failures": 0
+ },
+ "seconds": 28.2
+}

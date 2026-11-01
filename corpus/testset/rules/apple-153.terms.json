@@ -1,0 +1,578 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "GPS location": "GPS coordinates",
+    "connected device or account": "Connected Devices/Accounts",
+    "connected devices or accounts": "Connected Devices/Accounts",
+    "contact data": "Contact Information",
+    "contact information": "Contact Information",
+    "contact_details": "Contact Information",
+    "device proximity to beacons and Bluetooth networks": "device proximity information",
+    "feedback and support": "Feedback and Support Communications",
+    "feedback and support communications": "Feedback and Support Communications",
+    "feedback_and_support": "Feedback and Support Communications",
+    "financial information": "Purchase Information",
+    "financial_information": "Purchase Information",
+    "geolocation": "Geolocation Data",
+    "inferences": "Inferences based on activity",
+    "inferences based on activity": "Inferences based on activity",
+    "information": "data",
+    "information from other sources": "Information from other Sources",
+    "information generated through use of the Services": "Information generated through use of the Services",
+    "personal information": "personal data",
+    "physical characteristics": "Physical Characteristics",
+    "profile data": "Profile Information",
+    "profile information": "Profile Information",
+    "profile_information": "Profile Information",
+    "promotional_data": "promotional data",
+    "promotions, sweepstakes and competition information": "promotional data",
+    "promotions, sweepstakes, and competition information": "promotional data",
+    "purchase information": "Purchase Information",
+    "quizzes, testing, surveys and review information": "Quizzes, Testing, Surveys and review information",
+    "region": "geographic region",
+    "sensitive data": "Sensitive Personal Information",
+    "sensitive personal data": "Sensitive Personal Information",
+    "sensitive personal information": "Sensitive Personal Information",
+    "sensitive_data": "Sensitive Personal Information",
+    "service use information": "Information generated through use of the Services",
+    "service_usage_data": "Information generated through use of the Services",
+    "survey responses": "survey response",
+    "survey_response": "survey response",
+    "usage_data": "usage data",
+    "user generated content": "User Generated Content",
+    "user profile": "Profile Information",
+    "user_content": "User Generated Content",
+    "username": "account name",
+    "your information": "personal data"
+   },
+   "parents": {
+    "CCTV images": [
+     "images"
+    ],
+    "Contact Information": [
+     "personal data"
+    ],
+    "Fitness Data": [
+     "personal data"
+    ],
+    "GPS coordinates": [
+     "Geolocation Data"
+    ],
+    "Geolocation Data": [
+     "Location Information"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "MAC address": [
+     "identifiers"
+    ],
+    "Physical Characteristics": [
+     "health_and_fitness_data",
+     "personal data"
+    ],
+    "Profile Information": [
+     "personal data"
+    ],
+    "Purchase Information": [
+     "personal data"
+    ],
+    "Quizzes, Testing, Surveys and review information": [
+     "Information generated through use of the Services"
+    ],
+    "Sensitive Personal Information": [
+     "personal data"
+    ],
+    "Standard Identifying Information": [
+     "personal data"
+    ],
+    "User Generated Content": [
+     "personal data"
+    ],
+    "account details": [
+     "Profile Information"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "achievements": [
+     "Profile Information"
+    ],
+    "badges": [
+     "Profile Information"
+    ],
+    "billing address": [
+     "Purchase Information",
+     "postal address"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "calories burned": [
+     "workout metrics"
+    ],
+    "chat logs": [
+     "User Generated Content"
+    ],
+    "city": [
+     "Location Information"
+    ],
+    "clicks": [
+     "usage data"
+    ],
+    "club peloton information": [
+     "membership information"
+    ],
+    "contact details": [
+     "Contact Information"
+    ],
+    "contact email address": [
+     "Contact Information",
+     "email address"
+    ],
+    "contact name": [
+     "Contact Information",
+     "name"
+    ],
+    "contact phone number": [
+     "Contact Information",
+     "phone number"
+    ],
+    "contacts": [
+     "personal data"
+    ],
+    "content you access and view": [
+     "usage data"
+    ],
+    "cookies": [
+     "cookies and other tracking technologies",
+     "tracking technologies"
+    ],
+    "cookies and other tracking technologies": [
+     "tracking technologies and services"
+    ],
+    "county": [
+     "Location Information"
+    ],
+    "credit card number": [
+     "Purchase Information"
+    ],
+    "credit information": [
+     "Purchase Information"
+    ],
+    "date and time of access": [
+     "usage data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device proximity information": [
+     "Location Information"
+    ],
+    "device usage data": [
+     "usage data"
+    ],
+    "device_information": [
+     "personal data"
+    ],
+    "email address": [
+     "Contact Information"
+    ],
+    "email interactions and behavior": [
+     "usage data"
+    ],
+    "feedback": [
+     "Feedback and Support Communications"
+    ],
+    "fitness and exercise data": [
+     "Fitness Data"
+    ],
+    "fitness and health goals": [
+     "Fitness Data"
+    ],
+    "hardware type": [
+     "technical usage data"
+    ],
+    "health data": [
+     "Sensitive Personal Information"
+    ],
+    "health_and_fitness_data": [
+     "Fitness Data"
+    ],
+    "heart rate": [
+     "workout metrics"
+    ],
+    "identifier": [
+     "identifiers"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "images": [
+     "User Generated Content"
+    ],
+    "Inferences based on activity": [
+     "personal data"
+    ],
+    "information from use of connected devices": [
+     "Connected Devices/Accounts"
+    ],
+    "likes": [
+     "usage data"
+    ],
+    "location": [
+     "Location Information"
+    ],
+    "member support dialogue": [
+     "Feedback and Support Communications"
+    ],
+    "membership information": [
+     "Profile Information"
+    ],
+    "movements": [
+     "physical movement"
+    ],
+    "name": [
+     "Standard Identifying Information"
+    ],
+    "opt-in data": [
+     "consent"
+    ],
+    "opt-out lists": [
+     "personal data"
+    ],
+    "opt-out preference signal": [
+     "DNT signals"
+    ],
+    "personal identifiers": [
+     "identifiers"
+    ],
+    "phone number": [
+     "Contact Information"
+    ],
+    "photos": [
+     "Profile Information",
+     "images"
+    ],
+    "physical movement": [
+     "Fitness Data"
+    ],
+    "postal address": [
+     "Contact Information"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "precise geographic location": [
+     "Geolocation Data"
+    ],
+    "profile image": [
+     "photos"
+    ],
+    "profile picture": [
+     "photos"
+    ],
+    "push notification token": [
+     "identifiers"
+    ],
+    "quiz responses": [
+     "Quizzes, Testing, Surveys and review information"
+    ],
+    "recommendations and inferences based on activity": [
+     "Inferences based on activity"
+    ],
+    "running route": [
+     "Location Information",
+     "workout details"
+    ],
+    "scrolling": [
+     "usage data"
+    ],
+    "service interaction": [
+     "service interactions"
+    ],
+    "service interactions": [
+     "usage data"
+    ],
+    "service usage data": [
+     "usage data"
+    ],
+    "session duration": [
+     "usage data"
+    ],
+    "sex": [
+     "Physical Characteristics"
+    ],
+    "shopping cart information": [
+     "Purchase Information"
+    ],
+    "streaming history": [
+     "streaming history and behavior"
+    ],
+    "streaming history and behavior": [
+     "usage data"
+    ],
+    "submitted chatbot information": [
+     "Feedback and Support Communications"
+    ],
+    "support communications": [
+     "Feedback and Support Communications"
+    ],
+    "survey response": [
+     "Quizzes, Testing, Surveys and review information"
+    ],
+    "tags": [
+     "Profile Information"
+    ],
+    "technical usage data": [
+     "usage data"
+    ],
+    "text": [
+     "User Generated Content"
+    ],
+    "text messages": [
+     "Feedback and Support Communications"
+    ],
+    "third-party data": [
+     "Information from other Sources"
+    ],
+    "tracking technologies": [
+     "tracking technologies and services"
+    ],
+    "usage data": [
+     "Information generated through use of the Services"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "user preferences": [
+     "Profile Information"
+    ],
+    "visit duration": [
+     "usage data"
+    ],
+    "voice recording": [
+     "Sensitive Personal Information",
+     "User Generated Content"
+    ],
+    "workout activity": [
+     "workout details"
+    ],
+    "workout details": [
+     "Fitness Data"
+    ],
+    "workout history": [
+     "workout details"
+    ],
+    "workout information": [
+     "Fitness Data"
+    ],
+    "workout metrics": [
+     "Fitness Data"
+    ],
+    "workouts or classes you may enjoy and communications which may be of interest": [
+     "recommendations and inferences based on activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user",
+    "paired application": "Paired Applications"
+   },
+   "parents": {
+    "Paired Applications": [
+     "third party"
+    ],
+    "affiliate": [
+     "recipient"
+    ],
+    "courts": [
+     "government agencies"
+    ],
+    "credit bureau": [
+     "service provider"
+    ],
+    "follower": [
+     "other user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "insurance companies": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agencies"
+    ],
+    "legal counsel": [
+     "third party"
+    ],
+    "messaging technology partners": [
+     "partner",
+     "service provider"
+    ],
+    "parties to a corporate transaction": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "regulator": [
+     "government agencies"
+    ],
+    "government agencies": [
+     "third party"
+    ],
+    "third-party AI Service Providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "telecom operator": [
+     "third party"
+    ],
+    "third party": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "credit bureaus": "credit bureau",
+    "paired application": "Paired Applications",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "credit bureau": [
+     "third parties"
+    ],
+    "data brokers": [
+     "third parties"
+    ],
+    "marketing partners": [
+     "partners"
+    ],
+    "partners": [
+     "third parties"
+    ],
+    "Paired Applications": [
+     "third party application"
+    ],
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Peloton",
+    "other users": "other user",
+    "third-party-provided services": "third-party analytics services"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "third-party AI Service Providers": [
+     "service provider",
+     "third party"
+    ],
+    "third-party analytics services": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligations",
+    "provide services": "provide service",
+    "service provision": "provide service",
+    "social networking features": "social networking"
+   },
+   "parents": {
+    "compare your past and current performance": [
+     "Analyze your performance"
+    ],
+    "provide you with analytics about your progress over time": [
+     "Analyze your performance"
+    ],
+    "marketing communications": [
+     "communication",
+     "marketing"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "order fulfillment": [
+     "provide service"
+    ],
+    "customer support": [
+     "customer service"
+    ],
+    "customer service": [
+     "provide service"
+    ],
+    "debugging": [
+     "error identification, repair, and optimization"
+    ],
+    "send cart reminders": [
+     "shopping cart tracking"
+    ],
+    "provide rental or other services": [
+     "provide service"
+    ],
+    "training": [
+     "research and development"
+    ],
+    "service improvement": [
+     "operate, improve, develop and help protect our services"
+    ],
+    "service_optimization": [
+     "service provision and enhancement"
+    ],
+    "service provision and enhancement": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5387,
+  "completion_tokens": 2678,
+  "thinking_tokens": 0,
+  "seconds": 22.991249561309814,
+  "failures": 0
+ },
+ "seconds": 23.1
+}

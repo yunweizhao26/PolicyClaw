@@ -1,0 +1,314 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email_address": "email address",
+    "government identifier": "government ID",
+    "information": "data",
+    "language preferences": "language",
+    "location information": "location",
+    "photos": "photographs",
+    "precise_location": "precise location",
+    "profile data": "profile",
+    "profile information": "profile",
+    "race or ethnicity": "race",
+    "third party data": "information from third parties",
+    "user content": "content",
+    "user information": "user data",
+    "user interest": "interests",
+    "user profile": "profile"
+   },
+   "parents": {
+    "hashed email address": [
+     "email address"
+    ],
+    "cookie ID": [
+     "cookie data"
+    ],
+    "cookie data": [
+     "device information"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "boards you create": [
+     "content"
+    ],
+    "pins you create": [
+     "content"
+    ],
+    "photographs": [
+     "content"
+    ],
+    "user comments": [
+     "content"
+    ],
+    "content_of_communications": [
+     "user communications"
+    ],
+    "message content": [
+     "content_of_communications"
+    ],
+    "correspondence": [
+     "user communications"
+    ],
+    "support ticket content": [
+     "user communications"
+    ],
+    "user questions": [
+     "user communications"
+    ],
+    "facial features": [
+     "biometric data"
+    ],
+    "ad views": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "lead ad action information": [
+     "usage data"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "user choices": [
+     "user preferences"
+    ],
+    "language": [
+     "user preferences"
+    ],
+    "password": [
+     "account information"
+    ],
+    "username": [
+     "account information"
+    ],
+    "registration information": [
+     "account information"
+    ],
+    "user id": [
+     "account information"
+    ],
+    "profile": [
+     "account information"
+    ],
+    "date_of_birth": [
+     "demographic data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "race": [
+     "demographic data"
+    ],
+    "country": [
+     "location"
+    ],
+    "IP address": [
+     "device information"
+    ],
+    "device parameters": [
+     "device information"
+    ],
+    "device information": [
+     "log data"
+    ],
+    "public content": [
+     "content"
+    ],
+    "publicly accessible information": [
+     "data"
+    ],
+    "de-identified information": [
+     "data"
+    ],
+    "aggregated data": [
+     "de-identified information"
+    ],
+    "inferred information": [
+     "inferences"
+    ],
+    "purchase history": [
+     "information about you and your activity outside pinterest"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "advertising partners": "ad partner",
+    "law enforcement agencies": "law enforcement"
+   },
+   "parents": {
+    "Facebook Ads": [
+     "ad partner",
+     "third party"
+    ],
+    "Google Marketing Platform": [
+     "ad partner",
+     "third party"
+    ],
+    "ad partner": [
+     "partners",
+     "third party"
+    ],
+    "advertiser": [
+     "ad partner",
+     "partners",
+     "third party"
+    ],
+    "government agencies": [
+     "authorities"
+    ],
+    "law enforcement": [
+     "authorities",
+     "government agencies"
+    ],
+    "independent researchers who meet certain criteria": [
+     "researchers",
+     "third party"
+    ],
+    "researchers": [
+     "third party"
+    ],
+    "marketing services": [
+     "third party service"
+    ],
+    "potential purchaser": [
+     "other parties",
+     "third party"
+    ],
+    "security consultants": [
+     "third party",
+     "vendors"
+    ],
+    "third party in country without adequacy decision": [
+     "third party"
+    ],
+    "third party service": [
+     "third party"
+    ],
+    "vendors": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "advertising partner": "ad partner"
+   },
+   "parents": {
+    "ad partner": [
+     "partner",
+     "third party"
+    ],
+    "advertiser": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "partner",
+     "third party"
+    ],
+    "measurement provider": [
+     "service provider",
+     "third party"
+    ],
+    "third-party application or service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad partner": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "vendors": [
+     "third party"
+    ],
+    "user": [
+     "anyone"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "third party": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "legal-requirement": "compliance with legal obligation",
+    "service-improvement": "service improvement",
+    "targeted advertising": "ad personalisation"
+   },
+   "parents": {
+    "ad measurement": [
+     "advertising",
+     "analytics"
+    ],
+    "ad performance": [
+     "advertising",
+     "analytics"
+    ],
+    "ad personalisation": [
+     "advertising",
+     "personalization"
+    ],
+    "find_friends": [
+     "social networking features"
+    ],
+    "social networking features": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "customer support": [
+     "communication",
+     "service provision"
+    ],
+    "account registration": [
+     "service provision"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "preventing harm": [
+     "security"
+    ],
+    "user preferences": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3151,
+  "completion_tokens": 1373,
+  "thinking_tokens": 0,
+  "seconds": 18.74606704711914,
+  "failures": 0
+ },
+ "seconds": 18.9
+}

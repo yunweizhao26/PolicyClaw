@@ -1,0 +1,41 @@
+{
+  "revision": 2,
+  "valid": true,
+  "selected": 600,
+  "counts": {
+    "web": 200,
+    "android": 200,
+    "apple": 200
+  },
+  "maximum_pairwise_jaccard": 0.49082834524039387,
+  "maximum_pair": [
+    "android-065",
+    "android-108"
+  ],
+  "maximum_pair_intersection": 2542,
+  "maximum_pair_union": 5179,
+  "pairs_total": 179700,
+  "pairs_intersected": 109572,
+  "pairs_proven_below_current_max_by_size_bound": 70128,
+  "maximum_policyie_containment": 0.45191992123400065,
+  "maximum_policyie_match": {
+    "id": "android-040",
+    "policyie_containment": 0.45191992123400065,
+    "policyie_policy": "sanitized_split/train/week8/com_bagelcode_slots1",
+    "policyie_intersection": 1377,
+    "policyie_denominator": 3047
+  },
+  "cross_arm_registered_domains": 190542,
+  "cross_arm_domains_selected": 495,
+  "checks": [
+    "600 rows; 200 per arm; round-robin order",
+    "offline replay of every walked candidate and privacy link",
+    "final policy and web-site PSL identities are disjoint",
+    "2xx; >=100 characters; English complete_policy",
+    "October 2026 fetches; text hashes and lengths",
+    "PolicyIE ids, domains and exact containment",
+    "rank order and unique organization keys",
+    "exact pairwise Jaccard maximum",
+    "protected files unchanged"
+  ]
+}

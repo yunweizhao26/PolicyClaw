@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "web-191",
+ "text_sha256": "82559a78fb548778668e3b60d63091c982f0d34e15e168aa1321f071be25c3ed",
+ "site_id": "web-191",
+ "sections": 24,
+ "rules": 251,
+ "report": {
+  "sections": 24,
+  "raw_rules": 191,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In some cases"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "purpose": [
+      {
+       "text": "to process sensitive data, including biometric information for the purpose of verifying your identity and the authenticity of the identifiers you provide to us while registering for an account on Youporn",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "third party service providers",
+      "text": "third party service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be required to disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "in connection with civil, criminal, corporate, taxation, regulatory matters, or litigation",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "It is necessary to comply with our legal obligations",
+      "may be required to"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be required to disclose"
+    ],
+    "section": "web-191#s9"
+   }
+  ],
+  "residual_quotes": 33,
+  "quotes": 123,
+  "completeness": {
+   "gaps": 235,
+   "gap_words": 2579
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 28,
+  "translated_quotes": 123,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 1,
+  "prompt_tokens": 72647,
+  "completion_tokens": 39972,
+  "thinking_tokens": 0,
+  "seconds": 299.3110315799713,
+  "failures": 0
+ },
+ "seconds": 300.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

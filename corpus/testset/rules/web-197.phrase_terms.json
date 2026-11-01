@@ -1,0 +1,164 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "a federal tax record": "Federal tax records",
+    "personal information": "PII",
+    "recordings": "All such recordings",
+    "tax return information": "return information",
+    "your Privacy Act records": "Privacy Act records"
+   },
+   "parents": {
+    "Social Security number": [
+     "PII",
+     "your identifying number"
+    ],
+    "Federal tax records": [
+     "records"
+    ],
+    "Privacy Act records": [
+     "records"
+    ],
+    "a meeting you attend": [
+     "meetings"
+    ],
+    "All such recordings": [
+     "information"
+    ],
+    "email address": [
+     "PII"
+    ],
+    "name": [
+     "PII"
+    ],
+    "other unique identifier": [
+     "PII"
+    ],
+    "tax returns": [
+     "records"
+    ],
+    "return information": [
+     "information"
+    ],
+    "information shown on your tax return": [
+     "return information"
+    ],
+    "your daytime phone number": [
+     "PII"
+    ],
+    "your mobile phone number": [
+     "PII"
+    ],
+    "your tax information": [
+     "return information"
+    ],
+    "your identifying number": [
+     "PII"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "others": "other persons"
+   },
+   "parents": {
+    "committees of Congress": [
+     "Congress"
+    ],
+    "Department of Justice": [
+     "federal and state agencies",
+     "other federal agencies"
+    ],
+    "federal law enforcement and intelligence agencies": [
+     "federal and state agencies",
+     "other federal agencies"
+    ],
+    "other federal agencies": [
+     "federal and state agencies"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "you": "user"
+   },
+   "parents": {
+    "an IRS employee": [
+     "government agencies"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Internal Revenue Service": "IRS",
+    "The IRS": "IRS",
+    "We": "IRS",
+    "first party": "IRS",
+    "the IRS": "IRS",
+    "us": "IRS",
+    "we": "IRS"
+   },
+   "parents": {
+    "Designated IRS hosts": [
+     "IRS"
+    ],
+    "The IRS FOIA Public Access Portal": [
+     "IRS",
+     "agency"
+    ],
+    "The Office of Privacy": [
+     "IRS"
+    ],
+    "IRS": [
+     "agency",
+     "the Department of the Treasury"
+    ],
+    "taxpayers": [
+     "individuals"
+    ],
+    "you": [
+     "individuals"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "only for the purpose for which it was collected": "only for that purpose"
+   },
+   "parents": {
+    "can process your return and other papers": [
+     "as necessary to administer our programs under the authority of the Internal Revenue Code and the protections of the Code and the Privacy Act"
+    ],
+    "for tax administration purposes": [
+     "as necessary to administer our programs under the authority of the Internal Revenue Code and the protections of the Code and the Privacy Act"
+    ],
+    "to carry out the tax laws of the United States": [
+     "as necessary to administer our programs under the authority of the Internal Revenue Code and the protections of the Code and the Privacy Act",
+     "for tax administration purposes"
+    ],
+    "to enforce the tax laws, both civil and criminal": [
+     "as necessary to administer our programs under the authority of the Internal Revenue Code and the protections of the Code and the Privacy Act",
+     "for tax administration purposes",
+     "to carry out the tax laws of the United States"
+    ],
+    "to obtain information needed to determine the amount of or to collect the tax you owe": [
+     "for tax administration purposes",
+     "to carry out the tax laws of the United States"
+    ],
+    "to help with our research and response to your query": [
+     "in order to respond to your specific request"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4013,
+  "completion_tokens": 1469,
+  "thinking_tokens": 0,
+  "seconds": 15.75211238861084,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

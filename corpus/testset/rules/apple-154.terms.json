@@ -1,0 +1,318 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information about you": "information",
+    "personal data": "information"
+   },
+   "parents": {
+    "account balance": [
+     "financial account details"
+    ],
+    "account beneficiary information": [
+     "account information"
+    ],
+    "ad views and interactions": [
+     "online activity"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "billing information": [
+     "financial account details"
+    ],
+    "browser configuration": [
+     "hardware device details"
+    ],
+    "browser type": [
+     "hardware device details"
+    ],
+    "browser version": [
+     "hardware device details"
+    ],
+    "browsing and interaction data": [
+     "online activity"
+    ],
+    "browsing behavior": [
+     "online activity across multiple websites"
+    ],
+    "browsing history": [
+     "online activity"
+    ],
+    "business contact information": [
+     "business information",
+     "contact data"
+    ],
+    "certain information about you": [
+     "information"
+    ],
+    "citizenship": [
+     "demographic data"
+    ],
+    "communications": [
+     "online interactions"
+    ],
+    "contact data": [
+     "identifying information"
+    ],
+    "cookie settings": [
+     "user preferences"
+    ],
+    "cookies": [
+     "unique device identifier"
+    ],
+    "credentials": [
+     "identifying information"
+    ],
+    "credit history": [
+     "credit report"
+    ],
+    "credit score": [
+     "credit report"
+    ],
+    "cross-device tracking data": [
+     "online activity"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "de-identified information": [
+     "information"
+    ],
+    "demographic data": [
+     "information"
+    ],
+    "education history": [
+     "employment history"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "email engagement data": [
+     "online activity"
+    ],
+    "employment status": [
+     "employment history"
+    ],
+    "financial account details": [
+     "account information"
+    ],
+    "financial account history": [
+     "financial account details"
+    ],
+    "financial account number": [
+     "financial account details"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "geographic location": [
+     "demographic data"
+    ],
+    "government-issued identifier": [
+     "identifying information"
+    ],
+    "hardware device details": [
+     "information"
+    ],
+    "identifying information": [
+     "information"
+    ],
+    "income": [
+     "financial account details"
+    ],
+    "inferences": [
+     "information"
+    ],
+    "interaction with site": [
+     "online activity"
+    ],
+    "internet service provider": [
+     "hardware device details"
+    ],
+    "loan information": [
+     "financial account details"
+    ],
+    "marital status": [
+     "demographic data"
+    ],
+    "military status": [
+     "demographic data"
+    ],
+    "mobile application activity": [
+     "online activity"
+    ],
+    "mobile device": [
+     "hardware device details"
+    ],
+    "mobile network carrier name": [
+     "hardware device details"
+    ],
+    "name": [
+     "identifying information"
+    ],
+    "occupation": [
+     "employment history"
+    ],
+    "online activity across multiple websites": [
+     "online activity"
+    ],
+    "online interactions": [
+     "online activity"
+    ],
+    "password": [
+     "credentials"
+    ],
+    "payment card details": [
+     "financial account details"
+    ],
+    "payment card number": [
+     "payment card details"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "precise geolocation": [
+     "geographic location"
+    ],
+    "preferences": [
+     "user preferences"
+    ],
+    "profile picture": [
+     "identifying information"
+    ],
+    "publicly available information": [
+     "information"
+    ],
+    "purchase history": [
+     "transaction history"
+    ],
+    "referring url": [
+     "browsing history"
+    ],
+    "social media post content": [
+     "user input"
+    ],
+    "social security number": [
+     "government-issued identifier"
+    ],
+    "transaction details": [
+     "transaction history"
+    ],
+    "transaction history": [
+     "financial account history"
+    ],
+    "unique device identifier": [
+     "hardware device details"
+    ],
+    "user id": [
+     "credentials"
+    ],
+    "user input": [
+     "online activity"
+    ],
+    "user preferences": [
+     "information"
+    ],
+    "vehicle information": [
+     "information"
+    ],
+    "visit to our Sites on a particular time and day": [
+     "browsing history"
+    ],
+    "IP address": [
+     "unique device identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "marketing partner": "commercial partner",
+    "marketing service provider": "commercial partner"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "commercial partner": [
+     "service provider",
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "credit bureau": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "web beacons": "web beacon"
+   },
+   "parents": {
+    "marketing service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "To deliver targeted advertisements": "Targeted Advertising",
+    "service-provision": "service provision",
+    "services": "service provision",
+    "targeted advertising": "Targeted Advertising"
+   },
+   "parents": {
+    "Targeted Advertising": [
+     "advertising"
+    ],
+    "to deliver Navy Federal advertisements that are most likely to be of interest to you": [
+     "Targeted Advertising",
+     "advertising"
+    ],
+    "to deliver advertisements that may be of interest to that visitor based on their browsing history": [
+     "Targeted Advertising",
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud and risk management": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2934,
+  "completion_tokens": 1420,
+  "thinking_tokens": 0,
+  "seconds": 15.718473196029663,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

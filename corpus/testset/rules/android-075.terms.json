@@ -1,0 +1,286 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising data": "Advertising Data",
+    "basic information": "Basic Information",
+    "ip address": "IP address"
+   },
+   "parents": {
+    "GA4 data": [
+     "analytics data"
+    ],
+    "account password": [
+     "personal information"
+    ],
+    "account username": [
+     "user identifier"
+    ],
+    "ad views and clicks": [
+     "Advertising Data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "basic matchmaking information": [
+     "Basic Information"
+    ],
+    "browser information": [
+     "technical data"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browsing activity": [
+     "technical data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "connection speed": [
+     "technical data"
+    ],
+    "contact information": [
+     "personal information"
+    ],
+    "cookies": [
+     "technical data"
+    ],
+    "crash logs": [
+     "technical data"
+    ],
+    "customer service communication data": [
+     "customer support communications"
+    ],
+    "customer support communications": [
+     "user data"
+    ],
+    "device identifier": [
+     "technical data"
+    ],
+    "device make": [
+     "device properties"
+    ],
+    "device model": [
+     "device properties"
+    ],
+    "device name": [
+     "device properties"
+    ],
+    "device properties": [
+     "technical data"
+    ],
+    "device settings": [
+     "device properties"
+    ],
+    "download details": [
+     "technical data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "friends' public data": [
+     "personal information"
+    ],
+    "game history": [
+     "gameplay statistics"
+    ],
+    "game session details": [
+     "gameplay statistics"
+    ],
+    "gameplay statistics": [
+     "gaming history"
+    ],
+    "gaming history": [
+     "personal information"
+    ],
+    "identity": [
+     "personal information"
+    ],
+    "in-game purchase history": [
+     "gameplay statistics"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "information we collect about you": [
+     "information about you"
+    ],
+    "location": [
+     "personal information"
+    ],
+    "mobile carrier": [
+     "technical data"
+    ],
+    "network type": [
+     "technical data"
+    ],
+    "operating system": [
+     "technical data"
+    ],
+    "personal information": [
+     "user data"
+    ],
+    "profile": [
+     "personal information"
+    ],
+    "profile picture": [
+     "profile"
+    ],
+    "purchase validation confirmation": [
+     "technical data"
+    ],
+    "service interactions": [
+     "analytics data"
+    ],
+    "session duration": [
+     "game session details"
+    ],
+    "social network identifier": [
+     "user identifier"
+    ],
+    "technical data": [
+     "personal information"
+    ],
+    "third-party login information": [
+     "personal information"
+    ],
+    "timezone": [
+     "device settings"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "user data": [
+     "information we collect about you"
+    ],
+    "user feedback": [
+     "customer support communications"
+    ],
+    "user identifier": [
+     "personal information"
+    ],
+    "user inquiry": [
+     "customer support communications"
+    ],
+    "user name": [
+     "identity"
+    ],
+    "user preferences": [
+     "profile"
+    ],
+    "user profile and other information": [
+     "personal information"
+    ],
+    "users who have confirmed to us as under the age of 16": [
+     "identity"
+    ],
+    "video analytics": [
+     "analytics data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties",
+    "third-party user acquisition partner": "advertising partner"
+   },
+   "parents": {
+    "Adjust": [
+     "third parties"
+    ],
+    "Amazon": [
+     "third parties"
+    ],
+    "Amazon Web Services": [
+     "Amazon",
+     "third parties"
+    ],
+    "Apple": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "Google Firebase": [
+     "Google",
+     "third parties"
+    ],
+    "Zendesk": [
+     "service provider",
+     "third parties"
+    ],
+    "advertising network": [
+     "third parties"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "another IT system provider": [
+     "service provider",
+     "third parties"
+    ],
+    "other users": [
+     "third parties",
+     "user"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "GA4": [
+     "Google"
+    ],
+    "YouTube": [
+     "Google"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention": "fraud prevention and detection",
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention and detection": [
+     "legal compliance",
+     "security"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "user experience": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2738,
+  "completion_tokens": 1211,
+  "thinking_tokens": 0,
+  "seconds": 16.328620433807373,
+  "failures": 0
+ },
+ "seconds": 16.4
+}

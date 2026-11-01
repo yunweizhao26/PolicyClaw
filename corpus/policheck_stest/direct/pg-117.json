@@ -1,0 +1,30 @@
+{
+ "policy": "pg-117",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "When signing up as a subscriber to TED’s ad-free video content in TED’s iOS app, TED may collect your personal information to manage, store and process subscriber information, including your name, email address and if provided, your TED subscriber ID.",
+   "prohibit": "TED does not collect, process or store any personal information from subscribers of TED ad-free video content through the iOS app unless a user contacts TED directly via support.",
+   "situation": "A user signs up as a subscriber to TED's ad-free video content in the iOS app and does not contact support.",
+   "reason": "The policy states TED collects subscriber personal info upon signup, but simultaneously states it does not collect, process, or store any personal info unless support is contacted.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We may collect non-personal information about the computer, mobile device or other device you use to access TED Sites, such as IP address, geolocation information, unique device identifiers, browser type, browser language and other preferences automatically collected.",
+   "prohibit": "We may collect and use your location data (such as your country) to provide a tailored, language-specific experience for your region, but we don’t collect any geolocation-specific data from you or your device.",
+   "situation": "Accessing TED Sites using a computer or mobile device.",
+   "reason": "One provision explicitly claims TED collects geolocation information from the device, while the other explicitly denies collecting any geolocation-specific data from the user or device.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 6749,
+  "completion_tokens": 381,
+  "thinking_tokens": 0,
+  "seconds": 6.562564373016357,
+  "failures": 0
+ }
+}

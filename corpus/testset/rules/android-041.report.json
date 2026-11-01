@@ -1,0 +1,595 @@
+{
+ "cleaned_sha256": "android-041",
+ "text_sha256": "f60feaa5cde619e02da2a5777e38929ea143fdfbb0a57d8d0ffb670570509fd0",
+ "site_id": "android-041",
+ "sections": 21,
+ "rules": 305,
+ "report": {
+  "sections": 21,
+  "raw_rules": 265,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rely on: consent ... to send",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to send you email marketing",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-041#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rely on: consent ... to deliver",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deliver",
+      "verb": "deliver"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to deliver third-party targeted advertising to you on our Services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-041#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To operate our business and to enhance and personalize your game experience, including to:\nOperate, analyze, improve, and develop our games and Services;\nUndertake research and analysis to develop and demonstrate our technology, and to better understand our players;\nPopulate online leaderboards and enable online matchmaking;\nProvide replays to you and other players via spectator modes;\nHelp you find your friends or tell your friends about an EA game or Service;\nFacilitate sharing on social networks;\nManage and serve advertising in-game and on third-party platforms;\nMeasure the effectiveness and distribution of advertising, including understanding who engages with our Services and how they interact with our Services;\nMeasure the health of our Services;\nDetect security incidents, protect against malicious, deceptive, fraudulent or illegal activity, and prosecute those responsible for that activity;\nSet up and maintain accounts for which you register;\nProvide game experiences that you may like, including personalizing your game experience;\nSet up and facilitate loyalty programs;\nFacilitate your gameplay on multiple devices and/or platforms, as applicable;\nIdentify, fix, and troubleshoot bugs or functionality errors;\nProvide software updates;\nAuthenticate and activate your games and save game-play data, including progress;\nFacilitate competitions and contests;\nPerform audits, transactions, and other compliance activities;\nAdhere to your preferences and to deliver content;\nHelp keep our Services safe and fair, including for such purposes as described in\nSection 2(D)\nand to further our\nContent Moderation and Enforcement\n;\nResolve disputes, investigate and help curb fraud and illegal behavior, comply with the law, and enforce our agreements and policies; and\nOther purposes you consent to, are notified of, or are otherwise disclosed to you when you provide personal information.\nTo provide you support, including to:\nHelp identify and troubleshoot problems with your account or Services;\nFacilitate surveys or questionnaires;\nCommunicate with you and respond to your specific requests or questions;\nManage and send you confirmations and important information about your account, Services, purchases, subscriptions, and warranties.\nTo personalize our communications with you, including to:\nProvide you with relevant EA content, recommendations, information or offers;\nProvide you with Service updates",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "both individually and combined together"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Section 2(D)",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Content Moderation and Enforcement",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "To operate our business and to enhance and personalize your game experience, including to:\nOperate, analyze, improve, and develop our games and Services;\nUndertake research and analysis to develop and demonstrate our technology, and to better understand our players;\nPopulate online leaderboards and enable online matchmaking;\nProvide replays to you and other players via spectator modes;\nHelp you find your friends or tell your friends about an EA game or Service;\nFacilitate sharing on social networks;\nManage and serve advertising in-game and on third-party platforms;\nMeasure the effectiveness and distribution of advertising, including understanding who engages with our Services and how they interact with our Services;\nMeasure the health of our Services;\nDetect security incidents, protect against malicious, deceptive, fraudulent or illegal activity, and prosecute those responsible for that activity;\nSet up and maintain accounts for which you register;\nProvide game experiences that you may like, including personalizing your game experience;\nSet up and facilitate loyalty programs;\nFacilitate your gameplay on multiple devices and/or platforms, as applicable;\nIdentify, fix, and troubleshoot bugs or functionality errors;\nProvide software updates;\nAuthenticate and activate your games and save game-play data, including progress;\nFacilitate competitions and contests;\nPerform audits, transactions, and other compliance activities;\nAdhere to your preferences and to deliver content;\nHelp keep our Services safe and fair, including for such purposes as described in\nSection 2(D)\nand to further our\nContent Moderation and Enforcement\n;\nResolve disputes, investigate and help curb fraud and illegal behavior, comply with the law, and enforce our agreements and policies; and\nOther purposes you consent to, are notified of, or are otherwise disclosed to you when you provide personal information.\nTo provide you support, including to:\nHelp identify and troubleshoot problems with your account or Services;\nFacilitate surveys or questionnaires;\nCommunicate with you and respond to your specific requests or questions;\nManage and send you confirmations and important information about your account, Services, purchases, subscriptions, and warranties.\nTo personalize our communications with you, including to:\nProvide you with relevant EA content, recommendations, information or offers;\nProvide you with Service updates"
+    ],
+    "section": "android-041#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Identifiers; such as a real name, user name, account name, email, online identifiers, device identifiers, IP address, or mobile device identifiers",
+      "name": "identifiers"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Purchase information; such as payment card number, payment account details, billing address, and other payment information",
+      "name": "financial information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Characteristics of Protected Classifications under state or federal law; such as age or gender",
+      "name": "protected classifications"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Commercial Information; such as products or services interaction and purchase history",
+      "name": "commercial information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Internet or Electronic Network Activity information; such as, browsing history, search history, and information regarding interactions with our games, websites, applications, and/or advertisements",
+      "name": "electronic network activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Approximate (coarse) geolocation data; such as location data derived from IP address or device settings",
+      "name": "coarse geolocation"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Audio or Electronic information",
+      "name": "audio or electronic information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months",
+      "such as when you play our games, play certain multiplayer modes, use chat features, or participate in competitive game modes or live events"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Contents of players' in-game messaging",
+      "name": "in-game messages"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have been disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Inferences; such as consumer preferences drawn from the above",
+      "name": "inferences"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "10. Information for California Residents",
+      "Depending on your use of our Services",
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as these categories are defined under the California Consumer Privacy Act (\"CCPA\")",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have been disclosed"
+    ],
+    "section": "android-041#s17"
+   }
+  ],
+  "residual_quotes": 36,
+  "quotes": 126,
+  "completeness": {
+   "gaps": 358,
+   "gap_words": 3793
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 126,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 69951,
+  "completion_tokens": 55402,
+  "thinking_tokens": 0,
+  "seconds": 377.32161688804626,
+  "failures": 0
+ },
+ "seconds": 379.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

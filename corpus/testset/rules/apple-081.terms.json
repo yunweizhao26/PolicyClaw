@@ -1,0 +1,305 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device id",
+    "information": "data",
+    "personal information": "personal data",
+    "photograph": "photo",
+    "video recording": "video"
+   },
+   "parents": {
+    "IP address": [
+     "device id"
+    ],
+    "advertising identifier": [
+     "device id"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "anonymized information": [
+     "data"
+    ],
+    "blog comment": [
+     "user comment"
+    ],
+    "browser language": [
+     "language"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "clicked links": [
+     "browsing activity"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookie data": [
+     "device information"
+    ],
+    "cookies": [
+     "unique identifier"
+    ],
+    "crash data": [
+     "device information"
+    ],
+    "customer support interaction": [
+     "data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device id": [
+     "device information",
+     "unique identifier"
+    ],
+    "device information": [
+     "data"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "device orientation": [
+     "device information"
+    ],
+    "driver's license or state id": [
+     "government-issued identification number"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "estimated geolocation": [
+     "location"
+    ],
+    "feature usage data": [
+     "browsing and interaction data"
+    ],
+    "financial": [
+     "personal data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "government-issued identification number": [
+     "sensitive data"
+    ],
+    "image": [
+     "data"
+    ],
+    "job application information": [
+     "data"
+    ],
+    "last name": [
+     "name"
+    ],
+    "likes": [
+     "social media submission"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "operating system name": [
+     "device information"
+    ],
+    "operating system version": [
+     "device information"
+    ],
+    "payment card": [
+     "financial"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photo": [
+     "image"
+    ],
+    "pixel tags": [
+     "unique identifier"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "product review": [
+     "user comment"
+    ],
+    "profile": [
+     "personal data"
+    ],
+    "referring and exit pages": [
+     "browsing activity"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "session id": [
+     "unique identifier"
+    ],
+    "site visit information": [
+     "browsing and interaction data"
+    ],
+    "social media comments": [
+     "social media submission",
+     "user comment"
+    ],
+    "social media profile": [
+     "profile"
+    ],
+    "social media submission": [
+     "data"
+    ],
+    "survey response": [
+     "data"
+    ],
+    "tax id": [
+     "government-issued identification number"
+    ],
+    "user comment": [
+     "data"
+    ],
+    "vehicle identification number": [
+     "unique identifier"
+    ],
+    "vehicle location": [
+     "location"
+    ],
+    "video": [
+     "data"
+    ],
+    "visit duration": [
+     "browsing and interaction data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party entity": "third party"
+   },
+   "parents": {
+    "advertising provider": [
+     "service provider",
+     "third party"
+    ],
+    "co-branding and joint marketing partners": [
+     "business partner"
+    ],
+    "research partners": [
+     "business partner"
+    ],
+    "law enforcement": [
+     "law enforcement, courts, regulatory agencies, and others"
+    ],
+    "law enforcement or government agencies": [
+     "law enforcement, courts, regulatory agencies, and others"
+    ],
+    "platform operator": [
+     "third party"
+    ],
+    "authority": [
+     "third party"
+    ],
+    "public partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "affiliate": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "user's child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertiser"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud and privacy prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "service provision"
+    ],
+    "legal requirement": [
+     "legal compliance"
+    ],
+    "research": [
+     "analytics"
+    ],
+    "security incident remediation": [
+     "security"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "to confirm your identity and eligibility for employment": [
+     "To hire or employ you",
+     "identity verification"
+    ],
+    "to determine if you meet any applicable minimum age requirement": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3466,
+  "completion_tokens": 1212,
+  "thinking_tokens": 0,
+  "seconds": 14.381213426589966,
+  "failures": 0
+ },
+ "seconds": 14.5
+}

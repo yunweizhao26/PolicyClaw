@@ -1,0 +1,86 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "all personal data about your user",
+    "personal information": "all personal data about your user",
+    "personally identifiable information": "all personal data about your user",
+    "user data": "all data about your user"
+   },
+   "parents": {
+    "all data saved about you in the game": [
+     "information"
+    ],
+    "all personal data about your user": [
+     "all data about your user",
+     "information"
+    ],
+    "game achievements": [
+     "all data saved about you in the game",
+     "information"
+    ],
+    "game progress": [
+     "all data saved about you in the game",
+     "information"
+    ],
+    "game score": [
+     "all data saved about you in the game",
+     "information"
+    ],
+    "member information": [
+     "all data about your user",
+     "information"
+    ],
+    "registration information": [
+     "all personal data about your user",
+     "information"
+    ],
+    "all data about your user": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party entity": "third party"
+   },
+   "parents": {
+    "third-party gaming or social networking system": [
+     "third party"
+    ],
+    "other-users": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Raketspel AB"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account-recovery": [
+     "customer-service",
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1363,
+  "completion_tokens": 482,
+  "thinking_tokens": 0,
+  "seconds": 9.256532907485962,
+  "failures": 0
+ },
+ "seconds": 9.3
+}

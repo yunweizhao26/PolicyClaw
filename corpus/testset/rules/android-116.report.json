@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "android-116",
+ "text_sha256": "d91b7a931ac6b0c148c09abcf0988cea16b87e32b4b1aad94e0ed4b15ffe6e7a",
+ "site_id": "android-116",
+ "sections": 9,
+ "rules": 80,
+ "report": {
+  "sections": 9,
+  "raw_rules": 71,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "interest-based advertising",
+      "verb": "advertise"
+     },
+     "operation": "use",
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [
+      {
+       "text": "interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "on mobile applications"
+     ],
+     "exceptions": [
+      "checking the privacy settings of your Android or iOS device and selecting \"limit ad tracking\" (Apple iOS) or \"opt-out of interest based ads\" (Android)",
+      "reset your device's ad identifier, by changing the settings of your device"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-116#s7"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 23,
+  "completeness": {
+   "gaps": 57,
+   "gap_words": 728
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 23,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 24378,
+  "completion_tokens": 13391,
+  "thinking_tokens": 0,
+  "seconds": 168.44849681854248,
+  "failures": 0
+ },
+ "seconds": 168.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

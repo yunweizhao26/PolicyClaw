@@ -1,0 +1,224 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "login credentials": "account credentials",
+    "personal information": "personal data",
+    "platform ID": "account identifier",
+    "sensitive personal data": "sensitive data",
+    "user data": "information about you"
+   },
+   "parents": {
+    "password": [
+     "account credentials"
+    ],
+    "user name": [
+     "account credentials"
+    ],
+    "account identifier": [
+     "account information",
+     "unique identifier"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "gamertag": [
+     "account information"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "software details": [
+     "device information"
+    ],
+    "browsing history": [
+     "user activity"
+    ],
+    "service use": [
+     "user activity"
+    ],
+    "gameplay data": [
+     "user activity"
+    ],
+    "gameplay statistics": [
+     "gameplay data"
+    ],
+    "in-game achievements": [
+     "gameplay data"
+    ],
+    "software products played": [
+     "gameplay data"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "gaming service ID": [
+     "unique identifier"
+    ],
+    "financial details": [
+     "payment details"
+    ],
+    "purchase history": [
+     "payment details"
+    ],
+    "photograph": [
+     "image"
+    ],
+    "photos": [
+     "image"
+    ],
+    "video": [
+     "user content"
+    ],
+    "video footage": [
+     "video"
+    ],
+    "audio data": [
+     "user content"
+    ],
+    "profile inferences": [
+     "inferences"
+    ],
+    "precise location": [
+     "geographic location"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "systems or platforms played on": [
+     "software details"
+    ],
+    "video viewing information": [
+     "user activity"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "publicly available information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "advertising service provider": [
+     "service provider",
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "social media": [
+     "third party platform"
+    ],
+    "third party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising service provider": "advertising provider"
+   },
+   "parents": {
+    "advertising provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "judiciary": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "national security authorities": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "legal compliance": [
+     "fraud-prevention and legal compliance"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "support": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "service administration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2617,
+  "completion_tokens": 832,
+  "thinking_tokens": 0,
+  "seconds": 9.868669748306274,
+  "failures": 0
+ },
+ "seconds": 10.0
+}

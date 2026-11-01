@@ -1,0 +1,245 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "images": "image",
+    "information": "data",
+    "organization name": "organisation name",
+    "personal information": "personal data",
+    "physical address": "address",
+    "postal address": "address",
+    "session duration": "duration of visit",
+    "session time": "duration of visit",
+    "user gameplay": "games played",
+    "user profile information": "user profile",
+    "user ratings": "ratings"
+   },
+   "parents": {
+    "account preferences": [
+     "account details"
+    ],
+    "age range": [
+     "age"
+    ],
+    "date of birth": [
+     "age"
+    ],
+    "business affiliations": [
+     "affiliation",
+     "organization affiliation"
+    ],
+    "organization affiliation": [
+     "affiliation"
+    ],
+    "chatbot interaction data": [
+     "chatbot data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "postal code": [
+     "geographic location"
+    ],
+    "customer and enterprise personal data": [
+     "personal data"
+    ],
+    "error and crash data": [
+     "error data"
+    ],
+    "error messages": [
+     "error data"
+    ],
+    "feedback URL": [
+     "feedback information"
+    ],
+    "feedback": [
+     "feedback information"
+    ],
+    "game title": [
+     "games played"
+    ],
+    "games played": [
+     "interaction details"
+    ],
+    "hashed user data": [
+     "pseudonymous personal data"
+    ],
+    "operating system": [
+     "hardware information",
+     "installation and configuration details"
+    ],
+    "ip address": [
+     "installation and configuration details"
+    ],
+    "order history": [
+     "order information"
+    ],
+    "organisation name": [
+     "affiliation"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "request history": [
+     "request"
+    ],
+    "user profile": [
+     "account details"
+    ],
+    "username": [
+     "account details"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "browsing history": [
+     "browsing data"
+    ],
+    "duration of visit": [
+     "browsing data"
+    ],
+    "web page": [
+     "browsing data"
+    ],
+    "web response times": [
+     "browsing data"
+    ],
+    "mouse movements": [
+     "interaction details"
+    ],
+    "email interaction data": [
+     "interaction details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "GeForce NOW Alliance partner": "GeForce NOW Alliance Partner",
+    "advertising network": "ad network",
+    "third party ad provider": "advertising provider"
+   },
+   "parents": {
+    "6Sense": [
+     "commercial entity"
+    ],
+    "Leadspace": [
+     "commercial entity"
+    ],
+    "Google": [
+     "ad network",
+     "advertising provider"
+    ],
+    "GeForce NOW Alliance Partner": [
+     "business partner"
+    ],
+    "fulfillment partner": [
+     "business partner"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "shipping or logistics vendor": [
+     "vendor"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "commercial entity",
+     "third party"
+    ],
+    "advertising provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "commercial entity": [
+     "third party"
+    ],
+    "publicly available sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "hCaptcha": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud detection",
+    "targeted advertising": "interest based advertising"
+   },
+   "parents": {
+    "account management": [
+     "operations management"
+    ],
+    "customized communication": [
+     "communication",
+     "personalization"
+    ],
+    "identity verification": [
+     "user identification"
+    ],
+    "interest based advertising": [
+     "advertising"
+    ],
+    "product personalization": [
+     "personalization"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2957,
+  "completion_tokens": 1183,
+  "thinking_tokens": 0,
+  "seconds": 20.99095392227173,
+  "failures": 0
+ },
+ "seconds": 21.1
+}

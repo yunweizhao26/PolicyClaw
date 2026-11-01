@@ -1,0 +1,244 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "location": "geographic location",
+    "personal_data": "personal data",
+    "sensitive personal information": "sensitive personal data"
+   },
+   "parents": {
+    "account password": [
+     "identifiers"
+    ],
+    "account username": [
+     "identifiers"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "aggregated information": [
+     "information"
+    ],
+    "analytics data": [
+     "information"
+    ],
+    "clear gifs": [
+     "tracking technologies"
+    ],
+    "clickstream data": [
+     "interaction with websites or advertisement"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device identifier": [
+     "identifiers",
+     "online identifier"
+    ],
+    "device model": [
+     "information"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers",
+     "online identifier"
+    ],
+    "email interactions": [
+     "interaction with websites or advertisement"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "geographic location": [
+     "information"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "interaction with websites or advertisement": [
+     "information"
+    ],
+    "ip address": [
+     "identifiers",
+     "online identifier"
+    ],
+    "job-related information": [
+     "information"
+    ],
+    "keystrokes typed": [
+     "interaction with websites or advertisement"
+    ],
+    "links clicked": [
+     "clickstream data",
+     "interaction with websites or advertisement"
+    ],
+    "mouse movement": [
+     "interaction with websites or advertisement"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "operating system": [
+     "information"
+    ],
+    "personal details": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "pixel tags": [
+     "tracking technologies"
+    ],
+    "postal address": [
+     "contact info",
+     "identifiers"
+    ],
+    "pseudonym": [
+     "identifiers"
+    ],
+    "purchase history": [
+     "personal data"
+    ],
+    "purchased products": [
+     "purchase history"
+    ],
+    "referring sites or apps": [
+     "interaction with websites or advertisement"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "session data": [
+     "information"
+    ],
+    "signature": [
+     "identifiers"
+    ],
+    "time spent viewing or using websites and pages visited": [
+     "interaction with websites or advertisement"
+    ],
+    "tracking technologies": [
+     "information"
+    ],
+    "unique code": [
+     "identifiers"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "user-generated content": [
+     "information"
+    ],
+    "videos viewed": [
+     "interaction with websites or advertisement"
+    ],
+    "viewed webpages": [
+     "interaction with websites or advertisement",
+     "time spent viewing or using websites and pages visited"
+    ],
+    "visit frequency": [
+     "interaction with websites or advertisement"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "service provider",
+     "third-party partners"
+    ],
+    "third-party advertising networks": [
+     "third-party partners"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service-provision": "provide service",
+    "service_improvement": "service optimization",
+    "service_provision": "provide service",
+    "targeted-advertising": "targeted advertising",
+    "user identification": "identity-verification",
+    "user verification": "identity-verification"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "payroll administration": [
+     "human resources management"
+    ],
+    "dispute resolution": [
+     "human resources management"
+    ],
+    "identity-verification": [
+     "account_management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2611,
+  "completion_tokens": 1049,
+  "thinking_tokens": 0,
+  "seconds": 12.07175326347351,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

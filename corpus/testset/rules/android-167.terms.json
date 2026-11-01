@@ -1,0 +1,276 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email addresses": "email address",
+    "names": "name",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "phone numbers": "phone number",
+    "user-generated content": "User-Generated Content"
+   },
+   "parents": {
+    "account login credentials": [
+     "personal data"
+    ],
+    "account username": [
+     "account login credentials",
+     "personal data",
+     "personal identification information"
+    ],
+    "billing address": [
+     "contact info",
+     "financial data",
+     "postal address"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "usage data"
+    ],
+    "chat logs": [
+     "User-Generated Content",
+     "communications"
+    ],
+    "coarse location": [
+     "location details"
+    ],
+    "credit card number": [
+     "financial data",
+     "sensitive personal information"
+    ],
+    "customer preferences": [
+     "user data"
+    ],
+    "data about how you interact with content": [
+     "interaction details",
+     "usage data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "feedback": [
+     "User-Generated Content",
+     "communications"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "information about subscription plans": [
+     "subscription details"
+    ],
+    "interaction details": [
+     "usage data"
+    ],
+    "ip address": [
+     "device details",
+     "personal data"
+    ],
+    "location details": [
+     "personal data"
+    ],
+    "log data": [
+     "usage data"
+    ],
+    "marketing preferences": [
+     "customer preferences"
+    ],
+    "name": [
+     "contact info",
+     "personal identification information"
+    ],
+    "order details": [
+     "purchase history"
+    ],
+    "payment transaction history": [
+     "financial data",
+     "purchase history"
+    ],
+    "personal identification information": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photos": [
+     "User-Generated Content"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "precise location": [
+     "location details",
+     "sensitive personal information"
+    ],
+    "purchase history": [
+     "user data"
+    ],
+    "reviews": [
+     "User-Generated Content",
+     "feedback"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "shipping address": [
+     "contact info",
+     "postal address"
+    ],
+    "subscription details": [
+     "user data"
+    ],
+    "survey responses": [
+     "User-Generated Content"
+    ],
+    "usage patterns": [
+     "usage data"
+    ],
+    "user behavior": [
+     "usage data"
+    ],
+    "User-Generated Content": [
+     "user data"
+    ],
+    "video viewing history": [
+     "browsing history",
+     "usage data"
+    ],
+    "viewing of our Services": [
+     "browsing activity",
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "advertising_network": [
+     "third party"
+    ],
+    "business transferee": [
+     "third party",
+     "unspecified third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "subsequent owner(s) or successor(s)": [
+     "business transferee",
+     "third party",
+     "unspecified third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliated companies": "affiliate"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising_network": "advertising partner",
+    "first party": "Times Internet Inc.",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service_provision": "service delivery",
+    "to fulfill the purposes outlined in this Privacy Notice and our Terms": "for the purposes set forth in this Privacy Notice"
+   },
+   "parents": {
+    "interest-based advertising": [
+     "advertising"
+    ],
+    "analytics and service improvement": [
+     "analytics",
+     "service improvement"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "research and development": [
+     "analytics or research"
+    ],
+    "targeted marketing": [
+     "marketing"
+    ],
+    "personalize recommendations": [
+     "personalization"
+    ],
+    "personalize service": [
+     "personalization"
+    ],
+    "compliance": [
+     "legal and compliance"
+    ],
+    "legal": [
+     "legal and compliance"
+    ],
+    "fraud prevention or security": [
+     "security"
+    ],
+    "enforce_terms": [
+     "legal"
+    ],
+    "service operation": [
+     "service delivery"
+    ],
+    "contract": [
+     "service delivery"
+    ],
+    "customer support": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3200,
+  "completion_tokens": 1365,
+  "thinking_tokens": 0,
+  "seconds": 14.800581932067871,
+  "failures": 0
+ },
+ "seconds": 14.9
+}

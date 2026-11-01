@@ -1,0 +1,295 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "geolocation": "geographic location",
+    "inferences about user": "inferences",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "photograph": "images",
+    "precise location": "precise geolocation",
+    "voice recording": "voice communication recording"
+   },
+   "parents": {
+    "Personal Information held about you by Redfin": [
+     "Personal Information"
+    ],
+    "Personal Information regarding your activities on our Sites, Services": [
+     "Personal Information"
+    ],
+    "Personal Information that you have provided to us": [
+     "Personal Information"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "financial information": [
+     "Personal Information"
+    ],
+    "commercial information": [
+     "Personal Information"
+    ],
+    "identifiers": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "driver's license number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "personal identifier": [
+     "identifiers"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "hardware id": [
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "pseudonym": [
+     "identifiers"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "precise geolocation": [
+     "geographic location",
+     "location",
+     "sensitive data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "favorites": [
+     "browsing activity"
+    ],
+    "saved searches": [
+     "browsing activity"
+    ],
+    "images": [
+     "audio or visual information"
+    ],
+    "voice communication recording": [
+     "audio or visual information"
+    ],
+    "real estate listing details": [
+     "real estate details"
+    ],
+    "property details": [
+     "real estate details"
+    ],
+    "transaction-related emails": [
+     "emails",
+     "non-promotional communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising companies": "ad companies",
+    "prospective buyers": "potential buyer"
+   },
+   "parents": {
+    "LiveRamp Inc.": [
+     "service provider",
+     "third party"
+    ],
+    "ad companies": [
+     "third party"
+    ],
+    "analytics providers": [
+     "service provider",
+     "third party"
+    ],
+    "closing attorney": [
+     "service provider",
+     "third party"
+    ],
+    "escrow agent": [
+     "service provider",
+     "third party"
+    ],
+    "inspector": [
+     "service provider",
+     "third party"
+    ],
+    "lender": [
+     "service provider",
+     "third party"
+    ],
+    "multiple listing service": [
+     "third party"
+    ],
+    "partner agent": [
+     "real estate professional"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party website": [
+     "third party"
+    ],
+    "title company": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "ad networks": [
+     "third parties"
+    ],
+    "commercial partners": [
+     "third parties"
+    ],
+    "data brokers": [
+     "third parties"
+    ],
+    "third party advertisements": [
+     "third parties"
+    ],
+    "user": [
+     "user, mls, and other third parties"
+    ],
+    "third parties": [
+     "user, mls, and other third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "partner",
+     "third party"
+    ],
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "LiveRamp": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "marketing": "advertising or marketing",
+    "service-provision": "service provision",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision",
+    "targeted advertising": "ad targeting",
+    "user account management": "account_management"
+   },
+   "parents": {
+    "ad targeting": [
+     "advertising"
+    ],
+    "advertising": [
+     "advertising or marketing"
+    ],
+    "marketing communications": [
+     "advertising or marketing",
+     "communication"
+    ],
+    "audit": [
+     "auditing_and_reporting"
+    ],
+    "fraud detection and prevention": [
+     "prevention of fraud and security issues",
+     "security"
+    ],
+    "prevention of fraud and security issues": [
+     "security"
+    ],
+    "debugging": [
+     "service_optimization"
+    ],
+    "legal-defense": [
+     "compliance"
+    ],
+    "legal-dispute": [
+     "compliance"
+    ],
+    "service improvement": [
+     "service_optimization"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "customer_support": [
+     "service provision"
+    ],
+    "safety": [
+     "protection of rights and property"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3790,
+  "completion_tokens": 1306,
+  "thinking_tokens": 0,
+  "seconds": 14.015478372573853,
+  "failures": 0
+ },
+ "seconds": 14.1
+}

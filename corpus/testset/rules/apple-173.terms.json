@@ -1,0 +1,259 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "customer number": "customer ID",
+    "driver's license number": "driver license number",
+    "drivers license number": "driver license number",
+    "electronic visual and similar information": "audiovisual data",
+    "hardware device ID": "device identifier",
+    "identifying information": "identifiers",
+    "ip address": "IP address",
+    "mobile ad identifiers": "advertising ID",
+    "personal information": "personal data",
+    "pixel tags": "pixel tag data",
+    "property records": "personal property records",
+    "purchasing history": "purchase history",
+    "real name": "name",
+    "state ID number": "identification card number",
+    "telephone number": "phone number",
+    "unique pseudonym": "pseudonym",
+    "user alias": "alias",
+    "web beacon data": "beacons",
+    "website activity": "interaction data"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "advertising ID": [
+     "identifiers"
+    ],
+    "alias": [
+     "identifiers"
+    ],
+    "beacons": [
+     "identifiers"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "clickstream data": [
+     "browsing and interaction data"
+    ],
+    "cookie data": [
+     "identifiers"
+    ],
+    "customer ID": [
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "interaction data": [
+     "browsing and interaction data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "persistent or probabilistic identifiers": [
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "pixel tag data": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "pseudonym": [
+     "identifiers"
+    ],
+    "search history": [
+     "browsing and interaction data"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "debit card number": [
+     "financial information"
+    ],
+    "driver license number": [
+     "government identifier"
+    ],
+    "identification card number": [
+     "government identifier"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "social security number": [
+     "government identifier"
+    ],
+    "personal property records": [
+     "commercial information"
+    ],
+    "products or services purchased, obtained, or considered": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "age": [
+     "demographic information"
+    ],
+    "citizenship": [
+     "demographic information"
+    ],
+    "disabilities": [
+     "demographic information"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "gender identity": [
+     "demographic information"
+    ],
+    "military status": [
+     "demographic information"
+    ],
+    "sex": [
+     "demographic information"
+    ],
+    "inferences": [
+     "profile"
+    ],
+    "profiling data": [
+     "profile"
+    ],
+    "education level": [
+     "education history"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "other recipient": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsors": [
+     "third party"
+    ],
+    "third-party marketer": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "public demographic information": [
+     "publicly available source"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "security and fraud prevention": "security"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "processing transactions": [
+     "provide services",
+     "service provision"
+    ],
+    "improve services": [
+     "business operations and improvement"
+    ],
+    "product improvement": [
+     "business operations and improvement"
+    ],
+    "service administration": [
+     "business operations and improvement"
+    ],
+    "customer research": [
+     "business operations and improvement"
+    ],
+    "demographic research": [
+     "analytics"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "debug": [
+     "technical support"
+    ],
+    "loyalty and rewards program administration": [
+     "provide services"
+    ],
+    "promotion and contest administration": [
+     "marketing"
+    ],
+    "research and development": [
+     "business operations and improvement"
+    ],
+    "provide services": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ],
+    "marketing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3230,
+  "completion_tokens": 1227,
+  "thinking_tokens": 0,
+  "seconds": 13.112879276275635,
+  "failures": 0
+ },
+ "seconds": 13.2
+}

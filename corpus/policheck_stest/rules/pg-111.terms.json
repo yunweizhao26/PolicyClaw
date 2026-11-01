@@ -1,0 +1,92 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "personal data"
+   },
+   "parents": {
+    "credit card number": [
+     "financial information",
+     "personal data",
+     "personally identifiable information"
+    ],
+    "email address": [
+     "personal data",
+     "personally identifiable information"
+    ],
+    "financial information": [
+     "personal data",
+     "personally identifiable information"
+    ],
+    "name": [
+     "personal data",
+     "personally identifiable information"
+    ],
+    "phone number": [
+     "personal data",
+     "personally identifiable information"
+    ],
+    "postal address": [
+     "personal data",
+     "personally identifiable information"
+    ],
+    "personally identifiable information": [
+     "personal data"
+    ],
+    "non-personally identifiable information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "unspecified third party": "outside parties"
+   },
+   "parents": {
+    "Payment gateway providers": [
+     "outside parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "legal process": [
+     "compliance"
+    ],
+    "service functionality": [
+     "fulfill service or transaction"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1289,
+  "completion_tokens": 351,
+  "thinking_tokens": 0,
+  "seconds": 26.446691036224365,
+  "failures": 0
+ },
+ "seconds": 26.5
+}

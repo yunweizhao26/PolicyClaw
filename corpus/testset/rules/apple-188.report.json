@@ -1,0 +1,128 @@
+{
+ "cleaned_sha256": "apple-188",
+ "text_sha256": "b177d626795706c95d516c2a288144e322c6c651e4dfb34095fb31a94b8a509a",
+ "site_id": "apple-188",
+ "sections": 11,
+ "rules": 224,
+ "report": {
+  "sections": 11,
+  "raw_rules": 186,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "conduct",
+      "verb": "conduct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not conduct",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-188#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Subject to your consent"
+     ],
+     "data": {
+      "name": "user uploaded content",
+      "text": "files or samples of files"
+     },
+     "exceptions": [
+      "withdrawn your consent at any time before the anonymisation process is complete by inquiring it in the dedicated Slack channel or by contacting us at dpo@readdle.com"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to develop and improve our App and our other products, including AI features and underlying AI technologies, as well as internal automations and workflows",
+       "name": "analytics or product research"
+      },
+      {
+       "text": "optimising existing features, developing new ones, and refining the AI capabilities used for our products and internal workflows",
+       "name": "analytics or product research"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "withdrawn your consent at any time before the anonymisation process is complete by inquiring it in the dedicated Slack channel or by contacting us at dpo@readdle.com"
+    ],
+    "section": "apple-188#s7"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 105,
+  "completeness": {
+   "gaps": 428,
+   "gap_words": 3105
+  },
+  "unsatisfiable_guards": 6,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 105,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 46835,
+  "completion_tokens": 34503,
+  "thinking_tokens": 0,
+  "seconds": 349.139888048172,
+  "failures": 0
+ },
+ "seconds": 350.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

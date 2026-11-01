@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "billing information": "billing details",
+    "crash data": "Crash data",
+    "documents": "Your documents",
+    "email address": "email",
+    "this identifier": "a unique user identifier",
+    "your billing information": "billing details",
+    "your documents": "Your documents",
+    "your location information": "your location"
+   },
+   "parents": {
+    "incorrect, inaccurate or incomplete personal data": [
+     "personal data"
+    ],
+    "the text of the first page of your scanned document": [
+     "Your documents",
+     "the text",
+     "your scanned documents"
+    ],
+    "your scanned documents": [
+     "Your documents"
+    ],
+    "diagnostics containing detailed logs of the app's activity": [
+     "These logs",
+     "some logs"
+    ],
+    "These logs": [
+     "some logs"
+    ],
+    "payment methods": [
+     "billing details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Amazon (AWS)": [
+     "a third party"
+    ],
+    "Amplitude": [
+     "a third party"
+    ],
+    "DocsBot": [
+     "a third party"
+    ],
+    "HelpScout": [
+     "a third party"
+    ],
+    "Heroku": [
+     "a third party"
+    ],
+    "OpenAI": [
+     "a third party"
+    ],
+    "RevenueCat": [
+     "a third party"
+    ],
+    "Sentry": [
+     "a third party"
+    ],
+    "Solarwinds (Papertrail)": [
+     "a third party"
+    ],
+    "Stripe": [
+     "a third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Stripe": [
+     "the payment providers"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "We": "The Grizzly Labs",
+    "first party": "The Grizzly Labs",
+    "our": "The Grizzly Labs",
+    "we": "The Grizzly Labs"
+   },
+   "parents": {
+    "Genius Scan": [
+     "The Grizzly Labs"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "so that Genius Scan can synchronize them between your devices and back them up": "for backup and synchronization"
+   },
+   "parents": {
+    "to identify repeated sessions for a given user": [
+     "Analytics"
+    ],
+    "to know what to improve, refactor or remove from the application": [
+     "Analytics"
+    ],
+    "to improve the app's quality": [
+     "Analytics"
+    ],
+    "to debug problems in our servers": [
+     "to ensure the functionality of our service"
+    ],
+    "Store processed scans": [
+     "to ensure the functionality of our service"
+    ],
+    "for backup and synchronization": [
+     "to ensure the functionality of our service"
+    ],
+    "To manage your purchases": [
+     "for managing subscriptions and payments"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3006,
+  "completion_tokens": 875,
+  "thinking_tokens": 0,
+  "seconds": 10.595268726348877,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

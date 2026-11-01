@@ -1,0 +1,106 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "collected data",
+    "information": "collected data"
+   },
+   "parents": {
+    "advertising ID": [
+     "device identifier"
+    ],
+    "ip address": [
+     "device identifier"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "device identifier": [
+     "device characteristics"
+    ],
+    "personal data": [
+     "collected data"
+    ],
+    "user-generated content": [
+     "personal data"
+    ],
+    "name": [
+     "personal data",
+     "user-generated content"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "username": [
+     "personal data"
+    ],
+    "credit card information": [
+     "personal data"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "demographic and interest information": [
+     "personal data"
+    ],
+    "ad interaction": [
+     "usage data"
+    ],
+    "game progress": [
+     "app usage",
+     "usage data"
+    ],
+    "inquiry information": [
+     "collected data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party advertising network": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "partner"
+    ],
+    "analytics provider": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "cross-app tracking": [
+     "advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1498,
+  "completion_tokens": 391,
+  "thinking_tokens": 0,
+  "seconds": 7.362081050872803,
+  "failures": 0
+ },
+ "seconds": 7.4
+}

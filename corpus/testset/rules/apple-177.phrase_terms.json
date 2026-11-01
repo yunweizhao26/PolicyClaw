@@ -1,0 +1,652 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Employment or Professional Information": "Employment Information",
+    "Geolocation information": "Geolocation Data",
+    "Identifiers": "Identificadores",
+    "Personal Data": "Datos personales",
+    "Your Personal Data": "Datos personales",
+    "contenido del usuario": "User Content",
+    "datos audiovisuales": "Audio/Video Data",
+    "datos de actividad en línea": "Online Activity Data",
+    "datos de marketing": "Marketing Data",
+    "datos personales confidenciales": "Sensitive Personal Data",
+    "el nombre de sus instituciones financieras": "The name of your financial institution(s)",
+    "email address": "dirección de correo electrónico",
+    "full bank account number": "el número completo de su cuenta bancaria",
+    "images of your credit card receipts from transactions at Upside merchant partners": "Images of your credit card receipts from transactions at Upside merchant partners",
+    "imágenes de sus recibos de tarjeta de crédito de transacciones en comercios asociados a Upside": "Images of your credit card receipts from transactions at Upside merchant partners",
+    "información comercial": "Commercial Information",
+    "información de empleo": "Employment Information",
+    "información del dispositivo": "Device Information",
+    "información laboral o profesional": "Employment Information",
+    "información sobre transacciones que recibimos de nuestros socios comerciales": "datos sobre transacciones",
+    "information": "información",
+    "information about our users": "información sobre nuestros usuarios",
+    "information about what advertisements you viewed": "información sobre los anuncios que vio",
+    "interests": "intereses",
+    "la dirección de correo electrónico asociada con su cuenta de PayPal": "Your PayPal login email address",
+    "la ubicación del dispositivo": "device location",
+    "language": "idioma",
+    "login credentials": "información de inicio de sesión",
+    "login information": "información de inicio de sesión",
+    "los últimos cuatro dígitos del número de su cuenta bancaria": "los últimos cuatro dígitos de sus números de cuenta bancaria",
+    "manufacturer": "fabricante y modelo del dispositivo",
+    "marketing-related emails": "correos electrónicos de marketing",
+    "mensajes administrativos importantes": "important administrative messages",
+    "model": "fabricante y modelo del dispositivo",
+    "nombre y apellido": "first and last name",
+    "número de identificación fiscal": "a tax identification number",
+    "other feedback/preferences that you might express during your use of our Services": "demás comentarios o preferencias",
+    "payment card data": "datos de tarjetas de pago",
+    "preferencias de idioma": "preferencias",
+    "preferred methods of such promotional communication": "métodos preferidos de dicha comunicación promocional",
+    "purchase history": "el historial de compras",
+    "purchase history data": "los datos de su historial de compras",
+    "purchase history data at participating merchants on the Upside platform": "datos de su historial de compras en los comercios que participan en la plataforma Upside",
+    "reviews about our Services": "reseñas sobre nuestros Servicios",
+    "screen resolution": "resolución de la pantalla",
+    "señales de preferencia de exclusión, como el control global de la privacidad": "opt-out preference signals, such as the Global Privacy Control",
+    "site identifiers": "los identificadores del sitio",
+    "su nombre completo": "full name",
+    "telephone number": "número de teléfono",
+    "the email address associated with your PayPal account": "Your PayPal login email address",
+    "the last four digits of your bank account number": "los últimos cuatro dígitos de sus números de cuenta bancaria",
+    "the last four digits of your bank account number(s)": "los últimos cuatro dígitos de sus números de cuenta bancaria",
+    "the name of your financial institution": "el nombre de su institución financiera",
+    "the name of your financial institution(s)": "The name of your financial institution(s)",
+    "tipo de navegador": "browser type",
+    "transaction information": "información de transacciones",
+    "transaction timestamps": "la fecha y hora de las transacciones",
+    "transaction-level data": "datos sobre transacciones",
+    "transactional information": "datos sobre transacciones",
+    "ubicación física del dispositivo": "physical location of your device",
+    "your Personal Data": "Datos personales",
+    "your computer’s Internet Protocol (“IP”) address": "IP address",
+    "your device’s physical location": "physical location of your device",
+    "your full bank account number": "el número completo de su cuenta bancaria",
+    "your geolocation data": "Geolocation Data",
+    "your login credentials": "información de inicio de sesión"
+   },
+   "parents": {
+    "A device identifier associated with your mobile device": [
+     "Device Information",
+     "Identificadores"
+    ],
+    "A list of your contacts, including names and email addresses": [
+     "your personal contacts"
+    ],
+    "A unique social media identifier": [
+     "Identificadores"
+    ],
+    "CPU usage": [
+     "Device Information"
+    ],
+    "CVC code": [
+     "datos de tarjetas de pago"
+    ],
+    "Datos personales recopilados en nuestra Aplicación": [
+     "Datos personales"
+    ],
+    "Datos personales relevantes para el fin comercial específico": [
+     "Datos personales"
+    ],
+    "Datos personales relevantes para la acción legal específica, la investigación reglamentaria o los procesos legales en cuestión": [
+     "Datos personales"
+    ],
+    "Datos personales, incluidos los datos personales confidenciales": [
+     "Datos personales"
+    ],
+    "IP address": [
+     "Device Information"
+    ],
+    "Images of your credit card receipts from transactions at Upside merchant partners": [
+     "Commercial Information"
+    ],
+    "Información personal según la Ley de Registros de Clientes de California,\ncomo nombre, información de contacto, número de cuenta financiera e información de empleo": [
+     "Datos personales"
+    ],
+    "Internet or network activity information,\nsuch as interactions with our online properties or ads": [
+     "Online Activity Data"
+    ],
+    "Pages or screens you viewed": [
+     "Online Activity Data"
+    ],
+    "Personal Data collected": [
+     "Datos personales"
+    ],
+    "Personal Data provided via the Services": [
+     "Datos personales"
+    ],
+    "Personal Data you provide": [
+     "Datos personales"
+    ],
+    "Personal Information as defined in the California customer records law": [
+     "Datos personales"
+    ],
+    "Personal information as defined in the California customer records law,\nsuch as name, contact information, financial account number, and employment information": [
+     "Datos personales"
+    ],
+    "Protected Class Information,\nsuch as characteristics of protected classifications under California or federal law (e.g., primary language)": [
+     "Datos personales"
+    ],
+    "RAM": [
+     "Device Information"
+    ],
+    "Sensitive Personal Data": [
+     "Datos personales"
+    ],
+    "Sensitive Personal Data,\nTax identification numbers for tax reporting purposes, and precise/specific geolocation information": [
+     "Sensitive Personal Data"
+    ],
+    "The first six and last four digits of any credit cards or debit cards you input into your Upside wallet": [
+     "datos de tarjetas de pago"
+    ],
+    "The name of your financial institution(s)": [
+     "Commercial Information"
+    ],
+    "Upside purchase history data at a particular merchant": [
+     "los datos de su historial de compras"
+    ],
+    "Your PayPal login email address": [
+     "dirección de correo electrónico"
+    ],
+    "Your email address": [
+     "dirección de correo electrónico"
+    ],
+    "Your mobile device’s operating system type and version": [
+     "Device Information"
+    ],
+    "a list of your contacts, including names and telephone numbers": [
+     "lista de sus contactos, incluidos nombres y números de teléfono",
+     "your personal contacts"
+    ],
+    "a tax identification number": [
+     "Sensitive Personal Data"
+    ],
+    "a unique user identifier (Upside UUID)": [
+     "Identificadores"
+    ],
+    "access times": [
+     "Online Activity Data"
+    ],
+    "additional categories of Personal Data": [
+     "Datos personales"
+    ],
+    "advertising ID": [
+     "Device Information",
+     "Identificadores"
+    ],
+    "cada categoría de Datos personales, incluidos los datos personales confidenciales": [
+     "Datos personales"
+    ],
+    "categorías adicionales de Datos personales que esos usuarios nos proporcionen voluntariamente mientras utilizan los Servicios": [
+     "Datos personales"
+    ],
+    "debit cards": [
+     "datos de tarjetas de pago"
+    ],
+    "device location": [
+     "Geolocation Data"
+    ],
+    "device type (e.g., phone, tablet)": [
+     "Device Information"
+    ],
+    "duration of access": [
+     "Online Activity Data"
+    ],
+    "each category of Personal Data, including Sensitive Personal Data": [
+     "Datos personales"
+    ],
+    "email addresses": [
+     "dirección de correo electrónico"
+    ],
+    "employment or professional information": [
+     "Employment Information"
+    ],
+    "expiration date": [
+     "datos de tarjetas de pago"
+    ],
+    "first and last name": [
+     "Identificadores"
+    ],
+    "el número completo de su cuenta bancaria": [
+     "Commercial Information"
+    ],
+    "full credit card or debit card number": [
+     "datos de tarjetas de pago"
+    ],
+    "full name": [
+     "Identificadores"
+    ],
+    "general location information": [
+     "Geolocation Data"
+    ],
+    "how long you spent on a page or screen": [
+     "Online Activity Data"
+    ],
+    "identificadores de socios comerciales actuales y potenciales": [
+     "Identificadores"
+    ],
+    "identificadores únicos": [
+     "Identificadores"
+    ],
+    "incorrect credit cards": [
+     "datos de tarjetas de pago"
+    ],
+    "Employment Information": [
+     "Datos personales"
+    ],
+    "información personal según la Ley de Registros de Clientes de California de socios comerciales actuales y potenciales": [
+     "Datos personales"
+    ],
+    "información profesional o laboral, como la compañía actual, el puesto y el cargo, los antecedentes laborales y el empleador anterior": [
+     "Employment Information"
+    ],
+    "language settings": [
+     "Device Information"
+    ],
+    "los Datos personales recopilados": [
+     "Datos personales"
+    ],
+    "mobile device carrier": [
+     "Device Information"
+    ],
+    "navigation paths between pages or screens": [
+     "Online Activity Data"
+    ],
+    "número de teléfono": [
+     "Identificadores"
+    ],
+    "other online identifiers": [
+     "Identificadores"
+    ],
+    "password": [
+     "información de inicio de sesión"
+    ],
+    "professional or employment-related information, such as current company, position and title, work history, and prior employer": [
+     "Employment Information"
+    ],
+    "radio/network information (e.g., WiFi, LTE, 5G)": [
+     "Device Information"
+    ],
+    "resolución de la pantalla": [
+     "Device Information"
+    ],
+    "the Personal Data of current and potential business partners": [
+     "Datos personales"
+    ],
+    "the first six and last four digits of any card inputted through Stripe’s API": [
+     "datos de tarjetas de pago"
+    ],
+    "los últimos cuatro dígitos de sus números de cuenta bancaria": [
+     "Commercial Information"
+    ],
+    "the pages of our Service that you visit": [
+     "Online Activity Data"
+    ],
+    "the time spent on those pages": [
+     "Online Activity Data"
+    ],
+    "their name": [
+     "Identificadores"
+    ],
+    "la fecha y hora de las transacciones": [
+     "Commercial Information"
+    ],
+    "datos sobre transacciones": [
+     "Commercial Information"
+    ],
+    "your name": [
+     "Identificadores"
+    ],
+    "zip code associated with their billing address": [
+     "Commercial Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Professional advisors, such as accountants, auditors, experts, consultants, lawyers, banks, and financial institutions": "Asesores profesionales, como contadores, auditores, expertos, consultores, abogados, bancos e instituciones financieras",
+    "Proveedores de servicios de análisis de datos": "Analytics providers",
+    "Redes publicitarias": "Advertising networks",
+    "Third parties, such as an acquiring entity and its advisors": "Terceros, como una entidad adquirente y sus asesores",
+    "Third-party advertising partners": "Socios publicitarios externos",
+    "Third-party service providers and contractors": "Proveedores de servicios y contratistas externos",
+    "advertising networks": "Advertising networks",
+    "analytics providers": "Analytics providers",
+    "autoridades públicas, reglamentarias y gubernamentales, tribunales, juzgados o terceros": "Law enforcement, public, regulatory, and government authorities, courts, tribunals, or third parties",
+    "law enforcement": "Organismos de seguridad",
+    "nosotros": "nos",
+    "our marketing partners": "nuestros socios de marketing",
+    "professional advisors": "Asesores profesionales, como contadores, auditores, expertos, consultores, abogados, bancos e instituciones financieras",
+    "socios publicitarios externos": "Socios publicitarios externos",
+    "third parties": "terceros",
+    "third parties such as an acquiring entity": "Terceros, como una entidad adquirente y sus asesores",
+    "third-party advertising partners": "Socios publicitarios externos",
+    "those merchants": "esos comercios",
+    "us": "nos",
+    "you": "user"
+   },
+   "parents": {
+    "Advertising networks": [
+     "terceros"
+    ],
+    "Analytics providers": [
+     "terceros"
+    ],
+    "Amazon Web Services": [
+     "Proveedores de servicios y contratistas externos",
+     "Service providers"
+    ],
+    "Dwolla, Inc.": [
+     "Proveedores de servicios y contratistas externos"
+    ],
+    "NextRoll": [
+     "Socios publicitarios externos"
+    ],
+    "Organismos de seguridad": [
+     "Law enforcement, public, regulatory, and government authorities, courts, tribunals, or third parties"
+    ],
+    "public, regulatory, and government authorities": [
+     "Law enforcement, public, regulatory, and government authorities, courts, tribunals, or third parties"
+    ],
+    "contractors": [
+     "Proveedores de servicios y contratistas externos"
+    ],
+    "Service providers": [
+     "Proveedores de servicios y contratistas externos"
+    ],
+    "Proveedores de servicios y contratistas externos": [
+     "terceros"
+    ],
+    "Socios publicitarios externos": [
+     "terceros"
+    ],
+    "Terceros, como una entidad adquirente y sus asesores": [
+     "terceros"
+    ],
+    "certain third parties": [
+     "terceros"
+    ],
+    "authorized third parties referred to herein located in the United States": [
+     "terceros"
+    ],
+    "other third parties": [
+     "terceros"
+    ],
+    "that merchant": [
+     "merchant partners"
+    ],
+    "esos comercios": [
+     "merchant partners"
+    ],
+    "merchant partners": [
+     "terceros"
+    ],
+    "nuestros socios de marketing": [
+     "terceros"
+    ],
+    "current and prospective business partners": [
+     "terceros"
+    ],
+    "Asesores profesionales, como contadores, auditores, expertos, consultores, abogados, bancos e instituciones financieras": [
+     "terceros"
+    ],
+    "offices and servers of Upside": [
+     "Upside"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "Merchants who partner with Upside": "Los comerciantes que se asocian con Upside",
+    "dichos menores": "children under the age of 16",
+    "individuals under 16": "children under the age of 16",
+    "our financial services partner": "nuestro socio de servicios financieros",
+    "our merchant partners": "nuestros socios comerciales",
+    "our merchant partners who participate on the Upside platform": "nuestros socios comerciales que participan en la plataforma Upside",
+    "sus amigos que pueden recomendarle nuestros servicios": "sources such as your friends who may refer you to us",
+    "through Dwolla": "Dwolla",
+    "un procesador de pagos externo": "a third-party payment processor",
+    "un usuario": "a user",
+    "user": "a user",
+    "users": "those users",
+    "usted": "from you",
+    "varias fuentes": "several sources",
+    "you": "from you"
+   },
+   "parents": {
+    "Dwolla": [
+     "a third-party payment processor"
+    ],
+    "Stripe": [
+     "a third-party payment processor"
+    ],
+    "a third-party payment processor": [
+     "several sources"
+    ],
+    "nuestro socio de servicios financieros": [
+     "several sources"
+    ],
+    "nuestros socios comerciales": [
+     "several sources"
+    ],
+    "nuestros socios comerciales que participan en la plataforma Upside": [
+     "nuestros socios comerciales"
+    ],
+    "Los comerciantes que se asocian con Upside": [
+     "nuestros socios comerciales"
+    ],
+    "sources such as your friends who may refer you to us": [
+     "several sources"
+    ],
+    "a user": [
+     "those users"
+    ],
+    "users directly": [
+     "those users"
+    ],
+    "children under the age of 16": [
+     "those users"
+    ],
+    "from you": [
+     "those users"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Merchants who partner with Upside": "Los comerciantes que se asocian con Upside",
+    "Necesitamos": "Divulgamos",
+    "Nosotros": "Divulgamos",
+    "Podemos": "Divulgamos",
+    "Recopilamos": "Divulgamos",
+    "Stripe, Inc.": "Stripe",
+    "These companies": "Estas compañías",
+    "They": "Estas compañías",
+    "Upside": "Divulgamos",
+    "Utilizamos": "Divulgamos",
+    "We": "Divulgamos",
+    "a third party partner, Stripe, Inc.": "Stripe",
+    "divulgamos": "Divulgamos",
+    "first party": "Divulgamos",
+    "los comerciantes participantes": "Los comerciantes que se asocian con Upside",
+    "nos": "Divulgamos",
+    "nosotros": "Divulgamos",
+    "nuestra parte": "Divulgamos",
+    "nuestros": "Divulgamos",
+    "our": "Divulgamos",
+    "participating merchants": "Los comerciantes que se asocian con Upside",
+    "podemos": "Divulgamos",
+    "procesamos": "Divulgamos",
+    "recopilamos": "Divulgamos",
+    "service providers": "nuestros proveedores de servicios",
+    "they": "Estas compañías",
+    "third party": "dicho tercero",
+    "third party service providers": "nuestros proveedores de servicios",
+    "un servicio de terceros (p. ej., Google, Apple o Facebook)": "the service",
+    "us": "Divulgamos",
+    "utilizamos": "Divulgamos",
+    "we": "Divulgamos",
+    "you": "user"
+   },
+   "parents": {
+    "Stripe": [
+     "dicho tercero",
+     "nuestros proveedores de servicios"
+    ],
+    "NextRoll": [
+     "Estas compañías"
+    ],
+    "Dwolla": [
+     "dicho tercero"
+    ],
+    "Plaid, Inc.": [
+     "dicho tercero"
+    ],
+    "servicios de análisis de terceros, incluido Google Analytics": [
+     "dicho tercero"
+    ],
+    "Divulgamos": [
+     "Upside and its agents and service providers"
+    ],
+    "nuestros proveedores de servicios": [
+     "Upside and its agents and service providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "Administración de los Servicios, incluido el procesamiento de pagos": "Administering the Services, including payment processing",
+    "Agrupación o anonimización de Datos personales": "Aggregating and/or anonymizing Personal Data",
+    "Facilitating and responding to any social sharing and posts on our Services and other customer relationship building activities, such as promotions or sweepstakes": "Desarrollo de relaciones y participación: facilitar y responder a cualquier publicación o intercambio social en nuestros Servicios y demás actividades de desarrollo de relaciones con los clientes, como promociones o sorteos",
+    "Mejora de los Servicios": "Improving the Services",
+    "Mejora y desarrollo de los Servicios que podemos prestarle: realizar análisis de datos, por ejemplo, supervisar y analizar el uso de los Servicios, y utilizar análisis de datos para mejorar la eficiencia de nuestros Servicios; desarrollar nuevos Servicios; considerar formas de mejorar, reparar, mantener o modificar nuestros Servicios (incluyendo a nuestro chatbot de IA); identificar tendencias de uso, por ejemplo, comprender qué partes de nuestros Servicios son más interesantes para los usuarios; determinar la eficacia de nuestras campañas promocionales, para que las podamos adaptar a las necesidades y los intereses de nuestros usuarios; y operar y expandir nuestras actividades comerciales": "Conducting data analysis, for example, monitoring and analyzing Services use and using data analytics to improve the efficiency of our Services; developing new Services; considering ways to enhance, improve, repair, maintain, or modify our Services (including our AI chatbot); identifying usage trends, for example, understanding which parts of our Services are most interesting to users; determining the effectiveness of our promotional campaigns, so we can adapt our campaigns to the needs and interests of our users; and operating and expanding our business activities",
+    "Obligaciones legales y de cumplimiento": "Legal and compliance",
+    "Obligaciones legales y de cumplimiento: cumplir con nuestras obligaciones legales y relacionadas con el cumplimiento, lo que incluye observar las leyes aplicables; cumplir con los procesos legales; responder a solicitudes de autoridades públicas y gubernamentales; cumplir con los requisitos de seguridad nacional o de cumplimiento de la ley; exigir el cumplimiento de nuestros términos, condiciones y políticas; proteger nuestras operaciones; proteger los derechos, la privacidad o los bienes de Upside; responder a los auditores; y permitirnos solicitar recursos legales disponibles y hacer reclamaciones de seguro, defender las reclamaciones y limitar los daños y perjuicios que Upside pueda sufrir": "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain",
+    "Operations and general business": "Operaciones y negocios generales",
+    "Operations and general business support": "Operaciones y apoyo comercial general",
+    "Para resolución de controversias": "For dispute resolution purposes",
+    "Personalizing our Services": "Personalización de nuestros Servicios",
+    "Relationship building and engagement": "Desarrollo de relaciones y participación",
+    "Seguridad y prevención de fraude": "Security and fraud prevention",
+    "Seguridad y prevención de fraudes: realizar auditorías, verificar que nuestros procesos internos funcionen según lo previsto y cumplan con los requisitos legales, reglamentarios o contractuales; supervisar y prevenir el fraude; y con fines de seguridad, lo que incluye el mantenimiento de la seguridad del sistema y la seguridad en el sitio de nuestras instalaciones": "Conducting audits, verifying that our internal processes function as intended and are compliant with legal, regulatory, or contractual requirements; monitoring for and preventing fraud; and for security purposes, including maintaining system security and onsite security of our premises",
+    "To enforce our terms, conditions, and policies": "Para la exigencia del cumplimiento de nuestros términos, condiciones y políticas",
+    "To protect our rights, privacy, safety, property, and/or that of our affiliates, you or others": "Para la protección de nuestros derechos, privacidad, seguridad y bienes, así como los de nuestras filiales, usuarios o terceros",
+    "con fines publicitarios y de marketing": "Marketing",
+    "marketing-related": "marketing",
+    "para actividades relacionadas con el control de calidad y seguridad": "activities relating to quality and safety control or product improvement",
+    "para contrarrestar acciones incorrectas o ilegales": "countering wrong or unlawful actions",
+    "para fines de declaración de impuestos": "for tax reporting purposes",
+    "para fines de publicidad conductual o dirigida en diferentes contextos": "for purposes of cross-context behavioral or targeted advertising",
+    "para garantizar la seguridad e integridad": "ensuring safety, security, and integrity",
+    "para nuestros fines comerciales": "for our business purposes",
+    "para nuestros fines operativos, comerciales o empresariales": "for our operational business or commercial purposes",
+    "para otras actividades de recopilación y procesamiento que no tenga la finalidad de inferir características sobre una persona": "other collection and processing that is not for the purpose of inferring characteristics about an individual",
+    "para otros fines": "additional purposes",
+    "performing services for our business": "con el fin de prestar servicios para nuestro negocio",
+    "processing payments": "procesar pagos",
+    "providing customer service": "para proporcionar servicio al cliente",
+    "so that it will no longer be considered Personal Data": "para que ya no se consideren personales",
+    "so they can validate that we performed the Services": "para que puedan validar que prestamos los Servicios",
+    "so we can personalize the Services we provide—such as the offers in our App": "para que podamos personalizar los Servicios que prestamos, como las ofertas en nuestra Aplicación",
+    "to accept Cash Back rewards offers": "para aceptar ofertas de recompensas de reembolso de dinero",
+    "to accept cash back rewards offers": "para aceptar ofertas de recompensas de reembolso de dinero",
+    "to claim cash back rewards offers": "to claim Cash Back rewards offers",
+    "to communicate with you": "communicate with you",
+    "to create an account": "para crear una cuenta",
+    "to enable them to provide you with more personalized content": "para permitirles que le proporcionen contenido más personalizado y estudien la eficacia de las campañas publicitarias",
+    "to enable us to measure and analyze traffic and browsing activity on our Website": "con el fin de permitirnos medir y analizar el tráfico y la actividad de navegación en nuestro Sitio web",
+    "to facilitate interest-based advertising to our or similar users (known as a “lookalike audience”) on other online platforms": "para facilitar la publicidad basada en intereses a nuestros usuarios o usuarios similares (conocidos como “audiencias similares”) en otras plataformas en línea",
+    "to identify your purchase history with those merchants": "identificar su historial de compras con esos comerciantes",
+    "to make referrals and generate referral bonuses": "para hacer recomendaciones y generar bonificaciones por recomendaciones",
+    "to notify you when you are near one of our merchant partners": "para notificarle cuando se encuentre cerca de uno de nuestros socios comerciales",
+    "to notify you when you are near to one of our merchant partners": "para notificarle cuando se encuentre cerca de uno de nuestros socios comerciales",
+    "to originate credit transfers to your bank account(s) that you select in the mobile application": "para originar transferencias de crédito a las cuentas bancarias que usted selecciona en la aplicación móvil",
+    "to protect Personal Data within our organization": "para proteger los Datos personales dentro de nuestra organización",
+    "to provide a better user experience": "para personalizar su experiencia",
+    "to provide more personalized Services to you": "para prestarle Servicios más personalizados",
+    "to provide the requested Services to you": "para proporcionarle los Servicios solicitados",
+    "to provide you with account security": "provide you with account security",
+    "to provide you with personalized location-based services and content": "para proporcionarle servicios y contenido personalizados en función de la ubicación",
+    "to serve online ads that they think will interest you": "para publicar anuncios en línea que considera que le interesarán",
+    "to show business to business marketing advertisements for our services on third-party sites": "para mostrar anuncios de marketing entre empresas sobre nuestros servicios en sitios de terceros",
+    "to update your history of Upside offers": "para actualizar su historial de uso de Upside",
+    "to update your history of Upside use": "para actualizar su historial de uso de Upside",
+    "to verify your Upside transactions": "para verificar sus transacciones",
+    "to verify your claims for Cash Back rewards offers": "para verificar sus reclamaciones por ofertas de recompensas de reembolso de dinero",
+    "to verify your claims for cash back rewards offers": "para verificar sus reclamaciones por ofertas de recompensas de reembolso de dinero",
+    "verifying customer information": "verificar la información del cliente"
+   },
+   "parents": {
+    "(ii) protect and defend the rights or property of Upside": [
+     "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain"
+    ],
+    "Conducting audits, verifying that our internal processes function as intended and are compliant with legal, regulatory, or contractual requirements; monitoring for and preventing fraud; and for security purposes, including maintaining system security and onsite security of our premises": [
+     "Security and fraud prevention"
+    ],
+    "Conducting data analysis, for example, monitoring and analyzing Services use and using data analytics to improve the efficiency of our Services; developing new Services; considering ways to enhance, improve, repair, maintain, or modify our Services (including our AI chatbot); identifying usage trends, for example, understanding which parts of our Services are most interesting to users; determining the effectiveness of our promotional campaigns, so we can adapt our campaigns to the needs and interests of our users; and operating and expanding our business activities": [
+     "Improving the Services"
+    ],
+    "Desarrollo de relaciones y participación: facilitar y responder a cualquier publicación o intercambio social en nuestros Servicios y demás actividades de desarrollo de relaciones con los clientes, como promociones o sorteos": [
+     "Desarrollo de relaciones y participación"
+    ],
+    "For dispute resolution purposes": [
+     "Legal and compliance"
+    ],
+    "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain": [
+     "Legal and compliance"
+    ],
+    "Para la exigencia del cumplimiento de nuestros términos, condiciones y políticas": [
+     "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain",
+     "Legal and compliance"
+    ],
+    "Para la protección de nuestros derechos, privacidad, seguridad y bienes, así como los de nuestras filiales, usuarios o terceros": [
+     "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain",
+     "Legal and compliance"
+    ],
+    "Responding to a request or providing information to public and government authorities (including authorities outside your country or region of residence)": [
+     "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain",
+     "Legal and compliance"
+    ],
+    "for business marketing purposes": [
+     "Marketing"
+    ],
+    "la mejora de productos": [
+     "Improving the Services"
+    ],
+    "marketing": [
+     "Marketing"
+    ],
+    "procesar pagos": [
+     "Administering the Services, including payment processing"
+    ],
+    "to (i) comply with a legal obligation or enable a third party partner to comply with a legal obligation": [
+     "Fulfilling our legal and compliance-related obligations, including complying with applicable laws; complying with legal processes; responding to requests from public and government authorities; meeting national security or law enforcement requirements; enforcing our terms, conditions, and policies; protecting our operations; protecting the rights, privacy, or property of Upside; responding to auditors; and allowing us to pursue available legal remedies and make insurance claims, defend claims, and limit the damages that Upside may sustain",
+     "Legal and compliance"
+    ],
+    "to help us improve the content and functionality of the Services": [
+     "Improving the Services"
+    ],
+    "to monitor your account for fraudulent activity": [
+     "Security and fraud prevention"
+    ],
+    "to verify your identity and protect against fraudulent requests": [
+     "Security and fraud prevention"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 25840,
+  "completion_tokens": 8286,
+  "thinking_tokens": 0,
+  "seconds": 61.76977515220642,
+  "failures": 0
+ },
+ "seconds": 61.9
+}

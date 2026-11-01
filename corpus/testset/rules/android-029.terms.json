@@ -1,0 +1,252 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device model": "device hardware model",
+    "google advertising id": "GAID",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "GAID": [
+     "advertising identifier"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "OAID": [
+     "device identifier"
+    ],
+    "MAC address": [
+     "device identifier",
+     "device information"
+    ],
+    "IMSI": [
+     "sim card information"
+    ],
+    "audio data": [
+     "audio and video files"
+    ],
+    "video data": [
+     "audio and video files"
+    ],
+    "app usage frequency": [
+     "app usage data"
+    ],
+    "app installation and usage metrics": [
+     "app usage data"
+    ],
+    "app usage data": [
+     "service usage information"
+    ],
+    "device usage information": [
+     "service usage information"
+    ],
+    "crash data": [
+     "app performance",
+     "performance data"
+    ],
+    "app performance": [
+     "performance data"
+    ],
+    "operating system version": [
+     "device information",
+     "operating system"
+    ],
+    "children's personal information": [
+     "personal data"
+    ],
+    "information about children": [
+     "personal data"
+    ],
+    "country": [
+     "device location"
+    ],
+    "device location": [
+     "device information"
+    ],
+    "device hardware model": [
+     "device information"
+    ],
+    "device manufacturer": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "sim card information": [
+     "device information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "IP address": [
+     "device information"
+    ],
+    "SSID": [
+     "device information"
+    ],
+    "running processes": [
+     "device information"
+    ],
+    "installed applications": [
+     "device information"
+    ],
+    "account nickname": [
+     "user information"
+    ],
+    "profile picture": [
+     "user information"
+    ],
+    "user id": [
+     "user information"
+    ],
+    "complaint details": [
+     "feedback"
+    ],
+    "feedback": [
+     "user-provided information"
+    ],
+    "survey response": [
+     "user-provided information"
+    ],
+    "user data": [
+     "user-provided information"
+    ],
+    "other personal information": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "non-personal data": [
+     "information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "user information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "partner": "authorized partners"
+   },
+   "parents": {
+    "authorized partners": [
+     "third party"
+    ],
+    "service provider": [
+     "authorized partners",
+     "third party"
+    ],
+    "investors": [
+     "third party"
+    ],
+    "legal and financial advisors": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "another data controller": [
+     "third party"
+    ],
+    "regulator": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third parties": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Hunan Happy Sunshine Interactive Entertainment Media Co., Ltd."
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-improvement": "product improvement",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "service notifications": [
+     "communication"
+    ],
+    "contest_or_promotion": [
+     "marketing"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "service provision": [
+     "service_provision",
+     "services"
+    ],
+    "product improvement": [
+     "service_provision"
+    ],
+    "service_provision": [
+     "services"
+    ],
+    "service operations and management": [
+     "services"
+    ],
+    "services": [
+     "other"
+    ],
+    "legal compliance": [
+     "other"
+    ],
+    "security": [
+     "other"
+    ],
+    "storage": [
+     "other"
+    ],
+    "anonymization": [
+     "other"
+    ],
+    "analytics": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2454,
+  "completion_tokens": 1026,
+  "thinking_tokens": 0,
+  "seconds": 12.209073305130005,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

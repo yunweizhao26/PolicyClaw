@@ -1,0 +1,267 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "coarse geolocation": "approximate location",
+    "coarse location": "approximate location",
+    "device details": "device data",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "support requests": "customer support inquiry",
+    "user feedback": "customer feedback"
+   },
+   "parents": {
+    "Google Analytics data": [
+     "analytics data"
+    ],
+    "ad identifier": [
+     "device identifier"
+    ],
+    "user-resettable advertising identifier": [
+     "ad identifier"
+    ],
+    "billing address": [
+     "contact information",
+     "payment information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "usage information"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "cookie data": [
+     "tracking technologies"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "crash data": [
+     "diagnostic data"
+    ],
+    "troubleshooting data": [
+     "diagnostic data"
+    ],
+    "email address": [
+     "contact information",
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "username": [
+     "account details",
+     "identifiers"
+    ],
+    "password": [
+     "account details",
+     "authentication data"
+    ],
+    "sign in information": [
+     "authentication data"
+    ],
+    "payment information": [
+     "financial data"
+    ],
+    "transaction amount": [
+     "transaction details"
+    ],
+    "purchase date": [
+     "transaction details"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "device make": [
+     "device data"
+    ],
+    "device model": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "os version": [
+     "operating system"
+    ],
+    "device settings": [
+     "device data"
+    ],
+    "language setting": [
+     "device settings"
+    ],
+    "time zone": [
+     "device settings"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "push notification token": [
+     "device identifier"
+    ],
+    "IP address": [
+     "network information"
+    ],
+    "interaction data": [
+     "usage information"
+    ],
+    "feature usage data": [
+     "usage information"
+    ],
+    "service usage data": [
+     "usage information"
+    ],
+    "performance data": [
+     "diagnostic data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "aggregated data": [
+     "data"
+    ],
+    "de-identified data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "group companies": "affiliate",
+    "service providers": "service provider",
+    "third party": "recipient"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner",
+     "recipient"
+    ],
+    "advertising partner": [
+     "partners",
+     "recipient"
+    ],
+    "business partners": [
+     "partners"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "recipient"
+    ],
+    "first party employee": [
+     "first party"
+    ],
+    "acquirer": [
+     "recipient"
+    ],
+    "law enforcement": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party account provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "business partners",
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "third party account provider": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "user": [
+     "recipient"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "defending ourselves from legal claims": [
+     "dispute resolution"
+    ],
+    "payment processing": [
+     "finance"
+    ],
+    "order fulfilment": [
+     "service provision"
+    ],
+    "provide the services to you": [
+     "service provision"
+    ],
+    "customer support": [
+     "support"
+    ],
+    "troubleshooting / support": [
+     "support"
+    ],
+    "service development": [
+     "service improvement"
+    ],
+    "protect against data loss": [
+     "security"
+    ],
+    "abuse detection and prevention": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "facilitate our operations": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2942,
+  "completion_tokens": 1049,
+  "thinking_tokens": 0,
+  "seconds": 13.806254386901855,
+  "failures": 0
+ },
+ "seconds": 13.9
+}

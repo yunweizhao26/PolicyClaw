@@ -1,0 +1,688 @@
+{
+ "cleaned_sha256": "web-156",
+ "text_sha256": "aacd05f5199debfb28bdbe7bc0443ead13030126264d5541a765d53ddc63a295",
+ "site_id": "web-156",
+ "sections": 13,
+ "rules": 173,
+ "report": {
+  "sections": 13,
+  "raw_rules": 158,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the data collected through cookies",
+      "name": "cookie data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "remember information so that a user will not have to re-enter it during subsequent visits",
+       "name": "service provision"
+      },
+      {
+       "text": "provide custom, personalized content and information",
+       "name": "personalization"
+      },
+      {
+       "text": "identify you across multiple devices",
+       "name": "service provision"
+      },
+      {
+       "text": "provide and monitor the effectiveness of our Service",
+       "name": "service optimization"
+      },
+      {
+       "text": "monitor aggregate metrics such as total number of visitors, traffic, and usage on our website and our Service",
+       "name": "analytics"
+      },
+      {
+       "text": "diagnose or fix technology problems",
+       "name": "security"
+      },
+      {
+       "text": "help users efficiently access information after signing in",
+       "name": "service provision"
+      },
+      {
+       "text": "otherwise to plan for and enhance our Service",
+       "name": "service optimization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "change your browser settings to notify you when you receive a cookie, which lets you choose whether not to accept it",
+      "disable existing cookies",
+      "set your browser to automatically reject cookies"
+     ],
+     "references": [
+      {
+       "text": "Cookie Notice",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "change your browser settings to notify you when you receive a cookie, which lets you choose whether not to accept it"
+    ],
+    "section": "web-156#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [
+      {
+       "text": "for marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [
+      {
+       "text": "for marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "will never",
+     "purpose": [
+      {
+       "text": "for marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "will never",
+     "purpose": [
+      {
+       "text": "for marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "within the Service",
+      "as needed to perform the Service and/or at the direction of the School"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to perform the Service",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "This sharing will depend on the settings and functionality selected by the School"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [],
+     "recipient": {
+      "name": "other user",
+      "text": "authorized School users such as teachers and School administrators"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "as directed and authorized by the School",
+      "This sharing will depend on the settings and functionality selected by the School"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties such as specific Developers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "strictly for the purpose of carrying out their work for us"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "carrying out their work for us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "our trusted third-party service providers who perform technology services on our behalf (e.g., web hosting, chat providers, analytics services)"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when compelled to do so by court order or other legal process, to comply with statutes or regulations, to enforce our\nGeneral Terms of Use\n, or if we believe in good faith that the disclosure is necessary to protect the rights, property or personal safety of our users"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may be required to share",
+     "purpose": [
+      {
+       "text": "to comply with statutes or regulations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to protect the rights, property or personal safety of our users",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "law enforcement"
+     },
+     "references": [
+      {
+       "text": "General Terms of Use",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when compelled to do so by court order or other legal process, to comply with statutes or regulations, to enforce our\nGeneral Terms of Use\n, or if we believe in good faith that the disclosure is necessary to protect the rights, property or personal safety of our users"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may be required to share",
+     "purpose": [
+      {
+       "text": "to comply with statutes or regulations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to protect the rights, property or personal safety of our users",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "other third parties"
+     },
+     "references": [
+      {
+       "text": "General Terms of Use",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in an aggregated and/or anonymous form that does not reasonably identify an individual or School"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to study and improve our Service, user functionality, and product offerings",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to study and improve our Service, user functionality, and product offerings",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In the event of a change of control:",
+      "If we sell, divest or transfer our business"
+     ],
+     "exceptions": [
+      "the new owner intends to maintain and provide the Service as a going concern, and provided that the new owner has agreed to data privacy standards no less stringent than our own",
+      "an opportunity to opt-out of the transfer of personally identifiable Student Data"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Clever"
+     },
+     "conditions": [
+      "How Student Data is shared:"
+     ],
+     "exceptions": [
+      "the disclosures described above",
+      "as authorized and permitted by the School"
+     ],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "safe and secure"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "take strong measures to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-156#s5"
+   }
+  ],
+  "residual_quotes": 37,
+  "quotes": 89,
+  "completeness": {
+   "gaps": 164,
+   "gap_words": 1967
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 89,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 44611,
+  "completion_tokens": 32739,
+  "thinking_tokens": 0,
+  "seconds": 227.66948080062866,
+  "failures": 0
+ },
+ "seconds": 228.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

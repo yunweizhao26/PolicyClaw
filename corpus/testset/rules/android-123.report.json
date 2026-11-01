@@ -1,0 +1,45 @@
+{
+ "cleaned_sha256": "android-123",
+ "text_sha256": "1cdd750505d7d4932b8bbd1b716ba6157881ad82fa6b7674d8c3fd736c52c7a7",
+ "site_id": "android-123",
+ "sections": 2,
+ "rules": 55,
+ "report": {
+  "sections": 2,
+  "raw_rules": 47,
+  "rejected": [],
+  "residual_quotes": 3,
+  "quotes": 10,
+  "completeness": {
+   "gaps": 56,
+   "gap_words": 661
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 10,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 7886,
+  "completion_tokens": 9487,
+  "thinking_tokens": 0,
+  "seconds": 97.8793272972107,
+  "failures": 0
+ },
+ "seconds": 98.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

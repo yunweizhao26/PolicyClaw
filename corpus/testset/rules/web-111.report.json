@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "web-111",
+ "text_sha256": "f16adb923c414b2c718c9ebbf52f5bff4883fef832768fdbe72400cbf5b91b92",
+ "site_id": "web-111",
+ "sections": 2,
+ "rules": 41,
+ "report": {
+  "sections": 2,
+  "raw_rules": 39,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "de-identify",
+      "verb": "de-identify"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "When your Personal Information is no longer needed for the purpose for which it was obtained"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Information"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will take reasonable steps to permanently de-identify",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will take reasonable steps to permanently de-identify"
+    ],
+    "section": "web-111#s1"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 20,
+  "completeness": {
+   "gaps": 36,
+   "gap_words": 314
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 20,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 7335,
+  "completion_tokens": 6062,
+  "thinking_tokens": 0,
+  "seconds": 53.03538990020752,
+  "failures": 0
+ },
+ "seconds": 53.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

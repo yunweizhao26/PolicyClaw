@@ -1,0 +1,214 @@
+{
+ "cleaned_sha256": "android-177",
+ "text_sha256": "72e86b328765b9bf7384e9dad687ce389af4327b3c0060a08555a83e82b540fb",
+ "site_id": "android-177",
+ "sections": 5,
+ "rules": 146,
+ "report": {
+  "sections": 5,
+  "raw_rules": 88,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "To exercise your rights to access, data portability, and deletion under the CCPA, please submit a verifiable consumer request to us",
+      "Only you or a person registered with the California Secretary of State that is authorized to act on your behalf may make a verifiable consumer request in connection with your rights under the CCPA. You may also make a verifiable consumer request on behalf of your minor child. You may only make a verifiable consumer request for access or data portability twice within any 12-month period. The verifiable request must include the following:\nSufficient information for us to reasonably verify that you are the person about whom we collected personal information, or that you are the authorized representative of that person, and;\nA description of your request, with sufficient detail for us to properly understand, evaluate, and respond to it"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to access"
+    ],
+    "section": "android-177#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permits you ... to correct",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information provided by you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "if you are a California resident under the age of 18"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Business and Professions Code Section 22581",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "permits you ... to correct"
+    ],
+    "section": "android-177#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permits you ... to correct",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "publicly posted by you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "if you are a California resident under the age of 18"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Business and Professions Code Section 22581",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "permits you ... to correct"
+    ],
+    "section": "android-177#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you would like to exercise your rights of access, rectification, erasure, restriction of processing, data portability, and/or your right to object to the processing of your personal information, please submit your request to\ndpo@dtclab.pro"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "rights of access",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "your"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-177#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 46,
+  "completeness": {
+   "gaps": 134,
+   "gap_words": 1355
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 46,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 21301,
+  "completion_tokens": 20104,
+  "thinking_tokens": 0,
+  "seconds": 386.7653479576111,
+  "failures": 0
+ },
+ "seconds": 387.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

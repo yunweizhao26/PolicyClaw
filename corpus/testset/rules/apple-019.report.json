@@ -1,0 +1,167 @@
+{
+ "cleaned_sha256": "apple-019",
+ "text_sha256": "f9116b5967aa15bac478e5cd6681416bca111bf5be92173edb2820e910613bd7",
+ "site_id": "apple-019",
+ "sections": 6,
+ "rules": 76,
+ "report": {
+  "sections": 6,
+  "raw_rules": 72,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "sale/sharing",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Bank of America"
+     },
+     "conditions": [
+      "to the extent users have rights under applicable law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "treats them as valid requests to opt out of sale/sharing at the browser level"
+     ],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "opt out of",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-019#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sale/sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Bank of America"
+     },
+     "conditions": [
+      "to the extent users have rights under applicable law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "treats them as valid requests to opt out of sale/sharing at the browser level"
+     ],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "opt out of",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-019#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "non-affiliated third parties that own these widgets"
+     },
+     "conditions": [
+      "where these widgets are placed"
+     ],
+     "data": {
+      "name": "browsing history",
+      "text": "information about your browsing on pages of our Sites and Mobile Apps"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-019#s6"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 36,
+  "completeness": {
+   "gaps": 157,
+   "gap_words": 1988
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 36,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 11,
+  "cached": 0,
+  "prompt_tokens": 22077,
+  "completion_tokens": 13070,
+  "thinking_tokens": 0,
+  "seconds": 260.10805773735046,
+  "failures": 0
+ },
+ "seconds": 260.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

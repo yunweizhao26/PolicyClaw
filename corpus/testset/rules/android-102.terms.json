@@ -1,0 +1,204 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data collected": "collected data",
+    "device identifiers": "device identifier",
+    "information": "data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "photos": "photographs",
+    "your data": "user data"
+   },
+   "parents": {
+    "app usage": [
+     "usage data"
+    ],
+    "cookies": [
+     "usage data"
+    ],
+    "collected data": [
+     "data"
+    ],
+    "data resulting from use of service": [
+     "data"
+    ],
+    "date of birth": [
+     "Personal Data"
+    ],
+    "device identifier": [
+     "usage data"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "generated images": [
+     "data"
+    ],
+    "ip address": [
+     "usage data"
+    ],
+    "location": [
+     "data"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "payment card details": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "photos uploaded for image generation": [
+     "photographs"
+    ],
+    "purchase history": [
+     "Personal Data"
+    ],
+    "sex": [
+     "Personal Data"
+    ],
+    "subscription status": [
+     "account details"
+    ],
+    "usage data": [
+     "data resulting from use of service"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user input": [
+     "data"
+    ],
+    "user prompts": [
+     "user input"
+    ],
+    "related inputs": [
+     "user input"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service providers": "third-party image generation API providers"
+   },
+   "parents": {
+    "third-party image generation API providers": [
+     "service providers",
+     "third party"
+    ],
+    "third-party payment processors": [
+     "service providers",
+     "third party"
+    ],
+    "other third parties": [
+     "third party"
+    ],
+    "Google services": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "children under 18": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Retrica, Inc.",
+    "service provider": "Service Providers",
+    "third-party service providers": "Service Providers"
+   },
+   "parents": {
+    "Airbridge": [
+     "Service Providers"
+    ],
+    "CircleCI": [
+     "Service Providers"
+    ],
+    "GitHub": [
+     "Service Providers"
+    ],
+    "Google": [
+     "Service Providers"
+    ],
+    "RevenueCat": [
+     "Service Providers"
+    ],
+    "Travis CI": [
+     "Service Providers"
+    ],
+    "third-party payment processors": [
+     "Service Providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision and improvement": "service provision",
+    "specified purpose": "fulfill the purpose for which you provide it"
+   },
+   "parents": {
+    "account notices": [
+     "service communication"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and improvement"
+    ],
+    "analytics and improvement": [
+     "service improvement",
+     "service provision"
+    ],
+    "contract enforcement": [
+     "enforcing terms"
+    ],
+    "feature provision": [
+     "service provision"
+    ],
+    "providing the image generation functionality of the Service": [
+     "service provision",
+     "services"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "service-provision": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "support our business": [
+     "business purpose"
+    ],
+    "usage monitoring": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2303,
+  "completion_tokens": 1125,
+  "thinking_tokens": 0,
+  "seconds": 23.77161192893982,
+  "failures": 0
+ },
+ "seconds": 23.9
+}

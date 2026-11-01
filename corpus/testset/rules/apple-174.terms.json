@@ -1,0 +1,403 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "device information": "device data",
+    "device-information": "device data",
+    "device-settings": "device settings",
+    "email address": "email",
+    "ip-address": "ip address",
+    "language-preference": "language settings",
+    "operating-system": "operating system",
+    "personal data": "Customers’ information",
+    "personal information": "Customers’ information",
+    "personal-data": "Customers’ information",
+    "photographs of meals": "meal photos",
+    "sensitive personal information": "sensitive personal data",
+    "timezone": "time zone",
+    "user feedback": "feedback",
+    "user information": "Customers’ information",
+    "weight": "body weight",
+    "workout information": "workout data"
+   },
+   "parents": {
+    "AAID": [
+     "advertising id"
+    ],
+    "IDFA": [
+     "advertising id",
+     "unique device identifier"
+    ],
+    "advertising id": [
+     "unique device identifier"
+    ],
+    "unique device identifier": [
+     "unique identifier"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "hardware id": [
+     "device identifier"
+    ],
+    "facebook id": [
+     "unique identifier"
+    ],
+    "credit card number": [
+     "credit card information"
+    ],
+    "partial credit card number": [
+     "credit card information"
+    ],
+    "credit card information": [
+     "financial account data"
+    ],
+    "financial account data": [
+     "financial data",
+     "payment details"
+    ],
+    "payment details": [
+     "payment information"
+    ],
+    "payment card details": [
+     "payment details"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "purchase date, time, and amount": [
+     "purchase history"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "products or services purchased": [
+     "commercial information"
+    ],
+    "subscription orders": [
+     "commercial information"
+    ],
+    "shopping cart contents": [
+     "commercial information"
+    ],
+    "app usage duration": [
+     "app usage data"
+    ],
+    "app usage frequency": [
+     "app usage data"
+    ],
+    "app activity": [
+     "activity data"
+    ],
+    "browsing activity": [
+     "activity data"
+    ],
+    "browsing history": [
+     "activity data"
+    ],
+    "browsing behavior": [
+     "activity data"
+    ],
+    "behavior of our App's users": [
+     "app usage data"
+    ],
+    "interaction data": [
+     "activity data"
+    ],
+    "crash data": [
+     "analytics data"
+    ],
+    "unhandled exceptions": [
+     "crash data"
+    ],
+    "breadcrumbs": [
+     "analytics data"
+    ],
+    "step count": [
+     "fitness tracker data"
+    ],
+    "sleep patterns": [
+     "fitness tracker data"
+    ],
+    "distance covered": [
+     "fitness tracker data"
+    ],
+    "fitness tracker data": [
+     "wellness and fitness information"
+    ],
+    "scale data": [
+     "wellness and fitness information"
+    ],
+    "workout data": [
+     "wellness and fitness information"
+    ],
+    "workout duration": [
+     "workout data"
+    ],
+    "physical activities type and duration": [
+     "wellness and fitness information"
+    ],
+    "meditation activities": [
+     "wellness and fitness information"
+    ],
+    "water and food intake": [
+     "wellness and fitness information"
+    ],
+    "dietary energy": [
+     "water and food intake"
+    ],
+    "fitness level": [
+     "physical-fitness"
+    ],
+    "physical-fitness": [
+     "wellness and fitness information"
+    ],
+    "wellness and fitness information": [
+     "health data"
+    ],
+    "health-and-medical": [
+     "health data"
+    ],
+    "health data": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "Customers’ information"
+    ],
+    "shipping address": [
+     "delivery address"
+    ],
+    "email address validation results": [
+     "email"
+    ],
+    "email": [
+     "Customers’ information"
+    ],
+    "phone number": [
+     "Customers’ information"
+    ],
+    "name": [
+     "Customers’ information"
+    ],
+    "company name": [
+     "professional details"
+    ],
+    "job title": [
+     "professional details"
+    ],
+    "date of birth": [
+     "Customers’ information"
+    ],
+    "age": [
+     "Customers’ information"
+    ],
+    "gender": [
+     "Customers’ information"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "device type": [
+     "device type and model"
+    ],
+    "device-model": [
+     "device type and model"
+    ],
+    "device type and model": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "device settings": [
+     "device data"
+    ],
+    "app version": [
+     "device data"
+    ],
+    "ip address": [
+     "device data"
+    ],
+    "user conversations": [
+     "user communication"
+    ],
+    "questions concerning your account": [
+     "questions"
+    ],
+    "questions concerning your personal data": [
+     "questions"
+    ],
+    "questions": [
+     "user communication"
+    ],
+    "survey responses": [
+     "user entered data"
+    ],
+    "feedback": [
+     "user entered data"
+    ],
+    "user communication": [
+     "user entered data"
+    ],
+    "comments": [
+     "user entered data"
+    ],
+    "program progress": [
+     "progress"
+    ],
+    "usage statistics": [
+     "analytics data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Appsflyer": [
+     "analytics provider",
+     "service provider"
+    ],
+    "Communication services providers": [
+     "service provider"
+    ],
+    "OneSignal": [
+     "Communication services providers",
+     "service provider"
+    ],
+    "Sentry": [
+     "service provider"
+    ],
+    "Shopify": [
+     "service provider"
+    ],
+    "Snapchat advertising network": [
+     "third party"
+    ],
+    "Stream Chat": [
+     "Communication services providers",
+     "service provider"
+    ],
+    "Zendesk": [
+     "Communication services providers",
+     "service provider"
+    ],
+    "Zoom": [
+     "Communication services providers",
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "eSputnik": [
+     "Communication services providers",
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user-device": "user device"
+   },
+   "parents": {
+    "BetterMe Smart Scale": [
+     "device"
+    ],
+    "user device": [
+     "device"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "Apple": [
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ],
+    "persons under 18 years of age": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partners": "affiliate"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "third party"
+    ],
+    "Amplitude": [
+     "third party"
+    ],
+    "Calendly": [
+     "third party"
+    ],
+    "Intercom": [
+     "third party"
+    ],
+    "Sentry": [
+     "third party"
+    ],
+    "Snapchat": [
+     "third party"
+    ],
+    "ZeroBounce": [
+     "third party"
+    ],
+    "company representatives": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "dispute-resolution": "dispute resolution",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising optimization": [
+     "advertising"
+    ],
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "customer support": [
+     "account management"
+    ],
+    "accounting": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security and fraud prevention"
+    ],
+    "personalization": [
+     "user experience enhancement"
+    ],
+    "research": [
+     "research_and_development"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3823,
+  "completion_tokens": 1645,
+  "thinking_tokens": 0,
+  "seconds": 16.406991004943848,
+  "failures": 0
+ },
+ "seconds": 16.5
+}

@@ -1,0 +1,572 @@
+{
+ "cleaned_sha256": "web-085",
+ "text_sha256": "33302aef34e7fe0c37e4742962557ecdf7a5e6f66232b50e1bcbc2507f4e5d63",
+ "site_id": "web-085",
+ "sections": 27,
+ "rules": 631,
+ "report": {
+  "sections": 27,
+  "raw_rules": 337,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Squarespace"
+     },
+     "conditions": [],
+     "data": {
+      "name": "biometric data",
+      "text": "such biometric data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-085#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "Customer Account Details",
+      "text": "Customer Account Details"
+     },
+     "action": {
+      "name": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To send communications about your transactions with us and other Service-related announcements",
+       "name": "communication"
+      },
+      {
+       "text": "if we need to otherwise notify you about our Services or your use of them, we need to communicate with you, including via email and/or by sending you an alert via the Services",
+       "name": "communication"
+      }
+     ],
+     "conditions": [
+      "As a Customer",
+      "if you make purchases from the Services or we need to otherwise notify you about our Services or your use of them"
+     ],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we need to otherwise notify you about our Services or your use of them, we need to communicate with you, including via email and/or by sending you an alert via the Services"
+    ],
+    "section": "web-085#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user account information",
+      "text": "Customer Account Details"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to enable them to provide these services to us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "vendor",
+      "text": "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "Terms of Service",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+    ],
+    "section": "web-085#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "financial data",
+      "text": "Financial Solutions Services Account Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to enable them to provide these services to us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "vendor",
+      "text": "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "Terms of Service",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+    ],
+    "section": "web-085#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "account history",
+      "text": "Account History Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to enable them to provide these services to us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "vendor",
+      "text": "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "Terms of Service",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+    ],
+    "section": "web-085#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "usage data",
+      "text": "Site Usage Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to enable them to provide these services to us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "vendor",
+      "text": "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "Terms of Service",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Financial Solutions Services vendors (including Stripe , Sift , Inscribe and Plaid )"
+    ],
+    "section": "web-085#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "partner",
+      "verb": "partner"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified-data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "partner",
+     "purpose": [
+      {
+       "text": "to: (a) provide Customers with the Financial Solutions Services",
+       "name": "service-provision"
+      },
+      {
+       "text": "(b) allow Customers to receive, become eligible for and learn about third party services offered by such business partners",
+       "name": "service-provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "Financial Solutions Services business partners such as\nStripe"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-085#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Where applicable law requires",
+      "you may have the right to access",
+      "Please note that we may need to verify your identity in connection with your requests",
+      "Even if you have access to your account, we may request additional information if we believe it’s necessary to verify your identity"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "subject to any relevant exceptions or obligations under law",
+      "If we are unable to verify your identity or request, we may not, in accordance with applicable law, be able to fulfill your request"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "under law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-085#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "make a transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "where there is no adequacy decision",
+      "using an approved certification mechanism or code of conduct or binding corporate rules"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Article 46 of the GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-085#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "for transfers to the US"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "European Commission approved standard data protection clauses",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-085#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "turn on the GPC signal in your browser when you visit our Services"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "purpose": [
+      {
+       "text": "for online targeted advertising purposes",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-085#s27"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "turn on the GPC signal in your browser when you visit our Services"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "sharing",
+     "purpose": [
+      {
+       "text": "for online targeted advertising purposes",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-085#s27"
+   }
+  ],
+  "residual_quotes": 63,
+  "quotes": 174,
+  "completeness": {
+   "gaps": 463,
+   "gap_words": 5004
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 174,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 53,
+  "cached": 0,
+  "prompt_tokens": 98670,
+  "completion_tokens": 81150,
+  "thinking_tokens": 0,
+  "seconds": 708.273912191391,
+  "failures": 0
+ },
+ "seconds": 710.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

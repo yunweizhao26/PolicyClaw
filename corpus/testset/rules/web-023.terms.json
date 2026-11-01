@@ -1,0 +1,63 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "DOI name to resolve": "DOI name sought for resolution",
+    "ip address": "IP address"
+   },
+   "parents": {
+    "basic data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Registration Agency": "Registration Agencies"
+   },
+   "parents": {
+    "Registration Agencies": [
+     "third party"
+    ],
+    "contractors": [
+     "third party"
+    ],
+    "jurisdictions in which first party has servers": [
+     "jurisdictions throughout the world"
+    ],
+    "personnel": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "communication": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1167,
+  "completion_tokens": 202,
+  "thinking_tokens": 0,
+  "seconds": 6.073575019836426,
+  "failures": 0
+ },
+ "seconds": 6.2
+}

@@ -1,0 +1,207 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device info",
+    "nickname": "account nickname",
+    "personal information": "personal data",
+    "profile photo": "photo",
+    "submitted media": "photos",
+    "user identity verification information": "authentication information"
+   },
+   "parents": {
+    "IP address": [
+     "device info"
+    ],
+    "account ID": [
+     "account details",
+     "account information",
+     "unique identifier"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account name": [
+     "account details",
+     "account information",
+     "name"
+    ],
+    "account nickname": [
+     "account details",
+     "account information"
+    ],
+    "account security information": [
+     "account details",
+     "account information",
+     "security data"
+    ],
+    "ad performance data": [
+     "performance data"
+    ],
+    "authentication information": [
+     "account details",
+     "account information"
+    ],
+    "bank account number": [
+     "billing details"
+    ],
+    "browsing frequency": [
+     "browsing history",
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "crash logs": [
+     "device info"
+    ],
+    "credit card number": [
+     "billing details"
+    ],
+    "delivery address": [
+     "physical address"
+    ],
+    "device serial number": [
+     "device info",
+     "unique device identifier"
+    ],
+    "identity proofs": [
+     "authentication information"
+    ],
+    "mobile network information": [
+     "device info",
+     "network data"
+    ],
+    "network data": [
+     "device info"
+    ],
+    "order details": [
+     "account information"
+    ],
+    "personal data": [
+     "data",
+     "information",
+     "user data"
+    ],
+    "photo": [
+     "account details",
+     "account information",
+     "photos"
+    ],
+    "social media account id": [
+     "unique identifier"
+    ],
+    "social media handle": [
+     "unique identifier"
+    ],
+    "unique device identifier": [
+     "device info",
+     "unique identifier"
+    ],
+    "user feedback": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "account details",
+     "account information"
+    ],
+    "video": [
+     "photos"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business partners": "business partner",
+    "other group companies": "affiliate",
+    "service providers": "service provider",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "advertising partners": [
+     "business partner",
+     "service provider"
+    ],
+    "third-party developers": [
+     "business partner",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Xiaomi Technologies Singapore Pte. Ltd."
+   },
+   "parents": {
+    "first party employee": [
+     "Xiaomi Technologies Singapore Pte. Ltd."
+    ],
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service"
+   },
+   "parents": {
+    "ad delivery": [
+     "advertising"
+    ],
+    "ad measurement": [
+     "advertising"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "order fulfilment": [
+     "provide service"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "service maintenance": [
+     "provide service"
+    ],
+    "service improvement": [
+     "provide service"
+    ],
+    "analytics": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2919,
+  "completion_tokens": 962,
+  "thinking_tokens": 0,
+  "seconds": 18.296446800231934,
+  "failures": 0
+ },
+ "seconds": 18.5
+}

@@ -1,0 +1,505 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "analytics data": "analytics",
+    "engagement metrics": "engagement data",
+    "ip address": "IP address",
+    "personal data": "all personal data",
+    "personal information": "all personal data",
+    "personal-data": "all personal data",
+    "profile picture": "profile photo",
+    "profile-information": "profile information",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data"
+   },
+   "parents": {
+    "Account and Profile Information": [
+     "all personal data"
+    ],
+    "Communication Data": [
+     "all personal data"
+    ],
+    "DNT signal": [
+     "opt-out preference signal"
+    ],
+    "GPC signal": [
+     "opt-out preference signal"
+    ],
+    "IP address": [
+     "identifiers",
+     "online usage information"
+    ],
+    "Survey and Promotions Data": [
+     "all personal data"
+    ],
+    "Usage and Analytics Data": [
+     "all personal data"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "age": [
+     "characteristics",
+     "demographic information"
+    ],
+    "aggregate balances": [
+     "commercial information",
+     "customer accounts / commercial information"
+    ],
+    "alias": [
+     "identifiers"
+    ],
+    "bank account details": [
+     "commercial information",
+     "customer accounts / commercial information",
+     "payment details",
+     "payment information",
+     "personal records"
+    ],
+    "basic profile information": [
+     "Account and Profile Information",
+     "profile information"
+    ],
+    "biography": [
+     "Account and Profile Information",
+     "profile information"
+    ],
+    "biometric data": [
+     "biometrics"
+    ],
+    "biometric identifiers": [
+     "biometric data",
+     "identifiers"
+    ],
+    "biometrics": [
+     "all personal data",
+     "sensitive data"
+    ],
+    "browser type": [
+     "online usage information",
+     "technical information"
+    ],
+    "browsing and interaction data": [
+     "Usage and Analytics Data",
+     "online usage information",
+     "usage data"
+    ],
+    "browsing history": [
+     "online usage information"
+    ],
+    "characteristics": [
+     "all personal data"
+    ],
+    "coarse location": [
+     "geolocation data"
+    ],
+    "commercial information": [
+     "all personal data"
+    ],
+    "communication preferences": [
+     "Communication Data"
+    ],
+    "contact information": [
+     "Account and Profile Information",
+     "identifiers",
+     "personal records"
+    ],
+    "contact-data": [
+     "Communication Data",
+     "contact information"
+    ],
+    "cookies": [
+     "all personal data",
+     "identifiers"
+    ],
+    "country": [
+     "coarse location"
+    ],
+    "customer account information": [
+     "commercial information",
+     "customer accounts / commercial information"
+    ],
+    "customer accounts / commercial information": [
+     "all personal data"
+    ],
+    "date of birth": [
+     "characteristics",
+     "demographic information",
+     "personal records"
+    ],
+    "demographic information": [
+     "Survey and Promotions Data"
+    ],
+    "device identifier": [
+     "identifiers",
+     "online usage information",
+     "technical information"
+    ],
+    "diagnostic data": [
+     "Usage and Analytics Data",
+     "technical information"
+    ],
+    "email address": [
+     "contact information",
+     "identifiers",
+     "personal records"
+    ],
+    "email content": [
+     "Communication Data",
+     "user content"
+    ],
+    "engagement data": [
+     "analytics"
+    ],
+    "follower count": [
+     "social media data"
+    ],
+    "gender": [
+     "characteristics",
+     "demographic information"
+    ],
+    "geolocation data": [
+     "all personal data"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hardware model": [
+     "technical information"
+    ],
+    "identifiers": [
+     "all personal data"
+    ],
+    "inferences": [
+     "inferences derived from personal information"
+    ],
+    "inferences derived from personal information": [
+     "all personal data"
+    ],
+    "information about personal information collected": [
+     "privacy request details"
+    ],
+    "insights and recommendations": [
+     "analytics"
+    ],
+    "intellectual property rights details": [
+     "all personal data"
+    ],
+    "interests": [
+     "inferences derived from personal information"
+    ],
+    "log-in credentials": [
+     "personal records",
+     "sensitive data"
+    ],
+    "message content": [
+     "Communication Data",
+     "private messages",
+     "user content"
+    ],
+    "name": [
+     "identifiers",
+     "personal records"
+    ],
+    "online usage information": [
+     "Usage and Analytics Data",
+     "all personal data"
+    ],
+    "opt-out preference signal": [
+     "privacy rights exercise status"
+    ],
+    "other similar identifiers": [
+     "identifiers"
+    ],
+    "password": [
+     "log-in credentials"
+    ],
+    "payment card details": [
+     "commercial information",
+     "customer accounts / commercial information",
+     "payment details",
+     "payment information",
+     "personal records",
+     "sensitive data"
+    ],
+    "payment details": [
+     "payment information"
+    ],
+    "payment information": [
+     "commercial information",
+     "customer accounts / commercial information",
+     "personal records"
+    ],
+    "personal records": [
+     "all personal data"
+    ],
+    "phone number": [
+     "contact information",
+     "identifiers",
+     "personal records"
+    ],
+    "photograph": [
+     "biometrics",
+     "profile photo",
+     "sensory information"
+    ],
+    "postal address": [
+     "contact information",
+     "identifiers",
+     "personal records"
+    ],
+    "postal code": [
+     "coarse location",
+     "postal address"
+    ],
+    "privacy request details": [
+     "all personal data"
+    ],
+    "privacy rights exercise status": [
+     "all personal data"
+    ],
+    "private messages": [
+     "Communication Data"
+    ],
+    "profile data": [
+     "Account and Profile Information",
+     "profile information"
+    ],
+    "profile photo": [
+     "Account and Profile Information",
+     "profile information"
+    ],
+    "profile update notification": [
+     "Communication Data"
+    ],
+    "purchase history": [
+     "commercial information",
+     "customer accounts / commercial information",
+     "purchases"
+    ],
+    "purchase preferences": [
+     "commercial information",
+     "customer accounts / commercial information"
+    ],
+    "purchases": [
+     "commercial information",
+     "customer accounts / commercial information"
+    ],
+    "referrer URL": [
+     "online usage information"
+    ],
+    "search history": [
+     "online usage information"
+    ],
+    "sensitive data": [
+     "all personal data"
+    ],
+    "sensory information": [
+     "all personal data"
+    ],
+    "service usage": [
+     "online usage information",
+     "usage data"
+    ],
+    "social media content": [
+     "social media data",
+     "user content"
+    ],
+    "social media data": [
+     "Account and Profile Information"
+    ],
+    "social media handle": [
+     "identifiers"
+    ],
+    "technical information": [
+     "Usage and Analytics Data"
+    ],
+    "time zone": [
+     "technical information"
+    ],
+    "transaction data": [
+     "commercial information",
+     "customer accounts / commercial information",
+     "transaction details"
+    ],
+    "transaction details": [
+     "commercial information",
+     "customer accounts / commercial information"
+    ],
+    "usage data": [
+     "Usage and Analytics Data"
+    ],
+    "user content": [
+     "all personal data"
+    ],
+    "user-generated content": [
+     "user content"
+    ],
+    "video viewing data": [
+     "social media data",
+     "user content"
+    ],
+    "voice recordings": [
+     "sensory information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "commercial partner": "brand partners",
+    "other users": "other user",
+    "partner": "business partners",
+    "public": "anyone",
+    "service providers": "service provider",
+    "third-party": "third party"
+   },
+   "parents": {
+    "Payment Providers": [
+     "service provider",
+     "third party"
+    ],
+    "acquirer": [
+     "third party"
+    ],
+    "advertising network": [
+     "service provider",
+     "third party"
+    ],
+    "brand partners": [
+     "business partners"
+    ],
+    "chatbots": [
+     "third party"
+    ],
+    "designated reporting entities": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "organisations located in Australia or the United States": [
+     "third party"
+    ],
+    "other user": [
+     "anyone",
+     "user"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsors of promotions, sweepstakes, or contests": [
+     "third party"
+    ],
+    "subscribers": [
+     "other user",
+     "user"
+    ],
+    "third parties located in other countries": [
+     "third party"
+    ],
+    "user with password": [
+     "other user",
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "YouTube": [
+     "third party software"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "social network": [
+     "website"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Linktree",
+    "third-party": "third party"
+   },
+   "parents": {
+    "affiliate partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "Yoti": [
+     "third party"
+    ],
+    "Gem Software": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "personalization": "personalisation",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision",
+    "user communication": "communications",
+    "user support": "customer support"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "billing": [
+     "payment processing"
+    ],
+    "commercial_collaboration": [
+     "commercial purpose"
+    ],
+    "financial fulfillment": [
+     "payment processing"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "in response to those queries": [
+     "customer support"
+    ],
+    "personalisation": [
+     "service personalization"
+    ],
+    "service optimization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3672,
+  "completion_tokens": 2087,
+  "thinking_tokens": 0,
+  "seconds": 17.920609951019287,
+  "failures": 0
+ },
+ "seconds": 18.1
+}

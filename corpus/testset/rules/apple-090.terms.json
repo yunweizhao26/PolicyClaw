@@ -1,0 +1,144 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "billing information": "billing details"
+   },
+   "parents": {
+    "analytics data": [
+     "data"
+    ],
+    "billing details": [
+     "data"
+    ],
+    "communication data": [
+     "data"
+    ],
+    "crash data": [
+     "data",
+     "diagnostics"
+    ],
+    "diagnostics": [
+     "data"
+    ],
+    "documents": [
+     "data",
+     "user data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "location": [
+     "data"
+    ],
+    "logs": [
+     "diagnostics"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "payment method": [
+     "billing details"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "scanned documents": [
+     "documents"
+    ],
+    "subscription status": [
+     "billing details"
+    ],
+    "text of first page of scanned document": [
+     "documents",
+     "scanned documents"
+    ],
+    "unique user identifier": [
+     "device information"
+    ],
+    "usage data": [
+     "analytics data",
+     "data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Amazon": [
+     "third party"
+    ],
+    "Amplitude": [
+     "third party"
+    ],
+    "DocsBot": [
+     "third party"
+    ],
+    "HelpScout": [
+     "third party"
+    ],
+    "Heroku": [
+     "third party"
+    ],
+    "OpenAI": [
+     "third party"
+    ],
+    "RevenueCat": [
+     "third party"
+    ],
+    "Sentry": [
+     "third party"
+    ],
+    "SolarWinds": [
+     "third party"
+    ],
+    "Stripe": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Stripe": [
+     "payment provider"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "OpenAI": [
+     "third party"
+    ],
+    "Stripe": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "storage": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1417,
+  "completion_tokens": 501,
+  "thinking_tokens": 0,
+  "seconds": 12.668445110321045,
+  "failures": 0
+ },
+ "seconds": 12.7
+}

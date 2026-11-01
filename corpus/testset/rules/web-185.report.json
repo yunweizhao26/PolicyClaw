@@ -1,0 +1,387 @@
+{
+ "cleaned_sha256": "web-185",
+ "text_sha256": "50b66f0134a8780d8222074b043bf637371411ba6c9cef305702d5dd02a9d4ec",
+ "site_id": "web-185",
+ "sections": 14,
+ "rules": 359,
+ "report": {
+  "sections": 14,
+  "raw_rules": 278,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may track",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from your device(s)",
+      "name": "user device"
+     },
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "When you visit the Site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on"
+    ],
+    "section": "web-185#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may... collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from your device(s)",
+      "name": "user device"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "When you visit the Site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on"
+    ],
+    "section": "web-185#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may... aggregate",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from your device(s)",
+      "name": "user device"
+     },
+     "action": {
+      "text": "aggregate",
+      "verb": "aggregate"
+     },
+     "operation": "organisation",
+     "purpose": [],
+     "conditions": [
+      "When you visit the Site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information indicating, among other things, which pages of the Site were visited, the order in which they were visited, when they were visited, and which hyperlinks were clicked on"
+    ],
+    "section": "web-185#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "text and/or images of your Personal Data available from the third party site",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from a third party site, e.g., Facebook",
+      "name": "third party service"
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you access or log-in to a third party site, e.g., Facebook, from the Sites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from a third party site, e.g., Facebook"
+    ],
+    "section": "web-185#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from a Content Provider",
+      "name": "Content Provider"
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you provide information in response to a survey operated by a Content Provider"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from a Content Provider"
+    ],
+    "section": "web-185#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "subject to a decision based solely on automated processing",
+      "verb": "subject"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "which produces legal effects or similarly significant effects on you"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "have the right not to be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-185#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on where you are located",
+      "by logging into the Site, selecting ‘Settings’ from the dropdown in the top right, and scrolling down to find the appropriate option"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-185#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request that we",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "access to any Personal Data we hold about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you reside or are located in the EEA, UK, Switzerland, or other region that offers similar protections",
+      "you have the right to request that we"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-185#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right to request that we:\ncease",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "for direct-marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "If you reside or are located in the EEA, UK, Switzerland, or other region that offers similar protections",
+      "you have the right to request that we"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to request that we:\ncease"
+    ],
+    "section": "web-185#s9"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 348,
+   "gap_words": 4156
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 74,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 55585,
+  "completion_tokens": 54622,
+  "thinking_tokens": 0,
+  "seconds": 357.0986933708191,
+  "failures": 0
+ },
+ "seconds": 358.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

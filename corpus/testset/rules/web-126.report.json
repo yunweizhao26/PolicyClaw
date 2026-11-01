@@ -1,0 +1,45 @@
+{
+ "cleaned_sha256": "web-126",
+ "text_sha256": "94da59c151dd6f506c7670a213da97952205ea9f12a9f6cf2dab570553ec6a03",
+ "site_id": "web-126",
+ "sections": 4,
+ "rules": 131,
+ "report": {
+  "sections": 4,
+  "raw_rules": 65,
+  "rejected": [],
+  "residual_quotes": 17,
+  "quotes": 37,
+  "completeness": {
+   "gaps": 84,
+   "gap_words": 1186
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 37,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16359,
+  "completion_tokens": 13858,
+  "thinking_tokens": 0,
+  "seconds": 91.68400239944458,
+  "failures": 0
+ },
+ "seconds": 92.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

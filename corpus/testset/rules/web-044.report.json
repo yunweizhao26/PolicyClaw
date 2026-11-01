@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "web-044",
+ "text_sha256": "a48b6eaa425ee46c742dd348753a6e12817170eb4dd78e0fa9080904d133d2a5",
+ "site_id": "web-044",
+ "sections": 10,
+ "rules": 195,
+ "report": {
+  "sections": 10,
+  "raw_rules": 183,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "carry out",
+      "verb": "carry out"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "carry out",
+     "purpose": [
+      {
+       "text": "to provide, update, maintain and protect our Services, Websites and business",
+       "name": "service provision and maintenance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“International Data Transfers” section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-044#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to request access to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Individuals in the European Economic Area, the United Kingdom, Brazil, and across the globe",
+      "Subject to any exemptions provided by law"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-044#s9"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 68,
+  "completeness": {
+   "gaps": 285,
+   "gap_words": 3079
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 68,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 40946,
+  "completion_tokens": 31672,
+  "thinking_tokens": 0,
+  "seconds": 293.71066403388977,
+  "failures": 0
+ },
+ "seconds": 294.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

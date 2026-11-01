@@ -1,0 +1,137 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising data": [
+     "information"
+    ],
+    "audience data": [
+     "information"
+    ],
+    "browser configuration": [
+     "information"
+    ],
+    "browsing and interaction data": [
+     "usage data"
+    ],
+    "country": [
+     "information"
+    ],
+    "date and time": [
+     "web request"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "environment data": [
+     "information"
+    ],
+    "first name": [
+     "personal data"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "last name": [
+     "personal data"
+    ],
+    "organization data": [
+     "information"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "referrer url": [
+     "browsing and interaction data",
+     "web request"
+    ],
+    "telemetry data": [
+     "usage data"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "user communications": [
+     "user-provided data"
+    ],
+    "user-generated content": [
+     "user-provided data"
+    ],
+    "user-provided data": [
+     "information"
+    ],
+    "web request": [
+     "browsing and interaction data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party providers": "service provider"
+   },
+   "parents": {
+    "first party software": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal requirement": "legal compliance",
+    "personalization": "customization"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and improvement"
+    ],
+    "service optimization": [
+     "analytics and improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1813,
+  "completion_tokens": 476,
+  "thinking_tokens": 0,
+  "seconds": 9.430192708969116,
+  "failures": 0
+ },
+ "seconds": 9.5
+}

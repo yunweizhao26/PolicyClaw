@@ -1,0 +1,184 @@
+{
+ "cleaned_sha256": "web-193",
+ "text_sha256": "18c60a3cb67019b00bcf7d6c1209f19acdbd6d4659d1ca8849ed74d7b0125155",
+ "site_id": "web-193",
+ "sections": 10,
+ "rules": 111,
+ "report": {
+  "sections": 10,
+  "raw_rules": 100,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "The personal data we collect"
+     },
+     "recipient": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be transferred",
+     "purpose": [],
+     "conditions": [
+      "to countries outside of the jurisdiction you are in where we and our third-party service providers have operations"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to countries outside of the jurisdiction you are in where we and our third-party service providers have operations"
+    ],
+    "section": "web-193#s8"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "The personal data we collect"
+     },
+     "recipient": {
+      "name": "service provider",
+      "text": "our third-party service providers"
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be transferred",
+     "purpose": [],
+     "conditions": [
+      "to countries outside of the jurisdiction you are in where we and our third-party service providers have operations"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to countries outside of the jurisdiction you are in where we and our third-party service providers have operations"
+    ],
+    "section": "web-193#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "based on our legitimate interests where there are grounds relating to your particular situation"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "object to any processing based on our legitimate interests",
+      "There may be compelling reasons for continuing to process your personal data"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "right to object to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-193#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "marketing activities",
+      "verb": "market"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "You can object to marketing activities for any reason"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "can object to",
+     "purpose": [
+      {
+       "text": "marketing",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-193#s9"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 61,
+  "completeness": {
+   "gaps": 162,
+   "gap_words": 1707
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 61,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 1,
+  "prompt_tokens": 32651,
+  "completion_tokens": 19293,
+  "thinking_tokens": 0,
+  "seconds": 142.66614389419556,
+  "failures": 0
+ },
+ "seconds": 143.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

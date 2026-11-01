@@ -1,0 +1,382 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "artificial intelligence data": "ai feature data",
+    "contact names": "contact name",
+    "data volume downloaded/uploaded in 30 days": "bytes transferred in 30-day period",
+    "personal information": "personal data",
+    "phone numbers": "phone number"
+   },
+   "parents": {
+    "AI Personalisation data": [
+     "ai feature data"
+    ],
+    "information you choose to share for AI personalisation": [
+     "AI Personalisation data"
+    ],
+    "GPS location": [
+     "geolocation"
+    ],
+    "precise geolocation": [
+     "geolocation",
+     "sensitive personal information"
+    ],
+    "location history": [
+     "geolocation"
+    ],
+    "geographic location": [
+     "geolocation"
+    ],
+    "SMS history": [
+     "activity data"
+    ],
+    "text message content": [
+     "SMS history"
+    ],
+    "text message details": [
+     "SMS history"
+    ],
+    "VPN activity timestamp": [
+     "VPN session history"
+    ],
+    "VPN session history": [
+     "activity data"
+    ],
+    "VPN username": [
+     "account name",
+     "identifiers"
+    ],
+    "account identifier": [
+     "identifiers"
+    ],
+    "account log-in details": [
+     "authentication data",
+     "sensitive personal information"
+    ],
+    "encrypted login credentials": [
+     "authentication data"
+    ],
+    "password": [
+     "authentication data"
+    ],
+    "app usage data": [
+     "activity data"
+    ],
+    "apps installed": [
+     "activity data"
+    ],
+    "billing address": [
+     "payment information",
+     "physical address"
+    ],
+    "browsing history": [
+     "internet and electronic network activity"
+    ],
+    "search history": [
+     "internet and electronic network activity"
+    ],
+    "search and browser history": [
+     "internet and electronic network activity"
+    ],
+    "call details": [
+     "call history"
+    ],
+    "call count": [
+     "call details"
+    ],
+    "call duration": [
+     "call details"
+    ],
+    "call time and date": [
+     "call details"
+    ],
+    "call records": [
+     "call history"
+    ],
+    "call history": [
+     "activity data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact labels": [
+     "device address book data"
+    ],
+    "contact name": [
+     "device address book data"
+    ],
+    "contact photos": [
+     "device address book data"
+    ],
+    "photograph": [
+     "contact photos"
+    ],
+    "device address book data": [
+     "address book"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "financial transaction data": [
+     "commercial information"
+    ],
+    "purchase details": [
+     "financial transaction data"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "health data": [
+     "sensitive personal information"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal information"
+    ],
+    "sexual orientation or sex life": [
+     "sensitive personal information"
+    ],
+    "sensitive information inferences": [
+     "inferences drawn from other personal information to create a profile"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "hardware identifiers": [
+     "unique identifiers"
+    ],
+    "source IP address": [
+     "identifiers",
+     "internet and electronic network activity"
+    ],
+    "spam classifications": [
+     "phone number labels and classifications"
+    ],
+    "spam reports": [
+     "user reported content"
+    ],
+    "user reported content": [
+     "user feedback"
+    ],
+    "user responses": [
+     "user feedback"
+    ],
+    "cookies": [
+     "internet and electronic network activity"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "amount of data transferred": [
+     "network information"
+    ],
+    "connection time": [
+     "network information"
+    ],
+    "parallel connection count": [
+     "network information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third-party": "third party",
+    "third-party advertising partner": "advertising partner",
+    "third-party services you interact with": "third-party services"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party",
+     "third-party partner"
+    ],
+    "marketing partners": [
+     "third-party partner"
+    ],
+    "business partner": [
+     "third-party partner"
+    ],
+    "third-party partner": [
+     "third party"
+    ],
+    "payment service provider": [
+     "service provider"
+    ],
+    "fraud vendor": [
+     "service provider"
+    ],
+    "vendors and professional services organizations": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "carrier": [
+     "third party"
+    ],
+    "third-party application": [
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Crisp IM SAS": [
+     "third party"
+    ],
+    "Singular": [
+     "third party"
+    ],
+    "service user": [
+     "user"
+    ],
+    "social network": [
+     "other sources",
+     "third party"
+    ],
+    "other sources": [
+     "third party"
+    ],
+    "public sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising partner": "advertising partner"
+   },
+   "parents": {
+    "Adjoe": [
+     "third party"
+    ],
+    "Amazon Web Services": [
+     "third party"
+    ],
+    "Crisp IM SAS": [
+     "third party"
+    ],
+    "DigitalOcean": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Instabridge": [
+     "third party"
+    ],
+    "OXIO": [
+     "third party"
+    ],
+    "Singular": [
+     "third party"
+    ],
+    "Snowflake": [
+     "third party"
+    ],
+    "Stripe Payments Europe": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business purpose": "business operations",
+    "dispute-resolution": "dispute resolution",
+    "fraud detection and prevention": "fraud detection",
+    "fraud-detection": "fraud detection",
+    "legal-compliance": "legal compliance",
+    "service provision": "providing service",
+    "service-improvement": "service improvement",
+    "service-provision": "providing service",
+    "service_improvement": "service improvement",
+    "service_provision": "providing service",
+    "services": "providing service"
+   },
+   "parents": {
+    "debugging": [
+     "maintenance",
+     "security"
+    ],
+    "troubleshooting": [
+     "maintenance"
+    ],
+    "generate recommended sites to visit": [
+     "personalization"
+    ],
+    "show new and relevant recommendations": [
+     "personalization"
+    ],
+    "enhance user experience": [
+     "personalization"
+    ],
+    "enforcing terms": [
+     "legal enforcement"
+    ],
+    "fraud detection": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service improvement": [
+     "service operation and improvement",
+     "service_operation_and_support",
+     "service_optimization"
+    ],
+    "providing service": [
+     "business operations"
+    ],
+    "service operation and improvement": [
+     "business operations"
+    ],
+    "account administration": [
+     "business operations",
+     "providing service"
+    ],
+    "user_identification": [
+     "providing service"
+    ],
+    "feature function": [
+     "providing service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4062,
+  "completion_tokens": 1658,
+  "thinking_tokens": 0,
+  "seconds": 14.111849546432495,
+  "failures": 0
+ },
+ "seconds": 14.2
+}

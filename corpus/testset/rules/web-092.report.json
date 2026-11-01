@@ -1,0 +1,157 @@
+{
+ "cleaned_sha256": "web-092",
+ "text_sha256": "eac011fb68b6e402db3897e04578328f035a4cd9a9b7082e5e12dcc4953cd20d",
+ "site_id": "web-092",
+ "sections": 15,
+ "rules": 135,
+ "report": {
+  "sections": 15,
+  "raw_rules": 118,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "ESET"
+     },
+     "conditions": [],
+     "exceptions": [
+      "those permitted by law"
+     ],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "does not use",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-092#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you contact customer service for questions, comments, or feedback",
+      "if you send us video content"
+     ],
+     "data": {
+      "name": "video recording",
+      "text": "voice and video recordings"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if you send us video content"
+    ],
+    "section": "web-092#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in automated decision-making",
+      "verb": "engage in"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "for significant decisions"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Consumer Privacy Act (CCPA)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-092#s8"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 37,
+  "completeness": {
+   "gaps": 137,
+   "gap_words": 1319
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 37,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 42362,
+  "completion_tokens": 22681,
+  "thinking_tokens": 571,
+  "seconds": 298.4247479438782,
+  "failures": 0
+ },
+ "seconds": 299.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

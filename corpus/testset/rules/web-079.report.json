@@ -1,0 +1,317 @@
+{
+ "cleaned_sha256": "web-079",
+ "text_sha256": "036b70a34fa4749ddb2dff6aafd9a711475161dfe8275824526cf1406703a25e",
+ "site_id": "web-079",
+ "sections": 9,
+ "rules": 192,
+ "report": {
+  "sections": 9,
+  "raw_rules": 158,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may work with third parties to",
+     "purpose": [
+      {
+       "text": "to provide you with personalized ads on the Services",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-079#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "advertise",
+      "verb": "advertise"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may work with third parties to",
+     "purpose": [
+      {
+       "text": "to advertise the Services on other sites and services",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-079#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automatically collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you access the Services by means of a computer, tablet, mobile phone, or other device (“Device”)",
+      "using cookies, pixel tags, local storage, and other technologies (“Technologies”)",
+      "as your browser or device permits"
+     ],
+     "exceptions": [
+      "blocking, deleting, or disabling them"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using cookies, pixel tags, local storage, and other technologies (“Technologies”)"
+    ],
+    "section": "web-079#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "service providers and third parties that provide content, advertising, or other functionality on our Sites, Apps, and Services",
+      "name": "third party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automatically collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you access the Services by means of a computer, tablet, mobile phone, or other device (“Device”)",
+      "using cookies, pixel tags, local storage, and other technologies (“Technologies”)",
+      "as your browser or device permits"
+     ],
+     "exceptions": [
+      "blocking, deleting, or disabling them"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using cookies, pixel tags, local storage, and other technologies (“Technologies”)"
+    ],
+    "section": "web-079#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "placed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your preferences",
+      "name": "user preferences"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "in your Device’s browser",
+      "via Cookies"
+     ],
+     "exceptions": [
+      "how to accept or reject cookies (including third-party cookies)"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "via Cookies"
+    ],
+    "section": "web-079#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "embedded on a Site page that collects",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information about your engagement on that page",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collects",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "via A pixel tag (or web beacon)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "via A pixel tag (or web beacon)"
+    ],
+    "section": "web-079#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "unique advertising identifiers",
+      "name": "advertising identifier"
+     },
+     "recipient": {
+      "text": "our third-party partners",
+      "name": "third-party partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "clicking “\nYour Privacy Choices” (or “\nCookie Preferences” in the EU) on our website",
+      "browser-based opt out preference signal (such as Global Privacy Control) on your browser"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-079#s7"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 54,
+  "completeness": {
+   "gaps": 216,
+   "gap_words": 2616
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 54,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 34861,
+  "completion_tokens": 30655,
+  "thinking_tokens": 0,
+  "seconds": 247.3961730003357,
+  "failures": 0
+ },
+ "seconds": 248.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

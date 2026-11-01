@@ -1,0 +1,22 @@
+{
+ "policy": "pg-149",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Depending on your Google account settings, AdMob may collect and use personally identifiable information to serve personalized ads, i.e. online identifiers, including Android IDs, cookies and unique device identifiers for advertising (Google Advertiser ID, unique Advertising ID, IDFVs/Android IDs and similar) IP addresses device identifiers client identifiers location data usage data",
+   "prohibit": "Data obtained regarding your location is only used to query for search results near your location (which is the main purpose of the app) and to display your location and the serach results within the app, e.g. on a map.",
+   "situation": "When a user grants location permission, and location data is processed within the app.",
+   "reason": "One clause restricts location data use solely to querying and displaying search results, while another states AdMob may collect and use location data to serve ads.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1507,
+  "completion_tokens": 221,
+  "thinking_tokens": 0,
+  "seconds": 2.5314502716064453,
+  "failures": 0
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "cleaned_sha256": "android-040",
+ "text_sha256": "a1603b90eddd19b3b067da46b83de963b17ceac7706768e8484ec11c1fce8def",
+ "site_id": "android-040",
+ "sections": 15,
+ "rules": 170,
+ "report": {
+  "sections": 15,
+  "raw_rules": 153,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "do so",
+      "verb": "do"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "based on our legitimate business interest, and subject to your right of objection"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information about you"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "do so",
+     "purpose": [
+      {
+       "text": "to: (ii) ensure the security of our games",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: (ii) ensure the security of our games"
+    ],
+    "section": "android-040#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "do so",
+      "verb": "do"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "based on our legitimate business interest, and subject to your right of objection"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information about you"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "do so",
+     "purpose": [
+      {
+       "text": "to: (iii) send you newsletters with the latest information on our products and company as well as other advertising for our products",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: (iii) send you newsletters with the latest information on our products and company as well as other advertising for our products"
+    ],
+    "section": "android-040#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "do so",
+      "verb": "do"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "based on our legitimate business interest, and subject to your right of objection"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information about you"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "do so",
+     "purpose": [
+      {
+       "text": "to: (iv) conclude corporate transactions (e.g., corporate restructuring, sale or assignment of assets, merger)",
+       "name": "corporate merger, acquisition, or restructuring"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: (iv) conclude corporate transactions (e.g., corporate restructuring, sale or assignment of assets, merger)"
+    ],
+    "section": "android-040#s13"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 59,
+  "completeness": {
+   "gaps": 139,
+   "gap_words": 1770
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 59,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 44215,
+  "completion_tokens": 27203,
+  "thinking_tokens": 0,
+  "seconds": 202.48375034332275,
+  "failures": 0
+ },
+ "seconds": 203.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

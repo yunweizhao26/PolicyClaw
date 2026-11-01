@@ -1,0 +1,209 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookie id": "cookie ID",
+    "device identifier": "device id",
+    "indirectly identifiable personal information": "indirectly identifiable information",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "pseudonymous identifiers": "pseudonymous identifier",
+    "referring url": "referring URL",
+    "user data": "information"
+   },
+   "parents": {
+    "IP address": [
+     "online identifier"
+    ],
+    "cookie ID": [
+     "online identifier"
+    ],
+    "advertising identifier": [
+     "online identifier"
+    ],
+    "browser identifier": [
+     "online identifier"
+    ],
+    "device id": [
+     "online identifier"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "pseudonymous identifier": [
+     "identifiers"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "physical address": [
+     "contact info"
+    ],
+    "name": [
+     "identifying data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "identifying data": [
+     "personal data"
+    ],
+    "indirectly identifiable information": [
+     "personal data"
+    ],
+    "pseudonymous information": [
+     "indirectly identifiable information"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "imprecise location": [
+     "location"
+    ],
+    "predetermined geolocation": [
+     "location"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "tracking pixels data": [
+     "ad performance data"
+    ],
+    "impression data": [
+     "ad performance data"
+    ],
+    "ad responses": [
+     "ad performance data"
+    ],
+    "user agent": [
+     "browser information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "ad performance data": [
+     "information"
+    ],
+    "demographic data": [
+     "information"
+    ],
+    "location": [
+     "information"
+    ],
+    "browser information": [
+     "information"
+    ],
+    "purchases": [
+     "information"
+    ],
+    "privacy choices": [
+     "information"
+    ],
+    "web page context": [
+     "information"
+    ],
+    "third-party segments": [
+     "user profile"
+    ],
+    "cookie contents": [
+     "cookies"
+    ],
+    "pixel tags": [
+     "cookies"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "accountant": [
+     "service provider",
+     "third party"
+    ],
+    "ad agency": [
+     "organizations",
+     "third party"
+    ],
+    "advertiser": [
+     "organizations",
+     "third party"
+    ],
+    "marketing partner": [
+     "partner",
+     "service provider",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "public authority": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "European Union": [
+     "from the EU, UK and Switzerland"
+    ],
+    "Switzerland": [
+     "from the EU, UK and Switzerland"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "client": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "ad analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "ad serving": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "identity verification": [
+     "compliance"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "profiling": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2352,
+  "completion_tokens": 778,
+  "thinking_tokens": 0,
+  "seconds": 10.662485122680664,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

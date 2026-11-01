@@ -1,0 +1,5986 @@
+{
+ "policies": {
+  "all": {
+   "counts": {
+    "disclosure": 32868,
+    "disclosure without recipient": 7944,
+    "extractor operation adaptation or alteration": 2194,
+    "extractor operation alignment or combination": 1626,
+    "extractor operation collection": 45679,
+    "extractor operation consultation": 2462,
+    "extractor operation disclosure": 9345,
+    "extractor operation disclosure by transmission": 19404,
+    "extractor operation dissemination or otherwise making available": 2056,
+    "extractor operation erasure or destruction": 4263,
+    "extractor operation organisation": 166,
+    "extractor operation other": 565,
+    "extractor operation processing": 12333,
+    "extractor operation profiling": 1121,
+    "extractor operation recording": 2409,
+    "extractor operation restriction": 848,
+    "extractor operation retrieval": 418,
+    "extractor operation sale": 2461,
+    "extractor operation storage": 10158,
+    "extractor operation structuring": 40,
+    "extractor operation use": 29313,
+    "guard not true": 91145,
+    "guard only residuals": 16157,
+    "guard translated, no residual": 56595,
+    "guard with a residual": 34548,
+    "operation adaptation or alteration": 2204,
+    "operation alignment or combination": 1626,
+    "operation collection": 45433,
+    "operation consultation": 2418,
+    "operation disclosure": 9323,
+    "operation disclosure by transmission": 19319,
+    "operation dissemination or otherwise making available": 1768,
+    "operation erasure or destruction": 4262,
+    "operation none: the network places the verb under no operation": 2080,
+    "operation organisation": 165,
+    "operation other": 291,
+    "operation processing": 12286,
+    "operation profiling": 941,
+    "operation recording": 2414,
+    "operation restriction": 328,
+    "operation retrieval": 384,
+    "operation sale": 2458,
+    "operation storage": 10115,
+    "operation structuring": 40,
+    "operation use": 29006,
+    "polarity ALLOW": 138341,
+    "polarity DENY": 8520,
+    "policies": 600,
+    "records": 117462,
+    "report compile_failures": 655,
+    "report fixed_by_call": 464,
+    "report fixed_structurally": 185,
+    "report qualifiers_without_effect": 6286,
+    "report quotes": 53095,
+    "report raw_rules": 117462,
+    "report rejected": 6740,
+    "report rejected: missing polarity, action, or data": 2046,
+    "report rejected: operation not in the schema": 1289,
+    "report rejected: quote not in section": 3405,
+    "report residual_quotes": 13667,
+    "report sections": 10808,
+    "report unsatisfiable_guards": 328,
+    "rules": 146861,
+    "units_with_rules": 600,
+    "usage cached": 485,
+    "usage calls": 19748,
+    "usage completion_tokens": 24037427,
+    "usage failures": 3,
+    "usage of earlier attempts cached": 189,
+    "usage of earlier attempts calls": 189,
+    "usage of earlier attempts completion_tokens": 305977,
+    "usage of earlier attempts failures": 6,
+    "usage of earlier attempts prompt_tokens": 366128,
+    "usage of earlier attempts seconds": 3632.9992876052856,
+    "usage prompt_tokens": 35284478,
+    "usage seconds": 304935.40346956253,
+    "usage thinking_tokens": 88510,
+    "variable basis.*": 9638,
+    "variable consent.*": 4563,
+    "variable event.*": 32083,
+    "variable law.permitted": 3808,
+    "variable law.required": 5760,
+    "variable opt_in.*": 928,
+    "variable opt_out.*": 7148,
+    "variable policy.permits": 1032,
+    "variable processing.location": 997,
+    "variable request.*": 6296,
+    "variable residual": 34548,
+    "variable retention.days": 3766,
+    "variable service": 5453,
+    "variable setting.*": 5733,
+    "variable transfer.*": 595,
+    "variable user.age": 1395,
+    "variable user.category": 3982,
+    "variable user.jurisdiction": 7564,
+    "variable user.parental_consent": 422,
+    "with a reference to law": 14267,
+    "with a reference to no target": 581,
+    "with a reference to other_document": 6807,
+    "with a reference to policy_section": 11579,
+    "with actor": 140611,
+    "with any qualifier": 129963,
+    "with conditions": 87787,
+    "with conditions or exceptions": 94365,
+    "with exceptions": 15289,
+    "with purpose": 76851,
+    "with recipient": 26467,
+    "with references": 29779,
+    "with source": 22337
+   },
+   "shares_pct": {
+    "polarity ALLOW": 94.2,
+    "polarity DENY": 5.8,
+    "with conditions": 59.78,
+    "with exceptions": 10.41,
+    "with conditions or exceptions": 64.25,
+    "with purpose": 52.33,
+    "with references": 20.28,
+    "with recipient": 18.02,
+    "with source": 15.21,
+    "with actor": 95.74,
+    "guard not true": 62.06,
+    "guard with a residual": 23.52,
+    "guard translated, no residual": 38.54,
+    "guard only residuals": 11.0,
+    "qualifier quotes translated": 74.26,
+    "qualifier quotes residual": 25.74,
+    "rejected of extracted records": 5.43,
+    "disclosure without recipient, of disclosures": 24.17,
+    "disclosure without recipient, of rules": 5.41
+   },
+   "rules_per_policy": {
+    "policies": 600,
+    "policies_with_rules": 600,
+    "min": 7,
+    "q1": 121,
+    "median": 197.0,
+    "q3": 301,
+    "max": 5748,
+    "mean": 244.8
+   }
+  },
+  "web": {
+   "counts": {
+    "disclosure": 10516,
+    "disclosure without recipient": 2403,
+    "extractor operation adaptation or alteration": 772,
+    "extractor operation alignment or combination": 627,
+    "extractor operation collection": 14711,
+    "extractor operation consultation": 673,
+    "extractor operation disclosure": 3400,
+    "extractor operation disclosure by transmission": 5925,
+    "extractor operation dissemination or otherwise making available": 670,
+    "extractor operation erasure or destruction": 1414,
+    "extractor operation organisation": 43,
+    "extractor operation other": 209,
+    "extractor operation processing": 5402,
+    "extractor operation profiling": 424,
+    "extractor operation recording": 969,
+    "extractor operation restriction": 350,
+    "extractor operation retrieval": 160,
+    "extractor operation sale": 636,
+    "extractor operation storage": 3543,
+    "extractor operation structuring": 20,
+    "extractor operation use": 9875,
+    "guard not true": 30589,
+    "guard only residuals": 5521,
+    "guard translated, no residual": 18803,
+    "guard with a residual": 11785,
+    "operation adaptation or alteration": 779,
+    "operation alignment or combination": 627,
+    "operation collection": 14651,
+    "operation consultation": 651,
+    "operation disclosure": 3392,
+    "operation disclosure by transmission": 5900,
+    "operation dissemination or otherwise making available": 588,
+    "operation erasure or destruction": 1414,
+    "operation none: the network places the verb under no operation": 728,
+    "operation organisation": 43,
+    "operation other": 129,
+    "operation processing": 5384,
+    "operation profiling": 361,
+    "operation recording": 967,
+    "operation restriction": 158,
+    "operation retrieval": 132,
+    "operation sale": 636,
+    "operation storage": 3521,
+    "operation structuring": 20,
+    "operation use": 9742,
+    "polarity ALLOW": 46920,
+    "polarity DENY": 2903,
+    "policies": 200,
+    "records": 40062,
+    "report compile_failures": 214,
+    "report fixed_by_call": 153,
+    "report fixed_structurally": 58,
+    "report qualifiers_without_effect": 1590,
+    "report quotes": 19014,
+    "report raw_rules": 40062,
+    "report rejected": 2127,
+    "report rejected: missing polarity, action, or data": 616,
+    "report rejected: operation not in the schema": 537,
+    "report rejected: quote not in section": 974,
+    "report residual_quotes": 5299,
+    "report sections": 3747,
+    "report unsatisfiable_guards": 79,
+    "rules": 49823,
+    "units_with_rules": 200,
+    "usage cached": 15,
+    "usage calls": 6997,
+    "usage completion_tokens": 8502935,
+    "usage prompt_tokens": 12759774,
+    "usage seconds": 79626.1898264885,
+    "usage thinking_tokens": 25698,
+    "variable basis.*": 3740,
+    "variable consent.*": 1454,
+    "variable event.*": 10007,
+    "variable law.permitted": 1125,
+    "variable law.required": 2033,
+    "variable opt_in.*": 170,
+    "variable opt_out.*": 2158,
+    "variable policy.permits": 366,
+    "variable processing.location": 439,
+    "variable request.*": 2139,
+    "variable residual": 11785,
+    "variable retention.days": 1358,
+    "variable service": 2111,
+    "variable setting.*": 1612,
+    "variable transfer.*": 367,
+    "variable user.age": 310,
+    "variable user.category": 1773,
+    "variable user.jurisdiction": 2293,
+    "variable user.parental_consent": 94,
+    "with a reference to law": 5473,
+    "with a reference to no target": 136,
+    "with a reference to other_document": 2297,
+    "with a reference to policy_section": 4074,
+    "with actor": 47580,
+    "with any qualifier": 44274,
+    "with conditions": 29868,
+    "with conditions or exceptions": 31667,
+    "with exceptions": 4723,
+    "with purpose": 26636,
+    "with recipient": 8621,
+    "with references": 10822,
+    "with source": 7246
+   },
+   "shares_pct": {
+    "polarity ALLOW": 94.17,
+    "polarity DENY": 5.83,
+    "with conditions": 59.95,
+    "with exceptions": 9.48,
+    "with conditions or exceptions": 63.56,
+    "with purpose": 53.46,
+    "with references": 21.72,
+    "with recipient": 17.3,
+    "with source": 14.54,
+    "with actor": 95.5,
+    "guard not true": 61.4,
+    "guard with a residual": 23.65,
+    "guard translated, no residual": 37.74,
+    "guard only residuals": 11.08,
+    "qualifier quotes translated": 72.13,
+    "qualifier quotes residual": 27.87,
+    "rejected of extracted records": 5.04,
+    "disclosure without recipient, of disclosures": 22.85,
+    "disclosure without recipient, of rules": 4.82
+   },
+   "rules_per_policy": {
+    "policies": 200,
+    "policies_with_rules": 200,
+    "min": 10,
+    "q1": 123,
+    "median": 193.0,
+    "q3": 301,
+    "max": 5748,
+    "mean": 249.1
+   }
+  },
+  "android": {
+   "counts": {
+    "disclosure": 7571,
+    "disclosure without recipient": 2008,
+    "extractor operation adaptation or alteration": 633,
+    "extractor operation alignment or combination": 385,
+    "extractor operation collection": 11828,
+    "extractor operation consultation": 864,
+    "extractor operation disclosure": 1837,
+    "extractor operation disclosure by transmission": 4910,
+    "extractor operation dissemination or otherwise making available": 505,
+    "extractor operation erasure or destruction": 1451,
+    "extractor operation organisation": 64,
+    "extractor operation other": 159,
+    "extractor operation processing": 3163,
+    "extractor operation profiling": 223,
+    "extractor operation recording": 491,
+    "extractor operation restriction": 243,
+    "extractor operation retrieval": 135,
+    "extractor operation sale": 436,
+    "extractor operation storage": 3155,
+    "extractor operation structuring": 13,
+    "extractor operation use": 7735,
+    "guard not true": 24805,
+    "guard only residuals": 4160,
+    "guard translated, no residual": 15415,
+    "guard with a residual": 9389,
+    "operation adaptation or alteration": 630,
+    "operation alignment or combination": 385,
+    "operation collection": 11778,
+    "operation consultation": 858,
+    "operation disclosure": 1835,
+    "operation disclosure by transmission": 4872,
+    "operation dissemination or otherwise making available": 430,
+    "operation erasure or destruction": 1450,
+    "operation none: the network places the verb under no operation": 551,
+    "operation organisation": 63,
+    "operation other": 78,
+    "operation processing": 3151,
+    "operation profiling": 180,
+    "operation recording": 478,
+    "operation restriction": 93,
+    "operation retrieval": 133,
+    "operation sale": 434,
+    "operation storage": 3145,
+    "operation structuring": 13,
+    "operation use": 7673,
+    "polarity ALLOW": 35790,
+    "polarity DENY": 2440,
+    "policies": 200,
+    "records": 31167,
+    "report compile_failures": 208,
+    "report fixed_by_call": 135,
+    "report fixed_structurally": 71,
+    "report qualifiers_without_effect": 2052,
+    "report quotes": 14505,
+    "report raw_rules": 31167,
+    "report rejected": 1686,
+    "report rejected: missing polarity, action, or data": 451,
+    "report rejected: operation not in the schema": 215,
+    "report rejected: quote not in section": 1020,
+    "report residual_quotes": 3627,
+    "report sections": 3013,
+    "report unsatisfiable_guards": 118,
+    "rules": 38230,
+    "units_with_rules": 200,
+    "usage cached": 66,
+    "usage calls": 5526,
+    "usage completion_tokens": 6405710,
+    "usage prompt_tokens": 9602096,
+    "usage seconds": 90322.82739043236,
+    "usage thinking_tokens": 21899,
+    "variable basis.*": 2462,
+    "variable consent.*": 1367,
+    "variable event.*": 9157,
+    "variable law.permitted": 1048,
+    "variable law.required": 1687,
+    "variable opt_in.*": 184,
+    "variable opt_out.*": 1725,
+    "variable policy.permits": 308,
+    "variable processing.location": 221,
+    "variable request.*": 1820,
+    "variable residual": 9389,
+    "variable retention.days": 934,
+    "variable service": 1482,
+    "variable setting.*": 1673,
+    "variable transfer.*": 81,
+    "variable user.age": 550,
+    "variable user.category": 629,
+    "variable user.jurisdiction": 1973,
+    "variable user.parental_consent": 189,
+    "with a reference to law": 3782,
+    "with a reference to no target": 142,
+    "with a reference to other_document": 1845,
+    "with a reference to policy_section": 2472,
+    "with actor": 36363,
+    "with any qualifier": 33956,
+    "with conditions": 23621,
+    "with conditions or exceptions": 25511,
+    "with exceptions": 4080,
+    "with purpose": 19633,
+    "with recipient": 5973,
+    "with references": 7460,
+    "with source": 5260
+   },
+   "shares_pct": {
+    "polarity ALLOW": 93.62,
+    "polarity DENY": 6.38,
+    "with conditions": 61.79,
+    "with exceptions": 10.67,
+    "with conditions or exceptions": 66.73,
+    "with purpose": 51.35,
+    "with references": 19.51,
+    "with recipient": 15.62,
+    "with source": 13.76,
+    "with actor": 95.12,
+    "guard not true": 64.88,
+    "guard with a residual": 24.56,
+    "guard translated, no residual": 40.32,
+    "guard only residuals": 10.88,
+    "qualifier quotes translated": 74.99,
+    "qualifier quotes residual": 25.01,
+    "rejected of extracted records": 5.13,
+    "disclosure without recipient, of disclosures": 26.52,
+    "disclosure without recipient, of rules": 5.25
+   },
+   "rules_per_policy": {
+    "policies": 200,
+    "policies_with_rules": 200,
+    "min": 7,
+    "q1": 90,
+    "median": 159.5,
+    "q3": 245,
+    "max": 1215,
+    "mean": 191.2
+   }
+  },
+  "apple": {
+   "counts": {
+    "disclosure": 14781,
+    "disclosure without recipient": 3533,
+    "extractor operation adaptation or alteration": 789,
+    "extractor operation alignment or combination": 614,
+    "extractor operation collection": 19140,
+    "extractor operation consultation": 925,
+    "extractor operation disclosure": 4108,
+    "extractor operation disclosure by transmission": 8569,
+    "extractor operation dissemination or otherwise making available": 881,
+    "extractor operation erasure or destruction": 1398,
+    "extractor operation organisation": 59,
+    "extractor operation other": 197,
+    "extractor operation processing": 3768,
+    "extractor operation profiling": 474,
+    "extractor operation recording": 949,
+    "extractor operation restriction": 255,
+    "extractor operation retrieval": 123,
+    "extractor operation sale": 1389,
+    "extractor operation storage": 3460,
+    "extractor operation structuring": 7,
+    "extractor operation use": 11703,
+    "guard not true": 35751,
+    "guard only residuals": 6476,
+    "guard translated, no residual": 22377,
+    "guard with a residual": 13374,
+    "operation adaptation or alteration": 795,
+    "operation alignment or combination": 614,
+    "operation collection": 19004,
+    "operation consultation": 909,
+    "operation disclosure": 4096,
+    "operation disclosure by transmission": 8547,
+    "operation dissemination or otherwise making available": 750,
+    "operation erasure or destruction": 1398,
+    "operation none: the network places the verb under no operation": 801,
+    "operation organisation": 59,
+    "operation other": 84,
+    "operation processing": 3751,
+    "operation profiling": 400,
+    "operation recording": 969,
+    "operation restriction": 77,
+    "operation retrieval": 119,
+    "operation sale": 1388,
+    "operation storage": 3449,
+    "operation structuring": 7,
+    "operation use": 11591,
+    "polarity ALLOW": 55631,
+    "polarity DENY": 3177,
+    "policies": 200,
+    "records": 46233,
+    "report compile_failures": 233,
+    "report fixed_by_call": 176,
+    "report fixed_structurally": 56,
+    "report qualifiers_without_effect": 2644,
+    "report quotes": 19576,
+    "report raw_rules": 46233,
+    "report rejected": 2927,
+    "report rejected: missing polarity, action, or data": 979,
+    "report rejected: operation not in the schema": 537,
+    "report rejected: quote not in section": 1411,
+    "report residual_quotes": 4741,
+    "report sections": 4048,
+    "report unsatisfiable_guards": 131,
+    "rules": 58808,
+    "units_with_rules": 200,
+    "usage cached": 404,
+    "usage calls": 7225,
+    "usage completion_tokens": 9128782,
+    "usage failures": 3,
+    "usage of earlier attempts cached": 189,
+    "usage of earlier attempts calls": 189,
+    "usage of earlier attempts completion_tokens": 305977,
+    "usage of earlier attempts failures": 6,
+    "usage of earlier attempts prompt_tokens": 366128,
+    "usage of earlier attempts seconds": 3632.9992876052856,
+    "usage prompt_tokens": 12922608,
+    "usage seconds": 134986.38625264168,
+    "usage thinking_tokens": 40913,
+    "variable basis.*": 3436,
+    "variable consent.*": 1742,
+    "variable event.*": 12919,
+    "variable law.permitted": 1635,
+    "variable law.required": 2040,
+    "variable opt_in.*": 574,
+    "variable opt_out.*": 3265,
+    "variable policy.permits": 358,
+    "variable processing.location": 337,
+    "variable request.*": 2337,
+    "variable residual": 13374,
+    "variable retention.days": 1474,
+    "variable service": 1860,
+    "variable setting.*": 2448,
+    "variable transfer.*": 147,
+    "variable user.age": 535,
+    "variable user.category": 1580,
+    "variable user.jurisdiction": 3298,
+    "variable user.parental_consent": 139,
+    "with a reference to law": 5012,
+    "with a reference to no target": 303,
+    "with a reference to other_document": 2665,
+    "with a reference to policy_section": 5033,
+    "with actor": 56668,
+    "with any qualifier": 51733,
+    "with conditions": 34298,
+    "with conditions or exceptions": 37187,
+    "with exceptions": 6486,
+    "with purpose": 30582,
+    "with recipient": 11873,
+    "with references": 11497,
+    "with source": 9831
+   },
+   "shares_pct": {
+    "polarity ALLOW": 94.6,
+    "polarity DENY": 5.4,
+    "with conditions": 58.32,
+    "with exceptions": 11.03,
+    "with conditions or exceptions": 63.23,
+    "with purpose": 52.0,
+    "with references": 19.55,
+    "with recipient": 20.19,
+    "with source": 16.72,
+    "with actor": 96.36,
+    "guard not true": 60.79,
+    "guard with a residual": 22.74,
+    "guard translated, no residual": 38.05,
+    "guard only residuals": 11.01,
+    "qualifier quotes translated": 75.78,
+    "qualifier quotes residual": 24.22,
+    "rejected of extracted records": 5.95,
+    "disclosure without recipient, of disclosures": 23.9,
+    "disclosure without recipient, of rules": 6.01
+   },
+   "rules_per_policy": {
+    "policies": 200,
+    "policies_with_rules": 200,
+    "min": 21,
+    "q1": 159,
+    "median": 242.5,
+    "q3": 339,
+    "max": 2906,
+    "mean": 294.0
+   }
+  }
+ },
+ "per_policy": {
+  "android-001": {
+   "arm": "android",
+   "rules": 1215,
+   "guard with a residual": 280,
+   "guard only residuals": 154,
+   "with references": 115,
+   "disclosure": 234,
+   "disclosure without recipient": 52
+  },
+  "android-002": {
+   "arm": "android",
+   "rules": 177,
+   "guard with a residual": 26,
+   "guard only residuals": 8,
+   "with references": 30,
+   "disclosure": 27,
+   "disclosure without recipient": 10
+  },
+  "android-003": {
+   "arm": "android",
+   "rules": 168,
+   "guard with a residual": 45,
+   "guard only residuals": 27,
+   "with references": 13,
+   "disclosure": 33,
+   "disclosure without recipient": 2
+  },
+  "android-004": {
+   "arm": "android",
+   "rules": 216,
+   "guard with a residual": 87,
+   "guard only residuals": 46,
+   "with references": 52,
+   "disclosure": 46,
+   "disclosure without recipient": 13
+  },
+  "android-005": {
+   "arm": "android",
+   "rules": 476,
+   "guard with a residual": 94,
+   "guard only residuals": 56,
+   "with references": 172,
+   "disclosure": 73,
+   "disclosure without recipient": 33
+  },
+  "android-006": {
+   "arm": "android",
+   "rules": 156,
+   "guard with a residual": 37,
+   "guard only residuals": 15,
+   "with references": 14,
+   "disclosure": 23,
+   "disclosure without recipient": 2
+  },
+  "android-007": {
+   "arm": "android",
+   "rules": 135,
+   "guard with a residual": 32,
+   "guard only residuals": 16,
+   "with references": 14,
+   "disclosure": 21,
+   "disclosure without recipient": 7
+  },
+  "android-008": {
+   "arm": "android",
+   "rules": 140,
+   "guard with a residual": 48,
+   "guard only residuals": 16,
+   "with references": 28,
+   "disclosure": 27,
+   "disclosure without recipient": 5
+  },
+  "android-009": {
+   "arm": "android",
+   "rules": 561,
+   "guard with a residual": 166,
+   "guard only residuals": 78,
+   "with references": 122,
+   "disclosure": 119,
+   "disclosure without recipient": 38
+  },
+  "android-010": {
+   "arm": "android",
+   "rules": 295,
+   "guard with a residual": 60,
+   "guard only residuals": 24,
+   "with references": 122,
+   "disclosure": 64,
+   "disclosure without recipient": 38
+  },
+  "android-011": {
+   "arm": "android",
+   "rules": 127,
+   "guard with a residual": 23,
+   "guard only residuals": 11,
+   "with references": 27,
+   "disclosure": 20,
+   "disclosure without recipient": 6
+  },
+  "android-012": {
+   "arm": "android",
+   "rules": 146,
+   "guard with a residual": 21,
+   "guard only residuals": 14,
+   "with references": 53,
+   "disclosure": 21,
+   "disclosure without recipient": 6
+  },
+  "android-013": {
+   "arm": "android",
+   "rules": 610,
+   "guard with a residual": 117,
+   "guard only residuals": 52,
+   "with references": 229,
+   "disclosure": 136,
+   "disclosure without recipient": 28
+  },
+  "android-014": {
+   "arm": "android",
+   "rules": 307,
+   "guard with a residual": 100,
+   "guard only residuals": 48,
+   "with references": 57,
+   "disclosure": 87,
+   "disclosure without recipient": 11
+  },
+  "android-015": {
+   "arm": "android",
+   "rules": 394,
+   "guard with a residual": 105,
+   "guard only residuals": 54,
+   "with references": 57,
+   "disclosure": 56,
+   "disclosure without recipient": 9
+  },
+  "android-016": {
+   "arm": "android",
+   "rules": 211,
+   "guard with a residual": 40,
+   "guard only residuals": 2,
+   "with references": 33,
+   "disclosure": 22,
+   "disclosure without recipient": 11
+  },
+  "android-017": {
+   "arm": "android",
+   "rules": 153,
+   "guard with a residual": 22,
+   "guard only residuals": 8,
+   "with references": 15,
+   "disclosure": 29,
+   "disclosure without recipient": 6
+  },
+  "android-018": {
+   "arm": "android",
+   "rules": 121,
+   "guard with a residual": 29,
+   "guard only residuals": 11,
+   "with references": 13,
+   "disclosure": 18,
+   "disclosure without recipient": 5
+  },
+  "android-019": {
+   "arm": "android",
+   "rules": 232,
+   "guard with a residual": 64,
+   "guard only residuals": 30,
+   "with references": 49,
+   "disclosure": 39,
+   "disclosure without recipient": 14
+  },
+  "android-020": {
+   "arm": "android",
+   "rules": 245,
+   "guard with a residual": 61,
+   "guard only residuals": 34,
+   "with references": 49,
+   "disclosure": 49,
+   "disclosure without recipient": 10
+  },
+  "android-021": {
+   "arm": "android",
+   "rules": 584,
+   "guard with a residual": 101,
+   "guard only residuals": 64,
+   "with references": 29,
+   "disclosure": 113,
+   "disclosure without recipient": 16
+  },
+  "android-022": {
+   "arm": "android",
+   "rules": 470,
+   "guard with a residual": 122,
+   "guard only residuals": 57,
+   "with references": 64,
+   "disclosure": 100,
+   "disclosure without recipient": 18
+  },
+  "android-023": {
+   "arm": "android",
+   "rules": 393,
+   "guard with a residual": 82,
+   "guard only residuals": 35,
+   "with references": 99,
+   "disclosure": 102,
+   "disclosure without recipient": 22
+  },
+  "android-024": {
+   "arm": "android",
+   "rules": 98,
+   "guard with a residual": 5,
+   "guard only residuals": 0,
+   "with references": 18,
+   "disclosure": 17,
+   "disclosure without recipient": 5
+  },
+  "android-025": {
+   "arm": "android",
+   "rules": 119,
+   "guard with a residual": 16,
+   "guard only residuals": 9,
+   "with references": 5,
+   "disclosure": 28,
+   "disclosure without recipient": 11
+  },
+  "android-026": {
+   "arm": "android",
+   "rules": 173,
+   "guard with a residual": 42,
+   "guard only residuals": 29,
+   "with references": 41,
+   "disclosure": 28,
+   "disclosure without recipient": 5
+  },
+  "android-027": {
+   "arm": "android",
+   "rules": 100,
+   "guard with a residual": 19,
+   "guard only residuals": 8,
+   "with references": 12,
+   "disclosure": 13,
+   "disclosure without recipient": 2
+  },
+  "android-028": {
+   "arm": "android",
+   "rules": 193,
+   "guard with a residual": 39,
+   "guard only residuals": 20,
+   "with references": 17,
+   "disclosure": 33,
+   "disclosure without recipient": 8
+  },
+  "android-029": {
+   "arm": "android",
+   "rules": 270,
+   "guard with a residual": 74,
+   "guard only residuals": 20,
+   "with references": 35,
+   "disclosure": 36,
+   "disclosure without recipient": 12
+  },
+  "android-030": {
+   "arm": "android",
+   "rules": 100,
+   "guard with a residual": 31,
+   "guard only residuals": 15,
+   "with references": 22,
+   "disclosure": 15,
+   "disclosure without recipient": 10
+  },
+  "android-031": {
+   "arm": "android",
+   "rules": 168,
+   "guard with a residual": 47,
+   "guard only residuals": 17,
+   "with references": 57,
+   "disclosure": 35,
+   "disclosure without recipient": 14
+  },
+  "android-032": {
+   "arm": "android",
+   "rules": 266,
+   "guard with a residual": 88,
+   "guard only residuals": 47,
+   "with references": 46,
+   "disclosure": 36,
+   "disclosure without recipient": 9
+  },
+  "android-033": {
+   "arm": "android",
+   "rules": 180,
+   "guard with a residual": 46,
+   "guard only residuals": 29,
+   "with references": 34,
+   "disclosure": 46,
+   "disclosure without recipient": 2
+  },
+  "android-034": {
+   "arm": "android",
+   "rules": 148,
+   "guard with a residual": 31,
+   "guard only residuals": 12,
+   "with references": 49,
+   "disclosure": 46,
+   "disclosure without recipient": 1
+  },
+  "android-035": {
+   "arm": "android",
+   "rules": 75,
+   "guard with a residual": 22,
+   "guard only residuals": 5,
+   "with references": 20,
+   "disclosure": 8,
+   "disclosure without recipient": 3
+  },
+  "android-036": {
+   "arm": "android",
+   "rules": 296,
+   "guard with a residual": 55,
+   "guard only residuals": 23,
+   "with references": 48,
+   "disclosure": 46,
+   "disclosure without recipient": 8
+  },
+  "android-037": {
+   "arm": "android",
+   "rules": 255,
+   "guard with a residual": 49,
+   "guard only residuals": 27,
+   "with references": 60,
+   "disclosure": 60,
+   "disclosure without recipient": 12
+  },
+  "android-038": {
+   "arm": "android",
+   "rules": 346,
+   "guard with a residual": 112,
+   "guard only residuals": 18,
+   "with references": 58,
+   "disclosure": 48,
+   "disclosure without recipient": 10
+  },
+  "android-039": {
+   "arm": "android",
+   "rules": 182,
+   "guard with a residual": 64,
+   "guard only residuals": 17,
+   "with references": 25,
+   "disclosure": 28,
+   "disclosure without recipient": 12
+  },
+  "android-040": {
+   "arm": "android",
+   "rules": 170,
+   "guard with a residual": 28,
+   "guard only residuals": 12,
+   "with references": 24,
+   "disclosure": 21,
+   "disclosure without recipient": 8
+  },
+  "android-041": {
+   "arm": "android",
+   "rules": 305,
+   "guard with a residual": 104,
+   "guard only residuals": 45,
+   "with references": 65,
+   "disclosure": 84,
+   "disclosure without recipient": 31
+  },
+  "android-042": {
+   "arm": "android",
+   "rules": 295,
+   "guard with a residual": 137,
+   "guard only residuals": 79,
+   "with references": 100,
+   "disclosure": 35,
+   "disclosure without recipient": 18
+  },
+  "android-043": {
+   "arm": "android",
+   "rules": 211,
+   "guard with a residual": 45,
+   "guard only residuals": 9,
+   "with references": 58,
+   "disclosure": 59,
+   "disclosure without recipient": 20
+  },
+  "android-044": {
+   "arm": "android",
+   "rules": 74,
+   "guard with a residual": 37,
+   "guard only residuals": 3,
+   "with references": 34,
+   "disclosure": 14,
+   "disclosure without recipient": 2
+  },
+  "android-045": {
+   "arm": "android",
+   "rules": 109,
+   "guard with a residual": 32,
+   "guard only residuals": 24,
+   "with references": 10,
+   "disclosure": 10,
+   "disclosure without recipient": 3
+  },
+  "android-046": {
+   "arm": "android",
+   "rules": 71,
+   "guard with a residual": 11,
+   "guard only residuals": 9,
+   "with references": 3,
+   "disclosure": 21,
+   "disclosure without recipient": 9
+  },
+  "android-047": {
+   "arm": "android",
+   "rules": 168,
+   "guard with a residual": 36,
+   "guard only residuals": 19,
+   "with references": 32,
+   "disclosure": 31,
+   "disclosure without recipient": 7
+  },
+  "android-048": {
+   "arm": "android",
+   "rules": 31,
+   "guard with a residual": 3,
+   "guard only residuals": 2,
+   "with references": 3,
+   "disclosure": 7,
+   "disclosure without recipient": 1
+  },
+  "android-049": {
+   "arm": "android",
+   "rules": 197,
+   "guard with a residual": 34,
+   "guard only residuals": 16,
+   "with references": 5,
+   "disclosure": 32,
+   "disclosure without recipient": 6
+  },
+  "android-050": {
+   "arm": "android",
+   "rules": 326,
+   "guard with a residual": 82,
+   "guard only residuals": 20,
+   "with references": 100,
+   "disclosure": 113,
+   "disclosure without recipient": 20
+  },
+  "android-051": {
+   "arm": "android",
+   "rules": 123,
+   "guard with a residual": 9,
+   "guard only residuals": 5,
+   "with references": 2,
+   "disclosure": 18,
+   "disclosure without recipient": 3
+  },
+  "android-052": {
+   "arm": "android",
+   "rules": 218,
+   "guard with a residual": 36,
+   "guard only residuals": 16,
+   "with references": 55,
+   "disclosure": 84,
+   "disclosure without recipient": 17
+  },
+  "android-053": {
+   "arm": "android",
+   "rules": 117,
+   "guard with a residual": 22,
+   "guard only residuals": 12,
+   "with references": 18,
+   "disclosure": 32,
+   "disclosure without recipient": 2
+  },
+  "android-054": {
+   "arm": "android",
+   "rules": 64,
+   "guard with a residual": 7,
+   "guard only residuals": 2,
+   "with references": 6,
+   "disclosure": 14,
+   "disclosure without recipient": 10
+  },
+  "android-055": {
+   "arm": "android",
+   "rules": 412,
+   "guard with a residual": 111,
+   "guard only residuals": 40,
+   "with references": 106,
+   "disclosure": 75,
+   "disclosure without recipient": 32
+  },
+  "android-056": {
+   "arm": "android",
+   "rules": 266,
+   "guard with a residual": 66,
+   "guard only residuals": 21,
+   "with references": 91,
+   "disclosure": 38,
+   "disclosure without recipient": 21
+  },
+  "android-057": {
+   "arm": "android",
+   "rules": 137,
+   "guard with a residual": 53,
+   "guard only residuals": 14,
+   "with references": 16,
+   "disclosure": 29,
+   "disclosure without recipient": 21
+  },
+  "android-058": {
+   "arm": "android",
+   "rules": 34,
+   "guard with a residual": 1,
+   "guard only residuals": 1,
+   "with references": 1,
+   "disclosure": 5,
+   "disclosure without recipient": 5
+  },
+  "android-059": {
+   "arm": "android",
+   "rules": 264,
+   "guard with a residual": 39,
+   "guard only residuals": 10,
+   "with references": 23,
+   "disclosure": 52,
+   "disclosure without recipient": 9
+  },
+  "android-060": {
+   "arm": "android",
+   "rules": 245,
+   "guard with a residual": 57,
+   "guard only residuals": 24,
+   "with references": 42,
+   "disclosure": 47,
+   "disclosure without recipient": 10
+  },
+  "android-061": {
+   "arm": "android",
+   "rules": 93,
+   "guard with a residual": 1,
+   "guard only residuals": 0,
+   "with references": 2,
+   "disclosure": 2,
+   "disclosure without recipient": 2
+  },
+  "android-062": {
+   "arm": "android",
+   "rules": 159,
+   "guard with a residual": 19,
+   "guard only residuals": 4,
+   "with references": 16,
+   "disclosure": 24,
+   "disclosure without recipient": 11
+  },
+  "android-063": {
+   "arm": "android",
+   "rules": 66,
+   "guard with a residual": 17,
+   "guard only residuals": 10,
+   "with references": 19,
+   "disclosure": 21,
+   "disclosure without recipient": 10
+  },
+  "android-064": {
+   "arm": "android",
+   "rules": 23,
+   "guard with a residual": 9,
+   "guard only residuals": 7,
+   "with references": 1,
+   "disclosure": 10,
+   "disclosure without recipient": 2
+  },
+  "android-065": {
+   "arm": "android",
+   "rules": 195,
+   "guard with a residual": 39,
+   "guard only residuals": 10,
+   "with references": 26,
+   "disclosure": 42,
+   "disclosure without recipient": 14
+  },
+  "android-066": {
+   "arm": "android",
+   "rules": 292,
+   "guard with a residual": 125,
+   "guard only residuals": 63,
+   "with references": 95,
+   "disclosure": 106,
+   "disclosure without recipient": 11
+  },
+  "android-067": {
+   "arm": "android",
+   "rules": 145,
+   "guard with a residual": 46,
+   "guard only residuals": 25,
+   "with references": 7,
+   "disclosure": 24,
+   "disclosure without recipient": 11
+  },
+  "android-068": {
+   "arm": "android",
+   "rules": 233,
+   "guard with a residual": 41,
+   "guard only residuals": 12,
+   "with references": 81,
+   "disclosure": 87,
+   "disclosure without recipient": 6
+  },
+  "android-069": {
+   "arm": "android",
+   "rules": 564,
+   "guard with a residual": 155,
+   "guard only residuals": 86,
+   "with references": 109,
+   "disclosure": 128,
+   "disclosure without recipient": 18
+  },
+  "android-070": {
+   "arm": "android",
+   "rules": 29,
+   "guard with a residual": 15,
+   "guard only residuals": 12,
+   "with references": 0,
+   "disclosure": 7,
+   "disclosure without recipient": 3
+  },
+  "android-071": {
+   "arm": "android",
+   "rules": 242,
+   "guard with a residual": 44,
+   "guard only residuals": 20,
+   "with references": 63,
+   "disclosure": 35,
+   "disclosure without recipient": 13
+  },
+  "android-072": {
+   "arm": "android",
+   "rules": 24,
+   "guard with a residual": 3,
+   "guard only residuals": 3,
+   "with references": 0,
+   "disclosure": 14,
+   "disclosure without recipient": 14
+  },
+  "android-073": {
+   "arm": "android",
+   "rules": 28,
+   "guard with a residual": 9,
+   "guard only residuals": 7,
+   "with references": 0,
+   "disclosure": 2,
+   "disclosure without recipient": 0
+  },
+  "android-074": {
+   "arm": "android",
+   "rules": 272,
+   "guard with a residual": 89,
+   "guard only residuals": 11,
+   "with references": 17,
+   "disclosure": 30,
+   "disclosure without recipient": 19
+  },
+  "android-075": {
+   "arm": "android",
+   "rules": 228,
+   "guard with a residual": 57,
+   "guard only residuals": 46,
+   "with references": 26,
+   "disclosure": 46,
+   "disclosure without recipient": 15
+  },
+  "android-076": {
+   "arm": "android",
+   "rules": 357,
+   "guard with a residual": 120,
+   "guard only residuals": 48,
+   "with references": 105,
+   "disclosure": 77,
+   "disclosure without recipient": 17
+  },
+  "android-077": {
+   "arm": "android",
+   "rules": 148,
+   "guard with a residual": 37,
+   "guard only residuals": 5,
+   "with references": 38,
+   "disclosure": 25,
+   "disclosure without recipient": 8
+  },
+  "android-078": {
+   "arm": "android",
+   "rules": 47,
+   "guard with a residual": 32,
+   "guard only residuals": 28,
+   "with references": 25,
+   "disclosure": 21,
+   "disclosure without recipient": 12
+  },
+  "android-079": {
+   "arm": "android",
+   "rules": 953,
+   "guard with a residual": 311,
+   "guard only residuals": 138,
+   "with references": 108,
+   "disclosure": 172,
+   "disclosure without recipient": 65
+  },
+  "android-080": {
+   "arm": "android",
+   "rules": 126,
+   "guard with a residual": 24,
+   "guard only residuals": 18,
+   "with references": 31,
+   "disclosure": 16,
+   "disclosure without recipient": 3
+  },
+  "android-081": {
+   "arm": "android",
+   "rules": 193,
+   "guard with a residual": 47,
+   "guard only residuals": 20,
+   "with references": 25,
+   "disclosure": 48,
+   "disclosure without recipient": 22
+  },
+  "android-082": {
+   "arm": "android",
+   "rules": 104,
+   "guard with a residual": 41,
+   "guard only residuals": 22,
+   "with references": 11,
+   "disclosure": 28,
+   "disclosure without recipient": 8
+  },
+  "android-083": {
+   "arm": "android",
+   "rules": 363,
+   "guard with a residual": 159,
+   "guard only residuals": 110,
+   "with references": 100,
+   "disclosure": 107,
+   "disclosure without recipient": 12
+  },
+  "android-084": {
+   "arm": "android",
+   "rules": 189,
+   "guard with a residual": 40,
+   "guard only residuals": 9,
+   "with references": 33,
+   "disclosure": 40,
+   "disclosure without recipient": 11
+  },
+  "android-085": {
+   "arm": "android",
+   "rules": 259,
+   "guard with a residual": 41,
+   "guard only residuals": 17,
+   "with references": 55,
+   "disclosure": 58,
+   "disclosure without recipient": 11
+  },
+  "android-086": {
+   "arm": "android",
+   "rules": 206,
+   "guard with a residual": 43,
+   "guard only residuals": 8,
+   "with references": 27,
+   "disclosure": 46,
+   "disclosure without recipient": 27
+  },
+  "android-087": {
+   "arm": "android",
+   "rules": 9,
+   "guard with a residual": 3,
+   "guard only residuals": 1,
+   "with references": 0,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "android-088": {
+   "arm": "android",
+   "rules": 236,
+   "guard with a residual": 24,
+   "guard only residuals": 7,
+   "with references": 47,
+   "disclosure": 111,
+   "disclosure without recipient": 4
+  },
+  "android-089": {
+   "arm": "android",
+   "rules": 103,
+   "guard with a residual": 25,
+   "guard only residuals": 7,
+   "with references": 11,
+   "disclosure": 9,
+   "disclosure without recipient": 4
+  },
+  "android-090": {
+   "arm": "android",
+   "rules": 147,
+   "guard with a residual": 24,
+   "guard only residuals": 6,
+   "with references": 7,
+   "disclosure": 27,
+   "disclosure without recipient": 1
+  },
+  "android-091": {
+   "arm": "android",
+   "rules": 353,
+   "guard with a residual": 97,
+   "guard only residuals": 13,
+   "with references": 32,
+   "disclosure": 50,
+   "disclosure without recipient": 21
+  },
+  "android-092": {
+   "arm": "android",
+   "rules": 360,
+   "guard with a residual": 43,
+   "guard only residuals": 28,
+   "with references": 56,
+   "disclosure": 66,
+   "disclosure without recipient": 6
+  },
+  "android-093": {
+   "arm": "android",
+   "rules": 19,
+   "guard with a residual": 8,
+   "guard only residuals": 4,
+   "with references": 1,
+   "disclosure": 2,
+   "disclosure without recipient": 0
+  },
+  "android-094": {
+   "arm": "android",
+   "rules": 7,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 1,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "android-095": {
+   "arm": "android",
+   "rules": 208,
+   "guard with a residual": 137,
+   "guard only residuals": 97,
+   "with references": 71,
+   "disclosure": 60,
+   "disclosure without recipient": 6
+  },
+  "android-096": {
+   "arm": "android",
+   "rules": 140,
+   "guard with a residual": 33,
+   "guard only residuals": 15,
+   "with references": 10,
+   "disclosure": 37,
+   "disclosure without recipient": 18
+  },
+  "android-097": {
+   "arm": "android",
+   "rules": 197,
+   "guard with a residual": 9,
+   "guard only residuals": 7,
+   "with references": 4,
+   "disclosure": 14,
+   "disclosure without recipient": 1
+  },
+  "android-098": {
+   "arm": "android",
+   "rules": 43,
+   "guard with a residual": 27,
+   "guard only residuals": 22,
+   "with references": 12,
+   "disclosure": 5,
+   "disclosure without recipient": 3
+  },
+  "android-099": {
+   "arm": "android",
+   "rules": 105,
+   "guard with a residual": 23,
+   "guard only residuals": 2,
+   "with references": 35,
+   "disclosure": 15,
+   "disclosure without recipient": 1
+  },
+  "android-100": {
+   "arm": "android",
+   "rules": 57,
+   "guard with a residual": 7,
+   "guard only residuals": 3,
+   "with references": 1,
+   "disclosure": 8,
+   "disclosure without recipient": 4
+  },
+  "android-101": {
+   "arm": "android",
+   "rules": 75,
+   "guard with a residual": 22,
+   "guard only residuals": 6,
+   "with references": 5,
+   "disclosure": 21,
+   "disclosure without recipient": 5
+  },
+  "android-102": {
+   "arm": "android",
+   "rules": 160,
+   "guard with a residual": 49,
+   "guard only residuals": 13,
+   "with references": 24,
+   "disclosure": 30,
+   "disclosure without recipient": 12
+  },
+  "android-103": {
+   "arm": "android",
+   "rules": 264,
+   "guard with a residual": 75,
+   "guard only residuals": 40,
+   "with references": 67,
+   "disclosure": 41,
+   "disclosure without recipient": 28
+  },
+  "android-104": {
+   "arm": "android",
+   "rules": 299,
+   "guard with a residual": 80,
+   "guard only residuals": 60,
+   "with references": 53,
+   "disclosure": 83,
+   "disclosure without recipient": 8
+  },
+  "android-105": {
+   "arm": "android",
+   "rules": 213,
+   "guard with a residual": 38,
+   "guard only residuals": 16,
+   "with references": 32,
+   "disclosure": 75,
+   "disclosure without recipient": 6
+  },
+  "android-106": {
+   "arm": "android",
+   "rules": 71,
+   "guard with a residual": 31,
+   "guard only residuals": 17,
+   "with references": 12,
+   "disclosure": 5,
+   "disclosure without recipient": 2
+  },
+  "android-107": {
+   "arm": "android",
+   "rules": 194,
+   "guard with a residual": 48,
+   "guard only residuals": 17,
+   "with references": 41,
+   "disclosure": 39,
+   "disclosure without recipient": 6
+  },
+  "android-108": {
+   "arm": "android",
+   "rules": 160,
+   "guard with a residual": 43,
+   "guard only residuals": 13,
+   "with references": 38,
+   "disclosure": 37,
+   "disclosure without recipient": 18
+  },
+  "android-109": {
+   "arm": "android",
+   "rules": 238,
+   "guard with a residual": 33,
+   "guard only residuals": 8,
+   "with references": 57,
+   "disclosure": 67,
+   "disclosure without recipient": 8
+  },
+  "android-110": {
+   "arm": "android",
+   "rules": 32,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "android-111": {
+   "arm": "android",
+   "rules": 120,
+   "guard with a residual": 25,
+   "guard only residuals": 6,
+   "with references": 4,
+   "disclosure": 32,
+   "disclosure without recipient": 0
+  },
+  "android-112": {
+   "arm": "android",
+   "rules": 113,
+   "guard with a residual": 21,
+   "guard only residuals": 17,
+   "with references": 24,
+   "disclosure": 14,
+   "disclosure without recipient": 6
+  },
+  "android-113": {
+   "arm": "android",
+   "rules": 161,
+   "guard with a residual": 29,
+   "guard only residuals": 13,
+   "with references": 10,
+   "disclosure": 28,
+   "disclosure without recipient": 14
+  },
+  "android-114": {
+   "arm": "android",
+   "rules": 13,
+   "guard with a residual": 1,
+   "guard only residuals": 1,
+   "with references": 4,
+   "disclosure": 2,
+   "disclosure without recipient": 1
+  },
+  "android-115": {
+   "arm": "android",
+   "rules": 30,
+   "guard with a residual": 7,
+   "guard only residuals": 6,
+   "with references": 1,
+   "disclosure": 4,
+   "disclosure without recipient": 3
+  },
+  "android-116": {
+   "arm": "android",
+   "rules": 80,
+   "guard with a residual": 22,
+   "guard only residuals": 17,
+   "with references": 4,
+   "disclosure": 16,
+   "disclosure without recipient": 8
+  },
+  "android-117": {
+   "arm": "android",
+   "rules": 232,
+   "guard with a residual": 30,
+   "guard only residuals": 10,
+   "with references": 39,
+   "disclosure": 38,
+   "disclosure without recipient": 17
+  },
+  "android-118": {
+   "arm": "android",
+   "rules": 225,
+   "guard with a residual": 33,
+   "guard only residuals": 17,
+   "with references": 11,
+   "disclosure": 78,
+   "disclosure without recipient": 2
+  },
+  "android-119": {
+   "arm": "android",
+   "rules": 107,
+   "guard with a residual": 39,
+   "guard only residuals": 12,
+   "with references": 36,
+   "disclosure": 7,
+   "disclosure without recipient": 0
+  },
+  "android-120": {
+   "arm": "android",
+   "rules": 359,
+   "guard with a residual": 70,
+   "guard only residuals": 25,
+   "with references": 117,
+   "disclosure": 94,
+   "disclosure without recipient": 37
+  },
+  "android-121": {
+   "arm": "android",
+   "rules": 70,
+   "guard with a residual": 22,
+   "guard only residuals": 13,
+   "with references": 8,
+   "disclosure": 10,
+   "disclosure without recipient": 2
+  },
+  "android-122": {
+   "arm": "android",
+   "rules": 118,
+   "guard with a residual": 37,
+   "guard only residuals": 17,
+   "with references": 37,
+   "disclosure": 18,
+   "disclosure without recipient": 2
+  },
+  "android-123": {
+   "arm": "android",
+   "rules": 55,
+   "guard with a residual": 11,
+   "guard only residuals": 7,
+   "with references": 1,
+   "disclosure": 2,
+   "disclosure without recipient": 0
+  },
+  "android-124": {
+   "arm": "android",
+   "rules": 152,
+   "guard with a residual": 36,
+   "guard only residuals": 20,
+   "with references": 19,
+   "disclosure": 20,
+   "disclosure without recipient": 7
+  },
+  "android-125": {
+   "arm": "android",
+   "rules": 131,
+   "guard with a residual": 15,
+   "guard only residuals": 3,
+   "with references": 11,
+   "disclosure": 16,
+   "disclosure without recipient": 5
+  },
+  "android-126": {
+   "arm": "android",
+   "rules": 22,
+   "guard with a residual": 7,
+   "guard only residuals": 1,
+   "with references": 1,
+   "disclosure": 4,
+   "disclosure without recipient": 1
+  },
+  "android-127": {
+   "arm": "android",
+   "rules": 90,
+   "guard with a residual": 17,
+   "guard only residuals": 8,
+   "with references": 7,
+   "disclosure": 15,
+   "disclosure without recipient": 7
+  },
+  "android-128": {
+   "arm": "android",
+   "rules": 81,
+   "guard with a residual": 31,
+   "guard only residuals": 7,
+   "with references": 26,
+   "disclosure": 21,
+   "disclosure without recipient": 3
+  },
+  "android-129": {
+   "arm": "android",
+   "rules": 255,
+   "guard with a residual": 57,
+   "guard only residuals": 20,
+   "with references": 74,
+   "disclosure": 38,
+   "disclosure without recipient": 13
+  },
+  "android-130": {
+   "arm": "android",
+   "rules": 94,
+   "guard with a residual": 14,
+   "guard only residuals": 2,
+   "with references": 5,
+   "disclosure": 6,
+   "disclosure without recipient": 2
+  },
+  "android-131": {
+   "arm": "android",
+   "rules": 195,
+   "guard with a residual": 34,
+   "guard only residuals": 12,
+   "with references": 25,
+   "disclosure": 41,
+   "disclosure without recipient": 4
+  },
+  "android-132": {
+   "arm": "android",
+   "rules": 446,
+   "guard with a residual": 99,
+   "guard only residuals": 32,
+   "with references": 113,
+   "disclosure": 45,
+   "disclosure without recipient": 21
+  },
+  "android-133": {
+   "arm": "android",
+   "rules": 360,
+   "guard with a residual": 30,
+   "guard only residuals": 9,
+   "with references": 49,
+   "disclosure": 34,
+   "disclosure without recipient": 17
+  },
+  "android-134": {
+   "arm": "android",
+   "rules": 41,
+   "guard with a residual": 7,
+   "guard only residuals": 1,
+   "with references": 2,
+   "disclosure": 7,
+   "disclosure without recipient": 2
+  },
+  "android-135": {
+   "arm": "android",
+   "rules": 83,
+   "guard with a residual": 6,
+   "guard only residuals": 3,
+   "with references": 19,
+   "disclosure": 36,
+   "disclosure without recipient": 2
+  },
+  "android-136": {
+   "arm": "android",
+   "rules": 52,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 32,
+   "disclosure without recipient": 15
+  },
+  "android-137": {
+   "arm": "android",
+   "rules": 139,
+   "guard with a residual": 10,
+   "guard only residuals": 8,
+   "with references": 58,
+   "disclosure": 43,
+   "disclosure without recipient": 3
+  },
+  "android-138": {
+   "arm": "android",
+   "rules": 45,
+   "guard with a residual": 20,
+   "guard only residuals": 16,
+   "with references": 3,
+   "disclosure": 6,
+   "disclosure without recipient": 5
+  },
+  "android-139": {
+   "arm": "android",
+   "rules": 335,
+   "guard with a residual": 62,
+   "guard only residuals": 26,
+   "with references": 18,
+   "disclosure": 39,
+   "disclosure without recipient": 14
+  },
+  "android-140": {
+   "arm": "android",
+   "rules": 168,
+   "guard with a residual": 13,
+   "guard only residuals": 8,
+   "with references": 24,
+   "disclosure": 27,
+   "disclosure without recipient": 7
+  },
+  "android-141": {
+   "arm": "android",
+   "rules": 157,
+   "guard with a residual": 61,
+   "guard only residuals": 38,
+   "with references": 4,
+   "disclosure": 42,
+   "disclosure without recipient": 41
+  },
+  "android-142": {
+   "arm": "android",
+   "rules": 224,
+   "guard with a residual": 49,
+   "guard only residuals": 28,
+   "with references": 9,
+   "disclosure": 10,
+   "disclosure without recipient": 1
+  },
+  "android-143": {
+   "arm": "android",
+   "rules": 265,
+   "guard with a residual": 77,
+   "guard only residuals": 12,
+   "with references": 64,
+   "disclosure": 37,
+   "disclosure without recipient": 7
+  },
+  "android-144": {
+   "arm": "android",
+   "rules": 76,
+   "guard with a residual": 13,
+   "guard only residuals": 5,
+   "with references": 12,
+   "disclosure": 17,
+   "disclosure without recipient": 4
+  },
+  "android-145": {
+   "arm": "android",
+   "rules": 76,
+   "guard with a residual": 19,
+   "guard only residuals": 3,
+   "with references": 12,
+   "disclosure": 18,
+   "disclosure without recipient": 8
+  },
+  "android-146": {
+   "arm": "android",
+   "rules": 346,
+   "guard with a residual": 101,
+   "guard only residuals": 56,
+   "with references": 101,
+   "disclosure": 89,
+   "disclosure without recipient": 49
+  },
+  "android-147": {
+   "arm": "android",
+   "rules": 250,
+   "guard with a residual": 100,
+   "guard only residuals": 79,
+   "with references": 45,
+   "disclosure": 27,
+   "disclosure without recipient": 9
+  },
+  "android-148": {
+   "arm": "android",
+   "rules": 122,
+   "guard with a residual": 10,
+   "guard only residuals": 8,
+   "with references": 6,
+   "disclosure": 8,
+   "disclosure without recipient": 4
+  },
+  "android-149": {
+   "arm": "android",
+   "rules": 61,
+   "guard with a residual": 9,
+   "guard only residuals": 5,
+   "with references": 9,
+   "disclosure": 8,
+   "disclosure without recipient": 2
+  },
+  "android-150": {
+   "arm": "android",
+   "rules": 187,
+   "guard with a residual": 59,
+   "guard only residuals": 32,
+   "with references": 42,
+   "disclosure": 40,
+   "disclosure without recipient": 21
+  },
+  "android-151": {
+   "arm": "android",
+   "rules": 214,
+   "guard with a residual": 63,
+   "guard only residuals": 7,
+   "with references": 31,
+   "disclosure": 15,
+   "disclosure without recipient": 2
+  },
+  "android-152": {
+   "arm": "android",
+   "rules": 148,
+   "guard with a residual": 19,
+   "guard only residuals": 11,
+   "with references": 35,
+   "disclosure": 15,
+   "disclosure without recipient": 2
+  },
+  "android-153": {
+   "arm": "android",
+   "rules": 60,
+   "guard with a residual": 10,
+   "guard only residuals": 5,
+   "with references": 14,
+   "disclosure": 12,
+   "disclosure without recipient": 0
+  },
+  "android-154": {
+   "arm": "android",
+   "rules": 33,
+   "guard with a residual": 11,
+   "guard only residuals": 2,
+   "with references": 3,
+   "disclosure": 3,
+   "disclosure without recipient": 1
+  },
+  "android-155": {
+   "arm": "android",
+   "rules": 77,
+   "guard with a residual": 19,
+   "guard only residuals": 6,
+   "with references": 15,
+   "disclosure": 9,
+   "disclosure without recipient": 6
+  },
+  "android-156": {
+   "arm": "android",
+   "rules": 11,
+   "guard with a residual": 1,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 1,
+   "disclosure without recipient": 0
+  },
+  "android-157": {
+   "arm": "android",
+   "rules": 405,
+   "guard with a residual": 217,
+   "guard only residuals": 2,
+   "with references": 244,
+   "disclosure": 154,
+   "disclosure without recipient": 9
+  },
+  "android-158": {
+   "arm": "android",
+   "rules": 255,
+   "guard with a residual": 34,
+   "guard only residuals": 14,
+   "with references": 35,
+   "disclosure": 77,
+   "disclosure without recipient": 11
+  },
+  "android-159": {
+   "arm": "android",
+   "rules": 124,
+   "guard with a residual": 22,
+   "guard only residuals": 14,
+   "with references": 22,
+   "disclosure": 21,
+   "disclosure without recipient": 5
+  },
+  "android-160": {
+   "arm": "android",
+   "rules": 78,
+   "guard with a residual": 37,
+   "guard only residuals": 15,
+   "with references": 15,
+   "disclosure": 10,
+   "disclosure without recipient": 5
+  },
+  "android-161": {
+   "arm": "android",
+   "rules": 101,
+   "guard with a residual": 4,
+   "guard only residuals": 1,
+   "with references": 19,
+   "disclosure": 8,
+   "disclosure without recipient": 0
+  },
+  "android-162": {
+   "arm": "android",
+   "rules": 47,
+   "guard with a residual": 17,
+   "guard only residuals": 10,
+   "with references": 4,
+   "disclosure": 7,
+   "disclosure without recipient": 2
+  },
+  "android-163": {
+   "arm": "android",
+   "rules": 34,
+   "guard with a residual": 3,
+   "guard only residuals": 3,
+   "with references": 7,
+   "disclosure": 5,
+   "disclosure without recipient": 4
+  },
+  "android-164": {
+   "arm": "android",
+   "rules": 170,
+   "guard with a residual": 30,
+   "guard only residuals": 9,
+   "with references": 57,
+   "disclosure": 10,
+   "disclosure without recipient": 1
+  },
+  "android-165": {
+   "arm": "android",
+   "rules": 67,
+   "guard with a residual": 20,
+   "guard only residuals": 9,
+   "with references": 14,
+   "disclosure": 19,
+   "disclosure without recipient": 2
+  },
+  "android-166": {
+   "arm": "android",
+   "rules": 783,
+   "guard with a residual": 163,
+   "guard only residuals": 107,
+   "with references": 148,
+   "disclosure": 166,
+   "disclosure without recipient": 17
+  },
+  "android-167": {
+   "arm": "android",
+   "rules": 238,
+   "guard with a residual": 50,
+   "guard only residuals": 24,
+   "with references": 58,
+   "disclosure": 52,
+   "disclosure without recipient": 12
+  },
+  "android-168": {
+   "arm": "android",
+   "rules": 389,
+   "guard with a residual": 41,
+   "guard only residuals": 4,
+   "with references": 106,
+   "disclosure": 112,
+   "disclosure without recipient": 12
+  },
+  "android-169": {
+   "arm": "android",
+   "rules": 125,
+   "guard with a residual": 21,
+   "guard only residuals": 13,
+   "with references": 26,
+   "disclosure": 26,
+   "disclosure without recipient": 6
+  },
+  "android-170": {
+   "arm": "android",
+   "rules": 384,
+   "guard with a residual": 83,
+   "guard only residuals": 31,
+   "with references": 57,
+   "disclosure": 100,
+   "disclosure without recipient": 13
+  },
+  "android-171": {
+   "arm": "android",
+   "rules": 449,
+   "guard with a residual": 106,
+   "guard only residuals": 59,
+   "with references": 113,
+   "disclosure": 65,
+   "disclosure without recipient": 29
+  },
+  "android-172": {
+   "arm": "android",
+   "rules": 7,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "android-173": {
+   "arm": "android",
+   "rules": 256,
+   "guard with a residual": 93,
+   "guard only residuals": 42,
+   "with references": 49,
+   "disclosure": 63,
+   "disclosure without recipient": 12
+  },
+  "android-174": {
+   "arm": "android",
+   "rules": 288,
+   "guard with a residual": 75,
+   "guard only residuals": 27,
+   "with references": 41,
+   "disclosure": 46,
+   "disclosure without recipient": 8
+  },
+  "android-175": {
+   "arm": "android",
+   "rules": 97,
+   "guard with a residual": 27,
+   "guard only residuals": 12,
+   "with references": 35,
+   "disclosure": 22,
+   "disclosure without recipient": 8
+  },
+  "android-176": {
+   "arm": "android",
+   "rules": 205,
+   "guard with a residual": 57,
+   "guard only residuals": 25,
+   "with references": 47,
+   "disclosure": 41,
+   "disclosure without recipient": 19
+  },
+  "android-177": {
+   "arm": "android",
+   "rules": 146,
+   "guard with a residual": 36,
+   "guard only residuals": 15,
+   "with references": 27,
+   "disclosure": 21,
+   "disclosure without recipient": 5
+  },
+  "android-178": {
+   "arm": "android",
+   "rules": 162,
+   "guard with a residual": 30,
+   "guard only residuals": 8,
+   "with references": 39,
+   "disclosure": 22,
+   "disclosure without recipient": 9
+  },
+  "android-179": {
+   "arm": "android",
+   "rules": 157,
+   "guard with a residual": 43,
+   "guard only residuals": 25,
+   "with references": 23,
+   "disclosure": 27,
+   "disclosure without recipient": 12
+  },
+  "android-180": {
+   "arm": "android",
+   "rules": 179,
+   "guard with a residual": 30,
+   "guard only residuals": 12,
+   "with references": 44,
+   "disclosure": 33,
+   "disclosure without recipient": 22
+  },
+  "android-181": {
+   "arm": "android",
+   "rules": 214,
+   "guard with a residual": 40,
+   "guard only residuals": 11,
+   "with references": 41,
+   "disclosure": 65,
+   "disclosure without recipient": 16
+  },
+  "android-182": {
+   "arm": "android",
+   "rules": 112,
+   "guard with a residual": 50,
+   "guard only residuals": 5,
+   "with references": 51,
+   "disclosure": 16,
+   "disclosure without recipient": 3
+  },
+  "android-183": {
+   "arm": "android",
+   "rules": 89,
+   "guard with a residual": 36,
+   "guard only residuals": 24,
+   "with references": 12,
+   "disclosure": 11,
+   "disclosure without recipient": 2
+  },
+  "android-184": {
+   "arm": "android",
+   "rules": 59,
+   "guard with a residual": 24,
+   "guard only residuals": 13,
+   "with references": 7,
+   "disclosure": 13,
+   "disclosure without recipient": 10
+  },
+  "android-185": {
+   "arm": "android",
+   "rules": 143,
+   "guard with a residual": 38,
+   "guard only residuals": 17,
+   "with references": 33,
+   "disclosure": 29,
+   "disclosure without recipient": 14
+  },
+  "android-186": {
+   "arm": "android",
+   "rules": 113,
+   "guard with a residual": 26,
+   "guard only residuals": 15,
+   "with references": 7,
+   "disclosure": 32,
+   "disclosure without recipient": 11
+  },
+  "android-187": {
+   "arm": "android",
+   "rules": 42,
+   "guard with a residual": 13,
+   "guard only residuals": 8,
+   "with references": 11,
+   "disclosure": 8,
+   "disclosure without recipient": 5
+  },
+  "android-188": {
+   "arm": "android",
+   "rules": 141,
+   "guard with a residual": 39,
+   "guard only residuals": 28,
+   "with references": 28,
+   "disclosure": 14,
+   "disclosure without recipient": 2
+  },
+  "android-189": {
+   "arm": "android",
+   "rules": 135,
+   "guard with a residual": 35,
+   "guard only residuals": 5,
+   "with references": 56,
+   "disclosure": 26,
+   "disclosure without recipient": 9
+  },
+  "android-190": {
+   "arm": "android",
+   "rules": 88,
+   "guard with a residual": 57,
+   "guard only residuals": 47,
+   "with references": 2,
+   "disclosure": 1,
+   "disclosure without recipient": 1
+  },
+  "android-191": {
+   "arm": "android",
+   "rules": 307,
+   "guard with a residual": 73,
+   "guard only residuals": 36,
+   "with references": 71,
+   "disclosure": 52,
+   "disclosure without recipient": 7
+  },
+  "android-192": {
+   "arm": "android",
+   "rules": 199,
+   "guard with a residual": 95,
+   "guard only residuals": 25,
+   "with references": 36,
+   "disclosure": 31,
+   "disclosure without recipient": 6
+  },
+  "android-193": {
+   "arm": "android",
+   "rules": 44,
+   "guard with a residual": 1,
+   "guard only residuals": 1,
+   "with references": 3,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "android-194": {
+   "arm": "android",
+   "rules": 191,
+   "guard with a residual": 33,
+   "guard only residuals": 9,
+   "with references": 116,
+   "disclosure": 41,
+   "disclosure without recipient": 0
+  },
+  "android-195": {
+   "arm": "android",
+   "rules": 198,
+   "guard with a residual": 31,
+   "guard only residuals": 16,
+   "with references": 7,
+   "disclosure": 49,
+   "disclosure without recipient": 29
+  },
+  "android-196": {
+   "arm": "android",
+   "rules": 88,
+   "guard with a residual": 18,
+   "guard only residuals": 11,
+   "with references": 12,
+   "disclosure": 11,
+   "disclosure without recipient": 7
+  },
+  "android-197": {
+   "arm": "android",
+   "rules": 107,
+   "guard with a residual": 28,
+   "guard only residuals": 4,
+   "with references": 19,
+   "disclosure": 14,
+   "disclosure without recipient": 8
+  },
+  "android-198": {
+   "arm": "android",
+   "rules": 221,
+   "guard with a residual": 46,
+   "guard only residuals": 26,
+   "with references": 41,
+   "disclosure": 17,
+   "disclosure without recipient": 1
+  },
+  "android-199": {
+   "arm": "android",
+   "rules": 252,
+   "guard with a residual": 119,
+   "guard only residuals": 56,
+   "with references": 76,
+   "disclosure": 70,
+   "disclosure without recipient": 25
+  },
+  "android-200": {
+   "arm": "android",
+   "rules": 96,
+   "guard with a residual": 27,
+   "guard only residuals": 8,
+   "with references": 15,
+   "disclosure": 19,
+   "disclosure without recipient": 4
+  },
+  "apple-001": {
+   "arm": "apple",
+   "rules": 281,
+   "guard with a residual": 51,
+   "guard only residuals": 28,
+   "with references": 18,
+   "disclosure": 77,
+   "disclosure without recipient": 4
+  },
+  "apple-002": {
+   "arm": "apple",
+   "rules": 181,
+   "guard with a residual": 77,
+   "guard only residuals": 41,
+   "with references": 25,
+   "disclosure": 55,
+   "disclosure without recipient": 9
+  },
+  "apple-003": {
+   "arm": "apple",
+   "rules": 306,
+   "guard with a residual": 28,
+   "guard only residuals": 16,
+   "with references": 11,
+   "disclosure": 161,
+   "disclosure without recipient": 7
+  },
+  "apple-004": {
+   "arm": "apple",
+   "rules": 507,
+   "guard with a residual": 158,
+   "guard only residuals": 35,
+   "with references": 68,
+   "disclosure": 117,
+   "disclosure without recipient": 15
+  },
+  "apple-005": {
+   "arm": "apple",
+   "rules": 316,
+   "guard with a residual": 64,
+   "guard only residuals": 16,
+   "with references": 53,
+   "disclosure": 102,
+   "disclosure without recipient": 21
+  },
+  "apple-006": {
+   "arm": "apple",
+   "rules": 370,
+   "guard with a residual": 57,
+   "guard only residuals": 14,
+   "with references": 46,
+   "disclosure": 36,
+   "disclosure without recipient": 7
+  },
+  "apple-007": {
+   "arm": "apple",
+   "rules": 607,
+   "guard with a residual": 82,
+   "guard only residuals": 29,
+   "with references": 160,
+   "disclosure": 167,
+   "disclosure without recipient": 23
+  },
+  "apple-008": {
+   "arm": "apple",
+   "rules": 168,
+   "guard with a residual": 36,
+   "guard only residuals": 31,
+   "with references": 9,
+   "disclosure": 27,
+   "disclosure without recipient": 3
+  },
+  "apple-009": {
+   "arm": "apple",
+   "rules": 122,
+   "guard with a residual": 32,
+   "guard only residuals": 22,
+   "with references": 18,
+   "disclosure": 30,
+   "disclosure without recipient": 9
+  },
+  "apple-010": {
+   "arm": "apple",
+   "rules": 327,
+   "guard with a residual": 36,
+   "guard only residuals": 17,
+   "with references": 105,
+   "disclosure": 100,
+   "disclosure without recipient": 42
+  },
+  "apple-011": {
+   "arm": "apple",
+   "rules": 130,
+   "guard with a residual": 25,
+   "guard only residuals": 19,
+   "with references": 15,
+   "disclosure": 19,
+   "disclosure without recipient": 4
+  },
+  "apple-012": {
+   "arm": "apple",
+   "rules": 208,
+   "guard with a residual": 57,
+   "guard only residuals": 31,
+   "with references": 51,
+   "disclosure": 43,
+   "disclosure without recipient": 12
+  },
+  "apple-013": {
+   "arm": "apple",
+   "rules": 276,
+   "guard with a residual": 40,
+   "guard only residuals": 15,
+   "with references": 40,
+   "disclosure": 135,
+   "disclosure without recipient": 18
+  },
+  "apple-014": {
+   "arm": "apple",
+   "rules": 393,
+   "guard with a residual": 91,
+   "guard only residuals": 61,
+   "with references": 91,
+   "disclosure": 58,
+   "disclosure without recipient": 20
+  },
+  "apple-015": {
+   "arm": "apple",
+   "rules": 307,
+   "guard with a residual": 88,
+   "guard only residuals": 48,
+   "with references": 47,
+   "disclosure": 123,
+   "disclosure without recipient": 30
+  },
+  "apple-016": {
+   "arm": "apple",
+   "rules": 301,
+   "guard with a residual": 61,
+   "guard only residuals": 28,
+   "with references": 66,
+   "disclosure": 67,
+   "disclosure without recipient": 12
+  },
+  "apple-017": {
+   "arm": "apple",
+   "rules": 79,
+   "guard with a residual": 32,
+   "guard only residuals": 19,
+   "with references": 21,
+   "disclosure": 16,
+   "disclosure without recipient": 10
+  },
+  "apple-018": {
+   "arm": "apple",
+   "rules": 197,
+   "guard with a residual": 21,
+   "guard only residuals": 8,
+   "with references": 21,
+   "disclosure": 69,
+   "disclosure without recipient": 25
+  },
+  "apple-019": {
+   "arm": "apple",
+   "rules": 76,
+   "guard with a residual": 39,
+   "guard only residuals": 30,
+   "with references": 12,
+   "disclosure": 12,
+   "disclosure without recipient": 8
+  },
+  "apple-020": {
+   "arm": "apple",
+   "rules": 223,
+   "guard with a residual": 45,
+   "guard only residuals": 14,
+   "with references": 40,
+   "disclosure": 67,
+   "disclosure without recipient": 12
+  },
+  "apple-021": {
+   "arm": "apple",
+   "rules": 242,
+   "guard with a residual": 50,
+   "guard only residuals": 17,
+   "with references": 39,
+   "disclosure": 60,
+   "disclosure without recipient": 3
+  },
+  "apple-022": {
+   "arm": "apple",
+   "rules": 329,
+   "guard with a residual": 100,
+   "guard only residuals": 64,
+   "with references": 81,
+   "disclosure": 126,
+   "disclosure without recipient": 22
+  },
+  "apple-023": {
+   "arm": "apple",
+   "rules": 81,
+   "guard with a residual": 13,
+   "guard only residuals": 9,
+   "with references": 19,
+   "disclosure": 17,
+   "disclosure without recipient": 6
+  },
+  "apple-024": {
+   "arm": "apple",
+   "rules": 192,
+   "guard with a residual": 37,
+   "guard only residuals": 13,
+   "with references": 23,
+   "disclosure": 50,
+   "disclosure without recipient": 8
+  },
+  "apple-025": {
+   "arm": "apple",
+   "rules": 264,
+   "guard with a residual": 42,
+   "guard only residuals": 21,
+   "with references": 59,
+   "disclosure": 117,
+   "disclosure without recipient": 28
+  },
+  "apple-026": {
+   "arm": "apple",
+   "rules": 297,
+   "guard with a residual": 131,
+   "guard only residuals": 68,
+   "with references": 50,
+   "disclosure": 73,
+   "disclosure without recipient": 10
+  },
+  "apple-027": {
+   "arm": "apple",
+   "rules": 167,
+   "guard with a residual": 18,
+   "guard only residuals": 10,
+   "with references": 24,
+   "disclosure": 38,
+   "disclosure without recipient": 10
+  },
+  "apple-028": {
+   "arm": "apple",
+   "rules": 112,
+   "guard with a residual": 43,
+   "guard only residuals": 29,
+   "with references": 48,
+   "disclosure": 25,
+   "disclosure without recipient": 2
+  },
+  "apple-029": {
+   "arm": "apple",
+   "rules": 280,
+   "guard with a residual": 64,
+   "guard only residuals": 26,
+   "with references": 70,
+   "disclosure": 104,
+   "disclosure without recipient": 24
+  },
+  "apple-030": {
+   "arm": "apple",
+   "rules": 103,
+   "guard with a residual": 28,
+   "guard only residuals": 4,
+   "with references": 45,
+   "disclosure": 33,
+   "disclosure without recipient": 5
+  },
+  "apple-031": {
+   "arm": "apple",
+   "rules": 911,
+   "guard with a residual": 205,
+   "guard only residuals": 87,
+   "with references": 151,
+   "disclosure": 225,
+   "disclosure without recipient": 44
+  },
+  "apple-032": {
+   "arm": "apple",
+   "rules": 719,
+   "guard with a residual": 304,
+   "guard only residuals": 152,
+   "with references": 139,
+   "disclosure": 157,
+   "disclosure without recipient": 13
+  },
+  "apple-033": {
+   "arm": "apple",
+   "rules": 132,
+   "guard with a residual": 34,
+   "guard only residuals": 17,
+   "with references": 18,
+   "disclosure": 16,
+   "disclosure without recipient": 3
+  },
+  "apple-034": {
+   "arm": "apple",
+   "rules": 325,
+   "guard with a residual": 64,
+   "guard only residuals": 38,
+   "with references": 51,
+   "disclosure": 156,
+   "disclosure without recipient": 20
+  },
+  "apple-035": {
+   "arm": "apple",
+   "rules": 368,
+   "guard with a residual": 113,
+   "guard only residuals": 46,
+   "with references": 86,
+   "disclosure": 79,
+   "disclosure without recipient": 17
+  },
+  "apple-036": {
+   "arm": "apple",
+   "rules": 304,
+   "guard with a residual": 36,
+   "guard only residuals": 13,
+   "with references": 27,
+   "disclosure": 37,
+   "disclosure without recipient": 5
+  },
+  "apple-037": {
+   "arm": "apple",
+   "rules": 596,
+   "guard with a residual": 122,
+   "guard only residuals": 40,
+   "with references": 164,
+   "disclosure": 164,
+   "disclosure without recipient": 24
+  },
+  "apple-038": {
+   "arm": "apple",
+   "rules": 158,
+   "guard with a residual": 91,
+   "guard only residuals": 60,
+   "with references": 52,
+   "disclosure": 61,
+   "disclosure without recipient": 7
+  },
+  "apple-039": {
+   "arm": "apple",
+   "rules": 187,
+   "guard with a residual": 28,
+   "guard only residuals": 16,
+   "with references": 12,
+   "disclosure": 27,
+   "disclosure without recipient": 7
+  },
+  "apple-040": {
+   "arm": "apple",
+   "rules": 234,
+   "guard with a residual": 68,
+   "guard only residuals": 32,
+   "with references": 37,
+   "disclosure": 60,
+   "disclosure without recipient": 30
+  },
+  "apple-041": {
+   "arm": "apple",
+   "rules": 239,
+   "guard with a residual": 72,
+   "guard only residuals": 24,
+   "with references": 44,
+   "disclosure": 102,
+   "disclosure without recipient": 21
+  },
+  "apple-042": {
+   "arm": "apple",
+   "rules": 124,
+   "guard with a residual": 30,
+   "guard only residuals": 13,
+   "with references": 17,
+   "disclosure": 30,
+   "disclosure without recipient": 8
+  },
+  "apple-043": {
+   "arm": "apple",
+   "rules": 445,
+   "guard with a residual": 81,
+   "guard only residuals": 75,
+   "with references": 78,
+   "disclosure": 276,
+   "disclosure without recipient": 17
+  },
+  "apple-044": {
+   "arm": "apple",
+   "rules": 235,
+   "guard with a residual": 44,
+   "guard only residuals": 21,
+   "with references": 19,
+   "disclosure": 34,
+   "disclosure without recipient": 15
+  },
+  "apple-045": {
+   "arm": "apple",
+   "rules": 377,
+   "guard with a residual": 98,
+   "guard only residuals": 50,
+   "with references": 67,
+   "disclosure": 68,
+   "disclosure without recipient": 32
+  },
+  "apple-046": {
+   "arm": "apple",
+   "rules": 67,
+   "guard with a residual": 24,
+   "guard only residuals": 9,
+   "with references": 3,
+   "disclosure": 15,
+   "disclosure without recipient": 10
+  },
+  "apple-047": {
+   "arm": "apple",
+   "rules": 1887,
+   "guard with a residual": 456,
+   "guard only residuals": 182,
+   "with references": 527,
+   "disclosure": 619,
+   "disclosure without recipient": 113
+  },
+  "apple-048": {
+   "arm": "apple",
+   "rules": 337,
+   "guard with a residual": 70,
+   "guard only residuals": 26,
+   "with references": 60,
+   "disclosure": 107,
+   "disclosure without recipient": 15
+  },
+  "apple-049": {
+   "arm": "apple",
+   "rules": 269,
+   "guard with a residual": 36,
+   "guard only residuals": 17,
+   "with references": 71,
+   "disclosure": 70,
+   "disclosure without recipient": 28
+  },
+  "apple-050": {
+   "arm": "apple",
+   "rules": 36,
+   "guard with a residual": 16,
+   "guard only residuals": 14,
+   "with references": 1,
+   "disclosure": 24,
+   "disclosure without recipient": 14
+  },
+  "apple-051": {
+   "arm": "apple",
+   "rules": 408,
+   "guard with a residual": 73,
+   "guard only residuals": 54,
+   "with references": 96,
+   "disclosure": 128,
+   "disclosure without recipient": 13
+  },
+  "apple-052": {
+   "arm": "apple",
+   "rules": 377,
+   "guard with a residual": 64,
+   "guard only residuals": 36,
+   "with references": 124,
+   "disclosure": 102,
+   "disclosure without recipient": 23
+  },
+  "apple-053": {
+   "arm": "apple",
+   "rules": 499,
+   "guard with a residual": 156,
+   "guard only residuals": 110,
+   "with references": 109,
+   "disclosure": 127,
+   "disclosure without recipient": 15
+  },
+  "apple-054": {
+   "arm": "apple",
+   "rules": 158,
+   "guard with a residual": 41,
+   "guard only residuals": 29,
+   "with references": 22,
+   "disclosure": 23,
+   "disclosure without recipient": 9
+  },
+  "apple-055": {
+   "arm": "apple",
+   "rules": 264,
+   "guard with a residual": 61,
+   "guard only residuals": 30,
+   "with references": 47,
+   "disclosure": 65,
+   "disclosure without recipient": 25
+  },
+  "apple-056": {
+   "arm": "apple",
+   "rules": 391,
+   "guard with a residual": 53,
+   "guard only residuals": 35,
+   "with references": 43,
+   "disclosure": 121,
+   "disclosure without recipient": 23
+  },
+  "apple-057": {
+   "arm": "apple",
+   "rules": 491,
+   "guard with a residual": 104,
+   "guard only residuals": 49,
+   "with references": 85,
+   "disclosure": 93,
+   "disclosure without recipient": 13
+  },
+  "apple-058": {
+   "arm": "apple",
+   "rules": 135,
+   "guard with a residual": 8,
+   "guard only residuals": 2,
+   "with references": 4,
+   "disclosure": 29,
+   "disclosure without recipient": 10
+  },
+  "apple-059": {
+   "arm": "apple",
+   "rules": 557,
+   "guard with a residual": 294,
+   "guard only residuals": 207,
+   "with references": 80,
+   "disclosure": 123,
+   "disclosure without recipient": 42
+  },
+  "apple-060": {
+   "arm": "apple",
+   "rules": 343,
+   "guard with a residual": 59,
+   "guard only residuals": 31,
+   "with references": 77,
+   "disclosure": 92,
+   "disclosure without recipient": 15
+  },
+  "apple-061": {
+   "arm": "apple",
+   "rules": 159,
+   "guard with a residual": 27,
+   "guard only residuals": 16,
+   "with references": 23,
+   "disclosure": 32,
+   "disclosure without recipient": 15
+  },
+  "apple-062": {
+   "arm": "apple",
+   "rules": 258,
+   "guard with a residual": 98,
+   "guard only residuals": 46,
+   "with references": 53,
+   "disclosure": 55,
+   "disclosure without recipient": 11
+  },
+  "apple-063": {
+   "arm": "apple",
+   "rules": 315,
+   "guard with a residual": 55,
+   "guard only residuals": 22,
+   "with references": 29,
+   "disclosure": 33,
+   "disclosure without recipient": 9
+  },
+  "apple-064": {
+   "arm": "apple",
+   "rules": 373,
+   "guard with a residual": 59,
+   "guard only residuals": 37,
+   "with references": 47,
+   "disclosure": 67,
+   "disclosure without recipient": 10
+  },
+  "apple-065": {
+   "arm": "apple",
+   "rules": 217,
+   "guard with a residual": 63,
+   "guard only residuals": 14,
+   "with references": 69,
+   "disclosure": 32,
+   "disclosure without recipient": 14
+  },
+  "apple-066": {
+   "arm": "apple",
+   "rules": 136,
+   "guard with a residual": 22,
+   "guard only residuals": 7,
+   "with references": 21,
+   "disclosure": 23,
+   "disclosure without recipient": 7
+  },
+  "apple-067": {
+   "arm": "apple",
+   "rules": 252,
+   "guard with a residual": 52,
+   "guard only residuals": 21,
+   "with references": 72,
+   "disclosure": 55,
+   "disclosure without recipient": 8
+  },
+  "apple-068": {
+   "arm": "apple",
+   "rules": 339,
+   "guard with a residual": 57,
+   "guard only residuals": 31,
+   "with references": 90,
+   "disclosure": 76,
+   "disclosure without recipient": 13
+  },
+  "apple-069": {
+   "arm": "apple",
+   "rules": 170,
+   "guard with a residual": 48,
+   "guard only residuals": 17,
+   "with references": 40,
+   "disclosure": 38,
+   "disclosure without recipient": 7
+  },
+  "apple-070": {
+   "arm": "apple",
+   "rules": 122,
+   "guard with a residual": 25,
+   "guard only residuals": 18,
+   "with references": 6,
+   "disclosure": 8,
+   "disclosure without recipient": 1
+  },
+  "apple-071": {
+   "arm": "apple",
+   "rules": 234,
+   "guard with a residual": 81,
+   "guard only residuals": 25,
+   "with references": 62,
+   "disclosure": 54,
+   "disclosure without recipient": 2
+  },
+  "apple-072": {
+   "arm": "apple",
+   "rules": 586,
+   "guard with a residual": 80,
+   "guard only residuals": 30,
+   "with references": 69,
+   "disclosure": 101,
+   "disclosure without recipient": 10
+  },
+  "apple-073": {
+   "arm": "apple",
+   "rules": 124,
+   "guard with a residual": 39,
+   "guard only residuals": 17,
+   "with references": 35,
+   "disclosure": 31,
+   "disclosure without recipient": 11
+  },
+  "apple-074": {
+   "arm": "apple",
+   "rules": 167,
+   "guard with a residual": 16,
+   "guard only residuals": 6,
+   "with references": 29,
+   "disclosure": 28,
+   "disclosure without recipient": 12
+  },
+  "apple-075": {
+   "arm": "apple",
+   "rules": 197,
+   "guard with a residual": 32,
+   "guard only residuals": 18,
+   "with references": 29,
+   "disclosure": 44,
+   "disclosure without recipient": 17
+  },
+  "apple-076": {
+   "arm": "apple",
+   "rules": 330,
+   "guard with a residual": 155,
+   "guard only residuals": 76,
+   "with references": 72,
+   "disclosure": 136,
+   "disclosure without recipient": 44
+  },
+  "apple-077": {
+   "arm": "apple",
+   "rules": 414,
+   "guard with a residual": 84,
+   "guard only residuals": 43,
+   "with references": 78,
+   "disclosure": 80,
+   "disclosure without recipient": 18
+  },
+  "apple-078": {
+   "arm": "apple",
+   "rules": 173,
+   "guard with a residual": 37,
+   "guard only residuals": 12,
+   "with references": 7,
+   "disclosure": 25,
+   "disclosure without recipient": 1
+  },
+  "apple-079": {
+   "arm": "apple",
+   "rules": 143,
+   "guard with a residual": 9,
+   "guard only residuals": 5,
+   "with references": 5,
+   "disclosure": 53,
+   "disclosure without recipient": 9
+  },
+  "apple-080": {
+   "arm": "apple",
+   "rules": 432,
+   "guard with a residual": 61,
+   "guard only residuals": 5,
+   "with references": 153,
+   "disclosure": 142,
+   "disclosure without recipient": 44
+  },
+  "apple-081": {
+   "arm": "apple",
+   "rules": 214,
+   "guard with a residual": 47,
+   "guard only residuals": 21,
+   "with references": 76,
+   "disclosure": 55,
+   "disclosure without recipient": 12
+  },
+  "apple-082": {
+   "arm": "apple",
+   "rules": 283,
+   "guard with a residual": 73,
+   "guard only residuals": 28,
+   "with references": 45,
+   "disclosure": 90,
+   "disclosure without recipient": 9
+  },
+  "apple-083": {
+   "arm": "apple",
+   "rules": 162,
+   "guard with a residual": 31,
+   "guard only residuals": 17,
+   "with references": 68,
+   "disclosure": 29,
+   "disclosure without recipient": 7
+  },
+  "apple-084": {
+   "arm": "apple",
+   "rules": 283,
+   "guard with a residual": 70,
+   "guard only residuals": 25,
+   "with references": 86,
+   "disclosure": 51,
+   "disclosure without recipient": 25
+  },
+  "apple-085": {
+   "arm": "apple",
+   "rules": 159,
+   "guard with a residual": 64,
+   "guard only residuals": 16,
+   "with references": 15,
+   "disclosure": 22,
+   "disclosure without recipient": 6
+  },
+  "apple-086": {
+   "arm": "apple",
+   "rules": 375,
+   "guard with a residual": 54,
+   "guard only residuals": 21,
+   "with references": 57,
+   "disclosure": 70,
+   "disclosure without recipient": 12
+  },
+  "apple-087": {
+   "arm": "apple",
+   "rules": 276,
+   "guard with a residual": 43,
+   "guard only residuals": 12,
+   "with references": 32,
+   "disclosure": 55,
+   "disclosure without recipient": 12
+  },
+  "apple-088": {
+   "arm": "apple",
+   "rules": 250,
+   "guard with a residual": 71,
+   "guard only residuals": 45,
+   "with references": 74,
+   "disclosure": 59,
+   "disclosure without recipient": 17
+  },
+  "apple-089": {
+   "arm": "apple",
+   "rules": 461,
+   "guard with a residual": 165,
+   "guard only residuals": 77,
+   "with references": 175,
+   "disclosure": 140,
+   "disclosure without recipient": 32
+  },
+  "apple-090": {
+   "arm": "apple",
+   "rules": 63,
+   "guard with a residual": 15,
+   "guard only residuals": 5,
+   "with references": 3,
+   "disclosure": 24,
+   "disclosure without recipient": 1
+  },
+  "apple-091": {
+   "arm": "apple",
+   "rules": 346,
+   "guard with a residual": 66,
+   "guard only residuals": 12,
+   "with references": 73,
+   "disclosure": 142,
+   "disclosure without recipient": 32
+  },
+  "apple-092": {
+   "arm": "apple",
+   "rules": 197,
+   "guard with a residual": 74,
+   "guard only residuals": 56,
+   "with references": 26,
+   "disclosure": 18,
+   "disclosure without recipient": 7
+  },
+  "apple-093": {
+   "arm": "apple",
+   "rules": 277,
+   "guard with a residual": 71,
+   "guard only residuals": 32,
+   "with references": 73,
+   "disclosure": 61,
+   "disclosure without recipient": 35
+  },
+  "apple-094": {
+   "arm": "apple",
+   "rules": 319,
+   "guard with a residual": 99,
+   "guard only residuals": 65,
+   "with references": 127,
+   "disclosure": 100,
+   "disclosure without recipient": 20
+  },
+  "apple-095": {
+   "arm": "apple",
+   "rules": 360,
+   "guard with a residual": 68,
+   "guard only residuals": 23,
+   "with references": 84,
+   "disclosure": 59,
+   "disclosure without recipient": 16
+  },
+  "apple-096": {
+   "arm": "apple",
+   "rules": 582,
+   "guard with a residual": 173,
+   "guard only residuals": 57,
+   "with references": 103,
+   "disclosure": 107,
+   "disclosure without recipient": 30
+  },
+  "apple-097": {
+   "arm": "apple",
+   "rules": 293,
+   "guard with a residual": 48,
+   "guard only residuals": 37,
+   "with references": 20,
+   "disclosure": 48,
+   "disclosure without recipient": 14
+  },
+  "apple-098": {
+   "arm": "apple",
+   "rules": 243,
+   "guard with a residual": 49,
+   "guard only residuals": 36,
+   "with references": 47,
+   "disclosure": 43,
+   "disclosure without recipient": 11
+  },
+  "apple-099": {
+   "arm": "apple",
+   "rules": 409,
+   "guard with a residual": 130,
+   "guard only residuals": 27,
+   "with references": 107,
+   "disclosure": 171,
+   "disclosure without recipient": 24
+  },
+  "apple-100": {
+   "arm": "apple",
+   "rules": 241,
+   "guard with a residual": 88,
+   "guard only residuals": 52,
+   "with references": 47,
+   "disclosure": 54,
+   "disclosure without recipient": 11
+  },
+  "apple-101": {
+   "arm": "apple",
+   "rules": 350,
+   "guard with a residual": 113,
+   "guard only residuals": 47,
+   "with references": 80,
+   "disclosure": 114,
+   "disclosure without recipient": 29
+  },
+  "apple-102": {
+   "arm": "apple",
+   "rules": 509,
+   "guard with a residual": 173,
+   "guard only residuals": 141,
+   "with references": 69,
+   "disclosure": 153,
+   "disclosure without recipient": 73
+  },
+  "apple-103": {
+   "arm": "apple",
+   "rules": 406,
+   "guard with a residual": 35,
+   "guard only residuals": 22,
+   "with references": 65,
+   "disclosure": 117,
+   "disclosure without recipient": 30
+  },
+  "apple-104": {
+   "arm": "apple",
+   "rules": 62,
+   "guard with a residual": 8,
+   "guard only residuals": 3,
+   "with references": 7,
+   "disclosure": 27,
+   "disclosure without recipient": 2
+  },
+  "apple-105": {
+   "arm": "apple",
+   "rules": 508,
+   "guard with a residual": 101,
+   "guard only residuals": 85,
+   "with references": 213,
+   "disclosure": 63,
+   "disclosure without recipient": 11
+  },
+  "apple-106": {
+   "arm": "apple",
+   "rules": 60,
+   "guard with a residual": 27,
+   "guard only residuals": 7,
+   "with references": 4,
+   "disclosure": 10,
+   "disclosure without recipient": 8
+  },
+  "apple-107": {
+   "arm": "apple",
+   "rules": 251,
+   "guard with a residual": 40,
+   "guard only residuals": 12,
+   "with references": 83,
+   "disclosure": 79,
+   "disclosure without recipient": 5
+  },
+  "apple-108": {
+   "arm": "apple",
+   "rules": 27,
+   "guard with a residual": 1,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 0,
+   "disclosure without recipient": 0
+  },
+  "apple-109": {
+   "arm": "apple",
+   "rules": 313,
+   "guard with a residual": 88,
+   "guard only residuals": 41,
+   "with references": 88,
+   "disclosure": 77,
+   "disclosure without recipient": 31
+  },
+  "apple-110": {
+   "arm": "apple",
+   "rules": 61,
+   "guard with a residual": 13,
+   "guard only residuals": 4,
+   "with references": 4,
+   "disclosure": 13,
+   "disclosure without recipient": 1
+  },
+  "apple-111": {
+   "arm": "apple",
+   "rules": 464,
+   "guard with a residual": 130,
+   "guard only residuals": 39,
+   "with references": 137,
+   "disclosure": 167,
+   "disclosure without recipient": 42
+  },
+  "apple-112": {
+   "arm": "apple",
+   "rules": 309,
+   "guard with a residual": 74,
+   "guard only residuals": 66,
+   "with references": 51,
+   "disclosure": 110,
+   "disclosure without recipient": 64
+  },
+  "apple-113": {
+   "arm": "apple",
+   "rules": 204,
+   "guard with a residual": 64,
+   "guard only residuals": 19,
+   "with references": 74,
+   "disclosure": 39,
+   "disclosure without recipient": 19
+  },
+  "apple-114": {
+   "arm": "apple",
+   "rules": 144,
+   "guard with a residual": 26,
+   "guard only residuals": 15,
+   "with references": 22,
+   "disclosure": 33,
+   "disclosure without recipient": 14
+  },
+  "apple-115": {
+   "arm": "apple",
+   "rules": 21,
+   "guard with a residual": 4,
+   "guard only residuals": 4,
+   "with references": 1,
+   "disclosure": 7,
+   "disclosure without recipient": 6
+  },
+  "apple-116": {
+   "arm": "apple",
+   "rules": 2906,
+   "guard with a residual": 425,
+   "guard only residuals": 220,
+   "with references": 388,
+   "disclosure": 811,
+   "disclosure without recipient": 150
+  },
+  "apple-117": {
+   "arm": "apple",
+   "rules": 186,
+   "guard with a residual": 22,
+   "guard only residuals": 6,
+   "with references": 71,
+   "disclosure": 50,
+   "disclosure without recipient": 8
+  },
+  "apple-118": {
+   "arm": "apple",
+   "rules": 116,
+   "guard with a residual": 26,
+   "guard only residuals": 7,
+   "with references": 21,
+   "disclosure": 17,
+   "disclosure without recipient": 10
+  },
+  "apple-119": {
+   "arm": "apple",
+   "rules": 209,
+   "guard with a residual": 69,
+   "guard only residuals": 27,
+   "with references": 34,
+   "disclosure": 59,
+   "disclosure without recipient": 17
+  },
+  "apple-120": {
+   "arm": "apple",
+   "rules": 60,
+   "guard with a residual": 27,
+   "guard only residuals": 19,
+   "with references": 9,
+   "disclosure": 11,
+   "disclosure without recipient": 6
+  },
+  "apple-121": {
+   "arm": "apple",
+   "rules": 104,
+   "guard with a residual": 25,
+   "guard only residuals": 13,
+   "with references": 19,
+   "disclosure": 22,
+   "disclosure without recipient": 6
+  },
+  "apple-122": {
+   "arm": "apple",
+   "rules": 133,
+   "guard with a residual": 22,
+   "guard only residuals": 6,
+   "with references": 5,
+   "disclosure": 19,
+   "disclosure without recipient": 2
+  },
+  "apple-123": {
+   "arm": "apple",
+   "rules": 275,
+   "guard with a residual": 45,
+   "guard only residuals": 10,
+   "with references": 63,
+   "disclosure": 78,
+   "disclosure without recipient": 15
+  },
+  "apple-124": {
+   "arm": "apple",
+   "rules": 64,
+   "guard with a residual": 6,
+   "guard only residuals": 0,
+   "with references": 12,
+   "disclosure": 11,
+   "disclosure without recipient": 6
+  },
+  "apple-125": {
+   "arm": "apple",
+   "rules": 268,
+   "guard with a residual": 56,
+   "guard only residuals": 35,
+   "with references": 49,
+   "disclosure": 54,
+   "disclosure without recipient": 28
+  },
+  "apple-126": {
+   "arm": "apple",
+   "rules": 208,
+   "guard with a residual": 28,
+   "guard only residuals": 7,
+   "with references": 19,
+   "disclosure": 51,
+   "disclosure without recipient": 14
+  },
+  "apple-127": {
+   "arm": "apple",
+   "rules": 140,
+   "guard with a residual": 43,
+   "guard only residuals": 24,
+   "with references": 16,
+   "disclosure": 20,
+   "disclosure without recipient": 12
+  },
+  "apple-128": {
+   "arm": "apple",
+   "rules": 134,
+   "guard with a residual": 37,
+   "guard only residuals": 20,
+   "with references": 13,
+   "disclosure": 25,
+   "disclosure without recipient": 14
+  },
+  "apple-129": {
+   "arm": "apple",
+   "rules": 276,
+   "guard with a residual": 75,
+   "guard only residuals": 53,
+   "with references": 100,
+   "disclosure": 78,
+   "disclosure without recipient": 20
+  },
+  "apple-130": {
+   "arm": "apple",
+   "rules": 443,
+   "guard with a residual": 103,
+   "guard only residuals": 56,
+   "with references": 26,
+   "disclosure": 64,
+   "disclosure without recipient": 24
+  },
+  "apple-131": {
+   "arm": "apple",
+   "rules": 272,
+   "guard with a residual": 36,
+   "guard only residuals": 21,
+   "with references": 21,
+   "disclosure": 35,
+   "disclosure without recipient": 7
+  },
+  "apple-132": {
+   "arm": "apple",
+   "rules": 863,
+   "guard with a residual": 192,
+   "guard only residuals": 102,
+   "with references": 176,
+   "disclosure": 216,
+   "disclosure without recipient": 28
+  },
+  "apple-133": {
+   "arm": "apple",
+   "rules": 250,
+   "guard with a residual": 31,
+   "guard only residuals": 13,
+   "with references": 18,
+   "disclosure": 84,
+   "disclosure without recipient": 15
+  },
+  "apple-134": {
+   "arm": "apple",
+   "rules": 64,
+   "guard with a residual": 32,
+   "guard only residuals": 23,
+   "with references": 19,
+   "disclosure": 15,
+   "disclosure without recipient": 4
+  },
+  "apple-135": {
+   "arm": "apple",
+   "rules": 222,
+   "guard with a residual": 49,
+   "guard only residuals": 30,
+   "with references": 57,
+   "disclosure": 62,
+   "disclosure without recipient": 35
+  },
+  "apple-136": {
+   "arm": "apple",
+   "rules": 183,
+   "guard with a residual": 45,
+   "guard only residuals": 32,
+   "with references": 11,
+   "disclosure": 34,
+   "disclosure without recipient": 15
+  },
+  "apple-137": {
+   "arm": "apple",
+   "rules": 212,
+   "guard with a residual": 73,
+   "guard only residuals": 33,
+   "with references": 76,
+   "disclosure": 67,
+   "disclosure without recipient": 18
+  },
+  "apple-138": {
+   "arm": "apple",
+   "rules": 163,
+   "guard with a residual": 13,
+   "guard only residuals": 4,
+   "with references": 1,
+   "disclosure": 31,
+   "disclosure without recipient": 14
+  },
+  "apple-139": {
+   "arm": "apple",
+   "rules": 273,
+   "guard with a residual": 58,
+   "guard only residuals": 30,
+   "with references": 39,
+   "disclosure": 80,
+   "disclosure without recipient": 13
+  },
+  "apple-140": {
+   "arm": "apple",
+   "rules": 251,
+   "guard with a residual": 50,
+   "guard only residuals": 18,
+   "with references": 69,
+   "disclosure": 66,
+   "disclosure without recipient": 19
+  },
+  "apple-141": {
+   "arm": "apple",
+   "rules": 159,
+   "guard with a residual": 55,
+   "guard only residuals": 16,
+   "with references": 15,
+   "disclosure": 41,
+   "disclosure without recipient": 13
+  },
+  "apple-142": {
+   "arm": "apple",
+   "rules": 238,
+   "guard with a residual": 80,
+   "guard only residuals": 43,
+   "with references": 57,
+   "disclosure": 68,
+   "disclosure without recipient": 11
+  },
+  "apple-143": {
+   "arm": "apple",
+   "rules": 420,
+   "guard with a residual": 47,
+   "guard only residuals": 10,
+   "with references": 120,
+   "disclosure": 94,
+   "disclosure without recipient": 61
+  },
+  "apple-144": {
+   "arm": "apple",
+   "rules": 84,
+   "guard with a residual": 13,
+   "guard only residuals": 3,
+   "with references": 15,
+   "disclosure": 14,
+   "disclosure without recipient": 1
+  },
+  "apple-145": {
+   "arm": "apple",
+   "rules": 174,
+   "guard with a residual": 62,
+   "guard only residuals": 19,
+   "with references": 6,
+   "disclosure": 38,
+   "disclosure without recipient": 11
+  },
+  "apple-146": {
+   "arm": "apple",
+   "rules": 229,
+   "guard with a residual": 62,
+   "guard only residuals": 17,
+   "with references": 28,
+   "disclosure": 41,
+   "disclosure without recipient": 13
+  },
+  "apple-147": {
+   "arm": "apple",
+   "rules": 221,
+   "guard with a residual": 20,
+   "guard only residuals": 9,
+   "with references": 47,
+   "disclosure": 132,
+   "disclosure without recipient": 27
+  },
+  "apple-148": {
+   "arm": "apple",
+   "rules": 371,
+   "guard with a residual": 46,
+   "guard only residuals": 23,
+   "with references": 16,
+   "disclosure": 233,
+   "disclosure without recipient": 40
+  },
+  "apple-149": {
+   "arm": "apple",
+   "rules": 161,
+   "guard with a residual": 49,
+   "guard only residuals": 36,
+   "with references": 18,
+   "disclosure": 23,
+   "disclosure without recipient": 7
+  },
+  "apple-150": {
+   "arm": "apple",
+   "rules": 124,
+   "guard with a residual": 25,
+   "guard only residuals": 10,
+   "with references": 10,
+   "disclosure": 14,
+   "disclosure without recipient": 3
+  },
+  "apple-151": {
+   "arm": "apple",
+   "rules": 336,
+   "guard with a residual": 71,
+   "guard only residuals": 24,
+   "with references": 133,
+   "disclosure": 59,
+   "disclosure without recipient": 21
+  },
+  "apple-152": {
+   "arm": "apple",
+   "rules": 190,
+   "guard with a residual": 38,
+   "guard only residuals": 11,
+   "with references": 49,
+   "disclosure": 48,
+   "disclosure without recipient": 28
+  },
+  "apple-153": {
+   "arm": "apple",
+   "rules": 604,
+   "guard with a residual": 126,
+   "guard only residuals": 69,
+   "with references": 261,
+   "disclosure": 93,
+   "disclosure without recipient": 18
+  },
+  "apple-154": {
+   "arm": "apple",
+   "rules": 196,
+   "guard with a residual": 53,
+   "guard only residuals": 37,
+   "with references": 24,
+   "disclosure": 32,
+   "disclosure without recipient": 2
+  },
+  "apple-155": {
+   "arm": "apple",
+   "rules": 430,
+   "guard with a residual": 137,
+   "guard only residuals": 94,
+   "with references": 107,
+   "disclosure": 73,
+   "disclosure without recipient": 13
+  },
+  "apple-156": {
+   "arm": "apple",
+   "rules": 444,
+   "guard with a residual": 92,
+   "guard only residuals": 39,
+   "with references": 117,
+   "disclosure": 108,
+   "disclosure without recipient": 33
+  },
+  "apple-157": {
+   "arm": "apple",
+   "rules": 291,
+   "guard with a residual": 54,
+   "guard only residuals": 24,
+   "with references": 29,
+   "disclosure": 12,
+   "disclosure without recipient": 9
+  },
+  "apple-158": {
+   "arm": "apple",
+   "rules": 374,
+   "guard with a residual": 76,
+   "guard only residuals": 49,
+   "with references": 50,
+   "disclosure": 94,
+   "disclosure without recipient": 19
+  },
+  "apple-159": {
+   "arm": "apple",
+   "rules": 35,
+   "guard with a residual": 19,
+   "guard only residuals": 4,
+   "with references": 3,
+   "disclosure": 5,
+   "disclosure without recipient": 2
+  },
+  "apple-160": {
+   "arm": "apple",
+   "rules": 252,
+   "guard with a residual": 95,
+   "guard only residuals": 48,
+   "with references": 50,
+   "disclosure": 61,
+   "disclosure without recipient": 7
+  },
+  "apple-161": {
+   "arm": "apple",
+   "rules": 239,
+   "guard with a residual": 41,
+   "guard only residuals": 24,
+   "with references": 14,
+   "disclosure": 40,
+   "disclosure without recipient": 7
+  },
+  "apple-162": {
+   "arm": "apple",
+   "rules": 375,
+   "guard with a residual": 70,
+   "guard only residuals": 29,
+   "with references": 39,
+   "disclosure": 70,
+   "disclosure without recipient": 21
+  },
+  "apple-163": {
+   "arm": "apple",
+   "rules": 340,
+   "guard with a residual": 72,
+   "guard only residuals": 24,
+   "with references": 101,
+   "disclosure": 91,
+   "disclosure without recipient": 36
+  },
+  "apple-164": {
+   "arm": "apple",
+   "rules": 167,
+   "guard with a residual": 25,
+   "guard only residuals": 8,
+   "with references": 38,
+   "disclosure": 36,
+   "disclosure without recipient": 11
+  },
+  "apple-165": {
+   "arm": "apple",
+   "rules": 65,
+   "guard with a residual": 21,
+   "guard only residuals": 17,
+   "with references": 12,
+   "disclosure": 7,
+   "disclosure without recipient": 4
+  },
+  "apple-166": {
+   "arm": "apple",
+   "rules": 172,
+   "guard with a residual": 64,
+   "guard only residuals": 22,
+   "with references": 53,
+   "disclosure": 37,
+   "disclosure without recipient": 19
+  },
+  "apple-167": {
+   "arm": "apple",
+   "rules": 110,
+   "guard with a residual": 25,
+   "guard only residuals": 16,
+   "with references": 24,
+   "disclosure": 22,
+   "disclosure without recipient": 11
+  },
+  "apple-168": {
+   "arm": "apple",
+   "rules": 394,
+   "guard with a residual": 96,
+   "guard only residuals": 37,
+   "with references": 107,
+   "disclosure": 44,
+   "disclosure without recipient": 10
+  },
+  "apple-169": {
+   "arm": "apple",
+   "rules": 229,
+   "guard with a residual": 52,
+   "guard only residuals": 37,
+   "with references": 122,
+   "disclosure": 77,
+   "disclosure without recipient": 39
+  },
+  "apple-170": {
+   "arm": "apple",
+   "rules": 227,
+   "guard with a residual": 27,
+   "guard only residuals": 16,
+   "with references": 17,
+   "disclosure": 42,
+   "disclosure without recipient": 15
+  },
+  "apple-171": {
+   "arm": "apple",
+   "rules": 2608,
+   "guard with a residual": 414,
+   "guard only residuals": 183,
+   "with references": 258,
+   "disclosure": 544,
+   "disclosure without recipient": 138
+  },
+  "apple-172": {
+   "arm": "apple",
+   "rules": 229,
+   "guard with a residual": 46,
+   "guard only residuals": 22,
+   "with references": 40,
+   "disclosure": 67,
+   "disclosure without recipient": 13
+  },
+  "apple-173": {
+   "arm": "apple",
+   "rules": 189,
+   "guard with a residual": 19,
+   "guard only residuals": 3,
+   "with references": 30,
+   "disclosure": 73,
+   "disclosure without recipient": 60
+  },
+  "apple-174": {
+   "arm": "apple",
+   "rules": 316,
+   "guard with a residual": 109,
+   "guard only residuals": 65,
+   "with references": 66,
+   "disclosure": 102,
+   "disclosure without recipient": 7
+  },
+  "apple-175": {
+   "arm": "apple",
+   "rules": 267,
+   "guard with a residual": 62,
+   "guard only residuals": 43,
+   "with references": 50,
+   "disclosure": 120,
+   "disclosure without recipient": 12
+  },
+  "apple-176": {
+   "arm": "apple",
+   "rules": 51,
+   "guard with a residual": 14,
+   "guard only residuals": 8,
+   "with references": 13,
+   "disclosure": 19,
+   "disclosure without recipient": 5
+  },
+  "apple-177": {
+   "arm": "apple",
+   "rules": 649,
+   "guard with a residual": 68,
+   "guard only residuals": 45,
+   "with references": 47,
+   "disclosure": 209,
+   "disclosure without recipient": 63
+  },
+  "apple-178": {
+   "arm": "apple",
+   "rules": 302,
+   "guard with a residual": 74,
+   "guard only residuals": 34,
+   "with references": 45,
+   "disclosure": 36,
+   "disclosure without recipient": 14
+  },
+  "apple-179": {
+   "arm": "apple",
+   "rules": 72,
+   "guard with a residual": 6,
+   "guard only residuals": 0,
+   "with references": 4,
+   "disclosure": 22,
+   "disclosure without recipient": 2
+  },
+  "apple-180": {
+   "arm": "apple",
+   "rules": 64,
+   "guard with a residual": 6,
+   "guard only residuals": 2,
+   "with references": 7,
+   "disclosure": 17,
+   "disclosure without recipient": 0
+  },
+  "apple-181": {
+   "arm": "apple",
+   "rules": 482,
+   "guard with a residual": 74,
+   "guard only residuals": 33,
+   "with references": 220,
+   "disclosure": 70,
+   "disclosure without recipient": 16
+  },
+  "apple-182": {
+   "arm": "apple",
+   "rules": 251,
+   "guard with a residual": 97,
+   "guard only residuals": 8,
+   "with references": 90,
+   "disclosure": 70,
+   "disclosure without recipient": 37
+  },
+  "apple-183": {
+   "arm": "apple",
+   "rules": 148,
+   "guard with a residual": 36,
+   "guard only residuals": 24,
+   "with references": 21,
+   "disclosure": 8,
+   "disclosure without recipient": 6
+  },
+  "apple-184": {
+   "arm": "apple",
+   "rules": 327,
+   "guard with a residual": 212,
+   "guard only residuals": 172,
+   "with references": 31,
+   "disclosure": 33,
+   "disclosure without recipient": 15
+  },
+  "apple-185": {
+   "arm": "apple",
+   "rules": 38,
+   "guard with a residual": 6,
+   "guard only residuals": 5,
+   "with references": 1,
+   "disclosure": 4,
+   "disclosure without recipient": 1
+  },
+  "apple-186": {
+   "arm": "apple",
+   "rules": 441,
+   "guard with a residual": 147,
+   "guard only residuals": 30,
+   "with references": 23,
+   "disclosure": 48,
+   "disclosure without recipient": 11
+  },
+  "apple-187": {
+   "arm": "apple",
+   "rules": 30,
+   "guard with a residual": 6,
+   "guard only residuals": 5,
+   "with references": 2,
+   "disclosure": 13,
+   "disclosure without recipient": 2
+  },
+  "apple-188": {
+   "arm": "apple",
+   "rules": 224,
+   "guard with a residual": 81,
+   "guard only residuals": 33,
+   "with references": 9,
+   "disclosure": 26,
+   "disclosure without recipient": 1
+  },
+  "apple-189": {
+   "arm": "apple",
+   "rules": 136,
+   "guard with a residual": 26,
+   "guard only residuals": 8,
+   "with references": 12,
+   "disclosure": 22,
+   "disclosure without recipient": 12
+  },
+  "apple-190": {
+   "arm": "apple",
+   "rules": 88,
+   "guard with a residual": 27,
+   "guard only residuals": 11,
+   "with references": 13,
+   "disclosure": 9,
+   "disclosure without recipient": 6
+  },
+  "apple-191": {
+   "arm": "apple",
+   "rules": 214,
+   "guard with a residual": 32,
+   "guard only residuals": 22,
+   "with references": 25,
+   "disclosure": 45,
+   "disclosure without recipient": 18
+  },
+  "apple-192": {
+   "arm": "apple",
+   "rules": 104,
+   "guard with a residual": 16,
+   "guard only residuals": 4,
+   "with references": 27,
+   "disclosure": 32,
+   "disclosure without recipient": 6
+  },
+  "apple-193": {
+   "arm": "apple",
+   "rules": 319,
+   "guard with a residual": 29,
+   "guard only residuals": 20,
+   "with references": 51,
+   "disclosure": 87,
+   "disclosure without recipient": 22
+  },
+  "apple-194": {
+   "arm": "apple",
+   "rules": 213,
+   "guard with a residual": 17,
+   "guard only residuals": 6,
+   "with references": 4,
+   "disclosure": 89,
+   "disclosure without recipient": 3
+  },
+  "apple-195": {
+   "arm": "apple",
+   "rules": 168,
+   "guard with a residual": 27,
+   "guard only residuals": 9,
+   "with references": 56,
+   "disclosure": 35,
+   "disclosure without recipient": 7
+  },
+  "apple-196": {
+   "arm": "apple",
+   "rules": 419,
+   "guard with a residual": 120,
+   "guard only residuals": 14,
+   "with references": 157,
+   "disclosure": 92,
+   "disclosure without recipient": 22
+  },
+  "apple-197": {
+   "arm": "apple",
+   "rules": 158,
+   "guard with a residual": 54,
+   "guard only residuals": 16,
+   "with references": 32,
+   "disclosure": 25,
+   "disclosure without recipient": 8
+  },
+  "apple-198": {
+   "arm": "apple",
+   "rules": 318,
+   "guard with a residual": 58,
+   "guard only residuals": 22,
+   "with references": 113,
+   "disclosure": 64,
+   "disclosure without recipient": 17
+  },
+  "apple-199": {
+   "arm": "apple",
+   "rules": 287,
+   "guard with a residual": 97,
+   "guard only residuals": 48,
+   "with references": 106,
+   "disclosure": 76,
+   "disclosure without recipient": 23
+  },
+  "apple-200": {
+   "arm": "apple",
+   "rules": 132,
+   "guard with a residual": 46,
+   "guard only residuals": 24,
+   "with references": 19,
+   "disclosure": 41,
+   "disclosure without recipient": 3
+  },
+  "web-001": {
+   "arm": "web",
+   "rules": 312,
+   "guard with a residual": 38,
+   "guard only residuals": 21,
+   "with references": 16,
+   "disclosure": 48,
+   "disclosure without recipient": 11
+  },
+  "web-002": {
+   "arm": "web",
+   "rules": 187,
+   "guard with a residual": 56,
+   "guard only residuals": 27,
+   "with references": 68,
+   "disclosure": 49,
+   "disclosure without recipient": 26
+  },
+  "web-003": {
+   "arm": "web",
+   "rules": 213,
+   "guard with a residual": 68,
+   "guard only residuals": 26,
+   "with references": 30,
+   "disclosure": 55,
+   "disclosure without recipient": 14
+  },
+  "web-004": {
+   "arm": "web",
+   "rules": 224,
+   "guard with a residual": 43,
+   "guard only residuals": 15,
+   "with references": 21,
+   "disclosure": 57,
+   "disclosure without recipient": 20
+  },
+  "web-005": {
+   "arm": "web",
+   "rules": 326,
+   "guard with a residual": 35,
+   "guard only residuals": 15,
+   "with references": 88,
+   "disclosure": 83,
+   "disclosure without recipient": 7
+  },
+  "web-006": {
+   "arm": "web",
+   "rules": 74,
+   "guard with a residual": 13,
+   "guard only residuals": 5,
+   "with references": 9,
+   "disclosure": 8,
+   "disclosure without recipient": 2
+  },
+  "web-007": {
+   "arm": "web",
+   "rules": 54,
+   "guard with a residual": 17,
+   "guard only residuals": 11,
+   "with references": 6,
+   "disclosure": 13,
+   "disclosure without recipient": 6
+  },
+  "web-008": {
+   "arm": "web",
+   "rules": 571,
+   "guard with a residual": 166,
+   "guard only residuals": 80,
+   "with references": 21,
+   "disclosure": 75,
+   "disclosure without recipient": 9
+  },
+  "web-009": {
+   "arm": "web",
+   "rules": 177,
+   "guard with a residual": 49,
+   "guard only residuals": 24,
+   "with references": 26,
+   "disclosure": 38,
+   "disclosure without recipient": 7
+  },
+  "web-010": {
+   "arm": "web",
+   "rules": 320,
+   "guard with a residual": 163,
+   "guard only residuals": 107,
+   "with references": 101,
+   "disclosure": 100,
+   "disclosure without recipient": 26
+  },
+  "web-011": {
+   "arm": "web",
+   "rules": 127,
+   "guard with a residual": 43,
+   "guard only residuals": 1,
+   "with references": 3,
+   "disclosure": 41,
+   "disclosure without recipient": 9
+  },
+  "web-012": {
+   "arm": "web",
+   "rules": 174,
+   "guard with a residual": 37,
+   "guard only residuals": 12,
+   "with references": 47,
+   "disclosure": 27,
+   "disclosure without recipient": 9
+  },
+  "web-013": {
+   "arm": "web",
+   "rules": 123,
+   "guard with a residual": 31,
+   "guard only residuals": 14,
+   "with references": 17,
+   "disclosure": 17,
+   "disclosure without recipient": 4
+  },
+  "web-014": {
+   "arm": "web",
+   "rules": 167,
+   "guard with a residual": 30,
+   "guard only residuals": 14,
+   "with references": 37,
+   "disclosure": 30,
+   "disclosure without recipient": 4
+  },
+  "web-015": {
+   "arm": "web",
+   "rules": 80,
+   "guard with a residual": 23,
+   "guard only residuals": 13,
+   "with references": 2,
+   "disclosure": 11,
+   "disclosure without recipient": 5
+  },
+  "web-016": {
+   "arm": "web",
+   "rules": 117,
+   "guard with a residual": 31,
+   "guard only residuals": 7,
+   "with references": 19,
+   "disclosure": 13,
+   "disclosure without recipient": 0
+  },
+  "web-017": {
+   "arm": "web",
+   "rules": 269,
+   "guard with a residual": 61,
+   "guard only residuals": 15,
+   "with references": 20,
+   "disclosure": 10,
+   "disclosure without recipient": 0
+  },
+  "web-018": {
+   "arm": "web",
+   "rules": 737,
+   "guard with a residual": 109,
+   "guard only residuals": 29,
+   "with references": 124,
+   "disclosure": 225,
+   "disclosure without recipient": 31
+  },
+  "web-019": {
+   "arm": "web",
+   "rules": 95,
+   "guard with a residual": 24,
+   "guard only residuals": 15,
+   "with references": 6,
+   "disclosure": 21,
+   "disclosure without recipient": 4
+  },
+  "web-020": {
+   "arm": "web",
+   "rules": 196,
+   "guard with a residual": 45,
+   "guard only residuals": 24,
+   "with references": 38,
+   "disclosure": 42,
+   "disclosure without recipient": 21
+  },
+  "web-021": {
+   "arm": "web",
+   "rules": 169,
+   "guard with a residual": 42,
+   "guard only residuals": 15,
+   "with references": 25,
+   "disclosure": 37,
+   "disclosure without recipient": 19
+  },
+  "web-022": {
+   "arm": "web",
+   "rules": 111,
+   "guard with a residual": 30,
+   "guard only residuals": 12,
+   "with references": 20,
+   "disclosure": 13,
+   "disclosure without recipient": 4
+  },
+  "web-023": {
+   "arm": "web",
+   "rules": 36,
+   "guard with a residual": 4,
+   "guard only residuals": 3,
+   "with references": 9,
+   "disclosure": 11,
+   "disclosure without recipient": 1
+  },
+  "web-024": {
+   "arm": "web",
+   "rules": 590,
+   "guard with a residual": 176,
+   "guard only residuals": 100,
+   "with references": 127,
+   "disclosure": 93,
+   "disclosure without recipient": 29
+  },
+  "web-025": {
+   "arm": "web",
+   "rules": 292,
+   "guard with a residual": 50,
+   "guard only residuals": 21,
+   "with references": 34,
+   "disclosure": 54,
+   "disclosure without recipient": 8
+  },
+  "web-026": {
+   "arm": "web",
+   "rules": 29,
+   "guard with a residual": 4,
+   "guard only residuals": 0,
+   "with references": 4,
+   "disclosure": 8,
+   "disclosure without recipient": 2
+  },
+  "web-027": {
+   "arm": "web",
+   "rules": 369,
+   "guard with a residual": 99,
+   "guard only residuals": 49,
+   "with references": 70,
+   "disclosure": 132,
+   "disclosure without recipient": 40
+  },
+  "web-028": {
+   "arm": "web",
+   "rules": 488,
+   "guard with a residual": 150,
+   "guard only residuals": 53,
+   "with references": 252,
+   "disclosure": 86,
+   "disclosure without recipient": 34
+  },
+  "web-029": {
+   "arm": "web",
+   "rules": 46,
+   "guard with a residual": 14,
+   "guard only residuals": 10,
+   "with references": 4,
+   "disclosure": 5,
+   "disclosure without recipient": 0
+  },
+  "web-030": {
+   "arm": "web",
+   "rules": 371,
+   "guard with a residual": 71,
+   "guard only residuals": 44,
+   "with references": 96,
+   "disclosure": 69,
+   "disclosure without recipient": 14
+  },
+  "web-031": {
+   "arm": "web",
+   "rules": 338,
+   "guard with a residual": 79,
+   "guard only residuals": 51,
+   "with references": 52,
+   "disclosure": 116,
+   "disclosure without recipient": 23
+  },
+  "web-032": {
+   "arm": "web",
+   "rules": 44,
+   "guard with a residual": 15,
+   "guard only residuals": 14,
+   "with references": 1,
+   "disclosure": 6,
+   "disclosure without recipient": 1
+  },
+  "web-033": {
+   "arm": "web",
+   "rules": 226,
+   "guard with a residual": 70,
+   "guard only residuals": 35,
+   "with references": 56,
+   "disclosure": 46,
+   "disclosure without recipient": 21
+  },
+  "web-034": {
+   "arm": "web",
+   "rules": 374,
+   "guard with a residual": 84,
+   "guard only residuals": 33,
+   "with references": 66,
+   "disclosure": 64,
+   "disclosure without recipient": 8
+  },
+  "web-035": {
+   "arm": "web",
+   "rules": 77,
+   "guard with a residual": 20,
+   "guard only residuals": 5,
+   "with references": 11,
+   "disclosure": 42,
+   "disclosure without recipient": 7
+  },
+  "web-036": {
+   "arm": "web",
+   "rules": 238,
+   "guard with a residual": 33,
+   "guard only residuals": 23,
+   "with references": 21,
+   "disclosure": 40,
+   "disclosure without recipient": 13
+  },
+  "web-037": {
+   "arm": "web",
+   "rules": 334,
+   "guard with a residual": 41,
+   "guard only residuals": 25,
+   "with references": 35,
+   "disclosure": 95,
+   "disclosure without recipient": 13
+  },
+  "web-038": {
+   "arm": "web",
+   "rules": 77,
+   "guard with a residual": 8,
+   "guard only residuals": 4,
+   "with references": 3,
+   "disclosure": 10,
+   "disclosure without recipient": 4
+  },
+  "web-039": {
+   "arm": "web",
+   "rules": 485,
+   "guard with a residual": 127,
+   "guard only residuals": 41,
+   "with references": 139,
+   "disclosure": 83,
+   "disclosure without recipient": 20
+  },
+  "web-040": {
+   "arm": "web",
+   "rules": 419,
+   "guard with a residual": 106,
+   "guard only residuals": 45,
+   "with references": 181,
+   "disclosure": 81,
+   "disclosure without recipient": 10
+  },
+  "web-041": {
+   "arm": "web",
+   "rules": 148,
+   "guard with a residual": 59,
+   "guard only residuals": 33,
+   "with references": 29,
+   "disclosure": 24,
+   "disclosure without recipient": 10
+  },
+  "web-042": {
+   "arm": "web",
+   "rules": 131,
+   "guard with a residual": 49,
+   "guard only residuals": 28,
+   "with references": 19,
+   "disclosure": 24,
+   "disclosure without recipient": 5
+  },
+  "web-043": {
+   "arm": "web",
+   "rules": 326,
+   "guard with a residual": 67,
+   "guard only residuals": 32,
+   "with references": 111,
+   "disclosure": 60,
+   "disclosure without recipient": 19
+  },
+  "web-044": {
+   "arm": "web",
+   "rules": 195,
+   "guard with a residual": 28,
+   "guard only residuals": 7,
+   "with references": 31,
+   "disclosure": 54,
+   "disclosure without recipient": 18
+  },
+  "web-045": {
+   "arm": "web",
+   "rules": 278,
+   "guard with a residual": 76,
+   "guard only residuals": 48,
+   "with references": 15,
+   "disclosure": 41,
+   "disclosure without recipient": 13
+  },
+  "web-046": {
+   "arm": "web",
+   "rules": 64,
+   "guard with a residual": 17,
+   "guard only residuals": 12,
+   "with references": 5,
+   "disclosure": 8,
+   "disclosure without recipient": 1
+  },
+  "web-047": {
+   "arm": "web",
+   "rules": 172,
+   "guard with a residual": 25,
+   "guard only residuals": 8,
+   "with references": 38,
+   "disclosure": 28,
+   "disclosure without recipient": 8
+  },
+  "web-048": {
+   "arm": "web",
+   "rules": 75,
+   "guard with a residual": 11,
+   "guard only residuals": 5,
+   "with references": 15,
+   "disclosure": 16,
+   "disclosure without recipient": 5
+  },
+  "web-049": {
+   "arm": "web",
+   "rules": 105,
+   "guard with a residual": 36,
+   "guard only residuals": 16,
+   "with references": 46,
+   "disclosure": 26,
+   "disclosure without recipient": 9
+  },
+  "web-050": {
+   "arm": "web",
+   "rules": 148,
+   "guard with a residual": 14,
+   "guard only residuals": 3,
+   "with references": 54,
+   "disclosure": 41,
+   "disclosure without recipient": 6
+  },
+  "web-051": {
+   "arm": "web",
+   "rules": 168,
+   "guard with a residual": 51,
+   "guard only residuals": 28,
+   "with references": 32,
+   "disclosure": 33,
+   "disclosure without recipient": 11
+  },
+  "web-052": {
+   "arm": "web",
+   "rules": 262,
+   "guard with a residual": 55,
+   "guard only residuals": 26,
+   "with references": 31,
+   "disclosure": 72,
+   "disclosure without recipient": 13
+  },
+  "web-053": {
+   "arm": "web",
+   "rules": 324,
+   "guard with a residual": 49,
+   "guard only residuals": 6,
+   "with references": 19,
+   "disclosure": 46,
+   "disclosure without recipient": 9
+  },
+  "web-054": {
+   "arm": "web",
+   "rules": 193,
+   "guard with a residual": 63,
+   "guard only residuals": 28,
+   "with references": 55,
+   "disclosure": 59,
+   "disclosure without recipient": 11
+  },
+  "web-055": {
+   "arm": "web",
+   "rules": 43,
+   "guard with a residual": 9,
+   "guard only residuals": 5,
+   "with references": 14,
+   "disclosure": 9,
+   "disclosure without recipient": 1
+  },
+  "web-056": {
+   "arm": "web",
+   "rules": 118,
+   "guard with a residual": 28,
+   "guard only residuals": 10,
+   "with references": 36,
+   "disclosure": 35,
+   "disclosure without recipient": 12
+  },
+  "web-057": {
+   "arm": "web",
+   "rules": 295,
+   "guard with a residual": 80,
+   "guard only residuals": 41,
+   "with references": 10,
+   "disclosure": 94,
+   "disclosure without recipient": 29
+  },
+  "web-058": {
+   "arm": "web",
+   "rules": 171,
+   "guard with a residual": 34,
+   "guard only residuals": 10,
+   "with references": 100,
+   "disclosure": 28,
+   "disclosure without recipient": 10
+  },
+  "web-059": {
+   "arm": "web",
+   "rules": 147,
+   "guard with a residual": 24,
+   "guard only residuals": 5,
+   "with references": 23,
+   "disclosure": 27,
+   "disclosure without recipient": 4
+  },
+  "web-060": {
+   "arm": "web",
+   "rules": 194,
+   "guard with a residual": 77,
+   "guard only residuals": 16,
+   "with references": 43,
+   "disclosure": 52,
+   "disclosure without recipient": 12
+  },
+  "web-061": {
+   "arm": "web",
+   "rules": 5748,
+   "guard with a residual": 1558,
+   "guard only residuals": 1033,
+   "with references": 1685,
+   "disclosure": 857,
+   "disclosure without recipient": 229
+  },
+  "web-062": {
+   "arm": "web",
+   "rules": 610,
+   "guard with a residual": 127,
+   "guard only residuals": 52,
+   "with references": 165,
+   "disclosure": 74,
+   "disclosure without recipient": 22
+  },
+  "web-063": {
+   "arm": "web",
+   "rules": 258,
+   "guard with a residual": 36,
+   "guard only residuals": 19,
+   "with references": 50,
+   "disclosure": 37,
+   "disclosure without recipient": 9
+  },
+  "web-064": {
+   "arm": "web",
+   "rules": 217,
+   "guard with a residual": 23,
+   "guard only residuals": 12,
+   "with references": 87,
+   "disclosure": 37,
+   "disclosure without recipient": 15
+  },
+  "web-065": {
+   "arm": "web",
+   "rules": 391,
+   "guard with a residual": 57,
+   "guard only residuals": 26,
+   "with references": 145,
+   "disclosure": 76,
+   "disclosure without recipient": 20
+  },
+  "web-066": {
+   "arm": "web",
+   "rules": 160,
+   "guard with a residual": 62,
+   "guard only residuals": 23,
+   "with references": 12,
+   "disclosure": 19,
+   "disclosure without recipient": 1
+  },
+  "web-067": {
+   "arm": "web",
+   "rules": 322,
+   "guard with a residual": 48,
+   "guard only residuals": 30,
+   "with references": 86,
+   "disclosure": 48,
+   "disclosure without recipient": 20
+  },
+  "web-068": {
+   "arm": "web",
+   "rules": 272,
+   "guard with a residual": 58,
+   "guard only residuals": 25,
+   "with references": 35,
+   "disclosure": 67,
+   "disclosure without recipient": 3
+  },
+  "web-069": {
+   "arm": "web",
+   "rules": 217,
+   "guard with a residual": 50,
+   "guard only residuals": 14,
+   "with references": 16,
+   "disclosure": 47,
+   "disclosure without recipient": 20
+  },
+  "web-070": {
+   "arm": "web",
+   "rules": 177,
+   "guard with a residual": 85,
+   "guard only residuals": 42,
+   "with references": 7,
+   "disclosure": 54,
+   "disclosure without recipient": 6
+  },
+  "web-071": {
+   "arm": "web",
+   "rules": 220,
+   "guard with a residual": 50,
+   "guard only residuals": 29,
+   "with references": 37,
+   "disclosure": 67,
+   "disclosure without recipient": 9
+  },
+  "web-072": {
+   "arm": "web",
+   "rules": 65,
+   "guard with a residual": 18,
+   "guard only residuals": 14,
+   "with references": 7,
+   "disclosure": 22,
+   "disclosure without recipient": 15
+  },
+  "web-073": {
+   "arm": "web",
+   "rules": 41,
+   "guard with a residual": 13,
+   "guard only residuals": 8,
+   "with references": 9,
+   "disclosure": 4,
+   "disclosure without recipient": 0
+  },
+  "web-074": {
+   "arm": "web",
+   "rules": 313,
+   "guard with a residual": 72,
+   "guard only residuals": 38,
+   "with references": 65,
+   "disclosure": 49,
+   "disclosure without recipient": 23
+  },
+  "web-075": {
+   "arm": "web",
+   "rules": 28,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 0,
+   "disclosure": 3,
+   "disclosure without recipient": 1
+  },
+  "web-076": {
+   "arm": "web",
+   "rules": 93,
+   "guard with a residual": 14,
+   "guard only residuals": 12,
+   "with references": 6,
+   "disclosure": 23,
+   "disclosure without recipient": 7
+  },
+  "web-077": {
+   "arm": "web",
+   "rules": 355,
+   "guard with a residual": 81,
+   "guard only residuals": 44,
+   "with references": 59,
+   "disclosure": 64,
+   "disclosure without recipient": 20
+  },
+  "web-078": {
+   "arm": "web",
+   "rules": 184,
+   "guard with a residual": 28,
+   "guard only residuals": 2,
+   "with references": 23,
+   "disclosure": 28,
+   "disclosure without recipient": 9
+  },
+  "web-079": {
+   "arm": "web",
+   "rules": 192,
+   "guard with a residual": 30,
+   "guard only residuals": 10,
+   "with references": 22,
+   "disclosure": 48,
+   "disclosure without recipient": 22
+  },
+  "web-080": {
+   "arm": "web",
+   "rules": 289,
+   "guard with a residual": 153,
+   "guard only residuals": 92,
+   "with references": 57,
+   "disclosure": 92,
+   "disclosure without recipient": 19
+  },
+  "web-081": {
+   "arm": "web",
+   "rules": 182,
+   "guard with a residual": 25,
+   "guard only residuals": 10,
+   "with references": 8,
+   "disclosure": 34,
+   "disclosure without recipient": 1
+  },
+  "web-082": {
+   "arm": "web",
+   "rules": 221,
+   "guard with a residual": 43,
+   "guard only residuals": 19,
+   "with references": 58,
+   "disclosure": 35,
+   "disclosure without recipient": 17
+  },
+  "web-083": {
+   "arm": "web",
+   "rules": 90,
+   "guard with a residual": 18,
+   "guard only residuals": 3,
+   "with references": 25,
+   "disclosure": 18,
+   "disclosure without recipient": 6
+  },
+  "web-084": {
+   "arm": "web",
+   "rules": 94,
+   "guard with a residual": 25,
+   "guard only residuals": 9,
+   "with references": 0,
+   "disclosure": 24,
+   "disclosure without recipient": 3
+  },
+  "web-085": {
+   "arm": "web",
+   "rules": 631,
+   "guard with a residual": 108,
+   "guard only residuals": 51,
+   "with references": 200,
+   "disclosure": 359,
+   "disclosure without recipient": 30
+  },
+  "web-086": {
+   "arm": "web",
+   "rules": 452,
+   "guard with a residual": 110,
+   "guard only residuals": 75,
+   "with references": 136,
+   "disclosure": 221,
+   "disclosure without recipient": 29
+  },
+  "web-087": {
+   "arm": "web",
+   "rules": 133,
+   "guard with a residual": 29,
+   "guard only residuals": 19,
+   "with references": 12,
+   "disclosure": 8,
+   "disclosure without recipient": 3
+  },
+  "web-088": {
+   "arm": "web",
+   "rules": 126,
+   "guard with a residual": 17,
+   "guard only residuals": 5,
+   "with references": 24,
+   "disclosure": 26,
+   "disclosure without recipient": 13
+  },
+  "web-089": {
+   "arm": "web",
+   "rules": 206,
+   "guard with a residual": 64,
+   "guard only residuals": 23,
+   "with references": 41,
+   "disclosure": 52,
+   "disclosure without recipient": 12
+  },
+  "web-090": {
+   "arm": "web",
+   "rules": 197,
+   "guard with a residual": 78,
+   "guard only residuals": 24,
+   "with references": 14,
+   "disclosure": 33,
+   "disclosure without recipient": 12
+  },
+  "web-091": {
+   "arm": "web",
+   "rules": 159,
+   "guard with a residual": 17,
+   "guard only residuals": 8,
+   "with references": 28,
+   "disclosure": 36,
+   "disclosure without recipient": 9
+  },
+  "web-092": {
+   "arm": "web",
+   "rules": 135,
+   "guard with a residual": 14,
+   "guard only residuals": 11,
+   "with references": 17,
+   "disclosure": 30,
+   "disclosure without recipient": 6
+  },
+  "web-093": {
+   "arm": "web",
+   "rules": 1037,
+   "guard with a residual": 251,
+   "guard only residuals": 108,
+   "with references": 526,
+   "disclosure": 139,
+   "disclosure without recipient": 33
+  },
+  "web-094": {
+   "arm": "web",
+   "rules": 77,
+   "guard with a residual": 5,
+   "guard only residuals": 1,
+   "with references": 7,
+   "disclosure": 12,
+   "disclosure without recipient": 7
+  },
+  "web-095": {
+   "arm": "web",
+   "rules": 202,
+   "guard with a residual": 35,
+   "guard only residuals": 17,
+   "with references": 59,
+   "disclosure": 50,
+   "disclosure without recipient": 4
+  },
+  "web-096": {
+   "arm": "web",
+   "rules": 45,
+   "guard with a residual": 10,
+   "guard only residuals": 5,
+   "with references": 2,
+   "disclosure": 4,
+   "disclosure without recipient": 0
+  },
+  "web-097": {
+   "arm": "web",
+   "rules": 25,
+   "guard with a residual": 5,
+   "guard only residuals": 4,
+   "with references": 2,
+   "disclosure": 8,
+   "disclosure without recipient": 4
+  },
+  "web-098": {
+   "arm": "web",
+   "rules": 66,
+   "guard with a residual": 6,
+   "guard only residuals": 5,
+   "with references": 11,
+   "disclosure": 18,
+   "disclosure without recipient": 6
+  },
+  "web-099": {
+   "arm": "web",
+   "rules": 264,
+   "guard with a residual": 57,
+   "guard only residuals": 37,
+   "with references": 62,
+   "disclosure": 41,
+   "disclosure without recipient": 4
+  },
+  "web-100": {
+   "arm": "web",
+   "rules": 392,
+   "guard with a residual": 81,
+   "guard only residuals": 34,
+   "with references": 3,
+   "disclosure": 32,
+   "disclosure without recipient": 9
+  },
+  "web-101": {
+   "arm": "web",
+   "rules": 151,
+   "guard with a residual": 28,
+   "guard only residuals": 14,
+   "with references": 19,
+   "disclosure": 11,
+   "disclosure without recipient": 7
+  },
+  "web-102": {
+   "arm": "web",
+   "rules": 178,
+   "guard with a residual": 46,
+   "guard only residuals": 12,
+   "with references": 49,
+   "disclosure": 37,
+   "disclosure without recipient": 5
+  },
+  "web-103": {
+   "arm": "web",
+   "rules": 205,
+   "guard with a residual": 50,
+   "guard only residuals": 13,
+   "with references": 65,
+   "disclosure": 56,
+   "disclosure without recipient": 8
+  },
+  "web-104": {
+   "arm": "web",
+   "rules": 198,
+   "guard with a residual": 37,
+   "guard only residuals": 19,
+   "with references": 25,
+   "disclosure": 75,
+   "disclosure without recipient": 14
+  },
+  "web-105": {
+   "arm": "web",
+   "rules": 416,
+   "guard with a residual": 54,
+   "guard only residuals": 23,
+   "with references": 111,
+   "disclosure": 123,
+   "disclosure without recipient": 23
+  },
+  "web-106": {
+   "arm": "web",
+   "rules": 136,
+   "guard with a residual": 51,
+   "guard only residuals": 19,
+   "with references": 52,
+   "disclosure": 28,
+   "disclosure without recipient": 7
+  },
+  "web-107": {
+   "arm": "web",
+   "rules": 156,
+   "guard with a residual": 45,
+   "guard only residuals": 36,
+   "with references": 21,
+   "disclosure": 45,
+   "disclosure without recipient": 8
+  },
+  "web-108": {
+   "arm": "web",
+   "rules": 352,
+   "guard with a residual": 63,
+   "guard only residuals": 27,
+   "with references": 63,
+   "disclosure": 45,
+   "disclosure without recipient": 13
+  },
+  "web-109": {
+   "arm": "web",
+   "rules": 475,
+   "guard with a residual": 169,
+   "guard only residuals": 79,
+   "with references": 102,
+   "disclosure": 83,
+   "disclosure without recipient": 18
+  },
+  "web-110": {
+   "arm": "web",
+   "rules": 165,
+   "guard with a residual": 66,
+   "guard only residuals": 13,
+   "with references": 50,
+   "disclosure": 24,
+   "disclosure without recipient": 3
+  },
+  "web-111": {
+   "arm": "web",
+   "rules": 41,
+   "guard with a residual": 12,
+   "guard only residuals": 6,
+   "with references": 0,
+   "disclosure": 4,
+   "disclosure without recipient": 0
+  },
+  "web-112": {
+   "arm": "web",
+   "rules": 126,
+   "guard with a residual": 24,
+   "guard only residuals": 14,
+   "with references": 31,
+   "disclosure": 28,
+   "disclosure without recipient": 11
+  },
+  "web-113": {
+   "arm": "web",
+   "rules": 165,
+   "guard with a residual": 51,
+   "guard only residuals": 13,
+   "with references": 25,
+   "disclosure": 33,
+   "disclosure without recipient": 9
+  },
+  "web-114": {
+   "arm": "web",
+   "rules": 133,
+   "guard with a residual": 17,
+   "guard only residuals": 9,
+   "with references": 29,
+   "disclosure": 27,
+   "disclosure without recipient": 14
+  },
+  "web-115": {
+   "arm": "web",
+   "rules": 169,
+   "guard with a residual": 53,
+   "guard only residuals": 29,
+   "with references": 33,
+   "disclosure": 24,
+   "disclosure without recipient": 8
+  },
+  "web-116": {
+   "arm": "web",
+   "rules": 200,
+   "guard with a residual": 61,
+   "guard only residuals": 23,
+   "with references": 26,
+   "disclosure": 26,
+   "disclosure without recipient": 5
+  },
+  "web-117": {
+   "arm": "web",
+   "rules": 238,
+   "guard with a residual": 57,
+   "guard only residuals": 17,
+   "with references": 33,
+   "disclosure": 23,
+   "disclosure without recipient": 12
+  },
+  "web-118": {
+   "arm": "web",
+   "rules": 343,
+   "guard with a residual": 94,
+   "guard only residuals": 41,
+   "with references": 114,
+   "disclosure": 106,
+   "disclosure without recipient": 14
+  },
+  "web-119": {
+   "arm": "web",
+   "rules": 177,
+   "guard with a residual": 34,
+   "guard only residuals": 24,
+   "with references": 20,
+   "disclosure": 23,
+   "disclosure without recipient": 7
+  },
+  "web-120": {
+   "arm": "web",
+   "rules": 233,
+   "guard with a residual": 46,
+   "guard only residuals": 14,
+   "with references": 12,
+   "disclosure": 50,
+   "disclosure without recipient": 28
+  },
+  "web-121": {
+   "arm": "web",
+   "rules": 130,
+   "guard with a residual": 27,
+   "guard only residuals": 12,
+   "with references": 14,
+   "disclosure": 28,
+   "disclosure without recipient": 0
+  },
+  "web-122": {
+   "arm": "web",
+   "rules": 258,
+   "guard with a residual": 83,
+   "guard only residuals": 41,
+   "with references": 51,
+   "disclosure": 52,
+   "disclosure without recipient": 10
+  },
+  "web-123": {
+   "arm": "web",
+   "rules": 144,
+   "guard with a residual": 29,
+   "guard only residuals": 11,
+   "with references": 10,
+   "disclosure": 17,
+   "disclosure without recipient": 7
+  },
+  "web-124": {
+   "arm": "web",
+   "rules": 86,
+   "guard with a residual": 5,
+   "guard only residuals": 1,
+   "with references": 5,
+   "disclosure": 17,
+   "disclosure without recipient": 8
+  },
+  "web-125": {
+   "arm": "web",
+   "rules": 159,
+   "guard with a residual": 73,
+   "guard only residuals": 31,
+   "with references": 37,
+   "disclosure": 35,
+   "disclosure without recipient": 10
+  },
+  "web-126": {
+   "arm": "web",
+   "rules": 131,
+   "guard with a residual": 66,
+   "guard only residuals": 32,
+   "with references": 0,
+   "disclosure": 26,
+   "disclosure without recipient": 6
+  },
+  "web-127": {
+   "arm": "web",
+   "rules": 190,
+   "guard with a residual": 66,
+   "guard only residuals": 26,
+   "with references": 38,
+   "disclosure": 47,
+   "disclosure without recipient": 19
+  },
+  "web-128": {
+   "arm": "web",
+   "rules": 312,
+   "guard with a residual": 20,
+   "guard only residuals": 11,
+   "with references": 10,
+   "disclosure": 34,
+   "disclosure without recipient": 8
+  },
+  "web-129": {
+   "arm": "web",
+   "rules": 199,
+   "guard with a residual": 67,
+   "guard only residuals": 25,
+   "with references": 70,
+   "disclosure": 76,
+   "disclosure without recipient": 9
+  },
+  "web-130": {
+   "arm": "web",
+   "rules": 125,
+   "guard with a residual": 17,
+   "guard only residuals": 7,
+   "with references": 15,
+   "disclosure": 24,
+   "disclosure without recipient": 10
+  },
+  "web-131": {
+   "arm": "web",
+   "rules": 723,
+   "guard with a residual": 206,
+   "guard only residuals": 63,
+   "with references": 303,
+   "disclosure": 71,
+   "disclosure without recipient": 11
+  },
+  "web-132": {
+   "arm": "web",
+   "rules": 304,
+   "guard with a residual": 31,
+   "guard only residuals": 11,
+   "with references": 85,
+   "disclosure": 36,
+   "disclosure without recipient": 9
+  },
+  "web-133": {
+   "arm": "web",
+   "rules": 186,
+   "guard with a residual": 59,
+   "guard only residuals": 19,
+   "with references": 38,
+   "disclosure": 47,
+   "disclosure without recipient": 21
+  },
+  "web-134": {
+   "arm": "web",
+   "rules": 254,
+   "guard with a residual": 57,
+   "guard only residuals": 21,
+   "with references": 59,
+   "disclosure": 86,
+   "disclosure without recipient": 38
+  },
+  "web-135": {
+   "arm": "web",
+   "rules": 312,
+   "guard with a residual": 114,
+   "guard only residuals": 65,
+   "with references": 64,
+   "disclosure": 50,
+   "disclosure without recipient": 14
+  },
+  "web-136": {
+   "arm": "web",
+   "rules": 159,
+   "guard with a residual": 14,
+   "guard only residuals": 5,
+   "with references": 31,
+   "disclosure": 40,
+   "disclosure without recipient": 6
+  },
+  "web-137": {
+   "arm": "web",
+   "rules": 493,
+   "guard with a residual": 35,
+   "guard only residuals": 17,
+   "with references": 72,
+   "disclosure": 250,
+   "disclosure without recipient": 12
+  },
+  "web-138": {
+   "arm": "web",
+   "rules": 162,
+   "guard with a residual": 29,
+   "guard only residuals": 16,
+   "with references": 14,
+   "disclosure": 38,
+   "disclosure without recipient": 0
+  },
+  "web-139": {
+   "arm": "web",
+   "rules": 320,
+   "guard with a residual": 132,
+   "guard only residuals": 18,
+   "with references": 137,
+   "disclosure": 93,
+   "disclosure without recipient": 44
+  },
+  "web-140": {
+   "arm": "web",
+   "rules": 250,
+   "guard with a residual": 85,
+   "guard only residuals": 42,
+   "with references": 57,
+   "disclosure": 50,
+   "disclosure without recipient": 18
+  },
+  "web-141": {
+   "arm": "web",
+   "rules": 580,
+   "guard with a residual": 189,
+   "guard only residuals": 50,
+   "with references": 127,
+   "disclosure": 326,
+   "disclosure without recipient": 6
+  },
+  "web-142": {
+   "arm": "web",
+   "rules": 361,
+   "guard with a residual": 32,
+   "guard only residuals": 15,
+   "with references": 32,
+   "disclosure": 64,
+   "disclosure without recipient": 16
+  },
+  "web-143": {
+   "arm": "web",
+   "rules": 301,
+   "guard with a residual": 51,
+   "guard only residuals": 33,
+   "with references": 81,
+   "disclosure": 59,
+   "disclosure without recipient": 25
+  },
+  "web-144": {
+   "arm": "web",
+   "rules": 153,
+   "guard with a residual": 13,
+   "guard only residuals": 7,
+   "with references": 56,
+   "disclosure": 32,
+   "disclosure without recipient": 4
+  },
+  "web-145": {
+   "arm": "web",
+   "rules": 48,
+   "guard with a residual": 31,
+   "guard only residuals": 22,
+   "with references": 8,
+   "disclosure": 8,
+   "disclosure without recipient": 0
+  },
+  "web-146": {
+   "arm": "web",
+   "rules": 51,
+   "guard with a residual": 6,
+   "guard only residuals": 3,
+   "with references": 9,
+   "disclosure": 7,
+   "disclosure without recipient": 4
+  },
+  "web-147": {
+   "arm": "web",
+   "rules": 236,
+   "guard with a residual": 76,
+   "guard only residuals": 41,
+   "with references": 22,
+   "disclosure": 48,
+   "disclosure without recipient": 3
+  },
+  "web-148": {
+   "arm": "web",
+   "rules": 55,
+   "guard with a residual": 22,
+   "guard only residuals": 17,
+   "with references": 8,
+   "disclosure": 10,
+   "disclosure without recipient": 4
+  },
+  "web-149": {
+   "arm": "web",
+   "rules": 38,
+   "guard with a residual": 3,
+   "guard only residuals": 3,
+   "with references": 9,
+   "disclosure": 5,
+   "disclosure without recipient": 2
+  },
+  "web-150": {
+   "arm": "web",
+   "rules": 208,
+   "guard with a residual": 70,
+   "guard only residuals": 26,
+   "with references": 79,
+   "disclosure": 41,
+   "disclosure without recipient": 13
+  },
+  "web-151": {
+   "arm": "web",
+   "rules": 197,
+   "guard with a residual": 33,
+   "guard only residuals": 12,
+   "with references": 30,
+   "disclosure": 34,
+   "disclosure without recipient": 7
+  },
+  "web-152": {
+   "arm": "web",
+   "rules": 268,
+   "guard with a residual": 75,
+   "guard only residuals": 19,
+   "with references": 30,
+   "disclosure": 34,
+   "disclosure without recipient": 6
+  },
+  "web-153": {
+   "arm": "web",
+   "rules": 137,
+   "guard with a residual": 33,
+   "guard only residuals": 5,
+   "with references": 49,
+   "disclosure": 27,
+   "disclosure without recipient": 7
+  },
+  "web-154": {
+   "arm": "web",
+   "rules": 316,
+   "guard with a residual": 50,
+   "guard only residuals": 21,
+   "with references": 55,
+   "disclosure": 104,
+   "disclosure without recipient": 13
+  },
+  "web-155": {
+   "arm": "web",
+   "rules": 236,
+   "guard with a residual": 50,
+   "guard only residuals": 27,
+   "with references": 114,
+   "disclosure": 51,
+   "disclosure without recipient": 3
+  },
+  "web-156": {
+   "arm": "web",
+   "rules": 173,
+   "guard with a residual": 62,
+   "guard only residuals": 37,
+   "with references": 10,
+   "disclosure": 27,
+   "disclosure without recipient": 10
+  },
+  "web-157": {
+   "arm": "web",
+   "rules": 199,
+   "guard with a residual": 44,
+   "guard only residuals": 11,
+   "with references": 45,
+   "disclosure": 34,
+   "disclosure without recipient": 5
+  },
+  "web-158": {
+   "arm": "web",
+   "rules": 345,
+   "guard with a residual": 111,
+   "guard only residuals": 59,
+   "with references": 83,
+   "disclosure": 53,
+   "disclosure without recipient": 9
+  },
+  "web-159": {
+   "arm": "web",
+   "rules": 246,
+   "guard with a residual": 21,
+   "guard only residuals": 9,
+   "with references": 35,
+   "disclosure": 52,
+   "disclosure without recipient": 26
+  },
+  "web-160": {
+   "arm": "web",
+   "rules": 342,
+   "guard with a residual": 57,
+   "guard only residuals": 23,
+   "with references": 46,
+   "disclosure": 99,
+   "disclosure without recipient": 8
+  },
+  "web-161": {
+   "arm": "web",
+   "rules": 96,
+   "guard with a residual": 20,
+   "guard only residuals": 13,
+   "with references": 14,
+   "disclosure": 18,
+   "disclosure without recipient": 7
+  },
+  "web-162": {
+   "arm": "web",
+   "rules": 233,
+   "guard with a residual": 73,
+   "guard only residuals": 28,
+   "with references": 61,
+   "disclosure": 37,
+   "disclosure without recipient": 8
+  },
+  "web-163": {
+   "arm": "web",
+   "rules": 87,
+   "guard with a residual": 12,
+   "guard only residuals": 4,
+   "with references": 15,
+   "disclosure": 19,
+   "disclosure without recipient": 9
+  },
+  "web-164": {
+   "arm": "web",
+   "rules": 257,
+   "guard with a residual": 63,
+   "guard only residuals": 29,
+   "with references": 48,
+   "disclosure": 37,
+   "disclosure without recipient": 13
+  },
+  "web-165": {
+   "arm": "web",
+   "rules": 415,
+   "guard with a residual": 110,
+   "guard only residuals": 45,
+   "with references": 42,
+   "disclosure": 69,
+   "disclosure without recipient": 16
+  },
+  "web-166": {
+   "arm": "web",
+   "rules": 338,
+   "guard with a residual": 90,
+   "guard only residuals": 20,
+   "with references": 106,
+   "disclosure": 74,
+   "disclosure without recipient": 42
+  },
+  "web-167": {
+   "arm": "web",
+   "rules": 308,
+   "guard with a residual": 41,
+   "guard only residuals": 18,
+   "with references": 83,
+   "disclosure": 32,
+   "disclosure without recipient": 8
+  },
+  "web-168": {
+   "arm": "web",
+   "rules": 483,
+   "guard with a residual": 78,
+   "guard only residuals": 43,
+   "with references": 51,
+   "disclosure": 79,
+   "disclosure without recipient": 19
+  },
+  "web-169": {
+   "arm": "web",
+   "rules": 93,
+   "guard with a residual": 21,
+   "guard only residuals": 14,
+   "with references": 8,
+   "disclosure": 17,
+   "disclosure without recipient": 6
+  },
+  "web-170": {
+   "arm": "web",
+   "rules": 193,
+   "guard with a residual": 39,
+   "guard only residuals": 24,
+   "with references": 21,
+   "disclosure": 27,
+   "disclosure without recipient": 5
+  },
+  "web-171": {
+   "arm": "web",
+   "rules": 76,
+   "guard with a residual": 18,
+   "guard only residuals": 6,
+   "with references": 11,
+   "disclosure": 16,
+   "disclosure without recipient": 11
+  },
+  "web-172": {
+   "arm": "web",
+   "rules": 161,
+   "guard with a residual": 21,
+   "guard only residuals": 3,
+   "with references": 7,
+   "disclosure": 30,
+   "disclosure without recipient": 4
+  },
+  "web-173": {
+   "arm": "web",
+   "rules": 316,
+   "guard with a residual": 86,
+   "guard only residuals": 32,
+   "with references": 67,
+   "disclosure": 75,
+   "disclosure without recipient": 17
+  },
+  "web-174": {
+   "arm": "web",
+   "rules": 189,
+   "guard with a residual": 44,
+   "guard only residuals": 24,
+   "with references": 47,
+   "disclosure": 42,
+   "disclosure without recipient": 7
+  },
+  "web-175": {
+   "arm": "web",
+   "rules": 57,
+   "guard with a residual": 9,
+   "guard only residuals": 1,
+   "with references": 24,
+   "disclosure": 9,
+   "disclosure without recipient": 4
+  },
+  "web-176": {
+   "arm": "web",
+   "rules": 136,
+   "guard with a residual": 30,
+   "guard only residuals": 17,
+   "with references": 17,
+   "disclosure": 28,
+   "disclosure without recipient": 10
+  },
+  "web-177": {
+   "arm": "web",
+   "rules": 270,
+   "guard with a residual": 64,
+   "guard only residuals": 37,
+   "with references": 68,
+   "disclosure": 78,
+   "disclosure without recipient": 8
+  },
+  "web-178": {
+   "arm": "web",
+   "rules": 136,
+   "guard with a residual": 66,
+   "guard only residuals": 19,
+   "with references": 21,
+   "disclosure": 42,
+   "disclosure without recipient": 27
+  },
+  "web-179": {
+   "arm": "web",
+   "rules": 319,
+   "guard with a residual": 53,
+   "guard only residuals": 22,
+   "with references": 125,
+   "disclosure": 88,
+   "disclosure without recipient": 5
+  },
+  "web-180": {
+   "arm": "web",
+   "rules": 10,
+   "guard with a residual": 1,
+   "guard only residuals": 1,
+   "with references": 0,
+   "disclosure": 2,
+   "disclosure without recipient": 1
+  },
+  "web-181": {
+   "arm": "web",
+   "rules": 292,
+   "guard with a residual": 93,
+   "guard only residuals": 25,
+   "with references": 56,
+   "disclosure": 73,
+   "disclosure without recipient": 11
+  },
+  "web-182": {
+   "arm": "web",
+   "rules": 293,
+   "guard with a residual": 65,
+   "guard only residuals": 28,
+   "with references": 41,
+   "disclosure": 61,
+   "disclosure without recipient": 14
+  },
+  "web-183": {
+   "arm": "web",
+   "rules": 36,
+   "guard with a residual": 15,
+   "guard only residuals": 2,
+   "with references": 2,
+   "disclosure": 11,
+   "disclosure without recipient": 3
+  },
+  "web-184": {
+   "arm": "web",
+   "rules": 10,
+   "guard with a residual": 3,
+   "guard only residuals": 0,
+   "with references": 2,
+   "disclosure": 8,
+   "disclosure without recipient": 4
+  },
+  "web-185": {
+   "arm": "web",
+   "rules": 359,
+   "guard with a residual": 44,
+   "guard only residuals": 9,
+   "with references": 81,
+   "disclosure": 76,
+   "disclosure without recipient": 6
+  },
+  "web-186": {
+   "arm": "web",
+   "rules": 137,
+   "guard with a residual": 59,
+   "guard only residuals": 26,
+   "with references": 88,
+   "disclosure": 10,
+   "disclosure without recipient": 3
+  },
+  "web-187": {
+   "arm": "web",
+   "rules": 900,
+   "guard with a residual": 158,
+   "guard only residuals": 51,
+   "with references": 72,
+   "disclosure": 191,
+   "disclosure without recipient": 9
+  },
+  "web-188": {
+   "arm": "web",
+   "rules": 57,
+   "guard with a residual": 15,
+   "guard only residuals": 9,
+   "with references": 3,
+   "disclosure": 14,
+   "disclosure without recipient": 2
+  },
+  "web-189": {
+   "arm": "web",
+   "rules": 80,
+   "guard with a residual": 22,
+   "guard only residuals": 22,
+   "with references": 2,
+   "disclosure": 16,
+   "disclosure without recipient": 6
+  },
+  "web-190": {
+   "arm": "web",
+   "rules": 209,
+   "guard with a residual": 54,
+   "guard only residuals": 30,
+   "with references": 61,
+   "disclosure": 40,
+   "disclosure without recipient": 12
+  },
+  "web-191": {
+   "arm": "web",
+   "rules": 251,
+   "guard with a residual": 78,
+   "guard only residuals": 37,
+   "with references": 61,
+   "disclosure": 47,
+   "disclosure without recipient": 15
+  },
+  "web-192": {
+   "arm": "web",
+   "rules": 97,
+   "guard with a residual": 17,
+   "guard only residuals": 11,
+   "with references": 3,
+   "disclosure": 8,
+   "disclosure without recipient": 0
+  },
+  "web-193": {
+   "arm": "web",
+   "rules": 111,
+   "guard with a residual": 24,
+   "guard only residuals": 12,
+   "with references": 14,
+   "disclosure": 13,
+   "disclosure without recipient": 4
+  },
+  "web-194": {
+   "arm": "web",
+   "rules": 41,
+   "guard with a residual": 6,
+   "guard only residuals": 4,
+   "with references": 5,
+   "disclosure": 7,
+   "disclosure without recipient": 0
+  },
+  "web-195": {
+   "arm": "web",
+   "rules": 325,
+   "guard with a residual": 59,
+   "guard only residuals": 23,
+   "with references": 31,
+   "disclosure": 103,
+   "disclosure without recipient": 22
+  },
+  "web-196": {
+   "arm": "web",
+   "rules": 31,
+   "guard with a residual": 0,
+   "guard only residuals": 0,
+   "with references": 8,
+   "disclosure": 3,
+   "disclosure without recipient": 0
+  },
+  "web-197": {
+   "arm": "web",
+   "rules": 69,
+   "guard with a residual": 30,
+   "guard only residuals": 24,
+   "with references": 19,
+   "disclosure": 25,
+   "disclosure without recipient": 7
+  },
+  "web-198": {
+   "arm": "web",
+   "rules": 263,
+   "guard with a residual": 44,
+   "guard only residuals": 5,
+   "with references": 48,
+   "disclosure": 82,
+   "disclosure without recipient": 27
+  },
+  "web-199": {
+   "arm": "web",
+   "rules": 233,
+   "guard with a residual": 22,
+   "guard only residuals": 8,
+   "with references": 29,
+   "disclosure": 35,
+   "disclosure without recipient": 12
+  },
+  "web-200": {
+   "arm": "web",
+   "rules": 113,
+   "guard with a residual": 18,
+   "guard only residuals": 18,
+   "with references": 3,
+   "disclosure": 44,
+   "disclosure without recipient": 4
+  }
+ },
+ "action_nodes": {
+  "distinct": 3247,
+  "placed_by_network": 512,
+  "verbs": 2168
+ },
+ "checks": {
+  "extraction_records_equal_report_raw_rules": true,
+  "failed_model_calls_in_reports": 3
+ },
+ "run": {
+  "elapsed_s": 17.2,
+  "cpu_s": 9.7,
+  "peak_rss_mb_self": 1044.9,
+  "peak_rss_mb_largest_child": 0.0,
+  "cpus": 8,
+  "slurm_job": "20734572",
+  "slurm_step": "0"
+ }
+}

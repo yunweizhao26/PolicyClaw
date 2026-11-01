@@ -1,0 +1,375 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "comments": "comment",
+    "cookies and similar technologies": "cookies",
+    "images": "image",
+    "information": "data",
+    "personal_data": "personal data",
+    "user interest": "interests",
+    "user provided info": "information you provide"
+   },
+   "parents": {
+    "access time": [
+     "time and date"
+    ],
+    "ad engagement": [
+     "ad interaction data"
+    ],
+    "ad interaction data": [
+     "browsing and interaction data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "bank account number": [
+     "financial information",
+     "payment information"
+    ],
+    "bid": [
+     "bid information"
+    ],
+    "bid information": [
+     "browsing and interaction data"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "business address": [
+     "postal address"
+    ],
+    "captions": [
+     "user_generated_content"
+    ],
+    "clicks": [
+     "user actions"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "comment": [
+     "user_generated_content"
+    ],
+    "communications": [
+     "messages"
+    ],
+    "cookie ID": [
+     "cookies"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment card number",
+     "payment information"
+    ],
+    "creditworthiness information": [
+     "credit information",
+     "financial information"
+    ],
+    "credit information": [
+     "financial information"
+    ],
+    "customer service phone call": [
+     "voice recordings"
+    ],
+    "delivery address": [
+     "postal address",
+     "shipping address"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "email interactions": [
+     "user interactions"
+    ],
+    "image": [
+     "user_generated_content"
+    ],
+    "ip address": [
+     "coarse location",
+     "device information"
+    ],
+    "listings content": [
+     "listings"
+    ],
+    "listings": [
+     "user_generated_content"
+    ],
+    "livestreams": [
+     "user_generated_content",
+     "videos"
+    ],
+    "message content": [
+     "messages"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "package tracking number": [
+     "shipping information"
+    ],
+    "payment card number": [
+     "financial information",
+     "payment information"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photo": [
+     "image"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "product reviews": [
+     "feedback",
+     "user_generated_content"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "ratings": [
+     "feedback"
+    ],
+    "reactions": [
+     "user interactions"
+    ],
+    "report details": [
+     "reports"
+    ],
+    "reports": [
+     "user_generated_content"
+    ],
+    "sales data": [
+     "transaction details"
+    ],
+    "search history": [
+     "browsing and interaction data"
+    ],
+    "shipping address": [
+     "postal address"
+    ],
+    "social security number": [
+     "government-issued id"
+    ],
+    "tax identification number": [
+     "government-issued id"
+    ],
+    "transaction amount": [
+     "transaction details"
+    ],
+    "transcripts": [
+     "communications"
+    ],
+    "username": [
+     "account information",
+     "identity information"
+    ],
+    "videos": [
+     "user_generated_content"
+    ],
+    "viewed content": [
+     "browsing and interaction data"
+    ],
+    "voice recordings": [
+     "communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "affiliate",
+    "corporate affiliates": "affiliate",
+    "credit bureaus": "credit bureau",
+    "credit reporting agency": "credit bureau",
+    "eBay Affiliates": "affiliate",
+    "eBay affiliates": "affiliate",
+    "ebay_affiliates": "affiliate",
+    "government authorities": "government agency",
+    "other users": "other user",
+    "payment service providers": "payment processor",
+    "processor": "data processors",
+    "processors": "data processors",
+    "service providers": "service provider",
+    "service_providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "third-party partners"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "commercial partner": [
+     "third parties"
+    ],
+    "third-party partners": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "credit bureau": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "data processors": [
+     "service provider"
+    ],
+    "auditor": [
+     "service provider"
+    ],
+    "collection agencies": [
+     "service provider"
+    ],
+    "data verification services": [
+     "service provider"
+    ],
+    "event agency": [
+     "service provider"
+    ],
+    "risk assessment vendors": [
+     "service provider"
+    ],
+    "shipping company": [
+     "service provider"
+    ],
+    "government agency": [
+     "public authorities"
+    ],
+    "courts": [
+     "public authorities"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ],
+    "social network": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "affiliate": [
+     "other sources"
+    ],
+    "credit bureau": [
+     "other sources"
+    ],
+    "data provider": [
+     "other sources"
+    ],
+    "seller": [
+     "users"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "eBay Affiliates": "eBay Affiliate"
+   },
+   "parents": {
+    "payment service providers": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "user": [
+     "any one person or group"
+    ],
+    "first party": [
+     "any one person or group"
+    ],
+    "third party": [
+     "any one person or group"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "fraud_prevention": "fraud detection and prevention",
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "fulfill_transactions": "facilitate transactions",
+    "legal_compliance": "legal compliance"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "authentication",
+     "verification"
+    ],
+    "single sign-on": [
+     "authentication"
+    ],
+    "collect payments": [
+     "facilitate transactions"
+    ],
+    "future transactions": [
+     "transaction-related purposes"
+    ],
+    "facilitate transactions": [
+     "transaction-related purposes"
+    ],
+    "service_optimization": [
+     "service improvement"
+    ],
+    "services offered through eBay": [
+     "services"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4625,
+  "completion_tokens": 1705,
+  "thinking_tokens": 0,
+  "seconds": 15.418793439865112,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

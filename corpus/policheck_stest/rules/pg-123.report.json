@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "pg-123",
+ "text_sha256": "50fec6ae06737f73976cc7ae52ea9471b14c09b8d0237a83c9bc47950a836f86",
+ "site_id": "pg-123",
+ "sections": 2,
+ "rules": 14,
+ "report": {
+  "sections": 2,
+  "raw_rules": 14,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use ... to knowingly solicit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "solicit",
+      "verb": "solicit"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "from children under the age of 13"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from children under the age of 13"
+    ],
+    "section": "pg-123#s1"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 10,
+  "completeness": {
+   "gaps": 34,
+   "gap_words": 406
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 10,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 7232,
+  "completion_tokens": 2594,
+  "thinking_tokens": 0,
+  "seconds": 29.717718601226807,
+  "failures": 0
+ },
+ "seconds": 30.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

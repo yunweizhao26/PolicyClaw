@@ -1,0 +1,185 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "name server": "domain name server information",
+    "payment information": "payment details",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information"
+   },
+   "parents": {
+    "DNS query logs": [
+     "logs"
+    ],
+    "administrative users' activity logs": [
+     "logs"
+    ],
+    "billing address": [
+     "payment details",
+     "postal address"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "electronic network activity"
+    ],
+    "customer name": [
+     "name"
+    ],
+    "email address": [
+     "contact details",
+     "online identifiers"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "contact details": [
+     "identifiers"
+    ],
+    "IP address": [
+     "online identifiers"
+    ],
+    "online identifiers": [
+     "identifiers"
+    ],
+    "identifiers": [
+     "Personal Information"
+    ],
+    "full credit card numbers": [
+     "credit card information"
+    ],
+    "credit card information": [
+     "payment details"
+    ],
+    "commercial information": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "professional or employment information": [
+     "Personal Information"
+    ],
+    "protected classification characteristics": [
+     "Personal Information"
+    ],
+    "electronic network activity": [
+     "Personal Information"
+    ],
+    "Form of Approval": [
+     "domain registration data"
+    ],
+    "domain name": [
+     "domain registration data"
+    ],
+    "domain status": [
+     "domain registration data"
+    ],
+    "DNSSEC": [
+     "domain registration data"
+    ],
+    "referrer URL": [
+     "electronic network activity"
+    ],
+    "crash reports": [
+     "data"
+    ],
+    "user submission": [
+     "content"
+    ],
+    "Personal Information": [
+     "data"
+    ],
+    "aggregated data": [
+     "data"
+    ],
+    "Network Data": [
+     "data"
+    ],
+    "End User data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "first party": "Cloudflare group company"
+   },
+   "parents": {
+    "agent": [
+     "third party"
+    ],
+    "advertising partners": [
+     "business partners",
+     "partner"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "sales intelligence platform": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision",
+    "user support": "customer support"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "contest administration": [
+     "marketing"
+    ],
+    "registration": [
+     "service provision"
+    ],
+    "service provision": [
+     "service operation"
+    ],
+    "transaction management": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2773,
+  "completion_tokens": 669,
+  "thinking_tokens": 0,
+  "seconds": 32.10234570503235,
+  "failures": 0
+ },
+ "seconds": 32.3
+}

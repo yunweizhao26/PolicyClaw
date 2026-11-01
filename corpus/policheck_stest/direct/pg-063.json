@@ -1,0 +1,22 @@
+{
+ "policy": "pg-063",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "ParentLove is not intended for children under the age of 13, or the equivalent minimum age in the relevant jurisdiction, and are not permitted to create accounts unless their parent has consented in accordance with applicable law.",
+   "prohibit": "We will not knowingly collect PII via this application from users in this age group.",
+   "situation": "A child under 13 creates an account with their parent's consent in accordance with applicable law.",
+   "reason": "The policy implies children under 13 may create accounts with parental consent, which requires collecting their PII, but flatly prohibits knowingly collecting PII from users in that age group without exception.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2204,
+  "completion_tokens": 181,
+  "thinking_tokens": 0,
+  "seconds": 2.347494602203369,
+  "failures": 0
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "presence": "online status",
+    "unique identifiers": "unique identifier"
+   },
+   "parents": {
+    "Nintendo Account information": [
+     "account information"
+    ],
+    "authentication data": [
+     "account information"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "communication contents": [
+     "user communication",
+     "user content"
+    ],
+    "credit card number": [
+     "account information"
+    ],
+    "hardware serial number": [
+     "device identifier",
+     "unique identifier"
+    ],
+    "IP address": [
+     "persistent identifiers",
+     "unique identifier"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "screen name": [
+     "name"
+    ],
+    "user communication": [
+     "user content"
+    ],
+    "user content": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child users"
+   },
+   "parents": {
+    "child users": [
+     "user"
+    ],
+    "third party": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "third-party games and applications": [
+     "third party"
+    ],
+    "third-party user": [
+     "public"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance"
+   },
+   "parents": {
+    "advertising": [
+     "marketing",
+     "operational"
+    ],
+    "analytics": [
+     "operational",
+     "service delivery",
+     "services"
+    ],
+    "customer support": [
+     "operational"
+    ],
+    "enforce terms": [
+     "compliance",
+     "legal"
+    ],
+    "fraud prevention": [
+     "operational",
+     "security",
+     "services"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "legal rights": [
+     "legal"
+    ],
+    "marketing": [
+     "operational"
+    ],
+    "personalization": [
+     "operational"
+    ],
+    "security": [
+     "operational",
+     "services"
+    ],
+    "service improvement": [
+     "service delivery",
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2364,
+  "completion_tokens": 554,
+  "thinking_tokens": 0,
+  "seconds": 19.71559190750122,
+  "failures": 0
+ },
+ "seconds": 19.8
+}

@@ -1,0 +1,88 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email-address": "email address"
+   },
+   "parents": {
+    "childrens-data": [
+     "personal data"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "cookies": [
+     "cookie / identifier"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "records": [
+     "personal data"
+    ],
+    "user profile": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "US-CERT": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "user-customization": [
+     "technical"
+    ],
+    "user identification": [
+     "technical"
+    ],
+    "safety": [
+     "security"
+    ],
+    "site administration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1542,
+  "completion_tokens": 285,
+  "thinking_tokens": 0,
+  "seconds": 7.036443710327148,
+  "failures": 0
+ },
+ "seconds": 7.1
+}

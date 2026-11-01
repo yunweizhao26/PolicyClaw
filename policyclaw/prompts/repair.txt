@@ -1,0 +1,22 @@
+Some formulas that translate qualifiers of privacy-policy rules do not compile. Correct each one.
+
+Formula syntax (JSON):
+- {{"op": "and", "args": [...]}}, {{"op": "or", "args": [...]}}, {{"op": "not", "arg": ...}}
+- {{"op": "bool", "var": NAME}} for a true-or-false variable
+- {{"op": "cmp", "var": NAME, "cmp": "<" or "<=" or ">" or ">=" or "==", "value": INTEGER}} for an integer variable
+- {{"op": "eq", "var": NAME, "value": STRING}} for a variable that takes a value
+- {{"op": "residual", "id": ID, "text": QUOTE}} for any part that the variables below cannot express
+- {{"op": "true"}} for a quote that restricts nothing
+
+Variables (a family written NAME.* takes a snake_case name after the dot, such as consent.marketing_emails; a family name alone is not a variable):
+{variables}
+
+Section, for context:
+<<<
+{section}
+>>>
+
+Each failed formula, with its quote and the compile error:
+{failed}
+
+Keep the meaning of the original formula and of the quote. Return only JSON: {{"formulas": {{"<quote id>": FORMULA, ...}}}}

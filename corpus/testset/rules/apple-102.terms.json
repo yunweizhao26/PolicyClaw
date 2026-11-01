@@ -1,0 +1,463 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometric information": "biometric data",
+    "browsing_history": "browsing history",
+    "cctv_footage": "cctv footage",
+    "commercial_information": "commercial information",
+    "customer records": "California customer records",
+    "data": "Information",
+    "email_address": "email address",
+    "facial_recognition_data": "facial recognition data",
+    "government_id_number": "government identifier",
+    "health_data": "Protected Health Information (PHI)",
+    "identifiers": "identifier",
+    "identifying information": "identifier",
+    "information": "Information",
+    "license_plate_number": "license plate",
+    "personal data": "Information",
+    "personal information": "Information",
+    "phone_number": "phone number",
+    "postal_address": "postal address",
+    "precise_location": "precise geolocation",
+    "purchase history": "purchase and transaction history",
+    "purchase transaction information": "purchase and transaction history",
+    "purchase_history": "purchase and transaction history",
+    "racial or ethnic origin": "ethnicity_or_race",
+    "sensitive personal information": "sensitive data",
+    "unspecified user data": "Information",
+    "user data": "Information",
+    "user preferences": "preferences",
+    "user reviews": "product reviews",
+    "user_preferences": "preferences",
+    "voice_recording": "voice recording",
+    "your information": "Information"
+   },
+   "parents": {
+    "California customer records": [
+     "Information"
+    ],
+    "Protected Health Information (PHI)": [
+     "Information",
+     "sensitive data"
+    ],
+    "account credentials": [
+     "Information"
+    ],
+    "account number": [
+     "account credentials",
+     "identifier"
+    ],
+    "account_information": [
+     "Information"
+    ],
+    "age": [
+     "demographic_data",
+     "protected classifications"
+    ],
+    "aggregated data": [
+     "Information"
+    ],
+    "anonymized data": [
+     "Information"
+    ],
+    "biometric data": [
+     "sensitive data",
+     "sensory data"
+    ],
+    "browser_type": [
+     "device and browser configuration"
+    ],
+    "browsing and interaction data": [
+     "internet and electronic network activity information",
+     "usage_data"
+    ],
+    "browsing history": [
+     "internet and electronic network activity information"
+    ],
+    "cctv footage": [
+     "sensory data"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "commercial information": [
+     "Information"
+    ],
+    "correspondence": [
+     "user content"
+    ],
+    "date_of_birth": [
+     "Information"
+    ],
+    "de-identified data": [
+     "Information"
+    ],
+    "demographic_data": [
+     "Information"
+    ],
+    "device and browser configuration": [
+     "device information"
+    ],
+    "device location": [
+     "device information",
+     "geolocation"
+    ],
+    "device_characteristics": [
+     "device information"
+    ],
+    "device_identifier": [
+     "device information",
+     "identifier"
+    ],
+    "drivers_license_number": [
+     "government identifier"
+    ],
+    "education_history": [
+     "Information"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "email message": [
+     "correspondence"
+    ],
+    "employment_history": [
+     "professional or employment information"
+    ],
+    "ethnicity_or_race": [
+     "protected classifications",
+     "sensitive data"
+    ],
+    "facial recognition data": [
+     "biometric data"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "gender": [
+     "demographic_data",
+     "protected classifications"
+    ],
+    "generated response": [
+     "Information"
+    ],
+    "geolocation": [
+     "Information"
+    ],
+    "government identifier": [
+     "identifier",
+     "sensitive data"
+    ],
+    "identifier": [
+     "Information"
+    ],
+    "identity information": [
+     "identifier"
+    ],
+    "imprecise location": [
+     "geolocation"
+    ],
+    "inferences": [
+     "inferred data"
+    ],
+    "inferred data": [
+     "Information"
+    ],
+    "information about your interactions with our websites, mobile applications, and advertisements": [
+     "internet and electronic network activity information"
+    ],
+    "interaction_data": [
+     "usage_data"
+    ],
+    "interactions with us online": [
+     "interactions"
+    ],
+    "internet and electronic network activity information": [
+     "Information"
+    ],
+    "ip_address": [
+     "identifier"
+    ],
+    "language": [
+     "demographic_data"
+    ],
+    "license plate": [
+     "identifier"
+    ],
+    "marital_status": [
+     "protected classifications"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "online_data": [
+     "Information"
+    ],
+    "order date": [
+     "purchase and transaction history"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "payment_card_number": [
+     "California customer records",
+     "sensitive data"
+    ],
+    "phone number": [
+     "California customer records",
+     "identifier"
+    ],
+    "photo": [
+     "sensory data",
+     "user content"
+    ],
+    "postal address": [
+     "California customer records",
+     "identifier"
+    ],
+    "precise geolocation": [
+     "geolocation",
+     "sensitive data"
+    ],
+    "preferences": [
+     "Information"
+    ],
+    "product reviews": [
+     "user content"
+    ],
+    "professional or employment information": [
+     "California customer records"
+    ],
+    "protected classifications": [
+     "Information"
+    ],
+    "purchase amount": [
+     "purchase and transaction history"
+    ],
+    "purchase and transaction history": [
+     "commercial information"
+    ],
+    "rewards account personal information": [
+     "Information"
+    ],
+    "rewards number": [
+     "identifier"
+    ],
+    "security_question": [
+     "account credentials"
+    ],
+    "sensitive data": [
+     "Information"
+    ],
+    "sensory data": [
+     "Information"
+    ],
+    "signature": [
+     "California customer records"
+    ],
+    "signed declaration": [
+     "user content"
+    ],
+    "text message": [
+     "correspondence"
+    ],
+    "text messaging opt-in data": [
+     "preferences"
+    ],
+    "their data": [
+     "Information"
+    ],
+    "time_zone": [
+     "device and browser configuration"
+    ],
+    "usage_data": [
+     "internet and electronic network activity information"
+    ],
+    "user content": [
+     "Information"
+    ],
+    "user input": [
+     "user content"
+    ],
+    "user questions and comments": [
+     "correspondence"
+    ],
+    "user ratings": [
+     "user content"
+    ],
+    "user-provided information": [
+     "Information"
+    ],
+    "user_identifier": [
+     "identifier"
+    ],
+    "voice recording": [
+     "sensory data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "ad tech companies"
+   },
+   "parents": {
+    "data broker": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "business supporting our co-branded credit card": [
+     "third party"
+    ],
+    "ad tech companies": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "GPS (Global Positioning Systems), beacons, or other location-identifying technologies": [
+     "cookies and other technologies"
+    ],
+    "embedded scripts": [
+     "cookies and other technologies"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "social network or identity provider": [
+     "third party"
+    ],
+    "children under 18": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "The Kroger Family of Companies",
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "AdTech companies": [
+     "third parties"
+    ],
+    "Google Analytics": [
+     "third parties"
+    ],
+    "corporate affiliate": [
+     "The Kroger Family of Companies"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "health and safety protection": "health and safety",
+    "health_and_safety": "health and safety",
+    "identity-verification": "identity verification",
+    "legal compliance": "compliance",
+    "marketing": "advertising",
+    "personalize your experience": "personalization",
+    "support of business operations": "operations",
+    "targeted-advertising": "targeted advertising",
+    "user verification": "identity verification"
+   },
+   "parents": {
+    "account registration": [
+     "services"
+    ],
+    "advertising": [
+     "any purpose",
+     "commercial purpose"
+    ],
+    "age_verification": [
+     "authentication"
+    ],
+    "analytics": [
+     "improve functionality and performance",
+     "service improvement"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "detect and prevent fraud and security incidents": [
+     "fraud prevention",
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and legal compliance",
+     "fraud prevention and security",
+     "fraud_prevention_and_detection"
+    ],
+    "fraud_prevention_and_detection": [
+     "fraud prevention and legal compliance",
+     "fraud prevention and security"
+    ],
+    "fulfillment": [
+     "services"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "compliance": [
+     "fraud prevention and legal compliance"
+    ],
+    "maintain the integrity and security of our systems": [
+     "security"
+    ],
+    "personalize marketing messages": [
+     "advertising",
+     "personalization"
+    ],
+    "personalize product offerings": [
+     "personalization"
+    ],
+    "personalize shopping experience": [
+     "personalization"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "provide relevant coupons and promotional offers": [
+     "advertising"
+    ],
+    "respond to your inquiries and requests": [
+     "communication"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service improvement": [
+     "services"
+    ],
+    "service operation": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "troubleshoot issues": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4491,
+  "completion_tokens": 2559,
+  "thinking_tokens": 0,
+  "seconds": 30.053541660308838,
+  "failures": 0
+ },
+ "seconds": 30.1
+}

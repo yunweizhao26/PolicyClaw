@@ -1,0 +1,297 @@
+{
+ "cleaned_sha256": "web-105",
+ "text_sha256": "dfdbac5e470ccb919d12b0b4b1aeb78579f83c7f9a320e60c042ae4a42ce9ccd",
+ "site_id": "web-105",
+ "sections": 25,
+ "rules": 416,
+ "report": {
+  "sections": 25,
+  "raw_rules": 387,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not sell",
+     "actor": {
+      "text": "Nike",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [
+      {
+       "text": "for money or compensation",
+       "name": "commercial purpose"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not sell"
+    ],
+    "section": "web-105#s14"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "actor": {
+      "text": "Nike",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for money or compensation",
+       "name": "commercial purpose"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not share"
+    ],
+    "section": "web-105#s14"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not rent",
+     "actor": {
+      "text": "Nike",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "operation": "sale",
+     "purpose": [
+      {
+       "text": "for money or compensation",
+       "name": "commercial purpose"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not rent"
+    ],
+    "section": "web-105#s14"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not respond",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any signal which your browser might transmit through the “Do Not Track” feature your browser might have",
+      "name": "DNT signals"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "your browser",
+      "name": "user device"
+     },
+     "action": {
+      "text": "respond to",
+      "verb": "respond"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not respond"
+    ],
+    "section": "web-105#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rights",
+     "actor": {
+      "text": "California residents",
+      "name": "user"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "know",
+      "verb": "know"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "California residents have the following rights with respect to their personal information:"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Managing Your Privacy Rights and Choices",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Exercising your Rights and Choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-105#s22"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rights",
+     "actor": {
+      "text": "California residents",
+      "name": "user"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "California residents have the following rights with respect to their personal information:"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Managing Your Privacy Rights and Choices",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Exercising your Rights and Choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-105#s22"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 132,
+  "completeness": {
+   "gaps": 371,
+   "gap_words": 3698
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 15,
+  "translated_quotes": 132,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 82793,
+  "completion_tokens": 72550,
+  "thinking_tokens": 0,
+  "seconds": 576.4440605640411,
+  "failures": 0
+ },
+ "seconds": 578.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,401 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "de-identified data": "anonymized data",
+    "financial and payment data": "financial",
+    "financial information": "financial",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "postal address": "address",
+    "referring url": "referrer URL",
+    "zip code": "ZIP code"
+   },
+   "parents": {
+    "IP address": [
+     "device and IP address information"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "address": [
+     "contact details",
+     "location"
+    ],
+    "aggregated data": [
+     "data"
+    ],
+    "analytics data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "blog content": [
+     "content",
+     "public content",
+     "user content"
+    ],
+    "books": [
+     "content"
+    ],
+    "browser type": [
+     "device characteristics",
+     "device information"
+    ],
+    "browser version": [
+     "browser type"
+    ],
+    "browsing habits": [
+     "user interactions and behavior"
+    ],
+    "browsing history": [
+     "browsing habits",
+     "interaction data"
+    ],
+    "coarse geolocation": [
+     "location"
+    ],
+    "communication content": [
+     "communications data",
+     "user content"
+    ],
+    "communications data": [
+     "interaction data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "copy of personal data": [
+     "personal data"
+    ],
+    "data obtained from multiple devices": [
+     "data"
+    ],
+    "de-identified cross-device tracking data": [
+     "anonymized data"
+    ],
+    "demographic information": [
+     "data",
+     "personal data"
+    ],
+    "device and IP address information": [
+     "device information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device information": [
+     "data"
+    ],
+    "device type": [
+     "device characteristics",
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email interaction data": [
+     "interaction data",
+     "user interactions and behavior"
+    ],
+    "engagement statistics": [
+     "analytics data"
+    ],
+    "financial": [
+     "personal data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "gender identity": [
+     "demographic information"
+    ],
+    "individual preferences": [
+     "personal data"
+    ],
+    "information collected via cookies": [
+     "data"
+    ],
+    "interaction data": [
+     "data"
+    ],
+    "interaction history": [
+     "interaction data"
+    ],
+    "location": [
+     "data"
+    ],
+    "log data": [
+     "data"
+    ],
+    "log-in credentials": [
+     "account details"
+    ],
+    "login details": [
+     "account details"
+    ],
+    "marketing lists": [
+     "personal data"
+    ],
+    "name": [
+     "contact details",
+     "personal data"
+    ],
+    "operating system": [
+     "device characteristics",
+     "device information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "public content": [
+     "content"
+    ],
+    "referrer URL": [
+     "interaction data"
+    ],
+    "research papers": [
+     "content"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "social media links": [
+     "contact details"
+    ],
+    "specialties": [
+     "demographic information"
+    ],
+    "spoken languages": [
+     "demographic information"
+    ],
+    "user content": [
+     "content"
+    ],
+    "user interactions and behavior": [
+     "interaction data"
+    ],
+    "ZIP code": [
+     "address",
+     "location"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "ad network"
+   },
+   "parents": {
+    "ad network": [
+     "advertising service providers"
+    ],
+    "advertising service providers": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "fulfillment services": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "supplier"
+   },
+   "parents": {
+    "Google": [
+     "supplier"
+    ],
+    "multiple devices": [
+     "device"
+    ],
+    "service provider": [
+     "supplier"
+    ],
+    "third-party sources": [
+     "variety of sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Sussex Publishers, LLC"
+   },
+   "parents": {
+    "credit card processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account management": "Account Creation and Management",
+    "analytics or research": "analytics",
+    "dispute resolution": "Dispute Resolution",
+    "fraud and security": "Security and Fraud Prevention",
+    "marketing": "Marketing the Services",
+    "product improvement": "improve service",
+    "targeted advertising": "personalized ads",
+    "targeted_advertising": "personalized ads"
+   },
+   "parents": {
+    "Billing and Invoicing": [
+     "operational activities"
+    ],
+    "Customer Support": [
+     "operational activities"
+    ],
+    "Delivering Services": [
+     "provide service"
+    ],
+    "Enforcing Agreements": [
+     "legal"
+    ],
+    "Improvement and Research": [
+     "business purposes"
+    ],
+    "Marketing Communications": [
+     "communication"
+    ],
+    "Personalization": [
+     "Providing, Customizing, and Enhancing Our Services"
+    ],
+    "Relevant Content": [
+     "Personalization"
+    ],
+    "Responding to Your Inquiries": [
+     "Communicating with You"
+    ],
+    "Security and Fraud Prevention": [
+     "security"
+    ],
+    "Account Creation and Management": [
+     "operational activities"
+    ],
+    "advertising": [
+     "Marketing the Services",
+     "commercial purpose"
+    ],
+    "analytics": [
+     "Improvement and Research"
+    ],
+    "assist in delivering the Site you request": [
+     "Delivering Services"
+    ],
+    "collect fees": [
+     "Billing and Invoicing"
+    ],
+    "customer support": [
+     "Customer Support"
+    ],
+    "ensure compliance with professional regulations": [
+     "legal compliance"
+    ],
+    "facilitate the use of our platform": [
+     "providing the service"
+    ],
+    "fraud prevention and detection": [
+     "Security and Fraud Prevention"
+    ],
+    "hosting-data-storage": [
+     "operational activities",
+     "providing the service"
+    ],
+    "improve service": [
+     "Improvement and Research"
+    ],
+    "legal and regulatory compliance": [
+     "Legal Obligations and Requirements"
+    ],
+    "legal compliance": [
+     "Legal Obligations and Requirements"
+    ],
+    "maintenance": [
+     "operational activities"
+    ],
+    "Marketing the Services": [
+     "commercial purpose"
+    ],
+    "marketing optimization": [
+     "Marketing the Services"
+    ],
+    "operational activities": [
+     "business purposes"
+    ],
+    "personalization": [
+     "Personalization"
+    ],
+    "personalized ads": [
+     "advertising"
+    ],
+    "process payment": [
+     "Billing and Invoicing",
+     "processing transactions"
+    ],
+    "processing transactions": [
+     "operational activities"
+    ],
+    "provide our Site": [
+     "Delivering Services"
+    ],
+    "providing the service": [
+     "service provision"
+    ],
+    "research": [
+     "Improvement and Research"
+    ],
+    "service-fulfillment": [
+     "operational activities"
+    ],
+    "support advertising efforts": [
+     "advertising"
+    ],
+    "user experience personalization": [
+     "Personalization"
+    ],
+    "user profile creation": [
+     "Account Creation and Management"
+    ],
+    "verification": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3291,
+  "completion_tokens": 1662,
+  "thinking_tokens": 0,
+  "seconds": 13.928647994995117,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

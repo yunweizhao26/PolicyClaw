@@ -1,0 +1,130 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "postal address": "physical address",
+    "purchase history": "order history",
+    "website interactions": "interaction data"
+   },
+   "parents": {
+    "billing address": [
+     "physical address"
+    ],
+    "IP address": [
+     "online identifier"
+    ],
+    "device fingerprint": [
+     "online identifier"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "audio recording": [
+     "audio video recording"
+    ],
+    "sensitive personal data": [
+     "Personal Information"
+    ],
+    "user preference": [
+     "preferences"
+    ],
+    "user comment": [
+     "user content"
+    ],
+    "sweepstakes and contest winner name": [
+     "name"
+    ],
+    "order history": [
+     "transaction history"
+    ],
+    "social media handle": [
+     "username"
+    ],
+    "customer support request": [
+     "user inquiry"
+    ],
+    "Personal Information": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "auditors": "auditor",
+    "lenders": "lender",
+    "third party": "third parties",
+    "third-party ad networks": "third party ad network",
+    "third-party advisors": "third party advisor",
+    "traffic measurement services": "traffic measurement service"
+   },
+   "parents": {
+    "agent": [
+     "service provider"
+    ],
+    "third party ad network": [
+     "third parties"
+    ],
+    "third party advisor": [
+     "third parties"
+    ],
+    "traffic measurement service": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under 13": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third-party ad network providers and/or traffic measurement services": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services enhancement": "service improvement"
+   },
+   "parents": {
+    "advertising": [
+     "marketing",
+     "personalization and marketing"
+    ],
+    "marketing": [
+     "personalization and marketing"
+    ],
+    "account management": [
+     "service operation and management"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2154,
+  "completion_tokens": 704,
+  "thinking_tokens": 0,
+  "seconds": 24.393771171569824,
+  "failures": 0
+ },
+ "seconds": 24.5
+}

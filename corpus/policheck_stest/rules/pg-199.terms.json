@@ -1,0 +1,315 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "email",
+    "ip address": "IP address",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "profile picture": "profile photo",
+    "username": "user name"
+   },
+   "parents": {
+    "IP address": [
+     "online identifier"
+    ],
+    "access times": [
+     "usage details"
+    ],
+    "actions on our services": [
+     "user activity"
+    ],
+    "address": [
+     "contact details",
+     "identifying information"
+    ],
+    "aggregated anonymous player info": [
+     "anonymous or aggregated data"
+    ],
+    "aggregated usage data": [
+     "anonymous or aggregated data"
+    ],
+    "app usage frequency": [
+     "usage details"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browsing and search history": [
+     "usage details"
+    ],
+    "browsing behavior": [
+     "usage details"
+    ],
+    "combined personal data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "daily challenges": [
+     "game play activity"
+    ],
+    "date of birth": [
+     "identifying information"
+    ],
+    "debit card number": [
+     "financial information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device identifier": [
+     "identifiers",
+     "online identifier"
+    ],
+    "device software platform and firmware": [
+     "device details"
+    ],
+    "driver licence number": [
+     "government ID number",
+     "identifying information"
+    ],
+    "education records": [
+     "education details"
+    ],
+    "email": [
+     "contact details",
+     "identifying information"
+    ],
+    "employment history": [
+     "professional or employment related information"
+    ],
+    "employment status": [
+     "professional or employment related information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "game play activity": [
+     "game information"
+    ],
+    "game progress": [
+     "game information"
+    ],
+    "game state": [
+     "game information"
+    ],
+    "game usage data": [
+     "usage details"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "government ID number": [
+     "identifying information"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "health insurance information": [
+     "financial information"
+    ],
+    "identifiers": [
+     "identifying information"
+    ],
+    "in-app events": [
+     "usage details"
+    ],
+    "insurance policy number": [
+     "financial information"
+    ],
+    "interaction details": [
+     "usage details"
+    ],
+    "internet connection details": [
+     "device information"
+    ],
+    "links clicked": [
+     "browsing behavior"
+    ],
+    "medical information": [
+     "personal data"
+    ],
+    "name": [
+     "identifying information"
+    ],
+    "network information": [
+     "internet connection details"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "operating system and version": [
+     "device details"
+    ],
+    "pages viewed": [
+     "browsing behavior"
+    ],
+    "pages visited": [
+     "browsing behavior"
+    ],
+    "passport number": [
+     "government ID number",
+     "identifying information"
+    ],
+    "password": [
+     "account details"
+    ],
+    "phone number": [
+     "contact details",
+     "identifying information"
+    ],
+    "player interaction data": [
+     "game play activity"
+    ],
+    "postal code": [
+     "address"
+    ],
+    "products or services purchased": [
+     "purchasing history"
+    ],
+    "profile photo": [
+     "account details"
+    ],
+    "push notifications": [
+     "promotional messages"
+    ],
+    "referring URL": [
+     "browsing behavior"
+    ],
+    "service usage data": [
+     "usage details"
+    ],
+    "signature": [
+     "identifying information"
+    ],
+    "social connections": [
+     "account details"
+    ],
+    "social security number": [
+     "government ID number",
+     "identifying information"
+    ],
+    "unique personal identifier": [
+     "identifiers"
+    ],
+    "usage details": [
+     "collected information"
+    ],
+    "user activity": [
+     "usage details"
+    ],
+    "user data": [
+     "information"
+    ],
+    "user-generated content": [
+     "collected information"
+    ],
+    "user name": [
+     "account details",
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "data aggregator": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "affiliates": [
+     "third party"
+    ],
+    "recipient": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "MobilityWare"
+   },
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "Facebook Connect": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligations"
+   },
+   "parents": {
+    "authentication and authorization": [
+     "compliance and security",
+     "security"
+    ],
+    "better understand the functionality of our mobile software on your devices": [
+     "analytics",
+     "research"
+    ],
+    "billing": [
+     "order fulfillment"
+    ],
+    "dispute resolution": [
+     "compliance with legal obligations"
+    ],
+    "enforcement of legal claims or rights": [
+     "compliance with legal obligations"
+    ],
+    "fraud prevention": [
+     "compliance and security",
+     "security"
+    ],
+    "personalization of services": [
+     "personalization"
+    ],
+    "product improvement": [
+     "service optimization"
+    ],
+    "promotional events": [
+     "marketing"
+    ],
+    "safety": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3274,
+  "completion_tokens": 1237,
+  "thinking_tokens": 0,
+  "seconds": 12.036357402801514,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

@@ -1,0 +1,415 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "online unique identifier": "online identifier",
+    "personal information": "personal data",
+    "photos": "photograph",
+    "profile picture": "profile photo",
+    "sensitive personal information": "sensitive information",
+    "user images": "photograph",
+    "user photo": "profile photo",
+    "user profile": "profile information",
+    "user-generated content": "user post",
+    "username": "account name"
+   },
+   "parents": {
+    "account username and password": [
+     "personal data",
+     "profile information"
+    ],
+    "account name": [
+     "account username and password",
+     "online identifier",
+     "personal identifiers"
+    ],
+    "achievements": [
+     "profile information"
+    ],
+    "age": [
+     "demographic data",
+     "protected classification characteristics"
+    ],
+    "authentication token": [
+     "online identifier"
+    ],
+    "body measurements": [
+     "health and medical data"
+    ],
+    "browsing behavior": [
+     "internet activity information",
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing behavior",
+     "internet activity information"
+    ],
+    "calorie count": [
+     "food and activity diary data",
+     "health and medical data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "communications confirmation data": [
+     "user communications"
+    ],
+    "consumer behavior": [
+     "commercial information"
+    ],
+    "contacts": [
+     "personal data"
+    ],
+    "contract and payment records": [
+     "commercial information"
+    ],
+    "cookie identifiers": [
+     "cookies",
+     "online identifier"
+    ],
+    "cookies": [
+     "device and browser information"
+    ],
+    "country": [
+     "general location",
+     "location"
+    ],
+    "date of birth": [
+     "demographic data",
+     "protected classification characteristics"
+    ],
+    "device identifier": [
+     "device and browser information",
+     "online identifier"
+    ],
+    "diary entries": [
+     "food and activity diary data"
+    ],
+    "dietary habits": [
+     "food and activity diary data",
+     "health and medical data"
+    ],
+    "dietary restrictions": [
+     "food and activity diary data",
+     "health and medical data"
+    ],
+    "dispute and complaint records": [
+     "user communications"
+    ],
+    "electronic financial transaction records": [
+     "commercial information",
+     "payment information"
+    ],
+    "email address": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "event registration and participation information": [
+     "personal data"
+    ],
+    "feedback": [
+     "user communications"
+    ],
+    "fitness goals": [
+     "fitness level, activity, and goals",
+     "health and medical data"
+    ],
+    "fitness level, activity, and goals": [
+     "health and medical data"
+    ],
+    "food and activity diary data": [
+     "health and medical data"
+    ],
+    "food, drink, and medications consumed and purchased": [
+     "food and activity diary data",
+     "health and medical data"
+    ],
+    "gender": [
+     "demographic data",
+     "protected classification characteristics"
+    ],
+    "gender identity": [
+     "gender",
+     "protected classification characteristics"
+    ],
+    "general location": [
+     "location"
+    ],
+    "health and medical data": [
+     "sensitive information"
+    ],
+    "inference about user device": [
+     "inferences"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "internet activity information": [
+     "usage and device data",
+     "usage data"
+    ],
+    "IP address": [
+     "device and browser information",
+     "online identifier"
+    ],
+    "lifestyle information": [
+     "health and medical data"
+    ],
+    "name": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "online identifier": [
+     "personal identifiers"
+    ],
+    "other similar identifiers": [
+     "personal identifiers"
+    ],
+    "password": [
+     "account username and password"
+    ],
+    "payment information": [
+     "commercial information",
+     "sensitive information"
+    ],
+    "personal identifiers": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "photograph": [
+     "audio video data"
+    ],
+    "physiological conditions information": [
+     "health and medical data"
+    ],
+    "postal address": [
+     "location",
+     "personal identifiers"
+    ],
+    "postal code": [
+     "general location",
+     "location"
+    ],
+    "precise location": [
+     "location",
+     "sensitive information"
+    ],
+    "profile photo": [
+     "photograph",
+     "profile information"
+    ],
+    "progress photos": [
+     "health and medical data",
+     "photograph"
+    ],
+    "protected classification characteristics": [
+     "personal data"
+    ],
+    "purchase history": [
+     "commercial information",
+     "consumer behavior"
+    ],
+    "search history": [
+     "internet activity information"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "service interaction data": [
+     "internet activity information",
+     "usage data"
+    ],
+    "usage and device data": [
+     "personal data"
+    ],
+    "usage data": [
+     "usage and device data"
+    ],
+    "user communications": [
+     "personal data"
+    ],
+    "user post": [
+     "personal data"
+    ],
+    "voice recording": [
+     "audio video data",
+     "user communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "business partners": "business partner",
+    "other company": "other companies",
+    "research partners": "research partner",
+    "researcher": "research partner",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "Amplitude": [
+     "analytics provider",
+     "service provider"
+    ],
+    "AppsFlyer": [
+     "analytics provider",
+     "service provider"
+    ],
+    "Braze": [
+     "service provider"
+    ],
+    "Cloudflare": [
+     "service provider"
+    ],
+    "Firebase Crashlytics": [
+     "service provider"
+    ],
+    "Google Ads": [
+     "advertising partner",
+     "service provider"
+    ],
+    "Higher Logic": [
+     "service provider"
+    ],
+    "Meta Platforms": [
+     "advertising partner",
+     "service provider"
+    ],
+    "Snowflake": [
+     "service provider"
+    ],
+    "Zendesk": [
+     "service provider"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "another organization": [
+     "third party"
+    ],
+    "auditors": [
+     "professional advisers",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "companies not certified under data privacy framework": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "lender": [
+     "third party"
+    ],
+    "marketing partner": [
+     "third party"
+    ],
+    "other companies": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ],
+    "others": [
+     "third party"
+    ],
+    "professional advisers": [
+     "third party"
+    ],
+    "research partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "commercial partner": "business partner"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social login platform": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third party payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service provision": "provide service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and research"
+    ],
+    "content customization": [
+     "personalization"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "basic service functionality": [
+     "provide service"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "service improvement": [
+     "service performance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3585,
+  "completion_tokens": 2011,
+  "thinking_tokens": 0,
+  "seconds": 18.64391541481018,
+  "failures": 0
+ },
+ "seconds": 18.8
+}

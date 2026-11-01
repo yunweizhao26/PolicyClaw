@@ -1,0 +1,176 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "demographics": "demographic data"
+   },
+   "parents": {
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "physical address": [
+     "contact info"
+    ],
+    "postal code": [
+     "demographic data",
+     "location"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "pan card": [
+     "national identity number",
+     "tax identification number"
+    ],
+    "tax identification number": [
+     "national identity number"
+    ],
+    "purchases": [
+     "transaction history"
+    ],
+    "order history": [
+     "purchases",
+     "transaction history"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "lifestyle": [
+     "demographic data"
+    ],
+    "financial account identifier": [
+     "financial and payment data"
+    ],
+    "sms": [
+     "personal correspondence"
+    ],
+    "chat logs": [
+     "personal correspondence"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "commercial partner": "business partners"
+   },
+   "parents": {
+    "affiliates and business partners": [
+     "third party"
+    ],
+    "business partners": [
+     "affiliates and business partners",
+     "third party"
+    ],
+    "affiliate": [
+     "affiliates and business partners"
+    ],
+    "service partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party rights owners": [
+     "third party"
+    ],
+    "Google": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "first party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertising companies": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "payment processing": "billing",
+    "service provision": "service delivery",
+    "services": "service delivery"
+   },
+   "parents": {
+    "targeted advertising": [
+     "marketing"
+    ],
+    "enforcing terms": [
+     "legal compliance"
+    ],
+    "order fulfillment": [
+     "service delivery"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "analytics": [
+     "research and development"
+    ],
+    "user authentication": [
+     "security",
+     "user identification"
+    ],
+    "troubleshooting": [
+     "service administration"
+    ],
+    "account administration": [
+     "service administration"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "personalization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2605,
+  "completion_tokens": 635,
+  "thinking_tokens": 0,
+  "seconds": 10.750049114227295,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

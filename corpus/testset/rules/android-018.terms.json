@@ -1,0 +1,149 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "personal information": "personal data",
+    "username": "account name"
+   },
+   "parents": {
+    "account name": [
+     "contact and identifying information"
+    ],
+    "contact list": [
+     "contacts"
+    ],
+    "email address": [
+     "contact and identifying information"
+    ],
+    "latitude and longitude coordinates": [
+     "location"
+    ],
+    "name": [
+     "contact and identifying information"
+    ],
+    "notification preference": [
+     "user preference"
+    ],
+    "password": [
+     "contact and identifying information"
+    ],
+    "preferred language": [
+     "user preference"
+    ],
+    "spatial positioning of head or face": [
+     "biometric data"
+    ],
+    "contact and identifying information": [
+     "personal data"
+    ],
+    "browsing behavior": [
+     "device usage and activity data"
+    ],
+    "browsing history": [
+     "device usage and activity data"
+    ],
+    "device ID": [
+     "device information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "analytics provider": [
+     "service providers",
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "third-party service providers": [
+     "service providers",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social media platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligations",
+    "user account management": "account administration"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "user verification"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service diagnostics": [
+     "service improvement",
+     "service operation and management"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "research and development": [
+     "service improvement"
+    ],
+    "service use": [
+     "service provision"
+    ],
+    "account integration": [
+     "service provision"
+    ],
+    "social networking": [
+     "service provision"
+    ],
+    "account administration": [
+     "service provision"
+    ],
+    "compliance with legal obligations": [
+     "legal compliance and protection"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2248,
+  "completion_tokens": 649,
+  "thinking_tokens": 0,
+  "seconds": 9.893993377685547,
+  "failures": 0
+ },
+ "seconds": 10.0
+}

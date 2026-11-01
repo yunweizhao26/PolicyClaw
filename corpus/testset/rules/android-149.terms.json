@@ -1,0 +1,91 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personally identifiable information": "Non-Personally Identifiable Information",
+    "personally identifiable information": "Personally Identifiable Information",
+    "user information": "information about you"
+   },
+   "parents": {
+    "account information": [
+     "information about you"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "device model": [
+     "information sent by device"
+    ],
+    "device serial number": [
+     "information sent by device"
+    ],
+    "ip address": [
+     "information sent by device"
+    ],
+    "browser": [
+     "information sent by device"
+    ],
+    "operating system": [
+     "information sent by device"
+    ],
+    "connection details": [
+     "information sent by device"
+    ],
+    "date and time": [
+     "connection details"
+    ],
+    "third-party app usage data": [
+     "information about you"
+    ],
+    "user questions or feedback": [
+     "information about you"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service_improvement": "service improvement"
+   },
+   "parents": {
+    "debugging": [
+     "service improvement"
+    ],
+    "performance optimization": [
+     "service improvement"
+    ],
+    "research_and_development": [
+     "service improvement"
+    ],
+    "service functionality": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1659,
+  "completion_tokens": 391,
+  "thinking_tokens": 0,
+  "seconds": 8.577847957611084,
+  "failures": 0
+ },
+ "seconds": 8.7
+}

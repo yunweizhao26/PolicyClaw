@@ -1,0 +1,104 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal data": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "unspecified data": "data"
+   },
+   "parents": {
+    "cookies": [
+     "tracking technologies"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "postal address": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public authorities": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Firebase": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "monitoring": [
+     "analytics",
+     "other"
+    ],
+    "customer support": [
+     "other",
+     "service provision"
+    ],
+    "personalization": [
+     "other",
+     "service provision"
+    ],
+    "analytics": [
+     "other",
+     "service provision"
+    ],
+    "advertising": [
+     "other"
+    ],
+    "communication": [
+     "other"
+    ],
+    "dispute resolution": [
+     "other"
+    ],
+    "legal compliance": [
+     "other"
+    ],
+    "security": [
+     "other"
+    ],
+    "service provision": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1135,
+  "completion_tokens": 517,
+  "thinking_tokens": 0,
+  "seconds": 8.929786443710327,
+  "failures": 0
+ },
+ "seconds": 9.0
+}

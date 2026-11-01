@@ -1,0 +1,339 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "log file": "log data",
+    "personal_data": "personal data",
+    "technologies, particularly cookies": "cookies",
+    "transient cookies": "session cookie",
+    "user profiles": "user profile",
+    "user_provided_info": "user-provided info"
+   },
+   "parents": {
+    "Matomo cookie consent": [
+     "cookie preferences"
+    ],
+    "PHPSESSID": [
+     "session ID",
+     "session cookie data"
+    ],
+    "_zammad_session_*": [
+     "session cookie data"
+    ],
+    "application materials": [
+     "submitted data"
+    ],
+    "browser type": [
+     "user agent"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "comments": [
+     "activities",
+     "user posts"
+    ],
+    "confirmation of processing": [
+     "information"
+    ],
+    "consent to loading external media": [
+     "cookie preferences"
+    ],
+    "consent to save form data": [
+     "cookie preferences"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact request": [
+     "submitted data"
+    ],
+    "cookie preferences": [
+     "personal preferences"
+    ],
+    "cookies": [
+     "terminal equipment data"
+    ],
+    "date and time stamp": [
+     "log data"
+    ],
+    "dietary preferences": [
+     "personal preferences"
+    ],
+    "download history": [
+     "usage data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "first name": [
+     "name"
+    ],
+    "installation time and the installed version of the instance": [
+     "information including the installed Nextcloud and PHP version, the installation time and the selected update channel"
+    ],
+    "language settings": [
+     "personal preferences"
+    ],
+    "last name": [
+     "name"
+    ],
+    "likes": [
+     "activities"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "notification data": [
+     "personal data"
+    ],
+    "operating system": [
+     "user agent"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "personal preferences": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "posts": [
+     "activities",
+     "user posts"
+    ],
+    "problem described in the respective ticket": [
+     "submitted data"
+    ],
+    "profile data": [
+     "account data"
+    ],
+    "profile information": [
+     "account data"
+    ],
+    "public profile information": [
+     "profile information"
+    ],
+    "public statements": [
+     "content"
+    ],
+    "ratings": [
+     "activities"
+    ],
+    "server URL": [
+     "URL"
+    ],
+    "session cookie": [
+     "cookies"
+    ],
+    "session cookie data": [
+     "cookie information"
+    ],
+    "statistical data about the use of the instance": [
+     "usage data"
+    ],
+    "submitted data": [
+     "user-provided info"
+    ],
+    "user posts": [
+     "content"
+    ],
+    "username": [
+     "account data"
+    ],
+    "visit duration": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other data controllers": "another controller",
+    "processors": "data processor",
+    "public": "general public",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Matomo": [
+     "data processor",
+     "third parties"
+    ],
+    "Postmark - AC PM LLC": [
+     "data processor",
+     "third parties"
+    ],
+    "external employees / freelancers": [
+     "service provider"
+    ],
+    "lawyers": [
+     "service provider"
+    ],
+    "tax advisors": [
+     "service provider"
+    ],
+    "newsletter providers": [
+     "service provider"
+    ],
+    "software providers": [
+     "service provider"
+    ],
+    "external services": [
+     "service provider"
+    ],
+    "the operators of the respective social media platform": [
+     "third parties"
+    ],
+    "data processor": [
+     "personal data recipients"
+    ],
+    "service provider": [
+     "personal data recipients"
+    ],
+    "third parties": [
+     "personal data recipients"
+    ],
+    "another controller": [
+     "personal data recipients"
+    ],
+    "other users": [
+     "personal data recipients"
+    ],
+    "general public": [
+     "personal data recipients"
+    ],
+    "authorities": [
+     "personal data recipients"
+    ],
+    "user device": [
+     "user"
+    ],
+    "user browser": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "the operator of the respective social network": "social network"
+   },
+   "parents": {
+    "Facebook": [
+     "social network",
+     "third party"
+    ],
+    "Facebook Ireland": [
+     "Facebook",
+     "social network"
+    ],
+    "Vimeo": [
+     "external media services"
+    ],
+    "YouTube": [
+     "external media services"
+    ],
+    "external media services": [
+     "external services",
+     "third party"
+    ],
+    "external services": [
+     "third party"
+    ],
+    "processors": [
+     "service providers",
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "software providers": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "Zammad GmbH": [
+     "processors",
+     "service providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "customer_support": "customer support",
+    "fulfill contractual and business obligations": "contract fulfillment",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "to place advertising (possibly also to tailor advertising to your interests, measure the effectiveness of advertisements or show interest-based advertisements)": [
+     "advertising",
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "notifications": [
+     "communication"
+    ],
+    "improving user experience": [
+     "service improvement"
+    ],
+    "to make the website faster and more user-friendly": [
+     "service improvement",
+     "service operation and improvement"
+    ],
+    "website_optimisation": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "for displaying the website": [
+     "service provision"
+    ],
+    "to recognise you on subsequent visits": [
+     "identification"
+    ],
+    "technical functionality": [
+     "service_functionality"
+    ],
+    "maintain your business relationship with us": [
+     "contract fulfillment"
+    ],
+    "Session cookie (login/session assignment)": [
+     "identification"
+    ],
+    "account-creation": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4184,
+  "completion_tokens": 1648,
+  "thinking_tokens": 0,
+  "seconds": 15.314831972122192,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

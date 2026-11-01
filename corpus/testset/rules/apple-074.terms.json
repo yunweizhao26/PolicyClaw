@@ -1,0 +1,244 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account username": [
+     "account information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "user account status": [
+     "account information"
+    ],
+    "billing address": [
+     "address"
+    ],
+    "postal address": [
+     "address"
+    ],
+    "postal code": [
+     "address"
+    ],
+    "coarse location": [
+     "personal data"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "email address": [
+     "communication data"
+    ],
+    "phone number": [
+     "communication data"
+    ],
+    "feedback": [
+     "communication data"
+    ],
+    "survey response": [
+     "communication data"
+    ],
+    "administrative messages": [
+     "communication data"
+    ],
+    "marketing messages": [
+     "communication data"
+    ],
+    "in-app messages": [
+     "communication data"
+    ],
+    "push notifications": [
+     "communication data"
+    ],
+    "contact preferences": [
+     "preferences"
+    ],
+    "display settings": [
+     "preferences"
+    ],
+    "interests": [
+     "preferences"
+    ],
+    "likes": [
+     "preferences"
+    ],
+    "device identifier": [
+     "device hardware information"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "operating system": [
+     "device hardware information"
+    ],
+    "browser details": [
+     "device hardware information"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "social security number": [
+     "sensitive information"
+    ],
+    "tax identification number": [
+     "sensitive information"
+    ],
+    "financial details": [
+     "sensitive information"
+    ],
+    "purchase price": [
+     "pricing information"
+    ],
+    "purchase history": [
+     "transaction data"
+    ],
+    "purchase status": [
+     "transaction data"
+    ],
+    "rewards information": [
+     "transaction data"
+    ],
+    "promotional information": [
+     "advertising data"
+    ],
+    "ad impressions": [
+     "advertising data"
+    ],
+    "ad interactions": [
+     "advertising data"
+    ],
+    "browsing history": [
+     "website activity"
+    ],
+    "user interactions": [
+     "website activity"
+    ],
+    "website activity": [
+     "service use information"
+    ],
+    "service use": [
+     "service use information"
+    ],
+    "service use information": [
+     "personal data"
+    ],
+    "user profile information": [
+     "account information"
+    ],
+    "profile inferences": [
+     "personal data"
+    ],
+    "social media profile information": [
+     "user profile information"
+    ],
+    "cookies": [
+     "personal data"
+    ],
+    "pixel tags": [
+     "personal data"
+    ],
+    "analytics data": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "aggregated and de-identified information": [
+     "information"
+    ],
+    "relevant information we may require": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party providers": "service provider"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social media networks": "partner"
+   },
+   "parents": {
+    "individuals under age 18": [
+     "user"
+    ],
+    "merchant partners": [
+     "partner"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party",
+     "third-party providers"
+    ],
+    "advertising providers": [
+     "third party",
+     "third-party providers"
+    ],
+    "third-party providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "third party marketing": [
+     "marketing"
+    ],
+    "to identify nearby offers, rewards, promotions, or events": [
+     "marketing"
+    ],
+    "so that we may share this coupon and discount information with other users": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "personalization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2629,
+  "completion_tokens": 884,
+  "thinking_tokens": 0,
+  "seconds": 11.86600112915039,
+  "failures": 0
+ },
+ "seconds": 12.0
+}

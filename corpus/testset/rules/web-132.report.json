@@ -1,0 +1,633 @@
+{
+ "cleaned_sha256": "web-132",
+ "text_sha256": "67884f5b339fb719f34f9320850acbe3d0209958915086cb5ea79a0ac692c2dd",
+ "site_id": "web-132",
+ "sections": 18,
+ "rules": 304,
+ "report": {
+  "sections": 18,
+  "raw_rules": 259,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "https://tools.google.com/dlpage/gaoptout?hl=en"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "for this purpose",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "Google",
+      "text": "Google Analytics"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-132#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "personal information of other individuals whose personal information we collect"
+     },
+     "action": {
+      "text": "create de-identified, aggregated, or anonymized data from",
+      "verb": "create"
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "personal information of other individuals whose personal information we collect"
+    ],
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for those further purposes",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "In some cases",
+      "if they are not compatible with the initial purpose for which information was collected",
+      "with your consent to use your personal information for those further purposes"
+     ],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent to use your personal information for those further purposes"
+    ],
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "this Privacy Policy",
+       "target": "policy_section"
+      },
+      {
+       "text": "other applicable notices",
+       "name": "other applicable notices",
+       "target": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "affiliate",
+      "text": "Our corporate parent, subsidiaries, and affiliates"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "this Privacy Policy",
+       "target": "policy_section"
+      },
+      {
+       "text": "other applicable notices",
+       "name": "other applicable notices",
+       "target": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "Third parties that provide services on our behalf or help us operate the Service or our business (such as hosting, information technology, integration services, customer support, online chat functionality providers, email delivery, marketing, security and fraud prevention consultants and providers, consumer research, and website analytics)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "for the\ninterest-based advertising purposes\ndescribed above",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "this Privacy Policy",
+       "target": "policy_section"
+      },
+      {
+       "text": "other applicable notices",
+       "name": "other applicable notices",
+       "target": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "advertising partner",
+      "text": "Third-party advertising companies"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "conditions": [
+      "where you have instructed us or provided your consent to do so"
+     ],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-132#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "render",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Professional advisors, such as lawyers, auditors, bankers, and insurers",
+      "name": "professional advisor"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "render",
+      "verb": "render"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "where necessary in the course of the professional services that they render to us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-132#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "as we believe in good faith to be necessary or appropriate",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Law enforcement, government authorities, and private parties",
+      "name": "law enforcement"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for the Compliance and protection purposes described above",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "as we believe in good faith to be necessary or appropriate"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "described above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-132#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may run",
+     "actor": {
+      "text": "Pendo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "run",
+      "verb": "run"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "on some of our digital and online properties such as our website(s)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-132#s6"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Sensitive Personal Information",
+      "name": "sensitive personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "purposes that California residents have a right to limit under the CCPA",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "generally"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "web-132#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "sensitive personal information",
+      "name": "sensitive personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "inferring characteristics about you",
+       "name": "profiling"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not process"
+    ],
+    "section": "web-132#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in automated decision-making and/or profiling which produces legal or similarly significant effects",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "As part of the Service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art. 22 of the EU GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "UK GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-132#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may ask",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "give you access to",
+      "verb": "give"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are located in Europe",
+      "you may ask us to take the following actions in relation to your personal information that we hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-132#s15"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 83,
+  "completeness": {
+   "gaps": 513,
+   "gap_words": 4471
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 83,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 65852,
+  "completion_tokens": 50900,
+  "thinking_tokens": 0,
+  "seconds": 437.4538297653198,
+  "failures": 0
+ },
+ "seconds": 438.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

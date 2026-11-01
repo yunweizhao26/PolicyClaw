@@ -1,0 +1,256 @@
+{
+ "cleaned_sha256": "web-142",
+ "text_sha256": "b48cceb66ced62c437bc083e115aa625d5655f63a6efc0c9aa77e073cfaa7696",
+ "site_id": "web-142",
+ "sections": 19,
+ "rules": 361,
+ "report": {
+  "sections": 19,
+  "raw_rules": 295,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "billing information",
+      "text": "any other billing information about you"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "will not retain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not retain"
+    ],
+    "section": "web-142#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "location",
+      "text": "information about your location"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may process"
+    ],
+    "section": "web-142#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may carry out",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Microsoft",
+      "name": "Microsoft"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "carry out interest-based advertising through third party services",
+      "verb": "carry out"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out page",
+      "Profile Settings"
+     ],
+     "references": [
+      {
+       "text": "as described under Advertising, above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-142#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may carry out",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Google",
+      "name": "Google"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "carry out interest-based advertising through third party services",
+      "verb": "carry out"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "visiting Google's help center",
+      "Profile Settings"
+     ],
+     "references": [
+      {
+       "text": "as described under Advertising, above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-142#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may communicate",
+     "actor": {
+      "text": "Stack Overflow",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about commercial and other Product and Services offerings and to let you know how you can continue to share, learn, and build your knowledge within the Stack Overflow community",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "From time to time",
+      "In some cases, e.g., third party offers, we will only send these if you have given us permission."
+     ],
+     "exceptions": [
+      "changing your permissions in your Profile Settings",
+      "using the unsubscribe link in these communications or by changing your Email Settings"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-142#s17"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 103,
+  "completeness": {
+   "gaps": 378,
+   "gap_words": 4187
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 103,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 65460,
+  "completion_tokens": 49349,
+  "thinking_tokens": 0,
+  "seconds": 471.6455147266388,
+  "failures": 0
+ },
+ "seconds": 473.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

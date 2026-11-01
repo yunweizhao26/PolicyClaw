@@ -1,0 +1,371 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account creation data": "Account Creation Data",
+    "advertising identifier": "Mobile advertising IDs",
+    "communications": "Communications with BeReal",
+    "content data": "Content Data",
+    "device identifiers": "device identifier",
+    "device_identifier": "device identifier",
+    "government_id": "government-issued identification",
+    "interaction data": "Interaction Data",
+    "mobile_advertising_id": "Mobile advertising IDs",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "phone numbers": "phone number",
+    "phone_number": "phone number",
+    "sensitive_personal_information": "sensitive personal information",
+    "technical data": "Connection and Technical Data",
+    "usage data": "Usage Data",
+    "your information": "user data"
+   },
+   "parents": {
+    "Account Creation Data": [
+     "user profile"
+    ],
+    "Chat Data": [
+     "Content Data"
+    ],
+    "Inferred Information": [
+     "personal data"
+    ],
+    "Transaction Data": [
+     "user data"
+    ],
+    "account creation timestamp": [
+     "Account Creation Data"
+    ],
+    "account details": [
+     "user profile"
+    ],
+    "Mobile advertising IDs": [
+     "device identifier"
+    ],
+    "authorization proof": [
+     "verification information"
+    ],
+    "billing address": [
+     "contact details"
+    ],
+    "biography": [
+     "profile data"
+    ],
+    "browser type": [
+     "Connection and Technical Data"
+    ],
+    "browsing history": [
+     "Usage Data"
+    ],
+    "browsing_history": [
+     "Usage Data"
+    ],
+    "chat_message": [
+     "Chat Data"
+    ],
+    "city": [
+     "coarse_location"
+    ],
+    "coarse_location": [
+     "location"
+    ],
+    "comments": [
+     "Content Data"
+    ],
+    "communication contents": [
+     "Communications with BeReal"
+    ],
+    "configuration data": [
+     "Connection and Technical Data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "content": [
+     "Content Data"
+    ],
+    "country": [
+     "coarse_location"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "date of birth": [
+     "Account Creation Data"
+    ],
+    "device camera data": [
+     "Connection and Technical Data"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device type": [
+     "Connection and Technical Data"
+    ],
+    "email address": [
+     "Account Creation Data",
+     "contact details"
+    ],
+    "financial records": [
+     "Transaction Data"
+    ],
+    "gender": [
+     "inferred personal characteristics"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "government-issued identification": [
+     "verification information"
+    ],
+    "gps coordinates": [
+     "gps_location"
+    ],
+    "gps_location": [
+     "precise location"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hashed_phone_number": [
+     "phone number"
+    ],
+    "imprecise location": [
+     "coarse_location"
+    ],
+    "inferred personal characteristics": [
+     "Inferred Information"
+    ],
+    "inferred_data": [
+     "Inferred Information"
+    ],
+    "instant messages": [
+     "Chat Data"
+    ],
+    "interest_category": [
+     "inferred personal characteristics"
+    ],
+    "ip address": [
+     "Connection and Technical Data",
+     "identifier"
+    ],
+    "language preference": [
+     "profile data"
+    ],
+    "log-in timestamp": [
+     "Connection and Technical Data"
+    ],
+    "matched_audience_list": [
+     "user data"
+    ],
+    "name": [
+     "Account Creation Data"
+    ],
+    "network details": [
+     "Connection and Technical Data"
+    ],
+    "operating system": [
+     "Connection and Technical Data"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "payment details": [
+     "Transaction Data"
+    ],
+    "personal data": [
+     "data",
+     "information"
+    ],
+    "phone number": [
+     "Account Creation Data",
+     "contact details"
+    ],
+    "photo": [
+     "Content Data"
+    ],
+    "photos": [
+     "photo"
+    ],
+    "physical region": [
+     "coarse_location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile data": [
+     "user profile"
+    ],
+    "profile information": [
+     "user profile"
+    ],
+    "profile photo": [
+     "Account Creation Data"
+    ],
+    "purchase date": [
+     "Transaction Data"
+    ],
+    "purchase history": [
+     "Transaction Data"
+    ],
+    "purchased item": [
+     "Transaction Data"
+    ],
+    "referring URL": [
+     "Connection and Technical Data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "time zone": [
+     "profile data"
+    ],
+    "transaction identifier": [
+     "Transaction Data"
+    ],
+    "transaction receipt": [
+     "Transaction Data"
+    ],
+    "user action": [
+     "Usage Data"
+    ],
+    "user content": [
+     "Content Data"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "user response": [
+     "Content Data"
+    ],
+    "user-generated content": [
+     "Content Data"
+    ],
+    "username": [
+     "Account Creation Data"
+    ],
+    "ux interaction recordings": [
+     "Interaction Data"
+    ],
+    "video": [
+     "Content Data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "legal_advisor": "legal and professional advisers",
+    "public_authority": "legal and regulatory authority",
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "Ad Partners": [
+     "partner"
+    ],
+    "advertiser": [
+     "partner"
+    ],
+    "advertising_partner": [
+     "partner"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "legal and professional advisers": [
+     "third party",
+     "unspecified third party"
+    ],
+    "national authorities": [
+     "legal and regulatory authority"
+    ],
+    "partner": [
+     "partners and service providers"
+    ],
+    "service provider": [
+     "partners and service providers"
+    ],
+    "third_party": [
+     "partner"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "fraud_prevention": "fraud prevention and security",
+    "identity_verification": "identification",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "legal_compliance": "compliance",
+    "order-fulfillment": "order fulfilment",
+    "security": "fraud prevention and security",
+    "service operation": "providing you our App",
+    "service provision": "providing you our App",
+    "service-provision": "providing you our App",
+    "service_provision": "providing you our App",
+    "user authentication": "identification"
+   },
+   "parents": {
+    "account-management": [
+     "providing you our App"
+    ],
+    "customer support": [
+     "providing you our App"
+    ],
+    "internal ad targeting": [
+     "advertising",
+     "profiling"
+    ],
+    "order fulfilment": [
+     "providing you our App"
+    ],
+    "social-features": [
+     "providing you our App"
+    ],
+    "user request": [
+     "compliance"
+    ],
+    "identification": [
+     "fraud prevention and security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3450,
+  "completion_tokens": 1798,
+  "thinking_tokens": 0,
+  "seconds": 15.346471548080444,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

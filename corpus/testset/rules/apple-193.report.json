@@ -1,0 +1,204 @@
+{
+ "cleaned_sha256": "apple-193",
+ "text_sha256": "4cf2d52720c313764985dc1aa04cf4eaf85233207d69ed91148b4ede89b53034",
+ "site_id": "apple-193",
+ "sections": 14,
+ "rules": 319,
+ "report": {
+  "sections": 14,
+  "raw_rules": 239,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "the provider"
+     },
+     "conditions": [
+      "If you place an order with a third-party platform or provider"
+     ],
+     "data": {
+      "name": "delivery information",
+      "text": "information relating to your delivery"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "your"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information relating to your delivery"
+    ],
+    "section": "apple-193#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide access to",
+      "verb": "provide access to"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "provide access to",
+     "purpose": [
+      {
+       "text": "to perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services",
+       "name": "service performance"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties that perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services"
+    ],
+    "section": "apple-193#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "purpose": [
+      {
+       "text": "to perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services",
+       "name": "service performance"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties that perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to perform services on our behalf, such as billing, payment processing, advertising, web and other analytics, data storage and processing, customer support, rewards and similar programs, survey or research providers, delivery services, security, fraud prevention, and other services"
+    ],
+    "section": "apple-193#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to assist us in analyzing use of our services and our user/customer base",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "analytics partner",
+      "text": "analytics partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-193#s12"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 100,
+  "completeness": {
+   "gaps": 374,
+   "gap_words": 3757
+  },
+  "unsatisfiable_guards": 10,
+  "qualifiers_without_effect": 24,
+  "translated_quotes": 100,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 56962,
+  "completion_tokens": 47295,
+  "thinking_tokens": 1200,
+  "seconds": 418.95872354507446,
+  "failures": 0
+ },
+ "seconds": 420.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

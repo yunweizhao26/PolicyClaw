@@ -1,0 +1,396 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "personal information": "personal data",
+    "telephone number": "phone number",
+    "union status": "trade union membership",
+    "user interests": "interests",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "academic transcripts": [
+     "education information",
+     "educational history"
+    ],
+    "account name": [
+     "basic identifying information",
+     "user identifier"
+    ],
+    "ad views": [
+     "interaction data",
+     "network activity"
+    ],
+    "background check results": [
+     "job applicant information"
+    ],
+    "basic identifying information": [
+     "personal data"
+    ],
+    "biometric data": [
+     "personal data",
+     "sensitive personal information"
+    ],
+    "browsing behavior": [
+     "network activity"
+    ],
+    "browsing history": [
+     "browsing behavior",
+     "network activity"
+    ],
+    "call audio": [
+     "communication data"
+    ],
+    "cctv video": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "communication data": [
+     "personal data"
+    ],
+    "compensation information": [
+     "employment information",
+     "job applicant information"
+    ],
+    "contact details": [
+     "basic identifying information",
+     "personal data",
+     "personal details"
+    ],
+    "credentials": [
+     "account information"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment data"
+    ],
+    "credit history": [
+     "financial information"
+    ],
+    "date of birth": [
+     "demographic information",
+     "personal details"
+    ],
+    "demographic information": [
+     "personal data"
+    ],
+    "drug test results": [
+     "job applicant information"
+    ],
+    "education information": [
+     "personal data"
+    ],
+    "educational history": [
+     "education information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "employment information": [
+     "personal data"
+    ],
+    "ethnic origin": [
+     "demographic information",
+     "race"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "financial transaction history": [
+     "commercial information"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "images": [
+     "user content"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "interaction data": [
+     "network activity"
+    ],
+    "job applicant information": [
+     "personal data"
+    ],
+    "job qualifications": [
+     "employment information"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "message": [
+     "communication data"
+    ],
+    "name": [
+     "basic identifying information",
+     "contact details"
+    ],
+    "network activity": [
+     "personal data"
+    ],
+    "order status": [
+     "message"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "permits": [
+     "employment information",
+     "job qualifications"
+    ],
+    "personal details": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photos": [
+     "images",
+     "user content"
+    ],
+    "physical characteristics": [
+     "demographic information"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise location": [
+     "location",
+     "sensitive personal information"
+    ],
+    "product likes": [
+     "interaction data"
+    ],
+    "professional certifications": [
+     "employment information",
+     "job qualifications"
+    ],
+    "professional experience": [
+     "employment information"
+    ],
+    "professional licenses": [
+     "employment information",
+     "job qualifications"
+    ],
+    "profiling data": [
+     "inferences"
+    ],
+    "purchase history": [
+     "commercial information",
+     "financial transaction history"
+    ],
+    "race": [
+     "demographic information",
+     "sensitive personal information"
+    ],
+    "references": [
+     "job applicant information"
+    ],
+    "religion": [
+     "demographic information",
+     "sensitive personal information"
+    ],
+    "rewards activity": [
+     "commercial information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "signature": [
+     "basic identifying information"
+    ],
+    "skills": [
+     "employment information",
+     "job qualifications"
+    ],
+    "social media handle": [
+     "contact details",
+     "user identifier"
+    ],
+    "social media info": [
+     "personal data"
+    ],
+    "trade union membership": [
+     "employment information",
+     "sensitive personal information"
+    ],
+    "user alias": [
+     "basic identifying information",
+     "user identifier"
+    ],
+    "user content": [
+     "personal data",
+     "user data"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "user identifier": [
+     "basic identifying information"
+    ],
+    "interests": [
+     "inferences"
+    ],
+    "preferences": [
+     "inferences"
+    ],
+    "videos": [
+     "user content"
+    ],
+    "voice recording": [
+     "biometric data",
+     "call audio"
+    ],
+    "work authorization status": [
+     "employment information",
+     "job applicant information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "franchisee": [
+     "third party"
+    ],
+    "marketing partner": [
+     "service provider"
+    ],
+    "prospective purchasers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "children under the age of 13": [
+     "user"
+    ],
+    "other sources": [
+     "third party"
+    ],
+    "public sources": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "website": [
+     "Services"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Meta": "Facebook",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "authorized employees": [
+     "first party"
+    ],
+    "user device": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "fraud-detection": "fraud detection",
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "investigate security incidents": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "legal defense": [
+     "protect rights"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "delivery": [
+     "fulfill orders"
+    ],
+    "fulfill orders": [
+     "service provision"
+    ],
+    "surveying": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3332,
+  "completion_tokens": 1656,
+  "thinking_tokens": 0,
+  "seconds": 30.656179666519165,
+  "failures": 0
+ },
+ "seconds": 30.7
+}

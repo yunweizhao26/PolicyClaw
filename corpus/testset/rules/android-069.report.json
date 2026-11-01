@@ -1,0 +1,456 @@
+{
+ "cleaned_sha256": "android-069",
+ "text_sha256": "fb4c99cfa348e798288c9f9c5bcf45cba0e668e370d924a0390af602a9613472",
+ "site_id": "android-069",
+ "sections": 38,
+ "rules": 564,
+ "report": {
+  "sections": 38,
+  "raw_rules": 454,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "carry out",
+      "verb": "carry out"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "will not carry out",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "In the event of sale (of some or all of our assets), transfer, merger, reorganization, dissolution, or similar event involving our business (including in contemplation of such transactions)",
+      "If such transfer is subject to any mandatory restrictions under applicable laws, we will comply with those restrictions"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be"
+    ],
+    "section": "android-069#s16"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "if we are under a duty to disclose your personal informationin order to comply with (and/or where we believe we are under a duty to comply with) any legal obligation; or if we believe in good faith that disclosure is reasonably necessary to: (i) enforce the relevant terms of service and any other agreement; (ii) respond to claims that any content violates the rights of third parties; or (iii) protect the rights, property, or personal safety of SEGA, users of our Products, or others"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "duty to",
+     "purpose": [
+      {
+       "text": "in order to comply with (and/or where we believe we are under a duty to comply with) any legal obligation",
+       "name": "compliance"
+      },
+      {
+       "text": "to: (i) enforce the relevant terms of service and any other agreement",
+       "name": "legal"
+      },
+      {
+       "text": "(ii) respond to claims that any content violates the rights of third parties",
+       "name": "legal"
+      },
+      {
+       "text": "(iii) protect the rights, property, or personal safety of SEGA, users of our Products, or others",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in order to comply with (and/or where we believe we are under a duty to comply with) any legal obligation"
+    ],
+    "section": "android-069#s16"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when you unsubscribe from our marketing information",
+      "during the period of your objection, if relevant"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [
+      {
+       "text": "for the legitimate purpose of ensuring that we do not contact you further in this way",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "right to opt out of “sales” of your personal information",
+      "click on the “Your Privacy Choices” link in the footer of the website or settings menu of the app",
+      "legally-recognized browser-based opt out preference signal turned on via your device browser"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "sometimes",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "unaffiliated third parties we collaborate with"
+     },
+     "references": [
+      {
+       "text": "“\nHow We Disclose Information\n” section above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "right to opt out of “sales” of your personal information",
+      "click on the “Your Privacy Choices” link in the footer of the website or settings menu of the app",
+      "legally-recognized browser-based opt out preference signal turned on via your device browser"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "sometimes",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "unaffiliated third parties... that provide offers that we think may be of value to you"
+     },
+     "references": [
+      {
+       "text": "“\nHow We Disclose Information\n” section above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "right to opt out of “sales” of your personal information and “sharing/use of your personal information for targeted advertising.”",
+      "click on the “Your Privacy Choices” link in the footer of the website or settings menu of the app",
+      "submit a request to opt out of the use of your email address and other personal information related to that email address for targeted advertising purposes by emailing us at\ndataprivacy@segaamerica.com",
+      "legally-recognized browser-based opt out preference signal turned on via your device browser"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "provide",
+     "purpose": [
+      {
+       "text": "for targeted advertising purposes",
+       "name": "advertising"
+      },
+      {
+       "text": "so that we can provide you with more relevant and tailored ads regarding our services",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "advertising network",
+      "text": "third-party advertising providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to assist us in analyzing use of our services and our user/customer base",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s20"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not knowingly maintain",
+     "actor": {
+      "text": "SEGA",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "known underage users",
+      "name": "user"
+     },
+     "action": {
+      "text": "maintain",
+      "verb": "maintain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "without consent from a parent or legal guardian or as permitted by law as described below"
+     ],
+     "references": [
+      {
+       "text": "below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not knowingly maintain"
+    ],
+    "section": "android-069#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will endeavor to notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make a material change to this Privacy Policy"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-069#s36"
+   }
+  ],
+  "residual_quotes": 71,
+  "quotes": 194,
+  "completeness": {
+   "gaps": 511,
+   "gap_words": 5252
+  },
+  "unsatisfiable_guards": 16,
+  "qualifiers_without_effect": 97,
+  "translated_quotes": 194,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 71,
+  "cached": 0,
+  "prompt_tokens": 120872,
+  "completion_tokens": 89311,
+  "thinking_tokens": 0,
+  "seconds": 811.5894041061401,
+  "failures": 0
+ },
+ "seconds": 814.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

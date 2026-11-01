@@ -1,0 +1,552 @@
+{
+ "cleaned_sha256": "apple-016",
+ "text_sha256": "0300c5cf533e0f4baf56850a47c36bd48c85c2a1d2d93faeffb056d7bccfef68",
+ "site_id": "apple-016",
+ "sections": 14,
+ "rules": 301,
+ "report": {
+  "sections": 14,
+  "raw_rules": 240,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Zillow"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "purpose": [
+      {
+       "text": "interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "‘\nThird-Party Tracking & Interest-Based Advertising\n’ section of our Privacy Notice below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-016#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "these services",
+      "name": "identity provider"
+     },
+     "data": {
+      "text": "some of your personal information, like your name and email",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "us",
+      "name": "first party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "When you do this"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "privacy policy of the third-party platform you use",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "some of your personal information, like your name and email"
+    ],
+    "section": "apple-016#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nCreate and maintain the services, develop new products and services, and improve existing products and services",
+       "name": "product development"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nCreate and maintain the services, develop new products and services, and improve existing products and services"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nConduct research and analytics designed to understand our customer base and improve and grow our business, products, services, and customer experience",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nConduct research and analytics designed to understand our customer base and improve and grow our business, products, services, and customer experience"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nCommunicate with you to provide technical or administrative support",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nCommunicate with you to provide technical or administrative support"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nPrevent, investigate, and defend against fraud or unlawful or criminal activity, access to, or use of personal data and our data system services",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nPrevent, investigate, and defend against fraud or unlawful or criminal activity, access to, or use of personal data and our data system services"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nEnforce, investigate, and resolve disputes and security issues and to enforce our Terms of Service and any other contracts",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nEnforce, investigate, and resolve disputes and security issues and to enforce our Terms of Service and any other contracts"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nComply with legal obligations and other governmental demands",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nComply with legal obligations and other governmental demands"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nUnderstand your preferences and interests to better serve you on your home-finding journey",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nUnderstand your preferences and interests to better serve you on your home-finding journey"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nPersonalize your individual experience to better serve you on your home-finding journey",
+       "name": "personalisation"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nPersonalize your individual experience to better serve you on your home-finding journey"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "action": {
+      "verb": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nProvide you with information about other services we offer in which you may be interested",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nProvide you with information about other services we offer in which you may be interested"
+    ],
+    "section": "apple-016#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "solicit",
+      "verb": "solicit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "from children under the age of 13"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "do not intend to or knowingly solicit",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "children under the age of 13"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not intend to or knowingly solicit"
+    ],
+    "section": "apple-016#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain access to",
+      "verb": "obtain access to"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "The right to obtain access to the personal data we have collected about you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data we have collected about you"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-016#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain a copy of"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "where required by law",
+      "the right to obtain a copy of the personal data in a portable and, to the extent technically feasible, readily usable format that allows you to transmit the data to another entity without hindrance"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "required by law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-016#s12"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 85,
+  "completeness": {
+   "gaps": 353,
+   "gap_words": 4056
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 19,
+  "translated_quotes": 85,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 60981,
+  "completion_tokens": 50391,
+  "thinking_tokens": 0,
+  "seconds": 705.6682493686676,
+  "failures": 0
+ },
+ "seconds": 706.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

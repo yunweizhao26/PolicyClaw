@@ -1,0 +1,194 @@
+{
+ "cleaned_sha256": "web-177",
+ "text_sha256": "9422989476153ed55837aee03ab64f7a33e969a59370ad3194cd75a010d8f041",
+ "site_id": "web-177",
+ "sections": 24,
+ "rules": 270,
+ "report": {
+  "sections": 24,
+  "raw_rules": 222,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "NO",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Non-public education information",
+      "name": "education records"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "Education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, student financial information, or student disciplinary records."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Family Educational Rights and Privacy Act (20 U.S.C. Section 1232g, 34 C.F.R. Part 99)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-177#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Right to ... access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "The Virginia Consumer Data Protection Act (hereafter “VCDPA”) provides Virginian consumer residents who reside in Virginia with specific rights regarding their personal data",
+      "As a Virginia resident",
+      "effective as of January 1\nst\n, 2023",
+      "You may also make a verifiable request to exercise your rights by\ncontacting us via this link\nor the toll-free telephone 1-800-555-0050"
+     ],
+     "exceptions": [
+      "de-identified or aggregated personal information or data publicly available",
+      "some exceptions",
+      "where exceptions under the applicable law apply"
+     ],
+     "references": [
+      {
+       "text": "Virginia Consumer Data Protection Act (hereafter “VCDPA”)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-177#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Right to Obtain a copy",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Obtain a copy",
+      "verb": "obtain"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "The Virginia Consumer Data Protection Act (hereafter “VCDPA”) provides Virginian consumer residents who reside in Virginia with specific rights regarding their personal data",
+      "As a Virginia resident",
+      "effective as of January 1\nst\n, 2023",
+      "in a portable format",
+      "You may also make a verifiable request to exercise your rights by\ncontacting us via this link\nor the toll-free telephone 1-800-555-0050"
+     ],
+     "exceptions": [
+      "de-identified or aggregated personal information or data publicly available",
+      "some exceptions",
+      "where exceptions under the applicable law apply"
+     ],
+     "references": [
+      {
+       "text": "Virginia Consumer Data Protection Act (hereafter “VCDPA”)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-177#s23"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 95,
+  "completeness": {
+   "gaps": 334,
+   "gap_words": 4142
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 13,
+  "translated_quotes": 95,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 68496,
+  "completion_tokens": 42591,
+  "thinking_tokens": 0,
+  "seconds": 312.63727736473083,
+  "failures": 0
+ },
+ "seconds": 313.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

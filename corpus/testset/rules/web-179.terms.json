@@ -1,0 +1,300 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact_details": "contact info",
+    "device_information": "device information",
+    "email_address": "email address",
+    "log_data": "log data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "sensitive personal data": "sensitive data",
+    "usage_data": "usage data",
+    "your information": "user data",
+    "your personal information": "personal data"
+   },
+   "parents": {
+    "billing address": [
+     "contact info",
+     "payment data",
+     "payment details"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "card security code": [
+     "payment data",
+     "payment details"
+    ],
+    "payment card number": [
+     "payment data",
+     "payment details"
+    ],
+    "payment_amount": [
+     "payment data",
+     "payment details"
+    ],
+    "contact info": [
+     "contact details and payment details",
+     "contact or authentication data"
+    ],
+    "payment details": [
+     "contact details and payment details"
+    ],
+    "payment data": [
+     "contact details and payment details"
+    ],
+    "password": [
+     "contact or authentication data"
+    ],
+    "device ID": [
+     "device identifier",
+     "device information",
+     "unique identifier"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "device manufacturer": [
+     "device information"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "operating system": [
+     "device characteristics",
+     "device information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "system configuration": [
+     "technical information"
+    ],
+    "software version": [
+     "technical information"
+    ],
+    "log data": [
+     "usage data"
+    ],
+    "feature usage data": [
+     "usage data"
+    ],
+    "service usage data": [
+     "usage data"
+    ],
+    "Google Calendar data": [
+     "Google Workspace API data",
+     "Google services data",
+     "calendar details"
+    ],
+    "merchant center data": [
+     "Google services data"
+    ],
+    "product data": [
+     "Google services data",
+     "merchant center data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "all personal information": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "government entities": "authorities",
+    "social_media_platform": "social networks",
+    "third parties": "external parties",
+    "third parties with whom we may share your personal information": "external parties",
+    "third party": "external parties",
+    "third-party service provider": "service providers"
+   },
+   "parents": {
+    "Google": [
+     "advertising networks"
+    ],
+    "Google Analytics": [
+     "data analytics services"
+    ],
+    "Meta": [
+     "social networks"
+    ],
+    "advertising networks": [
+     "service providers"
+    ],
+    "affiliate marketing programs": [
+     "service providers"
+    ],
+    "cloud computing services": [
+     "service providers"
+    ],
+    "communication and collaboration tools": [
+     "service providers"
+    ],
+    "data analytics services": [
+     "service providers"
+    ],
+    "data storage service providers": [
+     "service providers"
+    ],
+    "domain_name_service_provider": [
+     "service providers"
+    ],
+    "domain_registry_operator": [
+     "service providers"
+    ],
+    "finance and accounting tools": [
+     "service providers"
+    ],
+    "integrated service providers": [
+     "service providers"
+    ],
+    "payment processors": [
+     "service providers"
+    ],
+    "performance monitoring tools": [
+     "service providers"
+    ],
+    "product engineering and design tools": [
+     "service providers"
+    ],
+    "retargeting platforms": [
+     "service providers"
+    ],
+    "sales and marketing tools": [
+     "service providers"
+    ],
+    "testing tools": [
+     "service providers"
+    ],
+    "user account registration and authentication services": [
+     "service providers"
+    ],
+    "service providers": [
+     "external parties"
+    ],
+    "business partners": [
+     "external parties"
+    ],
+    "authorities": [
+     "external parties"
+    ],
+    "another company": [
+     "external parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "Pinterest": [
+     "third party"
+    ],
+    "children under 18": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "Google": [
+     "third parties"
+    ],
+    "Pinterest": [
+     "third parties"
+    ],
+    "affiliate": [
+     "recipient"
+    ],
+    "third parties": [
+     "recipient"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "fraud-prevention": "fraud detection and prevention"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "debugging": [
+     "service_improvement"
+    ],
+    "fraud detection and prevention": [
+     "fraud_prevention_and_security",
+     "security"
+    ],
+    "integration": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment": [
+     "business operations",
+     "order fulfillment"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "service_improvement": [
+     "service provision"
+    ],
+    "service_provision": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3123,
+  "completion_tokens": 1754,
+  "thinking_tokens": 0,
+  "seconds": 35.700602769851685,
+  "failures": 0
+ },
+ "seconds": 35.8
+}

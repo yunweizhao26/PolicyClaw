@@ -1,0 +1,274 @@
+{
+ "cleaned_sha256": "apple-050",
+ "text_sha256": "de2fc697df3ee59a12d2b423caeb4992b85c75e1f42886ccd54179755f8f611a",
+ "site_id": "apple-050",
+ "sections": 2,
+ "rules": 36,
+ "report": {
+  "sections": 2,
+  "raw_rules": 31,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you:\ndeposit money"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\ndeposit money"
+    ],
+    "section": "apple-050#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you:\npay your bills"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\npay your bills"
+    ],
+    "section": "apple-050#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you:\napply for a loan or insurance"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\napply for a loan or insurance"
+    ],
+    "section": "apple-050#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you:\nuse your credit or debit card"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\nuse your credit or debit card"
+    ],
+    "section": "apple-050#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you:\nprovide account information"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\nprovide account information"
+    ],
+    "section": "apple-050#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "USAA"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "purpose": [
+      {
+       "text": "so they can market to you",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "nonaffiliates"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-050#s2"
+   }
+  ],
+  "residual_quotes": 1,
+  "quotes": 9,
+  "completeness": {
+   "gaps": 75,
+   "gap_words": 489
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 9,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 8239,
+  "completion_tokens": 5459,
+  "thinking_tokens": 0,
+  "seconds": 92.13412618637085,
+  "failures": 0
+ },
+ "seconds": 92.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

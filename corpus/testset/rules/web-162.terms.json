@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "aggregated user information": "aggregated data",
+    "biometrics": "biometric data",
+    "contact info": "contact data",
+    "financial information": "financial data",
+    "personal information": "personal data",
+    "privacy choices": "consent status",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "account data": [
+     "personal data"
+    ],
+    "age verification session result": [
+     "session result"
+    ],
+    "biometric templates": [
+     "biometric data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browsing activity": [
+     "technical data",
+     "usage data"
+    ],
+    "complaints": [
+     "communication data"
+    ],
+    "counter-notification": [
+     "legal and regulatory records"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "financial transaction details": [
+     "financial data"
+    ],
+    "government-issued IDs": [
+     "identity"
+    ],
+    "name": [
+     "identity"
+    ],
+    "official inquiries": [
+     "legal and regulatory records"
+    ],
+    "other contact info": [
+     "contact data"
+    ],
+    "password": [
+     "account data"
+    ],
+    "payment details": [
+     "financial data"
+    ],
+    "payment method": [
+     "payment details"
+    ],
+    "photograph": [
+     "user content"
+    ],
+    "questions": [
+     "communication data"
+    ],
+    "registration data": [
+     "account data"
+    ],
+    "requests": [
+     "communication data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "user preferences": [
+     "user data"
+    ],
+    "user profile": [
+     "account data"
+    ],
+    "username": [
+     "account data",
+     "identity"
+    ],
+    "video": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partners": "business partners",
+    "third party": "the third party"
+   },
+   "parents": {
+    "authorities": [
+     "the third party"
+    ],
+    "business partners": [
+     "service provider",
+     "the third party"
+    ],
+    "content providers": [
+     "other users"
+    ],
+    "content uploader": [
+     "other users",
+     "user"
+    ],
+    "copyright owner": [
+     "the third party"
+    ],
+    "corporate affiliate": [
+     "the third party"
+    ],
+    "other users": [
+     "everyone"
+    ],
+    "providers based in the US": [
+     "service provider",
+     "the third party"
+    ],
+    "service provider": [
+     "the third party"
+    ],
+    "user": [
+     "everyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Yoti": [
+     "third-party service provider"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance with legal obligations": "compliance",
+    "legal compliance": "compliance",
+    "service provision": "provide our services",
+    "service-provision": "provide our services",
+    "verification": "user verification"
+   },
+   "parents": {
+    "fraud detection": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service enhancement": [
+     "service operation and improvement"
+    ],
+    "services": [
+     "service operation and improvement"
+    ],
+    "verify your authorization to make the request": [
+     "user verification"
+    ],
+    "legal and dispute resolution": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2600,
+  "completion_tokens": 729,
+  "thinking_tokens": 0,
+  "seconds": 12.21571946144104,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

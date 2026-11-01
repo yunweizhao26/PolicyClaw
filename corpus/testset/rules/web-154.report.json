@@ -1,0 +1,314 @@
+{
+ "cleaned_sha256": "web-154",
+ "text_sha256": "3721224e03d56280b251e4ab5dcf6588da6c96cea4e9955e2b38416a21cff660",
+ "site_id": "web-154",
+ "sections": 23,
+ "rules": 316,
+ "report": {
+  "sections": 23,
+  "raw_rules": 246,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Showing",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Showing",
+      "verb": "show"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Showing you advertisements, including interest-based, online behavioral or targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Corresponding",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Corresponding",
+      "verb": "correspond"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Corresponding with you",
+       "name": "communications"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "contacting",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contacting",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "contacting you when necessary or requested",
+       "name": "communications"
+      }
+     ],
+     "conditions": [
+      "when necessary or requested"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sending",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sending",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "sending you information about Change.org or the Services",
+       "name": "communications"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Sending",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Sending",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Sending emails and other communications according to your preferences",
+       "name": "communications"
+      }
+     ],
+     "conditions": [
+      "according to your preferences"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "opt-out",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sales",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "through Cookies"
+     ],
+     "exceptions": [
+      "accessing your cookie consent mechanism by accessing your “Cookie Settings” at the bottom left of our website"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "opt-out",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shares",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "through Cookies"
+     ],
+     "exceptions": [
+      "accessing your cookie consent mechanism by accessing your “Cookie Settings” at the bottom left of our website"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-154#s16"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 114,
+  "completeness": {
+   "gaps": 402,
+   "gap_words": 3903
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 114,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 46,
+  "cached": 0,
+  "prompt_tokens": 81668,
+  "completion_tokens": 57033,
+  "thinking_tokens": 0,
+  "seconds": 393.81902623176575,
+  "failures": 0
+ },
+ "seconds": 395.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

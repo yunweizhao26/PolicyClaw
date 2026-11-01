@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account login credentials": "account credentials",
+    "biometric information": "biometric data",
+    "call and meeting recordings": "audio or video recording",
+    "geolocation": "geographic location",
+    "ip address": "IP address",
+    "log-in credentials": "account credentials",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "professional data": "professional and employment related data",
+    "professional details": "professional and employment related data",
+    "sensitive personal data": "sensitive data"
+   },
+   "parents": {
+    "\"non sensitive\" personal data": [
+     "personal data"
+    ],
+    "account credentials": [
+     "sensitive data"
+    ],
+    "audio or video recording": [
+     "audio and visual information"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "CCTV footage": [
+     "audio and visual information"
+    ],
+    "device identifiers": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "fingerprints": [
+     "biometric data"
+    ],
+    "IP address": [
+     "browsing and device activity",
+     "identifiers"
+    ],
+    "job title": [
+     "professional and employment related data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "palm vein scans": [
+     "biometric data"
+    ],
+    "payment data": [
+     "financial data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photographs": [
+     "audio and visual information",
+     "biometric data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "unique browser identifiers": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "F5 affiliates",
+    "governments": "government agency",
+    "third party": "third parties"
+   },
+   "parents": {
+    "courts": [
+     "government agency"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "public authorities": [
+     "government agency"
+    ],
+    "regulatory agencies": [
+     "government agency"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "other third party": [
+     "third parties"
+    ],
+    "researcher": [
+     "third parties"
+    ],
+    "employer": [
+     "third parties"
+    ],
+    "acquirer": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Switzerland": [
+     "United Kingdom, European Economic Area or Switzerland"
+    ],
+    "United Kingdom (and Gibraltar)": [
+     "United Kingdom, European Economic Area or Switzerland"
+    ],
+    "European Union": [
+     "United Kingdom, European Economic Area or Switzerland"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "marketing partner": [
+     "third party"
+    ],
+    "referral partner": [
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "customer": [
+     "user"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-service": "customer support",
+    "customer_support": "customer support",
+    "legal compliance": "legal",
+    "legal_compliance": "legal",
+    "merger_acquisition": "merger or acquisition",
+    "service provision": "provide service",
+    "service_provision": "provide service",
+    "to prevent fraud": "fraud_detection",
+    "to provide services": "provide service",
+    "to recognize the devices": "Recognize users and their devices"
+   },
+   "parents": {
+    "Inform, optimize, and serve ads": [
+     "marketing"
+    ],
+    "Report on our ad impressions, other uses of ad services, and interactions with these ad impressions and ad services (including how they are related to visits to specific sites or apps)": [
+     "marketing"
+    ],
+    "to show you ads that are tailored to your individual interests or characteristics and/or based on your prior visits to certain sites or apps, or other information we or they know, infer, or have collected from the users like you": [
+     "Inform, optimize, and serve ads",
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "for cybersecurity": [
+     "security"
+    ],
+    "fraud_detection": [
+     "security"
+    ],
+    "improve_service": [
+     "analytics"
+    ],
+    "to improve your use of our website and services": [
+     "improve_service"
+    ],
+    "legal enforcement": [
+     "legal"
+    ],
+    "payment_processing": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3327,
+  "completion_tokens": 1478,
+  "thinking_tokens": 0,
+  "seconds": 15.68281888961792,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

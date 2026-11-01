@@ -1,0 +1,474 @@
+{
+ "cleaned_sha256": "web-033",
+ "text_sha256": "1334ce37857fa789ac5dc87409cdac7f13df403ec173cb831eaa224e6811467b",
+ "site_id": "web-033",
+ "sections": 33,
+ "rules": 226,
+ "report": {
+  "sections": 33,
+  "raw_rules": 191,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "IM"
+     },
+     "conditions": [
+      "If you are an Covered Individual and you wish to request access to or to limit use or disclosure of your Personal Data, please contact us by email to privacy@imachines.com or by mail to: Intuition Machines, Inc. 1065 SW 8th St #704, Miami FL 33130, USA Attention: Privacy"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "their stored Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "rights to",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-033#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtaining access to or a copy of",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "In accordance with applicable law",
+      "you may have the right to",
+      "obtaining access to or a copy of your Personal Information"
+     ],
+     "exceptions": [
+      "Personal Information that IMI processes on behalf of its Integrators"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-033#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "if we",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in “profiling”",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "as applicable",
+      "in furtherance of certain “decisions that produce legal or similarly significant effects” concerning you"
+     ],
+     "exceptions": [
+      "Request to Opt-Out"
+     ],
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "your request to know, correct, or delete"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "your request to know, correct, or delete"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for strictly necessary anonymous service-related statistics",
+       "name": "analytics"
+      },
+      {
+       "text": "for other technical purposes like assisting in accessibility support",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for strictly necessary technical purposes: load balancing, routing",
+       "name": "strictly necessary technical purposes"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "strictly necessary technical purposes",
+       "name": "strictly-necessary-services"
+      },
+      {
+       "text": "enables Accessibility User use",
+       "name": "accessibility"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "strictly necessary technical purposes: security features",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "strictly necessary technical purposes: security features",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "1st party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for technical purposes like identifying errors in dashboard.hcaptcha.com flows, and service-related performance metrics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-033#s26"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 89,
+  "completeness": {
+   "gaps": 324,
+   "gap_words": 3360
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 89,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 78736,
+  "completion_tokens": 39238,
+  "thinking_tokens": 0,
+  "seconds": 576.6713843345642,
+  "failures": 0
+ },
+ "seconds": 578.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+A user or auditor describes a situation. Judge it against the extracted rules of one privacy policy.
+
+Rules. Each line gives the rule id, polarity, action (verb@operation), data, recipient, source, purpose, and the condition under which the rule applies, written with the condition ids listed further below:
+{rules}
+
+Conditions:
+{conditions}
+
+Situation: {scenario}
+
+1. For each rule, judge whether its practice describes the situation's data flow, ignoring the rule's condition. Answer "states" if the rule names the situation's own action and data, "covers" if the rule's action, data, recipient, and purpose are broader terms that include the situation's flow, "broader" if the situation's flow is broader than the rule and includes it only in part, and "no" otherwise.
+2. For each condition, judge whether it holds in the situation: true, false, or null for unknown. {closed_world}
+3. Give the value of each of these integer variables if the situation states it, otherwise null: {int_variables}.
+
+Return only JSON: {{"rules": {{"<rule id>": "states" or "covers" or "broader" or "no"}}, "conditions": {{"<condition id>": true or false or null}}, "values": {{"<variable>": integer or null}}}}

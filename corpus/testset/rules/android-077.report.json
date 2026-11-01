@@ -1,0 +1,578 @@
+{
+ "cleaned_sha256": "android-077",
+ "text_sha256": "808cba77c78e543bd8d4572c8960d1601907164bc0cd329c8fa4596c60a64d1c",
+ "site_id": "android-077",
+ "sections": 19,
+ "rules": 148,
+ "report": {
+  "sections": 19,
+  "raw_rules": 117,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "Toca Boca",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Your personal data that has been collected and stored by Toca Boca",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Under the GDPR and the UK GDPR",
+      "If You would like to access, correct, erase or limit the use or disclosure of any of Your personal data that has been collected and stored by Toca Boca or exercise any other right under applicable data protection legislation, please notify Us at\nprivacy@tocaboca.com"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "UK GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable data protection legislation",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-077#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Right of access",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "if this should be the case",
+      "You have the right to"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-077#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Right to restriction",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restriction of processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "Under certain circumstances, such as if You contest the accuracy of Your personal data or if the processing is unlawful but You oppose erasure and request restriction instead",
+      "You have the right to obtain"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "Right to not be subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "which produces legal effects concerning You or similarly significantly affects You",
+      "You have the right"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "it",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [
+      {
+       "text": "For the purpose of customer support and services",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "after We keep Your personal data for one year"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after We keep Your personal data for one year"
+    ],
+    "section": "android-077#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Google Crashlytics",
+      "name": "Google Crashlytics"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for bug reporting, crash reporting and analytics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "in relation to children in all Our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Firebase",
+      "name": "Google Firebase"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for bug reporting, crash reporting and analytics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "in relation to children in all Our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "BigQuery",
+      "name": "Google BigQuery"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for bug reporting, crash reporting and analytics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "in relation to children in all Our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Amazon Web Services",
+      "name": "Amazon Web Services"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for hosting Our apps",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "in relation to children in all Our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Helpshift",
+      "name": "Helpshift"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for customer service and to host Our FAQs",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "in relation to children in all Our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "work with",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "AppsFlyer",
+      "name": "AppsFlyer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "work with",
+      "verb": "work with"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to help Us understand Your interactions with the apps and to optimize and analyze mobile ad campaigns",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Data Dog",
+      "name": "Datadog"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to monitor Our technical environments",
+       "name": "monitor technical environments"
+      },
+      {
+       "text": "to keep Our services running and if something unexpected happens",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "partners with",
+     "actor": {
+      "text": "Toca Boca",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "PRIVO",
+      "name": "PRIVO"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "partners with",
+      "verb": "partner with"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to obtain full verifiable parental consent for our Content Creators program",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "https://www.privo.com/platform-privacy-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-077#s12"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 75,
+  "completeness": {
+   "gaps": 346,
+   "gap_words": 3282
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 75,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 57144,
+  "completion_tokens": 29260,
+  "thinking_tokens": 0,
+  "seconds": 242.1526017189026,
+  "failures": 0
+ },
+ "seconds": 243.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

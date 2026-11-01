@@ -1,0 +1,267 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "tax information": "tax info",
+    "user profile": "profile",
+    "video content": "video",
+    "videos": "video",
+    "your data": "user data"
+   },
+   "parents": {
+    "credit card number": [
+     "financial details",
+     "payment card details"
+    ],
+    "payment card details": [
+     "financial details",
+     "financial information"
+    ],
+    "financial details": [
+     "financial information"
+    ],
+    "tax info": [
+     "financial information"
+    ],
+    "IP address": [
+     "automatically collected information"
+    ],
+    "browser type": [
+     "basic device information"
+    ],
+    "operating system": [
+     "basic device information"
+    ],
+    "basic device information": [
+     "automatically collected information"
+    ],
+    "button clicks": [
+     "on-site activities"
+    ],
+    "mouse movements": [
+     "on-site activities"
+    ],
+    "scrolling": [
+     "on-site activities"
+    ],
+    "keystrokes": [
+     "on-site activities"
+    ],
+    "on-site activities": [
+     "user activity"
+    ],
+    "Enterprise Account activity": [
+     "user activity"
+    ],
+    "derived rough geolocation": [
+     "automatically collected information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "address": [
+     "personal data"
+    ],
+    "password": [
+     "account information"
+    ],
+    "account settings": [
+     "account information"
+    ],
+    "profile": [
+     "content"
+    ],
+    "video": [
+     "content",
+     "user content"
+    ],
+    "content metadata": [
+     "content"
+    ],
+    "photo": [
+     "content"
+    ],
+    "user-submitted content": [
+     "content"
+    ],
+    "user content": [
+     "content"
+    ],
+    "email content": [
+     "communication data"
+    ],
+    "SMS content": [
+     "communication data"
+    ],
+    "push notification": [
+     "communication data"
+    ],
+    "user identifiers": [
+     "personal data"
+    ],
+    "government-issued id": [
+     "personal data"
+    ],
+    "voice print": [
+     "personal data"
+    ],
+    "log data": [
+     "automatically collected information"
+    ],
+    "personal data": [
+     "data",
+     "information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "data": [
+     "information"
+    ],
+    "analytics data": [
+     "data"
+    ],
+    "transaction data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "others"
+   },
+   "parents": {
+    "National Center for Missing and Exploited Children": [
+     "appropriate entities",
+     "others"
+    ],
+    "advertising partner": [
+     "others"
+    ],
+    "advisors": [
+     "others",
+     "service provider"
+    ],
+    "affected user": [
+     "user"
+    ],
+    "affiliate": [
+     "others"
+    ],
+    "analytics provider": [
+     "others"
+    ],
+    "complainant": [
+     "others"
+    ],
+    "government authorities": [
+     "appropriate entities",
+     "others"
+    ],
+    "identity verification provider": [
+     "others",
+     "service provider"
+    ],
+    "other user": [
+     "user"
+    ],
+    "parties to legal proceedings": [
+     "others"
+    ],
+    "potential transaction partners": [
+     "others"
+    ],
+    "service provider": [
+     "others"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "analytics and advertising partners": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "content creator": [
+     "user"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics and usage insights": "analytics",
+    "preventing fraud and securing systems": "fraud prevention and security",
+    "service provision": "service delivery"
+   },
+   "parents": {
+    "ad performance and measurement": [
+     "advertising",
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "abuse prevention": [
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "identity and access management": [
+     "security"
+    ],
+    "authentication": [
+     "identity and access management"
+    ],
+    "legal compliance": [
+     "legal and operational business purposes"
+    ],
+    "order fulfillment": [
+     "service delivery"
+    ],
+    "payment processing": [
+     "service delivery"
+    ],
+    "service performance analysis": [
+     "analytics",
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2520,
+  "completion_tokens": 1174,
+  "thinking_tokens": 0,
+  "seconds": 14.349198818206787,
+  "failures": 0
+ },
+ "seconds": 14.5
+}

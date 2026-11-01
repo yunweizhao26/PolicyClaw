@@ -1,0 +1,165 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "email-address": "email address",
+    "ip-address": "IP address",
+    "license plate number": "license plate",
+    "location data": "geolocation",
+    "personal data": "Personal Data",
+    "personal-data": "Personal Data",
+    "sensitive personal data": "sensitive data",
+    "vehicle registration number": "license plate",
+    "your data": "data"
+   },
+   "parents": {
+    "IP address": [
+     "online identifier",
+     "unique identifiers"
+    ],
+    "precise geographic location": [
+     "geolocation"
+    ],
+    "credit card number": [
+     "financial details",
+     "payment card information",
+     "payment-card-number"
+    ],
+    "payment-card-number": [
+     "payment card information"
+    ],
+    "payment card information": [
+     "financial details"
+    ],
+    "license plate": [
+     "vehicle information"
+    ],
+    "anpr data": [
+     "vehicle information"
+    ],
+    "content interaction data": [
+     "electronic network activity data"
+    ],
+    "browsing history": [
+     "electronic network activity data"
+    ],
+    "browsing-history": [
+     "electronic network activity data"
+    ],
+    "server log data": [
+     "electronic network activity data"
+    ],
+    "sensitive data": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "other data": [
+     "data"
+    ],
+    "services purchased": [
+     "commercial-information"
+    ],
+    "transactional data": [
+     "commercial-information"
+    ],
+    "login credentials": [
+     "account data"
+    ],
+    "driver-license-number": [
+     "identity information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "cookies": [
+     "unique identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "parking facilities that use our Services": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party": "third party"
+   },
+   "parents": {
+    "employer": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "contracted parking facilities": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "provide service": "perform services",
+    "security": "safety",
+    "service provision": "perform services",
+    "service-provision": "perform services"
+   },
+   "parents": {
+    "account registration": [
+     "sign up or log in"
+    ],
+    "advertising": [
+     "advertising and customization",
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and improvement"
+    ],
+    "customer support": [
+     "perform services"
+    ],
+    "fraud prevention": [
+     "safety"
+    ],
+    "fulfillment": [
+     "perform services"
+    ],
+    "personalization": [
+     "advertising and customization"
+    ],
+    "service optimization": [
+     "analytics and improvement"
+    ],
+    "verify service charges": [
+     "fulfillment",
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2392,
+  "completion_tokens": 999,
+  "thinking_tokens": 0,
+  "seconds": 20.321945905685425,
+  "failures": 0
+ },
+ "seconds": 20.4
+}

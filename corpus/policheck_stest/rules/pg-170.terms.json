@@ -1,0 +1,82 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "pii": "personal_information"
+   },
+   "parents": {
+    "city": [
+     "location"
+    ],
+    "credit_card_billing_address": [
+     "financial",
+     "personal_information"
+    ],
+    "email": [
+     "personal_information",
+     "profile"
+    ],
+    "financial": [
+     "personal_information"
+    ],
+    "password": [
+     "personal_information"
+    ],
+    "phone-number": [
+     "personal_information",
+     "profile"
+    ],
+    "photo": [
+     "personal_information",
+     "profile"
+    ],
+    "state": [
+     "location"
+    ],
+    "zip_code": [
+     "location"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third-party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "enforce-tos": [
+     "legal_compliance"
+    ],
+    "legal-compliance": [
+     "legal_compliance"
+    ],
+    "service-operation": [
+     "legal_compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1157,
+  "completion_tokens": 331,
+  "thinking_tokens": 0,
+  "seconds": 7.2598960399627686,
+  "failures": 0
+ },
+ "seconds": 7.3
+}

@@ -1,0 +1,323 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive personal data",
+    "testimonials": "testimonial",
+    "user data": "personal data"
+   },
+   "parents": {
+    "account password": [
+     "personal data"
+    ],
+    "account username": [
+     "user identifiers"
+    ],
+    "aggregated user data": [
+     "anonymized data"
+    ],
+    "audio recordings": [
+     "audio and video recordings"
+    ],
+    "billing address": [
+     "billing information",
+     "physical address"
+    ],
+    "billing information": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "blood glucose": [
+     "health information"
+    ],
+    "browsing history": [
+     "information about use of the Services"
+    ],
+    "chat logs": [
+     "user submission"
+    ],
+    "communication preferences": [
+     "personal data"
+    ],
+    "contact list": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "de-identified information": [
+     "anonymized data"
+    ],
+    "dietary information": [
+     "health information"
+    ],
+    "email address": [
+     "user identifiers"
+    ],
+    "email message content": [
+     "user submission"
+    ],
+    "endorsements": [
+     "user submission"
+    ],
+    "ethnic origin": [
+     "sensitive personal data"
+    ],
+    "facial geometry": [
+     "biometric data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "health": [
+     "health information"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "heart rate": [
+     "health information"
+    ],
+    "interaction data": [
+     "information about use of the Services"
+    ],
+    "ip address": [
+     "user identifiers"
+    ],
+    "mouse movements": [
+     "service interactions"
+    ],
+    "name": [
+     "user identifiers"
+    ],
+    "number of children": [
+     "personal data"
+    ],
+    "other personal data": [
+     "personal data"
+    ],
+    "phone number": [
+     "user identifiers"
+    ],
+    "photo": [
+     "personal data"
+    ],
+    "physical activity": [
+     "health information"
+    ],
+    "physical address": [
+     "personal data"
+    ],
+    "pixel tag": [
+     "cookies"
+    ],
+    "post content": [
+     "user submission"
+    ],
+    "precise location": [
+     "sensitive personal data"
+    ],
+    "privacy choices": [
+     "personal data"
+    ],
+    "profession": [
+     "personal data"
+    ],
+    "profile data": [
+     "personal data"
+    ],
+    "purchase history": [
+     "personal data"
+    ],
+    "race": [
+     "sensitive personal data"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "screen size": [
+     "device information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "service interactions": [
+     "information about use of the Services"
+    ],
+    "step count": [
+     "physical activity"
+    ],
+    "testimonial": [
+     "user submission"
+    ],
+    "user identifiers": [
+     "personal data"
+    ],
+    "user submission": [
+     "personal data"
+    ],
+    "video recordings": [
+     "audio and video recordings"
+    ],
+    "weight": [
+     "health information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third party": "any third party",
+    "third-party partner": "partner",
+    "third-party partners": "partner"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising provider"
+    ],
+    "advertising provider": [
+     "any third party",
+     "service provider"
+    ],
+    "analytics provider": [
+     "any third party",
+     "service provider"
+    ],
+    "agent": [
+     "any third party"
+    ],
+    "franchisees": [
+     "affiliate",
+     "any third party"
+    ],
+    "public authorities": [
+     "any third party",
+     "legal entities"
+    ],
+    "service provider": [
+     "any third party"
+    ],
+    "social network": [
+     "any third party"
+    ],
+    "partner": [
+     "any third party"
+    ],
+    "user friend": [
+     "other users",
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "ad network": [
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ],
+    "social media": [
+     "third party"
+    ],
+    "connected device": [
+     "user device"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "WW"
+   },
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Apple": [
+     "third party"
+    ],
+    "WW International, Inc.’s agent": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "marketing partner": [
+     "partner"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud prevention",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "operational business purposes": "business operations",
+    "operations": "business operations",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "friend referral": [
+     "communication",
+     "marketing"
+    ],
+    "quality_assurance": [
+     "product improvement"
+    ],
+    "website administration": [
+     "business operations",
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "legal_defense": [
+     "legal compliance"
+    ],
+    "legal_enforcement": [
+     "legal compliance"
+    ],
+    "law_enforcement": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3358,
+  "completion_tokens": 1439,
+  "thinking_tokens": 0,
+  "seconds": 19.403735160827637,
+  "failures": 0
+ },
+ "seconds": 19.5
+}

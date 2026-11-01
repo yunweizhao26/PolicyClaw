@@ -1,0 +1,265 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifier",
+    "contact info": "contact data",
+    "cookie identifier": "cookie",
+    "cookies": "cookie",
+    "information": "data",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "the data": "data"
+   },
+   "parents": {
+    "ad identifier": [
+     "device identifier",
+     "identifiers",
+     "mobile identifier",
+     "unique identifier"
+    ],
+    "ad views": [
+     "ad delivery information",
+     "browsing activity"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "browser language": [
+     "browser"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing behavior": [
+     "browsing activity",
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "usage data"
+    ],
+    "click-throughs": [
+     "ad delivery information",
+     "browsing activity",
+     "usage data"
+    ],
+    "coarse geolocation": [
+     "coarse location",
+     "location"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "cookie": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "device identifier": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "device model": [
+     "device details"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "email interaction details": [
+     "usage data"
+    ],
+    "hashed email address": [
+     "account details",
+     "identifiers",
+     "unique identifier"
+    ],
+    "impressions": [
+     "ad delivery information",
+     "ad views"
+    ],
+    "ip address": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "mobile identifier": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "mouse movements": [
+     "browsing activity",
+     "usage data"
+    ],
+    "name": [
+     "contact data"
+    ],
+    "personal inferences": [
+     "inferences",
+     "user profile"
+    ],
+    "physical address": [
+     "contact data"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "prescriptions": [
+     "sensitive data"
+    ],
+    "referrer information": [
+     "browsing activity"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "time spent": [
+     "browsing activity",
+     "usage data"
+    ],
+    "treatments": [
+     "sensitive data"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "url": [
+     "browsing activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "ad Buyers": [
+     "buyer",
+     "third parties"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "advertising agency": [
+     "third parties"
+    ],
+    "buyer": [
+     "third parties"
+    ],
+    "certain Sellers": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "market research company": [
+     "third parties"
+    ],
+    "marketing company": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "consumers": "consumer",
+    "partner": "commercial partner",
+    "partners": "commercial partner"
+   },
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "visitors to seller sites": [
+     "user"
+    ],
+    "visitors to website": [
+     "user"
+    ],
+    "children": [
+     "consumer",
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "partner": "Partners"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "Partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "service provision": "service delivery",
+    "service_provision": "service operation and improvement"
+   },
+   "parents": {
+    "ad personalization": [
+     "advertising",
+     "personalization"
+    ],
+    "ad selection": [
+     "advertising"
+    ],
+    "ad_frequency_capping": [
+     "ad selection",
+     "advertising"
+    ],
+    "fraud_detection": [
+     "fraud detection and prevention"
+    ],
+    "content customization": [
+     "personalization"
+    ],
+    "service delivery": [
+     "service operation and improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "service functionality": [
+     "service operation and improvement"
+    ],
+    "security": [
+     "fraud detection and prevention"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2858,
+  "completion_tokens": 1450,
+  "thinking_tokens": 0,
+  "seconds": 15.15907907485962,
+  "failures": 0
+ },
+ "seconds": 15.2
+}

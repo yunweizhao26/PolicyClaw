@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data received from customers": "customer data",
+    "information": "data",
+    "the customer’s data": "customer data"
+   },
+   "parents": {
+    "account credentials": [
+     "customer data",
+     "personal data"
+    ],
+    "biometrics": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "data"
+    ],
+    "cookies": [
+     "data"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "data associated with schools no longer working with classlink": [
+     "customer data",
+     "data"
+    ],
+    "date of birth": [
+     "demographic data",
+     "personal data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "gender": [
+     "demographic data",
+     "personal data"
+    ],
+    "grade level": [
+     "personal data"
+    ],
+    "information that is inaccurate": [
+     "data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "other": [
+     "data"
+    ],
+    "personal data": [
+     "customer data",
+     "data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "profile picture": [
+     "personal data"
+    ],
+    "school building affiliation": [
+     "personal data"
+    ],
+    "student ID": [
+     "personal data"
+    ],
+    "student PII": [
+     "personal data"
+    ],
+    "user files": [
+     "customer data",
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "educational vendor": [
+     "third party vendors"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "user": "customer"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "provide service",
+    "services": "provide educational services"
+   },
+   "parents": {
+    "send password reset verification codes": [
+     "provide service"
+    ],
+    "provide educational services": [
+     "provide service"
+    ],
+    "enhance site navigation": [
+     "service optimization"
+    ],
+    "service optimization": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1241,
+  "completion_tokens": 553,
+  "thinking_tokens": 0,
+  "seconds": 7.481495380401611,
+  "failures": 0
+ },
+ "seconds": 7.5
+}

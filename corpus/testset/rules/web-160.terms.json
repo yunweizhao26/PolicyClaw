@@ -1,0 +1,278 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device and browser information": "browser and device information",
+    "information": "data",
+    "internet activity information": "browsing and interaction data",
+    "ip address": "IP address",
+    "location data": "location",
+    "online unique identifier": "online identifiers",
+    "payment information": "payment data",
+    "username": "account username"
+   },
+   "parents": {
+    "IP address": [
+     "online identifiers"
+    ],
+    "account password": [
+     "account details"
+    ],
+    "account username": [
+     "account details",
+     "user ID"
+    ],
+    "account registration data": [
+     "user data"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "browser and device information": [
+     "device information"
+    ],
+    "browser type": [
+     "browser and device information"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "comments and feedback": [
+     "content",
+     "feedback"
+    ],
+    "content interaction data": [
+     "browsing and interaction data"
+    ],
+    "content viewed": [
+     "content interaction data"
+    ],
+    "cookie preferences": [
+     "preferences"
+    ],
+    "country": [
+     "location"
+    ],
+    "cross-site activity data": [
+     "browsing and interaction data"
+    ],
+    "de-identified information": [
+     "aggregated or de-identified information"
+    ],
+    "device ID": [
+     "device information",
+     "online identifiers"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "hashed email address": [
+     "email address",
+     "online identifiers"
+    ],
+    "language preference": [
+     "language",
+     "preferences"
+    ],
+    "links clicked or shared": [
+     "browsing and interaction data"
+    ],
+    "mobile device ID": [
+     "device ID"
+    ],
+    "operating system": [
+     "browser and device information"
+    ],
+    "payment data": [
+     "financial and transaction data",
+     "financial data"
+    ],
+    "financial and transaction data": [
+     "financial data"
+    ],
+    "platform": [
+     "browser and device information"
+    ],
+    "political opinions": [
+     "sensitive personal data"
+    ],
+    "purchase history": [
+     "financial and transaction data"
+    ],
+    "purchase order information": [
+     "financial and transaction data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal data"
+    ],
+    "referrer URL": [
+     "browsing and interaction data"
+    ],
+    "religious beliefs": [
+     "sensitive personal data"
+    ],
+    "service activity data": [
+     "user activity"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "social media handle": [
+     "social media account data",
+     "user ID"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "user activity": [
+     "browsing and interaction data"
+    ],
+    "user ID": [
+     "online identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "advertisers": [
+     "business partners"
+    ],
+    "advertising network": [
+     "business partners",
+     "third party"
+    ],
+    "affiliates": [
+     "first party"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "business acquirer": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "email service provider": [
+     "service provider"
+    ],
+    "friends": [
+     "other users",
+     "public"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "isp": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "other users": [
+     "public"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "promotional partner": [
+     "business partners"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network partners": [
+     "business partners"
+    ],
+    "survey provider": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "retailer": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "error resolution": "debugging",
+    "legal compliance": "compliance",
+    "service-provision": "service provision",
+    "user-recognition": "user identification"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service-related communication": [
+     "communication"
+    ],
+    "service optimization": [
+     "service-improvement"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "identity verification": [
+     "user identification"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3215,
+  "completion_tokens": 1103,
+  "thinking_tokens": 0,
+  "seconds": 12.484634637832642,
+  "failures": 0
+ },
+ "seconds": 12.6
+}

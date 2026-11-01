@@ -1,0 +1,395 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact details": "contact data",
+    "date and time stamp": "date and time",
+    "demographic information": "demographic data",
+    "device details": "device data",
+    "device information": "device data",
+    "personal details": "personal data",
+    "personal information": "personal data",
+    "precise location": "precise geolocation"
+   },
+   "parents": {
+    "bundle id": [
+     "device identifier"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "unique identifier"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "account username": [
+     "account information",
+     "identifiers"
+    ],
+    "account password": [
+     "account information"
+    ],
+    "security question answers": [
+     "account information"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "business contact information": [
+     "contact data"
+    ],
+    "country": [
+     "coarse location"
+    ],
+    "locale": [
+     "coarse location"
+    ],
+    "coarse location": [
+     "geolocation data"
+    ],
+    "precise geolocation": [
+     "geolocation data"
+    ],
+    "credit card number": [
+     "financial details",
+     "payment details"
+    ],
+    "debit card number": [
+     "financial details",
+     "payment details"
+    ],
+    "financial account number": [
+     "financial details"
+    ],
+    "payment amount": [
+     "payment details"
+    ],
+    "payment details": [
+     "financial details"
+    ],
+    "device manufacturer": [
+     "device hardware information"
+    ],
+    "device model": [
+     "device hardware information"
+    ],
+    "device hardware information": [
+     "device data"
+    ],
+    "carrier code": [
+     "device network information"
+    ],
+    "carrier": [
+     "device network information"
+    ],
+    "mobile carrier code": [
+     "carrier code"
+    ],
+    "mobile network code": [
+     "device network information"
+    ],
+    "device network information": [
+     "device data"
+    ],
+    "computer connection information": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "IP address": [
+     "device data",
+     "identifiers"
+    ],
+    "ad engagement data": [
+     "ad interaction data",
+     "advertising data"
+    ],
+    "ad interaction data": [
+     "advertising data"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "visited URL": [
+     "browsing history",
+     "electronic network activity"
+    ],
+    "information about use of websites and apps over time": [
+     "electronic network activity"
+    ],
+    "information about visits to websites and mobile applications": [
+     "electronic network activity"
+    ],
+    "browsing history": [
+     "electronic network activity"
+    ],
+    "login logs": [
+     "electronic network activity"
+    ],
+    "crash reporting data": [
+     "device data"
+    ],
+    "photograph": [
+     "profile details"
+    ],
+    "personal interests": [
+     "preferences"
+    ],
+    "job title": [
+     "professional qualifications",
+     "work history"
+    ],
+    "professional qualifications": [
+     "education records"
+    ],
+    "web browser DNT signal": [
+     "other DNT mechanisms"
+    ],
+    "user prompt data": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service_provider": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "AppLovin": [
+     "ad network"
+    ],
+    "AppsFlyer": [
+     "service provider"
+    ],
+    "BidMachine": [
+     "ad network"
+    ],
+    "Digital Turbine": [
+     "ad network"
+    ],
+    "Google": [
+     "ad network"
+    ],
+    "Hashtag Labs": [
+     "ad network"
+    ],
+    "Huq Industries Limited": [
+     "ad network"
+    ],
+    "InMobi": [
+     "ad network"
+    ],
+    "Index Exchange": [
+     "ad network"
+    ],
+    "Internal Revenue Service (IRS) of USA": [
+     "government",
+     "public authorities"
+    ],
+    "Media.net": [
+     "ad network"
+    ],
+    "Meta": [
+     "ad network"
+    ],
+    "Moloco": [
+     "ad network"
+    ],
+    "PayPal": [
+     "service provider"
+    ],
+    "Payoneer": [
+     "service provider"
+    ],
+    "Zedge Europe AS": [
+     "affiliate"
+    ],
+    "Zedge Lithuania UAB": [
+     "affiliate"
+    ],
+    "ad network": [
+     "service provider",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "consultant": [
+     "third parties"
+    ],
+    "content provider": [
+     "third parties"
+    ],
+    "ironSource": [
+     "ad network"
+    ],
+    "law enforcement": [
+     "government",
+     "public authorities"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "anyone under the age of 13": [
+     "user"
+    ],
+    "data provider": [
+     "third party"
+    ],
+    "other_third_party": [
+     "third party"
+    ],
+    "publicly available sources": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertiser partners",
+    "first party": "Zedge, Inc."
+   },
+   "parents": {
+    "Huq Industries Limited": [
+     "third party"
+    ],
+    "Pubmatic": [
+     "third party"
+    ],
+    "Qenta": [
+     "third party"
+    ],
+    "Replicate": [
+     "third party"
+    ],
+    "Tap Research": [
+     "third party"
+    ],
+    "TripleLift": [
+     "third party"
+    ],
+    "Unity": [
+     "third party"
+    ],
+    "Verve Group": [
+     "third party"
+    ],
+    "Vungle": [
+     "third party"
+    ],
+    "WizRocket": [
+     "third party"
+    ],
+    "dba Freestar": [
+     "third party"
+    ],
+    "advertiser partners": [
+     "business partner"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "employee": [
+     "Zedge, Inc."
+    ],
+    "security provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media companies": [
+     "third party"
+    ],
+    "third-party advertising companies": [
+     "third party"
+    ],
+    "third-party advertising networks": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "legal and regulatory compliance",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "fraud prevention": [
+     "fraud and risk management",
+     "security"
+    ],
+    "authentication": [
+     "security",
+     "user account management"
+    ],
+    "service personalization": [
+     "service provision"
+    ],
+    "service operation and quality": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "recruitment and hiring": [
+     "internal operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3632,
+  "completion_tokens": 1601,
+  "thinking_tokens": 0,
+  "seconds": 14.06715202331543,
+  "failures": 0
+ },
+ "seconds": 14.2
+}

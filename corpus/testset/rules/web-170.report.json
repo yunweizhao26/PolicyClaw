@@ -1,0 +1,117 @@
+{
+ "cleaned_sha256": "web-170",
+ "text_sha256": "8e05d76658a30d57c638f117145ba9946d77570a495f5fa9b98d298f7e2d41c4",
+ "site_id": "web-170",
+ "sections": 30,
+ "rules": 193,
+ "report": {
+  "sections": 30,
+  "raw_rules": 179,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "subject to decisions that will have a significant impact on you based solely on automated decision making",
+      "verb": "subject to"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "we have a lawful basis for doing so, e.g., if we have compelling legitimate grounds for us to continue or to establish a legal defence,and we have notified you"
+     ],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-170#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Websites"
+     },
+     "conditions": [],
+     "data": {
+      "name": "cookies",
+      "text": "third party cookies such as cookies from: Microsoft, Google Ad Exchange, Google Adsense, Magnite, Index Exchange, Pubmatic, Amazon, TripleLift, Media.net, Sharethrough, SmartAdServer, Unruly, Headerlift, Adagio, Rise, Cadent, Vidazoo"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "third party cookies such as cookies from: Microsoft, Google Ad Exchange, Google Adsense, Magnite, Index Exchange, Pubmatic, Amazon, TripleLift, Media.net, Sharethrough, SmartAdServer, Unruly, Headerlift, Adagio, Rise, Cadent, Vidazoo"
+    ],
+    "section": "web-170#s26"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 394,
+   "gap_words": 3928
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 92,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 53,
+  "cached": 0,
+  "prompt_tokens": 83345,
+  "completion_tokens": 36731,
+  "thinking_tokens": 0,
+  "seconds": 303.5066559314728,
+  "failures": 0
+ },
+ "seconds": 304.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

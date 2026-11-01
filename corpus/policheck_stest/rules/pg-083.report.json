@@ -1,0 +1,243 @@
+{
+ "cleaned_sha256": "pg-083",
+ "text_sha256": "65164e3067b1776032856a1a7087f9f97447554606773252cda12dc1bb5fb195",
+ "site_id": "pg-083",
+ "sections": 14,
+ "rules": 149,
+ "report": {
+  "sections": 14,
+  "raw_rules": 104,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "used",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "profile pictures",
+      "name": "profile picture"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "third party platforms such as SNS, chat services, etc.",
+      "name": "third party platforms"
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "maintaining the continuity of Services",
+       "name": "service operation"
+      },
+      {
+       "text": "providing appropriate customer assistance",
+       "name": "customer service"
+      }
+     ],
+     "conditions": [
+      "At the time of user registration and use of the Services",
+      "If the Services are connected to third party platforms such的手 SNS, chat services, etc."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If the Services are connected to third party platforms such的手 SNS, chat services, etc."
+    ],
+    "section": "pg-083#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from your network communication information and browser history",
+      "name": "network and browser history"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "using the following methods: Information collected from your network communication information and browser history"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using the following methods: Information collected from your network communication information and browser history"
+    ],
+    "section": "pg-083#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Information you provided",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "using the following methods: Information you provided while using our websites or Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using the following methods: Information you provided while using our websites or Services"
+    ],
+    "section": "pg-083#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "third parties such as affiliates, business partners, etc.",
+      "name": "third party"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "using the following methods: Information received from third parties such as affiliates, business partners, etc."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using the following methods: Information received from third parties such as affiliates, business partners, etc."
+    ],
+    "section": "pg-083#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will provide",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide notice regarding any changes to the Privacy Policy",
+      "verb": "provide"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "before such changes are scheduled to take effect by 1) disclosing the changes on our website; and/or 2) any other conspicuous means within the Services that allow you to learn about the changes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-083#s13"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 53,
+  "completeness": {
+   "gaps": 159,
+   "gap_words": 1633
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 53,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 41009,
+  "completion_tokens": 28958,
+  "thinking_tokens": 0,
+  "seconds": 188.37807655334473,
+  "failures": 0
+ },
+ "seconds": 189.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

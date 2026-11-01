@@ -1,0 +1,118 @@
+{
+ "cleaned_sha256": "web-042",
+ "text_sha256": "9794ffeaf7dfe21d03ae4814bbd1793899973218c173a9ec437622a5a8bd076b",
+ "site_id": "web-042",
+ "sections": 16,
+ "rules": 131,
+ "report": {
+  "sections": 16,
+  "raw_rules": 117,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Wiley"
+     },
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "make",
+      "text": "make decisions"
+     },
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "does not make",
+     "purpose": [],
+     "conditions": [
+      "that have legal or similarly significant effects on individuals using solely automated means without human review"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-042#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "partner organizations",
+      "name": "business partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "With partner organizations",
+      "If you have consented to disclosure or we have a lawful and legitimate business reason for disclosure",
+      "only the minimum data necessary to fulfil each specific purpose"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-042#s5"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 52,
+  "completeness": {
+   "gaps": 199,
+   "gap_words": 1938
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 52,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 46006,
+  "completion_tokens": 22175,
+  "thinking_tokens": 0,
+  "seconds": 240.0744731426239,
+  "failures": 0
+ },
+ "seconds": 240.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

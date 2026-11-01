@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "pg-020",
+ "text_sha256": "2240a156d4746ee54d99de3803c39b2ed2b9399e346f7818dfa36863d4ff07ad",
+ "site_id": "pg-020",
+ "sections": 3,
+ "rules": 75,
+ "report": {
+  "sections": 3,
+  "raw_rules": 58,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide you with tools and account settings to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "profile information you provided to us and associated with your account",
+      "name": "profile information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are a registered user of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-020#s3"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 23,
+  "completeness": {
+   "gaps": 76,
+   "gap_words": 753
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 23,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 6,
+  "cached": 0,
+  "prompt_tokens": 12065,
+  "completion_tokens": 9679,
+  "thinking_tokens": 0,
+  "seconds": 63.762088775634766,
+  "failures": 0
+ },
+ "seconds": 64.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

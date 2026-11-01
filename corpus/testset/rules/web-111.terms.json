@@ -1,0 +1,59 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "sensitive data": [
+     "personal data"
+    ],
+    "identification data": [
+     "personal data"
+    ],
+    "IP address": [
+     "basic domain information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "email": [
+     "correspondence"
+    ],
+    "phone and fax": [
+     "correspondence"
+    ],
+    "media and publications": [
+     "publicly available sources"
+    ],
+    "user website": [
+     "publicly available sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {}
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1307,
+  "completion_tokens": 201,
+  "thinking_tokens": 0,
+  "seconds": 7.517427921295166,
+  "failures": 0
+ },
+ "seconds": 7.6
+}

@@ -1,0 +1,90 @@
+{
+ "cleaned_sha256": "apple-161",
+ "text_sha256": "b53f5442c9c02ba5162d2d36c63ef4cf9c2f987ab1448061a99ae920e9229160",
+ "site_id": "apple-161",
+ "sections": 15,
+ "rules": 239,
+ "report": {
+  "sections": 15,
+  "raw_rules": 112,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use limited profiling",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "to (a) measure and improve content and advertisements",
+       "name": "advertising"
+      },
+      {
+       "text": "(b) recommend features",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "contacting us at dpo@mwm.io or using the in-app Privacy menu of the app when applicable"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-161#s7"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 62,
+  "completeness": {
+   "gaps": 145,
+   "gap_words": 1594
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 62,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 44078,
+  "completion_tokens": 27637,
+  "thinking_tokens": 0,
+  "seconds": 402.10263180732727,
+  "failures": 0
+ },
+ "seconds": 403.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

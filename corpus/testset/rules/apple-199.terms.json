@@ -1,0 +1,370 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account records": "account information",
+    "biometric identifiers": "biometric identifier",
+    "biometric identifiers and biometric information": "biometric data",
+    "information": "data",
+    "network information": "network data",
+    "personal information": "personal data",
+    "profile information": "profile data",
+    "profile records": "profile data",
+    "survey response data": "survey response",
+    "survey responses": "survey response",
+    "transaction records": "transaction data",
+    "verification data": "biometric data"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers",
+     "network data"
+    ],
+    "ad identifier": [
+     "hardware identifier",
+     "identifiers"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "audio recordings": [
+     "audio, electronic, visual, and similar information"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "biometric identifier": [
+     "biometric data"
+    ],
+    "biometric information": [
+     "biometric data"
+    ],
+    "browser type": [
+     "technical information"
+    ],
+    "browsing behavior": [
+     "browsing history",
+     "internet activity"
+    ],
+    "browsing history": [
+     "internet activity",
+     "usage data"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "customer records": [
+     "personal data"
+    ],
+    "date and time stamp": [
+     "technical information"
+    ],
+    "device ID": [
+     "hardware identifier",
+     "identifiers"
+    ],
+    "device and usage data": [
+     "personal data"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device information": [
+     "device and usage data",
+     "technical information"
+    ],
+    "education": [
+     "professional or employment information"
+    ],
+    "eligibility data": [
+     "profile data"
+    ],
+    "email address": [
+     "contact information",
+     "identifiers"
+    ],
+    "employment status": [
+     "professional or employment information"
+    ],
+    "facial image": [
+     "photograph"
+    ],
+    "financial info": [
+     "personal data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "hardware characteristics": [
+     "device information"
+    ],
+    "hardware identifier": [
+     "identifiers"
+    ],
+    "health data": [
+     "sensitive personal information"
+    ],
+    "household information": [
+     "demographic data"
+    ],
+    "identification document images": [
+     "official identification document",
+     "uploaded images"
+    ],
+    "identity documents": [
+     "official identification document"
+    ],
+    "internet activity": [
+     "device and usage data"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "likeness": [
+     "photograph"
+    ],
+    "marital status": [
+     "demographic data"
+    ],
+    "name": [
+     "contact information",
+     "identifiers"
+    ],
+    "network data": [
+     "technical information"
+    ],
+    "official identification document": [
+     "customer records"
+    ],
+    "operating system": [
+     "device characteristics",
+     "technical information"
+    ],
+    "phone number": [
+     "contact information",
+     "identifiers"
+    ],
+    "photograph": [
+     "audio, electronic, visual, and similar information",
+     "uploaded images"
+    ],
+    "postal address": [
+     "contact information",
+     "identifiers"
+    ],
+    "reward records": [
+     "customer records",
+     "transaction data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "shopping habits": [
+     "commercial information"
+    ],
+    "software version": [
+     "technical information"
+    ],
+    "special-category profile information": [
+     "profile data",
+     "sensitive personal information"
+    ],
+    "survey response": [
+     "survey information"
+    ],
+    "survey information": [
+     "profile data"
+    ],
+    "telemetry data": [
+     "technical information"
+    ],
+    "text messages": [
+     "audio, electronic, visual, and similar information"
+    ],
+    "time zone": [
+     "technical information"
+    ],
+    "transaction data": [
+     "commercial information"
+    ],
+    "uploaded images": [
+     "uploaded materials"
+    ],
+    "usage data": [
+     "device and usage data"
+    ],
+    "user profile": [
+     "profile data"
+    ],
+    "verification results": [
+     "verification information"
+    ],
+    "verification telemetry": [
+     "telemetry data",
+     "verification information"
+    ],
+    "video recording": [
+     "audio, electronic, visual, and similar information"
+    ],
+    "voice": [
+     "audio recordings"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "government authority": "government agency"
+   },
+   "parents": {
+    "hosting providers": [
+     "processors",
+     "service provider"
+    ],
+    "survey provider associated with the request": [
+     "survey provider"
+    ],
+    "survey provider": [
+     "processors",
+     "service provider"
+    ],
+    "user-directed third party": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "processors": [
+     "third party"
+    ],
+    "contractor": [
+     "third party"
+    ],
+    "affiliate": [
+     "other companies"
+    ],
+    "recipient in corporate transaction": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "commercial partner",
+     "third party"
+    ],
+    "survey provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "survey provider": [
+     "service provider",
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "attribution": "advertising analytics",
+    "for the specified purpose": "for the disclosed purpose",
+    "fraud prevention": "fraud detection and prevention",
+    "fraud-detection": "fraud detection and prevention",
+    "other": "for the disclosed purpose"
+   },
+   "parents": {
+    "advertising": [
+     "advertising or marketing"
+    ],
+    "marketing": [
+     "advertising or marketing"
+    ],
+    "advertising analytics": [
+     "analytics"
+    ],
+    "authentication": [
+     "verification"
+    ],
+    "fraud detection and prevention": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection",
+     "security"
+    ],
+    "hosting": [
+     "internal operations",
+     "service provision"
+    ],
+    "matching and eligibility": [
+     "user service qualification"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "quality control": [
+     "internal operations"
+    ],
+    "research": [
+     "internal operations"
+    ],
+    "user service qualification": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection",
+     "service provision"
+    ],
+    "verification": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection",
+     "user service qualification"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "enforce agreements": [
+     "legal compliance"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "advertising or marketing": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection"
+    ],
+    "service provision": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection"
+    ],
+    "legal compliance": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection"
+    ],
+    "security": [
+     "provide a feature you request, determine eligibility, administer rewards, perform identity verification or fraud prevention, maintain security, comply with law, or for another purpose disclosed at collection"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2963,
+  "completion_tokens": 1887,
+  "thinking_tokens": 0,
+  "seconds": 17.667877197265625,
+  "failures": 0
+ },
+ "seconds": 17.8
+}

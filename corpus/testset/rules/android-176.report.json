@@ -1,0 +1,129 @@
+{
+ "cleaned_sha256": "android-176",
+ "text_sha256": "885fd86be8d721f9567e05855dce2bba3861d1b845da3fc41b850889296cec71",
+ "site_id": "android-176",
+ "sections": 46,
+ "rules": 205,
+ "report": {
+  "sections": 46,
+  "raw_rules": 177,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "receive a copy of",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "in case you would like to receive the Personal Data please fill in this form to receive a copy of your data:\nlink"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "You have the right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "CPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "first party",
+      "text": "we"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-176#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may make a request",
+     "actor": {
+      "text": "someone legally authorized to act on your behalf",
+      "name": "authorized agent"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "know",
+      "verb": "know"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "UNDER CPA",
+      "Only you, or someone legally authorized to act on your behalf, may make a request"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-176#s28"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 111,
+  "completeness": {
+   "gaps": 424,
+   "gap_words": 4129
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 111,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 69,
+  "cached": 1,
+  "prompt_tokens": 105741,
+  "completion_tokens": 36325,
+  "thinking_tokens": 0,
+  "seconds": 1663.3326256275177,
+  "failures": 0
+ },
+ "seconds": 1664.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

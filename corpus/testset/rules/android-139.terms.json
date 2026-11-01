@@ -1,0 +1,348 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "application activity": "app activity",
+    "application package name": "app package name",
+    "cookies": "cookie information",
+    "installed applications": "application list",
+    "installed apps": "application list",
+    "installed_apps": "application list",
+    "language settings": "language",
+    "memory": "RAM",
+    "system_time_date": "system time",
+    "text messages": "text message information",
+    "web page data": "web browsing data",
+    "widget_information": "widget information"
+   },
+   "parents": {
+    "Facebook account ID": [
+     "Facebook account data"
+    ],
+    "Facebook avatar": [
+     "Facebook account data"
+    ],
+    "Facebook email address": [
+     "Facebook account data",
+     "email address"
+    ],
+    "Facebook gender": [
+     "Facebook account data"
+    ],
+    "Facebook nickname": [
+     "Facebook account data"
+    ],
+    "SMS contact details": [
+     "SMS content"
+    ],
+    "SMS timestamp": [
+     "SMS content"
+    ],
+    "account data": [
+     "personal data"
+    ],
+    "account details": [
+     "account data"
+    ],
+    "android ID": [
+     "unique device identifier"
+    ],
+    "app icon": [
+     "application information"
+    ],
+    "app name": [
+     "application information"
+    ],
+    "app package name": [
+     "application information"
+    ],
+    "application installation time": [
+     "application information",
+     "application time information"
+    ],
+    "application size": [
+     "application information"
+    ],
+    "application status": [
+     "application information"
+    ],
+    "application version": [
+     "application information"
+    ],
+    "calendar description": [
+     "calendar entries"
+    ],
+    "calendar location": [
+     "calendar entries"
+    ],
+    "calendar start time": [
+     "calendar entries"
+    ],
+    "calendar title": [
+     "calendar entries"
+    ],
+    "calendar entries": [
+     "schedule information"
+    ],
+    "city": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "contact avatar": [
+     "contact details"
+    ],
+    "contact name": [
+     "contact details"
+    ],
+    "contact phone number": [
+     "contact details",
+     "phone number"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "contact details": [
+     "address book"
+    ],
+    "country code": [
+     "country"
+    ],
+    "mobile country code": [
+     "country code"
+    ],
+    "CPU": [
+     "hardware information"
+    ],
+    "RAM": [
+     "hardware information"
+    ],
+    "device brand": [
+     "hardware information"
+    ],
+    "device model": [
+     "hardware information"
+    ],
+    "screen resolution": [
+     "hardware information"
+    ],
+    "multimedia file artist": [
+     "multimedia files"
+    ],
+    "multimedia file name": [
+     "multimedia files"
+    ],
+    "multimedia file path": [
+     "multimedia files"
+    ],
+    "multimedia file title": [
+     "multimedia files"
+    ],
+    "multimedia file topic": [
+     "multimedia files"
+    ],
+    "download start and completion time": [
+     "downloaded file details"
+    ],
+    "password": [
+     "account details"
+    ],
+    "security questions": [
+     "account details"
+    ],
+    "search terms": [
+     "search history"
+    ],
+    "search engine preferences": [
+     "user settings"
+    ],
+    "settings of search categories": [
+     "user settings"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "minor personal data": [
+     "personal data"
+    ],
+    "private data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user information": [
+     "data"
+    ],
+    "identity information": [
+     "user information"
+    ],
+    "information necessary to authenticate identity": [
+     "identity information"
+    ],
+    "voice recording": [
+     "data"
+    ],
+    "textualized voice data": [
+     "data"
+    ],
+    "user photos": [
+     "multimedia files"
+    ],
+    "wallpaper": [
+     "theme and wallpaper"
+    ],
+    "theme_wallpaper_data": [
+     "theme and wallpaper"
+    ],
+    "operating system version": [
+     "system information"
+    ],
+    "system settings": [
+     "system information"
+    ],
+    "system time": [
+     "system information"
+    ],
+    "boot time": [
+     "system information"
+    ],
+    "login status": [
+     "user preferences"
+    ],
+    "user preferences": [
+     "user settings"
+    ],
+    "news clicks": [
+     "browsing history"
+    ],
+    "SMS content": [
+     "text message information"
+    ],
+    "sms_content": [
+     "text message information"
+    ],
+    "text message information": [
+     "message contents"
+    ],
+    "message contents": [
+     "user message information"
+    ],
+    "number of unread messages": [
+     "user message information"
+    ],
+    "call_logs": [
+     "call information"
+    ],
+    "running application information": [
+     "application information"
+    ],
+    "application list": [
+     "application information"
+    ],
+    "app activity": [
+     "application information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Data Transferee"
+   },
+   "parents": {
+    "China": [
+     "other countries"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud-detection",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "Facebook account login": [
+     "account-management"
+    ],
+    "app matching and search page display": [
+     "search"
+    ],
+    "contact search": [
+     "search"
+    ],
+    "historical messages search": [
+     "search"
+    ],
+    "multimedia search": [
+     "search"
+    ],
+    "schedule search": [
+     "search"
+    ],
+    "system settings matching": [
+     "search"
+    ],
+    "analytics or research": [
+     "analytics"
+    ],
+    "develop_improve_services": [
+     "service-optimization"
+    ],
+    "fraud-detection": [
+     "security"
+    ],
+    "manage notifications": [
+     "app_functionality"
+    ],
+    "recording notification quantity": [
+     "app_functionality"
+    ],
+    "unread messages badge display and junk cleaning": [
+     "app_functionality"
+    ],
+    "display people nearby": [
+     "app_functionality"
+    ],
+    "facilitate unobtained messages the first time": [
+     "app_functionality"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "product operation": [
+     "service-operation"
+    ],
+    "website-operation": [
+     "service-operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3610,
+  "completion_tokens": 1401,
+  "thinking_tokens": 0,
+  "seconds": 13.752497434616089,
+  "failures": 0
+ },
+ "seconds": 13.8
+}

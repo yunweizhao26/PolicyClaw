@@ -1,0 +1,245 @@
+{
+ "cleaned_sha256": "pg-150",
+ "text_sha256": "4bf48883f2760958417dd0990d77bd2f8485589840319a14fb516630adde07b7",
+ "site_id": "pg-150",
+ "sections": 16,
+ "rules": 179,
+ "report": {
+  "sections": 16,
+  "raw_rules": 144,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "Game Information",
+      "text": "Game Information which you supply through our Online Service"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "other user",
+      "text": "other users of the Online Service"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Game Information which you supply through our Online Service"
+    ],
+    "section": "pg-150#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "data": {
+      "name": "Submitted Information",
+      "text": "Submitted Information"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may process",
+     "purpose": [
+      {
+       "text": "to show you more relevant advertisements (on our Online Services or on third party services), based on your perceived preferences, for our products and services or for other third party products and services",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "For some of our Online Services",
+      "Where we process your Submitted Information for this type of advertising, we rely upon your consent for our data processing"
+     ],
+     "exceptions": [
+      "withdrawing this consent at any time by letting us know by email to:\ncontactus@soccermanager.com"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "withdrawing this consent at any time by letting us know by email to:\ncontactus@soccermanager.com"
+    ],
+    "section": "pg-150#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "served with",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "served with",
+      "verb": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "targeted advertisements",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "changing your advertising and notification settings on your device directly",
+      "If you are using an iOS device, you can opt out of personalised adverts by visiting\nhttps://support.apple.com/en-gb/HT202074",
+      "For Android devices, you can visit\nhttps://support.google.com/ads/answer/2662922\nfor information about opting out of personalised adverts"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-150#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "part of",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "part of",
+      "verb": "be"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "lookalike campaign",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "changing your advertising and notification settings on your device directly"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-150#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "receive notifications from us",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive notifications from",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "changing your advertising and notification settings on your device directly"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-150#s10"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 54,
+  "completeness": {
+   "gaps": 218,
+   "gap_words": 2692
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 54,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 47995,
+  "completion_tokens": 28751,
+  "thinking_tokens": 0,
+  "seconds": 185.5153248310089,
+  "failures": 0
+ },
+ "seconds": 186.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

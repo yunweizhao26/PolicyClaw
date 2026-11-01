@@ -1,0 +1,98 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "Thông tin tài khoản",
+    "account information": "Thông tin tài khoản",
+    "contact information": "contact details",
+    "cookies": "cookie data",
+    "family status": "family members",
+    "gps location": "gps data",
+    "language settings": "device language",
+    "national identification number": "government identification number",
+    "operating system version": "device software version",
+    "profile photo": "avatar image",
+    "survey responses": "survey response",
+    "thông tin tài khoản": "Thông tin tài khoản",
+    "user status": "status update"
+   },
+   "parents": {
+    "device software version": [
+     "operating system"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "ad content": [
+     "user content"
+    ],
+    "status update": [
+     "user content"
+    ],
+    "survey response": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third party": "bên thứ ba"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "storage": "backup recovery"
+   },
+   "parents": {
+    "troubleshooting": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service improvement": [
+     "analytics"
+    ],
+    "marketing": [
+     "personalization"
+    ],
+    "user identification": [
+     "service provision"
+    ],
+    "để hỗ trợ cho việc đăng ký tài khoản của bạn được thuận tiện": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1923,
+  "completion_tokens": 503,
+  "thinking_tokens": 0,
+  "seconds": 8.069267988204956,
+  "failures": 0
+ },
+ "seconds": 8.1
+}

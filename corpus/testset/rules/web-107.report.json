@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "web-107",
+ "text_sha256": "4e0a4445c656b360c7af2a9a4532bec03b61921564a61b395bf74a4d94db0578",
+ "site_id": "web-107",
+ "sections": 6,
+ "rules": 156,
+ "report": {
+  "sections": 6,
+  "raw_rules": 132,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to manage credit card processing",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "a third-party service provider"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-107#s3"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 50,
+  "completeness": {
+   "gaps": 149,
+   "gap_words": 1416
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 50,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 13,
+  "cached": 0,
+  "prompt_tokens": 26010,
+  "completion_tokens": 22269,
+  "thinking_tokens": 0,
+  "seconds": 167.98244404792786,
+  "failures": 0
+ },
+ "seconds": 168.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

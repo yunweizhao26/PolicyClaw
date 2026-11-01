@@ -1,0 +1,154 @@
+{
+ "cleaned_sha256": "apple-170",
+ "text_sha256": "c946cbcfb57c027acd61d771ab9d8db7e488f2e1c8428b40907c11df3380054c",
+ "site_id": "apple-170",
+ "sections": 31,
+ "rules": 227,
+ "report": {
+  "sections": 31,
+  "raw_rules": 208,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right not to be subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automated processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "a decision based solely on automated processing, including profiling, which produces legal effects regarding you or similarly significantly affects you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-170#s15"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right not to be subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "a decision based solely on automated processing, including profiling, which produces legal effects regarding you or similarly significantly affects you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-170#s15"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party advertising platforms (e.g., Google AdMob)",
+      "name": "advertising network"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to deliver this content",
+       "name": "delivery"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-170#s23"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 89,
+  "completeness": {
+   "gaps": 193,
+   "gap_words": 2224
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 89,
+  "compile_failures": 5,
+  "fixed_structurally": 5,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 57,
+  "cached": 0,
+  "prompt_tokens": 83585,
+  "completion_tokens": 37299,
+  "thinking_tokens": 3411,
+  "seconds": 659.1957287788391,
+  "failures": 0
+ },
+ "seconds": 660.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

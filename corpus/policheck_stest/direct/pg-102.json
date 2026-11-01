@@ -1,0 +1,30 @@
+{
+ "policy": "pg-102",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "In our applications we may ask you to submit and we may process other non-personally identifiable information that may be private to you such as your age range, year of birth and gender, provided that year of birth and gender are collected solely for users who identify themselves in our apps as above the age of 13.",
+   "prohibit": "We do not collect any user provided information, but we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the apps and games.",
+   "situation": "When a user submits information such as their age range, year of birth, or gender directly within the application.",
+   "reason": "Section 2 explicitly states the company collects no user-provided information, while Section 3 states they ask users to submit and process age, year of birth, and gender.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "They may attach the information gathered from your application to info gathered from other apps, websites, or via other services, and then build profiles and transfer the info to another provider.",
+   "prohibit": "As a responsible company, we do not use automatic decision-making or profiling.",
+   "situation": "Building profiles based on user data gathered from the applications and other services.",
+   "reason": "Section 10 denies using profiling entirely, but Section 3 permits partners to build profiles using application data.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 4651,
+  "completion_tokens": 391,
+  "thinking_tokens": 0,
+  "seconds": 3.3311264514923096,
+  "failures": 0
+ }
+}

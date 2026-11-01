@@ -1,0 +1,143 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "mobile carrier": "carrier",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user data": "Data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device identifier",
+     "identifier",
+     "online identifier"
+    ],
+    "contacts' email addresses": [
+     "contacts",
+     "email address"
+    ],
+    "device identifier": [
+     "identifier",
+     "online identifier"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "files in common with other users": [
+     "Data"
+    ],
+    "financial information": [
+     "sensitive information"
+    ],
+    "gps location": [
+     "information about you"
+    ],
+    "interaction information": [
+     "information about you"
+    ],
+    "IP address": [
+     "identifier",
+     "online identifier"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "payment method": [
+     "financial information",
+     "sensitive information"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "registration ID": [
+     "identifier"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "non-personal information"
+    ],
+    "Data": [
+     "information about you"
+    ],
+    "information about you": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third parties": "parties outside ColorNote",
+    "third party": "parties outside ColorNote"
+   },
+   "parents": {
+    "third party application": [
+     "parties outside ColorNote"
+    ],
+    "unauthorized third party": [
+     "parties outside ColorNote"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "EU": [
+     "European Economic Area (EEA)"
+    ],
+    "social network connection services": [
+     "third party services"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Amazon Web Services": [
+     "third party"
+    ],
+    "Google Cloud Platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligations"
+   },
+   "parents": {
+    "authentication": [
+     "security"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "personalization": [
+     "service improvement"
+    ],
+    "analytics": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1947,
+  "completion_tokens": 719,
+  "thinking_tokens": 0,
+  "seconds": 10.415623903274536,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

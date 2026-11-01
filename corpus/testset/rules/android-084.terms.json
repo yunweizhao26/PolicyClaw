@@ -1,0 +1,262 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "identifiers": "identifier",
+    "information about you": "information about user",
+    "ip address": "IP address",
+    "names": "name",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "username": "user name",
+    "your information": "information about user"
+   },
+   "parents": {
+    "IP address": [
+     "identifier",
+     "online identifier"
+    ],
+    "MAC address": [
+     "device identifier",
+     "identifier"
+    ],
+    "attachments": [
+     "message contents"
+    ],
+    "browser type": [
+     "usage data"
+    ],
+    "browsing history": [
+     "online activities",
+     "usage data"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "contacts": [
+     "contact information"
+    ],
+    "content of contact or support requests": [
+     "user-provided information"
+    ],
+    "device ID": [
+     "device identifier",
+     "identifier"
+    ],
+    "device identifier": [
+     "identifier",
+     "persistent identifier"
+    ],
+    "email address": [
+     "contact information",
+     "identifier"
+    ],
+    "email opens": [
+     "usage data"
+    ],
+    "employment details": [
+     "personal data"
+    ],
+    "friends list": [
+     "account and profile information",
+     "profile information"
+    ],
+    "game progress": [
+     "usage data"
+    ],
+    "game score": [
+     "usage data"
+    ],
+    "game state": [
+     "usage data"
+    ],
+    "general location": [
+     "location"
+    ],
+    "identifier": [
+     "personal data"
+    ],
+    "information about user": [
+     "information"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "contact information",
+     "identifier"
+    ],
+    "online activities": [
+     "usage data"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "operating system version": [
+     "usage data"
+    ],
+    "payment details": [
+     "personal data"
+    ],
+    "payment receipt": [
+     "payment details"
+    ],
+    "persistent identifier": [
+     "identifier"
+    ],
+    "phone manufacturer": [
+     "usage data"
+    ],
+    "profile information": [
+     "account and profile information"
+    ],
+    "push notification tokens": [
+     "device identifier",
+     "identifier",
+     "online identifier"
+    ],
+    "resume information": [
+     "employment details",
+     "user-provided information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "user name": [
+     "identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "vendors and service providers": "service provider"
+   },
+   "parents": {
+    "iCloud": [
+     "Apple",
+     "the cloud"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party application": [
+     "third party"
+    ],
+    "potential transactional partners": [
+     "third party"
+    ],
+    "advisors": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "other websites, apps, and online resources": "different online services"
+   },
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ],
+    "data partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party",
+     "third-party partners"
+    ],
+    "analytics provider": [
+     "third party",
+     "third-party partners"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party partners": [
+     "third party"
+    ],
+    "iCloud": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "marketing and advertising": "marketing",
+    "services": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "customer service": [
+     "communication",
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "fulfillment of user requests": [
+     "service provision"
+    ],
+    "storage": [
+     "storage and processing of data"
+    ],
+    "processing": [
+     "storage and processing of data"
+    ],
+    "refunds": [
+     "payment processing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2742,
+  "completion_tokens": 1182,
+  "thinking_tokens": 0,
+  "seconds": 18.376125812530518,
+  "failures": 0
+ },
+ "seconds": 18.5
+}

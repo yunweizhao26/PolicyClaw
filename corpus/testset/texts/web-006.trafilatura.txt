@@ -1,0 +1,40 @@
+| STYXKEY-not_authenticated | Performance | .gandi.net | Cookie Varnish, used to manage the site's cache | < 1 mn | Allows to manage the cache and display the site more quickly |
+|---|
+| sharing_id | Performance | .gandi.net | Organization selected | 1 year | Allows the user's default organisation to be stored |
+|---|
+| websession | Performance | .gandi.net | Session cookie NodeJS | 1 day | Allows users to log in to the admin interface |
+|---|
+| sessions | Performance | .gandi.net | Session cookie Oauth2 | Session | Allows users to log in to the admin interface |
+|---|
+| oauth.[uuid] | Performance | .gandi.net | SSO (connection via id.gandi.net to all Gandi's "connected" subdomains) | < 1mn | Allows users to log in to the admin interface |
+|---|
+| temporary_cart | Performance | *.gandi.net | Anonymous cart identifier | Session | Persistence of the cart between the shop and the administration interfaces |
+|---|
+| chat_open | User preferences | admin.gandi.net | Remember if the user is using the chat | 1 day | Keep the chat open when in use even after navigating to another admin. Only installed if specifically authorised by the user. |
+|---|
+| hide_news | User preferences | admin.gandi.net | Remembering that the user has hidden a news item from the admin home screen | 1 year | Allows not to redisplay news deleted by the user |
+|---|
+| pll_language | User preferences | news.gandi.net | Language preferences | 1 year | Allows the interface language to be stored for the user |
+|---|
+| locale | User preferences | .gandi.net | Language preferences | 1 year | Allows the interface language to be stored for the user |
+|---|
+| atuserid | Analytics | *.gandi.net | Piano cookie Visitor ID for client-side cookie websites | 13 months | Allows you to track the number of unique visitors (only used to get this number, not used to track user behaviour between browsing sessions) |
+|---|
+| atauthority | User preferences | *.gandi.net | Piano cookie | 13 months | Allows the visitor privacy mode to be stored |
+|---|
+| device_token | Essential | id.gandi.net | Random identifier to store in the browser to identify this device for a given username. | 400 days | Security feature that allows to know if this device has already been used to log in at Gandi. |
+|---|
+| _help_center_session | Essential | helpdesk.gandi.net | Help Center session | Session | Stores unique session key for Help Center Functionality. |
+|---|
+| cf_clearance | Essential | .helpdesk.gandi.net | Captcha clearance management | The storage duration is dependent on the End-User’s browser policy. | The purpose of the cookie is to ensure that Captcha or Javascript challenges are no longer issued if the challenge has already been passed. It is required in order to reach the origin server. |
+|---|
+| _cfruid | Essential | .helpdesk.gandi.net | Rate limit prevention | Session | Cloudflare cookie used in cases where multiple users are hidden behind the same client IP address. Each user will have a unique cookie to help prevent a case of rate limiting all users if one particular user hits the rate limit threshold. |
+|---|
+| _zendesk_cookie | Essential | helpdesk.gandi.net | Preference settings | 1 year | Saves arbitrary preference settings. Two factor authentication features and device tracking will not work without it. |
+|---|
+| _zendesk_session | Essential | helpdesk.gandi.net | Account ID storage | 8 hours | Stores account ID, route for internal service calls and the cross-site request forgery token. |
+|---|
+| _zendesk_authenticated | Essential | helpdesk.gandi.net | Authentication flag | Session | This is a flag set when a user is authenticated to display the most up to date content. |
+|---|
+| _zendesk_shared_session | Essential | helpdesk.gandi.net | Authentication cookies | 8 hours. | Authentication cookie - set to be anonymous |
+|---|

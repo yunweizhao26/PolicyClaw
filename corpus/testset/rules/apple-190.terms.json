@@ -1,0 +1,159 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "DNS query": [
+     "VPN traffic data",
+     "browsing history",
+     "online activity data"
+    ],
+    "browsing history": [
+     "VPN traffic data",
+     "online activity data"
+    ],
+    "VPN traffic data": [
+     "online activity data"
+    ],
+    "billing address": [
+     "account data"
+    ],
+    "card verification code": [
+     "payments"
+    ],
+    "cardholder name": [
+     "payments"
+    ],
+    "credit card number": [
+     "payments"
+    ],
+    "discount code applied": [
+     "orders",
+     "purchase history"
+    ],
+    "order ID": [
+     "orders",
+     "purchase history"
+    ],
+    "payment status": [
+     "payments"
+    ],
+    "purchase history": [
+     "orders"
+    ],
+    "email address": [
+     "account data"
+    ],
+    "password": [
+     "account data"
+    ],
+    "user identifier": [
+     "account data"
+    ],
+    "crash-reporting data": [
+     "performance diagnostics"
+    ],
+    "referrer parameters": [
+     "ad identifiers"
+    ],
+    "account data": [
+     "personal data"
+    ],
+    "ad identifiers": [
+     "data"
+    ],
+    "cookies": [
+     "data"
+    ],
+    "eligibility verification result": [
+     "data"
+    ],
+    "installation timestamp": [
+     "data"
+    ],
+    "online activity data": [
+     "data"
+    ],
+    "orders": [
+     "data"
+    ],
+    "payments": [
+     "data"
+    ],
+    "performance diagnostics": [
+     "data"
+    ],
+    "support records": [
+     "data"
+    ],
+    "user-provided content": [
+     "data"
+    ],
+    "data supplied directly to the Data Controller by him or her": [
+     "data outlined in this Privacy Policy"
+    ],
+    "data outlined in this Privacy Policy": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "customer support": [
+     "contractual-obligations"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "service provision": [
+     "contractual-obligations"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1596,
+  "completion_tokens": 590,
+  "thinking_tokens": 0,
+  "seconds": 9.686408996582031,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

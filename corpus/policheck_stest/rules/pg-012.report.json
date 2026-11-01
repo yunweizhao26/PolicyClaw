@@ -1,0 +1,286 @@
+{
+ "cleaned_sha256": "pg-012",
+ "text_sha256": "f41ce6a4289023c7d0ce00ed7491aebd1126db1943ca189751a080586c0ab4ec",
+ "site_id": "pg-012",
+ "sections": 8,
+ "rules": 133,
+ "report": {
+  "sections": 8,
+  "raw_rules": 128,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "organization administrator",
+      "text": "your organisation’s administrator"
+     },
+     "conditions": [
+      "If your account is managed for you by an organisation administrator"
+     ],
+     "data": {
+      "name": "email address",
+      "text": "email"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "organization administrator",
+      "text": "your organisation’s administrator"
+     },
+     "conditions": [
+      "If your account is managed for you by an organisation administrator"
+     ],
+     "data": {
+      "name": "account information",
+      "text": "other data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "resellers",
+      "text": "resellers who provide user support to your organization"
+     },
+     "conditions": [
+      "If your account is managed for you by an organisation administrator"
+     ],
+     "data": {
+      "name": "email address",
+      "text": "email"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "resellers",
+      "text": "resellers who provide user support to your organization"
+     },
+     "conditions": [
+      "If your account is managed for you by an organisation administrator"
+     ],
+     "data": {
+      "name": "account information",
+      "text": "other data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "organization administrator",
+      "text": "Your account administrator"
+     },
+     "conditions": [],
+     "data": {
+      "name": "account information",
+      "text": "information stored as part of your account"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may be able to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "for the purpose of enabling them to provide their services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "third party service providers, including (without limitation) IT service providers, data storage or management, web-hosting and server providers, debt collectors, maintenance or problem-solving providers, marketing or advertising providers, customer lifecycle management providers, data analytics or reporting providers, finance systems, cyber security providers, project management or collaboration providers, testing, research and alert tools, email service providers and payment systems operators"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "third party service providers, including (without limitation) IT service providers, data storage or management, web-hosting and server providers, debt collectors, maintenance or problem-solving providers, marketing or advertising providers, customer lifecycle management providers, data analytics or reporting providers, finance systems, cyber security providers, project management or collaboration providers, testing, research and alert tools, email service providers and payment systems operators"
+    ],
+    "section": "pg-012#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "with your consent",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "our websites and services",
+      "name": "website"
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "Under GDPR",
+      "via our websites and services",
+      "in some circumstances, we may ask for your consent to process your personal data in a particular way"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "pg-012#s6"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 190,
+   "gap_words": 2151
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 79,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 34505,
+  "completion_tokens": 27093,
+  "thinking_tokens": 0,
+  "seconds": 198.76660084724426,
+  "failures": 0
+ },
+ "seconds": 199.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

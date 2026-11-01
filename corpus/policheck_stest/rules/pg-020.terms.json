@@ -1,0 +1,118 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "user information": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "account identifiers",
+     "log data"
+    ],
+    "email address": [
+     "account identifiers",
+     "contact details"
+    ],
+    "password": [
+     "account information"
+    ],
+    "biography": [
+     "profile information"
+    ],
+    "profile photo": [
+     "profile information"
+    ],
+    "public profile information": [
+     "profile information",
+     "public content"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "links clicked": [
+     "user link interactions"
+    ],
+    "user link interactions": [
+     "log data"
+    ],
+    "pages viewed": [
+     "log data",
+     "website usage data"
+    ],
+    "device ID": [
+     "log data"
+    ],
+    "account information": [
+     "user data"
+    ],
+    "contact details": [
+     "user data"
+    ],
+    "profile information": [
+     "user data"
+    ],
+    "log data": [
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "non-personal data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1592,
+  "completion_tokens": 394,
+  "thinking_tokens": 0,
+  "seconds": 8.528934240341187,
+  "failures": 0
+ },
+ "seconds": 8.6
+}

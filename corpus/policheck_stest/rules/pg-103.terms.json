@@ -1,0 +1,182 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "profile picture": "profile photo"
+   },
+   "parents": {
+    "account identifier": [
+     "unique identifiers",
+     "user identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "application information": [
+     "installed applications"
+    ],
+    "customer support communications content": [
+     "customer support communications"
+    ],
+    "customer support communications": [
+     "communications content"
+    ],
+    "device identifier": [
+     "unique identifiers"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "name": [
+     "contact info"
+    ],
+    "email": [
+     "communications content"
+    ],
+    "sms message": [
+     "communications content"
+    ],
+    "precise geographic location": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "financial data": [
+     "payment information"
+    ],
+    "friends user identifier": [
+     "user identifier"
+    ],
+    "gameplay history": [
+     "gameplay"
+    ],
+    "game activity descriptions": [
+     "gameplay"
+    ],
+    "profile photo": [
+     "profile"
+    ],
+    "account name": [
+     "profile"
+    ],
+    "user identifier": [
+     "unique identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "successor organization": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "application provider": [
+     "third party"
+    ],
+    "mobile device": [
+     "device"
+    ],
+    "other users": [
+     "user"
+    ],
+    "third-party data providers": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "other users": "other players",
+    "third party payment processor": "payment processor"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network contacts": [
+     "other players"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "social networking features": "social networking",
+    "support": "customer support"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "enforce terms": [
+     "legal compliance"
+    ],
+    "law enforcement": [
+     "legal compliance"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "payment processing": [
+     "order fulfillment"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "hosting": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2822,
+  "completion_tokens": 697,
+  "thinking_tokens": 0,
+  "seconds": 18.467268466949463,
+  "failures": 0
+ },
+ "seconds": 18.6
+}

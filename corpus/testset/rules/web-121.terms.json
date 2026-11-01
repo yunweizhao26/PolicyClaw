@@ -1,0 +1,166 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "email address": "email",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "phone_number": "phone number"
+   },
+   "parents": {
+    "browsing history": [
+     "user activity",
+     "user data"
+    ],
+    "email": [
+     "contact_details"
+    ],
+    "phone number": [
+     "contact_details"
+    ],
+    "address": [
+     "contact_details"
+    ],
+    "user activity": [
+     "user data"
+    ],
+    "user inputs": [
+     "user data"
+    ],
+    "survey_feedback": [
+     "user data"
+    ],
+    "user preferences": [
+     "user data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user data": [
+     "data",
+     "personal data"
+    ],
+    "contact_details": [
+     "personal data"
+    ],
+    "voice_recording": [
+     "personal data"
+    ],
+    "video": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "customer support service provider": "customer support provider",
+    "data analysis service provider": "analytics provider"
+   },
+   "parents": {
+    "CRM software provider": [
+     "service provider"
+    ],
+    "Hotjar": [
+     "analytics provider",
+     "service provider",
+     "third_party"
+    ],
+    "IT service provider": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "business development service provider": [
+     "service provider"
+    ],
+    "customer support provider": [
+     "service provider"
+    ],
+    "email service provider": [
+     "service provider"
+    ],
+    "legal service provider": [
+     "service provider"
+    ],
+    "marketing provider": [
+     "service provider"
+    ],
+    "online live chat service provider": [
+     "customer support provider",
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "security provider": [
+     "service provider"
+    ],
+    "web hosting company": [
+     "IT service provider",
+     "service provider"
+    ],
+    "service provider": [
+     "third_party"
+    ],
+    "court": [
+     "state and governmental institution",
+     "third_party"
+    ],
+    "regulatory authority": [
+     "state and governmental institution",
+     "third_party"
+    ],
+    "state and governmental institution": [
+     "third_party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Microsoft Bing Ads": [
+     "advertising network"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision",
+    "user preferences": "personalization"
+   },
+   "parents": {
+    "account administration": [
+     "service provision"
+    ],
+    "user access management": [
+     "account administration",
+     "service provision"
+    ],
+    "customer_support": [
+     "communication",
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2080,
+  "completion_tokens": 834,
+  "thinking_tokens": 0,
+  "seconds": 11.079591989517212,
+  "failures": 0
+ },
+ "seconds": 11.2
+}

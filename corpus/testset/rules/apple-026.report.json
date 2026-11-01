@@ -1,0 +1,507 @@
+{
+ "cleaned_sha256": "apple-026",
+ "text_sha256": "f87e9a10357b3275086dd34ae84c4dbb577eaaa54ec6512e87ad82e11326e9cf",
+ "site_id": "apple-026",
+ "sections": 23,
+ "rules": 297,
+ "report": {
+  "sections": 23,
+  "raw_rules": 269,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified-data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "in order to:\nComply with the requirements of our publisher, library, and retail partners",
+       "name": "compliance"
+      },
+      {
+       "text": "in order to:\nAlert you of opportunities to renew loans, return loans, checkout digital content on which you’ve placed a hold, and cancel holds",
+       "name": "notifications"
+      },
+      {
+       "text": "in order to:\nProvide recommendations for digital content we think you may enjoy",
+       "name": "recommendation"
+      },
+      {
+       "text": "in order to:\nNotify you of opportunities to provide feedback for OverDrive's Services",
+       "name": "feedback"
+      },
+      {
+       "text": "in order to:\nSync bookmarks and most recent point viewed/played across devices",
+       "name": "syncing"
+      },
+      {
+       "text": "in order to:\nSupport the internal operations of the Services, including but not limited to support for: activities necessary to maintain or analyze the Services, network communications, user authentication or personalization of content, activities necessary to perform authorized school or educational purposes, and security of users",
+       "name": "support-internal-operations"
+      },
+      {
+       "text": "in order to:\nIntegrate with additional service providers for use of the Services",
+       "name": "service-provision"
+      },
+      {
+       "text": "in order to:\nPersonalize our Services to better reflect particular interests and preferences and in certain instances for remarketing",
+       "name": "personalization"
+      },
+      {
+       "text": "in order to:\nGenerally improve your experience",
+       "name": "service-improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in order to:\nAlert you of opportunities to renew loans, return loans, checkout digital content on which you’ve placed a hold, and cancel holds",
+     "in order to:\nProvide recommendations for digital content we think you may enjoy",
+     "in order to:\nNotify you of opportunities to provide feedback for OverDrive's Services",
+     "in order to:\nSync bookmarks and most recent point viewed/played across devices",
+     "in order to:\nSupport the internal operations of the Services, including but not limited to support for: activities necessary to maintain or analyze the Services, network communications, user authentication or personalization of content, activities necessary to perform authorized school or educational purposes, and security of users",
+     "in order to:\nIntegrate with additional service providers for use of the Services",
+     "in order to:\nPersonalize our Services to better reflect particular interests and preferences and in certain instances for remarketing",
+     "in order to:\nGenerally improve your experience"
+    ],
+    "section": "apple-026#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "OverDrive"
+     },
+     "conditions": [],
+     "data": {
+      "name": "email-address",
+      "text": "your email address"
+     },
+     "exceptions": [
+      "with your opt-in consent"
+     ],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "will not use",
+     "purpose": [
+      {
+       "text": "to send you any marketing or promotional communications",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your opt-in consent"
+    ],
+    "section": "apple-026#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "PII we hold about you",
+      "name": "personally identifiable information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "See",
+      "verb": "see"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are visiting from the EU, UK, or Switzerland",
+      "you may email privacy@overdrive.com or visit the Data Request center to ask us to:"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-026#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your PII",
+      "name": "personally identifiable information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you are visiting from the EU, UK, or Switzerland",
+      "you may email privacy@overdrive.com or visit the Data Request center to ask us to: Object to"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may email privacy@overdrive.com or visit the Data Request center to ask us to: Object to"
+    ],
+    "section": "apple-026#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "See",
+      "verb": "see"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "If you are a California resident",
+      "ask us to"
+     ],
+     "data": {
+      "name": "PII",
+      "text": "PII we hold about you"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "to ask us to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-026#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "gespeichert werden",
+      "verb": "speichern"
+     },
+     "actor": {
+      "name": "Google",
+      "text": "Google Analytics"
+     },
+     "conditions": [],
+     "data": {
+      "name": "cookies",
+      "text": "„Cookies“, Textdateien"
+     },
+     "exceptions": [
+      "die Speicherung von Cookies von Drittanbietern auf Ihrem Endgerät unterbinden",
+      "die Ausführung von Script-Code in Ihrem Browser deaktivieren",
+      "eine entsprechende Einstellung Ihrer Browser-Software"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "werden",
+     "purpose": [
+      {
+       "text": "die eine Analyse Ihrer Benutzung unserer jeweiligen Webseite ermöglichen",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "https://company.cdn.overdrive.com/policies/cookie-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "auf Ihrem Endgerät"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "die Ausführung von Script-Code in Ihrem Browser deaktivieren"
+    ],
+    "section": "apple-026#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "übertragen",
+      "verb": "übertragen"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Wir"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information on website usage",
+      "text": "Informationen über Ihre Benutzung unserer entsprechenden Webseiten"
+     },
+     "exceptions": [
+      "die Speicherung von Cookies von Drittanbietern auf Ihrem Endgerät unterbinden",
+      "die Ausführung von Script-Code in Ihrem Browser deaktivieren",
+      "das unter dem folgenden Link verfügbare Browser-Plug-in herunterladen und installieren"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "werden in der Regel",
+     "purpose": [],
+     "recipient": {
+      "name": "Google",
+      "text": "einen Server von Google in den USA"
+     },
+     "references": [
+      {
+       "text": "http://tools.google.com/dlpage/gaoptout?hl=de",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "die Ausführung von Script-Code in Ihrem Browser deaktivieren"
+    ],
+    "section": "apple-026#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "gespeichert",
+      "verb": "speichern"
+     },
+     "actor": {
+      "name": "Google",
+      "text": "Google"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information on website usage",
+      "text": "Informationen über Ihre Benutzung unserer entsprechenden Webseiten"
+     },
+     "exceptions": [
+      "die Speicherung von Cookies von Drittanbietern auf Ihrem Endgerät unterbinden",
+      "die Ausführung von Script-Code in Ihrem Browser deaktivieren",
+      "das unter dem folgenden Link verfügbare Browser-Plug-in herunterladen und installieren"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "werden in der Regel",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "http://tools.google.com/dlpage/gaoptout?hl=de",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "die Ausführung von Script-Code in Ihrem Browser deaktivieren"
+    ],
+    "section": "apple-026#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "nutzen",
+     "actor": {
+      "text": "Wir",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "nutzen",
+      "verb": "nutzen"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "um unsere Services zu analysieren",
+       "name": "analytics"
+      },
+      {
+       "text": "um diese auf Fehlfunktionen zu prüfen",
+       "name": "service operation"
+      },
+      {
+       "text": "um unsere Webseiten und Services möglichst benutzerfreundlich zu betreiben",
+       "name": "service operation"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-026#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "nutzen",
+     "actor": {
+      "text": "Wir",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Dienstleister wie AWS- und Azure-Cloud-Anbieter",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "nutzen",
+      "verb": "nutzen"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "Für die Bereitstellung unserer Dienste",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-026#s20"
+   }
+  ],
+  "residual_quotes": 40,
+  "quotes": 135,
+  "completeness": {
+   "gaps": 446,
+   "gap_words": 4422
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 135,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 83232,
+  "completion_tokens": 54976,
+  "thinking_tokens": 0,
+  "seconds": 912.5655336380005,
+  "failures": 0
+ },
+ "seconds": 914.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

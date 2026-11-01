@@ -1,0 +1,243 @@
+{
+ "cleaned_sha256": "pg-108",
+ "text_sha256": "abd493fe4fed6460b941eb319f2819f564b3eb27ccac92e4a216a99fd5e3a984",
+ "site_id": "pg-108",
+ "sections": 5,
+ "rules": 198,
+ "report": {
+  "sections": 5,
+  "raw_rules": 142,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "survey responses",
+      "text": "information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "from you"
+     },
+     "action": {
+      "text": "acquire",
+      "verb": "acquire"
+     },
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may also acquire",
+     "purpose": [],
+     "conditions": [
+      "through (2) your participation in surveys regarding the Service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "through (2) your participation in surveys regarding the Service"
+    ],
+    "section": "pg-108#s3"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "sweepstakes or contest information",
+      "text": "information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "from you"
+     },
+     "action": {
+      "text": "acquire",
+      "verb": "acquire"
+     },
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may also acquire",
+     "purpose": [],
+     "conditions": [
+      "through (3) your participation in a sweepstakes or contest through the Service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "through (3) your participation in a sweepstakes or contest through the Service"
+    ],
+    "section": "pg-108#s3"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "cookie information",
+      "text": "Information contained in a cookie"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "linked to",
+      "verb": "link"
+     },
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [
+      {
+       "text": "for purposes such as improving the quality of our Services",
+       "name": "improving the quality of our Services"
+      },
+      {
+       "text": "tailoring recommendations to your interests",
+       "name": "tailoring recommendations to your interests"
+      },
+      {
+       "text": "making the Service easier to use",
+       "name": "making the Service easier to use"
+      }
+     ],
+     "conditions": [
+      "with your personal information, such as your user ID"
+     ],
+     "exceptions": [
+      "You can disable cookies at any time, although you may not be able to access or use features of the Service."
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your personal information, such as your user ID"
+    ],
+    "section": "pg-108#s3"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "information that we collect about you",
+      "text": "information that we collect about you"
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "affiliated entities",
+      "text": "affiliated entities"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "across borders and from your country or jurisdiction to other countries or jurisdictions around the world"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity_text": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-108#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "information that we collect about you",
+      "text": "information that we collect about you"
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "third parties",
+      "text": "other third parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "across borders and from your country or jurisdiction to other countries or jurisdictions around the world"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity_text": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-108#s5"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 42,
+  "completeness": {
+   "gaps": 116,
+   "gap_words": 1304
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 42,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 20514,
+  "completion_tokens": 23237,
+  "thinking_tokens": 0,
+  "seconds": 146.13233518600464,
+  "failures": 0
+ },
+ "seconds": 146.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

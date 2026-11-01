@@ -1,0 +1,396 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "browsing URL": "URL",
+    "browsing_history": "browsing history",
+    "cashback data": "Cashback data",
+    "cookies": "cookie",
+    "crash_logs": "crash_data",
+    "date_of_birth": "date of birth",
+    "device_id": "device identifier",
+    "download_link": "download link",
+    "email-address": "email address",
+    "email_address": "email address",
+    "financial card number": "credit card number",
+    "financial_account_id": "credit card number",
+    "interaction with ads": "ad views",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "merchant URLs": "URL",
+    "payment card number": "credit card number",
+    "payment data": "financial information",
+    "payment info": "financial information",
+    "payment information": "financial information",
+    "payment_data": "financial information",
+    "personal name": "name",
+    "personal-data": "personal data",
+    "personal_data": "personal data",
+    "personal_identifiable_information": "personal data",
+    "personally identifiable information": "personal data",
+    "phone_number": "phone number",
+    "postal_address": "postal address",
+    "profile": "account profile",
+    "profile picture": "profile photo",
+    "profile-photo": "profile photo",
+    "pseudonymous user id": "pseudonymous identifier",
+    "purchases": "purchased items",
+    "security_question_answers": "security question answers",
+    "session_statistics": "session statistics",
+    "speed dial entries": "Speed Dial entries",
+    "subscriber id": "customer ID",
+    "synced data": "bookmarks",
+    "tax_id": "tax identifier",
+    "third-party cookies": "cookie",
+    "transaction amounts": "financial transaction details",
+    "user identifier": "customer ID",
+    "user input": "chat content",
+    "user interests": "interests",
+    "user profile": "account profile",
+    "user-provided content": "chat content",
+    "user_identifier": "customer ID"
+   },
+   "parents": {
+    "Cashback data": [
+     "user data"
+    ],
+    "IMEI number": [
+     "device identifier"
+    ],
+    "Speed Dial entries": [
+     "browsing-history"
+    ],
+    "account": [
+     "account data"
+    ],
+    "account details": [
+     "account data"
+    ],
+    "account profile": [
+     "account data"
+    ],
+    "ad blocker status": [
+     "browser data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "app_features_used": [
+     "usage_data"
+    ],
+    "avatar": [
+     "profile photo"
+    ],
+    "browser_version": [
+     "device information"
+    ],
+    "browsing history": [
+     "browsing-history",
+     "usage_data"
+    ],
+    "chat tab names": [
+     "tab title"
+    ],
+    "chats": [
+     "chat content"
+    ],
+    "coarse-location": [
+     "location"
+    ],
+    "country": [
+     "coarse-location"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "customer ID": [
+     "account data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "domain name": [
+     "URL"
+    ],
+    "financial transaction details": [
+     "financial information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "hardware_id": [
+     "device identifier"
+    ],
+    "hardware_specifications": [
+     "device information"
+    ],
+    "installation_id": [
+     "random_identifier"
+    ],
+    "last name": [
+     "name"
+    ],
+    "operating_system": [
+     "device information"
+    ],
+    "partial ip address": [
+     "IP address"
+    ],
+    "payment card expiration date": [
+     "financial information"
+    ],
+    "payment_history": [
+     "financial information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "platform": [
+     "device information"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "profile photo": [
+     "account profile"
+    ],
+    "pseudonymous identifier": [
+     "random_identifier"
+    ],
+    "purchased items": [
+     "financial information"
+    ],
+    "request URLs": [
+     "URL"
+    ],
+    "security code": [
+     "financial information"
+    ],
+    "security question answers": [
+     "account data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "server logs": [
+     "usage_data"
+    ],
+    "service usage data": [
+     "usage_data"
+    ],
+    "speed dial clicks": [
+     "usage_data"
+    ],
+    "system events": [
+     "system_configuration"
+    ],
+    "tab title": [
+     "browser data"
+    ],
+    "tax identifier": [
+     "financial information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user prompt": [
+     "chat content"
+    ],
+    "username": [
+     "account profile"
+    ],
+    "website_access_logs": [
+     "server logs"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "anyone": "any recipient",
+    "search engines": "search engine providers"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "OpenAI": [
+     "third party"
+    ],
+    "OpenBorder, Inc.": [
+     "third party",
+     "third-party service provider"
+    ],
+    "Shopify Inc.": [
+     "third party",
+     "third-party service provider"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "payment service provider": [
+     "subcontractors",
+     "third party",
+     "third-party service provider"
+    ],
+    "search engine providers": [
+     "third party"
+    ],
+    "subcontractors": [
+     "third party",
+     "third-party service provider"
+    ],
+    "third-party fulfilment service provider": [
+     "subcontractors",
+     "third party",
+     "third-party service provider"
+    ],
+    "third-party service provider": [
+     "third party"
+    ],
+    "Opera Group members": [
+     "any recipient"
+    ],
+    "third party": [
+     "any recipient"
+    ],
+    "first party": [
+     "any recipient"
+    ],
+    "user": [
+     "any recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "authorised_representatives_of_education_institutions": "Authorised Representatives of Education Institutions",
+    "students": "educational_institutions_students"
+   },
+   "parents": {
+    "Authorised Representatives of Education Institutions": [
+     "user"
+    ],
+    "educational_institutions_students": [
+     "user"
+    ],
+    "mobile operator": [
+     "third party"
+    ],
+    "social network": [
+     "third-party-service"
+    ],
+    "third-party-service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "payment service provider": "payment processor",
+    "payment_processor": "payment processor"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "OpenAI": [
+     "third party"
+    ],
+    "OpenBorder, Inc.": [
+     "third party"
+    ],
+    "Opera": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "third-party fulfilment service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account administration",
+    "commercial-purpose": "commercial purpose",
+    "commercial_activities": "commercial purpose",
+    "fraud-detection": "fraud detection",
+    "legal-compliance": "legal compliance",
+    "legal-requirement": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "monetization": "commercial purpose",
+    "service-improvement": "product improvement",
+    "service-provision": "service provision",
+    "service_improvement": "product improvement",
+    "service_optimization": "product improvement",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising",
+    "troubleshooting": "service-debugging"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "legal compliance",
+     "security"
+    ],
+    "product improvement": [
+     "service optimization"
+    ],
+    "service-debugging": [
+     "product improvement",
+     "service operation"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service quality": [
+     "service operation"
+    ],
+    "authentication": [
+     "service provision"
+    ],
+    "account administration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3960,
+  "completion_tokens": 2141,
+  "thinking_tokens": 0,
+  "seconds": 24.018819570541382,
+  "failures": 0
+ },
+ "seconds": 24.2
+}

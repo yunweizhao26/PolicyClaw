@@ -1,0 +1,159 @@
+{
+ "cleaned_sha256": "pg-028",
+ "text_sha256": "d8df58b91e4e7aad4af0b034bb37d711fcf294a021c458423d7317773934e8a6",
+ "site_id": "pg-028",
+ "sections": 15,
+ "rules": 161,
+ "report": {
+  "sections": 15,
+  "raw_rules": 144,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in data collection",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "On our own or working with affiliates or third parties",
+      "on our Sites and on third party websites across the Internet and applications over time"
+     ],
+     "exceptions": [
+      "visit our\nOpt-Out page\n(\nhttps://www.warnermediaprivacy.com/opt-out/\n) to opt-out"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-028#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "online from Sites on which this Privacy Policy is posted",
+      "name": "Sites"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "To access, delete, or correct personal information that we have collected about you online from Sites on which this Privacy Policy is posted, please log into your account if you have created one with us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-028#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about material changes to this Privacy Policy",
+       "name": "administrative"
+      }
+     ],
+     "conditions": [
+      "by placing a notice on our Sites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-028#s14"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 62,
+  "completeness": {
+   "gaps": 157,
+   "gap_words": 1874
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 62,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 48101,
+  "completion_tokens": 29153,
+  "thinking_tokens": 0,
+  "seconds": 179.2702260017395,
+  "failures": 0
+ },
+ "seconds": 180.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

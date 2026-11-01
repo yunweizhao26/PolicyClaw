@@ -1,0 +1,168 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "collected data",
+    "profile-picture": "profile picture"
+   },
+   "parents": {
+    "age": [
+     "biographical-data"
+    ],
+    "date-of-birth": [
+     "biographical-data"
+    ],
+    "country": [
+     "location"
+    ],
+    "ip-address": [
+     "technical data"
+    ],
+    "device-identifier": [
+     "technical data",
+     "unique identifiers"
+    ],
+    "account-identifier": [
+     "unique identifiers"
+    ],
+    "social-network-profile": [
+     "unique identifiers"
+    ],
+    "special-category-data": [
+     "personal data"
+    ],
+    "personally identifying information": [
+     "personal data"
+    ],
+    "personal data": [
+     "collected data"
+    ],
+    "some data": [
+     "collected data"
+    ],
+    "technical data": [
+     "collected data"
+    ],
+    "name": [
+     "personally identifying information"
+    ],
+    "email": [
+     "personally identifying information"
+    ],
+    "phone-number": [
+     "personally identifying information"
+    ],
+    "postal-address": [
+     "personally identifying information"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "purchase history": [
+     "financial data"
+    ],
+    "in-game activities": [
+     "contextual data"
+    ],
+    "game-state": [
+     "contextual data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "state organs": "official authorities",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "law enforcement": [
+     "official authorities",
+     "third party"
+    ],
+    "legal counsel": [
+     "third party"
+    ],
+    "official authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertisers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "advertising network": "ad network",
+    "other-user": "other users",
+    "third-party service providers": "third party service provider"
+   },
+   "parents": {
+    "ad network": [
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "friends": [
+     "other users"
+    ],
+    "third party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "account creation": [
+     "service provision"
+    ],
+    "for such purchases": [
+     "order fulfillment"
+    ],
+    "hosting": [
+     "operations",
+     "service maintenance"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "personalization": [
+     "service improvement"
+    ],
+    "research": [
+     "service improvement"
+    ],
+    "service maintenance": [
+     "service provision"
+    ],
+    "user communication": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2320,
+  "completion_tokens": 674,
+  "thinking_tokens": 0,
+  "seconds": 22.75765609741211,
+  "failures": 0
+ },
+ "seconds": 22.8
+}

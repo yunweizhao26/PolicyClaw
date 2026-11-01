@@ -1,0 +1,182 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "chat logs": "chat log",
+    "contest entry details": "competition entry",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "hardware identifier": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "browser type": [
+     "device details",
+     "device information"
+    ],
+    "device model": [
+     "device details",
+     "device information"
+    ],
+    "device type": [
+     "device details",
+     "device information"
+    ],
+    "operating system": [
+     "device details",
+     "device information"
+    ],
+    "screen resolution or size": [
+     "device details",
+     "device information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "chat log": [
+     "chat data"
+    ],
+    "chat data": [
+     "message contents"
+    ],
+    "gameplay history": [
+     "gameplay and usage activity"
+    ],
+    "gameplay and usage activity": [
+     "service usage data"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "service usage data"
+    ],
+    "postal code": [
+     "location",
+     "postal address"
+    ],
+    "postal address": [
+     "location"
+    ],
+    "user name": [
+     "account information",
+     "name"
+    ],
+    "email address": [
+     "account information"
+    ],
+    "avatar": [
+     "account information",
+     "user submission"
+    ],
+    "posts": [
+     "social media interactions",
+     "user submission"
+    ],
+    "competition entry": [
+     "user submission"
+    ],
+    "customer support messages and attachments": [
+     "user submission"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party publisher": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party": [
+     "any party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising networks": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Big Blue Bubble"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud prevention and detection",
+    "legal compliance": "compliance",
+    "marketing and advertising": "advertising"
+   },
+   "parents": {
+    "ad serving": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "order fulfillment": [
+     "fulfillment and transaction processing"
+    ],
+    "analytics or performance measurement": [
+     "research or analytics"
+    ],
+    "optimization": [
+     "service operation and optimization"
+    ],
+    "service operation and optimization": [
+     "service operation or improvement"
+    ],
+    "user experience optimization": [
+     "account management and user experience"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2563,
+  "completion_tokens": 793,
+  "thinking_tokens": 0,
+  "seconds": 10.590117454528809,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

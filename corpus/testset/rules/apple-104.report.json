@@ -1,0 +1,178 @@
+{
+ "cleaned_sha256": "apple-104",
+ "text_sha256": "0d00347d9e95c3be38c0632f5987070e34a1133f2657a0da5b5c9c952132f82b",
+ "site_id": "apple-104",
+ "sections": 4,
+ "rules": 62,
+ "report": {
+  "sections": 4,
+  "raw_rules": 58,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Please provide us with",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "name",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to be placed on our internal “do not call” list",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "You may request to be placed on State Farm’s internal “do not call” list by:\ncontacting your State Farm agent, OR\nvisiting\nwww.statefarm.com\nand submitting the Do Not Solicit form, OR\nwriting us at the following address:\nState Farm Mutual Automobile Insurance Company\nMail Response Center\nOne State Farm Plaza\nBloomington, IL 61710",
+      "you wish to be placed on our list"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to be placed on our internal “do not call” list"
+    ],
+    "section": "apple-104#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Please provide us with",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "address",
+      "name": "postal address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to be placed on our internal “do not call” list",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "You may request to be placed on State Farm’s internal “do not call” list by:\ncontacting your State Farm agent, OR\nvisiting\nwww.statefarm.com\nand submitting the Do Not Solicit form, OR\nwriting us at the following address:\nState Farm Mutual Automobile Insurance Company\nMail Response Center\nOne State Farm Plaza\nBloomington, IL 61710",
+      "you wish to be placed on our list"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to be placed on our internal “do not call” list"
+    ],
+    "section": "apple-104#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Please provide us with",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "all telephone numbers",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to be placed on our internal “do not call” list",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "You may request to be placed on State Farm’s internal “do not call” list by:\ncontacting your State Farm agent, OR\nvisiting\nwww.statefarm.com\nand submitting the Do Not Solicit form, OR\nwriting us at the following address:\nState Farm Mutual Automobile Insurance Company\nMail Response Center\nOne State Farm Plaza\nBloomington, IL 61710",
+      "you wish to be placed on our list"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to be placed on our internal “do not call” list"
+    ],
+    "section": "apple-104#s4"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 22,
+  "completeness": {
+   "gaps": 96,
+   "gap_words": 958
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 22,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 15264,
+  "completion_tokens": 9964,
+  "thinking_tokens": 0,
+  "seconds": 130.90014576911926,
+  "failures": 0
+ },
+ "seconds": 131.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

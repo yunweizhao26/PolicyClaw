@@ -1,0 +1,224 @@
+{
+ "cleaned_sha256": "pg-052",
+ "text_sha256": "8276d29a212e06f1877cc449968e366c60657fd85ddc005d412c5f50e2acc1b3",
+ "site_id": "pg-052",
+ "sections": 19,
+ "rules": 323,
+ "report": {
+  "sections": 19,
+  "raw_rules": 130,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "could be transferred",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In certain jurisdictions in Latin America and Asia",
+      "by accepting this Privacy Policy, you consent",
+      "in certain circumstances we do not need your consent under applicable data protection laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "could be transferred"
+    ],
+    "section": "pg-052#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "could be transmitted",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmitted",
+      "verb": "transmit"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In certain jurisdictions in Latin America and Asia",
+      "by accepting this Privacy Policy, you consent",
+      "in certain circumstances we do not need your consent under applicable data protection laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "could be transmitted"
+    ],
+    "section": "pg-052#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "could be processed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "In certain jurisdictions in Latin America and Asia",
+      "by accepting this Privacy Policy, you consent",
+      "in certain circumstances we do not need your consent under applicable data protection laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "could be processed"
+    ],
+    "section": "pg-052#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party verification service",
+      "name": "third-party verification service"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to confirm that you are who you say you are",
+       "name": "fraud detection and prevention"
+      }
+     ],
+     "conditions": [
+      "for access and deletion requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-052#s18"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 94,
+  "completeness": {
+   "gaps": 270,
+   "gap_words": 3024
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 24,
+  "translated_quotes": 94,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 59287,
+  "completion_tokens": 34688,
+  "thinking_tokens": 0,
+  "seconds": 254.97905468940735,
+  "failures": 0
+ },
+ "seconds": 256.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

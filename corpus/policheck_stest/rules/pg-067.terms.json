@@ -1,0 +1,128 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "profile": "account profile",
+    "profile data": "account profile"
+   },
+   "parents": {
+    "photos": [
+     "photos and videos",
+     "user content"
+    ],
+    "photos and videos": [
+     "user content"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "advertising id": [
+     "uuid"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "bank account details": [
+     "personal data"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "crash data": [
+     "performance diagnostic data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "our trusted partners"
+   },
+   "parents": {
+    "ad network": [
+     "third party entity"
+    ],
+    "advertisers": [
+     "third party entity"
+    ],
+    "justsayhi.com": [
+     "other sites/apps on the network"
+    ],
+    "all customers within the Mingle Ltd database": [
+     "other users"
+    ],
+    "contacts": [
+     "friends"
+    ],
+    "our trusted partners": [
+     "third party entity"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "social media platform",
+     "third-party service"
+    ],
+    "social media platform": [
+     "third-party service"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide-service"
+   },
+   "parents": {
+    "analytics": [
+     "improve-service"
+    ],
+    "navigation": [
+     "provide-service"
+    ],
+    "payments": [
+     "provide-service"
+    ],
+    "profiling": [
+     "advertising"
+    ],
+    "registration": [
+     "provide-service"
+    ],
+    "social features": [
+     "provide-service"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1794,
+  "completion_tokens": 505,
+  "thinking_tokens": 0,
+  "seconds": 26.309610605239868,
+  "failures": 0
+ },
+ "seconds": 26.4
+}

@@ -1,0 +1,282 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "driver license number": "driver license",
+    "email address": "email",
+    "government-issued ID": "government ID",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "reviews": "feedback",
+    "uploaded trip photos": "photos"
+   },
+   "parents": {
+    "SSN": [
+     "sensitive personal data"
+    ],
+    "social insurance number": [
+     "sensitive personal data"
+    ],
+    "approximate location": [
+     "geographic location",
+     "geolocation",
+     "location"
+    ],
+    "precise location": [
+     "geographic location",
+     "geolocation",
+     "location"
+    ],
+    "vehicle location": [
+     "location"
+    ],
+    "delivery location": [
+     "location"
+    ],
+    "city": [
+     "approximate location",
+     "location"
+    ],
+    "driver license": [
+     "driver's license information",
+     "driving license details",
+     "government ID"
+    ],
+    "driver license issue date and jurisdiction": [
+     "driver's license information",
+     "driving license details"
+    ],
+    "driver's license information": [
+     "government ID"
+    ],
+    "driving license details": [
+     "government ID"
+    ],
+    "driving conviction history": [
+     "driving record"
+    ],
+    "email": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "vehicle address": [
+     "location"
+    ],
+    "profile photo": [
+     "photo",
+     "photos",
+     "profile",
+     "user profile"
+    ],
+    "biography": [
+     "profile",
+     "user profile"
+    ],
+    "browsing activity": [
+     "online_activity"
+    ],
+    "activity on page": [
+     "online_activity"
+    ],
+    "time spent on page": [
+     "online_activity"
+    ],
+    "navigation paths": [
+     "online_activity"
+    ],
+    "search queries": [
+     "online_activity"
+    ],
+    "service usage data": [
+     "online_activity"
+    ],
+    "operating system": [
+     "device_data"
+    ],
+    "browser type": [
+     "device_data"
+    ],
+    "device display information": [
+     "device_data"
+    ],
+    "device hardware information": [
+     "device_data"
+    ],
+    "unique device identifier": [
+     "device_data"
+    ],
+    "ip address": [
+     "device_data"
+    ],
+    "transaction amounts": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "transaction history"
+    ],
+    "booking history": [
+     "transaction history"
+    ],
+    "claim history": [
+     "insurance information"
+    ],
+    "personal data collected through SMS": [
+     "personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "bank account details": [
+     "digital payment details"
+    ],
+    "facial geometry": [
+     "biography",
+     "sensitive personal data"
+    ],
+    "vehicle availability dates": [
+     "calendar availability"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "host": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "law enforcement": [
+     "government authority"
+    ],
+    "court": [
+     "government authority"
+    ],
+    "photographer": [
+     "service provider"
+    ],
+    "social media platform": [
+     "third-party platform"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "professional advisor": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "DVLA driver database": [
+     "third party"
+    ],
+    "mobile_device": [
+     "user device"
+    ],
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "advertising_partner": [
+     "third party"
+    ],
+    "search engines": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "Motor Insurers' Bureau": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud prevention",
+    "security": "for the security and safety purposes described above",
+    "service_provision": "service provision",
+    "to comply with our legal obligations or legal process": "compliance",
+    "verification": "user identification and authentication"
+   },
+   "parents": {
+    "account.management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "communication": [
+     "service provision"
+    ],
+    "compliance": [
+     "legal_compliance"
+    ],
+    "fraud prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "legal": [
+     "legal_compliance"
+    ],
+    "legal compliance": [
+     "legal_compliance"
+    ],
+    "for the security and safety purposes described above": [
+     "fraud_prevention_and_security"
+    ],
+    "service.feature": [
+     "service provision"
+    ],
+    "service_optimization": [
+     "service provision"
+    ],
+    "to facilitate the connection": [
+     "service provision"
+    ],
+    "to protect the rights, property, or personal safety of Turo, our users, or others": [
+     "for the security and safety purposes described above"
+    ],
+    "to respond to claims asserted against us": [
+     "legal_compliance"
+    ],
+    "user identification and authentication": [
+     "fraud_prevention_and_security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3529,
+  "completion_tokens": 1406,
+  "thinking_tokens": 0,
+  "seconds": 12.310266017913818,
+  "failures": 0
+ },
+ "seconds": 12.4
+}

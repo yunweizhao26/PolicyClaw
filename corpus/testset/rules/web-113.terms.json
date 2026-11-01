@@ -1,0 +1,164 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "country of residence": "country",
+    "information collected by cookies": "general information collected through cookies",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "user-provided biography": "biography",
+    "zip/postal code": "postal code"
+   },
+   "parents": {
+    "IP address": [
+     "activity data"
+    ],
+    "activities on a website": [
+     "activity data"
+    ],
+    "application logs": [
+     "activity data"
+    ],
+    "billing and shipping address": [
+     "location"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browsing history": [
+     "activity data",
+     "website activity information"
+    ],
+    "credit or debit card number": [
+     "credit card information"
+    ],
+    "email read receipts": [
+     "activity data"
+    ],
+    "page interaction information": [
+     "activity data",
+     "website activity information",
+     "website interaction"
+    ],
+    "photograph or other likeness": [
+     "picture"
+    ],
+    "picture": [
+     "user profile"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "referring URL": [
+     "activity data"
+    ],
+    "biography": [
+     "user profile"
+    ],
+    "username": [
+     "user profile"
+    ],
+    "website analytics data": [
+     "activity data"
+    ],
+    "website activity information": [
+     "activity data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user"
+   },
+   "parents": {
+    "affiliated business": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "bands": [
+     "third party"
+    ],
+    "other businesses": [
+     "third party"
+    ],
+    "other user": [
+     "anyone"
+    ],
+    "third party": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Bandcamp's agents": [
+     "service provider",
+     "third party"
+    ],
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "fraud prevention": [
+     "security and fraud prevention"
+    ],
+    "security": [
+     "security and fraud prevention"
+    ],
+    "user identification": [
+     "social networking on service"
+    ],
+    "improve service": [
+     "operate business"
+    ],
+    "analytics": [
+     "operate business"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2664,
+  "completion_tokens": 674,
+  "thinking_tokens": 0,
+  "seconds": 12.388816833496094,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

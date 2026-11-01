@@ -1,0 +1,194 @@
+{
+ "cleaned_sha256": "apple-200",
+ "text_sha256": "603487013f192b31733edbfb19cc25ced79916690892005057ca9b1f5deb4d3f",
+ "site_id": "apple-200",
+ "sections": 15,
+ "rules": 132,
+ "report": {
+  "sections": 15,
+  "raw_rules": 101,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have access to",
+     "actor": {
+      "text": "These third parties",
+      "name": "service provider"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "solely for the provision of our Services and for the purposes set out above",
+       "name": "service provision"
+      },
+      {
+       "text": "as part of providing these services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-200#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information that we automatically collect (described under “Information Collected via Automated Means” above)",
+      "name": "automated collection data"
+     },
+     "recipient": {
+      "text": "advertising companies",
+      "name": "advertising partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for interest-based advertising",
+       "name": "targeted advertising"
+      },
+      {
+       "text": "allows us and our advertising partners to target and serve advertising to you",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "under “Information Collected via Automated Means” above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information that we automatically collect (described under “Information Collected via Automated Means” above)"
+    ],
+    "section": "apple-200#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be disclosed pursuant to the exercise of legal proceedings",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Information about our users, including Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to comply with a legal obligation or request",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to enforce our terms and conditions",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to prevent or resolve security or technical issues",
+       "name": "security"
+      },
+      {
+       "text": "to protect the rights, property or safety of Locket, users, a third party, or the public",
+       "name": "safety"
+      }
+     ],
+     "conditions": [
+      "pursuant to the exercise of legal proceedings if we are legally required to do so, or if we believe, in good faith, that such disclosure is necessary to comply with a legal obligation or request, to enforce our terms and conditions, to prevent or resolve security or technical issues, or to protect the rights, property or safety of Locket, users, a third party, or the public"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will be disclosed pursuant to the exercise of legal proceedings"
+    ],
+    "section": "apple-200#s6"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 41,
+  "completeness": {
+   "gaps": 151,
+   "gap_words": 1410
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 41,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 36821,
+  "completion_tokens": 20966,
+  "thinking_tokens": 0,
+  "seconds": 427.84291315078735,
+  "failures": 0
+ },
+ "seconds": 428.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

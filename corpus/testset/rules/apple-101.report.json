@@ -1,0 +1,659 @@
+{
+ "cleaned_sha256": "apple-101",
+ "text_sha256": "878e2cff503415069fab4d8dcbabc613d149237bb32f88125611cce50134e874",
+ "site_id": "apple-101",
+ "sections": 35,
+ "rules": 350,
+ "report": {
+  "sections": 35,
+  "raw_rules": 278,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use automated processing technology to make decisions about individuals that produce legal or similarly significant effects",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal_data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-101#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "made available",
+      "verb": "make available"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "information",
+      "text": "information we collect from and about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [
+      {
+       "text": "to help us analyze and understand your use of the Tubi Services, and manage and/or provide the Tubi Services, including to deliver videos, make our Apps available for download, register a Tubi account, organize contests or events, or deliver updates and emails from Tubi",
+       "name": "service_provision"
+      }
+     ],
+     "recipient": {
+      "name": "contractor",
+      "text": "certain service providers, such as contractors, chatbot providers, analytics and other measurement companies, and agents or sponsors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us analyze and understand your use of the Tubi Services, and manage and/or provide the Tubi Services, including to deliver videos, make our Apps available for download, register a Tubi account, organize contests or events, or deliver updates and emails from Tubi"
+    ],
+    "section": "apple-101#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may periodically send",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "promotional materials",
+      "name": "promotional materials"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "To contact you",
+       "name": "communication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "change your account setting in the “settings” function of the Tubi Services",
+      "follow the unsubscribe instructions at the bottom of each email"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may periodically send",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "notifications related to the Tubi Services",
+      "name": "service notifications"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "To contact you",
+       "name": "communication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "may not opt-out of",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "service notifications",
+      "name": "service notifications"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "opt-out of",
+      "verb": "opt-out"
+     },
+     "operation": "{'text': 'restriction', 'verb': 'restrict'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "may not opt-out of",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "other non-promotional emails",
+      "name": "service notifications"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "opt-out of",
+      "verb": "opt-out"
+     },
+     "operation": "{'text': 'restriction', 'verb': 'restrict'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "Tubi Affiliates",
+      "name": "affiliate"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "To share with Tubi Affiliates",
+       "name": "affiliate sharing"
+      },
+      {
+       "text": "for the purposes described in this Privacy Policy",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you as described in this Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "business partners",
+      "name": "business partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "To share with business partners",
+       "name": "commercial sharing"
+      },
+      {
+       "text": "to permit them to send you marketing communications consistent with your choices",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you as described in this Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "To protect the rights of Tubi and others",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: (i) protect, enforce, or defend the legal rights, privacy, safety, or property of Tubi, Tubi Affiliates or their employees, agents and contractors (including enforcement of our agreements and our terms of use)",
+       "name": "legal compliance"
+      },
+      {
+       "text": "(ii) protect the safety, privacy, and security of users of the Tubi Services or members of the public",
+       "name": "security"
+      },
+      {
+       "text": "(iii) protect against fraud or for risk management purposes",
+       "name": "fraud prevention and detection"
+      },
+      {
+       "text": "(iv) comply with the law or legal process",
+       "name": "legal compliance"
+      },
+      {
+       "text": "(v) respond to requests from public and government authorities",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "situations where Tubi has a good faith belief that such use or disclosure is necessary in order to: (i) protect, enforce, or defend the legal rights, privacy, safety, or property of Tubi, Tubi Affiliates or their employees, agents and contractors (including enforcement of our agreements and our terms of use); (ii) protect the safety, privacy, and security of users of the Tubi Services or members of the public; (iii) protect against fraud or for risk management purposes; (iv) comply with the law or legal process; or (v) respond to requests from public and government authorities"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you as described in this Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "{'text': 'disclosure', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "To protect the rights of Tubi and others",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: (i) protect, enforce, or defend the legal rights, privacy, safety, or property of Tubi, Tubi Affiliates or their employees, agents and contractors (including enforcement of our agreements and our terms of use)",
+       "name": "legal compliance"
+      },
+      {
+       "text": "(ii) protect the safety, privacy, and security of users of the Tubi Services or members of the public",
+       "name": "security"
+      },
+      {
+       "text": "(iii) protect against fraud or for risk management purposes",
+       "name": "fraud prevention and detection"
+      },
+      {
+       "text": "(iv) comply with the law or legal process",
+       "name": "legal compliance"
+      },
+      {
+       "text": "(v) respond to requests from public and government authorities",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "situations where Tubi has a good faith belief that such use or disclosure is necessary in order to: (i) protect, enforce, or defend the legal rights, privacy, safety, or property of Tubi, Tubi Affiliates or their employees, agents and contractors (including enforcement of our agreements and our terms of use); (ii) protect the safety, privacy, and security of users of the Tubi Services or members of the public; (iii) protect against fraud or for risk management purposes; (iv) comply with the law or legal process; or (v) respond to requests from public and government authorities"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may transfer",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you as described in this Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "the party or parties involved in the transaction",
+      "name": "acquirer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "To complete a merger or sale of assets or other corporate transaction",
+       "name": "merger or acquisition"
+      },
+      {
+       "text": "as part of that transaction",
+       "name": "merger or acquisition"
+      }
+     ],
+     "conditions": [
+      "If Tubi sells all or part of its business or makes a sale or transfer of its assets or is otherwise involved in an acquisition, reorganization, merger or transfer of all or a material part of its business (including in connection with a bankruptcy or similar proceedings) or other corporate transaction"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Tubi",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we collect about you as described in this Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "the party or parties involved in the transaction",
+      "name": "acquirer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "To complete a merger or sale of assets or other corporate transaction",
+       "name": "merger or acquisition"
+      },
+      {
+       "text": "as part of that transaction",
+       "name": "merger or acquisition"
+      }
+     ],
+     "conditions": [
+      "If Tubi sells all or part of its business or makes a sale or transfer of its assets or is otherwise involved in an acquisition, reorganization, merger or transfer of all or a material part of its business (including in connection with a bankruptcy or similar proceedings) or other corporate transaction"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-101#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use automated processing technology to make decisions about individuals that produce legal or similarly significant effects",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-101#s28"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in “profiling” in furtherance of decisions that produce a legal or similarly significant effect",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-101#s28"
+   }
+  ],
+  "residual_quotes": 45,
+  "quotes": 139,
+  "completeness": {
+   "gaps": 389,
+   "gap_words": 4605
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 139,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 65,
+  "cached": 0,
+  "prompt_tokens": 108029,
+  "completion_tokens": 59933,
+  "thinking_tokens": 4243,
+  "seconds": 1176.4978108406067,
+  "failures": 0
+ },
+ "seconds": 1178.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

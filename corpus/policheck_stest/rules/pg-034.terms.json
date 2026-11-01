@@ -1,0 +1,85 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "collected personal data"
+   },
+   "parents": {
+    "daily activities": [
+     "collected personal data"
+    ],
+    "date of birth": [
+     "collected personal data"
+    ],
+    "gender": [
+     "collected personal data"
+    ],
+    "health data": [
+     "collected personal data"
+    ],
+    "height": [
+     "collected personal data",
+     "health data"
+    ],
+    "location data": [
+     "collected personal data"
+    ],
+    "social media profile": [
+     "social media account"
+    ],
+    "weight": [
+     "collected personal data",
+     "health data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "information reseller": "data broker"
+   },
+   "parents": {
+    "Facebook": [
+     "business partner"
+    ],
+    "Google": [
+     "business partner"
+    ],
+    "MyFitnessPal": [
+     "business partner"
+    ],
+    "advertising partner": [
+     "business partner"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics or research": [
+     "service delivery"
+    ],
+    "advertising": [
+     "service delivery"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1032,
+  "completion_tokens": 251,
+  "thinking_tokens": 0,
+  "seconds": 7.841667890548706,
+  "failures": 0
+ },
+ "seconds": 7.9
+}

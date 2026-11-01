@@ -1,0 +1,82 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personally Identifiable Information",
+    "personal information": "Personally Identifiable Information",
+    "personally identifiable information": "Personally Identifiable Information"
+   },
+   "parents": {
+    "credit card number": [
+     "Personally Identifiable Information",
+     "billing information",
+     "invoice related information",
+     "transaction data"
+    ],
+    "billing information": [
+     "Personally Identifiable Information",
+     "transaction data"
+    ],
+    "invoice related information": [
+     "transaction data"
+    ],
+    "order processing data": [
+     "transaction data"
+    ],
+    "unique device identifier": [
+     "unique identifier"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "data shared through service": [
+     "data provided by user"
+    ],
+    "phone number": [
+     "Personally Identifiable Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "other user": [
+     "public",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "feedback": [
+     "service communication"
+    ],
+    "personalization of service": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1632,
+  "completion_tokens": 331,
+  "thinking_tokens": 0,
+  "seconds": 12.46569561958313,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

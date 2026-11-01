@@ -1,0 +1,290 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "basic account data": "account information",
+    "chat message contents": "chat message content",
+    "contacts": "contact list",
+    "location": "geolocation data",
+    "message": "chat message",
+    "messages": "chat message",
+    "payments": "payment",
+    "phone_number": "phone number",
+    "user data": "personal data"
+   },
+   "parents": {
+    "account information": [
+     "personal data"
+    ],
+    "ad-related data": [
+     "data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "anonymized phone number": [
+     "phone number"
+    ],
+    "audio data": [
+     "data",
+     "media"
+    ],
+    "call logs": [
+     "metadata",
+     "personal data"
+    ],
+    "channel post": [
+     "user post"
+    ],
+    "channels followed": [
+     "personal data",
+     "service_usage_details"
+    ],
+    "chat message": [
+     "chat data",
+     "chat_content"
+    ],
+    "chat message content": [
+     "chat_content",
+     "message contents"
+    ],
+    "chat_content": [
+     "chat data"
+    ],
+    "contact list": [
+     "contact data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "cookies": [
+     "data",
+     "metadata"
+    ],
+    "credit card details": [
+     "financial transaction history",
+     "payment"
+    ],
+    "email_address": [
+     "contact data",
+     "personal data"
+    ],
+    "end-to-end encrypted data": [
+     "data"
+    ],
+    "financial transaction history": [
+     "payment"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "geolocation data": [
+     "personal data"
+    ],
+    "group activity": [
+     "service_usage_details"
+    ],
+    "group membership status": [
+     "account information",
+     "service_usage_details"
+    ],
+    "inline bot query": [
+     "service_usage_details"
+    ],
+    "interface language": [
+     "user_preferences"
+    ],
+    "ip address": [
+     "metadata"
+    ],
+    "log_data": [
+     "metadata"
+    ],
+    "media": [
+     "files"
+    ],
+    "message contents": [
+     "chat message"
+    ],
+    "metadata": [
+     "data"
+    ],
+    "payment": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "photos": [
+     "media"
+    ],
+    "physical_location": [
+     "geolocation data"
+    ],
+    "profile picture": [
+     "public account data",
+     "user_profile_information"
+    ],
+    "public account data": [
+     "account information"
+    ],
+    "screen name": [
+     "user_profile_information",
+     "username"
+    ],
+    "shipping information": [
+     "personal data"
+    ],
+    "text message content": [
+     "chat message content",
+     "message contents"
+    ],
+    "token": [
+     "data"
+    ],
+    "transcripts": [
+     "chat_content"
+    ],
+    "user post": [
+     "chat data"
+    ],
+    "user_documents": [
+     "files"
+    ],
+    "user_name": [
+     "user_profile_information"
+    ],
+    "user_preferences": [
+     "personal data"
+    ],
+    "user_profile_information": [
+     "account information"
+    ],
+    "username": [
+     "public account data",
+     "user_profile_information"
+    ],
+    "videos": [
+     "media"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party bot developers": "bot developer"
+   },
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Microsoft": [
+     "third party"
+    ],
+    "payment provider": [
+     "third party"
+    ],
+    "bot developer": [
+     "third party"
+    ],
+    "Telegram FZ-LLC": [
+     "first party"
+    ],
+    "Telegram Group Inc": [
+     "first party"
+    ],
+    "Telegraph Inc.": [
+     "first party"
+    ],
+    "inline bot": [
+     "bot developer"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third-party bot developers": "bot developer"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "moderator": [
+     "first party"
+    ],
+    "payment provider": [
+     "third party"
+    ],
+    "bot developer": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention": "fraud prevention and safety",
+    "service operation and provision": "provide-service",
+    "service provision": "provide-service"
+   },
+   "parents": {
+    "account verification": [
+     "security"
+    ],
+    "to send you authentication codes when you log in to your account": [
+     "account verification",
+     "security"
+    ],
+    "to send you a password recovery code if you forget it": [
+     "account verification",
+     "security"
+    ],
+    "to create a Telegram account": [
+     "provide-service"
+    ],
+    "notifications": [
+     "provide-service"
+    ],
+    "service operation": [
+     "provide-service"
+    ],
+    "storage optimization": [
+     "service operation"
+    ],
+    "user interface customization": [
+     "personalization"
+    ],
+    "so that you can access your data from any of your devices anytime without having to rely on third-party backups": [
+     "provide-service"
+    ],
+    "identity management": [
+     "provide-service"
+    ],
+    "To make it easier for your contacts and other people to reach you and recognize who you are": [
+     "identity management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2697,
+  "completion_tokens": 1445,
+  "thinking_tokens": 0,
+  "seconds": 12.405076026916504,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

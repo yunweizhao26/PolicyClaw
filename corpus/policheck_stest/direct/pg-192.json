@@ -1,0 +1,22 @@
+{
+ "policy": "pg-192",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "This permission is used to send current location to the receiver.",
+   "prohibit": "We never share your information with third parties.",
+   "situation": "A user uses the keyboard app to send their current location to another party (receiver).",
+   "reason": "The policy flatly asserts that user information is never shared with third parties, without carving out an exception for user-initiated sharing of location data.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1820,
+  "completion_tokens": 129,
+  "thinking_tokens": 0,
+  "seconds": 1.9361515045166016,
+  "failures": 0
+ }
+}

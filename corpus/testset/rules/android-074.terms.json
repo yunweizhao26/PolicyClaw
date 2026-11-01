@@ -1,0 +1,329 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "confidential data": "Confidential Data",
+    "hardware model": "device model",
+    "ip_address": "ip address",
+    "language settings": "language",
+    "location data": "location",
+    "os": "operating system",
+    "personal data": "Personal Data",
+    "social network user id": "social network identifier",
+    "telephone number": "phone number",
+    "user name": "name",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "account identifier": [
+     "Personal Data",
+     "identifiable personal data"
+    ],
+    "ad performance data": [
+     "advertising data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "demographic_data"
+    ],
+    "billing details": [
+     "financial data"
+    ],
+    "browser type": [
+     "system information"
+    ],
+    "browsing behavior": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "browsing_history"
+    ],
+    "clicks": [
+     "browsing behavior"
+    ],
+    "Confidential Data": [
+     "data"
+    ],
+    "contact data": [
+     "Personal Data"
+    ],
+    "cookie identifiers": [
+     "cookies"
+    ],
+    "cookies": [
+     "cookies and tracking technologies"
+    ],
+    "credit card number": [
+     "billing details",
+     "financial data"
+    ],
+    "customer service records": [
+     "communications"
+    ],
+    "de-identified data": [
+     "data"
+    ],
+    "demographic_data": [
+     "Personal Data"
+    ],
+    "device identifier": [
+     "device_information",
+     "hardware_identifier"
+    ],
+    "device model": [
+     "device_information"
+    ],
+    "device name": [
+     "device_information"
+    ],
+    "device type": [
+     "device_information"
+    ],
+    "device_information": [
+     "data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "game activity details": [
+     "gameplay data"
+    ],
+    "gender": [
+     "demographic_data"
+    ],
+    "hardware device identifier": [
+     "hardware_identifier"
+    ],
+    "hardware_identifier": [
+     "device_information"
+    ],
+    "identifiable personal data": [
+     "Personal Data"
+    ],
+    "idfa": [
+     "advertising identifier"
+    ],
+    "interaction duration": [
+     "browsing behavior"
+    ],
+    "ip address": [
+     "device_information"
+    ],
+    "isp": [
+     "system information"
+    ],
+    "language": [
+     "preferences",
+     "user_settings"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "mobile_app_data": [
+     "data"
+    ],
+    "name": [
+     "contact data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "operating system": [
+     "device_information",
+     "system information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "other data": [
+     "data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "preferences": [
+     "user_settings"
+    ],
+    "profile information": [
+     "user profile"
+    ],
+    "profile picture": [
+     "profile information"
+    ],
+    "pseudonymous nickname": [
+     "account identifier"
+    ],
+    "purchase history": [
+     "records of payments"
+    ],
+    "queries": [
+     "user content"
+    ],
+    "records of payments": [
+     "financial data"
+    ],
+    "server logs": [
+     "cookies and tracking technologies"
+    ],
+    "social network identifier": [
+     "account identifier"
+    ],
+    "software version": [
+     "system information"
+    ],
+    "system information": [
+     "device_information"
+    ],
+    "time zone": [
+     "system information"
+    ],
+    "timestamp": [
+     "server logs"
+    ],
+    "tracking technologies": [
+     "cookies and tracking technologies"
+    ],
+    "unspecified": [
+     "data"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user profile": [
+     "user data"
+    ],
+    "user_settings": [
+     "user profile"
+    ],
+    "web beacons": [
+     "cookies and tracking technologies",
+     "tracking technologies"
+    ],
+    "Personally Identifiable Data": [
+     "Personal Data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising network": "advertising network",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "App Stores": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "user friend": [
+     "other user",
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "ad analytics": [
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "commercial purpose",
+     "marketing"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "dispute-resolution": [
+     "compliance"
+    ],
+    "enforce-contract": [
+     "compliance"
+    ],
+    "legal-defense": [
+     "compliance"
+    ],
+    "audit": [
+     "compliance"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service provision": [
+     "service operation"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "customer-support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2902,
+  "completion_tokens": 1378,
+  "thinking_tokens": 0,
+  "seconds": 14.402510166168213,
+  "failures": 0
+ },
+ "seconds": 14.5
+}

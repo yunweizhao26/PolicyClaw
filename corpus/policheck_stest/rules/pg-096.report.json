@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "pg-096",
+ "text_sha256": "16fe91b91054ccf46309853031992860e8b39afeb6c757e29cebb44bc6b98d4f",
+ "site_id": "pg-096",
+ "sections": 7,
+ "rules": 173,
+ "report": {
+  "sections": 7,
+  "raw_rules": 133,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "From time to time"
+     ],
+     "data": {
+      "name": "email address",
+      "text": ""
+     },
+     "exceptions": [
+      "the opt out in the email body"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will send",
+     "purpose": [
+      {
+       "text": "newsletter emails",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-096#s3"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 47,
+  "completeness": {
+   "gaps": 128,
+   "gap_words": 1792
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 47,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 28299,
+  "completion_tokens": 24884,
+  "thinking_tokens": 0,
+  "seconds": 154.71995043754578,
+  "failures": 0
+ },
+ "seconds": 155.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "location information": "location",
+    "personal information": "personal data",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "bank account information": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "username": [
+     "identity information"
+    ],
+    "password": [
+     "identity information"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "wi-fi network information": [
+     "network and device information"
+    ],
+    "cookies": [
+     "technical information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "criminal history data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party advertising companies": "advertising partner"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "recipient category",
+     "third party"
+    ],
+    "third party": [
+     "recipient category"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "PSafe"
+   },
+   "parents": {
+    "Google Play": [
+     "service provider",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "customization",
+    "service provision": "service delivery"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "account management": [
+     "service administration"
+    ],
+    "service updates": [
+     "communication"
+    ],
+    "legal compliance": [
+     "compliance and operations"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "customization": [
+     "service personalising"
+    ],
+    "service personalising": [
+     "services"
+    ],
+    "service delivery": [
+     "services"
+    ],
+    "service administration": [
+     "services"
+    ],
+    "service improvement": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2191,
+  "completion_tokens": 558,
+  "thinking_tokens": 0,
+  "seconds": 22.24335026741028,
+  "failures": 0
+ },
+ "seconds": 22.3
+}

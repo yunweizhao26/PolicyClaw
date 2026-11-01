@@ -1,0 +1,204 @@
+{
+ "cleaned_sha256": "apple-141",
+ "text_sha256": "0d85efc2675d679780614618369f4aaa43a352474f71ca30114937d1fd2d70f8",
+ "site_id": "apple-141",
+ "sections": 7,
+ "rules": 159,
+ "report": {
+  "sections": 7,
+  "raw_rules": 132,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "when you connect other services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-141#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may count as “selling”",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "“selling”",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "under certain privacy laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "under certain privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-141#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "Operate and maintain the security of our services, including to prevent or stop an attack on our computer systems or networks",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "if we believe it is necessary to: Operate and maintain the security of our services, including to prevent or stop an attack on our computer systems or networks"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we believe it is necessary to: Operate and maintain the security of our services, including to prevent or stop an attack on our computer systems or networks"
+    ],
+    "section": "apple-141#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "Protect the rights or property of ourselves or others, including enforcing our agreements, terms, and policies",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we believe it is necessary to: Protect the rights or property of ourselves or others, including enforcing our agreements, terms, and policies"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we believe it is necessary to: Protect the rights or property of ourselves or others, including enforcing our agreements, terms, and policies"
+    ],
+    "section": "apple-141#s4"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 58,
+  "completeness": {
+   "gaps": 219,
+   "gap_words": 2161
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 58,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 28546,
+  "completion_tokens": 23424,
+  "thinking_tokens": 0,
+  "seconds": 313.71131348609924,
+  "failures": 0
+ },
+ "seconds": 314.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

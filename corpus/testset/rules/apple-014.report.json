@@ -1,0 +1,160 @@
+{
+ "cleaned_sha256": "apple-014",
+ "text_sha256": "1323e9e6ee0fff1c21eb9c9c926670365f8f357f6b8f8bc343d1943d6f2a9050",
+ "site_id": "apple-014",
+ "sections": 19,
+ "rules": 393,
+ "report": {
+  "sections": 19,
+  "raw_rules": 344,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "associate",
+      "verb": "associate"
+     },
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "data": {
+      "name": "information",
+      "text": "information we collect from your different devices"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to provide consistent services across your devices",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide consistent services across your devices"
+    ],
+    "section": "apple-014#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Specific pieces of CA Personal Information we have collected about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "As a California resident",
+      "from January 1, 2022, to the date of receipt of your request",
+      "including in a portable, machine-readable format"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-014#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "If you have an existing Walgreens account",
+      "by logging on to your account and using the Customer Preference Center"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-014#s18"
+   }
+  ],
+  "residual_quotes": 44,
+  "quotes": 148,
+  "completeness": {
+   "gaps": 692,
+   "gap_words": 6339
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 39,
+  "translated_quotes": 148,
+  "compile_failures": 4,
+  "fixed_structurally": 0,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 41,
+  "cached": 0,
+  "prompt_tokens": 82583,
+  "completion_tokens": 62222,
+  "thinking_tokens": 0,
+  "seconds": 771.6553587913513,
+  "failures": 0
+ },
+ "seconds": 773.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

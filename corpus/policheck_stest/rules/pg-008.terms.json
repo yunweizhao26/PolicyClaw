@@ -1,0 +1,69 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "any data"
+   },
+   "parents": {
+    "app usage data": [
+     "any data"
+    ],
+    "cookies": [
+     "any data"
+    ],
+    "email address": [
+     "any data",
+     "personal data"
+    ],
+    "personal data": [
+     "any data"
+    ],
+    "support content": [
+     "any data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child users": [
+     "children"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service improvement": "analytics"
+   },
+   "parents": {
+    "analytics": [
+     "service operation"
+    ],
+    "customer support": [
+     "service operation"
+    ],
+    "security": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1048,
+  "completion_tokens": 249,
+  "thinking_tokens": 0,
+  "seconds": 13.237817525863647,
+  "failures": 0
+ },
+ "seconds": 13.3
+}

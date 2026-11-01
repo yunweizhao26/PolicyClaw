@@ -1,0 +1,172 @@
+{
+ "cleaned_sha256": "apple-067",
+ "text_sha256": "e7974af5edaa33e3abcd3da19763171c5bb7e9bca917e5fbe8a009d02f31c9bd",
+ "site_id": "apple-067",
+ "sections": 26,
+ "rules": 252,
+ "report": {
+  "sections": 26,
+  "raw_rules": 230,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "infer",
+      "verb": "infer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "For all Users",
+      "based on your use of our Services and other available information"
+     ],
+     "data": {
+      "name": "personal data inferences",
+      "text": "additional Personal Data about you, including demographic characteristics such as age range, gender, and parental status"
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "may infer",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may infer"
+    ],
+    "section": "apple-067#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "work with",
+      "verb": "work with"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Eventbrite"
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified data",
+      "text": ""
+     },
+     "exceptions": [
+      "click the\nDo Not Sell Or Share My Personal Information\nlink in the footer of our\nhomepage\n.\nTo complete your request, you must switch the toggle and submit a request through the\nEventbrite Privacy Center"
+     ],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to show you ads that are targeted to your interests",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "advertising partners",
+      "text": "certain advertising partners"
+     },
+     "references": [
+      {
+       "text": "as described in section 4.4 of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-067#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Eventbrite",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "with additional notice of such Modifications",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "In certain circumstances",
+      "such as via email or with in-Service notifications"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-067#s20"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 131,
+  "completeness": {
+   "gaps": 278,
+   "gap_words": 3397
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 131,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 80824,
+  "completion_tokens": 46666,
+  "thinking_tokens": 0,
+  "seconds": 981.2552604675293,
+  "failures": 0
+ },
+ "seconds": 982.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

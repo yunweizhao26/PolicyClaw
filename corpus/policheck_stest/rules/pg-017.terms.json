@@ -1,0 +1,173 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "child's personal data": "child personal data",
+    "information": "data",
+    "location": "geographic location",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personally identifiable information": "Personal Information",
+    "text message": "sms content"
+   },
+   "parents": {
+    "IP address": [
+     "Personal Information"
+    ],
+    "child personal data": [
+     "Personal Information"
+    ],
+    "child name": [
+     "child personal data",
+     "name"
+    ],
+    "child email address": [
+     "child personal data",
+     "email address"
+    ],
+    "child phone number": [
+     "child personal data",
+     "contact details"
+    ],
+    "child date of birth": [
+     "child personal data"
+    ],
+    "child gender": [
+     "child personal data",
+     "gender"
+    ],
+    "child profile photo": [
+     "child personal data",
+     "profile picture"
+    ],
+    "email address": [
+     "Personal Information",
+     "contact details"
+    ],
+    "name": [
+     "Personal Information"
+    ],
+    "password": [
+     "Personal Information"
+    ],
+    "account identifier": [
+     "Personal Information"
+    ],
+    "social media handle": [
+     "account identifier"
+    ],
+    "profile picture": [
+     "Personal Information"
+    ],
+    "gender": [
+     "Personal Information"
+    ],
+    "age": [
+     "Personal Information"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "page visits": [
+     "usage data"
+    ],
+    "visit frequency": [
+     "usage data"
+    ],
+    "referring app": [
+     "usage data"
+    ],
+    "analytics data": [
+     "usage data"
+    ],
+    "anonymous information based on facebook information": [
+     "anonymous information"
+    ],
+    "anonymous information": [
+     "anonymous or de-identified information"
+    ],
+    "submitted content": [
+     "content"
+    ],
+    "data that we collect from you": [
+     "data"
+    ],
+    "data you provide us": [
+     "data"
+    ],
+    "online activities": [
+     "usage data"
+    ],
+    "time zone": [
+     "geographic location"
+    ],
+    "geographic location": [
+     "Personal Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "third party",
+     "third party service providers"
+    ],
+    "third party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "marketing": "advertising",
+    "services": "service improvement",
+    "user authentication or security": "identity and access management"
+   },
+   "parents": {
+    "registration": [
+     "service provision"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "identity and access management": [
+     "security"
+    ],
+    "enforcement of terms": [
+     "legal compliance"
+    ],
+    "storage": [
+     "processing operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2190,
+  "completion_tokens": 749,
+  "thinking_tokens": 0,
+  "seconds": 11.582180261611938,
+  "failures": 0
+ },
+ "seconds": 11.7
+}

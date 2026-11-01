@@ -1,0 +1,337 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "city or town": "city",
+    "contact information": "contact details",
+    "information": "data",
+    "ip address": "IP address",
+    "mobile device id": "hardware-based device ID",
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive data",
+    "state or province of residence": "state or province"
+   },
+   "parents": {
+    "IP address": [
+     "network information"
+    ],
+    "account credentials": [
+     "account information"
+    ],
+    "bank details": [
+     "financial information"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "campaign name": [
+     "fundraiser details"
+    ],
+    "chat transcript": [
+     "customer support communications",
+     "interaction logs"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "city": [
+     "location"
+    ],
+    "cookie id": [
+     "cookie / identifier"
+    ],
+    "country": [
+     "location"
+    ],
+    "customer support communications": [
+     "communication content"
+    ],
+    "date of transaction": [
+     "transaction history"
+    ],
+    "date photo taken": [
+     "photo metadata"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "donation amount": [
+     "donation",
+     "financial information"
+    ],
+    "donor information": [
+     "user data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "feedback": [
+     "communication content"
+    ],
+    "government identification number": [
+     "identifying information",
+     "personal identity"
+    ],
+    "hardware-based device ID": [
+     "cookie / identifier"
+    ],
+    "health information": [
+     "sensitive data"
+    ],
+    "identity of user": [
+     "identifying information",
+     "personal identity"
+    ],
+    "imprecise location": [
+     "location"
+    ],
+    "location photo taken": [
+     "location",
+     "photo metadata"
+    ],
+    "mobile advertising id": [
+     "cookie / identifier"
+    ],
+    "name": [
+     "contact details",
+     "identifying information",
+     "personal identity"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "phone call recording": [
+     "customer support communications"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "user content"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile name": [
+     "account profile",
+     "profile information",
+     "user profile"
+    ],
+    "referring website": [
+     "browsing activity"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social network contacts": [
+     "contacts"
+    ],
+    "social network id": [
+     "identifying information"
+    ],
+    "state or province": [
+     "location"
+    ],
+    "third-party service profile information": [
+     "account profile",
+     "profile information"
+    ],
+    "time photo taken": [
+     "photo metadata"
+    ],
+    "transaction ID": [
+     "transaction history"
+    ],
+    "user communications": [
+     "communication content"
+    ],
+    "user profile": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising provider": "advertising partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising partner": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "public authority"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third parties"
+    ],
+    "the United States": [
+     "the United States and other locations"
+    ],
+    "other users": [
+     "users"
+    ],
+    "user": [
+     "users"
+    ],
+    "users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "user"
+    ],
+    "GoFundMe Pro Client": [
+     "user"
+    ],
+    "third-party service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "vendor": "service provider"
+   },
+   "parents": {
+    "AI vendor": [
+     "service provider"
+    ],
+    "advertising partner": [
+     "service provider",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "non-profit organization beneficiary": [
+     "nonprofit"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligations",
+    "payment processing": "payment handling"
+   },
+   "parents": {
+    "administering funds": [
+     "service operation"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "analytics or research": [
+     "other"
+    ],
+    "compliance with legal obligations": [
+     "operations"
+    ],
+    "customer support": [
+     "communication",
+     "support and maintenance"
+    ],
+    "device identification": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention",
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "fundraising": [
+     "service provision"
+    ],
+    "identity verification": [
+     "user authentication",
+     "user identification"
+    ],
+    "payment handling": [
+     "service operation"
+    ],
+    "personalization": [
+     "service optimization"
+    ],
+    "recommendation": [
+     "personalization"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "service improvement": [
+     "service operation and improvement",
+     "service optimization"
+    ],
+    "service operation": [
+     "operations",
+     "service operation and improvement"
+    ],
+    "service operation and improvement": [
+     "operations"
+    ],
+    "service provision": [
+     "service operation"
+    ],
+    "support and maintenance": [
+     "service operation"
+    ],
+    "user authentication": [
+     "security"
+    ],
+    "user identification": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3863,
+  "completion_tokens": 1577,
+  "thinking_tokens": 0,
+  "seconds": 17.89609169960022,
+  "failures": 0
+ },
+ "seconds": 18.0
+}

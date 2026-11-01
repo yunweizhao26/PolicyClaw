@@ -1,0 +1,281 @@
+{
+ "cleaned_sha256": "apple-105",
+ "text_sha256": "36c9a242a42be96f2105b379b6e5019f0f073014d48038d0d2c8c066302dca1b",
+ "site_id": "apple-105",
+ "sections": 20,
+ "rules": 508,
+ "report": {
+  "sections": 20,
+  "raw_rules": 358,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect and obtain",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal identifier",
+      "text": "your identity"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect and obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "agencies and other entities that provide credit scoring, identity verification, fraud prevention, and similar services"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "your identity"
+    ],
+    "section": "apple-105#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "These third parties"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may use tracking technologies to receive",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "Services",
+      "text": "the Services"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use tracking technologies to receive"
+    ],
+    "section": "apple-105#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "These third parties"
+     },
+     "conditions": [],
+     "data": {
+      "name": "information",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may use tracking technologies to receive",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "elsewhere on the internet"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use tracking technologies to receive"
+    ],
+    "section": "apple-105#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "Some of our websites have features such as plugins, widgets, and other tools made available by third parties"
+     ],
+     "data": {
+      "name": "information",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may result in information being disclosed",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "the third party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may result in information being disclosed"
+    ],
+    "section": "apple-105#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any that we have collected directly from you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of one of these following states",
+      "in certain circumstances",
+      "You also have the right to request, in certain circumstances, that we delete any that we have collected directly from you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You also have the right to request, in certain circumstances, that we delete any that we have collected directly from you"
+    ],
+    "section": "apple-105#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosures",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosures",
+      "verb": "disclose"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "U.S. residents",
+      "considered “sales” under applicable state laws"
+     ],
+     "exceptions": [
+      "opt out"
+     ],
+     "references": [
+      {
+       "text": "applicable state laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "our “Your Privacy Choices” page at\nhttp://www.jerseymikes.com/privacy-policy#show-choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-105#s15"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 86,
+  "completeness": {
+   "gaps": 292,
+   "gap_words": 2916
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 15,
+  "translated_quotes": 86,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 66808,
+  "completion_tokens": 65498,
+  "thinking_tokens": 0,
+  "seconds": 824.9079973697662,
+  "failures": 0
+ },
+ "seconds": 826.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

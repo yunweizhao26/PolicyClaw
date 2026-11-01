@@ -1,0 +1,162 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information"
+   },
+   "parents": {
+    "account data": [
+     "information about users"
+    ],
+    "account profile": [
+     "account data"
+    ],
+    "authentication token": [
+     "account data"
+    ],
+    "browser settings": [
+     "configuration information"
+    ],
+    "browser type": [
+     "log run-time data"
+    ],
+    "city of residence": [
+     "physical address"
+    ],
+    "communication contents": [
+     "user content"
+    ],
+    "country of residence": [
+     "physical address"
+    ],
+    "financial account number": [
+     "payment details"
+    ],
+    "hardware model": [
+     "log run-time data"
+    ],
+    "information received from Google APIs": [
+     "Google user data"
+    ],
+    "operating system": [
+     "log run-time data"
+    ],
+    "organization name": [
+     "business information"
+    ],
+    "payment details": [
+     "Personal Information"
+    ],
+    "payment history": [
+     "Personal Information"
+    ],
+    "postal code": [
+     "physical address"
+    ],
+    "profile picture": [
+     "account profile"
+    ],
+    "public activity": [
+     "usage data"
+    ],
+    "user content": [
+     "Personal Information"
+    ],
+    "information about users": [
+     "information"
+    ],
+    "non-identifying information": [
+     "information"
+    ],
+    "Personal Information": [
+     "information"
+    ],
+    "name": [
+     "Personal Information"
+    ],
+    "email address": [
+     "Personal Information"
+    ],
+    "phone number": [
+     "Personal Information"
+    ],
+    "physical address": [
+     "Personal Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under the age of 13": [
+     "user"
+    ],
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "DigitalOcean"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service"
+   },
+   "parents": {
+    "security": [
+     "other business purpose"
+    ],
+    "legal compliance": [
+     "other business purpose"
+    ],
+    "authentication": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "personalization": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2089,
+  "completion_tokens": 571,
+  "thinking_tokens": 0,
+  "seconds": 12.904606819152832,
+  "failures": 0
+ },
+ "seconds": 13.0
+}

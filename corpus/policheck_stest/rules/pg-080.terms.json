@@ -1,0 +1,220 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "personal data": "PII",
+    "personal information": "PII",
+    "service_usage_data": "browsing and interaction data",
+    "web_beacons": "pixel_tags"
+   },
+   "parents": {
+    "account profile": [
+     "account information"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "contact details": [
+     "PII"
+    ],
+    "cookie": [
+     "tracked information"
+    ],
+    "device characteristics": [
+     "device details"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "device details": [
+     "technical information"
+    ],
+    "friend list": [
+     "account information"
+    ],
+    "ip address": [
+     "technical information"
+    ],
+    "legal notices": [
+     "administrative notices"
+    ],
+    "service notices": [
+     "administrative notices"
+    ],
+    "service-related emails": [
+     "administrative notices"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile picture": [
+     "account profile"
+    ],
+    "public posts": [
+     "user post"
+    ],
+    "search_activity": [
+     "browsing and interaction data"
+    ],
+    "social network activity": [
+     "browsing and interaction data"
+    ],
+    "stored files metadata": [
+     "technical information"
+    ],
+    "tracked information": [
+     "technical information"
+    ],
+    "usage data": [
+     "browsing and interaction data"
+    ],
+    "user post": [
+     "information provided by user"
+    ],
+    "user_identifier": [
+     "account information"
+    ],
+    "pixel_tags": [
+     "tracked information"
+    ],
+    "PII": [
+     "user data"
+    ],
+    "personal information updates": [
+     "PII"
+    ],
+    "information provided by user": [
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ],
+    "technical information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "court": [
+     "government agency"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "contractors": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party recipients": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "event organizers": [
+     "third party"
+    ],
+    "user network followers": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social_network": "social network service"
+   },
+   "parents": {
+    "social network service": [
+     "third_party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "legal compliance": "compliance with legal obligations",
+    "legal_compliance": "compliance with legal obligations",
+    "personalization of services": "personalization",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "customer support": [
+     "service provision",
+     "service provision and improvement"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "investigation and enforcement": [
+     "compliance with legal obligations"
+    ],
+    "payment": [
+     "service performance",
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision and improvement"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ],
+    "dispute_resolution": [
+     "compliance with legal obligations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2503,
+  "completion_tokens": 973,
+  "thinking_tokens": 0,
+  "seconds": 16.768460750579834,
+  "failures": 0
+ },
+ "seconds": 16.9
+}

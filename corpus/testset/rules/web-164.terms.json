@@ -1,0 +1,214 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "email",
+    "gps location": "GPS location",
+    "information": "data",
+    "ip address": "IP address",
+    "mobile advertising id": "advertising identifier",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "survey responses": "survey response"
+   },
+   "parents": {
+    "bank account details": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment details"
+    ],
+    "driver's license number": [
+     "government-issued identification number"
+    ],
+    "email": [
+     "contact details",
+     "contact info"
+    ],
+    "GPS location": [
+     "location"
+    ],
+    "hardware id": [
+     "device stored data"
+    ],
+    "health information": [
+     "sensitive personal information"
+    ],
+    "advertising identifier": [
+     "hardware id"
+    ],
+    "passport number": [
+     "government-issued identification number"
+    ],
+    "phone number": [
+     "contact details",
+     "contact info"
+    ],
+    "postal address": [
+     "contact details",
+     "contact info"
+    ],
+    "privacy preferences": [
+     "preference",
+     "user settings"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "social security number": [
+     "government-issued identification number"
+    ],
+    "timestamp": [
+     "interaction data"
+    ],
+    "transaction-related email data": [
+     "service communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "third-party website": [
+     "website"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "first party": "BidMachine"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third party",
+     "third-party service provider"
+    ],
+    "Yandex Metrica": [
+     "third party",
+     "third-party service provider"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "other purpose": "other",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "account access": [
+     "user account management"
+    ],
+    "account verification": [
+     "authentication",
+     "user account management"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "interest-based advertising": [
+     "advertising"
+    ],
+    "tailored advertising": [
+     "advertising",
+     "personalization"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "interest-based advertising"
+    ],
+    "enforcing terms": [
+     "legal-enforcement"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ],
+    "legal-defense": [
+     "legal compliance"
+    ],
+    "legal-enforcement": [
+     "legal compliance"
+    ],
+    "employment administration": [
+     "human resources"
+    ],
+    "auditing": [
+     "service administration"
+    ],
+    "quality improvement": [
+     "product improvement"
+    ],
+    "product improvement": [
+     "research and development"
+    ],
+    "product development": [
+     "research and development"
+    ],
+    "service development": [
+     "product development"
+    ],
+    "service improvement": [
+     "product improvement"
+    ],
+    "analytics": [
+     "research and analysis"
+    ],
+    "research": [
+     "research and analysis"
+    ],
+    "research and analysis": [
+     "research and development"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "service updates": [
+     "customer support"
+    ],
+    "specified purpose": [
+     "fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3612,
+  "completion_tokens": 911,
+  "thinking_tokens": 0,
+  "seconds": 9.833719491958618,
+  "failures": 0
+ },
+ "seconds": 9.9
+}

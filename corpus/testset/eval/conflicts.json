@@ -1,0 +1,111 @@
+{
+ "android": {
+  "policies": 200,
+  "policies_with_term_relations": 200,
+  "pairs": 28730,
+  "kinds": {
+   "other": 27787,
+   "contradiction": 943
+  },
+  "relations": {
+   "incomparable": 24288,
+   "prohibition inside permission": 1867,
+   "policy exception": 938,
+   "permission inside prohibition": 926,
+   "exclusive guards": 694,
+   "same scope": 17
+  },
+  "outcomes": {
+   "overlap_candidate": 14506,
+   "unresolved": 12592,
+   "mutually_exclusive": 1632
+  },
+  "policies_with_a_contradiction": 80
+ },
+ "apple": {
+  "policies": 200,
+  "policies_with_term_relations": 200,
+  "pairs": 50192,
+  "kinds": {
+   "other": 48815,
+   "contradiction": 1377
+  },
+  "relations": {
+   "incomparable": 43754,
+   "prohibition inside permission": 2617,
+   "permission inside prohibition": 1345,
+   "exclusive guards": 1299,
+   "policy exception": 1145,
+   "same scope": 32
+  },
+  "outcomes": {
+   "mutually_exclusive": 2444,
+   "overlap_candidate": 28523,
+   "unresolved": 19225
+  },
+  "policies_with_a_contradiction": 86
+ },
+ "web": {
+  "policies": 200,
+  "policies_with_term_relations": 200,
+  "pairs": 74267,
+  "kinds": {
+   "other": 73213,
+   "contradiction": 1054
+  },
+  "relations": {
+   "incomparable": 63008,
+   "prohibition inside permission": 6711,
+   "policy exception": 2741,
+   "permission inside prohibition": 1029,
+   "exclusive guards": 753,
+   "same scope": 25
+  },
+  "outcomes": {
+   "unresolved": 43711,
+   "overlap_candidate": 27062,
+   "mutually_exclusive": 3494
+  },
+  "policies_with_a_contradiction": 75
+ },
+ "all": {
+  "policies": 600,
+  "policies_with_term_relations": 600,
+  "pairs": 153189,
+  "kinds": {
+   "other": 149815,
+   "contradiction": 3374
+  },
+  "relations": {
+   "incomparable": 131050,
+   "prohibition inside permission": 11195,
+   "policy exception": 4824,
+   "permission inside prohibition": 3300,
+   "exclusive guards": 2746,
+   "same scope": 74
+  },
+  "outcomes": {
+   "unresolved": 75528,
+   "overlap_candidate": 70091,
+   "mutually_exclusive": 7570
+  },
+  "policies_with_a_contradiction": 241
+ },
+ "slowest_policies_s": {
+  "web-061": 209.5,
+  "apple-116": 51.7,
+  "apple-132": 13.2,
+  "apple-037": 10.3,
+  "apple-162": 9.9
+ },
+ "wall_s": 272.3,
+ "run": {
+  "elapsed_s": 272.4,
+  "cpu_s": 860.8,
+  "peak_rss_mb_self": 72.3,
+  "peak_rss_mb_largest_child": 143.1,
+  "cpus": 16,
+  "slurm_job": "20508310",
+  "slurm_step": "541"
+ }
+}

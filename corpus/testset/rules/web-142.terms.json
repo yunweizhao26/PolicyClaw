@@ -1,0 +1,376 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "account settings": "account preferences",
+    "browser information": "browser data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "precise location data": "precise location",
+    "profile information": "profile data",
+    "publicly available information": "public data",
+    "transaction information": "transaction details",
+    "user identification": "user ID",
+    "user photo": "profile picture",
+    "user-generated content": "user content",
+    "username": "user ID"
+   },
+   "parents": {
+    "IP address": [
+     "technical information"
+    ],
+    "account history": [
+     "account details"
+    ],
+    "account preferences": [
+     "account details"
+    ],
+    "billing address": [
+     "billing information",
+     "postal address"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "biography": [
+     "profile data"
+    ],
+    "browser plug-in type": [
+     "browser data"
+    ],
+    "browser plug-in version": [
+     "browser data"
+    ],
+    "browser type": [
+     "browser data"
+    ],
+    "browser version": [
+     "browser data"
+    ],
+    "browser data": [
+     "device information",
+     "technical information"
+    ],
+    "browsing behavior": [
+     "activity data"
+    ],
+    "browsing frequency": [
+     "browsing behavior"
+    ],
+    "community interactions": [
+     "activity data"
+    ],
+    "content interactions": [
+     "activity data"
+    ],
+    "social interactions": [
+     "activity data"
+    ],
+    "contacts' profile pictures": [
+     "contact list"
+    ],
+    "credit card details": [
+     "billing information",
+     "payment data"
+    ],
+    "credit card expiration date": [
+     "credit card details"
+    ],
+    "partial credit card number": [
+     "credit card details"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "diagnostic data": [
+     "technical information"
+    ],
+    "device technical specification": [
+     "device information"
+    ],
+    "device information": [
+     "technical information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "platform": [
+     "device information"
+    ],
+    "email address": [
+     "account details",
+     "contact info"
+    ],
+    "email content": [
+     "communication data"
+    ],
+    "employer": [
+     "professional data"
+    ],
+    "job title": [
+     "professional data"
+    ],
+    "resume": [
+     "professional data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "race": [
+     "demographic data"
+    ],
+    "sexual orientation": [
+     "demographic data"
+    ],
+    "government-issued ID": [
+     "identifying and authenticating data"
+    ],
+    "immigration status": [
+     "sensitive data"
+    ],
+    "login details": [
+     "identifying and authenticating data"
+    ],
+    "password": [
+     "login details"
+    ],
+    "token": [
+     "identifying and authenticating data"
+    ],
+    "name": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "performance metrics": [
+     "technical information"
+    ],
+    "posting frequency": [
+     "activity data"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile picture": [
+     "photos / videos",
+     "profile data"
+    ],
+    "purchased product or service": [
+     "transaction details"
+    ],
+    "referrer URL": [
+     "traffic data"
+    ],
+    "reputation score": [
+     "account details",
+     "profile data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "service usage details": [
+     "activity data"
+    ],
+    "time zone": [
+     "technical information"
+    ],
+    "traffic data": [
+     "technical information"
+    ],
+    "unique device identifier": [
+     "device information",
+     "unique identifier"
+    ],
+    "user comments": [
+     "user content"
+    ],
+    "user post": [
+     "user content"
+    ],
+    "user ID": [
+     "account details",
+     "identifying and authenticating data"
+    ],
+    "user content": [
+     "public data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service provider": "service provider",
+    "users": "user"
+   },
+   "parents": {
+    "Microsoft": [
+     "service provider",
+     "third party"
+    ],
+    "contractors": [
+     "third party"
+    ],
+    "internal business entity": [
+     "first party"
+    ],
+    "internal employee": [
+     "first party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "professional service providers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsors": [
+     "third party"
+    ],
+    "authorized users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party": "other sources"
+   },
+   "parents": {
+    "social media service": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Stack Overflow",
+    "third-party": "third party"
+   },
+   "parents": {
+    "Microsoft": [
+     "third party"
+    ],
+    "payment gateway": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "the new owners": [
+     "third party"
+    ],
+    "third party moderator": [
+     "third party"
+    ],
+    "third-party processor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contract_fulfillment": "contract performance",
+    "fraud detection and prevention": "To protect you from fraud and for fraud prevention and detection",
+    "fraud prevention": "To protect you from fraud and for fraud prevention and detection",
+    "fraud-detection": "To protect you from fraud and for fraud prevention and detection",
+    "legal compliance": "compliance",
+    "legitimate_interest": "legitimate interests",
+    "service operation and quality": "service operation",
+    "user identification": "To verify your identity and enable you to access your products and services",
+    "verify identity": "To verify your identity and enable you to access your products and services"
+   },
+   "parents": {
+    "For statistical analysis (e.g., on the use of our websites)": [
+     "analytics"
+    ],
+    "To ask your opinion or feedback on our services or surveys": [
+     "research"
+    ],
+    "To communicate with you about other Stack Overflow products or services, events, offers, promotions and other information or news that we think may be of interest to you": [
+     "marketing"
+    ],
+    "To enforce our legal rights or comply with legal requirements": [
+     "compliance"
+    ],
+    "To notify you of any changes to our websites or our services and products that may affect you": [
+     "service delivery"
+    ],
+    "To operate and improve our websites and services": [
+     "operations"
+    ],
+    "To provide commercial quotes to you": [
+     "contract performance"
+    ],
+    "To provide improved website and product experience and communications informed by your product subscriptions and/or data collected": [
+     "service optimization"
+    ],
+    "To provide you with technical and customer support": [
+     "support"
+    ],
+    "ad targeting": [
+     "advertising"
+    ],
+    "billing": [
+     "contract performance"
+    ],
+    "content or service delivery": [
+     "service delivery"
+    ],
+    "diagnostics": [
+     "analytics"
+    ],
+    "To protect you from fraud and for fraud prevention and detection": [
+     "security"
+    ],
+    "job matching": [
+     "service delivery"
+    ],
+    "product improvement": [
+     "service quality improvement"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service operation": [
+     "operations"
+    ],
+    "service optimization": [
+     "service quality improvement"
+    ],
+    "service quality improvement": [
+     "service provision"
+    ],
+    "user account management": [
+     "service provision"
+    ],
+    "user experience": [
+     "service quality improvement"
+    ],
+    "To verify your identity and enable you to access your products and services": [
+     "user account management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4055,
+  "completion_tokens": 1727,
+  "thinking_tokens": 0,
+  "seconds": 14.42583680152893,
+  "failures": 0
+ },
+ "seconds": 14.5
+}

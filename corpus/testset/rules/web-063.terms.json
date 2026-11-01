@@ -1,0 +1,256 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifiers": "advertising identifier",
+    "ip address": "IP address",
+    "referrer url": "referrer URL",
+    "unique identifiers": "unique identifier"
+   },
+   "parents": {
+    "EU, UK, and Swiss personal data": [
+     "personal data"
+    ],
+    "local ip address": [
+     "IP address"
+    ],
+    "actions taken on website": [
+     "browsing and interaction data",
+     "user action"
+    ],
+    "advertising identifier": [
+     "unique identifier"
+    ],
+    "analytics metrics": [
+     "analytics data"
+    ],
+    "branch sdk version": [
+     "application version"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "carrier id": [
+     "unique identifier"
+    ],
+    "cookie ID": [
+     "unique identifier"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "data that originated in the EEA or the United Kingdom": [
+     "data"
+    ],
+    "developer identifier": [
+     "unique identifier"
+    ],
+    "device brand": [
+     "device information"
+    ],
+    "device locale": [
+     "device information"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "engagement data": [
+     "interaction information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "hardware device id": [
+     "unique identifier"
+    ],
+    "interaction information": [
+     "browsing and interaction data"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "mac address": [
+     "unique identifier"
+    ],
+    "name": [
+     "contact details",
+     "identifying information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "referrer URL": [
+     "metadata"
+    ],
+    "referring URL": [
+     "metadata"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "screen size": [
+     "device information"
+    ],
+    "social media handle": [
+     "unique identifier"
+    ],
+    "social security number": [
+     "identifying information"
+    ],
+    "user ID": [
+     "unique identifier"
+    ],
+    "user action": [
+     "browsing and interaction data"
+    ],
+    "user engagement": [
+     "engagement data"
+    ],
+    "visitor behavior": [
+     "browsing and interaction data"
+    ],
+    "website visitor information": [
+     "user data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "device information": [
+     "information"
+    ],
+    "contact details": [
+     "identifying information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "customer": "client",
+    "first party": "Branch"
+   },
+   "parents": {
+    "service provider": [
+     "other parties",
+     "third party"
+    ],
+    "other parties": [
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "successor entity": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "other parties",
+    "website": "first party site"
+   },
+   "parents": {
+    "service provider": [
+     "other parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "customer": "client",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Drift": [
+     "service provider",
+     "third party"
+    ],
+    "Facebook": [
+     "service provider",
+     "third party"
+    ],
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "Mixpanel": [
+     "service provider",
+     "third party"
+    ],
+    "client": [
+     "third party",
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud-detection": "fraud detection and prevention",
+    "fraud_detection_and_prevention": "fraud detection and prevention",
+    "legal_compliance": "legal compliance",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "ad targeting": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "attribution": [
+     "analytics",
+     "reporting"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "research": [
+     "research_and_development"
+    ],
+    "security_and_authentication": [
+     "security"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "website optimization or customization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3208,
+  "completion_tokens": 1154,
+  "thinking_tokens": 0,
+  "seconds": 30.46235942840576,
+  "failures": 0
+ },
+ "seconds": 30.6
+}

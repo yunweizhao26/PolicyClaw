@@ -1,0 +1,145 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact_details": "contact info",
+    "health_data": "health data",
+    "personal information": "personal data",
+    "postal_address": "address"
+   },
+   "parents": {
+    "address": [
+     "contact info"
+    ],
+    "email_address": [
+     "contact info"
+    ],
+    "phone_number": [
+     "contact info"
+    ],
+    "mac address": [
+     "device identifier"
+    ],
+    "third party cookies": [
+     "cookies"
+    ],
+    "statistical information about website use": [
+     "information relating to website"
+    ],
+    "interaction date": [
+     "business interactions data"
+    ],
+    "interaction outcome": [
+     "business interactions data"
+    ],
+    "interaction purpose": [
+     "business interactions data"
+    ],
+    "training date": [
+     "training details"
+    ],
+    "user name": [
+     "name"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "healthcare_provider": "health care providers",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third party",
+     "vendors"
+    ],
+    "financial institution": [
+     "vendors"
+    ],
+    "service provider": [
+     "vendors"
+    ],
+    "shipping company": [
+     "vendors"
+    ],
+    "vendors": [
+     "third party"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "collaborators": [
+     "third party"
+    ],
+    "contractors": [
+     "third party"
+    ],
+    "agents": [
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "another data controller": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "healthcare_provider": "health care providers"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Beltone",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "customer support": [
+     "service provision"
+    ],
+    "order_fulfillment": [
+     "service provision"
+    ],
+    "technical functionality": [
+     "service operation and improvement"
+    ],
+    "internal operations": [
+     "service operation and improvement"
+    ],
+    "analytics": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2299,
+  "completion_tokens": 651,
+  "thinking_tokens": 0,
+  "seconds": 11.493994951248169,
+  "failures": 0
+ },
+ "seconds": 11.6
+}

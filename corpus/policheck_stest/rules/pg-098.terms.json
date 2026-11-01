@@ -1,0 +1,71 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal data": "data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device information"
+    ],
+    "crash reports": [
+     "device information"
+    ],
+    "device information": [
+     "data"
+    ],
+    "email address": [
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "service use data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "analytics partner and advertising partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "ad serving": [
+     "advertising"
+    ],
+    "debugging": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1304,
+  "completion_tokens": 294,
+  "thinking_tokens": 0,
+  "seconds": 9.227271318435669,
+  "failures": 0
+ },
+ "seconds": 9.3
+}

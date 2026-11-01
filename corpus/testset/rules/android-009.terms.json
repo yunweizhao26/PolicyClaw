@@ -1,0 +1,390 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising id": "ad identifiers",
+    "advertising identifier": "ad identifiers",
+    "avatar or profile picture": "avatar",
+    "coarse location": "coarse geographic location",
+    "communications": "communication data",
+    "contact list": "contact details",
+    "credit card number": "credit card details",
+    "gameplay information": "gameplay data",
+    "information": "data",
+    "information about you": "information about user",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "physical address": "address",
+    "protected classifications and other sensitive information": "protected classifications and other sensitive data",
+    "social media interaction data": "social media interaction",
+    "telephone number": "phone number",
+    "the information that we hold about you": "information about user",
+    "user comment": "comments",
+    "user content": "content",
+    "user name": "account name",
+    "user-submitted information": "user-provided content",
+    "username": "account name",
+    "your data": "information about user",
+    "your information": "information about user"
+   },
+   "parents": {
+    "account name": [
+     "identifiers"
+    ],
+    "ad identifiers": [
+     "device identifier",
+     "identifiers"
+    ],
+    "advertising partner information about user": [
+     "information about user"
+    ],
+    "age": [
+     "protected classifications and other sensitive data"
+    ],
+    "age range": [
+     "demographic and interest information"
+    ],
+    "avatar": [
+     "profile information"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "browsing activity": [
+     "internet activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "coarse geographic location": [
+     "geolocation"
+    ],
+    "comments": [
+     "content"
+    ],
+    "content of communications": [
+     "communication data"
+    ],
+    "message content": [
+     "content of communications"
+    ],
+    "messages": [
+     "communication data"
+    ],
+    "correspondence": [
+     "communication data"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "credit card details": [
+     "financial information"
+    ],
+    "customer support inquiry": [
+     "communication data"
+    ],
+    "date and time stamp": [
+     "usage data"
+    ],
+    "date of birth": [
+     "protected classifications and other sensitive data"
+    ],
+    "device hardware": [
+     "device information"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device model": [
+     "device characteristics"
+    ],
+    "device software": [
+     "device information"
+    ],
+    "device type": [
+     "device characteristics"
+    ],
+    "device usage": [
+     "usage data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "friends' names": [
+     "contacts"
+    ],
+    "gameplay data": [
+     "usage data"
+    ],
+    "gender": [
+     "protected classifications and other sensitive data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "habits": [
+     "usage data"
+    ],
+    "hardware specification": [
+     "device hardware"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "operating system": [
+     "device software"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "sensory data"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise geolocation": [
+     "geolocation"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "region": [
+     "geographic location"
+    ],
+    "screen size": [
+     "device characteristics"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social media profile information": [
+     "profile information"
+    ],
+    "social network data": [
+     "third-party account information"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "video footage": [
+     "sensory data"
+    ],
+    "website activity": [
+     "internet activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliate": "Group Companies",
+    "commercial partner": "business partner",
+    "corporate affiliates": "Group Companies"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ],
+    "fraud prevention agencies": [
+     "fraud prevention organization"
+    ],
+    "other organizations involved in crime and fraud prevention": [
+     "fraud prevention organization"
+    ],
+    "legal advisor": [
+     "service provider"
+    ],
+    "payment processor": [
+     "partner",
+     "service provider"
+    ],
+    "business partner": [
+     "partner"
+    ],
+    "marketing partners": [
+     "partner"
+    ],
+    "third party publisher": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "analytics and advertising partners": "advertising and analytics partners",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Facebook": [
+     "social media platform",
+     "social network"
+    ],
+    "advertising and analytics partners": [
+     "partners",
+     "third parties"
+    ],
+    "marketing partners": [
+     "partners",
+     "third parties"
+    ],
+    "third party companies": [
+     "third parties"
+    ],
+    "third-party subscription service providers": [
+     "third parties"
+    ],
+    "advertising platform": [
+     "platform provider"
+    ],
+    "social network": [
+     "social media platform"
+    ],
+    "social media platform": [
+     "platform provider"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "affiliate",
+    "other users": "other players",
+    "payment service provider partners": "payment service provider",
+    "payment service providers": "payment service provider"
+   },
+   "parents": {
+    "Facebook": [
+     "third party",
+     "third party companies"
+    ],
+    "acquirer": [
+     "third party"
+    ],
+    "advertising partner": [
+     "marketing partners",
+     "partner",
+     "third party",
+     "third party partner",
+     "third-party advertising company"
+    ],
+    "marketing partners": [
+     "partner"
+    ],
+    "other players": [
+     "user"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "payment service provider": [
+     "partner",
+     "payment processor",
+     "third party"
+    ],
+    "third party companies": [
+     "third party"
+    ],
+    "third party partner": [
+     "partner",
+     "third party"
+    ],
+    "third-party advertising company": [
+     "third party",
+     "third party companies"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account_management": "account management",
+    "analytics or performance": "analytics",
+    "compliance with legal obligation": "compliance",
+    "fraud prevention": "fraud detection",
+    "fraud_prevention": "fraud detection",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "marketing": "advertising",
+    "order fulfilment": "order fulfillment",
+    "service_optimization": "service optimization",
+    "service_provision": "service provision",
+    "sweepstakes, promotions and competitions": "sweepstakes administration",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "claim processing": [
+     "sweepstakes administration"
+    ],
+    "dispute resolution": [
+     "compliance",
+     "legal enforcement"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "troubleshooting": [
+     "service optimization",
+     "support"
+    ],
+    "verification": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4575,
+  "completion_tokens": 1950,
+  "thinking_tokens": 0,
+  "seconds": 19.14707922935486,
+  "failures": 0
+ },
+ "seconds": 19.3
+}

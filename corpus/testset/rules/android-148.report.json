@@ -1,0 +1,83 @@
+{
+ "cleaned_sha256": "android-148",
+ "text_sha256": "cb9dc6ff527ecff8844a19f5691ec0a38722fd14adefc8d4edb8d6d1de5a312d",
+ "site_id": "android-148",
+ "sections": 11,
+ "rules": 122,
+ "report": {
+  "sections": 11,
+  "raw_rules": 74,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reply",
+      "verb": "reply"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you have questions about data protection, or if you have any requests for resolving issues with your personal data",
+      "contact us through the game",
+      "more quickly"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-148#s2"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 58,
+   "gap_words": 599
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 38,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 29582,
+  "completion_tokens": 15178,
+  "thinking_tokens": 160,
+  "seconds": 426.68801283836365,
+  "failures": 0
+ },
+ "seconds": 427.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

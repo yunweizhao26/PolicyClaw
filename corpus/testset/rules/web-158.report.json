@@ -1,0 +1,998 @@
+{
+ "cleaned_sha256": "web-158",
+ "text_sha256": "5792645a2e224d702dab1c4135b07c937d7f54b4955d15bd20cf619b4171e1d8",
+ "site_id": "web-158",
+ "sections": 27,
+ "rules": 345,
+ "report": {
+  "sections": 27,
+  "raw_rules": 326,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "kept",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "The stored data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "kept",
+      "verb": "keep"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to fulfil the legal obligation and for any possible obligations to provide evidence to the competent authorities",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "only for as long as is necessary to fulfil the legal obligation and for any possible obligations to provide evidence to the competent authorities"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as is necessary to fulfil the legal obligation and for any possible obligations to provide evidence to the competent authorities"
+    ],
+    "section": "web-158#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "ask for",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information that will enable us to assess whether your presentation is suitable for our event",
+      "name": "speaker submission details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "ask",
+      "verb": "ask"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to enable us to assess whether your presentation is suitable for our event",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "When organising such events, we also issue calls for speakers in order to give you the opportunity to be selected by us for a presentation at one of our events if you wish"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to enable us to assess whether your presentation is suitable for our event"
+    ],
+    "section": "web-158#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "occurs",
+     "actor": {
+      "text": "Matomo",
+      "name": "Matomo"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Collection",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "only occurs if you have authorised this by setting the cookie banner accordingly and thereby declaring your consent"
+     ],
+     "exceptions": [
+      "changing the setting of the cookie banner under “Cookies preferences” in the footer of our website",
+      "deactivate its use by changing the settings in the cookie banner on this website"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "occurs",
+     "actor": {
+      "text": "Matomo",
+      "name": "Matomo"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "analysis",
+      "verb": "analyse"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "only occurs if you have authorised this by setting the cookie banner accordingly and thereby declaring your consent"
+     ],
+     "exceptions": [
+      "changing the setting of the cookie banner under “Cookies preferences” in the footer of our website",
+      "deactivate its use by changing the settings in the cookie banner on this website"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Nextcloud Forum"
+     ],
+     "data": {
+      "name": "forum data",
+      "text": "data from this instance"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not share"
+    ],
+    "section": "web-158#s11"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Nextcloud"
+     },
+     "data": {
+      "name": "email address",
+      "text": "your email address"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to: Reset your password and ensure the security of your account",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "in connection with Nextcloud Forum"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Reset your password and ensure the security of your account"
+    ],
+    "section": "web-158#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retained",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Enforcement of legal claims and defense in legal disputes",
+      "until final clarification, additionally within applicable limitation periods, generally 3 years"
+     ],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retained",
+     "purpose": [
+      {
+       "text": "Enforcement of legal claims and defense in legal disputes",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "distribution",
+      "verb": "distribute"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "based on your consent",
+      "until you withdraw your consent"
+     ],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [
+      "you withdraw your consent"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "based on",
+     "purpose": [
+      {
+       "text": "Newsletter distribution",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retained",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Newsletter distribution based on your consent",
+      "until you withdraw your consent"
+     ],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [
+      "you withdraw your consent"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retained",
+     "purpose": [
+      {
+       "text": "Newsletter distribution",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retained",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Existing customer marketing",
+      "until you object"
+     ],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [
+      "you object"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retained",
+     "purpose": [
+      {
+       "text": "Existing customer marketing",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "Zammad GmbH",
+      "text": "hoster"
+     },
+     "conditions": [
+      "only to the extent necessary to fulfil its performance obligations and follow our instructions with regard to this data"
+     ],
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will only",
+     "purpose": [
+      {
+       "text": "to fulfil its performance obligations",
+       "name": "service provision"
+      },
+      {
+       "text": "follow our instructions with regard to this data",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only to the extent necessary to fulfil its performance obligations and follow our instructions with regard to this data"
+    ],
+    "section": "web-158#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "carry out",
+      "verb": "carry out"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "neither",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Art. 22 GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Section I No. 10 of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not currently",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not currently",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "DataCo GmbH",
+      "text": "DataCo"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "https://www.dataguard.com/privacy-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "DataCo GmbH",
+      "text": "DataCo"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "https://www.dataguard.com/privacy-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "DataCo GmbH",
+      "text": "DataCo"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "https://www.dataguard.com/privacy-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "DataCo GmbH",
+      "text": "DataCo"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "https://www.dataguard.com/privacy-policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be forwarded",
+     "purpose": [
+      {
+       "text": "to ensure technical functionality",
+       "name": "technical functionality"
+      }
+     ],
+     "recipient": {
+      "name": "DataCo GmbH",
+      "text": "DataCo GmbH"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "serves to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "protect the data protection rights of our website visitors",
+       "name": "legal-compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-158#s24"
+   }
+  ],
+  "residual_quotes": 61,
+  "quotes": 215,
+  "completeness": {
+   "gaps": 789,
+   "gap_words": 7225
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 13,
+  "translated_quotes": 215,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 54,
+  "cached": 0,
+  "prompt_tokens": 108486,
+  "completion_tokens": 73322,
+  "thinking_tokens": 0,
+  "seconds": 491.29573249816895,
+  "failures": 0
+ },
+ "seconds": 493.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

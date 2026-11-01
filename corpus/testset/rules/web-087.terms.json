@@ -1,0 +1,123 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "log file data": "log data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "business contact information": [
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "payment card number": [
+     "billing information",
+     "payment details"
+    ],
+    "payment details": [
+     "billing information"
+    ],
+    "payment history": [
+     "billing information",
+     "payment details"
+    ],
+    "purchase history": [
+     "billing information"
+    ],
+    "cookie or device id": [
+     "device identifier"
+    ],
+    "unique device identifier": [
+     "cookie or device id",
+     "device identifier"
+    ],
+    "language preference": [
+     "preferences"
+    ],
+    "account login status": [
+     "log-in details"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "log-in details": [
+     "account information"
+    ],
+    "clickstream": [
+     "browsing behavior"
+    ],
+    "user interactions": [
+     "browsing behavior"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "business name": [
+     "name"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "legal-compliance": "compliance with legal obligation",
+    "service improvement": "improve services",
+    "service-improvement": "improve services"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "measure advertising effectiveness": [
+     "advertising",
+     "analytics"
+    ],
+    "improve marketing": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service-operation-and-security": [
+     "security",
+     "service provision"
+    ],
+    "customer-support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2287,
+  "completion_tokens": 548,
+  "thinking_tokens": 0,
+  "seconds": 29.175604581832886,
+  "failures": 0
+ },
+ "seconds": 29.3
+}

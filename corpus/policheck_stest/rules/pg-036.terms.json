@@ -1,0 +1,108 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "information"
+   },
+   "parents": {
+    "anonymized aggregate data": [
+     "information"
+    ],
+    "app usage data": [
+     "automatically collected data"
+    ],
+    "automatically collected data": [
+     "information"
+    ],
+    "camera": [
+     "information"
+    ],
+    "children's data": [
+     "information"
+    ],
+    "contacts": [
+     "information"
+    ],
+    "device identifier and call information": [
+     "automatically collected data",
+     "information"
+    ],
+    "device storage": [
+     "information"
+    ],
+    "device type": [
+     "automatically collected data"
+    ],
+    "identity": [
+     "information"
+    ],
+    "location": [
+     "information"
+    ],
+    "operating system": [
+     "automatically collected data"
+    ],
+    "phone": [
+     "information"
+    ],
+    "photos media and files": [
+     "information"
+    ],
+    "precise location": [
+     "automatically collected data",
+     "location"
+    ],
+    "sms": [
+     "information"
+    ],
+    "unique device identifier": [
+     "automatically collected data",
+     "device identifier and call information"
+    ],
+    "user provided data": [
+     "information"
+    ],
+    "wi-fi connection information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third parties"
+    ],
+    "external services": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "service improvement": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 945,
+  "completion_tokens": 329,
+  "thinking_tokens": 0,
+  "seconds": 18.31415867805481,
+  "failures": 0
+ },
+ "seconds": 18.4
+}

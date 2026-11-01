@@ -1,0 +1,300 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "IP addresses": "IP address",
+    "conversation context": "chat context",
+    "crash log": "crash data",
+    "crash reports": "crash data",
+    "custodian ID": "Custodian ID",
+    "email address": "email",
+    "feedback data": "feedback",
+    "ip address": "IP address",
+    "prompts": "prompt",
+    "search query": "search queries",
+    "url": "URL"
+   },
+   "parents": {
+    "Custodian ID": [
+     "identifiers"
+    ],
+    "Rewards Payment ID": [
+     "identifiers"
+    ],
+    "Solana address": [
+     "cryptographic address",
+     "wallet address"
+    ],
+    "wallet address": [
+     "cryptographic address"
+    ],
+    "deposit addresses": [
+     "cryptographic address"
+    ],
+    "meeting url": [
+     "URL"
+    ],
+    "tab URLs": [
+     "URL"
+    ],
+    "tab history URLs": [
+     "URL"
+    ],
+    "current website url": [
+     "URL"
+    ],
+    "primary email address": [
+     "email"
+    ],
+    "email aliases": [
+     "email"
+    ],
+    "aliases associated with Brave Account": [
+     "email aliases"
+    ],
+    "emails associated with Brave Account": [
+     "email"
+    ],
+    "email": [
+     "contact info",
+     "identifiers"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "MAC address": [
+     "identifiers"
+    ],
+    "pseudonymous user identifier": [
+     "identifiers"
+    ],
+    "custodial country code": [
+     "country code"
+    ],
+    "country code": [
+     "country"
+    ],
+    "country": [
+     "location"
+    ],
+    "content of email": [
+     "contents of emails"
+    ],
+    "feedback comments": [
+     "feedback"
+    ],
+    "feedback rating": [
+     "feedback"
+    ],
+    "feedback text": [
+     "feedback"
+    ],
+    "feedback details": [
+     "feedback"
+    ],
+    "chat text and query": [
+     "chat content",
+     "text"
+    ],
+    "chat message": [
+     "chat content"
+    ],
+    "chat history": [
+     "chat content"
+    ],
+    "chat log": [
+     "chat content"
+    ],
+    "conversations": [
+     "chat content"
+    ],
+    "search queries": [
+     "search history"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "tab titles": [
+     "tab history titles"
+    ],
+    "avatar images": [
+     "images"
+    ],
+    "publisher images": [
+     "images"
+    ],
+    "screenshots": [
+     "images"
+    ],
+    "profile name": [
+     "name"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "payment card data": [
+     "payment details"
+    ],
+    "payment method details": [
+     "payment details"
+    ],
+    "details of contribution transactions": [
+     "transaction data"
+    ],
+    "purchase details": [
+     "transaction data"
+    ],
+    "specific Brave Private Ads you’ve seen or interacted with": [
+     "specific Brave Ads you’ve seen or interacted with"
+    ],
+    "specific Brave Ads you’ve seen or interacted with": [
+     "anonymized events for ads that you (and other users) have interacted with"
+    ],
+    "identifiers": [
+     "identifiable data"
+    ],
+    "identifiable data": [
+     "details that can be used to identify or profile you",
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "information": [
+     "data"
+    ],
+    "minimum necessary information": [
+     "information"
+    ],
+    "device model": [
+     "hardware info"
+    ],
+    "os version": [
+     "diagnostic report"
+    ],
+    "browser version": [
+     "diagnostic report"
+    ],
+    "webpage content": [
+     "content of the page"
+    ],
+    "content of the page": [
+     "document and website contents"
+    ],
+    "submitted text": [
+     "text"
+    ],
+    "prompt": [
+     "text"
+    ],
+    "voice and text input": [
+     "communications"
+    ],
+    "enquiries": [
+     "communications"
+    ],
+    "meeting recording": [
+     "audio and video"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Brave data protection officer": [
+     "first party"
+    ],
+    "Leo backend server": [
+     "first party"
+    ],
+    "Brave Search": [
+     "first party"
+    ],
+    "website": [
+     "the web"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "TestFlight": [
+     "app stores and other channels"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "AWS": [
+     "third party"
+    ],
+    "Apple": [
+     "third party"
+    ],
+    "Backtrace.io": [
+     "third party"
+    ],
+    "Brave EU Nominated Representative": [
+     "first party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Protocol Labs": [
+     "third party"
+    ],
+    "Stripe": [
+     "third party"
+    ],
+    "publisher of the RSS feed": [
+     "publishers"
+    ],
+    "publishers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "fraud prevention and detection": "fraud prevention",
+    "fraud_prevention_and_security": "fraud prevention",
+    "service improvement": "improving service",
+    "support": "customer support",
+    "user account management": "account administration"
+   },
+   "parents": {
+    "diagnostics": [
+     "analytics",
+     "service performance"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "payment handling": [
+     "service provision"
+    ],
+    "service performance": [
+     "improving service"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3274,
+  "completion_tokens": 1260,
+  "thinking_tokens": 0,
+  "seconds": 14.91044545173645,
+  "failures": 0
+ },
+ "seconds": 15.0
+}

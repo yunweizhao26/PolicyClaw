@@ -1,0 +1,85 @@
+{
+ "cleaned_sha256": "web-130",
+ "text_sha256": "c52365ba514b2673beb9f6f937bbcf780824342ee0f9011bdc309abb5b25bb1a",
+ "site_id": "web-130",
+ "sections": 5,
+ "rules": 125,
+ "report": {
+  "sections": 5,
+  "raw_rules": 108,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "erasing",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "it",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasing",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Otherwise, if you do not wish to use Cision's services again",
+      "after a period of 24 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after a period of 24 months"
+    ],
+    "section": "web-130#s5"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 51,
+  "completeness": {
+   "gaps": 92,
+   "gap_words": 960
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 51,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 11,
+  "cached": 0,
+  "prompt_tokens": 22085,
+  "completion_tokens": 19400,
+  "thinking_tokens": 0,
+  "seconds": 231.794349193573,
+  "failures": 0
+ },
+ "seconds": 232.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

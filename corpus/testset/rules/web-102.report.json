@@ -1,0 +1,357 @@
+{
+ "cleaned_sha256": "web-102",
+ "text_sha256": "2cb50156fd2b20eddf0f9233b07c302127b0bc322e6bfb43b06d369e00616397",
+ "site_id": "web-102",
+ "sections": 10,
+ "rules": 178,
+ "report": {
+  "sections": 10,
+  "raw_rules": 173,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "actor": {
+      "text": "the service provider",
+      "name": "third party"
+     },
+     "data": {
+      "text": "information about your activities",
+      "name": "online activity data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you access or otherwise interact with our content and offerings",
+      "if we include in some of our Services features that integrate with third-party social networking services or other third-party services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you access or otherwise interact with our content and offerings",
+     "if we include in some of our Services features that integrate with third-party social networking services or other third-party services"
+    ],
+    "section": "web-102#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "TechCrunch"
+     },
+     "data": {
+      "name": "email address",
+      "text": ""
+     },
+     "action": {
+      "verb": "send",
+      "text": "receiving"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "receiving",
+     "purpose": [
+      {
+       "text": "marketing emails and/or newsletters",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "following the instructions in any such email you receive",
+      "emailing us at\n[email protected]",
+      "logging into your online account and adjusting your preferences"
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-102#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "data": {
+      "name": "email address",
+      "text": ""
+     },
+     "action": {
+      "verb": "send",
+      "text": "sending"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will not preclude us from sending",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-102#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "action": {
+      "verb": "process",
+      "text": "processing"
+     },
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "purpose": [],
+     "conditions": [
+      "Under certain circumstances"
+     ],
+     "exceptions": [
+      "object to processing of your personal data"
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-102#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to ask",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information we have about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Subject to applicable law",
+      "you ask that we correct or complete any personal information we have about you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you ask that we correct or complete any personal information we have about you"
+    ],
+    "section": "web-102#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to ask",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information we have about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "complete",
+      "verb": "complete"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Subject to applicable law",
+      "you ask that we correct or complete any personal information we have about you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you ask that we correct or complete any personal information we have about you"
+    ],
+    "section": "web-102#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to ask us to",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Subject to applicable law",
+      "you ask us to delete your personal information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you ask us to delete your personal information"
+    ],
+    "section": "web-102#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to ask us to",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "change how we use",
+      "verb": "change"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "Subject to applicable law",
+      "you ask us to change how we use your personal information in certain circumstances, such as where you contest the accuracy of the data or object to us using it in a certain way"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you ask us to change how we use your personal information in certain circumstances, such as where you contest the accuracy of the data or object to us using it in a certain way"
+    ],
+    "section": "web-102#s9"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 83,
+  "completeness": {
+   "gaps": 216,
+   "gap_words": 2705
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 83,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 42001,
+  "completion_tokens": 34929,
+  "thinking_tokens": 0,
+  "seconds": 333.6365704536438,
+  "failures": 0
+ },
+ "seconds": 334.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

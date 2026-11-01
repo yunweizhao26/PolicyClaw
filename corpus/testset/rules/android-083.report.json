@@ -1,0 +1,168 @@
+{
+ "cleaned_sha256": "android-083",
+ "text_sha256": "ba006dc848ab21d58b1b754078411390d916894b6909e0b80fa335a8128839fb",
+ "site_id": "android-083",
+ "sections": 24,
+ "rules": 363,
+ "report": {
+  "sections": 24,
+  "raw_rules": 306,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not make",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make any automated decisions",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "that have a legal or similar significant effect on you"
+     ],
+     "exceptions": [
+      "such a decision is necessary for entering into, or the performance of, a contract with you, we have obtained your consent, or we are required or otherwise permitted by applicable law to use such technology"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "section 6",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-083#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [],
+     "data": {
+      "name": "messages",
+      "text": "All messages sent via our messaging tools (including chat messages and emails sent to eBay alias email addresses)"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "are then",
+     "purpose": [],
+     "recipient": {
+      "name": "recipient",
+      "text": "the recipient"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "are then"
+    ],
+    "section": "android-083#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may engage",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party partners who may act as independent data controllers",
+      "name": "third-party partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage",
+      "verb": "engage"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to assist to facilitate transactions you request",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-083#s20"
+   }
+  ],
+  "residual_quotes": 40,
+  "quotes": 113,
+  "completeness": {
+   "gaps": 463,
+   "gap_words": 5105
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 113,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 46,
+  "cached": 0,
+  "prompt_tokens": 83915,
+  "completion_tokens": 58345,
+  "thinking_tokens": 0,
+  "seconds": 458.7109215259552,
+  "failures": 0
+ },
+ "seconds": 460.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "cleaned_sha256": "web-048",
+ "text_sha256": "425bfe3641930505bc9a28c9d635a144216512ad323364b2bd4e1b164ec4955c",
+ "site_id": "web-048",
+ "sections": 5,
+ "rules": 75,
+ "report": {
+  "sections": 5,
+  "raw_rules": 70,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "certain information about you"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "purpose": [],
+     "conditions": [
+      "The right to access certain information about you that we process",
+      "Please note these rights may be limited in certain circumstances as provided by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as provided by applicable law",
+       "name": "law",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-048#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "certain Information"
+     },
+     "action": {
+      "text": "erased",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right to have certain Information erased",
+     "purpose": [],
+     "conditions": [
+      "The right to have certain Information erased",
+      "Please note these rights may be limited in certain circumstances as provided by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as provided by applicable law",
+       "name": "law",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-048#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Information"
+     },
+     "action": {
+      "text": "exported into common machine-readable format",
+      "verb": "export"
+     },
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "right to have Information exported into common machine-readable format",
+     "purpose": [],
+     "conditions": [
+      "The right to have Information exported into common machine-readable format",
+      "Please note these rights may be limited in certain circumstances as provided by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as provided by applicable law",
+       "name": "law",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-048#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "identification documents",
+      "name": "identification documents"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "request",
+      "verb": "request"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "in order to do so",
+       "name": "verification"
+      }
+     ],
+     "conditions": [
+      "Upon your request",
+      "to verify that you are the person making this request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to verify that you are the person making this request"
+    ],
+    "section": "web-048#s5"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 31,
+  "completeness": {
+   "gaps": 167,
+   "gap_words": 1724
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 31,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 20708,
+  "completion_tokens": 12761,
+  "thinking_tokens": 0,
+  "seconds": 144.49978256225586,
+  "failures": 0
+ },
+ "seconds": 144.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,219 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "IP addresses": "IP address",
+    "additional logs and other data that is sent to Tailscale for processing and storage on behalf of our Customers (“Customer Log Data”)": "Customer Log Data",
+    "email address": "Email address",
+    "information about PAM sessions and access activity (“PAM Activity Data”), including connection metadata, audit logs, commands executed, database queries, API requests, session events, access decisions, and other activity associated with the use of protected resources": "PAM Activity Data",
+    "information about the AI requests and responses that are routed through the Aperture gateway, which may include logs and content, specifically, model / inference endpoint session histories and API requests and responses (“Customer AI Content”)": "Customer AI Content",
+    "such personal information": "personal information",
+    "the content of User traffic data transmitted through the Tailscale Solution": "the content of User traffic data",
+    "the information we collect and maintain about you": "the information we collect",
+    "user session artifacts, such as screen and session recordings, transcripts, terminal output, web application activity, and related audit records (“Session Recordings”)": "session recordings",
+    "your information": "Your information",
+    "your personal information": "personal information",
+    "“personal information” (as defined in the CCPA)": "personal information"
+   },
+   "parents": {
+    "Email address": [
+     "personal information"
+    ],
+    "First and last name": [
+     "personal information"
+    ],
+    "name": [
+     "personal information"
+    ],
+    "Postal/billing address": [
+     "personal information"
+    ],
+    "IP address": [
+     "personal information"
+    ],
+    "persistent device identifiers": [
+     "device identifiers"
+    ],
+    "access decisions": [
+     "PAM Activity Data"
+    ],
+    "audit records": [
+     "PAM Activity Data",
+     "logs",
+     "session recordings"
+    ],
+    "session recordings": [
+     "PAM Activity Data"
+    ],
+    "transcripts": [
+     "PAM Activity Data",
+     "session recordings"
+    ],
+    "Customer Log Data": [
+     "logs"
+    ],
+    "Customer AI Content": [
+     "Customer Content"
+    ],
+    "the contents of communications (e.g., messages and attachments)": [
+     "the stored contents of any account"
+    ],
+    "cookie data": [
+     "Cookies"
+    ],
+    "aggregated usage statistics (such as the amount of data transmitted through the Tailscale Solution over a period of time, and information about how you're using the Tailscale Solution)": [
+     "Aggregate/De-identified Information about use of the Services or our user base"
+    ],
+    "certain categories of personal information": [
+     "personal information"
+    ],
+    "personal information": [
+     "information"
+    ],
+    "Non-User Information": [
+     "information"
+    ],
+    "User data": [
+     "information"
+    ],
+    "Your information": [
+     "information"
+    ],
+    "certain information about your device and how you use the Site, including your IP address, browser type, browser language, operating system, software and hardware attributes (including device IDs), referring and exit pages and URLs, platform type, the number of clicks, files you download, domain names, landing pages, pages viewed and the order of those pages, the amount of time spent on particular pages, the date and time you used the Services, error logs, and other similar information": [
+     "usage information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third parties": "any third parties, including our third-party partners"
+   },
+   "parents": {
+    "certain advertising, analytics and enhancement service providers": [
+     "any third parties, including our third-party partners"
+    ],
+    "law enforcement outside of the Canada and the U.S.": [
+     "law_enforcement"
+    ],
+    "partners": [
+     "others"
+    ],
+    "select third parties who help us deliver our Services or perform services on our behalf, including billing and credit card verification, advertising and marketing (including third-party data lead generation or data enhancement providers that enhance our marketing and sales activities), content and features, analytics, research, customer support, data storage, security, web hosting, fraud prevention, and legal services": [
+     "any third parties, including our third-party partners"
+    ],
+    "the third-party AI/LLM providers selected or configured by you or your organization": [
+     "any third parties, including our third-party partners",
+     "third party provider(s) chosen by the User"
+    ],
+    "third party provider(s) chosen by the User": [
+     "any third parties, including our third-party partners"
+    ],
+    "third party services, such as storage or security tooling": [
+     "any third parties, including our third-party partners"
+    ],
+    "third-party providers": [
+     "any third parties, including our third-party partners"
+    ],
+    "any third parties, including our third-party partners": [
+     "others"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "from you": "from and about you",
+    "you": "from and about you"
+   },
+   "parents": {
+    "a User": [
+     "users of the Tailscale Solution, PAM, or Aperture (“Users”)"
+    ],
+    "Customers": [
+     "from and about you"
+    ],
+    "community members who engage with Tailscale on GitHub, Reddit and other similar social media or developer sites or forums (“Community Members”)": [
+     "from and about you"
+    ],
+    "minors or children": [
+     "from and about you"
+    ],
+    "prospective users and customers (“Prospects”)": [
+     "from and about you"
+    ],
+    "users of the Tailscale Solution, PAM, or Aperture (“Users”)": [
+     "from and about you"
+    ],
+    "visitors to our websites (“Site Visitors”)": [
+     "from and about you"
+    ],
+    "the browser of your device": [
+     "from and about you"
+    ],
+    "your IP address": [
+     "from and about you"
+    ],
+    "your account on the third party's site": [
+     "from and about you"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "our third-party service providers": "our service providers",
+    "us": "We",
+    "we": "We"
+   },
+   "parents": {
+    "third-party web analytics service providers": [
+     "our service providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "engage in analytics": "analytics purposes",
+    "for their own direct marketing purposes": "for their direct marketing purposes",
+    "to secure our services": "Secure our Services and resolve technical issues being reported"
+   },
+   "parents": {
+    "Comply with any procedures, laws, and regulations which apply to us where it is necessary for our legitimate interests or the legitimate interests of others": [
+     "for our legitimate interests",
+     "to comply with a legal obligation"
+    ],
+    "Engage in analysis and research regarding use of the Services, and improve our Services": [
+     "analytics purposes"
+    ],
+    "for online advertising purposes": [
+     "advertising"
+    ],
+    "for online targeted advertising purposes": [
+     "advertising",
+     "for online advertising purposes"
+    ],
+    "for “cross-context behavioral advertising”": [
+     "advertising",
+     "for online advertising purposes"
+    ],
+    "to improve our analytics": [
+     "analytics purposes"
+    ],
+    "to serve relevant content and advertising to you as you browse the Internet": [
+     "for online advertising purposes"
+    ],
+    "to provide the Tailscale Solution to you": [
+     "In providing our Services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 7,
+  "cached": 0,
+  "prompt_tokens": 17612,
+  "completion_tokens": 4291,
+  "thinking_tokens": 0,
+  "seconds": 36.474093198776245,
+  "failures": 0
+ },
+ "seconds": 36.6
+}

@@ -1,0 +1,8 @@
+Write {k} test scenarios for the privacy policy below. Each scenario describes one concrete data flow: who does what with which specific user data, to which recipient, for what purpose, together with the relevant context, such as the user's age, location, consent, account, or settings. Write them as realistic situations a user or an auditor might ask about. Cover flows the policy permits, flows it prohibits, flows whose answer depends on a fact the scenario leaves out, and flows the policy never mentions. Include several pairs of scenarios that differ in exactly one fact. Do not copy sentences from the policy, and do not state the answer.
+
+Policy:
+<<<
+{policy}
+>>>
+
+Return only JSON: {{"scenarios": [{{"id": "s1", "text": "...", "pair_of": "" or the id of its pair}}]}}

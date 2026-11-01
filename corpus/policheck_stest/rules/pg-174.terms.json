@@ -1,0 +1,164 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware and software specifications": "hardware and software details",
+    "mac address": "MAC address",
+    "timezone": "time zone",
+    "user information": "information about you"
+   },
+   "parents": {
+    "IP address": [
+     "device details"
+    ],
+    "MAC address": [
+     "device details",
+     "device identifier"
+    ],
+    "app usage": [
+     "service usage details"
+    ],
+    "consumption information": [
+     "service usage details"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "device token": [
+     "device identifier"
+    ],
+    "game achievements": [
+     "gameplay details"
+    ],
+    "scores": [
+     "gameplay details"
+    ],
+    "gameplay details": [
+     "service usage details"
+    ],
+    "hardware and software details": [
+     "device details"
+    ],
+    "mobile network information": [
+     "device details"
+    ],
+    "purchase history": [
+     "consumption information",
+     "service usage details"
+    ],
+    "browser information": [
+     "hardware and software details"
+    ],
+    "location": [
+     "information about you"
+    ],
+    "name": [
+     "user-provided info"
+    ],
+    "social media handle": [
+     "user-provided info"
+    ],
+    "time zone": [
+     "device details"
+    ],
+    "interactions with other players": [
+     "service usage details"
+    ],
+    "children's data": [
+     "information"
+    ],
+    "aggregated information": [
+     "information"
+    ],
+    "non-personal information": [
+     "information"
+    ],
+    "device details": [
+     "information"
+    ],
+    "browsing and usage data": [
+     "information"
+    ],
+    "service usage details": [
+     "information"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "user-provided info": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "friends": [
+     "other players",
+     "public"
+    ],
+    "other players": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "app store": [
+     "other sources",
+     "third-party platform"
+    ],
+    "third-party platform": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "administrative communications": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "communication facilitation": [
+     "service provision"
+    ],
+    "contest administration": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "personalization": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "verification": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1634,
+  "completion_tokens": 657,
+  "thinking_tokens": 0,
+  "seconds": 59.47038388252258,
+  "failures": 0
+ },
+ "seconds": 59.6
+}

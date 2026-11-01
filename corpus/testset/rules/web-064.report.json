@@ -1,0 +1,309 @@
+{
+ "cleaned_sha256": "web-064",
+ "text_sha256": "726d258fd6cf793cc564a1d7051e57dfee2590c345ef60ecd1ce7f4fe408acf6",
+ "site_id": "web-064",
+ "sections": 10,
+ "rules": 217,
+ "report": {
+  "sections": 10,
+  "raw_rules": 182,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not make available",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user content",
+      "name": "user content"
+     },
+     "recipient": {
+      "text": "these companies",
+      "name": "advertising partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make available",
+      "verb": "make available"
+     },
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not make available",
+     "make available"
+    ],
+    "section": "web-064#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have rights under privacy laws to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Depending on where you live",
+      "rights under privacy laws to correct"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Privacy and Data Rights, Choices and Cookies page",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "rights under privacy laws to correct"
+    ],
+    "section": "web-064#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have rights under privacy laws to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Depending on where you live",
+      "rights under privacy laws to delete"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Privacy and Data Rights, Choices and Cookies page",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "rights under privacy laws to delete"
+    ],
+    "section": "web-064#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "You have the right to (1) request to know more about and access your personal information, including in a portable format"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "You"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-064#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "You have the right to",
+      "(2) request deletion of your personal information"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-064#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correction",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "You have the right to",
+      "(3) request correction of inaccurate personal information"
+     ],
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-064#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you reside in California",
+      "In some cases"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to verify their own identity or confirm that the authorized agent has permission to submit the request",
+       "name": "fraud detection and prevention"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-064#s7"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 250,
+   "gap_words": 2583
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 79,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 19,
+  "cached": 0,
+  "prompt_tokens": 39471,
+  "completion_tokens": 34474,
+  "thinking_tokens": 0,
+  "seconds": 285.0239918231964,
+  "failures": 0
+ },
+ "seconds": 286.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

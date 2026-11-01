@@ -1,0 +1,202 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "tracking technology": "cookie"
+   },
+   "parents": {
+    "appointment history": [
+     "booking history"
+    ],
+    "attached images": [
+     "in-app message content"
+    ],
+    "booking history": [
+     "commercial information"
+    ],
+    "card numbers": [
+     "payment information"
+    ],
+    "click data": [
+     "interaction data"
+    ],
+    "click time": [
+     "click data"
+    ],
+    "credit card expiration date": [
+     "payment information"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "device ID": [
+     "device identifiers",
+     "hardware identifier"
+    ],
+    "email address": [
+     "contact details",
+     "direct identifiers"
+    ],
+    "hardware identifier": [
+     "device identifiers"
+    ],
+    "hashed contact details": [
+     "contact details"
+    ],
+    "in-app message": [
+     "communications"
+    ],
+    "in-app message content": [
+     "in-app message"
+    ],
+    "name": [
+     "direct identifiers"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "phone number": [
+     "contact details",
+     "direct identifiers"
+    ],
+    "precise geolocation": [
+     "location data"
+    ],
+    "preferences": [
+     "preferences or behavior"
+    ],
+    "behavior patterns": [
+     "preferences or behavior"
+    ],
+    "push notification token": [
+     "device identifiers"
+    ],
+    "tax forms": [
+     "tax and financial records"
+    ],
+    "user interaction data": [
+     "browsing and interaction data"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "personal data listed in privacy policy": [
+     "personal data"
+    ],
+    "personal data of children": [
+     "personal data"
+    ],
+    "third party personal info": [
+     "personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "location data": [
+     "personal data"
+    ],
+    "user profile information": [
+     "customer profile"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Service Providers": "Service Provider"
+   },
+   "parents": {
+    "Google": [
+     "trusted partners"
+    ],
+    "Meta": [
+     "trusted partners"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "Google, Facebook or Apple": [
+     "third party"
+    ],
+    "advertising partners": [
+     "third party"
+    ],
+    "payment processors": [
+     "third party"
+    ],
+    "third party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "Service Provider"
+   },
+   "parents": {
+    "Stripe": [
+     "payment processor"
+    ],
+    "payment processor": [
+     "Service Provider",
+     "third party"
+    ],
+    "Service Provider": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "legal advisor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service optimization": "service improvement"
+   },
+   "parents": {
+    "account security": [
+     "security"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and research"
+    ],
+    "fraud prevention and safety": [
+     "security"
+    ],
+    "legal defense": [
+     "compliance"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2739,
+  "completion_tokens": 666,
+  "thinking_tokens": 0,
+  "seconds": 9.36603045463562,
+  "failures": 0
+ },
+ "seconds": 9.4
+}

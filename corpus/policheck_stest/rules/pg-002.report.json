@@ -1,0 +1,181 @@
+{
+ "cleaned_sha256": "pg-002",
+ "text_sha256": "e6979d3855c9408ece6f2996cd1f376ce30f8ad9ca54184b3ed84ede5624599b",
+ "site_id": "pg-002",
+ "sections": 1,
+ "rules": 19,
+ "report": {
+  "sections": 1,
+  "raw_rules": 18,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "While keeping in view Child protection",
+      "children under 13 years of age"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-002#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "other persons or companies",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-002#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "other persons or companies",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-002#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "other persons or companies",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "give",
+      "verb": "give"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-002#s1"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 4,
+  "completeness": {
+   "gaps": 31,
+   "gap_words": 298
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 4,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3642,
+  "completion_tokens": 3001,
+  "thinking_tokens": 0,
+  "seconds": 23.727598428726196,
+  "failures": 0
+ },
+ "seconds": 23.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

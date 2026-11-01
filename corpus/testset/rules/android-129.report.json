@@ -1,0 +1,410 @@
+{
+ "cleaned_sha256": "android-129",
+ "text_sha256": "e4929c4516f10fa0cea8fffee2d6ec4c324ee6cc945217b39f3e44e6d155ac5c",
+ "site_id": "android-129",
+ "sections": 26,
+ "rules": 255,
+ "report": {
+  "sections": 26,
+  "raw_rules": 189,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "Facebook SDK",
+      "name": "Facebook"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "user login",
+       "name": "authentication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "commercial monetization",
+       "name": "commercial monetization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Link:https://www.applovin.com/privacy/",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Used",
+     "actor": {
+      "text": "AppsFlyer SDK",
+      "name": "AppsFlyer"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for analyze the effectiveness of product placements",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "https://www.appsflyer.com/legal/privacy-policy/",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we are legally required to do so or we have obligations to comply with a valid legal request such as an order or disclosure request from law enforcement agencies, government regulators, courts and other public authorities"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obligations to comply with a valid legal request such as an order or disclosure request",
+     "purpose": [],
+     "recipient": {
+      "name": "law enforcement agency",
+      "text": "law enforcement agencies"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we are legally required to do so or we have obligations to comply with a valid legal request such as an order or disclosure request from law enforcement agencies, government regulators, courts and other public authorities"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obligations to comply with a valid legal request such as an order or disclosure request",
+     "purpose": [],
+     "recipient": {
+      "name": "government agency",
+      "text": "government regulators"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we are legally required to do so or we have obligations to comply with a valid legal request such as an order or disclosure request from law enforcement agencies, government regulators, courts and other public authorities"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obligations to comply with a valid legal request such as an order or disclosure request",
+     "purpose": [],
+     "recipient": {
+      "name": "court",
+      "text": "courts"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we are legally required to do so or we have obligations to comply with a valid legal request such as an order or disclosure request from law enforcement agencies, government regulators, courts and other public authorities"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obligations to comply with a valid legal request such as an order or disclosure request",
+     "purpose": [],
+     "recipient": {
+      "name": "public authority",
+      "text": "other public authorities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are a user located in Indonesia",
+      "when registering or logging in",
+      "On iOS, access is subject to system permission prompts. On Android, access is governed by system permission settings"
+     ],
+     "exceptions": [
+      "You may manage or revoke this access at any time through your device’s privacy settings"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for SMS-based verification",
+       "name": "identity verification"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable Indonesian laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s26"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are a user located in Indonesia",
+      "when registering or logging in",
+      "On iOS, access is subject to system permission prompts. On Android, access is governed by system permission settings"
+     ],
+     "exceptions": [
+      "You may manage or revoke this access at any time through your device’s privacy settings"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for SMS-based verification",
+       "name": "identity verification"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable Indonesian laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-129#s26"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 98,
+  "completeness": {
+   "gaps": 362,
+   "gap_words": 3915
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 98,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 75094,
+  "completion_tokens": 40970,
+  "thinking_tokens": 0,
+  "seconds": 1022.083883523941,
+  "failures": 0
+ },
+ "seconds": 1023.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

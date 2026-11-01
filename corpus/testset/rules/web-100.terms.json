@@ -1,0 +1,265 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "adres": "address",
+    "appointment_details": "appointment details",
+    "call recording": "audio or visual content",
+    "cctv footage": "camera images",
+    "contact info": "contact details",
+    "contact_details": "contact details",
+    "contact_information": "contact details",
+    "customer support data": "customer service data",
+    "device identifier": "device characteristics",
+    "email": "e-mailadres",
+    "email address": "e-mailadres",
+    "email_address": "e-mailadres",
+    "gegevens": "data",
+    "gegevens van de klantenservice": "customer service data",
+    "identification_copy": "identification_card",
+    "ip address": "IP address",
+    "job_title": "job_role",
+    "mac address": "MAC address",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "persoonsgegevens": "personal data",
+    "phone_number": "phone number",
+    "photo": "foto",
+    "photograph": "foto",
+    "postal address": "address",
+    "postal_code": "postal code",
+    "preferred_store": "preferred store",
+    "purchase": "aankoop",
+    "purchase data": "aankoopgegevens",
+    "purchase history": "aankoopgegevens",
+    "purchases": "aankoop",
+    "quote_request_data": "quotation_request_data",
+    "services information": "gegevens over geleverde diensten",
+    "shopping behavior analysis data": "analysegegevens",
+    "store_preference": "preferred store",
+    "telefoonnummer": "phone number",
+    "telephone number": "phone number",
+    "transaction": "transactie",
+    "user_data": "user data",
+    "username": "user name",
+    "video": "camera images"
+   },
+   "parents": {
+    "IP address": [
+     "network connection information"
+    ],
+    "MAC address": [
+     "device characteristics"
+    ],
+    "aankoop": [
+     "transactie",
+     "transaction_data"
+    ],
+    "aankoopgegevens": [
+     "transaction_data"
+    ],
+    "accountnaam": [
+     "account_data",
+     "user name"
+    ],
+    "child age": [
+     "age",
+     "children's personal data"
+    ],
+    "child name": [
+     "children's personal data",
+     "name"
+    ],
+    "children's personal data": [
+     "personal data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "e-mailadres": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal code": [
+     "address"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "preferred store": [
+     "preferences"
+    ],
+    "user name": [
+     "account_data"
+    ],
+    "password": [
+     "account_data"
+    ],
+    "appointment details": [
+     "booking information"
+    ],
+    "audio or visual content": [
+     "records of correspondence"
+    ],
+    "camera images": [
+     "audio or visual content"
+    ],
+    "message content": [
+     "records of correspondence"
+    ],
+    "foto": [
+     "audio or visual content"
+    ],
+    "payment method": [
+     "payment details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "das_bedrijfsinformatie": "DAS Business Information",
+    "service provider": "dienstverleners",
+    "service providers": "dienstverleners"
+   },
+   "parents": {
+    "Freetrailer": [
+     "business partner"
+    ],
+    "dienstverleners": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other data controllers": [
+     "third party"
+    ],
+    "DAS Business Information": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "dienstverleners",
+    "service providers": "dienstverleners"
+   },
+   "parents": {
+    "dienstverleners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contact user about appointment": "communicate about appointments",
+    "credit_checks": "Voor kredietchecks",
+    "om je identiteit te verifiëren": "identity_verification",
+    "onze dienstverlening te verbeteren": "om onze diensten te verbeteren",
+    "order_tracking": "Zo kunnen jij en je collega’s de bestelgeschiedenis volgen",
+    "other purposes": "other",
+    "personalization": "personalisation",
+    "schedule appointments": "om een afspraak in te plannen",
+    "scheduling": "om een afspraak in te plannen",
+    "scheduling and reminders": "om een afspraak in te plannen",
+    "service improvement": "om onze diensten te verbeteren",
+    "service provision": "provide services",
+    "service-provision": "provide services",
+    "service_improvement": "om onze diensten te verbeteren",
+    "service_provision": "provide services",
+    "services": "provide services",
+    "voor fiscale doeleinden": "compliance with tax laws"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "analyze shopping behavior": [
+     "analytics"
+    ],
+    "communicate about appointments": [
+     "communication"
+    ],
+    "customer communications": [
+     "communication"
+    ],
+    "keep you informed": [
+     "communication"
+    ],
+    "complete order": [
+     "order fulfillment"
+    ],
+    "complete purchase": [
+     "order fulfillment"
+    ],
+    "order_fulfillment": [
+     "order fulfillment"
+    ],
+    "compliance with tax laws": [
+     "compliance",
+     "legal compliance",
+     "legal_compliance"
+    ],
+    "compliance": [
+     "legal compliance",
+     "legal_compliance"
+    ],
+    "om je vraag te kunnen beantwoorden en onze dienstverlening te verbeteren": [
+     "customer support",
+     "om onze diensten te verbeteren"
+    ],
+    "om commerciële berichten te sturen": [
+     "marketing"
+    ],
+    "to receive our newsletter": [
+     "marketing"
+    ],
+    "voor marketingdoeleinden": [
+     "marketing"
+    ],
+    "improve store and services": [
+     "om onze diensten te verbeteren"
+    ],
+    "to create a safe environment for our guests and employees": [
+     "safety",
+     "security"
+    ],
+    "safety": [
+     "security"
+    ],
+    "fraud-detection": [
+     "fraud prevention and security"
+    ],
+    "communicatie te personaliseren": [
+     "personalisation"
+    ],
+    "om bestellingen te leveren": [
+     "order_fulfillment"
+    ],
+    "to make the reservation and provide you with the requested services": [
+     "provide services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4030,
+  "completion_tokens": 1614,
+  "thinking_tokens": 0,
+  "seconds": 15.256672143936157,
+  "failures": 0
+ },
+ "seconds": 15.3
+}

@@ -1,0 +1,22 @@
+{
+ "policy": "pg-132",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Personal Data collected: Unique device identifiers for advertising.",
+   "prohibit": "We do not collect any personal information about the users of our apps.",
+   "situation": "A user uses an app containing AdMob or Kidoz advertising partners.",
+   "reason": "The policy flatly asserts no personal information is collected from app users, yet identifies advertising IDs collected via the apps as personal data without reconciling the two.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1458,
+  "completion_tokens": 130,
+  "thinking_tokens": 0,
+  "seconds": 2.1107230186462402,
+  "failures": 0
+ }
+}

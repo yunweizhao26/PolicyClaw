@@ -1,0 +1,83 @@
+{
+ "cleaned_sha256": "web-186",
+ "text_sha256": "d35b85eee6758e5da28b0fa9b06d451e4eb3d37f6fcc6ad7da83d2c148c9953b",
+ "site_id": "web-186",
+ "sections": 20,
+ "rules": 137,
+ "report": {
+  "sections": 20,
+  "raw_rules": 112,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "results in the cessation of",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "With regard to processing based on your consent",
+      "Withdrawal of your consent",
+      "in the future"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-186#s15"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 93,
+  "completeness": {
+   "gaps": 132,
+   "gap_words": 1185
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 93,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 60366,
+  "completion_tokens": 30799,
+  "thinking_tokens": 0,
+  "seconds": 270.33016705513,
+  "failures": 0
+ },
+ "seconds": 271.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

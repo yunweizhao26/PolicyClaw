@@ -1,0 +1,289 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "communication contents": "communication content",
+    "demographic information": "demographic data",
+    "device identifier": "Device Identifier",
+    "information": "any data",
+    "ip address": "IP address",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personally identifiable information": "Personal Information",
+    "unspecified": "any data",
+    "usage information": "Usage Information",
+    "user data": "any data"
+   },
+   "parents": {
+    "Device Identifier": [
+     "identifier",
+     "identifiers"
+    ],
+    "IP address": [
+     "telecommunications network and connection data"
+    ],
+    "account identifier": [
+     "identifier",
+     "identifiers"
+    ],
+    "browsing activity": [
+     "Usage Information",
+     "browsing behavior"
+    ],
+    "browsing behavior": [
+     "Usage Information"
+    ],
+    "browsing history": [
+     "Usage Information"
+    ],
+    "communication content": [
+     "communications"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "demographic data": [
+     "Personal Information"
+    ],
+    "electronic communication metadata": [
+     "records pertaining to user"
+    ],
+    "email address": [
+     "contact details",
+     "identifier",
+     "identifiers"
+    ],
+    "financial data": [
+     "financial information"
+    ],
+    "financial information": [
+     "Personal Information"
+    ],
+    "flash cookies": [
+     "cookie"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "identifier": [
+     "identifying information"
+    ],
+    "identifiers": [
+     "identifying information"
+    ],
+    "information about your use of the Services": [
+     "Usage Information"
+    ],
+    "message contents": [
+     "communication content"
+    ],
+    "name": [
+     "Personal Information",
+     "identifier",
+     "identifiers",
+     "identifying information"
+    ],
+    "online communication records": [
+     "electronic communication metadata",
+     "records pertaining to user"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "personal details": [
+     "Personal Information"
+    ],
+    "phone number": [
+     "contact details",
+     "identifier",
+     "identifiers"
+    ],
+    "photograph": [
+     "user content"
+    ],
+    "postal address": [
+     "contact details",
+     "identifier",
+     "identifiers"
+    ],
+    "user identifier": [
+     "identifier",
+     "identifiers"
+    ],
+    "voice recording": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party advertising providers": "advertising network",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "third party",
+     "unaffiliated third parties"
+    ],
+    "law enforcement": [
+     "government"
+    ],
+    "regulatory authority": [
+     "government"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unaffiliated third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising companies": "network advertisers"
+   },
+   "parents": {
+    "Adobe Media Optimizer": [
+     "third party"
+    ],
+    "Connexity": [
+     "third party"
+    ],
+    "DataXu": [
+     "third party"
+    ],
+    "Demand Media": [
+     "third party"
+    ],
+    "DoubleClick": [
+     "third party"
+    ],
+    "Dstillery": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "Google Dynamic Remarketing": [
+     "third party"
+    ],
+    "Optimizely": [
+     "third party"
+    ],
+    "RadiumOne": [
+     "third party"
+    ],
+    "SteelHouse": [
+     "third party"
+    ],
+    "The Trade Desk": [
+     "third party"
+    ],
+    "Turn": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "network advertisers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "legal_compliance": "legal compliance",
+    "personalization": "personalisation",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "commercial purpose",
+     "marketing"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "contractual requirements": [
+     "compliance"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "dispute resolution": [
+     "customer support"
+    ],
+    "enforce agreements": [
+     "enforce terms"
+    ],
+    "fraud prevention": [
+     "fraud_prevention",
+     "fraud_prevention_and_security",
+     "security"
+    ],
+    "fraud_prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "authentication": [
+     "identification"
+    ],
+    "user identification": [
+     "identification"
+    ],
+    "to verify your identity": [
+     "identification"
+    ],
+    "user_account_management": [
+     "identification"
+    ],
+    "internal operations": [
+     "internal_operations"
+    ],
+    "order processing": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service maintenance": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3500,
+  "completion_tokens": 1585,
+  "thinking_tokens": 0,
+  "seconds": 15.368120908737183,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

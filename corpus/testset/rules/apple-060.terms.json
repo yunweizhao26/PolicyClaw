@@ -1,0 +1,411 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "app launch info": "app launch details",
+    "app usage data": "app usage",
+    "app usage information": "app usage",
+    "email address": "email",
+    "identifiers": "identifier",
+    "ip address": "IP address",
+    "skin analysis results": "analysis results",
+    "subscription information": "subscription details",
+    "survey responses": "survey response",
+    "unique technical identifiers": "technical identifier"
+   },
+   "parents": {
+    "Android ID": [
+     "device identifier"
+    ],
+    "Google advertising ID": [
+     "advertising id"
+    ],
+    "IDFA": [
+     "advertising id"
+    ],
+    "IP address": [
+     "technical identifier"
+    ],
+    "ZIP code": [
+     "location"
+    ],
+    "accessibility features": [
+     "device information"
+    ],
+    "advertising id": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "age group": [
+     "demographic data"
+    ],
+    "analysis results": [
+     "health data"
+    ],
+    "app launch details": [
+     "app usage"
+    ],
+    "app mode updates": [
+     "app usage"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "body mass index": [
+     "health data"
+    ],
+    "body temperature": [
+     "health data"
+    ],
+    "chat logs": [
+     "user content"
+    ],
+    "comment": [
+     "user posts and comments"
+    ],
+    "country": [
+     "location"
+    ],
+    "customer ID": [
+     "identifier"
+    ],
+    "cycle phase predictions": [
+     "menstrual cycle details"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "device id": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device storage information": [
+     "device information"
+    ],
+    "email": [
+     "contact information"
+    ],
+    "facial image": [
+     "photograph"
+    ],
+    "health and activity data": [
+     "health data"
+    ],
+    "health and medical information": [
+     "health data"
+    ],
+    "health symptoms": [
+     "health data"
+    ],
+    "health symptoms and activity": [
+     "health and activity data"
+    ],
+    "height": [
+     "health data"
+    ],
+    "insurance provider": [
+     "financial details"
+    ],
+    "menstrual cycle details": [
+     "health data"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "partner ID": [
+     "identifier"
+    ],
+    "photograph": [
+     "user content"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "pregnancy info": [
+     "pregnancy-related information"
+    ],
+    "pregnancy-related information": [
+     "health data"
+    ],
+    "push notification token": [
+     "identifier"
+    ],
+    "review": [
+     "user content"
+    ],
+    "subscription status": [
+     "subscription details"
+    ],
+    "symptoms": [
+     "health symptoms"
+    ],
+    "timezone": [
+     "location"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "technical identifier": [
+     "identifier"
+    ],
+    "user id": [
+     "identifier"
+    ],
+    "user posts and comments": [
+     "user content"
+    ],
+    "website usage data": [
+     "usage data"
+    ],
+    "weight": [
+     "health data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "TikTok Ad Manager": "TikTok"
+   },
+   "parents": {
+    "Apple": [
+     "service provider",
+     "third party"
+    ],
+    "AppsFlyer": [
+     "service provider",
+     "third party"
+    ],
+    "AppsFlyer partners": [
+     "third party"
+    ],
+    "Firebase": [
+     "service provider",
+     "third party"
+    ],
+    "JAMS": [
+     "third party"
+    ],
+    "TikTok": [
+     "advertising platform",
+     "service provider",
+     "third party"
+    ],
+    "advertising platform": [
+     "third party"
+    ],
+    "commercial partner": [
+     "partner",
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "linked services": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "research institution": [
+     "third party"
+    ],
+    "reseller": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party agent": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "first party": "Flo"
+   },
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "Apple HealthKit": [
+     "other sources",
+     "third party"
+    ],
+    "Google Health Connect": [
+     "other sources",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Google Firebase": "Firebase",
+    "first party": "Flo"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "Apple": [
+     "service provider"
+    ],
+    "AppsFlyer": [
+     "service provider"
+    ],
+    "AppsFlyer partners": [
+     "third party"
+    ],
+    "Auth0": [
+     "service provider"
+    ],
+    "Chargeback Gurus": [
+     "service provider"
+    ],
+    "Cloudflare": [
+     "service provider"
+    ],
+    "Cloudflare Turnstile": [
+     "service provider"
+    ],
+    "Customer Thermometer": [
+     "service provider"
+    ],
+    "Databricks": [
+     "service provider"
+    ],
+    "Elastic": [
+     "service provider"
+    ],
+    "Firebase": [
+     "Google",
+     "service provider"
+    ],
+    "Flo Health, Inc.": [
+     "Flo"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "Looker": [
+     "Google",
+     "service provider"
+    ],
+    "PayPal": [
+     "service provider"
+    ],
+    "SendGrid": [
+     "service provider"
+    ],
+    "Stripe": [
+     "service provider"
+    ],
+    "SurveyMonkey": [
+     "service provider"
+    ],
+    "Tecton": [
+     "service provider"
+    ],
+    "TikTok Ad Manager": [
+     "service provider"
+    ],
+    "Trustpilot": [
+     "service provider"
+    ],
+    "Vercel": [
+     "service provider"
+    ],
+    "Zendesk": [
+     "service provider"
+    ],
+    "device provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party agent": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "marketing": "advertising or marketing"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "advertising or marketing"
+    ],
+    "advertising": [
+     "advertising or marketing"
+    ],
+    "ensure service safety": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "verification": [
+     "security"
+    ],
+    "personalize content and offers": [
+     "personalization"
+    ],
+    "personalize user experience": [
+     "personalization"
+    ],
+    "improve service and user experience": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service-operation-and-support": [
+     "service provision"
+    ],
+    "enhance functionality": [
+     "service improvement"
+    ],
+    "create your report": [
+     "service provision"
+    ],
+    "facilitate telehealth service": [
+     "service provision"
+    ],
+    "validate subscription": [
+     "payments"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "feedback": [
+     "communication"
+    ],
+    "account-creation": [
+     "service functionality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3743,
+  "completion_tokens": 1655,
+  "thinking_tokens": 0,
+  "seconds": 15.443151712417603,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

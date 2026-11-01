@@ -1,0 +1,197 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "app data": "App Data",
+    "customer information": "Customer Information",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information"
+   },
+   "parents": {
+    "account information": [
+     "Personal Information"
+    ],
+    "advertising id": [
+     "device identifier"
+    ],
+    "age": [
+     "Personal Information"
+    ],
+    "app features used": [
+     "app usage"
+    ],
+    "app usage": [
+     "App Data"
+    ],
+    "app usage information": [
+     "App Data"
+    ],
+    "browsing activity": [
+     "App Data"
+    ],
+    "call timestamp": [
+     "App Data"
+    ],
+    "city": [
+     "location"
+    ],
+    "contacts": [
+     "Personal Information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device information": [
+     "data"
+    ],
+    "email address": [
+     "Personal Information"
+    ],
+    "financial information": [
+     "Personal Information"
+    ],
+    "first party information": [
+     "information"
+    ],
+    "Google account data": [
+     "Personal Information"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "information gathered from Tags": [
+     "data"
+    ],
+    "information provided by third parties": [
+     "information"
+    ],
+    "ip address": [
+     "network information"
+    ],
+    "location": [
+     "Personal Information"
+    ],
+    "mobile carrier identifier": [
+     "device identifier"
+    ],
+    "name": [
+     "Personal Information"
+    ],
+    "network information": [
+     "device information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "personal data categories": [
+     "Personal Information"
+    ],
+    "phone number": [
+     "Personal Information"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "purchase history": [
+     "App Data"
+    ],
+    "state": [
+     "location"
+    ],
+    "survey response": [
+     "Personal Information"
+    ],
+    "text message content": [
+     "Personal Information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user information": [
+     "Personal Information"
+    ],
+    "user profile": [
+     "Personal Information"
+    ],
+    "voicemail": [
+     "Personal Information"
+    ],
+    "wi-fi network name": [
+     "network information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "advertising company"
+   },
+   "parents": {
+    "advertising service provider": [
+     "service provider",
+     "third party"
+    ],
+    "advertising company": [
+     "third party"
+    ],
+    "mobile carrier": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Analytics Tools providers": [
+     "third party"
+    ],
+    "advertising company": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "service alerts": [
+     "service communication"
+    ],
+    "service provision and improvement": [
+     "services"
+    ],
+    "service optimization": [
+     "service provision and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2169,
+  "completion_tokens": 666,
+  "thinking_tokens": 0,
+  "seconds": 9.726424932479858,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

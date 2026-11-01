@@ -1,0 +1,145 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "collected data",
+    "passwords": "password",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "cookies": [
+     "collected data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "nickname": [
+     "personal data"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "payment card details": [
+     "personal data",
+     "sensitive data"
+    ],
+    "personal data": [
+     "collected data",
+     "user data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "usage data": [
+     "collected data",
+     "user data"
+    ],
+    "user data": [
+     "collected data"
+    ],
+    "website traffic": [
+     "usage data"
+    ],
+    "web beacons": [
+     "cookies"
+    ],
+    "scripts": [
+     "cookies"
+    ],
+    "tags": [
+     "cookies"
+    ],
+    "other data related to the violation": [
+     "collected data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public authorities": [
+     "an organization or a country"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Firebase": [
+     "Google",
+     "service provider",
+     "third party"
+    ],
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party ad providers": [
+     "third party"
+    ],
+    "third-party payment processors": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "account maintenance": [
+     "service provision"
+    ],
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service-related communication": [
+     "communication"
+    ],
+    "technical support": [
+     "customer service"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1545,
+  "completion_tokens": 608,
+  "thinking_tokens": 0,
+  "seconds": 8.819391012191772,
+  "failures": 0
+ },
+ "seconds": 8.9
+}

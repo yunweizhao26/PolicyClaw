@@ -1,0 +1,994 @@
+{
+ "cleaned_sha256": "apple-057",
+ "text_sha256": "5aefb3ceb4b053fbdaba6f1a7afa171754e7c014aadc10454c485fc8bb6979f6",
+ "site_id": "apple-057",
+ "sections": 28,
+ "rules": 491,
+ "report": {
+  "sections": 28,
+  "raw_rules": 418,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may combine",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information collected from you on our Sites and Apps",
+      "name": "online personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you on our Sites and Apps",
+      "name": "user"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "provide you with a personalized experience regardless of how you interact with us",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may combine"
+    ],
+    "section": "apple-057#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your biometric information",
+      "name": "biometrics"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for any other commercial purpose",
+       "name": "commercial purpose"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "apple-057#s3"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not retain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your biometric information",
+      "name": "biometrics"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "for any other commercial purpose",
+       "name": "commercial purpose"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not retain"
+    ],
+    "section": "apple-057#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may employ",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party providers and individuals",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "employ",
+      "verb": "employ"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to facilitate the Services, to provide the Services on our behalf, to perform Service-related functions (e.g., payment processing services, IT support services, maintenance services, shipping, database management, marketing, security and fraud prevention services, web or advertising analytics, and improvement of the Service’s features) or to assist us in analyzing how the Services are used",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-057#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to obtain access to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information we have collected about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtain access to",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your state of residency, you may be able to exercise the following rights in relation to the personal information about you that we have collected (subject to certain limitations at law)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to obtain a copy of",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your state of residency, you may be able to exercise the following rights in relation to the personal information about you that we have collected (subject to certain limitations at law)",
+      "where required by law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "where required by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Financial Incentives",
+      "consumers who allow us to collect and retain personal information",
+      "participating in any financial incentive program is entirely optional"
+     ],
+     "exceptions": [
+      "withdraw from the program at any time",
+      "opt out of the program and forgo any ongoing incentives"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "program terms",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "program’s terms and conditions",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Contact Us",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-057#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Financial Incentives",
+      "consumers who allow us to collect and retain personal information",
+      "participating in any financial incentive program is entirely optional"
+     ],
+     "exceptions": [
+      "withdraw from the program at any time",
+      "opt out of the program and forgo any ongoing incentives"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "program terms",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "program’s terms and conditions",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Contact Us",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-057#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "ADDITIONAL CANADA-SPECIFIC PRIVACY DISCLOSURES",
+      "apply solely to individual residents of Canada",
+      "By providing us with personal information",
+      "in other jurisdictions, including in servers located across Canada and in the United States"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "for",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Personal Information Protection and Electronic Documents Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "provincial privacy laws in Canada",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Quebec’s Act respecting the protection of personal information in the private sector",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in other jurisdictions, including in servers located across Canada and in the United States"
+    ],
+    "section": "apple-057#s14"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "operations": [
+      "collection"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Our Collection and Use of Personal Information\nsection of our Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Annex 1",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data indirectly about how you access and use the Services"
+     },
+     "operations": [
+      "collection"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "automatically"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Annex 2",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "device information",
+      "text": "information about the device you use to access the Services, or otherwise engage with us"
+     },
+     "operations": [
+      "collection"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "automatically"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Annex 2",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "link",
+      "verb": "link"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data you provide"
+     },
+     "operations": [
+      "alignment or combination"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to provide you with a personalized experience regardless of how you interact with us",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may link",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "link",
+      "verb": "link"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect automatically"
+     },
+     "operations": [
+      "alignment or combination"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to provide you with a personalized experience regardless of how you interact with us",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may link",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data you provide"
+     },
+     "operations": [
+      "alignment or combination"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to provide you with a personalized experience regardless of how you interact with us",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect automatically"
+     },
+     "operations": [
+      "alignment or combination"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to provide you with a personalized experience regardless of how you interact with us",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "anonymize",
+      "verb": "anonymize"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "operations": [
+      "erasure or destruction"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "so that it does not directly identify you",
+       "name": "anonymization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may anonymize",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "aggregate",
+      "verb": "aggregate"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "operations": [
+      "organisation"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "so that it does not directly identify you",
+       "name": "anonymization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect about you"
+     },
+     "operations": [
+      "use"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "to help us determine the most relevant marketing information to share with you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "For some marketing messages"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "transferred to",
+      "verb": "transfer to"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "countries outside of the jurisdiction you are in where we and our third-party providers have operations, including in the United States"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may be transferred",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "stored in",
+      "verb": "store in"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data we collect"
+     },
+     "operations": [
+      "storage"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "countries outside of the jurisdiction you are in where we and our third-party providers have operations, including in the United States"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "operations": [
+      "processing"
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you are accessing the Services from the EEA, UK or Switzerland",
+      "outside of the EEA, UK or Switzerland"
+     ],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-057#s17"
+   }
+  ],
+  "residual_quotes": 62,
+  "quotes": 183,
+  "completeness": {
+   "gaps": 621,
+   "gap_words": 7004
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 18,
+  "translated_quotes": 183,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 55,
+  "cached": 0,
+  "prompt_tokens": 107413,
+  "completion_tokens": 83675,
+  "thinking_tokens": 0,
+  "seconds": 1169.19202542305,
+  "failures": 0
+ },
+ "seconds": 1171.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

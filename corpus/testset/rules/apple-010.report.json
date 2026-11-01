@@ -1,0 +1,183 @@
+{
+ "cleaned_sha256": "apple-010",
+ "text_sha256": "ccc06cb19a0c3acb3c37b8a3b75fda365ac7b41b7671928725268bd641777818",
+ "site_id": "apple-010",
+ "sections": 17,
+ "rules": 327,
+ "report": {
+  "sections": 17,
+  "raw_rules": 227,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "subsequent owner, co-owner, or operator of one or more of the Services",
+      "name": "successor entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Business Transfers and Corporate Changes",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If we do or try to do a corporate merger, consolidation, or restructuring (including during due diligence and negotiation of these); the sale of substantially all of our stock and/or assets; the financing, acquisition, divestiture, or dissolution of all or a portion of our business; or other corporate change."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-010#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure is reasonably necessary",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to comply with any applicable law, regulation, legal process or governmental request (e.g., from creditors, tax authorities, law enforcement agencies, in response to a garnishment, levy, or lien notice, etc.)",
+       "name": "compliance with legal obligation"
+      },
+      {
+       "text": "to establish, exercise or defend our legal rights",
+       "name": "legal assertion or defence"
+      },
+      {
+       "text": "to enforce or comply with our Terms of Service or other applicable agreements or policies",
+       "name": "compliance with legal obligation"
+      },
+      {
+       "text": "to protect our or our customers’ rights or property, or the security or integrity of our Services",
+       "name": "security"
+      },
+      {
+       "text": "for an investigation of suspected or actual illegal activity",
+       "name": "fraud detection and prevention"
+      },
+      {
+       "text": "to protect us, users of our Services or the public from harm, fraud, or potentially prohibited or illegal activities",
+       "name": "fraud detection and prevention"
+      }
+     ],
+     "conditions": [
+      "If we believe that disclosure is reasonably necessary (i) to comply with any applicable law, regulation, legal process or governmental request (e.g., from creditors, tax authorities, law enforcement agencies, in response to a garnishment, levy, or lien notice, etc.); (ii) to establish, exercise or defend our legal rights; (iii) to enforce or comply with our Terms of Service or other applicable agreements or policies; (iv) to protect our or our customers’ rights or property, or the security or integrity of our Services; (v) for an investigation of suspected or actual illegal activity; or (vi) to protect us, users of our Services or the public from harm, fraud, or potentially prohibited or illegal activities."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-010#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "With",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "Others",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "With your consent or at your direction",
+      "At your direction or as described at the time you agree to share"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-010#s8"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 218,
+   "gap_words": 2442
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 82,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 61153,
+  "completion_tokens": 48154,
+  "thinking_tokens": 0,
+  "seconds": 844.4216177463531,
+  "failures": 0
+ },
+ "seconds": 845.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

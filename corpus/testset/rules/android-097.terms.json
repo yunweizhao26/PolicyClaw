@@ -1,0 +1,111 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "crash logs": "crash data",
+    "performance metrics": "performance data",
+    "photos": "photo",
+    "social network login credentials": "social login credentials",
+    "user identifier": "account identifier",
+    "user uploaded photo": "photo",
+    "voice data": "voice audio recordings"
+   },
+   "parents": {
+    "advertising identifier": [
+     "advertising data"
+    ],
+    "financial account transaction history": [
+     "transaction history"
+    ],
+    "payment card information": [
+     "payment information"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "voice audio recordings": [
+     "audio data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "recording company": "music label"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "device manufacturer": [
+     "third party"
+    ],
+    "media company": [
+     "third party"
+    ],
+    "music label": [
+     "third party"
+    ],
+    "parent company": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "retailer": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "telecommunication operator": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "recommendations": [
+     "personalization"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "payment handling": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1659,
+  "completion_tokens": 394,
+  "thinking_tokens": 0,
+  "seconds": 34.166752576828,
+  "failures": 0
+ },
+ "seconds": 34.2
+}

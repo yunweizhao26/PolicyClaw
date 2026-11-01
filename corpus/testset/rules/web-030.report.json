@@ -1,0 +1,372 @@
+{
+ "cleaned_sha256": "web-030",
+ "text_sha256": "8d268bbb01197dca7529df1e7cea5bb912a69ab4668e840e1ed92e80c2bbd058",
+ "site_id": "web-030",
+ "sections": 20,
+ "rules": 371,
+ "report": {
+  "sections": 20,
+  "raw_rules": 308,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may send",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "in order to update you about events and promotions",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "If you use the HubSpot mobile applications"
+     ],
+     "exceptions": [
+      "you may turn them off at the device level"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-030#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may reach out to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reach out to",
+      "verb": "reach out"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to ask about other HubSpot products or services you may be interested in",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "via telephone"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-030#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reach out to you via SMS",
+      "verb": "reach out"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "opt out of those communications"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-030#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send marketing communications",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "marketing communications",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "Where required by law",
+      "with your consent"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Where required by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-030#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "market and advertise our products and services",
+      "verb": "market"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "market and advertise our products and services",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "Otherwise",
+      "on the basis of our legitimate business interests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-030#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can request",
+     "actor": {
+      "text": "HubSpot",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location and applicable laws",
+      "You can request access, correction, updates or deletion of your Personal Data"
+     ],
+     "exceptions": [
+      "where fulfilling your request would impair the rights of others, our ability to provide a service you have requested, or our ability to comply with our legal obligations and enforce our legal rights"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-030#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "within 30 calendar days",
+      "unless refreshed"
+     ],
+     "data": {
+      "name": "stored public YouTube API data",
+      "text": "stored public YouTube API data"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "is refreshed or completely deleted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "unless refreshed"
+    ],
+    "section": "web-030#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "accesses",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Social Extension"
+     },
+     "conditions": [
+      "only after its toolbar button is clicked"
+     ],
+     "data": {
+      "name": "information about the current page",
+      "text": "information about the current page"
+     },
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "only accesses",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Install and use the HubSpot Social Chrome extension",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only after its toolbar button is clicked"
+    ],
+    "section": "web-030#s19"
+   }
+  ],
+  "residual_quotes": 31,
+  "quotes": 145,
+  "completeness": {
+   "gaps": 387,
+   "gap_words": 4004
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 145,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 74448,
+  "completion_tokens": 59228,
+  "thinking_tokens": 161,
+  "seconds": 631.0057845115662,
+  "failures": 0
+ },
+ "seconds": 632.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware device identifier": "hardware device ID",
+    "ip address": "IP address",
+    "mobile device type": "device type",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "mobile device info"
+    ],
+    "app features accessed": [
+     "app usage and performance data"
+    ],
+    "billing address": [
+     "contact info",
+     "payment information"
+    ],
+    "browser type": [
+     "mobile device info"
+    ],
+    "credit card number": [
+     "financial details",
+     "payment information"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "financial details": [
+     "payment information"
+    ],
+    "hardware device ID": [
+     "device identifier",
+     "mobile device info"
+    ],
+    "device type": [
+     "mobile device info"
+    ],
+    "operating system": [
+     "mobile device info"
+    ],
+    "order total": [
+     "transaction history"
+    ],
+    "password": [
+     "password or sensitive data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "telecom network provider": [
+     "mobile device info"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Crawford Family Auctions": "Auction House",
+    "the Auction House": "Auction House"
+   },
+   "parents": {
+    "Auction House": [
+     "first party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "marketing partner": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "legal representative": [
+     "third party"
+    ],
+    "unspecified-third-party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party payment processor": "payment processor"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "order-fulfillment": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service operation or improvement"
+    ],
+    "marketing": [
+     "commercial"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2028,
+  "completion_tokens": 556,
+  "thinking_tokens": 0,
+  "seconds": 10.427275657653809,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

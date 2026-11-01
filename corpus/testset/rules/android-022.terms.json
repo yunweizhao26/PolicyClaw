@@ -1,0 +1,428 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "GPS location data": "GPS location",
+    "age range": "age",
+    "billing information": "billing data",
+    "call logs": "call detail records",
+    "contact list": "address book",
+    "contact logs": "contact history",
+    "contact record": "contact details",
+    "correspondence": "administrative communication",
+    "date of birth": "birthday",
+    "email address": "email",
+    "financial information": "financial data",
+    "government-issued id": "government-issued ID",
+    "gps coordinates": "GPS location",
+    "hardware identifier": "device identifier",
+    "ip address": "IP address",
+    "location": "geographic location",
+    "messages": "message content",
+    "personal data": "collected personal data",
+    "photograph": "photo",
+    "postal address": "address",
+    "profile picture": "profile image",
+    "registration data": "data provided or collected through registration & under your Viber account",
+    "user messages": "message content",
+    "user name": "name",
+    "user profile photo": "profile image"
+   },
+   "parents": {
+    "GPS location": [
+     "geographic location",
+     "precise location"
+    ],
+    "IP address": [
+     "network connection data"
+    ],
+    "IP-derived location": [
+     "geographic location"
+    ],
+    "account details": [
+     "financial data"
+    ],
+    "activity within services": [
+     "activity data"
+    ],
+    "ad engagement data": [
+     "activity data"
+    ],
+    "app activity": [
+     "activity within services"
+    ],
+    "app activity records": [
+     "app activity"
+    ],
+    "billing data": [
+     "financial data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "biometric template": [
+     "biometric data"
+    ],
+    "browsing activity": [
+     "activity data"
+    ],
+    "browsing, search, or other activity data": [
+     "activity data"
+    ],
+    "business account content": [
+     "content"
+    ],
+    "business address": [
+     "address"
+    ],
+    "business name": [
+     "name"
+    ],
+    "business registration certificate": [
+     "tax information"
+    ],
+    "call content": [
+     "communication content"
+    ],
+    "call detail records": [
+     "activity data",
+     "telecommunications data"
+    ],
+    "call status": [
+     "activity data"
+    ],
+    "chat log": [
+     "communication content"
+    ],
+    "customer service communication details": [
+     "customer support communications"
+    ],
+    "customer support communications": [
+     "communications"
+    ],
+    "data consumption information": [
+     "telecommunications data"
+    ],
+    "dating conduct and use data": [
+     "activity data"
+    ],
+    "dating profile data": [
+     "profile data"
+    ],
+    "dating profile information": [
+     "dating profile data"
+    ],
+    "device identifier": [
+     "device data",
+     "device identifiers",
+     "identifier"
+    ],
+    "device identifiers": [
+     "device data"
+    ],
+    "device parameters": [
+     "device data"
+    ],
+    "eSIM identifier": [
+     "eSIM data",
+     "identifier"
+    ],
+    "email": [
+     "contact details"
+    ],
+    "email message or other user input": [
+     "user communication"
+    ],
+    "facial geometry": [
+     "biometric data"
+    ],
+    "financial records": [
+     "financial data"
+    ],
+    "government-issued ID": [
+     "identity verification data"
+    ],
+    "group payment details": [
+     "payment data"
+    ],
+    "hardware model": [
+     "device data"
+    ],
+    "identifier": [
+     "identifiers"
+    ],
+    "identity verification data": [
+     "KYC data"
+    ],
+    "imported profile data": [
+     "profile data"
+    ],
+    "inferred gender": [
+     "gender"
+    ],
+    "inferred personal interest": [
+     "inferred user profile"
+    ],
+    "merchant name": [
+     "transaction details"
+    ],
+    "message": [
+     "message content"
+    ],
+    "message content": [
+     "communication content"
+    ],
+    "message status": [
+     "activity data"
+    ],
+    "name and IBAN": [
+     "sender or recipient account details"
+    ],
+    "online status": [
+     "network connection data"
+    ],
+    "payment instructions": [
+     "payment data"
+    ],
+    "payment service status": [
+     "financial data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "phone number area code": [
+     "phone number"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "precise location": [
+     "geographic location"
+    ],
+    "presence on viber": [
+     "activity data"
+    ],
+    "profile image": [
+     "photo",
+     "profile data"
+    ],
+    "public posts": [
+     "user content"
+    ],
+    "purchase price and currency": [
+     "transaction details"
+    ],
+    "purchases": [
+     "transaction-related information"
+    ],
+    "review count": [
+     "usage statistics"
+    ],
+    "screenshots taken": [
+     "user content"
+    ],
+    "sender or recipient account details": [
+     "account details"
+    ],
+    "sensitive personal data": [
+     "collected personal data"
+    ],
+    "sensor data": [
+     "device data"
+    ],
+    "subscription status": [
+     "account data"
+    ],
+    "text message": [
+     "message content"
+    ],
+    "transaction details": [
+     "transaction-related information"
+    ],
+    "transaction and wallet information": [
+     "financial data"
+    ],
+    "travel patterns": [
+     "geographic location"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "user posts": [
+     "public posts"
+    ],
+    "user profile content": [
+     "user content"
+    ],
+    "user-submitted content": [
+     "user content"
+    ],
+    "verification result": [
+     "verification status"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate family": "affiliate",
+    "dating services users": "dating service participants",
+    "other users": "other user",
+    "payment service providers": "payment processor",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Apple Pay": [
+     "payment processor"
+    ],
+    "Google Pay": [
+     "payment processor"
+    ],
+    "Rakuten Group": [
+     "affiliate"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "contacts in address book": [
+     "contacts"
+    ],
+    "dating service participants": [
+     "user"
+    ],
+    "licensed partner": [
+     "business partner"
+    ],
+    "linked payments providers": [
+     "payment processor"
+    ],
+    "other user": [
+     "user"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "third party partners": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party advertising network": "advertising network",
+    "user device": "device"
+   },
+   "parents": {
+    "Google Business Profile": [
+     "third party"
+    ],
+    "network provider": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "sensor": [
+     "device"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "trusted third parties": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "other users": "other user"
+   },
+   "parents": {
+    "advertising partner": [
+     "our partners",
+     "service provider",
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "our partners": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "recipient of payment": [
+     "user"
+    ],
+    "sender of payment": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "advertising or marketing": "advertising",
+    "fraud prevention": "fraud detection",
+    "fraud-detection": "fraud detection",
+    "fraud_detection": "fraud detection",
+    "legal compliance": "compliance",
+    "service or product improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision",
+    "services": "service provision",
+    "user support": "customer support"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "to verify that your dating profile is genuine and prevent impersonation": [
+     "fraud detection",
+     "verification"
+    ],
+    "to allow service functionality by finding you matches with the nearby participants of the dating services": [
+     "service provision"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "user verification": [
+     "verification"
+    ],
+    "access_management": [
+     "security"
+    ],
+    "to estimate your general location (e.g., city level)": [
+     "profiling"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5339,
+  "completion_tokens": 2077,
+  "thinking_tokens": 0,
+  "seconds": 17.07283115386963,
+  "failures": 0
+ },
+ "seconds": 17.2
+}

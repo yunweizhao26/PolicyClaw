@@ -1,0 +1,811 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Billing information": "BILLING INFORMATION",
+    "IP address": "IP Address",
+    "Registration information": "REGISTRATION INFORMATION",
+    "TECHNICAL AND DEVICE INFORMATION": "Device information",
+    "Your registration information": "REGISTRATION INFORMATION",
+    "an under-age status signal": "Under‑Age Status Signal",
+    "certain personal information about you": "Personal information",
+    "certain personal information we have about you": "Personal information",
+    "certain personal information we hold about you": "Personal information",
+    "contact details": "basic contact information",
+    "contact information": "basic contact information",
+    "country of origin": "country location",
+    "credit or debit card details (including expiration dates)": "credit card information",
+    "data about your device(s)": "Device information",
+    "e-mail address": "an email address",
+    "email address": "an email address",
+    "gender": "Demographic information",
+    "geo-location data (limited to country/region)": "country location",
+    "personal information": "Personal information",
+    "personal information about you": "Personal information",
+    "personal information we hold about you": "Personal information",
+    "postal address": "address",
+    "registration information": "REGISTRATION INFORMATION",
+    "sensitive personal data": "any special category or sensitive personal data",
+    "special category ... personal data": "any special category or sensitive personal data",
+    "technical and device information": "Device information",
+    "the information": "information",
+    "the user’s name": "name",
+    "their address": "address",
+    "this information": "information",
+    "this personal information": "Personal information",
+    "under-age status signal": "Under‑Age Status Signal",
+    "user research sessions": "these sessions",
+    "your IP address": "IP Address",
+    "your age": "age",
+    "your feedback": "feedback",
+    "your name": "name",
+    "your personal data": "Personal information",
+    "your personal information": "Personal information"
+   },
+   "parents": {
+    "credit card information": [
+     "BILLING INFORMATION"
+    ],
+    "financial account": [
+     "BILLING INFORMATION",
+     "Transactional information"
+    ],
+    "purchase histories": [
+     "Transactional information"
+    ],
+    "related transactional information": [
+     "Transactional information"
+    ],
+    "information on transactions on your account": [
+     "Transactional information"
+    ],
+    "a Facebook comment, a Tweet, or a post on a public forum about SEGA or our Products": [
+     "INFORMATION FROM PUBLICLY AVAILABLE ONLINE SOURCES",
+     "information that has been made publicly available by you on the Internet, including third party platforms (such as Facebook or Twitter)",
+     "information that you have made publicly available on the internet or through third party platforms such as Facebook, Twitter, Reddit, and other public forums"
+    ],
+    "information that has been made publicly available by you on the Internet, including third party platforms (such as Facebook or Twitter)": [
+     "INFORMATION FROM PUBLICLY AVAILABLE ONLINE SOURCES"
+    ],
+    "information that you have made publicly available on the internet or through third party platforms such as Facebook, Twitter, Reddit, and other public forums": [
+     "INFORMATION FROM PUBLICLY AVAILABLE ONLINE SOURCES"
+    ],
+    "IP Address": [
+     "Device information",
+     "Identifiers"
+    ],
+    "IP address (the unique address which identifies your device on the internet from which we may derive general location information, like city and state)": [
+     "Device information",
+     "IP Address",
+     "Identifiers"
+    ],
+    "device ID": [
+     "Device information",
+     "Identifiers"
+    ],
+    "a device ID": [
+     "Identifiers"
+    ],
+    "device identifier": [
+     "Identifiers"
+    ],
+    "device identifiers": [
+     "Identifiers"
+    ],
+    "unique device identifiers": [
+     "Identifiers"
+    ],
+    "advertising identifiers": [
+     "Identifiers"
+    ],
+    "Game Session Identifier (Random Game ID)": [
+     "Identifiers"
+    ],
+    "This identifier": [
+     "Identifiers"
+    ],
+    "this identifier": [
+     "Identifiers"
+    ],
+    "the identifier": [
+     "Identifiers"
+    ],
+    "government identifier": [
+     "Identifiers"
+    ],
+    "username": [
+     "Identifiers"
+    ],
+    "Platform Operator account information (e.g. the pseudonymised user ID associated with your Xbox or Steam account)": [
+     "Identifiers"
+    ],
+    "other identifiers, such as the User ID for the Platform Operator that you use to access our Products (e.g. Steam ID)": [
+     "Identifiers"
+    ],
+    "information (such as pseudonymised Steam IDs)": [
+     "Identifiers"
+    ],
+    "certain personal identifiers relating to your use of our Products": [
+     "Identifiers"
+    ],
+    "an email address": [
+     "Identifiers",
+     "basic contact information"
+    ],
+    "your hashed or encrypted email address": [
+     "Identifiers"
+    ],
+    "phone number": [
+     "Identifiers",
+     "basic contact information"
+    ],
+    "address": [
+     "basic contact information"
+    ],
+    "key contact information": [
+     "basic contact information"
+    ],
+    "age": [
+     "Demographic information"
+    ],
+    "date of birth": [
+     "Demographic information"
+    ],
+    "country location": [
+     "Geolocation"
+    ],
+    "geo-location": [
+     "Geolocation"
+    ],
+    "general location (country or U.S. state)": [
+     "Geolocation"
+    ],
+    "general location information, like city and state": [
+     "Geolocation"
+    ],
+    "location information": [
+     "Geolocation"
+    ],
+    "locations": [
+     "Geolocation"
+    ],
+    "Precise Location Data": [
+     "Geolocation"
+    ],
+    "precise location data, or street-level location information, about you": [
+     "Geolocation",
+     "Precise Location Data"
+    ],
+    "browsing activity": [
+     "Internet network and device activity data"
+    ],
+    "browsing activity on your mobile device": [
+     "Internet network and device activity data"
+    ],
+    "your browsing patterns": [
+     "Internet network and device activity data"
+    ],
+    "pages you visit": [
+     "Internet network and device activity data"
+    ],
+    "pages or applications through or from which you access our Products": [
+     "Internet network and device activity data"
+    ],
+    "usage data": [
+     "Internet network and device activity data"
+    ],
+    "internet log files": [
+     "Internet network and device activity data"
+    ],
+    "error logs": [
+     "Internet network and device activity data"
+    ],
+    "other system activity": [
+     "Internet network and device activity data"
+    ],
+    "your operating system": [
+     "Device information"
+    ],
+    "the version of that operating system": [
+     "Device information"
+    ],
+    "your browser type": [
+     "Device information"
+    ],
+    "hardware and software information": [
+     "Device information"
+    ],
+    "hardware settings": [
+     "Device information"
+    ],
+    "components of your devices": [
+     "Device information"
+    ],
+    "installed software": [
+     "Device information"
+    ],
+    "plugins": [
+     "Device information"
+    ],
+    "browser language preferences": [
+     "Device information"
+    ],
+    "language preference": [
+     "Device information"
+    ],
+    "information about the mobile network you use": [
+     "Device information"
+    ],
+    "technical information": [
+     "Device information"
+    ],
+    "data from user research sessions": [
+     "FEEDBACK / CUSTOMER SUPPORT / SURVEYS / USER RESEARCH",
+     "Survey, research, or sweepstakes information"
+    ],
+    "information collected during surveys and user research sessions": [
+     "FEEDBACK / CUSTOMER SUPPORT / SURVEYS / USER RESEARCH",
+     "Survey, research, or sweepstakes information"
+    ],
+    "other information relevant to the survey, for instance information about your gaming platforms and habits": [
+     "Survey, research, or sweepstakes information"
+    ],
+    "other information relevant to the survey, promotion, or sweepstakes": [
+     "INFORMATION ABOUT YOUR PARTICIPATION IN SWEEPSTAKES OR CONTESTS",
+     "Survey, research, or sweepstakes information"
+    ],
+    "other information relevant to the testing session, for instance information about your gaming platforms and habits": [
+     "Survey, research, or sweepstakes information"
+    ],
+    "feedback": [
+     "FEEDBACK / CUSTOMER SUPPORT / SURVEYS / USER RESEARCH"
+    ],
+    "Customer service information\nsuch as questions and other messages you address to us directly through online forms, by email, over the phone, or by post": [
+     "FEEDBACK / CUSTOMER SUPPORT / SURVEYS / USER RESEARCH"
+    ],
+    "the minimum data necessary to assist in resolving customer queries": [
+     "Customer service information\nsuch as questions and other messages you address to us directly through online forms, by email, over the phone, or by post"
+    ],
+    "your questions, suggestions or views on our Products": [
+     "FEEDBACK / CUSTOMER SUPPORT / SURVEYS / USER RESEARCH"
+    ],
+    "reviews about our Products that you submit to us for this purpose": [
+     "User-generated content"
+    ],
+    "Information obtained from social features used within our Products, such as in-game communications, forums, and chat functionality": [
+     "User-generated content"
+    ],
+    "a photograph": [
+     "Personal information"
+    ],
+    "video of yourself": [
+     "Personal information"
+    ],
+    "profile picture": [
+     "Personal information"
+    ],
+    "your child’s personal information": [
+     "Personal information"
+    ],
+    "personal information from known underage users": [
+     "Personal information"
+    ],
+    "personal information of minors under 16 years of age": [
+     "Personal information"
+    ],
+    "personal information of underage users": [
+     "Personal information"
+    ],
+    "any special category or sensitive personal data": [
+     "Personal information"
+    ],
+    "cached or archived copies of your\npersonal information": [
+     "Personal information"
+    ],
+    "game data": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "game information": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "relevant game ... information": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "aggregate gameplay data": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "gameplay history": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "Player activity information": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "activity information": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "Data regarding your progression through the game (e.g. scores, achievements, items unlocked, player levels)": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "data analytics relating to your use of the Product": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "information about how you engage with our Products": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "specific information relating to your use of our Products": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "when, how often and how long you interact with our Products, websites and services": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "the specific features you use": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "information about you and your use of Products, including sales data and gameplay data related to your interactions with our Products, including player performance statistics, in-game actions, character options, and other similar in-game data": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "anonymised and consent-based information about your interactions with our Products (for instance when you make a purchase, sign up to our marketing communications, engage with our video games, or view certain webpages)": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "anonymised information about your interactions with our Products": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "direct interactions with SEGA’s Products": [
+     "INFORMATION ABOUT YOUR USE OF OUR PRODUCTS"
+    ],
+    "information that helps us to ensure our Products are used in a fair and lawful manner": [
+     "INFORMATION FROM ANTI-CHEAT AND ANTI-HACKING TECHNOLOGIES"
+    ],
+    "information that is processed by third party LiveOps software": [
+     "INFORMATION FROM LIVEOPS SOFTWARE"
+    ],
+    "other information related to your attendance at the event or program": [
+     "EVENTS AND PROGRAMS"
+    ],
+    "information collected from and about you in relation to events and program": [
+     "EVENTS AND PROGRAMS"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Companies within the SEGA Group (which means SEGA Entities which are our parent and affiliated companies, our ultimate holding company and its subsidiaries and affiliates)": "Affiliates",
+    "Meta": "Facebook",
+    "SEGA companies within the wider SEGA Group": "Affiliates",
+    "Service providers and vendors": "Service providers",
+    "our advertising partners": "Advertising partners and advertisers",
+    "our servers": "our game servers",
+    "service providers": "Service providers",
+    "third-party advertising providers": "third-party advertisers",
+    "those third parties’": "third parties",
+    "us": "SEGA"
+   },
+   "parents": {
+    "Advertising partners and advertisers": [
+     "Other unaffiliated third parties, including third parties we collaborate with in connection with integration, co-marketing, advertising, analytics, and certain other coordinated efforts as well as third parties whose offers we believe you may value (e.g., advertising partners for the service of advertisements within our Products)"
+    ],
+    "third-party advertisers": [
+     "Advertising partners and advertisers"
+    ],
+    "analytics partners": [
+     "Analytics providers",
+     "Other unaffiliated third parties, including third parties we collaborate with in connection with integration, co-marketing, advertising, analytics, and certain other coordinated efforts as well as third parties whose offers we believe you may value (e.g., advertising partners for the service of advertisements within our Products)"
+    ],
+    "our customer support service providers": [
+     "Service providers"
+    ],
+    "law enforcement or government bodies": [
+     "Entities for legal and security purposes",
+     "Law enforcement agencies/authorities or others"
+    ],
+    "the courts": [
+     "Entities for legal and security purposes",
+     "Law enforcement agencies/authorities or others"
+    ],
+    "Law enforcement agencies/authorities or others": [
+     "Entities for legal and security purposes"
+    ],
+    "New or potentially new owners or re-organized entities and their advisors": [
+     "Entities for sales or transfer of business or assets"
+    ],
+    "Facebook": [
+     "third-party partners"
+    ],
+    "Google": [
+     "third-party partners"
+    ],
+    "Twitter": [
+     "third-party partners"
+    ],
+    "certain third-party partners": [
+     "third-party partners"
+    ],
+    "other third-party partners": [
+     "third-party partners"
+    ],
+    "these partners": [
+     "third-party partners"
+    ],
+    "our user acquisition and attribution partners": [
+     "third-party partners"
+    ],
+    "Other unaffiliated third parties such third parties we collaborate with in connection with integration, co-marketing and certain other coordinated efforts and third parties whose offers we believe you may value": [
+     "Unaffiliated third parties"
+    ],
+    "unaffiliated third parties we collaborate with or that provide offers that we think may be of value to you": [
+     "Unaffiliated third parties"
+    ],
+    "Other unaffiliated third parties, including third parties we collaborate with in connection with integration, co-marketing, advertising, analytics, and certain other coordinated efforts as well as third parties whose offers we believe you may value (e.g., advertising partners for the service of advertisements within our Products)": [
+     "Unaffiliated third parties"
+    ],
+    "Unaffiliated third parties": [
+     "third parties"
+    ],
+    "Service providers": [
+     "third parties"
+    ],
+    "Platform Operators": [
+     "third parties"
+    ],
+    "trusted business partners": [
+     "third parties"
+    ],
+    "third-party partners": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "publicly available online sources": "PUBLICLY AVAILABLE ONLINE SOURCES",
+    "yourself": "you"
+   },
+   "parents": {
+    "Google": [
+     "unaffiliated third parties (such as log-in services, stores, social networks, business partners, service providers, and operators of gaming and app platforms who carry out various activities and services to support our Products (“ Platform Operators ”))"
+    ],
+    "Platform Operators": [
+     "unaffiliated third parties (such as log-in services, stores, social networks, business partners, service providers, and operators of gaming and app platforms who carry out various activities and services to support our Products (“ Platform Operators ”))"
+    ],
+    "Winners": [
+     "you"
+    ],
+    "directly from your device": [
+     "your device"
+    ],
+    "known underage users": [
+     "you"
+    ],
+    "PUBLICLY AVAILABLE ONLINE SOURCES": [
+     "publicly available sources"
+    ],
+    "the internet or through third party platforms such as Facebook, Twitter, Reddit, and other public forums": [
+     "PUBLICLY AVAILABLE ONLINE SOURCES",
+     "publicly available sources"
+    ],
+    "third party stores that have been authorized to sell our Products": [
+     "unaffiliated third parties (such as log-in services, stores, social networks, business partners, service providers, and operators of gaming and app platforms who carry out various activities and services to support our Products (“ Platform Operators ”))"
+    ],
+    "those who interact with or express interested in SEGA or our Products": [
+     "you"
+    ],
+    "your device settings": [
+     "your device"
+    ],
+    "your mobile or computer device": [
+     "the devices you use to access our Products and interact with us",
+     "your device"
+    ],
+    "your web browser": [
+     "your device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "We": "SEGA",
+    "our": "SEGA",
+    "our third party service providers": "our service providers",
+    "our third-party payment processors": "our payment processors",
+    "that third party software": "The third-party LiveOps software",
+    "us": "SEGA",
+    "we": "SEGA"
+   },
+   "parents": {
+    "SEGA": [
+     "SEGA or its service providers or trusted business partners"
+    ],
+    "our customer support agents": [
+     "SEGA"
+    ],
+    "our payment processors": [
+     "our service providers"
+    ],
+    "our service providers": [
+     "SEGA or its service providers or trusted business partners"
+    ],
+    "some of our partners": [
+     "SEGA or its service providers or trusted business partners",
+     "our technology partners"
+    ],
+    "our technology partners": [
+     "SEGA or its service providers or trusted business partners"
+    ],
+    "Certain Third Party Advertisers in Products": [
+     "advertising platforms"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "Communicate with you and others": "Communicate with you",
+    "for marketing or advertising purposes": "Our marketing and advertising purposes",
+    "for marketing purposes to let you know by email, telephone, mobile or in-app messaging about our other products and services": "for direct marketing purposes",
+    "for marketing purposes, based on your communication and privacy preferences": "for marketing",
+    "for the purpose of improving and developing our Products": "Improve the Products",
+    "fraud prevention": "for fraud protection, spam/malware prevention, and similar purposes",
+    "only to indicate that a user is under the applicable age threshold so that age‑appropriate protections, features, and data handling rules are applied": "including to ensure that age-appropriate protections, features, and data handling rules are applied",
+    "to apply age‑based protections": "including to ensure that age-appropriate protections, features, and data handling rules are applied",
+    "to carry out publicity activities relating to the sweepstake or contest": "for carrying out publicity activities relating to the sweepstake or contest",
+    "to detect and prevent fraud": "for fraud protection, spam/malware prevention, and similar purposes",
+    "to ensure that age‑appropriate protections, features, and data handling rules are applied": "including to ensure that age-appropriate protections, features, and data handling rules are applied",
+    "to operate events and programs": "in order to operate those events and programs",
+    "to resolve related disputes": "to resolve disputes",
+    "to support the internal operations of our Products": "solely to support the internal operations of our Products",
+    "understand the effectiveness of our marketing campaigns": "for the purposes of measuring the performance of our marketing campaigns and to undertake analytics",
+    "“sharing” for purposes of targeted advertising": "for targeted advertising purposes"
+   },
+   "parents": {
+    "Core Audiences are created by advertising platforms using general characteristics such as approximate location, age ranges, interests, or behaviors, without using SEGA’s own customer data": [
+     "for marketing purposes (which may involve acquiring new users for our Products and/or measuring the effectiveness and performance of our marketing campaigns) and to help us build core audiences, custom audiences and lookalike audiences"
+    ],
+    "Custom Audiences are created using first‑party data or direct interactions with SEGA’s Products": [
+     "for marketing purposes (which may involve acquiring new users for our Products and/or measuring the effectiveness and performance of our marketing campaigns) and to help us build core audiences, custom audiences and lookalike audiences"
+    ],
+    "advertising purposes": [
+     "Our marketing and advertising purposes"
+    ],
+    "allows us to manage advertising": [
+     "advertising purposes"
+    ],
+    "for direct marketing purposes": [
+     "Our marketing and advertising purposes",
+     "for marketing"
+    ],
+    "for marketing": [
+     "Our marketing and advertising purposes"
+    ],
+    "for behavioral or targeted advertising": [
+     "advertising purposes"
+    ],
+    "for targeted advertising purposes": [
+     "advertising purposes",
+     "for behavioral or targeted advertising"
+    ],
+    "to deliver targeted advertising to you based on your age or gender in our mobile apps": [
+     "for targeted advertising purposes"
+    ],
+    "to enable them to deliver targeted advertising to you based on your age or gender in our mobile apps": [
+     "for targeted advertising purposes"
+    ],
+    "to send you ads for our Products based on your interests": [
+     "for targeted advertising purposes"
+    ],
+    "to customize and optimize the targeting of our advertising both within our Products and across our websites": [
+     "advertising purposes"
+    ],
+    "to improve our advertising and targeting systems": [
+     "advertising purposes"
+    ],
+    "to improve how we advertise our products and services": [
+     "advertising purposes"
+    ],
+    "for marketing purposes (which may involve acquiring new users for our Products and/or measuring the effectiveness and performance of our marketing campaigns) and to help us build core audiences, custom audiences and lookalike audiences": [
+     "Our marketing and advertising purposes"
+    ],
+    "for marketing purposes, such as acquiring new users for our Products and measuring the effectiveness and performance of our marketing campaigns": [
+     "Our marketing and advertising purposes"
+    ],
+    "to (i) help us acquire new users for our Products": [
+     "Our marketing and advertising purposes"
+    ],
+    "to acquire new users for our Products, to measure the performance and effectiveness of our marketing campaigns, to improve how we advertise our Products and to help us build Core, Custom and Lookalike Audiences for analytics and marketing purposes": [
+     "Our marketing and advertising purposes"
+    ],
+    "to analyse marketing performance": [
+     "Our marketing and advertising purposes"
+    ],
+    "how you engage with our marketing campaigns": [
+     "Our marketing and advertising purposes"
+    ],
+    "for the purposes of measuring the performance of our marketing campaigns and to undertake analytics": [
+     "Our marketing and advertising purposes"
+    ],
+    "for legal compliance purposes": [
+     "Security, fraud, and legal compliance"
+    ],
+    "for law enforcement purposes or to enforce relevant terms of service and any other agreement or to protect our rights or the rights of third parties": [
+     "Security, fraud, and legal compliance"
+    ],
+    "for fraud protection, spam/malware prevention, and similar purposes": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to detect illegal or malicious activity in our Products": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to help us detect and prevent fraud, or other illegal activities, or acts prohibited by our terms of service or any policies applicable to our Products": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to protect you and our Products by seeking to detect and prevent fraud or other acts in breach of our user agreements or policies relevant to our Products": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to protect our systems (for example, preventing abuse or excessive requests)": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to help keep online content fair and safe": [
+     "Security, fraud, and legal compliance"
+    ],
+    "to provide safe and fair gaming environments": [
+     "Security, fraud, and legal compliance"
+    ],
+    "communicate with you about them and our Products": [
+     "Communicate with you"
+    ],
+    "to communicate with you about events, programs, and our Products": [
+     "Communicate with you"
+    ],
+    "to contact you for your views": [
+     "Communicate with you"
+    ],
+    "to contact you for your views on our Products": [
+     "to contact you for your views"
+    ],
+    "to notify you of changes or updates to our Products": [
+     "Communicate with you"
+    ],
+    "to notify you of important changes or updates to our Products": [
+     "Communicate with you"
+    ],
+    "to reply to your questions or queries": [
+     "Communicate with you"
+    ],
+    "to reply to any queries and questions and to resolve problems": [
+     "Communicate with you"
+    ],
+    "to reply to your questions or queries including those submitted to our Customer Support team": [
+     "Communicate with you"
+    ],
+    "to contact you to assist with resolving any problems with your purchases": [
+     "Communicate with you"
+    ],
+    "to contact a specific individual": [
+     "Communicate with you"
+    ],
+    "allows our customer support agents to review relevant game and account information directly within individual support tickets": [
+     "Provide the Products and customer service"
+    ],
+    "to assist in resolving customer queries": [
+     "Provide the Products and customer service"
+    ],
+    "to enhance the quality and efficiency of support interactions": [
+     "Provide the Products and customer service"
+    ],
+    "to support Customer Support enquiries": [
+     "Provide the Products and customer service"
+    ],
+    "provide you with access to our Products": [
+     "Provide the Products and customer service"
+    ],
+    "to provide Products you request": [
+     "Provide the Products and customer service"
+    ],
+    "to provide core game functionality (e.g., tracking game state, saving player progress)": [
+     "Provide the Products and customer service"
+    ],
+    "to provide certain in-game features and functionality": [
+     "Provide the Products and customer service"
+    ],
+    "to create your profile": [
+     "Provide the Products and customer service"
+    ],
+    "to create a user profile which is associated with your use of our Products": [
+     "Provide the Products and customer service"
+    ],
+    "to create your profile and so you can access our Products": [
+     "Provide the Products and customer service"
+    ],
+    "to authenticate your access": [
+     "for authentication"
+    ],
+    "for authentication": [
+     "Provide the Products and customer service"
+    ],
+    "to carry out analysis and research to develop our Products": [
+     "Improve the Products",
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to conduct analysis and research to improve and develop our Products": [
+     "Improve the Products",
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to learn about how you use our Products": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to understand how our Products are used": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to understand how you interact with our Products": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to understand how you navigate through and interact with our Products": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to understand the community sentiment about our Products": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to understand how our audience interacts with our games and game features (e.g. how popular game features are, how long players are engaged with our game, favourite characters to play)": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "helps us understand the features of our Products that appeal to you": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "in order to analyze and produce statistics relating to the habits, usage patterns and demographics of users as a group or as individuals": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to assist us in analyzing the use of our services and our user/customer base": [
+     "Understand your interests and engage in research, analysis, and reports"
+    ],
+    "to help us to tailor and improve our Products": [
+     "Improve the Products"
+    ],
+    "to operate and improve our Products": [
+     "Improve the Products"
+    ],
+    "to track the performance of, and to improve, our Products": [
+     "Improve the Products"
+    ],
+    "for the purpose of SEGA delivering the prizes": [
+     "for the purposes of running and monitoring a sweepstake or contest",
+     "to distribute prizes to you"
+    ],
+    "to distribute prizes to you": [
+     "for the purposes of running and monitoring a sweepstake or contest"
+    ],
+    "for carrying out publicity activities relating to the sweepstake or contest": [
+     "for the purposes of running and monitoring a sweepstake or contest"
+    ],
+    "to fix errors": [
+     "resolve technical problems"
+    ],
+    "to investigate and resolve technical issues": [
+     "resolve technical problems"
+    ],
+    "so our teams can investigate bugs, fix errors, and provide technical support": [
+     "resolve technical problems"
+    ],
+    "to verify your purchase of our Products and process any refunds": [
+     "Process orders"
+    ],
+    "to allow us to recover your purchased items": [
+     "Process orders"
+    ],
+    "to facilitate and verify your purchases, including with third party stores and Platform Operators": [
+     "Process orders"
+    ],
+    "to fulfil transactions you have requested": [
+     "Process orders"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 19870,
+  "completion_tokens": 7318,
+  "thinking_tokens": 0,
+  "seconds": 47.659090518951416,
+  "failures": 0
+ },
+ "seconds": 47.8
+}

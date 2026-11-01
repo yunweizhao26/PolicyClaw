@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "android-046",
+ "text_sha256": "abc1b0fb55f994937a90e1837922e3c65331922e202a688335067f7b6c8ac89c",
+ "site_id": "android-046",
+ "sections": 9,
+ "rules": 71,
+ "report": {
+  "sections": 9,
+  "raw_rules": 69,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "Cloud storage providers",
+      "name": "cloud storage provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to store the information you provide",
+       "name": "service provision"
+      },
+      {
+       "text": "for disaster recovery services",
+       "name": "service provision"
+      },
+      {
+       "text": "for the performance of any contract we enter into with you",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Cloud storage providers"
+    ],
+    "section": "android-046#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "actor": {
+      "text": "PLAYit",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "prejudice Users' rights",
+      "verb": "prejudice"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "their consent"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-046#s8"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 23,
+  "completeness": {
+   "gaps": 66,
+   "gap_words": 817
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 23,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 24258,
+  "completion_tokens": 13456,
+  "thinking_tokens": 0,
+  "seconds": 121.53013229370117,
+  "failures": 0
+ },
+ "seconds": 122.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

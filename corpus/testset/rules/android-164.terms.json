@@ -1,0 +1,186 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "device information": "device data",
+    "motion sensors permission": "motion sensor permission",
+    "personal data": "Personal Data",
+    "trackers": "Trackers",
+    "unique device identifiers for advertising": "advertising identifier",
+    "user data": "Data",
+    "various types of data": "unspecified data"
+   },
+   "parents": {
+    "IP address": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "Data"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "cookies": [
+     "Trackers",
+     "cookie-like technology",
+     "tracking tools"
+    ],
+    "device identifier": [
+     "device data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "first name": [
+     "Personal Data"
+    ],
+    "last name": [
+     "Personal Data"
+    ],
+    "mobile device identifier": [
+     "device identifier"
+    ],
+    "motion sensor data": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "session duration": [
+     "session statistics",
+     "usage data"
+    ],
+    "session statistics": [
+     "usage data"
+    ],
+    "system logs": [
+     "usage data"
+    ],
+    "usage data": [
+     "Data"
+    ],
+    "user actions": [
+     "usage data"
+    ],
+    "user behavior": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Firebase": [
+     "Google",
+     "service provider"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "internal personnel": [
+     "first party"
+    ],
+    "service provider": [
+     "recipient"
+    ],
+    "public authorities": [
+     "recipient"
+    ],
+    "another controller": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google Ads advertising network": [
+     "third-party services"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Google AdMob": "AdMob"
+   },
+   "parents": {
+    "Google Ads conversion tracking": [
+     "Google Ads",
+     "advertising service"
+    ],
+    "Adjust": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "AdMob": [
+     "Google",
+     "advertising service"
+    ],
+    "Google Ads": [
+     "Google",
+     "advertising service"
+    ],
+    "Google Analytics 4": [
+     "Google"
+    ],
+    "Google Analytics for Firebase": [
+     "Google"
+    ],
+    "Google OAuth": [
+     "Google"
+    ],
+    "Google Play Store": [
+     "Google"
+    ],
+    "Firebase Analytics": [
+     "Google Analytics for Firebase"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "registration and authentication": "authentication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "registration or identification"
+    ],
+    "identification": [
+     "registration or identification"
+    ],
+    "platform services and hosting": [
+     "service provision"
+    ],
+    "service operation and maintenance": [
+     "service provision"
+    ],
+    "targeting and profiling": [
+     "advertising",
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2080,
+  "completion_tokens": 866,
+  "thinking_tokens": 0,
+  "seconds": 18.772984981536865,
+  "failures": 0
+ },
+ "seconds": 18.9
+}

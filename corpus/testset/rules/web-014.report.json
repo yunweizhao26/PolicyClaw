@@ -1,0 +1,200 @@
+{
+ "cleaned_sha256": "web-014",
+ "text_sha256": "adcd16ce2a203affa888e8a25e548dfa0ff132a8c145b63f02ae3bc014cec80a",
+ "site_id": "web-014",
+ "sections": 11,
+ "rules": 167,
+ "report": {
+  "sections": 11,
+  "raw_rules": 129,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "display",
+      "verb": "display"
+     },
+     "actor": {
+      "name": "network advertisers",
+      "text": "network advertisers"
+     },
+     "conditions": [],
+     "data": {
+      "name": "usage data",
+      "text": "your use of our Services"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "display",
+     "purpose": [
+      {
+       "text": "to display advertisements based on your use of our Services and other third-party website and mobile applications",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to display advertisements based on your use of our Services and other third-party website and mobile applications"
+    ],
+    "section": "web-014#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "display",
+      "verb": "display"
+     },
+     "actor": {
+      "name": "network advertisers",
+      "text": "network advertisers"
+     },
+     "conditions": [],
+     "data": {
+      "name": "usage data",
+      "text": "other third-party website and mobile applications"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "display",
+     "purpose": [
+      {
+       "text": "to display advertisements based on your use of our Services and other third-party website and mobile applications",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to display advertisements based on your use of our Services and other third-party website and mobile applications"
+    ],
+    "section": "web-014#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "consent to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "that User Information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you are located in a country outside the United States and submit User Information to us",
+      "to the United States or other locations in which information is stored"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to the United States or other locations in which information is stored"
+    ],
+    "section": "web-014#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide options for you to",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personally Identifiable Information",
+      "name": "personally identifiable data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-014#s9"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 54,
+  "completeness": {
+   "gaps": 219,
+   "gap_words": 2391
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 54,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 39575,
+  "completion_tokens": 25165,
+  "thinking_tokens": 0,
+  "seconds": 585.4176599979401,
+  "failures": 0
+ },
+ "seconds": 586.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

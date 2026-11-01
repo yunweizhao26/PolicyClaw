@@ -1,0 +1,92 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "Data",
+    "personal data": "Personal Data"
+   },
+   "parents": {
+    "Data concerning the User": [
+     "Data"
+    ],
+    "Personal Data": [
+     "Data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "apps used": [
+     "app usage information"
+    ],
+    "in-app activity": [
+     "app usage information"
+    ],
+    "usage duration": [
+     "app usage information"
+    ],
+    "device identifier": [
+     "device-related data"
+    ],
+    "IP address": [
+     "device-related data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "advertising": "Advertising",
+    "analytics": "Analytics",
+    "service provision": "Services"
+   },
+   "parents": {
+    "Access to third-party accounts": [
+     "Services"
+    ],
+    "Content performance and features testing (A/B testing)": [
+     "service improvement"
+    ],
+    "Hosting and backend infrastructure": [
+     "Services"
+    ],
+    "Infrastructure monitoring": [
+     "Services"
+    ],
+    "Managing contacts and sending messages": [
+     "Services"
+    ],
+    "Registration and authentication": [
+     "Services"
+    ],
+    "Remarketing and behavioral targeting": [
+     "Advertising",
+     "for purposes that are not necessary to play our Games"
+    ],
+    "Advertising": [
+     "for purposes that are not necessary to play our Games"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1395,
+  "completion_tokens": 439,
+  "thinking_tokens": 0,
+  "seconds": 12.18000078201294,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

@@ -1,0 +1,177 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing-history": "browsing history",
+    "email-address": "email address",
+    "information": "data",
+    "user data": "personal data"
+   },
+   "parents": {
+    "account name": [
+     "name",
+     "personal data"
+    ],
+    "address": [
+     "personal data"
+    ],
+    "bank account number": [
+     "payment info",
+     "personal data"
+    ],
+    "browser": [
+     "browser data"
+    ],
+    "browser data": [
+     "usage data"
+    ],
+    "browsing history": [
+     "personal data",
+     "usage data"
+    ],
+    "cookie / identifier": [
+     "personal data"
+    ],
+    "date and time": [
+     "usage data"
+    ],
+    "do not track signals": [
+     "browser data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "files downloaded": [
+     "usage data"
+    ],
+    "invoice details": [
+     "payment info"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "isp": [
+     "browser data"
+    ],
+    "links clicked": [
+     "usage data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "operating system": [
+     "browser data"
+    ],
+    "payment info": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "pseudonymous personal data": [
+     "personal data"
+    ],
+    "referrer url": [
+     "browser data"
+    ],
+    "search terms": [
+     "usage data"
+    ],
+    "tin": [
+     "personal data"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user ID": [
+     "personal data"
+    ],
+    "user content": [
+     "data",
+     "personal data"
+    ],
+    "verification-data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "government agency": [
+     "third party"
+    ],
+    "marketing partners": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "google analytics": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "targeted-advertising": "advertising"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "product development": [
+     "service provision"
+    ],
+    "protection of rights": [
+     "legal compliance"
+    ],
+    "service-operation": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1977,
+  "completion_tokens": 674,
+  "thinking_tokens": 0,
+  "seconds": 10.606199026107788,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

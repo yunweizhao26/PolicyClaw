@@ -1,0 +1,138 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifier",
+    "device identifiers": "device identifier",
+    "ip address": "IP address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "in-game purchase history": [
+     "purchase history"
+    ],
+    "persistent device identifier": [
+     "device identifier"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "ad identifier": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "device manufacturer": [
+     "device details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "language": [
+     "device details"
+    ],
+    "time zone": [
+     "device details"
+    ],
+    "access times": [
+     "usage data"
+    ],
+    "features used": [
+     "usage data"
+    ],
+    "screen name": [
+     "profile information"
+    ],
+    "friends list": [
+     "profile information"
+    ],
+    "game progress": [
+     "usage data"
+    ],
+    "in-game interactions": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising networks": "advertising network",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Ad Partners": [
+     "third parties"
+    ],
+    "AppsFlyer": [
+     "analytics and advertising companies",
+     "third parties"
+    ],
+    "advertising network": [
+     "analytics and advertising companies",
+     "third parties"
+    ],
+    "analytics and advertising companies": [
+     "third parties"
+    ],
+    "social networks": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Fun Drive Games"
+   },
+   "parents": {
+    "AppsFlyer": [
+     "third parties",
+     "third-party service providers"
+    ],
+    "Ad Partners": [
+     "third parties",
+     "third-party service providers"
+    ],
+    "third-party service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "personalization of services and advertising"
+    ],
+    "advertising": [
+     "advertising and analytics",
+     "personalization of services and advertising"
+    ],
+    "analytics": [
+     "advertising and analytics"
+    ],
+    "personalization": [
+     "personalization of services and advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1804,
+  "completion_tokens": 631,
+  "thinking_tokens": 0,
+  "seconds": 9.715695858001709,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

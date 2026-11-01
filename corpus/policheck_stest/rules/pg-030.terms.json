@@ -1,0 +1,95 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "browser type": [
+     "browser data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "session cookie": [
+     "usage data"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "profile data": [
+     "user-submitted information"
+    ],
+    "messages": [
+     "user-submitted information"
+    ],
+    "account details": [
+     "registration data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "agent": [
+     "service provider",
+     "third party"
+    ],
+    "commercial entity": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "legal counsel": [
+     "service provider",
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide the service"
+   },
+   "parents": {
+    "authentication": [
+     "provide the service"
+    ],
+    "personalization": [
+     "provide the service"
+    ],
+    "prevent crime or fraud": [
+     "compliance with legal obligation",
+     "legal assertion or defense"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1312,
+  "completion_tokens": 320,
+  "thinking_tokens": 0,
+  "seconds": 6.784038543701172,
+  "failures": 0
+ },
+ "seconds": 6.9
+}

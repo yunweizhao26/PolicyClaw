@@ -1,0 +1,255 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "installed apps": "installed applications",
+    "personal information": "personal data",
+    "profile picture": "profile avatar",
+    "user feedback": "online feedback"
+   },
+   "parents": {
+    "account identifier": [
+     "unique identifier"
+    ],
+    "ad identifier": [
+     "unique identifier"
+    ],
+    "hardware id": [
+     "unique identifier"
+    ],
+    "user id": [
+     "account identifier",
+     "unique identifier"
+    ],
+    "age verification record": [
+     "authentication data"
+    ],
+    "age verification result": [
+     "authentication data"
+    ],
+    "browsing history": [
+     "interaction data"
+    ],
+    "following history": [
+     "interaction data"
+    ],
+    "search history": [
+     "interaction data"
+    ],
+    "favorite list": [
+     "interaction data",
+     "saved content"
+    ],
+    "financial transaction history": [
+     "interaction data"
+    ],
+    "interaction data": [
+     "technical or usage information",
+     "user interactions"
+    ],
+    "cookies": [
+     "technical or usage information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "any personal data": [
+     "personal data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "identity": [
+     "identity information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "date of birth": [
+     "identity information"
+    ],
+    "gender": [
+     "identity information"
+    ],
+    "server log data": [
+     "application logs"
+    ],
+    "user-submitted text": [
+     "data"
+    ],
+    "problem description": [
+     "online feedback"
+    ],
+    "correspondence": [
+     "online feedback"
+    ],
+    "images": [
+     "user-submitted text"
+    ],
+    "videos": [
+     "user-submitted text"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "law enforcement agency": "law enforcement agencies",
+    "social network": "social media platform",
+    "third-party SMS service providers": "SMS service provider"
+   },
+   "parents": {
+    "AdMob": [
+     "advertising partner",
+     "business partners",
+     "third party"
+    ],
+    "advertising partner": [
+     "business partners",
+     "third party"
+    ],
+    "SMS service provider": [
+     "service provider"
+    ],
+    "authentication service provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "courts": [
+     "public authorities",
+     "third party"
+    ],
+    "government regulators": [
+     "public authorities",
+     "third party"
+    ],
+    "law enforcement agencies": [
+     "public authorities",
+     "third party"
+    ],
+    "emergency services": [
+     "public authorities",
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "other users": [
+     "third party"
+    ],
+    "third-party social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Firebase SDK": [
+     "third-party SDK provider"
+    ],
+    "Sensors Data SDK": [
+     "third-party SDK provider"
+    ],
+    "Sobot SDK": [
+     "third-party SDK provider"
+    ],
+    "authentication service provider": [
+     "service provider"
+    ],
+    "third-party SMS service providers": [
+     "service provider"
+    ],
+    "third-party SDK provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "ad performance monitoring": "ad performance",
+    "analytics or research": "analytics",
+    "legal compliance": "compliance with legal obligation",
+    "personalization": "personalisation",
+    "user customer support": "customer support"
+   },
+   "parents": {
+    "ad performance": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "compliance with legal obligation": [
+     "legal"
+    ],
+    "dispute resolution": [
+     "legal"
+    ],
+    "enforcing terms": [
+     "legal"
+    ],
+    "contract negotiation and execution": [
+     "legal"
+    ],
+    "fraud_detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "security": [
+     "service_operation_and_security"
+    ],
+    "identity verification": [
+     "user access management"
+    ],
+    "account registration": [
+     "registration authentication"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service performance": [
+     "service optimization"
+    ],
+    "research": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3089,
+  "completion_tokens": 1088,
+  "thinking_tokens": 0,
+  "seconds": 16.349977016448975,
+  "failures": 0
+ },
+ "seconds": 16.4
+}

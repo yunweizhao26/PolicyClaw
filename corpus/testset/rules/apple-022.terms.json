@@ -1,0 +1,437 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "contact_information": "contact details",
+    "delivery_address": "delivery address",
+    "fresh_funds_balance": "account balance",
+    "health data": "Personal Health Information",
+    "health information": "Personal Health Information",
+    "medical_health_information": "Personal Health Information",
+    "official identification number": "government_id_number",
+    "order information": "order history",
+    "order_details": "order details",
+    "order_information": "order history",
+    "password": "account_password",
+    "payment details": "financial info",
+    "payment information": "financial info",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal_information": "Personal Information",
+    "postal address": "address",
+    "precise_location": "precise location",
+    "unique device identifier": "device identifier"
+   },
+   "parents": {
+    "Personal Health Information": [
+     "Personal Information"
+    ],
+    "account balance": [
+     "account information",
+     "financial info"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "account_password": [
+     "account information"
+    ],
+    "actions on the services": [
+     "browsing activity"
+    ],
+    "activities on other accounts": [
+     "account information"
+    ],
+    "advertising identifiers": [
+     "unique identifier"
+    ],
+    "alcohol_purchased_brand": [
+     "order details"
+    ],
+    "alcohol_purchased_price": [
+     "order details"
+    ],
+    "alcohol_purchased_proof": [
+     "order details"
+    ],
+    "alcohol_purchased_quantity": [
+     "order details"
+    ],
+    "alcohol_purchased_volume": [
+     "order details"
+    ],
+    "billing address": [
+     "address",
+     "financial info"
+    ],
+    "carrier": [
+     "device identifier"
+    ],
+    "carts": [
+     "order details"
+    ],
+    "confirmation of your loyalty member status": [
+     "account information"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "date and time of order": [
+     "order details"
+    ],
+    "date of birth": [
+     "Personal Information"
+    ],
+    "deidentified Personal Information": [
+     "information"
+    ],
+    "delivery address": [
+     "address",
+     "delivery details"
+    ],
+    "delivery details": [
+     "order details"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "device location": [
+     "location"
+    ],
+    "device type": [
+     "user_information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "government-issued ID card copy": [
+     "official_id"
+    ],
+    "government_id_number": [
+     "Personal Information",
+     "official_id"
+    ],
+    "interaction with communications": [
+     "browsing activity"
+    ],
+    "ip address": [
+     "unique identifier"
+    ],
+    "location": [
+     "Personal Information"
+    ],
+    "mobile country code": [
+     "carrier"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "official_id": [
+     "Personal Information"
+    ],
+    "operating system": [
+     "user_information"
+    ],
+    "order details": [
+     "order history"
+    ],
+    "partner name": [
+     "name"
+    ],
+    "patient status": [
+     "Personal Health Information"
+    ],
+    "payment card information": [
+     "financial info"
+    ],
+    "payment card number": [
+     "payment card information"
+    ],
+    "financial info": [
+     "order details"
+    ],
+    "payment method": [
+     "financial info"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "precise location": [
+     "device location"
+    ],
+    "prescription drug product order date": [
+     "prescription refill information"
+    ],
+    "prescription number": [
+     "prescription refill information"
+    ],
+    "prescription refill information": [
+     "Personal Health Information",
+     "order details"
+    ],
+    "products with which you engage or place in your cart": [
+     "order details"
+    ],
+    "products_purchased": [
+     "order details"
+    ],
+    "profiling_inferences": [
+     "Personal Information"
+    ],
+    "race_or_ethnicity": [
+     "sensitive personal information"
+    ],
+    "recipient name": [
+     "name"
+    ],
+    "refill count": [
+     "prescription refill information"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "service usage duration and frequency": [
+     "browsing activity"
+    ],
+    "session replays": [
+     "browsing activity"
+    ],
+    "total amount charged for prescription drug products": [
+     "order details"
+    ],
+    "total amount to be refunded": [
+     "order details"
+    ],
+    "total number of refills": [
+     "prescription refill information"
+    ],
+    "use of button and third-party site or application": [
+     "browsing behavior"
+    ],
+    "use of partner sites or applications": [
+     "browsing behavior"
+    ],
+    "user comments": [
+     "user communications"
+    ],
+    "user profile information": [
+     "account information"
+    ],
+    "user questions": [
+     "user communications"
+    ],
+    "user-provided information": [
+     "Personal Information"
+    ],
+    "vehicle license plate number": [
+     "government_id_number"
+    ],
+    "whether prescription drug product ordered requires temperature control": [
+     "prescription refill information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "commercial partner": "business_partner",
+    "retailers": "retailer",
+    "third_parties": "third party",
+    "vendors": "vendor"
+   },
+   "parents": {
+    "advertising network": [
+     "business_partner",
+     "third party"
+    ],
+    "co_branded_partners": [
+     "business_partner"
+    ],
+    "contractor": [
+     "service_provider"
+    ],
+    "fraud prevention provider": [
+     "service_provider",
+     "third party"
+    ],
+    "fresh_funds_partner": [
+     "business_partner"
+    ],
+    "other websites": [
+     "third party"
+    ],
+    "partner": [
+     "business_partner"
+    ],
+    "payment processor": [
+     "service_provider"
+    ],
+    "retailer": [
+     "business_partner"
+    ],
+    "third party companies": [
+     "third party"
+    ],
+    "vendor": [
+     "service_provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "other third parties": "other parties",
+    "vendors": "service providers and other vendors"
+   },
+   "parents": {
+    "payment processor": [
+     "payment providers, processors and partners",
+     "third party"
+    ],
+    "retail partners": [
+     "business partners"
+    ],
+    "fraud and dispute partners": [
+     "business partners"
+    ],
+    "partners for advertising measurement, analytics, and attribution": [
+     "business partners"
+    ],
+    "pharmacy processing your prescription": [
+     "retail partners"
+    ],
+    "individual under the age of 18": [
+     "user"
+    ],
+    "other Instacart customers": [
+     "user"
+    ],
+    "other Instacart Services account owners": [
+     "user"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "service providers and other vendors": [
+     "third party"
+    ],
+    "other parties": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ],
+    "user browser": [
+     "existing user device information"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partners": "partner",
+    "pharmacy": "pharmacies"
+   },
+   "parents": {
+    "advertising network": [
+     "advertisers"
+    ],
+    "advertising partner": [
+     "partner"
+    ],
+    "Instacart partners": [
+     "partner"
+    ],
+    "restaurant partner": [
+     "partner"
+    ],
+    "online payment system provider": [
+     "third-party payment processors"
+    ],
+    "other payment partners": [
+     "partner"
+    ],
+    "third-party payment processors": [
+     "partner"
+    ],
+    "account_owner": [
+     "user"
+    ],
+    "account_participants": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "legal_compliance": "legal compliance",
+    "order_fulfillment": "order fulfillment",
+    "payment processing": "payment handling",
+    "personalization": "personalisation",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "physical safety": [
+     "security"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service-related communication": [
+     "communication"
+    ],
+    "service fulfillment": [
+     "order fulfillment"
+    ],
+    "service functionality": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service improvement and quality"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "provide_and_maintain_services": [
+     "service provision"
+    ],
+    "operations": [
+     "business_operations"
+    ],
+    "mergers and acquisitions": [
+     "business_operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4522,
+  "completion_tokens": 2083,
+  "thinking_tokens": 0,
+  "seconds": 23.052181720733643,
+  "failures": 0
+ },
+ "seconds": 23.2
+}

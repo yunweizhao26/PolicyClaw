@@ -1,0 +1,677 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "anonymized ip address": "anonymized IP address",
+    "cookies": "cookie",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "surname": "last name",
+    "the data": "data",
+    "user identifier": "user id",
+    "website traffic data": "website traffic",
+    "your data": "user data"
+   },
+   "parents": {
+    "anonymized IP address": [
+     "IP address"
+    ],
+    "hashed IP address and user agent": [
+     "IP address",
+     "user agent"
+    ],
+    "account state": [
+     "account data"
+    ],
+    "account type": [
+     "account data"
+    ],
+    "ad conversions": [
+     "ad performance data"
+    ],
+    "ad performance data": [
+     "analytics data"
+    ],
+    "conversion data": [
+     "analytics data"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "telephone number": [
+     "contact details"
+    ],
+    "business contact details": [
+     "contact details"
+    ],
+    "app version": [
+     "software version"
+    ],
+    "audio data": [
+     "user content"
+    ],
+    "voice data": [
+     "audio data"
+    ],
+    "voice characteristics": [
+     "voice data"
+    ],
+    "tone of voice": [
+     "voice characteristics"
+    ],
+    "speaking style": [
+     "voice characteristics"
+    ],
+    "authentication token": [
+     "authentication data"
+    ],
+    "browser metadata": [
+     "metadata"
+    ],
+    "browser type and version": [
+     "browser information"
+    ],
+    "button usage": [
+     "interaction data"
+    ],
+    "character count": [
+     "service usage quantity"
+    ],
+    "number of characters calculated": [
+     "service usage quantity"
+    ],
+    "chat message content": [
+     "communication content",
+     "user content"
+    ],
+    "chat log": [
+     "communication data"
+    ],
+    "chatbot interaction data": [
+     "interaction data"
+    ],
+    "communication content": [
+     "communication data"
+    ],
+    "communication data": [
+     "personal data"
+    ],
+    "candidate personal data": [
+     "personal data"
+    ],
+    "special categories of personal data": [
+     "personal data"
+    ],
+    "content corrections": [
+     "user content"
+    ],
+    "content in local storage": [
+     "web storage objects"
+    ],
+    "content of applied glossary": [
+     "glossaries"
+    ],
+    "glossary term pairs": [
+     "glossaries"
+    ],
+    "references to applied glossary": [
+     "glossaries"
+    ],
+    "cookie choices": [
+     "user preferences"
+    ],
+    "cookies or tracking preferences": [
+     "user preferences"
+    ],
+    "preference": [
+     "user preferences"
+    ],
+    "preferences": [
+     "user preferences"
+    ],
+    "customer service records": [
+     "customer data"
+    ],
+    "date and time of access": [
+     "timestamp"
+    ],
+    "subscription purchase date and time": [
+     "timestamp"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "hardware identifier": [
+     "identifier"
+    ],
+    "session identifier": [
+     "identifier"
+    ],
+    "user id": [
+     "identifier"
+    ],
+    "unique identifier": [
+     "identifier"
+    ],
+    "pseudonymous identifier": [
+     "identifier"
+    ],
+    "unique user id": [
+     "user id"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "hardware information": [
+     "device information"
+    ],
+    "display name": [
+     "name"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "document file type": [
+     "metadata"
+    ],
+    "email opened": [
+     "browsing activity"
+    ],
+    "link clicks": [
+     "browsing activity"
+    ],
+    "embeddings": [
+     "data"
+    ],
+    "glossaries": [
+     "language assets"
+    ],
+    "translation memory": [
+     "language assets"
+    ],
+    "translation memory content": [
+     "translation memory"
+    ],
+    "reference documents": [
+     "language assets"
+    ],
+    "interface language": [
+     "language settings"
+    ],
+    "selected language pair for translation": [
+     "language settings"
+    ],
+    "language settings": [
+     "user settings"
+    ],
+    "user preferences": [
+     "user settings"
+    ],
+    "retention settings": [
+     "user settings"
+    ],
+    "log data": [
+     "technical data"
+    ],
+    "technical logs": [
+     "log data"
+    ],
+    "log-in data": [
+     "account data"
+    ],
+    "log-in status": [
+     "account state"
+    ],
+    "meeting metadata": [
+     "metadata"
+    ],
+    "password": [
+     "credentials"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "payment status": [
+     "payment information"
+    ],
+    "payment token": [
+     "payment details"
+    ],
+    "purchase price": [
+     "transaction details"
+    ],
+    "purchase and transaction history": [
+     "transaction details"
+    ],
+    "recordings": [
+     "audio data"
+    ],
+    "video recording": [
+     "recordings"
+    ],
+    "search terms": [
+     "search history"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "submitted content": [
+     "user content"
+    ],
+    "uploaded content": [
+     "user content"
+    ],
+    "submitted texts or documents": [
+     "submitted content"
+    ],
+    "submitted text": [
+     "submitted texts or documents"
+    ],
+    "texts submitted": [
+     "submitted texts or documents"
+    ],
+    "texts": [
+     "submitted text"
+    ],
+    "user text": [
+     "user content"
+    ],
+    "uploaded documents": [
+     "uploaded content"
+    ],
+    "translations": [
+     "translations or improvements"
+    ],
+    "content translations": [
+     "translations or improvements"
+    ],
+    "translation of documents": [
+     "translations"
+    ],
+    "subscription details": [
+     "contract details"
+    ],
+    "subscription status changes": [
+     "subscription details"
+    ],
+    "billing period": [
+     "subscription details"
+    ],
+    "service options": [
+     "subscription details"
+    ],
+    "survey response": [
+     "surveys"
+    ],
+    "tax identification number": [
+     "identifier"
+    ],
+    "transcriptions": [
+     "texts"
+    ],
+    "user profile": [
+     "profile data"
+    ],
+    "profile picture": [
+     "profile data"
+    ],
+    "user name": [
+     "name"
+    ],
+    "webinar participation": [
+     "service usage"
+    ],
+    "website access data": [
+     "website visit information"
+    ],
+    "website traffic": [
+     "website visit information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Cloudflare, Inc": "Cloudflare",
+    "Stripe Payments Europe Ltd.": "Stripe Payments Europe Ltd",
+    "third party": "third parties"
+   },
+   "parents": {
+    "USA": [
+     "third countries, in particular the USA",
+     "third party outside the EU"
+    ],
+    "third party outside the EU": [
+     "third parties"
+    ],
+    "subcontractors": [
+     "third parties"
+    ],
+    "Bettermode Inc.": [
+     "third parties"
+    ],
+    "Cloudflare": [
+     "third parties"
+    ],
+    "Codesse": [
+     "third parties"
+    ],
+    "HubSpot": [
+     "third parties"
+    ],
+    "Localyze": [
+     "third parties"
+    ],
+    "Recruitee": [
+     "third parties"
+    ],
+    "Reddit": [
+     "third parties"
+    ],
+    "Riskified": [
+     "third parties"
+    ],
+    "Sales Marker": [
+     "third parties"
+    ],
+    "Stripe Payments Europe Ltd": [
+     "third parties"
+    ],
+    "Stripe, Inc.": [
+     "third parties"
+    ],
+    "Zendesk": [
+     "third parties"
+    ],
+    "company": [
+     "organization"
+    ],
+    "employer": [
+     "organization"
+    ],
+    "provider of speech service": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party provider": "third party"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "Zoom": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Hotjar Ltd.": "Hotjar",
+    "Qualtrics Ireland Limited": "Qualtrics",
+    "Stripe Payments Europe Ltd.": "Stripe Payments Europe Ltd"
+   },
+   "parents": {
+    "AWS": [
+     "third party"
+    ],
+    "Bettermode Inc.": [
+     "third party"
+    ],
+    "Cloudflare": [
+     "third party"
+    ],
+    "Conva Ventures": [
+     "third party"
+    ],
+    "DeepL": [
+     "third party"
+    ],
+    "ElevenLabs": [
+     "third party"
+    ],
+    "Foleon": [
+     "third party"
+    ],
+    "GitBook": [
+     "third party"
+    ],
+    "GitHub": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Great Question": [
+     "third party"
+    ],
+    "Hotjar": [
+     "third party"
+    ],
+    "HubSpot": [
+     "third party"
+    ],
+    "Impartner": [
+     "third party"
+    ],
+    "LY Corporation": [
+     "third party"
+    ],
+    "Line Ads (LY Corporation)": [
+     "LY Corporation",
+     "third party"
+    ],
+    "LinkedIn": [
+     "social network",
+     "third party"
+    ],
+    "Matomo": [
+     "third party"
+    ],
+    "Mediaocean": [
+     "third party"
+    ],
+    "Meta Platforms, Inc.": [
+     "social network",
+     "third party"
+    ],
+    "Microsoft": [
+     "third party"
+    ],
+    "Mintlify": [
+     "third party"
+    ],
+    "Naver Corp.": [
+     "third party"
+    ],
+    "Payrails GmbH": [
+     "third party"
+    ],
+    "Qualified.com, Inc.": [
+     "third party"
+    ],
+    "Qualtrics": [
+     "third party"
+    ],
+    "Reddit": [
+     "social network",
+     "third party"
+    ],
+    "Riskified": [
+     "third party"
+    ],
+    "StackAdapt": [
+     "third party"
+    ],
+    "Statsig": [
+     "third party"
+    ],
+    "Stripe": [
+     "third party"
+    ],
+    "Stripe Payments Europe Ltd": [
+     "Stripe",
+     "third party"
+    ],
+    "Typeform": [
+     "third party"
+    ],
+    "UserTesting": [
+     "third party"
+    ],
+    "Vimeo": [
+     "third party"
+    ],
+    "Zendesk": [
+     "third party"
+    ],
+    "Zoom": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-service": "customer service",
+    "customer-support": "customer support",
+    "for translation purposes": "for the translation",
+    "process payments": "payment processing",
+    "technical reasons": "technical"
+   },
+   "parents": {
+    "ad performance": [
+     "advertising"
+    ],
+    "send email marketing and updates": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics and website optimization": [
+     "analytics"
+    ],
+    "error analysis": [
+     "analytics"
+    ],
+    "bot detection": [
+     "fraud detection"
+    ],
+    "To create the account": [
+     "account management"
+    ],
+    "account administration": [
+     "account management"
+    ],
+    "administer partner program": [
+     "run partner ecosystem and grow revenue"
+    ],
+    "coordinate sales efforts": [
+     "run partner ecosystem and grow revenue"
+    ],
+    "manage partner deals": [
+     "run partner ecosystem and grow revenue"
+    ],
+    "operate and improve partner program": [
+     "run partner ecosystem and grow revenue"
+    ],
+    "provide resources and benefits": [
+     "run partner ecosystem and grow revenue"
+    ],
+    "conduct surveys or research": [
+     "analytics or research"
+    ],
+    "for the purposes of concluding and fulfilling the contract": [
+     "contract performance"
+    ],
+    "in order to perform the contract of use": [
+     "contract performance"
+    ],
+    "to perform our contractual obligations with your organization": [
+     "contract performance"
+    ],
+    "customer support": [
+     "customer service"
+    ],
+    "determine location": [
+     "service eligibility"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud-detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "to match your IP address with IP addresses that have misused our service in the past for fraud prevention purposes": [
+     "fraud prevention and security"
+    ],
+    "security analysis": [
+     "security"
+    ],
+    "system security": [
+     "security"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service-improvement": [
+     "service improvement"
+    ],
+    "provide our translation services": [
+     "service provision"
+    ],
+    "for the translation": [
+     "provide our translation services"
+    ],
+    "enable voice to be used in translation output": [
+     "provide Speaker match"
+    ],
+    "differentiate between speakers": [
+     "provide Speaker match"
+    ],
+    "label transcript": [
+     "provide Speaker match"
+    ],
+    "to authenticate your access": [
+     "security"
+    ],
+    "Privacy Settings": [
+     "preferences"
+    ],
+    "legal-compliance": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 6725,
+  "completion_tokens": 2775,
+  "thinking_tokens": 0,
+  "seconds": 20.92033624649048,
+  "failures": 0
+ },
+ "seconds": 21.0
+}

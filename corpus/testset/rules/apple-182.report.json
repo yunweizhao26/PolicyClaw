@@ -1,0 +1,168 @@
+{
+ "cleaned_sha256": "apple-182",
+ "text_sha256": "6f638c97f5c9effe01370cf69ec093310f33c410f7fbe1701b77a7f2222971c9",
+ "site_id": "apple-182",
+ "sections": 8,
+ "rules": 251,
+ "report": {
+  "sections": 8,
+  "raw_rules": 171,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to better understand how customers use our Websites",
+       "name": "analytics"
+      },
+      {
+       "text": "to improve those technologies",
+       "name": "analytics"
+      },
+      {
+       "text": "optimize your experience and interactions",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "As described in the “Tracking Tools” section above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-182#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "personal contact information",
+      "name": "contact info"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "view",
+      "verb": "view"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "within your online account or by contacting us through a method listed below"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-182#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "preferences",
+      "name": "preferences"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "view",
+      "verb": "view"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "within your online account or by contacting us through a method listed below"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-182#s7"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 72,
+  "completeness": {
+   "gaps": 166,
+   "gap_words": 2102
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 72,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 35690,
+  "completion_tokens": 33823,
+  "thinking_tokens": 0,
+  "seconds": 348.52098751068115,
+  "failures": 0
+ },
+ "seconds": 349.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

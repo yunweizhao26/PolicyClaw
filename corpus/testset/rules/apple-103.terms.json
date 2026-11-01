@@ -1,0 +1,324 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometric information": "biometric data",
+    "bluetooth identifiers": "Bluetooth identifiers",
+    "contact information": "contact info",
+    "customer proprietary network information": "CPNI",
+    "drivers license": "driver's license",
+    "facial photograph": "facial photo",
+    "government identifiers": "government identifier",
+    "government-issued identification": "government-issued ID",
+    "password": "account credentials",
+    "passwords": "account credentials",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "billing address": [
+     "address"
+    ],
+    "shipping address": [
+     "address"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "address": [
+     "contact info"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "device location": [
+     "location"
+    ],
+    "social security number": [
+     "government identifier",
+     "identifiers"
+    ],
+    "driver's license": [
+     "government-issued ID"
+    ],
+    "passport": [
+     "government-issued ID"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "facial photo": [
+     "biometric data",
+     "visual information"
+    ],
+    "video recordings": [
+     "visual information"
+    ],
+    "voice recording": [
+     "audio information"
+    ],
+    "app usage": [
+     "app usage information"
+    ],
+    "data about app use": [
+     "app usage information"
+    ],
+    "browsing history": [
+     "browsing data"
+    ],
+    "MAID": [
+     "ad ID"
+    ],
+    "call detail records": [
+     "call data"
+    ],
+    "phone numbers called or texted": [
+     "call and text history"
+    ],
+    "consumer health data": [
+     "health data"
+    ],
+    "children data": [
+     "personal data of minors"
+    ],
+    "personal data of minors": [
+     "personal data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "customer personal information": [
+     "personal data"
+    ],
+    "data of Rhode Island residents": [
+     "personal data"
+    ],
+    "driver personal data": [
+     "personal data"
+    ],
+    "rider data": [
+     "personal data"
+    ],
+    "driver profile data": [
+     "driver personal data"
+    ],
+    "driver registration data": [
+     "driver personal data"
+    ],
+    "rider interaction data": [
+     "rider data"
+    ],
+    "rider public engagement data": [
+     "rider data"
+    ],
+    "IoT device data": [
+     "IoT data"
+    ],
+    "IoT service data": [
+     "IoT data"
+    ],
+    "device characteristics": [
+     "device details"
+    ],
+    "device usage data": [
+     "device data"
+    ],
+    "network usage data": [
+     "network data"
+    ],
+    "wait times": [
+     "traffic and wait time data"
+    ],
+    "user reviews": [
+     "user-generated content"
+    ],
+    "step count": [
+     "health data"
+    ],
+    "disability status": [
+     "protected characteristics"
+    ],
+    "citizenship or immigration status": [
+     "protected characteristics"
+    ],
+    "gender": [
+     "demographics",
+     "protected characteristics"
+    ],
+    "age": [
+     "demographics",
+     "protected characteristics"
+    ],
+    "account identifier": [
+     "identifiers"
+    ],
+    "ad ID": [
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "Bluetooth identifiers": [
+     "identifiers"
+    ],
+    "Wi-Fi identifiers": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "service provider",
+     "third parties"
+    ],
+    "data analytics providers": [
+     "service provider",
+     "third parties"
+    ],
+    "financial institutions": [
+     "third parties"
+    ],
+    "internet service providers": [
+     "service provider",
+     "third parties"
+    ],
+    "operating systems and platforms": [
+     "service provider",
+     "third parties"
+    ],
+    "partner companies": [
+     "third parties"
+    ],
+    "payment processor": [
+     "service provider",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ],
+    "third-party companies": [
+     "third parties"
+    ],
+    "rideshare account owner": [
+     "account holder",
+     "customer",
+     "user"
+    ],
+    "account manager": [
+     "user"
+    ],
+    "account holder": [
+     "user"
+    ],
+    "customer": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "IoT device": [
+     "device"
+    ],
+    "business clients": [
+     "third party"
+    ],
+    "credit reporting agency": [
+     "third party"
+    ],
+    "drivers": [
+     "user"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "riders": [
+     "user"
+    ],
+    "third-party partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partners": "partner"
+   },
+   "parents": {
+    "advertising partners": [
+     "partner",
+     "third party"
+    ],
+    "third-party partners": [
+     "partner",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "to comply with laws": [
+     "legal compliance"
+    ],
+    "contest fulfillment": [
+     "promotional activities"
+    ],
+    "customer support and feedback response": [
+     "customer support"
+    ],
+    "safety": [
+     "quality and safety"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4547,
+  "completion_tokens": 1328,
+  "thinking_tokens": 0,
+  "seconds": 14.11545729637146,
+  "failures": 0
+ },
+ "seconds": 14.2
+}

@@ -1,0 +1,253 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device manufacturer": "device brand",
+    "information": "data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "platform type": "device platform",
+    "precise location": "precise geographic location"
+   },
+   "parents": {
+    "account details": [
+     "data",
+     "personal data"
+    ],
+    "advertising_data": [
+     "data"
+    ],
+    "aggregate usage metrics": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "content accessed": [
+     "usage data"
+    ],
+    "customer_service_inquiry": [
+     "data"
+    ],
+    "data_to_fight_against_fraud": [
+     "data"
+    ],
+    "demographic_data": [
+     "data"
+    ],
+    "device brand": [
+     "device details",
+     "device_information"
+    ],
+    "device details": [
+     "device_information"
+    ],
+    "device identifier": [
+     "device details",
+     "device_information"
+    ],
+    "device platform": [
+     "device details",
+     "device_information"
+    ],
+    "device_information": [
+     "data"
+    ],
+    "domain name": [
+     "browsing history",
+     "url"
+    ],
+    "email_address": [
+     "personal data"
+    ],
+    "financial_information": [
+     "personal data"
+    ],
+    "general location": [
+     "data"
+    ],
+    "in-game activities": [
+     "usage data"
+    ],
+    "information collected from you": [
+     "data"
+    ],
+    "installed applications": [
+     "device_information"
+    ],
+    "instant_messages": [
+     "messages you have posted"
+    ],
+    "ip address": [
+     "device_information"
+    ],
+    "messages you have posted": [
+     "data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "national_identification_number": [
+     "personal data"
+    ],
+    "necessary data": [
+     "data"
+    ],
+    "non-personally identifiable information": [
+     "data"
+    ],
+    "password": [
+     "account details"
+    ],
+    "personally sensitive data": [
+     "personal data"
+    ],
+    "phone_number": [
+     "device_information",
+     "personal data"
+    ],
+    "platform_data": [
+     "data"
+    ],
+    "postal_address": [
+     "personal data"
+    ],
+    "precise geographic location": [
+     "general location"
+    ],
+    "preferences": [
+     "profile data"
+    ],
+    "profile data": [
+     "account details"
+    ],
+    "profile_photo": [
+     "profile data"
+    ],
+    "referring and exit pages": [
+     "browsing activity",
+     "usage data"
+    ],
+    "url": [
+     "browsing history"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "user_identifier": [
+     "account details",
+     "personal data"
+    ],
+    "username": [
+     "account details",
+     "user_identifier"
+    ],
+    "web request": [
+     "browsing activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising and marketing partners": [
+     "partners",
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "user_connections": [
+     "other_users",
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising and marketing partners": [
+     "partners",
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "advertising and marketing": "advertising",
+    "compliance with legal obligation": "compliance",
+    "fraud_detection": "fraud prevention",
+    "service_provision": "service-provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "customer_support": [
+     "service-provision"
+    ],
+    "customization": [
+     "personalization of services"
+    ],
+    "dispute resolution": [
+     "legal_compliance"
+    ],
+    "enforcing terms of service": [
+     "legal_compliance"
+    ],
+    "fraud prevention": [
+     "fraud_prevention_and_security",
+     "security"
+    ],
+    "fraud_prevention_and_security": [
+     "security"
+    ],
+    "account_management": [
+     "service-provision"
+    ],
+    "compliance": [
+     "legal_compliance"
+    ],
+    "social-features": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2644,
+  "completion_tokens": 1654,
+  "thinking_tokens": 0,
+  "seconds": 31.99294924736023,
+  "failures": 0
+ },
+ "seconds": 32.1
+}

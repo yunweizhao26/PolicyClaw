@@ -1,0 +1,207 @@
+{
+ "cleaned_sha256": "pg-153",
+ "text_sha256": "49bffffb192f82d16c715fd103ef231843addab24032fb8f4e0cdde092607757",
+ "site_id": "pg-153",
+ "sections": 12,
+ "rules": 246,
+ "report": {
+  "sections": 12,
+  "raw_rules": 211,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not transfer",
+     "actor": {
+      "text": "the devices",
+      "name": "recording devices"
+     },
+     "data": {
+      "text": "such information",
+      "name": "biometric information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "To the extent that such images would be considered biometric information under applicable laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not transfer"
+    ],
+    "section": "pg-153#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "unspecified personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "“cookies,” related technologies (such as pixels and web beacons), and third-party analytics services (such as Google Analytics)",
+      "name": "cookies and third-party trackers"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-153#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "our third-party service providers and business partners",
+      "name": "service providers and business partners"
+     },
+     "data": {
+      "text": "information",
+      "name": "unspecified personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "“cookies,” related technologies (such as pixels and web beacons), and third-party analytics services (such as Google Analytics)",
+      "name": "cookies and third-party trackers"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-153#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In these circumstances",
+      "as required or permitted by applicable law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "pg-153#s7"
+   }
+  ],
+  "residual_quotes": 36,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 243,
+   "gap_words": 3074
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 92,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 48090,
+  "completion_tokens": 40004,
+  "thinking_tokens": 0,
+  "seconds": 230.15092778205872,
+  "failures": 0
+ },
+ "seconds": 231.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

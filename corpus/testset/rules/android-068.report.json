@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "android-068",
+ "text_sha256": "d03aa3d17592cae3c85195662a82e2d4a1d8a41c3d20ae71323b89de5740d460",
+ "site_id": "android-068",
+ "sections": 19,
+ "rules": 233,
+ "report": {
+  "sections": 19,
+  "raw_rules": 165,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "Specifically, we may use Facebook tools, such as Facebook Login, Pixel, Social plugins, and Facebook SDK for App Events"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-068#s9"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 108,
+  "completeness": {
+   "gaps": 260,
+   "gap_words": 2031
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 108,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 55907,
+  "completion_tokens": 42469,
+  "thinking_tokens": 0,
+  "seconds": 291.1176869869232,
+  "failures": 0
+ },
+ "seconds": 292.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "Information",
+    "information": "Information",
+    "personal data": "Information",
+    "text_communications": "text communications",
+    "voice_communications": "voice communications"
+   },
+   "parents": {
+    "comments": [
+     "Information"
+    ],
+    "contact_information": [
+     "Information"
+    ],
+    "cookies": [
+     "Information"
+    ],
+    "derived data": [
+     "Information"
+    ],
+    "interaction_data": [
+     "service use data"
+    ],
+    "interests": [
+     "Information"
+    ],
+    "keystrokes": [
+     "interaction_data"
+    ],
+    "mouse_activity": [
+     "interaction_data"
+    ],
+    "name": [
+     "contact_information"
+    ],
+    "page_scroll_activity": [
+     "interaction_data"
+    ],
+    "precise location": [
+     "Information"
+    ],
+    "preferences": [
+     "Information"
+    ],
+    "service use data": [
+     "Information"
+    ],
+    "text communications": [
+     "Information"
+    ],
+    "typed_text": [
+     "interaction_data"
+    ],
+    "unique identifier": [
+     "Information"
+    ],
+    "user_comments": [
+     "comments"
+    ],
+    "voice communications": [
+     "Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "business_partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party website or app": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "first party affiliate": [
+     "first party"
+    ],
+    "service_provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "identity_verification": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "legal_defense": [
+     "protection of rights"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2091,
+  "completion_tokens": 687,
+  "thinking_tokens": 0,
+  "seconds": 9.353570938110352,
+  "failures": 0
+ },
+ "seconds": 9.4
+}

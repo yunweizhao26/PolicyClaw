@@ -1,0 +1,441 @@
+{
+ "cleaned_sha256": "apple-070",
+ "text_sha256": "c37865b5464b85156bde42c153cf8e47bc136e52b9e694ffdac8ecbb03fff008",
+ "site_id": "apple-070",
+ "sections": 6,
+ "rules": 122,
+ "report": {
+  "sections": 6,
+  "raw_rules": 106,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "market other products or services to you",
+      "verb": "market"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "without your consent"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not market",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-070#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "without your express consent"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "purpose": [
+      {
+       "text": "to identify you personally",
+       "name": "identify user"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-070#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "market",
+      "verb": "market"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "to consumers who have agreed to receive such messages"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "do this",
+     "purpose": [
+      {
+       "text": "to market products to consumers who have agreed to receive such messages",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-070#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be managed",
+     "actor": {
+      "text": "third party advertising suppliers",
+      "name": "third party advertising suppliers"
+     },
+     "data": {
+      "text": "persistent cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "managed",
+      "verb": "manage"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to support ad banners",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "On behalf of the USPS"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be managed"
+    ],
+    "section": "apple-070#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be managed",
+     "actor": {
+      "text": "third party advertising suppliers",
+      "name": "third party advertising suppliers"
+     },
+     "data": {
+      "text": "beacons",
+      "name": "web beacons"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "managed",
+      "verb": "manage"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to support ad banners",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "On behalf of the USPS"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be managed"
+    ],
+    "section": "apple-070#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "actor": {
+      "name": "parent",
+      "text": "parents"
+     },
+     "conditions": [
+      "based on verifying the identity of the consenting parent"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will allow",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their children"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-070#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "online contact information",
+      "text": "online contact information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "do not require parental consent in order to",
+     "purpose": [
+      {
+       "text": "to: request the name or online contact information of a parent for the sole purpose of obtaining verifiable parental consent or providing parental notification",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: request the name or online contact information of a parent for the sole purpose of obtaining verifiable parental consent or providing parental notification"
+    ],
+    "section": "apple-070#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "online contact information",
+      "text": "online contact information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "do not require parental consent in order to",
+     "purpose": [
+      {
+       "text": "to: request the name or online contact information of a parent for the sole purpose of obtaining verifiable parental consent or providing parental notification",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: request the name or online contact information of a parent for the sole purpose of obtaining verifiable parental consent or providing parental notification"
+    ],
+    "section": "apple-070#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "not used to recontact the child beyond the scope of that request"
+     ],
+     "data": {
+      "name": "online contact information",
+      "text": "online contact information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "do not require parental consent in order to",
+     "purpose": [
+      {
+       "text": "to: respond more than once directly to a specific request from a child",
+       "name": "customer support"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: respond more than once directly to a specific request from a child"
+    ],
+    "section": "apple-070#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "not used to recontact the child beyond the scope of that request"
+     ],
+     "data": {
+      "name": "online contact information",
+      "text": "online contact information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "do not require parental consent in order to",
+     "purpose": [
+      {
+       "text": "to: respond more than once directly to a specific request from a child",
+       "name": "customer support"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: respond more than once directly to a specific request from a child"
+    ],
+    "section": "apple-070#s6"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 52,
+  "completeness": {
+   "gaps": 149,
+   "gap_words": 1746
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 52,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24375,
+  "completion_tokens": 20827,
+  "thinking_tokens": 0,
+  "seconds": 293.3728349208832,
+  "failures": 0
+ },
+ "seconds": 293.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

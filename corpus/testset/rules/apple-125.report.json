@@ -1,0 +1,246 @@
+{
+ "cleaned_sha256": "apple-125",
+ "text_sha256": "59a1d901f0c7309f32e43ff631d45f37537c2841d176c9618135a3be438b29a3",
+ "site_id": "apple-125",
+ "sections": 32,
+ "rules": 268,
+ "report": {
+  "sections": 32,
+  "raw_rules": 259,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "respond to subpoenas, court orders, or legal process",
+      "verb": "respond"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-125#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "establish and exercise our legal rights or defenses against legal claims",
+      "verb": "establish"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "defenses against legal claims",
+       "name": "legal"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-125#s17"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not currently",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make decisions about you in this manner",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "Individuals in the EU and UK",
+      "Right not to be subject to automated decision making",
+      "based solely on automated processing"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "UK equivalent",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-125#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have “shared”",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "categories",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "“shared”",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "in the last twelve (12) months"
+     ],
+     "exceptions": [
+      "opt-out of this activity"
+     ],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have “shared”"
+    ],
+    "section": "apple-125#s18"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not currently",
+     "actor": {
+      "text": "Headspace",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use profiling",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "in furtherance of decisions that produce legal or similarly significant effects"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-125#s32"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 98,
+  "completeness": {
+   "gaps": 335,
+   "gap_words": 3878
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 98,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 55,
+  "cached": 0,
+  "prompt_tokens": 88829,
+  "completion_tokens": 46332,
+  "thinking_tokens": 0,
+  "seconds": 933.9995913505554,
+  "failures": 0
+ },
+ "seconds": 935.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

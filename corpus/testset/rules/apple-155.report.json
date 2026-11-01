@@ -1,0 +1,412 @@
+{
+ "cleaned_sha256": "apple-155",
+ "text_sha256": "5ecbffe043e5e581537e37e2519a8a70dc2d626c24056b2ea25b0424c527e69f",
+ "site_id": "apple-155",
+ "sections": 27,
+ "rules": 430,
+ "report": {
+  "sections": 27,
+  "raw_rules": 341,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "market",
+      "verb": "market"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "market",
+     "purpose": [
+      {
+       "text": "We market our Times Services to you",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-155#s10"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "preserve",
+      "verb": "preserve"
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "can also preserve",
+     "purpose": [
+      {
+       "text": "to: Comply with the law or with legal process",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: Protect and defend our rights and property",
+       "name": "legal defence"
+      },
+      {
+       "text": "to: Protect against misuse or unauthorized use of the Times Services",
+       "name": "security"
+      },
+      {
+       "text": "to: Protect the safety or property of our personnel, users or the general public ( e.g. , if you provide false information or attempt to pose as someone else, we could share your information to help investigations into your actions)",
+       "name": "security"
+      },
+      {
+       "text": "to: Cooperate with government authorities, which could be outside your country of residence",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we believe it would be necessary"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Protect and defend our rights and property",
+     "to: Protect against misuse or unauthorized use of the Times Services",
+     "to: Protect the safety or property of our personnel, users or the general public ( e.g. , if you provide false information or attempt to pose as someone else, we could share your information to help investigations into your actions)",
+     "to: Cooperate with government authorities, which could be outside your country of residence"
+    ],
+    "section": "apple-155#s13"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "can also",
+     "purpose": [
+      {
+       "text": "to: Comply with the law or with legal process",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to: Protect and defend our rights and property",
+       "name": "legal defence"
+      },
+      {
+       "text": "to: Protect against misuse or unauthorized use of the Times Services",
+       "name": "security"
+      },
+      {
+       "text": "to: Protect the safety or property of our personnel, users or the general public ( e.g. , if you provide false information or attempt to pose as someone else, we could share your information to help investigations into your actions)",
+       "name": "security"
+      },
+      {
+       "text": "to: Cooperate with government authorities, which could be outside your country of residence",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we believe it would be necessary"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Protect and defend our rights and property",
+     "to: Protect against misuse or unauthorized use of the Times Services",
+     "to: Protect the safety or property of our personnel, users or the general public ( e.g. , if you provide false information or attempt to pose as someone else, we could share your information to help investigations into your actions)",
+     "to: Cooperate with government authorities, which could be outside your country of residence"
+    ],
+    "section": "apple-155#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sells",
+     "actor": {
+      "text": "The New York Times Company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties who are not our service providers",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sells",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "To the extent The New York Times Company “sells” your personal information (as the term “sell” is defined under the CCPA)"
+     ],
+     "exceptions": [
+      "opt-out of that “sale” on a going-forward basis at any time",
+      "opt-out from the “sale” or “sharing” of your personal information with third parties who are not our service providers",
+      "click the \"Your Privacy Choices\" link on the bottom of the webpage where your information is being collected or go to “Account” and then “Settings,” and “Privacy Settings” and click the “Your Privacy Choices” link there",
+      "submitting a request to opt-out by emailing us at privacy@nytimes.com with the subject line “California Resident - Do Not Sell or Share.”",
+      "turn on the Global Privacy Control to opt-out of the “sale” or “sharing” of your personal information"
+     ],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "California Consumer Privacy Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "California Privacy Rights Act",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "submitting a request to opt-out by emailing us at privacy@nytimes.com with the subject line “California Resident - Do Not Sell or Share.”"
+    ],
+    "section": "apple-155#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sharing",
+     "actor": {
+      "text": "The New York Times Company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties who are not our service providers",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "“sharing”",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "If you’re a California resident"
+     ],
+     "exceptions": [
+      "opt-out from the “sale” or “sharing” of your personal information with third parties who are not our service providers",
+      "click the \"Your Privacy Choices\" link on the bottom of the webpage where your information is being collected or go to “Account” and then “Settings,” and “Privacy Settings” and click the “Your Privacy Choices” link there",
+      "submitting a request to opt-out by emailing us at privacy@nytimes.com with the subject line “California Resident - Do Not Sell or Share.”",
+      "turn on the Global Privacy Control to opt-out of the “sale” or “sharing” of your personal information"
+     ],
+     "references": [
+      {
+       "text": "California Consumer Privacy Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "California Privacy Rights Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "submitting a request to opt-out by emailing us at privacy@nytimes.com with the subject line “California Resident - Do Not Sell or Share.”"
+    ],
+    "section": "apple-155#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to verify your identity — and the authorized agent’s permission —",
+       "name": "verification"
+      }
+     ],
+     "conditions": [
+      "You can designate an authorized agent to make a request to exercise your rights under the CCPA on your behalf",
+      "before a response to the request is sent"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-155#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "them",
+      "name": "transaction records"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "after a certain period of time"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after a certain period of time"
+    ],
+    "section": "apple-155#s20"
+   }
+  ],
+  "residual_quotes": 49,
+  "quotes": 167,
+  "completeness": {
+   "gaps": 595,
+   "gap_words": 5921
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 167,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 54,
+  "cached": 0,
+  "prompt_tokens": 101058,
+  "completion_tokens": 73322,
+  "thinking_tokens": 0,
+  "seconds": 805.4512276649475,
+  "failures": 0
+ },
+ "seconds": 807.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

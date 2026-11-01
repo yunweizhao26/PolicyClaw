@@ -1,0 +1,179 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ad interaction data": "Ad Interaction Data",
+    "analytics data": "Analytics Data",
+    "commercial information": "Commercial Information",
+    "device data": "Device Data",
+    "inferred interests": "Inferred Interests",
+    "profile picture": "avatar",
+    "user id": "user ID",
+    "user name": "screen name"
+   },
+   "parents": {
+    "Ad Interaction Data": [
+     "service usage information"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "bank account information": [
+     "payment information"
+    ],
+    "browsing history": [
+     "browsing information"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "data in your Account": [
+     "data associated with your Account"
+    ],
+    "de-identified Analytics Data": [
+     "Analytics Data"
+    ],
+    "device id": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device information": [
+     "Device Data"
+    ],
+    "idfv": [
+     "device identifier"
+    ],
+    "in-game achievements": [
+     "gameplay information"
+    ],
+    "in-game score": [
+     "gameplay information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "mobile analytics data": [
+     "Analytics Data"
+    ],
+    "parent email address": [
+     "email address"
+    ],
+    "avatar": [
+     "profile information"
+    ],
+    "screen name": [
+     "profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "ad tech provider": "AdTech Providers"
+   },
+   "parents": {
+    "AdTech Providers": [
+     "third party"
+    ],
+    "potential acquirer representatives": [
+     "third party"
+    ],
+    "potential acquirers of our business assets": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Meta": [
+     "social network",
+     "third parties"
+    ],
+    "ad networks": [
+     "third parties"
+    ],
+    "online marketplaces": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ],
+    "children 12 and under": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "ad tech provider": "AdTech Providers"
+   },
+   "parents": {
+    "AdTech Providers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer support": "customer service",
+    "evaluating and entering into business transactions": "business transfer",
+    "legal compliance": "compliance with legal obligation"
+   },
+   "parents": {
+    "ad analytics": [
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "enforcing terms": [
+     "legal and compliance"
+    ],
+    "legal dispute": [
+     "legal and compliance"
+    ],
+    "compliance with legal obligation": [
+     "legal and compliance"
+    ],
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "preventing harm": [
+     "fraud prevention and security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "quality control": [
+     "internal business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2983,
+  "completion_tokens": 796,
+  "thinking_tokens": 0,
+  "seconds": 11.444398403167725,
+  "failures": 0
+ },
+ "seconds": 11.5
+}

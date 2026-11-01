@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "web-164",
+ "text_sha256": "ce44dc02e48292abb3c513b441e90d08b3a760297e45a6e357d518d439e7dae1",
+ "site_id": "web-164",
+ "sections": 21,
+ "rules": 257,
+ "report": {
+  "sections": 21,
+  "raw_rules": 208,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "making",
+     "actor": {
+      "text": "BidMachine",
+      "name": "BidMachine"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "making changes",
+      "verb": "make"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "BidMachine will take commercially reasonable steps to verify your identity before granting access to or making any changes to your Personal Information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "making changes"
+    ],
+    "section": "web-164#s15"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 78,
+  "completeness": {
+   "gaps": 219,
+   "gap_words": 2537
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 78,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 1,
+  "prompt_tokens": 64554,
+  "completion_tokens": 43132,
+  "thinking_tokens": 0,
+  "seconds": 349.47562074661255,
+  "failures": 0
+ },
+ "seconds": 350.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

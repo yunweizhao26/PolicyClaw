@@ -1,0 +1,612 @@
+{
+ "cleaned_sha256": "web-148",
+ "text_sha256": "3c5487948de5d89542a3570e6567b80d0626857bc56b6492ee674ec8deddc93c",
+ "site_id": "web-148",
+ "sections": 12,
+ "rules": 55,
+ "report": {
+  "sections": 12,
+  "raw_rules": 51,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "The Internet domain from which you access our website",
+      "name": "Internet domain"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "The type of browser (e.g., Firefox, Internet Explorer, Chrome)",
+      "name": "browser type"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "used to access our site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "The operating system (e.g., Windows, Mac OS, Unix)",
+      "name": "operating system"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "used to access our site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "The date and time you access our site",
+      "name": "date and time"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Universal Resource Locators (URLs), or addresses, of the pages you visit",
+      "name": "browsing history"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Your username",
+      "name": "username"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "if it was used to log in to the website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is strictly necessary",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "technical storage",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [
+      "Functional",
+      "Always active"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is strictly necessary",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [
+      "Functional",
+      "Always active"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is necessary",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "technical storage",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "for the legitimate purpose of storing preferences that are not requested by the subscriber or user",
+       "name": "user-preferences"
+      }
+     ],
+     "conditions": [
+      "Preferences"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is necessary",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "for the legitimate purpose of storing preferences that are not requested by the subscriber or user",
+       "name": "user-preferences"
+      }
+     ],
+     "conditions": [
+      "Preferences"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "technical storage",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "exclusively for statistical purposes",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Statistics"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "exclusively for statistical purposes",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Statistics"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is required",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "technical storage",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Marketing"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is required",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "retrieval",
+     "purpose": [
+      {
+       "text": "to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Marketing"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is required",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "operation": "recording",
+     "purpose": [
+      {
+       "text": "for similar marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "on a website or across several websites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-148#s12"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 26,
+  "completeness": {
+   "gaps": 131,
+   "gap_words": 1754
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 26,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 27774,
+  "completion_tokens": 10667,
+  "thinking_tokens": 0,
+  "seconds": 108.18295478820801,
+  "failures": 0
+ },
+ "seconds": 108.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

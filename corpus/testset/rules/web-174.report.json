@@ -1,0 +1,146 @@
+{
+ "cleaned_sha256": "web-174",
+ "text_sha256": "6ce09dbca3e56076f3587cbbcd7706e82312d691f542bc7db94a986d5a5ab8a5",
+ "site_id": "web-174",
+ "sections": 11,
+ "rules": 189,
+ "report": {
+  "sections": 11,
+  "raw_rules": 142,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "AMD",
+      "text": "AMD"
+     },
+     "conditions": [
+      "of anyone under 16 years of age"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "does not knowingly sell",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-174#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "AMD",
+      "text": "AMD"
+     },
+     "conditions": [
+      "of anyone under 16 years of age"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "does not knowingly... share",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-174#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is",
+     "actor": {
+      "text": "AMD",
+      "name": "AMD"
+     },
+     "data": {
+      "text": "data we process",
+      "name": "data we process"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred to",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "to the United States or other countries in which AMD operates"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to the United States or other countries in which AMD operates"
+    ],
+    "section": "web-174#s7"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 70,
+  "completeness": {
+   "gaps": 226,
+   "gap_words": 2418
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 70,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 44455,
+  "completion_tokens": 35268,
+  "thinking_tokens": 0,
+  "seconds": 247.67088270187378,
+  "failures": 0
+ },
+ "seconds": 248.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip_address": "ip address",
+    "non-personal information": "non-personal data",
+    "personal information": "personal data",
+    "personal_information": "personal data"
+   },
+   "parents": {
+    "advertising id": [
+     "device id",
+     "device_information",
+     "persistent identifier",
+     "technical information"
+    ],
+    "mac address": [
+     "device id",
+     "device_information",
+     "persistent identifier",
+     "technical information"
+    ],
+    "ip address": [
+     "device_information",
+     "technical information"
+    ],
+    "device id": [
+     "device_information",
+     "persistent identifier",
+     "technical information"
+    ],
+    "browser version": [
+     "browser details"
+    ],
+    "browser details": [
+     "device_information",
+     "technical information"
+    ],
+    "operating system": [
+     "device_information",
+     "technical information"
+    ],
+    "screen resolution": [
+     "device_information",
+     "technical information"
+    ],
+    "language": [
+     "device_information",
+     "technical information"
+    ],
+    "clickstream data": [
+     "usage data",
+     "user activity"
+    ],
+    "search queries": [
+     "usage data",
+     "user activity"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "behavioral information": [
+     "usage data"
+    ],
+    "referrer url": [
+     "technical information",
+     "usage data"
+    ],
+    "timestamp": [
+     "usage data"
+    ],
+    "age": [
+     "personal data",
+     "user profile information"
+    ],
+    "gender": [
+     "personal data",
+     "user profile information"
+    ],
+    "user profile information": [
+     "personal data"
+    ],
+    "social_network_data": [
+     "personal data"
+    ],
+    "aggregate information": [
+     "anonymized data",
+     "non-personal data"
+    ],
+    "anonymized data": [
+     "non-personal data"
+    ],
+    "device_information": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "non-personal data": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "basic information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "partner": [
+     "third party"
+    ],
+    "professional_advisors": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first_party": "first party"
+   },
+   "parents": {
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "improve user experience": "enhance user experience",
+    "personalization_and_customization": "personalization"
+   },
+   "parents": {
+    "administration": [
+     "business_operations"
+    ],
+    "analytics": [
+     "business_operations"
+    ],
+    "targeted_advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "research_and_development": [
+     "business_operations"
+    ],
+    "security": [
+     "business_operations"
+    ],
+    "customer_support": [
+     "service_provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1868,
+  "completion_tokens": 886,
+  "thinking_tokens": 0,
+  "seconds": 20.265185594558716,
+  "failures": 0
+ },
+ "seconds": 20.3
+}

@@ -1,0 +1,226 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifying information": "personally identifiable information",
+    "user account information": "account information",
+    "video recording": "video",
+    "voice recordings": "voice recording"
+   },
+   "parents": {
+    "bank account information": [
+     "financial information"
+    ],
+    "credit information": [
+     "financial information"
+    ],
+    "credit score": [
+     "credit information"
+    ],
+    "email address": [
+     "contact data",
+     "information that directly identifies you"
+    ],
+    "phone number": [
+     "contact data",
+     "information that directly identifies you"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "contacts": [
+     "contact data"
+    ],
+    "advertising identifier": [
+     "identifiers"
+    ],
+    "device identifier": [
+     "device or browser data",
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "social security number": [
+     "identifiers",
+     "information that directly identifies you"
+    ],
+    "user account name": [
+     "identifiers"
+    ],
+    "name": [
+     "information that directly identifies you"
+    ],
+    "information that directly identifies you": [
+     "personally identifiable information"
+    ],
+    "personally identifiable information": [
+     "personal data"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "customer information": [
+     "information about you"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "user-provided data": [
+     "information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "payment settings": [
+     "financial information"
+    ],
+    "order history": [
+     "purchase history"
+    ],
+    "order status": [
+     "order history"
+    ],
+    "shopping actions": [
+     "usage data"
+    ],
+    "clickstream": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "ad performance data": [
+     "usage data"
+    ],
+    "content interaction": [
+     "usage data"
+    ],
+    "in-store activity data": [
+     "usage data"
+    ],
+    "service performance data": [
+     "telemetry"
+    ],
+    "telemetry": [
+     "usage data"
+    ],
+    "log data": [
+     "device or browser data"
+    ],
+    "device settings": [
+     "device or browser data"
+    ],
+    "cookies": [
+     "device or browser data"
+    ],
+    "email notification settings": [
+     "communication preferences"
+    ],
+    "image": [
+     "content"
+    ],
+    "photograph": [
+     "image"
+    ],
+    "video": [
+     "content"
+    ],
+    "user content": [
+     "content"
+    ],
+    "voice recording": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "that third party"
+   },
+   "parents": {
+    "ad company": [
+     "others",
+     "that third party"
+    ],
+    "other companies and organizations": [
+     "others"
+    ],
+    "that third party": [
+     "others"
+    ],
+    "subsidiaries Amazon.com, Inc. controls": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "sellers": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party advertising partner": "ad company",
+    "third-party service providers": "service provider"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention": "fraud prevention and detection",
+    "legal compliance": "legal and compliance",
+    "service provision": "service operation and improvement"
+   },
+   "parents": {
+    "fraud prevention and credit risk reduction": [
+     "fraud prevention and detection"
+    ],
+    "fraud prevention and detection": [
+     "service-operation-and-security"
+    ],
+    "identity verification": [
+     "fraud prevention and detection"
+    ],
+    "order fulfillment": [
+     "provide-service",
+     "service operation and improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement",
+     "service-operation-and-security"
+    ],
+    "provide-service": [
+     "service operation and improvement",
+     "service-operation-and-security"
+    ],
+    "service operation and improvement": [
+     "service-operation-and-security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2751,
+  "completion_tokens": 1022,
+  "thinking_tokens": 0,
+  "seconds": 15.32368779182434,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

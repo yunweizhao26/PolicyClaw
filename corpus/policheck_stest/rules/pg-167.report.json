@@ -1,0 +1,127 @@
+{
+ "cleaned_sha256": "pg-167",
+ "text_sha256": "491ac8b5e13d010915abab980049d21a095b257062b1e05fa82070512ea2d686",
+ "site_id": "pg-167",
+ "sections": 7,
+ "rules": 120,
+ "report": {
+  "sections": 7,
+  "raw_rules": 114,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Certain"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "disclose"
+     },
+     "data": {
+      "name": "Personal Data",
+      "text": "Personal Data"
+     },
+     "recipient": {
+      "name": "suppliers, service providers, and other third parties",
+      "text": "suppliers, service providers, and other third parties, such as payment processors, web hosting services, or data centers"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "as reasonably necessary to provide, maintain and support the Certain Services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "operation": "disclosure"
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "suppliers, service providers, and other third parties, such as payment processors, web hosting services, or data centers"
+    ],
+    "section": "pg-167#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email messages directly relating to registrations, including:\nConfirmation of completed registration\nNotice of incomplete registration\nAdditional information about the event or your registration",
+      "name": "email content"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "For attendees of our Customer’s event",
+      "if you decide to use Certain’s services",
+      "only directly relating to registrations, including:\nConfirmation of completed registration\nNotice of incomplete registration\nAdditional information about the event or your registration"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only directly relating to registrations, including:\nConfirmation of completed registration\nNotice of incomplete registration\nAdditional information about the event or your registration"
+    ],
+    "section": "pg-167#s6"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 63,
+  "completeness": {
+   "gaps": 170,
+   "gap_words": 1980
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 11,
+  "translated_quotes": 63,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 27391,
+  "completion_tokens": 22168,
+  "thinking_tokens": 0,
+  "seconds": 132.38817501068115,
+  "failures": 0
+ },
+ "seconds": 133.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

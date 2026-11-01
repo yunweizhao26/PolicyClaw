@@ -1,0 +1,167 @@
+{
+ "cleaned_sha256": "android-085",
+ "text_sha256": "c11310de572150b600ce5c989c2345dc00da6bb47a2cd7fbd88f6404cba62f29",
+ "site_id": "android-085",
+ "sections": 18,
+ "rules": 259,
+ "report": {
+  "sections": 18,
+  "raw_rules": 234,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "infer",
+      "verb": "infer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "With your consent, which is provided during initial registration",
+      "in some situations"
+     ],
+     "data": {
+      "name": "location",
+      "text": "location data"
+     },
+     "exceptions": [
+      "go to your mobile device settings and turn off location services"
+     ],
+     "operation": "derivation",
+     "polarity": "ALLOW",
+     "polarity_text": "may infer",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "cell tower or wi-fi hotspots",
+      "text": "from cell tower or Wi‑Fi hotspot information"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-085#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "F‑Secure",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "an authorized agent",
+      "name": "an authorized agent"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make an access ... request",
+      "verb": "make access request"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "As a resident of California, Colorado or Connecticut",
+      "you may have an authorized agent make an access or deletion request on your behalf",
+      "provided that the authorized agent has your written permission, and you are able to verify your own identity directly with F‑Secure"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-085#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is done",
+     "actor": {
+      "text": "F‑Secure",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to comply with applicable law",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "If you are a visitor from the EEA"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-085#s16"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 98,
+  "completeness": {
+   "gaps": 220,
+   "gap_words": 2171
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 98,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 57751,
+  "completion_tokens": 45154,
+  "thinking_tokens": 0,
+  "seconds": 352.6879630088806,
+  "failures": 0
+ },
+ "seconds": 354.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account data": "account activity",
+    "contact information": "contact data",
+    "device identifier": "device id",
+    "location": "geographic location",
+    "location data": "geographic location",
+    "personal information": "personal data",
+    "purchasing history": "purchase history",
+    "sensitive personal information": "sensitive personal data",
+    "unspecified information": "unspecified data"
+   },
+   "parents": {
+    "account name": [
+     "identifiers",
+     "online identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "billing address": [
+     "contact data",
+     "postal address"
+    ],
+    "browser type": [
+     "browsing information"
+    ],
+    "browsing history": [
+     "browsing information",
+     "usage data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "clickstream data": [
+     "usage data"
+    ],
+    "cookie id": [
+     "identifiers",
+     "online identifier"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "device id": [
+     "identifiers",
+     "online identifier"
+    ],
+    "device push token": [
+     "identifiers",
+     "online identifier"
+    ],
+    "device type": [
+     "browsing information"
+    ],
+    "disability status": [
+     "demographic data",
+     "sensitive personal data"
+    ],
+    "driver's license number": [
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "email address": [
+     "contact data",
+     "identifiers",
+     "online identifier"
+    ],
+    "email forward events": [
+     "email metrics"
+    ],
+    "email views": [
+     "email metrics"
+    ],
+    "first name": [
+     "name"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "gps coordinates": [
+     "precise location"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "ip address": [
+     "identifiers",
+     "online identifier"
+    ],
+    "latitude and longitude coordinates": [
+     "precise location"
+    ],
+    "log-in credentials": [
+     "account activity"
+    ],
+    "name": [
+     "contact data",
+     "identifiers"
+    ],
+    "order details": [
+     "commercial information"
+    ],
+    "page views": [
+     "usage data"
+    ],
+    "pages viewed": [
+     "usage data"
+    ],
+    "payment card number": [
+     "payment details",
+     "purchase and payment information"
+    ],
+    "payment details": [
+     "purchase and payment information"
+    ],
+    "phone number": [
+     "contact data",
+     "identifiers"
+    ],
+    "photographs": [
+     "audio-visual recordings"
+    ],
+    "postal address": [
+     "contact data",
+     "geographic location"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "precise location": [
+     "geographic location",
+     "sensitive personal data"
+    ],
+    "pseudonym": [
+     "name"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "purchases": [
+     "commercial information"
+    ],
+    "racial or ethnic origin": [
+     "demographic data",
+     "sensitive personal data"
+    ],
+    "records of past purchases and viewed/cart items": [
+     "commercial information"
+    ],
+    "rewards information": [
+     "account activity",
+     "commercial information"
+    ],
+    "search queries": [
+     "usage data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sex life": [
+     "sensitive personal data"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "submitted personal information": [
+     "personal data"
+    ],
+    "unique personal identifier": [
+     "identifiers"
+    ],
+    "usage and interaction information": [
+     "usage data"
+    ],
+    "video": [
+     "audio-visual recordings"
+    ],
+    "voice audio": [
+     "audio-visual recordings"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "franchisees": "franchisee"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party",
+     "third party partners"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party partners": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third parties"
+    ],
+    "commercial partner": [
+     "third parties"
+    ],
+    "data broker": [
+     "third parties",
+     "third party sources"
+    ],
+    "internet service provider": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties",
+     "third party sources"
+    ],
+    "third party sources": [
+     "third parties"
+    ],
+    "third party platform or account": [
+     "third parties"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "other purposes": "other",
+    "personalization": "customization"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "research": [
+     "analytics"
+    ],
+    "authentication and fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "verification": [
+     "authentication and fraud prevention",
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "profiling": [
+     "profiling or automated decision-making"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "administer services": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "customization": [
+     "service improvement and personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3227,
+  "completion_tokens": 1472,
+  "thinking_tokens": 0,
+  "seconds": 13.513794422149658,
+  "failures": 0
+ },
+ "seconds": 13.6
+}

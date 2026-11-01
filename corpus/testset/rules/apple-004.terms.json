@@ -1,0 +1,412 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "account information": "account data",
+    "contact info": "contact",
+    "contact information": "contact",
+    "contact_info": "contact",
+    "demographics": "demographic data",
+    "device details": "device data",
+    "device information": "device data",
+    "dob": "date of birth",
+    "financial details": "financial and payment data",
+    "financial_info": "financial and payment data",
+    "payment details": "financial and payment data",
+    "payment information": "financial and payment data",
+    "personal data subject to DPF certification": "data subject to certifications",
+    "personal data subject to certification": "data subject to certifications",
+    "personal_data": "personal data",
+    "photos": "photo",
+    "ratings": "rating",
+    "trip and order details": "trip / order details",
+    "trip/order info": "trip / order details",
+    "user-generated content": "user content",
+    "user_data": "user data",
+    "users' data": "user data",
+    "video recordings": "video"
+   },
+   "parents": {
+    "account profile": [
+     "account data",
+     "user profile"
+    ],
+    "confirmation of whether your account information relates to known persons": [
+     "account data"
+    ],
+    "credentials": [
+     "account data"
+    ],
+    "ad interaction data": [
+     "activity on service or site",
+     "usage data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "audio": [
+     "communication data"
+    ],
+    "in-vehicle recordings": [
+     "communication data",
+     "video"
+    ],
+    "average rating breakdown": [
+     "average rating",
+     "rating"
+    ],
+    "average rating": [
+     "rating"
+    ],
+    "biometric data": [
+     "sensitive_data"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "device characteristics": [
+     "device data"
+    ],
+    "carrier information": [
+     "device data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "search history": [
+     "search and browsing history",
+     "usage data"
+    ],
+    "search and browsing history": [
+     "usage data"
+    ],
+    "email address": [
+     "contact"
+    ],
+    "phone number": [
+     "contact"
+    ],
+    "postal address": [
+     "contact"
+    ],
+    "delivery address": [
+     "order details",
+     "postal address"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "SDKs": [
+     "tracking technologies"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ],
+    "debit or credit card activity information": [
+     "financial and payment data"
+    ],
+    "first name": [
+     "first and last name",
+     "name"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "government ID": [
+     "government-issued identification documents and related information"
+    ],
+    "government id photo": [
+     "government-issued identification documents and related information",
+     "photo"
+    ],
+    "id_card": [
+     "government-issued identification documents and related information"
+    ],
+    "health": [
+     "health_data"
+    ],
+    "health_data": [
+     "sensitive_data"
+    ],
+    "special instructions": [
+     "health",
+     "instructions"
+    ],
+    "items ordered": [
+     "order details"
+    ],
+    "order value": [
+     "order details"
+    ],
+    "merchant information": [
+     "order details"
+    ],
+    "loyalty program details": [
+     "loyalty program information"
+    ],
+    "order details": [
+     "trip / order details"
+    ],
+    "trip details": [
+     "trip / order details"
+    ],
+    "order history": [
+     "trip / order details"
+    ],
+    "trip history": [
+     "trip / order details"
+    ],
+    "order status": [
+     "order details"
+    ],
+    "personal data relating to automated decisions": [
+     "personal data"
+    ],
+    "data subject to certifications": [
+     "personal data"
+    ],
+    "sensitive_data": [
+     "personal data"
+    ],
+    "identity verification data": [
+     "personal data"
+    ],
+    "profile picture": [
+     "photo",
+     "user profile"
+    ],
+    "user photograph": [
+     "photo",
+     "user profile"
+    ],
+    "profile data": [
+     "user profile"
+    ],
+    "settings": [
+     "user settings"
+    ],
+    "preferences": [
+     "user settings"
+    ],
+    "trip count": [
+     "trip details"
+    ],
+    "driver availability and proximity": [
+     "location"
+    ],
+    "user location": [
+     "location"
+    ],
+    "destination": [
+     "location"
+    ],
+    "estimated time and distance to destination": [
+     "trip details"
+    ],
+    "user created content": [
+     "user content"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "instructions": [
+     "user content"
+    ],
+    "unique identifier": [
+     "online identifiers"
+    ],
+    "IP address": [
+     "online identifiers"
+    ],
+    "transaction details": [
+     "financial and payment data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "emergency services": "emergency service",
+    "insurance provider": "insurance company",
+    "subsidiaries and affiliates": "affiliates",
+    "third party": "third parties"
+   },
+   "parents": {
+    "account owner": [
+     "user"
+    ],
+    "driver": [
+     "driver or delivery person",
+     "service provider"
+    ],
+    "delivery person": [
+     "driver or delivery person",
+     "service provider"
+    ],
+    "driver or delivery person": [
+     "service provider"
+    ],
+    "fleet partner": [
+     "business partners",
+     "partner"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "other riders": [
+     "other users"
+    ],
+    "group order recipients": [
+     "other users"
+    ],
+    "other users": [
+     "user"
+    ],
+    "law enforcement": [
+     "government and law enforcement"
+    ],
+    "government agency": [
+     "government and law enforcement"
+    ],
+    "public health authority": [
+     "government agency",
+     "government and law enforcement"
+    ],
+    "advertisers": [
+     "third parties"
+    ],
+    "ad and marketing publishers": [
+     "third parties"
+    ],
+    "insurance company": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "other sources": "other",
+    "third_party": "third party",
+    "users": "user"
+   },
+   "parents": {
+    "marketing partners": [
+     "business partners"
+    ],
+    "other user": [
+     "user"
+    ],
+    "uber account owners": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Uber"
+   },
+   "parents": {
+    "driver": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account_management": "account-management",
+    "customer_support": "customer support",
+    "fraud prevention and detection": "fraud detection",
+    "fraud-detection": "fraud detection",
+    "fraud_prevention": "fraud detection",
+    "legal compliance": "compliance",
+    "marketing": "advertising",
+    "marketing and advertising": "advertising",
+    "research_and_development": "research and development",
+    "service-provision": "service provision",
+    "service_maintenance": "service-maintenance",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "account administration": [
+     "account-management"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "verification": [
+     "account-management",
+     "security"
+    ],
+    "ad_measurement": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "communications-management": [
+     "communications"
+    ],
+    "non-marketing communication": [
+     "communications"
+    ],
+    "legal proceedings": [
+     "compliance"
+    ],
+    "dispute resolution": [
+     "compliance",
+     "legal proceedings"
+    ],
+    "fraud detection": [
+     "safety and security"
+    ],
+    "security": [
+     "safety and security"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "surveys": [
+     "research"
+    ],
+    "pricing": [
+     "service provision"
+    ],
+    "payment_processing": [
+     "service provision"
+    ],
+    "service-maintenance": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "customization": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4466,
+  "completion_tokens": 2386,
+  "thinking_tokens": 0,
+  "seconds": 30.59401774406433,
+  "failures": 0
+ },
+ "seconds": 30.8
+}

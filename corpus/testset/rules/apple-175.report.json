@@ -1,0 +1,390 @@
+{
+ "cleaned_sha256": "apple-175",
+ "text_sha256": "186ef178a10a82af1cdec60b6bf94cf438d1892eb4a5b0fcc84aa85ad33601de",
+ "site_id": "apple-175",
+ "sections": 10,
+ "rules": 267,
+ "report": {
+  "sections": 10,
+  "raw_rules": 218,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "business partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "other third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "as may be needed to comply with law or prevent illegal activity"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to comply with law",
+       "name": "compliance with legal obligations"
+      },
+      {
+       "text": "prevent illegal activity",
+       "name": "fraud prevention and security"
+      }
+     ],
+     "recipient": {
+      "name": "government agency",
+      "text": "government entities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“sell”",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "for money"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "do not “sell”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "purposes of targeted advertising (also referred to as cross-context behavioral advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Cookie Preferences Center",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-175#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may transfer",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "in connection with, or during negotiations of, an actual or contemplated corporate transaction involving Great Clips, such as a merger, acquisition, divestiture, reorganization, financing or sale of our assets, as well as in connection with an insolvency, bankruptcy or similar proceeding involving us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may transfer"
+    ],
+    "section": "apple-175#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your specific Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "To request access to your specific Personal Information and categorized information, provide your first name, last name, email, phone number, country, and state of residency, then click the verification link in your email for your request to proceed"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-175#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "categorized information",
+      "name": "categorized information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "To request access to your specific Personal Information and categorized information, provide your first name, last name, email, phone number, country, and state of residency, then click the verification link in your email for your request to proceed"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-175#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "actor": {
+      "text": "Great Clips",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "operation": "security",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-175#s8"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 56,
+  "completeness": {
+   "gaps": 292,
+   "gap_words": 2605
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 56,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 39209,
+  "completion_tokens": 41713,
+  "thinking_tokens": 0,
+  "seconds": 346.25013184547424,
+  "failures": 0
+ },
+ "seconds": 347.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

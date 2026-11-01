@@ -1,0 +1,198 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "device identifier": "device id",
+    "device_identifier": "advertising id",
+    "hardware-based identifier": "device id",
+    "inferred data": "inferences",
+    "non-personal information": "non-personal data",
+    "non-precise location": "imprecise location",
+    "personal information": "personal data",
+    "precise location data": "precise location",
+    "precise_location": "precise location",
+    "sensitive personal information": "sensitive personal data",
+    "transaction data": "financial and transaction data",
+    "transaction details": "financial and transaction data",
+    "voice recording": "voice print"
+   },
+   "parents": {
+    "advertising id": [
+     "device id"
+    ],
+    "device fingerprint": [
+     "device data"
+    ],
+    "device id": [
+     "device data"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "ip address": [
+     "device data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "gift_card_information": [
+     "financial and transaction data"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "social media profile details": [
+     "user profile"
+    ],
+    "social media post": [
+     "content"
+    ],
+    "user photo": [
+     "content"
+    ],
+    "voice print": [
+     "audio"
+    ],
+    "do_not_track_signal": [
+     "preference_signals"
+    ],
+    "telecommunications records": [
+     "consent status"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "public authority": "public authorities",
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Meta": [
+     "advertising network"
+    ],
+    "advertising network": [
+     "third parties"
+    ],
+    "agent third party": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "technology provider": [
+     "service provider"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "the U.S.": [
+     "other_jurisdictions",
+     "third countries"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "partner": "business partner",
+    "third party": "other sources",
+    "user device": "device"
+   },
+   "parents": {
+    "business partner": [
+     "other sources"
+    ],
+    "delivery marketplace": [
+     "other sources"
+    ],
+    "data broker": [
+     "other sources"
+    ],
+    "service provider": [
+     "other sources"
+    ],
+    "social network": [
+     "other sources"
+    ],
+    "other commercial entity": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "technology provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "user account management": "account management"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "enforcing terms": [
+     "fraud prevention and security"
+    ],
+    "order fulfillment": [
+     "fulfill request",
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "research and development": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2712,
+  "completion_tokens": 1116,
+  "thinking_tokens": 0,
+  "seconds": 13.221302509307861,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

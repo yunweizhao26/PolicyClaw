@@ -1,0 +1,227 @@
+{
+ "cleaned_sha256": "web-122",
+ "text_sha256": "df1779d83c6fe8340ca60564a5a1b7e010c02316a4b327b836353661085cde37",
+ "site_id": "web-122",
+ "sections": 22,
+ "rules": 258,
+ "report": {
+  "sections": 22,
+  "raw_rules": 208,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "decision will be made",
+      "verb": "make"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "which has a significant impact on you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "No",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-122#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In certain states you may designate an authorized agent to submit a request on your behalf to access or delete your personal information",
+      "you: (1) provide that authorized agent written and signed permission to submit such request; and (2) verify your own identity directly with us"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "request on your behalf to access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you: (1) provide that authorized agent written and signed permission to submit such request; and (2) verify your own identity directly with us"
+    ],
+    "section": "web-122#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In certain states you may designate an authorized agent to submit a request on your behalf to access or delete your personal information",
+      "you: (1) provide that authorized agent written and signed permission to submit such request; and (2) verify your own identity directly with us"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "request on your behalf to access or delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you: (1) provide that authorized agent written and signed permission to submit such request; and (2) verify your own identity directly with us"
+    ],
+    "section": "web-122#s15"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make any decisions based on algorithms or other automated processing that significantly affect you",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-122#s17"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "No",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "decision will be made",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "solely on the basis of automated decision making which has a significant impact on you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-122#s20"
+   }
+  ],
+  "residual_quotes": 40,
+  "quotes": 137,
+  "completeness": {
+   "gaps": 423,
+   "gap_words": 4192
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 31,
+  "translated_quotes": 137,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 80998,
+  "completion_tokens": 50686,
+  "thinking_tokens": 0,
+  "seconds": 514.5396070480347,
+  "failures": 0
+ },
+ "seconds": 516.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

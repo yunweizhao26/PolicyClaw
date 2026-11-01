@@ -1,0 +1,295 @@
+{
+ "cleaned_sha256": "android-022",
+ "text_sha256": "9d080fa8c28cfb2ae8aa0abc59c7d02ce5c6b0fc1d8e063b3f061925e3e1558b",
+ "site_id": "android-022",
+ "sections": 23,
+ "rules": 470,
+ "report": {
+  "sections": 23,
+  "raw_rules": 389,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have any access to",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "of users, who have signed in to Viber in such fashion in the past"
+     ],
+     "data": {
+      "name": "social media profile data",
+      "text": "the current data from the social media accounts"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "no longer have any access",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "social media platform",
+      "text": "social media accounts"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-022#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Caller ID:",
+      "if provided to us by a user through sharing their contacts or otherwise"
+     ],
+     "data": {
+      "name": "phone number",
+      "text": "Your phone number"
+     },
+     "exceptions": [
+      "visit this page"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may be added and used",
+     "purpose": [
+      {
+       "text": "as part of the caller identification under Viber Caller ID or Viber In feature",
+       "name": "service provision"
+      },
+      {
+       "text": "with the purpose to reduce spam, fraud and harassment for our users",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "a user"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be added and used"
+    ],
+    "section": "android-022#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Caller ID:",
+      "if provided to us by a user through sharing their contacts or otherwise"
+     ],
+     "data": {
+      "name": "contact name",
+      "text": "contact name"
+     },
+     "exceptions": [
+      "visit this page"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may be added and used",
+     "purpose": [
+      {
+       "text": "as part of the caller identification under Viber Caller ID or Viber In feature",
+       "name": "service provision"
+      },
+      {
+       "text": "with the purpose to reduce spam, fraud and harassment for our users",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "a user"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be added and used"
+    ],
+    "section": "android-022#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "reuse",
+      "verb": "reuse"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you choose to voluntarily verify your dating profile"
+     ],
+     "data": {
+      "name": "biometric template",
+      "text": "biometric templates"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not reuse",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not reuse"
+    ],
+    "section": "android-022#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "reuse",
+      "verb": "reuse"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you choose to voluntarily verify your dating profile"
+     ],
+     "data": {
+      "name": "facial geometry",
+      "text": "facial geometry data"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not reuse",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not reuse"
+    ],
+    "section": "android-022#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the sender’s or recipient’s account details (e.g., bank account details (including IBAN and Swift/ BIC code), wallet details (including wallet ID), details of the tokenized version of the credit/ debit card, payment IDs, payment information (i.e. merchant category code, type, authorization code), payment method information, country, address, date of birth, name, phone number, email, status in a promotion",
+      "name": "account details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you are a Viber user who is not registered with Viber payment services, but you interact with Viber payment services users by sending or receiving funds, or being part of a promotion"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be used"
+    ],
+    "section": "android-022#s9"
+   }
+  ],
+  "residual_quotes": 56,
+  "quotes": 195,
+  "completeness": {
+   "gaps": 501,
+   "gap_words": 5800
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 195,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 47,
+  "cached": 0,
+  "prompt_tokens": 93760,
+  "completion_tokens": 74099,
+  "thinking_tokens": 0,
+  "seconds": 535.4106910228729,
+  "failures": 0
+ },
+ "seconds": 537.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

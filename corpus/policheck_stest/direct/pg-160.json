@@ -1,0 +1,22 @@
+{
+ "policy": "pg-160",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "In addition, our Website responds to global privacy control—or “GPC”—signals, which means that if we detect that your browser is communicating a GPC signal, we will process that as a request to opt that particular browser and device out of sales and sharing (i.e., via cookies and tracking tools) on that Site.",
+   "prohibit": "Do Not Track (DNT) : our Websites currently do not respond to “do not track” signals.",
+   "situation": "A user visits the website using a browser sending automated opt-out / do not track signals.",
+   "reason": "Section 6 flatly states websites do not respond to do not track signals, while Section 14 states the Website does respond to GPC opt-out signals without reconciling the two.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 10219,
+  "completion_tokens": 208,
+  "thinking_tokens": 0,
+  "seconds": 63.68899726867676,
+  "failures": 0
+ }
+}

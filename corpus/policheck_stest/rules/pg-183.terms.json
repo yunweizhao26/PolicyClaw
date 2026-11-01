@@ -1,0 +1,243 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audio_video": "audio and video information",
+    "information": "all information",
+    "internet usage information": "browsing_history",
+    "ip address": "IP address",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "postal address": "address",
+    "your information": "all information"
+   },
+   "parents": {
+    "account identifier": [
+     "identifiers"
+    ],
+    "age": [
+     "characteristics information",
+     "protected characteristics"
+    ],
+    "audio and video information": [
+     "personal data"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing_history": [
+     "personal data"
+    ],
+    "campus dining card information": [
+     "payment data"
+    ],
+    "characteristics information": [
+     "personal data"
+    ],
+    "coarse_location": [
+     "location"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "communications content": [
+     "communications"
+    ],
+    "communications resulting from your interactions": [
+     "communications"
+    ],
+    "credit card number": [
+     "payment data"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "education information": [
+     "personal data"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "fine_location": [
+     "location"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "inferences about you": [
+     "inferences"
+    ],
+    "inferences about your preferences": [
+     "inferences",
+     "inferences about you"
+    ],
+    "IP address": [
+     "device information",
+     "identifiers"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "payment data": [
+     "customer records",
+     "personal data"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "address": [
+     "identifiers"
+    ],
+    "protected characteristics": [
+     "characteristics information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "student identification or billing number": [
+     "education information",
+     "identifiers"
+    ],
+    "customer records": [
+     "personal data"
+    ],
+    "personal data": [
+     "all information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "ad_network": "ad networks",
+    "advertising network": "ad networks",
+    "advertising partners": "advertising partner",
+    "advertising_partner": "advertising partner",
+    "food service providers": "food providers",
+    "merchants": "merchant",
+    "service providers": "service provider",
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "ad networks": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "delivery provider": [
+     "service provider",
+     "third party"
+    ],
+    "employer": [
+     "third party"
+    ],
+    "food providers": [
+     "merchant",
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "promotion co-sponsors": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "school": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "user": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "analytics and improvement": "analytics",
+    "business or commercial purposes": "business operations",
+    "commercial_purposes": "business operations",
+    "communication and customer support": "communication",
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "legal_compliance": "legal compliance",
+    "operational or business purposes": "business operations",
+    "other lawful purposes": "legal compliance",
+    "security": "fraud prevention and security",
+    "service optimization": "analytics",
+    "service provision": "service fulfillment",
+    "service_provision": "service fulfillment"
+   },
+   "parents": {
+    "cross-context behavioral advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "communication and marketing": [
+     "communication",
+     "marketing"
+    ],
+    "enable campus dining services": [
+     "service fulfillment"
+    ],
+    "order fulfillment": [
+     "service fulfillment"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "legal purchase of alcohol": [
+     "legal compliance"
+    ],
+    "rewards program participation": [
+     "fulfill your request or enable participation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2664,
+  "completion_tokens": 1387,
+  "thinking_tokens": 0,
+  "seconds": 37.1622953414917,
+  "failures": 0
+ },
+ "seconds": 37.3
+}

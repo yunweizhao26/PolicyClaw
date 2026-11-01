@@ -1,0 +1,121 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personal information": "non-personal data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account identifier": [
+     "persistent identifier",
+     "user id"
+    ],
+    "ad interaction data": [
+     "interaction data"
+    ],
+    "advertising identifier": [
+     "persistent identifier"
+    ],
+    "anonymous data": [
+     "non-personal data"
+    ],
+    "chat message": [
+     "data"
+    ],
+    "cookies": [
+     "persistent identifier"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "interaction data": [
+     "user data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "persistent identifier": [
+     "data"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "screen name": [
+     "personal data"
+    ],
+    "social network id": [
+     "account identifier",
+     "persistent identifier",
+     "user id"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user id": [
+     "persistent identifier"
+    ],
+    "user interests": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third-party operator": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "research and development": "analytics"
+   },
+   "parents": {
+    "account administration": [
+     "service operation"
+    ],
+    "customer support": [
+     "service operation"
+    ],
+    "internal operations": [
+     "business operations"
+    ],
+    "record-keeping": [
+     "business operations"
+    ],
+    "service improvement": [
+     "business operations"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "social networking features": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1540,
+  "completion_tokens": 468,
+  "thinking_tokens": 0,
+  "seconds": 9.611164569854736,
+  "failures": 0
+ },
+ "seconds": 9.7
+}

@@ -1,0 +1,538 @@
+{
+ "cleaned_sha256": "pg-130",
+ "text_sha256": "20e02a9a56fd2f1fa5c70c8a750b41aaea984736fc0aaea316ffb2f427b1a8b0",
+ "site_id": "pg-130",
+ "sections": 6,
+ "rules": 106,
+ "report": {
+  "sections": 6,
+  "raw_rules": 100,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "this information",
+      "name": "device information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for security purposes",
+       "name": "security"
+      },
+      {
+       "text": "to generate group statistics about our user community",
+       "name": "analytics"
+      },
+      {
+       "text": "as required by law",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your first and last name",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your profile picture or its URL",
+      "name": "profile picture"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your social network ID number (like your Facebook ID number)",
+      "name": "social network id"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the social network ID numbers and other public data for your friends",
+      "name": "social network friend id and profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the login e-mail you provided to that social network",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "when you registered with it"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your physical location",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "that of the devices you use to access our Services",
+      "name": "device location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your gender",
+      "name": "gender"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your birthday and/or age range",
+      "name": "date of birth"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other publicly-available information on the social network",
+      "name": "public profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may store",
+     "actor": {
+      "text": "ProGuitar",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any other information that you or the social networks share with ProGuitar",
+      "name": "social network data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the social networks",
+      "name": "social network"
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may store"
+    ],
+    "section": "pg-130#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "determine",
+      "verb": "determine"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "ip address",
+      "text": "your IP address"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to determine Geographic location Information",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to determine Geographic location Information"
+    ],
+    "section": "pg-130#s3"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 53,
+  "completeness": {
+   "gaps": 168,
+   "gap_words": 1904
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 53,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24527,
+  "completion_tokens": 21740,
+  "thinking_tokens": 0,
+  "seconds": 130.19571185112,
+  "failures": 0
+ },
+ "seconds": 130.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

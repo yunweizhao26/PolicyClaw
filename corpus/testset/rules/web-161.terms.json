@@ -1,0 +1,130 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies data": "cookie data",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "address": [
+     "contact info"
+    ],
+    "cookie": [
+     "cookies"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "email click data": [
+     "email engagement data"
+    ],
+    "email engagement data": [
+     "automatically collected data"
+    ],
+    "postal code": [
+     "address"
+    ],
+    "telephone number": [
+     "contact info"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "name": [
+     "contact info",
+     "personal data"
+    ],
+    "messages": [
+     "user submissions"
+    ],
+    "user submissions": [
+     "user data"
+    ],
+    "visited pages": [
+     "browsing history"
+    ],
+    "ip address": [
+     "unique identifier"
+    ],
+    "automatically collected data": [
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ],
+    "your information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "National Archives and Records Administration": [
+     "government agencies"
+    ],
+    "employees": [
+     "employees and contractors",
+     "employees, contractors, and vendors"
+    ],
+    "employees and contractors": [
+     "employees, contractors, and vendors"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "Google Analytics": "Google"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "customer support": [
+     "communication"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "service quality": [
+     "service operation and improvement"
+    ],
+    "technical-operation": [
+     "service operation and improvement"
+    ],
+    "analytics": [
+     "service operation and improvement"
+    ],
+    "personalization": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2183,
+  "completion_tokens": 515,
+  "thinking_tokens": 0,
+  "seconds": 8.210646867752075,
+  "failures": 0
+ },
+ "seconds": 8.3
+}

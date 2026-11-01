@@ -1,0 +1,172 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "facebook id": "Facebook ID",
+    "hardware ID": "device hardware identifier",
+    "ip address": "IP address",
+    "isp": "ISP",
+    "mobile carrier": "carrier",
+    "personal data": "any personal information",
+    "personal information": "any personal information",
+    "service usage": "Service usage data",
+    "timezone": "time zone",
+    "unique device identifier": "AAID"
+   },
+   "parents": {
+    "AAID": [
+     "unique identifiers"
+    ],
+    "IDFA": [
+     "AAID",
+     "unique identifiers"
+    ],
+    "Facebook ID": [
+     "unique identifiers"
+    ],
+    "device hardware identifier": [
+     "AAID"
+    ],
+    "language settings": [
+     "device settings"
+    ],
+    "app usage duration": [
+     "Service usage data"
+    ],
+    "app usage frequency": [
+     "Service usage data"
+    ],
+    "app interactions": [
+     "interaction data"
+    ],
+    "interaction data": [
+     "Service usage data"
+    ],
+    "browsing history": [
+     "Service usage data"
+    ],
+    "in-app purchase history": [
+     "user data"
+    ],
+    "any personal information": [
+     "information"
+    ],
+    "customer information": [
+     "information"
+    ],
+    "user inquiry": [
+     "information"
+    ],
+    "the requested information": [
+     "information"
+    ],
+    "email address": [
+     "any personal information"
+    ],
+    "Service usage data": [
+     "user behavior"
+    ],
+    "message interaction date and time": [
+     "interaction data"
+    ],
+    "message view date and time": [
+     "Service usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Appodeal": [
+     "marketing partner"
+    ],
+    "Facebook": [
+     "data analytics provider",
+     "marketing partner"
+    ],
+    "Google": [
+     "data analytics provider",
+     "marketing partner"
+    ],
+    "law enforcement": [
+     "others"
+    ],
+    "cloud storage provider": [
+     "service provider"
+    ],
+    "data analytics provider": [
+     "service provider"
+    ],
+    "marketing partner": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Amplitude"
+   },
+   "parents": {
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service",
+    "user account management": "account management"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "research and development"
+    ],
+    "service improvement": [
+     "service maintenance"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "fraud prevention and security": [
+     "legal compliance",
+     "security"
+    ],
+    "legal dispute": [
+     "legal compliance"
+    ],
+    "account management": [
+     "service operation"
+    ],
+    "customer support": [
+     "service operation"
+    ],
+    "provide service": [
+     "service operation"
+    ],
+    "service maintenance": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2209,
+  "completion_tokens": 694,
+  "thinking_tokens": 0,
+  "seconds": 10.010465145111084,
+  "failures": 0
+ },
+ "seconds": 10.1
+}

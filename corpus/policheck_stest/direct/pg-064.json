@@ -1,0 +1,22 @@
+{
+ "policy": "pg-064",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Used to identify users to our customer support representatives when they visit our support page",
+   "prohibit": "These cookies do not store any personally identifiable data.",
+   "situation": "When a visitor browses the support page and the necessary Zendesk session cookies identify the specific user to customer support representatives.",
+   "reason": "Necessary cookies are flatly asserted not to store any personally identifiable data, yet Zendesk cookies in that same category explicitly identify individual users.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 10770,
+  "completion_tokens": 112,
+  "thinking_tokens": 0,
+  "seconds": 2.886888027191162,
+  "failures": 0
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "cleaned_sha256": "android-030",
+ "text_sha256": "0e7cf3d58ed16d6317357b091ebc8deeeeea85e154dea69fa8bb2b6c8599a2c2",
+ "site_id": "android-030",
+ "sections": 6,
+ "rules": 100,
+ "report": {
+  "sections": 6,
+  "raw_rules": 82,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws)",
+       "name": "legal compliance"
+      },
+      {
+       "text": "resolve disputes",
+       "name": "dispute resolution"
+      },
+      {
+       "text": "enforce our legal agreements and policies",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will use"
+    ],
+    "section": "android-030#s3"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 40,
+  "completeness": {
+   "gaps": 164,
+   "gap_words": 1612
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 40,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23265,
+  "completion_tokens": 15815,
+  "thinking_tokens": 0,
+  "seconds": 197.01595211029053,
+  "failures": 0
+ },
+ "seconds": 197.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

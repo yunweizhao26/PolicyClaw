@@ -1,0 +1,234 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Personal Information": "Personal Data",
+    "biometric_data": "biometric information",
+    "browsing_history": "browsing history",
+    "contact_details": "contact data",
+    "facial geometry": "biometrics",
+    "facial recognition data": "biometrics",
+    "information": "data",
+    "minors' personal data": "minor's personal information",
+    "personal data": "Personal Data",
+    "personal data related to minors": "minor's personal information",
+    "personal_data": "Personal Data",
+    "user-generated content": "User Contributions",
+    "user_content": "User Contributions",
+    "user_profile_information": "user submitted personal data",
+    "username": "account username",
+    "website activity data": "website activity"
+   },
+   "parents": {
+    "account username": [
+     "account data"
+    ],
+    "records of account access times": [
+     "account data"
+    ],
+    "favorites list": [
+     "activity data"
+    ],
+    "browsing activity": [
+     "activity data"
+    ],
+    "information about your activity": [
+     "activity data"
+    ],
+    "website activity": [
+     "activity data"
+    ],
+    "consent form": [
+     "age and identity verification information",
+     "records"
+    ],
+    "biometric information": [
+     "sensitive personal information"
+    ],
+    "biometrics": [
+     "biometric information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "physical address": [
+     "contact data"
+    ],
+    "credit card number": [
+     "financial account details",
+     "financial account number",
+     "financial and transactional data"
+    ],
+    "failed payment details": [
+     "financial and transactional data",
+     "payment details"
+    ],
+    "payments made": [
+     "financial and transactional data",
+     "payment details"
+    ],
+    "purchased products and services details": [
+     "financial and transactional data"
+    ],
+    "payment card expiration date": [
+     "financial account details"
+    ],
+    "payment card security code": [
+     "financial account details"
+    ],
+    "government id": [
+     "identifiers",
+     "identity verification data"
+    ],
+    "tax identification number": [
+     "identifiers"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "legal name": [
+     "name"
+    ],
+    "minor's personal information": [
+     "Personal Data"
+    ],
+    "sensitive personal information": [
+     "Personal Data"
+    ],
+    "sensitive_data": [
+     "Personal Data"
+    ],
+    "uploaded content personal data": [
+     "Personal Data",
+     "uploaded content"
+    ],
+    "uploaded content": [
+     "User Contributions"
+    ],
+    "user submitted personal data": [
+     "submitted information",
+     "user-provided info"
+    ],
+    "sexual orientation or sex life": [
+     "sensitive personal information"
+    ],
+    "sexual preferences": [
+     "sensitive personal information"
+    ],
+    "ethnicity": [
+     "sensitive personal information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "law enforcement agencies": "law enforcement"
+   },
+   "parents": {
+    "court": [
+     "public authority"
+    ],
+    "government agency": [
+     "public authority"
+    ],
+    "law enforcement": [
+     "public authority"
+    ],
+    "regulator": [
+     "public authority"
+    ],
+    "registered users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "our service providers",
+    "third party service providers": "our service providers"
+   },
+   "parents": {
+    "third-party age verification service providers": [
+     "our service providers",
+     "third party"
+    ],
+    "third-party payment providers": [
+     "our service providers",
+     "third party"
+    ],
+    "our service providers": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "personalization of services": "personalization",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising",
+    "verify user identity": "identity verification"
+   },
+   "parents": {
+    "audit": [
+     "internal operations"
+    ],
+    "payment processing": [
+     "commercial operations"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "fraud_detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud_prevention": [
+     "fraud detection and prevention"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "age verification": [
+     "authentication"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "service analytics and improvement": [
+     "analytics"
+    ],
+    "service_optimization": [
+     "service analytics and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3580,
+  "completion_tokens": 1440,
+  "thinking_tokens": 0,
+  "seconds": 16.214829683303833,
+  "failures": 0
+ },
+ "seconds": 16.3
+}

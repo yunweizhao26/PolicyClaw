@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "web-076",
+ "text_sha256": "bdd009472254fbef61d0442026dfdd453eb79920e6830788c2296232b8db29c6",
+ "site_id": "web-076",
+ "sections": 4,
+ "rules": 93,
+ "report": {
+  "sections": 4,
+  "raw_rules": 81,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "NOAA"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "The information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "purpose": [
+      {
+       "text": "to expedite and improve NOAA’s decision-making and data analysis processes",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to expedite and improve NOAA’s decision-making and data analysis processes"
+    ],
+    "section": "web-076#s4"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 27,
+  "completeness": {
+   "gaps": 134,
+   "gap_words": 1300
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 27,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16497,
+  "completion_tokens": 12573,
+  "thinking_tokens": 0,
+  "seconds": 109.23303818702698,
+  "failures": 0
+ },
+ "seconds": 109.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

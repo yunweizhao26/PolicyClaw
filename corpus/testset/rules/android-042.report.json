@@ -1,0 +1,82 @@
+{
+ "cleaned_sha256": "android-042",
+ "text_sha256": "14c50cc9940b6893fa05867c10f675f3491d9350617c9a2cc921e530568b2ff7",
+ "site_id": "android-042",
+ "sections": 19,
+ "rules": 295,
+ "report": {
+  "sections": 19,
+  "raw_rules": 220,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If we make changes to this Policy",
+      "by revising the date at the top of this Policy and provide you with additional notice such as an in-Game notice or email notification"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-042#s18"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 106,
+  "completeness": {
+   "gaps": 261,
+   "gap_words": 2738
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 11,
+  "translated_quotes": 106,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 65547,
+  "completion_tokens": 46285,
+  "thinking_tokens": 0,
+  "seconds": 313.44530630111694,
+  "failures": 0
+ },
+ "seconds": 314.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

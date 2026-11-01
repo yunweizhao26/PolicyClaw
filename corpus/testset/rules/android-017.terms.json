@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device_information": "device information",
+    "login_credentials": "log-in credentials",
+    "payment information": "payment details",
+    "personal information": "personal data",
+    "service use": "service usage",
+    "service use information": "service usage",
+    "service_usage_data": "service usage",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "contacts' phone numbers": [
+     "contacts' contact information"
+    ],
+    "contacts' contact information": [
+     "contact information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "telephone number": [
+     "contact information"
+    ],
+    "shipping address": [
+     "contact information",
+     "postal address"
+    ],
+    "zip code": [
+     "postal address"
+    ],
+    "ip_address": [
+     "device identifiers"
+    ],
+    "device identifiers": [
+     "device information"
+    ],
+    "browsing history": [
+     "service usage"
+    ],
+    "browsing_behavior": [
+     "browsing history"
+    ],
+    "content_viewing_history": [
+     "browsing history"
+    ],
+    "voice commands": [
+     "voice recordings"
+    ],
+    "cookies": [
+     "technologies_data"
+    ],
+    "beacons": [
+     "technologies_data"
+    ],
+    "cookie_data": [
+     "cookies"
+    ],
+    "local storage technologies": [
+     "technologies_data"
+    ],
+    "inferred location": [
+     "information"
+    ],
+    "gps signal": [
+     "device information"
+    ],
+    "wi-fi access points information": [
+     "device information"
+    ],
+    "cell towers information": [
+     "device information"
+    ],
+    "online activities": [
+     "service usage"
+    ],
+    "user activities": [
+     "service usage"
+    ],
+    "minimal amount of information": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "data": [
+     "information"
+    ],
+    "collected_information": [
+     "information"
+    ],
+    "partner_data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate companies of Samsung Electronics": "affiliate",
+    "service provider": "companies that provide services on behalf of Samsung Electronics"
+   },
+   "parents": {
+    "analytics provider": [
+     "companies that provide services on behalf of Samsung Electronics",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "companies that provide services on behalf of Samsung Electronics": [
+     "third party"
+    ],
+    "law enforcement agencies": [
+     "other entity",
+     "third party"
+    ],
+    "trusted partner companies": [
+     "business partner",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "first_party_website": [
+     "first party service"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "understand_preferences": "analytics"
+   },
+   "parents": {
+    "ad_measurement": [
+     "advertising"
+    ],
+    "advertising_joint_delivery": [
+     "advertising"
+    ],
+    "verifying_content_and_ads_delivery": [
+     "ad_measurement"
+    ],
+    "marketing_campaigns": [
+     "marketing"
+    ],
+    "marketing": [
+     "advertising"
+    ],
+    "not_entering_credentials_each_time": [
+     "service convenience"
+    ],
+    "service convenience": [
+     "better_user_experience"
+    ],
+    "personalization": [
+     "better_user_experience"
+    ],
+    "service improvement": [
+     "service development"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "user account management": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "maintenance or debugging": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2716,
+  "completion_tokens": 924,
+  "thinking_tokens": 0,
+  "seconds": 13.84707260131836,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

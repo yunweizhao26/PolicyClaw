@@ -1,0 +1,114 @@
+{
+ "cleaned_sha256": "apple-121",
+ "text_sha256": "3447b6c86a6fdc5203857c918aa31aba94ec77062c5cb714138be165be246cf0",
+ "site_id": "apple-121",
+ "sections": 11,
+ "rules": 104,
+ "report": {
+  "sections": 11,
+  "raw_rules": 100,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "rely on",
+      "verb": "rely on"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "depending on your device type",
+      "if it runs with Android"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "rely on",
+     "purpose": [],
+     "recipient": {
+      "name": "Google",
+      "text": "Google"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-121#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "rely on",
+      "verb": "rely on"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "depending on your device type",
+      "if it runs with iOS"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "rely on",
+     "purpose": [],
+     "recipient": {
+      "name": "Apple",
+      "text": "Apple AppStore Payments"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-121#s6"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 58,
+  "completeness": {
+   "gaps": 184,
+   "gap_words": 1507
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 58,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 35748,
+  "completion_tokens": 19144,
+  "thinking_tokens": 0,
+  "seconds": 349.1761257648468,
+  "failures": 0
+ },
+ "seconds": 349.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "cleaned_sha256": "android-102",
+ "text_sha256": "4380d5078b4e40389d08c12d7447ab7525a9e0534bed1335a778a945903e1bc0",
+ "site_id": "android-102",
+ "sections": 29,
+ "rules": 160,
+ "report": {
+  "sections": 29,
+  "raw_rules": 142,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "when a Do Not Track browser mechanism is in place"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-102#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "deletion",
+     "actor": {
+      "text": "Retrica, Inc.",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "13. Data Deletion for Facebook Login Users",
+      "If you are unable to complete the deletion process through the applicable Service",
+      "please contact us at contact@retrica.co with your request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-102#s21"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 66,
+  "completeness": {
+   "gaps": 213,
+   "gap_words": 2088
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 66,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 70561,
+  "completion_tokens": 29376,
+  "thinking_tokens": 0,
+  "seconds": 557.1489601135254,
+  "failures": 0
+ },
+ "seconds": 558.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

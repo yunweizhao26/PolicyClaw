@@ -1,0 +1,201 @@
+{
+ "cleaned_sha256": "apple-080",
+ "text_sha256": "6aa76a8bc19c1e67dbf2819982aad2220b0e3cc5bf403bd15bafddd3877049f3",
+ "site_id": "apple-080",
+ "sections": 18,
+ "rules": 432,
+ "report": {
+  "sections": 18,
+  "raw_rules": 205,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "your"
+     },
+     "conditions": [
+      "If you are a consumer who lives in Colorado, Connecticut, Virginia, Utah, Texas, Montana, Oregon, Delaware, Iowa, New Hampshire, Nebraska, New Jersey, Minnesota, Tennessee, or Maryland, Indiana, Kentucky, or Rhode Island (“Covered States”)",
+      "You have the right to"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-080#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "If you are a consumer who lives in Colorado, Connecticut, Virginia, Utah, Texas, Montana, Oregon, Delaware, Iowa, New Hampshire, Nebraska, New Jersey, Minnesota, Tennessee, or Maryland, Indiana, Kentucky, or Rhode Island (“Covered States”)",
+      "in a portable format",
+      "You have the right to"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information you provided to us"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-080#s11"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "SPE"
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "data": {
+      "name": "personal_information",
+      "text": "information we obtain about you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be transferred",
+     "conditions": [
+      "If you are using our Service outside the United States",
+      "By using our Service or otherwise providing your Personal Information to us",
+      "to the United States or other jurisdictions outside your own"
+     ],
+     "purpose": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to the United States or other jurisdictions outside your own"
+    ],
+    "section": "apple-080#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "SPE"
+     },
+     "conditions": [
+      "If you have registered an account with SPE",
+      "SPE provides you with tools and account settings to access, correct, delete, or modify certain information associated with your account"
+     ],
+     "data": {
+      "name": "account information",
+      "text": "certain information associated with your account"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "provides",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-080#s15"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 101,
+  "completeness": {
+   "gaps": 263,
+   "gap_words": 2908
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 11,
+  "translated_quotes": 101,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 59283,
+  "completion_tokens": 44703,
+  "thinking_tokens": 70,
+  "seconds": 721.3610837459564,
+  "failures": 0
+ },
+ "seconds": 722.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

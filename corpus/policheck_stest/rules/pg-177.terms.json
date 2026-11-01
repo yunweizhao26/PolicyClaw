@@ -1,0 +1,67 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {},
+   "parents": {
+    "criminal background check reports": [
+     "consumer reports"
+    ],
+    "motor vehicle records": [
+     "consumer reports"
+    ],
+    "cookies": [
+     "electronic surveillance technology data"
+    ],
+    "location": [
+     "electronic surveillance technology data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud prevention",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "fraud prevention": [
+     "business-operations",
+     "security"
+    ],
+    "marketing": [
+     "communication"
+    ],
+    "security": [
+     "business-operations"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "verification": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1139,
+  "completion_tokens": 238,
+  "thinking_tokens": 0,
+  "seconds": 24.835918188095093,
+  "failures": 0
+ },
+ "seconds": 24.9
+}

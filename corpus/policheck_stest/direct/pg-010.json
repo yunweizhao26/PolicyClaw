@@ -1,0 +1,22 @@
+{
+ "policy": "pg-010",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "With your consent, we may access your location.",
+   "prohibit": "We will only access your location while you are using the Application or the Site and provided you have opted in to activate this feature.",
+   "situation": "Accessing location data when a user has consented/opted in, but is not currently using the Application or the Site.",
+   "reason": "One sentence strictly limits access to 'only while you are using the Application or the Site', while the other broadly permits access whenever consent is given.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 7140,
+  "completion_tokens": 151,
+  "thinking_tokens": 0,
+  "seconds": 6.528841495513916,
+  "failures": 0
+ }
+}

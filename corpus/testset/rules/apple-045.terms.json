@@ -1,0 +1,311 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "artificial intelligence or other automated decision-making technology": "ADMT",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "precise geolocation data": "precise geolocation",
+    "preference data": "beauty preferences",
+    "purchase-history": "purchase history",
+    "purchase_history": "purchase history",
+    "sensitive personal information": "sensitive data",
+    "user_content": "user content"
+   },
+   "parents": {
+    "facial geometry": [
+     "biometric data"
+    ],
+    "license plate image": [
+     "ALPR data"
+    ],
+    "license plate readings": [
+     "ALPR data"
+    ],
+    "precise geolocation": [
+     "geographic location",
+     "location",
+     "sensitive data"
+    ],
+    "imprecise location": [
+     "geographic location",
+     "location"
+    ],
+    "zip code": [
+     "imprecise location",
+     "location",
+     "postal address"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "account name": [
+     "identifiers"
+    ],
+    "username": [
+     "identifiers"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "drivers license": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "state identification number": [
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "advertising identifier": [
+     "online identifier"
+    ],
+    "IP address": [
+     "identifiers",
+     "online identifier"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "browsing history": [
+     "online activities",
+     "usage data"
+    ],
+    "browsing activity": [
+     "online activities"
+    ],
+    "ad views": [
+     "online activities"
+    ],
+    "interaction data": [
+     "online activities"
+    ],
+    "user-interactions": [
+     "online activities"
+    ],
+    "skin conditions": [
+     "health condition"
+    ],
+    "hair concerns": [
+     "health condition"
+    ],
+    "health condition": [
+     "health data"
+    ],
+    "treatments": [
+     "health data"
+    ],
+    "health data": [
+     "health and medical"
+    ],
+    "resumes": [
+     "job application"
+    ],
+    "job application": [
+     "employment-related information"
+    ],
+    "employment history": [
+     "employment-related information"
+    ],
+    "skills": [
+     "employment-related information"
+    ],
+    "professional qualifications": [
+     "employment-related information"
+    ],
+    "job-related information": [
+     "employment-related information"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "reviews": [
+     "user content"
+    ],
+    "survey responses": [
+     "user content"
+    ],
+    "photographs": [
+     "images"
+    ],
+    "video recordings": [
+     "audio or video recording"
+    ],
+    "voice recordings": [
+     "audio or video recording"
+    ],
+    "pixel tags": [
+     "web beacons"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "health and medical": [
+     "sensitive data"
+    ],
+    "race": [
+     "personal characteristics"
+    ],
+    "ethnic origin": [
+     "personal characteristics"
+    ],
+    "date_of_birth": [
+     "personal characteristics"
+    ],
+    "beauty preferences": [
+     "preferences"
+    ],
+    "interests": [
+     "preferences"
+    ],
+    "user-questions": [
+     "communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "DoorDash": [
+     "service provider",
+     "third party"
+    ],
+    "Instacart": [
+     "service provider",
+     "third party"
+    ],
+    "Uber Eats": [
+     "service provider",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "technology providers": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "third-party partner": [
+     "partner",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "dispute-resolution": "dispute resolution",
+    "provide-service": "provide service",
+    "service improvement": "improve-service",
+    "service provision": "provide service",
+    "service-improvement": "improve-service"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "diagnose-problems": [
+     "service operation",
+     "support-operations"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "fulfill-orders": [
+     "provide service"
+    ],
+    "maintain-security": [
+     "security"
+    ],
+    "prevent fraud and improve security": [
+     "maintain-security",
+     "security"
+    ],
+    "rewards program": [
+     "account-management"
+    ],
+    "website navigation": [
+     "service operation"
+    ],
+    "browser identification": [
+     "service operation"
+    ],
+    "remember preferences": [
+     "personalization"
+    ],
+    "service optimization and personalization": [
+     "personalization"
+    ],
+    "advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3689,
+  "completion_tokens": 1421,
+  "thinking_tokens": 0,
+  "seconds": 15.281306505203247,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

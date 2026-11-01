@@ -1,0 +1,237 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Information",
+    "personal information": "Personal Information"
+   },
+   "parents": {
+    "account information": [
+     "Personal Information",
+     "information that we have collected from users"
+    ],
+    "account name": [
+     "account information",
+     "identifier"
+    ],
+    "alias": [
+     "identifier"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "browsing activity": [
+     "browsing history",
+     "interaction with a website, application, or advertisement"
+    ],
+    "browsing history": [
+     "interaction with a website, application, or advertisement"
+    ],
+    "cookies": [
+     "cookies and similar technologies data"
+    ],
+    "credit card number": [
+     "Personal Information"
+    ],
+    "date of birth": [
+     "Personal Information"
+    ],
+    "debit card number": [
+     "Personal Information"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "email engagement data": [
+     "interaction data"
+    ],
+    "gender": [
+     "Personal Information"
+    ],
+    "identifier": [
+     "Personal Information"
+    ],
+    "inferences drawn from other personal information": [
+     "Personal Information"
+    ],
+    "interaction data": [
+     "interaction with a website, application, or advertisement"
+    ],
+    "interaction with a website, application, or advertisement": [
+     "usage data"
+    ],
+    "interests": [
+     "user profile"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "keystrokes": [
+     "interaction data"
+    ],
+    "links clicked": [
+     "interaction data"
+    ],
+    "location": [
+     "Personal Information"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "non-public education information": [
+     "Personal Information"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "pages viewed": [
+     "interaction data"
+    ],
+    "Personal Information": [
+     "data",
+     "information that we have collected from users"
+    ],
+    "personal information of consumers we actually know are less than 16 years of age": [
+     "Personal Information"
+    ],
+    "physical location": [
+     "location"
+    ],
+    "postal address": [
+     "identifier"
+    ],
+    "professional or employment-related information": [
+     "Personal Information"
+    ],
+    "profile photo": [
+     "user profile"
+    ],
+    "public profile information": [
+     "user profile"
+    ],
+    "records of purchases of premium subscriptions": [
+     "Personal Information"
+    ],
+    "search history": [
+     "interaction data"
+    ],
+    "social network activity": [
+     "interaction data"
+    ],
+    "unique personal identifier": [
+     "identifier"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "user profile": [
+     "Personal Information"
+    ],
+    "video viewing history": [
+     "interaction data"
+    ],
+    "web beacons": [
+     "cookies and similar technologies data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party entity": "third party"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "from any person who is under the age of 16": "from a person under the age of 16",
+    "users": "user"
+   },
+   "parents": {
+    "Third Party Platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Haystack"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "legal-compliance": "legal compliance",
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "account_registration": [
+     "account-management"
+    ],
+    "account-management": [
+     "service provision"
+    ],
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "user identification"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "security": [
+     "fraud-prevention-and-security"
+    ],
+    "service improvement": [
+     "service-operation-and-improvement"
+    ],
+    "service optimization": [
+     "service-operation-and-improvement"
+    ],
+    "personalize": [
+     "personalisation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2540,
+  "completion_tokens": 982,
+  "thinking_tokens": 0,
+  "seconds": 23.608214616775513,
+  "failures": 0
+ },
+ "seconds": 23.7
+}

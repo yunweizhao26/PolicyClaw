@@ -1,0 +1,164 @@
+{
+ "cleaned_sha256": "web-119",
+ "text_sha256": "65a1d4b54e85a60378c3ebb2fd1cbde1bf57524991021d8e407ad91e01037c3b",
+ "site_id": "web-119",
+ "sections": 58,
+ "rules": 177,
+ "report": {
+  "sections": 58,
+  "raw_rules": 153,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "4.4 To send service updates",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [
+      "subject to your consent where required"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-119#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "4.5 To tell you about our products and services",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "Subject to your consent where required"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-119#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "contract with",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party service providers",
+      "name": "third-party service providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contract with",
+      "verb": "contract"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to assist us in better understanding our site visitors",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-119#s17"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 72,
+  "completeness": {
+   "gaps": 198,
+   "gap_words": 1741
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 72,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 101,
+  "cached": 0,
+  "prompt_tokens": 134850,
+  "completion_tokens": 33922,
+  "thinking_tokens": 838,
+  "seconds": 718.9538643360138,
+  "failures": 0
+ },
+ "seconds": 720.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

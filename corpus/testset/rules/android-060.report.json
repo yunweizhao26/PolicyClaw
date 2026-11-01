@@ -1,0 +1,224 @@
+{
+ "cleaned_sha256": "android-060",
+ "text_sha256": "638c970b1e78e59b1c89ad2a052420bff72798cb0acf04d125c4724cd689107d",
+ "site_id": "android-060",
+ "sections": 22,
+ "rules": 245,
+ "report": {
+  "sections": 22,
+  "raw_rules": 200,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the data information",
+      "name": "data information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "our partners or other third parties (such as Firebase provided by Google)",
+      "name": "partners or other third parties"
+     },
+     "action": {
+      "text": "link",
+      "verb": "link"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "to help smoothly facilitate Our Services for you",
+       "name": "services facilitate"
+      },
+      {
+       "text": "to better understand your needs",
+       "name": "analytics"
+      },
+      {
+       "text": "to provide you with better Services experience",
+       "name": "service optimization"
+      }
+     ],
+     "conditions": [
+      "with your subscription information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your subscription information"
+    ],
+    "section": "android-060#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have your information amended",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "amended",
+      "verb": "amend"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "under the GDPR",
+      "if it is inaccurate or incomplete"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have your information amended"
+    ],
+    "section": "android-060#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request that your information be permanently removed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "removed",
+      "verb": "remove"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "under the GDPR",
+      "allows you to request that your information be permanently deleted or removed if you feel that you no longer want us to keep and use it"
+     ],
+     "exceptions": [
+      "exceptions to this dependent upon the situation"
+     ],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "request that your information be permanently removed"
+    ],
+    "section": "android-060#s20"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not make",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make decisions",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "based solely on automated processing that produce legal effects concerning you or similarly significantly affect you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-060#s20"
+   }
+  ],
+  "residual_quotes": 35,
+  "quotes": 137,
+  "completeness": {
+   "gaps": 263,
+   "gap_words": 2451
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 137,
+  "compile_failures": 3,
+  "fixed_structurally": 2,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 71930,
+  "completion_tokens": 44556,
+  "thinking_tokens": 0,
+  "seconds": 353.795476436615,
+  "failures": 0
+ },
+ "seconds": 355.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

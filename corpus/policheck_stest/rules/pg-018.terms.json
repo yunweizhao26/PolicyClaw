@@ -1,0 +1,294 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "browsing-history": "browsing history",
+    "child username": "account username",
+    "children's personal information": "child personal data",
+    "date of birth": "child date of birth",
+    "device identifiers": "device identifier",
+    "device information": "device details",
+    "first name": "child first name",
+    "gender": "child gender",
+    "information": "data",
+    "ip address": "IP address",
+    "ip-address": "IP address",
+    "log files": "log data",
+    "password": "child password",
+    "profile photos": "profile photo",
+    "user data": "data",
+    "user photos": "uploaded images",
+    "your information": "data"
+   },
+   "parents": {
+    "IP address": [
+     "log data"
+    ],
+    "account username": [
+     "account details",
+     "child information"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "approximate location": [
+     "coarse location"
+    ],
+    "billing address": [
+     "financial information"
+    ],
+    "browser type": [
+     "user-agent"
+    ],
+    "user-agent": [
+     "software information"
+    ],
+    "browsing history": [
+     "browsing and interaction history"
+    ],
+    "browsing and interaction history": [
+     "usage information"
+    ],
+    "child date of birth": [
+     "child information"
+    ],
+    "child email address": [
+     "child information",
+     "email address"
+    ],
+    "child first name": [
+     "child information",
+     "personal data"
+    ],
+    "child gender": [
+     "child information"
+    ],
+    "child password": [
+     "child information"
+    ],
+    "child personal data": [
+     "child information"
+    ],
+    "child information": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "criminal history": [
+     "publicly available information"
+    ],
+    "date and time of visits": [
+     "time and date"
+    ],
+    "time and date": [
+     "browsing and interaction history"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "hardware manufacturer": [
+     "hardware information"
+    ],
+    "hardware information": [
+     "device details"
+    ],
+    "software information": [
+     "device details"
+    ],
+    "operating system version": [
+     "software information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "email preferences": [
+     "account details"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "government identification number": [
+     "personal data"
+    ],
+    "interaction data": [
+     "communication data"
+    ],
+    "interaction details": [
+     "service usage and performance"
+    ],
+    "service usage and performance": [
+     "usage information"
+    ],
+    "last name": [
+     "personal data"
+    ],
+    "mobile carrier": [
+     "device details"
+    ],
+    "payment transaction information": [
+     "financial information"
+    ],
+    "personal data to create your account": [
+     "personal data"
+    ],
+    "proof of residency": [
+     "physical address"
+    ],
+    "physical address": [
+     "personal data"
+    ],
+    "profile photo": [
+     "uploaded images"
+    ],
+    "pseudonym": [
+     "account details"
+    ],
+    "push notification token": [
+     "device identifier"
+    ],
+    "tax information": [
+     "financial information"
+    ],
+    "uploaded images": [
+     "user content"
+    ],
+    "uploaded text": [
+     "user content"
+    ],
+    "user content": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "data"
+    ],
+    "visit duration": [
+     "browsing and interaction history"
+    ],
+    "web-beacons": [
+     "similar tracking technologies"
+    ],
+    "cookies": [
+     "similar tracking technologies"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "usage information": [
+     "data"
+    ],
+    "log data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "other third party"
+   },
+   "parents": {
+    "NatWest Group": [
+     "organisations in other countries",
+     "recipient"
+    ],
+    "family members": [
+     "recipient"
+    ],
+    "organisations in other countries": [
+     "recipient"
+    ],
+    "parents": [
+     "family members"
+    ],
+    "third party payment service provider": [
+     "other third party"
+    ],
+    "other third party": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "marketing partners": [
+     "third-party partners"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "Adyen": [
+     "service provider",
+     "third party",
+     "third party payment service provider",
+     "third-party payment processor"
+    ],
+    "Stripe": [
+     "service provider",
+     "third party",
+     "third party payment service provider",
+     "third-party payment processor"
+    ],
+    "PRIVO": [
+     "service provider",
+     "third party"
+    ],
+    "third-party payment processor": [
+     "service provider",
+     "third party",
+     "third party payment service provider"
+    ],
+    "third party payment service provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "provide service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "legal compliance": [
+     "legal compliance or proceedings"
+    ],
+    "account-management": [
+     "provide service"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "service-communication": [
+     "provide service"
+    ],
+    "service-operation-and-support": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2655,
+  "completion_tokens": 1374,
+  "thinking_tokens": 0,
+  "seconds": 13.462580919265747,
+  "failures": 0
+ },
+ "seconds": 13.6
+}

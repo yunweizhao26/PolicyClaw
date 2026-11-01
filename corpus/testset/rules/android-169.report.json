@@ -1,0 +1,123 @@
+{
+ "cleaned_sha256": "android-169",
+ "text_sha256": "e6275c3fd398f29b145d91c7fb1ad31b7e1a083c24bcb877f26f3ae0ba74e873",
+ "site_id": "android-169",
+ "sections": 18,
+ "rules": 125,
+ "report": {
+  "sections": 18,
+  "raw_rules": 118,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "prior to processing such data received from you",
+      "withdrawing your consent"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "such data received from you"
+     },
+     "exceptions": [
+      "withdraw your consent"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "shall",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "withdrawing your consent"
+    ],
+    "section": "android-169#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide notice",
+      "verb": "provide"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "When we make significant changes",
+      "through our Website/s, via e-mail"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-169#s18"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 66,
+  "completeness": {
+   "gaps": 110,
+   "gap_words": 1562
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 66,
+  "compile_failures": 3,
+  "fixed_structurally": 1,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 54020,
+  "completion_tokens": 22019,
+  "thinking_tokens": 0,
+  "seconds": 879.396678686142,
+  "failures": 0
+ },
+ "seconds": 880.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

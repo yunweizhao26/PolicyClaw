@@ -1,0 +1,155 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IDFA": [
+     "device identifier"
+    ],
+    "approximate location": [
+     "geographic location"
+    ],
+    "application version": [
+     "device details"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "operating system version": [
+     "device details"
+    ],
+    "network status": [
+     "device details"
+    ],
+    "device details": [
+     "diagnostic information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "game achievements": [
+     "user activity"
+    ],
+    "game scores": [
+     "user activity"
+    ],
+    "service usage details": [
+     "user activity"
+    ],
+    "payment card number": [
+     "payment details"
+    ],
+    "purchase token": [
+     "payment details"
+    ],
+    "purchase status": [
+     "purchase details"
+    ],
+    "payment details": [
+     "purchase details"
+    ],
+    "product identifier": [
+     "purchase details"
+    ],
+    "language settings": [
+     "settings"
+    ],
+    "privacy choices": [
+     "settings"
+    ],
+    "settings": [
+     "preferences"
+    ],
+    "message attachments": [
+     "communication content"
+    ],
+    "Support messages": [
+     "communication content"
+    ],
+    "timestamps": [
+     "communication metadata"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "record of personal data": [
+     "personal data"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "account identifier": [
+     "device identifier"
+    ],
+    "geographic location": [
+     "Local information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance_with_legal_obligations": "compliance",
+    "fraud_prevention_and_security": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "security": "safety and security",
+    "services operation": "services"
+   },
+   "parents": {
+    "deliver advertising and confirm rewarded-ad completion": [
+     "advertising"
+    ],
+    "detect fraud, abuse, invalid traffic, and security incidents": [
+     "fraud detection and prevention",
+     "safety and security"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "measure use, diagnose errors, maintain performance, and improve reliability": [
+     "analytics",
+     "service_improvement_and_maintenance"
+    ],
+    "process, verify, and restore optional purchases": [
+     "services"
+    ],
+    "provide achievements, leaderboards, and other platform features": [
+     "services"
+    ],
+    "provide, operate, save, restore, and support Free App features": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1847,
+  "completion_tokens": 678,
+  "thinking_tokens": 0,
+  "seconds": 9.161182403564453,
+  "failures": 0
+ },
+ "seconds": 9.2
+}

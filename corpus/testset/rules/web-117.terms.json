@@ -1,0 +1,258 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "communications": "communication records",
+    "product data": "Product Data",
+    "video records": "video recordings",
+    "voice records": "voice recordings"
+   },
+   "parents": {
+    "account identifier": [
+     "account details"
+    ],
+    "account registration details": [
+     "account details"
+    ],
+    "personal data in account": [
+     "account details"
+    ],
+    "unique sign-up ID number": [
+     "account identifier"
+    ],
+    "date of birth": [
+     "age"
+    ],
+    "blood pressure": [
+     "body data"
+    ],
+    "body temperature": [
+     "body data"
+    ],
+    "heart rate": [
+     "body data"
+    ],
+    "height": [
+     "body data"
+    ],
+    "weight": [
+     "body data"
+    ],
+    "ads viewed": [
+     "browsing history"
+    ],
+    "video viewing history": [
+     "browsing history"
+    ],
+    "cellular network details": [
+     "location"
+    ],
+    "gps coordinates": [
+     "location"
+    ],
+    "city": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "latitude": [
+     "gps coordinates"
+    ],
+    "longitude": [
+     "gps coordinates"
+    ],
+    "third-party cookies": [
+     "cookies"
+    ],
+    "cookie data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "deidentified data": [
+     "data"
+    ],
+    "hardware serial number": [
+     "device identifier"
+    ],
+    "imei number": [
+     "device identifier"
+    ],
+    "mac address": [
+     "device identifier"
+    ],
+    "product identifiers": [
+     "device identifier"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "browser identifier": [
+     "unique device identifier"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "work contact information": [
+     "contact info",
+     "work information"
+    ],
+    "residential address": [
+     "postal address"
+    ],
+    "body data": [
+     "health information"
+    ],
+    "health or medical record": [
+     "health information"
+    ],
+    "system log": [
+     "log files"
+    ],
+    "hardware, firmware, and software performance and status logs": [
+     "log files"
+    ],
+    "date of purchase": [
+     "purchase details"
+    ],
+    "merchant": [
+     "purchase details"
+    ],
+    "order history": [
+     "purchase details"
+    ],
+    "purchase history": [
+     "purchase details"
+    ],
+    "country settings": [
+     "settings"
+    ],
+    "time zone": [
+     "settings"
+    ],
+    "voice commands": [
+     "voice recordings"
+    ],
+    "daily activities": [
+     "daily activity information"
+    ],
+    "email interaction data": [
+     "usage records"
+    ],
+    "features visited": [
+     "usage records"
+    ],
+    "duration of visits": [
+     "usage records"
+    ],
+    "product activation data": [
+     "Product Data"
+    ],
+    "product registration info": [
+     "Product Data"
+    ],
+    "interaction with connected product": [
+     "usage records"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising campaign providers": [
+     "service provider",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "ASUS"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "order_fulfillment": "fulfillment",
+    "service optimization": "service improvement",
+    "service_provision": "service provision",
+    "unspecified": "other",
+    "user_authentication": "authentication"
+   },
+   "parents": {
+    "ad performance analysis": [
+     "advertising",
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or website improvement"
+    ],
+    "service improvement": [
+     "analytics or website improvement"
+    ],
+    "fulfillment": [
+     "delivery of services",
+     "service provision"
+    ],
+    "delivery of services": [
+     "service provision"
+    ],
+    "profiling or marketing": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2907,
+  "completion_tokens": 986,
+  "thinking_tokens": 0,
+  "seconds": 10.724893569946289,
+  "failures": 0
+ },
+ "seconds": 10.8
+}

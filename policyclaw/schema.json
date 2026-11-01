@@ -1,0 +1,1827 @@
+{
+ "about": "The fixed vocabulary of the representation. Operations form a tree rooted at processing, as GDPR Art. 4(2) defines it; policy verbs are placed under them from data. Code reads this file and contains no policy words. Every entry names its source. Version 2 adds legal bases, transfer safeguards, processing location, and retention time. Version 3 adds value types: places as a tree, integer bounds, and units.",
+ "operations": {
+  "processing": {
+   "parent": null,
+   "gloss": "any operation performed on personal data",
+   "source": "GDPR Art. 4(2)"
+  },
+  "collection": {
+   "parent": "processing",
+   "gloss": "obtaining personal data from the user, a device, or another source",
+   "source": "GDPR Art. 4(2)"
+  },
+  "recording": {
+   "parent": "processing",
+   "gloss": "recording or logging observations about the user as they happen",
+   "source": "GDPR Art. 4(2)"
+  },
+  "organisation": {
+   "parent": "processing",
+   "gloss": "arranging data into records or profiles",
+   "source": "GDPR Art. 4(2)"
+  },
+  "structuring": {
+   "parent": "processing",
+   "gloss": "putting data into a structure such as a database",
+   "source": "GDPR Art. 4(2)"
+  },
+  "storage": {
+   "parent": "processing",
+   "gloss": "keeping data for a period",
+   "source": "GDPR Art. 4(2)"
+  },
+  "adaptation or alteration": {
+   "parent": "processing",
+   "gloss": "changing, correcting, or transforming data",
+   "source": "GDPR Art. 4(2)"
+  },
+  "retrieval": {
+   "parent": "processing",
+   "gloss": "getting stored data back out of storage",
+   "source": "GDPR Art. 4(2)"
+  },
+  "consultation": {
+   "parent": "processing",
+   "gloss": "looking at or viewing data",
+   "source": "GDPR Art. 4(2)"
+  },
+  "use": {
+   "parent": "processing",
+   "gloss": "using data for a purpose, including analysis and communication with the user",
+   "source": "GDPR Art. 4(2)"
+  },
+  "disclosure": {
+   "parent": "processing",
+   "gloss": "disclosure by transmission, dissemination, or otherwise making data available to others",
+   "source": "GDPR Art. 4(2)"
+  },
+  "disclosure by transmission": {
+   "parent": "disclosure",
+   "gloss": "sending or transferring data to a specific recipient",
+   "source": "GDPR Art. 4(2)"
+  },
+  "dissemination or otherwise making available": {
+   "parent": "disclosure",
+   "gloss": "publishing data or making it visible or accessible to others or the public",
+   "source": "GDPR Art. 4(2)"
+  },
+  "alignment or combination": {
+   "parent": "processing",
+   "gloss": "linking or combining data from different sources",
+   "source": "GDPR Art. 4(2)"
+  },
+  "restriction": {
+   "parent": "processing",
+   "gloss": "marking stored data to limit its future processing",
+   "source": "GDPR Art. 4(2) and 4(3)"
+  },
+  "erasure or destruction": {
+   "parent": "processing",
+   "gloss": "deleting, anonymising, or destroying data",
+   "source": "GDPR Art. 4(2)"
+  },
+  "profiling": {
+   "parent": "processing",
+   "gloss": "automated evaluation or prediction of personal aspects",
+   "source": "GDPR Art. 4(4)"
+  },
+  "sale": {
+   "parent": "disclosure by transmission",
+   "gloss": "disclosing data for money or other valuable consideration",
+   "source": "CCPA Cal. Civ. Code 1798.140"
+  }
+ },
+ "variables": [
+  {
+   "name": "user.age",
+   "kind": "int",
+   "gloss": "the user's age in years",
+   "min": 0,
+   "max": 130,
+   "unit": "years"
+  },
+  {
+   "name": "user.parental_consent",
+   "kind": "bool",
+   "gloss": "a parent or guardian consented"
+  },
+  {
+   "name": "user.jurisdiction",
+   "kind": "category",
+   "gloss": "a country, state, or region, such as \"California\" or \"EEA\"",
+   "value_set": "place"
+  },
+  {
+   "name": "user.category",
+   "kind": "category",
+   "gloss": "the user's relation to the company, such as \"customer\", \"job applicant\", or \"website visitor\""
+  },
+  {
+   "name": "service",
+   "kind": "category",
+   "gloss": "the product, website, app, or feature concerned"
+  },
+  {
+   "name": "consent.*",
+   "kind": "bool",
+   "gloss": "the user consented to the named use, such as consent.marketing_emails"
+  },
+  {
+   "name": "opt_in.*",
+   "kind": "bool",
+   "gloss": "the user opted in to the named use"
+  },
+  {
+   "name": "opt_out.*",
+   "kind": "bool",
+   "gloss": "the user opted out of the named use, such as opt_out.targeted_ads"
+  },
+  {
+   "name": "setting.*",
+   "kind": "bool",
+   "gloss": "a setting or tool the user controls is in the named state"
+  },
+  {
+   "name": "event.*",
+   "kind": "bool",
+   "closed_world": true,
+   "gloss": "the named event happened, such as event.merger or event.purchase"
+  },
+  {
+   "name": "request.*",
+   "kind": "bool",
+   "closed_world": true,
+   "gloss": "the user made the named request, such as request.delete"
+  },
+  {
+   "name": "law.required",
+   "kind": "bool",
+   "closed_world": true,
+   "gloss": "law or legal process requires the practice"
+  },
+  {
+   "name": "law.permitted",
+   "kind": "bool",
+   "closed_world": true,
+   "gloss": "law or legal process permits the practice"
+  },
+  {
+   "name": "basis.*",
+   "kind": "bool",
+   "gloss": "the company relies on the named legal basis: basis.consent, basis.contract, basis.legal_obligation, basis.vital_interests, basis.public_task, or basis.legitimate_interests",
+   "source": "GDPR Art. 6(1)(a) to (f)"
+  },
+  {
+   "name": "transfer.*",
+   "kind": "bool",
+   "gloss": "a transfer to another country relies on the named safeguard: transfer.adequacy_decision, transfer.standard_contractual_clauses, transfer.binding_corporate_rules, transfer.certification (such as the EU-U.S. Data Privacy Framework or the former Privacy Shield), or transfer.derogation (such as explicit consent)",
+   "source": "GDPR Chapter V, Art. 45 to 49"
+  },
+  {
+   "name": "processing.location",
+   "kind": "category",
+   "gloss": "the country or region where the data is stored or processed, such as \"United States\"",
+   "source": "GDPR Chapter V",
+   "value_set": "place"
+  },
+  {
+   "name": "retention.days",
+   "kind": "int",
+   "gloss": "how long the data has been kept, in days; \"for 6 months\" limits retention.days to at most 180",
+   "source": "GDPR Art. 5(1)(e) and 13(2)(a), CCPA 1798.100(a)(3)",
+   "min": 0,
+   "max": 36500,
+   "unit": "days"
+  },
+  {
+   "name": "policy.permits",
+   "kind": "bool",
+   "derived": true,
+   "gloss": "another part of this policy permits the practice; the exception of a prohibition that points to the policy itself, such as \"except as set forth in this Policy\"",
+   "source": "derived in each decision from the policy's own permissions for the same practice"
+  }
+ ],
+ "closed_world_note": "A scenario describes what happened, so an event, request, or legal requirement that it does not mention did not happen. Facts about the user stay unknown when unstated.",
+ "axioms": [
+  {
+   "formula": {
+    "op": "cmp",
+    "var": "user.age",
+    "cmp": ">=",
+    "value": 0
+   },
+   "source": "ages are non-negative"
+  },
+  {
+   "scope_of": [
+    "consent.*",
+    "opt_in.*",
+    "opt_out.*"
+   ],
+   "formula": {
+    "op": "or",
+    "args": [
+     {
+      "op": "not",
+      "arg": {
+       "op": "bool",
+       "var": "opt_out.{x}"
+      }
+     },
+     {
+      "op": "not",
+      "arg": {
+       "op": "bool",
+       "var": "opt_in.{x}"
+      }
+     }
+    ]
+   },
+   "source": "opting out of a use excludes being opted in to it"
+  },
+  {
+   "scope_of": [
+    "consent.*",
+    "opt_in.*",
+    "opt_out.*"
+   ],
+   "formula": {
+    "op": "or",
+    "args": [
+     {
+      "op": "not",
+      "arg": {
+       "op": "bool",
+       "var": "opt_in.{x}"
+      }
+     },
+     {
+      "op": "bool",
+      "var": "consent.{x}"
+     }
+    ]
+   },
+   "source": "opting in to a use is consent to it"
+  },
+  {
+   "formula": {
+    "op": "cmp",
+    "var": "retention.days",
+    "cmp": ">=",
+    "value": 0
+   },
+   "source": "durations are non-negative"
+  }
+ ],
+ "uncovered": {
+  "label": "other",
+  "parent": "processing",
+  "gloss": "an operation on personal data that none of the operations above describes"
+ },
+ "value_sets": {
+  "place": {
+   "about": "Countries (ISO 3166-1 common English names), the subdivisions of the United States and Canada, the four nations of the United Kingdom, and the regions European Union, European Economic Area, and Europe. Places form a tree: a place lies within its ancestors and excludes every place that is neither its ancestor nor its descendant.",
+   "source": "ISO 3166 via pycountry; EU and EEA membership as of 2026",
+   "values": {
+    "European Economic Area": {
+     "parent": "Europe",
+     "aliases": [
+      "E.E.A.",
+      "EEA"
+     ]
+    },
+    "European Union": {
+     "parent": "European Economic Area",
+     "aliases": [
+      "E.U.",
+      "EU",
+      "EU member states"
+     ]
+    },
+    "Europe": {
+     "parent": null,
+     "aliases": []
+    },
+    "Aruba": {
+     "parent": null
+    },
+    "Afghanistan": {
+     "parent": null,
+     "aliases": [
+      "Islamic Republic of Afghanistan"
+     ]
+    },
+    "Angola": {
+     "parent": null,
+     "aliases": [
+      "Republic of Angola"
+     ]
+    },
+    "Anguilla": {
+     "parent": null
+    },
+    "Åland Islands": {
+     "parent": null
+    },
+    "Albania": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of Albania"
+     ]
+    },
+    "Andorra": {
+     "parent": "Europe",
+     "aliases": [
+      "Principality of Andorra"
+     ]
+    },
+    "United Arab Emirates": {
+     "parent": null
+    },
+    "Argentina": {
+     "parent": null,
+     "aliases": [
+      "Argentine Republic"
+     ]
+    },
+    "Armenia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Armenia"
+     ]
+    },
+    "American Samoa": {
+     "parent": null
+    },
+    "Antarctica": {
+     "parent": null
+    },
+    "French Southern Territories": {
+     "parent": null
+    },
+    "Antigua and Barbuda": {
+     "parent": null
+    },
+    "Australia": {
+     "parent": null
+    },
+    "Austria": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Austria"
+     ]
+    },
+    "Azerbaijan": {
+     "parent": null,
+     "aliases": [
+      "Republic of Azerbaijan"
+     ]
+    },
+    "Burundi": {
+     "parent": null,
+     "aliases": [
+      "Republic of Burundi"
+     ]
+    },
+    "Belgium": {
+     "parent": "European Union",
+     "aliases": [
+      "Kingdom of Belgium"
+     ]
+    },
+    "Benin": {
+     "parent": null,
+     "aliases": [
+      "Republic of Benin"
+     ]
+    },
+    "Bonaire, Sint Eustatius and Saba": {
+     "parent": null
+    },
+    "Burkina Faso": {
+     "parent": null
+    },
+    "Bangladesh": {
+     "parent": null,
+     "aliases": [
+      "People's Republic of Bangladesh"
+     ]
+    },
+    "Bulgaria": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Bulgaria"
+     ]
+    },
+    "Bahrain": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Bahrain"
+     ]
+    },
+    "Bahamas": {
+     "parent": null,
+     "aliases": [
+      "Commonwealth of the Bahamas"
+     ]
+    },
+    "Bosnia and Herzegovina": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of Bosnia and Herzegovina"
+     ]
+    },
+    "Saint Barthélemy": {
+     "parent": null
+    },
+    "Belarus": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of Belarus"
+     ]
+    },
+    "Belize": {
+     "parent": null
+    },
+    "Bermuda": {
+     "parent": null
+    },
+    "Bolivia": {
+     "parent": null,
+     "aliases": [
+      "Bolivia, Plurinational State of",
+      "Plurinational State of Bolivia"
+     ]
+    },
+    "Brazil": {
+     "parent": null,
+     "aliases": [
+      "Federative Republic of Brazil"
+     ]
+    },
+    "Barbados": {
+     "parent": null
+    },
+    "Brunei Darussalam": {
+     "parent": null
+    },
+    "Bhutan": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Bhutan"
+     ]
+    },
+    "Bouvet Island": {
+     "parent": null
+    },
+    "Botswana": {
+     "parent": null,
+     "aliases": [
+      "Republic of Botswana"
+     ]
+    },
+    "Central African Republic": {
+     "parent": null
+    },
+    "Canada": {
+     "parent": null
+    },
+    "Cocos (Keeling) Islands": {
+     "parent": null
+    },
+    "Switzerland": {
+     "parent": "Europe",
+     "aliases": [
+      "Swiss Confederation"
+     ]
+    },
+    "Chile": {
+     "parent": null,
+     "aliases": [
+      "Republic of Chile"
+     ]
+    },
+    "China": {
+     "parent": null,
+     "aliases": [
+      "People's Republic of China"
+     ]
+    },
+    "Côte d'Ivoire": {
+     "parent": null,
+     "aliases": [
+      "Republic of Côte d'Ivoire"
+     ]
+    },
+    "Cameroon": {
+     "parent": null,
+     "aliases": [
+      "Republic of Cameroon"
+     ]
+    },
+    "Congo, The Democratic Republic of the": {
+     "parent": null
+    },
+    "Congo": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Congo"
+     ]
+    },
+    "Cook Islands": {
+     "parent": null
+    },
+    "Colombia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Colombia"
+     ]
+    },
+    "Comoros": {
+     "parent": null,
+     "aliases": [
+      "Union of the Comoros"
+     ]
+    },
+    "Cabo Verde": {
+     "parent": null,
+     "aliases": [
+      "Republic of Cabo Verde"
+     ]
+    },
+    "Costa Rica": {
+     "parent": null,
+     "aliases": [
+      "Republic of Costa Rica"
+     ]
+    },
+    "Cuba": {
+     "parent": null,
+     "aliases": [
+      "Republic of Cuba"
+     ]
+    },
+    "Curaçao": {
+     "parent": null
+    },
+    "Christmas Island": {
+     "parent": null
+    },
+    "Cayman Islands": {
+     "parent": null
+    },
+    "Cyprus": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Cyprus"
+     ]
+    },
+    "Czechia": {
+     "parent": "European Union",
+     "aliases": [
+      "Czech Republic"
+     ]
+    },
+    "Germany": {
+     "parent": "European Union",
+     "aliases": [
+      "Federal Republic of Germany"
+     ]
+    },
+    "Djibouti": {
+     "parent": null,
+     "aliases": [
+      "Republic of Djibouti"
+     ]
+    },
+    "Dominica": {
+     "parent": null,
+     "aliases": [
+      "Commonwealth of Dominica"
+     ]
+    },
+    "Denmark": {
+     "parent": "European Union",
+     "aliases": [
+      "Kingdom of Denmark"
+     ]
+    },
+    "Dominican Republic": {
+     "parent": null
+    },
+    "Algeria": {
+     "parent": null,
+     "aliases": [
+      "People's Democratic Republic of Algeria"
+     ]
+    },
+    "Ecuador": {
+     "parent": null,
+     "aliases": [
+      "Republic of Ecuador"
+     ]
+    },
+    "Egypt": {
+     "parent": null,
+     "aliases": [
+      "Arab Republic of Egypt"
+     ]
+    },
+    "Eritrea": {
+     "parent": null,
+     "aliases": [
+      "the State of Eritrea"
+     ]
+    },
+    "Western Sahara": {
+     "parent": null
+    },
+    "Spain": {
+     "parent": "European Union",
+     "aliases": [
+      "Kingdom of Spain"
+     ]
+    },
+    "Estonia": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Estonia"
+     ]
+    },
+    "Ethiopia": {
+     "parent": null,
+     "aliases": [
+      "Federal Democratic Republic of Ethiopia"
+     ]
+    },
+    "Finland": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Finland"
+     ]
+    },
+    "Fiji": {
+     "parent": null,
+     "aliases": [
+      "Republic of Fiji"
+     ]
+    },
+    "Falkland Islands (Malvinas)": {
+     "parent": null
+    },
+    "France": {
+     "parent": "European Union",
+     "aliases": [
+      "French Republic"
+     ]
+    },
+    "Faroe Islands": {
+     "parent": null
+    },
+    "Micronesia, Federated States of": {
+     "parent": null,
+     "aliases": [
+      "Federated States of Micronesia"
+     ]
+    },
+    "Gabon": {
+     "parent": null,
+     "aliases": [
+      "Gabonese Republic"
+     ]
+    },
+    "United Kingdom": {
+     "parent": "Europe",
+     "aliases": [
+      "Britain",
+      "Great Britain",
+      "U.K.",
+      "UK",
+      "United Kingdom of Great Britain and Northern Ireland"
+     ]
+    },
+    "Georgia": {
+     "parent": null
+    },
+    "Guernsey": {
+     "parent": null
+    },
+    "Ghana": {
+     "parent": null,
+     "aliases": [
+      "Republic of Ghana"
+     ]
+    },
+    "Gibraltar": {
+     "parent": null
+    },
+    "Guinea": {
+     "parent": null,
+     "aliases": [
+      "Republic of Guinea"
+     ]
+    },
+    "Guadeloupe": {
+     "parent": null
+    },
+    "Gambia": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Gambia"
+     ]
+    },
+    "Guinea-Bissau": {
+     "parent": null,
+     "aliases": [
+      "Republic of Guinea-Bissau"
+     ]
+    },
+    "Equatorial Guinea": {
+     "parent": null,
+     "aliases": [
+      "Republic of Equatorial Guinea"
+     ]
+    },
+    "Greece": {
+     "parent": "European Union",
+     "aliases": [
+      "Hellenic Republic"
+     ]
+    },
+    "Grenada": {
+     "parent": null
+    },
+    "Greenland": {
+     "parent": null
+    },
+    "Guatemala": {
+     "parent": null,
+     "aliases": [
+      "Republic of Guatemala"
+     ]
+    },
+    "French Guiana": {
+     "parent": null
+    },
+    "Guam": {
+     "parent": null
+    },
+    "Guyana": {
+     "parent": null,
+     "aliases": [
+      "Republic of Guyana"
+     ]
+    },
+    "Hong Kong": {
+     "parent": null,
+     "aliases": [
+      "Hong Kong Special Administrative Region of China"
+     ]
+    },
+    "Heard Island and McDonald Islands": {
+     "parent": null
+    },
+    "Honduras": {
+     "parent": null,
+     "aliases": [
+      "Republic of Honduras"
+     ]
+    },
+    "Croatia": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Croatia"
+     ]
+    },
+    "Haiti": {
+     "parent": null,
+     "aliases": [
+      "Republic of Haiti"
+     ]
+    },
+    "Hungary": {
+     "parent": "European Union"
+    },
+    "Indonesia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Indonesia"
+     ]
+    },
+    "Isle of Man": {
+     "parent": null
+    },
+    "India": {
+     "parent": null,
+     "aliases": [
+      "Republic of India"
+     ]
+    },
+    "British Indian Ocean Territory": {
+     "parent": null
+    },
+    "Ireland": {
+     "parent": "European Union"
+    },
+    "Iran": {
+     "parent": null,
+     "aliases": [
+      "Iran, Islamic Republic of",
+      "Islamic Republic of Iran"
+     ]
+    },
+    "Iraq": {
+     "parent": null,
+     "aliases": [
+      "Republic of Iraq"
+     ]
+    },
+    "Iceland": {
+     "parent": "European Economic Area",
+     "aliases": [
+      "Republic of Iceland"
+     ]
+    },
+    "Israel": {
+     "parent": null,
+     "aliases": [
+      "State of Israel"
+     ]
+    },
+    "Italy": {
+     "parent": "European Union",
+     "aliases": [
+      "Italian Republic"
+     ]
+    },
+    "Jamaica": {
+     "parent": null
+    },
+    "Jersey": {
+     "parent": null
+    },
+    "Jordan": {
+     "parent": null,
+     "aliases": [
+      "Hashemite Kingdom of Jordan"
+     ]
+    },
+    "Japan": {
+     "parent": null
+    },
+    "Kazakhstan": {
+     "parent": null,
+     "aliases": [
+      "Republic of Kazakhstan"
+     ]
+    },
+    "Kenya": {
+     "parent": null,
+     "aliases": [
+      "Republic of Kenya"
+     ]
+    },
+    "Kyrgyzstan": {
+     "parent": null,
+     "aliases": [
+      "Kyrgyz Republic"
+     ]
+    },
+    "Cambodia": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Cambodia"
+     ]
+    },
+    "Kiribati": {
+     "parent": null,
+     "aliases": [
+      "Republic of Kiribati"
+     ]
+    },
+    "Saint Kitts and Nevis": {
+     "parent": null
+    },
+    "South Korea": {
+     "parent": null,
+     "aliases": [
+      "Korea, Republic of",
+      "Republic of Korea"
+     ]
+    },
+    "Kuwait": {
+     "parent": null,
+     "aliases": [
+      "State of Kuwait"
+     ]
+    },
+    "Laos": {
+     "parent": null,
+     "aliases": [
+      "Lao People's Democratic Republic"
+     ]
+    },
+    "Lebanon": {
+     "parent": null,
+     "aliases": [
+      "Lebanese Republic"
+     ]
+    },
+    "Liberia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Liberia"
+     ]
+    },
+    "Libya": {
+     "parent": null
+    },
+    "Saint Lucia": {
+     "parent": null
+    },
+    "Liechtenstein": {
+     "parent": "European Economic Area",
+     "aliases": [
+      "Principality of Liechtenstein"
+     ]
+    },
+    "Sri Lanka": {
+     "parent": null,
+     "aliases": [
+      "Democratic Socialist Republic of Sri Lanka"
+     ]
+    },
+    "Lesotho": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Lesotho"
+     ]
+    },
+    "Lithuania": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Lithuania"
+     ]
+    },
+    "Luxembourg": {
+     "parent": "European Union",
+     "aliases": [
+      "Grand Duchy of Luxembourg"
+     ]
+    },
+    "Latvia": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Latvia"
+     ]
+    },
+    "Macao": {
+     "parent": null,
+     "aliases": [
+      "Macao Special Administrative Region of China"
+     ]
+    },
+    "Saint Martin (French part)": {
+     "parent": null
+    },
+    "Morocco": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Morocco"
+     ]
+    },
+    "Monaco": {
+     "parent": "Europe",
+     "aliases": [
+      "Principality of Monaco"
+     ]
+    },
+    "Moldova": {
+     "parent": "Europe",
+     "aliases": [
+      "Moldova, Republic of",
+      "Republic of Moldova"
+     ]
+    },
+    "Madagascar": {
+     "parent": null,
+     "aliases": [
+      "Republic of Madagascar"
+     ]
+    },
+    "Maldives": {
+     "parent": null,
+     "aliases": [
+      "Republic of Maldives"
+     ]
+    },
+    "Mexico": {
+     "parent": null,
+     "aliases": [
+      "United Mexican States"
+     ]
+    },
+    "Marshall Islands": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Marshall Islands"
+     ]
+    },
+    "North Macedonia": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of North Macedonia"
+     ]
+    },
+    "Mali": {
+     "parent": null,
+     "aliases": [
+      "Republic of Mali"
+     ]
+    },
+    "Malta": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Malta"
+     ]
+    },
+    "Myanmar": {
+     "parent": null,
+     "aliases": [
+      "Republic of Myanmar"
+     ]
+    },
+    "Montenegro": {
+     "parent": "Europe"
+    },
+    "Mongolia": {
+     "parent": null
+    },
+    "Northern Mariana Islands": {
+     "parent": null,
+     "aliases": [
+      "Commonwealth of the Northern Mariana Islands"
+     ]
+    },
+    "Mozambique": {
+     "parent": null,
+     "aliases": [
+      "Republic of Mozambique"
+     ]
+    },
+    "Mauritania": {
+     "parent": null,
+     "aliases": [
+      "Islamic Republic of Mauritania"
+     ]
+    },
+    "Montserrat": {
+     "parent": null
+    },
+    "Martinique": {
+     "parent": null
+    },
+    "Mauritius": {
+     "parent": null,
+     "aliases": [
+      "Republic of Mauritius"
+     ]
+    },
+    "Malawi": {
+     "parent": null,
+     "aliases": [
+      "Republic of Malawi"
+     ]
+    },
+    "Malaysia": {
+     "parent": null
+    },
+    "Mayotte": {
+     "parent": null
+    },
+    "Namibia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Namibia"
+     ]
+    },
+    "New Caledonia": {
+     "parent": null
+    },
+    "Niger": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Niger"
+     ]
+    },
+    "Norfolk Island": {
+     "parent": null
+    },
+    "Nigeria": {
+     "parent": null,
+     "aliases": [
+      "Federal Republic of Nigeria"
+     ]
+    },
+    "Nicaragua": {
+     "parent": null,
+     "aliases": [
+      "Republic of Nicaragua"
+     ]
+    },
+    "Niue": {
+     "parent": null
+    },
+    "Netherlands": {
+     "parent": "European Union",
+     "aliases": [
+      "Kingdom of the Netherlands"
+     ]
+    },
+    "Norway": {
+     "parent": "European Economic Area",
+     "aliases": [
+      "Kingdom of Norway"
+     ]
+    },
+    "Nepal": {
+     "parent": null,
+     "aliases": [
+      "Federal Democratic Republic of Nepal"
+     ]
+    },
+    "Nauru": {
+     "parent": null,
+     "aliases": [
+      "Republic of Nauru"
+     ]
+    },
+    "New Zealand": {
+     "parent": null
+    },
+    "Oman": {
+     "parent": null,
+     "aliases": [
+      "Sultanate of Oman"
+     ]
+    },
+    "Pakistan": {
+     "parent": null,
+     "aliases": [
+      "Islamic Republic of Pakistan"
+     ]
+    },
+    "Panama": {
+     "parent": null,
+     "aliases": [
+      "Republic of Panama"
+     ]
+    },
+    "Pitcairn": {
+     "parent": null
+    },
+    "Peru": {
+     "parent": null,
+     "aliases": [
+      "Republic of Peru"
+     ]
+    },
+    "Philippines": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Philippines"
+     ]
+    },
+    "Palau": {
+     "parent": null,
+     "aliases": [
+      "Republic of Palau"
+     ]
+    },
+    "Papua New Guinea": {
+     "parent": null,
+     "aliases": [
+      "Independent State of Papua New Guinea"
+     ]
+    },
+    "Poland": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Poland"
+     ]
+    },
+    "Puerto Rico": {
+     "parent": null
+    },
+    "North Korea": {
+     "parent": null,
+     "aliases": [
+      "Democratic People's Republic of Korea",
+      "Korea, Democratic People's Republic of"
+     ]
+    },
+    "Portugal": {
+     "parent": "European Union",
+     "aliases": [
+      "Portuguese Republic"
+     ]
+    },
+    "Paraguay": {
+     "parent": null,
+     "aliases": [
+      "Republic of Paraguay"
+     ]
+    },
+    "Palestine, State of": {
+     "parent": null,
+     "aliases": [
+      "the State of Palestine"
+     ]
+    },
+    "French Polynesia": {
+     "parent": null
+    },
+    "Qatar": {
+     "parent": null,
+     "aliases": [
+      "State of Qatar"
+     ]
+    },
+    "Réunion": {
+     "parent": null
+    },
+    "Romania": {
+     "parent": "European Union"
+    },
+    "Russian Federation": {
+     "parent": null
+    },
+    "Rwanda": {
+     "parent": null,
+     "aliases": [
+      "Rwandese Republic"
+     ]
+    },
+    "Saudi Arabia": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Saudi Arabia"
+     ]
+    },
+    "Sudan": {
+     "parent": null,
+     "aliases": [
+      "Republic of the Sudan"
+     ]
+    },
+    "Senegal": {
+     "parent": null,
+     "aliases": [
+      "Republic of Senegal"
+     ]
+    },
+    "Singapore": {
+     "parent": null,
+     "aliases": [
+      "Republic of Singapore"
+     ]
+    },
+    "South Georgia and the South Sandwich Islands": {
+     "parent": null
+    },
+    "Saint Helena, Ascension and Tristan da Cunha": {
+     "parent": null
+    },
+    "Svalbard and Jan Mayen": {
+     "parent": null
+    },
+    "Solomon Islands": {
+     "parent": null
+    },
+    "Sierra Leone": {
+     "parent": null,
+     "aliases": [
+      "Republic of Sierra Leone"
+     ]
+    },
+    "El Salvador": {
+     "parent": null,
+     "aliases": [
+      "Republic of El Salvador"
+     ]
+    },
+    "San Marino": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of San Marino"
+     ]
+    },
+    "Somalia": {
+     "parent": null,
+     "aliases": [
+      "Federal Republic of Somalia"
+     ]
+    },
+    "Saint Pierre and Miquelon": {
+     "parent": null
+    },
+    "Serbia": {
+     "parent": "Europe",
+     "aliases": [
+      "Republic of Serbia"
+     ]
+    },
+    "South Sudan": {
+     "parent": null,
+     "aliases": [
+      "Republic of South Sudan"
+     ]
+    },
+    "Sao Tome and Principe": {
+     "parent": null,
+     "aliases": [
+      "Democratic Republic of Sao Tome and Principe"
+     ]
+    },
+    "Suriname": {
+     "parent": null,
+     "aliases": [
+      "Republic of Suriname"
+     ]
+    },
+    "Slovakia": {
+     "parent": "European Union",
+     "aliases": [
+      "Slovak Republic"
+     ]
+    },
+    "Slovenia": {
+     "parent": "European Union",
+     "aliases": [
+      "Republic of Slovenia"
+     ]
+    },
+    "Sweden": {
+     "parent": "European Union",
+     "aliases": [
+      "Kingdom of Sweden"
+     ]
+    },
+    "Eswatini": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Eswatini"
+     ]
+    },
+    "Sint Maarten (Dutch part)": {
+     "parent": null
+    },
+    "Seychelles": {
+     "parent": null,
+     "aliases": [
+      "Republic of Seychelles"
+     ]
+    },
+    "Syria": {
+     "parent": null,
+     "aliases": [
+      "Syrian Arab Republic"
+     ]
+    },
+    "Turks and Caicos Islands": {
+     "parent": null
+    },
+    "Chad": {
+     "parent": null,
+     "aliases": [
+      "Republic of Chad"
+     ]
+    },
+    "Togo": {
+     "parent": null,
+     "aliases": [
+      "Togolese Republic"
+     ]
+    },
+    "Thailand": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Thailand"
+     ]
+    },
+    "Tajikistan": {
+     "parent": null,
+     "aliases": [
+      "Republic of Tajikistan"
+     ]
+    },
+    "Tokelau": {
+     "parent": null
+    },
+    "Turkmenistan": {
+     "parent": null
+    },
+    "Timor-Leste": {
+     "parent": null,
+     "aliases": [
+      "Democratic Republic of Timor-Leste"
+     ]
+    },
+    "Tonga": {
+     "parent": null,
+     "aliases": [
+      "Kingdom of Tonga"
+     ]
+    },
+    "Trinidad and Tobago": {
+     "parent": null,
+     "aliases": [
+      "Republic of Trinidad and Tobago"
+     ]
+    },
+    "Tunisia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Tunisia"
+     ]
+    },
+    "Türkiye": {
+     "parent": null,
+     "aliases": [
+      "Republic of Türkiye"
+     ]
+    },
+    "Tuvalu": {
+     "parent": null
+    },
+    "Taiwan": {
+     "parent": null,
+     "aliases": [
+      "Taiwan, Province of China"
+     ]
+    },
+    "Tanzania": {
+     "parent": null,
+     "aliases": [
+      "Tanzania, United Republic of",
+      "United Republic of Tanzania"
+     ]
+    },
+    "Uganda": {
+     "parent": null,
+     "aliases": [
+      "Republic of Uganda"
+     ]
+    },
+    "Ukraine": {
+     "parent": "Europe"
+    },
+    "United States Minor Outlying Islands": {
+     "parent": null
+    },
+    "Uruguay": {
+     "parent": null,
+     "aliases": [
+      "Eastern Republic of Uruguay"
+     ]
+    },
+    "United States": {
+     "parent": null,
+     "aliases": [
+      "America",
+      "U.S.",
+      "U.S.A.",
+      "US",
+      "USA",
+      "United States of America"
+     ]
+    },
+    "Uzbekistan": {
+     "parent": null,
+     "aliases": [
+      "Republic of Uzbekistan"
+     ]
+    },
+    "Holy See (Vatican City State)": {
+     "parent": "Europe"
+    },
+    "Saint Vincent and the Grenadines": {
+     "parent": null
+    },
+    "Venezuela": {
+     "parent": null,
+     "aliases": [
+      "Bolivarian Republic of Venezuela",
+      "Venezuela, Bolivarian Republic of"
+     ]
+    },
+    "Virgin Islands, British": {
+     "parent": null,
+     "aliases": [
+      "British Virgin Islands"
+     ]
+    },
+    "Virgin Islands, U.S.": {
+     "parent": null,
+     "aliases": [
+      "Virgin Islands of the United States"
+     ]
+    },
+    "Vietnam": {
+     "parent": null,
+     "aliases": [
+      "Socialist Republic of Viet Nam",
+      "Viet Nam"
+     ]
+    },
+    "Vanuatu": {
+     "parent": null,
+     "aliases": [
+      "Republic of Vanuatu"
+     ]
+    },
+    "Wallis and Futuna": {
+     "parent": null
+    },
+    "Samoa": {
+     "parent": null,
+     "aliases": [
+      "Independent State of Samoa"
+     ]
+    },
+    "Yemen": {
+     "parent": null,
+     "aliases": [
+      "Republic of Yemen"
+     ]
+    },
+    "South Africa": {
+     "parent": null,
+     "aliases": [
+      "Republic of South Africa"
+     ]
+    },
+    "Zambia": {
+     "parent": null,
+     "aliases": [
+      "Republic of Zambia"
+     ]
+    },
+    "Zimbabwe": {
+     "parent": null,
+     "aliases": [
+      "Republic of Zimbabwe"
+     ]
+    },
+    "New Mexico": {
+     "parent": "United States"
+    },
+    "Massachusetts": {
+     "parent": "United States"
+    },
+    "Connecticut": {
+     "parent": "United States"
+    },
+    "Virginia": {
+     "parent": "United States"
+    },
+    "Nevada": {
+     "parent": "United States"
+    },
+    "Maryland": {
+     "parent": "United States"
+    },
+    "District of Columbia": {
+     "parent": "United States"
+    },
+    "New York": {
+     "parent": "United States"
+    },
+    "Maine": {
+     "parent": "United States"
+    },
+    "Delaware": {
+     "parent": "United States"
+    },
+    "Vermont": {
+     "parent": "United States"
+    },
+    "Ohio": {
+     "parent": "United States"
+    },
+    "Michigan": {
+     "parent": "United States"
+    },
+    "Florida": {
+     "parent": "United States"
+    },
+    "Washington": {
+     "parent": "United States"
+    },
+    "Oklahoma": {
+     "parent": "United States"
+    },
+    "Minnesota": {
+     "parent": "United States"
+    },
+    "Wisconsin": {
+     "parent": "United States"
+    },
+    "Oregon": {
+     "parent": "United States"
+    },
+    "Missouri": {
+     "parent": "United States"
+    },
+    "West Virginia": {
+     "parent": "United States"
+    },
+    "Pennsylvania": {
+     "parent": "United States"
+    },
+    "Hawaii": {
+     "parent": "United States"
+    },
+    "Wyoming": {
+     "parent": "United States"
+    },
+    "Mississippi": {
+     "parent": "United States"
+    },
+    "Alaska": {
+     "parent": "United States"
+    },
+    "Iowa": {
+     "parent": "United States"
+    },
+    "Rhode Island": {
+     "parent": "United States"
+    },
+    "Montana": {
+     "parent": "United States"
+    },
+    "Idaho": {
+     "parent": "United States"
+    },
+    "Alabama": {
+     "parent": "United States"
+    },
+    "South Carolina": {
+     "parent": "United States"
+    },
+    "North Carolina": {
+     "parent": "United States"
+    },
+    "Illinois": {
+     "parent": "United States"
+    },
+    "Arkansas": {
+     "parent": "United States"
+    },
+    "South Dakota": {
+     "parent": "United States"
+    },
+    "North Dakota": {
+     "parent": "United States"
+    },
+    "Indiana": {
+     "parent": "United States"
+    },
+    "Tennessee": {
+     "parent": "United States"
+    },
+    "Nebraska": {
+     "parent": "United States"
+    },
+    "Kansas": {
+     "parent": "United States"
+    },
+    "Arizona": {
+     "parent": "United States"
+    },
+    "Texas": {
+     "parent": "United States"
+    },
+    "New Hampshire": {
+     "parent": "United States"
+    },
+    "Kentucky": {
+     "parent": "United States"
+    },
+    "California": {
+     "parent": "United States"
+    },
+    "New Jersey": {
+     "parent": "United States"
+    },
+    "Louisiana": {
+     "parent": "United States"
+    },
+    "Colorado": {
+     "parent": "United States"
+    },
+    "Utah": {
+     "parent": "United States"
+    },
+    "Northwest Territories": {
+     "parent": "Canada"
+    },
+    "Quebec": {
+     "parent": "Canada"
+    },
+    "New Brunswick": {
+     "parent": "Canada"
+    },
+    "Alberta": {
+     "parent": "Canada"
+    },
+    "Nunavut": {
+     "parent": "Canada"
+    },
+    "Saskatchewan": {
+     "parent": "Canada"
+    },
+    "Newfoundland and Labrador": {
+     "parent": "Canada"
+    },
+    "Ontario": {
+     "parent": "Canada"
+    },
+    "British Columbia": {
+     "parent": "Canada"
+    },
+    "Yukon": {
+     "parent": "Canada"
+    },
+    "Nova Scotia": {
+     "parent": "Canada"
+    },
+    "Prince Edward Island": {
+     "parent": "Canada"
+    },
+    "Manitoba": {
+     "parent": "Canada"
+    },
+    "England": {
+     "parent": "United Kingdom"
+    },
+    "Northern Ireland": {
+     "parent": "United Kingdom"
+    },
+    "Wales [Cymru GB-CYM]": {
+     "parent": "United Kingdom"
+    },
+    "Scotland": {
+     "parent": "United Kingdom"
+    },
+    "Russia": {
+     "parent": null,
+     "aliases": [
+      "Russian Federation"
+     ]
+    }
+   }
+  }
+ },
+ "units": {
+  "days": {
+   "factors": {
+    "day": 1,
+    "week": 7,
+    "month": 30,
+    "year": 365
+   },
+   "words": {
+    "day": [
+     "day",
+     "days"
+    ],
+    "week": [
+     "week",
+     "weeks"
+    ],
+    "month": [
+     "month",
+     "months"
+    ],
+    "year": [
+     "year",
+     "years"
+    ]
+   }
+  },
+  "years": {
+   "factors": {
+    "year": 1
+   },
+   "words": {
+    "year": [
+     "year",
+     "years",
+     "years old"
+    ]
+   }
+  }
+ }
+}

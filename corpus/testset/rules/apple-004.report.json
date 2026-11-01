@@ -1,0 +1,1475 @@
+{
+ "cleaned_sha256": "apple-004",
+ "text_sha256": "82c12962ef2a38faaaa4acab85e7f3e13a5bc805c4a96399839be37067ebfdea",
+ "site_id": "apple-004",
+ "sections": 34,
+ "rules": 507,
+ "report": {
+  "sections": 34,
+  "raw_rules": 401,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "generate",
+      "verb": "generate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when we use facial verification technology to confirm that your account is not being used by anyone other than you, your age, or to prevent creation of fraudulent accounts"
+     ],
+     "data": {
+      "name": "biometric data",
+      "text": "biometric data"
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "is generated",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "generate"
+    ],
+    "section": "apple-004#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when you:\nUse features that enable you to create\nLists\nor reviews of restaurants or merchants",
+      "when you:\nUpload photos and recordings (including those submitted for purposes of customer support)",
+      "when you:\nProvide ratings or feedback for drivers, delivery people, restaurants or merchants, or they provide feedback regarding you",
+      "when you:\nRespond to a survey"
+     ],
+     "data": {
+      "name": "user-generated content",
+      "text": "User content"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\nUpload photos and recordings (including those submitted for purposes of customer support)",
+     "when you:\nProvide ratings or feedback for drivers, delivery people, restaurants or merchants, or they provide feedback regarding you",
+     "when you:\nRespond to a survey"
+    ],
+    "section": "apple-004#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Uber"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "business partners",
+      "text": "business partners through which you create or access your Uber account, such as payment providers, social media services, loyalty program partners, or apps or websites that use Uber’s APIs or whose APIs Uber uses"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Send push notifications",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "suggesting your favorite destinations or merchants",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "offering discounts or promotions for products or merchants similar to those you’ve previously ordered",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Display personalized ads",
+      "verb": "display"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "on Uber or other companies’ apps or websites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "prioritizes",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "prioritizes what ad to show you",
+      "verb": "prioritize"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To do this",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "based on what audience our advertisers want to reach"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Personalize sponsored listings, discounts or promotions for restaurants and merchants available on Uber",
+      "verb": "personalize"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "display in-app ads",
+      "verb": "display"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "if you request a trip to a supermarket"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": "Account"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "communications",
+      "text": "Communications"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": "Data"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "other sources",
+      "text": "other sources"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "demographic",
+      "text": "Demographics"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "device_information",
+      "text": "Device"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "identity_verification_data",
+      "text": "Identity verification"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "location",
+      "text": "Location"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "usage_data",
+      "text": "Usage"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user_content",
+      "text": "User content"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "order_history",
+      "text": "Trip/order"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "recordings",
+      "text": "In-vehicle recordings"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "research_and_development"
+      },
+      {
+       "text": "for analysis, research and product development, including training machine learning models",
+       "name": "analytics"
+      },
+      {
+       "text": "to make our services more convenient and easy to use",
+       "name": "service_improvement"
+      },
+      {
+       "text": "enhance the safety and security of our services",
+       "name": "security"
+      },
+      {
+       "text": "develop new services and features",
+       "name": "service_improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to make our services more convenient and easy to use"
+    ],
+    "section": "apple-004#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Uber"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "will not sell",
+     "purpose": [
+      {
+       "text": "to send you marketing or promotional text messages",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "any third party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Uber"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "will not... share",
+     "purpose": [
+      {
+       "text": "to send you marketing or promotional text messages",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "any third party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [
+      "service providers who assist us solely in executing and delivering our own text messaging services"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "will not be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third parties",
+      "text": "any third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [
+      "service providers who assist us solely in executing and delivering our own text messaging services"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "will not be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third parties",
+      "text": "any third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt out from ad personalization"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable their services",
+       "name": "service_provision"
+      },
+      {
+       "text": "for such other purposes as are disclosed in their privacy notices",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "ad intermediaries",
+      "text": "these intermediaries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt out from ad personalization"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable their services",
+       "name": "service_provision"
+      },
+      {
+       "text": "for such other purposes as are disclosed in their privacy notices",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "ad intermediaries",
+      "text": "these intermediaries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt out from ad personalization"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable their services",
+       "name": "service_provision"
+      },
+      {
+       "text": "for such other purposes as are disclosed in their privacy notices",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "ad intermediaries",
+      "text": "these intermediaries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt out from ad personalization"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable their services",
+       "name": "service_provision"
+      },
+      {
+       "text": "for such other purposes as are disclosed in their privacy notices",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "ad intermediaries",
+      "text": "these intermediaries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt out from ad personalization"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable their services",
+       "name": "service_provision"
+      },
+      {
+       "text": "for such other purposes as are disclosed in their privacy notices",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "ad intermediaries",
+      "text": "these intermediaries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "accessing",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "autonomous vehicle fleet depot operators",
+      "text": "Autonomous vehicle fleet depot operators"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "accessing",
+     "purpose": [
+      {
+       "text": "assist with vehicle maintenance and fleet operations",
+       "name": "service_provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "accessing",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "autonomous vehicle fleet depot operators",
+      "text": "Autonomous vehicle fleet depot operators"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "accessing",
+     "purpose": [
+      {
+       "text": "assist with vehicle maintenance and fleet operations",
+       "name": "service_provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Uber"
+     },
+     "conditions": [
+      "You may also request access to"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your data"
+     },
+     "exceptions": [],
+     "operation": "access or consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-004#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Uber",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "personalize",
+      "verb": "personalize"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "marketing communications (such as emails, push notifications and in-app messages) about Uber products and services",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "You can choose whether Uber may personalize marketing communications (such as emails, push notifications and in-app messages) about Uber products and services\nhere\nor in the Ads and Data menu in Uber’s\nPrivacy Center"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-004#s30"
+   }
+  ],
+  "residual_quotes": 31,
+  "quotes": 148,
+  "completeness": {
+   "gaps": 494,
+   "gap_words": 4025
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 32,
+  "translated_quotes": 148,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 59,
+  "cached": 0,
+  "prompt_tokens": 99011,
+  "completion_tokens": 83541,
+  "thinking_tokens": 0,
+  "seconds": 1388.8346626758575,
+  "failures": 0
+ },
+ "seconds": 1390.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

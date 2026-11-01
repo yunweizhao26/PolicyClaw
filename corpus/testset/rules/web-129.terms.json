@@ -1,0 +1,236 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive personal data"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "hashed email address": [
+     "email address"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "first and last name": [
+     "identifiers"
+    ],
+    "device or session IDs": [
+     "identifiers"
+    ],
+    "unique online or device identifiers": [
+     "identifiers"
+    ],
+    "online shopping identifiers": [
+     "identifiers"
+    ],
+    "member account credentials": [
+     "identifiers"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "precise geolocation": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "Internet and Network Activity information": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "clickstream data": [
+     "Internet and Network Activity information"
+    ],
+    "browsing history": [
+     "Internet and Network Activity information"
+    ],
+    "browsing activity": [
+     "Internet and Network Activity information"
+    ],
+    "browsing and search history and interactions": [
+     "Internet and Network Activity information"
+    ],
+    "visited page URLs": [
+     "Internet and Network Activity information"
+    ],
+    "pages viewed": [
+     "Internet and Network Activity information"
+    ],
+    "links clicked": [
+     "Internet and Network Activity information"
+    ],
+    "system configuration information": [
+     "Internet and Network Activity information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "financial transactions": [
+     "commercial information"
+    ],
+    "email": [
+     "electronic communication"
+    ],
+    "sms message": [
+     "electronic communication"
+    ],
+    "electronic communication": [
+     "communication"
+    ],
+    "direct mail": [
+     "communication"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "collected information": [
+     "information"
+    ],
+    "Some of your information": [
+     "information"
+    ],
+    "additional information": [
+     "information"
+    ],
+    "age": [
+     "classification protected under California law"
+    ],
+    "gender": [
+     "classification protected under California law"
+    ],
+    "marital status": [
+     "classification protected under California law"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "financial partners": "financial business partners",
+    "merchant partner": "merchant"
+   },
+   "parents": {
+    "relevant financial partner": [
+     "financial business partners"
+    ],
+    "affiliates": [
+     "recipients"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party": [
+     "recipients"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "merchant": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligations",
+    "service provision": "provide service",
+    "user account management": "account management"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "targeted marketing": [
+     "marketing"
+    ],
+    "administrative communication": [
+     "communication"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "internal administration": [
+     "administration"
+    ],
+    "enforcing rights and obligations": [
+     "compliance with legal obligations"
+    ],
+    "dispute resolution": [
+     "compliance with legal obligations"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "account management": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "order fulfillment": [
+     "provide service"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "provide rewards and benefits": [
+     "reward program"
+    ],
+    "reward program": [
+     "provide service"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "user profile": [
+     "account management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3249,
+  "completion_tokens": 942,
+  "thinking_tokens": 0,
+  "seconds": 10.846149206161499,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

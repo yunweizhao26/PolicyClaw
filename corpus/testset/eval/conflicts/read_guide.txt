@@ -1,0 +1,31 @@
+Finding contradictions in a privacy policy
+
+Read the whole policy and list every pair of statements that conflict. A pair conflicts when all three hold:
+1. One statement says that a party collects, uses, shares, sells, retains, or otherwise processes some kind of data,
+   or may do so. The other says that the same party does not, will not, or may not do it.
+2. Both statements cover at least one common real situation: the same kind of data (or one kind includes the other),
+   the same kind of processing, the same recipient or source, and conditions that can hold at the same time.
+3. The policy gives no way to tell which statement governs in that situation. There is no exception that one
+   statement makes for the other, no narrower case carved out of a general statement (for example "except",
+   "unless", "children under 13", "sensitive data", "if you opt out"), no statement of precedence, and no
+   difference of time, region, product, or user group that separates the two.
+
+The statements may be in different sections and may be far apart.
+
+Do not report:
+- a general practice next to a carve-out the policy states, or a prohibition next to its own stated exception;
+- statements about different products, services, regions, or user groups;
+- a choice the user can make (opt out, delete, withdraw consent) next to the default practice;
+- a conflict that exists only under an uncharitable reading of vague wording.
+
+For each conflict, give:
+- kind: "contradiction" when, read literally, the two statements cannot both be true in the common situation;
+  "unresolved" when the conflict comes from general or vague wording and the policy does not say which governs.
+- permit: the exact words of the permitting statement, copied from the policy (one sentence or less), and its
+  section label as shown in the text ([s12] for example).
+- prohibit: the exact words of the prohibiting statement, and its section label.
+- situation: a situation in which both statements apply, at most 30 words.
+- reason: why the policy does not resolve the conflict, at most 40 words.
+- confidence: "high", "medium", or "low".
+
+An empty list is a valid answer. Report only pairs that meet all three conditions.

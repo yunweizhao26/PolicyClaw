@@ -1,0 +1,11 @@
+data/longitudinal_edges/**/edges.jsonl filter=lfs diff=lfs merge=lfs -text
+data/benchmarks/external/*_cases.jsonl filter=lfs diff=lfs merge=lfs -text
+data/conflicts/rule_ambiguity_features.csv filter=lfs diff=lfs merge=lfs -text
+baselines/**/*.pickle filter=lfs diff=lfs merge=lfs -text
+artifact.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.xz filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+experiments/frozen_e0/snapshot/segment_cleanup/*.csv filter=lfs diff=lfs merge=lfs -text
+*.archive.sqlite filter=lfs diff=lfs merge=lfs -text

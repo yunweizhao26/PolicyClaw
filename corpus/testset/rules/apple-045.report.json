@@ -1,0 +1,625 @@
+{
+ "cleaned_sha256": "apple-045",
+ "text_sha256": "6dd91e9db8e44ce273ad013daaa5edeb882431d580c9b1e55b071d0d5a9c74f7",
+ "site_id": "apple-045",
+ "sections": 29,
+ "rules": 377,
+ "report": {
+  "sections": 29,
+  "raw_rules": 319,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "only for so long as is necessary to deliver the Virtual Beauty Programs, to otherwise use for our internal purposes, or to comply with a legal obligation",
+      "no longer than three years from the date you last use the Virtual Beauty Programs unless otherwise required by law"
+     ],
+     "data": {
+      "name": "biometric data",
+      "text": "Virtual Beauty Information"
+     },
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retain",
+     "purpose": [
+      {
+       "text": "to deliver the Virtual Beauty Programs",
+       "name": "service provision"
+      },
+      {
+       "text": "to otherwise use for our internal purposes",
+       "name": "other"
+      },
+      {
+       "text": "to comply with a legal obligation",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for so long as is necessary to deliver the Virtual Beauty Programs, to otherwise use for our internal purposes, or to comply with a legal obligation"
+    ],
+    "section": "apple-045#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "opt-out of the use of artificial intelligence or other automated decision-making technology"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "right to request opt-out of the use",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "make available",
+      "verb": "make available"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt-out of the sale or processing of your personal data for targeted advertising purposes"
+     ],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "make available",
+     "purpose": [
+      {
+       "text": "for targeted advertising as defined under applicable law",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties (such as advertising, analytics, and marketing partners)"
+     },
+     "references": [
+      {
+       "text": "as defined under applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "make available",
+      "verb": "make available"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [
+      "opt-out of the sale or processing of your personal data for targeted advertising purposes"
+     ],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "make available",
+     "purpose": [
+      {
+       "text": "for targeted advertising as defined under applicable law",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties (such as advertising, analytics, and marketing partners)"
+     },
+     "references": [
+      {
+       "text": "as defined under applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "You have a right to submit a request to access"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "right to submit a request to access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Your Choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "delete"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right to submit a request to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Your Choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "correct"
+     ],
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right to submit a request to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Your Choices",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "There are no categories of personal data or sensitive personal data collected through the Ulta Beauty Rewards® program that are sold",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "There are no categories of personal data or sensitive personal data collected through the Ulta Beauty Rewards® program that are sold",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "DENY",
+     "polarity_text": "There are no categories of personal data or sensitive personal data collected through the Ulta Beauty Rewards® program that are sold or processed for targeted advertising",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "DENY",
+     "polarity_text": "There are no categories of personal data or sensitive personal data collected through the Ulta Beauty Rewards® program that are sold or processed for targeted advertising",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third party partner",
+      "text": "Third Party partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third party partner",
+      "text": "Third Party partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third party partner",
+      "text": "Third Party partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "collected through the Ulta Beauty Rewards® program"
+     ],
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third party partner",
+      "text": "Third Party partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ulta"
+     },
+     "conditions": [
+      "If you submit a request to delete your personal data as part of the Colorado Bona Fide Loyalty Program"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "deleting",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-045#s24"
+   }
+  ],
+  "residual_quotes": 31,
+  "quotes": 130,
+  "completeness": {
+   "gaps": 446,
+   "gap_words": 4815
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 130,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 55,
+  "cached": 0,
+  "prompt_tokens": 95992,
+  "completion_tokens": 71500,
+  "thinking_tokens": 0,
+  "seconds": 1087.9689202308655,
+  "failures": 0
+ },
+ "seconds": 1089.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

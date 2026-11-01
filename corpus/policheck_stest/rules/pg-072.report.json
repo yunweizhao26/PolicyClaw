@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "pg-072",
+ "text_sha256": "85bc2df3eb92ad04a88d8e1fc73f6785be1aa31a768d4b657b26a8db30ae4921",
+ "site_id": "pg-072",
+ "sections": 6,
+ "rules": 214,
+ "report": {
+  "sections": 6,
+  "raw_rules": 129,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "clear gifs",
+      "name": "web beacons"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from other third party vendors",
+      "name": "third party"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to gauge the effectiveness of our services and marketing programs",
+       "name": "service analytics"
+      }
+     ],
+     "conditions": [
+      "on the Site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from other third party vendors"
+    ],
+    "section": "pg-072#s4"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 46,
+  "completeness": {
+   "gaps": 142,
+   "gap_words": 1745
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 46,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24048,
+  "completion_tokens": 26102,
+  "thinking_tokens": 0,
+  "seconds": 165.5103781223297,
+  "failures": 0
+ },
+ "seconds": 166.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

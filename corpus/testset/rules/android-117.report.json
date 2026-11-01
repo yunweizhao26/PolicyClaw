@@ -1,0 +1,523 @@
+{
+ "cleaned_sha256": "android-117",
+ "text_sha256": "e5124e83bf64ba673b52710bd64c8b9fa6be441e725a35c60a96b78a6827c61d",
+ "site_id": "android-117",
+ "sections": 10,
+ "rules": 232,
+ "report": {
+  "sections": 10,
+  "raw_rules": 176,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To contact",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates",
+       "name": "administrative communications"
+      }
+     ],
+     "conditions": [
+      "by email, or other equivalent forms of electronic communication, such as a mobile application's push notifications",
+      "when necessary or reasonable for their implementation"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "You have opted not to receive such information"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third-party advertising companies",
+      "name": "advertising network"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to serve ads",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "when you visit the Application"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be able to",
+     "actor": {
+      "text": "other users",
+      "name": "other user"
+     },
+     "data": {
+      "text": "",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "You",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "service provider",
+      "text": "Service Providers"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "are obligated not to disclose",
+     "purpose": [
+      {
+       "text": "for any other purpose",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "service provider",
+      "text": "Service Providers"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "are obligated not to ... use",
+     "purpose": [
+      {
+       "text": "for any other purpose",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Your Rights under the GDPR",
+      "by law if You are within the EU",
+      "Request access to Your Personal Data",
+      "The right to access, update or delete the information We have on You",
+      "Whenever made possible, you can access, update or request deletion of Your Personal Data directly within Your account settings section. If you are unable to perform these actions yourself, please contact Us to assist You"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Your Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "You"
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-117#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Your Rights under the GDPR",
+      "by law if You are within the EU",
+      "Object to processing of Your Personal Data",
+      "where We are relying on a legitimate interest as the legal basis for Our processing and there is something about Your particular situation, which makes You want to object to our processing of Your Personal Data on this ground"
+     ],
+     "exceptions": [
+      "Object to processing of Your Personal Data"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "relying",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "Your Rights under the GDPR",
+      "by law if You are within the EU"
+     ],
+     "exceptions": [
+      "the right to object"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "are processing",
+     "purpose": [
+      {
+       "text": "for direct marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "Us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us",
+      "we may ask You to verify Your identity before responding to such requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rectification",
+     "actor": {
+      "text": "Us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us",
+      "we may ask You to verify Your identity before responding to such requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "cancellation",
+     "actor": {
+      "text": "Us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "cancellation",
+      "verb": "cancel"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us",
+      "we may ask You to verify Your identity before responding to such requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-117#s8"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 271,
+   "gap_words": 2840
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 74,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 46476,
+  "completion_tokens": 43147,
+  "thinking_tokens": 188,
+  "seconds": 498.91956973075867,
+  "failures": 0
+ },
+ "seconds": 499.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

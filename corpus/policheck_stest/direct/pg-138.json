@@ -1,0 +1,22 @@
+{
+ "policy": "pg-138",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Our app may use this permission to get your IMEI as your device ID, so we can provide better service for you.",
+   "prohibit": "We do not collect Personal Information.",
+   "situation": "When the app obtains the user's IMEI / unique device identifier stored on the device.",
+   "reason": "The policy defines Personal Information to include 'information stored within your Device' and blanketly denies collecting Personal Information, yet directly states it obtains the IMEI.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2124,
+  "completion_tokens": 140,
+  "thinking_tokens": 0,
+  "seconds": 2.2560982704162598,
+  "failures": 0
+ }
+}

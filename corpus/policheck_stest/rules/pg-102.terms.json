@@ -1,0 +1,171 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising ID",
+    "automatically collected information": "automatically collected data",
+    "device identifier": "device ID",
+    "information": "data",
+    "user-provided data": "user provided information"
+   },
+   "parents": {
+    "IP address": [
+     "automatically collected data",
+     "device information"
+    ],
+    "advertising ID": [
+     "automatically collected data",
+     "device ID"
+    ],
+    "apps installed": [
+     "automatically collected data"
+    ],
+    "browser type": [
+     "automatically collected data",
+     "device information"
+    ],
+    "browsing and interaction data": [
+     "automatically collected data"
+    ],
+    "device ID": [
+     "device information"
+    ],
+    "device type": [
+     "automatically collected data",
+     "device information"
+    ],
+    "health insurance": [
+     "health information"
+    ],
+    "operating system": [
+     "automatically collected data",
+     "device information"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise location": [
+     "automatically collected data",
+     "location"
+    ],
+    "user provided information": [
+     "user data"
+    ],
+    "automatically collected data": [
+     "user data"
+    ],
+    "device information": [
+     "user data"
+    ],
+    "email address": [
+     "user provided information"
+    ],
+    "name": [
+     "user provided information"
+    ],
+    "phone number": [
+     "user provided information"
+    ],
+    "date of birth": [
+     "age"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "doctor": [
+     "third party"
+    ],
+    "hospital": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "third party provider": [
+     "third party"
+    ],
+    "authorized employees and contractors": [
+     "first party"
+    ],
+    "successor": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "targeted advertising": "advertising"
+   },
+   "parents": {
+    "analytics": [
+     "services"
+    ],
+    "fraud prevention": [
+     "legitimate interests"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "profiling": [
+     "advertising"
+    ],
+    "protection of individuals": [
+     "legitimate interests"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1884,
+  "completion_tokens": 680,
+  "thinking_tokens": 0,
+  "seconds": 9.30289077758789,
+  "failures": 0
+ },
+ "seconds": 9.4
+}

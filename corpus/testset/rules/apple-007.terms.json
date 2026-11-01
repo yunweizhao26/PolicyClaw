@@ -1,0 +1,463 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account credentials",
+    "audio data": "audio",
+    "cookies": "cookie",
+    "device identifier": "device ID",
+    "hardware model": "device hardware model",
+    "imprecise location": "coarse location",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "precise location": "precise geolocation",
+    "previously collected data": "previous information",
+    "service use": "service usage",
+    "unique device identifier": "device ID",
+    "usage data": "service usage",
+    "user data": "information about you",
+    "user information": "information about you",
+    "user profile": "profile",
+    "voice recording": "audio recordings"
+   },
+   "parents": {
+    "IP address": [
+     "identifier"
+    ],
+    "access date and time": [
+     "date and time of visit"
+    ],
+    "advertising ID": [
+     "device ID"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "amount of purchase": [
+     "transaction history"
+    ],
+    "app usage": [
+     "service usage"
+    ],
+    "audio recordings": [
+     "audio"
+    ],
+    "browsing behavior": [
+     "service usage"
+    ],
+    "browsing history": [
+     "service usage"
+    ],
+    "chat logs": [
+     "information you provide"
+    ],
+    "citizenship status": [
+     "sensitive personal data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "comments": [
+     "information you provide"
+    ],
+    "communication preferences": [
+     "preferences"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "date and time of visit": [
+     "date and time stamp"
+    ],
+    "date of purchase": [
+     "transaction history"
+    ],
+    "device ID": [
+     "identifier"
+    ],
+    "device and usage data": [
+     "data"
+    ],
+    "device data": [
+     "device information"
+    ],
+    "device hardware model": [
+     "device information"
+    ],
+    "email address": [
+     "contact information",
+     "identifier"
+    ],
+    "email link clicks": [
+     "service usage"
+    ],
+    "email read timestamp": [
+     "date and time stamp"
+    ],
+    "episodes listened to": [
+     "listening activity"
+    ],
+    "ethnic origin": [
+     "sensitive personal data"
+    ],
+    "favorite channels and shows": [
+     "listening preferences"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "health condition": [
+     "health information"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "identifier": [
+     "personal data"
+    ],
+    "identity information": [
+     "personal data"
+    ],
+    "images": [
+     "content"
+    ],
+    "license plate number": [
+     "vehicle information"
+    ],
+    "listening activity": [
+     "service usage"
+    ],
+    "listening preferences": [
+     "preferences"
+    ],
+    "marital status": [
+     "personal data"
+    ],
+    "military affiliation": [
+     "personal data"
+    ],
+    "mobile network information": [
+     "network information"
+    ],
+    "music and content preferences": [
+     "preferences"
+    ],
+    "name": [
+     "contact information",
+     "identity information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "phone number": [
+     "contact information",
+     "identifier"
+    ],
+    "photos": [
+     "images"
+    ],
+    "podcast episodes content": [
+     "content"
+    ],
+    "podcast usage information": [
+     "service usage"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "purchase and cancellation history": [
+     "transaction history"
+    ],
+    "refunds": [
+     "transaction history"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "songs skipped": [
+     "listening activity"
+    ],
+    "stations and playlists created or listened to": [
+     "listening activity"
+    ],
+    "subscription status": [
+     "account credentials"
+    ],
+    "transaction history": [
+     "transactions"
+    ],
+    "transactions": [
+     "payment information"
+    ],
+    "tune starts": [
+     "listening activity"
+    ],
+    "university name": [
+     "personal data"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ],
+    "user activity": [
+     "service usage"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "username": [
+     "account credentials",
+     "identifier"
+    ],
+    "vehicle identification number": [
+     "identifier",
+     "vehicle information"
+    ],
+    "vehicle make": [
+     "vehicle information"
+    ],
+    "vehicle model": [
+     "vehicle information"
+    ],
+    "vehicle model year": [
+     "vehicle information"
+    ],
+    "vehicle odometer reading": [
+     "vehicle information"
+    ],
+    "video recordings": [
+     "content"
+    ],
+    "voice commands": [
+     "audio recordings"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising and analytics partners": "Third-Party Advertising Entities and Analytics Providers",
+    "advertising and analytics providers": "Third-Party Advertising Entities and Analytics Providers",
+    "advertising networks and analytics providers": "Third-Party Advertising Entities and Analytics Providers",
+    "business partners": "business partner",
+    "service providers": "service provider",
+    "subsidiaries": "Subsidiaries",
+    "subsidiary": "Subsidiaries",
+    "third party": "third parties",
+    "third-party advertising partner": "advertising partner"
+   },
+   "parents": {
+    "Other Sirius XM Users": [
+     "user"
+    ],
+    "Security Vendors": [
+     "service provider",
+     "vendor"
+    ],
+    "ad platforms": [
+     "advertising partner"
+    ],
+    "advertiser": [
+     "advertising entities"
+    ],
+    "advertising entities": [
+     "third parties"
+    ],
+    "advertising partner": [
+     "Third-Party Advertising Entities and Analytics Providers"
+    ],
+    "Subsidiaries": [
+     "affiliate"
+    ],
+    "internal team": [
+     "first party"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "technology service provider": [
+     "service provider"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third parties"
+    ],
+    "unaffiliated third party": [
+     "third parties"
+    ],
+    "vendor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "ad-related partner": [
+     "business partner",
+     "third party"
+    ],
+    "advertising network": [
+     "advertising technology company",
+     "third party"
+    ],
+    "advertising technology company": [
+     "third party"
+    ],
+    "content distribution platform": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "device manufacturer": [
+     "third party"
+    ],
+    "government": [
+     "third party"
+    ],
+    "marketing company": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ],
+    "retailer": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media or third party platforms": [
+     "third party"
+    ],
+    "vehicle": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "SiriusXM": "Sirius XM",
+    "first party": "Sirius XM"
+   },
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "SiriusXM satellite-only radios": [
+     "Enabled Radio"
+    ],
+    "Stripe": [
+     "service provider",
+     "third party"
+    ],
+    "ad-related partners": [
+     "business partner",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "third-party advertisers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "Provide services": "Provide You Services",
+    "advertising": "Advertising",
+    "customer support": "Customer service",
+    "customer-support": "Customer service",
+    "identification across devices": "cross device tracking",
+    "internal operations": "Internal Business Purposes",
+    "operations": "Internal Business Purposes",
+    "personalization": "personalisation",
+    "product improvement": "improve and develop the service",
+    "provide the service": "Provide You Services",
+    "service improvement": "improve and develop the service",
+    "service-provision": "Provide You Services",
+    "services": "Provide You Services",
+    "targeted_advertising": "targeted advertising",
+    "troubleshooting": "debugging"
+   },
+   "parents": {
+    "account management": [
+     "service, account and subscription management",
+     "user accounts"
+    ],
+    "Advertising": [
+     "advertising or marketing"
+    ],
+    "marketing": [
+     "advertising or marketing"
+    ],
+    "targeted advertising": [
+     "Advertising",
+     "advertising or marketing"
+    ],
+    "analytics": [
+     "analytics or reporting",
+     "analytics or research"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "improve and develop the service": [
+     "business operations"
+    ],
+    "debugging": [
+     "Internal Business Purposes"
+    ],
+    "Customer service": [
+     "Provide You Services"
+    ],
+    "Provide You Services": [
+     "business operations"
+    ],
+    "service provision": [
+     "business operations"
+    ],
+    "Internal Business Purposes": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4784,
+  "completion_tokens": 2025,
+  "thinking_tokens": 0,
+  "seconds": 19.25875449180603,
+  "failures": 0
+ },
+ "seconds": 19.4
+}

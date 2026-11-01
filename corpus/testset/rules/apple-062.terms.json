@@ -1,0 +1,335 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "collected information": "any and all information",
+    "data": "any and all information",
+    "device information": "device data",
+    "information": "any and all information",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "user information": "user data",
+    "your data": "user data",
+    "your information": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "browsing history",
+     "device data",
+     "identifiers"
+    ],
+    "URI address": [
+     "browsing history"
+    ],
+    "account identifier": [
+     "identifiers"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifiers"
+    ],
+    "device identifier": [
+     "device data",
+     "identifiers"
+    ],
+    "social network id": [
+     "identifiers",
+     "public profile information"
+    ],
+    "username": [
+     "basic information",
+     "identifiers"
+    ],
+    "browser type": [
+     "browsing history",
+     "device data"
+    ],
+    "operating system": [
+     "browsing history",
+     "device data"
+    ],
+    "device operating system and IT environment parameters": [
+     "browsing history",
+     "device data"
+    ],
+    "device type": [
+     "device data"
+    ],
+    "device data": [
+     "any and all information"
+    ],
+    "coarse location": [
+     "geographic location"
+    ],
+    "country": [
+     "coarse location",
+     "geographic location"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "name": [
+     "Personal Data",
+     "basic information"
+    ],
+    "gender": [
+     "Personal Data"
+    ],
+    "profile picture": [
+     "basic information",
+     "public profile information"
+    ],
+    "friends": [
+     "public profile information"
+    ],
+    "friends list": [
+     "public profile information"
+    ],
+    "basic information": [
+     "public profile information"
+    ],
+    "public profile information": [
+     "Personal Data"
+    ],
+    "game progress": [
+     "usage data"
+    ],
+    "achievements": [
+     "game progress"
+    ],
+    "in-app events": [
+     "usage data"
+    ],
+    "ad impressions": [
+     "ad performance data"
+    ],
+    "clicks": [
+     "ad performance data"
+    ],
+    "ad campaign source data": [
+     "ad performance data"
+    ],
+    "app installations": [
+     "ad performance data"
+    ],
+    "payment details": [
+     "payment information"
+    ],
+    "payment status notification": [
+     "payment information"
+    ],
+    "payment information": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "commercial information",
+     "usage data"
+    ],
+    "commercial information": [
+     "Personal Data"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "chat logs": [
+     "Personal Data"
+    ],
+    "support correspondence": [
+     "Personal Data"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "cookies": [
+     "internet information"
+    ],
+    "browsing history": [
+     "internet information",
+     "usage data"
+    ],
+    "internet information": [
+     "usage data"
+    ],
+    "usage data": [
+     "any and all information"
+    ],
+    "employment records": [
+     "Personal Data"
+    ],
+    "marketing preferences": [
+     "user preferences"
+    ],
+    "user preferences": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "information about you"
+    ],
+    "information about you": [
+     "user data"
+    ],
+    "user data": [
+     "any and all information"
+    ],
+    "anonymized data": [
+     "any and all information"
+    ],
+    "reports and analysis": [
+     "any and all information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "partners": "partner"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "analytics provider": [
+     "third party",
+     "third-party service providers"
+    ],
+    "cloud service provider": [
+     "third party",
+     "third-party service providers"
+    ],
+    "game developer partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "payment service providers": [
+     "third party",
+     "third-party service providers"
+    ],
+    "relevant third party": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "first-party site or app": [
+     "first party services"
+    ],
+    "payment service providers": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Playgendary Limited"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner"
+    ],
+    "advertiser": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "service provider"
+    ],
+    "tracking and fraud prevention provider": [
+     "service provider"
+    ],
+    "third-party development studio": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud_prevention": "fraud prevention",
+    "legal_compliance": "complying with the law",
+    "provide services": "provide service",
+    "provide-service": "provide service",
+    "research": "analytics",
+    "service provision": "service delivery",
+    "service_provision": "service delivery"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "fraud prevention"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "defending our rights before competent authorities": [
+     "legal compliance"
+    ],
+    "complying with the law": [
+     "legal compliance"
+    ],
+    "employment evaluation": [
+     "legitimate_interests"
+    ],
+    "fulfill purchase": [
+     "provide service",
+     "service delivery"
+    ],
+    "provide features": [
+     "provide service",
+     "service delivery"
+    ],
+    "service delivery": [
+     "service provision and improvement"
+    ],
+    "service_improvement": [
+     "service provision and improvement"
+    ],
+    "user experience improvement": [
+     "service_improvement"
+    ],
+    "service development": [
+     "service_improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3321,
+  "completion_tokens": 1586,
+  "thinking_tokens": 0,
+  "seconds": 14.482845544815063,
+  "failures": 0
+ },
+ "seconds": 14.6
+}

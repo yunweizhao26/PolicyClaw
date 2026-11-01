@@ -1,0 +1,285 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "profile or inferential data": "inferences",
+    "sensitive personal information": "sensitive personal data",
+    "your information": "user data"
+   },
+   "parents": {
+    "password": [
+     "account credentials"
+    ],
+    "advertising ID": [
+     "device identifier"
+    ],
+    "city or county-level geolocation information": [
+     "approximate geographic location"
+    ],
+    "approximate geographic location": [
+     "location"
+    ],
+    "billing address": [
+     "postal address",
+     "shipping and billing information"
+    ],
+    "browsing behavior": [
+     "browsing history"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "contact list": [
+     "customer records"
+    ],
+    "social media friends list": [
+     "contact list"
+    ],
+    "credit card number": [
+     "financial data"
+    ],
+    "customer support correspondence content": [
+     "customer support correspondence"
+    ],
+    "device identifier": [
+     "identifiers",
+     "technical device information"
+    ],
+    "device name": [
+     "technical device information"
+    ],
+    "device type": [
+     "technical device information"
+    ],
+    "email link click status": [
+     "usage statistics"
+    ],
+    "email open status": [
+     "usage statistics"
+    ],
+    "email read count": [
+     "usage statistics"
+    ],
+    "purchases": [
+     "purchase history"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "payment amount": [
+     "financial data"
+    ],
+    "photos": [
+     "content"
+    ],
+    "screen captures": [
+     "content"
+    ],
+    "audio video recordings": [
+     "content"
+    ],
+    "profile picture": [
+     "photos"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sensitive or special categories of information": [
+     "personal data"
+    ],
+    "account credentials": [
+     "sensitive personal data"
+    ],
+    "social media handle": [
+     "user identifier"
+    ],
+    "user ID": [
+     "user identifier"
+    ],
+    "username": [
+     "user identifier"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "opinions": [
+     "user feedback data"
+    ],
+    "survey responses": [
+     "user feedback data"
+    ],
+    "partner personal information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "cloud storage provider": [
+     "service provider"
+    ],
+    "online advertising networks": [
+     "advertising network"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "recipients in countries without adequacy or safeguards": [
+     "entities in countries without an adequacy decision"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media companies": [
+     "third party"
+    ],
+    "third-party advertising partners": [
+     "advertising partner",
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "data provider": [
+     "third parties"
+    ],
+    "other users": [
+     "third parties",
+     "user"
+    ],
+    "social network": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "online advertising networks": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "social media companies": [
+     "third party"
+    ],
+    "third-party partners": [
+     "third party"
+    ],
+    "third-party payment processor": [
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation",
+    "targeted advertising": "interest-based advertising",
+    "user identification or authentication": "user authentication"
+   },
+   "parents": {
+    "Audit our internal processes for compliance with legal and contractual requirements or our internal policies": [
+     "compliance"
+    ],
+    "Comply with applicable laws, lawful requests, and legal process, such as to respond to subpoenas or requests from government authorities": [
+     "legal compliance"
+    ],
+    "Conduct and administer surveys, user research projects, competitions and promotional events that you participate in": [
+     "research"
+    ],
+    "Deliver and target advertising and marketing and promotional information to you": [
+     "advertising",
+     "marketing"
+    ],
+    "Enforce the terms and conditions that govern the Services": [
+     "legal enforcement"
+    ],
+    "Identify and suggest connections with other Studio users": [
+     "social networking"
+    ],
+    "Prevent fraud or potentially illegal activities, and enforce our Terms of Use": [
+     "fraud detection and prevention",
+     "legal enforcement"
+    ],
+    "Prevent, identify, investigate, and deter fraudulent, harmful, unauthorized, unethical or illegal activity, including cyberattacks and identity theft": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "Protect our, your or others’ rights, privacy, safety, or property (including by investigating, bringing, making, or defending legal claims)": [
+     "dispute resolution"
+    ],
+    "Provide and deliver products and services you request": [
+     "provide services"
+    ],
+    "Respond to your comments and questions and provide customer service": [
+     "communication"
+    ],
+    "Understand you and your preferences to enhance your experience and enjoyment using our Services": [
+     "personalisation"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "interest-based advertising": [
+     "advertising"
+    ],
+    "legal compliance": [
+     "compliance",
+     "legal"
+    ],
+    "legal enforcement": [
+     "legal"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "user authentication": [
+     "authentication and authorization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4287,
+  "completion_tokens": 1403,
+  "thinking_tokens": 0,
+  "seconds": 16.804597854614258,
+  "failures": 0
+ },
+ "seconds": 16.9
+}

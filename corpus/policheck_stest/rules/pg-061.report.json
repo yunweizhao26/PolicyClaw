@@ -1,0 +1,237 @@
+{
+ "cleaned_sha256": "pg-061",
+ "text_sha256": "801dd32f8e99bcebb38727f7d087d382b625ba45f074f746a60a4bcd2d350ff8",
+ "site_id": "pg-061",
+ "sections": 23,
+ "rules": 258,
+ "report": {
+  "sections": 23,
+  "raw_rules": 190,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "some or all of the technologies described above, such as cookies, SDKs, and other similar technologies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to analyze Site metrics and performance",
+       "name": "analytics"
+      },
+      {
+       "text": "analyze our visitors’ preferences",
+       "name": "analytics"
+      },
+      {
+       "text": "address any technical issues",
+       "name": "service-provision"
+      },
+      {
+       "text": "optimize our online services for a better user experience",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [
+      "through third-party analytics services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "through third-party analytics services"
+    ],
+    "section": "pg-061#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "consumer personal information",
+      "text": "all categories of consumer personal information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retain",
+     "purpose": [
+      {
+       "text": "to:\nProvide services to our customers who are actively engaging with us and for a set time period thereafter",
+       "name": "services"
+      },
+      {
+       "text": "to:\nComply with applicable labor, tax, and immigration laws’",
+       "name": "compliance"
+      },
+      {
+       "text": "to:\nComply with other regulatory requirements",
+       "name": "compliance"
+      },
+      {
+       "text": "to:\nInvestigate security incidents or other investigations as may be necessary",
+       "name": "security"
+      },
+      {
+       "text": "to:\nInvestigate and respond to complaints",
+       "name": "customer support"
+      },
+      {
+       "text": "to:\nPreserve intellectual property rights",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to:\nAssist in the defense or prosecution of any litigated or threatened matters",
+       "name": "legal compliance"
+      }
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nComply with applicable labor, tax, and immigration laws’",
+     "to:\nComply with other regulatory requirements",
+     "to:\nInvestigate security incidents or other investigations as may be necessary",
+     "to:\nInvestigate and respond to complaints",
+     "to:\nPreserve intellectual property rights",
+     "to:\nAssist in the defense or prosecution of any litigated or threatened matters"
+    ],
+    "section": "pg-061#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly solicit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "children under the age of 18",
+      "name": "children"
+     },
+     "action": {
+      "text": "solicit",
+      "verb": "solicit"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly solicit"
+    ],
+    "section": "pg-061#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "about you in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "pg-061#s15"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 88,
+  "completeness": {
+   "gaps": 316,
+   "gap_words": 3818
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 88,
+  "compile_failures": 3,
+  "fixed_structurally": 2,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 73964,
+  "completion_tokens": 38081,
+  "thinking_tokens": 817,
+  "seconds": 280.6519396305084,
+  "failures": 0
+ },
+ "seconds": 282.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

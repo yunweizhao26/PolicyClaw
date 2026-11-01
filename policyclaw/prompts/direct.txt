@@ -1,0 +1,17 @@
+Read this privacy policy and decide whether it permits the data flow in the scenario.
+
+Answers:
+- permitted: the policy states or clearly implies that the flow may happen in this context.
+- prohibited: the policy states that the flow does not happen in this context.
+- conditional: the policy decides the flow only once a fact that the scenario leaves out is known. Name that fact.
+- conflict: the policy both permits and prohibits the flow in this context.
+- not_addressed: the policy does not describe this flow.
+
+Policy:
+<<<
+{policy}
+>>>
+
+Scenario: {scenario}
+
+Return only JSON: {{"answer": one of "permitted", "prohibited", "conditional", "conflict", "not_addressed", "missing_fact": "..." or "", "evidence": [verbatim quotes from the policy]}}

@@ -1,0 +1,147 @@
+{
+ "cleaned_sha256": "android-126",
+ "text_sha256": "34936c43c7cd99ba0490801dad6e5aae064c4c1895a389edc3e20878afc9657c",
+ "site_id": "android-126",
+ "sections": 3,
+ "rules": 22,
+ "report": {
+  "sections": 3,
+  "raw_rules": 22,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only use",
+     "actor": {
+      "text": "TAPNATION",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Reviewing your game project and considering it for publication",
+       "name": "other"
+      },
+      {
+       "text": "Sending informational letters or commercial offers pertaining to TAPNATION and JamNation, or event invitations",
+       "name": "marketing"
+      },
+      {
+       "text": "Carrying out marketing, sales, or canvassing operations tailored to your needs",
+       "name": "marketing"
+      },
+      {
+       "text": "Fulfilling contractual and pre-contractual obligations",
+       "name": "perform services"
+      },
+      {
+       "text": "Offering services that meet your expectations",
+       "name": "perform services"
+      },
+      {
+       "text": "Processing your application and making an offer that matches your profile",
+       "name": "recruitment"
+      }
+     ],
+     "conditions": [
+      "when strictly necessary for the objectives described below, on the following legal bases: Legal bases Objectives Your consent Fulfilling contracts Our legitimate interests in recruiting qualified talent"
+     ],
+     "exceptions": [
+      "the company deems that there is a reason to process your Personal Data for purposes that are compatible with these original objectives"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when strictly necessary for the objectives described below, on the following legal bases: Legal bases Objectives Your consent Fulfilling contracts Our legitimate interests in recruiting qualified talent"
+    ],
+    "section": "android-126#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "TAPNATION",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access to all of your Personal Data and a copy of it",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "you also have the right to obtain confirmation of whether or not TAPNATION is processing your Personal Data, and, if applicable, access to all of your Personal Data and a copy of it",
+      "If you wish to exercise any of your rights, please send a request to TAPNATION along with a copy of an identity document"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-126#s3"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 19,
+  "completeness": {
+   "gaps": 74,
+   "gap_words": 681
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 19,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 9470,
+  "completion_tokens": 4539,
+  "thinking_tokens": 0,
+  "seconds": 97.29064297676086,
+  "failures": 0
+ },
+ "seconds": 97.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "cleaned_sha256": "pg-067",
+ "text_sha256": "5e85c35fcd6c21c613d0200e3977be236cc08dbbf9274f1a6767b9c4992fa9e5",
+ "site_id": "pg-067",
+ "sections": 4,
+ "rules": 94,
+ "report": {
+  "sections": 4,
+  "raw_rules": 85,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when sending messages:\nTo yourself",
+      "with your consent"
+     ],
+     "data": {
+      "name": "email address",
+      "text": "Email"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might contact",
+     "purpose": [
+      {
+       "text": "Direct Marketing",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "pg-067#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when sending messages:\nTo yourself",
+      "with your consent"
+     ],
+     "data": {
+      "name": "in-app message address",
+      "text": "Message Within app"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might contact",
+     "purpose": [
+      {
+       "text": "Direct Marketing",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "pg-067#s4"
+   }
+  ],
+  "residual_quotes": 2,
+  "quotes": 12,
+  "completeness": {
+   "gaps": 100,
+   "gap_words": 595
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 12,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 7,
+  "cached": 0,
+  "prompt_tokens": 12853,
+  "completion_tokens": 12493,
+  "thinking_tokens": 0,
+  "seconds": 66.13544297218323,
+  "failures": 0
+ },
+ "seconds": 66.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

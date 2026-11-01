@@ -1,0 +1,85 @@
+{
+ "cleaned_sha256": "web-006",
+ "text_sha256": "d258dfcdfecb6936f8f7cb63b13a639c77b7e251c193dfefe2210062cfef8150",
+ "site_id": "web-006",
+ "sections": 12,
+ "rules": 74,
+ "report": {
+  "sections": 12,
+  "raw_rules": 70,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "carry out",
+      "verb": "carry out"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Gandi"
+     },
+     "conditions": [
+      "as the case may be, on the basis of a legal obligation, your consent, a contractual relationship with you, and/or for the pursuit of its legitimate interests"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "for profiling and segmentation purposes for targeted marketing, audience measurement and performance measurement",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "polarity_text": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-006#s4"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 37,
+  "completeness": {
+   "gaps": 211,
+   "gap_words": 1486
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 37,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 22,
+  "cached": 0,
+  "prompt_tokens": 34809,
+  "completion_tokens": 13119,
+  "thinking_tokens": 0,
+  "seconds": 477.7149453163147,
+  "failures": 0
+ },
+ "seconds": 478.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

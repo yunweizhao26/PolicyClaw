@@ -1,0 +1,285 @@
+{
+ "cleaned_sha256": "android-199",
+ "text_sha256": "b05fd0ec3ca8d316f38d4813cdc60a3942efc38a34f56633c642ea25dcc958f1",
+ "site_id": "android-199",
+ "sections": 23,
+ "rules": 252,
+ "report": {
+  "sections": 23,
+  "raw_rules": 216,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collection",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "With regard to PI that qualifies as Sensitive PI under U.S. State Privacy Laws",
+      "if you elect to provide us with that Sensitive PI, you will have consented to our collection and processing of it"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "consented to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "U.S. State Privacy Laws",
+       "name": "U.S. State Privacy Laws",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-199#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "With regard to PI that qualifies as Sensitive PI under U.S. State Privacy Laws",
+      "if you elect to provide us with that Sensitive PI, you will have consented to our collection and processing of it"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "consented to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "U.S. State Privacy Laws",
+       "name": "U.S. State Privacy Laws",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-199#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "limit",
+      "verb": "limit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "You may submit a request to limit certain processing of your Sensitive PI to the following address: AppLock, LLC, One East Erie Street, Suite 525 (#342), Chicago, Illinois 60611 or by email at\n[email protected]"
+     ],
+     "exceptions": [
+      "To perform our Services at your request or at your direction",
+      "To prevent, detect, and investigate security incidents, fraudulent activity, and illegal actions",
+      "For short term transient use, including, but not limited to, non-personalized advertising as part of your interaction with our Services",
+      "To maintain or service accounts, provide User service, verify User information, or provide similar services",
+      "any other purposes permitted by law"
+     ],
+     "operation": "restriction",
+     "polarity": "ALLOW",
+     "polarity_text": "limit",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable U.S. State Privacy Laws",
+       "name": "U.S. State Privacy Laws",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-199#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access to",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "the Company"
+     },
+     "conditions": [
+      "Consumers have the right under U.S. State Privacy Laws to request access to PI maintained by the Company",
+      "provided any such request meets the requirements for a Verifiable Consumer Request (defined below)"
+     ],
+     "exceptions": [
+      "This right may be limited in some circumstances by law"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "Consumers"
+     },
+     "references": [
+      {
+       "text": "U.S. State Privacy Laws",
+       "name": "U.S. State Privacy Laws",
+       "target": "law"
+      },
+      {
+       "text": "Section C",
+       "name": "Section C",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-199#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "For residents of the United Kingdom, New Zealand, Canada, or Australia",
+      "If you are a resident of one of these countries",
+      "Whenever made possible",
+      "by contacting us at\n[email protected]"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-199#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "Personal Information AppLock may have collected about you",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "For residents of the United Kingdom, New Zealand, Canada, or Australia",
+      "If you are a resident of one of these countries",
+      "please contact us by email at\n[email protected]"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-199#s23"
+   }
+  ],
+  "residual_quotes": 41,
+  "quotes": 135,
+  "completeness": {
+   "gaps": 409,
+   "gap_words": 5136
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 58,
+  "translated_quotes": 135,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 43,
+  "cached": 0,
+  "prompt_tokens": 76203,
+  "completion_tokens": 46373,
+  "thinking_tokens": 0,
+  "seconds": 1005.6139891147614,
+  "failures": 0
+ },
+ "seconds": 1007.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

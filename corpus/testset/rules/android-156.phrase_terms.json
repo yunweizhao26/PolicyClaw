@@ -1,0 +1,51 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "such PII": "any PII",
+    "your PII": "any PII",
+    "your personal information": "any PII"
+   },
+   "parents": {
+    "email address": [
+     "any PII"
+    ],
+    "your name": [
+     "any PII"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "we": "We"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "to further market our products": [
+     "for commercial gains"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 954,
+  "completion_tokens": 242,
+  "thinking_tokens": 0,
+  "seconds": 20.10259199142456,
+  "failures": 0
+ },
+ "seconds": 20.2
+}

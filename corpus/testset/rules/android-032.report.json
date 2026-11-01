@@ -1,0 +1,248 @@
+{
+ "cleaned_sha256": "android-032",
+ "text_sha256": "fa7f3c09c4beca8910cc4937843c99b4aaa8a0baca251a6cd713568dcf0acc0f",
+ "site_id": "android-032",
+ "sections": 15,
+ "rules": 266,
+ "report": {
+  "sections": 15,
+  "raw_rules": 227,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "To notify you of important changes to our Services such as the revision of terms, planned discontinuation of services, or change of features",
+       "name": "service updates"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-032#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "4.c.Examples of Security and prevention of and measures against unauthorized use",
+      "For example, in the following cases, we will use Personal Data for the security and prevention of and measures against unauthorized use:",
+      "in the event of any unauthorized use or the possibility of any unauthorized use"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "contact you in the event of any unauthorized use or the possibility of any unauthorized use",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-032#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "4.d.Examples of Provisions of our Services optimized for you",
+      "For example, in the following cases, we will use Personal Data for providing optimized contents to users:"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "To send and distribute LINE official account messages and surveys, etc.",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-032#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "distribute",
+      "verb": "distribute"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "4.d.Examples of Provisions of our Services optimized for you",
+      "For example, in the following cases, we will use Personal Data for providing optimized contents to users:"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "purpose": [
+      {
+       "text": "To send and distribute LINE official account messages and surveys, etc.",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-032#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provision",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "additional Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "such Partners",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provision",
+      "verb": "provide"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In certain services or features for some Partners",
+      "before you use such services or features",
+      "with your permission regarding the provision of additional Personal Data to such Partners"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your permission regarding the provision of additional Personal Data to such Partners"
+    ],
+    "section": "android-032#s10"
+   }
+  ],
+  "residual_quotes": 42,
+  "quotes": 109,
+  "completeness": {
+   "gaps": 358,
+   "gap_words": 3493
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 109,
+  "compile_failures": 3,
+  "fixed_structurally": 1,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 61307,
+  "completion_tokens": 41675,
+  "thinking_tokens": 0,
+  "seconds": 308.69115805625916,
+  "failures": 0
+ },
+ "seconds": 309.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

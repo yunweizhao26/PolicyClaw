@@ -1,0 +1,132 @@
+{
+ "cleaned_sha256": "web-172",
+ "text_sha256": "198dbe81facebb131dfd72a42de772a12e923e6b2b39830b59c261ea4d2e8f7e",
+ "site_id": "web-172",
+ "sections": 5,
+ "rules": 161,
+ "report": {
+  "sections": 5,
+  "raw_rules": 111,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to:\nAccess",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information that we have collected",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the European Union",
+      "To gain access to... your personal data... visit your user account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-172#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to:\nReceive",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information in a structured and standard machine readable format",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Receive",
+      "verb": "receive"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you reside in the European Union"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right to:\nReceive"
+    ],
+    "section": "web-172#s4"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 54,
+  "completeness": {
+   "gaps": 139,
+   "gap_words": 1476
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 30,
+  "translated_quotes": 54,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24529,
+  "completion_tokens": 23216,
+  "thinking_tokens": 0,
+  "seconds": 164.44895362854004,
+  "failures": 0
+ },
+ "seconds": 165.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

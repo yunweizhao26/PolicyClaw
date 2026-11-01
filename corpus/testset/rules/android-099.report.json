@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "android-099",
+ "text_sha256": "d0343faed63e57f54cf4ccec46c7213c6e79f2c6850b5e343b728de4bce8fce8",
+ "site_id": "android-099",
+ "sections": 7,
+ "rules": 105,
+ "report": {
+  "sections": 7,
+  "raw_rules": 76,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to obtain",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restriction",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "in certain circumstances",
+      "You have the right to obtain restriction of processing"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 18 of the GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-099#s6"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 56,
+  "completeness": {
+   "gaps": 119,
+   "gap_words": 1098
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 56,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 27796,
+  "completion_tokens": 15854,
+  "thinking_tokens": 0,
+  "seconds": 186.55051231384277,
+  "failures": 0
+ },
+ "seconds": 187.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

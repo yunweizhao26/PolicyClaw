@@ -1,0 +1,348 @@
+{
+ "cleaned_sha256": "android-173",
+ "text_sha256": "9c82351211e8bad15f88b280fe3a2f250e1a5cfe56e1e4e4ffe0f86ea0bde321",
+ "site_id": "android-173",
+ "sections": 25,
+ "rules": 256,
+ "report": {
+  "sections": 25,
+  "raw_rules": 201,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "DENY",
+     "polarity_text": "do not process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when you are unauthenticated (not signed in) separately from any Account Personal Data that directly identifies you, such as your name, email address, or other"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "store",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Where required by law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "from you"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "link",
+      "verb": "link"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "link",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "if used by you",
+      "If you choose not to provide the information needed to use a feature, you will not be able to use the respective feature"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "require",
+     "purpose": [
+      {
+       "text": "to provide such features",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us (our authorized employees/ representatives/ Data Processors)"
+     },
+     "conditions": [
+      "Once provided",
+      "on the following grounds: (i) the Processing is necessary for the performance of a contract to which you as Data Subject are party or in order to take steps at your request prior to entering into any such contract; (ii) the Processing is necessary for compliance with a legal obligation to which we as Data Controller are subject; and (iii) the Processing is necessary for the purposes of the legitimate interests pursued by us as Data Controller or by a third party, except where such interests are overridden by your interests or fundamental rights and freedoms as Data Subject which require protection of Personal Data, in particular where you are a Child"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "the Data Controller"
+     },
+     "conditions": [
+      "When you have consented to your Personal Data being processed by the Data Controller for direct marketing and remarketing purposes"
+     ],
+     "exceptions": [
+      "you have the right to object/ opt out to this at any time in one of the ways described below"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [
+      {
+       "text": "direct marketing and remarketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "right not to be the subject of",
+     "actor": {
+      "text": "the Data Controller",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "decision based solely on automated processing, including profiling",
+      "verb": "decide"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "which has legal consequences for you and affects you significantly"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "respond",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion requests",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Upon verifying your identity",
+      "deletion requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-173#s24"
+   }
+  ],
+  "residual_quotes": 40,
+  "quotes": 133,
+  "completeness": {
+   "gaps": 400,
+   "gap_words": 5237
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 15,
+  "translated_quotes": 133,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 88175,
+  "completion_tokens": 46642,
+  "thinking_tokens": 614,
+  "seconds": 1300.180550813675,
+  "failures": 0
+ },
+ "seconds": 1301.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

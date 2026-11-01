@@ -1,0 +1,218 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account name": "Cashtag",
+    "browsing-history": "browsing history",
+    "browsing_history": "browsing history",
+    "contacts": "contact list",
+    "device information": "device data",
+    "device_information": "device data",
+    "government_issued_identification_number": "government identification number",
+    "inferred_characteristics": "inferences",
+    "information": "data",
+    "information about you": "data about you",
+    "information_about_you": "data about you",
+    "interests": "interest categories",
+    "personal information": "personal data",
+    "personal-data": "personal data",
+    "personal_data": "personal data",
+    "personal_information": "personal data",
+    "user_photo": "photographs",
+    "your information": "your data"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers",
+     "location"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "financial card details": [
+     "financial account number"
+    ],
+    "financial transaction history": [
+     "financial transactions"
+    ],
+    "financial transactions": [
+     "transaction_information"
+    ],
+    "payment_history": [
+     "financial transaction history"
+    ],
+    "precise_geolocation": [
+     "location"
+    ],
+    "recipient contact details": [
+     "personal data"
+    ],
+    "transaction amount": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "transaction_information"
+    ],
+    "transacting party names": [
+     "name",
+     "transaction details"
+    ],
+    "photographs": [
+     "biometric data"
+    ],
+    "work schedule": [
+     "timecard information"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "opt-out preference signals": [
+     "preferences"
+    ],
+    "browsing history": [
+     "internet activity",
+     "online activity"
+    ],
+    "internet activity": [
+     "online activity"
+    ],
+    "online activity": [
+     "usage data"
+    ],
+    "activity data": [
+     "usage data"
+    ],
+    "service usage information": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "merchant": "Square Sellers"
+   },
+   "parents": {
+    "Square Sellers": [
+     "third party"
+    ],
+    "advertising partner": [
+     "service provider",
+     "third party"
+    ],
+    "affiliates": [
+     "first party"
+    ],
+    "credit_reporting_agency": [
+     "financial_relationship_entities",
+     "third party"
+    ],
+    "financial_relationship_entities": [
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user_device": "user device"
+   },
+   "parents": {
+    "affiliates": [
+     "group_companies"
+    ],
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "employee": [
+     "first party"
+    ],
+    "agent": [
+     "representative"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party application or website": [
+     "third party"
+    ],
+    "Gigs Wireless": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "legal-compliance": "legal compliance",
+    "marketing": "advertising",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "analytics": [
+     "analytics-or-research"
+    ],
+    "credit_checking": [
+     "analytics-or-research",
+     "verification"
+    ],
+    "service improvement": [
+     "analytics"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "customer support": [
+     "service-operation-and-support"
+    ],
+    "fraud-detection": [
+     "fraud prevention and security",
+     "fraud_prevention"
+    ],
+    "fraud_prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service provision": [
+     "operations"
+    ],
+    "service-operation-and-support": [
+     "operations"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3657,
+  "completion_tokens": 1164,
+  "thinking_tokens": 0,
+  "seconds": 14.584275722503662,
+  "failures": 0
+ },
+ "seconds": 14.8
+}

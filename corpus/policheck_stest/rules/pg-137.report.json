@@ -1,0 +1,179 @@
+{
+ "cleaned_sha256": "pg-137",
+ "text_sha256": "26ea6fb0a1626fc4ee71f6d04a45af713bece725d10c273a2f3dc3389c1bcdea",
+ "site_id": "pg-137",
+ "sections": 9,
+ "rules": 172,
+ "report": {
+  "sections": 9,
+  "raw_rules": 154,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "we require you to put your request in writing"
+     ],
+     "exceptions": [
+      "some exceptions provided by law"
+     ],
+     "references": [
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-137#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rights",
+     "actor": {
+      "text": "Cricket Australia",
+      "name": "Cricket Australia"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "This section only applies to you if you are using our website(s) or interacting with Cricket Australia from the UK or European Union or otherwise benefit from rights as a data subject under the UK Data Protection Act 2018\n(GDPR)",
+      "to request access to your personal information"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "UK Data Protection Act 2018",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-137#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "ensuring",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "for a legitimate interest",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "prior to profiling your information for a legitimate interest, that our legitimate interest is not overridden by your own interests or fundamental rights and freedoms"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ensuring"
+    ],
+    "section": "pg-137#s8"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 66,
+  "completeness": {
+   "gaps": 221,
+   "gap_words": 2476
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 66,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 37290,
+  "completion_tokens": 28436,
+  "thinking_tokens": 0,
+  "seconds": 199.7350435256958,
+  "failures": 0
+ },
+ "seconds": 200.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

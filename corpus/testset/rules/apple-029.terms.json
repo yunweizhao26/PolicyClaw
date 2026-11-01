@@ -1,0 +1,341 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "accessibility requirements": "accessibility data",
+    "contact information": "contact details",
+    "cookies": "browser cookie",
+    "customer support interaction": "customer service communication",
+    "health information": "health data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "tax identifier": "tax id",
+    "user data": "Personal Information",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "accessibility data": [
+     "health data"
+    ],
+    "accessible ticket request": [
+     "accessibility data",
+     "ticket information"
+    ],
+    "age range": [
+     "demographic information"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "browser cookie": [
+     "electronic network activity"
+    ],
+    "browser type": [
+     "device properties"
+    ],
+    "browsing activity": [
+     "electronic network activity"
+    ],
+    "contact and billing information": [
+     "contact details",
+     "payment data"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "credit card number": [
+     "financial transaction details",
+     "payment data"
+    ],
+    "customer service communication": [
+     "information you provide"
+    ],
+    "demographic information": [
+     "Personal Information"
+    ],
+    "device identifier": [
+     "unique identifier"
+    ],
+    "device properties": [
+     "electronic network activity"
+    ],
+    "device type": [
+     "device properties"
+    ],
+    "driver's license number": [
+     "government issued id"
+    ],
+    "email address": [
+     "contact details",
+     "name and email address"
+    ],
+    "entry and exit times": [
+     "electronic network activity"
+    ],
+    "exit url": [
+     "browsing activity"
+    ],
+    "favorites": [
+     "preferences"
+    ],
+    "financial transaction details": [
+     "purchase history"
+    ],
+    "form data": [
+     "information you provide"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "geodemographic information": [
+     "demographic information",
+     "location"
+    ],
+    "government issued id": [
+     "sensitive personal information"
+    ],
+    "health data": [
+     "sensitive personal information"
+    ],
+    "information about events user likes": [
+     "preferences"
+    ],
+    "ip address": [
+     "unique identifier"
+    ],
+    "likeness": [
+     "biometric data"
+    ],
+    "location": [
+     "Personal Information"
+    ],
+    "name": [
+     "contact details",
+     "name and email address"
+    ],
+    "passport number": [
+     "government issued id"
+    ],
+    "payment data": [
+     "financial transaction details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "biometric data"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise geolocation": [
+     "location",
+     "sensitive personal information"
+    ],
+    "products user buys": [
+     "purchase history"
+    ],
+    "pseudonym": [
+     "name"
+    ],
+    "purchase history": [
+     "Personal Information"
+    ],
+    "referring url": [
+     "browsing activity"
+    ],
+    "review": [
+     "information you provide"
+    ],
+    "reviewer information": [
+     "user profile"
+    ],
+    "seat location": [
+     "ticket information"
+    ],
+    "seller information": [
+     "user profile"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "social media handle": [
+     "contact details"
+    ],
+    "social media post": [
+     "information you provide"
+    ],
+    "social security number": [
+     "government issued id",
+     "tax id"
+    ],
+    "survey response": [
+     "information you provide"
+    ],
+    "tax id": [
+     "government issued id"
+    ],
+    "text messaging originator opt-in data": [
+     "consent"
+    ],
+    "ticket information": [
+     "purchase history"
+    ],
+    "ticket purchase information": [
+     "purchase history",
+     "ticket information"
+    ],
+    "unique identifier": [
+     "electronic network activity"
+    ],
+    "user profile": [
+     "Personal Information"
+    ],
+    "voice recording": [
+     "biometric data"
+    ],
+    "web beacon": [
+     "electronic network activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "commercial partners": "Commercial Partners",
+    "event partners": "Event Partner(s)"
+   },
+   "parents": {
+    "Event Partner(s)": [
+     "business partner"
+    ],
+    "Forter, Inc.": [
+     "service provider",
+     "technical service provider"
+    ],
+    "technical service provider": [
+     "service provider"
+    ],
+    "local and government officials": [
+     "government agency"
+    ],
+    "government agency": [
+     "government agency or investigatory body"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "Commercial Partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party related to service": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "data controller"
+   },
+   "parents": {
+    "Braintree": [
+     "payment processor",
+     "third party"
+    ],
+    "Forter, Inc.": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party ecommerce site": [
+     "third party"
+    ],
+    "third-party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "fraud-prevention-and-security": "fraud prevention and security",
+    "legal compliance": "compliance with legal obligations",
+    "service-provision": "service provision",
+    "support": "customer support"
+   },
+   "parents": {
+    "contact attendees": [
+     "communication"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "profiling or targeted advertising"
+    ],
+    "profiling": [
+     "profiling or targeted advertising"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "order fulfillment": [
+     "contractual fulfillment",
+     "service-fulfillment"
+    ],
+    "payment processing": [
+     "complete transaction"
+    ],
+    "complete transaction": [
+     "contractual fulfillment"
+    ],
+    "service-fulfillment": [
+     "contractual fulfillment"
+    ],
+    "customer support": [
+     "service-related provision"
+    ],
+    "compliance with legal obligations": [
+     "legal-compliance-and-disputes",
+     "reporting or compliance"
+    ],
+    "dispute resolution": [
+     "legal-compliance-and-disputes"
+    ],
+    "verification": [
+     "fraud prevention and security"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3115,
+  "completion_tokens": 1520,
+  "thinking_tokens": 0,
+  "seconds": 16.75920557975769,
+  "failures": 0
+ },
+ "seconds": 16.9
+}

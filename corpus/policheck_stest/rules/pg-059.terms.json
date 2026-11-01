@@ -1,0 +1,158 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "analytics data": "analytics",
+    "device information": "device details",
+    "information": "data",
+    "user name": "account name"
+   },
+   "parents": {
+    "unique device identifier": [
+     "device identifiers"
+    ],
+    "device identifiers": [
+     "device details"
+    ],
+    "device details": [
+     "information collected"
+    ],
+    "analytics": [
+     "usage information"
+    ],
+    "gameplay history": [
+     "usage information"
+    ],
+    "in-app purchase history": [
+     "usage information"
+    ],
+    "browsing history": [
+     "usage information"
+    ],
+    "usage information": [
+     "information collected"
+    ],
+    "account identifier": [
+     "personal information"
+    ],
+    "account name": [
+     "personal information"
+    ],
+    "legal name": [
+     "personal information"
+    ],
+    "email address": [
+     "personal information"
+    ],
+    "phone number": [
+     "personal information"
+    ],
+    "postal address": [
+     "personal information"
+    ],
+    "location": [
+     "personal information"
+    ],
+    "age": [
+     "personal information"
+    ],
+    "gender": [
+     "personal information"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "health information": [
+     "sensitive personal information"
+    ],
+    "race or ethnic origin": [
+     "sensitive personal information"
+    ],
+    "sexual orientation": [
+     "sensitive personal information"
+    ],
+    "sensitive personal information": [
+     "personal information"
+    ],
+    "personal information": [
+     "information collected"
+    ],
+    "user provided info": [
+     "information collected"
+    ],
+    "support communication content": [
+     "user provided info"
+    ],
+    "information collected": [
+     "data"
+    ],
+    "backups": [
+     "data"
+    ],
+    "remote data": [
+     "data"
+    ],
+    "sensor data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "operate our games and our business": "business operations"
+   },
+   "parents": {
+    "ad performance attribution": [
+     "marketing"
+    ],
+    "backup and restore": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "business operations": [
+     "services"
+    ],
+    "service provision": [
+     "business operations",
+     "services"
+    ],
+    "operational activities": [
+     "business operations",
+     "services"
+    ],
+    "service improvement": [
+     "business operations",
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1339,
+  "completion_tokens": 609,
+  "thinking_tokens": 0,
+  "seconds": 14.008516073226929,
+  "failures": 0
+ },
+ "seconds": 14.1
+}

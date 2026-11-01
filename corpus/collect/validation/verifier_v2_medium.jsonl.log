@@ -1,0 +1,61 @@
+pages=575 kept=0 to_verify=575 model=gemini-3.8-flash cache=/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/collect/llm_cache
+50/575 done, 38s
+100/575 done, 63s
+150/575 done, 91s
+200/575 done, 119s
+250/575 done, 151s
+300/575 done, 180s
+350/575 done, 212s
+400/575 done, 241s
+450/575 done, 275s
+500/575 done, 300s
+550/575 done, 327s
+575/575 done, 353s
+{
+  "pages": 575,
+  "errors": 0,
+  "labels": {
+    "partial_policy": 56,
+    "complete_policy": 470,
+    "not_policy": 27,
+    "cookie_only": 8,
+    "other_legal": 14
+  },
+  "pages_with_model_calls": 575,
+  "totals": {
+    "calls": 575,
+    "cached": 0,
+    "failures": 0,
+    "prompt_tokens": 2192674,
+    "completion_tokens": 137196,
+    "thinking_tokens": 424895,
+    "seconds": 4074.75
+  },
+  "per_page_with_model_calls": {
+    "prompt_tokens": {
+      "mean": 3813.3,
+      "median": 3812,
+      "p95": 4824.2,
+      "max": 5226
+    },
+    "completion_tokens": {
+      "mean": 238.6,
+      "median": 236,
+      "p95": 341.4,
+      "max": 548
+    },
+    "thinking_tokens": {
+      "mean": 738.9,
+      "median": 394,
+      "p95": 2772.6,
+      "max": 8573
+    }
+  },
+  "truncated_pages": 148,
+  "model": "gemini-3.8-flash",
+  "prompt": "v2",
+  "thinking_level": "MEDIUM",
+  "input_rows": 575,
+  "threads": 12,
+  "wall_seconds": 353.0
+}

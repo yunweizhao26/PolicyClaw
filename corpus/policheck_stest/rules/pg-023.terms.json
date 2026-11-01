@@ -1,0 +1,217 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial data",
+    "gps coordinates": "GPS data",
+    "information of you": "information about you",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "GPS data": [
+     "data"
+    ],
+    "Wi-Fi network data": [
+     "data"
+    ],
+    "account deactivation date and time": [
+     "date and time stamp"
+    ],
+    "ad click date and time": [
+     "date and time stamp"
+    ],
+    "address": [
+     "contact information",
+     "location derived from ip address"
+    ],
+    "app opened date": [
+     "date and time stamp"
+    ],
+    "app opened time": [
+     "date and time stamp"
+    ],
+    "billing information": [
+     "financial data"
+    ],
+    "browsing history": [
+     "website activity"
+    ],
+    "cell tower data": [
+     "data"
+    ],
+    "certified financial information": [
+     "financial data"
+    ],
+    "credit card number": [
+     "financial data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "feedback content": [
+     "customer support communications"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "location derived from ip address": [
+     "data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "order id": [
+     "transaction id"
+    ],
+    "personal data": [
+     "data",
+     "information about you"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photos": [
+     "camera content"
+    ],
+    "profile photos": [
+     "photos",
+     "profile information"
+    ],
+    "purchase date and time": [
+     "date and time stamp"
+    ],
+    "purchase expiry time": [
+     "date and time stamp"
+    ],
+    "selfie": [
+     "photos"
+    ],
+    "selfie video": [
+     "video"
+    ],
+    "service access date and time": [
+     "date and time stamp"
+    ],
+    "unspecified data": [
+     "data"
+    ],
+    "unspecified personal information": [
+     "personal data"
+    ],
+    "video": [
+     "camera content"
+    ],
+    "website activity": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "representative": "agent",
+    "third-party provider": "service provider"
+   },
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "authorities": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "contractor": [
+     "third party"
+    ],
+    "credit card company": [
+     "financial institution",
+     "third party"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "matches": [
+     "users of WooPlus App"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "users of WooPlus App": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "public"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "matches": [
+     "other user"
+    ],
+    "Apple": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance and legal",
+    "service provision": "service operation"
+   },
+   "parents": {
+    "account verification": [
+     "identity verification",
+     "verification"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "billing": [
+     "service operation"
+    ],
+    "customer support": [
+     "service operation"
+    ],
+    "compliance or legal operations": [
+     "compliance and legal"
+    ],
+    "dispute resolution": [
+     "compliance and legal"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2487,
+  "completion_tokens": 843,
+  "thinking_tokens": 0,
+  "seconds": 10.554405927658081,
+  "failures": 0
+ },
+ "seconds": 10.6
+}

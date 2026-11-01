@@ -1,0 +1,220 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware_identifier": "device serial number",
+    "home address": "address",
+    "other_location_data": "device installation location",
+    "personal information": "personal data",
+    "postal_address": "address",
+    "postal_code": "postal code",
+    "sensor_data": "sensor data",
+    "setup information": "other_user_information",
+    "technical information": "technical data",
+    "technical_data": "technical device information"
+   },
+   "parents": {
+    "HVAC usage time and duration": [
+     "heating and cooling usage information"
+    ],
+    "Wi-Fi connection status": [
+     "connection_data"
+    ],
+    "Wi-Fi signal strength": [
+     "technical data",
+     "technical device information"
+    ],
+    "ambient light": [
+     "sensor data"
+    ],
+    "battery level": [
+     "technical data",
+     "technical device information"
+    ],
+    "camera description": [
+     "camera information"
+    ],
+    "camera name": [
+     "camera information"
+    ],
+    "device adjustments": [
+     "device setting changes"
+    ],
+    "device installation location": [
+     "device location"
+    ],
+    "device location": [
+     "location"
+    ],
+    "device model": [
+     "device_information",
+     "system_information"
+    ],
+    "device serial number": [
+     "device_information"
+    ],
+    "device temperature": [
+     "sensor data"
+    ],
+    "device_settings": [
+     "device_data"
+    ],
+    "environmental sensor data": [
+     "environmental data",
+     "protect sensor data"
+    ],
+    "error_report": [
+     "log data"
+    ],
+    "face images": [
+     "facial recognition data"
+    ],
+    "face prints": [
+     "facial recognition data"
+    ],
+    "facial recognition data": [
+     "sensor data"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "humidity": [
+     "environmental data",
+     "sensor data"
+    ],
+    "motion": [
+     "sensor data"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "protect sensor data": [
+     "sensor data"
+    ],
+    "sensor status": [
+     "technical data",
+     "technical device information"
+    ],
+    "smoke and carbon monoxide levels": [
+     "environmental data",
+     "sensor data"
+    ],
+    "software version": [
+     "device_information",
+     "system_information"
+    ],
+    "sound recordings": [
+     "audio data"
+    ],
+    "technical device information": [
+     "device_data",
+     "technical data"
+    ],
+    "temperature": [
+     "environmental data",
+     "sensor data"
+    ],
+    "thermostat location type": [
+     "thermostat sensor data"
+    ],
+    "thermostat model": [
+     "device model"
+    ],
+    "thermostat sensor data": [
+     "sensor data"
+    ],
+    "thermostat serial number": [
+     "device serial number"
+    ],
+    "video recordings": [
+     "content"
+    ],
+    "video signals": [
+     "content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "business partner",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "business partner": [
+     "third parties"
+    ],
+    "public authorities": [
+     "third parties"
+    ],
+    "purchaser": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "protect sensors": [
+     "device sensors"
+    ],
+    "thermostat sensors": [
+     "device sensors"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Nest"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legitimate interest": "legitimate business operations",
+    "service provision": "provide service",
+    "service_optimization": "service improvement",
+    "service_provision": "provide service"
+   },
+   "parents": {
+    "analytics": [
+     "research"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "contract enforcement": [
+     "legal compliance"
+    ],
+    "legal defense": [
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "troubleshooting": [
+     "device servicing",
+     "service improvement"
+    ],
+    "device servicing": [
+     "provide service"
+    ],
+    "personalization": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2786,
+  "completion_tokens": 1197,
+  "thinking_tokens": 0,
+  "seconds": 11.779174089431763,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

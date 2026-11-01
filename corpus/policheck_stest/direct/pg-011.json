@@ -1,0 +1,22 @@
+{
+ "policy": "pg-011",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "If at any moment the app were to request Personally Identifiable Information (PII) that would allow us to contact him, such as his name or mobile phone number, the user shall be free to provide such information.",
+   "prohibit": "This app was not developed with the purpose of obtaining the phone number on your device, so it doesn't include any functionality that accesses your phone number.",
+   "situation": "When a user provides their mobile phone number directly to the app upon request.",
+   "reason": "Section 2 contemplates requesting and obtaining the user's mobile phone number, whereas Section 12 asserts the app contains no functionality to access the phone number.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 3805,
+  "completion_tokens": 183,
+  "thinking_tokens": 0,
+  "seconds": 7.695911169052124,
+  "failures": 0
+ }
+}

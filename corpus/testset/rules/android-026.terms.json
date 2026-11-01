@@ -1,0 +1,295 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "deidentified information": "de-identified data",
+    "device details": "device data",
+    "personal information": "personal data",
+    "profile picture": "profile photo"
+   },
+   "parents": {
+    "account information": [
+     "personal data"
+    ],
+    "address": [
+     "contact info",
+     "location"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "billing address": [
+     "address",
+     "financial info",
+     "payment information"
+    ],
+    "browsing activity": [
+     "user data"
+    ],
+    "browsing and purchase history": [
+     "browsing activity"
+    ],
+    "chat communications": [
+     "customer support communications"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "cookie data": [
+     "device data"
+    ],
+    "credit card number": [
+     "financial info",
+     "payment information"
+    ],
+    "customer support communications": [
+     "user-submitted information"
+    ],
+    "delivery address": [
+     "address"
+    ],
+    "desired prize selection": [
+     "other user-provided information"
+    ],
+    "device data": [
+     "personal data"
+    ],
+    "diagnostic and performance data": [
+     "device data"
+    ],
+    "email address": [
+     "contact info",
+     "name and email address"
+    ],
+    "financial info": [
+     "payment information"
+    ],
+    "geographic coordinates": [
+     "location"
+    ],
+    "health data": [
+     "personal data"
+    ],
+    "identity verification information": [
+     "personal data"
+    ],
+    "marketing communications interaction": [
+     "browsing activity"
+    ],
+    "mobile phone number": [
+     "phone number"
+    ],
+    "name": [
+     "contact info",
+     "name and email address"
+    ],
+    "name and email address": [
+     "contact info"
+    ],
+    "package collection point": [
+     "address"
+    ],
+    "package information": [
+     "order info"
+    ],
+    "payment information": [
+     "purchase and/or payment information"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "profile data": [
+     "account information"
+    ],
+    "profile photo": [
+     "profile data"
+    ],
+    "proof of delivery": [
+     "package information"
+    ],
+    "purchase details": [
+     "order info",
+     "purchase and/or payment information"
+    ],
+    "ratings and reviews": [
+     "user-submitted information"
+    ],
+    "responses to marketing emails, advertisements and offers": [
+     "marketing communications interaction"
+    ],
+    "shipping address": [
+     "address",
+     "delivery address",
+     "order info"
+    ],
+    "sizing data": [
+     "other user-provided information"
+    ],
+    "specific ads clicked on": [
+     "browsing activity"
+    ],
+    "transaction details": [
+     "order info"
+    ],
+    "user ID": [
+     "account information"
+    ],
+    "user profile": [
+     "account information"
+    ],
+    "user-submitted information": [
+     "personal data"
+    ],
+    "username": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "merchandise partners": "merchandise partner",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "advertising and analytics partners": [
+     "service provider",
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "marketing partners": [
+     "service provider",
+     "third party"
+    ],
+    "merchandise partner": [
+     "third party"
+    ],
+    "payment processors": [
+     "service provider",
+     "third party"
+    ],
+    "professional advisors": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third parties designated by user": [
+     "third party"
+    ],
+    "US public authorities": [
+     "third party"
+    ],
+    "users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "data provider": [
+     "third party"
+    ],
+    "logistics service provider": [
+     "relevant third-party service provider",
+     "third party"
+    ],
+    "marketing partner": [
+     "third party"
+    ],
+    "merchandise partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "relevant third-party service provider",
+     "third party"
+    ],
+    "relevant third-party service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party mapping platforms": [
+     "relevant third-party service provider",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Temu"
+   },
+   "parents": {
+    "cloud service provider": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "legal claim": "legal assertion",
+    "legal compliance": "compliance",
+    "payment processing": "payment handling",
+    "specified in privacy policy": "for the purposes described in this Privacy Policy"
+   },
+   "parents": {
+    "account registration": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "delivery": [
+     "order fulfillment"
+    ],
+    "disclosed purpose": [
+     "fulfillment of purposes"
+    ],
+    "for product sizing purposes": [
+     "personalization"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment handling": [
+     "order fulfillment"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service operations": [
+     "service provision"
+    ],
+    "service support": [
+     "service provision"
+    ],
+    "traffic origin determination": [
+     "analytics"
+    ],
+    "user authentication": [
+     "security"
+    ],
+    "user experience optimization": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3468,
+  "completion_tokens": 1251,
+  "thinking_tokens": 0,
+  "seconds": 14.485653162002563,
+  "failures": 0
+ },
+ "seconds": 14.6
+}

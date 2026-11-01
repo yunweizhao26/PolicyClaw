@@ -1,0 +1,208 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "customer data": "Data About Docker Customers",
+    "information you provide": "information provided by user",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "postal address": "address",
+    "sandbox snapshots": "sandbox snapshot",
+    "snapshot": "sandbox snapshot",
+    "stored credentials": "credentials"
+   },
+   "parents": {
+    "billing address": [
+     "address",
+     "billing information"
+    ],
+    "billing name": [
+     "billing information",
+     "name"
+    ],
+    "compute and configuration records": [
+     "compute records",
+     "usage data"
+    ],
+    "compute records": [
+     "usage data"
+    ],
+    "credit card number": [
+     "payment card details",
+     "payment card number"
+    ],
+    "customer personal data": [
+     "Data About Docker Customers",
+     "personal data"
+    ],
+    "email address": [
+     "contact information",
+     "personal identifiers"
+    ],
+    "partial credit card number": [
+     "payment card details"
+    ],
+    "payment card details": [
+     "billing information"
+    ],
+    "payment card number": [
+     "financial account number",
+     "payment card details"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "prompts": [
+     "user content"
+    ],
+    "sandbox snapshot": [
+     "user content"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "telemetry data": [
+     "usage and telemetry data",
+     "usage data"
+    ],
+    "usage and telemetry data": [
+     "usage data"
+    ],
+    "user communication data": [
+     "user data"
+    ],
+    "user content": [
+     "content"
+    ],
+    "website navigation data": [
+     "browsing history",
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "agents": [
+     "third parties"
+    ],
+    "joint promotion collaborators": [
+     "third parties"
+    ],
+    "law enforcement agencies": [
+     "government authorities"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "sponsor": [
+     "third parties"
+    ],
+    "third-party AI model providers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Switzerland": [
+     "the EEA, the UK or Switzerland",
+     "the European Union and Switzerland"
+    ],
+    "the European Union": [
+     "the European Union and Switzerland"
+    ],
+    "the European Union and Switzerland": [
+     "the EEA, the UK or Switzerland"
+    ],
+    "customers": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Stripe": [
+     "service providers"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "analytics providers": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "personalization-of-services": "personalization",
+    "service improvements": "service improvement"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "billing": [
+     "payment processing"
+    ],
+    "identity verification": [
+     "user identification"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "service improvement": [
+     "service operation and improvement",
+     "service operational improvement"
+    ],
+    "service operation and improvement": [
+     "services"
+    ],
+    "service operational improvement": [
+     "services"
+    ],
+    "service performance": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "provide-service": [
+     "services"
+    ],
+    "perform services requested": [
+     "services"
+    ],
+    "analytics": [
+     "analytics-research"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3033,
+  "completion_tokens": 992,
+  "thinking_tokens": 0,
+  "seconds": 12.40097975730896,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

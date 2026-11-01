@@ -1,0 +1,265 @@
+{
+ "cleaned_sha256": "apple-066",
+ "text_sha256": "c91ee0cf76bb445e643201b9bb80139398842a87722182f70be123e1d43b441a",
+ "site_id": "apple-066",
+ "sections": 14,
+ "rules": 136,
+ "report": {
+  "sections": 14,
+  "raw_rules": 114,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Consumer Privacy Act",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-066#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not store",
+     "actor": {
+      "text": "Our app",
+      "name": "first party"
+     },
+     "data": {
+      "text": "TrueDepth camera data",
+      "name": "biometric data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not store"
+    ],
+    "section": "apple-066#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not utilize",
+     "actor": {
+      "text": "Our app",
+      "name": "first party"
+     },
+     "data": {
+      "text": "TrueDepth camera data",
+      "name": "biometric data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "utilize",
+      "verb": "utilize"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not utilize"
+    ],
+    "section": "apple-066#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not store",
+     "actor": {
+      "text": "Our app",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Apple's Face ID-related depth and facial mapping data",
+      "name": "biometric data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not store"
+    ],
+    "section": "apple-066#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not utilize",
+     "actor": {
+      "text": "Our app",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Apple's Face ID-related depth and facial mapping data",
+      "name": "biometric data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "utilize",
+      "verb": "utilize"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not utilize"
+    ],
+    "section": "apple-066#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "system-level facial geometry data derived from Apple's TrueDepth camera",
+      "name": "biometric data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not access"
+    ],
+    "section": "apple-066#s4"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 71,
+  "completeness": {
+   "gaps": 187,
+   "gap_words": 1583
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 71,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 41171,
+  "completion_tokens": 26836,
+  "thinking_tokens": 0,
+  "seconds": 411.5871067047119,
+  "failures": 0
+ },
+ "seconds": 412.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

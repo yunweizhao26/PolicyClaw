@@ -1,0 +1,254 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies and pixels": "cookies",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "precise location data": "precise location",
+    "sensitive_data": "sensitive personal data",
+    "unspecified": "information",
+    "user interests": "interests"
+   },
+   "parents": {
+    "hashed email address": [
+     "email address"
+    ],
+    "email address": [
+     "contact identifiers"
+    ],
+    "phone number": [
+     "contact identifiers"
+    ],
+    "postal address": [
+     "contact identifiers"
+    ],
+    "contact identifiers": [
+     "contact_information",
+     "personal data"
+    ],
+    "contact_information": [
+     "personal data"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device hardware model": [
+     "device information"
+    ],
+    "hardware identifier": [
+     "device information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "os type and version": [
+     "device information"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browser activities": [
+     "browser information"
+    ],
+    "coarse geolocation": [
+     "location"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "financial card expiration date": [
+     "payment details"
+    ],
+    "financial card number": [
+     "payment details"
+    ],
+    "financial card security code": [
+     "payment details"
+    ],
+    "password": [
+     "authentication credentials"
+    ],
+    "password reminder": [
+     "authentication credentials"
+    ],
+    "authentication credentials": [
+     "account data"
+    ],
+    "profile data": [
+     "account data",
+     "user_profile"
+    ],
+    "browsing behavior": [
+     "browsing history"
+    ],
+    "browsing and interaction history": [
+     "browsing history"
+    ],
+    "duration of viewing": [
+     "activity on page"
+    ],
+    "navigation path": [
+     "activity on page"
+    ],
+    "activity on page": [
+     "browsing history"
+    ],
+    "access duration": [
+     "access times"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "shopping cart contents": [
+     "commercial information"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "user content": [
+     "communication content"
+    ],
+    "social_media_content": [
+     "user content"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "inferences": [
+     "user_profile"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "law enforcement": [
+     "public authority"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "user browser": [
+     "user device"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "business_partners": [
+     "third party"
+    ],
+    "data_broker": [
+     "third party"
+    ],
+    "social_network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Fashion Nova"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance_with_legal_obligations": "compliance",
+    "fraud-detection": "fraud prevention and security",
+    "fraud_prevention": "fraud prevention and security",
+    "legal compliance": "compliance",
+    "marketing": "Marketing",
+    "service provision": "Service delivery",
+    "service_provision": "Service delivery",
+    "targeted advertising": "Interest-based advertising",
+    "targeted_advertising": "Interest-based advertising"
+   },
+   "parents": {
+    "Interest-based advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "Marketing",
+     "for commercial purposes"
+    ],
+    "Marketing": [
+     "for commercial purposes"
+    ],
+    "legal_proceedings": [
+     "compliance"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "fraud prevention and security": [
+     "compliance"
+    ],
+    "security": [
+     "fraud prevention and security",
+     "service-operation-and-security"
+    ],
+    "service communication": [
+     "Service delivery"
+    ],
+    "support_and_customer_service": [
+     "Service delivery"
+    ],
+    "user account management": [
+     "Service delivery"
+    ],
+    "analytics": [
+     "research_and_development"
+    ],
+    "verification": [
+     "fraud prevention and security",
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3157,
+  "completion_tokens": 1245,
+  "thinking_tokens": 0,
+  "seconds": 16.574554443359375,
+  "failures": 0
+ },
+ "seconds": 16.7
+}

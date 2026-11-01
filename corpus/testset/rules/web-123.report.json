@@ -1,0 +1,230 @@
+{
+ "cleaned_sha256": "web-123",
+ "text_sha256": "c5308bcb6f174ca9393fdcbb72d5d085b0828de105ec26e6f598bff971106688",
+ "site_id": "web-123",
+ "sections": 23,
+ "rules": 144,
+ "report": {
+  "sections": 23,
+  "raw_rules": 133,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "You"
+     },
+     "conditions": [
+      "If you are an EEA, UK or Swiss resident",
+      "by submitting a data subject access request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [
+      {
+       "text": "to check that we are lawfully processing it",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-123#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "DO NOT",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "SELL",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "call 866-I-OPT-OUT and enter service code 319 when prompted"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-123#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "GumGum",
+      "text": "GumGum"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data of Interested Party’s clients"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Data Subjects/Consumers"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Personal Data of Interested Party’s clients"
+    ],
+    "section": "web-123#s22"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "GumGum",
+      "text": "GumGum"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data of Interested Party’s clients"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "third parties"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Personal Data of Interested Party’s clients"
+    ],
+    "section": "web-123#s22"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "GumGum",
+      "text": "GumGum"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data of Interested Party’s clients"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "Interested Party",
+      "text": "Interested Party"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Personal Data of Interested Party’s clients"
+    ],
+    "section": "web-123#s22"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 77,
+  "completeness": {
+   "gaps": 286,
+   "gap_words": 3165
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 77,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 64452,
+  "completion_tokens": 26668,
+  "thinking_tokens": 0,
+  "seconds": 448.5030701160431,
+  "failures": 0
+ },
+ "seconds": 449.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

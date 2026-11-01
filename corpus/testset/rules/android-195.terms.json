@@ -1,0 +1,184 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "date of birth": "birthday",
+    "email addresses": "email address",
+    "email-address": "email address",
+    "information": "data",
+    "information about your device": "device information",
+    "information you voluntarily provide us": "information that you voluntarily provide",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "phone numbers": "phone number",
+    "photos": "photo",
+    "usage-analytics": "analytics data",
+    "user information": "user data"
+   },
+   "parents": {
+    "available Wi-Fi access points": [
+     "Wi-Fi access points"
+    ],
+    "browser information": [
+     "browser and device information"
+    ],
+    "device information": [
+     "browser and device information"
+    ],
+    "content that others have shared with you": [
+     "content"
+    ],
+    "content that you create": [
+     "content"
+    ],
+    "photo": [
+     "content"
+    ],
+    "videos": [
+     "content"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "full name": [
+     "name"
+    ],
+    "mobile phone number": [
+     "phone number"
+    ],
+    "public IP address": [
+     "IP address"
+    ],
+    "server logs": [
+     "logs"
+    ],
+    "profile picture": [
+     "photo"
+    ],
+    "invoices": [
+     "purchase and invoice details"
+    ],
+    "purchase history": [
+     "purchase and invoice details"
+    ],
+    "unique identifiers about your device or browser": [
+     "unique identifiers"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "account username": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "user": [
+     "public"
+    ],
+    "service provider": [
+     "third-party service"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "public sources": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "ad-network",
+    "service-provider": "service provider"
+   },
+   "parents": {
+    "agents": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertising service": [
+     "third party"
+    ],
+    "ad-network": [
+     "third party"
+    ],
+    "contractors": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-administration": "account administration",
+    "fraud prevention": "fraud detection",
+    "fraud-prevention": "fraud detection",
+    "legal compliance": "compliance with legal obligation",
+    "legal-proceedings": "legal assertion",
+    "legitimate-interests": "business operations",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "authentication": [
+     "access control"
+    ],
+    "identity verification": [
+     "access control"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "service-troubleshooting": [
+     "customer support"
+    ],
+    "user-experience-improvement": [
+     "service improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "to store it for us": [
+     "for us"
+    ],
+    "to help our service providers, affiliates, and trusted agents store and process it on our behalf": [
+     "on our behalf"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2749,
+  "completion_tokens": 877,
+  "thinking_tokens": 0,
+  "seconds": 10.396032333374023,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

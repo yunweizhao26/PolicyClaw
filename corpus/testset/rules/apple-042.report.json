@@ -1,0 +1,145 @@
+{
+ "cleaned_sha256": "apple-042",
+ "text_sha256": "1797a17d08243743b95a307973ae8760723ae8b8107098afeb3b157f6b985915",
+ "site_id": "apple-042",
+ "sections": 8,
+ "rules": 124,
+ "report": {
+  "sections": 8,
+  "raw_rules": 113,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in automatic decision making",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-042#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "advertising to students",
+      "verb": "advertise"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-042#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-042#s4"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 59,
+  "completeness": {
+   "gaps": 235,
+   "gap_words": 2195
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 59,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 29641,
+  "completion_tokens": 28015,
+  "thinking_tokens": 0,
+  "seconds": 312.78521704673767,
+  "failures": 0
+ },
+ "seconds": 313.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

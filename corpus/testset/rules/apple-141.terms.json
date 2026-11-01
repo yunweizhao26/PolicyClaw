@@ -1,0 +1,234 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal data": "information about user",
+    "user data": "information about user",
+    "user information": "information about user"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "identifying data"
+    ],
+    "account data": [
+     "information about user"
+    ],
+    "activity data": [
+     "information about user"
+    ],
+    "advertising identifier": [
+     "device IDs"
+    ],
+    "age": [
+     "demographics"
+    ],
+    "browser settings": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "child data": [
+     "information about user"
+    ],
+    "communication content": [
+     "information about user"
+    ],
+    "cookie IDs": [
+     "identifying data"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "date and time of access": [
+     "log data"
+    ],
+    "documents": [
+     "files"
+    ],
+    "email address": [
+     "identifying data"
+    ],
+    "email content": [
+     "communication content"
+    ],
+    "financial account number": [
+     "payment details"
+    ],
+    "food intake": [
+     "activity data"
+    ],
+    "gender": [
+     "demographics"
+    ],
+    "identifying data": [
+     "information about user"
+    ],
+    "inferences": [
+     "information about user"
+    ],
+    "information from third-party services": [
+     "data"
+    ],
+    "location": [
+     "information about user"
+    ],
+    "log data": [
+     "activity data"
+    ],
+    "marital status": [
+     "demographics"
+    ],
+    "message content": [
+     "communication content"
+    ],
+    "name": [
+     "identifying data"
+    ],
+    "payment and transactional data": [
+     "information about user"
+    ],
+    "payment details": [
+     "payment and transactional data"
+    ],
+    "philosophical beliefs": [
+     "sensitive personal data"
+    ],
+    "phone number": [
+     "identifying data"
+    ],
+    "photograph": [
+     "files"
+    ],
+    "postal address": [
+     "identifying data"
+    ],
+    "profile information": [
+     "account data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal data"
+    ],
+    "religious beliefs": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "information about user"
+    ],
+    "sensor data": [
+     "data"
+    ],
+    "sleep habits": [
+     "activity data"
+    ],
+    "unspecified data": [
+     "data"
+    ],
+    "user account credentials": [
+     "account data"
+    ],
+    "user alias": [
+     "identifying data"
+    ],
+    "weight": [
+     "information about user"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "agents": [
+     "service providers",
+     "third parties"
+    ],
+    "bank": [
+     "third parties"
+    ],
+    "partners": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "third-party services": [
+     "third parties"
+    ],
+    "vendors": [
+     "service providers",
+     "third parties"
+    ],
+    "third parties": [
+     "other entities",
+     "others"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partners and other third parties": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "first party's partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "first party's partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party partner": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal requirement": "legal compliance",
+    "marketing & advertising": "marketing",
+    "process payment": "payment processing",
+    "service provision": "provide service",
+    "service_provision": "provide service",
+    "unspecified": "other"
+   },
+   "parents": {
+    "customer support": [
+     "support"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "service_improvement": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2325,
+  "completion_tokens": 902,
+  "thinking_tokens": 0,
+  "seconds": 8.592754364013672,
+  "failures": 0
+ },
+ "seconds": 8.7
+}

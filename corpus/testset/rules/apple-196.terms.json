@@ -1,0 +1,332 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "de-identified personal information": "aggregated data",
+    "health information": "Health information",
+    "information about the user": "information",
+    "information about you": "information",
+    "information that we process about you": "information",
+    "ip address": "IP address",
+    "other data": "data",
+    "personal information": "personal data",
+    "phone number": "contact information",
+    "precise geolocation": "Specific geolocation",
+    "sensitive personal data": "sensitive information",
+    "sensitive personal information": "sensitive information",
+    "user identifier": "user id",
+    "user information": "information"
+   },
+   "parents": {
+    "Health information": [
+     "sensitive information"
+    ],
+    "IP address": [
+     "online identifier"
+    ],
+    "Specific geolocation": [
+     "location",
+     "precise or approximate location"
+    ],
+    "account name": [
+     "online identifier"
+    ],
+    "authorization proof": [
+     "verification information"
+    ],
+    "bank account details": [
+     "transaction details"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "clickstream data": [
+     "usage data"
+    ],
+    "coarse location": [
+     "location",
+     "precise or approximate location"
+    ],
+    "cookies": [
+     "online identifier"
+    ],
+    "country": [
+     "coarse location"
+    ],
+    "crash data": [
+     "device event information"
+    ],
+    "credit card number": [
+     "transaction details"
+    ],
+    "cursor movement patterns": [
+     "usage data"
+    ],
+    "customer support communications": [
+     "information"
+    ],
+    "date and time of open": [
+     "timestamp"
+    ],
+    "date and time stamp": [
+     "timestamp"
+    ],
+    "date of birth": [
+     "demographic information"
+    ],
+    "device identifier": [
+     "online identifier"
+    ],
+    "device type": [
+     "hardware and software information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "email links clicked": [
+     "interaction details"
+    ],
+    "gender identification": [
+     "demographic information"
+    ],
+    "hardware and software information": [
+     "device information"
+    ],
+    "home address": [
+     "physical address"
+    ],
+    "inaccurate, out of date, incomplete, irrelevant or misleading information about the user": [
+     "information"
+    ],
+    "incorrect, incomplete or inaccurate information that we hold about you": [
+     "information"
+    ],
+    "operating system": [
+     "hardware and software information"
+    ],
+    "physical address": [
+     "address"
+    ],
+    "postal address": [
+     "physical address"
+    ],
+    "profile inferences": [
+     "inferences"
+    ],
+    "proof of identity": [
+     "verification information"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "reviews and ratings": [
+     "information"
+    ],
+    "search queries": [
+     "usage data"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "service_usage_information": [
+     "usage data"
+    ],
+    "session duration": [
+     "usage data"
+    ],
+    "subscription ID": [
+     "user id"
+    ],
+    "tax identifier": [
+     "online identifier"
+    ],
+    "work address": [
+     "physical address"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Other Too Good To Go group companies",
+    "affiliates": "Other Too Good To Go group companies",
+    "corporate affiliates": "Other Too Good To Go group companies",
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google": [
+     "service provider",
+     "third parties",
+     "third party geo-location services"
+    ],
+    "Logistics and delivery companies": [
+     "service provider"
+    ],
+    "Payment service providers and financial institutions": [
+     "third parties"
+    ],
+    "payment service provider": [
+     "Payment service providers and financial institutions",
+     "service provider",
+     "third parties"
+    ],
+    "Personal Information Protection Commission": [
+     "public authorities"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ],
+    "data broker": [
+     "third parties"
+    ],
+    "franchisor": [
+     "third parties"
+    ],
+    "independent third parties": [
+     "third parties"
+    ],
+    "marketing partners": [
+     "third parties"
+    ],
+    "other third parties": [
+     "third parties"
+    ],
+    "professional advisors": [
+     "third parties"
+    ],
+    "promotional agency": [
+     "third parties"
+    ],
+    "technology providers": [
+     "service provider"
+    ],
+    "third party advertising platforms": [
+     "third parties"
+    ],
+    "third party geo-location services": [
+     "service provider",
+     "third parties"
+    ],
+    "third party outside Japan": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment service providers": [
+     "external service provider"
+    ],
+    "external service provider": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "affiliates",
+    "service provider": "external service provider"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "Too Good To Go Australia Pty Ltd": [
+     "affiliates"
+    ],
+    "Too Good To Go Technology Ltd.": [
+     "affiliates"
+    ],
+    "authorized personnel": [
+     "affiliates"
+    ],
+    "external service provider": [
+     "third party"
+    ],
+    "third-party vendors": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "advertising or marketing": "advertising",
+    "legal compliance": "legal",
+    "order fulfilment": "order fulfillment",
+    "personalization": "personalisation",
+    "provide-service": "provide service",
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "service_provision": "provide service",
+    "support": "customer support",
+    "user authentication or authorization": "authentication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "account management": [
+     "provide service"
+    ],
+    "delivery": [
+     "order fulfillment"
+    ],
+    "order fulfillment": [
+     "provide service"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "notifications": [
+     "communication"
+    ],
+    "communication": [
+     "provide service"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "quality_assurance": [
+     "service improvement"
+    ],
+    "training": [
+     "quality_assurance"
+    ],
+    "personalisation": [
+     "provide service"
+    ],
+    "service improvement": [
+     "service performance and improvement"
+    ],
+    "business operations": [
+     "operations"
+    ],
+    "operations": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4098,
+  "completion_tokens": 1761,
+  "thinking_tokens": 0,
+  "seconds": 29.03139328956604,
+  "failures": 0
+ },
+ "seconds": 29.1
+}

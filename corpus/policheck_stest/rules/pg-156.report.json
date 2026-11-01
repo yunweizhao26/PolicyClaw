@@ -1,0 +1,173 @@
+{
+ "cleaned_sha256": "pg-156",
+ "text_sha256": "da612a0d52dbc404736960f7322549e5d34d1ef1cbbb3b17f20bcb51c06325ee",
+ "site_id": "pg-156",
+ "sections": 12,
+ "rules": 197,
+ "report": {
+  "sections": 12,
+  "raw_rules": 171,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "communicate",
+      "verb": "communicate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you choose to opt-out of receiving promotional email and/or text communications from Community Brands",
+      "periodically",
+      "via email, mail, and telephone",
+      "for non-promotional matters"
+     ],
+     "data": {
+      "name": "contact information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for non-promotional matters",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-156#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "actor": {
+      "text": "Community Brands",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information held by Community Brands",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you would like to update or access your personal information held by Community Brands, please contact us in accordance with the “How to Contact Us” section listed below"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "“How to Contact Us” section listed below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-156#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provides",
+     "actor": {
+      "text": "Community Brands",
+      "name": "first party"
+     },
+     "data": {
+      "text": "categories and specific pieces of personal information about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "Customers",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "In compliance with Global Data Protection laws",
+      "request access to categories and specific pieces of personal information about you",
+      "If you are a Community Brands Customer, you may exercise your rights by contacting\nPrivacy@Communitybrands.com"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Global Data Protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-156#s11"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 93,
+  "completeness": {
+   "gaps": 224,
+   "gap_words": 3025
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 21,
+  "translated_quotes": 93,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 45339,
+  "completion_tokens": 35913,
+  "thinking_tokens": 0,
+  "seconds": 214.166175365448,
+  "failures": 0
+ },
+ "seconds": 215.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

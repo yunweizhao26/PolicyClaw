@@ -1,0 +1,66 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "personal data"
+   },
+   "parents": {
+    "aggregate usage statistics": [
+     "non-personal data"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "operating system version": [
+     "device information",
+     "operating system"
+    ],
+    "software version": [
+     "application information"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "IP address": [
+     "browser request data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "authentication": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1055,
+  "completion_tokens": 188,
+  "thinking_tokens": 0,
+  "seconds": 5.373853921890259,
+  "failures": 0
+ },
+ "seconds": 5.5
+}

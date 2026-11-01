@@ -1,0 +1,122 @@
+{
+ "cleaned_sha256": "apple-190",
+ "text_sha256": "05cbb7b0240672b0f2838a6007cd5acb27ed2aceedce4ffb8dd1b8c92d824711",
+ "site_id": "apple-190",
+ "sections": 6,
+ "rules": 88,
+ "report": {
+  "sections": 6,
+  "raw_rules": 80,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "have the right not to be subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automated processing",
+      "verb": "process"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "based solely on automated processing"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-190#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "by contacting us at:\nsupport@xvpn.io"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise your rights",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "your"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-190#s6"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 144,
+   "gap_words": 1397
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 44,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 11,
+  "cached": 0,
+  "prompt_tokens": 20687,
+  "completion_tokens": 13570,
+  "thinking_tokens": 0,
+  "seconds": 135.31837034225464,
+  "failures": 0
+ },
+ "seconds": 135.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

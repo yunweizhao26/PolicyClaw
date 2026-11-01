@@ -1,0 +1,284 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data submitted by the Client": "Client-provided data",
+    "date_of_birth": "date of birth",
+    "email_address": "email address",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personal_information": "personal data",
+    "phone_number": "phone number",
+    "photograph": "photo",
+    "photographs": "photo",
+    "photos": "photo",
+    "profile_photo": "profile photo",
+    "search_terms": "search query",
+    "service partner information": "Service Partner information"
+   },
+   "parents": {
+    "address": [
+     "location data"
+    ],
+    "advertising identifier": [
+     "unique device identifier"
+    ],
+    "anniversary_date": [
+     "date and time",
+     "date_and_time"
+    ],
+    "audio or video recording": [
+     "user-generated content"
+    ],
+    "background check data": [
+     "applicant_information"
+    ],
+    "bank account detail": [
+     "financial information"
+    ],
+    "credit or debit card account information": [
+     "financial information",
+     "financial_data"
+    ],
+    "cuisine_preferences": [
+     "preferences"
+    ],
+    "customer support transcripts": [
+     "user_communications"
+    ],
+    "date of birth": [
+     "date and time"
+    ],
+    "dietary_preferences": [
+     "preferences"
+    ],
+    "error log data": [
+     "device information"
+    ],
+    "financial transaction details": [
+     "transaction details",
+     "transactional_data"
+    ],
+    "government identification number": [
+     "identifying details"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "installed applications": [
+     "device information"
+    ],
+    "messages": [
+     "communications",
+     "communications data",
+     "user_communications"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "photo": [
+     "audio or video recording"
+    ],
+    "physical address": [
+     "address",
+     "location data"
+    ],
+    "pixel tags": [
+     "technology-collected information"
+    ],
+    "precise location": [
+     "location",
+     "location data"
+    ],
+    "price_preferences": [
+     "preferences"
+    ],
+    "profile photo": [
+     "photo"
+    ],
+    "tax identification number": [
+     "government identification number"
+    ],
+    "user queries": [
+     "search query"
+    ],
+    "user_comments": [
+     "user-generated content"
+    ],
+    "vehicle type": [
+     "vehicle information"
+    ],
+    "videos": [
+     "audio or video recording"
+    ],
+    "web beacons": [
+     "technology-collected information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "government agency": "government agencies",
+    "merchants": "merchant",
+    "service providers": "service provider",
+    "service_provider": "service provider",
+    "third_party": "third party"
+   },
+   "parents": {
+    "customers": [
+     "customers, merchants, or other end-users"
+    ],
+    "merchant": [
+     "customers, merchants, or other end-users"
+    ],
+    "other users": [
+     "customers, merchants, or other end-users"
+    ],
+    "government agencies": [
+     "government entities"
+    ],
+    "court": [
+     "government entities"
+    ],
+    "law enforcement": [
+     "government entities"
+    ],
+    "payment service provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "supplier": [
+     "third party"
+    ],
+    "third party partners": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third_party_identity_provider": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Eternal"
+   },
+   "parents": {
+    "advertising partners": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud detection",
+    "fraud_prevention_and_security": "fraud detection and prevention",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "payment processing": "payment handling",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "to provide you with the services that you have opted to receive through the use of our platform and services": "service-delivery",
+    "user accounts": "authentication",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "background-checks": [
+     "human-resources",
+     "legal compliance"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "comply with our legal and record-keeping obligations": [
+     "legal compliance"
+    ],
+    "consider you for future relevant openings": [
+     "human-resources"
+    ],
+    "dispute-resolution": [
+     "legal"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "fraud-prevention": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "in order to investigate, prevent, or take action regarding possible illegal activities or to comply with legal processes": [
+     "legal compliance"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "order_fulfillment": [
+     "service-delivery"
+    ],
+    "payment handling": [
+     "service provision"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "resolve potential disputes": [
+     "dispute-resolution"
+    ],
+    "service quality monitoring": [
+     "service-improvement"
+    ],
+    "to comply with applicable laws": [
+     "legal compliance"
+    ],
+    "to fulfill the recruitment process": [
+     "human-resources"
+    ],
+    "to market their products or services to you": [
+     "marketing"
+    ],
+    "preferences": [
+     "personalization"
+    ],
+    "who assist us with recruitment functions, such as Applicant Tracking Systems (ATS), assessment providers, and background check agencies": [
+     "human-resources"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4978,
+  "completion_tokens": 1781,
+  "thinking_tokens": 0,
+  "seconds": 15.650326490402222,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

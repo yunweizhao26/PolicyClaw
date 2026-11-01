@@ -1,0 +1,134 @@
+{
+ "cleaned_sha256": "android-178",
+ "text_sha256": "5d6df8bd9b4f7985562fabe8bae577dad7eaefc1af22ba02087bbee6f9d39049",
+ "site_id": "android-178",
+ "sections": 18,
+ "rules": 162,
+ "report": {
+  "sections": 18,
+  "raw_rules": 133,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not track",
+     "actor": {
+      "text": "Top Games",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "operation": "recording",
+     "purpose": [
+      {
+       "text": "to provide targeted advertising",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "Site users",
+      "over time and across third party websites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-178#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if you are a resident of California",
+      "to the extent necessary for them to facilitate our business purposes (including any purpose specified in Section 4, above)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "each of these categories of Personal Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "purpose": [
+      {
+       "text": "to facilitate our business purposes (including any purpose specified in Section 4, above)",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "our service providers"
+     },
+     "references": [
+      {
+       "text": "Section 4",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-178#s15"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 76,
+  "completeness": {
+   "gaps": 227,
+   "gap_words": 2211
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 76,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 55791,
+  "completion_tokens": 28840,
+  "thinking_tokens": 318,
+  "seconds": 865.85116314888,
+  "failures": 0
+ },
+ "seconds": 866.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

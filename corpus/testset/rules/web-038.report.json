@@ -1,0 +1,212 @@
+{
+ "cleaned_sha256": "web-038",
+ "text_sha256": "29035524e84d9eda02a3c0766e715fc368f94e21330014acd79ca10b746c0f0f",
+ "site_id": "web-038",
+ "sections": 15,
+ "rules": 77,
+ "report": {
+  "sections": 15,
+  "raw_rules": 65,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not logging",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "IP\naddresses",
+      "name": "ip address"
+     },
+     "recipient": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "logging",
+      "verb": "log"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "not logging"
+    ],
+    "section": "web-038#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "actor": {
+      "text": "RUM\nsoftware",
+      "name": "RUM software"
+     },
+     "data": {
+      "text": "anonymised information about:\nperformance bottlenecks your device experienced",
+      "name": "performance bottlenecks your device experienced"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "anonymised information about:\nperformance bottlenecks your device experienced"
+    ],
+    "section": "web-038#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "actor": {
+      "text": "RUM\nsoftware",
+      "name": "RUM software"
+     },
+     "data": {
+      "text": "anonymised information about:\nJavaScript errors your device encountered",
+      "name": "JavaScript errors your device encountered"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "anonymised information about:\nJavaScript errors your device encountered"
+    ],
+    "section": "web-038#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "other government departments, agencies and organisations",
+      "text": "other government departments, agencies and organisations"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-038#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may also be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "technology suppliers",
+      "text": "our technology suppliers, for example our hosting provider"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-038#s5"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 29,
+  "completeness": {
+   "gaps": 114,
+   "gap_words": 866
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 29,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 34760,
+  "completion_tokens": 12843,
+  "thinking_tokens": 222,
+  "seconds": 276.40579533576965,
+  "failures": 0
+ },
+ "seconds": 276.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

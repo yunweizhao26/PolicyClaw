@@ -1,0 +1,292 @@
+{
+ "cleaned_sha256": "apple-100",
+ "text_sha256": "cd3fd711dcc2e9676ca229b4b9924370fdde72b2b0850107cdd32440e51c3f10",
+ "site_id": "apple-100",
+ "sections": 16,
+ "rules": 241,
+ "report": {
+  "sections": 16,
+  "raw_rules": 204,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about you"
+    ],
+    "section": "apple-100#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "recording",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": "video footage"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "recording",
+      "verb": "record"
+     },
+     "operation": "recording",
+     "purpose": [
+      {
+       "text": "for your safety",
+       "name": "safety"
+      }
+     ],
+     "conditions": [
+      "with a body camera"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-100#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "In certain circumstances",
+      "where calls from Our call centres which are based inside the EEA or in the UK are rerouted to call centres based outside of the EEA or the UK"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "transfer",
+     "purpose": [],
+     "recipient": {
+      "name": "call centre",
+      "text": "call centres based outside of the EEA or the UK"
+     },
+     "references": [
+      {
+       "text": "See International transfers below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "where calls from Our call centres which are based inside the EEA or in the UK are rerouted to call centres based outside of the EEA or the UK"
+    ],
+    "section": "apple-100#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is stored",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "for Our business",
+       "name": "internal_operations"
+      }
+     ],
+     "conditions": [
+      "This section applies to you if:\nYou use the digital platforms of Royal Caribbean Cruises Service (China) Company Limited;\nYou call our call centre based in China;\nYour data controller is Royal Caribbean Cruises Service (China) Company Limited.",
+      "in the United States as this is where the servers that We use for Our business and on which your personal data is stored are located"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in the United States as this is where the servers that We use for Our business and on which your personal data is stored are located"
+    ],
+    "section": "apple-100#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "This section applies to you if:\nYou use the digital platforms of Royal Caribbean Cruises Service (China) Company Limited;\nYou call our call centre based in China;\nYour data controller is Royal Caribbean Cruises Service (China) Company Limited."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-100#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "copy",
+      "verb": "copy"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "This section applies to you if:\nYou use the digital platforms of Royal Caribbean Cruises Service (China) Company Limited;\nYou call our call centre based in China;\nYour data controller is Royal Caribbean Cruises Service (China) Company Limited."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-100#s15"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 110,
+  "completeness": {
+   "gaps": 343,
+   "gap_words": 3928
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 110,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 61343,
+  "completion_tokens": 44380,
+  "thinking_tokens": 0,
+  "seconds": 543.8935699462891,
+  "failures": 0
+ },
+ "seconds": 545.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

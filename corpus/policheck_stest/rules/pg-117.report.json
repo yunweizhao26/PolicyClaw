@@ -1,0 +1,124 @@
+{
+ "cleaned_sha256": "pg-117",
+ "text_sha256": "951bfebf506b453b54fce2846c1be39b9d691d51708dada186470e0b301834d2",
+ "site_id": "pg-117",
+ "sections": 9,
+ "rules": 307,
+ "report": {
+  "sections": 9,
+  "raw_rules": 244,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "you"
+     },
+     "conditions": [
+      "At account registration"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "other information"
+     },
+     "exceptions": [],
+     "operation": "allow",
+     "polarity": "ALLOW",
+     "polarity_text": "have the option to provide",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-117#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "cross-check",
+      "verb": "cross-check"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "TED"
+     },
+     "conditions": [
+      "If you accept an invitation to apply to TED’s social science research programs"
+     ],
+     "data": {
+      "name": "user profile data",
+      "text": "data provided by you"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "to:\n\ncross-check",
+     "purpose": [
+      {
+       "text": "to understand the research, collect data or verify feedback",
+       "name": "research"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\n\ncross-check"
+    ],
+    "section": "pg-117#s7"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 170,
+   "gap_words": 1941
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 74,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 35747,
+  "completion_tokens": 40278,
+  "thinking_tokens": 0,
+  "seconds": 235.01840829849243,
+  "failures": 0
+ },
+ "seconds": 236.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

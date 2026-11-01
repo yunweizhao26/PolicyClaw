@@ -1,0 +1,128 @@
+{
+ "cleaned_sha256": "web-091",
+ "text_sha256": "a8d30fd8a27c2a62b6a4c5228001bbdd15135193aeeb46ac35cce3595c9a5375",
+ "site_id": "web-091",
+ "sections": 10,
+ "rules": 159,
+ "report": {
+  "sections": 10,
+  "raw_rules": 131,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make decisions based solely on automated processing, including profiling, that produce legal or similarly significant effects",
+      "verb": "make decision"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-091#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be able to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data we hold about you",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You may have the right under applicable law to request that we take certain actions in connection with Personal Data that we may have about you",
+      "You may be able to request access to the Personal Data we hold about you"
+     ],
+     "exceptions": [
+      "in certain cases we may decline or partially decline your request as permitted by law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "as permitted by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-091#s6"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 46,
+  "completeness": {
+   "gaps": 258,
+   "gap_words": 2539
+  },
+  "unsatisfiable_guards": 4,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 46,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 1,
+  "prompt_tokens": 34182,
+  "completion_tokens": 23678,
+  "thinking_tokens": 0,
+  "seconds": 194.28342843055725,
+  "failures": 0
+ },
+ "seconds": 194.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audio recordings": "audio recording",
+    "call logs": "call history",
+    "chat contents": "chat content",
+    "identifiable data": "PII",
+    "location information": "location",
+    "message contents": "message content",
+    "names": "name",
+    "payment information": "financial information",
+    "personal data": "PII",
+    "personal information": "PII",
+    "phone numbers": "phone number",
+    "photograph": "photo",
+    "photographs": "photo",
+    "postal address": "address",
+    "profile information": "profile data",
+    "sound recording": "audio recording",
+    "telephone number": "phone number",
+    "text message": "text",
+    "user comment": "profile comments",
+    "user profile": "profile data",
+    "username": "account name",
+    "video recordings": "video",
+    "voice recording": "voice audio recordings",
+    "voicemail": "voice mail"
+   },
+   "parents": {
+    "GPS location": [
+     "location",
+     "precise location"
+    ],
+    "account name": [
+     "account",
+     "name"
+    ],
+    "ad analytics data": [
+     "usage data"
+    ],
+    "address": [
+     "contact list information"
+    ],
+    "address book": [
+     "contact list information"
+    ],
+    "anonymized chatbot interaction data": [
+     "chatbot interaction content",
+     "interaction data"
+    ],
+    "audio recording": [
+     "content"
+    ],
+    "call history": [
+     "call metadata"
+    ],
+    "call metadata": [
+     "device information"
+    ],
+    "call preferences": [
+     "device information"
+    ],
+    "chat content": [
+     "chat log",
+     "communication content",
+     "content",
+     "message content"
+    ],
+    "chat log": [
+     "content"
+    ],
+    "chatbot interaction content": [
+     "communication content",
+     "interaction data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "communication content": [
+     "content"
+    ],
+    "communication duration": [
+     "call metadata"
+    ],
+    "complaint": [
+     "communication content"
+    ],
+    "contact list information": [
+     "contacts",
+     "device information"
+    ],
+    "contacts": [
+     "device information"
+    ],
+    "cookie data": [
+     "usage data"
+    ],
+    "date and time": [
+     "call metadata"
+    ],
+    "device identifier": [
+     "device information",
+     "unique device identifier"
+    ],
+    "email address": [
+     "contact list information"
+    ],
+    "enquiries": [
+     "communication content"
+    ],
+    "health information": [
+     "PII"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "message content": [
+     "content",
+     "messages"
+    ],
+    "message history": [
+     "usage data"
+    ],
+    "name": [
+     "contact list information",
+     "profile data"
+    ],
+    "password": [
+     "account"
+    ],
+    "financial information": [
+     "platform data"
+    ],
+    "phone number": [
+     "contact list information"
+    ],
+    "photo": [
+     "content",
+     "profile data"
+    ],
+    "political beliefs": [
+     "PII"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "privacy preferences": [
+     "profile data"
+    ],
+    "profile comments": [
+     "content"
+    ],
+    "race": [
+     "PII"
+    ],
+    "religious beliefs": [
+     "PII"
+    ],
+    "sexual orientation": [
+     "PII"
+    ],
+    "social media profile identifier": [
+     "social media data"
+    ],
+    "text": [
+     "content"
+    ],
+    "text message content": [
+     "communication content",
+     "message content"
+    ],
+    "third-party personal information": [
+     "PII"
+    ],
+    "unique device identifier": [
+     "device information"
+    ],
+    "user commands": [
+     "chatbot interaction content",
+     "communication content"
+    ],
+    "user profile memory": [
+     "profile data"
+    ],
+    "video": [
+     "content"
+    ],
+    "voice audio recordings": [
+     "audio recording",
+     "call metadata",
+     "communication content"
+    ],
+    "voice calls": [
+     "communication content"
+    ],
+    "voice mail": [
+     "communication content"
+    ],
+    "voice transcription": [
+     "communication content",
+     "text"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "users": "other users"
+   },
+   "parents": {
+    "affiliates": [
+     "corporate group",
+     "third party"
+    ],
+    "service provider": [
+     "corporate group",
+     "third party"
+    ],
+    "partners": [
+     "corporate group",
+     "third party"
+    ],
+    "court": [
+     "government agency"
+    ],
+    "law enforcement body": [
+     "government agency"
+    ],
+    "channel members": [
+     "other users"
+    ],
+    "user": [
+     "other users"
+    ],
+    "other users": [
+     "other person"
+    ],
+    "third party": [
+     "other person"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ],
+    "senders not in contacts": [
+     "non-users"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ],
+    "third party vendor": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud prevention and security": "fraud and security",
+    "legal compliance": "compliance",
+    "personalization": "customization",
+    "service provision": "provide service",
+    "service-provision": "provide service"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or product improvement"
+    ],
+    "service improvement": [
+     "analytics or product improvement"
+    ],
+    "enforcement": [
+     "compliance"
+    ],
+    "fraud and security": [
+     "security"
+    ],
+    "fraud-prevention": [
+     "fraud and security"
+    ],
+    "fraud_detection": [
+     "fraud and security",
+     "fraud-prevention"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "notification": [
+     "communication"
+    ],
+    "registration": [
+     "authentication"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "user experience enhancement": [
+     "customization"
+    ],
+    "website functionality": [
+     "service functionality"
+    ],
+    "service functionality": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3466,
+  "completion_tokens": 1350,
+  "thinking_tokens": 0,
+  "seconds": 15.160651922225952,
+  "failures": 0
+ },
+ "seconds": 15.2
+}

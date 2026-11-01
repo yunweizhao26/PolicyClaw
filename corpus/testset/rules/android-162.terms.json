@@ -1,0 +1,121 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "personal information": "personal data",
+    "user data": "personal data"
+   },
+   "parents": {
+    "actions in games": [
+     "browsing behavior",
+     "information",
+     "personal data"
+    ],
+    "advertising id": [
+     "information",
+     "personal data"
+    ],
+    "browsing behavior": [
+     "information",
+     "personal data"
+    ],
+    "contact information": [
+     "information",
+     "personal data"
+    ],
+    "country": [
+     "information",
+     "personal data"
+    ],
+    "device language": [
+     "information",
+     "personal data"
+    ],
+    "device type": [
+     "information",
+     "personal data"
+    ],
+    "friend list": [
+     "information",
+     "personal data",
+     "social network profile"
+    ],
+    "ip address": [
+     "information",
+     "personal data"
+    ],
+    "other information": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "purchase history": [
+     "information",
+     "personal data"
+    ],
+    "social network profile": [
+     "information",
+     "personal data"
+    ],
+    "social network profile name": [
+     "information",
+     "personal data",
+     "social network profile"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "friends": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third-party partners": "third party partner"
+   },
+   "parents": {
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ],
+    "customer-support": [
+     "service provision"
+    ],
+    "social-features": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1448,
+  "completion_tokens": 613,
+  "thinking_tokens": 0,
+  "seconds": 9.587125062942505,
+  "failures": 0
+ },
+ "seconds": 9.7
+}

@@ -1,0 +1,304 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "any data": "all data",
+    "contact details": "contact data",
+    "data": "all data",
+    "language preference": "language",
+    "search queries": "de-identified search query",
+    "search query": "de-identified search query",
+    "settings data": "settings",
+    "system performance data": "system performance",
+    "technical information": "technical data",
+    "unique identifiers": "unique identifier",
+    "user preferences": "settings",
+    "webpage content": "browsing content"
+   },
+   "parents": {
+    "DNS requests": [
+     "system logs"
+    ],
+    "Firefox usage data": [
+     "usage data"
+    ],
+    "aggregate information": [
+     "de-identified or aggregated data"
+    ],
+    "backup data": [
+     "all data"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "interaction data",
+     "usage data"
+    ],
+    "browsing content": [
+     "content data"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "browsing and interaction data"
+    ],
+    "category of content viewed": [
+     "browsing activity"
+    ],
+    "chat logs": [
+     "messages"
+    ],
+    "clicks": [
+     "interaction data"
+    ],
+    "client version": [
+     "device technical and configuration data"
+    ],
+    "collected information": [
+     "all data"
+    ],
+    "connection status": [
+     "technical data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "content of those sites": [
+     "content data"
+    ],
+    "cookies": [
+     "technical data"
+    ],
+    "crash data": [
+     "diagnostic data"
+    ],
+    "data about the websites you visit": [
+     "browsing activity"
+    ],
+    "de-identified data": [
+     "all data"
+    ],
+    "de-identified interaction data": [
+     "interaction data"
+    ],
+    "de-identified or aggregated data": [
+     "all data"
+    ],
+    "de-identified search query": [
+     "search history"
+    ],
+    "device technical and configuration data": [
+     "technical data"
+    ],
+    "device type": [
+     "device technical and configuration data"
+    ],
+    "diagnostic data": [
+     "technical data"
+    ],
+    "files": [
+     "content data"
+    ],
+    "first seen date": [
+     "technical data"
+    ],
+    "form data": [
+     "user input"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "images": [
+     "content data"
+    ],
+    "information you share": [
+     "user data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "language": [
+     "settings"
+    ],
+    "location": [
+     "technical data"
+    ],
+    "marketing campaign data": [
+     "all data"
+    ],
+    "marketing campaign measurement data": [
+     "marketing campaign data"
+    ],
+    "messages": [
+     "content data"
+    ],
+    "operating system": [
+     "device technical and configuration data"
+    ],
+    "other sensitive information": [
+     "personal data"
+    ],
+    "passwords": [
+     "account details"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "referring URL": [
+     "browsing and interaction data"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "survey responses": [
+     "user input"
+    ],
+    "sync data": [
+     "user data"
+    ],
+    "system logs": [
+     "technical data"
+    ],
+    "system performance": [
+     "technical data"
+    ],
+    "temporary internet files": [
+     "browsing activity"
+    ],
+    "unique identifier": [
+     "identifying information"
+    ],
+    "url": [
+     "browsing activity"
+    ],
+    "usage data": [
+     "all data"
+    ],
+    "user data": [
+     "all data"
+    ],
+    "user input": [
+     "content data"
+    ],
+    "user status": [
+     "Firefox usage data"
+    ],
+    "user uploaded photos": [
+     "images"
+    ],
+    "webpage data": [
+     "browsing activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "first party": "Mozilla",
+    "marketing technology partners": "marketing technology partner",
+    "partner": "Mozilla's partner",
+    "partners": "Mozilla's partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "Mozilla's partner"
+    ],
+    "advertising provider": [
+     "service provider"
+    ],
+    "marketing partner": [
+     "Mozilla's partner"
+    ],
+    "marketing technology partner": [
+     "marketing partner"
+    ],
+    "law enforcement": [
+     "government authority"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "supplier": [
+     "service provider"
+    ],
+    "search provider": [
+     "service provider"
+    ],
+    "a resolver service that has agreed to Mozilla’s strict privacy standards for resolvers": [
+     "service provider"
+    ],
+    "affiliate": [
+     "Mozilla"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "Mozilla's partner": [
+     "third party"
+    ],
+    "government authority": [
+     "third party"
+    ],
+    "Certificate Authorities": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Daily Usage Ping": [
+     "first party software"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "search provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "personalization": "personalisation",
+    "service customization": "personalisation",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "security or identity": [
+     "security"
+    ],
+    "service maintenance": [
+     "service provision and maintenance"
+    ],
+    "service provision": [
+     "service provision and maintenance"
+    ],
+    "testing": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2852,
+  "completion_tokens": 1354,
+  "thinking_tokens": 0,
+  "seconds": 13.943477869033813,
+  "failures": 0
+ },
+ "seconds": 14.1
+}

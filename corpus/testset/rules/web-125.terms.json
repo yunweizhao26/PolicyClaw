@@ -1,0 +1,251 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "analytics information": "Analytics Information",
+    "browser_type": "browser type",
+    "company_name": "company name",
+    "contact information": "Contact Information",
+    "date_and_time_stamp": "access timestamp",
+    "email_address": "email address",
+    "inquiry information": "Inquiry Information",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "job_title": "job title",
+    "language setting": "language",
+    "login_details": "log-in credentials",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "sensitive personal information": "sensitive information",
+    "web pixels": "web beacons"
+   },
+   "parents": {
+    "Analytics Information": [
+     "information",
+     "usage data"
+    ],
+    "Business Information": [
+     "information"
+    ],
+    "Contact Information": [
+     "information",
+     "user-provided information"
+    ],
+    "Google API data": [
+     "information"
+    ],
+    "Google Android ID": [
+     "advertising identifier",
+     "personal data"
+    ],
+    "IDFA": [
+     "advertising identifier",
+     "personal data"
+    ],
+    "IP address": [
+     "internet_or_electronic_network_activity_information",
+     "personal data"
+    ],
+    "Inquiry Information": [
+     "information",
+     "user-provided information"
+    ],
+    "access timestamp": [
+     "internet_or_electronic_network_activity_information"
+    ],
+    "additional information": [
+     "information"
+    ],
+    "advertising identifier": [
+     "personal data"
+    ],
+    "browser type": [
+     "internet_or_electronic_network_activity_information"
+    ],
+    "browsing behavior": [
+     "internet_or_electronic_network_activity_information",
+     "personal data"
+    ],
+    "carrier user ID": [
+     "personal data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "commercial_information": [
+     "information"
+    ],
+    "company name": [
+     "Business Information"
+    ],
+    "cookies": [
+     "internet_or_electronic_network_activity_information"
+    ],
+    "email address": [
+     "Contact Information",
+     "personal data"
+    ],
+    "engagement information": [
+     "Business Information",
+     "information"
+    ],
+    "interaction details": [
+     "interaction_data",
+     "internet_or_electronic_network_activity_information"
+    ],
+    "interaction_data": [
+     "internet_or_electronic_network_activity_information"
+    ],
+    "internet_or_electronic_network_activity_information": [
+     "information",
+     "personal data"
+    ],
+    "job title": [
+     "professional_or_employment_information"
+    ],
+    "language": [
+     "internet_or_electronic_network_activity_information"
+    ],
+    "links clicked": [
+     "interaction details",
+     "interaction_data",
+     "internet_or_electronic_network_activity_information"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "log-in credentials": [
+     "personal data"
+    ],
+    "name": [
+     "Contact Information",
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "Contact Information",
+     "personal data"
+    ],
+    "platform data": [
+     "information"
+    ],
+    "professional_or_employment_information": [
+     "information",
+     "personal data"
+    ],
+    "requested personal data": [
+     "personal data"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "user-provided information": [
+     "information"
+    ],
+    "user_inquiries": [
+     "Inquiry Information"
+    ],
+    "web beacons": [
+     "internet_or_electronic_network_activity_information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising networks": [
+     "third parties"
+    ],
+    "competent authorities": [
+     "third_party"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third_party": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "third_party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "marketing purposes": "marketing",
+    "service provision": "provide service",
+    "service-improvement": "improve service",
+    "service-provision": "provide service",
+    "targeted-advertising": "advertising"
+   },
+   "parents": {
+    "operate the Website": [
+     "operate service",
+     "service-operation"
+    ],
+    "service-operation": [
+     "operate service"
+    ],
+    "enable the structural change in the operation of the business": [
+     "business-transfer"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "handling of the violation or breach": [
+     "security"
+    ],
+    "identity confirmation": [
+     "security"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ],
+    "legal-proceedings": [
+     "legal compliance"
+    ],
+    "legal_compliance": [
+     "compliance"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "troubleshooting": [
+     "operate service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2572,
+  "completion_tokens": 2212,
+  "thinking_tokens": 0,
+  "seconds": 27.31623101234436,
+  "failures": 0
+ },
+ "seconds": 27.4
+}

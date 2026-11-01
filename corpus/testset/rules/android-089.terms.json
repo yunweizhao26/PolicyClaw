@@ -1,0 +1,99 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "your data": "data"
+   },
+   "parents": {
+    "IP address": [
+     "device details"
+    ],
+    "account and gameplay data": [
+     "browsing and interaction data"
+    ],
+    "mobile device ID": [
+     "device details"
+    ],
+    "user message": [
+     "user-provided data"
+    ],
+    "user name": [
+     "user-provided data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "other companies"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "fraud prevention": "fraud detection and prevention",
+    "fraud-prevention": "fraud detection and prevention",
+    "provide the service": "provide the Service",
+    "service-provision": "provide the Service"
+   },
+   "parents": {
+    "fraud detection and prevention": [
+     "fraud prevention and security",
+     "protection of rights and safety"
+    ],
+    "security": [
+     "fraud prevention and security",
+     "protection of rights and safety"
+    ],
+    "fraud prevention and security": [
+     "protection of rights and safety"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "hosting": [
+     "provide the Service",
+     "service provision"
+    ],
+    "payment processing": [
+     "provide the Service",
+     "service provision"
+    ],
+    "customer support": [
+     "provide the Service",
+     "service provision"
+    ],
+    "provide the Service": [
+     "service provision"
+    ],
+    "legal compliance": [
+     "our legitimate business interests"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1898,
+  "completion_tokens": 618,
+  "thinking_tokens": 0,
+  "seconds": 13.538935422897339,
+  "failures": 0
+ },
+ "seconds": 13.6
+}

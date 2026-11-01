@@ -1,0 +1,13 @@
+You relate the {kind} terms that one privacy policy uses, so that rules about a broader term can be compared with
+rules about a narrower one.
+
+Terms, each with up to two phrases from the policy that use it:
+{terms}
+
+For each term, decide whether it means the same as another term of the list ("personal data" and "personal
+information"), whether it is narrower than another term of the list ("sensitive personal information" is narrower
+than "personal information", "email address" is narrower than "contact information"), or neither. Use the phrases
+to read what the policy means by each term. Relate only terms of the list, and do not relate two terms that merely
+overlap.
+
+Return only JSON: {{"same": [[term, term], ...], "narrower": [[narrower term, broader term], ...]}}

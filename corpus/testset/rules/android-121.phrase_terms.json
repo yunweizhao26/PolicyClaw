@@ -1,0 +1,165 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "an email address",
+    "personal information": "PII",
+    "your personal information": "PII",
+    "your photos": "photos"
+   },
+   "parents": {
+    "All confidential data": [
+     "Information"
+    ],
+    "The contact information": [
+     "The information"
+    ],
+    "an email address": [
+     "PII",
+     "The contact information"
+    ],
+    "any PII that we have collected from you": [
+     "PII"
+    ],
+    "call information": [
+     "Information"
+    ],
+    "information about your Wi-Fi connection": [
+     "Information"
+    ],
+    "location information": [
+     "Information"
+    ],
+    "name": [
+     "PII",
+     "The contact information"
+    ],
+    "other contact information": [
+     "The contact information"
+    ],
+    "payment details": [
+     "Payment information"
+    ],
+    "photo stored in your mobile device": [
+     "photos"
+    ],
+    "photos": [
+     "media and files"
+    ],
+    "the email address associated with your Social Media Account": [
+     "an email address"
+    ],
+    "the first and last names of user contacts": [
+     "name"
+    ],
+    "the frequent words of what you input": [
+     "parts of input"
+    ],
+    "these portraits": [
+     "photos"
+    ],
+    "PII": [
+     "your information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "any third party": "Third Parties"
+   },
+   "parents": {
+    "law enforcement": [
+     "Third Parties",
+     "other competent authorities"
+    ],
+    "other competent authorities": [
+     "Third Parties"
+    ],
+    "another organizations": [
+     "Third Parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under the age of thirteen (13)": [
+     "children under 16",
+     "from or about our users"
+    ],
+    "children under 16": [
+     "from or about our users"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "We",
+    "the team": "We",
+    "us": "We",
+    "we": "We"
+   },
+   "parents": {
+    "We": [
+     "anyone"
+    ],
+    "the third party application provider": [
+     "anyone",
+     "third-party companies"
+    ],
+    "third-party companies": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "to deliver and improve the Software and Services": "Deliver the Software and Services to you and maintain, improve the quality and operation of the Software and Services, ensure their optimal functionality and operation",
+    "to provide you with support services": "Provide you with customer support and respond to your requests"
+   },
+   "parents": {
+    "To improve and customize the Software and Services": [
+     "Deliver the Software and Services to you and maintain, improve the quality and operation of the Software and Services, ensure their optimal functionality and operation"
+    ],
+    "for the respective product improvement": [
+     "Deliver the Software and Services to you and maintain, improve the quality and operation of the Software and Services, ensure their optimal functionality and operation",
+     "To improve and customize the Software and Services"
+    ],
+    "for better language dictionaries": [
+     "for the respective product improvement"
+    ],
+    "For auto-correction and auto- suggestion": [
+     "for the respective product improvement"
+    ],
+    "to help the user can input the name faster": [
+     "For better user experiences"
+    ],
+    "to complete face recognition": [
+     "to use some of the features of the Software and Services (including but not limited to customizing keyboard themes or using portraits intelligence to generate comics avatars as emoji)"
+    ],
+    "to use some of the features of the Software and Services (including but not limited to customizing keyboard themes or using portraits intelligence to generate comics avatars as emoji)": [
+     "Deliver the Software and Services to you and maintain, improve the quality and operation of the Software and Services, ensure their optimal functionality and operation"
+    ],
+    "as part of the registration process": [
+     "Identify, establish and manage your account and our relationship with you"
+    ],
+    "to resolve disputes": [
+     "for the establishment or defense of legal claims"
+    ],
+    "crime prevention purposes": [
+     "to keep you safe"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3766,
+  "completion_tokens": 1348,
+  "thinking_tokens": 0,
+  "seconds": 13.923709154129028,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

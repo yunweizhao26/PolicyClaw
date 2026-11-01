@@ -1,0 +1,454 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "job applications": "job application",
+    "personal data": "Personal Data",
+    "resumes": "resume",
+    "sensitive personal data": "sensitive data",
+    "special category data": "special categories of data"
+   },
+   "parents": {
+    "account identifier": [
+     "account details",
+     "identifiers"
+    ],
+    "account state": [
+     "account details"
+    ],
+    "account management data": [
+     "user account data"
+    ],
+    "account information": [
+     "user account data"
+    ],
+    "account details": [
+     "user account data"
+    ],
+    "administrative messages": [
+     "messages"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "anonymized data": [
+     "non-personal data"
+    ],
+    "application and contact information": [
+     "candidate information"
+    ],
+    "application data": [
+     "candidate information"
+    ],
+    "authentication token": [
+     "identifiers"
+    ],
+    "billing information": [
+     "commercial information"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing activity": [
+     "browsing history"
+    ],
+    "browsing interests": [
+     "browsing history"
+    ],
+    "call audio": [
+     "calls"
+    ],
+    "call completion status": [
+     "information about whether a call was answered"
+    ],
+    "call content": [
+     "calls"
+    ],
+    "call duration": [
+     "calls"
+    ],
+    "chat information": [
+     "communications"
+    ],
+    "compensation details": [
+     "employment information"
+    ],
+    "contact details": [
+     "contact info"
+    ],
+    "country": [
+     "location"
+    ],
+    "demographic data": [
+     "Personal Data"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers"
+    ],
+    "employer screening information": [
+     "screening data"
+    ],
+    "employer-related data": [
+     "business information"
+    ],
+    "employment history": [
+     "employment information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "full card number": [
+     "billing information"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "identifiers": [
+     "Personal Data"
+    ],
+    "information about whether a call was answered": [
+     "calls"
+    ],
+    "job application": [
+     "application data"
+    ],
+    "job application materials": [
+     "job application"
+    ],
+    "job application status": [
+     "job application"
+    ],
+    "job preferences": [
+     "profile information"
+    ],
+    "language setting": [
+     "profile information"
+    ],
+    "last name": [
+     "name"
+    ],
+    "license": [
+     "license and certification data"
+    ],
+    "license or certification": [
+     "license and certification data"
+    ],
+    "license and certification data": [
+     "candidate information"
+    ],
+    "messages": [
+     "communication data"
+    ],
+    "mock interviews data": [
+     "interview information"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "opt-out request": [
+     "user request"
+    ],
+    "phone call": [
+     "calls"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "physical address": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info",
+     "location"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "profile data": [
+     "profile information"
+    ],
+    "profile information": [
+     "user account data"
+    ],
+    "profile picture": [
+     "profile information"
+    ],
+    "public profile": [
+     "profile information"
+    ],
+    "read receipts": [
+     "communication data"
+    ],
+    "recording": [
+     "rich media content"
+    ],
+    "referrer url": [
+     "browsing history"
+    ],
+    "resume": [
+     "candidate information",
+     "job application materials"
+    ],
+    "scheduling information": [
+     "interview information"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "sensitive data": [
+     "Personal Data"
+    ],
+    "special categories of data": [
+     "sensitive data"
+    ],
+    "text message": [
+     "messages"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "user feedback and satisfaction data": [
+     "feedback"
+    ],
+    "user-generated content": [
+     "user input"
+    ],
+    "verification documentation": [
+     "verification information"
+    ],
+    "video recordings": [
+     "recording"
+    ],
+    "viewed content": [
+     "browsing history"
+    ],
+    "web beacons": [
+     "other tracking technology"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "employers": "employer",
+    "relevant employer": "relevant Employer",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Glassdoor": [
+     "Indeed affiliates",
+     "affiliate"
+    ],
+    "Indeed affiliates": [
+     "affiliate"
+    ],
+    "agent": [
+     "third parties"
+    ],
+    "employer": [
+     "third parties"
+    ],
+    "relevant Employer": [
+     "employer"
+    ],
+    "job seeker": [
+     "user"
+    ],
+    "message sender": [
+     "message participants"
+    ],
+    "other user": [
+     "user"
+    ],
+    "third-party partner": [
+     "partner",
+     "third parties"
+    ],
+    "third party website": [
+     "third parties"
+    ],
+    "the United States": [
+     "jurisdictions outside the EEA, United Kingdom, and Switzerland"
+    ],
+    "law enforcement": [
+     "government agency",
+     "public authorities"
+    ],
+    "regulator": [
+     "government agency",
+     "public authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "publicly available sources": "publicly available data",
+    "the Sites": "Sites"
+   },
+   "parents": {
+    "Sites": [
+     "website"
+    ],
+    "employer": [
+     "user"
+    ],
+    "third-party partners": [
+     "third party"
+    ],
+    "third-party sources": [
+     "third party"
+    ],
+    "third party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Indeed Inc.": "Indeed",
+    "employers": "employer",
+    "first party": "Indeed",
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "Indeed Ireland": [
+     "Indeed"
+    ],
+    "Indeed Japan": [
+     "Indeed"
+    ],
+    "other user": [
+     "user"
+    ],
+    "third party vendor": [
+     "third party",
+     "vendor"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "authentication": "authenticate user",
+    "fraud prevention": "fraud detection",
+    "fraud-prevention": "fraud detection",
+    "improve Sites and services": "improve Site services",
+    "improve services": "improve Site services",
+    "improve-service": "improve Site services",
+    "legal compliance": "comply with legal obligations",
+    "security or fraud prevention": "security",
+    "service improvement": "improve Site services",
+    "service provision": "provide-service",
+    "service-provision": "provide-service",
+    "services improvement": "improve Site services",
+    "targeting-advertising": "advertising",
+    "verify identity": "verification",
+    "verify with the third party that you are a valid Indeed account holder": "confirm valid account holder"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "award labels or badges to Employers and Job Seekers based on application status and disposition data": [
+     "personalization"
+    ],
+    "personalization of services": [
+     "personalization"
+    ],
+    "effect payment for a chargeable service": [
+     "facilitate payment"
+    ],
+    "facilitate payment": [
+     "payment processing"
+    ],
+    "evaluating algorithmic fairness": [
+     "research"
+    ],
+    "facilitate application to a Job Listing": [
+     "job application"
+    ],
+    "part of application process to a Job Listing": [
+     "job application"
+    ],
+    "streamline applying to jobs": [
+     "job application"
+    ],
+    "facilitate due process and provide information in response to a valid legal process": [
+     "comply with legal obligations"
+    ],
+    "facilitate interviews": [
+     "provide-service"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "help Employers find relevant candidates": [
+     "provide-service"
+    ],
+    "help Employers find relevant candidates and improve services": [
+     "provide-service"
+    ],
+    "help employers hire more inclusively": [
+     "diversity, equity, and inclusion"
+    ],
+    "improve products addressing employment barriers": [
+     "improve Site services"
+    ],
+    "understand and improve the effectiveness of Sites and features": [
+     "improve Site services"
+    ],
+    "analytics or service improvement": [
+     "improve Site services"
+    ],
+    "service operation and improvement": [
+     "provide-service"
+    ],
+    "verify your account": [
+     "verification"
+    ],
+    "confirm valid account holder": [
+     "verification"
+    ],
+    "authenticate user": [
+     "verification"
+    ],
+    "prove you have the required credential": [
+     "verification"
+    ],
+    "make signing into Indeed easier and more secure": [
+     "authenticate user"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4854,
+  "completion_tokens": 1915,
+  "thinking_tokens": 0,
+  "seconds": 15.763845920562744,
+  "failures": 0
+ },
+ "seconds": 15.9
+}

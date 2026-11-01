@@ -1,0 +1,170 @@
+{
+ "cleaned_sha256": "apple-128",
+ "text_sha256": "6d99707dbd4d567a8844965b97b4be62342e4704d2a3e798f539004e7bdcddcf",
+ "site_id": "apple-128",
+ "sections": 13,
+ "rules": 134,
+ "report": {
+  "sections": 13,
+  "raw_rules": 122,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosing",
+     "actor": {
+      "text": "This",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosing",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "protecting other users of our platforms",
+       "name": "fraud and abuse prevention and response"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-128#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you visit our Sites"
+     ],
+     "data": {
+      "name": "visitor count",
+      "text": "how many users visited our Sites"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to learn how to best tailor our Sites to our visitors",
+       "name": "service optimization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to learn how to best tailor our Sites to our visitors"
+    ],
+    "section": "apple-128#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you visit our Sites"
+     ],
+     "data": {
+      "name": "pages visited",
+      "text": "the pages accessed"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [
+      {
+       "text": "to learn how to best tailor our Sites to our visitors",
+       "name": "service optimization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to learn how to best tailor our Sites to our visitors"
+    ],
+    "section": "apple-128#s13"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 67,
+  "completeness": {
+   "gaps": 157,
+   "gap_words": 1482
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 67,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 38657,
+  "completion_tokens": 21768,
+  "thinking_tokens": 0,
+  "seconds": 371.92973732948303,
+  "failures": 0
+ },
+ "seconds": 372.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

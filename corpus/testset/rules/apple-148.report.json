@@ -1,0 +1,326 @@
+{
+ "cleaned_sha256": "apple-148",
+ "text_sha256": "05870746de5b7296a283d8420065d3cbb2798d612060e27944721afc2a6376c3",
+ "site_id": "apple-148",
+ "sections": 13,
+ "rules": 371,
+ "report": {
+  "sections": 13,
+  "raw_rules": 253,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you apply for insurance"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you apply for insurance"
+    ],
+    "section": "apple-148#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you pay insurance premiums"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you pay insurance premiums"
+    ],
+    "section": "apple-148#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you file an insurance claim"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you file an insurance claim"
+    ],
+    "section": "apple-148#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to limit only",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "nonaffiliates",
+      "name": "non-affiliate"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to market to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "gives you the right to limit"
+     ],
+     "references": [
+      {
+       "text": "Federal law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-148#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "actor": {
+      "text": "Progressive",
+      "name": "Progressive"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "nonaffiliates",
+      "name": "non-affiliate"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "so they can market to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-148#s2"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "data received from third party",
+      "text": "the data we receive"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also use",
+     "purpose": [
+      {
+       "text": "for purposes such as: Rating, including verification of information provided by you or with your consent",
+       "name": ""
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for purposes such as: Rating, including verification of information provided by you or with your consent"
+    ],
+    "section": "apple-148#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "data": {
+      "name": "data received from third party",
+      "text": "the data we receive"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also use",
+     "purpose": [
+      {
+       "text": "for purposes such as: Research and development",
+       "name": ""
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for purposes such as: Research and development"
+    ],
+    "section": "apple-148#s12"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 51,
+  "completeness": {
+   "gaps": 329,
+   "gap_words": 3225
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 51,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 48864,
+  "completion_tokens": 44037,
+  "thinking_tokens": 0,
+  "seconds": 599.4728002548218,
+  "failures": 0
+ },
+ "seconds": 600.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

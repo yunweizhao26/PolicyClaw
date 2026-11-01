@@ -1,0 +1,82 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address",
+    "unique device identifier": "device ID",
+    "user data": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "unique identifier"
+    ],
+    "advertising identifier": [
+     "personal data",
+     "unique identifier"
+    ],
+    "hardware-based device identifier": [
+     "unique identifier"
+    ],
+    "device ID": [
+     "unique identifier"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "parental information": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "other third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service operation": "operational activities"
+   },
+   "parents": {
+    "security": [
+     "fraud prevention and security"
+    ],
+    "protecting rights and safety": [
+     "fraud prevention and security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1293,
+  "completion_tokens": 292,
+  "thinking_tokens": 0,
+  "seconds": 8.695582389831543,
+  "failures": 0
+ },
+ "seconds": 8.8
+}

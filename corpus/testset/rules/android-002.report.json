@@ -1,0 +1,482 @@
+{
+ "cleaned_sha256": "android-002",
+ "text_sha256": "da91cd676d57f76d72c8a894d704f870e116354749372e869bbf10123baafd51",
+ "site_id": "android-002",
+ "sections": 8,
+ "rules": 177,
+ "report": {
+  "sections": 8,
+  "raw_rules": 149,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "which results in legal or similarly significant effects, as defined under applicable law"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "account",
+      "name": "account details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Your Rights and Choices",
+      "Through your in-app settings",
+      "following the instructions for deletion here"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "following the instructions for deletion here"
+    ],
+    "section": "android-002#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "for as long as you have an account",
+      "subject to your updates of such information",
+      "when we process your information such as your account registration information to provide you with the Services"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "keep",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you violate our Terms of Service , Community Guidelines , or other conditions or policies"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to process the violation",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Community Guidelines",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transmit",
+      "verb": "transmit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Subject to applicable laws, including Executive Order 14352 and any compliance obligations thereunder"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for purposes of sharing with recipients as described in this Privacy Policy",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "unspecified third party",
+      "text": "recipients as described in this Privacy Policy"
+     },
+     "references": [
+      {
+       "text": "Executive Order 14352",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in which we collect and process only limited information",
+      "users under age 13 (“Child” or “Children”) (as well as users who are 13 years old in Florida) in the United States"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in which we collect and process only limited information",
+      "users under age 13 (“Child” or “Children”) (as well as users who are 13 years old in Florida) in the United States"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If we become aware that a Child’s personal information has been collected outside of this separate experience for Children",
+      "in accordance with applicable law"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "download",
+      "verb": "download"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "As a parent or guardian, you can also request to delete the account of your Child or to download their data, by contacting us at https://www.tiktok.com/legal/report/privacy."
+     ],
+     "exceptions": [],
+     "operation": "retrieval",
+     "polarity": "ALLOW",
+     "polarity_text": "request to delete the account of your Child or to download their data",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "removal",
+      "verb": "remove"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Users of the Services who are California residents and are under 18 years of age may request and obtain removal of user content they posted by contacting us at: https://www.tiktok.com/legal/report/privacy",
+      "All requests must provide a description of the user content they want removed and information reasonably sufficient to permit us to locate that user content",
+      "We may not be able to respond if you do not provide adequate information"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may request and obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "unpublish",
+      "verb": "unpublish"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Users of the Services who are Connecticut residents and are under 18 years of age, and parents and guardians of users of the Services who are Connecticut residents under 16 years of age, may request that we unpublish or delete their own account (for users aged 13 through 17) or their Child’s account (for parents and guardians with teen users under 16) by following the instructions here ."
+     ],
+     "exceptions": [],
+     "operation": "restriction",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Users of the Services who are Connecticut residents and are under 18 years of age, and parents and guardians of users of the Services who are Connecticut residents under 16 years of age, may request that we unpublish or delete their own account (for users aged 13 through 17) or their Child’s account (for parents and guardians with teen users under 16) by following the instructions here ."
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-002#s7"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 50,
+  "completeness": {
+   "gaps": 175,
+   "gap_words": 2153
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 50,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 29427,
+  "completion_tokens": 31278,
+  "thinking_tokens": 0,
+  "seconds": 215.28816199302673,
+  "failures": 0
+ },
+ "seconds": 216.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

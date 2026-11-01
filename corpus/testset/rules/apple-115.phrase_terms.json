@@ -1,0 +1,75 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {},
+   "parents": {
+    "Phone numbers": [
+     "Information from the contacts on your device"
+    ],
+    "end-to-end encrypted messages": [
+     "messages"
+    ],
+    "the content of your messages": [
+     "messages"
+    ],
+    "personal data you may share with us": [
+     "your data"
+    ],
+    "Information from the contacts on your device": [
+     "your data"
+    ],
+    "messages": [
+     "your data"
+    ],
+    "calls": [
+     "your data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "the contacts on your device": [
+     "you"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Signal",
+    "our": "Signal",
+    "us": "Signal"
+   },
+   "parents": {
+    "Signal": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "for delivery to devices that are temporarily offline (e.g. a phone whose battery has died)": [
+     "to provide our Services to you and other Signal users"
+    ],
+    "in order to determine which of your contacts are registered": [
+     "to provide our Services to you and other Signal users"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1625,
+  "completion_tokens": 341,
+  "thinking_tokens": 0,
+  "seconds": 6.332006454467773,
+  "failures": 0
+ },
+ "seconds": 6.4
+}

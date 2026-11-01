@@ -1,0 +1,350 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "date of birth": "birthday",
+    "information": "data",
+    "ip address": "IP address",
+    "nutrition preferences": "food preferences",
+    "payment card or gift card information": "payment card information",
+    "personal information": "personal data",
+    "physical address": "delivery address",
+    "postal address": "delivery address",
+    "precise location": "precise geolocation",
+    "precise_location": "precise geolocation",
+    "purchases": "purchase history",
+    "telephone number": "phone number",
+    "unique identifier": "identifier",
+    "unique identifiers": "identifier",
+    "video surveillance footage": "video surveillance"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "identifier",
+     "network activity information"
+    ],
+    "Wi-Fi connection data": [
+     "network connections"
+    ],
+    "Wi-Fi connections": [
+     "network connections"
+    ],
+    "accessibility preferences": [
+     "health data",
+     "personal preferences",
+     "preferences"
+    ],
+    "advertising data": [
+     "user data"
+    ],
+    "birthday": [
+     "personal data"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "network activity information"
+    ],
+    "chat history": [
+     "chat",
+     "transcript",
+     "user profile content"
+    ],
+    "city and province": [
+     "location"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "cookie id": [
+     "cookie data",
+     "identifier"
+    ],
+    "country": [
+     "location"
+    ],
+    "credit card number": [
+     "financial data",
+     "payment card information",
+     "payment information"
+    ],
+    "debit or credit card-related information": [
+     "financial data",
+     "payment information"
+    ],
+    "delivery address": [
+     "address"
+    ],
+    "device identifier": [
+     "device characteristics",
+     "identifier"
+    ],
+    "device settings": [
+     "device characteristics"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "email address": [
+     "identifier",
+     "personal data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "group order participant name": [
+     "name"
+    ],
+    "recipient name": [
+     "name",
+     "recipient information"
+    ],
+    "recipient email address": [
+     "email address",
+     "recipient information"
+    ],
+    "food preferences": [
+     "preferences"
+    ],
+    "personal preferences": [
+     "preferences"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "language preference": [
+     "preferences"
+    ],
+    "network activity information": [
+     "browsing activity"
+    ],
+    "operating system": [
+     "device characteristics"
+    ],
+    "order information": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "payment card information": [
+     "financial data",
+     "payment information"
+    ],
+    "payment information": [
+     "financial data"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "pixel id": [
+     "identifier"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "referring URL": [
+     "browsing activity",
+     "network activity information"
+    ],
+    "search queries": [
+     "browsing activity"
+    ],
+    "session recording": [
+     "browsing activity",
+     "recording"
+    ],
+    "user audio": [
+     "recording"
+    ],
+    "video surveillance": [
+     "recording"
+    ],
+    "user post": [
+     "user-shared information"
+    ],
+    "form submission content": [
+     "user-shared information"
+    ],
+    "fundraiser applications": [
+     "form submission content"
+    ],
+    "personal data": [
+     "data",
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "analytics provider": "Analytics companies",
+    "government agency": "Government Agencies",
+    "service provider": "Vendors providing services to us",
+    "vendors": "Vendors providing services to us"
+   },
+   "parents": {
+    "Analytics companies": [
+     "Vendors providing services to us"
+    ],
+    "Payment Processors": [
+     "Vendors providing services to us"
+    ],
+    "advertising provider": [
+     "Vendors providing services to us",
+     "third party"
+    ],
+    "Third Party Advertisers": [
+     "third party"
+    ],
+    "Data Brokers": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "law enforcement": [
+     "Government Agencies"
+    ],
+    "Government Agencies": [
+     "third party"
+    ],
+    "Vendors providing services to us": [
+     "third party"
+    ],
+    "acquirer": [
+     "third party"
+    ],
+    "Internet": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "data analytics provider": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "geolocation data provider": [
+     "third party"
+    ],
+    "internet service provider": [
+     "third party"
+    ],
+    "operating system provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "government": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service providers": "service provider",
+    "vendor": "our vendors"
+   },
+   "parents": {
+    "Microsoft": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "our vendors": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial activities": "business purposes",
+    "customer_support": "customer support",
+    "legal_compliance": "legal compliance",
+    "order_fulfillment": "order fulfilment",
+    "other": "for any other purpose",
+    "payment_processing": "payment handling",
+    "personalization of services": "personalization",
+    "rewards_program": "Rewards Program",
+    "service_provision": "service provision",
+    "targeted advertising": "ad targeting"
+   },
+   "parents": {
+    "ad targeting": [
+     "advertising",
+     "marketing"
+    ],
+    "third party marketing": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "order fulfilment": [
+     "service provision"
+    ],
+    "Rewards Program": [
+     "service provision"
+    ],
+    "payment handling": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "fraud and abuse detection": [
+     "security",
+     "security and fraud prevention"
+    ],
+    "physical safety and security": [
+     "security"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "commercial research": [
+     "research_and_development"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3786,
+  "completion_tokens": 1920,
+  "thinking_tokens": 0,
+  "seconds": 20.04629898071289,
+  "failures": 0
+ },
+ "seconds": 20.2
+}

@@ -1,0 +1,414 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "billing information": "billing data",
+    "billing_information": "billing data",
+    "contact information": "contact details",
+    "device identifier": "device ID",
+    "device_id": "device ID",
+    "device_information": "device information",
+    "email_address": "email address",
+    "events and programs data": "event and program information",
+    "game information": "game data",
+    "information": "data",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "postal address": "address",
+    "publicly available information": "public personal data",
+    "publicly available online data": "public personal data",
+    "publicly_available_information": "public personal data",
+    "registration information": "registration data",
+    "special category personal data": "sensitive personal data",
+    "survey, research, or sweepstakes information": "survey and user research data",
+    "technical_information": "technical information",
+    "transaction information": "transaction details",
+    "transactional information": "transaction details",
+    "under-age status signal": "under-age status",
+    "user-provided data": "user provided information",
+    "user-provided information": "user provided information"
+   },
+   "parents": {
+    "IP address": [
+     "technical information"
+    ],
+    "ad_id": [
+     "device ID"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "age": [
+     "demographic information"
+    ],
+    "anti cheat data": [
+     "security data"
+    ],
+    "browser_language": [
+     "language"
+    ],
+    "browser_type": [
+     "technical information"
+    ],
+    "child personal information": [
+     "personal data"
+    ],
+    "competition data": [
+     "survey and user research data"
+    ],
+    "contest participation data": [
+     "competition data"
+    ],
+    "crash_data": [
+     "technical information"
+    ],
+    "customer service information": [
+     "user support data"
+    ],
+    "date of birth": [
+     "demographic information"
+    ],
+    "device ID": [
+     "identifiers",
+     "technical information"
+    ],
+    "device information": [
+     "technical information"
+    ],
+    "device_components": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "event attendance details": [
+     "event and program information"
+    ],
+    "feedback": [
+     "user support data"
+    ],
+    "financial account details": [
+     "financial information"
+    ],
+    "game identifier": [
+     "identifiers"
+    ],
+    "game profile": [
+     "game data"
+    ],
+    "game progression data": [
+     "gameplay data"
+    ],
+    "gameplay data": [
+     "game data"
+    ],
+    "gameplay history": [
+     "gameplay data"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "internal account reference number": [
+     "identifiers"
+    ],
+    "operating_system": [
+     "technical information"
+    ],
+    "operating_system_version": [
+     "operating_system"
+    ],
+    "pages_visited": [
+     "browsing behavior"
+    ],
+    "payment_card_details": [
+     "billing data",
+     "financial information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "platform operator account information": [
+     "account information"
+    ],
+    "precise location": [
+     "geolocation",
+     "location"
+    ],
+    "public_forum_posts": [
+     "public personal data"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "record of objection to processing": [
+     "preferences"
+    ],
+    "referring_url": [
+     "browsing behavior"
+    ],
+    "research_session_information": [
+     "user research data"
+    ],
+    "research_sessions": [
+     "user research sessions"
+    ],
+    "server log": [
+     "technical information"
+    ],
+    "survey_responses": [
+     "survey and user research data"
+    ],
+    "under-age status": [
+     "user status"
+    ],
+    "user feedback": [
+     "feedback"
+    ],
+    "user inquiry": [
+     "customer service information"
+    ],
+    "user name": [
+     "name"
+    ],
+    "user research data": [
+     "survey and user research data"
+    ],
+    "username": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Meta": "Facebook",
+    "advertising partners": "advertising partner",
+    "affiliate": "SEGA Group",
+    "analytics providers": "analytics partners",
+    "service providers": "service provider",
+    "third party": "third parties",
+    "third-party partners": "third party partner"
+   },
+   "parents": {
+    "Facebook": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "Twitter": [
+     "third parties"
+    ],
+    "advertiser": [
+     "advertising partner",
+     "third parties"
+    ],
+    "advertising partner": [
+     "third parties",
+     "third party partner"
+    ],
+    "analytics partners": [
+     "third parties",
+     "third party partner"
+    ],
+    "attribution partner": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "court": [
+     "legal and security entities",
+     "third parties"
+    ],
+    "credit reporting agencies": [
+     "third parties"
+    ],
+    "game servers": [
+     "first party",
+     "our servers"
+    ],
+    "our servers": [
+     "first party"
+    ],
+    "law enforcement": [
+     "legal and security entities",
+     "third parties"
+    ],
+    "legal and security entities": [
+     "third parties"
+    ],
+    "platform operators": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third-party advertising providers": [
+     "advertising partner",
+     "third parties"
+    ],
+    "third party partner": [
+     "third parties"
+    ],
+    "unaffiliated third parties": [
+     "third parties"
+    ],
+    "acquirer": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user_device": "user device"
+   },
+   "parents": {
+    "Google": [
+     "third party",
+     "third_party",
+     "unaffiliated third parties"
+    ],
+    "known underage users": [
+     "user"
+    ],
+    "other users": [
+     "user"
+    ],
+    "platform operator": [
+     "third party",
+     "third_party",
+     "unaffiliated third parties"
+    ],
+    "publicly available online sources": [
+     "internet_or_third_party_platforms"
+    ],
+    "third party liveops software": [
+     "third party",
+     "third_party"
+    ],
+    "third_party": [
+     "third party"
+    ],
+    "unaffiliated third parties": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "SEGA",
+    "service_provider": "service providers",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Third Party Advertisers": [
+     "third party"
+    ],
+    "customer support agents": [
+     "service providers"
+    ],
+    "platform operator": [
+     "third party"
+    ],
+    "third party service provider": [
+     "service providers",
+     "third party"
+    ],
+    "third-party analytics providers": [
+     "third party",
+     "third party service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "age based protections": "age appropriate protections",
+    "customer support": "customer service",
+    "debugging and technical support": "debugging",
+    "fraud prevention": "fraud detection and prevention",
+    "fulfillment or delivery": "fulfillment",
+    "legal-compliance": "legal compliance",
+    "service analysis": "analytics",
+    "service improvements": "service improvement",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_optimization": "service optimization",
+    "service_provision": "service provision",
+    "user accounts": "user account management",
+    "user authentication": "authentication"
+   },
+   "parents": {
+    "age appropriate protections": [
+     "compliance"
+    ],
+    "marketing analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "user acquisition": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "core game functionality": [
+     "service provision"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "order fulfilment": [
+     "fulfillment"
+    ],
+    "payment processing": [
+     "fulfillment"
+    ],
+    "recover purchased items": [
+     "customer service"
+    ],
+    "service notifications": [
+     "communication"
+    ],
+    "sweepstakes administration": [
+     "service provision"
+    ],
+    "user account management": [
+     "service provision"
+    ],
+    "personalisation": [
+     "personalization"
+    ],
+    "content customization": [
+     "personalization"
+    ],
+    "user preferences": [
+     "personalization"
+    ],
+    "service optimization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5812,
+  "completion_tokens": 2090,
+  "thinking_tokens": 0,
+  "seconds": 18.199331998825073,
+  "failures": 0
+ },
+ "seconds": 18.3
+}

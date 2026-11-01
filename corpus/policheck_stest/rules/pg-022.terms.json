@@ -1,0 +1,212 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "customer information": "Customer Information",
+    "identifying_information": "identifying information",
+    "information": "data",
+    "internet or network activity information": "browsing activity",
+    "location": "geolocation data",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "service_usage_data": "service usage",
+    "user data": "User Data"
+   },
+   "parents": {
+    "account_name": [
+     "account information",
+     "identifiers"
+    ],
+    "account_number": [
+     "account information"
+    ],
+    "advertising_id": [
+     "identifiers"
+    ],
+    "age": [
+     "protected classifications"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "customer records": [
+     "personal data"
+    ],
+    "device_id": [
+     "identifiers"
+    ],
+    "education records": [
+     "personal data"
+    ],
+    "email_address": [
+     "identifiers"
+    ],
+    "financial information": [
+     "customer records"
+    ],
+    "gender": [
+     "protected classifications"
+    ],
+    "geolocation data": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "personal data"
+    ],
+    "ip_address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "phone_number": [
+     "customer records",
+     "identifiers"
+    ],
+    "professional information": [
+     "personal data"
+    ],
+    "profile picture": [
+     "sensory data"
+    ],
+    "purchase_history": [
+     "commercial information"
+    ],
+    "sensory data": [
+     "personal data"
+    ],
+    "voice message": [
+     "sensory data"
+    ],
+    "cookies": [
+     "browsing activity"
+    ],
+    "web beacons": [
+     "browsing activity"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "Customer Information": [
+     "personal data"
+    ],
+    "User Data": [
+     "personal data"
+    ],
+    "personal data": [
+     "data",
+     "personal or other information"
+    ],
+    "non_personal_information": [
+     "data"
+    ],
+    "personal or other information": [
+     "data"
+    ],
+    "unspecified data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising provider": [
+     "service provider",
+     "third party"
+    ],
+    "data analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "marketing provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "affiliates": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "service provider"
+    ],
+    "advertising provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "order-processing": [
+     "service provision"
+    ],
+    "payment processing": [
+     "order-processing",
+     "service provision"
+    ],
+    "service_communication": [
+     "communication"
+    ],
+    "user identification": [
+     "security"
+    ],
+    "user_authentication": [
+     "security",
+     "service provision"
+    ],
+    "website administration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2839,
+  "completion_tokens": 857,
+  "thinking_tokens": 0,
+  "seconds": 10.437321901321411,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

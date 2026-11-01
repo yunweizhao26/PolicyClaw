@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "android-139",
+ "text_sha256": "7b261bba5d9d461d449124863698dc674a9ede909511c771699dbd2315ee1c0e",
+ "site_id": "android-139",
+ "sections": 18,
+ "rules": 335,
+ "report": {
+  "sections": 18,
+  "raw_rules": 258,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "online through APUS User Information Center"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-139#s14"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 273,
+   "gap_words": 2798
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 82,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 58962,
+  "completion_tokens": 44041,
+  "thinking_tokens": 0,
+  "seconds": 975.9664762020111,
+  "failures": 0
+ },
+ "seconds": 977.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

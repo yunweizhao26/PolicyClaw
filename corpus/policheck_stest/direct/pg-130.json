@@ -1,0 +1,22 @@
+{
+ "policy": "pg-130",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "When you use this Service, certain non-personally identifying information is recorded automatically by the standard operation of our Internet servers. Information such as the type of browser being used, its operating system, and your computer's Internet Protocol (“IP”) address (a number that your Internet service provider assigns to your computer whenever you surf the Internet) is gathered in order to facilitate our online operations and to assure an efficient online experience for you.",
+   "prohibit": "Geographic location Information, which we may determine through your IP address, from your mobile device, or other ways",
+   "situation": "Classifying a user's IP address and the geographic location derived from it as either non-personally identifying information or personal Information.",
+   "reason": "Section 2 defines IP addresses as non-personally identifying information, but Section 5.3 treats IP-derived location data as 'Information' (defined in Section 1 as personal Information).",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 4843,
+  "completion_tokens": 239,
+  "thinking_tokens": 0,
+  "seconds": 2.9856367111206055,
+  "failures": 0
+ }
+}

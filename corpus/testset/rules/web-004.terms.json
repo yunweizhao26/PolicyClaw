@@ -1,0 +1,269 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "profile information": "profile data",
+    "profile_data": "profile data",
+    "profile_information": "profile data",
+    "social_actions": "social actions",
+    "user post": "posts",
+    "user_data": "user data",
+    "your data": "user data"
+   },
+   "parents": {
+    "account_password": [
+     "account information"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "billing_address": [
+     "contact details",
+     "financial_details"
+    ],
+    "coarse geographic location": [
+     "geographic_location",
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "email_address": [
+     "contact details"
+    ],
+    "phone_number": [
+     "contact details"
+    ],
+    "email_headers": [
+     "communication metadata"
+    ],
+    "employer": [
+     "profile data"
+    ],
+    "job title": [
+     "profile data"
+    ],
+    "name": [
+     "profile data"
+    ],
+    "photos": [
+     "profile data"
+    ],
+    "name and photo": [
+     "profile data"
+    ],
+    "profile header": [
+     "profile data"
+    ],
+    "resume": [
+     "profile data"
+    ],
+    "personal_messages": [
+     "communications",
+     "messages"
+    ],
+    "messages": [
+     "communications"
+    ],
+    "cookie identifiers": [
+     "cookies",
+     "device identifier"
+    ],
+    "device identifier": [
+     "device identifier and features",
+     "device information"
+    ],
+    "device identifier and features": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "web browser and add-ons": [
+     "browser information",
+     "device information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "enterprise_service_usage": [
+     "service_usage_data"
+    ],
+    "non_enterprise_service_usage_data": [
+     "service_usage_data"
+    ],
+    "service_usage_data": [
+     "usage data"
+    ],
+    "page_views": [
+     "usage data"
+    ],
+    "profile_views": [
+     "usage data"
+    ],
+    "job_searches": [
+     "usage data"
+    ],
+    "message_activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing_history": [
+     "usage data"
+    ],
+    "social actions": [
+     "usage data"
+    ],
+    "social_selling_index": [
+     "usage data"
+    ],
+    "posts": [
+     "content",
+     "user_content"
+    ],
+    "user_content": [
+     "content"
+    ],
+    "publicly_available_information": [
+     "public data"
+    ],
+    "your personal data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "customers": "customer",
+    "third party": "third parties",
+    "third_party": "third parties",
+    "users": "members"
+   },
+   "parents": {
+    "advertising networks": [
+     "third parties"
+    ],
+    "companies facing similar threats": [
+     "organizations"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "employers": [
+     "organizations"
+    ],
+    "members": [
+     "network"
+    ],
+    "group_members": [
+     "members"
+    ],
+    "page_owners": [
+     "members"
+    ],
+    "other user": [
+     "others"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "employer": [
+     "business_partners"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "customer": [
+     "users"
+    ],
+    "regulated_members": [
+     "users"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "service provision": "provide-service",
+    "service_provision": "providing service"
+   },
+   "parents": {
+    "account_management": [
+     "provide-service"
+    ],
+    "customer support": [
+     "provide-service"
+    ],
+    "develop-service": [
+     "provide-service",
+     "research and development"
+    ],
+    "dispute resolution": [
+     "compliance with legal obligation"
+    ],
+    "enforcing terms": [
+     "compliance with legal obligation"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "identifying user": [
+     "provide-service"
+    ],
+    "personalize": [
+     "provide-service"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "research and development": [
+     "provide-service"
+    ],
+    "service operations": [
+     "provide-service"
+    ],
+    "service-provision": [
+     "provide-service"
+    ],
+    "social_networking": [
+     "provide-service"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3637,
+  "completion_tokens": 1280,
+  "thinking_tokens": 0,
+  "seconds": 18.209768056869507,
+  "failures": 0
+ },
+ "seconds": 18.4
+}

@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "apple-027",
+ "text_sha256": "bc36661b51d6e9655ad676ec8d627d17c6e43f7166f4e6cf2d6e9708d9f8c8b2",
+ "site_id": "apple-027",
+ "sections": 6,
+ "rules": 167,
+ "report": {
+  "sections": 6,
+  "raw_rules": 137,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "inferences about your zip code",
+      "name": "postal code"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "make",
+      "verb": "make"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "based on your IP address"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "inferences about your zip code"
+    ],
+    "section": "apple-027#s2"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 50,
+  "completeness": {
+   "gaps": 102,
+   "gap_words": 1054
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 47,
+  "translated_quotes": 50,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23520,
+  "completion_tokens": 27768,
+  "thinking_tokens": 0,
+  "seconds": 309.7319505214691,
+  "failures": 0
+ },
+ "seconds": 310.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information about you": "information",
+    "personal information": "personal data",
+    "profile information": "profile data",
+    "that information": "information",
+    "user generated content": "user content",
+    "user information": "information",
+    "your information": "information"
+   },
+   "parents": {
+    "biography": [
+     "profile data",
+     "user content"
+    ],
+    "content posted": [
+     "user content"
+    ],
+    "ethnicity": [
+     "sensitive data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "profile data": [
+     "information"
+    ],
+    "profile location": [
+     "profile data"
+    ],
+    "religion": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "user feedback": [
+     "user content"
+    ],
+    "user photo": [
+     "profile data",
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "advertising platform": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendors": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party": [
+     "other sources"
+    ],
+    "user": [
+     "other sources"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "recipient"
+    ],
+    "other users": [
+     "recipient"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection and prevention",
+    "service provision": "service delivery",
+    "service-provision": "service delivery"
+   },
+   "parents": {
+    "ad analytics": [
+     "analytics"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service improvement"
+    ],
+    "legal claims": [
+     "legal compliance"
+    ],
+    "contractual compliance": [
+     "legal compliance"
+    ],
+    "account registration": [
+     "service delivery"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2319,
+  "completion_tokens": 613,
+  "thinking_tokens": 0,
+  "seconds": 9.776012659072876,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

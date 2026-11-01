@@ -1,0 +1,133 @@
+{
+ "cleaned_sha256": "apple-073",
+ "text_sha256": "bb6a79775901f2e6fb238a4197a0224265da9cd9d9f573b925066e4303ea451c",
+ "site_id": "apple-073",
+ "sections": 18,
+ "rules": 124,
+ "report": {
+  "sections": 18,
+  "raw_rules": 121,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request the restriction",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restriction of processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are located within the European Economic Area (EEA)",
+      "under the GDPR",
+      "You have the right to request",
+      "under certain conditions, such as where you contest the accuracy of the data"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-073#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not to be subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "decision based solely on automated processing, including profiling",
+      "verb": "decide"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "If you are located within the European Economic Area (EEA)",
+      "under the GDPR",
+      "which produces legal or similarly significant effects"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-073#s9"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 146,
+   "gap_words": 1634
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 74,
+  "compile_failures": 3,
+  "fixed_structurally": 1,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 52522,
+  "completion_tokens": 25007,
+  "thinking_tokens": 0,
+  "seconds": 485.3580162525177,
+  "failures": 0
+ },
+ "seconds": 486.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

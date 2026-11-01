@@ -1,0 +1,162 @@
+{
+ "cleaned_sha256": "android-056",
+ "text_sha256": "4a150a435efcf914843eba602e74a0a2d83c89b97bcdc0afedc31bcf9396a990",
+ "site_id": "android-056",
+ "sections": 14,
+ "rules": 266,
+ "report": {
+  "sections": 14,
+  "raw_rules": 232,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "as necessary",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Other parties as necessary (for example, competent authorities)",
+      "name": "other parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to protect our rights, property, and safety or that of our users, the public, or others",
+       "name": "security and fraud prevention"
+      }
+     ],
+     "conditions": [
+      "if we have reason to believe that your actions are inconsistent with our user agreements or policies or that you’ve violated the law, or if it’s necessary to protect our rights, property, and safety or that of our users, the public, or others"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-056#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows us to",
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "action": {
+      "text": "provide customized services",
+      "verb": "provide"
+     },
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "to provide customized services",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-056#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows us to",
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "action": {
+      "text": "show",
+      "verb": "show"
+     },
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to show you advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-056#s13"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 123,
+  "completeness": {
+   "gaps": 445,
+   "gap_words": 3944
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 55,
+  "translated_quotes": 123,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 57505,
+  "completion_tokens": 50406,
+  "thinking_tokens": 203,
+  "seconds": 325.51356768608093,
+  "failures": 0
+ },
+ "seconds": 327.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "identifiers data": "identifiers",
+    "personal information": "personal data",
+    "user uploaded images": "user photos"
+   },
+   "parents": {
+    "account profile": [
+     "user profile"
+    ],
+    "ad identifier": [
+     "identifiers"
+    ],
+    "hardware id": [
+     "identifiers"
+    ],
+    "third-party identifier": [
+     "identifiers"
+    ],
+    "user id": [
+     "identifiers"
+    ],
+    "country": [
+     "location"
+    ],
+    "cpu information": [
+     "device and technical data"
+    ],
+    "device model": [
+     "device and technical data"
+    ],
+    "network information": [
+     "device and technical data"
+    ],
+    "operating system": [
+     "device and technical data"
+    ],
+    "screen information": [
+     "device and technical data"
+    ],
+    "storage capacity": [
+     "device and technical data"
+    ],
+    "system language": [
+     "device and technical data"
+    ],
+    "technical information": [
+     "device and technical data"
+    ],
+    "time zone": [
+     "device and technical data"
+    ],
+    "ip address": [
+     "device and technical data",
+     "identifiers"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "user inquiry": [
+     "customer service data"
+    ],
+    "avatar": [
+     "account profile"
+    ],
+    "user nickname": [
+     "account profile"
+    ],
+    "social media profile": [
+     "user profile"
+    ],
+    "ad interactive data": [
+     "interaction with advertisements"
+    ],
+    "interaction with advertisements": [
+     "usage data"
+    ],
+    "gameplay data": [
+     "usage data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "Functional Software": [
+     "service provider"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "SmartBear": [
+     "service provider"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unspecified third party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Apple": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "security": "fraud prevention and security",
+    "services": "service provision"
+   },
+   "parents": {
+    "ad analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "authentication": [
+     "fraud prevention and security",
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service communications": [
+     "service provision"
+    ],
+    "service optimization and personalization": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2156,
+  "completion_tokens": 641,
+  "thinking_tokens": 0,
+  "seconds": 10.606527090072632,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

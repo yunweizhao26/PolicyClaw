@@ -1,0 +1,282 @@
+{
+ "cleaned_sha256": "web-103",
+ "text_sha256": "c2ab75cae0a9fecc9d6cd3a6f2177ce5e9dcab6b9fd088f8d0fabb84085592ba",
+ "site_id": "web-103",
+ "sections": 13,
+ "rules": 205,
+ "report": {
+  "sections": 13,
+  "raw_rules": 152,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be able to",
+     "actor": {
+      "text": "those subprocessors , including certain AI providers",
+      "name": "subprocessor"
+     },
+     "data": {
+      "text": "the information submitted in forms",
+      "name": "form response data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "consultation",
+     "purpose": [
+      {
+       "text": "provide the functionality available on our platform to our customers and to those who choose to fill in and submit forms",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "In some cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "those subprocessors , including certain AI providers"
+    ],
+    "section": "web-103#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the information you allow us to collect from those third parties",
+      "name": "third-party account information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "those third parties",
+      "name": "third party"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "If you choose to link your Jotform account with a third party account, such as your Google or Facebook account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may collect"
+    ],
+    "section": "web-103#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "produce",
+      "verb": "produce"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we do produce personal information"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information which is actually required"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "endeavor to produce",
+     "purpose": [],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "law enforcement and other legal process"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "personal information which is actually required"
+    ],
+    "section": "web-103#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "our AI providers"
+     },
+     "conditions": [
+      "In some cases, artificial intelligence (AI) capabilities assist you in filling in and/or submitting forms to our users, and in communicating with our users via chat or simulated phone calls.",
+      "When you provide information, including personal information with AI assistance, as part of such interactions with forms or our users"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information you provide during such interactions"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "AI policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-103#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "See above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-103#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "requests to access",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Representation for Data Subjects in the EU",
+      "requests to access"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-103#s11"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 96,
+  "completeness": {
+   "gaps": 267,
+   "gap_words": 2819
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 96,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 48782,
+  "completion_tokens": 33300,
+  "thinking_tokens": 0,
+  "seconds": 283.681676864624,
+  "failures": 0
+ },
+ "seconds": 284.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "children data": "child personal information",
+    "children's personal information": "child personal information",
+    "device_id": "device identifier",
+    "email_address": "email address",
+    "financial information": "financial data",
+    "financial_information": "financial data",
+    "first_name": "first name",
+    "identifiers": "identifier",
+    "identifying_information": "identifier",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal data of children": "child personal information",
+    "personal information": "personal data",
+    "postal_address": "postal address",
+    "user preferences": "child preferences",
+    "your information": "information about you"
+   },
+   "parents": {
+    "IP address": [
+     "identifier",
+     "online_identifier"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "first name": [
+     "name"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "unique device identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "analytics ID": [
+     "identifier"
+    ],
+    "app instance ID": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "crash reporting ID": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "child profile ID": [
+     "user identifier"
+    ],
+    "session token": [
+     "user identifier"
+    ],
+    "user_id": [
+     "identifier"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "child progress reports": [
+     "child progress"
+    ],
+    "child progress": [
+     "gameplay activity data"
+    ],
+    "child preferences": [
+     "preferences"
+    ],
+    "postal address": [
+     "physical address"
+    ],
+    "physical address": [
+     "identifier"
+    ],
+    "phone number": [
+     "identifier"
+    ],
+    "financial account holder name": [
+     "name"
+    ],
+    "payment card information": [
+     "financial data",
+     "payment information"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "payment method details": [
+     "payment information"
+    ],
+    "payment information": [
+     "financial data"
+    ],
+    "voice audio recordings": [
+     "audio or visual recordings",
+     "voice audio data"
+    ],
+    "voice audio data": [
+     "audio or visual recordings"
+    ],
+    "spoken answers": [
+     "voice audio data"
+    ],
+    "images": [
+     "content"
+    ],
+    "videos": [
+     "content"
+    ],
+    "audio or visual recordings": [
+     "content"
+    ],
+    "cookies": [
+     "web tracking technology"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "sensitive data": [
+     "sensitive personal information"
+    ],
+    "biometric data": [
+     "identifying information",
+     "sensitive personal information"
+    ],
+    "child personal information": [
+     "personal data"
+    ],
+    "browsing behavior": [
+     "browsing history"
+    ],
+    "account age": [
+     "age"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "advertising_partner": "advertising partner",
+    "analytics_provider": "analytics provider"
+   },
+   "parents": {
+    "advertising networks": [
+     "third party"
+    ],
+    "advertising or analytics vendors": [
+     "third party"
+    ],
+    "advertising partner": [
+     "advertising or analytics vendors",
+     "third party"
+    ],
+    "advertising platforms": [
+     "third party"
+    ],
+    "analytics provider": [
+     "advertising or analytics vendors",
+     "third party"
+    ],
+    "governmental body": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party"
+    ],
+    "third-party advertising partners": [
+     "advertising partner",
+     "third party"
+    ],
+    "vendors": [
+     "service_provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "parents": [
+     "user"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party platforms or agencies": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud prevention",
+    "legal compliance": "compliance",
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "service_optimization": "service improvement",
+    "service_provision": "provide service",
+    "targeted-advertising": "ad targeting",
+    "user_authentication": "authentication"
+   },
+   "parents": {
+    "abuse prevention": [
+     "security"
+    ],
+    "account management": [
+     "provide service"
+    ],
+    "ad analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "ad targeting": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "identity verification",
+     "provide service"
+    ],
+    "debugging": [
+     "provide service",
+     "service operation"
+    ],
+    "enforcing terms": [
+     "compliance"
+    ],
+    "feedback": [
+     "administration"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "fraud_and_credit_loss_prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "provide service"
+    ],
+    "maintain service": [
+     "service operation"
+    ],
+    "personalization": [
+     "provide service"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "user experience": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3661,
+  "completion_tokens": 1602,
+  "thinking_tokens": 0,
+  "seconds": 14.250356435775757,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

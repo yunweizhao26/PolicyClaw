@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "android-141",
+ "text_sha256": "d649002f5d784da506703e7c012494a8e4dd3eab512a3a90f0b198ba830f1fb5",
+ "site_id": "android-141",
+ "sections": 13,
+ "rules": 157,
+ "report": {
+  "sections": 13,
+  "raw_rules": 74,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ariya Studio"
+     },
+     "conditions": [
+      "depending on where you live",
+      "you may have rights to request",
+      "concerning information controlled by Ariya Studio",
+      "email\nsupport@ariyastudio.com\nwith the subject \"Privacy Request\"",
+      "Please identify the relevant Free App, platform, and interaction so we can locate the information",
+      "We may request reasonable verification"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "applicable personal-data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "rights to request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-141#s8"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 32,
+  "completeness": {
+   "gaps": 73,
+   "gap_words": 708
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 32,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 33709,
+  "completion_tokens": 15875,
+  "thinking_tokens": 0,
+  "seconds": 469.1106152534485,
+  "failures": 0
+ },
+ "seconds": 469.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

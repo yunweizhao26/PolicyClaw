@@ -1,0 +1,272 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browser_type": "browser type",
+    "device_id": "device identifier",
+    "ip_address": "ip address",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal_information": "Personal Information",
+    "sex": "gender",
+    "unspecified data": "data",
+    "usage_information": "site_usage_information"
+   },
+   "parents": {
+    "account identifier": [
+     "identifier"
+    ],
+    "account name": [
+     "identifier"
+    ],
+    "account number": [
+     "identifier"
+    ],
+    "alias": [
+     "identifier"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "middle name": [
+     "name"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "postal code": [
+     "location",
+     "postal address"
+    ],
+    "geographic_location": [
+     "location"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "prescription data": [
+     "health data"
+    ],
+    "health data": [
+     "Personal Information"
+    ],
+    "purchase history": [
+     "Personal Information"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing_history": [
+     "browsing history"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "pages_visited": [
+     "usage data"
+    ],
+    "ad_interactions": [
+     "interaction data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "site_usage_information": [
+     "usage data"
+    ],
+    "visit_information": [
+     "usage data"
+    ],
+    "device identifier": [
+     "device information",
+     "identifier"
+    ],
+    "ip address": [
+     "identifier"
+    ],
+    "unique identifier": [
+     "identifier"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "pixel tags": [
+     "tracking technologies"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ],
+    "cookie_data": [
+     "data"
+    ],
+    "user survey response": [
+     "user feedback"
+    ],
+    "user comments and posts": [
+     "communication content"
+    ],
+    "aggregate user information": [
+     "aggregate data"
+    ],
+    "de-identified and aggregated information": [
+     "aggregate data"
+    ],
+    "number of users": [
+     "aggregate data"
+    ],
+    "traffic_data": [
+     "aggregate data"
+    ],
+    "derived data": [
+     "Personal Information"
+    ],
+    "profile": [
+     "derived data"
+    ],
+    "user account data": [
+     "Personal Information"
+    ],
+    "password": [
+     "user account data"
+    ],
+    "telecom provider": [
+     "device information"
+    ],
+    "isp": [
+     "device information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "professional advisor": [
+     "service provider"
+    ],
+    "pharmaceutical manufacturer": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertisers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "client organizations": [
+     "third parties"
+    ],
+    "medical practitioners": [
+     "third parties"
+    ],
+    "pharmacies": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Tune": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision",
+    "service_improvement": "service improvement",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "billing": [
+     "service provision"
+    ],
+    "customer support": [
+     "communication",
+     "service provision"
+    ],
+    "security": [
+     "fraud_prevention_and_security"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "legal_compliance": [
+     "legal"
+    ],
+    "user profile": [
+     "profiling"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "business purpose": [
+     "other"
+    ],
+    "for our or one of our service provider’s operational purposes": [
+     "business purpose"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3238,
+  "completion_tokens": 1198,
+  "thinking_tokens": 0,
+  "seconds": 22.759589195251465,
+  "failures": 0
+ },
+ "seconds": 22.8
+}

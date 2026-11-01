@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "web-184",
+ "text_sha256": "7e1e4139bcd20e230639988b0b7de2820dd42e9ec0f245214484d835b484691b",
+ "site_id": "web-184",
+ "sections": 1,
+ "rules": 10,
+ "report": {
+  "sections": 1,
+  "raw_rules": 10,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will provide access to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information, which The Conversation holds about that person",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide access to",
+      "verb": "provide access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Any person may seek access to personal information",
+      "upon request",
+      "We may require that the person requesting access provide suitable identification",
+      "we may charge an administration fee for granting access to information"
+     ],
+     "exceptions": [
+      "certain exemptions, which may apply to the provision of that information"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-184#s1"
+   }
+  ],
+  "residual_quotes": 2,
+  "quotes": 9,
+  "completeness": {
+   "gaps": 31,
+   "gap_words": 293
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 9,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3895,
+  "completion_tokens": 2345,
+  "thinking_tokens": 0,
+  "seconds": 16.967422008514404,
+  "failures": 0
+ },
+ "seconds": 17.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

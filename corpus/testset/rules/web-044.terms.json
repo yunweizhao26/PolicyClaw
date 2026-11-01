@@ -1,0 +1,287 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "additional information provided to slack": "Additional information provided to Slack",
+    "additional user data": "Additional information provided to Slack",
+    "audio and video metadata": "Audio and video metadata",
+    "contact info": "Contact information",
+    "cookie data": "Cookie information",
+    "cookie information": "Cookie information",
+    "customer data": "Customer Data",
+    "information": "Information",
+    "other data": "Other Information",
+    "other information": "Other Information",
+    "third party data": "Third-Party data",
+    "third party services information": "Third-Party Services Information",
+    "third-party data": "Third-Party data",
+    "third-party service data": "Third-Party Services Information",
+    "usage data": "Usage information",
+    "usage information": "Usage information",
+    "workspace and account information": "Workspace and account information",
+    "your information": "Information"
+   },
+   "parents": {
+    "Audio and video metadata": [
+     "Usage information"
+    ],
+    "account creation status": [
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account information": [
+     "Workspace and account information"
+    ],
+    "Additional information provided to Slack": [
+     "Information"
+    ],
+    "application identifier": [
+     "Usage information"
+    ],
+    "audio video media": [
+     "Customer Data"
+    ],
+    "browser configuration": [
+     "Usage information"
+    ],
+    "browser plugin information": [
+     "Usage information"
+    ],
+    "browser type": [
+     "Usage information"
+    ],
+    "browsing activity": [
+     "Usage information"
+    ],
+    "business postal address": [
+     "postal address"
+    ],
+    "Contact information": [
+     "Workspace and account information"
+    ],
+    "content": [
+     "Customer Data"
+    ],
+    "Cookie information": [
+     "Usage information"
+    ],
+    "crash data": [
+     "Usage information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "Customer Data": [
+     "Information"
+    ],
+    "date and time": [
+     "Usage information"
+    ],
+    "device settings": [
+     "Usage information"
+    ],
+    "domain name": [
+     "Usage information"
+    ],
+    "email address": [
+     "Contact information"
+    ],
+    "file information": [
+     "Usage information"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "hardware model": [
+     "Usage information"
+    ],
+    "Information provided in community forum": [
+     "Information"
+    ],
+    "language preferences": [
+     "Usage information"
+    ],
+    "location": [
+     "Usage information"
+    ],
+    "logs of Workspace activity": [
+     "Usage information"
+    ],
+    "operating system": [
+     "Usage information"
+    ],
+    "Other Information": [
+     "Information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "phone number": [
+     "Contact information"
+    ],
+    "postal address": [
+     "Contact information"
+    ],
+    "profile details": [
+     "profile information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "referring URL": [
+     "Usage information"
+    ],
+    "Third-Party Services Information": [
+     "Other Information"
+    ],
+    "third-party application interaction": [
+     "Usage information"
+    ],
+    "Third-Party data": [
+     "Other Information"
+    ],
+    "third-party service usage": [
+     "Usage information"
+    ],
+    "unique device identifier": [
+     "Usage information"
+    ],
+    "Usage information": [
+     "Other Information"
+    ],
+    "user name": [
+     "account information"
+    ],
+    "Workspace and account information": [
+     "Other Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Third-Party service providers": [
+     "third parties"
+    ],
+    "event or webinar sponsors": [
+     "third parties"
+    ],
+    "external users": [
+     "other users"
+    ],
+    "other users": [
+     "authorized users"
+    ],
+    "payment processor": [
+     "Third-Party service providers",
+     "third parties"
+    ],
+    "professional advisers": [
+     "Third-Party service providers",
+     "third parties"
+    ],
+    "third party advertisers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "data analytics provider": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "employer": [
+     "customer"
+    ],
+    "third party application": [
+     "third-party service"
+    ],
+    "third-party service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "authorized users": [
+     "Customer representatives and personnel",
+     "user"
+    ],
+    "third party companies or individuals": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business-operations": "business operations",
+    "service analytics": "analytics",
+    "service provision": "provide the service",
+    "service-provision": "provide the service",
+    "services delivery": "provide the service"
+   },
+   "parents": {
+    "abuse prevention": [
+     "legitimate interests"
+    ],
+    "account management": [
+     "administration",
+     "provide the service"
+    ],
+    "billing": [
+     "account management",
+     "administration"
+    ],
+    "debugging": [
+     "provide the service"
+    ],
+    "delivering advertisements on non-Slack websites": [
+     "marketing",
+     "targeting advertisements on non-Slack websites, applications, and services"
+    ],
+    "targeting advertisements on non-Slack websites, applications, and services": [
+     "marketing"
+    ],
+    "search relevance": [
+     "service improvement"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "service integration": [
+     "provide the service"
+    ],
+    "location approximation": [
+     "provide the service"
+    ],
+    "administration": [
+     "business operations"
+    ],
+    "provide the service": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3016,
+  "completion_tokens": 1313,
+  "thinking_tokens": 0,
+  "seconds": 11.663975954055786,
+  "failures": 0
+ },
+ "seconds": 11.8
+}

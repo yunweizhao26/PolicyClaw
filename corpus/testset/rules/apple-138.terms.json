@@ -1,0 +1,212 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device id",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "zip code": "postal code"
+   },
+   "parents": {
+    "app data": [
+     "user data"
+    ],
+    "browser type": [
+     "electronic network activity information"
+    ],
+    "browsing history": [
+     "electronic network activity information",
+     "online activity information",
+     "usage data"
+    ],
+    "city": [
+     "general location",
+     "location"
+    ],
+    "contact details": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "crash logs": [
+     "app data"
+    ],
+    "credit card expiration date": [
+     "payment information"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "date and time stamp": [
+     "electronic network activity information",
+     "usage data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device id": [
+     "personal identifiers"
+    ],
+    "device type": [
+     "electronic network activity information"
+    ],
+    "download history": [
+     "electronic network activity information",
+     "usage data"
+    ],
+    "electronic network activity information": [
+     "personal data"
+    ],
+    "email address": [
+     "contact details",
+     "personal identifiers"
+    ],
+    "general location": [
+     "geolocation data",
+     "location"
+    ],
+    "geolocation data": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "interaction data": [
+     "electronic network activity information",
+     "online activity information",
+     "usage data"
+    ],
+    "ip address": [
+     "device id",
+     "personal identifiers"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "mobile phone number": [
+     "phone number"
+    ],
+    "name": [
+     "personal identifiers"
+    ],
+    "online activity information": [
+     "electronic network activity information"
+    ],
+    "operating system": [
+     "electronic network activity information"
+    ],
+    "order data": [
+     "commercial information"
+    ],
+    "payment information": [
+     "commercial information",
+     "personal data"
+    ],
+    "personal identifiers": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact details",
+     "personal identifiers"
+    ],
+    "postal address": [
+     "contact details",
+     "location"
+    ],
+    "postal code": [
+     "general location",
+     "location"
+    ],
+    "purchase details": [
+     "commercial information",
+     "order data"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "referrer url": [
+     "electronic network activity information"
+    ],
+    "search history": [
+     "electronic network activity information",
+     "online activity information",
+     "usage data"
+    ],
+    "state": [
+     "general location",
+     "location"
+    ],
+    "usage data": [
+     "electronic network activity information"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "user id": [
+     "personal identifiers"
+    ],
+    "visited url": [
+     "browsing history",
+     "electronic network activity information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google",
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "joint marketer": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "order status": [
+     "order fulfilment",
+     "service communication"
+    ],
+    "recommendation": [
+     "personalization"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "user experience": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2127,
+  "completion_tokens": 917,
+  "thinking_tokens": 0,
+  "seconds": 12.219170093536377,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

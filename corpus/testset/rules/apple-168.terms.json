@@ -1,0 +1,282 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifiers",
+    "contact and identity information": "Identity and Contact Information",
+    "contact_list": "contact list",
+    "customer information": "Customer Information",
+    "customer transaction details": "customer transaction data",
+    "email account details": "E-mail Account Information",
+    "email account information": "E-mail Account Information",
+    "email_address": "email address",
+    "firebase analytics identifier": "analytics identifiers",
+    "google advertising id": "ad identifiers",
+    "identity and contact information": "Identity and Contact Information",
+    "idfa": "ad identifiers",
+    "ip_address": "ip address",
+    "marketing data": "Marketing Data",
+    "order information": "order details",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "technical information": "Technical Information",
+    "transaction details": "customer transaction data",
+    "usage_data": "usage data",
+    "user content": "User Content",
+    "user_content": "User Content",
+    "vendor identifiers": "idfv",
+    "videos": "video"
+   },
+   "parents": {
+    "customer transaction data": [
+     "Customer Information"
+    ],
+    "E-mail Account Information": [
+     "account activity"
+    ],
+    "email address": [
+     "contact information",
+     "contact_info"
+    ],
+    "phone number": [
+     "contact information",
+     "contact_info"
+    ],
+    "physical_address": [
+     "contact_info"
+    ],
+    "contact_info": [
+     "Identity and Contact Information"
+    ],
+    "contact information": [
+     "Identity and Contact Information"
+    ],
+    "identity information": [
+     "Identity and Contact Information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "nickname": [
+     "identity information"
+    ],
+    "username": [
+     "identity information"
+    ],
+    "ad identifiers": [
+     "identifier"
+    ],
+    "analytics identifiers": [
+     "identifier"
+    ],
+    "device_id": [
+     "identifier"
+    ],
+    "user_id": [
+     "identifier"
+    ],
+    "idfv": [
+     "identifier"
+    ],
+    "device_manufacturer": [
+     "device_information"
+    ],
+    "device_name": [
+     "device_information"
+    ],
+    "hardware_model": [
+     "device_information"
+    ],
+    "operating_system": [
+     "device_information"
+    ],
+    "browser_type": [
+     "browser_information"
+    ],
+    "cookies": [
+     "Technical Information"
+    ],
+    "ip address": [
+     "Technical Information"
+    ],
+    "device_information": [
+     "Technical Information"
+    ],
+    "log_data": [
+     "Technical Information"
+    ],
+    "audio_video_recording": [
+     "User Content"
+    ],
+    "communication_content": [
+     "User Content"
+    ],
+    "documents": [
+     "files"
+    ],
+    "files": [
+     "user materials"
+    ],
+    "graphics": [
+     "user materials"
+    ],
+    "images": [
+     "media"
+    ],
+    "photos": [
+     "images"
+    ],
+    "profile_photo": [
+     "photos"
+    ],
+    "screen_recording": [
+     "audio_video_recording"
+    ],
+    "video": [
+     "media"
+    ],
+    "visual records": [
+     "user materials"
+    ],
+    "voice_recording": [
+     "audio_video_recording"
+    ],
+    "contact list": [
+     "user materials"
+    ],
+    "user materials": [
+     "User Content"
+    ],
+    "email_content": [
+     "communication_content"
+    ],
+    "email_header": [
+     "email_metadata"
+    ],
+    "in-app events": [
+     "usage data"
+    ],
+    "browsing_behavior": [
+     "usage data"
+    ],
+    "content_viewed": [
+     "usage data"
+    ],
+    "interaction_time": [
+     "usage data"
+    ],
+    "purchase_history": [
+     "usage data"
+    ],
+    "search_history": [
+     "usage data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "supplier personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "User Content": [
+     "data"
+    ],
+    "Customer Information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "judiciary bodies": "judiciary",
+    "public authority": "authorized public institutions and organizations"
+   },
+   "parents": {
+    "authorized public institutions and organizations": [
+     "authorized entities"
+    ],
+    "judiciary": [
+     "authorized entities"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "browser": [
+     "user device"
+    ],
+    "payment processor": [
+     "third-party applications",
+     "third_party"
+    ],
+    "marketing vendors": [
+     "third_party"
+    ],
+    "third-party applications": [
+     "third party websites and apps"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "unauthorized third parties": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account_management": "account management",
+    "customer_support": "customer support",
+    "fraud_prevention": "fraud prevention",
+    "legal-compliance": "legal compliance",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account registration": [
+     "account management"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service fix": [
+     "service improvement"
+    ],
+    "fraud prevention": [
+     "fraud prevention and detection"
+    ],
+    "storage": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3544,
+  "completion_tokens": 1310,
+  "thinking_tokens": 0,
+  "seconds": 13.678964376449585,
+  "failures": 0
+ },
+ "seconds": 13.8
+}

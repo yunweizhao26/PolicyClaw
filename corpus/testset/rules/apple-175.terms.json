@@ -1,0 +1,323 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account login credentials": "account credentials",
+    "audio information": "audio",
+    "chat transcripts": "chat logs",
+    "education information": "education history",
+    "imprecise location": "coarse location",
+    "information": "data",
+    "national identification number": "government identifier",
+    "operating system name and version": "operating system and version",
+    "personal information": "personal data",
+    "physical description": "physical characteristics",
+    "physical features": "physical characteristics",
+    "postal address": "physical address",
+    "precise location": "precise geolocation",
+    "profile information": "inferences",
+    "unique identifiers": "unique identifier"
+   },
+   "parents": {
+    "SSN": [
+     "government identifier"
+    ],
+    "account credentials": [
+     "personal data"
+    ],
+    "account name": [
+     "online identifier"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "audio": [
+     "sensory data"
+    ],
+    "browser type and version": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "chat logs": [
+     "personal data"
+    ],
+    "coarse location": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "debit card number": [
+     "financial information"
+    ],
+    "disabilities": [
+     "health information"
+    ],
+    "driver's license number": [
+     "government identifier"
+    ],
+    "duration of view": [
+     "browsing activity",
+     "interactions with website, application, or advertisement",
+     "website or app usage behavior"
+    ],
+    "education history": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "government identifier": [
+     "personal data"
+    ],
+    "hardware model": [
+     "personal data"
+    ],
+    "health information": [
+     "personal data",
+     "sensitive personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "interactions with website, application, or advertisement": [
+     "browsing activity"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "job history": [
+     "professional information"
+    ],
+    "links clicked": [
+     "browsing activity",
+     "interactions with website, application, or advertisement",
+     "website or app usage behavior"
+    ],
+    "marital status": [
+     "personal data"
+    ],
+    "medical conditions": [
+     "health information"
+    ],
+    "mobile device ID": [
+     "unique identifier"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "olfactory information": [
+     "sensory data"
+    ],
+    "online identifier": [
+     "unique identifier"
+    ],
+    "pages or screens viewed": [
+     "browsing activity",
+     "interactions with website, application, or advertisement",
+     "website or app usage behavior"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "photos": [
+     "visual information"
+    ],
+    "physical address": [
+     "personal data"
+    ],
+    "physical characteristics": [
+     "personal data"
+    ],
+    "precise geolocation": [
+     "personal data",
+     "sensitive personal data"
+    ],
+    "professional information": [
+     "personal data"
+    ],
+    "professional licenses": [
+     "professional information"
+    ],
+    "race or ethnicity": [
+     "sensitive personal data"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sensory data": [
+     "personal data"
+    ],
+    "sex": [
+     "personal data"
+    ],
+    "state ID number": [
+     "government identifier"
+    ],
+    "video": [
+     "visual information"
+    ],
+    "visual information": [
+     "sensory data"
+    ],
+    "website or app usage behavior": [
+     "browsing activity"
+    ],
+    "zip code": [
+     "physical address"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "analytics providers": "analytics provider",
+    "franchisees": "franchisee",
+    "governmental bodies": "government entity",
+    "hosting providers": "cloud provider",
+    "identity verification service": "identity verification providers",
+    "marketing vendors": "marketing partner",
+    "recruiting vendors": "recruiter",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "cloud provider": [
+     "service provider",
+     "third party"
+    ],
+    "hr vendors": [
+     "service provider",
+     "third party"
+    ],
+    "identity verification providers": [
+     "service provider",
+     "third party"
+    ],
+    "marketing partner": [
+     "service provider",
+     "third party"
+    ],
+    "payment processors": [
+     "service provider",
+     "third party"
+    ],
+    "recruiter": [
+     "service provider",
+     "third party"
+    ],
+    "franchisee": [
+     "third party"
+    ],
+    "government entity": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "affiliate": [
+     "recipient"
+    ],
+    "third party": [
+     "recipient"
+    ],
+    "user": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "parents": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "business purpose": "business operations",
+    "compliance with legal obligations": "compliance",
+    "legal compliance": "compliance",
+    "operations": "business operations",
+    "service provision": "service delivery"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "user communication": [
+     "communication"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "service performance analysis and debugging": [
+     "analytics"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "security": [
+     "compliance"
+    ],
+    "service operations": [
+     "business operations",
+     "perform service"
+    ],
+    "service delivery": [
+     "perform service"
+    ],
+    "recruiting and hiring": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3042,
+  "completion_tokens": 1541,
+  "thinking_tokens": 0,
+  "seconds": 14.105532169342041,
+  "failures": 0
+ },
+ "seconds": 14.2
+}

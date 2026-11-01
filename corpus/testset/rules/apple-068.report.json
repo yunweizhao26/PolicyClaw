@@ -1,0 +1,341 @@
+{
+ "cleaned_sha256": "apple-068",
+ "text_sha256": "ad724cf7502c68761aa666ab51358c80ca12669e38e8ee69e1d384b971f0bb42",
+ "site_id": "apple-068",
+ "sections": 35,
+ "rules": 339,
+ "report": {
+  "sections": 35,
+  "raw_rules": 220,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Employer identification number (or comparable number issued by a government)",
+      "name": "tax-id"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "if you are an institutional Customer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal identification information for all material beneficial owners of your business",
+      "name": "beneficial-owner-info"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "if you are an institutional Customer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Bank account number",
+      "name": "bank-account-number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Payment card primary account number",
+      "name": "card-number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may utilize",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "utilize automated decision-making",
+      "verb": "utilize"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "for fulfilling our regulatory and contractual obligations in relation to the safety, security and integrity of our Services",
+       "name": "legal-compliance"
+      },
+      {
+       "text": "verify accounts and their activities",
+       "name": "account-management"
+      },
+      {
+       "text": "detect and prevent suspicious behaviors such as unlawful or fraudulent actions",
+       "name": "fraud-detection"
+      },
+      {
+       "text": "maintain the integrity of our Services, particularly in preventing account takeovers",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "others, including law enforcement, civil litigants, and others who may issue legal requests",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "In response to requests from third parties, such as civil litigants, law enforcement, and other government authorities, for example to assist authorities in the investigation of fraud",
+       "name": "legal compliance"
+      },
+      {
+       "text": "Promote the safety, security, and integrity of the Coinbase Service, network, our Customers, Users, employees, property and the public",
+       "name": "security"
+      },
+      {
+       "text": "When we seek to protect ourselves in the context of litigation or other disputes, such as violations of our Customer Agreement and policies",
+       "name": "legal compliance"
+      },
+      {
+       "text": "Respond to Customer/claimant requests or communications, reviewing Customer accounts and transactions for litigation disputes, and recording account details for litigation and settlement purposes",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to prevent and address fraud, unauthorized use of the Services, violations of our terms or policies, or other harmful or illegal activity",
+       "name": "security"
+      },
+      {
+       "text": "to protect ourselves (including our rights, Coinbase personnel and property or the Service), our Customers or others, including as part of investigations or regulatory inquiries",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to defend our legal rights and resolve disputes",
+       "name": "dispute resolution"
+      },
+      {
+       "text": "to secure our platform and network, to verify accounts and activity, to combat harmful conduct, to detect, prevent and address fraud, abuse, spam and other bad experiences or to prevent death or imminent bodily harm",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "Where not otherwise required by law, and depending on the circumstances"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "apple-068#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "non-Coinbase customers",
+      "name": "non-customers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for the purposes of participating in Coinbase’s research studies",
+       "name": "research and development"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-068#s13"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 80,
+  "completeness": {
+   "gaps": 558,
+   "gap_words": 4819
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 80,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 58,
+  "cached": 0,
+  "prompt_tokens": 95123,
+  "completion_tokens": 48030,
+  "thinking_tokens": 0,
+  "seconds": 1040.189110994339,
+  "failures": 0
+ },
+ "seconds": 1041.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

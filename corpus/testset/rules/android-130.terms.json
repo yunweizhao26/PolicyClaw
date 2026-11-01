@@ -1,0 +1,99 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account activation timestamp": "account activation time",
+    "hardware model": "device model",
+    "installed apps": "installed applications",
+    "mcc": "country code",
+    "network connection type": "internet connection",
+    "personal information": "personal data",
+    "running apps": "running applications",
+    "system version": "operating system version",
+    "user data": "information",
+    "user identity": "identity information"
+   },
+   "parents": {
+    "ad impressions": [
+     "ad interaction data",
+     "content viewed"
+    ],
+    "ad interaction data": [
+     "content interaction"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "content viewed": [
+     "content interaction"
+    ],
+    "content interaction": [
+     "interaction data"
+    ],
+    "cookies and similar tracking data": [
+     "information"
+    ],
+    "device identifier": [
+     "device number"
+    ],
+    "ip address": [
+     "general location"
+    ],
+    "photos": [
+     "media"
+    ],
+    "media": [
+     "files"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "wi-fi connection data": [
+     "internet connection"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "service optimization": [
+     "provide service"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 1242,
+  "completion_tokens": 377,
+  "thinking_tokens": 0,
+  "seconds": 5.573705196380615,
+  "failures": 0
+ },
+ "seconds": 5.6
+}

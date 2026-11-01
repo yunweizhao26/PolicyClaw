@@ -1,0 +1,229 @@
+{
+ "cleaned_sha256": "apple-160",
+ "text_sha256": "32351036a45a58df70c9db20db5405f5d07a69202489132d04f2df496e066c98",
+ "site_id": "apple-160",
+ "sections": 22,
+ "rules": 252,
+ "report": {
+  "sections": 22,
+  "raw_rules": 196,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow you to",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-160#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "add",
+      "verb": "add"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "publicly available information",
+      "text": "publicly available information, such as information about your vehicle type obtained from public records (for example, information held by the Driver and Vehicle Licensing Agency (DVLA) in the UK)"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "helps us improve our services",
+       "name": "analytics or research"
+      },
+      {
+       "text": "provide a more tailored experience",
+       "name": "user interface customisation"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "public records",
+      "text": "public records (for example, information held by the Driver and Vehicle Licensing Agency (DVLA) in the UK)"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "publicly available information, such as information about your vehicle type obtained from public records (for example, information held by the Driver and Vehicle Licensing Agency (DVLA) in the UK)"
+    ],
+    "section": "apple-160#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "communications",
+      "verb": "communicate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PayByPhone"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "change your preferences in your Account permissions via the settings in the App"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-160#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "emails",
+      "verb": "email"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PayByPhone"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "click on the \"Unsubscribe\" link in the received email"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-160#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "push notifications",
+      "verb": "notify"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PayByPhone"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "change the setting on your mobile device or adjust your Account settings"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-160#s14"
+   }
+  ],
+  "residual_quotes": 35,
+  "quotes": 105,
+  "completeness": {
+   "gaps": 280,
+   "gap_words": 3573
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 105,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 38,
+  "cached": 0,
+  "prompt_tokens": 65514,
+  "completion_tokens": 39587,
+  "thinking_tokens": 0,
+  "seconds": 476.80197834968567,
+  "failures": 0
+ },
+ "seconds": 478.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

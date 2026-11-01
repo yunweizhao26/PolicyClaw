@@ -1,0 +1,107 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "chat messages": "chat message",
+    "information we collect": "all user data",
+    "non-personal information": "non-personal data",
+    "sensitive user data": "sensitive personal information"
+   },
+   "parents": {
+    "avatar": [
+     "photographic images",
+     "profile information"
+    ],
+    "nickname": [
+     "profile information"
+    ],
+    "user profile content": [
+     "profile information",
+     "user content"
+    ],
+    "chat logs": [
+     "user content"
+    ],
+    "chat message": [
+     "chat logs"
+    ],
+    "email": [
+     "user communications"
+    ],
+    "postal mail": [
+     "user communications"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "contacts": [
+     "personal data"
+    ],
+    "device identifier": [
+     "non-personal data"
+    ],
+    "location": [
+     "non-personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "third party"
+    ],
+    "another device": [
+     "device"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "one device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "users": "friend"
+   },
+   "parents": {
+    "friend": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "Camera feature in a connected group": [
+     "service provision"
+    ],
+    "access information without sign in": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1643,
+  "completion_tokens": 444,
+  "thinking_tokens": 0,
+  "seconds": 8.147512435913086,
+  "failures": 0
+ },
+ "seconds": 8.2
+}

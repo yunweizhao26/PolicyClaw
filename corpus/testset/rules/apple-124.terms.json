@@ -1,0 +1,156 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "collected information",
+    "ip address": "IP address",
+    "personal data": "information about you",
+    "the information": "collected information",
+    "this information": "collected information"
+   },
+   "parents": {
+    "IP address": [
+     "collected information"
+    ],
+    "ISP": [
+     "collected information"
+    ],
+    "account information": [
+     "information about you"
+    ],
+    "activity data": [
+     "app usage"
+    ],
+    "ad interactions": [
+     "activity data",
+     "app usage",
+     "user actions",
+     "user activity"
+    ],
+    "app usage": [
+     "collected information"
+    ],
+    "biometric data": [
+     "information about you"
+    ],
+    "browser type": [
+     "collected information"
+    ],
+    "browsing history": [
+     "activity data",
+     "user activity"
+    ],
+    "date and time stamp": [
+     "collected information"
+    ],
+    "demographic data": [
+     "information about you"
+    ],
+    "device identifier": [
+     "collected information"
+    ],
+    "device type": [
+     "collected information"
+    ],
+    "driving records": [
+     "vehicle data"
+    ],
+    "information about you": [
+     "collected information"
+    ],
+    "location": [
+     "collected information"
+    ],
+    "operating system": [
+     "collected information"
+    ],
+    "phone number": [
+     "account information"
+    ],
+    "reactions to alerts": [
+     "activity data",
+     "app usage",
+     "user actions",
+     "user activity"
+    ],
+    "screen view time": [
+     "activity data",
+     "app usage",
+     "user activity"
+    ],
+    "scrolling actions": [
+     "activity data",
+     "app usage",
+     "user actions",
+     "user activity"
+    ],
+    "search history": [
+     "activity data",
+     "app usage",
+     "user activity"
+    ],
+    "user actions": [
+     "activity data",
+     "app usage",
+     "user activity"
+    ],
+    "user activity": [
+     "activity data",
+     "app usage"
+    ],
+    "vehicle data": [
+     "collected information"
+    ],
+    "vehicle identification number": [
+     "vehicle data"
+    ],
+    "vehicle speed": [
+     "driving records",
+     "vehicle data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "emergency services": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "user choice": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service"
+   },
+   "parents": {
+    "security": [
+     "protection of rights"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1613,
+  "completion_tokens": 864,
+  "thinking_tokens": 0,
+  "seconds": 9.904083251953125,
+  "failures": 0
+ },
+ "seconds": 10.0
+}

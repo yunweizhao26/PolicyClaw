@@ -1,0 +1,424 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account_data": "account data",
+    "contact information": "contact details",
+    "information about you": "information about the user",
+    "personal information": "personal data",
+    "uploads": "media_uploads",
+    "user content": "User Content",
+    "user_activity": "user activity",
+    "user_content": "User Content",
+    "your_information": "user information"
+   },
+   "parents": {
+    "account activity": [
+     "account information"
+    ],
+    "account information": [
+     "user account"
+    ],
+    "authentication token": [
+     "account information"
+    ],
+    "avatar": [
+     "profile information"
+    ],
+    "browser type": [
+     "log file information"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "clickstream data": [
+     "service use info"
+    ],
+    "comments": [
+     "User Content"
+    ],
+    "company": [
+     "profile information"
+    ],
+    "company size": [
+     "profile information"
+    ],
+    "contact details": [
+     "profile information",
+     "user information"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "cursor movements": [
+     "service_interaction_data"
+    ],
+    "date of birth": [
+     "profile information"
+    ],
+    "device identifiers": [
+     "online identifier"
+    ],
+    "email": [
+     "service notification"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "hyperlinks": [
+     "content"
+    ],
+    "industry": [
+     "profile information"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "job title": [
+     "profile information"
+    ],
+    "landing pages": [
+     "log file information"
+    ],
+    "link interaction data": [
+     "service_interaction_data"
+    ],
+    "location information": [
+     "location"
+    ],
+    "log file information": [
+     "service use info"
+    ],
+    "media": [
+     "User Content"
+    ],
+    "media_uploads": [
+     "User Content"
+    ],
+    "metadata about your content": [
+     "content"
+    ],
+    "name": [
+     "contact details",
+     "profile information"
+    ],
+    "number of clicks": [
+     "log file information"
+    ],
+    "pages viewed": [
+     "log file information"
+    ],
+    "personal data": [
+     "user information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photos": [
+     "media"
+    ],
+    "policy change notification": [
+     "service notification"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise or approximate location": [
+     "location information"
+    ],
+    "profession": [
+     "profile information"
+    ],
+    "profile information": [
+     "account information",
+     "user profile"
+    ],
+    "prompts": [
+     "User Content"
+    ],
+    "public profile information": [
+     "profile information"
+    ],
+    "referring / exit pages and URLs": [
+     "log file information"
+    ],
+    "responses or answers to interactive functionality": [
+     "User Content"
+    ],
+    "search query": [
+     "service_interaction_data"
+    ],
+    "seniority": [
+     "profile information"
+    ],
+    "service notification": [
+     "information"
+    ],
+    "service_interaction_data": [
+     "service use info"
+    ],
+    "social media account name": [
+     "profile information"
+    ],
+    "student data": [
+     "data"
+    ],
+    "support_data": [
+     "user-provided info"
+    ],
+    "text": [
+     "User Content"
+    ],
+    "unique password": [
+     "account information"
+    ],
+    "usage metrics": [
+     "service use info"
+    ],
+    "user account identifier": [
+     "account information",
+     "online identifier"
+    ],
+    "user activity": [
+     "service use info"
+    ],
+    "User Content": [
+     "content"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user feedback": [
+     "user-provided info"
+    ],
+    "user information": [
+     "information"
+    ],
+    "user reactions": [
+     "service_interaction_data"
+    ],
+    "user-created content": [
+     "User Content"
+    ],
+    "user-provided info": [
+     "user information"
+    ],
+    "user_designs": [
+     "User Content"
+    ],
+    "username": [
+     "account information",
+     "profile information"
+    ],
+    "video": [
+     "media"
+    ],
+    "web request": [
+     "log file information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliated entities": "affiliate",
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "ad network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "district team": [
+     "district"
+    ],
+    "district team owner": [
+     "district",
+     "district team"
+    ],
+    "district": [
+     "educational institution"
+    ],
+    "other third parties": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "students": [
+     "user"
+    ],
+    "teachers": [
+     "user"
+    ],
+    "third party application": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party partners": "partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "Canva affiliate": [
+     "third party"
+    ],
+    "data broker": [
+     "third party",
+     "third-party source"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party",
+     "third-party source"
+    ],
+    "third party application": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "third-party source": [
+     "other sources",
+     "third party"
+    ],
+    "user device": [
+     "user"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Canva",
+    "third-party partners": "business partner"
+   },
+   "parents": {
+    "ad network": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "educational institution": [
+     "third party"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "specified users": [
+     "public"
+    ],
+    "unauthenticated users": [
+     "public"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_security_abuse": "fraud and abuse detection",
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision",
+    "services": "service provision",
+    "support": "customer support",
+    "unspecified": "custom"
+   },
+   "parents": {
+    "comply with local laws": [
+     "compliance"
+    ],
+    "legal requirement": [
+     "compliance"
+    ],
+    "estimate the tax liability of Canva": [
+     "compliance"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "improve advertising efficiency": [
+     "advertising"
+    ],
+    "undertake aggregated analytics": [
+     "analytics"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "to localize and personalize content": [
+     "personalisation"
+    ],
+    "artificial intelligence": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service improvement"
+    ],
+    "user experience optimization": [
+     "service improvement"
+    ],
+    "user interface optimization": [
+     "user experience optimization"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "backup": [
+     "operations"
+    ],
+    "profiling": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service operation and security": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3842,
+  "completion_tokens": 1726,
+  "thinking_tokens": 0,
+  "seconds": 14.782390117645264,
+  "failures": 0
+ },
+ "seconds": 14.9
+}

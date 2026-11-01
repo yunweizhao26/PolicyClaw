@@ -1,0 +1,210 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometric information": "biometric data",
+    "communications": "communication content",
+    "demographic information": "demographic data",
+    "financial information": "financial details",
+    "geolocation": "geographic location",
+    "online identifier": "device identifiers",
+    "personal identifiers": "personal identifier",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device identifiers"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "device location": [
+     "geographic location"
+    ],
+    "duration of usage": [
+     "service usage data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "first name": [
+     "personal identifier"
+    ],
+    "gps data": [
+     "device location",
+     "geographic location",
+     "precise geolocation"
+    ],
+    "images of user": [
+     "images"
+    ],
+    "last name": [
+     "personal identifier"
+    ],
+    "license plate number": [
+     "personal identifier"
+    ],
+    "links clicked": [
+     "browsing history"
+    ],
+    "middle initial": [
+     "personal identifier"
+    ],
+    "navigation paths": [
+     "browsing history"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photo": [
+     "images"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise geolocation": [
+     "geographic location",
+     "sensitive personal information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "referrer URL": [
+     "browsing history"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "shopping cart contents and purchase history": [
+     "commercial information",
+     "purchase history"
+    ],
+    "text transcription of the interaction": [
+     "communication content"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "viewing habits": [
+     "service usage data"
+    ],
+    "voice data": [
+     "sensory data"
+    ],
+    "voice interactions": [
+     "communication content",
+     "voice data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Perfect Corp": [
+     "service provider",
+     "third party"
+    ],
+    "affiliate": [
+     "other companies"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "publisher": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party sources": "third party",
+    "vizio os products and services": "VIZIO OS products or services"
+   },
+   "parents": {
+    "affiliates": [
+     "first party"
+    ],
+    "alprs": [
+     "technology on premises"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "point-of-sale terminals": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "interest based advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service improvement": [
+     "analytics or improvement"
+    ],
+    "analytics": [
+     "analytics or improvement"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "service functionality": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "service quality": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2832,
+  "completion_tokens": 956,
+  "thinking_tokens": 0,
+  "seconds": 10.707520008087158,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

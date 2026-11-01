@@ -1,0 +1,127 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "payment information": "payment info",
+    "personal information": "personal data",
+    "real name": "name",
+    "sensitive personal information": "sensitive data"
+   },
+   "parents": {
+    "IP address": [
+     "online identifier",
+     "unique identifier"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "interaction data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "payment info": [
+     "financial information"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "login details": [
+     "sensitive data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "address"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "unique personal identifier": [
+     "unique identifier"
+    ],
+    "unique identifier": [
+     "personal data"
+    ],
+    "online identifier": [
+     "unique identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "PayPal"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service"
+   },
+   "parents": {
+    "personalized advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "contests and promotions": [
+     "marketing"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "security": [
+     "provide service"
+    ],
+    "improve service and user experience": [
+     "operations"
+    ],
+    "research and development": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2115,
+  "completion_tokens": 509,
+  "thinking_tokens": 0,
+  "seconds": 12.972365379333496,
+  "failures": 0
+ },
+ "seconds": 13.1
+}

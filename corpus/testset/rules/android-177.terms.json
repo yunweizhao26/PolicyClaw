@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "persistent identifiers"
+    ],
+    "advertising identifier": [
+     "device information",
+     "persistent identifiers"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "parental email address": [
+     "email address"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "in-game activities": [
+     "user activity"
+    ],
+    "play duration": [
+     "user activity"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "payment status": [
+     "financial information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "any personal data": [
+     "information"
+    ],
+    "any data user provides": [
+     "information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "user activity": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service provider": "Service Providers"
+   },
+   "parents": {
+    "Ad Partners": [
+     "third party"
+    ],
+    "Service Providers": [
+     "third party"
+    ],
+    "third-party providers of speech-to-text data analysis and large language model (llm) chat functionality": [
+     "Service Providers",
+     "third party"
+    ],
+    "unaffiliated third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service improvement": "product improvement"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "bug fixing": [
+     "product improvement"
+    ],
+    "user-experience enhancement": [
+     "product improvement"
+    ],
+    "fraud-detection": [
+     "security"
+    ],
+    "customer support": [
+     "service provision",
+     "services"
+    ],
+    "user-service": [
+     "service provision",
+     "services"
+    ],
+    "services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1568,
+  "completion_tokens": 538,
+  "thinking_tokens": 0,
+  "seconds": 8.159788370132446,
+  "failures": 0
+ },
+ "seconds": 8.2
+}

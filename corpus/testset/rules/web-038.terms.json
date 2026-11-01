@@ -1,0 +1,155 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing history": "browsing behavior",
+    "feedback data": "feedback",
+    "performance metrics": "how well the pages performed on your device",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "Google Analytics information": [
+     "data",
+     "information collected through Google Analytics and SpeedCurve"
+    ],
+    "access log data": [
+     "data"
+    ],
+    "browser version": [
+     "data"
+    ],
+    "browsing behavior": [
+     "data"
+    ],
+    "data collected with Google Analytics cookies": [
+     "Google Analytics information",
+     "data"
+    ],
+    "email address": [
+     "email data",
+     "personal data"
+    ],
+    "email data": [
+     "data"
+    ],
+    "email interaction history": [
+     "email data"
+    ],
+    "feedback": [
+     "data"
+    ],
+    "how well the pages performed on your device": [
+     "data"
+    ],
+    "information collected through Google Analytics and SpeedCurve": [
+     "data"
+    ],
+    "ip address": [
+     "access log data",
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "postal code": [
+     "personal data"
+    ],
+    "referring url": [
+     "browsing behavior"
+    ],
+    "subscription preferences": [
+     "email data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google",
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "certified US companies that have opted in to the EU-US Data Privacy Framework": [
+     "third parties"
+    ],
+    "other government departments, agencies and public bodies": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "the other website": "other-third-parties"
+   },
+   "parents": {
+    "Google Analytics": [
+     "other-third-parties"
+    ],
+    "SpeedCurve": [
+     "other-third-parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third parties that we deal with"
+    ],
+    "Google Analytics": [
+     "Google",
+     "third parties that we deal with"
+    ],
+    "RUM software": [
+     "third parties that we deal with"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "allow you to access government services and make transactions": [
+     "basic-service-functionality"
+    ],
+    "gather feedback to improve our services": [
+     "service-improvement"
+    ],
+    "monitor the performance of the site to identify inefficiencies and JavaScript errors": [
+     "analytics",
+     "service-improvement"
+    ],
+    "monitor use of the site to identify security threats": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "provide you with information about local services": [
+     "basic-service-functionality"
+    ],
+    "respond to any feedback you send us": [
+     "basic-service-functionality"
+    ],
+    "send email alerts to users who request them": [
+     "basic-service-functionality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1751,
+  "completion_tokens": 811,
+  "thinking_tokens": 0,
+  "seconds": 9.706956148147583,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

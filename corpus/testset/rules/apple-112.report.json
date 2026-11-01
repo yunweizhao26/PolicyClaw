@@ -1,0 +1,311 @@
+{
+ "cleaned_sha256": "apple-112",
+ "text_sha256": "6b6b587639107cf11794b121ea62dccd2dc903cb06e5c541f9f7db25177d3b45",
+ "site_id": "apple-112",
+ "sections": 17,
+ "rules": 309,
+ "report": {
+  "sections": 17,
+  "raw_rules": 218,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "We don't share",
+     "actor": {
+      "text": "Truist",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "nonaffiliates",
+      "name": "nonaffiliated third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "For nonaffiliates to market to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-112#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "actor": {
+      "text": "Truist",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "nonaffiliates",
+      "name": "nonaffiliated third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "so they can market to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-112#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "limit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Truist entities",
+      "name": "Truist entities"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "limit sharing",
+      "verb": "limit"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "California Residents:",
+      "to the extent required by California law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-112#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Share",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for all purposes from “purpose for collection”",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-112#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may exercise",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exercise",
+      "verb": "exercise"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "You may exercise your Right to Limit by:"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-112#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "on their behalf",
+      "as a service provider to business clients"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as a service provider to business clients"
+    ],
+    "section": "apple-112#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can submit requests to see",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we’ve collected",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "see",
+      "verb": "see"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Through the Truist Privacy Center , you can submit requests to see"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-112#s17"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 86,
+  "completeness": {
+   "gaps": 551,
+   "gap_words": 5341
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 86,
+  "compile_failures": 4,
+  "fixed_structurally": 0,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 67936,
+  "completion_tokens": 45178,
+  "thinking_tokens": 0,
+  "seconds": 670.8521358966827,
+  "failures": 0
+ },
+ "seconds": 672.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

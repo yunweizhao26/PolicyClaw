@@ -1,0 +1,99 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "special_category_data": "sensitive personal information"
+   },
+   "parents": {
+    "account name": [
+     "account"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "state or country": [
+     "location"
+    ],
+    "password": [
+     "sensitive personal information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "personal data": [
+     "unspecified data",
+     "user data"
+    ],
+    "user data": [
+     "unspecified data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "official identification number": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud_detection": [
+     "legal_compliance",
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1639,
+  "completion_tokens": 338,
+  "thinking_tokens": 0,
+  "seconds": 7.610534429550171,
+  "failures": 0
+ },
+ "seconds": 7.7
+}

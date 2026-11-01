@@ -1,0 +1,360 @@
+{
+ "cleaned_sha256": "android-043",
+ "text_sha256": "44f608334847014cff3290df0a314e6a1314b471ff6cfda8f3f1bd1f4f894262",
+ "site_id": "android-043",
+ "sections": 20,
+ "rules": 211,
+ "report": {
+  "sections": 20,
+  "raw_rules": 168,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "financial details",
+      "text": "your banking or other payment details"
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "do not have access to",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-043#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "You have the right to know whether we process your personal information and to access such personal information"
+     ],
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "right... to access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "You have the right to obtain a copy of your personal information that you previously provided to us or that we have obtained in a portable and, to the extent technically feasible, readily usable format that allows you to transmit the data to another business without hindrance, where the processing is carried out by automated means",
+      "you may request such personal information free of charge as permitted under State Laws"
+     ],
+     "exceptions": [
+      "certain exceptions"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "right to obtain a copy",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "State Laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Certain users have the right to delete personal information that you have provided to us or that we have obtained about you",
+      "requests from Utah residents cover only personal information that you have provided directly to us"
+     ],
+     "exceptions": [
+      "if the requested deletion falls under an exception as set forth the applicable State Laws"
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right to delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "State Laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "if you request deletion of your personal information and we have obtained such information from a third-party source"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may retain",
+     "purpose": [
+      {
+       "text": "to ensure that your personal information remains deleted from our records and that such retained data is not used for any other purpose",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "third-party source"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "If you wish to opt out of the processing of your personal information for any of the above purposes, and your state of residence provides for such opt-out right, please view our privacy center in the user profile settings menu of our Apps"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "do process",
+     "purpose": [
+      {
+       "text": "for the purposes of targeted advertising",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "If you wish to opt out of the processing of your personal information for any of the above purposes, and your state of residence provides for such opt-out right, please view our privacy center in the user profile settings menu of our Apps"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "do sell",
+     "purpose": [
+      {
+       "text": "in exchange for monetary consideration",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "that produce legal or similarly significant effects concerning you"
+     ],
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not engage",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Certain users have the right to correct inaccuracies in your personal information, taking into account the nature of the personal information and the purposes for which we process it"
+     ],
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right to correct",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-043#s18"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 415,
+   "gap_words": 4534
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 30,
+  "translated_quotes": 91,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 66963,
+  "completion_tokens": 38434,
+  "thinking_tokens": 0,
+  "seconds": 310.3811273574829,
+  "failures": 0
+ },
+ "seconds": 311.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

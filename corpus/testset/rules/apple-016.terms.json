@@ -1,0 +1,245 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account identifiers": "account identifier",
+    "device identifier": "device id",
+    "payment information": "payment details",
+    "personal_data": "personal data",
+    "precise location": "precise geolocation",
+    "precise_location": "precise geolocation",
+    "sensitive personal data": "sensitive information",
+    "sensitive_data": "sensitive information",
+    "user_name": "name",
+    "username": "account_username"
+   },
+   "parents": {
+    "account identifier": [
+     "account information"
+    ],
+    "account_password": [
+     "account identifier",
+     "account information"
+    ],
+    "account_username": [
+     "account identifier",
+     "account information"
+    ],
+    "advertising identifier": [
+     "device id"
+    ],
+    "audio recording": [
+     "communications"
+    ],
+    "bank account number": [
+     "bank account information"
+    ],
+    "bank account information": [
+     "payment details"
+    ],
+    "billing information": [
+     "payment details"
+    ],
+    "browser type": [
+     "internet and network activity"
+    ],
+    "browsing history": [
+     "internet and network activity",
+     "usage data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "communications contents": [
+     "communications"
+    ],
+    "company name": [
+     "company name and characteristics",
+     "contact details"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "drivers_license_number": [
+     "government-issued ID"
+    ],
+    "email address": [
+     "account identifier",
+     "contact details"
+    ],
+    "email communication": [
+     "electronic communication"
+    ],
+    "hashed identifier": [
+     "pseudonymous identifier"
+    ],
+    "passport_number": [
+     "government-issued ID"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "preferences": [
+     "profile information"
+    ],
+    "professional credentials": [
+     "professional and employment information"
+    ],
+    "professional background": [
+     "professional and employment information"
+    ],
+    "job title": [
+     "contact details",
+     "professional and employment information"
+    ],
+    "job function": [
+     "professional and employment information"
+    ],
+    "sensitive information": [
+     "personal data"
+    ],
+    "social_security_number": [
+     "government-issued ID"
+    ],
+    "tax identification number": [
+     "government-issued ID"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "transcripts of calls": [
+     "communications"
+    ],
+    "user_comments": [
+     "user-provided content"
+    ],
+    "feedback": [
+     "user-provided content"
+    ],
+    "survey responses": [
+     "user-provided content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "third party"
+    ],
+    "advertising networks": [
+     "business partner"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "information provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "fraud prevention": "fraud detection",
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "system maintenance": [
+     "operations"
+    ],
+    "internal operations": [
+     "operations"
+    ],
+    "business operations": [
+     "operations"
+    ],
+    "service operations": [
+     "operations"
+    ],
+    "hosting": [
+     "service operations"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "providing the service": [
+     "service provision"
+    ],
+    "account administration": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "fulfillment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3725,
+  "completion_tokens": 1131,
+  "thinking_tokens": 0,
+  "seconds": 11.247307777404785,
+  "failures": 0
+ },
+ "seconds": 11.4
+}

@@ -1,0 +1,1514 @@
+{
+ "cleaned_sha256": "apple-031",
+ "text_sha256": "e1912c79b095b25d2c022cd1a22cf93771a36da718a61449631d58c37447958e",
+ "site_id": "apple-031",
+ "sections": 58,
+ "rules": 911,
+ "report": {
+  "sections": 58,
+  "raw_rules": 805,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "is never disclosed",
+     "purpose": [
+      {
+       "text": "for third-party advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from students and Outside School Child Users"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "is never disclosed"
+    ],
+    "section": "apple-031#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing activity",
+      "text": "information collected automatically from areas designed for children or teens to access"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "is never disclosed",
+     "purpose": [
+      {
+       "text": "for third-party advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from students and Outside School Child Users"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "is never disclosed"
+    ],
+    "section": "apple-031#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Teachers, parents, School Leaders, Admins (including District Admins), and other users can contact us\nhere\nonce you are signed in to your account to access, correct, or update their personal information, or they can use the features in their account settings to do so"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are using the Service as a teacher, School Leader, Admin (including District Admins) or parent or guardian",
+      "with your permission"
+     ],
+     "data": {
+      "name": "precise_geolocation",
+      "text": "your precise geolocation information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may ask you for permission to",
+     "purpose": [
+      {
+       "text": "to help us identify schools located nearby for you, including to help connect your parent account to your child’s or teen’s school (e.g., our\n“Find a Teacher”\nfeature)",
+       "name": "service_provision"
+      },
+      {
+       "text": "to help us protect and secure your account and the Services (e.g. to prevent suspicious accounts)",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your permission"
+    ],
+    "section": "apple-031#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are using the Service as a teacher, School Leader, Admin (including District Admins) or parent or guardian",
+      "with your permission"
+     ],
+     "data": {
+      "name": "precise_geolocation",
+      "text": "your precise geolocation information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may ask you for permission to",
+     "purpose": [
+      {
+       "text": "to help us identify schools located nearby for you, including to help connect your parent account to your child’s or teen’s school (e.g., our\n“Find a Teacher”\nfeature)",
+       "name": "service_provision"
+      },
+      {
+       "text": "to help us protect and secure your account and the Services (e.g. to prevent suspicious accounts)",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your permission"
+    ],
+    "section": "apple-031#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share with",
+      "verb": "share with"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "ClassDojo"
+     },
+     "conditions": [
+      "Once a teacher publishes such Activities",
+      "pursuant to the\nTerms of Service"
+     ],
+     "data": {
+      "name": "user content",
+      "text": "Activities"
+     },
+     "exceptions": [
+      "a teacher opts-out"
+     ],
+     "operation": "disclosure to third parties",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "other teachers"
+     },
+     "references": [
+      {
+       "text": "Terms of Service",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "third party",
+      "text": "these third parties"
+     },
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "advertise",
+      "text": "advertise directly on our Service"
+     },
+     "operation": "other",
+     "polarity": "DENY",
+     "polarity_text": "don’t allow",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-031#s29"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "on an ongoing basis or without your permission"
+     ],
+     "data": {
+      "name": "precise device location",
+      "text": "your precise device location"
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "DENY",
+     "polarity_text": "will not track",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not track"
+    ],
+    "section": "apple-031#s30"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also include",
+     "actor": {
+      "text": "Our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "unique IDs",
+      "name": "unique identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "in product event logs"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in product event logs"
+    ],
+    "section": "apple-031#s31"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also include",
+     "actor": {
+      "text": "Our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "IP addresses",
+      "name": "ip address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "in product event logs"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in product event logs"
+    ],
+    "section": "apple-031#s31"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information we collect from non-students and non-Outside School Child Users",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to: Provide AI-Generated Insights",
+       "name": "ai features"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "“ AI Uses ” Section of our Children’s and Teen’s Privacy Policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "AI Transparency Note",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "AI Uses section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Provide AI-Generated Insights"
+    ],
+    "section": "apple-031#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information we collect from non-students and non-Outside School Child Users",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to: Provide Internal Analytics and Reviews : This includes using for internal audits and review, for analyzing how the Services are used, providing statistics about the usage levels of the Services, and diagnosing service or technical problems",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Provide Internal Analytics and Reviews : This includes using for internal audits and review, for analyzing how the Services are used, providing statistics about the usage levels of the Services, and diagnosing service or technical problems"
+    ],
+    "section": "apple-031#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information we collect from non-students and non-Outside School Child Users",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to: Process Your Transactions : To fulfill your requests and provide any information you request, such as responding to your emails, submissions, questions, comments, requests for information or customer support or for event registration, scheduling, or attendance; for any other purpose for which the information was collected (e.g., fulfilling Premium Features orders), or for which you provide your consent (if required)",
+       "name": "transactions and support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Process Your Transactions : To fulfill your requests and provide any information you request, such as responding to your emails, submissions, questions, comments, requests for information or customer support or for event registration, scheduling, or attendance; for any other purpose for which the information was collected (e.g., fulfilling Premium Features orders), or for which you provide your consent (if required)"
+    ],
+    "section": "apple-031#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information we collect from non-students and non-Outside School Child Users",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to: Communicate with You : To send you information about features on our Service or changes to our policies and Service or communicate with you about your use of the Service, your account, or transactions with us",
+       "name": "communication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Communicate with You : To send you information about features on our Service or changes to our policies and Service or communicate with you about your use of the Service, your account, or transactions with us"
+    ],
+    "section": "apple-031#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Data obtained from the inputs, prompts and outputs used in connection with these various AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "accessed",
+      "verb": "access"
+     },
+     "operation": "{'name': 'consultation'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "personalize user experiences",
+       "name": "personalize experiences"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Data obtained from the inputs, prompts and outputs used in connection with these various AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "personalize user experiences",
+       "name": "personalize experiences"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Data obtained from the inputs, prompts and outputs used in connection with these various AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "{'name': 'use'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "personalize user experiences",
+       "name": "personalize experiences"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will utilize integrated\nLLM Service Providers\nto perform certain AI related functions upon",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information provided by you to the Parent AI Tools",
+      "name": "user inputs to Parent AI tools"
+     },
+     "recipient": {
+      "text": "LLM Service Providers",
+      "name": "LLM service providers"
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "utilize integrated\nLLM Service Providers\nto perform certain AI related functions upon",
+      "verb": "perform"
+     },
+     "operation": "{'name': 'disclosure by transmission'}",
+     "purpose": [
+      {
+       "text": "to perform certain AI related functions",
+       "name": "perform AI functions"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as further indicated in the chart in our\nParent and Child AI Transparency Page",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data obtained from the inputs, prompts and outputs used in connection with these AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "accessed",
+      "verb": "access"
+     },
+     "operation": "{'name': 'consultation'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [
+      "For both Parent AI Tools and Child and Teen AI Tools"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data obtained from the inputs, prompts and outputs used in connection with these AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [
+      "For both Parent AI Tools and Child and Teen AI Tools"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "ClassDojo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data obtained from the inputs, prompts and outputs used in connection with these AI tools",
+      "name": "data obtained from inputs prompts and outputs of AI tools"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "{'name': 'use'}",
+     "purpose": [
+      {
+       "text": "to provide, improve (as allowed by law) and maintain the Service",
+       "name": "provide, maintain and improve the service"
+      },
+      {
+       "text": "perform internal analysis (including to provide metrics and data logs or activity records needed for measuring up/down time and, debugging the tools)",
+       "name": "perform internal analysis"
+      },
+      {
+       "text": "keep the ClassDojo platform safe and secure",
+       "name": "ensure platform security"
+      }
+     ],
+     "conditions": [
+      "For both Parent AI Tools and Child and Teen AI Tools"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as allowed by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "LLM Service Providers",
+      "name": "LLM service providers"
+     },
+     "data": {
+      "text": "User information (including children's and teens information) used to provide the “inputs” (e.g., name, school, role, etc.)",
+      "name": "user inputs"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transiently retained",
+      "verb": "retain"
+     },
+     "operation": "{'name': 'storage'}",
+     "purpose": [
+      {
+       "text": "to provide the Service to ClassDojo",
+       "name": "provide the service"
+      }
+     ],
+     "conditions": [
+      "For all of the various AI tools (both in school and out of school)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "LLM Service Providers",
+      "name": "LLM service providers"
+     },
+     "data": {
+      "text": "the “output” produced",
+      "name": "AI output"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transiently retained",
+      "verb": "retain"
+     },
+     "operation": "{'name': 'storage'}",
+     "purpose": [
+      {
+       "text": "to provide the Service to ClassDojo",
+       "name": "provide the service"
+      }
+     ],
+     "conditions": [
+      "For all of the various AI tools (both in school and out of school)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "actor": {
+      "text": "LLM Service Providers",
+      "name": "LLM service providers"
+     },
+     "data": {
+      "text": "the prompts, inputs, and outputs",
+      "name": "prompts, inputs, and outputs"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "logged for human review",
+      "verb": "log"
+     },
+     "operation": "{'name': 'recording'}",
+     "purpose": [
+      {
+       "text": "for human review",
+       "name": "human review"
+      }
+     ],
+     "conditions": [
+      "for the ClassDojo-provided AI tools mentioned above"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "actor": {
+      "text": "LLM Service Providers",
+      "name": "LLM service providers"
+     },
+     "data": {
+      "text": "the prompts, inputs, and outputs",
+      "name": "prompts, inputs, and outputs"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retained",
+      "verb": "retain"
+     },
+     "operation": "{'name': 'storage'}",
+     "purpose": [],
+     "conditions": [
+      "for the ClassDojo-provided AI tools mentioned above"
+     ],
+     "exceptions": [
+      "this transient retention"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s34"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retains",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "ClassDojo"
+     },
+     "conditions": [
+      "for only as long as your (or your child’s) account is\nactive, unless we are required by law to retain it, need it to enforce our policies or to ensure the security of our community"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retains",
+     "purpose": [
+      {
+       "text": "in connection with the various AI tools",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-031#s35"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can see",
+     "actor": {
+      "text": "Students",
+      "name": "Students"
+     },
+     "data": {
+      "text": "names",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "see",
+      "verb": "see"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [
+      "other students’ (both classmates and schoolmates of the same grade)",
+      "on Class Island"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "other students’ (both classmates and schoolmates of the same grade)"
+    ],
+    "section": "apple-031#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can see",
+     "actor": {
+      "text": "Students",
+      "name": "Students"
+     },
+     "data": {
+      "text": "avatar",
+      "name": "avatar"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "see",
+      "verb": "see"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [
+      "other students’ (both classmates and schoolmates of the same grade)",
+      "on Class Island"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "other students’ (both classmates and schoolmates of the same grade)"
+    ],
+    "section": "apple-031#s36"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "These providers"
+     },
+     "conditions": [
+      "to perform these tasks on our behalf"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have limited access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "here",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s37"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "store",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "in ClassDojo’s databases where we store your personal information are encrypted at rest"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in ClassDojo’s databases where we store your personal information are encrypted at rest"
+    ],
+    "section": "apple-031#s39"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "You may exercise any of these rights described in this section by making a request\nhere\nonce you are signed into your ClassDojo account",
+      "We may ask you to verify your identity before taking further action on your request",
+      "if your child or teen is using ClassDojo in school, or is otherwise using a Student Account at home, you will need to follow the directions set forth in the\nParental Choices Section\nto access, correct, or delete your child’s or teen’s information"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "unreasonably repetitive (more than two identical or substantially similar requests per year for access rights)",
+      "risk the privacy of others",
+      "require disproportionate technical effort (for example, developing a new system or fundamentally changing an existing practice)",
+      "would be extremely impractical"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Parental Choices Section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s42"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will provide you with access to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information\nthat we maintain about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide you with access to",
+      "verb": "provide"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Where appropriate"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as set out in the “How to Exercise Your Rights” section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-031#s51"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "sensitive personal information",
+      "name": "sensitive personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "if you are a California resident"
+     ],
+     "exceptions": [
+      "those allowed under the\nCCPA, Section 7027(m)"
+     ],
+     "references": [
+      {
+       "text": "CCPA, Section 7027(m)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "apple-031#s55"
+   }
+  ],
+  "residual_quotes": 97,
+  "quotes": 404,
+  "completeness": {
+   "gaps": 1643,
+   "gap_words": 17281
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 404,
+  "compile_failures": 7,
+  "fixed_structurally": 4,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 0,
+  "cached": 122,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "thinking_tokens": 0,
+  "seconds": 0.0,
+  "failures": 1
+ },
+ "seconds": 6.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ },
+ "previous_usage": [
+  {
+   "calls": 122,
+   "cached": 0,
+   "prompt_tokens": 245230,
+   "completion_tokens": 197333,
+   "thinking_tokens": 0,
+   "seconds": 2637.9396460056305,
+   "failures": 1
+  },
+  {
+   "calls": 0,
+   "cached": 122,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "thinking_tokens": 0,
+   "seconds": 0.0,
+   "failures": 1
+  }
+ ]
+}

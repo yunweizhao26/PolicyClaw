@@ -1,0 +1,211 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "billing details": "billing and transaction information",
+    "billing information": "billing and transaction information",
+    "credit card number": "credit card details",
+    "end-customer data": "data related to end customers",
+    "personal details": "personal data",
+    "personal information": "personal data",
+    "service usage details": "service usage",
+    "zone configuration data": "information regarding zone configurations",
+    "zone count": "number of zones"
+   },
+   "parents": {
+    "IP address": [
+     "personal data"
+    ],
+    "SQL query definitions": [
+     "operational data stored within our data warehouse"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "account identifiers": [
+     "account details"
+    ],
+    "address details": [
+     "personal data"
+    ],
+    "audio of calls": [
+     "communications with first party"
+    ],
+    "billing and transaction information": [
+     "account details"
+    ],
+    "browser language": [
+     "personal information about your visits"
+    ],
+    "browser user agent": [
+     "personal information about your visits"
+    ],
+    "cached results": [
+     "operational data stored within our data warehouse"
+    ],
+    "communications with first party": [
+     "personal data"
+    ],
+    "company name": [
+     "account details"
+    ],
+    "consumption details": [
+     "service usage"
+    ],
+    "credit card details": [
+     "billing and transaction information"
+    ],
+    "customer usage metrics": [
+     "usage metrics"
+    ],
+    "data related to end customers": [
+     "data"
+    ],
+    "data that could be used to identify you": [
+     "personal data"
+    ],
+    "data warehouse metadata": [
+     "operational data stored within our data warehouse"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "full name": [
+     "name"
+    ],
+    "historical spend data": [
+     "billing and transaction information"
+    ],
+    "information regarding zone configurations": [
+     "operational data stored within our data warehouse"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "number of zones": [
+     "usage metrics"
+    ],
+    "operational data stored within our data warehouse": [
+     "data"
+    ],
+    "other account consumption metrics": [
+     "consumption details"
+    ],
+    "other relevant metrics": [
+     "usage metrics"
+    ],
+    "passwords": [
+     "account details"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal information about your visits": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "address details"
+    ],
+    "service usage": [
+     "personal data"
+    ],
+    "subscription plan details": [
+     "account details"
+    ],
+    "tax and accounting data": [
+     "personal data"
+    ],
+    "transient query logs": [
+     "operational data stored within our data warehouse"
+    ],
+    "usage metrics": [
+     "service usage"
+    ],
+    "video of calls": [
+     "communications with first party"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Braintree": [
+     "third parties"
+    ],
+    "Coinify": [
+     "third parties"
+    ],
+    "Disqus": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "MaxMind": [
+     "third parties"
+    ],
+    "Salesforce": [
+     "third parties"
+    ],
+    "Savio": [
+     "third parties"
+    ],
+    "SendGrid": [
+     "third parties"
+    ],
+    "Zendesk": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "service provision": "provide our services"
+   },
+   "parents": {
+    "service-related communications": [
+     "communications",
+     "provide our services"
+    ],
+    "verify your payment details when you top up your account": [
+     "payment processing"
+    ],
+    "payment processing": [
+     "provide our services"
+    ],
+    "provide the requested functionality": [
+     "provide our services"
+    ],
+    "customer support": [
+     "provide our services"
+    ],
+    "fraud detection and prevention": [
+     "compliance with legal obligation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1776,
+  "completion_tokens": 933,
+  "thinking_tokens": 0,
+  "seconds": 9.695331811904907,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

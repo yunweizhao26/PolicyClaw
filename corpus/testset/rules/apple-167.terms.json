@@ -1,0 +1,195 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "health plan": "health insurance",
+    "information": "data",
+    "sensitive personal information": "sensitive personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device information",
+     "identifiers"
+    ],
+    "browser type": [
+     "device and browser type",
+     "device information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing time": [
+     "browsing activity"
+    ],
+    "pages visited": [
+     "browsing activity",
+     "browsing history"
+    ],
+    "interaction features": [
+     "browsing activity",
+     "browsing history"
+    ],
+    "date of birth": [
+     "protected classifications"
+    ],
+    "sex": [
+     "protected classifications"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "state": [
+     "location"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "external identifier": [
+     "identifiers"
+    ],
+    "internal identifier": [
+     "identifiers"
+    ],
+    "login details": [
+     "identifiers"
+    ],
+    "name": [
+     "contact info",
+     "identifiers"
+    ],
+    "health data": [
+     "sensitive personal data"
+    ],
+    "protected health info": [
+     "health data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "visitor data": [
+     "personal data"
+    ],
+    "customer records": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "education information": [
+     "personal data"
+    ],
+    "professional information": [
+     "personal data"
+    ],
+    "protected classifications": [
+     "personal data"
+    ],
+    "sensory data": [
+     "personal data"
+    ],
+    "device and browser type": [
+     "device information"
+    ],
+    "error logs": [
+     "browsing activity"
+    ],
+    "cookies": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partners": [
+     "partner",
+     "third party"
+    ],
+    "third-party advertisers": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "security": "safety"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "commercial or business"
+    ],
+    "marketing": [
+     "commercial or business"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service improvement": [
+     "commercial or business"
+    ],
+    "service eligibility": [
+     "service provision"
+    ],
+    "registration": [
+     "service provision"
+    ],
+    "operations": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1807,
+  "completion_tokens": 688,
+  "thinking_tokens": 0,
+  "seconds": 9.03393268585205,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

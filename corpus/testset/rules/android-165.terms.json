@@ -1,0 +1,88 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information about user": "details about user",
+    "personal data": "data"
+   },
+   "parents": {
+    "data provided": [
+     "data"
+    ],
+    "details about user": [
+     "data"
+    ],
+    "email address": [
+     "data",
+     "details about user"
+    ],
+    "identification document": [
+     "data",
+     "details about user"
+    ],
+    "interests": [
+     "data",
+     "details about user"
+    ],
+    "various data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "analytics providers": [
+     "service provider",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud prevention"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "provide requested services": [
+     "service provision"
+    ],
+    "fraud prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1379,
+  "completion_tokens": 311,
+  "thinking_tokens": 0,
+  "seconds": 6.3280041217803955,
+  "failures": 0
+ },
+ "seconds": 6.4
+}

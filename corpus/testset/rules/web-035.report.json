@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "web-035",
+ "text_sha256": "12036a336cf9c7ec39171b6a426e7b129d90f2e37345c110e8313d626172ddaf",
+ "site_id": "web-035",
+ "sections": 5,
+ "rules": 77,
+ "report": {
+  "sections": 5,
+  "raw_rules": 76,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To secure our systems and detect and investigate threats, infringement, harmful or unlawful activities and promote safety, integrity and security on our platforms.",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "secure",
+      "verb": "secure"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To secure our systems",
+       "name": "security"
+      },
+      {
+       "text": "detect and investigate threats, infringement, harmful or unlawful activities",
+       "name": "security"
+      },
+      {
+       "text": "promote safety, integrity and security on our platforms",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "Legitimate Interest: To secure our systems and detect and investigate threats, infringement, harmful or unlawful activities and promote safety, integrity and security on our platforms."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-035#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "depending on where you reside and other legal limitations",
+      "request to know more about and access the categories and specific pieces of personal information we collect, use, and disclose"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-035#s3"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 31,
+  "completeness": {
+   "gaps": 163,
+   "gap_words": 1630
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 31,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 20008,
+  "completion_tokens": 16116,
+  "thinking_tokens": 0,
+  "seconds": 147.76302480697632,
+  "failures": 0
+ },
+ "seconds": 148.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

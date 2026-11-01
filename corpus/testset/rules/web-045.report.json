@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "web-045",
+ "text_sha256": "d0bc604089a3671a8f5547f7e4357961333417191d7dc307be6be61708993861",
+ "site_id": "web-045",
+ "sections": 11,
+ "rules": 278,
+ "report": {
+  "sections": 11,
+  "raw_rules": 254,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Brave Browser"
+     },
+     "conditions": [
+      "If you interact with an ad on Brave Search"
+     ],
+     "data": {
+      "name": "data to measure the performance of this specific ad",
+      "text": "some data to measure the performance of this specific ad"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to measure the performance of this specific ad",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "some data to measure the performance of this specific ad"
+    ],
+    "section": "web-045#s3"
+   }
+  ],
+  "residual_quotes": 36,
+  "quotes": 150,
+  "completeness": {
+   "gaps": 322,
+   "gap_words": 3094
+  },
+  "unsatisfiable_guards": 8,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 150,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 47032,
+  "completion_tokens": 45001,
+  "thinking_tokens": 0,
+  "seconds": 353.06594491004944,
+  "failures": 0
+ },
+ "seconds": 354.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "cleaned_sha256": "android-036",
+ "text_sha256": "611d5b07119a0ec275435a3249b518449e9793dc800f48bbc3a153f0b502578e",
+ "site_id": "android-036",
+ "sections": 23,
+ "rules": 296,
+ "report": {
+  "sections": 23,
+  "raw_rules": 217,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "the right to confirm, access, correct, delete, withdraw consent, and lodge complaints (hereinafter referred to as \"request\")",
+      "before processing your request",
+      "for security reasons, we may need to verify your identity"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [
+      "subject to specific exclusions and exceptions under applicable laws",
+      "We may reject requests that are unreasonably repetitive, require excessive technical means (for example, to develop new systems or fundamentally change existing practices), pose risks to the legal rights of others or are extremely impractical, or violate the mandatory provisions by law"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "respect your rights",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "unspecified",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-036#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing based on automated decision-making, including profiling and other automated processing",
+      "verb": "process"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "according to the applicable laws of some jurisdictions",
+      "which may have legal or similar effects on you"
+     ],
+     "exceptions": [
+      "You have the right to refuse the processing based on automated decision-making, including profiling and other automated processing"
+     ],
+     "references": [
+      {
+       "text": "applicable laws of some jurisdictions",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-036#s21"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 121,
+  "completeness": {
+   "gaps": 256,
+   "gap_words": 3414
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 11,
+  "translated_quotes": 121,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 73859,
+  "completion_tokens": 46594,
+  "thinking_tokens": 0,
+  "seconds": 334.27337980270386,
+  "failures": 0
+ },
+ "seconds": 335.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

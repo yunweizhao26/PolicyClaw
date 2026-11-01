@@ -1,0 +1,153 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "registration date and time": "date and time of registration"
+   },
+   "parents": {
+    "DNS records": [
+     "data"
+    ],
+    "access date and time": [
+     "data"
+    ],
+    "browser": [
+     "data"
+    ],
+    "browsing history": [
+     "data"
+    ],
+    "content of communications": [
+     "data"
+    ],
+    "date and time of registration": [
+     "data"
+    ],
+    "email address": [
+     "data",
+     "personal data"
+    ],
+    "interaction data": [
+     "data"
+    ],
+    "ip address": [
+     "data"
+    ],
+    "isp name": [
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "log files": [
+     "data"
+    ],
+    "name": [
+     "data",
+     "personal data"
+    ],
+    "name and url of retrieved file": [
+     "data"
+    ],
+    "operating system": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "referrer url": [
+     "data"
+    ],
+    "search terms": [
+     "data"
+    ],
+    "your data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "another person": [
+     "recipients"
+    ],
+    "public": [
+     "recipients"
+    ],
+    "third party": [
+     "recipients"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "external service providers",
+     "third parties"
+    ],
+    "Google": [
+     "external service providers",
+     "third parties"
+    ],
+    "YouTube": [
+     "Google",
+     "external service providers",
+     "third parties"
+    ],
+    "external service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance and proceedings"
+   },
+   "parents": {
+    "send newsletter": [
+     "marketing"
+    ],
+    "system security and stability": [
+     "security"
+    ],
+    "verification": [
+     "security"
+    ],
+    "fraud-detection": [
+     "security"
+    ],
+    "service-operation-and-security": [
+     "service provision"
+    ],
+    "website connectivity": [
+     "service provision"
+    ],
+    "website usability": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1575,
+  "completion_tokens": 601,
+  "thinking_tokens": 576,
+  "seconds": 29.1242835521698,
+  "failures": 0
+ },
+ "seconds": 29.2
+}

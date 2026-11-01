@@ -1,0 +1,172 @@
+{
+ "cleaned_sha256": "android-146",
+ "text_sha256": "f50ea0716158b44fcf7634552ccf2bb226924c573847f799fed862c853069bd9",
+ "site_id": "android-146",
+ "sections": 30,
+ "rules": 346,
+ "report": {
+  "sections": 30,
+  "raw_rules": 295,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "in connection with the competition",
+       "name": "contests or sweepstakes"
+      }
+     ],
+     "conditions": [
+      "When you enter competitions related to the Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-146#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other information about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "in connection with the competition",
+       "name": "contests or sweepstakes"
+      }
+     ],
+     "conditions": [
+      "When you enter competitions related to the Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-146#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Exercise of rights by Brazilian residents",
+      "The right to access the data"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "LGPD",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-146#s13"
+   }
+  ],
+  "residual_quotes": 39,
+  "quotes": 146,
+  "completeness": {
+   "gaps": 389,
+   "gap_words": 4721
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 54,
+  "translated_quotes": 146,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 57,
+  "cached": 0,
+  "prompt_tokens": 98993,
+  "completion_tokens": 67569,
+  "thinking_tokens": 0,
+  "seconds": 1598.3111157417297,
+  "failures": 0
+ },
+ "seconds": 1600.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

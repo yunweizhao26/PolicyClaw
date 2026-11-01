@@ -1,0 +1,320 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account_credentials": "account credentials",
+    "advertising_data": "advertising data",
+    "behavioral data": "behavior",
+    "date_of_birth": "date of birth",
+    "deidentified_information": "de-identified personal data",
+    "email_address": "email address",
+    "health_data": "health and medical information",
+    "health_insurance_information": "health insurance information",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "loyalty program participation information": "loyalty program participation",
+    "loyalty_program_participation_information": "loyalty program participation",
+    "network and connection information": "connection_information",
+    "online identifiers": "online identifier",
+    "online_identifier": "online identifier",
+    "page views statistics": "page views",
+    "page_views": "page views",
+    "payment information": "financial details",
+    "payment_information": "financial details",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "phone_number": "phone number",
+    "photos": "photograph",
+    "postal address": "physical address",
+    "postal_address": "physical address",
+    "precise location": "precise geographic location",
+    "precise_geographic_location": "precise geographic location",
+    "preferences": "consumer preferences",
+    "purchase_history": "purchase history",
+    "purchasing history": "purchase history",
+    "security_footage": "cctv footage",
+    "sensitive personal data": "sensitive data",
+    "server_log_data": "server logs",
+    "user behavior": "behavior",
+    "voice_recording": "voice audio recording",
+    "web server logs": "server logs",
+    "web traffic": "browsing_activity",
+    "website traffic": "browsing_activity"
+   },
+   "parents": {
+    "CA Personal Information": [
+     "personal data"
+    ],
+    "IP address": [
+     "online identifier"
+    ],
+    "account credentials": [
+     "personal data"
+    ],
+    "advertising data": [
+     "data"
+    ],
+    "age": [
+     "personal characteristics"
+    ],
+    "behavior": [
+     "user profile"
+    ],
+    "behavioral profiles": [
+     "user profile"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "bluetooth sensor data": [
+     "location"
+    ],
+    "browsing and purchase history": [
+     "commercial information"
+    ],
+    "browsing history": [
+     "activity data"
+    ],
+    "camera recordings": [
+     "data"
+    ],
+    "cctv footage": [
+     "camera recordings"
+    ],
+    "chat logs": [
+     "user-generated content"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device location": [
+     "location"
+    ],
+    "driver's license number": [
+     "government-issued id"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "facial geometry": [
+     "biometric data"
+    ],
+    "gender": [
+     "personal characteristics"
+    ],
+    "government-issued id": [
+     "identifiers"
+    ],
+    "health and medical information": [
+     "health information"
+    ],
+    "health information": [
+     "sensitive data"
+    ],
+    "health insurance information": [
+     "health information"
+    ],
+    "inaccurate information": [
+     "information"
+    ],
+    "inferences": [
+     "user profile"
+    ],
+    "loyalty profile": [
+     "user profile"
+    ],
+    "loyalty program participation": [
+     "customer information"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "non-identifiable data": [
+     "data"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "page views": [
+     "browsing history"
+    ],
+    "passport number": [
+     "government-issued id"
+    ],
+    "financial details": [
+     "commercial information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photograph": [
+     "user-generated content"
+    ],
+    "physical address": [
+     "contact information"
+    ],
+    "precise geographic location": [
+     "location"
+    ],
+    "predispositions": [
+     "inferences"
+    ],
+    "consumer preferences": [
+     "user profile"
+    ],
+    "purchases": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "purchases"
+    ],
+    "race or ethnicity": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "server logs": [
+     "connection_information"
+    ],
+    "sex": [
+     "personal characteristics"
+    ],
+    "social security number": [
+     "government-issued id"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "voice audio recording": [
+     "data"
+    ],
+    "browsing_activity": [
+     "activity data"
+    ],
+    "website activity": [
+     "activity data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "outside companies, organizations, individuals",
+    "third_party": "outside companies, organizations, individuals"
+   },
+   "parents": {
+    "business partner": [
+     "outside companies, organizations, individuals"
+    ],
+    "service provider": [
+     "outside companies, organizations, individuals"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "third party partners": [
+     "partner",
+     "third party"
+    ],
+    "other companies": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "Synchrony Bank": [
+     "business partner"
+    ],
+    "financial institution": [
+     "business partner"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "marketing company": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "order fulfillment": "fulfillment",
+    "service_fulfillment": "fulfillment",
+    "service_optimization": "service optimization"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "health and medical research": [
+     "research"
+    ],
+    "service improvement": [
+     "service operation and quality"
+    ],
+    "service optimization": [
+     "service operation and quality"
+    ],
+    "user_experience_optimization": [
+     "service improvement",
+     "service operation and quality"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "personalization": [
+     "marketing"
+    ],
+    "profiling": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3563,
+  "completion_tokens": 1574,
+  "thinking_tokens": 0,
+  "seconds": 20.859282732009888,
+  "failures": 0
+ },
+ "seconds": 21.0
+}

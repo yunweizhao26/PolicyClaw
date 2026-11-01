@@ -1,0 +1,229 @@
+{
+ "cleaned_sha256": "android-131",
+ "text_sha256": "f8d9944cef8d870cd446d222d71ba611167d32170a645739653915f46034ef86",
+ "site_id": "android-131",
+ "sections": 14,
+ "rules": 195,
+ "report": {
+  "sections": 14,
+  "raw_rules": 124,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "encryption",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "encryption (such as SSL)",
+      "verb": "encrypt"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-131#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "de-identification or anonymization",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "de-identification or anonymization",
+      "verb": "de-identify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-131#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your relevant personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can copy",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "During your use of Hippo Lab game services",
+      "depending on the specific conditions of game products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can copy"
+    ],
+    "section": "android-131#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your relevant personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can correct",
+      "verb": "provide"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "During your use of Hippo Lab game services",
+      "depending on the specific conditions of game products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can correct"
+    ],
+    "section": "android-131#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your relevant personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can supplement",
+      "verb": "provide"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "During your use of Hippo Lab game services",
+      "depending on the specific conditions of game products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "provide you with corresponding operation settings depending on the specific conditions of game products, so that you can supplement"
+    ],
+    "section": "android-131#s10"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 156,
+   "gap_words": 2020
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 13,
+  "translated_quotes": 79,
+  "compile_failures": 4,
+  "fixed_structurally": 1,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 46065,
+  "completion_tokens": 27063,
+  "thinking_tokens": 0,
+  "seconds": 713.1882009506226,
+  "failures": 0
+ },
+ "seconds": 714.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

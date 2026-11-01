@@ -1,0 +1,159 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "all data",
+    "information": "all data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "sensitive_data": "sensitive data",
+    "user_content": "user content"
+   },
+   "parents": {
+    "billing address": [
+     "contact information"
+    ],
+    "browsing behavior": [
+     "browsing_history",
+     "service use"
+    ],
+    "browsing_history": [
+     "service use"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "country of residence": [
+     "demographics",
+     "location"
+    ],
+    "date of birth": [
+     "demographics",
+     "identifying information"
+    ],
+    "demographics": [
+     "personal data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "gender": [
+     "demographics"
+    ],
+    "hardware information": [
+     "device information"
+    ],
+    "IP address": [
+     "identifying information"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "inaccurate or incomplete personal information": [
+     "personal data"
+    ],
+    "name": [
+     "contact information",
+     "identifying information"
+    ],
+    "nationality": [
+     "demographics"
+    ],
+    "password": [
+     "identifying information"
+    ],
+    "personal data": [
+     "all data"
+    ],
+    "photograph": [
+     "user content"
+    ],
+    "search_history": [
+     "browsing_history"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "software information": [
+     "device information"
+    ],
+    "username": [
+     "identifying information",
+     "profile_information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user",
+    "public authority": "Government authorities"
+   },
+   "parents": {
+    "IT services providers": [
+     "Third party service providers",
+     "service provider"
+    ],
+    "Providers of storage systems": [
+     "Third party service providers",
+     "service provider"
+    ],
+    "Providers of services necessary for the performance of our activity": [
+     "Third party service providers",
+     "service provider"
+    ],
+    "law_enforcement": [
+     "Government authorities"
+    ],
+    "Third party service providers": [
+     "service provider",
+     "third_party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "contract_performance": "contract negotiation and performance",
+    "legal_compliance": "legal compliance",
+    "perform our operations": "operations",
+    "personalize": "personalization",
+    "service provision": "contract negotiation and performance"
+   },
+   "parents": {
+    "service communication": [
+     "communication"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2337,
+  "completion_tokens": 924,
+  "thinking_tokens": 0,
+  "seconds": 12.187682628631592,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

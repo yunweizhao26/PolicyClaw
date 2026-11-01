@@ -1,0 +1,177 @@
+{
+ "cleaned_sha256": "apple-029",
+ "text_sha256": "e157a44ed9095ba054678b27b8b7d5f8d4a51c4322d218388d36cc3610e8a738",
+ "site_id": "apple-029",
+ "sections": 22,
+ "rules": 280,
+ "report": {
+  "sections": 22,
+  "raw_rules": 244,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stop being contacted",
+      "verb": "stop"
+     },
+     "operation": "restriction",
+     "purpose": [
+      {
+       "text": "as part of fan feedback",
+       "name": "feedback"
+      }
+     ],
+     "conditions": [
+      "Where you have given us your permission",
+      "contact us and we will do it for you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-029#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sale",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ticketmaster’s"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "submitting a “Do Not Sell or Share My Information” request\nhere",
+      "submitting a request to opt out of sales or sharing by calling us at 855-663-0150"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to opt-out of",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "appliable United States laws and regulations",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "submitting a request to opt out of sales or sharing by calling us at 855-663-0150"
+    ],
+    "section": "apple-029#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Ticketmaster’s"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "submitting a “Do Not Sell or Share My Information” request\nhere",
+      "submitting a request to opt out of sales or sharing by calling us at 855-663-0150"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to opt-out of",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "appliable United States laws and regulations",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "submitting a request to opt out of sales or sharing by calling us at 855-663-0150"
+    ],
+    "section": "apple-029#s19"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 111,
+  "completeness": {
+   "gaps": 281,
+   "gap_words": 2460
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 30,
+  "translated_quotes": 111,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 41,
+  "cached": 0,
+  "prompt_tokens": 66207,
+  "completion_tokens": 44767,
+  "thinking_tokens": 0,
+  "seconds": 768.9652934074402,
+  "failures": 0
+ },
+ "seconds": 770.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

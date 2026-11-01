@@ -1,0 +1,581 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Contact info": "Contact",
+    "Demographics": "Demographic",
+    "Identity verification information": "Identity verification info",
+    "Location Data": "Location",
+    "Name": "First and last name",
+    "Ratings": "Rating",
+    "Trip/order": "Trip/Order",
+    "Trip/order info": "Trip/Order",
+    "Uber trip, order or search history": "Trip/Order",
+    "Usage": "Uber usage",
+    "Usage Data": "Uber usage",
+    "Your location": "Location",
+    "account": "Account",
+    "contact details": "Contact",
+    "contact information": "Contact",
+    "data": "Data",
+    "date of birth": "Date of birth",
+    "demographic data": "Demographic",
+    "email address": "email",
+    "first and last name": "First and last name",
+    "identity verification information": "Identity verification info",
+    "location data": "Location",
+    "name": "First and last name",
+    "other unique device identifiers": "Device IP address",
+    "phone number": "Phone number",
+    "pickup and dropoff locations": "Pickup and/or dropoff locations",
+    "profile photo": "Profile photo",
+    "trip or order information": "Trip/Order",
+    "user content and communications data": "User content",
+    "user-submitted selfies": "real-time selfie",
+    "users’ data": "user data",
+    "your account": "Account",
+    "your data": "user data",
+    "your date of birth": "Date of birth",
+    "your location": "Location",
+    "your personal data": "personal data"
+   },
+   "parents": {
+    "First name": [
+     "First and last name"
+    ],
+    "Contact info (\ni.e.\n, email or phone number)": [
+     "Contact"
+    ],
+    "email": [
+     "Contact"
+    ],
+    "Phone number": [
+     "Contact"
+    ],
+    "approximate location at the time the emergency call was placed": [
+     "Location"
+    ],
+    "your approximate location": [
+     "Location"
+    ],
+    "your precise location": [
+     "Location"
+    ],
+    "mobile device location data": [
+     "Location"
+    ],
+    "mobile device real-time location data": [
+     "Location",
+     "mobile device location data"
+    ],
+    "your driver’s location": [
+     "Location"
+    ],
+    "Pickup and/or dropoff locations": [
+     "Location"
+    ],
+    "Requested pickup/dropoff": [
+     "Location"
+    ],
+    "Delivery address (including with restaurants/merchants that use their own delivery people to fulfill your order)": [
+     "Address",
+     "Location"
+    ],
+    "Address": [
+     "Location"
+    ],
+    "Advertising identifiers": [
+     "Device"
+    ],
+    "Device IP address": [
+     "Device"
+    ],
+    "Device motion data": [
+     "Device"
+    ],
+    "Hardware models": [
+     "Device"
+    ],
+    "Operating systems and versions": [
+     "Device"
+    ],
+    "Mobile network data": [
+     "Device"
+    ],
+    "Browser type": [
+     "Device"
+    ],
+    "certain types of device data": [
+     "Device"
+    ],
+    "age": [
+     "Demographic"
+    ],
+    "your gender": [
+     "Demographic"
+    ],
+    "gender information": [
+     "Demographic"
+    ],
+    "Demographics (including inferred gender)": [
+     "Demographic"
+    ],
+    "Enrichment data such as demographics (age range, household income range, gender), general interests and lifestyle, general purchasing behavior, viewing preferences and streaming habits": [
+     "Demographic"
+    ],
+    "audio recordings": [
+     "Communications"
+    ],
+    "Content (including audio recordings, recordings of phone calls, call transcripts, and chat logs)": [
+     "Communications"
+    ],
+    "Communication type (phone or text message)": [
+     "Communications"
+    ],
+    "In-vehicle recordings": [
+     "User content"
+    ],
+    "videos of you taken by in-cabin cameras": [
+     "In-vehicle recordings"
+    ],
+    "Evidence relating to accidents, conflicts, claims or disputes (which may include photos or recordings of you, including dashcam footage and videos that Drivers submit via the\nRecord My Ride\nfeature or video recordings shared by fleet partners)": [
+     "User content"
+    ],
+    "Photos submitted for purposes of customer support": [
+     "User content"
+    ],
+    "Feedback": [
+     "User content"
+    ],
+    "User created\nLists\nor reviews": [
+     "User content"
+    ],
+    "average rating": [
+     "Rating"
+    ],
+    "breakdown of your average rating": [
+     "Rating"
+    ],
+    "average of the ratings you receive": [
+     "Rating"
+    ],
+    "rate": [
+     "Rating"
+    ],
+    "photo of your ID": [
+     "government IDs"
+    ],
+    "Government-issued identification documents such as driver’s licenses or passports, and related information (such as identification numbers, expiration date, and demographics)": [
+     "government IDs"
+    ],
+    "Tax ID": [
+     "ID number"
+    ],
+    "cookies": [
+     "cookies and similar technologies"
+    ],
+    "SDKs": [
+     "cookies and similar technologies"
+    ],
+    "web beacons": [
+     "cookies and similar technologies"
+    ],
+    "other online identifiers": [
+     "cookies and similar technologies"
+    ],
+    "other technologies": [
+     "cookies and similar technologies"
+    ],
+    "Items ordered (which may include drug prescriptions)": [
+     "Items ordered"
+    ],
+    "Items ordered": [
+     "Trip/Order"
+    ],
+    "order value": [
+     "Trip/Order"
+    ],
+    "Trip count": [
+     "Trip/Order"
+    ],
+    "Trip or order details, including\nDate and time\nRequested pickup and dropoff addresses\nDistance traveled\nRestaurant or merchant name and location\nItems ordered\nOrder value": [
+     "Trip/Order"
+    ],
+    "order info": [
+     "Trip/Order"
+    ],
+    "Uber search history": [
+     "Uber usage"
+    ],
+    "App features or pages viewed": [
+     "Uber usage"
+    ],
+    "App crashes and other system activity": [
+     "Uber usage"
+    ],
+    "Access dates and times": [
+     "Uber usage"
+    ],
+    "data about how you interact with Uber’s apps and websites": [
+     "Uber usage"
+    ],
+    "data about your interaction with ads": [
+     "Uber usage"
+    ],
+    "Usage data, including your engagement with marketing and advertising campaigns": [
+     "Uber usage"
+    ],
+    "Data regarding your interactions with marketing and advertising campaigns": [
+     "Uber usage"
+    ],
+    "Statistics derived from past trip/order information, such as\nAverages, such as average order size\nCancellation rates\nTotal trips/orders": [
+     "Uber usage"
+    ],
+    "Debit or credit card activity information": [
+     "payment information"
+    ],
+    "Payment information (including amount charged and payment method)": [
+     "payment information"
+    ],
+    "Payment method (including related payment verification information)": [
+     "payment information",
+     "payment method"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "transaction data": [
+     "payment information"
+    ],
+    "Historical data such as traffic patterns and seasonal trends": [
+     "historical data"
+    ],
+    "a summary of certain information about your account, such as your rating, trip or order count, rewards status, and how long you’ve been using Uber": [
+     "account information"
+    ],
+    "Login name and password": [
+     "account information"
+    ],
+    "Settings (including accessibility settings) and preferences": [
+     "account information"
+    ],
+    "Settings (including accessibility settings)": [
+     "account information"
+    ],
+    "preferences": [
+     "account information"
+    ],
+    "Uber partner loyalty program information": [
+     "account information"
+    ],
+    "Uber account data": [
+     "account information"
+    ],
+    "user data, including that which may be subject to Uber’s certification": [
+     "user data"
+    ],
+    "data that is subject to these certifications": [
+     "personal data"
+    ],
+    "personal data, subject to its certification": [
+     "personal data"
+    ],
+    "your personal data that is subject to Uber’s DPF certification": [
+     "personal data"
+    ],
+    "your data, including your profile data and trip or order history": [
+     "user data"
+    ],
+    "account, usage, communications, and device data": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "law enforcement officials": "law enforcement",
+    "our subsidiaries and affiliates": "our affiliates",
+    "police, fire, and ambulance services": "emergency police, fire and ambulance services",
+    "restaurants or merchants": "Restaurants/merchants you order from",
+    "such account owner": "The owner of any Uber account you use",
+    "that account owner": "The owner of any Uber account you use",
+    "that insurance company": "insurance companies",
+    "the restaurant/merchant": "Restaurants/merchants you order from",
+    "third parties": "other third parties",
+    "you": "You",
+    "your drivers": "Your driver"
+   },
+   "parents": {
+    "Other Riders during\nshared\nrides or gift recipients": [
+     "other users"
+    ],
+    "Other Uber Eats users": [
+     "other users"
+    ],
+    "Other recipients in your group order": [
+     "other users"
+    ],
+    "People who refer you to Uber": [
+     "other users"
+    ],
+    "Users with whom you use data-sharing features": [
+     "other users"
+    ],
+    "Your driver": [
+     "drivers"
+    ],
+    "driver/delivery person matched through this process": [
+     "driver/delivery person"
+    ],
+    "your delivery person": [
+     "delivery people"
+    ],
+    "law enforcement": [
+     "government and law enforcement"
+    ],
+    "other government authorities": [
+     "government and law enforcement"
+    ],
+    "public health officials": [
+     "other government authorities"
+    ],
+    "subsidiaries": [
+     "our affiliates"
+    ],
+    "Uber business partners": [
+     "partners"
+    ],
+    "third-party fleet partners": [
+     "other third parties",
+     "partners"
+    ],
+    "our advertisers": [
+     "other third parties"
+    ],
+    "ad and marketing publishers": [
+     "other third parties"
+    ],
+    "service providers": [
+     "other third parties"
+    ],
+    "insurance companies": [
+     "other third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "other sources": "from other sources",
+    "users": "Users or others"
+   },
+   "parents": {
+    "identity and fraud prevention third-party databases": [
+     "from other sources"
+    ],
+    "Service providers who help us verify your identity or detect fraud": [
+     "Marketing partners, advertisers, and service providers"
+    ],
+    "that user": [
+     "Users or others"
+    ],
+    "Uber account owners": [
+     "Users or others"
+    ],
+    "you": [
+     "Users or others"
+    ],
+    "you provide": [
+     "you"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Uber Technologies Inc.": "Uber",
+    "We": "Uber",
+    "first party": "Uber",
+    "it": "Uber",
+    "we": "Uber"
+   },
+   "parents": {
+    "Our algorithms": [
+     "Uber"
+    ],
+    "third-party applications": [
+     "apps"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "Calculating rider/recipient prices and driver/delivery person fares": "Calculating rider/recipient\nprices and driver/delivery person fares",
+    "Creating or updating your account": "Creating and updating your account",
+    "For customer support": "Customer support",
+    "Non-marketing communications": "For non-marketing communications",
+    "Personalizing marketing communications and ads relating to Uber products and services, and those offered by other companies": "Personalizing marketing and ads relating to Uber products and services, and those offered by other companies",
+    "Research and development": "For research and development",
+    "To enable communications between users": "Enabling communications between you and your driver or delivery person",
+    "To send non-marketing communications to users": "For non-marketing communications",
+    "for customer support purposes": "Customer support",
+    "for legal reasons": "For legal requirements and proceedings",
+    "for marketing and advertising": "For marketing and advertising",
+    "for purposes such as research and development": "For research and development",
+    "to determine the price you pay": "Calculating rider/recipient\nprices and driver/delivery person fares",
+    "to investigate or address claims or disputes relating to use of Uber’s services": "In connection with legal proceedings",
+    "to verify your account or identity": "Verifying your account, identity or compliance with safety requirements"
+   },
+   "parents": {
+    "Displaying ads that are targeted based on data about your current trip or delivery request, including time of request and services requested": [
+     "Displaying ads that are targeted based on data about your current trip or delivery request"
+    ],
+    "Displaying ads that are targeted based on data about your current trip or delivery request": [
+     "For marketing and advertising"
+    ],
+    "Delivering and measuring the effectiveness of advertising campaigns": [
+     "For marketing and advertising"
+    ],
+    "Measuring the effectiveness of marketing and ads, and optimizing our advertising and marketing campaigns": [
+     "For marketing and advertising"
+    ],
+    "Measuring the effectiveness of the marketing communications and ads": [
+     "For marketing and advertising"
+    ],
+    "Personalizing ads relating to products and services offered by other companies": [
+     "For marketing and advertising"
+    ],
+    "Personalizing marketing and ads relating to Uber products and services, and those offered by other companies": [
+     "For marketing and advertising"
+    ],
+    "personalize ads we show you": [
+     "For marketing and advertising"
+    ],
+    "to display personalized marketing and advertising to you": [
+     "For marketing and advertising"
+    ],
+    "to market its services, and those of Uber partners": [
+     "For marketing and advertising"
+    ],
+    "to personalize the ads you see on\nUber\nor\nUber Eats and Postmates": [
+     "For marketing and advertising"
+    ],
+    "to target these groups, or audiences, with ads": [
+     "For marketing and advertising"
+    ],
+    "to determine whether your usage of our apps and websites can be attributed to specific marketing campaigns about Uber products and services": [
+     "For marketing and advertising"
+    ],
+    "Provide access to and responses from Uber’s customer service agents": [
+     "Customer support"
+    ],
+    "Providing live support from safety experts during trips or deliveries": [
+     "Customer support"
+    ],
+    "monitoring and improving our customer support responses and processes": [
+     "Customer support"
+    ],
+    "Informing you of changes to our terms, services, or policies": [
+     "For non-marketing communications",
+     "Providing you with trip or delivery updates, generating receipts, and informing you of changes to our terms, services or policies"
+    ],
+    "Providing you with trip or delivery updates and generating receipts": [
+     "For non-marketing communications",
+     "Providing you with trip or delivery updates, generating receipts, and informing you of changes to our terms, services or policies"
+    ],
+    "Providing you with trip or delivery updates, generating receipts, and informing you of changes to our terms, services or policies": [
+     "For non-marketing communications"
+    ],
+    "Performing necessary operations to maintain our services, including to troubleshoot software bugs and operational problems": [
+     "Performing necessary operations to maintain our services"
+    ],
+    "Processing payments and enabling payment and e-money products such as Uber Money": [
+     "Processing payments"
+    ],
+    "Respond to\nrequests for information\nby governments or law enforcement": [
+     "For legal requirements and proceedings"
+    ],
+    "In connection with legal proceedings": [
+     "For legal requirements and proceedings"
+    ],
+    "as necessary to enforce our\nterms and conditions\n, user agreements, or other policies": [
+     "For legal requirements and proceedings"
+    ],
+    "for purposes of Uber’s tax, insurance, legal or regulatory requirements": [
+     "For legal requirements and proceedings"
+    ],
+    "in the event of a claim or dispute relating to the use of our services": [
+     "For legal requirements and proceedings"
+    ],
+    "to protect Uber’s rights or property or the rights, safety or property of others": [
+     "For legal requirements and proceedings"
+    ],
+    "to satisfy requirements under and/or for purposes of compliance with, applicable laws, regulations, operating licenses, agreements or insurance policies; or pursuant to legal process or governmental request, including from law enforcement": [
+     "For legal requirements and proceedings"
+    ],
+    "to help maintain the safety and security of our services and users": [
+     "To enhance the safety and security of our users and services, and to prevent and detect fraud"
+    ],
+    "Preventing, detecting and combating fraud": [
+     "To enhance the safety and security of our users and services, and to prevent and detect fraud"
+    ],
+    "prevent and detect fraud against Uber or our users": [
+     "To enhance the safety and security of our users and services, and to prevent and detect fraud"
+    ],
+    "to prevent creation of fraudulent accounts": [
+     "Preventing, detecting and combating fraud"
+    ],
+    "Verifying your age and that your account is being used by you and not someone else": [
+     "Verifying your account, identity or compliance with safety requirements"
+    ],
+    "Verifying your identity and/or age": [
+     "Verifying your account, identity or compliance with safety requirements"
+    ],
+    "Verifying, when you rent a bike or scooter through Uber, that you are wearing a helmet, or other mandatory safety gear": [
+     "Verifying your account, identity or compliance with safety requirements"
+    ],
+    "that you are who you say you are": [
+     "Verifying your account, identity or compliance with safety requirements"
+    ],
+    "to confirm that your account is not being used by anyone other than you": [
+     "Verifying your account, identity or compliance with safety requirements"
+    ],
+    "to verify your eligibility to use age-restricted products or services, such as\nUber for teens\n, or if you purchase alcohol, tobacco or cannabis products": [
+     "Verifying your identity and/or age"
+    ],
+    "to enable\nWomen Rider Preference": [
+     "Enabling services and features"
+    ],
+    "to enable additional features": [
+     "Enabling services and features"
+    ],
+    "to enable certain features": [
+     "Enabling services and features"
+    ],
+    "to enable specific services or features": [
+     "Enabling services and features"
+    ],
+    "to enable reliable and convenient transportation, delivery, and other products and services": [
+     "to provide our services"
+    ],
+    "to provide our services or features": [
+     "to provide our services"
+    ],
+    "in order for Uber to provide its service": [
+     "to provide our services"
+    ],
+    "Provide you services wherever you request them": [
+     "to provide our services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 13872,
+  "completion_tokens": 4995,
+  "thinking_tokens": 0,
+  "seconds": 31.05359196662903,
+  "failures": 0
+ },
+ "seconds": 31.2
+}

@@ -1,0 +1,205 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "race or ethnicity": "race or ethnic origin",
+    "sensitive personal information": "sensitive personal data",
+    "student id": "student ID number"
+   },
+   "parents": {
+    "IP address": [
+     "online identifier"
+    ],
+    "account credentials": [
+     "account details"
+    ],
+    "account name": [
+     "account details"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "anonymized payment card details": [
+     "payment card information"
+    ],
+    "bank account number": [
+     "bank account information"
+    ],
+    "bank account information": [
+     "financial information"
+    ],
+    "payment card number": [
+     "payment card information"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "payment card information": [
+     "financial information"
+    ],
+    "browsing duration": [
+     "browsing activity"
+    ],
+    "links clicked": [
+     "browsing activity"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "chat logs": [
+     "communication content"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "home address": [
+     "postal address"
+    ],
+    "customer support inquiry": [
+     "user inquiry or request"
+    ],
+    "device ID": [
+     "unique identifier"
+    ],
+    "device model": [
+     "hardware model"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "health and medical data": [
+     "health information"
+    ],
+    "health insurance information": [
+     "health information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "student ID number": [
+     "unique identifier"
+    ],
+    "social media handle": [
+     "online identifier"
+    ],
+    "government ID number": [
+     "unique identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "Centers for Medicare & Medicaid Services": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "acquiring or surviving entity": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "employer": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Centers for Medicare & Medicaid Services": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "verification": [
+     "security"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "social_features": [
+     "service provision"
+    ],
+    "financial administration": [
+     "business_operations"
+    ],
+    "business_operations": [
+     "to pursue the legitimate business interests outlined below"
+    ],
+    "personalization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2883,
+  "completion_tokens": 787,
+  "thinking_tokens": 0,
+  "seconds": 10.594613790512085,
+  "failures": 0
+ },
+ "seconds": 10.7
+}

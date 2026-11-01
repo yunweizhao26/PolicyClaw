@@ -1,0 +1,207 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account name": "account identifier",
+    "age range": "age",
+    "authentication token": "authentication data",
+    "information": "data",
+    "personal data": "data",
+    "personal information": "data",
+    "social media profile link": "social media handles and links",
+    "user profile": "profile",
+    "your information": "data"
+   },
+   "parents": {
+    "account identifier": [
+     "identifier"
+    ],
+    "ad identifier": [
+     "device identifier",
+     "online identifier"
+    ],
+    "ad view data": [
+     "interaction data"
+    ],
+    "age": [
+     "profiling data"
+    ],
+    "alias": [
+     "identifier"
+    ],
+    "authentication data": [
+     "identifier"
+    ],
+    "billing details": [
+     "financial information",
+     "payment details"
+    ],
+    "browsing activity": [
+     "browsing history",
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "contest entry": [
+     "user content"
+    ],
+    "crash reports": [
+     "usage data"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment details"
+    ],
+    "device identifier": [
+     "online identifier"
+    ],
+    "device metadata": [
+     "usage data"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "gender": [
+     "profiling data"
+    ],
+    "in-app activity": [
+     "service use information",
+     "usage data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "interests": [
+     "preferences",
+     "profiling data"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "links clicked": [
+     "interaction data"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "payment details": [
+     "financial information"
+    ],
+    "phone number": [
+     "identifier"
+    ],
+    "profile picture": [
+     "sensory data"
+    ],
+    "push tokens": [
+     "online identifier"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "service use information": [
+     "usage data"
+    ],
+    "social media handles and links": [
+     "identifier"
+    ],
+    "unique personal identifier": [
+     "identifier"
+    ],
+    "usage frequency and duration": [
+     "usage data"
+    ],
+    "user agent": [
+     "device metadata"
+    ],
+    "user comment": [
+     "user content"
+    ],
+    "video": [
+     "sensory data",
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "auditing": [
+     "legal"
+    ],
+    "enforcing terms": [
+     "legal"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "security": [
+     "legal"
+    ],
+    "service improvement": [
+     "legal"
+    ],
+    "user-identity verification": [
+     "legal"
+    ],
+    "internal operations": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2903,
+  "completion_tokens": 817,
+  "thinking_tokens": 0,
+  "seconds": 10.264873504638672,
+  "failures": 0
+ },
+ "seconds": 10.4
+}

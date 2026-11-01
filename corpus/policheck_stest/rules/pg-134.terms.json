@@ -1,0 +1,181 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personal, anonymous information": "non-personal information",
+    "personal data": "PII",
+    "personal information": "PII",
+    "personally identifiable information": "PII",
+    "unspecified data": "certain information",
+    "user information": "user data"
+   },
+   "parents": {
+    "account information": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "advertising identifier": [
+     "device information",
+     "information",
+     "technical information"
+    ],
+    "children's data": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "cookies": [
+     "information",
+     "technical information"
+    ],
+    "demographic information": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "device information": [
+     "information",
+     "technical information"
+    ],
+    "email address": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "email message": [
+     "information"
+    ],
+    "information about the application": [
+     "information",
+     "technical information"
+    ],
+    "information users entrust us with": [
+     "information",
+     "user data"
+    ],
+    "name": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "non-personal information": [
+     "information"
+    ],
+    "PII": [
+     "information"
+    ],
+    "phone number": [
+     "PII",
+     "information",
+     "user data"
+    ],
+    "technical information": [
+     "information"
+    ],
+    "certain information": [
+     "information"
+    ],
+    "unspecified user data": [
+     "information",
+     "user data"
+    ],
+    "user behavior": [
+     "information",
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "contractors": "business partner"
+   },
+   "parents": {
+    "LiveRamp Inc.": [
+     "third party",
+     "third party companies"
+    ],
+    "business partner": [
+     "third party",
+     "third party companies"
+    ],
+    "service provider": [
+     "third party",
+     "third party companies"
+    ],
+    "third party companies": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "LiveRamp Inc.": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contact user": "communication",
+    "personalization of user experience": "personalization",
+    "personalization-or-customization": "personalization",
+    "service improvement": "improve the application",
+    "service-provision": "service provision",
+    "user communication": "communication"
+   },
+   "parents": {
+    "advertising": [
+     "Advertising, marketing or public relations"
+    ],
+    "marketing": [
+     "Advertising, marketing or public relations"
+    ],
+    "targeted advertising": [
+     "Advertising, marketing or public relations",
+     "advertising"
+    ],
+    "customer-communication": [
+     "communication"
+    ],
+    "improve the application": [
+     "service operation and improvement"
+    ],
+    "service-operation": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "improve the application",
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2050,
+  "completion_tokens": 1101,
+  "thinking_tokens": 0,
+  "seconds": 12.821415424346924,
+  "failures": 0
+ },
+ "seconds": 12.9
+}

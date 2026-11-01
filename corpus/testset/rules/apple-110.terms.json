@@ -1,0 +1,107 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address"
+   },
+   "parents": {
+    "IP address": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "images": [
+     "user content"
+    ],
+    "user content": [
+     "user submissions"
+    ],
+    "user submissions": [
+     "user data"
+    ],
+    "call logs": [
+     "activity logs"
+    ],
+    "customer support data": [
+     "user submissions"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "account name": [
+     "personal data"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "social network data": [
+     "personal data"
+    ],
+    "user data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service optimization": "service improvement"
+   },
+   "parents": {
+    "service improvement": [
+     "business operations"
+    ],
+    "service provision": [
+     "business operations"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "user experience enhancement": [
+     "business operations",
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1699,
+  "completion_tokens": 369,
+  "thinking_tokens": 0,
+  "seconds": 9.070368766784668,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

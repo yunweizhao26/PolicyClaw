@@ -1,0 +1,156 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "data we collect": "data",
+    "ip address": "IP address",
+    "login details": "log in details",
+    "personal_data": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "technical information"
+    ],
+    "device identifier": [
+     "technical information"
+    ],
+    "cookies": [
+     "technical information"
+    ],
+    "game data": [
+     "account data"
+    ],
+    "game progress": [
+     "account data"
+    ],
+    "achievements": [
+     "account data"
+    ],
+    "time spent playing": [
+     "account data"
+    ],
+    "in-game communications": [
+     "account data",
+     "communications"
+    ],
+    "chat": [
+     "in-game communications"
+    ],
+    "parent email address": [
+     "email address"
+    ],
+    "credit card details": [
+     "payment information"
+    ],
+    "payment method": [
+     "payment information"
+    ],
+    "children data": [
+     "parent or child data",
+     "personal data",
+     "user data"
+    ],
+    "account data": [
+     "personal data"
+    ],
+    "technical information": [
+     "personal data"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "billing address": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "username": [
+     "account data"
+    ],
+    "log in details": [
+     "account data"
+    ],
+    "customer ID": [
+     "account data"
+    ],
+    "purchase history": [
+     "payment information"
+    ],
+    "email_content": [
+     "communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "Legal compliance",
+    "legal_compliance": "Legal compliance",
+    "security": "Security",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "fraud prevention": [
+     "Security"
+    ],
+    "safety": [
+     "Security"
+    ],
+    "authentication": [
+     "Security"
+    ],
+    "password maintenance": [
+     "Security"
+    ],
+    "news": [
+     "communication"
+    ],
+    "service access": [
+     "service provision"
+    ],
+    "service functionality": [
+     "service provision"
+    ],
+    "service personalization": [
+     "service provision"
+    ],
+    "account creation": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service functionality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2096,
+  "completion_tokens": 681,
+  "thinking_tokens": 0,
+  "seconds": 9.441724300384521,
+  "failures": 0
+ },
+ "seconds": 9.5
+}

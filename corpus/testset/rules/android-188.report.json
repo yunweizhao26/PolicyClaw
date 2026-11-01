@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "android-188",
+ "text_sha256": "2ba1e75122ebd7bb37b78d2e89a2ac83d0839c543b3ecc565582560540f53e36",
+ "site_id": "android-188",
+ "sections": 15,
+ "rules": 141,
+ "report": {
+  "sections": 15,
+  "raw_rules": 125,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request erasure",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "request erasure through Service > Your Account > Manage Account and Data > Right to Erase, subject to regulatory retention requirements"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "your personal information"
+    ],
+    "section": "android-188#s15"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 61,
+  "completeness": {
+   "gaps": 164,
+   "gap_words": 1933
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 61,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 42166,
+  "completion_tokens": 22332,
+  "thinking_tokens": 0,
+  "seconds": 635.349663734436,
+  "failures": 0
+ },
+ "seconds": 636.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifier",
+    "hardware identifier": "device identifier",
+    "hardware-based device id": "device identifier",
+    "information": "data",
+    "location data": "location",
+    "personal data": "Personally Identifiable Information",
+    "personal information": "Personally Identifiable Information",
+    "server log": "log data",
+    "user name": "name",
+    "user preferences": "preferences",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "account identifier": [
+     "account details"
+    ],
+    "password": [
+     "account details"
+    ],
+    "ad identifier": [
+     "device identifier"
+    ],
+    "idfa": [
+     "ad identifier",
+     "device identifier"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing or interaction data": [
+     "usage data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "interaction time": [
+     "usage data"
+    ],
+    "email communications": [
+     "communications"
+    ],
+    "user post": [
+     "communications",
+     "user content"
+    ],
+    "user submissions": [
+     "user content"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "cookie identifiers": [
+     "cookies"
+    ],
+    "credit card number": [
+     "financial data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "player name": [
+     "name"
+    ],
+    "game center id": [
+     "account identifier"
+    ],
+    "social network user id": [
+     "account identifier"
+    ],
+    "game score": [
+     "game play information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "profile picture": [
+     "profile information"
+    ],
+    "profile picture url": [
+     "profile information",
+     "profile picture"
+    ],
+    "public profile": [
+     "profile information"
+    ],
+    "user profile content": [
+     "profile information"
+    ],
+    "purchase history": [
+     "financial data"
+    ],
+    "push notification token": [
+     "push notification"
+    ],
+    "user feedback": [
+     "user content"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "Personally Identifiable Information": [
+     "information about user",
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Amazon Web Services": [
+     "service provider",
+     "third party"
+    ],
+    "google": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Grand"
+   },
+   "parents": {
+    "Service Providers acting on our behalf": [
+     "service provider"
+    ],
+    "google": [
+     "Service Providers acting on our behalf",
+     "service provider"
+    ],
+    "advertising network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "commercial partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-service": "customer support",
+    "payment handling": "payment"
+   },
+   "parents": {
+    "ad analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "functionality": [
+     "service operation"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "product development": [
+     "commercial purpose"
+    ],
+    "payment": [
+     "order fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3080,
+  "completion_tokens": 1144,
+  "thinking_tokens": 0,
+  "seconds": 12.628090381622314,
+  "failures": 0
+ },
+ "seconds": 12.7
+}

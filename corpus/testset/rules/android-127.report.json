@@ -1,0 +1,110 @@
+{
+ "cleaned_sha256": "android-127",
+ "text_sha256": "8b2e3dcca1e658c8dd3f07cfa4d62bcb78086f0e024c2f6a928f2c5745c76542",
+ "site_id": "android-127",
+ "sections": 15,
+ "rules": 90,
+ "report": {
+  "sections": 15,
+  "raw_rules": 79,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have access",
+      "verb": "have"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "Google Fit account data",
+      "text": "data in your Google Fit account"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "do not have access",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-127#s3"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-127#s10"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 53,
+  "completeness": {
+   "gaps": 124,
+   "gap_words": 1240
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 53,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 38611,
+  "completion_tokens": 14465,
+  "thinking_tokens": 0,
+  "seconds": 425.9190740585327,
+  "failures": 0
+ },
+ "seconds": 426.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

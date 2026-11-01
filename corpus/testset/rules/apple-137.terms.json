@@ -1,0 +1,178 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "contact information": "contact details",
+    "financial transactions": "financial and transaction data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "precise location": "precise geolocation",
+    "text message": "SMS or text message",
+    "transaction details": "financial and transaction data",
+    "unspecified data": "information",
+    "user data": "User Data",
+    "user-generated content": "user content",
+    "your data": "User Data"
+   },
+   "parents": {
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "driver's license number": [
+     "government identification number",
+     "identifying information"
+    ],
+    "social security number": [
+     "government identification number",
+     "identifying information"
+    ],
+    "government identification number": [
+     "identifying information"
+    ],
+    "name": [
+     "contact details",
+     "identifying information"
+    ],
+    "password": [
+     "account details"
+    ],
+    "financial credentials": [
+     "financial information"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "financial and transaction data": [
+     "transactional data"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "general location": [
+     "location"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "online activity"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "browsing and shopping behavior": [
+     "online activity"
+    ],
+    "email message": [
+     "communications"
+    ],
+    "SMS or text message": [
+     "communications"
+    ],
+    "communication contents": [
+     "communications"
+    ],
+    "anonymized data": [
+     "non-identifiable data"
+    ],
+    "user content": [
+     "information you provide through use of the services"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising networks": "advertising network",
+    "consumer brands": "commercial partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "service provider",
+     "third parties"
+    ],
+    "advertising partners": [
+     "third parties"
+    ],
+    "shipping partner": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "team admin": [
+     "user"
+    ],
+    "commercial partner": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "legal affiliate": "affiliates"
+   },
+   "parents": {
+    "team administrators": [
+     "user"
+    ],
+    "third party sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Shopify": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "personalisation"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "account-creation": [
+     "Services",
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "research": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2897,
+  "completion_tokens": 910,
+  "thinking_tokens": 0,
+  "seconds": 11.330262184143066,
+  "failures": 0
+ },
+ "seconds": 11.4
+}

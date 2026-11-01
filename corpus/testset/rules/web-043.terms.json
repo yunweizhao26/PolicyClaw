@@ -1,0 +1,336 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Identity Information": "Identification Information",
+    "account data": "Square Account Data",
+    "account details": "Square Account Data",
+    "company name": "business name",
+    "data about you": "Your information",
+    "device details": "device data",
+    "device information": "device data",
+    "financial information": "Financial Information",
+    "identification information": "Identification Information",
+    "information": "data",
+    "information about you": "Your information",
+    "organization name": "business name",
+    "personal information": "personal data",
+    "precise location": "precise geolocation",
+    "sensitive personal information": "sensitive personal data",
+    "user data": "Your information",
+    "user information": "Your information",
+    "website activity": "interaction data"
+   },
+   "parents": {
+    "Social Security number": [
+     "Identification Information",
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "account activation date": [
+     "account information"
+    ],
+    "Square Account Data": [
+     "account information"
+    ],
+    "bank account number": [
+     "Financial Information"
+    ],
+    "billing and shipping address": [
+     "contact details",
+     "postal address"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "business location": [
+     "location"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "commercial transaction history": [
+     "commercial information"
+    ],
+    "credit card number": [
+     "Financial Information"
+    ],
+    "customer personal information": [
+     "customer data",
+     "personal data"
+    ],
+    "customer data": [
+     "commercial information"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "driver's license number": [
+     "Identification Information",
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "facial scan": [
+     "sensitive personal data"
+    ],
+    "financial account access details": [
+     "Financial Information"
+    ],
+    "financial account login details": [
+     "Financial Information",
+     "sensitive personal data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "race": [
+     "demographic data",
+     "sensitive personal data"
+    ],
+    "inferences about preferences": [
+     "inferences"
+    ],
+    "inferred location": [
+     "location"
+    ],
+    "interactions with services or advertisements": [
+     "usage data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "employer": [
+     "professional information"
+    ],
+    "mobile device data": [
+     "device data"
+    ],
+    "name": [
+     "Identification Information",
+     "identifiers"
+    ],
+    "party names": [
+     "name"
+    ],
+    "passport number": [
+     "Identification Information",
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "phone contacts": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details",
+     "identifiers"
+    ],
+    "photo": [
+     "Identification Information"
+    ],
+    "postal address": [
+     "contact details",
+     "location"
+    ],
+    "precise geolocation": [
+     "location",
+     "sensitive personal data"
+    ],
+    "records of products and services sold": [
+     "commercial information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "state ID number": [
+     "Identification Information",
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "transaction amount": [
+     "transaction details"
+    ],
+    "transaction time and location": [
+     "transaction details"
+    ],
+    "transaction volume": [
+     "commercial information"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "usage data": [
+     "network activity"
+    ],
+    "contact details of intended recipient": [
+     "contact details"
+    ],
+    "Identification Information": [
+     "personal data"
+    ],
+    "Financial Information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "identity verification vendors": "identity verification service",
+    "third party": "third parties",
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "Cuscal Limited": [
+     "financial institution"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "identity verification service": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "financial institution": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "mobile device": "directly from your mobile phone"
+   },
+   "parents": {
+    "background check vendors": [
+     "third party"
+    ],
+    "companies that help us verify your identity, do a credit check, prevent fraud or assess risk": [
+     "third party"
+    ],
+    "directly from your mobile phone": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "we": "first party"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party advertising network": [
+     "advertising network",
+     "advertising partner",
+     "third party"
+    ],
+    "third-party analytics provider": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account registration": "account creation",
+    "communications": "communication",
+    "compliance with legal obligation": "compliance",
+    "fraud prevention and detection": "fraud prevention",
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "service optimization": "customer experience",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "account creation": [
+     "account management",
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication and authorization": [
+     "security"
+    ],
+    "collection of payments": [
+     "payment processing",
+     "payments"
+    ],
+    "debugging": [
+     "service improvement",
+     "service-operation"
+    ],
+    "dispute handling": [
+     "customer support"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "payments": [
+     "service provision"
+    ],
+    "personalisation": [
+     "service improvement"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "verification and fraud prevention": [
+     "fraud prevention",
+     "verification"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4038,
+  "completion_tokens": 1755,
+  "thinking_tokens": 0,
+  "seconds": 15.504073858261108,
+  "failures": 0
+ },
+ "seconds": 15.6
+}

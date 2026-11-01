@@ -1,0 +1,345 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ad-interaction-data": "ad interaction data",
+    "email-address": "email address",
+    "ip address": "IP address",
+    "password": "account password",
+    "personal information": "personal data",
+    "personal-data": "personal data",
+    "purchase-history": "purchase history",
+    "unique identifiers": "identifiers",
+    "user identifier": "user id",
+    "user review": "review data",
+    "username": "account name"
+   },
+   "parents": {
+    "account identifier": [
+     "identifiers"
+    ],
+    "account name": [
+     "account data",
+     "credentials",
+     "identifiers"
+    ],
+    "account password": [
+     "account data",
+     "credentials"
+    ],
+    "ad identifier": [
+     "device identifier",
+     "persistent identifier"
+    ],
+    "ad interaction data": [
+     "usage information"
+    ],
+    "ad performance data": [
+     "analytics data"
+    ],
+    "administrative and transactional messages": [
+     "customer support communications"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "usage information"
+    ],
+    "browsing behavior": [
+     "usage information"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "chat logs": [
+     "user data"
+    ],
+    "child-directed flag": [
+     "user data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "country": [
+     "coarse location"
+    ],
+    "credit card number": [
+     "payment-information"
+    ],
+    "customer service inquiry data": [
+     "customer support communications"
+    ],
+    "customer support inquiry": [
+     "customer service inquiry data"
+    ],
+    "customer support message": [
+     "customer support communications"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "identifiers",
+     "persistent identifier"
+    ],
+    "device properties": [
+     "system-technical-information"
+    ],
+    "device software platform and firmware": [
+     "system-technical-information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "email content": [
+     "customer support communications"
+    ],
+    "feedback": [
+     "user feedback"
+    ],
+    "file attachments": [
+     "customer support communications"
+    ],
+    "friend connections": [
+     "social network profile"
+    ],
+    "friends names and profile photos": [
+     "social network profile"
+    ],
+    "game activity and achievements": [
+     "usage information"
+    ],
+    "game progress": [
+     "usage information"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hardware-based device identifier": [
+     "hardware identifier"
+    ],
+    "imprecise location": [
+     "coarse location"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "IP address": [
+     "identifiers",
+     "persistent identifier"
+    ],
+    "language": [
+     "device properties"
+    ],
+    "marketing preferences": [
+     "personal data"
+    ],
+    "mobile phone carrier": [
+     "device properties"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "other information": [
+     "information"
+    ],
+    "persistent identifier": [
+     "identifiers"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "physical address": [
+     "contact information"
+    ],
+    "postal code": [
+     "coarse location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "profile photo": [
+     "social network profile"
+    ],
+    "purchase details": [
+     "purchase history"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "review data": [
+     "feedback",
+     "reviews-and-responses-to-surveys"
+    ],
+    "search history": [
+     "usage information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "social network identifier": [
+     "identifiers"
+    ],
+    "social network profile": [
+     "third-party account data"
+    ],
+    "statistical or technical information": [
+     "system-technical-information"
+    ],
+    "time zone": [
+     "system-technical-information"
+    ],
+    "transaction amounts": [
+     "purchase details"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "user feedback": [
+     "user data"
+    ],
+    "user id": [
+     "identifiers"
+    ],
+    "virtual items or currency": [
+     "game progress"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Zendesk": "ZenDesk",
+    "advertising network": "ad network",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider",
+     "third parties"
+    ],
+    "Knownhost": [
+     "service provider",
+     "third parties"
+    ],
+    "Shopify": [
+     "service provider",
+     "third parties"
+    ],
+    "ZenDesk": [
+     "service provider",
+     "third parties"
+    ],
+    "ad network": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "partners",
+     "third parties"
+    ],
+    "contractors": [
+     "service provider",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "parent": [
+     "user"
+    ],
+    "social network profile": [
+     "third-party profile"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertisers",
+    "first-party": "first party"
+   },
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "third-party payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "customer_support": "customer support",
+    "fraud-prevention": "fraud prevention",
+    "legal-compliance": "legal compliance",
+    "service improvement": "improvement",
+    "service provision": "service delivery",
+    "service-operation": "service delivery",
+    "troubleshooting": "maintenance"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "service-registration": [
+     "account-management"
+    ],
+    "complete-transaction": [
+     "contract-fulfillment"
+    ],
+    "order-fulfillment": [
+     "contract-fulfillment"
+    ],
+    "payment processing": [
+     "complete-transaction"
+    ],
+    "customer support": [
+     "service delivery"
+    ],
+    "restore-game-progress": [
+     "game_progress_saving"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "development": [
+     "product-development"
+    ],
+    "fraud prevention": [
+     "legal compliance",
+     "security"
+    ],
+    "profiling": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3569,
+  "completion_tokens": 1395,
+  "thinking_tokens": 0,
+  "seconds": 14.742886781692505,
+  "failures": 0
+ },
+ "seconds": 14.8
+}

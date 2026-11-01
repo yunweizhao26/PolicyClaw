@@ -1,0 +1,113 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {},
+   "parents": {
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "network-based location": [
+     "location"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "activity history": [
+     "user activity"
+    ],
+    "user activity": [
+     "personal data"
+    ],
+    "device identifier": [
+     "personal data"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "messages": [
+     "personal data"
+    ],
+    "nickname": [
+     "personal data"
+    ],
+    "user photo": [
+     "personal data"
+    ],
+    "files": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "AliCloud": [
+     "service provider"
+    ],
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "agent": [
+     "service provider"
+    ],
+    "consultant": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "supplier": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "COLORFUL POINT"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "account registration": [
+     "provide service"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "personalisation": [
+     "provide service"
+    ],
+    "service operation": [
+     "provide service"
+    ],
+    "service_provision": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1379,
+  "completion_tokens": 348,
+  "thinking_tokens": 0,
+  "seconds": 7.409849643707275,
+  "failures": 0
+ },
+ "seconds": 7.5
+}

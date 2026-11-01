@@ -1,0 +1,245 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial details",
+    "gameplay information": "gameplay",
+    "imprecise location": "coarse location",
+    "payment information": "financial details",
+    "personal information": "personal data",
+    "sensitive personal information": "sensitive data",
+    "telephone number": "phone number",
+    "zip code": "postal code"
+   },
+   "parents": {
+    "account identifier": [
+     "online identifier",
+     "unique identifier"
+    ],
+    "browsing behavior": [
+     "website activity"
+    ],
+    "city": [
+     "coarse location"
+    ],
+    "country": [
+     "coarse location"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "device information",
+     "online identifier",
+     "unique identifier"
+    ],
+    "device type": [
+     "device characteristics",
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "online ID": [
+     "online identifier",
+     "unique identifier"
+    ],
+    "parent email address": [
+     "email address"
+    ],
+    "platform ID": [
+     "account identifier",
+     "online identifier",
+     "unique identifier"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "postal code": [
+     "coarse location"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "purchase history": [
+     "financial details"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "state": [
+     "coarse location"
+    ],
+    "support ticket id": [
+     "unique identifier"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "username": [
+     "account identifier",
+     "online identifier",
+     "unique identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "professional advisors": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "Epic Games": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Itch": [
+     "third party"
+    ],
+    "Kids Web Services": [
+     "third party"
+    ],
+    "Microsoft": [
+     "third party"
+    ],
+    "Sentry": [
+     "third party"
+    ],
+    "Unity Technologies": [
+     "third party"
+    ],
+    "Xsolla": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Kids Web Services": [
+     "third party"
+    ],
+    "Sentry": [
+     "third party"
+    ],
+    "Shopify Inc.": [
+     "third party"
+    ],
+    "Unity Technologies": [
+     "third party"
+    ],
+    "Xsolla (USA), Inc.": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision",
+    "troubleshoot a problem with our Services": "customer support",
+    "troubleshooting": "customer support"
+   },
+   "parents": {
+    "account management": [
+     "administration",
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "customer-service",
+     "maintenance"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "fulfill merchandise purchases on our Website": [
+     "fulfillment"
+    ],
+    "internal operations": [
+     "operations"
+    ],
+    "key purchases": [
+     "fulfillment"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "maintenance": [
+     "administration",
+     "operations"
+    ],
+    "monitor inappropriate conduct in-Game": [
+     "security"
+    ],
+    "operations": [
+     "permissible business or operational purpose under applicable law"
+    ],
+    "play our Game": [
+     "provide service",
+     "service provision"
+    ],
+    "provide service": [
+     "service provision"
+    ],
+    "registration": [
+     "account management",
+     "service provision"
+    ],
+    "respond to your inquiries": [
+     "customer-service"
+    ],
+    "respond to your or a parent or legal guardian’s inquiries": [
+     "customer-service"
+    ],
+    "service improvement": [
+     "internal operations"
+    ],
+    "social-features": [
+     "provide service",
+     "service provision"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "verification": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3051,
+  "completion_tokens": 1221,
+  "thinking_tokens": 0,
+  "seconds": 15.685798645019531,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

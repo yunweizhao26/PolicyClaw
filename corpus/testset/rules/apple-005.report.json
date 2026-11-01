@@ -1,0 +1,539 @@
+{
+ "cleaned_sha256": "apple-005",
+ "text_sha256": "e69fd889811e98931393456393080cc2ee0c0c317afc4ae92b3e54d50a56d88d",
+ "site_id": "apple-005",
+ "sections": 23,
+ "rules": 316,
+ "report": {
+  "sections": 23,
+  "raw_rules": 285,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "import",
+      "verb": "import"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": "data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "allow you to import",
+     "purpose": [
+      {
+       "text": "to connect to friends and contacts for invitation and payment transmission purposes",
+       "name": "social-networking"
+      },
+      {
+       "text": "helping us improve the Services",
+       "name": "service-improvement"
+      },
+      {
+       "text": "fight fraud",
+       "name": "fraud-detection"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "social network",
+      "text": "from other social web services, including but not limited to Twitter, FourSquare, and email service providers"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to connect to friends and contacts for invitation and payment transmission purposes"
+    ],
+    "section": "apple-005#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "check",
+      "verb": "check"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "the merchant"
+     },
+     "conditions": [
+      "when you visit a participating merchant site or app"
+     ],
+     "data": {
+      "name": "account status",
+      "text": "whether you are a user of PayPal services"
+     },
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [
+      {
+       "text": "to present a recommended payment method to you to simplify your checkout process",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to present a recommended payment method to you to simplify your checkout process"
+    ],
+    "section": "apple-005#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may review",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "personal information we have about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-005#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may review",
+     "actor": {
+      "text": "the Account Holder",
+      "name": "third party"
+     },
+     "data": {
+      "text": "personal information we have about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-005#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "The Account Holder",
+      "name": "third party"
+     },
+     "data": {
+      "text": "personal information collected online from their Teen User",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "The Account Holder has the right"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-005#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "link",
+      "verb": "link"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "The following Consumer Privacy Notice applies to you if you are an individual who resides in the United States and use the Services for your own personal, family or household purposes",
+      "when you\nlink your credit or debit card to your Venmo account"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you\nlink your credit or debit card to your Venmo account"
+    ],
+    "section": "apple-005#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "The following Consumer Privacy Notice applies to you if you are an individual who resides in the United States and use the Services for your own personal, family or household purposes",
+      "when you\nuse your Venmo account to send or receive funds"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you\nuse your Venmo account to send or receive funds"
+    ],
+    "section": "apple-005#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "gives you the right to limit",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "nonaffiliates",
+      "name": "unaffiliated party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to market to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "limit"
+     ],
+     "references": [
+      {
+       "text": "Federal law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Social Security number",
+      "name": "Social Security number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Government-issued identification",
+      "name": "government-issued identification"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Bank account and routing numbers",
+      "name": "bank account and routing numbers"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Credit and debit card information",
+      "name": "credit and debit card information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Geolocation",
+      "name": "geolocation"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "with consent",
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-005#s23"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 372,
+   "gap_words": 3657
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 102,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 72167,
+  "completion_tokens": 52648,
+  "thinking_tokens": 0,
+  "seconds": 878.2374305725098,
+  "failures": 0
+ },
+ "seconds": 879.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

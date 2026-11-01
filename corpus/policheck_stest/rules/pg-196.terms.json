@@ -1,0 +1,142 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "children's personal data": "children data",
+    "emails": "email address",
+    "information": "data",
+    "minors' personal data": "children data"
+   },
+   "parents": {
+    "ad performance data": [
+     "advertising data",
+     "personal data"
+    ],
+    "child email address": [
+     "children data",
+     "email address"
+    ],
+    "child name": [
+     "children data",
+     "name"
+    ],
+    "children data": [
+     "personal data"
+    ],
+    "device model": [
+     "device characteristics"
+    ],
+    "ip address": [
+     "technical data"
+    ],
+    "parent email address": [
+     "email address"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "other person"
+   },
+   "parents": {
+    "service provider": [
+     "other person"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child"
+   },
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "child": [
+     "minors",
+     "user"
+    ],
+    "minors": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google",
+     "service provider"
+    ],
+    "AdColony": [
+     "service provider"
+    ],
+    "Appodeal": [
+     "service provider"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "KIDOZ": [
+     "service provider"
+    ],
+    "SuperAwesome": [
+     "service provider"
+    ],
+    "Vungle": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "buyer": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "operations": "internal purposes"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1766,
+  "completion_tokens": 551,
+  "thinking_tokens": 0,
+  "seconds": 12.69739317893982,
+  "failures": 0
+ },
+ "seconds": 12.8
+}

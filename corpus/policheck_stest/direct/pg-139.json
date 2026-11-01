@@ -1,0 +1,22 @@
+{
+ "policy": "pg-139",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Google Analytics uses its own cookies to track website visitor interactions.",
+   "prohibit": "While we do not use cookies on the Clover website we do use Google Analytics.",
+   "situation": "When a visitor accesses the Clover website and cookies are used via Google Analytics.",
+   "reason": "The policy flatly asserts that it does not use cookies on the Clover website while immediately stating that Google Analytics uses cookies on the site.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 5372,
+  "completion_tokens": 131,
+  "thinking_tokens": 0,
+  "seconds": 2.5596935749053955,
+  "failures": 0
+ }
+}

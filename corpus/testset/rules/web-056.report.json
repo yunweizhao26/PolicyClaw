@@ -1,0 +1,173 @@
+{
+ "cleaned_sha256": "web-056",
+ "text_sha256": "546bcea559b566b5ed033b1d9c80a32f2de4d89775e6bc8ca1dd3760a2560108",
+ "site_id": "web-056",
+ "sections": 7,
+ "rules": 118,
+ "report": {
+  "sections": 7,
+  "raw_rules": 105,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "provide options to",
+     "purpose": [
+      {
+       "text": "to keep your Personal Data accurate and up to date",
+       "name": ""
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": "access"
+    },
+    "reason": "operation not in the schema",
+    "section": "web-056#s2"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Cisco"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise your rights of",
+     "purpose": [],
+     "conditions": [
+      "When Cisco is acting as a \"data controller,\"",
+      "you can exercise your rights of access and request corrections, suppression, objection, and deletion under applicable data protection laws directly with Cisco as described in the specific website and Solution documentation or by submitting a request through the\nPrivacy Request form"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable data protection laws",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "specific website and Solution documentation",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "operation": "access"
+    },
+    "reason": "operation not in the schema",
+    "section": "web-056#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "adheres to",
+     "actor": {
+      "text": "Cisco-U.S.",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data received from the U.K. (and Gibraltar) in reliance on the U.K. Extension to the EU-U.S. DPF",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "EU-U.S. DPF Principles",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Personal Data received from the U.K. (and Gibraltar) in reliance on the U.K. Extension to the EU-U.S. DPF"
+    ],
+    "section": "web-056#s5"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 55,
+  "completeness": {
+   "gaps": 230,
+   "gap_words": 2273
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 55,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 31172,
+  "completion_tokens": 20934,
+  "thinking_tokens": 0,
+  "seconds": 160.1869661808014,
+  "failures": 0
+ },
+ "seconds": 160.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

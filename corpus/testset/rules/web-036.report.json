@@ -1,0 +1,124 @@
+{
+ "cleaned_sha256": "web-036",
+ "text_sha256": "ab269eedabe451ce7aec2d2e38681fe555078f1af5eb3203a1c9546fd504534a",
+ "site_id": "web-036",
+ "sections": 24,
+ "rules": 238,
+ "report": {
+  "sections": 24,
+  "raw_rules": 204,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collects",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Amplitude"
+     },
+     "conditions": [
+      "when registering to use and using the Product",
+      "when it collects personal information from: (ii) Customers and their employees or other authorized users of their Amplitude instance"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Customers and their employees or other authorized users of their Amplitude instance"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when it collects personal information from: (ii) Customers and their employees or other authorized users of their Amplitude instance"
+    ],
+    "section": "web-036#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In some cases",
+      "where we have a legal obligation to collect Personal Data from you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "where we have a legal obligation to collect Personal Data from you"
+    ],
+    "section": "web-036#s9"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 336,
+   "gap_words": 3912
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 92,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 41,
+  "cached": 0,
+  "prompt_tokens": 70096,
+  "completion_tokens": 44061,
+  "thinking_tokens": 0,
+  "seconds": 488.5265438556671,
+  "failures": 0
+ },
+ "seconds": 489.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

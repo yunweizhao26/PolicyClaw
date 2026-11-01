@@ -1,0 +1,210 @@
+{
+ "cleaned_sha256": "web-049",
+ "text_sha256": "261d8d801a6835a6dd84d224fb53d7671ef72e53c6fe157c6f7ac3e0e5016a63",
+ "site_id": "web-049",
+ "sections": 16,
+ "rules": 105,
+ "report": {
+  "sections": 16,
+  "raw_rules": 99,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "cookie / identifier",
+      "text": "cookies, including those set by third-party services"
+     },
+     "exceptions": [
+      "activating the appropriate setting on your browser",
+      "set them on the cookie bar at the top of the websites",
+      "adjust your browser settings to refuse cookies"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to distinguish you from other users",
+       "name": "personalization"
+      },
+      {
+       "text": "to deliver a better and more personalized service when you use our Services",
+       "name": "service performance"
+      },
+      {
+       "text": "to improve our Services by enabling us to: estimate our audience size and usage patterns",
+       "name": "service optimization"
+      },
+      {
+       "text": "to improve our Services by enabling us to: store your preferences so we may customize our Services according to your individual interests",
+       "name": "personalization"
+      },
+      {
+       "text": "to improve our Services by enabling us to: speed up your searches",
+       "name": "service performance"
+      },
+      {
+       "text": "to improve our Services by enabling us to: recognize you when you return",
+       "name": "personalization"
+      },
+      {
+       "text": "to improve our Services by enabling us to: secure your data and our Services",
+       "name": "security"
+      },
+      {
+       "text": "to improve our Services by enabling us to: promote the products or services to you that you may be interested in",
+       "name": "advertising or marketing"
+      },
+      {
+       "text": "to improve our Services by enabling us to: measure the performance of cooperating third-party sellers",
+       "name": "analytics or research"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to deliver a better and more personalized service when you use our Services",
+     "to improve our Services by enabling us to: store your preferences so we may customize our Services according to your individual interests",
+     "to improve our Services by enabling us to: speed up your searches",
+     "to improve our Services by enabling us to: recognize you when you return",
+     "to improve our Services by enabling us to: secure your data and our Services",
+     "to improve our Services by enabling us to: promote the products or services to you that you may be interested in",
+     "to improve our Services by enabling us to: measure the performance of cooperating third-party sellers"
+    ],
+    "section": "web-049#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will de-identify",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "de-identify",
+      "verb": "de-identify"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "when it is no longer needed to fulfill these purposes"
+     ],
+     "exceptions": [
+      "a longer retention period is required to comply with applicable laws"
+     ],
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will de-identify"
+    ],
+    "section": "web-049#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "that produces such effects"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-049#s11"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 45,
+  "completeness": {
+   "gaps": 153,
+   "gap_words": 1741
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 45,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 41659,
+  "completion_tokens": 20719,
+  "thinking_tokens": 0,
+  "seconds": 201.7544128894806,
+  "failures": 0
+ },
+ "seconds": 202.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

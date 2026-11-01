@@ -1,0 +1,142 @@
+{
+ "cleaned_sha256": "android-027",
+ "text_sha256": "875653318b9b0d2c7768efde70ca800cf1065348c1e10e3d2683cb0dd93f7888",
+ "site_id": "android-027",
+ "sections": 13,
+ "rules": 100,
+ "report": {
+  "sections": 13,
+  "raw_rules": 97,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "When we believe disclosure is appropriate in connection with efforts to investigate, prevent, or take other action regarding illegal activity, suspected fraud or other wrongdoing; to protect and defend the rights, property or safety of our company, our users, our employees, or others; to comply with applicable law or cooperate with law enforcement; or to enforce the Site terms and conditions or other agreements or policies"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "believe disclosure is appropriate",
+     "purpose": [
+      {
+       "text": "in connection with efforts to investigate, prevent, or take other action regarding illegal activity, suspected fraud or other wrongdoing",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to protect and defend the rights, property or safety of our company, our users, our employees, or others",
+       "name": "security"
+      },
+      {
+       "text": "to comply with applicable law or cooperate with law enforcement",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to enforce the Site terms and conditions or other agreements or policies",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Site terms and conditions or other agreements or policies",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-027#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "information from the account you created",
+      "name": "account information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-027#s9"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 115,
+   "gap_words": 1058
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 38,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 32482,
+  "completion_tokens": 16580,
+  "thinking_tokens": 0,
+  "seconds": 139.98320412635803,
+  "failures": 0
+ },
+ "seconds": 140.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

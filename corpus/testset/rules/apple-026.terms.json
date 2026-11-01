@@ -1,0 +1,208 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "country code": "code",
+    "email-address": "email address",
+    "ip address": "IP address",
+    "ip-address": "IP address",
+    "lending history": "borrowing history",
+    "location": "geographic location",
+    "personal data": "PII",
+    "personally identifiable information": "PII"
+   },
+   "parents": {
+    "Cookie ID": [
+     "identifiers"
+    ],
+    "device ID": [
+     "identifiers"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "Doubleclick cookie data": [
+     "cookies"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "internet activity",
+     "online activity"
+    ],
+    "browsing activity": [
+     "internet activity",
+     "online activity"
+    ],
+    "online activity": [
+     "internet activity"
+    ],
+    "gps": [
+     "geographic location"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "address": [
+     "contact data"
+    ],
+    "student personally identifiable information": [
+     "PII",
+     "student data"
+    ],
+    "user-interactions": [
+     "interaction details"
+    ],
+    "service interactions": [
+     "interaction details"
+    ],
+    "automatic profiles": [
+     "user profiles"
+    ],
+    "cookies": [
+     "cookies and identifiers"
+    ],
+    "identifiers": [
+     "cookies and identifiers"
+    ],
+    "application data": [
+     "data provided by user"
+    ],
+    "submitted data": [
+     "data provided by user"
+    ],
+    "communication content": [
+     "data provided by user"
+    ],
+    "video usage data": [
+     "information on website usage"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third-party": "third party"
+   },
+   "parents": {
+    "Cognito": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "YouTube": [
+     "Google",
+     "third party"
+    ],
+    "a person or agency with the relevant administrative or legislative investigative power": [
+     "public authorities"
+    ],
+    "cloud provider": [
+     "service provider",
+     "third party"
+    ],
+    "employees": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "staff with appropriate authority": [
+     "library"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "OverDrive",
+    "third-party": "third party"
+   },
+   "parents": {
+    "Alchemer": [
+     "third party"
+    ],
+    "Cognito": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "Google",
+     "third party"
+    ],
+    "Google Tag Manager": [
+     "Google",
+     "third party"
+    ],
+    "OnceHub": [
+     "third party"
+    ],
+    "Salesforce": [
+     "third party"
+    ],
+    "Wistia": [
+     "third party"
+    ],
+    "YouTube": [
+     "Google",
+     "third party"
+    ],
+    "cloud provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "customer-support": "customer support",
+    "marketing": "advertising",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "support of internal operations": "internal operations",
+    "surveys": "feedback"
+   },
+   "parents": {
+    "access certain features": [
+     "service provision"
+    ],
+    "place a hold on a digital content title": [
+     "service provision"
+    ],
+    "registration": [
+     "service provision"
+    ],
+    "service access": [
+     "service provision"
+    ],
+    "website functionality": [
+     "service operation"
+    ],
+    "verification": [
+     "authentication"
+    ],
+    "feedback": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3114,
+  "completion_tokens": 1119,
+  "thinking_tokens": 0,
+  "seconds": 11.468862056732178,
+  "failures": 0
+ },
+ "seconds": 11.6
+}

@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "IP address that your device uses": "IP address",
+    "payment transaction details": "financial details",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "registration information": "account registration details",
+    "uploaded content": "Uploaded Content"
+   },
+   "parents": {
+    "IP address": [
+     "Internet or other similar network activity",
+     "device and connection information"
+    ],
+    "credit card details": [
+     "payment details"
+    ],
+    "financial details": [
+     "payment details"
+    ],
+    "payment transaction history": [
+     "payment details"
+    ],
+    "password": [
+     "credentials",
+     "log-in details"
+    ],
+    "email address": [
+     "Personal Information",
+     "contact details"
+    ],
+    "name": [
+     "Personal Information"
+    ],
+    "coarse location": [
+     "activity information"
+    ],
+    "session durations": [
+     "activity information",
+     "additional activity and usage information"
+    ],
+    "data contained in uploaded content": [
+     "Uploaded Content"
+    ],
+    "Uploaded Content": [
+     "content"
+    ],
+    "sensitive personal data": [
+     "Personal Information"
+    ],
+    "shared personal information": [
+     "Personal Information"
+    ],
+    "Personal Information that you provide": [
+     "Personal Information",
+     "user data"
+    ],
+    "account registration details": [
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "access logs": [
+     "Internet or other similar network activity",
+     "activity information"
+    ],
+    "browser or operating system identifiers": [
+     "device and connection information"
+    ],
+    "device and connection information": [
+     "information"
+    ],
+    "activity information": [
+     "information"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "potentially identifiable information": [
+     "information"
+    ],
+    "aggregated non-identifiable information": [
+     "information"
+    ],
+    "personal data categories": [
+     "Personal Information"
+    ],
+    "third party recipient categories": [
+     "recipient categories list"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third party": "third parties"
+   },
+   "parents": {
+    "affiliate": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "public authority": [
+     "law enforcement"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "third party"
+    ],
+    "hosting provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "cross_context_behavioral_advertising": "advertising",
+    "customer_support": "customer support",
+    "fraud prevention and security": "fraud prevention",
+    "legal compliance": "compliance",
+    "service_provision": "service provision",
+    "verification": "to ensure that you are who you claim to be"
+   },
+   "parents": {
+    "account administration": [
+     "account management"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "business_development": [
+     "marketing"
+    ],
+    "develop AI / ML models": [
+     "service improvement"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "sign up": [
+     "account management",
+     "service provision"
+    ],
+    "to ensure that you are who you claim to be": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2819,
+  "completion_tokens": 1000,
+  "thinking_tokens": 0,
+  "seconds": 10.896336555480957,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

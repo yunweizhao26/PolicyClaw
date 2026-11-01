@@ -1,0 +1,93 @@
+{
+ "cleaned_sha256": "pg-011",
+ "text_sha256": "b5acc107e96a5bb844fb9e0195c219975411de070272ddb1a1bfb775357ff451",
+ "site_id": "pg-011",
+ "sections": 13,
+ "rules": 94,
+ "report": {
+  "sections": 13,
+  "raw_rules": 85,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "analyse",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the behaviour of users",
+      "name": "user behavior"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "analyse",
+      "verb": "analyse"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "in order to improve the application",
+       "name": "analytics"
+      },
+      {
+       "text": "so we can better learn which parts of the application are more important and which need to be improved",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "sometimes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "so we can better learn which parts of the application are more important and which need to be improved"
+    ],
+    "section": "pg-011#s8"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 42,
+  "completeness": {
+   "gaps": 99,
+   "gap_words": 1288
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 42,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 36689,
+  "completion_tokens": 17079,
+  "thinking_tokens": 0,
+  "seconds": 142.3707513809204,
+  "failures": 0
+ },
+ "seconds": 143.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

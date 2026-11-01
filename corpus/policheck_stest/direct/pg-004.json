@@ -1,0 +1,22 @@
+{
+ "policy": "pg-004",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Analytics companies may access anonymous data (such as your IP address or device ID) to help us understand how our services are used.",
+   "prohibit": "We don’t collect any personal information for analytics.",
+   "situation": "Collecting device identifiers for analytics purposes.",
+   "reason": "The policy defines personal information as including plaintext device identifiers, but claims it does not collect personal information for analytics while permitting analytics companies to access device IDs.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1456,
+  "completion_tokens": 135,
+  "thinking_tokens": 0,
+  "seconds": 5.599552869796753,
+  "failures": 0
+ }
+}

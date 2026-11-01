@@ -1,0 +1,489 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "children's personal data": "child personal data",
+    "country or region": "country",
+    "device details": "device data",
+    "device identifier": "device ID",
+    "device identifiers": "device ID",
+    "device information": "device data",
+    "hardware identifier": "device ID",
+    "information": "data",
+    "installed applications": "installed application information",
+    "ip address": "IP address",
+    "minors personal data": "child personal data",
+    "network information": "network data",
+    "non-personally identifiable information": "non-personal data",
+    "payment details": "financial details",
+    "payment information": "financial details",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "pseudonymous ID": "anonymous user ID",
+    "pseudonymous identifiers": "anonymous user ID",
+    "sensitive personal information": "sensitive personal data",
+    "social media token": "social media authentication token",
+    "usage data": "browsing behavior",
+    "usage information": "browsing behavior",
+    "user ID": "account identifier",
+    "user profile": "profile data",
+    "username": "user name"
+   },
+   "parents": {
+    "IDFA": [
+     "device ID"
+    ],
+    "IMEI": [
+     "device ID"
+    ],
+    "IP address": [
+     "network data",
+     "online identifier"
+    ],
+    "PAN": [
+     "financial details"
+    ],
+    "account credentials": [
+     "account data"
+    ],
+    "account identifier": [
+     "account data"
+    ],
+    "account data": [
+     "user data"
+    ],
+    "achievements": [
+     "user data"
+    ],
+    "age": [
+     "Personal Data"
+    ],
+    "anonymous user ID": [
+     "online identifier"
+    ],
+    "application access logs": [
+     "system logs"
+    ],
+    "auth token": [
+     "account credentials"
+    ],
+    "avatar": [
+     "profile data",
+     "profile picture"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "browsing frequency": [
+     "browsing behavior"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "calendar": [
+     "Personal Data"
+    ],
+    "child personal data": [
+     "Personal Data"
+    ],
+    "clipboard content": [
+     "user data"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "commodity information": [
+     "user data"
+    ],
+    "contact information": [
+     "Personal Data"
+    ],
+    "cookies and similar technologies": [
+     "tracking technologies"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "currency": [
+     "financial details"
+    ],
+    "date and time": [
+     "financial details"
+    ],
+    "date of birth": [
+     "Personal Data"
+    ],
+    "device ID": [
+     "device data"
+    ],
+    "device model": [
+     "device data"
+    ],
+    "documents": [
+     "content"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "emojis": [
+     "content"
+    ],
+    "feedback": [
+     "user data"
+    ],
+    "gender": [
+     "Personal Data"
+    ],
+    "government ID": [
+     "sensitive personal data"
+    ],
+    "guardian email address": [
+     "email address"
+    ],
+    "identifying information": [
+     "Personal Data"
+    ],
+    "images": [
+     "content"
+    ],
+    "language": [
+     "preference data"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "login status": [
+     "account data"
+    ],
+    "marketing message": [
+     "correspondence"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "nickname": [
+     "name",
+     "profile data"
+    ],
+    "online activities": [
+     "browsing behavior"
+    ],
+    "online identifier": [
+     "Personal Data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "order ID": [
+     "financial details"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "payment amount": [
+     "financial details"
+    ],
+    "payment method": [
+     "financial details"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "profile picture": [
+     "profile data"
+    ],
+    "proofs": [
+     "identity-related supporting information"
+    ],
+    "registration information": [
+     "account data"
+    ],
+    "report description": [
+     "feedback"
+    ],
+    "report type": [
+     "feedback"
+    ],
+    "screen resolution": [
+     "device data"
+    ],
+    "screenshot": [
+     "images"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "social media account data": [
+     "account data"
+    ],
+    "social media authentication token": [
+     "auth token"
+    ],
+    "stickers": [
+     "content"
+    ],
+    "survey responses": [
+     "user data"
+    ],
+    "system logs": [
+     "browsing behavior"
+    ],
+    "third party user identifier": [
+     "online identifier"
+    ],
+    "token": [
+     "account credentials"
+    ],
+    "user activity": [
+     "browsing behavior"
+    ],
+    "user questions": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "video content": [
+     "content"
+    ],
+    "visit time": [
+     "browsing behavior"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Meta Platforms, Inc.": "Facebook",
+    "affiliated entities": "affiliate",
+    "affiliates": "affiliate",
+    "business partners": "business partner",
+    "measurement company": "ad measurement company",
+    "measurement provider": "ad measurement company",
+    "payment service provider": "payment processor",
+    "third-party ad network": "ad network"
+   },
+   "parents": {
+    "Aceville Pte Ltd.": [
+     "affiliate"
+    ],
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "Apple": [
+     "service provider"
+    ],
+    "Apple Pay": [
+     "payment processor"
+    ],
+    "AppsFlyer": [
+     "ad measurement company",
+     "analytics provider"
+    ],
+    "DEEPCLEER TECHNOLOGY PTE. LTD.": [
+     "affiliate"
+    ],
+    "Facebook": [
+     "social network"
+    ],
+    "Firebase": [
+     "analytics provider"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "Google Pay": [
+     "payment processor"
+    ],
+    "ad measurement company": [
+     "service provider"
+    ],
+    "ad network": [
+     "service provider",
+     "third party"
+    ],
+    "affiliate": [
+     "corporate group"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "court": [
+     "government agency"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "platform affiliates and partners": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "affiliates": "affiliated entities",
+    "third-party ad network": "ad network"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "AppsFlyer": [
+     "third party"
+    ],
+    "ad network": [
+     "third party"
+    ],
+    "third-party ad server": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance with laws": "compliance",
+    "for verification purposes": "authentication",
+    "fraud prevention and detection": "fraud prevention",
+    "identity verification": "authentication",
+    "legal compliance": "compliance",
+    "service provision": "provide the service",
+    "service-improvement": "service improvement",
+    "service-provision": "provide the service",
+    "targeted advertising": "ad targeting"
+   },
+   "parents": {
+    "account security and authentication": [
+     "authentication",
+     "security"
+    ],
+    "ad performance": [
+     "advertising",
+     "analytics"
+    ],
+    "ad personalization": [
+     "advertising",
+     "personalization"
+    ],
+    "ad targeting": [
+     "advertising"
+    ],
+    "ad targeting and personalized experience": [
+     "advertising",
+     "personalization"
+    ],
+    "to ensure that ads are more accurately delivered to the target user": [
+     "ad targeting",
+     "advertising"
+    ],
+    "analytics": [
+     "analytics-or-research"
+    ],
+    "to conduct user survey": [
+     "analytics"
+    ],
+    "to better understand the characteristics of its users": [
+     "analytics"
+    ],
+    "authentication and authorization": [
+     "authentication"
+    ],
+    "user-account-management": [
+     "authentication"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "protecting privacy": [
+     "compliance",
+     "security"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "payment processing": [
+     "provide the service",
+     "service functionality"
+    ],
+    "communication": [
+     "service functionality"
+    ],
+    "social networking": [
+     "service functionality"
+    ],
+    "storage": [
+     "service functionality"
+    ],
+    "registration": [
+     "service functionality"
+    ],
+    "third-party registration": [
+     "registration"
+    ],
+    "user-generated content storage or sharing": [
+     "service functionality"
+    ],
+    "fulfill the customized user experience": [
+     "personalization"
+    ],
+    "to provide a more personalized experience": [
+     "personalization"
+    ],
+    "so to record and further explore the content you have viewed": [
+     "personalization"
+    ],
+    "to send you information about products and services that may be of interest to you": [
+     "marketing"
+    ],
+    "to enable marketing and promotions": [
+     "marketing"
+    ],
+    "user identification": [
+     "verification"
+    ],
+    "authentication": [
+     "verification"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5005,
+  "completion_tokens": 2393,
+  "thinking_tokens": 0,
+  "seconds": 18.601797580718994,
+  "failures": 0
+ },
+ "seconds": 18.7
+}

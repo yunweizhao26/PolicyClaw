@@ -1,0 +1,145 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "email_address": "email address",
+    "phone_number": "phone number",
+    "social network connection data": "friends_list",
+    "user_information": "user information"
+   },
+   "parents": {
+    "informational emails": [
+     "email message"
+    ],
+    "imei": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device_information"
+    ],
+    "browsing history": [
+     "browsing_activity"
+    ],
+    "browsing_activity": [
+     "service_usage_details"
+    ],
+    "user activity": [
+     "service_usage_details"
+    ],
+    "date_of_birth": [
+     "personal data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "address": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "IP address": [
+     "device_information"
+    ],
+    "personal data": [
+     "user information"
+    ],
+    "user-provided data": [
+     "user information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "user information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "social network": [
+     "third party",
+     "third-party service or social media"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-improvement": "service improvement",
+    "service_provision": "service provision",
+    "support": "customer-support"
+   },
+   "parents": {
+    "access management": [
+     "security"
+    ],
+    "account maintenance": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer-support": [
+     "communication"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "user identification": [
+     "service-operation"
+    ],
+    "user preferences": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2299,
+  "completion_tokens": 599,
+  "thinking_tokens": 0,
+  "seconds": 13.01472783088684,
+  "failures": 0
+ },
+ "seconds": 13.1
+}

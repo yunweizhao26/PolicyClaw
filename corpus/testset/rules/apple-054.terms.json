@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "personal information": "personal data",
+    "user account information": "account data",
+    "user content": "content"
+   },
+   "parents": {
+    "billing address": [
+     "contact info",
+     "payment details"
+    ],
+    "browser language": [
+     "device technical information",
+     "system information"
+    ],
+    "browser type": [
+     "device technical information",
+     "system information"
+    ],
+    "browsing history": [
+     "interaction details",
+     "service usage info"
+    ],
+    "chat content": [
+     "content",
+     "message content"
+    ],
+    "contact list": [
+     "contact info"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "date and time stamp": [
+     "interaction details",
+     "service usage info"
+    ],
+    "email address": [
+     "contact data",
+     "contact info"
+    ],
+    "email marketing data": [
+     "contact data"
+    ],
+    "email message": [
+     "contact data"
+    ],
+    "hardware device id": [
+     "device technical information",
+     "system information"
+    ],
+    "ip address": [
+     "device technical information",
+     "system information"
+    ],
+    "message content": [
+     "content"
+    ],
+    "name": [
+     "contact info",
+     "personal data"
+    ],
+    "operating system": [
+     "device technical information",
+     "system information"
+    ],
+    "page views": [
+     "interaction details",
+     "service usage info"
+    ],
+    "payment amount": [
+     "payment details"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photograph": [
+     "content"
+    ],
+    "private message": [
+     "content",
+     "message content"
+    ],
+    "profile picture": [
+     "photograph",
+     "user profile"
+    ],
+    "sms": [
+     "contact data"
+    ],
+    "telecoms carrier": [
+     "device technical information",
+     "system information"
+    ],
+    "text message": [
+     "content",
+     "message content"
+    ],
+    "user account profile": [
+     "account data",
+     "user profile"
+    ],
+    "user id": [
+     "account data",
+     "user identification data"
+    ],
+    "video": [
+     "content"
+    ],
+    "video content": [
+     "content",
+     "video"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "service provider"
+    ],
+    "registered user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service-related notifications": [
+     "communications"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service personalising": [
+     "service provision"
+    ],
+    "user identification": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2151,
+  "completion_tokens": 909,
+  "thinking_tokens": 0,
+  "seconds": 14.405527114868164,
+  "failures": 0
+ },
+ "seconds": 14.5
+}

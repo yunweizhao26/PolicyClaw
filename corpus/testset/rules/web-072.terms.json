@@ -1,0 +1,90 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal data": "Personal Data",
+    "personally identifiable information": "Personal Data"
+   },
+   "parents": {
+    "payment card information": [
+     "payment information"
+    ],
+    "mailing list contents": [
+     "mailing list"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "technical data": [
+     "data"
+    ],
+    "browser version": [
+     "technical data"
+    ],
+    "operating system": [
+     "technical data"
+    ],
+    "IP address": [
+     "technical data"
+    ],
+    "country": [
+     "demographic information"
+    ],
+    "images": [
+     "audio or video recording"
+    ],
+    "other information": [
+     "data"
+    ],
+    "non-public information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Cloudflare": [
+     "third-party processor"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "session management": [
+     "services"
+    ],
+    "service communication": [
+     "services"
+    ],
+    "user identification": [
+     "session management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1246,
+  "completion_tokens": 340,
+  "thinking_tokens": 0,
+  "seconds": 10.900059700012207,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

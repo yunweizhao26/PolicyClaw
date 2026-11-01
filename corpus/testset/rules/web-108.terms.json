@@ -1,0 +1,335 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "billing info": "billing details",
+    "contact details": "contact data",
+    "contact info": "contact data",
+    "contact information": "contact data",
+    "cookies and similar technology": "cookies",
+    "device and browser information": "device and browser data",
+    "device info": "device data",
+    "email address": "email",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "profile information": "profile data",
+    "sentiment": "response data sentiment",
+    "usage information": "usage data",
+    "user message text": "user content",
+    "user profile": "profile data"
+   },
+   "parents": {
+    "account data": [
+     "account and form data",
+     "customer data"
+    ],
+    "form data": [
+     "account and form data",
+     "customer data"
+    ],
+    "email address domain": [
+     "email"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "profile photo": [
+     "photo",
+     "profile data"
+    ],
+    "survey questions": [
+     "survey data",
+     "survey questions and responses"
+    ],
+    "survey responses": [
+     "survey data",
+     "survey questions and responses"
+    ],
+    "survey questions and responses": [
+     "survey data"
+    ],
+    "job title": [
+     "job details"
+    ],
+    "email": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "billing details",
+     "contact data"
+    ],
+    "name": [
+     "contact data"
+    ],
+    "password": [
+     "log-in credentials"
+    ],
+    "username": [
+     "log-in credentials"
+    ],
+    "browser type": [
+     "device and browser data"
+    ],
+    "os version": [
+     "device and browser data"
+    ],
+    "unique device identifier": [
+     "device data"
+    ],
+    "hardware model": [
+     "device data"
+    ],
+    "IP address": [
+     "device data"
+    ],
+    "webpages visited": [
+     "browsing history"
+    ],
+    "clickstream": [
+     "website activity"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing usage data": [
+     "usage data"
+    ],
+    "website activity": [
+     "usage data"
+    ],
+    "activity data": [
+     "usage data"
+    ],
+    "ad click data": [
+     "usage data"
+    ],
+    "response count": [
+     "usage data"
+    ],
+    "user content type data": [
+     "usage data"
+    ],
+    "survey analysis": [
+     "survey data"
+    ],
+    "survey question type": [
+     "survey data"
+    ],
+    "survey type": [
+     "survey data"
+    ],
+    "response data": [
+     "survey data"
+    ],
+    "response data sentiment": [
+     "response data"
+    ],
+    "audio video recording": [
+     "customer support information"
+    ],
+    "message content": [
+     "customer support information"
+    ],
+    "financial info": [
+     "billing details"
+    ],
+    "purchases": [
+     "purchase history"
+    ],
+    "purchase history": [
+     "transactional data"
+    ],
+    "data overages": [
+     "usage data"
+    ],
+    "page tags": [
+     "cookies"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "profile data": [
+     "personal data"
+    ],
+    "registration information": [
+     "personal data"
+    ],
+    "government-issued identification": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "device data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties outside SurveyMonkey"
+   },
+   "parents": {
+    "AI vendor": [
+     "service provider"
+    ],
+    "API partners": [
+     "partners"
+    ],
+    "Salesforce.com, Inc.": [
+     "service provider"
+    ],
+    "SparkPost": [
+     "service provider"
+    ],
+    "Twilio": [
+     "service provider"
+    ],
+    "marketing vendors": [
+     "service provider"
+    ],
+    "primary administrator": [
+     "team member"
+    ],
+    "service provider": [
+     "third parties outside SurveyMonkey"
+    ],
+    "partners": [
+     "third parties outside SurveyMonkey"
+    ],
+    "affiliate": [
+     "third parties outside SurveyMonkey"
+    ],
+    "public authority": [
+     "third parties outside SurveyMonkey"
+    ],
+    "third parties outside SurveyMonkey": [
+     "anyone"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "user": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "first party": [
+     "first party or third party"
+    ],
+    "integration partners": [
+     "third parties"
+    ],
+    "our Customer Support emails, chats, or phone calls": [
+     "first party"
+    ],
+    "respondents": [
+     "user"
+    ],
+    "survey creator": [
+     "user"
+    ],
+    "third parties": [
+     "first party or third party"
+    ],
+    "third party sources": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "SurveyMonkey"
+   },
+   "parents": {
+    "organization primary administrator": [
+     "administrator"
+    ],
+    "primary administrator": [
+     "administrator"
+    ],
+    "team member": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "administrator": [
+     "user"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "Salesforce.com, Inc.": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "maintenance": "debugging",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "enforce agreements": [
+     "enforcing terms and policies"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "machine learning training": [
+     "research and development"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "recommendations": [
+     "service development"
+    ],
+    "service personalization": [
+     "personalization"
+    ],
+    "user experience improvement": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3735,
+  "completion_tokens": 1653,
+  "thinking_tokens": 0,
+  "seconds": 14.32054615020752,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

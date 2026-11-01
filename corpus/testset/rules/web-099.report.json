@@ -1,0 +1,233 @@
+{
+ "cleaned_sha256": "web-099",
+ "text_sha256": "81cf58214eea2791d8713230744a65296444ef9fa62446058aedeeffb50cbab0",
+ "site_id": "web-099",
+ "sections": 13,
+ "rules": 264,
+ "report": {
+  "sections": 13,
+  "raw_rules": 239,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "if",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "any company outside the Verisign group of companies",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "with your express opt-in consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your express opt-in consent"
+    ],
+    "section": "web-099#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "For users located in China",
+      "we will obtain your consent before sharing your information with such personal information handlers"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [],
+     "recipient": {
+      "name": "personal information handlers",
+      "text": "other personal information handlers, such as our business partners, research entities, etc."
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "we will obtain your consent before sharing your information with such personal information handlers"
+    ],
+    "section": "web-099#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "respond to requests for information",
+      "verb": "respond"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will respond to requests",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-099#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not engage in",
+     "actor": {
+      "text": "Verisign",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in targeted advertising",
+      "verb": "engage"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "This section only applies to California, Nebraska, and Texas residents",
+      "directed toward residents of these states"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-099#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not engage in",
+     "actor": {
+      "text": "Verisign",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in ... profiling",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "This section only applies to California, Nebraska, and Texas residents",
+      "directed toward residents of these states"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-099#s10"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 360,
+   "gap_words": 3700
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 82,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 57039,
+  "completion_tokens": 47827,
+  "thinking_tokens": 0,
+  "seconds": 469.6675992012024,
+  "failures": 0
+ },
+ "seconds": 470.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

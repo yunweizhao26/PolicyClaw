@@ -1,0 +1,128 @@
+{
+ "cleaned_sha256": "web-011",
+ "text_sha256": "1900e5b953cda4475a26634173cf4d33e3ec8ee6d0c30afa3f7d9e66ed381692",
+ "site_id": "web-011",
+ "sections": 6,
+ "rules": 127,
+ "report": {
+  "sections": 6,
+  "raw_rules": 93,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is necessary",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to perform a contract with the data subject",
+       "name": "perform a contract with the data subject"
+      },
+      {
+       "text": "to take steps toward the conclusion of a business relationship",
+       "name": "take steps toward the conclusion of a business relationship"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-011#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "a third-party identity verification provider, such as Yoti",
+      "name": "third-party identity verification provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to verify the identity of an account holder during account recovery or fraud investigations",
+       "name": "identity verification"
+      }
+     ],
+     "conditions": [
+      "Where necessary"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-011#s4"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 25,
+  "completeness": {
+   "gaps": 62,
+   "gap_words": 641
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 25,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 16569,
+  "completion_tokens": 15209,
+  "thinking_tokens": 0,
+  "seconds": 123.02419781684875,
+  "failures": 0
+ },
+ "seconds": 123.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

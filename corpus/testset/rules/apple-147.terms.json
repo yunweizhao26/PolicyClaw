@@ -1,0 +1,274 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifier",
+    "cookies": "cookie",
+    "in-app purchase information": "in-app purchase history",
+    "inferences": "derived data",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "purchasing or consuming history or tendency": "purchase history",
+    "username": "user name"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers",
+     "internet or network information"
+    ],
+    "achievements": [
+     "gameplay data"
+    ],
+    "ad identifier": [
+     "identifiers",
+     "mobile device identifier"
+    ],
+    "approximate location": [
+     "demographic data",
+     "geolocation data",
+     "location"
+    ],
+    "browsing history": [
+     "interaction data",
+     "internet or network information"
+    ],
+    "coarse location": [
+     "geolocation data",
+     "location"
+    ],
+    "cookie": [
+     "identifiers"
+    ],
+    "cookie data": [
+     "usage data"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "game account details": [
+     "user data"
+    ],
+    "game progress": [
+     "gameplay data"
+    ],
+    "gameplay data": [
+     "usage data"
+    ],
+    "geolocation data": [
+     "personal data"
+    ],
+    "identifier": [
+     "identifiers"
+    ],
+    "in-app purchase history": [
+     "commercial information",
+     "platform data"
+    ],
+    "in-game messages": [
+     "user data"
+    ],
+    "derived data": [
+     "personal data"
+    ],
+    "information about the user": [
+     "information that we collect"
+    ],
+    "interaction data": [
+     "internet or network information",
+     "usage data"
+    ],
+    "interactions with other players": [
+     "gameplay data"
+    ],
+    "location": [
+     "geolocation data"
+    ],
+    "mobile device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "personal data": [
+     "information that we collect"
+    ],
+    "player name": [
+     "name"
+    ],
+    "profile": [
+     "user data"
+    ],
+    "profile information": [
+     "profile"
+    ],
+    "public personal information": [
+     "personal data"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "user name": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "ad exchange": [
+     "advertising partner"
+    ],
+    "ad technology company": [
+     "advertising partner"
+    ],
+    "advertiser": [
+     "advertising partner"
+    ],
+    "parent company": [
+     "affiliates"
+    ],
+    "subsidiaries": [
+     "affiliates"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ],
+    "third-party payment processors": [
+     "service provider"
+    ],
+    "other users": [
+     "public"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "professional advisor": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "public authorities": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "to conduct analytics": "analytics",
+    "to show personalized advertisements": "Show personalized advertisements"
+   },
+   "parents": {
+    "Enable communication within the player community": [
+     "Enable social features in our Services"
+    ],
+    "Analyze and monitor the social features": [
+     "analytics"
+    ],
+    "Make advertisements more relevant to you": [
+     "advertising"
+    ],
+    "Serve, measure and improve the effectiveness of advertising": [
+     "advertising"
+    ],
+    "Show personalized advertisements": [
+     "advertising"
+    ],
+    "Take action against any fraudulent activity": [
+     "fraud prevention"
+    ],
+    "To maintain these standards and fight fraud": [
+     "fraud prevention"
+    ],
+    "fraud prevention": [
+     "legal compliance"
+    ],
+    "Maintain proof of our compliance with applicable laws (e.g., the GDPR)": [
+     "legal compliance"
+    ],
+    "Sufficiently defend ourselves against any legal claims": [
+     "legal compliance"
+    ],
+    "Verify your identity, if needed, to comply with your data subject requests": [
+     "legal compliance"
+    ],
+    "internal auditing": [
+     "business operations",
+     "legal and compliance"
+    ],
+    "legal compliance": [
+     "legal and compliance"
+    ],
+    "enhance services": [
+     "services"
+    ],
+    "Offering Additional Services": [
+     "Offer our Services"
+    ],
+    "Provide offers within our Services": [
+     "Offer our Services"
+    ],
+    "To create accounts and make our Service available to you": [
+     "Offer our Services"
+    ],
+    "Provide player support": [
+     "services"
+    ],
+    "service improvement": [
+     "services"
+    ],
+    "to help us operate, enhance and improve our Services": [
+     "services"
+    ],
+    "to accumulate and report aggregate statistical information in connection with the Apps, Services and user activity": [
+     "analytics"
+    ],
+    "to measure how our Apps, Services, and ad campaigns are performing": [
+     "analytics"
+    ],
+    "Conduct Analytics and Other Internal Purposes": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2931,
+  "completion_tokens": 1233,
+  "thinking_tokens": 0,
+  "seconds": 13.302304744720459,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

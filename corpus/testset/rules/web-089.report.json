@@ -1,0 +1,256 @@
+{
+ "cleaned_sha256": "web-089",
+ "text_sha256": "acb6fdc747bc6512a4e1e12f1eff63dee58a5309535f7179c0334fd65b746fba",
+ "site_id": "web-089",
+ "sections": 19,
+ "rules": 206,
+ "report": {
+  "sections": 19,
+  "raw_rules": 178,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "set",
+      "verb": "set"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "that web server"
+     },
+     "conditions": [
+      "When your browser opens a webpage or email that contains a web beacon, it automatically connects to the web server that hosts the image (typically operated by a third party)"
+     ],
+     "data": {
+      "name": "browsing history",
+      "text": "its own cookies"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "allows that web server to set",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "allows that web server to set"
+    ],
+    "section": "web-089#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "read",
+      "verb": "read"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "that web server"
+     },
+     "conditions": [
+      "When your browser opens a webpage or email that contains a web beacon, it automatically connects to the web server that hosts the image (typically operated by a third party)"
+     ],
+     "data": {
+      "name": "browsing history",
+      "text": "its own cookies"
+     },
+     "exceptions": [],
+     "operation": "retrieval",
+     "polarity": "ALLOW",
+     "polarity_text": "allows that web server to set and read",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "allows that web server to set and read"
+    ],
+    "section": "web-089#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "as defined by these laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Some privacy laws provide a right to opt-out from profiling and/or automated decision-making that produce a legal or similarly significant effect",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-089#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "The California Consumer Privacy Act (“CCPA”) grants residents of California certain rights with respect to their personal information, as described in this Section.",
+      "under certain circumstances",
+      "that we delete personal information",
+      "subject to a number of exceptions"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "request that we delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "California Consumer Privacy Act (“CCPA”)",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "request that we delete"
+    ],
+    "section": "web-089#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "of material changes",
+       "name": "service-operation-and-security"
+      }
+     ],
+     "conditions": [
+      "if required by the applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-089#s18"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 109,
+  "completeness": {
+   "gaps": 213,
+   "gap_words": 2420
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 109,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 59688,
+  "completion_tokens": 41914,
+  "thinking_tokens": 216,
+  "seconds": 410.84380054473877,
+  "failures": 0
+ },
+ "seconds": 412.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

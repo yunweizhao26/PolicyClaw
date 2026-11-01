@@ -1,0 +1,95 @@
+{
+ "pairs": 17918,
+ "outcomes": {
+  "overlap_candidate": 9296,
+  "unresolved": 7579,
+  "mutually_exclusive": 1043
+ },
+ "with_residual": 8795,
+ "binate_pairs": 9,
+ "definite_with_residual": {
+  "overlap_candidate": 754,
+  "mutually_exclusive": 462
+ },
+ "definite_policies": 252,
+ "definite_derived_exclusions": 289,
+ "definite_without_derived": 927,
+ "definite_without_derived_policies": 224,
+ "derived_minus": {
+  "mutually_exclusive": 666,
+  "unresolved": 38,
+  "overlap_candidate": 36
+ },
+ "derived_both": {
+  "mutually_exclusive": 8,
+  "overlap_candidate": 1
+ },
+ "kleene_changes": {
+  "mutually_exclusive -> unresolved": 196
+ },
+ "kleene_derived": 185,
+ "kleene_identity": 10,
+ "kleene_plain": {
+  "missed": 11,
+  "impossible": 377
+ },
+ "identity_exclusions": 10,
+ "several_values_changes": {
+  "mutually_exclusive -> unresolved": 14,
+  "mutually_exclusive -> overlap_candidate": 46,
+  "unresolved -> overlap_candidate": 2
+ },
+ "spelling_changes": {
+  "mutually_exclusive -> overlap_candidate": 2
+ },
+ "derived_plus_only": 188,
+ "oracle": {
+  "overlap_candidate / overlap_candidate": 9296,
+  "unresolved / not_certain": 7579,
+  "mutually_exclusive / not_certain": 1043
+ },
+ "open_true": {
+  "overlap_candidate": 5391,
+  "mutually_exclusive": 2188
+ },
+ "open_false": {
+  "mutually_exclusive": 6429,
+  "overlap_candidate": 1150
+ },
+ "open_readings_disagree": 6541,
+ "open_constant_certain": {
+  "False": 7579
+ },
+ "open_unconditional": 2654,
+ "guards_per_policy": {
+  "median": 50.0,
+  "at_least": {
+   "8": 579,
+   "16": 547,
+   "32": 445,
+   "64": 190,
+   "128": 30
+  }
+ },
+ "trivial_guards": 199,
+ "kept_guards": 34905,
+ "atoms": {
+  "median": 2,
+  "p95": 5,
+  "max": 31
+ },
+ "by_operation": {
+  "groups": 6987,
+  "median": 3,
+  "p95": 20,
+  "max": 243,
+  "at_least_128": 5
+ },
+ "by_operation_and_data": {
+  "groups": 60189,
+  "median": 1,
+  "p95": 2,
+  "max": 19,
+  "at_least_128": 0
+ }
+}

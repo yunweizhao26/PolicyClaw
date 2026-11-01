@@ -1,0 +1,330 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "device parameters": "device information",
+    "hardware-related data": "device information",
+    "ip address": "IP address",
+    "location information": "location",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personally identifiable information": "Personal Information",
+    "sensitive personal data": "sensitive data",
+    "transaction information": "transaction details",
+    "usage data": "browsing and usage",
+    "usage information": "browsing and usage",
+    "verification information": "verification data"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers",
+     "online identifiers"
+    ],
+    "account name": [
+     "account details",
+     "identifiers"
+    ],
+    "account registration date": [
+     "account details"
+    ],
+    "addresses": [
+     "contact details"
+    ],
+    "administrative message": [
+     "communications"
+    ],
+    "aliases": [
+     "identifiers"
+    ],
+    "anonymized data": [
+     "information"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browser information": [
+     "technical information"
+    ],
+    "browsing activity": [
+     "browsing and usage"
+    ],
+    "browsing and search history": [
+     "browsing and usage"
+    ],
+    "browsing history": [
+     "browsing and search history"
+    ],
+    "child personal data": [
+     "Personal Information"
+    ],
+    "client and log data": [
+     "technical information"
+    ],
+    "commercial information": [
+     "Personal Information"
+    ],
+    "communication content": [
+     "communications"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "contact form content": [
+     "communication content"
+    ],
+    "cookie ID": [
+     "online identifiers"
+    ],
+    "customer records": [
+     "Personal Information"
+    ],
+    "derived data": [
+     "Personal Information"
+    ],
+    "device identifier": [
+     "identifiers",
+     "online identifiers"
+    ],
+    "device information": [
+     "technical information"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "financial transaction details": [
+     "transaction details"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "government identifier": [
+     "identifiers"
+    ],
+    "hardware configuration": [
+     "device information"
+    ],
+    "identifiers": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "derived data"
+    ],
+    "interaction data": [
+     "browsing and usage"
+    ],
+    "interaction history": [
+     "browsing and usage"
+    ],
+    "interests and preferences": [
+     "preferences"
+    ],
+    "login details": [
+     "account details"
+    ],
+    "login time": [
+     "account details"
+    ],
+    "message contents": [
+     "communication content"
+    ],
+    "online identifiers": [
+     "identifiers"
+    ],
+    "password change date": [
+     "account details"
+    ],
+    "personal details": [
+     "Personal Information"
+    ],
+    "personal identifier": [
+     "identifiers"
+    ],
+    "personal preferences": [
+     "preferences"
+    ],
+    "precise location": [
+     "geolocation",
+     "location"
+    ],
+    "professional details": [
+     "Personal Information"
+    ],
+    "profile information": [
+     "account details"
+    ],
+    "profiles": [
+     "inferences"
+    ],
+    "real names": [
+     "identifiers"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "service usage": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "transaction history": [
+     "transaction details"
+    ],
+    "transaction time": [
+     "transaction details"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "unique personal identifier": [
+     "unique identifiers"
+    ],
+    "user actions": [
+     "browsing and usage"
+    ],
+    "user feedback": [
+     "communication content"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "user inputs": [
+     "user information"
+    ],
+    "user outputs": [
+     "user information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "ad network",
+    "data analytics provider": "analytics provider",
+    "social media service": "social media platform",
+    "third party": "third parties",
+    "vendors": "vendor"
+   },
+   "parents": {
+    "ad network": [
+     "advertising technology partner"
+    ],
+    "advertising technology partner": [
+     "business partners"
+    ],
+    "parent company": [
+     "affiliates"
+    ],
+    "subsidiaries": [
+     "affiliates"
+    ],
+    "agents": [
+     "service providers"
+    ],
+    "consultants": [
+     "service providers"
+    ],
+    "vendor": [
+     "service providers"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "affiliates": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "third parties"
+    ],
+    "social media platform": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising networks": [
+     "third parties"
+    ],
+    "data analytics providers": [
+     "third parties"
+    ],
+    "data brokers": [
+     "third parties"
+    ],
+    "government entities": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "social networks": [
+     "third parties"
+    ],
+    "vendor": [
+     "service providers",
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud prevention and security",
+    "legal_compliance": "legal",
+    "services": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "model training": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "legal compliance": [
+     "legal"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3429,
+  "completion_tokens": 1406,
+  "thinking_tokens": 0,
+  "seconds": 14.150903463363647,
+  "failures": 0
+ },
+ "seconds": 14.2
+}

@@ -1,0 +1,217 @@
+{
+ "cleaned_sha256": "apple-151",
+ "text_sha256": "2ae2b544aacf50822ba6ed3e5cc6ab86c634aebf0e1a7414ef0ce6027aa239c3",
+ "site_id": "apple-151",
+ "sections": 23,
+ "rules": 336,
+ "report": {
+  "sections": 23,
+  "raw_rules": 304,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "we sometimes",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third-party partners that help us market our products and services to you across platforms",
+      "name": "commercial partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure in general",
+     "purpose": [
+      {
+       "text": "help us market our products and services to you across platforms",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "right to opt out of “sales” of your information and “processing of your information for targeted advertising purposes.”"
+     ],
+     "references": [
+      {
+       "text": "Section 3 (“Disclosure of Your Personal Information”)",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-151#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request that we",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "specific pieces of information we hold about you",
+      "name": "specific information held"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Provide access to",
+      "verb": "provide"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Consumers have other rights with respect to their Personal Information under the CCPA. This includes the right to request that we"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-151#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request that we",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "specific pieces of information we hold about you",
+      "name": "specific information held"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Provide",
+      "verb": "provide"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Consumers have other rights with respect to their Personal Information under the CCPA. This includes the right to request that we"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-151#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosing",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Docusign"
+     },
+     "conditions": [],
+     "exceptions": [
+      "the resident first affirmatively agrees",
+      "the resident has exercised an option that prevents that information from being disclosed"
+     ],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "does not engage in any disclosures",
+     "purpose": [
+      {
+       "text": "for their own direct marketing purposes as defined by Shine the Light",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third_party",
+      "text": "third parties"
+     },
+     "references": [
+      {
+       "text": "Shine the Light",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-151#s18"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 136,
+  "completeness": {
+   "gaps": 395,
+   "gap_words": 4352
+  },
+  "unsatisfiable_guards": 5,
+  "qualifiers_without_effect": 54,
+  "translated_quotes": 136,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 80123,
+  "completion_tokens": 66839,
+  "thinking_tokens": 0,
+  "seconds": 702.6667041778564,
+  "failures": 0
+ },
+ "seconds": 704.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

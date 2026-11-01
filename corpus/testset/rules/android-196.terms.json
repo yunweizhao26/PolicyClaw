@@ -1,0 +1,192 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data we do hold": "any data we hold",
+    "diagnostic feedback": "Diagnostic feedback",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "Aggregated statistics": [
+     "data"
+    ],
+    "aggregate network data": [
+     "Aggregated statistics",
+     "data"
+    ],
+    "Connection data": [
+     "data"
+    ],
+    "Diagnostic feedback": [
+     "data"
+    ],
+    "any data we hold": [
+     "data"
+    ],
+    "browsing history": [
+     "data"
+    ],
+    "city": [
+     "information"
+    ],
+    "country": [
+     "information"
+    ],
+    "client version": [
+     "information"
+    ],
+    "content of communications": [
+     "traffic",
+     "traffic routed through psiphon"
+    ],
+    "traffic routed through psiphon": [
+     "traffic"
+    ],
+    "cookies": [
+     "data"
+    ],
+    "copy of personal data": [
+     "personal data"
+    ],
+    "data that ties a connection to a person": [
+     "Connection data",
+     "personal data"
+    ],
+    "data volume": [
+     "usage data"
+    ],
+    "network performance": [
+     "usage data"
+    ],
+    "email address": [
+     "identifier",
+     "personal data"
+    ],
+    "email communications": [
+     "data"
+    ],
+    "email content": [
+     "email communications"
+    ],
+    "filtered subset of non-identifying connection data": [
+     "Connection data"
+    ],
+    "identity information": [
+     "information"
+    ],
+    "identity verification information": [
+     "identity information"
+    ],
+    "ip address": [
+     "Connection data",
+     "identifier"
+    ],
+    "isp": [
+     "information"
+    ],
+    "payment details": [
+     "transaction data"
+    ],
+    "receipt data": [
+     "transaction data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "platform": [
+     "information"
+    ],
+    "protocol information": [
+     "Connection data",
+     "information"
+    ],
+    "server connection data": [
+     "Connection data"
+    ],
+    "session duration": [
+     "Connection data"
+    ],
+    "subscription verification data": [
+     "transaction data"
+    ],
+    "system logs": [
+     "data"
+    ],
+    "traffic": [
+     "data"
+    ],
+    "transaction data": [
+     "data"
+    ],
+    "usage data": [
+     "Aggregated statistics"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Apple or Google": [
+     "app store",
+     "third party"
+    ],
+    "app store": [
+     "third party"
+    ],
+    "children under 18": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Amazon Web Services": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "troubleshooting": "service troubleshooting"
+   },
+   "parents": {
+    "censorship event detection and response": [
+     "service provision"
+    ],
+    "confirm subscription status": [
+     "service provision"
+    ],
+    "follow up": [
+     "communication"
+    ],
+    "send reply": [
+     "communication"
+    ],
+    "identity verification": [
+     "legal compliance"
+    ],
+    "service troubleshooting": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1858,
+  "completion_tokens": 739,
+  "thinking_tokens": 0,
+  "seconds": 8.460305452346802,
+  "failures": 0
+ },
+ "seconds": 8.5
+}

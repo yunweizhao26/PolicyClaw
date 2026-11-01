@@ -1,0 +1,148 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "CV": [
+     "personal data"
+    ],
+    "IP address": [
+     "data"
+    ],
+    "aggregated user information": [
+     "data"
+    ],
+    "browser type": [
+     "data"
+    ],
+    "browsing activity": [
+     "data"
+    ],
+    "child data": [
+     "data",
+     "personal data"
+    ],
+    "clicks": [
+     "browsing activity",
+     "data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "device type": [
+     "data"
+    ],
+    "email address": [
+     "contact details",
+     "personal data"
+    ],
+    "email interaction": [
+     "data"
+    ],
+    "information received through third party sources": [
+     "data"
+    ],
+    "name": [
+     "contact details",
+     "personal data"
+    ],
+    "operating system": [
+     "data"
+    ],
+    "pages visited": [
+     "browsing activity",
+     "data"
+    ],
+    "personal content": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "referring url": [
+     "data"
+    ],
+    "search history": [
+     "browsing activity",
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advisor": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "advertising network": [
+     "third parties"
+    ],
+    "third party data hosting providers": [
+     "service provider",
+     "third parties"
+    ],
+    "public authority": [
+     "third parties"
+    ],
+    "acquirer": [
+     "third parties"
+    ],
+    "Truste": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "European Union": [
+     "European Economic Area"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "AppsFlyer": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "to respond to your requests": "To process your inquiries"
+   },
+   "parents": {
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1789,
+  "completion_tokens": 851,
+  "thinking_tokens": 0,
+  "seconds": 11.083905458450317,
+  "failures": 0
+ },
+ "seconds": 11.2
+}

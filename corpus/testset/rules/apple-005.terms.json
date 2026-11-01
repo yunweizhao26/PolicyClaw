@@ -1,0 +1,416 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "creditworthiness information": "creditworthiness",
+    "email_address": "email address",
+    "financial balance": "account balance",
+    "friends list": "friend list",
+    "hardware model": "device type",
+    "information": "data",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "personally identifiable information": "personal data",
+    "real name": "name",
+    "social media profile": "online profile",
+    "ssn": "Social Security number",
+    "usage data": "interaction data",
+    "user data": "personal data"
+   },
+   "parents": {
+    "Social Security number": [
+     "government identifier"
+    ],
+    "account credentials": [
+     "account information"
+    ],
+    "account balance": [
+     "account information"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "account status": [
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "audiovisual information": [
+     "personal data"
+    ],
+    "bank account number": [
+     "financial account number"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "biometric data": [
+     "biometric information"
+    ],
+    "biometric information": [
+     "personal data"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing activity": [
+     "internet activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "chat logs": [
+     "customer support records"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contacts' personal data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "credit history": [
+     "creditworthiness"
+    ],
+    "credit report": [
+     "creditworthiness"
+    ],
+    "credit score": [
+     "creditworthiness"
+    ],
+    "creditworthiness": [
+     "financial information"
+    ],
+    "customer support records": [
+     "personal data"
+    ],
+    "date of birth": [
+     "identification information"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "device operating system": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "device information": [
+     "personal data"
+    ],
+    "drivers license number": [
+     "government identifier"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email content": [
+     "customer support records"
+    ],
+    "feedback": [
+     "customer support records"
+    ],
+    "financial data": [
+     "financial information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "financial transactions": [
+     "transaction history"
+    ],
+    "friend list": [
+     "social network information"
+    ],
+    "government identifier": [
+     "identifiers"
+    ],
+    "health data": [
+     "personal data"
+    ],
+    "identification information": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "information about Teen Users": [
+     "personal data"
+    ],
+    "internet activity": [
+     "personal data"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "messages": [
+     "personal data"
+    ],
+    "name": [
+     "identification information"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "payment history": [
+     "financial data"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "performance metrics": [
+     "interaction data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "profile photo": [
+     "audiovisual information"
+    ],
+    "public profile": [
+     "personal data"
+    ],
+    "questions or concerns": [
+     "customer support records"
+    ],
+    "recipient name": [
+     "name"
+    ],
+    "repayment history": [
+     "creditworthiness"
+    ],
+    "search history": [
+     "internet activity"
+    ],
+    "site usage data": [
+     "interaction data"
+    ],
+    "social login credentials": [
+     "account credentials"
+    ],
+    "social media handle": [
+     "online identifier"
+    ],
+    "social network information": [
+     "personal data"
+    ],
+    "survey response": [
+     "personal data"
+    ],
+    "system language": [
+     "device information"
+    ],
+    "system timezone": [
+     "device information"
+    ],
+    "tax identifier": [
+     "government identifier"
+    ],
+    "transaction count": [
+     "transaction details"
+    ],
+    "transaction counterparties": [
+     "transaction details"
+    ],
+    "transaction history": [
+     "financial data"
+    ],
+    "transaction instructions": [
+     "transaction details"
+    ],
+    "transaction notes": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "transaction history"
+    ],
+    "unique personal identifier": [
+     "identifiers"
+    ],
+    "interaction data": [
+     "internet activity"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "username": [
+     "account credentials",
+     "online identifier"
+    ],
+    "verification data": [
+     "identification information"
+    ],
+    "voice recording": [
+     "audiovisual information",
+     "customer support records"
+    ],
+    "website activity": [
+     "internet activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "commercial partners": "commercial partner",
+    "other users": "other user",
+    "third-party social networks": "social network",
+    "unaffiliated party": "nonaffiliate"
+   },
+   "parents": {
+    "parent company": [
+     "affiliate"
+    ],
+    "financial institution": [
+     "financial company",
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "other user": [
+     "user"
+    ],
+    "social network": [
+     "third party",
+     "third-party account or platform"
+    ],
+    "The Bancorp Bank": [
+     "financial institution"
+    ],
+    "Mastercard": [
+     "financial institution"
+    ],
+    "Apple": [
+     "third party"
+    ],
+    "financial company": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "nonaffiliate": [
+     "third party"
+    ],
+    "third-party account or platform": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "credit bureau": [
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "child under the age of 13": [
+     "user"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "recipient": "internet users"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud-detection",
+    "fraud_prevention": "fraud-detection",
+    "legal compliance": "compliance",
+    "personalization": "customization",
+    "service-improvement": "service improvement"
+   },
+   "parents": {
+    "fraud-detection": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "payment processing": [
+     "services",
+     "transaction fulfillment"
+    ],
+    "transaction fulfillment": [
+     "services"
+    ],
+    "verification": [
+     "authentication"
+    ],
+    "service improvement": [
+     "user-experience optimization"
+    ],
+    "customization": [
+     "user-experience optimization"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "operations": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3696,
+  "completion_tokens": 1737,
+  "thinking_tokens": 0,
+  "seconds": 24.816976308822632,
+  "failures": 0
+ },
+ "seconds": 25.0
+}

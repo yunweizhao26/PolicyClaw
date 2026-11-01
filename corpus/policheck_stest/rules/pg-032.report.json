@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "pg-032",
+ "text_sha256": "30b2b5824a105cb51411e6868e9d86ff8a050a4c15fb0e005c246058c8a485aa",
+ "site_id": "pg-032",
+ "sections": 1,
+ "rules": 24,
+ "report": {
+  "sections": 1,
+  "raw_rules": 24,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "from children under 13"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "children under 13"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-032#s1"
+   }
+  ],
+  "residual_quotes": 1,
+  "quotes": 3,
+  "completeness": {
+   "gaps": 31,
+   "gap_words": 299
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 3,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3755,
+  "completion_tokens": 3060,
+  "thinking_tokens": 0,
+  "seconds": 18.42215132713318,
+  "failures": 0
+ },
+ "seconds": 18.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

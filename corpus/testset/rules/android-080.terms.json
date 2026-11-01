@@ -1,0 +1,146 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "information We hold about You": "Your data",
+    "non-personal aggregate data": "anonymized data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personal_information": "personal data"
+   },
+   "parents": {
+    "Your information on Facebook": [
+     "profile information"
+    ],
+    "country": [
+     "location"
+    ],
+    "device identifier": [
+     "device token"
+    ],
+    "email address": [
+     "contact_details",
+     "profile information"
+    ],
+    "gaming platform account": [
+     "user identifier"
+    ],
+    "payment identifier": [
+     "user identifier"
+    ],
+    "push token": [
+     "device token"
+    ],
+    "user identifier": [
+     "personal data"
+    ],
+    "username": [
+     "contact_details",
+     "profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third_party"
+    ],
+    "other vendors": [
+     "service provider"
+    ],
+    "other_users": [
+     "user"
+    ],
+    "payment processor": [
+     "service provider",
+     "third_party"
+    ],
+    "service provider": [
+     "third_party"
+    ],
+    "third-party platform": [
+     "third_party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third-party platform",
+     "third-party website"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Helpshift Inc.": "Helpshift"
+   },
+   "parents": {
+    "Akamai CDN": [
+     "third party"
+    ],
+    "Amazon AWS": [
+     "third party"
+    ],
+    "Helpshift": [
+     "third party"
+    ],
+    "Selectel ltd.": [
+     "third party"
+    ],
+    "ad tracking and analytics vendor": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "service_optimization": "service optimization",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account_management": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "providing and maintaining the service": [
+     "services"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service operation"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2357,
+  "completion_tokens": 698,
+  "thinking_tokens": 0,
+  "seconds": 10.371222019195557,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

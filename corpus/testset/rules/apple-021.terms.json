@@ -1,0 +1,407 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device id",
+    "device identifiers": "device id",
+    "personal information": "personal data",
+    "photograph of yourself": "photo",
+    "photos": "photographs"
+   },
+   "parents": {
+    "IP address": [
+     "device id",
+     "identifiers"
+    ],
+    "Pay & Request profile": [
+     "profile"
+    ],
+    "account balance": [
+     "financial information"
+    ],
+    "account credentials": [
+     "account profile information"
+    ],
+    "account details": [
+     "account profile information"
+    ],
+    "account history": [
+     "account profile information"
+    ],
+    "account profile information": [
+     "profile"
+    ],
+    "bank account details": [
+     "financial information",
+     "payment data"
+    ],
+    "biographical information": [
+     "account profile information"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "chat logs": [
+     "user-generated content"
+    ],
+    "child’s personal information": [
+     "personal data"
+    ],
+    "comments": [
+     "content",
+     "social content",
+     "user-generated content"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "contacts": [
+     "stored device information"
+    ],
+    "credit card rewards information": [
+     "financial information"
+    ],
+    "credit history": [
+     "financial information"
+    ],
+    "credit score": [
+     "financial information"
+    ],
+    "customer data": [
+     "personal data"
+    ],
+    "data on government-issued identification documents": [
+     "government-issued identification documents"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device details": [
+     "information about use of services",
+     "usage data"
+    ],
+    "device id": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "feedback": [
+     "content",
+     "user-generated content"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "financial transaction history": [
+     "financial information",
+     "transaction history"
+    ],
+    "follower relationships": [
+     "social connections"
+    ],
+    "geographic location": [
+     "personal data"
+    ],
+    "government-issued identification documents": [
+     "sensitive personal information"
+    ],
+    "hashed email address": [
+     "identifiers"
+    ],
+    "income": [
+     "financial information"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "information about use of services": [
+     "information"
+    ],
+    "interaction details": [
+     "usage data"
+    ],
+    "interactions": [
+     "usage data"
+    ],
+    "interests": [
+     "preferences"
+    ],
+    "investment records": [
+     "financial information"
+    ],
+    "marital status": [
+     "personal data"
+    ],
+    "merchant location": [
+     "geographic location",
+     "transactional information"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "notification": [
+     "service-related or other non-promotional communications"
+    ],
+    "pages visited or features used": [
+     "usage data"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "photo": [
+     "photographs"
+    ],
+    "photographs": [
+     "stored device information"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "posts": [
+     "content",
+     "social content",
+     "user-generated content"
+    ],
+    "precise location": [
+     "geographic location",
+     "sensitive personal information"
+    ],
+    "preferences": [
+     "account profile information"
+    ],
+    "profile photo": [
+     "account profile information",
+     "photographs"
+    ],
+    "profit and loss ratio": [
+     "financial information"
+    ],
+    "promotional emails": [
+     "content"
+    ],
+    "questions": [
+     "content"
+    ],
+    "reactions": [
+     "social content",
+     "user-generated content"
+    ],
+    "regulatory status": [
+     "account profile information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "social connections": [
+     "social profile information"
+    ],
+    "social content": [
+     "content",
+     "social-related information"
+    ],
+    "social data": [
+     "social-related information"
+    ],
+    "social profile information": [
+     "profile",
+     "social-related information"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive personal information"
+    ],
+    "social-related personal information": [
+     "personal data",
+     "social-related information"
+    ],
+    "specific securities or investment options": [
+     "investment records"
+    ],
+    "survey response": [
+     "user-generated content"
+    ],
+    "tax information": [
+     "financial information"
+    ],
+    "text messages": [
+     "content"
+    ],
+    "trade data": [
+     "financial information",
+     "transactional information"
+    ],
+    "transaction amount": [
+     "transactional information"
+    ],
+    "transaction history": [
+     "transactional information"
+    ],
+    "transaction timestamp": [
+     "transactional information"
+    ],
+    "transaction type": [
+     "transactional information"
+    ],
+    "transactional information": [
+     "financial information"
+    ],
+    "usage data": [
+     "information about use of services",
+     "online activity information"
+    ],
+    "user data": [
+     "user information"
+    ],
+    "user information": [
+     "information"
+    ],
+    "user profile": [
+     "profile"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "username": [
+     "account credentials",
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliate": "Robinhood affiliates",
+    "marketing partners": "marketing partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Robinhood affiliates": [
+     "third parties"
+    ],
+    "advertising and analytics provider": [
+     "service provider",
+     "third parties"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "identification verification provider": [
+     "service provider",
+     "third parties"
+    ],
+    "bank": [
+     "financial institution",
+     "third parties"
+    ],
+    "financial institution": [
+     "third parties"
+    ],
+    "investee company": [
+     "third parties"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "rewards partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "vendor": [
+     "service provider",
+     "third parties"
+    ],
+    "other users": [
+     "anyone on Robinhood",
+     "user"
+    ],
+    "anyone on Robinhood": [
+     "user"
+    ],
+    "primary account holder": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliate": "Robinhood affiliates"
+   },
+   "parents": {
+    "anyone under the age of 13": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "affiliate": "Robinhood affiliates",
+    "first party": "Robinhood",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Google Ads": [
+     "service provider",
+     "third-party partners"
+    ],
+    "Robinhood affiliates": [
+     "Robinhood"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "personalization or customization": "personalization",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "fraud-prevention": [
+     "security"
+    ],
+    "identity-verification": [
+     "service provision"
+    ],
+    "In order to conduct a money transfer using our Pay & Request Service, or to facilitate the gifting of funds to a custodial account": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service operation or improvement"
+    ],
+    "service provision": [
+     "service operation or improvement"
+    ],
+    "to provide an output or further customize our answers to you": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3605,
+  "completion_tokens": 1839,
+  "thinking_tokens": 0,
+  "seconds": 16.559727668762207,
+  "failures": 0
+ },
+ "seconds": 16.7
+}

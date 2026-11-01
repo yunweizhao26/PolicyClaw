@@ -1,0 +1,187 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "company name": "company",
+    "email_address": "email address",
+    "information": "data",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "job_title": "job title",
+    "organization_name": "company",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "postal address": "mailing address"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "country": [
+     "approximate location",
+     "location"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing_history": [
+     "browsing activity"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "user identity": [
+     "identifiers"
+    ],
+    "voice call recording": [
+     "voice call"
+    ],
+    "voice call transcript": [
+     "voice call"
+    ],
+    "welcome email": [
+     "service-related communications"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "company": [
+     "company data"
+    ],
+    "personal data": [
+     "data",
+     "information about you"
+    ],
+    "inaccurate information about you": [
+     "information about you"
+    ],
+    "details of the personal data we have about you": [
+     "personal data"
+    ],
+    "information about you": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party_service_provider": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "user of client network and system": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "BlackBerry"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner",
+     "service provider",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial purpose": "commercial",
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision",
+    "services": "service provision",
+    "unspecified": "for the purposes outlined in this Policy"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "to analyze traffic and improve performance of our site": [
+     "analytics"
+    ],
+    "to determine the effectiveness of content on our websites or the email messages you’ve received": [
+     "analytics"
+    ],
+    "customer-support": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "account_management": [
+     "service provision"
+    ],
+    "provide service": [
+     "service provision"
+    ],
+    "service_provision": [
+     "service provision"
+    ],
+    "enforce contractual obligations": [
+     "legal compliance"
+    ],
+    "to deliver the information you requested, or register you for an event": [
+     "marketing"
+    ],
+    "to help us deliver the information you requested, support event activities, or provide updates about BlackBerry products and services": [
+     "marketing"
+    ],
+    "fraud-prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2838,
+  "completion_tokens": 946,
+  "thinking_tokens": 0,
+  "seconds": 31.63909363746643,
+  "failures": 0
+ },
+ "seconds": 31.7
+}

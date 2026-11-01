@@ -1,0 +1,163 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account_details": "account information",
+    "email_address": "email address",
+    "license_details": "license information",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "user files": "files"
+   },
+   "parents": {
+    "access dates and times": [
+     "date and time stamp"
+    ],
+    "bank account number": [
+     "financial data"
+    ],
+    "credit card details": [
+     "financial data"
+    ],
+    "credit card expiration date": [
+     "credit card details"
+    ],
+    "credit card number": [
+     "credit card details"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "user identifier": [
+     "account information"
+    ],
+    "password": [
+     "account information",
+     "login_details"
+    ],
+    "license number": [
+     "license information"
+    ],
+    "license_expiration_reminder": [
+     "license information"
+    ],
+    "duration of visit": [
+     "browsing activity"
+    ],
+    "visited pages": [
+     "browsing activity"
+    ],
+    "search queries": [
+     "browsing activity"
+    ],
+    "referrer url": [
+     "browsing activity"
+    ],
+    "cookies": [
+     "tracking identifiers"
+    ],
+    "files": [
+     "uploaded content"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Kaspersky regional teams": [
+     "Kaspersky affiliates"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party": [
+     "external recipients"
+    ],
+    "public authority": [
+     "external recipients"
+    ],
+    "Private bodies": [
+     "external recipients"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Kaspersky regional teams": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contractual_necessity": "contract negotiation",
+    "customer_support": "customer support",
+    "service provision": "providing service",
+    "service-provision": "providing service",
+    "service_provision": "providing service",
+    "verification": "identification"
+   },
+   "parents": {
+    "customer-satisfaction-survey": [
+     "feedback_and_surveys",
+     "service-improvement"
+    ],
+    "payment processing": [
+     "purchasing products and services"
+    ],
+    "order fulfillment": [
+     "providing service"
+    ],
+    "account-management": [
+     "providing service"
+    ],
+    "technical functionality": [
+     "providing service"
+    ],
+    "user-experience optimization": [
+     "service-improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2790,
+  "completion_tokens": 760,
+  "thinking_tokens": 0,
+  "seconds": 9.817748308181763,
+  "failures": 0
+ },
+ "seconds": 10.0
+}

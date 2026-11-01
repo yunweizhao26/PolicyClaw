@@ -1,0 +1,128 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "personal data": [
+     "data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "biometric or genetic data": [
+     "sensitive personal data"
+    ],
+    "criminal history": [
+     "sensitive personal data"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "political opinion": [
+     "sensitive personal data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal data"
+    ],
+    "religion or philosophical beliefs": [
+     "sensitive personal data"
+    ],
+    "sex life or sexual orientation": [
+     "sensitive personal data"
+    ],
+    "social security number": [
+     "sensitive personal data"
+    ],
+    "trade union membership": [
+     "sensitive personal data"
+    ],
+    "advertising ID": [
+     "device ID"
+    ],
+    "device ID": [
+     "device information"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "language": [
+     "preferences"
+    ],
+    "access time": [
+     "app activity"
+    ],
+    "usage duration": [
+     "app activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party service providers": "service provider"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation"
+   },
+   "parents": {
+    "compliance with legal obligation": [
+     "other"
+    ],
+    "customer support": [
+     "other",
+     "service operation and improvement"
+    ],
+    "marketing": [
+     "other"
+    ],
+    "provide the service": [
+     "other"
+    ],
+    "service operation and improvement": [
+     "other"
+    ],
+    "service provision": [
+     "other"
+    ],
+    "vital interests": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1390,
+  "completion_tokens": 467,
+  "thinking_tokens": 0,
+  "seconds": 7.022853851318359,
+  "failures": 0
+ },
+ "seconds": 7.1
+}

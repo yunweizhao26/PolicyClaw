@@ -1,0 +1,294 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial data",
+    "ip address": "IP address",
+    "non-identifiable information": "Non-personal Information",
+    "non-personal data": "Non-personal Information",
+    "non-personal information": "Non-personal Information",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "photos": "facial features"
+   },
+   "parents": {
+    "Children Persistent Device Identifier": [
+     "device identifier",
+     "persistent device identifier"
+    ],
+    "IMEI": [
+     "device identifier"
+    ],
+    "IP address": [
+     "personal identifiers"
+    ],
+    "ad performance data": [
+     "browsing behavior"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "personal identifiers",
+     "user identifier"
+    ],
+    "agent authorization letter": [
+     "user-provided information"
+    ],
+    "app visits information": [
+     "browsing behavior"
+    ],
+    "audio video sensor data": [
+     "sensitive device data"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing time": [
+     "usage data"
+    ],
+    "carrier network preferences": [
+     "usage data"
+    ],
+    "children personally identifiable information": [
+     "Personal Information"
+    ],
+    "country": [
+     "location"
+    ],
+    "device identifier": [
+     "personal identifiers"
+    ],
+    "device logs": [
+     "usage data"
+    ],
+    "device model": [
+     "usage data"
+    ],
+    "email address": [
+     "identifying information"
+    ],
+    "facial data": [
+     "audio video sensor data"
+    ],
+    "facial features": [
+     "facial data"
+    ],
+    "financial data": [
+     "Personal Information"
+    ],
+    "game progress": [
+     "usage data"
+    ],
+    "gender": [
+     "identifying information"
+    ],
+    "geographic tracking": [
+     "location"
+    ],
+    "government identifier": [
+     "identifying information"
+    ],
+    "installed software": [
+     "usage data"
+    ],
+    "interaction with ads and apps": [
+     "usage data"
+    ],
+    "name": [
+     "identifying information"
+    ],
+    "Non-personal Information": [
+     "information"
+    ],
+    "operating system": [
+     "usage data"
+    ],
+    "opt-in status": [
+     "usage data"
+    ],
+    "persistent device identifier": [
+     "device identifier"
+    ],
+    "personal identifiers": [
+     "Personal Information"
+    ],
+    "personalization settings": [
+     "user interests"
+    ],
+    "preferred language": [
+     "usage data"
+    ],
+    "profile photo": [
+     "facial features"
+    ],
+    "purchases": [
+     "transaction_information"
+    ],
+    "referring URL": [
+     "browsing behavior"
+    ],
+    "scores": [
+     "game progress"
+    ],
+    "software version": [
+     "usage data"
+    ],
+    "street address": [
+     "location"
+    ],
+    "support data": [
+     "user-provided information"
+    ],
+    "time zone": [
+     "usage data"
+    ],
+    "token": [
+     "user identifier"
+    ],
+    "user identifier": [
+     "personal identifiers"
+    ],
+    "user inquiry": [
+     "user-provided information"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "user-provided information": [
+     "information"
+    ],
+    "videos": [
+     "content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "government_entities": "government agency",
+    "service_provider": "service provider",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising_networks": [
+     "marketing_companies",
+     "third parties"
+    ],
+    "affiliate": [
+     "third parties"
+    ],
+    "government agency": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "government agency",
+     "third parties"
+    ],
+    "marketing_companies": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social_networks": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party provider": "third party"
+   },
+   "parents": {
+    "third-party ad network": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "legal_compliance": "compliance with legal obligation",
+    "other_purpose": "other",
+    "service_maintenance": "operations",
+    "user support": "customer support"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "deliver ads relating to User’s interests": [
+     "advertising",
+     "targeted advertising"
+    ],
+    "calculate or control the number of views of an ad": [
+     "advertising"
+    ],
+    "ensure that appropriate advertising is presented within the App": [
+     "advertising"
+    ],
+    "measure the effectiveness of ad campaigns": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing, sales and advertising activities"
+    ],
+    "marketing": [
+     "marketing, sales and advertising activities"
+    ],
+    "fraud detection and prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention",
+     "fraud_prevention_and_security"
+    ],
+    "security": [
+     "fraud_prevention_and_security"
+    ],
+    "identity verification": [
+     "fraud prevention"
+    ],
+    "enforcement of terms": [
+     "compliance with legal obligation"
+    ],
+    "app functionality": [
+     "service operation"
+    ],
+    "social-features": [
+     "app functionality",
+     "service operation"
+    ],
+    "service_improvement": [
+     "service optimization"
+    ],
+    "research": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3597,
+  "completion_tokens": 1289,
+  "thinking_tokens": 0,
+  "seconds": 15.37029242515564,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

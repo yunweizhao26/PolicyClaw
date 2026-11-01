@@ -1,0 +1,1350 @@
+{
+ "cleaned_sha256": "apple-007",
+ "text_sha256": "56622d21c37c2ceeb1ac71311268854db0b1d92402f0a043a7f50b4aa53663dc",
+ "site_id": "apple-007",
+ "sections": 104,
+ "rules": 607,
+ "report": {
+  "sections": 104,
+  "raw_rules": 399,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Sirius XM",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use text messaging",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to send you offers",
+       "name": "marketing"
+      },
+      {
+       "text": "to facilitate account management or otherwise assist you in your access to the Services or your subscription",
+       "name": "service_provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "replying “STOP” to the short code"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "receive calls",
+      "verb": "call"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for service and account-related matters",
+       "name": "customer service"
+      }
+     ],
+     "conditions": [
+      "even if you opt out of telemarketing sales calls"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s16"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on your state of residence",
+      "subject to certain legal limitations and exceptions",
+      "You have the right to confirm whether we are processing your personal data and request to access such data"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-007#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on your state of residence",
+      "subject to certain legal limitations and exceptions",
+      "You have the right to",
+      "to the extent feasible, in a readily usable format to allow data portability"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [
+      {
+       "text": "to allow data portability",
+       "name": "data portability"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-007#s25"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may exercise",
+     "actor": {
+      "text": "SiriusXM",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a Consumer residing in CA, CO, CT, DE, IN, IA, KY, MD, MN, MT, NE, NH, NJ, OR, RI, TN, TX, VA, or UT (as defined in each state’s respective law) and would like to exercise your applicable rights as outlined above",
+      "SiriusXM subscribers may exercise this right directly through your Online Account Center (SiriusXM users) or by contacting SiriusXM Listener Care at 1-888-539-7474 during posted hours"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as defined in each state’s respective law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "Pandora",
+      "name": "Pandora"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a Consumer residing in CA, CO, CT, DE, IN, IA, KY, MD, MN, MT, NE, NH, NJ, OR, RI, TN, TX, VA, or UT (as defined in each state’s respective law) and would like to exercise your applicable rights as outlined above",
+      "Pandora listeners may use the settings in the Pandora app or contact privacy @pandora.com"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as defined in each state’s respective law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "contact",
+     "actor": {
+      "text": "Team Coco",
+      "name": "Team Coco"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a Consumer residing in CA, CO, CT, DE, IN, IA, KY, MD, MN, MT, NE, NH, NJ, OR, RI, TN, TX, VA, or UT (as defined in each state’s respective law) and would like to exercise your applicable rights as outlined above",
+      "Team Coco customers, please contact legal @teamcoco.com"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as defined in each state’s respective law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "contact",
+     "actor": {
+      "text": "99% Invisible",
+      "name": "99% Invisible"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a Consumer residing in CA, CO, CT, DE, IN, IA, KY, MD, MN, MT, NE, NH, NJ, OR, RI, TN, TX, VA, or UT (as defined in each state’s respective law) and would like to exercise your applicable rights as outlined above",
+      "99% Invisible users, please contact contact@99pi.org"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as defined in each state’s respective law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Provide",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "transactions and orders",
+       "name": "services"
+      },
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Provide",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitate access to",
+      "verb": "facilitate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "SiriusXM services",
+       "name": "services"
+      },
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Provide",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "customer service",
+       "name": "customer support"
+      },
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes\n(market research; understand how you use our services, including analyzing trends and usage patterns)",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s45"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Advertising\n(to tailor content, including advertising and listening recommendations, to you on the Services and on other websites and services)",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s45"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "manage",
+      "verb": "manage"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "to manage advertising campaigns",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s48"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "report on",
+      "verb": "report on"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "report on and understand performance",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s48"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "understand",
+      "verb": "understand"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Advertising",
+       "name": "advertising"
+      },
+      {
+       "text": "report on and understand performance",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s48"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Internal Business Purposes",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "market research",
+       "name": "research"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s56"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Internal Business Purposes",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "understand how you use our services, including analyzing trends and usage patterns",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s56"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to send",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing",
+       "name": "marketing"
+      },
+      {
+       "text": "to send you special deals, offers, invites to events, and similar information from us or third parties",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s57"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to send",
+     "actor": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing",
+       "name": "marketing"
+      },
+      {
+       "text": "to send you special deals, offers, invites to events, and similar information from us or third parties",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s57"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide and improve our services",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide and improve our services",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "Internal Business Purposes"
+      },
+      {
+       "text": "provide and improve our services",
+       "name": "provide and improve our services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s73"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "develop new products and services",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "develop new products and services",
+      "verb": "develop"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "Internal Business Purposes"
+      },
+      {
+       "text": "develop new products and services",
+       "name": "develop new products and services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s73"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "market research, auditing and publication",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "market research, auditing and publication",
+      "verb": "research"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "Internal Business Purposes"
+      },
+      {
+       "text": "market research, auditing and publication",
+       "name": "market research, auditing and publication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s73"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to send",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Marketing",
+      "verb": "market"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to send you special deals, offers, invites to events, and similar information from us or third parties",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s74"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "facilitate access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitate access to Sirius XM services",
+      "verb": "facilitate access"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s95"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "personalize",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "personalize your service",
+      "verb": "personalize"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s95"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "exercise",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exercise territorial limits",
+      "verb": "exercise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Provide You Services",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "where required"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s95"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide and improve our services",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "operations"
+      },
+      {
+       "text": "provide and improve our services",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s96"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide and improve our services",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "improve",
+      "verb": "improve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "operations"
+      },
+      {
+       "text": "provide and improve our services",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s96"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "market research",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "market research",
+      "verb": "research"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "operations"
+      },
+      {
+       "text": "market research",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s96"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "auditing",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "auditing",
+      "verb": "audit"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Internal Business Purposes",
+       "name": "operations"
+      },
+      {
+       "text": "auditing",
+       "name": "audit"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s96"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to send",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing\n(to send you offers, invitations to events, and similar information from us or third parties)",
+       "name": "Marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-007#s97"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 125,
+  "completeness": {
+   "gaps": 691,
+   "gap_words": 7769
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 125,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 135,
+  "cached": 4,
+  "prompt_tokens": 204367,
+  "completion_tokens": 94747,
+  "thinking_tokens": 0,
+  "seconds": 2372.2467398643494,
+  "failures": 0
+ },
+ "seconds": 2375.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

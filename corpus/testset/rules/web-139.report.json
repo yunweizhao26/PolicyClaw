@@ -1,0 +1,119 @@
+{
+ "cleaned_sha256": "web-139",
+ "text_sha256": "c7c67ee3e092c7cdce88448e46ce0e98f1ab7ee3931edc449cba33d374053481",
+ "site_id": "web-139",
+ "sections": 22,
+ "rules": 320,
+ "report": {
+  "sections": 22,
+  "raw_rules": 234,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be transferred",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If we are involved in a merger, an acquisition, financial due diligence, reorganization, bankruptcy, receivership, purchase or sale of assets, or a transition of service to another provider",
+      "as permitted by law and/or contract"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be transferred"
+    ],
+    "section": "web-139#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "tracking",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "clicking on the “ Opt-Out” link in the footer of our Website",
+      "interacting with the cookie banner that is displayed when you visit the Opt-Out page"
+     ],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "may stop or restrict",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-139#s13"
+   }
+  ],
+  "residual_quotes": 37,
+  "quotes": 143,
+  "completeness": {
+   "gaps": 321,
+   "gap_words": 3116
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 143,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 72850,
+  "completion_tokens": 50993,
+  "thinking_tokens": 0,
+  "seconds": 475.3276083469391,
+  "failures": 0
+ },
+ "seconds": 476.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

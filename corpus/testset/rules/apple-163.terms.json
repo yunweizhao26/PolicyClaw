@@ -1,0 +1,306 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "information": "data",
+    "location data": "location",
+    "payment information": "payment card information",
+    "personal information": "personal data",
+    "photos": "photographs",
+    "precise location": "precise geolocation",
+    "sensitive personal information": "sensitive personal data",
+    "user name": "account name",
+    "user photo": "photographs",
+    "username": "account name"
+   },
+   "parents": {
+    "account name": [
+     "identifiers"
+    ],
+    "billing address": [
+     "contact details",
+     "financial information",
+     "postal address"
+    ],
+    "biometric data": [
+     "biometric information",
+     "sensitive personal data"
+    ],
+    "biometric information": [
+     "sensitive personal data"
+    ],
+    "browser type": [
+     "automatically collected data"
+    ],
+    "clickstream": [
+     "usage data"
+    ],
+    "credit card expiration date": [
+     "financial information",
+     "payment card information"
+    ],
+    "credit card number": [
+     "financial information",
+     "payment card information"
+    ],
+    "date and time": [
+     "usage data"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device type": [
+     "automatically collected data"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "emergency contact": [
+     "contact details"
+    ],
+    "gender": [
+     "protected classification characteristics"
+    ],
+    "hardware model": [
+     "automatically collected data"
+    ],
+    "health data": [
+     "health information"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "operating system": [
+     "automatically collected data"
+    ],
+    "payment card information": [
+     "financial information"
+    ],
+    "phone number": [
+     "contact details",
+     "identifiers"
+    ],
+    "photographs": [
+     "audio or video or sensor data"
+    ],
+    "physical health data": [
+     "health data",
+     "health information"
+    ],
+    "postal address": [
+     "contact details",
+     "identifiers"
+    ],
+    "precise geolocation": [
+     "location",
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "software version": [
+     "automatically collected data"
+    ],
+    "videos": [
+     "audio or video or sensor data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "public authority": "government authority",
+    "third parties": "other parties",
+    "third party": "other parties"
+   },
+   "parents": {
+    "advertising companies": [
+     "other parties"
+    ],
+    "advertising partner": [
+     "other parties"
+    ],
+    "affiliate": [
+     "other parties"
+    ],
+    "analytics provider": [
+     "other parties"
+    ],
+    "business acquirer": [
+     "other parties"
+    ],
+    "government authority": [
+     "other parties"
+    ],
+    "identity partners": [
+     "service provider"
+    ],
+    "public authorities": [
+     "government authority"
+    ],
+    "service provider": [
+     "other parties"
+    ],
+    "third-party payment processor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "other sources"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "LiveRamp": [
+     "other sources",
+     "partners and service providers"
+    ],
+    "offline": [
+     "other sources"
+    ],
+    "partners and service providers": [
+     "other sources"
+    ],
+    "social media and third party accounts": [
+     "third-party provider"
+    ],
+    "third-party provider": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Outside",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third parties"
+    ],
+    "LiveRamp": [
+     "third parties"
+    ],
+    "payment processor": [
+     "service provider",
+     "third parties"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "third-party advertisers": [
+     "third parties"
+    ],
+    "vendor": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "for a business purpose": "business operations",
+    "operational": "business operations",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "analytics and advertising"
+    ],
+    "analytics": [
+     "analytics and advertising",
+     "for business, operational, promotional, and marketing purposes"
+    ],
+    "marketing": [
+     "for business, operational, promotional, and marketing purposes"
+    ],
+    "business operations": [
+     "for business, operational, promotional, and marketing purposes"
+    ],
+    "order_fulfillment": [
+     "contract_fulfillment",
+     "fulfillment"
+    ],
+    "event_registration": [
+     "service_provision"
+    ],
+    "customer_support": [
+     "communications"
+    ],
+    "feedback": [
+     "customer_support"
+    ],
+    "fraud_prevention": [
+     "security"
+    ],
+    "to protect the security of our Services, servers, network systems, and databases": [
+     "security"
+    ],
+    "as necessary to respond to subpoenas, judicial processes, or government requests and investigations, or in connection with an investigation on matters related to public safety": [
+     "legal_compliance"
+    ],
+    "legal requirement": [
+     "legal_compliance"
+    ],
+    "legal compliance": [
+     "legal_compliance"
+    ],
+    "legal-compliance": [
+     "legal_compliance"
+    ],
+    "legal": [
+     "legal_compliance"
+    ],
+    "compliance": [
+     "legal_compliance"
+    ],
+    "dispute_resolution": [
+     "legal_compliance"
+    ],
+    "segmentation": [
+     "marketing"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "service-provision": [
+     "services"
+    ],
+    "service_provision": [
+     "services"
+    ],
+    "to process certain transactions, including to purchase a paid subscription or other product or service from us": [
+     "order_fulfillment"
+    ],
+    "administrative": [
+     "communications"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4384,
+  "completion_tokens": 1434,
+  "thinking_tokens": 0,
+  "seconds": 18.784632444381714,
+  "failures": 0
+ },
+ "seconds": 18.9
+}

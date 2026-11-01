@@ -1,0 +1,161 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertisement": "ads",
+    "advertising id": "advertising ID",
+    "advertising identifier": "advertising ID",
+    "cookies": "cookie",
+    "information": "data",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "sensitive personal data": "sensitive data",
+    "user profile information": "user profile"
+   },
+   "parents": {
+    "advertising ID": [
+     "user identifier"
+    ],
+    "bid data": [
+     "data"
+    ],
+    "bid stream data": [
+     "data"
+    ],
+    "browser type": [
+     "data"
+    ],
+    "browsing history": [
+     "Personal Data"
+    ],
+    "cookie": [
+     "cookie / identifier"
+    ],
+    "cookie / identifier": [
+     "user identifier"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "hardware model": [
+     "device type"
+    ],
+    "IP address": [
+     "Personal Data"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "operating system": [
+     "data"
+    ],
+    "Personal Data": [
+     "data",
+     "user data"
+    ],
+    "postal address": [
+     "Personal Data"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "privacy choices": [
+     "preferences"
+    ],
+    "records of rights requests and related actions": [
+     "Personal Data"
+    ],
+    "referring URL": [
+     "browsing history"
+    ],
+    "sensitive data": [
+     "Personal Data",
+     "data"
+    ],
+    "unique user identifier": [
+     "user identifier"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user identifier": [
+     "Personal Data"
+    ],
+    "user profile": [
+     "Personal Data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Outbrain group entities"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "law enforcement agency": [
+     "government agency"
+    ],
+    "non-agent third parties": [
+     "third party"
+    ],
+    "third party agent": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ],
+    "media partner": [
+     "partner"
+    ],
+    "third party partner": [
+     "partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud prevention and security"
+   },
+   "parents": {
+    "ad serving": [
+     "advertising"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "legal compliance": [
+     "compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2045,
+  "completion_tokens": 701,
+  "thinking_tokens": 0,
+  "seconds": 10.399141550064087,
+  "failures": 0
+ },
+ "seconds": 10.5
+}

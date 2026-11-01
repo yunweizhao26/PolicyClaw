@@ -1,0 +1,780 @@
+{
+ "cleaned_sha256": "apple-035",
+ "text_sha256": "ac25984e1b72628fcf37a702e1dd211d0af1b57ce041f201fd089b6298791d81",
+ "site_id": "apple-035",
+ "sections": 23,
+ "rules": 368,
+ "report": {
+  "sections": 23,
+  "raw_rules": 283,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "serve advertising",
+      "verb": "serve"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "using Canva Education"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not serve",
+     "purpose": [
+      {
+       "text": "advertising",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "students",
+      "text": "students"
+     },
+     "references": [
+      {
+       "text": "this Section 1(i)",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-035#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your information"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "recipient": {
+      "name": "Canva affiliates",
+      "text": "Canva affiliates"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for the purpose of providing the Service to you",
+       "name": "providing the service"
+      },
+      {
+       "text": "to facilitate Canva’s legitimate interests",
+       "name": "legitimate interests"
+      }
+     ],
+     "conditions": [
+      "if you consent"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your information"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "recipient": {
+      "name": "service provider",
+      "text": "third-party service providers"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for the purpose of providing the Service to you",
+       "name": "providing the service"
+      },
+      {
+       "text": "to facilitate Canva’s legitimate interests",
+       "name": "legitimate interests"
+      }
+     ],
+     "conditions": [
+      "if you consent"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "Canva affiliates",
+      "text": "These parties"
+     },
+     "action": {
+      "text": "be provided with access to",
+      "verb": "provide with access to"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your information"
+     },
+     "operations": [
+      "access"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will only be provided with access to",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "first party",
+      "text": "us"
+     },
+     "purpose": [
+      {
+       "text": "for the purpose that Canva has engaged that party",
+       "name": "service performance"
+      }
+     ],
+     "conditions": [
+      "as is reasonably necessary for the purpose that Canva has engaged that party"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "service provider",
+      "text": "These parties"
+     },
+     "action": {
+      "text": "be provided with access to",
+      "verb": "provide with access to"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your information"
+     },
+     "operations": [
+      "access"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will only be provided with access to",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "first party",
+      "text": "us"
+     },
+     "purpose": [
+      {
+       "text": "for the purpose that Canva has engaged that party",
+       "name": "service performance"
+      }
+     ],
+     "conditions": [
+      "as is reasonably necessary for the purpose that Canva has engaged that party"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Canva"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "recipient": {
+      "name": "service provider",
+      "text": "parties with whom Canva may share your personal information"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "functions such as: Billing",
+       "name": "billing"
+      },
+      {
+       "text": "Customer support and customer management",
+       "name": "customer support"
+      },
+      {
+       "text": "Email services",
+       "name": "email communications"
+      },
+      {
+       "text": "Hosting and storage",
+       "name": "hosting and storage"
+      },
+      {
+       "text": "Data analytics and predictive analytics",
+       "name": "analytics"
+      },
+      {
+       "text": "Data labelling and machine learning",
+       "name": "machine learning / data labelling"
+      },
+      {
+       "text": "Security and Service delivery",
+       "name": "security"
+      },
+      {
+       "text": "Advertising and marketing services",
+       "name": "advertising and marketing"
+      },
+      {
+       "text": "Domain name registration",
+       "name": "domain name registration"
+      },
+      {
+       "text": "Delivery of physical products",
+       "name": "product delivery"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "public",
+      "text": "the public"
+     },
+     "action": {
+      "text": "read",
+      "verb": "read"
+     },
+     "data": {
+      "name": "user content",
+      "text": "Any information or content that you voluntarily disclose for posting to the Service, such as public User Content"
+     },
+     "operations": [
+      "consultation"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "becomes available to be read",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "public",
+      "text": "the public"
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "data": {
+      "name": "user content",
+      "text": "Any information or content that you voluntarily disclose for posting to the Service, such as public User Content"
+     },
+     "operations": [
+      "collection"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "becomes available to be",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "public",
+      "text": "the public"
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "data": {
+      "name": "user content",
+      "text": "Any information or content that you voluntarily disclose for posting to the Service, such as public User Content"
+     },
+     "operations": [
+      "use"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "becomes available to be",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "data": {
+      "name": "interaction data",
+      "text": "certain information about your interaction with that design"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "recipient": {
+      "name": "design owner",
+      "text": "the design owner"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you accept an invite to view, edit, collaborate on or interact with a Canva design",
+      "subject to your privacy settings"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "data": {
+      "name": "interaction data",
+      "text": "certain information about your interaction with that design"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "recipient": {
+      "name": "other users",
+      "text": "other users who have access to that design"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you accept an invite to view, edit, collaborate on or interact with a Canva design",
+      "subject to your privacy settings"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "visible",
+      "verb": "be"
+     },
+     "data": {
+      "name": "name",
+      "text": "your name"
+     },
+     "operations": [
+      "dissemination or otherwise making available"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will be visible",
+     "recipient": {
+      "name": "users in the design",
+      "text": "anyone else in the design at the same time as you, whether or not they are logged in to Canva or anonymous"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you accept an invite to view, edit, collaborate on or interact with a Canva design",
+      "subject to your privacy settings"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "visible",
+      "verb": "be"
+     },
+     "data": {
+      "name": "avatar",
+      "text": "avatar"
+     },
+     "operations": [
+      "dissemination or otherwise making available"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will be visible",
+     "recipient": {
+      "name": "users in the design",
+      "text": "anyone else in the design at the same time as you, whether or not they are logged in to Canva or anonymous"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you accept an invite to view, edit, collaborate on or interact with a Canva design",
+      "subject to your privacy settings"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "visible",
+      "verb": "be"
+     },
+     "data": {
+      "name": "email address",
+      "text": "your email"
+     },
+     "operations": [
+      "dissemination or otherwise making available"
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "will also be visible",
+     "recipient": {
+      "name": "team members",
+      "text": "anyone logged in to Canva who is part of your Team"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you accept an invite to view, edit, collaborate on or interact with a Canva design",
+      "subject to your privacy settings"
+     ],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-035#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "partner with",
+      "verb": "partner"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "exceptions": [
+      "students using Canva Education"
+     ],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "partner with",
+     "purpose": [
+      {
+       "text": "to deliver personalized advertisements (“ads”) on our Service and other sites that may be of interest to you",
+       "name": "advertising"
+      },
+      {
+       "text": "to measure their effectiveness",
+       "name": "analytics"
+      },
+      {
+       "text": "to identify potential new users of our Service",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "ad network",
+      "text": "third party ad servers, ad networks and social media platforms (like Facebook, Google, LiveRamp, Outbrain, Taboola and Appsflyer)"
+     },
+     "references": [],
+     "source": {
+      "name": "unspecified",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-035#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may communicate",
+     "actor": {
+      "text": "Canva",
+      "name": "Canva"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "students",
+      "name": "students"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate directly",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for technical support purposes",
+       "name": "support"
+      }
+     ],
+     "conditions": [
+      "where requested by the student or their teacher"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-035#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may communicate",
+     "actor": {
+      "text": "its service providers",
+      "name": "service provider"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "students",
+      "name": "students"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate directly",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for technical support purposes",
+       "name": "support"
+      }
+     ],
+     "conditions": [
+      "where requested by the student or their teacher"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-035#s17"
+   }
+  ],
+  "residual_quotes": 34,
+  "quotes": 156,
+  "completeness": {
+   "gaps": 413,
+   "gap_words": 5015
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 156,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 80708,
+  "completion_tokens": 57745,
+  "thinking_tokens": 0,
+  "seconds": 966.2998917102814,
+  "failures": 0
+ },
+ "seconds": 968.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

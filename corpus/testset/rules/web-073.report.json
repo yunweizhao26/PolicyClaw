@@ -1,0 +1,131 @@
+{
+ "cleaned_sha256": "web-073",
+ "text_sha256": "acac996b44a3e43eba6fe4712cd5e809245c60c91d1f607cbd294d2cbfa1a148",
+ "site_id": "web-073",
+ "sections": 10,
+ "rules": 41,
+ "report": {
+  "sections": 10,
+  "raw_rules": 40,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "storage",
+     "actor": {
+      "text": "Statista",
+      "name": "Statista"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "storage",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "for product information or advice by means of our newsletter",
+       "name": "marketing"
+      },
+      {
+       "text": "for the preparation, maintenance, protection and improvement of our services",
+       "name": "service-maintenance"
+      },
+      {
+       "text": "for the development of new services",
+       "name": "analytics"
+      },
+      {
+       "text": "for our own protection and for the protection of our users",
+       "name": "fraud-protection"
+      },
+      {
+       "text": "to further improve the security of our IT systems",
+       "name": "security"
+      },
+      {
+       "text": "to communicate with you",
+       "name": "communication"
+      },
+      {
+       "text": "to fulfil and comply with applicable laws, provisions or legal procedures or an enforceable official directive",
+       "name": "compliance"
+      }
+     ],
+     "conditions": [
+      "In most cases, the most important basis for the storage is your agreement with us, irrespective of whether you register for a newsletter on our website or if you have negotiated a contract with Statista for your employer. The following bases are possible: • Your consent in accordance with Article 6 (1) (1) (a), Article 7 General Data Protection Regulation (GDPR) (e.g. for product information or advice by means of our newsletter) • Fulfilment of the contract, which you or your employer are parties to, or to fulfil pre-contractual obligations to you in accordance with Article 6 (1) (1) (b) GDPR • Legitimate interests of Statista in accordance with Article 6 (1) (1) (f) GDPR (e.g. for the preparation, maintenance, protection and improvement of our services, for the development of new services and for our own protection and for the protection of our users, to further improve the security of our IT systems or to communicate with you) In addition, legal obligations in accordance with Article 6 (1) (1) (c) GDPR can be a basis"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6 (1) (1) (a), Article 7 General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 6 (1) (1) (b) GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 6 (1) (1) (f) GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 6 (1) (1) (c) GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-073#s5"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 47,
+   "gap_words": 563
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 38,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 24910,
+  "completion_tokens": 9420,
+  "thinking_tokens": 0,
+  "seconds": 113.78187537193298,
+  "failures": 0
+ },
+ "seconds": 114.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

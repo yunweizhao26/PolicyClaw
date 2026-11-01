@@ -1,0 +1,943 @@
+{
+ "cleaned_sha256": "web-012",
+ "text_sha256": "97dad1c5354cdfc2c3efb7bf802f23e1703b56e22119dd56451bcae430326605",
+ "site_id": "web-012",
+ "sections": 22,
+ "rules": 174,
+ "report": {
+  "sections": 22,
+  "raw_rules": 155,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In accordance with applicable law",
+      "subject to certain limitations",
+      "you may have the right",
+      "If you would like to exercise any of these rights, please contact us as set forth in “ Contact Us ” below"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "“ Contact Us ” below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s11"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "identifiers",
+      "text": "Identifiers"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "other users",
+      "text": "Other users of the Services and parties you transact with"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "identifiers",
+      "text": "Identifiers"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "third-party sites",
+      "text": "Third party websites and applications"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "identifiers",
+      "text": "Identifiers"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. third party identity verification providers)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "personal data listed in customer records statute",
+      "text": "Personal information categories listed in the California Customer Records statute"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "other users",
+      "text": "Other users of the Services and parties you transact with"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cal. Civ. Code § 1798.80(e)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "personal data listed in customer records statute",
+      "text": "Personal information categories listed in the California Customer Records statute"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "third-party sites",
+      "text": "Third party websites and applications (e.g., wallet providers)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cal. Civ. Code § 1798.80(e)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "personal data listed in customer records statute",
+      "text": "Personal information categories listed in the California Customer Records statute"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. third party identity verification services)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cal. Civ. Code § 1798.80(e)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "protected classifications",
+      "text": "Protected classification characteristics under California or federal law"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. third party identity verification providers)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California or federal law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial information"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "other users",
+      "text": "Other users of the Services and parties you transact with"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial information"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. customer service support vendors)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "internet or other electronic network activity",
+      "text": "Internet or other electronic network activity"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. data analytics providers and game operators)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "geolocation data",
+      "text": "Geolocation data"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. third party identity verification services)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "inferences",
+      "text": "Inferences drawn from other personal information to create a profile about a consumer"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. marketing consultants and game operators)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "professional or employment-related information",
+      "text": "Professional or employment-related information"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. applicant and recruiting software providers)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "government identifier",
+      "text": "Personal information that reveals a consumer’s social security, driver’s license, state identification card, or passport number"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. third party identity verification services)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "financial and credential data",
+      "text": "Personal information that reveals a consumer’s account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. cryptocurrency and payment vendors)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "contents of communications",
+      "text": "Personal information that reveals the contents of a consumer’s mail, email, and text messages"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "Disclosed"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclosed",
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers (e.g. customer service support vendors)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for a Business Purpose",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "in the preceding twelve months"
+     ],
+     "exceptions": [
+      "Yuga Labs is the intended recipient of the communication"
+     ],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "action": {
+      "verb": "share",
+      "text": "“shared”"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "has not",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for “cross-context behavioral advertising”",
+       "name": "cross-context behavioral advertising"
+      }
+     ],
+     "conditions": [
+      "In the preceding twelve months"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Yuga Labs"
+     },
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "action": {
+      "verb": "disclose",
+      "text": "discloses"
+     },
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "discloses",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "To perform the services or provide the goods reasonably expected by an average consumer who requests those goods or services",
+       "name": "perform services or provide goods"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-012#s16"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 78,
+  "completeness": {
+   "gaps": 230,
+   "gap_words": 2010
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 78,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 62274,
+  "completion_tokens": 34515,
+  "thinking_tokens": 0,
+  "seconds": 635.8588562011719,
+  "failures": 0
+ },
+ "seconds": 636.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

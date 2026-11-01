@@ -1,0 +1,403 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "data originating from the Google Workspace API": "data obtained through Google Workspace APIs",
+    "information": "data",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data"
+   },
+   "parents": {
+    "account details": [
+     "personal data"
+    ],
+    "application information": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "bookkeeping details": [
+     "business information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "business connection data": [
+     "business information"
+    ],
+    "business information": [
+     "personal data"
+    ],
+    "campaign interaction data": [
+     "communication data"
+    ],
+    "clicks": [
+     "online activity"
+    ],
+    "communication data": [
+     "online activity"
+    ],
+    "contact and purchase history details": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookies": [
+     "cookies and similar technology data"
+    ],
+    "cookies and similar technology data": [
+     "online activity"
+    ],
+    "credit bureau information": [
+     "financial information"
+    ],
+    "credit report": [
+     "credit bureau information"
+    ],
+    "credit score": [
+     "credit bureau information"
+    ],
+    "customer or employee information": [
+     "business information"
+    ],
+    "customer support interaction": [
+     "information about your interactions with Intuit"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device motion information": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "do not track signal": [
+     "opt-out preference signal"
+    ],
+    "driver license": [
+     "identity"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "employment data": [
+     "employment status"
+    ],
+    "employment status": [
+     "personal data"
+    ],
+    "error messages": [
+     "error reports"
+    ],
+    "expenses": [
+     "financial expenses"
+    ],
+    "financial expenses": [
+     "financial information"
+    ],
+    "financial income": [
+     "financial information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "financial statements": [
+     "financial information"
+    ],
+    "financial transactions": [
+     "financial information"
+    ],
+    "guidance provided to user": [
+     "information about your interactions with Intuit"
+    ],
+    "identity": [
+     "personal data"
+    ],
+    "income": [
+     "financial income"
+    ],
+    "information about your interactions with Intuit": [
+     "personal data"
+    ],
+    "investment information": [
+     "financial information"
+    ],
+    "invoices": [
+     "financial information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "keystrokes and key touches": [
+     "online activity"
+    ],
+    "links clicked": [
+     "clicks"
+    ],
+    "links or communications interacted with": [
+     "online activity"
+    ],
+    "log data": [
+     "online activity"
+    ],
+    "mobile app touches": [
+     "online activity"
+    ],
+    "mouse movements": [
+     "online activity"
+    ],
+    "name": [
+     "identity"
+    ],
+    "online activity": [
+     "personal data"
+    ],
+    "opt-out preference signal": [
+     "preference data"
+    ],
+    "page views": [
+     "online activity"
+    ],
+    "payment details": [
+     "financial information"
+    ],
+    "payroll details": [
+     "financial information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise geolocation": [
+     "sensitive data"
+    ],
+    "preference data": [
+     "personal data"
+    ],
+    "preferences": [
+     "preference data"
+    ],
+    "product usage information": [
+     "online activity"
+    ],
+    "recommendations": [
+     "guidance provided to user"
+    ],
+    "scrolls": [
+     "online activity"
+    ],
+    "search terms": [
+     "online activity"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "services and features interacted with": [
+     "online activity"
+    ],
+    "social media post": [
+     "user content"
+    ],
+    "social security number": [
+     "sensitive data"
+    ],
+    "tax return information": [
+     "financial information"
+    ],
+    "technical issue details": [
+     "customer support interaction"
+    ],
+    "transaction history": [
+     "financial transactions"
+    ],
+    "unique device identifier": [
+     "device information"
+    ],
+    "user content": [
+     "personal data"
+    ],
+    "user questions": [
+     "customer support interaction"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Intuit group companies": "Intuit Group Companies",
+    "partners": "commercial partner"
+   },
+   "parents": {
+    "Intuit Group Companies": [
+     "affiliate"
+    ],
+    "subsidiary": [
+     "affiliate"
+    ],
+    "affiliate": [
+     "affiliates or service providers"
+    ],
+    "service provider": [
+     "affiliates or service providers"
+    ],
+    "third party service providers": [
+     "service provider",
+     "third party"
+    ],
+    "lawyer": [
+     "legal advisor"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "card association": [
+     "third party"
+    ],
+    "collection agency": [
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "loan services provider": [
+     "third party"
+    ],
+    "payment card association member": [
+     "third party"
+    ],
+    "third-party provider": [
+     "third party"
+    ],
+    "unaffiliated third party": [
+     "third party"
+    ],
+    "TRUSTe": [
+     "third party"
+    ],
+    "government agency": [
+     "public authorities"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "credit bureau partner": "credit bureau"
+   },
+   "parents": {
+    "email provider": [
+     "communication provider"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "The Rocket Science Group LLC": "Mailchimp",
+    "first party": "Intuit"
+   },
+   "parents": {
+    "FullStory": [
+     "third party"
+    ],
+    "Medallia": [
+     "third party"
+    ],
+    "advertising partner": [
+     "business partner",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party provider": [
+     "third party"
+    ],
+    "third party service provider": [
+     "service provider",
+     "third party",
+     "third party provider"
+    ],
+    "wireless carrier": [
+     "third party"
+    ],
+    "customer": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud detection and prevention",
+    "fraud_detection": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "operations": "business operations",
+    "services": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing and advertising"
+    ],
+    "marketing": [
+     "marketing and advertising"
+    ],
+    "compliance with legal obligation": [
+     "compliance"
+    ],
+    "legal dispute resolution": [
+     "compliance"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "identifying users"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "service improvement": [
+     "research and development"
+    ],
+    "troubleshooting": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3972,
+  "completion_tokens": 1642,
+  "thinking_tokens": 0,
+  "seconds": 14.638118982315063,
+  "failures": 0
+ },
+ "seconds": 14.7
+}

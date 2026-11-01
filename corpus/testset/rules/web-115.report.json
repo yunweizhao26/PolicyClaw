@@ -1,0 +1,128 @@
+{
+ "cleaned_sha256": "web-115",
+ "text_sha256": "53926646020cf075c0a41fe78f144a28f309dc6c8c2f9f8faf9060d825db923c",
+ "site_id": "web-115",
+ "sections": 18,
+ "rules": 169,
+ "report": {
+  "sections": 18,
+  "raw_rules": 128,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on where you are located",
+      "the right to access"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-115#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicating",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "provide notice of material changes",
+       "name": "administrative or legal notices"
+      }
+     ],
+     "conditions": [
+      "in the manner and format in which we typically communicate with you in our regular course of business"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-115#s18"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 68,
+  "completeness": {
+   "gaps": 205,
+   "gap_words": 2055
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 68,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 57912,
+  "completion_tokens": 29007,
+  "thinking_tokens": 0,
+  "seconds": 352.3045299053192,
+  "failures": 0
+ },
+ "seconds": 353.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

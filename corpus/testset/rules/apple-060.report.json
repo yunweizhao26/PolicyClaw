@@ -1,0 +1,1258 @@
+{
+ "cleaned_sha256": "apple-060",
+ "text_sha256": "f422d5c3d4a3192ffdf538f66cba29b95b99b026460fa19fa06315e3dfc1504d",
+ "site_id": "apple-060",
+ "sections": 30,
+ "rules": 343,
+ "report": {
+  "sections": 30,
+  "raw_rules": 289,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "import",
+      "verb": "import"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "With your permission",
+      "Importing data is subject to the privacy policies and terms of\nGoogle Health Connect\nand\nApple HealthKit"
+     ],
+     "data": {
+      "name": "health and activity data",
+      "text": "your health and activity data"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "allows us to automatically import",
+     "purpose": [
+      {
+       "text": "to provide insights into your activities",
+       "name": "analytics"
+      },
+      {
+       "text": "improves our ability to predict your cycle",
+       "name": "analytics"
+      }
+     ],
+     "references": [
+      {
+       "text": "privacy policies and terms of\nGoogle Health Connect",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Apple HealthKit",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third party",
+      "text": "third-party services like Apple HealthKit and Google Health Connect"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide insights into your activities"
+    ],
+    "section": "apple-060#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "data": {
+      "name": "health data",
+      "text": "health data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "can allow",
+     "purpose": [
+      {
+       "text": "to provide the Services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use",
+      "You can allow us to process your health data to provide the Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "certain personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "purpose": [
+      {
+       "text": "to meet our contractual commitments to you, such as managing your Flo account and handling administrative tasks",
+       "name": "account management"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may process",
+     "purpose": [
+      {
+       "text": "to improve our Services",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use",
+      "based on our legitimate interests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nidentify and fix issues",
+       "name": "debugging"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nfraud prevention, including ensuring interactions (e.g. app-installs) are from real members, not bots",
+       "name": "fraud prevention"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nimprove content in the App",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nmonitor and analyse App performance",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nnotify you about your subscriptions",
+       "name": "communication"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nscan for vulnerabilities to ensure security",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might use",
+     "purpose": [
+      {
+       "text": "to:\nreview overall App usage trends and forecast customer retention",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may be legally required to process",
+     "purpose": [
+      {
+       "text": "to comply with applicable laws and regulations",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "Depending on the features you use"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "the personal data you provide within the App"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To support the App’s features, including tailored content, insights and materials in the App",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "user service choices",
+      "text": "the Services you choose to use (e.g. your selected mode)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To support the App’s features, including tailored content, insights and materials in the App",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "feature interaction data",
+      "text": "the App features you interact with"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To support the App’s features, including tailored content, insights and materials in the App",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "connected third-party service data",
+      "text": "information from connected third-party services (like Apple HealthKit and Google Health Connect)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third party",
+      "text": "connected third-party services (like Apple HealthKit and Google Health Connect)"
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To support the App’s features, including tailored content, insights and materials in the App",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "questionnaire responses",
+      "text": "certain information provided in onboarding questionnaires"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To support the App’s features, including tailored content, insights and materials in the App",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "cycle data",
+      "text": "your cycle data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to predict future cycles or ovulation",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "analyse",
+      "verb": "analyse",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "analyse",
+     "purpose": [
+      {
+       "text": "to offer new features and Services",
+       "name": "service provision"
+      },
+      {
+       "text": "suggest articles or materials (e.g., stories, Health Assistant, and Secret Chats) for you to read",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [
+      "Consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "device data",
+      "text": "your device data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to send reminders, like push notifications, if your subscription has expired or is about to expire",
+       "name": "communication"
+      }
+     ],
+     "conditions": [
+      "Contract"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "name",
+      "text": "your name"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To respond to your comments, questions, requests and to provide you with customer service",
+       "name": "customer support"
+      },
+      {
+       "text": "to respond to your support request or to contact you about a specific question or issue you’ve raised",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "Legitimate interest"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To respond to your comments, questions, requests and to provide you with customer service",
+       "name": "customer support"
+      },
+      {
+       "text": "to respond to your support request or to contact you about a specific question or issue you’ve raised",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "Legitimate interest"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "name",
+      "text": "your name"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To review App content, feedback and complaints to ensure the App’s clinical safety and medical accuracy",
+       "name": "clinical safety"
+      },
+      {
+       "text": "to review support requests that need our medical team’s attention",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "Legitimate interest"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "To review App content, feedback and complaints to ensure the App’s clinical safety and medical accuracy",
+       "name": "clinical safety"
+      },
+      {
+       "text": "to review support requests that need our medical team’s attention",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "Legitimate interest"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Enable",
+     "actor": {
+      "text": "AppsFlyer UK Ltd",
+      "name": "AppsFlyer"
+     },
+     "data": {
+      "text": "Information about your device model, language and operating system",
+      "name": "device information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Enable",
+      "verb": "enable"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Enable linking for Website to App onboarding journey or invite a friend or partner to Flo",
+       "name": "services"
+      },
+      {
+       "text": "To optimise marketing campaigns",
+       "name": "marketing"
+      },
+      {
+       "text": "To link accounts when using Flo for Partners",
+       "name": "services"
+      },
+      {
+       "text": "to simplify, track and improve influencers campaigns",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "AppsFlyer Privacy Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "AppsFlyer UK Ltd"
+    ],
+    "section": "apple-060#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "some of your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "in response to subpoenas, court orders, or legal processes, as required by applicable law (including to meet national security or law enforcement needs); when necessary to maintain the security and integrity of the Services or to protect any member’s security, consistent with applicable laws. In such cases, we may also delete some of your personal data (e.g., by resetting your password to prevent unauthorised access); to assert legal rights or defend against legal claims; when disclosure is authorised or requested by the member who has provided the personal data; in the event of a business acquisition, transfer or reorganisation; and depending on the situation, we may rely on legitimate interest or legal obligations as the basis for these processing activities."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may also share"
+    ],
+    "section": "apple-060#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "within one-month",
+      "You can deactivate your account at any time by following instructions in the ‘How to exercise your privacy rights’"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "How to exercise your privacy rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may contact",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact you through",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "with information about our Services, offers, promotions, rewards and events",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-060#s26"
+   }
+  ],
+  "residual_quotes": 39,
+  "quotes": 132,
+  "completeness": {
+   "gaps": 421,
+   "gap_words": 4014
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 132,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 52,
+  "cached": 0,
+  "prompt_tokens": 85192,
+  "completion_tokens": 61302,
+  "thinking_tokens": 0,
+  "seconds": 970.7339735031128,
+  "failures": 0
+ },
+ "seconds": 972.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

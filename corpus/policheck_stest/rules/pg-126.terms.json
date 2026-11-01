@@ -1,0 +1,97 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "gameplay details": "game progress",
+    "information": "data"
+   },
+   "parents": {
+    "browsing time": [
+     "browsing history"
+    ],
+    "pages visited": [
+     "browsing history"
+    ],
+    "ip address": [
+     "network information"
+    ],
+    "de-identified data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "username": [
+     "personal data"
+    ],
+    "browsing history": [
+     "data"
+    ],
+    "network information": [
+     "data"
+    ],
+    "browser type": [
+     "data"
+    ],
+    "operating system": [
+     "data"
+    ],
+    "game progress": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "law enforcement": [
+     "government agency"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "analytics-research": "analytics",
+    "legal-compliance": "legal compliance"
+   },
+   "parents": {
+    "protection of rights and property": [
+     "security"
+    ],
+    "safety": [
+     "security"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "user-account-identification": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1449,
+  "completion_tokens": 315,
+  "thinking_tokens": 0,
+  "seconds": 35.928292989730835,
+  "failures": 0
+ },
+ "seconds": 36.0
+}

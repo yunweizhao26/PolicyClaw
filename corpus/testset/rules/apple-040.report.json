@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "apple-040",
+ "text_sha256": "9800ced78aa543a9644c92ffe6b6c314f9be008c6d243ed65a5f54f41423afed",
+ "site_id": "apple-040",
+ "sections": 9,
+ "rules": 234,
+ "report": {
+  "sections": 9,
+  "raw_rules": 185,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "(automatically)"
+     ],
+     "data": {
+      "name": "gameplay data",
+      "text": "information: about the games you play"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information: about the games you play"
+    ],
+    "section": "apple-040#s3"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 73,
+  "completeness": {
+   "gaps": 200,
+   "gap_words": 2005
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 73,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 36354,
+  "completion_tokens": 31852,
+  "thinking_tokens": 0,
+  "seconds": 357.53994274139404,
+  "failures": 0
+ },
+ "seconds": 358.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

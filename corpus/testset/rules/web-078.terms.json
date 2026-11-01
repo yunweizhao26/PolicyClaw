@@ -1,0 +1,149 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing-history": "browsing history",
+    "ip address": "IP address",
+    "ip-address": "IP address",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "username": "account name",
+    "your information": "information"
+   },
+   "parents": {
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "credit card number": [
+     "financial and billing information",
+     "financial information"
+    ],
+    "financial information": [
+     "financial and billing information"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "IP address": [
+     "device and geographic information",
+     "online identifier"
+    ],
+    "hardware address": [
+     "device and geographic information",
+     "online identifier"
+    ],
+    "third party personal data": [
+     "Personal Data"
+    ],
+    "user image": [
+     "Personal Data"
+    ],
+    "community profile information": [
+     "account information"
+    ],
+    "email communications": [
+     "web and email traffic information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third party": "the third party"
+   },
+   "parents": {
+    "third-party ai powered transcription service": [
+     "service provider",
+     "the third party"
+    ],
+    "law enforcement": [
+     "public authority"
+    ],
+    "court": [
+     "public authority"
+    ],
+    "government agency": [
+     "public authority"
+    ],
+    "regulatory body": [
+     "public authority"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "data aggregator": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad network partner": [
+     "third party"
+    ],
+    "affiliates": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "supplier": [
+     "third party"
+    ],
+    "social media features": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "service provision": "provide-service",
+    "services": "provide-service"
+   },
+   "parents": {
+    "targeted advertising based upon your interests": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "functional operations": [
+     "provide-service"
+    ],
+    "billing": [
+     "business operations"
+    ],
+    "legal compliance": [
+     "business operations"
+    ],
+    "provide-service": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2526,
+  "completion_tokens": 655,
+  "thinking_tokens": 0,
+  "seconds": 10.082054376602173,
+  "failures": 0
+ },
+ "seconds": 10.2
+}

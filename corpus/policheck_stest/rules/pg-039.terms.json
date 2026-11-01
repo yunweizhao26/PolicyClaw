@@ -1,0 +1,332 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "avatar image": "avatar",
+    "cookies": "cookie",
+    "device information": "device details",
+    "personal data": "Personal Data",
+    "profile info": "profile data",
+    "social network information": "social media information",
+    "third-party application usage": "third-party app usage",
+    "unique identifier": "personal identifiers",
+    "unspecified data": "information",
+    "unspecified information": "information",
+    "user data": "data",
+    "user name": "account username",
+    "username": "account username"
+   },
+   "parents": {
+    "account username": [
+     "personal identifiers"
+    ],
+    "age range": [
+     "Personal Data"
+    ],
+    "analytics cookies": [
+     "cookie"
+    ],
+    "avatar": [
+     "profile data"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "click details": [
+     "usage patterns"
+    ],
+    "commented content info": [
+     "browsing activity"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "content": [
+     "user content"
+    ],
+    "cookie": [
+     "personal identifiers"
+    ],
+    "correspondence": [
+     "data provided by user"
+    ],
+    "country": [
+     "profile data"
+    ],
+    "data provided by user": [
+     "Personal Data"
+    ],
+    "date of birth": [
+     "personal identifiers"
+    ],
+    "device details": [
+     "personal identifiers"
+    ],
+    "domain names": [
+     "log data"
+    ],
+    "email address": [
+     "personal identifiers"
+    ],
+    "email read status": [
+     "usage patterns"
+    ],
+    "essential cookies": [
+     "cookie"
+    ],
+    "favorites": [
+     "profile data"
+    ],
+    "friends list": [
+     "social media information"
+    ],
+    "functional cookies": [
+     "cookie"
+    ],
+    "gender": [
+     "Personal Data"
+    ],
+    "genius iq points": [
+     "profile data"
+    ],
+    "interaction details": [
+     "browsing activity"
+    ],
+    "interactive features info": [
+     "data provided by user"
+    ],
+    "ip address": [
+     "personal identifiers"
+    ],
+    "isp identity": [
+     "log data"
+    ],
+    "landing pages": [
+     "browsing activity"
+    ],
+    "language": [
+     "profile data"
+    ],
+    "links clicked": [
+     "interaction details"
+    ],
+    "log data": [
+     "browsing activity"
+    ],
+    "login counts": [
+     "log data"
+    ],
+    "login timestamps": [
+     "log data"
+    ],
+    "name": [
+     "personal identifiers"
+    ],
+    "non-promotional messages": [
+     "correspondence"
+    ],
+    "number and duration of page views": [
+     "usage patterns"
+    ],
+    "online activity": [
+     "Personal Data"
+    ],
+    "password": [
+     "personal identifiers"
+    ],
+    "persistent identifier": [
+     "personal identifiers"
+    ],
+    "Personal Data": [
+     "information about you"
+    ],
+    "personal narrative": [
+     "profile data"
+    ],
+    "profile data": [
+     "Personal Data"
+    ],
+    "promotional emails": [
+     "correspondence"
+    ],
+    "referrer url": [
+     "browsing activity"
+    ],
+    "service actions": [
+     "browsing activity"
+    ],
+    "social media information": [
+     "Personal Data"
+    ],
+    "social media profile info": [
+     "social media information"
+    ],
+    "third-party app usage": [
+     "usage patterns"
+    ],
+    "transaction page details": [
+     "browsing activity"
+    ],
+    "twitter account info": [
+     "social media information"
+    ],
+    "twitter accounts you follow": [
+     "twitter account info"
+    ],
+    "twitter email address": [
+     "email address",
+     "twitter account info"
+    ],
+    "twitter username": [
+     "account username",
+     "twitter account info"
+    ],
+    "twitter verified status": [
+     "twitter account info"
+    ],
+    "unique device identifier": [
+     "device details",
+     "personal identifiers"
+    ],
+    "personal identifiers": [
+     "Personal Data"
+    ],
+    "usage patterns": [
+     "browsing activity"
+    ],
+    "user content": [
+     "data provided by user"
+    ],
+    "user profile": [
+     "profile data"
+    ],
+    "web requests": [
+     "log data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user"
+   },
+   "parents": {
+    "ad network": [
+     "service provider",
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "agent": [
+     "service provider",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "data management platform": [
+     "service provider",
+     "third party"
+    ],
+    "hosting provider": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party acquirer": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "user": [
+     "user or third party"
+    ],
+    "third party": [
+     "user or third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "customer support": [
+     "customer support and communication"
+    ],
+    "authentication": [
+     "identity-verification"
+    ],
+    "identity-verification": [
+     "verification"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "provide service": [
+     "service provision"
+    ],
+    "corporate events": [
+     "business operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3152,
+  "completion_tokens": 1372,
+  "thinking_tokens": 0,
+  "seconds": 19.82203960418701,
+  "failures": 0
+ },
+ "seconds": 19.9
+}

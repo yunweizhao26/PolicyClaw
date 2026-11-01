@@ -1,0 +1,271 @@
+{
+ "cleaned_sha256": "web-071",
+ "text_sha256": "59885af1b960e2985afd16bd725e0abaf9ad5d2a3763cfc9a956af00b9acb431",
+ "site_id": "web-071",
+ "sections": 13,
+ "rules": 220,
+ "report": {
+  "sections": 13,
+  "raw_rules": 195,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce legal or similarly significant effects concerning consumers",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-071#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-071#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "refer",
+      "verb": "refer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "To change your personal information as it relates to specific services provided by Walmart business partners or vendors for business operations, use the Contact Us section below"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "will refer",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "correct partner"
+     },
+     "references": [
+      {
+       "text": "Contact Us section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-071#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "by using the Contact Us section below and including, along with your contact details, the information you would like to access or update and any requested changes"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information described in the bullets above"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Contact Us section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-071#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Based on your residency, you may be able to request to:",
+      "by going to the footer of our website or settings section of our app and selecting the “\nYour Privacy Choices\n” link",
+      "Customers from states that require a second form of submission, currently California, Texas, and Nebraska, may also exercise the privacy rights provided to them by their state by calling 1-800-Walmart (1-800-925-6278) and saying “Privacy”"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "able to request",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "your"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-071#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "You may have the right to obtain your personal information in a portable format that allows you to transmit the personal data to another entity"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-071#s9"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 320,
+   "gap_words": 3818
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 92,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 49218,
+  "completion_tokens": 42224,
+  "thinking_tokens": 0,
+  "seconds": 358.6965289115906,
+  "failures": 0
+ },
+ "seconds": 359.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "personally identifiable information": "PII"
+   },
+   "parents": {
+    "biometric_data": [
+     "data"
+    ],
+    "erroneous data": [
+     "data"
+    ],
+    "flight_information": [
+     "data"
+    ],
+    "information you provide": [
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "photos": [
+     "data"
+    ],
+    "profile information": [
+     "data"
+    ],
+    "survey_responses": [
+     "data"
+    ],
+    "travel_documents": [
+     "data"
+    ],
+    "user_information": [
+     "data"
+    ],
+    "PII": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "dhs": [
+     "law enforcement",
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service_provision"
+   },
+   "parents": {
+    "identity_verification": [
+     "legal_compliance"
+    ],
+    "security": [
+     "legal_compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1175,
+  "completion_tokens": 269,
+  "thinking_tokens": 0,
+  "seconds": 9.045512199401855,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

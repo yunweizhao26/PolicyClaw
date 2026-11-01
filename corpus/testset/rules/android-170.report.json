@@ -1,0 +1,307 @@
+{
+ "cleaned_sha256": "android-170",
+ "text_sha256": "6f30aa41ad0747eb1d828e22400cfde110e6a262041783f505301f921839e7b8",
+ "site_id": "android-170",
+ "sections": 23,
+ "rules": 384,
+ "report": {
+  "sections": 23,
+  "raw_rules": 319,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first-party",
+      "text": "TapBlaze"
+     },
+     "conditions": [],
+     "data": {
+      "name": "survey response",
+      "text": "Information you provide in surveys"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Information you provide in surveys"
+    ],
+    "section": "android-170#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first-party",
+      "text": "TapBlaze"
+     },
+     "conditions": [],
+     "data": {
+      "name": "survey response",
+      "text": "Information you provide in surveys"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Information you provide in surveys"
+    ],
+    "section": "android-170#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first-party",
+      "text": "TapBlaze"
+     },
+     "conditions": [],
+     "data": {
+      "name": "survey response",
+      "text": "Information you provide in surveys"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Information you provide in surveys"
+    ],
+    "section": "android-170#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "For certain of our applications that allow users under the age of sixteen (16)",
+      "In that experience"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "there will be no",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-170#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "targeted advertising",
+      "verb": "target"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "For certain of our applications that allow users under the age of sixteen (16)",
+      "In that experience"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "there will be no",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-170#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "They"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "may not use",
+     "purpose": [
+      {
+       "text": "for their own marketing",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-170#s9"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "data": {
+      "name": "sensitive personal information",
+      "text": "it"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "In the limited circumstances that we process sensitive personal information as defined in the CCPA (such as usernames in combination with passwords)"
+     ],
+     "exceptions": [
+      "for disclosed and permitted business purposes for which there is not a right to limit under the CCPA"
+     ],
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "android-170#s19"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 125,
+  "completeness": {
+   "gaps": 410,
+   "gap_words": 3861
+  },
+  "unsatisfiable_guards": 9,
+  "qualifiers_without_effect": 61,
+  "translated_quotes": 125,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 78861,
+  "completion_tokens": 65148,
+  "thinking_tokens": 0,
+  "seconds": 1231.0172665119171,
+  "failures": 0
+ },
+ "seconds": 1233.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

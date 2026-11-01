@@ -1,0 +1,255 @@
+{
+ "cleaned_sha256": "apple-178",
+ "text_sha256": "39d1f1239519687f3113c86431fce9db08816832fb4f6ea9f91cf7e5ee255d96",
+ "site_id": "apple-178",
+ "sections": 21,
+ "rules": 302,
+ "report": {
+  "sections": 21,
+  "raw_rules": 237,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Grand"
+     },
+     "data": {
+      "name": "credit card number",
+      "text": "credit card"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "have access",
+      "verb": "have access"
+     },
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not have access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-178#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Grand"
+     },
+     "data": {
+      "name": "bank account information",
+      "text": "bank account data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "have access",
+      "verb": "have access"
+     },
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not have access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-178#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "by activating the respective sharing button"
+     ],
+     "exceptions": [
+      "withdraw a permanent agreement"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "allows you to agree to",
+     "purpose": [],
+     "recipient": {
+      "name": "social media service",
+      "text": "social media provider"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-178#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow us to",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "recognize you across devices",
+      "verb": "recognize"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-178#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may communicate",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate with",
+      "verb": "communicate with"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "regarding security privacy, and administrative issues related to your use of the Services",
+       "name": "administrative"
+      }
+     ],
+     "conditions": [
+      "By using the Services or providing Personal Information to us",
+      "electronically"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-178#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may attempt to notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we learn of a security system’s breach",
+      "electronically by posting a notice on the Services or sending an e-mail to you or via push notification"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-178#s16"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 205,
+   "gap_words": 2872
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 102,
+  "compile_failures": 4,
+  "fixed_structurally": 2,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 69475,
+  "completion_tokens": 47058,
+  "thinking_tokens": 0,
+  "seconds": 557.9759202003479,
+  "failures": 0
+ },
+ "seconds": 559.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

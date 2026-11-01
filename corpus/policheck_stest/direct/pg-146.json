@@ -1,0 +1,22 @@
+{
+ "policy": "pg-146",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "When you use our Services or Third-Party Mobile Applications, our servers automatically record information that your browser or the applicable Service or Third-Party Mobile Application sends (\"Log Data\").",
+   "prohibit": "Lilith does not collect any Personal Information or Non-Identifying information, other than Device ID, for non-registered users.",
+   "situation": "When a non-registered user accesses a Lilith Application or Service, generating server log data such as IP address and browser type.",
+   "reason": "The policy states server log data (non-identifying information) is automatically collected upon using Services, yet explicitly claims no information other than Device ID is collected for non-registered users.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 5927,
+  "completion_tokens": 186,
+  "thinking_tokens": 0,
+  "seconds": 2.9391324520111084,
+  "failures": 0
+ }
+}

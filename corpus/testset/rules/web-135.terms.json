@@ -1,0 +1,270 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact data",
+    "contact information": "contact data",
+    "cookies": "cookie data",
+    "device identifiers": "device identifier",
+    "information": "data",
+    "personal information": "personal data",
+    "postal address": "physical address",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "social media information": "social media data",
+    "user generated content": "user content",
+    "user-generated content": "user content",
+    "your information": "personal data"
+   },
+   "parents": {
+    "address": [
+     "contact data"
+    ],
+    "business contact information": [
+     "contact data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "physical address": [
+     "contact data"
+    ],
+    "IP address": [
+     "device identifier",
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "card expiration date": [
+     "financial information"
+    ],
+    "card verification code": [
+     "financial information"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "photo": [
+     "audio or video data"
+    ],
+    "video": [
+     "audio or video data"
+    ],
+    "voice recording": [
+     "audio",
+     "audio or video data"
+    ],
+    "audio": [
+     "audio or video data"
+    ],
+    "newsletter preferences": [
+     "communication preferences"
+    ],
+    "mail preferences": [
+     "communication preferences"
+    ],
+    "communication preferences": [
+     "user preferences"
+    ],
+    "privacy preferences": [
+     "user preferences"
+    ],
+    "confirmation message": [
+     "service communication"
+    ],
+    "transactional communications": [
+     "service communication"
+    ],
+    "promotional e-mails": [
+     "email address"
+    ],
+    "order details": [
+     "transaction details"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "health": [
+     "health information"
+    ],
+    "health information": [
+     "sensitive data"
+    ],
+    "race": [
+     "sensitive data"
+    ],
+    "ethnicity": [
+     "race"
+    ],
+    "political beliefs": [
+     "sensitive data"
+    ],
+    "political opinion": [
+     "political beliefs"
+    ],
+    "religion": [
+     "sensitive data"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "social security number": [
+     "government-issued ID"
+    ],
+    "government-issued ID": [
+     "sensitive data"
+    ],
+    "union membership": [
+     "sensitive data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "comment": [
+     "user content"
+    ],
+    "social media profile": [
+     "social media data"
+    ],
+    "interest": [
+     "interests and activities"
+    ],
+    "hobby": [
+     "interests and activities"
+    ],
+    "lifestyle": [
+     "interests and activities"
+    ],
+    "customer service correspondence": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "certain other companies": [
+     "company"
+    ],
+    "third-party advertising partner": [
+     "third party"
+    ],
+    "third party sponsor": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "third party": [
+     "others"
+    ],
+    "social networking site": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social network": "social media networking service"
+   },
+   "parents": {
+    "social media networking service": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party partner": "third party"
+   },
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "legal-defence": "legal defense",
+    "operations": "internal operations",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "third-party advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "marketing-communication": [
+     "marketing"
+    ],
+    "analytics-improvement": [
+     "analytics"
+    ],
+    "service development and analytics": [
+     "analytics"
+    ],
+    "analytics": [
+     "business-operations"
+    ],
+    "internal operations": [
+     "business-operations"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service_optimization": [
+     "analytics-improvement"
+    ],
+    "customer-service": [
+     "service provision"
+    ],
+    "vital-interests": [
+     "protection of rights"
+    ],
+    "profiling": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3952,
+  "completion_tokens": 1236,
+  "thinking_tokens": 0,
+  "seconds": 13.874672889709473,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

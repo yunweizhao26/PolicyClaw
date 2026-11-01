@@ -1,0 +1,212 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device data",
+    "personal information": "personal data",
+    "profile information": "profile data",
+    "user data": "personal data"
+   },
+   "parents": {
+    "credit card number": [
+     "financial information"
+    ],
+    "financial transaction data": [
+     "financial information"
+    ],
+    "purchase history": [
+     "financial transaction data"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "customer support communications": [
+     "customer support interactions"
+    ],
+    "customer support interactions": [
+     "customer service records"
+    ],
+    "user interactions": [
+     "data about your activity on our services"
+    ],
+    "chat messages": [
+     "user interactions"
+    ],
+    "access log": [
+     "browsing history"
+    ],
+    "date of birth": [
+     "personal details"
+    ],
+    "gender": [
+     "personal details"
+    ],
+    "ethnicity": [
+     "personal details"
+    ],
+    "religion": [
+     "personal details"
+    ],
+    "interests": [
+     "profile data"
+    ],
+    "lifestyle": [
+     "profile data"
+    ],
+    "personality details": [
+     "profile data"
+    ],
+    "preferences": [
+     "profile data"
+    ],
+    "photos": [
+     "content"
+    ],
+    "videos": [
+     "content"
+    ],
+    "testimonials": [
+     "content"
+    ],
+    "employment records": [
+     "job application data"
+    ],
+    "professional qualifications": [
+     "job application data"
+    ],
+    "references": [
+     "job application data"
+    ],
+    "background check records": [
+     "job application data"
+    ],
+    "login credentials": [
+     "registration information"
+    ],
+    "email address": [
+     "identifying information"
+    ],
+    "phone number": [
+     "identifying information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "device data": [
+     "technical data about which features you’ve used, how you’ve used them and the devices you use to access our services"
+    ],
+    "data about your activity on our services": [
+     "technical data about which features you’ve used, how you’ve used them and the devices you use to access our services"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "recruiter or third party": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "others",
+     "user"
+    ],
+    "recruiter or third party": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "advertising and marketing": "advertising",
+    "safety and security": "safety",
+    "security": "safety",
+    "user connection": "help you develop meaningful connections"
+   },
+   "parents": {
+    "advertising effectiveness": [
+     "advertising"
+    ],
+    "marketing communications": [
+     "advertising",
+     "communication"
+    ],
+    "feature development": [
+     "service improvement and development"
+    ],
+    "service improvement": [
+     "service improvement and development",
+     "service provision and improvement"
+    ],
+    "service quality improvement": [
+     "service improvement",
+     "service improvement and development"
+    ],
+    "account administration": [
+     "account administration and service provision"
+    ],
+    "service provision": [
+     "account administration and service provision",
+     "service provision and improvement",
+     "to operate and secure the services, and keep our community safe"
+    ],
+    "service improvement and development": [
+     "service provision and improvement"
+    ],
+    "fraud prevention": [
+     "fraud and illegal activity prevention"
+    ],
+    "dispute resolution": [
+     "legal compliance and dispute resolution"
+    ],
+    "legal compliance": [
+     "legal compliance and dispute resolution"
+    ],
+    "streaming": [
+     "service provision"
+    ],
+    "contests": [
+     "promotions and transactions"
+    ],
+    "terms enforcement": [
+     "safety"
+    ],
+    "fraud and illegal activity prevention": [
+     "safety"
+    ],
+    "safety": [
+     "to operate and secure the services, and keep our community safe"
+    ],
+    "surveys and market research": [
+     "service improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "help you develop meaningful connections": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2781,
+  "completion_tokens": 953,
+  "thinking_tokens": 0,
+  "seconds": 12.052983522415161,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

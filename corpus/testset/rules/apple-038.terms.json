@@ -1,0 +1,226 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifier",
+    "advertising identifiers": "ad identifier",
+    "analytics data": "analytics",
+    "gameplay information": "gameplay data",
+    "identifier derived from contact details": "identifier based on contact information",
+    "identifiers": "identifier",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account identifier": [
+     "identifier"
+    ],
+    "ad identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "advertising data": [
+     "data"
+    ],
+    "age confirmation": [
+     "personal data"
+    ],
+    "analytics": [
+     "data"
+    ],
+    "app events": [
+     "application data"
+    ],
+    "app instance identifier": [
+     "identifier",
+     "unique device identifier"
+    ],
+    "application data": [
+     "data"
+    ],
+    "authentication token": [
+     "identifier"
+    ],
+    "campaign attribution data": [
+     "advertising data"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "coarse geographic location": [
+     "location"
+    ],
+    "consent preferences": [
+     "opt-out or consent choices"
+    ],
+    "country": [
+     "coarse geographic location",
+     "location"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device and technical data": [
+     "data"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device information": [
+     "data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "financial and transaction data": [
+     "data"
+    ],
+    "full name": [
+     "personal data"
+    ],
+    "gameplay data": [
+     "data"
+    ],
+    "identifier": [
+     "personal data"
+    ],
+    "identifier based on contact information": [
+     "identifier"
+    ],
+    "interaction data": [
+     "browsing and interaction data"
+    ],
+    "ip address": [
+     "identifier"
+    ],
+    "opt-out or consent choices": [
+     "personal data"
+    ],
+    "payment receipt": [
+     "financial and transaction data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "purchase history": [
+     "financial and transaction data",
+     "transaction data"
+    ],
+    "recognized opt-out preference signals": [
+     "opt-out or consent choices"
+    ],
+    "relay address": [
+     "email address"
+    ],
+    "revenue prediction data": [
+     "analytics",
+     "inferences"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "technical logs": [
+     "device and technical data"
+    ],
+    "transaction data": [
+     "financial and transaction data"
+    ],
+    "transaction identifier": [
+     "identifier",
+     "transaction data"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "unique provider identifier": [
+     "identifier"
+    ],
+    "user data": [
+     "personal data"
+    ],
+    "uuid": [
+     "identifier",
+     "unique device identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider"
+   },
+   "parents": {
+    "advertising and mediation partners": [
+     "partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "mobile measurement partners": [
+     "partner",
+     "third party"
+    ],
+    "partner studios": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "Almedia GmbH": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "services": "service provision"
+   },
+   "parents": {
+    "account security": [
+     "security"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2169,
+  "completion_tokens": 868,
+  "thinking_tokens": 0,
+  "seconds": 11.872039079666138,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

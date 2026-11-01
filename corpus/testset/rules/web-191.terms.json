@@ -1,0 +1,277 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Personal Information": "Personal Data",
+    "biometrics": "biometric data",
+    "browsing-behavior": "browsing activity",
+    "browsing_history": "browsing activity",
+    "contact information": "contact data",
+    "contact_info": "contact data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "user id": "account username",
+    "user-generated content": "user contributions",
+    "user_content": "user contributions",
+    "website activity data": "browsing activity"
+   },
+   "parents": {
+    "account details": [
+     "information about you"
+    ],
+    "account username": [
+     "account details",
+     "identifiers",
+     "online identifier"
+    ],
+    "age": [
+     "Personal Data"
+    ],
+    "audio or video recording": [
+     "user contributions"
+    ],
+    "authorization confirmation": [
+     "proof of agent authorization"
+    ],
+    "biometric data": [
+     "sensitive personal information",
+     "sensitive_data"
+    ],
+    "browser type": [
+     "information we collect"
+    ],
+    "browsing activity": [
+     "user_activity"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "user_activity"
+    ],
+    "cookie preferences": [
+     "personal preferences"
+    ],
+    "country": [
+     "personal preferences"
+    ],
+    "date of birth": [
+     "Personal Data"
+    ],
+    "email address": [
+     "contact data",
+     "identifiers"
+    ],
+    "facial recognition data": [
+     "biometric data"
+    ],
+    "gender": [
+     "Personal Data"
+    ],
+    "government identifier": [
+     "identifiers",
+     "sensitive_data"
+    ],
+    "hardware model": [
+     "information we collect"
+    ],
+    "hashes": [
+     "information we collect"
+    ],
+    "identifiers": [
+     "Personal Data"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "information listed above": [
+     "information"
+    ],
+    "information we collect": [
+     "information"
+    ],
+    "interests": [
+     "personal preferences"
+    ],
+    "ip address": [
+     "identifiers",
+     "online identifier"
+    ],
+    "language": [
+     "personal preferences"
+    ],
+    "name": [
+     "contact data",
+     "identifiers"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "proof of agent authorization": [
+     "records"
+    ],
+    "sensitive personal information": [
+     "Personal Data"
+    ],
+    "sensitive_data": [
+     "Personal Data"
+    ],
+    "survey response": [
+     "user submission"
+    ],
+    "time zone": [
+     "personal preferences"
+    ],
+    "transaction data": [
+     "records"
+    ],
+    "user contributions": [
+     "user submission"
+    ],
+    "user favorites": [
+     "personal preferences"
+    ],
+    "user feedback": [
+     "communications"
+    ],
+    "user_activity": [
+     "information we collect"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial successor": [
+     "third party"
+    ],
+    "court": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "legal counsel": [
+     "service provider",
+     "third party"
+    ],
+    "legal proceeding parties": [
+     "third party"
+    ],
+    "public": [
+     "third party"
+    ],
+    "regulators": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "third-party age verification service providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "personalization": "personalisation",
+    "service_provision": "service provision",
+    "user account administration": "account_management"
+   },
+   "parents": {
+    "account_management": [
+     "business administration"
+    ],
+    "administrative": [
+     "business administration"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "technical support": [
+     "customer support"
+    ],
+    "customization": [
+     "personalisation"
+    ],
+    "fraud prevention": [
+     "compliance and legal protection",
+     "security"
+    ],
+    "fraud-detection": [
+     "compliance and legal protection",
+     "security"
+    ],
+    "fraud_detection": [
+     "compliance and legal protection",
+     "security"
+    ],
+    "fraud_prevention": [
+     "compliance and legal protection",
+     "security"
+    ],
+    "identity and age verification": [
+     "identity verification",
+     "security",
+     "verification"
+    ],
+    "identity and document verification": [
+     "identity verification",
+     "security",
+     "verification"
+    ],
+    "identity verification and information location": [
+     "identity verification"
+    ],
+    "identity verification": [
+     "security",
+     "verification"
+    ],
+    "legal compliance": [
+     "compliance and legal protection"
+    ],
+    "legal_compliance": [
+     "compliance and legal protection"
+    ],
+    "service_maintenance": [
+     "service provision"
+    ],
+    "service_improvement": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3061,
+  "completion_tokens": 1596,
+  "thinking_tokens": 0,
+  "seconds": 15.239871263504028,
+  "failures": 0
+ },
+ "seconds": 15.3
+}

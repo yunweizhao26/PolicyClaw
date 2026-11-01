@@ -1,0 +1,490 @@
+{
+ "cleaned_sha256": "android-009",
+ "text_sha256": "ca9e3c6ba10aaa99308b993d9af7e752c6fb73feabc2ba84b673e473cc4daf4c",
+ "site_id": "android-009",
+ "sections": 21,
+ "rules": 561,
+ "report": {
+  "sections": 21,
+  "raw_rules": 477,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "with your consent"
+     ],
+     "data": {
+      "name": "user data",
+      "text": "other information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "android-009#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "with your consent"
+     ],
+     "data": {
+      "name": "device information",
+      "text": "other information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "device",
+      "text": "your device"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "android-009#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "combining",
+      "verb": "combine"
+     },
+     "actor": {
+      "name": "marketing partners",
+      "text": "Our marketing partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "this information"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "will help",
+     "purpose": [
+      {
+       "text": "to help us to serve ads to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us to serve ads to you"
+    ],
+    "section": "android-009#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "combining",
+      "verb": "combine"
+     },
+     "actor": {
+      "name": "marketing partners",
+      "text": "Our marketing partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "data which they have collected about you elsewhere"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "will help",
+     "purpose": [
+      {
+       "text": "to help us to serve ads to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us to serve ads to you"
+    ],
+    "section": "android-009#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "target interest-based advertising to",
+      "verb": "target"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "anyone under the age of 13 or a higher age where required by local law"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly",
+     "purpose": [
+      {
+       "text": "target interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "local law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-009#s11"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nsupport game functionality, such as chat functionality or third-party social network connectivity",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nsupport game functionality, such as chat functionality or third-party social network connectivity"
+    ],
+    "section": "android-009#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nsupport purchases you made",
+       "name": "order fulfilment"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nsupport purchases you made"
+    ],
+    "section": "android-009#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nadminister your King profile or account",
+       "name": "account management"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nadminister your King profile or account"
+    ],
+    "section": "android-009#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nprovide global customer service",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nprovide global customer service"
+    ],
+    "section": "android-009#s12"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nprovide a fair gaming experience by using anti-fraud technologies such as bans or blocks of accounts",
+       "name": "fraud prevention and detection"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nprovide a fair gaming experience by using anti-fraud technologies such as bans or blocks of accounts"
+    ],
+    "section": "android-009#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in \"profiling\"",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in furtherance of decisions that produce legal or similarly significant effects"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-009#s19"
+   }
+  ],
+  "residual_quotes": 46,
+  "quotes": 201,
+  "completeness": {
+   "gaps": 406,
+   "gap_words": 4450
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 51,
+  "translated_quotes": 201,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 90283,
+  "completion_tokens": 95401,
+  "thinking_tokens": 2010,
+  "seconds": 644.6665019989014,
+  "failures": 0
+ },
+ "seconds": 647.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "pg-017",
+ "text_sha256": "e37f5d270ae51c4f98d30420b0bb9e938b94838bec0437266fc7e7f13bc5d7fa",
+ "site_id": "pg-017",
+ "sections": 19,
+ "rules": 135,
+ "report": {
+  "sections": 19,
+  "raw_rules": 126,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may choose whether or not to disclose",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "At all times"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may choose whether or not to disclose"
+    ],
+    "section": "pg-017#s10"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 74,
+  "completeness": {
+   "gaps": 113,
+   "gap_words": 1189
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 74,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 54354,
+  "completion_tokens": 24681,
+  "thinking_tokens": 0,
+  "seconds": 176.24219393730164,
+  "failures": 0
+ },
+ "seconds": 177.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "cleaned_sha256": "apple-059",
+ "text_sha256": "923fff1706fdfab010a64f91560b2fa65f4735322ca086bbd256d50f5be60f3b",
+ "site_id": "apple-059",
+ "sections": 30,
+ "rules": 557,
+ "report": {
+  "sections": 30,
+  "raw_rules": 427,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "in furtherance of decisions that produce legal or similarly significant effects"
+     ],
+     "data": {
+      "name": "unspecified personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-059#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "certain third parties that we believe can provide you with offers and promotions for products and service of interest to you",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to provide you with offers and promotions for products and service of interest to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "c. Privacy Information for Nevada Residents"
+     ],
+     "exceptions": [
+      "submit a request to record your preference to opt out by emailing us at individualrights@activision.com"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide you with offers and promotions for products and service of interest to you"
+    ],
+    "section": "apple-059#s26"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "using",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "using",
+     "purpose": [
+      {
+       "text": "to:\nadminister your Activision Account",
+       "name": "account administration"
+      },
+      {
+       "text": "to:\nprovide contests or promotions in which you have enrolled",
+       "name": "promotions"
+      },
+      {
+       "text": "to:\nsupport purchases you make",
+       "name": "fulfillment"
+      },
+      {
+       "text": "to:\nsupport game functionality",
+       "name": "service functionality"
+      },
+      {
+       "text": "to:\nprovide global customer service",
+       "name": "customer support"
+      },
+      {
+       "text": "to:\nprovide a fair gaming experience by using anti-fraud technologies such as bans or blocks of accounts",
+       "name": "fraud prevention and security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nprovide contests or promotions in which you have enrolled",
+     "to:\nsupport purchases you make",
+     "to:\nsupport game functionality",
+     "to:\nprovide global customer service",
+     "to:\nprovide a fair gaming experience by using anti-fraud technologies such as bans or blocks of accounts"
+    ],
+    "section": "apple-059#s27"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "based on your consent"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "purpose": [
+      {
+       "text": "providing:\nnewsletters, direct e-mails and surveys about our Properties or products or services that may be of interest to you",
+       "name": "marketing"
+      },
+      {
+       "text": "providing:\ntargeted ads in our mobile games",
+       "name": "targeted advertising"
+      },
+      {
+       "text": "providing:\ncertain other marketing features",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "providing:\ntargeted ads in our mobile games",
+     "providing:\ncertain other marketing features"
+    ],
+    "section": "apple-059#s27"
+   }
+  ],
+  "residual_quotes": 46,
+  "quotes": 159,
+  "completeness": {
+   "gaps": 355,
+   "gap_words": 3727
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 159,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 59,
+  "cached": 0,
+  "prompt_tokens": 100057,
+  "completion_tokens": 92554,
+  "thinking_tokens": 0,
+  "seconds": 1141.3078260421753,
+  "failures": 0
+ },
+ "seconds": 1144.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "android-184",
+ "text_sha256": "ae18615790a41b37fb08ede0d4a1e3a7e4b4df7aab60cc886671ae85607011f0",
+ "site_id": "android-184",
+ "sections": 2,
+ "rules": 59,
+ "report": {
+  "sections": 2,
+  "raw_rules": 50,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "are not displaying",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "displaying behavioral or interest-based advertising",
+      "verb": "display"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "behavioral or interest-based advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [
+      "in our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-184#s2"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 16,
+  "completeness": {
+   "gaps": 64,
+   "gap_words": 614
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 16,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 8574,
+  "completion_tokens": 8369,
+  "thinking_tokens": 0,
+  "seconds": 168.304584980011,
+  "failures": 0
+ },
+ "seconds": 168.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

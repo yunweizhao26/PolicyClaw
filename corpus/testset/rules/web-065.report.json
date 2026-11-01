@@ -1,0 +1,175 @@
+{
+ "cleaned_sha256": "web-065",
+ "text_sha256": "267adcd80281aacb1023ec0bf3983410fbef45b39219b15360d050cbcb86d6aa",
+ "site_id": "web-065",
+ "sections": 46,
+ "rules": 391,
+ "report": {
+  "sections": 46,
+  "raw_rules": 274,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Registration Information",
+      "name": "Registration Information"
+     },
+     "recipient": {
+      "text": "Service Providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to support our operational business purposes",
+       "name": "operational business purposes"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "sending an email to privacy@businessinsider.com or privacy@emarketer.com , as applicable"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to support our operational business purposes"
+    ],
+    "section": "web-065#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Registration Information",
+      "name": "Registration Information"
+     },
+     "recipient": {
+      "text": "other providers or partners that support our operational business purposes",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to support our operational business purposes",
+       "name": "operational business purposes"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "sending an email to privacy@businessinsider.com or privacy@emarketer.com , as applicable"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to support our operational business purposes"
+    ],
+    "section": "web-065#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only retain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to fulfill the purposes we collected it for",
+       "name": "fulfill-purposes"
+      }
+     ],
+     "conditions": [
+      "only for as long as necessary to fulfill the purposes we collected it for"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as necessary to fulfill the purposes we collected it for"
+    ],
+    "section": "web-065#s45"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 103,
+  "completeness": {
+   "gaps": 338,
+   "gap_words": 4203
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 103,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 82,
+  "cached": 0,
+  "prompt_tokens": 124816,
+  "completion_tokens": 57501,
+  "thinking_tokens": 0,
+  "seconds": 735.7038605213165,
+  "failures": 0
+ },
+ "seconds": 737.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "cleaned_sha256": "apple-152",
+ "text_sha256": "b59c05e028d108bf61bdb2850061064f952cb1de94f82aa3b1404c702f1cd18f",
+ "site_id": "apple-152",
+ "sections": 11,
+ "rules": 190,
+ "report": {
+  "sections": 11,
+  "raw_rules": 139,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "about: persons who use mobile application software developed or owned by the Company (hereinafter “ App ” or “ Apps ”)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "about: persons who use mobile application software developed or owned by the Company (hereinafter “ App ” or “ Apps ”)"
+    ],
+    "section": "apple-152#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "as a spam protection service",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "here",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Veraxen"
+     },
+     "conditions": [],
+     "exceptions": [
+      "providing You notice"
+     ],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-152#s9"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 70,
+  "completeness": {
+   "gaps": 285,
+   "gap_words": 3497
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 70,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 46346,
+  "completion_tokens": 31105,
+  "thinking_tokens": 0,
+  "seconds": 429.62244749069214,
+  "failures": 0
+ },
+ "seconds": 430.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

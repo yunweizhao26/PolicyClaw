@@ -1,0 +1,280 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing and interaction data": "Mobile/Online Activity Data",
+    "device data": "Device Data",
+    "device information": "Device Data",
+    "online activity": "Mobile/Online Activity Data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account details": [
+     "account information",
+     "personal data"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "account number": [
+     "account details",
+     "account information"
+    ],
+    "account password": [
+     "login credentials"
+    ],
+    "account username": [
+     "login credentials"
+    ],
+    "additional information": [
+     "information"
+    ],
+    "advertising identifier": [
+     "Device Data",
+     "tracking technologies"
+    ],
+    "analytics data": [
+     "tracking data"
+    ],
+    "Mobile/Online Activity Data": [
+     "personal data"
+    ],
+    "browsing history": [
+     "Mobile/Online Activity Data"
+    ],
+    "citizenship": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "communication data": [
+     "personal data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "credit card number": [
+     "payment card details"
+    ],
+    "credit history": [
+     "credit report information",
+     "financial information"
+    ],
+    "credit report information": [
+     "financial information"
+    ],
+    "credit score": [
+     "credit report information",
+     "financial information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "Device Data": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "employment application data": [
+     "personal data"
+    ],
+    "family members": [
+     "personal data"
+    ],
+    "feedback": [
+     "communication data"
+    ],
+    "financial balance": [
+     "account details",
+     "financial information"
+    ],
+    "financial transaction history": [
+     "account details",
+     "financial information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "government identifier": [
+     "personal data"
+    ],
+    "interests": [
+     "preferences"
+    ],
+    "likes": [
+     "preferences"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "login credentials": [
+     "account details",
+     "account information"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "mobile activity": [
+     "Mobile/Online Activity Data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "network activity log": [
+     "Mobile/Online Activity Data"
+    ],
+    "payment card details": [
+     "financial information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "pixel tags": [
+     "tracking technologies"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "posts": [
+     "communication data"
+    ],
+    "preferences": [
+     "personal data"
+    ],
+    "professional background": [
+     "personal data"
+    ],
+    "profile picture": [
+     "personal data"
+    ],
+    "property information": [
+     "personal data"
+    ],
+    "purchase history": [
+     "financial transaction history"
+    ],
+    "security question": [
+     "login credentials"
+    ],
+    "survey responses": [
+     "personal data"
+    ],
+    "tracking data": [
+     "Mobile/Online Activity Data"
+    ],
+    "travel details": [
+     "personal data"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "merchants authorizing credit card transactions": [
+     "merchants and affiliate networks"
+    ],
+    "third-party payment processors": [
+     "service providers",
+     "third party"
+    ],
+    "other third parties": [
+     "third party"
+    ],
+    "relevant third parties": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "credit reporting agencies": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "credit reporting agencies": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service providers": "service provider",
+    "third-party providers": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "marketing companies": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party plugin": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation",
+    "service provision": "provide-service"
+   },
+   "parents": {
+    "access_control": [
+     "security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "hosting and infrastructure": [
+     "provide-service"
+    ],
+    "complete-transaction": [
+     "provide-service"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "debugging": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2725,
+  "completion_tokens": 1153,
+  "thinking_tokens": 0,
+  "seconds": 12.410753011703491,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

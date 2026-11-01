@@ -1,0 +1,22 @@
+{
+ "policy": "pg-021",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "This permission allows APPSTARSTUDIOS to view app data (image, text, audio etc..) stored on their SD card.",
+   "prohibit": "We won’t access other file on SD card.",
+   "situation": "When APPSTARSTUDIOS views app data such as image, text, or audio stored on the user's SD card outside of saving an introduction picture.",
+   "reason": "Section 8 states the app views various app data files on the SD card, directly contradicting the blanket guarantee in Section 34 that it will not access other files on the SD card.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2251,
+  "completion_tokens": 140,
+  "thinking_tokens": 0,
+  "seconds": 2.365741014480591,
+  "failures": 0
+ }
+}

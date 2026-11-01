@@ -1,0 +1,196 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "unspecified": "information",
+    "user profile": "inferences and profiles"
+   },
+   "parents": {
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "user name": [
+     "name"
+    ],
+    "third party name": [
+     "name"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "telephone number": [
+     "contact details"
+    ],
+    "mobile phone number": [
+     "contact details",
+     "telephone number"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "third party email address": [
+     "email address"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "cookies": [
+     "other local storage technologies"
+    ],
+    "purchase history": [
+     "purchases and interactions"
+    ],
+    "browser type": [
+     "information about your browser and device"
+    ],
+    "operating system": [
+     "information about your browser and device"
+    ],
+    "hardware model": [
+     "information about your browser and device"
+    ],
+    "device type": [
+     "information about your browser and device"
+    ],
+    "device identifier": [
+     "identifiers",
+     "information about your browser and device"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "content viewed": [
+     "browsing and interaction data"
+    ],
+    "user profile and posts": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "business partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Member Clubs": [
+     "third party"
+    ],
+    "Social networking services": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "NHL",
+    "social network": "Social networking services"
+   },
+   "parents": {
+    "Mobile location analytics providers": [
+     "service provider",
+     "third party"
+    ],
+    "Rogers": [
+     "third party"
+    ],
+    "Social networking services": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation",
+    "user identification": "identity verification"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service provision": [
+     "service operation and improvement"
+    ],
+    "service quality": [
+     "service operation and improvement"
+    ],
+    "user service provision": [
+     "service provision"
+    ],
+    "preferences": [
+     "personalisation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3016,
+  "completion_tokens": 819,
+  "thinking_tokens": 0,
+  "seconds": 10.266836643218994,
+  "failures": 0
+ },
+ "seconds": 10.4
+}

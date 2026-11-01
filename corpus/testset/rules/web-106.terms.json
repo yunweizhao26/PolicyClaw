@@ -1,0 +1,156 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing and interaction data": "browsing activity",
+    "contact information": "contact details",
+    "language settings": "language preference",
+    "professional background": "employment information",
+    "profiling information": "inferences",
+    "user data": "information about you",
+    "work or education history": "employment information"
+   },
+   "parents": {
+    "account number": [
+     "account details"
+    ],
+    "account password": [
+     "account details"
+    ],
+    "account username": [
+     "account details"
+    ],
+    "bank account details": [
+     "financial or commercial information",
+     "payment data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browser type": [
+     "browser information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "website activity": [
+     "browsing activity"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "credit status": [
+     "financial or commercial information"
+    ],
+    "job title": [
+     "employment information"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "language preference": [
+     "preferences"
+    ],
+    "online personal data": [
+     "personal data"
+    ],
+    "payment card number": [
+     "payment data"
+    ],
+    "payment data": [
+     "financial or commercial information"
+    ],
+    "purchase history": [
+     "financial or commercial information"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal data"
+    ],
+    "religious beliefs": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "view date and time": [
+     "date and time"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other Red Hat entities": [
+     "affiliate"
+    ],
+    "prospective or actual purchasers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "commercial partner": "business partner"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "marketing"
+    ],
+    "website improvement": [
+     "service improvement",
+     "service operation and improvement"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "marketing": [
+     "operational activities"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2165,
+  "completion_tokens": 699,
+  "thinking_tokens": 0,
+  "seconds": 10.044716119766235,
+  "failures": 0
+ },
+ "seconds": 10.1
+}

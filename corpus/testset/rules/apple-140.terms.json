@@ -1,0 +1,340 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "bank statements": "bank account details",
+    "financial details": "financial data",
+    "financial information": "financial data",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "sensitive information": "sensitive data",
+    "ssn": "social security number"
+   },
+   "parents": {
+    "account credentials": [
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account history": [
+     "account information"
+    ],
+    "account identifier": [
+     "account information"
+    ],
+    "account preferences": [
+     "account information"
+    ],
+    "approximate or precise geolocation information": [
+     "geolocation"
+    ],
+    "coarse geolocation": [
+     "approximate or precise geolocation information",
+     "geolocation"
+    ],
+    "precise geolocation": [
+     "approximate or precise geolocation information",
+     "geolocation"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "bank account balance": [
+     "bank account details"
+    ],
+    "bank account number": [
+     "bank account details"
+    ],
+    "bank account details": [
+     "financial data"
+    ],
+    "billing details": [
+     "financial data"
+    ],
+    "card information": [
+     "financial data"
+    ],
+    "credit card number": [
+     "card information"
+    ],
+    "payment card number": [
+     "card information"
+    ],
+    "credit history": [
+     "financial data"
+    ],
+    "credit report": [
+     "credit history"
+    ],
+    "financial transaction history": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "financial data"
+    ],
+    "income": [
+     "financial data"
+    ],
+    "call records": [
+     "data"
+    ],
+    "chat logs": [
+     "chatbot communications"
+    ],
+    "chatbot communications": [
+     "interactions with website features"
+    ],
+    "cover letter": [
+     "employment history"
+    ],
+    "resume or cv": [
+     "employment history"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "business contact information": [
+     "contact details"
+    ],
+    "authorized agent contact information": [
+     "contact details"
+    ],
+    "cookies": [
+     "device information"
+    ],
+    "device motion information": [
+     "device information"
+    ],
+    "IP address": [
+     "device information"
+    ],
+    "driver's license number": [
+     "sensitive data"
+    ],
+    "social security number": [
+     "sensitive data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "criminal history": [
+     "sensitive data"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "email communications": [
+     "message content"
+    ],
+    "photos": [
+     "user-provided content"
+    ],
+    "video": [
+     "user-provided content"
+    ],
+    "voice recording": [
+     "user-provided content"
+    ],
+    "voicemails": [
+     "voice recording"
+    ],
+    "form data": [
+     "user-provided content"
+    ],
+    "social media posts": [
+     "user-provided content"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "employer name": [
+     "employment history"
+    ],
+    "job title": [
+     "employment history"
+    ],
+    "customer status": [
+     "account information"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "consumer information": [
+     "data"
+    ],
+    "non-personally identifiable information": [
+     "data"
+    ],
+    "unspecified data": [
+     "data"
+    ],
+    "personal data categories": [
+     "data"
+    ],
+    "personal data collection purpose": [
+     "data"
+    ],
+    "personal data sources categories": [
+     "data"
+    ],
+    "personal data third parties categories": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "non-affiliated third party"
+   },
+   "parents": {
+    "acquirer": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "affiliate": [
+     "recipient"
+    ],
+    "banking partner": [
+     "financial institution",
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "consumer reporting agency": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "financial institution": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "law enforcement": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "merchant": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "non-affiliated third party": [
+     "recipient"
+    ],
+    "other user": [
+     "non-affiliated third party",
+     "recipient",
+     "user"
+    ],
+    "service provider": [
+     "non-affiliated third party",
+     "recipient"
+    ],
+    "user": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "business representative": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "data processor"
+   },
+   "parents": {
+    "third-party service provider": [
+     "data processor",
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "financial institution": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud detection and prevention",
+    "fraud_prevention_and_security": "fraud detection and prevention",
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "dispute resolution": [
+     "customer support",
+     "legal claim or proceeding"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "fraud_detection": [
+     "fraud detection and prevention"
+    ],
+    "fulfillment": [
+     "fulfillment of contractual obligations"
+    ],
+    "fulfillment of contractual obligations": [
+     "compliance"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service improvement": [
+     "research and development"
+    ],
+    "service_optimization": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "customer support"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3167,
+  "completion_tokens": 1506,
+  "thinking_tokens": 0,
+  "seconds": 16.08018159866333,
+  "failures": 0
+ },
+ "seconds": 16.2
+}

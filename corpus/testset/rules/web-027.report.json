@@ -1,0 +1,283 @@
+{
+ "cleaned_sha256": "web-027",
+ "text_sha256": "c9787a344f0a6a4f8a927f3113e58306d5669c781ba5b2609c7ebd3b1bd7d3c9",
+ "site_id": "web-027",
+ "sections": 26,
+ "rules": 369,
+ "report": {
+  "sections": 26,
+  "raw_rules": 335,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Stripe or Stripe representatives"
+     },
+     "data": {
+      "name": "calls",
+      "text": "Calls with Stripe or Stripe representatives"
+     },
+     "action": {
+      "text": "transcribed",
+      "verb": "transcribe"
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may be transcribed",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be transcribed"
+    ],
+    "section": "web-027#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "retain the right",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about the Services you receive (like support and important legal notices)",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "even if you opt out of receiving marketing-related communications from us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-027#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to",
+     "actor": {
+      "text": "Stripe",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Brazil",
+      "Brazilian residents, for whom the Lei Geral de Proteção de Dados Pessoais (“LGPD”) applies",
+      "If the LGPD is applicable to the processing of your Personal Data",
+      "you may have the right to:\nConfirm the existence of the data processing;\nAccess your Personal Data"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Lei Geral de Proteção de Dados Pessoais (“LGPD”)",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 18 of the LGPD",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-027#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "Stripe",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data Stripe holds related to you",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Canada",
+      "You have the right to request access or rectification of the Personal Data Stripe holds related to you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-027#s19"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you • ask Stripe to process a payment for goods or services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you • ask Stripe to process a payment for goods or services"
+    ],
+    "section": "web-027#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "when you • provide bank account information to Stripe using Financial Connections"
+     ],
+     "data": {
+      "name": "bank account information",
+      "text": "bank account information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you • provide bank account information to Stripe using Financial Connections"
+    ],
+    "section": "web-027#s25"
+   }
+  ],
+  "residual_quotes": 45,
+  "quotes": 179,
+  "completeness": {
+   "gaps": 535,
+   "gap_words": 5424
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 38,
+  "translated_quotes": 179,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 93725,
+  "completion_tokens": 64524,
+  "thinking_tokens": 0,
+  "seconds": 689.3109502792358,
+  "failures": 0
+ },
+ "seconds": 691.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

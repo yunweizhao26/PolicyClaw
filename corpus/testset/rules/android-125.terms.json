@@ -1,0 +1,104 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "PII",
+    "personal_information": "PII",
+    "pii": "PII"
+   },
+   "parents": {
+    "address": [
+     "PII"
+    ],
+    "date_of_birth": [
+     "PII"
+    ],
+    "email": [
+     "PII"
+    ],
+    "gender": [
+     "PII"
+    ],
+    "name": [
+     "PII"
+    ],
+    "password": [
+     "PII"
+    ],
+    "phone_number": [
+     "PII"
+    ],
+    "user_id": [
+     "non-personally identifiable information"
+    ],
+    "social network activity": [
+     "service usage information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "dispute_resolution": "dispute resolution",
+    "legal_compliance": "legal compliance",
+    "service_improvement": "service improvement",
+    "service_update": "service update notices"
+   },
+   "parents": {
+    "advertising": [
+     "personalisation"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "enforcing terms": [
+     "legal compliance"
+    ],
+    "service security": [
+     "legal compliance"
+    ],
+    "service quality": [
+     "service improvement"
+    ],
+    "service update notices": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1929,
+  "completion_tokens": 690,
+  "thinking_tokens": 0,
+  "seconds": 13.100148439407349,
+  "failures": 0
+ },
+ "seconds": 13.2
+}

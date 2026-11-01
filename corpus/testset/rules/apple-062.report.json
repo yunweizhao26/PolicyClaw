@@ -1,0 +1,209 @@
+{
+ "cleaned_sha256": "apple-062",
+ "text_sha256": "57e0b0fb31809795874dd727ea36c8601da75aa36a53a786cfbab887f3323e32",
+ "site_id": "apple-062",
+ "sections": 22,
+ "rules": 258,
+ "report": {
+  "sections": 22,
+  "raw_rules": 215,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "credit card number",
+      "text": "your credit card information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "nor have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-062#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "For some of our Games"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "for the purposes of measuring performance and optimizing our advertising campaigns",
+       "name": "analytics"
+      },
+      {
+       "text": "displaying advertisements",
+       "name": "advertising"
+      },
+      {
+       "text": "conducting analysis to improve our services",
+       "name": "research"
+      },
+      {
+       "text": "for fraud prevention purposes",
+       "name": "fraud prevention"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-062#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not transfer",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "Playgendary’s affiliates, when such transfer within group of companies is legally permitted and to the extent necessary for the execution of the application process."
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Playgendary’s affiliates, when such transfer within group of companies is legally permitted and to the extent necessary for the execution of the application process."
+    ],
+    "section": "apple-062#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Right to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data we store about you",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "check",
+      "verb": "check"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Some of these rights may be subject to some exceptions or limitations",
+      "following the instructions below or sending us relevant requests to\n[email protected]",
+      "by loading Terms &Privacy from your Game settings and following instructions in section Request a Summary of Personal Data in Privacy Policy"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "section Request a Summary of Personal Data in Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-062#s12"
+   }
+  ],
+  "residual_quotes": 47,
+  "quotes": 131,
+  "completeness": {
+   "gaps": 332,
+   "gap_words": 3732
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 131,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 79265,
+  "completion_tokens": 50676,
+  "thinking_tokens": 0,
+  "seconds": 874.8134367465973,
+  "failures": 0
+ },
+ "seconds": 876.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

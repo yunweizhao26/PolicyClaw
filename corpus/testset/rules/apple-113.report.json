@@ -1,0 +1,347 @@
+{
+ "cleaned_sha256": "apple-113",
+ "text_sha256": "5785682a8f44d241312f1603a0fbdaa8f1adb68c705e10438c92523a32b9405b",
+ "site_id": "apple-113",
+ "sections": 21,
+ "rules": 204,
+ "report": {
+  "sections": 21,
+  "raw_rules": 168,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "reviewed",
+     "actor": {
+      "text": "ESRB Privacy Certified",
+      "name": "Entertainment Software Rating Board"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reviewed",
+      "verb": "review"
+     },
+     "operation": "consultation",
+     "purpose": [
+      {
+       "text": "To help protect your privacy",
+       "name": "security"
+      },
+      {
+       "text": "to meet established online information collection, use, and disclosure practices",
+       "name": "compliance"
+      }
+     ],
+     "conditions": [
+      "all areas of our Platforms where this Privacy Policy is posted"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "https://www.esrb.org/privacy-certified-seals/",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-113#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensor data",
+      "text": "This data"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "never shared",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "third party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "never shared"
+    ],
+    "section": "apple-113#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Budge Studios"
+     },
+     "conditions": [
+      "through our Apps"
+     ],
+     "data": {
+      "name": "photograph",
+      "text": "photos, videos, or audio files that contain children's images or voices"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not share"
+    ],
+    "section": "apple-113#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "persistent identifier",
+      "text": "persistent identifiers (such as IDFA or unique device IDs) that track users across different websites or apps"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "do not store",
+     "purpose": [
+      {
+       "text": "for targeted advertising",
+       "name": "targeted advertising"
+      },
+      {
+       "text": "profiling",
+       "name": "profiling"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not store"
+    ],
+    "section": "apple-113#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "behavioral advertising",
+      "verb": "advertise"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "behavioral advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "to children"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-113#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "You have the right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "inaccuracies in your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "You have the right to: (iii) correct inaccuracies in your personal data"
+     ],
+     "exceptions": [
+      "exceptions"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have the right to: (iii) correct inaccuracies in your personal data"
+    ],
+    "section": "apple-113#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "You have the right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "You have the right to: (iv) delete your personal data"
+     ],
+     "exceptions": [
+      "exceptions"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have the right to: (iv) delete your personal data"
+    ],
+    "section": "apple-113#s19"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 87,
+  "completeness": {
+   "gaps": 340,
+   "gap_words": 3691
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 87,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 38,
+  "cached": 0,
+  "prompt_tokens": 65087,
+  "completion_tokens": 39621,
+  "thinking_tokens": 0,
+  "seconds": 736.9905915260315,
+  "failures": 0
+ },
+ "seconds": 738.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

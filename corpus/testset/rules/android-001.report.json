@@ -1,0 +1,744 @@
+{
+ "cleaned_sha256": "android-001",
+ "text_sha256": "ca339b2cf85134bc70c9bf25da97b91b324c2348ff987c91b6a891bff1680e50",
+ "site_id": "android-001",
+ "sections": 57,
+ "rules": 1215,
+ "report": {
+  "sections": 57,
+  "raw_rules": 1061,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data about users",
+      "name": "user profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from Microsoft subsidiaries",
+      "name": "affiliates"
+     },
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "use in-product controls, including those in your web browser or operating system to limit or prevent certain types of data collection"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from Microsoft subsidiaries"
+    ],
+    "section": "android-001#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data about users",
+      "name": "user profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from third parties",
+      "name": "third parties"
+     },
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "use in-product controls, including those in your web browser or operating system to limit or prevent certain types of data collection"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from third parties"
+    ],
+    "section": "android-001#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to:\nAdvertise and market to you, which includes sending promotional communications, personalized advertising, and presenting relevant offers",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nAdvertise and market to you, which includes sending promotional communications, personalized advertising, and presenting relevant offers"
+    ],
+    "section": "android-001#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "them"
+     },
+     "conditions": [
+      "in accordance with their privacy policies"
+     ],
+     "data": {
+      "name": "browsing activity",
+      "text": "information about your activities across websites, apps, or online services"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "may enable them to combine",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "their privacy policies",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may enable them to combine"
+    ],
+    "section": "android-001#s12"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not include",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "a user’s name",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "as Diagnostic data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as Diagnostic data"
+    ],
+    "section": "android-001#s25"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not include",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "as Diagnostic data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as Diagnostic data"
+    ],
+    "section": "android-001#s25"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not include",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the content of the user’s files",
+      "name": "file content"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "as Diagnostic data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as Diagnostic data"
+    ],
+    "section": "android-001#s25"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not include",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information about apps unrelated to Microsoft 365 or Office",
+      "name": "app information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "include",
+      "verb": "include"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "as Diagnostic data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as Diagnostic data"
+    ],
+    "section": "android-001#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Microsoft Launcher"
+     },
+     "conditions": [
+      "To use Microsoft Launcher, the application must be installed on your Android device, and permissions are required to enable the following features:",
+      "when you grant Microsoft Launcher permission to access your location information"
+     ],
+     "data": {
+      "name": "location",
+      "text": "your location information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "access",
+     "purpose": [
+      {
+       "text": "to receive local curated news",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to receive local curated news"
+    ],
+    "section": "android-001#s27"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Microsoft"
+     },
+     "conditions": [
+      "To use Microsoft Launcher, the application must be installed on your Android device, and permissions are required to enable the following features:",
+      "when you provide your zip code"
+     ],
+     "data": {
+      "name": "postal code",
+      "text": "your zip code"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "provide",
+     "purpose": [
+      {
+       "text": "to receive the latest weather information on your home screen with MSN Weather",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you provide your zip code"
+    ],
+    "section": "android-001#s27"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may combine",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Web activity",
+      "name": "browsing history"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "other Microsoft products",
+      "name": "first party"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "to personalize offers",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [
+      "if you give Microsoft Edge permission to collect your web activity for personalized search, ads, and news"
+     ],
+     "exceptions": [
+      "turning off Personalized offers on Windows"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may combine"
+    ],
+    "section": "android-001#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may combine",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Info about your use of other Microsoft products and services, including Microsoft Bing, Microsoft 365, XBOX, and Microsoft websites, such as MSN.com",
+      "name": "service usage"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "other Microsoft products",
+      "name": "first party"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "to personalize offers",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "turning off Personalized offers on Windows"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may combine"
+    ],
+    "section": "android-001#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may combine",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Subscription and purchase history",
+      "name": "purchase history"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "your account",
+      "name": "user account"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "to personalize offers",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "turning off Personalized offers on Windows"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may combine"
+    ],
+    "section": "android-001#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may combine",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Data from third-party websites which may be shared with Microsoft",
+      "name": "third-party website data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "third-party websites",
+      "name": "third party"
+     },
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "operation": "alignment or combination",
+     "purpose": [
+      {
+       "text": "to personalize offers",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "turning off Personalized offers on Windows"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may combine"
+    ],
+    "section": "android-001#s39"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "stored",
+     "actor": {
+      "text": "Microsoft",
+      "name": "Microsoft"
+     },
+     "data": {
+      "text": "Tailored experiences data",
+      "name": "tailored experiences data"
+     },
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "stored with",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to help us recognize an individual user on an individual device and understand the device’s service issues and use patterns",
+       "name": "understand the device service issues and use patterns"
+      }
+     ],
+     "conditions": [
+      "with one or more unique identifiers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us recognize an individual user on an individual device and understand the device’s service issues and use patterns"
+    ],
+    "section": "android-001#s40"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sending",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "screenshots of the pop-up",
+      "name": "screenshot"
+     },
+     "recipient": {
+      "text": "Microsoft",
+      "name": "first party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sending",
+      "verb": "send"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to help us optimize Microsoft PC Manager's pop-up management feature",
+       "name": "service-improvement"
+      }
+     ],
+     "conditions": [
+      "If you agree to join the “Microsoft PC Manager Pop-up Plan,”",
+      "when you block pop-up windows through custom block"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us optimize Microsoft PC Manager's pop-up management feature"
+    ],
+    "section": "android-001#s50"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "retained",
+     "actor": {
+      "text": "Microsoft",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Screenshots",
+      "name": "screenshot"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retained",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "only for a short period of time"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for a short period of time"
+    ],
+    "section": "android-001#s50"
+   }
+  ],
+  "residual_quotes": 109,
+  "quotes": 488,
+  "completeness": {
+   "gaps": 1527,
+   "gap_words": 16979
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 26,
+  "translated_quotes": 488,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 114,
+  "cached": 0,
+  "prompt_tokens": 231068,
+  "completion_tokens": 193112,
+  "thinking_tokens": 0,
+  "seconds": 1353.9536492824554,
+  "failures": 0
+ },
+ "seconds": 1359.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

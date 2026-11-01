@@ -1,0 +1,113 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable data": "identifying information"
+   },
+   "parents": {
+    "age": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "country": [
+     "demographic data"
+    ],
+    "credit card number": [
+     "payment data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "latitude": [
+     "gps coordinates"
+    ],
+    "longitude": [
+     "gps coordinates"
+    ],
+    "gps coordinates": [
+     "personal data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact list": [
+     "personal data"
+    ],
+    "payment data": [
+     "personal data"
+    ],
+    "user content": [
+     "personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "visited pages": [
+     "usage data"
+    ],
+    "referrer url": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "business partners": [
+     "third party"
+    ],
+    "social media networks": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics": [
+     "analytics or product improvement"
+    ],
+    "security": [
+     "security or fraud prevention"
+    ],
+    "customer support": [
+     "user communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1705,
+  "completion_tokens": 363,
+  "thinking_tokens": 0,
+  "seconds": 11.993843793869019,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

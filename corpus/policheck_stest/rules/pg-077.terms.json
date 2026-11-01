@@ -1,0 +1,85 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "browsing and interaction data": [
+     "user data"
+    ],
+    "connection time": [
+     "connection details"
+    ],
+    "interaction data": [
+     "browsing and interaction data"
+    ],
+    "messages": [
+     "user-content"
+    ],
+    "user-content": [
+     "user-provided information"
+    ],
+    "user-provided information": [
+     "user data"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google Firebase": [
+     "Google"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "google": [
+     "other websites and apps"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "commercial"
+    ],
+    "marketing": [
+     "commercial"
+    ],
+    "payment": [
+     "commercial"
+    ],
+    "account-management": [
+     "service-operation"
+    ],
+    "customer-support": [
+     "service-operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1419,
+  "completion_tokens": 264,
+  "thinking_tokens": 0,
+  "seconds": 7.780219554901123,
+  "failures": 0
+ },
+ "seconds": 7.9
+}

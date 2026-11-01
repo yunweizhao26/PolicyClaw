@@ -1,0 +1,351 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising_identifier": "advertising identifier",
+    "device_identifier": "device identifier",
+    "email-address": "email address",
+    "ip address": "IP address",
+    "ip-address": "IP address",
+    "personal information": "personal data",
+    "personal-data": "personal data",
+    "personal_data": "personal data",
+    "postal-address": "postal address",
+    "postal_address": "postal address",
+    "social_security_number": "social security number",
+    "ssn": "social security number",
+    "user consent state": "consent_status"
+   },
+   "parents": {
+    "city-level location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "Physical location or movements": [
+     "location"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "hardware or device identifiers": [
+     "device identifier"
+    ],
+    "device identification number": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "IP address": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "phone_number": [
+     "identifiers"
+    ],
+    "account-name": [
+     "identifiers"
+    ],
+    "username": [
+     "identifiers"
+    ],
+    "social security number": [
+     "identifiers"
+    ],
+    "drivers_license_or_state_id": [
+     "identifiers"
+    ],
+    "passport_number": [
+     "identifiers"
+    ],
+    "online-identifier": [
+     "identifiers"
+    ],
+    "unique-identifier": [
+     "identifiers"
+    ],
+    "pseudonym": [
+     "identifiers"
+    ],
+    "browsing history": [
+     "internet activity"
+    ],
+    "search history": [
+     "internet activity"
+    ],
+    "consumer interaction with website, application, or advertisement": [
+     "internet activity"
+    ],
+    "credit_card_number": [
+     "financial_information"
+    ],
+    "debit_card_number": [
+     "financial_information"
+    ],
+    "bank_account_number": [
+     "financial_information"
+    ],
+    "financial_information": [
+     "sensitive or financial information"
+    ],
+    "health_information": [
+     "sensitive or financial information"
+    ],
+    "health_insurance_information": [
+     "financial_information"
+    ],
+    "insurance_policy_number": [
+     "financial_information"
+    ],
+    "age": [
+     "protected classification characteristics"
+    ],
+    "gender": [
+     "protected classification characteristics"
+    ],
+    "employment_history": [
+     "Current or past job history or performance evaluations"
+    ],
+    "products or services purchased, obtained, or considered": [
+     "commercial information"
+    ],
+    "purchasing or consuming tendencies": [
+     "commercial information"
+    ],
+    "personal property records": [
+     "commercial information"
+    ],
+    "in-game statistics": [
+     "gameplay analytics"
+    ],
+    "game scores and achievements": [
+     "in-game statistics"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "AdColony": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "AdMob": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "AppLovin": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Chartboost": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Facebook": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Flurry": [
+     "service providers",
+     "third party"
+    ],
+    "Fyber": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Google": [
+     "service providers",
+     "third party"
+    ],
+    "Google Firebase": [
+     "service providers",
+     "third party"
+    ],
+    "InMobi": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Mintegral": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Smaato": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Tapjoy": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Unity": [
+     "service providers",
+     "third party"
+    ],
+    "Vungle": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "Zendesk": [
+     "service providers",
+     "third party"
+    ],
+    "advertising partners": [
+     "service providers",
+     "third party"
+    ],
+    "data aggregators": [
+     "third party"
+    ],
+    "ironSource": [
+     "advertising partners",
+     "service providers",
+     "third party"
+    ],
+    "other partners": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "operating_system": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertising companies",
+    "first_party": "first party"
+   },
+   "parents": {
+    "Apple Game Center": [
+     "platform services"
+    ],
+    "Google Play Services": [
+     "platform services"
+    ],
+    "advertising companies": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "mobile platform providers": [
+     "third party"
+    ],
+    "platform services": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "support": "customer support",
+    "targeted_advertising": "targeted advertising",
+    "user support": "customer support"
+   },
+   "parents": {
+    "advertising_effectiveness": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "personalization and targeted advertising"
+    ],
+    "research": [
+     "analytics or research",
+     "research and development"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "survey": [
+     "analytics or research"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security"
+    ],
+    "fraud_detection": [
+     "fraud prevention and security"
+    ],
+    "payment processing": [
+     "payment and fraud prevention"
+    ],
+    "troubleshooting": [
+     "security"
+    ],
+    "order delivery": [
+     "fulfillment"
+    ],
+    "sweepstakes": [
+     "fulfillment"
+    ],
+    "user verification": [
+     "legal compliance"
+    ],
+    "customer support": [
+     "service provision",
+     "service provision and personalization"
+    ],
+    "personalization": [
+     "personalization and targeted advertising",
+     "service provision and personalization"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "social_network": [
+     "social-network integration"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4401,
+  "completion_tokens": 1712,
+  "thinking_tokens": 0,
+  "seconds": 16.93076205253601,
+  "failures": 0
+ },
+ "seconds": 17.1
+}

@@ -1,0 +1,168 @@
+{
+ "cleaned_sha256": "web-010",
+ "text_sha256": "ae9c5d270646738f412937caa47900ac8cf4531ad3be680b5ef4086b18b62142",
+ "site_id": "web-010",
+ "sections": 22,
+ "rules": 320,
+ "report": {
+  "sections": 22,
+  "raw_rules": 235,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data that relates to you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You also have the right to access",
+      "which is processed under the Data Privacy Framework"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Data Privacy Framework",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "section 4 above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-010#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "Google",
+      "name": "Google"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "allows you to install a\nGoogle Analytics\nOpt-out Browser Add-on",
+      "verb": "allow"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "for most browsers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-010#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "reserves the right to",
+     "actor": {
+      "text": "F5",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deny",
+      "verb": "deny"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "For security and legal reasons",
+       "name": "legal-compliance"
+      }
+     ],
+     "conditions": [
+      "requests that require us to access third-party websites or services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-010#s16"
+   }
+  ],
+  "residual_quotes": 41,
+  "quotes": 110,
+  "completeness": {
+   "gaps": 340,
+   "gap_words": 3245
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 41,
+  "translated_quotes": 110,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 72722,
+  "completion_tokens": 55497,
+  "thinking_tokens": 164,
+  "seconds": 746.6584293842316,
+  "failures": 0
+ },
+ "seconds": 748.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

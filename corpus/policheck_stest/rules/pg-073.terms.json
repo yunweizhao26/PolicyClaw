@@ -1,0 +1,130 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "data"
+    ],
+    "account information": [
+     "data"
+    ],
+    "browsing behavior": [
+     "data"
+    ],
+    "coarse location": [
+     "data",
+     "location"
+    ],
+    "contact information": [
+     "data",
+     "personal data"
+    ],
+    "demographic data": [
+     "data"
+    ],
+    "device characteristics": [
+     "data"
+    ],
+    "device identifier": [
+     "data"
+    ],
+    "game accounts": [
+     "account information"
+    ],
+    "game progress": [
+     "browsing behavior",
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "unnecessary data": [
+     "data"
+    ],
+    "your data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising and social media partners": [
+     "third party"
+    ],
+    "advertising, analytics and third party services partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media partners": [
+     "advertising and social media partners",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "payment_processing": "payment processing",
+    "service_optimization": "service optimization",
+    "service_provision": "provide service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "account_management": [
+     "provide service"
+    ],
+    "customer_support": [
+     "service provision"
+    ],
+    "advertising": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security",
+     "service provision"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "personalization": [
+     "Service provision and personalization"
+    ],
+    "provide service": [
+     "Service provision and personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1694,
+  "completion_tokens": 523,
+  "thinking_tokens": 0,
+  "seconds": 30.22207260131836,
+  "failures": 0
+ },
+ "seconds": 30.3
+}

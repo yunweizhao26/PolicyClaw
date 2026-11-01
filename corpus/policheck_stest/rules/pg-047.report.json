@@ -1,0 +1,142 @@
+{
+ "cleaned_sha256": "pg-047",
+ "text_sha256": "e24bd4a63dd3ee962a28a418f9b22ea368b5a0138ba90ef0f9ff14c7755cc2bc",
+ "site_id": "pg-047",
+ "sections": 3,
+ "rules": 90,
+ "report": {
+  "sections": 3,
+  "raw_rules": 80,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Use of Email to Contact You:",
+      "For all of our products"
+     ],
+     "data": {
+      "name": "email address",
+      "text": "the email address that you provided to us"
+     },
+     "exceptions": [
+      "You can opt out of promotional emails but we will still contact you with product operational emails, e.g., reset password requests, payment confirmations, etc."
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to contact you for the following reasons: Product operational events such as when you add a device to your account, password reset requests, and payment confirmations",
+       "name": "communication"
+      },
+      {
+       "text": "to contact you for the following reasons: Keep you informed of major new releases of our products",
+       "name": "marketing"
+      },
+      {
+       "text": "to contact you for the following reasons: Provide helpful hints and tips on how to use our products",
+       "name": "customer_support"
+      },
+      {
+       "text": "to contact you for the following reasons: Make special offers that we extend only to our registered customers",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to contact you for the following reasons: Keep you informed of major new releases of our products",
+     "to contact you for the following reasons: Provide helpful hints and tips on how to use our products",
+     "to contact you for the following reasons: Make special offers that we extend only to our registered customers"
+    ],
+    "section": "pg-047#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "NO, it is not sold",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "it",
+      "name": "this information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "NO, it is not sold"
+    ],
+    "section": "pg-047#s3"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 37,
+  "completeness": {
+   "gaps": 84,
+   "gap_words": 749
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 37,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 6,
+  "cached": 0,
+  "prompt_tokens": 12258,
+  "completion_tokens": 14408,
+  "thinking_tokens": 0,
+  "seconds": 75.98365211486816,
+  "failures": 0
+ },
+ "seconds": 76.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

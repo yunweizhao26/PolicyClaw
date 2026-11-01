@@ -1,0 +1,399 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometric information": "biometric data",
+    "biometric_data": "biometric data",
+    "browsing_history": "browsing history",
+    "information": "data",
+    "location information": "location",
+    "personal data": "data about user",
+    "profile picture": "profile photo"
+   },
+   "parents": {
+    "account credentials": [
+     "account information"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifiers"
+    ],
+    "application version": [
+     "system and application data"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "billing address": [
+     "contact details",
+     "financial information",
+     "postal address"
+    ],
+    "biometric data": [
+     "data about user",
+     "sensitive data"
+    ],
+    "browser type": [
+     "log data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "chat logs": [
+     "communication records",
+     "user content"
+    ],
+    "children's data": [
+     "data about user"
+    ],
+    "communication details": [
+     "communication records"
+    ],
+    "communication records": [
+     "data about user"
+    ],
+    "complaints or queries details": [
+     "communication records"
+    ],
+    "contact details": [
+     "data about user"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "credit card details": [
+     "financial information"
+    ],
+    "data about user": [
+     "data"
+    ],
+    "data collected from your device for the Program": [
+     "data"
+    ],
+    "data provided by user": [
+     "data about user"
+    ],
+    "date and time stamp": [
+     "log data"
+    ],
+    "delivery details": [
+     "order details"
+    ],
+    "device identification number": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "hardware information",
+     "identifiers"
+    ],
+    "device model": [
+     "hardware information"
+    ],
+    "device name": [
+     "hardware information"
+    ],
+    "device settings": [
+     "configuration data"
+    ],
+    "device type": [
+     "hardware information"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "error log": [
+     "log data"
+    ],
+    "facial recognition data": [
+     "biometric data"
+    ],
+    "financial information": [
+     "data about user"
+    ],
+    "fingerprint": [
+     "biometric data"
+    ],
+    "forum or blog posts": [
+     "user content"
+    ],
+    "geographic coordinates": [
+     "location"
+    ],
+    "government-issued ID": [
+     "identity verification documents"
+    ],
+    "gps location": [
+     "location"
+    ],
+    "hardware information": [
+     "data"
+    ],
+    "identifiers": [
+     "data about user"
+    ],
+    "identity verification documents": [
+     "data about user"
+    ],
+    "inaccurate personal data": [
+     "data about user"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "ip address": [
+     "identifiers",
+     "log data"
+    ],
+    "isp": [
+     "log data"
+    ],
+    "language settings": [
+     "region and language settings"
+    ],
+    "location identifier": [
+     "identifiers"
+    ],
+    "location": [
+     "data about user"
+    ],
+    "mac address": [
+     "device identifier",
+     "identifiers"
+    ],
+    "mobile phone available space": [
+     "hardware information"
+    ],
+    "name": [
+     "contact details",
+     "identifiers",
+     "identity"
+    ],
+    "network service provider identifier": [
+     "identifiers"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "operating system": [
+     "system and application data"
+    ],
+    "operational data": [
+     "usage data"
+    ],
+    "order details": [
+     "data about user"
+    ],
+    "order number": [
+     "order details"
+    ],
+    "os version": [
+     "operating system"
+    ],
+    "personal data of minors under 16": [
+     "children's data",
+     "data about user"
+    ],
+    "phone number": [
+     "contact details",
+     "identifiers"
+    ],
+    "photo metadata": [
+     "system and application data"
+    ],
+    "photos": [
+     "user content"
+    ],
+    "pixel tags": [
+     "tracking technologies"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "profile photo": [
+     "profile information",
+     "user content"
+    ],
+    "profiling_data": [
+     "data about user"
+    ],
+    "purchase and return requests": [
+     "order details"
+    ],
+    "referring or exit pages": [
+     "log data"
+    ],
+    "search terms": [
+     "usage data"
+    ],
+    "sensitive data": [
+     "data about user"
+    ],
+    "service interaction information": [
+     "usage data"
+    ],
+    "social media account id": [
+     "identifiers",
+     "social media information"
+    ],
+    "social media activity": [
+     "social media information"
+    ],
+    "system and application data": [
+     "data"
+    ],
+    "time zone": [
+     "system and application data"
+    ],
+    "touch stream data": [
+     "usage data"
+    ],
+    "tracking technologies": [
+     "data"
+    ],
+    "usage data": [
+     "information about your use of our Services"
+    ],
+    "usage time": [
+     "usage data"
+    ],
+    "user account id": [
+     "account information",
+     "identifiers"
+    ],
+    "user content": [
+     "data about user"
+    ],
+    "user data": [
+     "data about user"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ],
+    "wifi connection data": [
+     "location"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "recipients of personal data": "recipient",
+    "third party": "third parties"
+   },
+   "parents": {
+    "business partner": [
+     "business partners and service providers"
+    ],
+    "service_provider": [
+     "business partners and service providers"
+    ],
+    "business partners and service providers": [
+     "third parties"
+    ],
+    "certain other third parties": [
+     "third parties"
+    ],
+    "recipients in other countries": [
+     "recipient"
+    ],
+    "third parties": [
+     "recipient"
+    ],
+    "another provider": [
+     "third parties"
+    ],
+    "data protection authority": [
+     "third parties"
+    ],
+    "other users": [
+     "third parties"
+    ],
+    "the general public": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "service_provider": [
+     "third parties"
+    ],
+    "social network": [
+     "service_provider",
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "OnePlus"
+   },
+   "parents": {
+    "authorised exclusive distributors": [
+     "third party"
+    ],
+    "authorised service companies": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer support": "customer service",
+    "legal compliance": "compliance with legal obligations",
+    "operations": "business_operations",
+    "services": "service provision"
+   },
+   "parents": {
+    "targeted_advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ],
+    "service improvement": [
+     "service provision and improvement"
+    ],
+    "legal claims protection": [
+     "compliance with legal obligations"
+    ],
+    "account registration": [
+     "service provision"
+    ],
+    "user authentication or authorization": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3305,
+  "completion_tokens": 1468,
+  "thinking_tokens": 0,
+  "seconds": 15.441266536712646,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

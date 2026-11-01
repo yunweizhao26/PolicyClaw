@@ -1,0 +1,89 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "Data",
+    "such Data": "Data",
+    "such data": "Data",
+    "the Data": "Data",
+    "this Data": "Data",
+    "your Customer data": "Customer data",
+    "your Data": "Data",
+    "your IP address": "IP address"
+   },
+   "parents": {
+    "billing data": [
+     "Customer data",
+     "Data"
+    ],
+    "master data": [
+     "Customer data",
+     "Data"
+    ],
+    "Customer data": [
+     "Data"
+    ],
+    "IP address": [
+     "Data"
+    ],
+    "Log files": [
+     "Data"
+    ],
+    "your personal data": [
+     "Data"
+    ],
+    "your insurance data": [
+     "Data"
+    ],
+    "small text files": [
+     "Cookies"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "We": "Statista",
+    "us": "Statista",
+    "we": "Statista"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "because otherwise we cannot fulfil our contract with you": "In order to conclude and execute contracts between you and us"
+   },
+   "parents": {
+    "for the execution of the contract of employment, insofar as this is necessary for simpler administration and execution of the contract": [
+     "In order to conclude and execute contracts between you and us"
+    ],
+    "as a result of questions with respect to the execution of the application process or in relation to the issue of billing": [
+     "in order to process your application"
+    ],
+    "In this way, website structure, servers and database systems can be adjusted accordingly": [
+     "so that our website functions better for you"
+    ],
+    "to understand on which kind of computers our web pages must function and when a particularly large (or small) number of people are using our web pages": [
+     "so that our website functions better for you"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2739,
+  "completion_tokens": 635,
+  "thinking_tokens": 0,
+  "seconds": 8.549808263778687,
+  "failures": 0
+ },
+ "seconds": 8.6
+}

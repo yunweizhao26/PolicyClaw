@@ -1,0 +1,201 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "contact information": "contact info",
+    "personal information": "personal data",
+    "personally identifiable data": "personal data",
+    "personally identifiable information": "personal data",
+    "usage information": "usage data",
+    "user information": "user data"
+   },
+   "parents": {
+    "aggregate or de-identified usage data": [
+     "aggregate data",
+     "usage data"
+    ],
+    "aggregate data": [
+     "non-personally identifiable information"
+    ],
+    "browser language": [
+     "device characteristics"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "cookies": [
+     "cookies and other technologies"
+    ],
+    "web beacons": [
+     "cookies and other technologies"
+    ],
+    "cross-site usage information": [
+     "usage data"
+    ],
+    "device identifier": [
+     "device characteristics"
+    ],
+    "device parameters": [
+     "device characteristics"
+    ],
+    "device signals": [
+     "device characteristics"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "account details": [
+     "user data"
+    ],
+    "user preferences": [
+     "user data"
+    ],
+    "motion data": [
+     "sensor data"
+    ],
+    "temperature": [
+     "sensor data"
+    ],
+    "power usage": [
+     "device characteristics"
+    ],
+    "performance metrics": [
+     "service-related information"
+    ],
+    "visitor count": [
+     "aggregate data"
+    ],
+    "ip address": [
+     "device characteristics"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate affiliate": "affiliated entity",
+    "our customers": "network providers",
+    "service provider": "Third Party Provider",
+    "third-party providers": "third party"
+   },
+   "parents": {
+    "bank": [
+     "financial institution"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "parent company": [
+     "affiliated entity"
+    ],
+    "government enforcement agencies": [
+     "public authority"
+    ],
+    "logistics fulfillment shipping and delivery providers": [
+     "Third Party Provider"
+    ],
+    "Third Party Provider": [
+     "third party"
+    ],
+    "third-party advertisers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "network advertisers": "advertising network",
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "UniFi Identity": [
+     "first party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "advertising partners": [
+     "third party"
+    ],
+    "isp": [
+     "third party"
+    ],
+    "logistics fulfillment shipping and delivery providers": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "user device": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising analytics": [
+     "analytics"
+    ],
+    "enforce terms": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "order fulfilment": [
+     "order management"
+    ],
+    "payment processing": [
+     "order management"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2731,
+  "completion_tokens": 1175,
+  "thinking_tokens": 0,
+  "seconds": 18.12690782546997,
+  "failures": 0
+ },
+ "seconds": 18.2
+}

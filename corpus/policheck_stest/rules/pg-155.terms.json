@@ -1,0 +1,100 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "user information": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "log data"
+    ],
+    "browser type": [
+     "log data"
+    ],
+    "operating system": [
+     "log data"
+    ],
+    "log data": [
+     "information"
+    ],
+    "Vine handles": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "videos": [
+     "content"
+    ],
+    "content": [
+     "user data"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "non-personal information": [
+     "information"
+    ],
+    "non-public user information": [
+     "user data"
+    ],
+    "user-provided information": [
+     "user data"
+    ],
+    "user data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "recipient"
+    ],
+    "service provider": [
+     "recipient"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "service operation"
+   },
+   "parents": {
+    "customer support": [
+     "service operation"
+    ],
+    "service maintenance": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1299,
+  "completion_tokens": 336,
+  "thinking_tokens": 0,
+  "seconds": 16.35036873817444,
+  "failures": 0
+ },
+ "seconds": 16.5
+}

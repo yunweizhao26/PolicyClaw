@@ -1,0 +1,307 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audio video data": "audio or visual",
+    "code files": "code",
+    "commercial information": "commercial data",
+    "contact details": "contact data",
+    "demographic details": "demographic data",
+    "email opens": "email opened status",
+    "feedback": "Feedback Data",
+    "inferences": "derived data",
+    "ip address": "IP address",
+    "links clicked": "link clicks",
+    "location": "geolocation data",
+    "payment information": "financial data",
+    "payment specifics": "financial data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "service usage": "details on how you use the Services",
+    "text files": "text",
+    "usage information": "details on how you use the Services"
+   },
+   "parents": {
+    "additional email addresses": [
+     "email address"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "billing address": [
+     "contact data",
+     "financial data"
+    ],
+    "children's data": [
+     "Personal Data"
+    ],
+    "flash cookies": [
+     "cookies"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "ethnicity": [
+     "demographic data"
+    ],
+    "inaccurate or incomplete Personal Data": [
+     "Personal Data"
+    ],
+    "password": [
+     "identifiers"
+    ],
+    "GitHub handle": [
+     "identifiers"
+    ],
+    "device ID": [
+     "device information",
+     "identifiers"
+    ],
+    "name": [
+     "contact data",
+     "identifiers"
+    ],
+    "payment card number": [
+     "financial data"
+    ],
+    "photo": [
+     "images"
+    ],
+    "images": [
+     "audio or visual",
+     "multimedia files"
+    ],
+    "multimedia files": [
+     "files"
+    ],
+    "regional geolocation data": [
+     "geolocation data"
+    ],
+    "operating system": [
+     "device characteristics",
+     "device information"
+    ],
+    "device type": [
+     "device characteristics",
+     "device information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "browsing behavior": [
+     "network activity"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "pages viewed": [
+     "browsing history"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "IP address": [
+     "identifiers",
+     "network activity"
+    ],
+    "cookies": [
+     "network activity"
+    ],
+    "transaction information": [
+     "commercial data"
+    ],
+    "code": [
+     "files"
+    ],
+    "text": [
+     "content",
+     "files"
+    ],
+    "documents": [
+     "files"
+    ],
+    "files": [
+     "content"
+    ],
+    "audio or visual": [
+     "content"
+    ],
+    "user profile content": [
+     "content",
+     "user data"
+    ],
+    "AI outputs": [
+     "content"
+    ],
+    "inputs": [
+     "content"
+    ],
+    "private repository information": [
+     "user data"
+    ],
+    "biography": [
+     "user profile content"
+    ],
+    "details on how you use the Services": [
+     "network activity"
+    ],
+    "link clicks": [
+     "details on how you use the Services"
+    ],
+    "email reception": [
+     "details on how you use the Services"
+    ],
+    "email opened status": [
+     "details on how you use the Services"
+    ],
+    "telemetry data": [
+     "details on how you use the Services"
+    ],
+    "session details": [
+     "details on how you use the Services"
+    ],
+    "user interests": [
+     "derived data"
+    ],
+    "user data": [
+     "Personal Data"
+    ],
+    "Personal Data": [
+     "information about you"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "covered information": [
+     "data"
+    ],
+    "content": [
+     "data"
+    ],
+    "network activity": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "abuse and fraud prevention entities": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "corporate entity": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party agent": [
+     "third party"
+    ],
+    "third-party application": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "publicly available sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "agent": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "operations": "business operations",
+    "service-provision": "service provision",
+    "support": "customer support"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "billing": [
+     "business operations"
+    ],
+    "legal compliance": [
+     "compliance and dispute resolution"
+    ],
+    "preference management": [
+     "essential functionality",
+     "personalization"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "create a user profile": [
+     "profiling"
+    ],
+    "feature development": [
+     "service improvement"
+    ],
+    "research and development": [
+     "service improvement"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "session management": [
+     "authentication"
+    ],
+    "authentication": [
+     "essential functionality"
+    ],
+    "service-support": [
+     "customer support"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "merger or acquisition": [
+     "to facilitate its transfer to another company"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2905,
+  "completion_tokens": 1189,
+  "thinking_tokens": 0,
+  "seconds": 18.525559663772583,
+  "failures": 0
+ },
+ "seconds": 18.7
+}

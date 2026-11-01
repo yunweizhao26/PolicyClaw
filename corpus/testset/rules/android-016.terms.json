@@ -1,0 +1,229 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "application usage": "app usage",
+    "browsing_history": "browsing history",
+    "device_id": "device ID",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "phone_number": "phone number",
+    "user_content": "user content"
+   },
+   "parents": {
+    "contact email address": [
+     "contact details",
+     "email address"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "country": [
+     "location"
+    ],
+    "time": [
+     "date and time"
+    ],
+    "duration of visit": [
+     "browsing metrics"
+    ],
+    "pages viewed": [
+     "browsing history"
+    ],
+    "landing page": [
+     "browsing history"
+    ],
+    "referring or exit URL": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "user_activity": [
+     "usage data"
+    ],
+    "number of clicks": [
+     "usage data"
+    ],
+    "ad engagement data": [
+     "usage data"
+    ],
+    "IP address": [
+     "computer and access technical information"
+    ],
+    "browser type": [
+     "computer and access technical information"
+    ],
+    "browser language": [
+     "computer and access technical information"
+    ],
+    "platform": [
+     "computer and access technical information"
+    ],
+    "device ID": [
+     "device_information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "other_account_data": [
+     "account information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "user profile": [
+     "account information"
+    ],
+    "survey response": [
+     "user_input"
+    ],
+    "message content": [
+     "user content"
+    ],
+    "user-provided content": [
+     "user_input"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party advertising companies": "advertising_partner"
+   },
+   "parents": {
+    "advertising_partner": [
+     "partners",
+     "third party"
+    ],
+    "third-party providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party": [
+     "first party or third party"
+    ],
+    "third_party_website": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partners": "partner"
+   },
+   "parents": {
+    "advertising_partner": [
+     "partner",
+     "third party"
+    ],
+    "third party analytics service provider": [
+     "third party"
+    ],
+    "third party content provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service_communication": "communication",
+    "targeted_advertising": "targeted-advertising"
+   },
+   "parents": {
+    "advertising": [
+     "advertising and marketing"
+    ],
+    "marketing": [
+     "advertising and marketing"
+    ],
+    "retargeting": [
+     "advertising",
+     "targeted-advertising"
+    ],
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "invitations": [
+     "invitations and reminders"
+    ],
+    "invoicing": [
+     "payment administration"
+    ],
+    "error correction": [
+     "problem resolution",
+     "service improvement"
+    ],
+    "problem resolution": [
+     "service_maintenance"
+    ],
+    "service improvement": [
+     "service provision and improvement"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ],
+    "service_optimization": [
+     "service improvement"
+    ],
+    "service_maintenance": [
+     "service operation and management"
+    ],
+    "customer_support": [
+     "relationship_management"
+    ],
+    "account_management": [
+     "relationship_management"
+    ],
+    "communication": [
+     "service provision"
+    ],
+    "development of new services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2798,
+  "completion_tokens": 1264,
+  "thinking_tokens": 0,
+  "seconds": 32.46897792816162,
+  "failures": 0
+ },
+ "seconds": 32.7
+}

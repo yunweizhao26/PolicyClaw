@@ -1,0 +1,167 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifier": "device id",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "screen name": "alias",
+    "username": "account name"
+   },
+   "parents": {
+    "account id": [
+     "personal data"
+    ],
+    "account name": [
+     "personal data"
+    ],
+    "aggregated non-identifying information": [
+     "non-personally identifiable information"
+    ],
+    "alias": [
+     "personal data"
+    ],
+    "browser information": [
+     "log data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "clicks": [
+     "usage data"
+    ],
+    "comments": [
+     "communication content",
+     "user-provided data"
+    ],
+    "communication content": [
+     "user-provided data"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "demographic data": [
+     "non-personally identifiable information"
+    ],
+    "device id": [
+     "log data"
+    ],
+    "email address": [
+     "personal data",
+     "user-provided data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "hard drive data": [
+     "data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "mac address": [
+     "device id"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "national identification number": [
+     "personal data"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "specific shared data": [
+     "personal data"
+    ],
+    "usage data": [
+     "log data"
+    ],
+    "user inquiry": [
+     "communication content"
+    ],
+    "user records": [
+     "data"
+    ],
+    "user-provided data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising networks": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "preferred partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party mobile app providers": [
+     "third party"
+    ],
+    "third party publishers": [
+     "preferred partners",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "service performance",
+     "service provision"
+    ],
+    "customer support": [
+     "service performance",
+     "service provision"
+    ],
+    "marketing": [
+     "service performance"
+    ],
+    "service improvement": [
+     "service performance"
+    ],
+    "service operation": [
+     "service performance"
+    ],
+    "fraud detection": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2039,
+  "completion_tokens": 675,
+  "thinking_tokens": 0,
+  "seconds": 11.722631931304932,
+  "failures": 0
+ },
+ "seconds": 11.8
+}

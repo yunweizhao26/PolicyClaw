@@ -1,0 +1,298 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email addresses": "email address",
+    "information": "data",
+    "information about you": "information about user",
+    "job titles": "job title",
+    "personal data": "Personal Data",
+    "phone numbers": "phone number",
+    "postal address": "address",
+    "registration information": "registration data"
+   },
+   "parents": {
+    "Google Workspace API data": [
+     "Google user data"
+    ],
+    "IP address": [
+     "IP addresses",
+     "online identifiers"
+    ],
+    "IP addresses": [
+     "online identifiers"
+    ],
+    "YouTube account content": [
+     "YouTube account data"
+    ],
+    "YouTube account data": [
+     "Google user data"
+    ],
+    "billing address": [
+     "address",
+     "billing contact",
+     "payment information"
+    ],
+    "browsing activity": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "browsing and search history"
+    ],
+    "business contact and similar professional data": [
+     "professional data"
+    ],
+    "calendar event details": [
+     "calendar details"
+    ],
+    "call audio": [
+     "customer data in audio format"
+    ],
+    "call transcript": [
+     "transcribed audio text"
+    ],
+    "children's personal data": [
+     "Personal Data",
+     "children's data"
+    ],
+    "coarse geolocation": [
+     "data"
+    ],
+    "customer data in audio format": [
+     "customer data"
+    ],
+    "document contents": [
+     "documents, sheets, and slides"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "email content": [
+     "email message",
+     "emails"
+    ],
+    "email headers": [
+     "email metadata"
+    ],
+    "email message": [
+     "emails"
+    ],
+    "email metadata": [
+     "emails"
+    ],
+    "email subject": [
+     "email metadata"
+    ],
+    "emails": [
+     "communications"
+    ],
+    "first name": [
+     "name"
+    ],
+    "job title": [
+     "professional data"
+    ],
+    "marketing communications": [
+     "communications"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "online banking credentials": [
+     "payment information",
+     "sensitive personal information"
+    ],
+    "online identifiers": [
+     "identifiers"
+    ],
+    "password": [
+     "sensitive personal information"
+    ],
+    "payment information": [
+     "financial account number"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "physical mail addresses": [
+     "address"
+    ],
+    "sensitive personal information": [
+     "Personal Data"
+    ],
+    "stored public YouTube API data": [
+     "YouTube account data"
+    ],
+    "time sent": [
+     "email metadata"
+    ],
+    "transactional emails": [
+     "emails"
+    ],
+    "transcribed audio text": [
+     "text"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "HubSpot Affiliates",
+    "customers": "customer",
+    "entities under common control and ownership": "HubSpot Affiliates",
+    "user": "customer"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "Plaid": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "HubSpot partners": [
+     "third party"
+    ],
+    "Marketplace Partners": [
+     "third party"
+    ],
+    "co-marketing partners": [
+     "third party"
+    ],
+    "event service providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "parent company": [
+     "HubSpot Affiliates"
+    ],
+    "subsidiaries": [
+     "HubSpot Affiliates"
+    ],
+    "Subscription team users": [
+     "other users"
+    ],
+    "other users": [
+     "customer"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "customers": "customer",
+    "third party": "third parties",
+    "third party service providers": "service providers",
+    "various sources": "other sources"
+   },
+   "parents": {
+    "publicly available sources": [
+     "other sources"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "Gmail": [
+     "Google APIs"
+    ],
+    "YouTube account": [
+     "Google APIs"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "customers": "customer",
+    "first party": "HubSpot"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "Plaid": [
+     "payment service providers",
+     "third party"
+    ],
+    "payment service providers": [
+     "third party"
+    ],
+    "ad network partner": [
+     "advertising networks",
+     "third party"
+    ],
+    "advertising networks": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "sales and marketing": "marketing",
+    "services": "service provision"
+   },
+   "parents": {
+    "account registration": [
+     "registration facilitation"
+    ],
+    "personalized advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing and advertising"
+    ],
+    "marketing": [
+     "marketing and advertising"
+    ],
+    "personalized communications": [
+     "communication",
+     "personalization"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service improvement": [
+     "analytics or improvement",
+     "service provision and improvement"
+    ],
+    "analytics": [
+     "analytics or improvement"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "AI/ML model development and training": [
+     "service improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3643,
+  "completion_tokens": 1375,
+  "thinking_tokens": 0,
+  "seconds": 28.33892035484314,
+  "failures": 0
+ },
+ "seconds": 28.4
+}

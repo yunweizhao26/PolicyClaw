@@ -1,0 +1,154 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device_identifier": "device identifier",
+    "device_information": "device information",
+    "gaming history": "game history",
+    "installed applications": "installed application list",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "profile picture": "avatar",
+    "user name": "nickname",
+    "user_information": "user data"
+   },
+   "parents": {
+    "character level": [
+     "game_data"
+    ],
+    "consumption records": [
+     "financial details"
+    ],
+    "recharge records": [
+     "financial details"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device model and version": [
+     "device information"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "hardware and operating system information": [
+     "device information"
+    ],
+    "operating system version": [
+     "hardware and operating system information"
+    ],
+    "game log information": [
+     "game_data"
+    ],
+    "game history": [
+     "game_data"
+    ],
+    "system event logs": [
+     "game log information",
+     "log data"
+    ],
+    "log data": [
+     "game_data"
+    ],
+    "phone_number": [
+     "contact_details"
+    ],
+    "photograph": [
+     "photos"
+    ],
+    "process and game crash records": [
+     "device information"
+    ],
+    "profile information": [
+     "game_data"
+    ],
+    "system running processes": [
+     "device information"
+    ],
+    "avatar": [
+     "user-generated content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "third-party partners": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third-party research institutions": [
+     "third party"
+    ],
+    "your clipboard locally on the device": [
+     "your clipboard"
+    ],
+    "the photo album or camera": [
+     "user device"
+    ],
+    "your clipboard": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "service improvement": "improve products",
+    "service provision": "provide services",
+    "service-provision": "provide services",
+    "service_optimization": "service optimization",
+    "service_provision": "provide services"
+   },
+   "parents": {
+    "child protection": [
+     "security"
+    ],
+    "customer support": [
+     "provide services"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "personalization_content": [
+     "provide services"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "rewards": [
+     "provide services"
+    ],
+    "improve products": [
+     "service optimization"
+    ],
+    "user account management": [
+     "provide services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2481,
+  "completion_tokens": 661,
+  "thinking_tokens": 0,
+  "seconds": 13.629572629928589,
+  "failures": 0
+ },
+ "seconds": 13.7
+}

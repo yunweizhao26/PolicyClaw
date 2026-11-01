@@ -1,0 +1,109 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device-id": "device identifier",
+    "email-address": "email address",
+    "ip-address": "ip address",
+    "personal information": "personal data",
+    "transaction-data": "transaction details"
+   },
+   "parents": {
+    "ad identifier": [
+     "device identifier"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "correspondence": [
+     "user-generated-content"
+    ],
+    "gameplay-data": [
+     "in-app event data",
+     "interaction data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "public-forum-data": [
+     "user-generated-content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "ad-network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party": "partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ],
+    "analytics provider": [
+     "partner"
+    ],
+    "payment processor": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "legal-compliance": "legal compliance"
+   },
+   "parents": {
+    "analytics": [
+     "service-provision"
+    ],
+    "service improvement": [
+     "service-provision"
+    ],
+    "payment": [
+     "fulfillment"
+    ],
+    "targeted-advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "service and account management": [
+     "service-provision"
+    ],
+    "services": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1802,
+  "completion_tokens": 476,
+  "thinking_tokens": 0,
+  "seconds": 18.130970239639282,
+  "failures": 0
+ },
+ "seconds": 18.2
+}

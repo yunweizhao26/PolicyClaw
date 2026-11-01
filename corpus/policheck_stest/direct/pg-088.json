@@ -1,0 +1,30 @@
+{
+ "policy": "pg-088",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "If you contact us via our support channel, we will store your message(s) and other information you choose to give us (for example error logs or information related to your mobile device or your store account) for further analysis.",
+   "prohibit": "We do not collect any personal information about our players, users or our website visitors.",
+   "situation": "A player, user, or website visitor contacts support and provides personal information (such as email, account, or device information).",
+   "reason": "The policy broadly claims never to collect personal information from users, without qualifying that support inquiries are an exception to this blanket statement.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "If you contact us via our support channel, we will store your message(s) and other information you choose to give us (for example error logs or information related to your mobile device or your store account) for further analysis.",
+   "prohibit": "None of your personal information is stored on our servers.",
+   "situation": "A user sends personal details via support channels that Secret Exit retains and stores for analysis.",
+   "reason": "The prohibition unconditionally states no personal information is stored on company servers, directly conflicting with storing support messages and provided user details.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1451,
+  "completion_tokens": 321,
+  "thinking_tokens": 0,
+  "seconds": 3.6961467266082764,
+  "failures": 0
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Personal Data": "Customer Personal Data",
+    "application logs": "Application Log Data",
+    "information": "data",
+    "personal data": "Customer Personal Data",
+    "personal information": "Customer Personal Data",
+    "referring URL": "referrer URL",
+    "your data": "information about you",
+    "your information": "information about you"
+   },
+   "parents": {
+    "credit card numbers": [
+     "credit card details"
+    ],
+    "credit card details": [
+     "identifying financial data"
+    ],
+    "browsing history": [
+     "browsing and purchasing history"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "source location": [
+     "location"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "physical address": [
+     "contact details"
+    ],
+    "identification data": [
+     "identification"
+    ],
+    "Customer Personal Data": [
+     "information about you"
+    ],
+    "additional information about you": [
+     "information about you"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "untrue, inaccurate, not current or incomplete information": [
+     "data"
+    ],
+    "GlobalSign customer data": [
+     "data"
+    ],
+    "cookie data": [
+     "cookies"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "acquirer": [
+     "third parties"
+    ],
+    "subsidiary": [
+     "affiliate",
+     "our group company"
+    ],
+    "third party credit card processor": [
+     "third parties",
+     "trusted third parties"
+    ],
+    "trusted third parties": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party data sources": "third party commercial and government resources"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "GlobalSign": "GMO GlobalSign NV",
+    "first party": "GMO GlobalSign NV",
+    "third party": "third parties"
+   },
+   "parents": {
+    "third-party service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fulfillment of services": "fulfill-order"
+   },
+   "parents": {
+    "service analytics": [
+     "analytics",
+     "improve services"
+    ],
+    "improve services": [
+     "analytics"
+    ],
+    "fulfill-order": [
+     "service-provision"
+    ],
+    "process orders for certificates": [
+     "fulfill-order",
+     "service-provision"
+    ],
+    "customer-service": [
+     "service-provision"
+    ],
+    "verification": [
+     "service-provision"
+    ],
+    "service-related communication": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2117,
+  "completion_tokens": 697,
+  "thinking_tokens": 0,
+  "seconds": 12.270246028900146,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

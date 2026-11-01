@@ -1,0 +1,160 @@
+{
+ "cleaned_sha256": "apple-127",
+ "text_sha256": "f3e89e470d075a0e01004dec5e857ccf817332e170a7a0e96ec54c1e9c81f64e",
+ "site_id": "apple-127",
+ "sections": 6,
+ "rules": 140,
+ "report": {
+  "sections": 6,
+  "raw_rules": 124,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "who have obtained your consent or have another legal right to share such information with us"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information about you"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "third party companies (including publishing partners, platforms, advertising platforms and partners and data aggregators who have obtained)"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "third party companies (including publishing partners, platforms, advertising platforms and partners and data aggregators who have obtained)"
+    ],
+    "section": "apple-127#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other information",
+      "name": "other data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from you",
+      "name": "user"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "apple-127#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other information",
+      "name": "other data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "your device",
+      "name": "user device"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "apple-127#s2"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 66,
+  "completeness": {
+   "gaps": 121,
+   "gap_words": 1258
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 15,
+  "translated_quotes": 66,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 28569,
+  "completion_tokens": 23814,
+  "thinking_tokens": 0,
+  "seconds": 262.5738489627838,
+  "failures": 0
+ },
+ "seconds": 263.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

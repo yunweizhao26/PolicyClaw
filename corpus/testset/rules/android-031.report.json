@@ -1,0 +1,343 @@
+{
+ "cleaned_sha256": "android-031",
+ "text_sha256": "e2e98114309ebc098826d549a6a2608531e6d30204cc0769003e28edf9546f73",
+ "site_id": "android-031",
+ "sections": 15,
+ "rules": 168,
+ "report": {
+  "sections": 15,
+  "raw_rules": 141,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "visible to",
+      "verb": "visible to"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "These images"
+     },
+     "conditions": [
+      "within the Service"
+     ],
+     "data": {
+      "name": "user photos",
+      "text": "images you upload"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "DENY",
+     "polarity_text": "not visible to",
+     "purpose": [],
+     "recipient": {
+      "name": "other users",
+      "text": "other users of the app"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "not visible to"
+    ],
+    "section": "android-031#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "audio recordings",
+      "text": "audio"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "do not store",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not store"
+    ],
+    "section": "android-031#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user photos",
+      "text": "image"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "do not store",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not store"
+    ],
+    "section": "android-031#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "video",
+      "text": "video"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "DENY",
+     "polarity_text": "do not store",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not store"
+    ],
+    "section": "android-031#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to protect our rights",
+       "name": "legal compliance"
+      },
+      {
+       "text": "investigate fraud",
+       "name": "fraud prevention"
+      },
+      {
+       "text": "enforce our Terms",
+       "name": "enforce terms"
+      },
+      {
+       "text": "protect the safety of users or others",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "Where required to do so by applicable law, regulation, legal process, or enforceable governmental request, or where we believe disclosure is necessary to protect our rights, investigate fraud, enforce our Terms, or protect the safety of users or others"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Terms",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-031#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "Your legal rights regarding your personal data vary depending on your jurisdiction, and may include the following",
+      "You have the right to access",
+      "entitled by the privacy laws in your jurisdiction",
+      "We may ask you to verify your identity and your jurisdiction before taking further action on your request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data we hold about you, how we use it, and who we share it with"
+     },
+     "exceptions": [
+      "If we decide not to respond to your request for the above rights, we will explain the reasons"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "first party",
+      "text": "we"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-031#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive a copy of",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "Your legal rights regarding your personal data vary depending on your jurisdiction, and may include the following",
+      "applicable to EEA, UK and Brazil users",
+      "You have the right to receive",
+      "entitled by the privacy laws in your jurisdiction",
+      "We may ask you to verify your identity and your jurisdiction before taking further action on your request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "certain personal data we process about you in a structured, electronic format"
+     },
+     "exceptions": [
+      "if providing it would interfere with another's rights (e.g. where providing the personal data we hold about you would reveal data about another person or our trade secrets or intellectual property) or there are other limitations recognized under data protection laws",
+      "If we decide not to respond to your request for the above rights, we will explain the reasons"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "first party",
+      "text": "we"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-031#s9"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 223,
+   "gap_words": 1826
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 102,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 50268,
+  "completion_tokens": 30644,
+  "thinking_tokens": 0,
+  "seconds": 318.5390672683716,
+  "failures": 0
+ },
+ "seconds": 319.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

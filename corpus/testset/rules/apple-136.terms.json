@@ -1,0 +1,279 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial data",
+    "location": "geolocation information",
+    "personal information": "personal data",
+    "professional or employment-related information": "employment information",
+    "unspecified data": "information"
+   },
+   "parents": {
+    "accelerometer data": [
+     "device motion data"
+    ],
+    "address": [
+     "contact information",
+     "personal data",
+     "personal identifiers"
+    ],
+    "authentication credentials": [
+     "account information"
+    ],
+    "bank account and debit card information": [
+     "banking information",
+     "financial data"
+    ],
+    "banking information": [
+     "financial data"
+    ],
+    "biometric data": [
+     "personal data"
+    ],
+    "browser type": [
+     "technical information"
+    ],
+    "browsing behavior": [
+     "internet or other electronic network activity information"
+    ],
+    "browsing history": [
+     "browsing behavior",
+     "internet or other electronic network activity information"
+    ],
+    "cardholder data": [
+     "financial data"
+    ],
+    "citizenship": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "contact information": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "date of birth": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "device identifier": [
+     "device information",
+     "personal identifiers"
+    ],
+    "device motion data": [
+     "device information"
+    ],
+    "device performance metrics": [
+     "device information"
+    ],
+    "drivers license number": [
+     "government-issued ID",
+     "personal identifiers"
+    ],
+    "email address": [
+     "contact information",
+     "personal data",
+     "personal identifiers"
+    ],
+    "employment information": [
+     "personal data"
+    ],
+    "facial imagery": [
+     "biometric data"
+    ],
+    "financial account number": [
+     "account information",
+     "financial data",
+     "personal identifiers"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "government-issued ID": [
+     "personal data",
+     "personal identifiers"
+    ],
+    "ip address": [
+     "network details",
+     "personal identifiers"
+    ],
+    "language preferences": [
+     "locale settings"
+    ],
+    "magnetometer data": [
+     "device information"
+    ],
+    "marital status": [
+     "personal data"
+    ],
+    "name": [
+     "contact information",
+     "personal data",
+     "personal identifiers"
+    ],
+    "network details": [
+     "device information",
+     "technical information"
+    ],
+    "password": [
+     "authentication credentials"
+    ],
+    "payment card number": [
+     "cardholder data",
+     "financial account number"
+    ],
+    "personal identifiers": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact information",
+     "personal data",
+     "personal identifiers"
+    ],
+    "pin": [
+     "authentication credentials"
+    ],
+    "race": [
+     "personal data"
+    ],
+    "social security number": [
+     "government-issued ID",
+     "personal identifiers"
+    ],
+    "transaction history": [
+     "commercial information",
+     "financial data",
+     "transaction information"
+    ],
+    "transaction information": [
+     "commercial information",
+     "financial data"
+    ],
+    "usage time": [
+     "internet or other electronic network activity information"
+    ],
+    "user account name": [
+     "account information",
+     "personal identifiers"
+    ],
+    "user data": [
+     "information"
+    ],
+    "user profile information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "payment networks": "payment card associations"
+   },
+   "parents": {
+    "Bank Partners": [
+     "third party"
+    ],
+    "Plaid": [
+     "service provider",
+     "third party"
+    ],
+    "financial institutions": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "payment card associations": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under 13": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Plaid": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "your wireless carrier": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud detection",
+    "legal compliance": "compliance",
+    "service_provision": "service provision",
+    "to fulfill your requests": "service fulfillment"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "fraud prevention and security",
+     "service performance"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "fraud prevention and security",
+     "service performance"
+    ],
+    "process transactions that you authorize": [
+     "service fulfillment",
+     "service provision"
+    ],
+    "service fulfillment": [
+     "service provision"
+    ],
+    "registration": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "app functionality": [
+     "service provision"
+    ],
+    "service improvement": [
+     "business operations"
+    ],
+    "product personalization": [
+     "service improvement"
+    ],
+    "analytics_and_research": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2536,
+  "completion_tokens": 1265,
+  "thinking_tokens": 0,
+  "seconds": 11.964769124984741,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

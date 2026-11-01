@@ -1,0 +1,528 @@
+{
+ "cleaned_sha256": "web-082",
+ "text_sha256": "7bc4773ad2d516c1c24bd3a2b57e2ad2f50243ce947e298beabe0fe34315528a",
+ "site_id": "web-082",
+ "sections": 30,
+ "rules": 221,
+ "report": {
+  "sections": 30,
+  "raw_rules": 217,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third party providers such as Google Analytics and others",
+      "name": "third party providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to help us provide the Services",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-082#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "Docker",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party service providers",
+      "name": "third-party service providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to manage credit card processing",
+       "name": "payment-processing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-082#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information you provide to Docker",
+      "name": "information provided by user"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "in the U.S. and other countries where we and our service providers operate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in the U.S. and other countries where we and our service providers operate"
+    ],
+    "section": "web-082#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information... that we obtain as a result of your use of the Services",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "in the U.S. and other countries where we and our service providers operate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in the U.S. and other countries where we and our service providers operate"
+    ],
+    "section": "web-082#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be handled within 30 days",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "handled",
+      "verb": "handle"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Requests to change"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Requests to change"
+    ],
+    "section": "web-082#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be handled within 30 days",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "handled",
+      "verb": "handle"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Requests to delete your information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Requests to delete your information"
+    ],
+    "section": "web-082#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "rights",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "copies of the personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "subject to conditions and in some cases limitations under the data protection laws that apply to you",
+      "where your personal data is being processed",
+      "to request access to details about how we process your personal data and copies of the personal data"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "data protection laws that apply to you",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "where your personal data is being processed"
+    ],
+    "section": "web-082#s22"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "do not have actual knowledge that",
+      "of California residents under 16 years of age"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not have actual knowledge that we share",
+     "purpose": [
+      {
+       "text": "for cross context behavioral advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not have actual knowledge that we share"
+    ],
+    "section": "web-082#s25"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any of the categories of personal information that we collect about California residents",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for cross-context behavioral advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "As a California resident"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not share"
+    ],
+    "section": "web-082#s26"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "sensitive personal information",
+      "name": "sensitive data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "As a California resident"
+     ],
+     "exceptions": [
+      "those specified in Cal. Civil Code 1798.121(a)"
+     ],
+     "references": [
+      {
+       "text": "Cal. Civil Code 1798.121(a)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not disclose"
+    ],
+    "section": "web-082#s26"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not engage in",
+     "actor": {
+      "text": "Docker",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in profiling/automated decision making that produces legal or similarly significant effects",
+      "verb": "engage in"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-082#s27"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have the right to the following",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce legal or similarly significant effects",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Depending on the applicable laws in your state of residence"
+     ],
+     "exceptions": [
+      "opt-out of profiling in furtherance of decisions that produce legal or similarly significant effects"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-082#s30"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 115,
+  "completeness": {
+   "gaps": 265,
+   "gap_words": 3504
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 115,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 57,
+  "cached": 0,
+  "prompt_tokens": 90043,
+  "completion_tokens": 45118,
+  "thinking_tokens": 0,
+  "seconds": 503.80908608436584,
+  "failures": 0
+ },
+ "seconds": 505.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

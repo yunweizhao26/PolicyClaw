@@ -1,0 +1,271 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "ad identifiers",
+    "browsing_history": "browsing history",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "language settings": "language setting",
+    "location information": "location",
+    "operating system": "device operating system",
+    "personal attributes": "attribute information",
+    "phone_number": "phone number",
+    "purchase_history": "purchase history",
+    "search_history": "search history",
+    "service use data": "service usage info",
+    "user profile": "account profile"
+   },
+   "parents": {
+    "IP address": [
+     "URL of page visited and IP address"
+    ],
+    "URL of page visited": [
+     "URL of page visited and IP address"
+    ],
+    "account identifier": [
+     "internal identifier",
+     "user identifier"
+    ],
+    "ad identifiers": [
+     "identifier",
+     "user identifier"
+    ],
+    "additional information from your device's camera": [
+     "additional information"
+    ],
+    "app tab usage frequency": [
+     "service usage info"
+    ],
+    "app use history": [
+     "service usage info"
+    ],
+    "app version": [
+     "device information"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "attribute information": [
+     "demographic data"
+    ],
+    "browser type": [
+     "device information",
+     "device usage and technical information"
+    ],
+    "browsing history": [
+     "user activity info"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "cookie ID": [
+     "identifier"
+    ],
+    "date and time of access": [
+     "service usage info"
+    ],
+    "date_of_birth": [
+     "attribute information"
+    ],
+    "device operating system": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "device usage and technical information": [
+     "information"
+    ],
+    "gender": [
+     "attribute information"
+    ],
+    "hashed email address": [
+     "email address"
+    ],
+    "hashed phone number": [
+     "phone number"
+    ],
+    "highly private information": [
+     "personal data"
+    ],
+    "internal identifier": [
+     "identifier",
+     "user identifier"
+    ],
+    "invoices": [
+     "payments"
+    ],
+    "language setting": [
+     "language and time zone setting"
+    ],
+    "message metadata": [
+     "service usage info"
+    ],
+    "message status": [
+     "service usage info"
+    ],
+    "partner identifier": [
+     "identifier"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "personal data collected from partners": [
+     "personal data"
+    ],
+    "photos": [
+     "user_generated_content"
+    ],
+    "profile information": [
+     "account profile"
+    ],
+    "pseudonymous identifier": [
+     "identifier"
+    ],
+    "publicly available personal data": [
+     "personal data",
+     "publicly available information"
+    ],
+    "purchase history": [
+     "user activity info"
+    ],
+    "registered information": [
+     "account profile"
+    ],
+    "search queries": [
+     "content text"
+    ],
+    "service usage": [
+     "service usage info"
+    ],
+    "service_usage_history": [
+     "service usage info"
+    ],
+    "telecommunications carrier name": [
+     "device information"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "user messages": [
+     "messages"
+    ],
+    "user posts": [
+     "user_generated_content"
+    ],
+    "user_generated_content": [
+     "service usage info"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google": [
+     "third parties"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "research institution": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "partners": "partner"
+   },
+   "parents": {
+    "group companies": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "partner operating a service linked to LINE Services": [
+     "partner"
+    ],
+    "partner operating its own service": [
+     "partner"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "ad measurement": [
+     "advertising",
+     "analytics"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "personalization"
+    ],
+    "service_personalization": [
+     "personalization"
+    ],
+    "product development": [
+     "service improvement"
+    ],
+    "service quality or performance analysis": [
+     "service improvement"
+    ],
+    "fraud_detection": [
+     "security"
+    ],
+    "user identification": [
+     "security"
+    ],
+    "user account management": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "service delivery or customer service": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service operation"
+    ],
+    "security": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3347,
+  "completion_tokens": 1225,
+  "thinking_tokens": 0,
+  "seconds": 12.620761632919312,
+  "failures": 0
+ },
+ "seconds": 12.7
+}

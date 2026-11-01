@@ -1,0 +1,207 @@
+{
+ "cleaned_sha256": "android-130",
+ "text_sha256": "6fa85526e631128d0253e73683db2c1c576a395653bf04004ca2df2ad2e9fca2",
+ "site_id": "android-130",
+ "sections": 6,
+ "rules": 94,
+ "report": {
+  "sections": 6,
+  "raw_rules": 89,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will direct",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "our service providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "direct",
+      "verb": "direct"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "Upon verification of your request",
+      "to delete"
+     ],
+     "exceptions": [
+      "retaining the information is necessary for us or our service providers to complete the transaction with you, detect security incidents or fraud, fixing errors, exercise free speech or another right provided by law, comply with legal obligations, or other internal and lawful uses"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will direct"
+    ],
+    "section": "android-130#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly solicit",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "anyone under the age of 16",
+      "name": "user"
+     },
+     "action": {
+      "text": "solicit",
+      "verb": "solicit"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "from anyone under the age of 16"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly solicit"
+    ],
+    "section": "android-130#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be processed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you choose to use the Service or provide your information to us",
+      "on servers or databases located outside of the country or jurisdiction where you are located"
+     ],
+     "exceptions": [
+      "If you do not want your information transferred to or processed or maintained outside of the country or jurisdiction where you are located, you should not use the Service"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be processed"
+    ],
+    "section": "android-130#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be maintained",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "maintained",
+      "verb": "maintain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "If you choose to use the Service or provide your information to us",
+      "on servers or databases located outside of the country or jurisdiction where you are located"
+     ],
+     "exceptions": [
+      "If you do not want your information transferred to or processed or maintained outside of the country or jurisdiction where you are located, you should not use the Service"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be maintained"
+    ],
+    "section": "android-130#s5"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 41,
+  "completeness": {
+   "gaps": 50,
+   "gap_words": 533
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 41,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 17100,
+  "completion_tokens": 16114,
+  "thinking_tokens": 0,
+  "seconds": 205.02607607841492,
+  "failures": 0
+ },
+ "seconds": 205.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

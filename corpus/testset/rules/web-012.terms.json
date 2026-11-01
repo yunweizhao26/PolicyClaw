@@ -1,0 +1,217 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "other information about you": "information about you",
+    "personal data": "information about you",
+    "personal information": "information about you",
+    "sensitive personal information": "sensitive personal data"
+   },
+   "parents": {
+    "activity frequency": [
+     "usage data"
+    ],
+    "billing details": [
+     "financial details",
+     "financial information"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browsing activity": [
+     "browsing history",
+     "internet or other electronic network activity",
+     "usage data"
+    ],
+    "browsing history": [
+     "internet or other electronic network activity",
+     "usage data"
+    ],
+    "contact information of other people": [
+     "information about friends"
+    ],
+    "contents of communications": [
+     "sensitive personal data"
+    ],
+    "credit card number": [
+     "financial and credential data",
+     "financial details"
+    ],
+    "cryptocurrency wallet address": [
+     "cryptocurrency wallet details",
+     "identifiers"
+    ],
+    "cryptographic keys": [
+     "cryptocurrency wallet details"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "employment details": [
+     "professional or employment-related information"
+    ],
+    "financial and credential data": [
+     "sensitive personal data"
+    ],
+    "game activity": [
+     "usage data"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "government ID": [
+     "government identifier",
+     "identifiers"
+    ],
+    "government identifier": [
+     "identifiers",
+     "sensitive personal data"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "links clicked": [
+     "browsing history",
+     "usage data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "payment method": [
+     "financial details"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "personal data listed in customer records statute": [
+     "information about you"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers",
+     "location"
+    ],
+    "recipient name": [
+     "name"
+    ],
+    "sensitive personal data": [
+     "information about you"
+    ],
+    "social security number": [
+     "government identifier",
+     "identifiers"
+    ],
+    "transaction details": [
+     "financial details"
+    ],
+    "usage data": [
+     "internet or other electronic network activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party content and functionality providers": "service provider"
+   },
+   "parents": {
+    "Developer Partners": [
+     "business partner"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "transaction counterparty": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "friend or colleague": [
+     "other users"
+    ],
+    "blockchain": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child"
+   },
+   "parents": {
+    "payment processor": [
+     "third party",
+     "vendor"
+    ],
+    "third-party application": [
+     "third party"
+    ],
+    "third-party sources": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Developer Partners": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "third-party content and functionality providers": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention": "fraud_detection",
+    "service provision": "perform services or provide goods",
+    "services": "perform services or provide goods"
+   },
+   "parents": {
+    "surveys": [
+     "sweepstakes, contests, or surveys"
+    ],
+    "payment processing": [
+     "perform services or provide goods"
+    ],
+    "fraud_detection": [
+     "security"
+    ],
+    "auditing": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2690,
+  "completion_tokens": 1089,
+  "thinking_tokens": 0,
+  "seconds": 12.071028470993042,
+  "failures": 0
+ },
+ "seconds": 12.2
+}

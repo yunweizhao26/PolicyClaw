@@ -1,0 +1,225 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising IDs",
+    "contact info": "contact details",
+    "location": "geographic and location data",
+    "location information": "geographic and location data",
+    "personal information": "personal data",
+    "vehicle information": "vehicle data"
+   },
+   "parents": {
+    "SSN": [
+     "government identifiers"
+    ],
+    "call logs": [
+     "call records"
+    ],
+    "clear GIFs": [
+     "tracking technologies"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "driver's license": [
+     "government identifiers"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email tracking data": [
+     "tracking technologies"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise geolocation": [
+     "geographic and location data"
+    ],
+    "purchase date": [
+     "purchase and transaction history",
+     "purchase history"
+    ],
+    "purchase history": [
+     "purchase and transaction history"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "vehicle maintenance and repair data": [
+     "vehicle data"
+    ],
+    "vehicle telemetry and use data": [
+     "vehicle data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "dealers": "dealer"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "analytics providers": [
+     "third party"
+    ],
+    "dealer": [
+     "third party"
+    ],
+    "marketing partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party ad companies": [
+     "advertising partner",
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "child": [
+     "user"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "connected vehicle": [
+     "device",
+     "vehicle"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "operating system": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "telecommunications provider": [
+     "third party"
+    ],
+    "vehicle": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party ad companies": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "FCA dealer": [
+     "third party"
+    ],
+    "third-party analytics companies": [
+     "third party"
+    ],
+    "third-party providers": [
+     "third party"
+    ],
+    "vendor": [
+     "third party",
+     "third-party providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "legal",
+    "operations": "business operations",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "research": [
+     "research and development"
+    ],
+    "authentication": [
+     "security",
+     "service provision"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "user account management": [
+     "service provision"
+    ],
+    "service performance": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "mergers and acquisitions": [
+     "business operations"
+    ],
+    "record-keeping": [
+     "business operations"
+    ],
+    "business operations": [
+     "commercial or business"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3462,
+  "completion_tokens": 997,
+  "thinking_tokens": 0,
+  "seconds": 16.60521364212036,
+  "failures": 0
+ },
+ "seconds": 16.7
+}

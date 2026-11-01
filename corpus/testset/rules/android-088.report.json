@@ -1,0 +1,719 @@
+{
+ "cleaned_sha256": "android-088",
+ "text_sha256": "c0184f2431cf9dd382c5fc69efc90ab4449f389a9abc786ca9b803b247e29665",
+ "site_id": "android-088",
+ "sections": 12,
+ "rules": 236,
+ "report": {
+  "sections": 12,
+  "raw_rules": 185,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "payment partner",
+      "text": "Such payment partners"
+     },
+     "conditions": [
+      "as part of such processing"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may also obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "ecommerce partner",
+      "text": "such partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "transaction id",
+      "text": "transaction ID"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "ecommerce partner",
+      "text": "such partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "transaction status",
+      "text": "status"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "ecommerce partner",
+      "text": "such partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "product purchased",
+      "text": "product"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "ecommerce partner",
+      "text": "such partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "checkout price",
+      "text": "checkout price"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "ecommerce partner",
+      "text": "such partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "timestamp",
+      "text": "timestamp"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "conditions": [],
+     "data": {
+      "name": "ad content type",
+      "text": "the content type of the ad (what the ad is about, e.g. games, entertainment, news)"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "conditions": [],
+     "data": {
+      "name": "ad type",
+      "text": "the ad type (e.g. whether the ad is a text, image, or video based ad)"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "conditions": [],
+     "data": {
+      "name": "ad server location",
+      "text": "where the ad is being served (e.g. the address of the site on which the ad appears)"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "conditions": [],
+     "data": {
+      "name": "interaction with advertisement",
+      "text": "certain information about post-click activity in relation to the ad including user interaction with such ad"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information that is collected about you or that you provide"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "Provide you with the Glance Platform features and its contents",
+       "name": "service provision"
+      },
+      {
+       "text": "fulfil our contract with you, such as: location-based news, events, featured stories, offers, products or services and any other information",
+       "name": "contract fulfilment"
+      },
+      {
+       "text": "manage your preferences",
+       "name": "preference management"
+      },
+      {
+       "text": "answer requests for customer or technical support, activities on our Services, and policy changes",
+       "name": "customer support"
+      },
+      {
+       "text": "Provide advertisements and promotions that may be of interest to you or to run survey campaigns including targeted advertisements and monetization activities through Glance Platform and/or advertising channels of its Group or media partners as permitted by applicable law",
+       "name": "advertising"
+      },
+      {
+       "text": "Notify or communicate with you about your opt-in/opt-out choices related to the Glance Platform, including service-related notifications",
+       "name": "communication"
+      },
+      {
+       "text": "Notify you when any relevant Glance Platform updates or upgrades are available and requires notification",
+       "name": "communication"
+      },
+      {
+       "text": "Estimate our audience size and usage patterns",
+       "name": "analytics"
+      },
+      {
+       "text": "Speed up your searches",
+       "name": "service provision"
+      },
+      {
+       "text": "Enrich, build custom audience segments or merged data sets (using the data referred herein and/or third party or Group provided data sets) to enable Glance Platform, Ad Partners or the Group to better target advertisements and offer their services",
+       "name": "profiling"
+      },
+      {
+       "text": "Frequency cap the content displayed",
+       "name": "service optimization"
+      },
+      {
+       "text": "fulfil other administrative purposes, such as: pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention; detect security incidents, protect against malicious, deceptive, fraudulent or illegal activity, and prosecute those responsible for that activity; ensure internal quality control and safety; authenticate and verify individual identities, including requests to exercise your rights under this policy; debug to identify and repair errors with our Services; audit relating to interactions, transactions, and other compliance activities; share information with third parties as needed to provide the Services; enforce our policies; and other uses as required to comply with our legal obligations",
+       "name": "admin and security"
+      },
+      {
+       "text": "Improve, upgrade, or enhance our services, attribution and to deliver a better personalized experience which may include short-term, transient use, such as interest-based advertising customized to individuals’ inferred interests, preferences and locations, measure interest and engagement in our Services; and to perform analysis aimed at improving your user experience",
+       "name": "service optimization"
+      },
+      {
+       "text": "Tailor and provide you with content and advertisements that are customized to the users’ interests and geographic locations, which Glance may derive or infer from information that it collects about how those users interact with such sites, over the top applications and apps",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as permitted by applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "this policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "our legal obligations",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "partner",
+      "text": "our partners"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information that is collected about you or that you provide"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "Provide you with the Glance Platform features and its contents",
+       "name": "service provision"
+      },
+      {
+       "text": "fulfil our contract with you, such as: location-based news, events, featured stories, offers, products or services and any other information",
+       "name": "contract fulfilment"
+      },
+      {
+       "text": "manage your preferences",
+       "name": "preference management"
+      },
+      {
+       "text": "answer requests for customer or technical support, activities on our Services, and policy changes",
+       "name": "customer support"
+      },
+      {
+       "text": "Provide advertisements and promotions that may be of interest to you or to run survey campaigns including targeted advertisements and monetization activities through Glance Platform and/or advertising channels of its Group or media partners as permitted by applicable law",
+       "name": "advertising"
+      },
+      {
+       "text": "Notify or communicate with you about your opt-in/opt-out choices related to the Glance Platform, including service-related notifications",
+       "name": "communication"
+      },
+      {
+       "text": "Notify you when any relevant Glance Platform updates or upgrades are available and requires notification",
+       "name": "communication"
+      },
+      {
+       "text": "Estimate our audience size and usage patterns",
+       "name": "analytics"
+      },
+      {
+       "text": "Speed up your searches",
+       "name": "service provision"
+      },
+      {
+       "text": "Enrich, build custom audience segments or merged data sets (using the data referred herein and/or third party or Group provided data sets) to enable Glance Platform, Ad Partners or the Group to better target advertisements and offer their services",
+       "name": "profiling"
+      },
+      {
+       "text": "Frequency cap the content displayed",
+       "name": "service optimization"
+      },
+      {
+       "text": "fulfil other administrative purposes, such as: pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention; detect security incidents, protect against malicious, deceptive, fraudulent or illegal activity, and prosecute those responsible for that activity; ensure internal quality control and safety; authenticate and verify individual identities, including requests to exercise your rights under this policy; debug to identify and repair errors with our Services; audit relating to interactions, transactions, and other compliance activities; share information with third parties as needed to provide the Services; enforce our policies; and other uses as required to comply with our legal obligations",
+       "name": "admin and security"
+      },
+      {
+       "text": "Improve, upgrade, or enhance our services, attribution and to deliver a better personalized experience which may include short-term, transient use, such as interest-based advertising customized to individuals’ inferred interests, preferences and locations, measure interest and engagement in our Services; and to perform analysis aimed at improving your user experience",
+       "name": "service optimization"
+      },
+      {
+       "text": "Tailor and provide you with content and advertisements that are customized to the users’ interests and geographic locations, which Glance may derive or infer from information that it collects about how those users interact with such sites, over the top applications and apps",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as permitted by applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "this policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "our legal obligations",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "affiliate",
+      "text": "the Group"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information that is collected about you or that you provide"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "Provide you with the Glance Platform features and its contents",
+       "name": "service provision"
+      },
+      {
+       "text": "fulfil our contract with you, such as: location-based news, events, featured stories, offers, products or services and any other information",
+       "name": "contract fulfilment"
+      },
+      {
+       "text": "manage your preferences",
+       "name": "preference management"
+      },
+      {
+       "text": "answer requests for customer or technical support, activities on our Services, and policy changes",
+       "name": "customer support"
+      },
+      {
+       "text": "Provide advertisements and promotions that may be of interest to you or to run survey campaigns including targeted advertisements and monetization activities through Glance Platform and/or advertising channels of its Group or media partners as permitted by applicable law",
+       "name": "advertising"
+      },
+      {
+       "text": "Notify or communicate with you about your opt-in/opt-out choices related to the Glance Platform, including service-related notifications",
+       "name": "communication"
+      },
+      {
+       "text": "Notify you when any relevant Glance Platform updates or upgrades are available and requires notification",
+       "name": "communication"
+      },
+      {
+       "text": "Estimate our audience size and usage patterns",
+       "name": "analytics"
+      },
+      {
+       "text": "Speed up your searches",
+       "name": "service provision"
+      },
+      {
+       "text": "Enrich, build custom audience segments or merged data sets (using the data referred herein and/or third party or Group provided data sets) to enable Glance Platform, Ad Partners or the Group to better target advertisements and offer their services",
+       "name": "profiling"
+      },
+      {
+       "text": "Frequency cap the content displayed",
+       "name": "service optimization"
+      },
+      {
+       "text": "fulfil other administrative purposes, such as: pursuing our legitimate interests such as direct marketing, research and development (including marketing research), network and information security, and fraud prevention; detect security incidents, protect against malicious, deceptive, fraudulent or illegal activity, and prosecute those responsible for that activity; ensure internal quality control and safety; authenticate and verify individual identities, including requests to exercise your rights under this policy; debug to identify and repair errors with our Services; audit relating to interactions, transactions, and other compliance activities; share information with third parties as needed to provide the Services; enforce our policies; and other uses as required to comply with our legal obligations",
+       "name": "admin and security"
+      },
+      {
+       "text": "Improve, upgrade, or enhance our services, attribution and to deliver a better personalized experience which may include short-term, transient use, such as interest-based advertising customized to individuals’ inferred interests, preferences and locations, measure interest and engagement in our Services; and to perform analysis aimed at improving your user experience",
+       "name": "service optimization"
+      },
+      {
+       "text": "Tailor and provide you with content and advertisements that are customized to the users’ interests and geographic locations, which Glance may derive or infer from information that it collects about how those users interact with such sites, over the top applications and apps",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as permitted by applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "this policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "our legal obligations",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "as needed to provide the Services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Glance"
+     },
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "engage in profiling of consumers in furtherance of automated decisions that produce legal or similarly significant effects",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "conditions": [
+      "Additional Privacy Rights for Residents of Colorado, Connecticut, Virginia and Utah and/or any other similar country-specific or state laws providing similar rights, as applicable from time to time"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "",
+       "name": "Colorado Privacy Act and/or other legislations with similar requirements",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-088#s11"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 57,
+  "completeness": {
+   "gaps": 323,
+   "gap_words": 4314
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 57,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 47444,
+  "completion_tokens": 39562,
+  "thinking_tokens": 0,
+  "seconds": 264.20347690582275,
+  "failures": 0
+ },
+ "seconds": 265.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

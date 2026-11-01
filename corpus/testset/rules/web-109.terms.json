@@ -1,0 +1,387 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "job applicant data": "applicant personal information",
+    "job application information": "applicant personal information",
+    "organisation details": "company details",
+    "organisation name": "company name",
+    "organization name": "company name",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "profile picture": "profile photo",
+    "survey responses": "survey response",
+    "user and account ID": "account identifier",
+    "user timezone": "time zone",
+    "voice or audio recordings": "audio and video recordings"
+   },
+   "parents": {
+    "Optimizely account ID": [
+     "account identifier"
+    ],
+    "account credentials": [
+     "identifying information"
+    ],
+    "account identifier": [
+     "identifier",
+     "identifiers"
+    ],
+    "account name": [
+     "account credentials"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "browser details": [
+     "device information"
+    ],
+    "browser type": [
+     "browser details"
+    ],
+    "browsing activity": [
+     "browsing and interaction data"
+    ],
+    "browsing and interaction data": [
+     "usage history"
+    ],
+    "coarse location": [
+     "geographic location"
+    ],
+    "company address": [
+     "company details",
+     "postal address"
+    ],
+    "company name": [
+     "company details"
+    ],
+    "organisation domain": [
+     "company details"
+    ],
+    "credit card number": [
+     "financial data",
+     "payment information"
+    ],
+    "partial credit card number": [
+     "credit card number"
+    ],
+    "credit card type": [
+     "payment information"
+    ],
+    "date of payment": [
+     "payment information"
+    ],
+    "financial data": [
+     "payment information"
+    ],
+    "payment amount": [
+     "payment information"
+    ],
+    "contact details": [
+     "contact information"
+    ],
+    "email address": [
+     "contact details",
+     "contact information"
+    ],
+    "phone number": [
+     "contact details",
+     "contact information"
+    ],
+    "postal address": [
+     "contact details",
+     "contact information"
+    ],
+    "office address": [
+     "postal address"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "contact name": [
+     "name"
+    ],
+    "customer name": [
+     "name"
+    ],
+    "name": [
+     "contact information",
+     "identifiers"
+    ],
+    "identifiers": [
+     "identifier"
+    ],
+    "unique user identifier": [
+     "identifier",
+     "unique identifiers"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "pseudonymous ID": [
+     "unique identifiers"
+    ],
+    "tax identifier": [
+     "identifier"
+    ],
+    "government-issued id": [
+     "identifier"
+    ],
+    "partner ID": [
+     "identifier"
+    ],
+    "IP address": [
+     "device information",
+     "identifier",
+     "identifiers"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "email content": [
+     "communications"
+    ],
+    "user chat logs": [
+     "communications"
+    ],
+    "user comment": [
+     "user content"
+    ],
+    "testimonial": [
+     "user content"
+    ],
+    "resume": [
+     "applicant personal information"
+    ],
+    "dietary preferences": [
+     "personal data"
+    ],
+    "disability information": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sales lead status": [
+     "lead or account status"
+    ],
+    "sales cycle status": [
+     "lead or account status"
+    ],
+    "purchase history": [
+     "commercial history",
+     "transaction history"
+    ],
+    "job position": [
+     "professional information"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "employer": [
+     "professional information"
+    ],
+    "referrer URL": [
+     "browsing history"
+    ],
+    "electronic path": [
+     "browsing history"
+    ],
+    "traffic source": [
+     "marketing referral source"
+    ],
+    "badges showing involvement or accomplishment": [
+     "classifications based on involvement"
+    ],
+    "user interests": [
+     "profile"
+    ],
+    "user profile": [
+     "profile"
+    ],
+    "duration of visit": [
+     "browsing activity"
+    ],
+    "date and time": [
+     "data points"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business partners": "business and marketing partners",
+    "recipients": "recipient",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "advertising networks": [
+     "advertising partners",
+     "service provider"
+    ],
+    "advertising partners": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "cloud host": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "legal and regulatory authorities"
+    ],
+    "marketing partner": [
+     "business and marketing partners"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party agent": [
+     "service provider"
+    ],
+    "Optimizely": [
+     "Optimizely Group"
+    ],
+    "Optimizely Group": [
+     "first party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business and marketing partners": [
+     "third party"
+    ],
+    "legal and regulatory authorities": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties",
+    "user device": "device"
+   },
+   "parents": {
+    "business oriented social networks": [
+     "social network"
+    ],
+    "payment processor": [
+     "third parties"
+    ],
+    "information broker": [
+     "third party sources"
+    ],
+    "employer": [
+     "third parties"
+    ],
+    "social network": [
+     "third party sources"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "third party sources": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Optimizely"
+   },
+   "parents": {
+    "Optimizely": [
+     "Optimizely Group"
+    ],
+    "cloud hosting provider": [
+     "service providers"
+    ],
+    "service providers": [
+     "third party"
+    ],
+    "third-party agent": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "payment-processing": "payment processing",
+    "service provision": "provide service",
+    "service-optimization": "service optimization",
+    "service-provision": "provide service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service improvement": [
+     "service optimization"
+    ],
+    "develop service": [
+     "service improvement"
+    ],
+    "service-related communications": [
+     "communication"
+    ],
+    "verification": [
+     "authentication and authorization"
+    ],
+    "authentication and authorization": [
+     "security"
+    ],
+    "customization": [
+     "personalization"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "organizing the event": [
+     "business operations"
+    ],
+    "perform contractual services": [
+     "services"
+    ],
+    "legal proceedings": [
+     "compliance"
+    ],
+    "account management": [
+     "user account management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4723,
+  "completion_tokens": 1577,
+  "thinking_tokens": 0,
+  "seconds": 15.020494222640991,
+  "failures": 0
+ },
+ "seconds": 15.1
+}

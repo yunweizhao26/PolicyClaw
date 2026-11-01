@@ -1,0 +1,121 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "tax records": "tax information"
+   },
+   "parents": {
+    "meeting recording": [
+     "recordings"
+    ],
+    "social security number": [
+     "national identification number"
+    ],
+    "national identification number": [
+     "personal data"
+    ],
+    "other personal data": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "personal data affected": [
+     "personal data"
+    ],
+    "privacy act records": [
+     "records"
+    ],
+    "tax information": [
+     "information",
+     "records"
+    ],
+    "tax return information": [
+     "tax information"
+    ],
+    "sensitive information": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "information from the file": [
+     "information"
+    ],
+    "messages": [
+     "user data"
+    ],
+    "recordings": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "others": "other persons"
+   },
+   "parents": {
+    "committees of Congress": [
+     "Congress"
+    ],
+    "Department of Justice": [
+     "federal agencies"
+    ],
+    "Department of Treasury": [
+     "federal agencies"
+    ],
+    "federal law enforcement and intelligence agencies": [
+     "federal agencies"
+    ],
+    "federal agencies": [
+     "federal and state agencies",
+     "first party"
+    ],
+    "states": [
+     "federal and state agencies"
+    ],
+    "Comptroller General of the United States": [
+     "federal agencies"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "first party": [
+     "government agencies"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "customer support": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1565,
+  "completion_tokens": 414,
+  "thinking_tokens": 0,
+  "seconds": 29.97263216972351,
+  "failures": 0
+ },
+ "seconds": 30.0
+}

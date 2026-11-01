@@ -1,0 +1,275 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "activity information": "activity data",
+    "online identifiers": "online identifier",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "unique identifier": "online identifier",
+    "user identifier": "screen_name",
+    "user name": "screen_name"
+   },
+   "parents": {
+    "account name": [
+     "registration information"
+    ],
+    "account settings": [
+     "registration information"
+    ],
+    "parental controls and settings": [
+     "account settings"
+    ],
+    "email address": [
+     "Personal Information",
+     "identifiers",
+     "registration information"
+    ],
+    "name": [
+     "Personal Information",
+     "identifiers",
+     "registration information"
+    ],
+    "age": [
+     "demographic information"
+    ],
+    "gender": [
+     "demographic information"
+    ],
+    "postal code": [
+     "demographic information"
+    ],
+    "demographic information": [
+     "registration information"
+    ],
+    "ip address": [
+     "device information",
+     "identifiers",
+     "online identifier"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "persistent identifier": [
+     "online identifier"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "viewing history": [
+     "usage data"
+    ],
+    "continue watching titles": [
+     "viewing history"
+    ],
+    "usage data": [
+     "activity data"
+    ],
+    "user activity": [
+     "activity data"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "user comment": [
+     "social engagement information"
+    ],
+    "follow status": [
+     "social engagement information"
+    ],
+    "follower information": [
+     "social engagement information"
+    ],
+    "profile picture": [
+     "picture",
+     "public profile information"
+    ],
+    "public profile information": [
+     "public information"
+    ],
+    "public social media information": [
+     "information from social media"
+    ],
+    "social media user identifier": [
+     "identifiers"
+    ],
+    "coarse location": [
+     "Personal Information",
+     "device information"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "interest profile": [
+     "inferences"
+    ],
+    "chat_log": [
+     "customer support information"
+    ],
+    "email notification": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "ad tech provider",
+    "advertising technology company": "ad tech provider",
+    "affiliates": "affiliate",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "ad tech provider": [
+     "partner",
+     "third parties"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "others with whom you share your Tubi account": [
+     "user"
+    ],
+    "other_user": [
+     "user"
+    ],
+    "service provider": [
+     "partner",
+     "third parties"
+    ],
+    "social_network": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "authorized agent": "agent",
+    "social network": "social media service"
+   },
+   "parents": {
+    "ad tech companies": [
+     "other sources",
+     "partner"
+    ],
+    "advertisers": [
+     "other sources",
+     "partner"
+    ],
+    "affiliate": [
+     "other sources"
+    ],
+    "business partners": [
+     "other sources"
+    ],
+    "commercially available sources": [
+     "other sources"
+    ],
+    "social media service": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad tech provider": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertiser": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "child user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud prevention",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "merger-acquisition": "merger or acquisition",
+    "provide-service": "provide service",
+    "service provision": "provide service",
+    "service_provision": "provide service",
+    "share-with-affiliates": "affiliate sharing",
+    "targeted-advertising": "targeted advertising",
+    "user verification": "authentication"
+   },
+   "parents": {
+    "cross device tracking": [
+     "device recognition"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "merger or acquisition": [
+     "business transfer"
+    ],
+    "fraud prevention": [
+     "fraud_security"
+    ],
+    "security": [
+     "fraud_security"
+    ],
+    "authentication": [
+     "fraud_security"
+    ],
+    "audit": [
+     "compliance"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "recordkeeping": [
+     "compliance"
+    ],
+    "social networking service": [
+     "social_network"
+    ],
+    "services improvement": [
+     "service optimization"
+    ],
+    "service functionality": [
+     "provide service"
+    ],
+    "customer_support": [
+     "operations"
+    ],
+    "analytics": [
+     "analytics or research"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4150,
+  "completion_tokens": 1550,
+  "thinking_tokens": 0,
+  "seconds": 15.212234735488892,
+  "failures": 0
+ },
+ "seconds": 15.3
+}

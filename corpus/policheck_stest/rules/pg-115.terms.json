@@ -1,0 +1,259 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "aggregated and de-identified information": "aggregate_user_data",
+    "cookies": "cookie",
+    "demographic information": "demographic data",
+    "demographic_data": "demographic data",
+    "identifiers/account information": "Identifiers/Account information",
+    "information about you": "Information About You",
+    "personal information": "personal data",
+    "service_purchases": "purchased packages",
+    "transaction history": "purchase_history",
+    "user_data": "user data",
+    "viewing history": "video_viewing_history"
+   },
+   "parents": {
+    "account information": [
+     "Information About You",
+     "personal data"
+    ],
+    "account log-in": [
+     "account information"
+    ],
+    "ad viewing activity": [
+     "video_viewing_history"
+    ],
+    "ad viewing context": [
+     "usage data"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "browser type": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "communication data": [
+     "communications"
+    ],
+    "cookie": [
+     "software"
+    ],
+    "date and time": [
+     "usage data"
+    ],
+    "demographic data": [
+     "Information About You"
+    ],
+    "device identifier": [
+     "Identifiers/Account information"
+    ],
+    "email address": [
+     "Identifiers/Account information"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "financial information": [
+     "account information"
+    ],
+    "form data": [
+     "usage data"
+    ],
+    "hardware model": [
+     "usage data"
+    ],
+    "information about usage or activities on services": [
+     "usage data"
+    ],
+    "ip address": [
+     "Identifiers/Account information"
+    ],
+    "isp": [
+     "usage data"
+    ],
+    "keystrokes": [
+     "usage data"
+    ],
+    "location": [
+     "Information About You"
+    ],
+    "mouse movements": [
+     "usage data"
+    ],
+    "name": [
+     "Identifiers/Account information"
+    ],
+    "operating system": [
+     "usage data"
+    ],
+    "payment history": [
+     "financial information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "Identifiers/Account information"
+    ],
+    "postal address": [
+     "Identifiers/Account information"
+    ],
+    "purchase_history": [
+     "commercial information"
+    ],
+    "purchased packages": [
+     "purchase_history"
+    ],
+    "security question and answer": [
+     "account information"
+    ],
+    "usage data": [
+     "Information About You"
+    ],
+    "user feedback": [
+     "communications"
+    ],
+    "user profile": [
+     "user data"
+    ],
+    "video_viewing_history": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate affiliate": "affiliate",
+    "marketing organization": "marketing company"
+   },
+   "parents": {
+    "acquiring entity": [
+     "potential business merger, acquisition, or sale partners"
+    ],
+    "advertising service provider": [
+     "service provider"
+    ],
+    "billing processor": [
+     "service provider"
+    ],
+    "software provider": [
+     "service provider"
+    ],
+    "subcontractor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party business": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "charity": [
+     "third party"
+    ],
+    "credit bureau": [
+     "third party"
+    ],
+    "programming providers": [
+     "third party"
+    ],
+    "auditor": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "ad_tech_partners": "ad network",
+    "advertisers": "advertiser",
+    "service_providers": "service provider"
+   },
+   "parents": {
+    "ad network": [
+     "advertising_partners",
+     "third party"
+    ],
+    "advertiser": [
+     "advertising_partners",
+     "third party"
+    ],
+    "advertising_partners": [
+     "third party"
+    ],
+    "session replay provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial purpose": "business and commercial operations",
+    "fraud prevention and security": "fraud detection and prevention",
+    "fraud-detection-or-prevention": "fraud detection and prevention",
+    "verification": "compliance"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "compliance with legal obligation": [
+     "legal or regulatory compliance"
+    ],
+    "legal compliance": [
+     "legal or regulatory compliance"
+    ],
+    "legal-compliance": [
+     "legal or regulatory compliance"
+    ],
+    "analytics": [
+     "analytics-or-research"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "billing": [
+     "service-provision"
+    ],
+    "account-management": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3022,
+  "completion_tokens": 1162,
+  "thinking_tokens": 0,
+  "seconds": 37.57471060752869,
+  "failures": 0
+ },
+ "seconds": 37.7
+}

@@ -1,0 +1,242 @@
+{
+ "cleaned_sha256": "apple-146",
+ "text_sha256": "91c34c2f0cf201520a9f4c2f341d922ea9a5e45ea766e72863589fca1187db7b",
+ "site_id": "apple-146",
+ "sections": 22,
+ "rules": 229,
+ "report": {
+  "sections": 22,
+  "raw_rules": 196,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:\nDelete - the right to delete",
+      "provided to or obtained by us",
+      "When you submit a request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "subject to certain limitations",
+      "If we are unable to verify your identity after a good faith attempt, we may deny the request"
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:\nDelete - the right to delete"
+    ],
+    "section": "apple-146#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:\nCorrect - the right to correct",
+      "taking into account the nature and purposes of the processing of the personal information",
+      "When you submit a request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "inaccuracies in their personal information"
+     },
+     "exceptions": [
+      "subject to certain limitations",
+      "If we are unable to verify your identity after a good faith attempt, we may deny the request"
+     ],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "correct",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:\nCorrect - the right to correct"
+    ],
+    "section": "apple-146#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“sale”",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [
+      "the right to opt out of the “sale” of their Personal Data"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "the right to opt out of the “sale”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "the right to opt out of the “sale”",
+     "the right to opt out of the “sale” of their Personal Data"
+    ],
+    "section": "apple-146#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "targeted advertising",
+      "verb": "advertise"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "states, including Colorado, Connecticut, Virginia, and Utah, may have additional rights under applicable privacy laws, subject to certain limitations, which may include:"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [
+      "the right to opt out of targeted advertising by us"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "the right to opt out",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "the right to opt out of targeted advertising by us"
+    ],
+    "section": "apple-146#s20"
+   }
+  ],
+  "residual_quotes": 38,
+  "quotes": 133,
+  "completeness": {
+   "gaps": 378,
+   "gap_words": 4105
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 133,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 74879,
+  "completion_tokens": 40592,
+  "thinking_tokens": 0,
+  "seconds": 674.4079413414001,
+  "failures": 0
+ },
+ "seconds": 675.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

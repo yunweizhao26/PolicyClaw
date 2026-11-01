@@ -1,0 +1,116 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "user provided info": "user data"
+   },
+   "parents": {
+    "account details": [
+     "user data"
+    ],
+    "age": [
+     "user data"
+    ],
+    "aggregate data": [
+     "data"
+    ],
+    "automatically collected info": [
+     "data"
+    ],
+    "browser type": [
+     "automatically collected info"
+    ],
+    "browsing and interaction data": [
+     "automatically collected info"
+    ],
+    "contact information": [
+     "user data"
+    ],
+    "credit card number": [
+     "user data"
+    ],
+    "device type": [
+     "automatically collected info"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "hardware device identifier": [
+     "automatically collected info"
+    ],
+    "ip address": [
+     "automatically collected info"
+    ],
+    "name": [
+     "user data"
+    ],
+    "operating system": [
+     "automatically collected info"
+    ],
+    "password": [
+     "user data"
+    ],
+    "precise location": [
+     "automatically collected info"
+    ],
+    "transaction information": [
+     "user data"
+    ],
+    "user name": [
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "your information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third parties"
+    ],
+    "external services": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under the age of 13": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "marketing": [
+     "communication"
+    ],
+    "service improvement": [
+     "operate, develop or improve our Application"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1203,
+  "completion_tokens": 371,
+  "thinking_tokens": 0,
+  "seconds": 34.202900886535645,
+  "failures": 0
+ },
+ "seconds": 34.3
+}

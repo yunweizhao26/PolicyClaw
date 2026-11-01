@@ -1,0 +1,22 @@
+{
+ "policy": "pg-169",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "The data collected commonly includes information such as cookie data and/or device ID, IP address, time spent, links clicked, your location, apps on the device, or advertisements viewed on those sites and apps.",
+   "prohibit": "The collection of location data is disabled in the gabenative apps!",
+   "situation": "Collecting location data from users of the gabenative apps via Yahoo Analytics.",
+   "reason": "The quote from Yahoo Analytics states collected data includes location, while gabenative asserts location collection is disabled, creating an unclarified contradiction regarding whether location data is collected.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1883,
+  "completion_tokens": 166,
+  "thinking_tokens": 0,
+  "seconds": 2.19154691696167,
+  "failures": 0
+ }
+}

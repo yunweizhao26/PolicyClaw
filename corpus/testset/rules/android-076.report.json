@@ -1,0 +1,1880 @@
+{
+ "cleaned_sha256": "android-076",
+ "text_sha256": "4be2a3b2032d4a2204e405f7b4402a308270489a1339e539280e451aad037804",
+ "site_id": "android-076",
+ "sections": 42,
+ "rules": 357,
+ "report": {
+  "sections": 42,
+  "raw_rules": 314,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "our",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "Depending on where you live"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be your data controller",
+     "actor": {
+      "text": "Tencent International Service Europe B.V.",
+      "name": "Tencent International Service Europe B.V."
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "will be your data controller",
+      "verb": "control"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you are a WeChat user located in the European Economic Area (\" the EEA \"), the United Kingdom of Great Britain and Northern Ireland (\" the UK \") or Switzerland"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be your data controller",
+     "actor": {
+      "text": "WeChat International Pte. Ltd.",
+      "name": "WeChat International Pte. Ltd."
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "will be your data controller",
+      "verb": "control"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you are a WeChat user located outside of the EEA, the UK, Switzerland or the Chinese Mainland"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your WeChat profile",
+      "name": "profile information"
+     },
+     "recipient": {
+      "text": "other WeChat and Weixin users",
+      "name": "users"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "dissemination or otherwise making available",
+     "purpose": [
+      {
+       "text": "to provide WeChat services",
+       "name": "service provision"
+      },
+      {
+       "text": "to improve our services",
+       "name": "service improvement"
+      },
+      {
+       "text": "to maintain a safe environment for users",
+       "name": "safety"
+      },
+      {
+       "text": "to ensure the security and integrity of our services",
+       "name": "security"
+      },
+      {
+       "text": "protect users from prohibited conduct",
+       "name": "safety"
+      },
+      {
+       "text": "To allow your profile data to be shared with other WeChat and Weixin users",
+       "name": "social networking"
+      },
+      {
+       "text": "to allow you to use your WeChat ID to log in to or otherwise connect with third party services",
+       "name": "sign-in"
+      },
+      {
+       "text": "to facilitate your use of Weixin features",
+       "name": "service provision"
+      },
+      {
+       "text": "to provide you with personalized user support",
+       "name": "customer support"
+      },
+      {
+       "text": "to provide language and location customization",
+       "name": "customization"
+      },
+      {
+       "text": "to maintain and administer the WeChat platform",
+       "name": "service administration"
+      },
+      {
+       "text": "for troubleshooting",
+       "name": "troubleshooting"
+      },
+      {
+       "text": "to support anti-fraud and security functions in relation to an Interoperable Interaction",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "Legal Basis (Relevant Jurisdictions only)\n: Necessary to perform our contract with you to share your WeChat profile and provide WeChat services. Additionally, it is in our legitimate interests to improve our services, to maintain a safe environment for users, to ensure the security and integrity of our services and protect users from prohibited conduct",
+      "where applicable and only in certain jurisdictions, to support anti-fraud and security functions in relation to an Interoperable Interaction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide WeChat services"
+    ],
+    "section": "android-076#s17"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "account identifiers",
+      "text": "Account identifiers"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "phone number",
+      "text": "mobile number"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "nickname",
+      "text": "nickname"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "user identifier",
+      "text": "WeChat ID"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "communications",
+      "text": "communications with and any information that you or other users provide to our customer support team"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [
+      {
+       "text": "To investigate the issue and provide customized customer support",
+       "name": "customer support"
+      },
+      {
+       "text": "to improve existing services and app experience",
+       "name": "service improvement"
+      },
+      {
+       "text": "to assist you with account management",
+       "name": "account management"
+      },
+      {
+       "text": "for moderation of content or behavior that is prohibited by applicable laws and regulations, or which otherwise violate WeChat's terms of service or other rules applicable to WeChat users",
+       "name": "service administration"
+      }
+     ],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "applicable laws and regulations",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "WeChat's terms of service",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "other rules applicable to WeChat users",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "country",
+      "text": "Country/Region Data"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "Until",
+     "purpose": [],
+     "conditions": [
+      "Until your account is deleted, unless otherwise required by law"
+     ],
+     "exceptions": [
+      "otherwise required by law"
+     ],
+     "references": [
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "our third party service providers ... in Malaysia",
+      "name": "third-party service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred to",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for providing community standards and customer support services",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "our third party service providers ... in Malaysia"
+    ],
+    "section": "android-076#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "protect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "protect",
+      "verb": "protect"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to limit unauthorized access to our systems",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "no matter where it is stored or accessed",
+      "through the use of information security and access policies that limit unauthorized access to our systems, and technological protection measures that protect confidentiality of your Personal Information during transmission and in storage"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to limit unauthorized access to our systems"
+    ],
+    "section": "android-076#s29"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "You have the right to request access to your Personal Information we hold about you, how we use it, and who we share it with",
+      "if providing it to you would interfere with another person's rights (e.g. where providing the Personal Information we hold about you would reveal information about another person)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "certain Personal Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to user",
+     "polarity": "DENY",
+     "polarity_text": "may not be able to",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "account details",
+      "text": "personal account data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "contacts",
+      "text": "contacts data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "user generated content",
+      "text": "data from your use of Moments"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "user preferences",
+      "text": "data related to your favorites"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "location",
+      "text": "location"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "You"
+     },
+     "conditions": [
+      "This section only applies to users located in a Relevant Jurisdiction",
+      "by using our \"Export Personal Data\" tool within WeChat",
+      "To do this, you can go to the \"Me\" > \"Settings\" > \"My Information & Authorizations\" and select \"Export Personal Data\""
+     ],
+     "data": {
+      "name": "log data",
+      "text": "log-in data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-076#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use reasonable steps to inform",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "any third party to whom we have disclosed the relevant Personal Information",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use reasonable steps to inform",
+      "verb": "inform"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "so that they can erase it too",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "Where you have requested that we erase your Personal Information that we have made public and there are valid legal grounds for erasure"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s33"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will use reasonable steps to inform",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "any third party to whom we have disclosed the relevant Personal Information",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use reasonable steps to inform",
+      "verb": "inform"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "so that they can stop processing it too",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "Where we agree to stop processing the Personal Information",
+      "Restriction of Processing to Storage Only"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s33"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "process",
+      "text": "process"
+     },
+     "polarity": "DENY",
+     "polarity_text": "do not process",
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "for the purposes of profiling in furtherance of decisions that produce legal or similarly significant effects",
+       "name": "legal or similarly significant profiling"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as all such terms and concepts are defined under applicable U.S. state privacy laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for the purposes of profiling in furtherance of decisions that produce legal or similarly significant effects"
+    ],
+    "section": "android-076#s38"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "location",
+      "text": "personal location information regarding the child"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "shall deem that the child has consented to such use",
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for the protection of the child's health or safety",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "Where the legal guardian of any of the following persons (hereinafter referred to as \"\nChild\n\"):\n(i) a child of eight years old or younger;\n(ii) a person under adult guardianship; or\n(iii) a person with a mental disorder defined in Article 2(2) 2 of the Act on Welfare of Persons with Disabilities, classified as a person with a severe disability defined in subparagraph 2 of Article 2 of the Act on the Employment Promotion and Vocational Rehabilitation of Persons with Disabilities (limited to those registered as disabled persons under Article 32 of the Act on Welfare of Persons with Disabilities);\ngives consent to the use or provision of personal location information regarding the child",
+      "the legal guardian who intends to consent to the use or provision of personal location information of the child must submit a written consent to us at\ndataprotection@wechat.com\nalong with a document proving that he/she is the legal guardian"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 26(1) of the Location Information Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 2(2) 2 of the Act on Welfare of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "subparagraph 2 of Article 2 of the Act on the Employment Promotion and Vocational Rehabilitation of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 32 of the Act on Welfare of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "location",
+      "text": "personal location information regarding the child"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "provision",
+      "verb": "provide",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "shall deem that the child has consented to such use or provision",
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for the protection of the child's health or safety",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "Where the legal guardian of any of the following persons (hereinafter referred to as \"\nChild\n\"):\n(i) a child of eight years old or younger;\n(ii) a person under adult guardianship; or\n(iii) a person with a mental disorder defined in Article 2(2) 2 of the Act on Welfare of Persons with Disabilities, classified as a person with a severe disability defined in subparagraph 2 of Article 2 of the Act on the Employment Promotion and Vocational Rehabilitation of Persons with Disabilities (limited to those registered as disabled persons under Article 32 of the Act on Welfare of Persons with Disabilities);\ngives consent to the use or provision of personal location information regarding the child",
+      "the legal guardian who intends to consent to the use or provision of personal location information of the child must submit a written consent to us at\ndataprotection@wechat.com\nalong with a document proving that he/she is the legal guardian"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 26(1) of the Location Information Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 2(2) 2 of the Act on Welfare of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "subparagraph 2 of Article 2 of the Act on the Employment Promotion and Vocational Rehabilitation of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Article 32 of the Act on Welfare of Persons with Disabilities",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "alias",
+      "text": "user alias"
+     },
+     "recipient": {
+      "name": "first party",
+      "text": "our secure servers in the China mainland"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "is transferred",
+      "verb": "transfer",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is transferred",
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "alias",
+      "text": "user alias"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "stored",
+      "verb": "store",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "stored",
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service",
+      "on our secure servers in the China mainland"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "alias",
+      "text": "user alias"
+     },
+     "recipient": {
+      "name": "third party service",
+      "text": "the third-party service"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "make this information accessible",
+      "verb": "make",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "in order to make",
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "profile photo",
+      "text": "profile photo"
+     },
+     "recipient": {
+      "name": "first party",
+      "text": "our secure servers in the China mainland"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "is transferred",
+      "verb": "transfer",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is transferred",
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "profile photo",
+      "text": "profile photo"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "stored",
+      "verb": "store",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "stored",
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service",
+      "on our secure servers in the China mainland"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "profile photo",
+      "text": "profile photo"
+     },
+     "recipient": {
+      "name": "third party service",
+      "text": "the third-party service"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "make this information accessible",
+      "verb": "make",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "in order to make",
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "geographic location",
+      "text": "region"
+     },
+     "recipient": {
+      "name": "first party",
+      "text": "our secure servers in the China mainland"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "is transferred",
+      "verb": "transfer",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is transferred",
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "geographic location",
+      "text": "region"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "stored",
+      "verb": "store",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "stored",
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service",
+      "on our secure servers in the China mainland"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "geographic location",
+      "text": "region"
+     },
+     "recipient": {
+      "name": "third party service",
+      "text": "the third-party service"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "make this information accessible",
+      "verb": "make",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "in order to make",
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "gender",
+      "text": "gender"
+     },
+     "recipient": {
+      "name": "first party",
+      "text": "our secure servers in the China mainland"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "is transferred",
+      "verb": "transfer",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is transferred",
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "gender",
+      "text": "gender"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "stored",
+      "verb": "store",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "stored",
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "in order to make this information accessible to the third-party service",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service",
+      "on our secure servers in the China mainland"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "governed by the European Commission’s Standard Contractual Clauses as specified in the WeChat Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "gender",
+      "text": "gender"
+     },
+     "recipient": {
+      "name": "third party service",
+      "text": "the third-party service"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "make this information accessible",
+      "verb": "make",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "in order to make",
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [
+      "You are using the WeChat Open Platform because you activated a service from a third-party by following an Official Account, opening a Mini Program, or using WeChat Login on a third-party app or web site",
+      "When activating a service"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "WeChat"
+     },
+     "data": {
+      "name": "user data",
+      "text": "Any other information you disclose to the 3rd-party service (e.g. contact info)"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "have access",
+      "verb": "have",
+      "text": ""
+     },
+     "polarity": "DENY",
+     "polarity_text": "does not have access",
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-076#s42"
+   }
+  ],
+  "residual_quotes": 62,
+  "quotes": 218,
+  "completeness": {
+   "gaps": 631,
+   "gap_words": 7513
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 218,
+  "compile_failures": 7,
+  "fixed_structurally": 4,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 78,
+  "cached": 0,
+  "prompt_tokens": 136113,
+  "completion_tokens": 76106,
+  "thinking_tokens": 699,
+  "seconds": 640.2597260475159,
+  "failures": 0
+ },
+ "seconds": 642.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

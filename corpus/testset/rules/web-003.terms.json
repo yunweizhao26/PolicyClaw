@@ -1,0 +1,231 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact list": "address book",
+    "information": "data",
+    "information about you": "data about you",
+    "log information": "log data",
+    "payment information": "financial details",
+    "personal information": "personal data",
+    "user post": "posts",
+    "your data": "data about you"
+   },
+   "parents": {
+    "approximate location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "location history": [
+     "location"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "billing address": [
+     "financial details",
+     "postal address"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "hashed email addresses": [
+     "email address"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "display name": [
+     "account name"
+    ],
+    "username": [
+     "account name"
+    ],
+    "password": [
+     "authentication details"
+    ],
+    "ad interaction data": [
+     "ad views and interactions"
+    ],
+    "interactions with content": [
+     "interaction information"
+    ],
+    "interactions with content on third-party sites": [
+     "interaction information"
+    ],
+    "user interactions": [
+     "interaction information"
+    ],
+    "link interaction data": [
+     "interaction information"
+    ],
+    "posts": [
+     "user content"
+    ],
+    "communication content": [
+     "communication data"
+    ],
+    "communication details": [
+     "communication data"
+    ],
+    "communications": [
+     "communication data"
+    ],
+    "mobile device IDs": [
+     "device information"
+    ],
+    "device settings": [
+     "device information"
+    ],
+    "browser cookie IDs": [
+     "cookies"
+    ],
+    "information collected using cookies": [
+     "cookies and tracking technologies"
+    ],
+    "cookies": [
+     "cookies and tracking technologies"
+    ],
+    "website usage data": [
+     "usage information"
+    ],
+    "third-party service usage data": [
+     "usage information"
+    ],
+    "browsing behavior": [
+     "usage information"
+    ],
+    "content viewed or actions taken on website or app": [
+     "usage information"
+    ],
+    "third-party website browsing history": [
+     "log data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "job title": [
+     "profile information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "public X information": [
+     "data about you"
+    ],
+    "inferred identity": [
+     "identity information"
+    ],
+    "inferred identity data": [
+     "identity information"
+    ],
+    "inferred identity information": [
+     "identity information"
+    ],
+    "transaction details": [
+     "financial details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "public": "general public",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party service": [
+     "third party"
+    ],
+    "third-party web client or application": [
+     "third party"
+    ],
+    "other users": [
+     "general public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "the European Union": [
+     "EU, Switzerland and the UK"
+    ],
+    "advertising partner": [
+     "partners"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "ad and business partners",
+     "third party"
+    ],
+    "video or cross-platform sharing partners": [
+     "ad and business partners"
+    ],
+    "ad and business partners": [
+     "partner",
+     "third party"
+    ],
+    "search engines": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "verification": [
+     "user identification"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3471,
+  "completion_tokens": 918,
+  "thinking_tokens": 0,
+  "seconds": 18.250126838684082,
+  "failures": 0
+ },
+ "seconds": 18.4
+}

@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "apple-106",
+ "text_sha256": "23e95938d765580f097ada4b119a92a1d6b4474c56034e036ad8d61d22971fb0",
+ "site_id": "apple-106",
+ "sections": 4,
+ "rules": 60,
+ "report": {
+  "sections": 4,
+  "raw_rules": 51,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "with promotional information about our games or any other offers from us to you",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "you have opted out of receiving such information"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-106#s2"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 27,
+  "completeness": {
+   "gaps": 98,
+   "gap_words": 1088
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 27,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 15439,
+  "completion_tokens": 12244,
+  "thinking_tokens": 0,
+  "seconds": 168.41112852096558,
+  "failures": 0
+ },
+ "seconds": 168.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

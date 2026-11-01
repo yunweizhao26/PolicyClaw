@@ -1,0 +1,128 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware device ID": "device identifier",
+    "ip address": "IP address",
+    "mobile device type": "device model",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "billing address": [
+     "contact info"
+    ],
+    "credit card number": [
+     "financial details",
+     "financial information"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "financial details": [
+     "financial information"
+    ],
+    "device identifier": [
+     "mobile device info"
+    ],
+    "IP address": [
+     "mobile device info"
+    ],
+    "device model": [
+     "mobile device info"
+    ],
+    "operating system": [
+     "mobile device info"
+    ],
+    "password": [
+     "password or sensitive data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "telecommunications carrier": [
+     "mobile device info"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Auction House": "Apple Tree Auction Center",
+    "first party": "Apple Tree Auction Center",
+    "the Auction House": "Apple Tree Auction Center"
+   },
+   "parents": {
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "marketing partner": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "unspecified-third-party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "order-fulfillment": "order fulfillment",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "order fulfillment": [
+     "provide the service",
+     "service provision"
+    ],
+    "customer-support": [
+     "provide the service"
+    ],
+    "troubleshooting": [
+     "provide the service",
+     "service operation or improvement"
+    ],
+    "service operation or improvement": [
+     "provide the service"
+    ],
+    "service provision": [
+     "provide the service"
+    ],
+    "fraud-prevention": [
+     "legal-compliance"
+    ],
+    "marketing": [
+     "commercial"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 1,
+  "prompt_tokens": 1850,
+  "completion_tokens": 582,
+  "thinking_tokens": 0,
+  "seconds": 75.54269242286682,
+  "failures": 0
+ },
+ "seconds": 75.6
+}

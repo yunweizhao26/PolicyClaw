@@ -1,0 +1,357 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "coarse geolocation": "coarse geographic location",
+    "contact information": "contact details",
+    "demographic information": "demographic data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "professional or employment data": "professional and employment information",
+    "sensitive personal information": "sensitive personal data",
+    "unique device identifier": "hardware id"
+   },
+   "parents": {
+    "account name": [
+     "identifiers"
+    ],
+    "advertising identifier": [
+     "online identifiers"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "alias": [
+     "identifiers"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "audio": [
+     "audio or visual information",
+     "audiovisual data"
+    ],
+    "call audio": [
+     "audio",
+     "audio or visual information"
+    ],
+    "bank account number": [
+     "financial data"
+    ],
+    "credit card number": [
+     "financial data"
+    ],
+    "debit card number": [
+     "financial data"
+    ],
+    "browsing activity": [
+     "internet or other network activity information"
+    ],
+    "browsing and interaction data": [
+     "internet or other network activity information"
+    ],
+    "browsing history": [
+     "internet or other network activity information"
+    ],
+    "chat logs": [
+     "electronic and usage information"
+    ],
+    "coarse geographic location": [
+     "geolocation information",
+     "location"
+    ],
+    "crash data": [
+     "diagnostic data"
+    ],
+    "device configuration": [
+     "device settings"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "downloaded content": [
+     "usage data"
+    ],
+    "educational background": [
+     "professional and employment information"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "employment history": [
+     "professional and employment information"
+    ],
+    "employment status": [
+     "professional and employment information"
+    ],
+    "error data": [
+     "diagnostic data"
+    ],
+    "error report": [
+     "diagnostic data"
+    ],
+    "firmware version": [
+     "device information"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "hardware device type": [
+     "hardware device information"
+    ],
+    "images": [
+     "audiovisual data"
+    ],
+    "income": [
+     "demographic data"
+    ],
+    "ip address": [
+     "identifiers",
+     "online identifiers"
+    ],
+    "mac address": [
+     "hardware id",
+     "identifiers",
+     "online identifiers"
+    ],
+    "mailing address": [
+     "contact details"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "online activity": [
+     "internet or other network activity information"
+    ],
+    "online identifiers": [
+     "identifiers"
+    ],
+    "operating system": [
+     "system information"
+    ],
+    "order receipt": [
+     "commercial information"
+    ],
+    "password": [
+     "passwords"
+    ],
+    "performance metrics": [
+     "diagnostic data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "images"
+    ],
+    "postal address": [
+     "contact details",
+     "identifiers"
+    ],
+    "professional details": [
+     "professional and employment information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "sensitive personal data": [
+     "Personal Information"
+    ],
+    "serial number": [
+     "hardware id",
+     "identifiers"
+    ],
+    "service usage": [
+     "usage data"
+    ],
+    "signature": [
+     "identifiers"
+    ],
+    "software version": [
+     "system information"
+    ],
+    "test results": [
+     "educational background"
+    ],
+    "time and duration of visits": [
+     "usage data"
+    ],
+    "hardware id": [
+     "device information",
+     "identifiers",
+     "online identifiers"
+    ],
+    "user commands": [
+     "usage data"
+    ],
+    "user id": [
+     "identifiers",
+     "online identifiers"
+    ],
+    "user preferences": [
+     "account settings"
+    ],
+    "video": [
+     "audio or visual information",
+     "audiovisual data"
+    ],
+    "viewed content": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "Bitdefender": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "internal organization": [
+     "first party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party course provider": [
+     "service provider",
+     "third party"
+    ],
+    "trusted partners": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "hardware device": [
+     "user device"
+    ],
+    "your IP address": [
+     "any of the personal information listed above"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "NETGEAR"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "third party service providers": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligations",
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "advertising": [
+     "any purpose",
+     "commercial",
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research",
+     "any purpose"
+    ],
+    "analytics or research": [
+     "any purpose"
+    ],
+    "business operations": [
+     "any purpose"
+    ],
+    "commercial": [
+     "any purpose"
+    ],
+    "compliance with legal obligations": [
+     "any purpose"
+    ],
+    "customer support": [
+     "any purpose",
+     "perform services",
+     "service provision"
+    ],
+    "internal business operations": [
+     "any purpose",
+     "business operations"
+    ],
+    "marketing": [
+     "any purpose",
+     "commercial"
+    ],
+    "merger or acquisition": [
+     "any purpose"
+    ],
+    "other": [
+     "any purpose"
+    ],
+    "perform services": [
+     "any purpose"
+    ],
+    "personalisation": [
+     "any purpose"
+    ],
+    "provide goods or services": [
+     "any purpose"
+    ],
+    "provide, improve, and protect the Sites, Products and Services on our behalf": [
+     "any purpose"
+    ],
+    "quality assurance": [
+     "any purpose"
+    ],
+    "security": [
+     "any purpose"
+    ],
+    "service communication": [
+     "any purpose"
+    ],
+    "service delivery": [
+     "any purpose",
+     "service provision"
+    ],
+    "service improvement": [
+     "any purpose"
+    ],
+    "service provision": [
+     "any purpose"
+    ],
+    "the outlined purposes below": [
+     "any purpose"
+    ],
+    "unspecified": [
+     "any purpose"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3883,
+  "completion_tokens": 1502,
+  "thinking_tokens": 0,
+  "seconds": 13.279088497161865,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

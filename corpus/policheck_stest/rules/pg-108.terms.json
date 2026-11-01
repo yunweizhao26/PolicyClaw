@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "date of birth": "age",
+    "imei number": "IMEI",
+    "ip address": "IP address",
+    "mac address": "MAC address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "IMEI": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "MAC address": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "account identifier": [
+     "unique user identifier"
+    ],
+    "application launch frequency": [
+     "analytics data"
+    ],
+    "city": [
+     "geolocation",
+     "location"
+    ],
+    "country": [
+     "geolocation",
+     "location"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "game interaction data": [
+     "analytics data"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "in-app events": [
+     "analytics data"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "precise location": [
+     "geolocation",
+     "location"
+    ],
+    "state": [
+     "geolocation",
+     "location"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "user submission": [
+     "user information"
+    ],
+    "username": [
+     "unique user identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "company": "another company"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "another company",
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "another company": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "organization": [
+     "third party"
+    ],
+    "publisher": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising company": "advertiser"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "agent": [
+     "service provider",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sweepstakes vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "provide targeted advertisements": "advertising",
+    "targeted advertising": "advertising",
+    "user account management": "account management"
+   },
+   "parents": {
+    "collect and analyze user information on our behalf": [
+     "analytics"
+    ],
+    "measure advertisement performance": [
+     "advertising",
+     "analytics"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "recognize computer/device when sending advertisements": [
+     "advertising",
+     "identify a user's computer/device"
+    ],
+    "track content and advertisements seen": [
+     "advertising"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "match you with other players in your area": [
+     "social networking"
+    ],
+    "notify winners and award prizes": [
+     "marketing"
+    ],
+    "service personalization": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service improvement"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "website functionality": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "service improvement": [
+     "providing you our Services and improving them"
+    ],
+    "service provision": [
+     "providing you our Services and improving them"
+    ],
+    "remember things about your visit": [
+     "service personalization"
+    ],
+    "service monitoring": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2547,
+  "completion_tokens": 956,
+  "thinking_tokens": 0,
+  "seconds": 44.9260950088501,
+  "failures": 0
+ },
+ "seconds": 45.0
+}

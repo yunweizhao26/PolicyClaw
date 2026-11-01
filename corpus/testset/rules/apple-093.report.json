@@ -1,0 +1,529 @@
+{
+ "cleaned_sha256": "apple-093",
+ "text_sha256": "f4aa1c501e01cccd98b597a31178461431cbd9b258e8818cd91119c52665076b",
+ "site_id": "apple-093",
+ "sections": 12,
+ "rules": 277,
+ "report": {
+  "sections": 12,
+  "raw_rules": 253,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to reach people (or people similar to people) who have visited our Service or are identified in one or more of our databases",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Data Subject Requests",
+      "please submit a request at our Privacy Center"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "To access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-093#s4"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "",
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "purpose": [],
+     "conditions": [
+      "In your region",
+      "To exercise any of these rights, please follow the instructions for data subject requests in the\nYour Privacy Choices\nsection above",
+      "If you have an account with us, we may require you to use the account to submit the request",
+      "We may require specific information from you to help us confirm your identity and process your request"
+     ],
+     "exceptions": [
+      "subject to exceptions"
+     ],
+     "references": [
+      {
+       "text": "under applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Your Privacy Choices\nsection above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-093#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Processing is based on your consent where that consent is required by applicable law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "is based on",
+     "purpose": [
+      {
+       "text": "Marketing",
+       "name": "Marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Processing is based on your consent where that consent is required by applicable law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "is based on",
+     "purpose": [
+      {
+       "text": "Interest-based advertising",
+       "name": "Interest-based advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "These activities constitute our legitimate interests"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "Processing",
+     "purpose": [
+      {
+       "text": "For research and development",
+       "name": "For research and development"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "These activities constitute our legitimate interests"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "Processing",
+     "purpose": [
+      {
+       "text": "For compliance, fraud prevention and safety",
+       "name": "For compliance, fraud prevention and safety"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Processing is necessary to comply with our legal obligations"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "Processing",
+     "purpose": [
+      {
+       "text": "To comply with laws and regulations",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "With your consent",
+      "Processing is based on your consent"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "withdraw it any time in the manner indicated when you consent or in the Service"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "is based on",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [],
+     "exceptions": [
+      "we specifically request it"
+     ],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "ask that you not provide",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-093#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "When you access a service that contains a pixel"
+     ],
+     "data": {
+      "name": "device information",
+      "text": "other information about your device"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may permit",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "other information about your device"
+    ],
+    "section": "apple-093#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "a third party"
+     },
+     "conditions": [
+      "When you access a service that contains a pixel"
+     ],
+     "data": {
+      "name": "device information",
+      "text": "other information about your device"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may permit",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user device",
+      "text": "your device"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "other information about your device"
+    ],
+    "section": "apple-093#s11"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 101,
+  "completeness": {
+   "gaps": 368,
+   "gap_words": 3484
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 101,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 49147,
+  "completion_tokens": 49313,
+  "thinking_tokens": 0,
+  "seconds": 609.4895565509796,
+  "failures": 0
+ },
+ "seconds": 610.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

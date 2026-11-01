@@ -1,0 +1,355 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device files": "cookies",
+    "geolocation data": "geolocation",
+    "online activity information": "information about your online activities",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "precise geolocation": "precise geographic location",
+    "precise geolocation data": "precise geographic location"
+   },
+   "parents": {
+    "IP address": [
+     "browsing history",
+     "device information"
+    ],
+    "account credentials": [
+     "Personal Information"
+    ],
+    "approximate geographic data": [
+     "geolocation",
+     "location"
+    ],
+    "bank account number": [
+     "personal, professional, and financial information"
+    ],
+    "basic customer information": [
+     "customer information"
+    ],
+    "browsing activity": [
+     "browsing history",
+     "information about your online activities"
+    ],
+    "browsing history": [
+     "information about your online activities"
+    ],
+    "contact details": [
+     "Personal Information"
+    ],
+    "cookie information": [
+     "cookies",
+     "device information"
+    ],
+    "cookies": [
+     "device information"
+    ],
+    "country": [
+     "location"
+    ],
+    "customer information": [
+     "information"
+    ],
+    "date of birth": [
+     "Personal Information"
+    ],
+    "device preferences": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "education history": [
+     "education information"
+    ],
+    "education information": [
+     "Personal Information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "employment history": [
+     "employment information",
+     "professional or employment-related information"
+    ],
+    "employment information": [
+     "professional or employment-related information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "geographic data based on user input": [
+     "location"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "haircut descriptions and visit details": [
+     "customer information"
+    ],
+    "health_insurance_information": [
+     "Personal Information"
+    ],
+    "identity": [
+     "Personal Information"
+    ],
+    "individual information provided to us": [
+     "individual information"
+    ],
+    "individual information": [
+     "Personal Information"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "insurance_policy_number": [
+     "Personal Information"
+    ],
+    "job application and employment-related information": [
+     "employment information",
+     "professional or employment-related information"
+    ],
+    "job interest": [
+     "employment information"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "contact details",
+     "identity"
+    ],
+    "non-personal information": [
+     "information"
+    ],
+    "Personal Information": [
+     "information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "physical_characteristics": [
+     "Personal Information"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise geographic location": [
+     "geolocation",
+     "location"
+    ],
+    "professional or employment-related information": [
+     "Personal Information"
+    ],
+    "purchase history": [
+     "transaction history"
+    ],
+    "recruiting and employment information": [
+     "employment information",
+     "professional or employment-related information"
+    ],
+    "residence": [
+     "location"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "social security number": [
+     "Personal Information",
+     "professional or employment-related information",
+     "sensitive personal information"
+    ],
+    "transaction history": [
+     "customer information"
+    ],
+    "visual information": [
+     "Personal Information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "franchisees": "franchisee",
+    "government_authority": "government authorities",
+    "identity verification vendors": "Identity verification provider",
+    "service_provider": "service providers",
+    "third party": "third parties",
+    "third party identity verification services": "Identity verification provider",
+    "users": "user"
+   },
+   "parents": {
+    "App/Site developer": [
+     "service providers"
+    ],
+    "cookie vendors": [
+     "service providers",
+     "vendor"
+    ],
+    "hr vendors": [
+     "service providers",
+     "vendor"
+    ],
+    "recruiting vendors": [
+     "service providers",
+     "vendor"
+    ],
+    "marketing vendors": [
+     "service providers",
+     "vendor"
+    ],
+    "internet hosting providers": [
+     "service providers"
+    ],
+    "Identity verification provider": [
+     "service providers",
+     "third parties",
+     "vendor"
+    ],
+    "payment processor": [
+     "service providers"
+    ],
+    "law enforcement": [
+     "government authorities"
+    ],
+    "franchisee employers": [
+     "franchisee"
+    ],
+    "third-party partners": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "vendor": [
+     "service providers",
+     "third parties"
+    ],
+    "consumer": [
+     "anyone"
+    ],
+    "user": [
+     "anyone"
+    ],
+    "third parties": [
+     "anyone"
+    ],
+    "franchisee": [
+     "anyone"
+    ],
+    "government authorities": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "app and site": "Site and App",
+    "employee or prospective employee": "employee or perspective employee",
+    "first_party_platform": "Site and App",
+    "our Site or App": "Site and App",
+    "point_of_sale": "point of sale system",
+    "site and app": "Site and App"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "consumer": [
+     "user"
+    ],
+    "employee": [
+     "employee or perspective employee",
+     "user"
+    ],
+    "franchise_applicant": [
+     "user"
+    ],
+    "stylist": [
+     "employee",
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Great Clips",
+    "franchisee": "Great Clips franchisees"
+   },
+   "parents": {
+    "Great Clips franchisees": [
+     "third party"
+    ],
+    "OneTrust": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "compliance with legal obligations": "compliance",
+    "customer_support": "customer support",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "providing customer service": "customer support",
+    "service provision": "providing goods/services",
+    "service-provision": "providing goods/services",
+    "service_provision": "providing goods/services",
+    "services": "providing goods/services",
+    "showing nearest salons": "providing salon locations and distances"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "marketing job opportunities": [
+     "marketing",
+     "recruitment"
+    ],
+    "marketing nearby job opportunities": [
+     "marketing",
+     "marketing job opportunities"
+    ],
+    "job hiring decisions": [
+     "recruitment"
+    ],
+    "providing job opportunities": [
+     "recruitment"
+    ],
+    "verifying education history for employment purposes or scholarship eligibility": [
+     "recruitment"
+    ],
+    "process payment transactions related to services": [
+     "payment processing",
+     "providing goods/services"
+    ],
+    "processing returns and payment issues": [
+     "payment processing"
+    ],
+    "service personalization": [
+     "personalization"
+    ],
+    "providing in-salon services consistent with customer wishes": [
+     "providing goods/services"
+    ],
+    "providing salon locations and distances": [
+     "providing goods/services"
+    ],
+    "service communication": [
+     "providing goods/services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3606,
+  "completion_tokens": 2175,
+  "thinking_tokens": 0,
+  "seconds": 18.062685251235962,
+  "failures": 0
+ },
+ "seconds": 18.1
+}

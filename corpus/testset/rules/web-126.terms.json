@@ -1,0 +1,123 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial info",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user personal information": "personal data"
+   },
+   "parents": {
+    "billing address": [
+     "contact details",
+     "postal address"
+    ],
+    "credit card number": [
+     "financial info"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "fax number": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "financial info": [
+     "personal data"
+    ],
+    "government-issued identification number": [
+     "personal data",
+     "personal identification number"
+    ],
+    "personal identification number": [
+     "personal data"
+    ],
+    "customer support communications": [
+     "information"
+    ],
+    "browsing activity": [
+     "information"
+    ],
+    "clickstream data": [
+     "browsing activity"
+    ],
+    "personal data": [
+     "customer information",
+     "information"
+    ],
+    "customer information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ],
+    "trusted parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "user preferences": [
+     "personalization"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "payment processing": [
+     "order fulfillment"
+    ],
+    "service administration": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1710,
+  "completion_tokens": 548,
+  "thinking_tokens": 0,
+  "seconds": 8.164093255996704,
+  "failures": 0
+ },
+ "seconds": 8.2
+}

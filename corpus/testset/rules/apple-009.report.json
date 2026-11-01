@@ -1,0 +1,200 @@
+{
+ "cleaned_sha256": "apple-009",
+ "text_sha256": "852b0577a3ef38b546969673c33942cf239c0a7022d69cc1f8027d2aa508c456",
+ "site_id": "apple-009",
+ "sections": 7,
+ "rules": 122,
+ "report": {
+  "sections": 7,
+  "raw_rules": 105,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "respect your ability to",
+     "actor": {
+      "text": "Apple",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "know",
+      "verb": "know"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "if you choose to exercise these privacy rights",
+      "you must sign in to your account and your identity will be verified"
+     ],
+     "exceptions": [
+      "if it jeopardizes the privacy of others, is frivolous or vexatious, or would be extremely impractical or unreasonable"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-009#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "respect your ability to",
+     "actor": {
+      "text": "Apple",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "if you choose to exercise these privacy rights",
+      "you must sign in to your account and your identity will be verified"
+     ],
+     "exceptions": [
+      "if it jeopardizes the privacy of others, is frivolous or vexatious, or would be extremely impractical or unreasonable"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-009#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can make a request",
+     "actor": {
+      "text": "Apple",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data that is not currently available from\nprivacy.apple.com",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "obtain a copy of",
+      "verb": "obtain"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you want to obtain a copy of personal data that is not currently available from\nprivacy.apple.com , you can make a request at\napple.com/legal/privacy/contact",
+      "you must sign in to your account and your identity will be verified"
+     ],
+     "exceptions": [
+      "if it jeopardizes the privacy of others, is frivolous or vexatious, or would be extremely impractical or unreasonable"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-009#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not use",
+     "actor": {
+      "text": "Apple",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "to make any decision that would significantly affect you",
+       "name": "decision making"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "the opportunity for human review"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-009#s4"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 57,
+  "completeness": {
+   "gaps": 205,
+   "gap_words": 2194
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 57,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 14,
+  "cached": 0,
+  "prompt_tokens": 29345,
+  "completion_tokens": 21986,
+  "thinking_tokens": 0,
+  "seconds": 322.9814348220825,
+  "failures": 0
+ },
+ "seconds": 323.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "android-136",
+ "text_sha256": "54872b0587e14c50c780b656753d06286ae10831523e0e03e992744e99c1b3a0",
+ "site_id": "android-136",
+ "sections": 1,
+ "rules": 52,
+ "report": {
+  "sections": 1,
+  "raw_rules": 51,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "sale",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "Outlogic",
+      "text": "our partner Outlogic, a location data provider"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "opt out of the use and sale of our partner Outlogic, a location data provider"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "sale",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-136#s1"
+   }
+  ],
+  "residual_quotes": 0,
+  "quotes": 2,
+  "completeness": {
+   "gaps": 12,
+   "gap_words": 70
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 2,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3338,
+  "completion_tokens": 6650,
+  "thinking_tokens": 0,
+  "seconds": 76.20582866668701,
+  "failures": 0
+ },
+ "seconds": 76.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

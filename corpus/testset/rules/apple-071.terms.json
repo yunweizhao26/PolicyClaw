@@ -1,0 +1,266 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising ID",
+    "geographic location data": "geographic location",
+    "hardware device ID": "device id",
+    "personal information": "personal data",
+    "preferred language": "language preferences",
+    "profile picture": "profile photo",
+    "user id": "user ID"
+   },
+   "parents": {
+    "GPS coordinates": [
+     "geographic location"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "account name": [
+     "name",
+     "profile information",
+     "unique identifier"
+    ],
+    "achievements": [
+     "gameplay data"
+    ],
+    "advertising ID": [
+     "unique identifier"
+    ],
+    "avatars": [
+     "profile information"
+    ],
+    "chat logs": [
+     "communications",
+     "log data"
+    ],
+    "cloud-stored personal data": [
+     "personal data"
+    ],
+    "coarse geographic location": [
+     "geographic location"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial details",
+     "unique identifier"
+    ],
+    "data logs": [
+     "log data"
+    ],
+    "device audio settings": [
+     "system information"
+    ],
+    "device id": [
+     "system information",
+     "unique identifier"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "financial details": [
+     "commercial information"
+    ],
+    "financial transaction history": [
+     "commercial information",
+     "purchase history"
+    ],
+    "game settings": [
+     "user preferences"
+    ],
+    "gameplay data": [
+     "usage data"
+    ],
+    "information you provide": [
+     "personal data"
+    ],
+    "ip address": [
+     "unique identifier"
+    ],
+    "language preferences": [
+     "user preferences"
+    ],
+    "name": [
+     "profile information"
+    ],
+    "nickname": [
+     "name",
+     "profile information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "product SKU": [
+     "commercial information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "profile photo": [
+     "profile information"
+    ],
+    "purchase and subscription history": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "commercial information",
+     "purchase and subscription history"
+    ],
+    "purchase time": [
+     "commercial information",
+     "purchase history"
+    ],
+    "screen name": [
+     "name",
+     "profile information"
+    ],
+    "social media identifiers": [
+     "third party identifier",
+     "unique identifier"
+    ],
+    "subscription status": [
+     "purchase and subscription history"
+    ],
+    "third party identifier": [
+     "unique identifier"
+    ],
+    "transaction ID": [
+     "unique identifier"
+    ],
+    "transaction amount": [
+     "commercial information",
+     "financial transaction history",
+     "purchase history"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user ID": [
+     "profile information",
+     "unique identifier"
+    ],
+    "user account data": [
+     "account information",
+     "cloud-stored personal data"
+    ],
+    "virtual props": [
+     "commercial information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "professional advisors": "advisors",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "advertising or analytics partner",
+     "business partners"
+    ],
+    "advertising or analytics partner": [
+     "business partners"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "advisors": [
+     "service provider"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "users of the Services": "user"
+   },
+   "parents": {
+    "Google Play Store or Apple App Store": [
+     "third party",
+     "third-party platform or social media"
+    ],
+    "third-party platform or social media": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising or analytics partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "verification": "identity verification"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or improvement"
+    ],
+    "enforce agreements": [
+     "compliance with legal obligations, enforcement, and safety",
+     "providing professional services, complying with legal/financial obligations, protecting/enforcing rights"
+    ],
+    "legal compliance": [
+     "compliance with legal obligations, enforcement, and safety",
+     "providing professional services, complying with legal/financial obligations, protecting/enforcing rights"
+    ],
+    "security": [
+     "compliance with legal obligations, enforcement, and safety"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "recommendations": [
+     "personalization"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "prevent unauthorized submissions": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "dispute resolution": [
+     "compliance with legal obligations, enforcement, and safety"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2927,
+  "completion_tokens": 1275,
+  "thinking_tokens": 0,
+  "seconds": 28.49323344230652,
+  "failures": 0
+ },
+ "seconds": 28.6
+}

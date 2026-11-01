@@ -1,0 +1,120 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account login details": [
+     "account-information"
+    ],
+    "credit card number": [
+     "account-information"
+    ],
+    "email address": [
+     "account-information"
+    ],
+    "name": [
+     "account-information"
+    ],
+    "mouse movements": [
+     "browsing activity"
+    ],
+    "visit duration": [
+     "browsing activity"
+    ],
+    "referring URL": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "user behavior"
+    ],
+    "service usage history": [
+     "user behavior"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "covered information": [
+     "information"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "account-information": [
+     "personal data"
+    ],
+    "purchase history": [
+     "service usage history"
+    ],
+    "user-statistics": [
+     "information"
+    ],
+    "metadata": [
+     "information"
+    ],
+    "data collected during the analysis": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Vimeo"
+   },
+   "parents": {
+    "Intuition Machines, Inc.": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "producer": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "fulfilment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1410,
+  "completion_tokens": 385,
+  "thinking_tokens": 0,
+  "seconds": 21.13916277885437,
+  "failures": 0
+ },
+ "seconds": 21.2
+}

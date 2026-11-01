@@ -1,0 +1,138 @@
+{
+ "cleaned_sha256": "android-107",
+ "text_sha256": "b618d07e3b3169330025f04bbfdfe8d70574dced44a89483d4abb0d22d49cf40",
+ "site_id": "android-107",
+ "sections": 16,
+ "rules": 194,
+ "report": {
+  "sections": 16,
+  "raw_rules": 178,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "deletion",
+     "actor": {
+      "text": "Video Editor & Maker VideoShow",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "To the extent required by the law of your jurisdiction",
+      "enables the User to request the deletion or removal of its personal data",
+      "where theres no compelling reason for Video Editor & Maker VideoShow to keep using it"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "law of your jurisdiction",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "enables the User to request the deletion or removal of its personal data"
+    ],
+    "section": "android-107#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "removal",
+     "actor": {
+      "text": "Video Editor & Maker VideoShow",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "removal",
+      "verb": "remove"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "To the extent required by the law of your jurisdiction",
+      "enables the User to request the deletion or removal of its personal data",
+      "where theres no compelling reason for Video Editor & Maker VideoShow to keep using it"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "law of your jurisdiction",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "enables the User to request the deletion or removal of its personal data"
+    ],
+    "section": "android-107#s11"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 78,
+  "completeness": {
+   "gaps": 213,
+   "gap_words": 1951
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 78,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 50813,
+  "completion_tokens": 32198,
+  "thinking_tokens": 0,
+  "seconds": 421.0313651561737,
+  "failures": 0
+ },
+ "seconds": 422.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

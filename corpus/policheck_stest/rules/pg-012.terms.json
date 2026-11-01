@@ -1,0 +1,168 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email addresses": "email address",
+    "information": "data",
+    "location information": "location data",
+    "names": "name",
+    "personal information": "personal data",
+    "phone numbers": "phone number",
+    "user information": "user data"
+   },
+   "parents": {
+    "account information": [
+     "data"
+    ],
+    "account statistics": [
+     "account information"
+    ],
+    "anonymous device identifiers": [
+     "device identifier"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "data at rest": [
+     "data"
+    ],
+    "device identifier": [
+     "data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "hardware model": [
+     "device identifier"
+    ],
+    "installation details": [
+     "data"
+    ],
+    "location data": [
+     "data"
+    ],
+    "operating system version": [
+     "installation details"
+    ],
+    "password": [
+     "account information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "profile photo": [
+     "photo",
+     "user profile data"
+    ],
+    "sensor data": [
+     "data"
+    ],
+    "software application ID": [
+     "installation details"
+    ],
+    "uploaded content": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user profile data": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other user",
+    "third party": "outside companies, organizations or individuals",
+    "third party organisation": "outside companies, organizations or individuals"
+   },
+   "parents": {
+    "agent": [
+     "outside companies, organizations or individuals"
+    ],
+    "business partner": [
+     "outside companies, organizations or individuals"
+    ],
+    "contractor": [
+     "outside companies, organizations or individuals"
+    ],
+    "data protection authority": [
+     "regulatory authority"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "trusted third parties": [
+     "outside companies, organizations or individuals"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Amazon Web Services": [
+     "third party"
+    ],
+    "organization administrator": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "to promote our services and related services": "marketing"
+   },
+   "parents": {
+    "customer support": [
+     "legitimate interests"
+    ],
+    "personalisation": [
+     "for internal and service-related purposes, such as to provide, maintain, protect, improve, and personalise our services, to develop new ones and to protect the rights, property, or safety of SafetyCulture and our users"
+    ],
+    "fraud prevention and security": [
+     "for internal and service-related purposes, such as to provide, maintain, protect, improve, and personalise our services, to develop new ones and to protect the rights, property, or safety of SafetyCulture and our users",
+     "legal compliance"
+    ],
+    "service performance": [
+     "for internal and service-related purposes, such as to provide, maintain, protect, improve, and personalise our services, to develop new ones and to protect the rights, property, or safety of SafetyCulture and our users"
+    ],
+    "service provision": [
+     "for internal and service-related purposes, such as to provide, maintain, protect, improve, and personalise our services, to develop new ones and to protect the rights, property, or safety of SafetyCulture and our users"
+    ],
+    "marketing": [
+     "legitimate interests"
+    ],
+    "service-related communication": [
+     "legitimate interests"
+    ],
+    "to analyse information in order to offer aggregated anonymised data products to third parties": [
+     "analytics"
+    ],
+    "to facilitate the sharing of aggregated and anonymised information with third parties, including transaction data": [
+     "other"
+    ],
+    "providing those members of your contact list with an invitation to participate in the SafetyCulture services": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2469,
+  "completion_tokens": 843,
+  "thinking_tokens": 0,
+  "seconds": 15.187647819519043,
+  "failures": 0
+ },
+ "seconds": 15.3
+}

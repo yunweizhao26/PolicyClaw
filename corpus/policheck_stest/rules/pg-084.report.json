@@ -1,0 +1,173 @@
+{
+ "cleaned_sha256": "pg-084",
+ "text_sha256": "18e73b30a81b0227ca4608e60a50537575d08d0546954e47706c377fbd0fd4c6",
+ "site_id": "pg-084",
+ "sections": 15,
+ "rules": 253,
+ "report": {
+  "sections": 15,
+  "raw_rules": 184,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may allow",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information in your profile",
+      "name": "profile information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "those services, platforms, plug-ins, integrations or applications",
+      "name": "third-party platform"
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "When you engage with our content on or through social media services or other third party platforms, plug-ins, integrations or applications"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-084#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permit",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Users who have opened an e-mail",
+      "name": "users opening emails"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "count",
+      "verb": "count"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for other related website statistics (for example, recording the popularity of certain website content and verifying system and server integrity)",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Pages of our Sites or Services or our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags and single-pixel gifs)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Users who have opened an e-mail"
+    ],
+    "section": "pg-084#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will direct",
+     "actor": {
+      "text": "our service providers",
+      "name": "service provider"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Privacy Rights Specific to California Residents",
+      "Under the California Consumer Privacy Act, California residents have specific rights regarding their Personal Data",
+      "You have the right to request that we delete any of your Personal Data that we collected from you and retained, subject to certain exceptions",
+      "Once we receive and confirm your verifiable consumer request"
+     ],
+     "exceptions": [
+      "an exception applies"
+     ],
+     "references": [
+      {
+       "text": "California Consumer Privacy Act",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will direct"
+    ],
+    "section": "pg-084#s12"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 89,
+  "completeness": {
+   "gaps": 203,
+   "gap_words": 2410
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 37,
+  "translated_quotes": 89,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 59159,
+  "completion_tokens": 42038,
+  "thinking_tokens": 0,
+  "seconds": 295.035240650177,
+  "failures": 0
+ },
+ "seconds": 296.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

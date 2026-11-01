@@ -1,0 +1,82 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "your personal data": "personal information",
+    "your personal information": "personal information"
+   },
+   "parents": {
+    "access logs": [
+     "data"
+    ],
+    "basic billing information": [
+     "data"
+    ],
+    "some of the same payment information": [
+     "data"
+    ],
+    "email address": [
+     "personal information"
+    ],
+    "profile information": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "personal information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "We": "SuperVPN",
+    "us": "SuperVPN",
+    "we": "SuperVPN"
+   },
+   "parents": {
+    "support team": [
+     "SuperVPN"
+    ],
+    "our app": [
+     "SuperVPN"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "processing payments for the Services": "for payment processing and refund requests",
+    "to operate our services": "for provision of the Services"
+   },
+   "parents": {
+    "for payment processing and refund requests": [
+     "for provision of the Services",
+     "to help us with various operations, such as payment processing, email automation, website and app diagnostics, analytics and other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1567,
+  "completion_tokens": 508,
+  "thinking_tokens": 0,
+  "seconds": 7.56786847114563,
+  "failures": 0
+ },
+ "seconds": 7.6
+}

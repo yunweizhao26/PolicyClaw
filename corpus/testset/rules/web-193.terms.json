@@ -1,0 +1,138 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "usage data": "information about your use of our Sites"
+   },
+   "parents": {
+    "email address": [
+     "contact information"
+    ],
+    "credit card number": [
+     "credit card payment data",
+     "financial information",
+     "payment information"
+    ],
+    "credit card payment data": [
+     "financial information",
+     "payment information"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "access times": [
+     "information about your use of our Sites"
+    ],
+    "page views": [
+     "information about your use of our Sites"
+    ],
+    "browsing session": [
+     "information about your use of our Sites"
+    ],
+    "conversion data": [
+     "information about your use of our Sites"
+    ],
+    "date and time stamp": [
+     "information about your use of our Sites"
+    ],
+    "referrer URL": [
+     "information about your use of our Sites"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Financial Aid partner": [
+     "third party"
+    ],
+    "consultant": [
+     "service provider"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "vendor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "third party": [
+     "unspecified"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "external sources"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "The Regents of the University of California"
+   },
+   "parents": {
+    "third party payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud prevention",
+    "service provision": "provide services"
+   },
+   "parents": {
+    "account management": [
+     "provide services"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "provide services"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "market research": [
+     "marketing"
+    ],
+    "marketing tracking": [
+     "marketing"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "payment processing": [
+     "provide services"
+    ],
+    "system maintenance": [
+     "service administration"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1911,
+  "completion_tokens": 627,
+  "thinking_tokens": 0,
+  "seconds": 10.674279928207397,
+  "failures": 0
+ },
+ "seconds": 10.8
+}

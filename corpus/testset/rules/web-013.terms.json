@@ -1,0 +1,190 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "email",
+    "personal information": "personal data",
+    "user content": "content"
+   },
+   "parents": {
+    "billing address": [
+     "payment information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "cookies": [
+     "cookies and tracking technologies"
+    ],
+    "de-identified data derived from submitted data": [
+     "data"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "email": [
+     "contact information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "payment information": [
+     "financial details"
+    ],
+    "unique device identifier": [
+     "device information"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "personal data": [
+     "user data"
+    ],
+    "content": [
+     "user data"
+    ],
+    "user preferences": [
+     "user data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "diagnostic information": [
+     "usage data"
+    ],
+    "device information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "law enforcement": [
+     "public authorities",
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "third party platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "marketing communications": "marketing"
+   },
+   "parents": {
+    "administer promotions": [
+     "business and commercial purposes",
+     "marketing"
+    ],
+    "analytics": [
+     "business and commercial purposes",
+     "service provision"
+    ],
+    "compile aggregate data about Site and Service interaction": [
+     "analytics",
+     "business and commercial purposes"
+    ],
+    "customer support": [
+     "business and commercial purposes",
+     "service provision"
+    ],
+    "fraud prevention and legal compliance": [
+     "business and commercial purposes"
+    ],
+    "identify new customers": [
+     "business and commercial purposes",
+     "marketing"
+    ],
+    "legal compliance": [
+     "business and commercial purposes",
+     "fraud prevention and legal compliance"
+    ],
+    "maintain and improve records": [
+     "business and commercial purposes"
+    ],
+    "manage account and send related information": [
+     "business and commercial purposes",
+     "service provision"
+    ],
+    "marketing": [
+     "business and commercial purposes"
+    ],
+    "personalization and advertising": [
+     "business and commercial purposes"
+    ],
+    "personalized communication": [
+     "business and commercial purposes",
+     "marketing",
+     "personalization and advertising"
+    ],
+    "protection of rights": [
+     "business and commercial purposes",
+     "fraud prevention and legal compliance",
+     "legal compliance"
+    ],
+    "provide, maintain, and improve site and service": [
+     "business and commercial purposes",
+     "service provision"
+    ],
+    "service provision": [
+     "business and commercial purposes"
+    ],
+    "service recommendations": [
+     "business and commercial purposes",
+     "marketing",
+     "personalization and advertising"
+    ],
+    "services": [
+     "business and commercial purposes",
+     "service provision"
+    ],
+    "understand and save your preferences": [
+     "business and commercial purposes",
+     "personalization and advertising"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2221,
+  "completion_tokens": 880,
+  "thinking_tokens": 0,
+  "seconds": 15.030173540115356,
+  "failures": 0
+ },
+ "seconds": 15.1
+}

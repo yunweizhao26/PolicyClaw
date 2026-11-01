@@ -1,0 +1,355 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "alias": "User alias",
+    "government-issued ID": "government issued id",
+    "identity verification data": "ID verification data",
+    "ip address": "IP address",
+    "mobile network carrier name": "mobile carrier",
+    "payment card information": "payment card data",
+    "personal information": "personal data",
+    "posts": "post",
+    "shared information": "Shared Information",
+    "text to translate": "text to be translated",
+    "user alias": "User alias",
+    "user data": "unspecified user data"
+   },
+   "parents": {
+    "IP address": [
+     "network information"
+    ],
+    "account details": [
+     "account profile"
+    ],
+    "account identifiers": [
+     "account details"
+    ],
+    "account metadata": [
+     "metadata"
+    ],
+    "account security information": [
+     "account details"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "browsing history": [
+     "log data"
+    ],
+    "chat logs": [
+     "chat data"
+    ],
+    "chat media": [
+     "chat data"
+    ],
+    "chat messages": [
+     "chat data"
+    ],
+    "communication data": [
+     "log data"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "customer support queries": [
+     "communication data"
+    ],
+    "data subject request contents": [
+     "data subject request information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "financial transaction history": [
+     "payment data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "geographic location": [
+     "location data"
+    ],
+    "government ID card photo": [
+     "government issued id"
+    ],
+    "government issued id": [
+     "ID verification data"
+    ],
+    "hardware identifier": [
+     "hardware device"
+    ],
+    "identification card details": [
+     "ID verification data"
+    ],
+    "ID verification data": [
+     "personal data"
+    ],
+    "instant message contents": [
+     "chat messages"
+    ],
+    "location": [
+     "location data"
+    ],
+    "location log data": [
+     "location data"
+    ],
+    "login tokens": [
+     "log-in data"
+    ],
+    "mobile carrier": [
+     "network information"
+    ],
+    "name": [
+     "profile information"
+    ],
+    "nationality": [
+     "personal data"
+    ],
+    "payment card data": [
+     "payment data"
+    ],
+    "payment card number": [
+     "payment card data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photos": [
+     "user content"
+    ],
+    "post": [
+     "user content",
+     "user-generated content"
+    ],
+    "precise geolocation": [
+     "location data"
+    ],
+    "profile media": [
+     "profile information"
+    ],
+    "profile photo": [
+     "profile media"
+    ],
+    "purchase history": [
+     "financial transaction history"
+    ],
+    "region": [
+     "geographic location"
+    ],
+    "registration data": [
+     "account details"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "social media content": [
+     "user content"
+    ],
+    "telecommunication logs": [
+     "log data"
+    ],
+    "text to be translated": [
+     "user content"
+    ],
+    "traffic data": [
+     "log data"
+    ],
+    "unique identification number": [
+     "identification card details"
+    ],
+    "usage statistics": [
+     "log data"
+    ],
+    "User alias": [
+     "account identifiers"
+    ],
+    "user content": [
+     "unspecified user data"
+    ],
+    "user identifier": [
+     "account identifiers"
+    ],
+    "user name": [
+     "account identifiers"
+    ],
+    "user-generated content": [
+     "user content"
+    ],
+    "verification date": [
+     "ID verification data"
+    ],
+    "video recordings": [
+     "user content"
+    ],
+    "voice recordings": [
+     "user content"
+    ],
+    "wi-fi network information": [
+     "network information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "third-party service provider": "service provider",
+    "users": "user"
+   },
+   "parents": {
+    "Adyen N.V.": [
+     "service provider"
+    ],
+    "Meta Platforms, Inc.": [
+     "service provider"
+    ],
+    "Microsoft Operations Pte Ltd.": [
+     "service provider"
+    ],
+    "PTW (Singapore) Pte. Ltd.": [
+     "service provider"
+    ],
+    "SMS provider": [
+     "service provider"
+    ],
+    "Twilio": [
+     "SMS provider",
+     "service provider"
+    ],
+    "court": [
+     "authority",
+     "government"
+    ],
+    "law enforcement": [
+     "authority",
+     "government"
+    ],
+    "operators of third party services": [
+     "third party",
+     "third party service"
+    ],
+    "other WeChat and Weixin users": [
+     "other users",
+     "user"
+    ],
+    "other users": [
+     "user"
+    ],
+    "intended recipients": [
+     "user"
+    ],
+    "Weixin": [
+     "other users"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "users": "user"
+   },
+   "parents": {
+    "Adyen N.V.": [
+     "third party",
+     "third party payment processor"
+    ],
+    "Microsoft Operations Pte Ltd.": [
+     "relevant third party service",
+     "third party"
+    ],
+    "PTW (Singapore) Pte. Ltd.": [
+     "relevant third party service",
+     "third party"
+    ],
+    "operators of third party services": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "relevant third party service": [
+     "third party"
+    ],
+    "third party payment processor": [
+     "third party"
+    ],
+    "Weixin": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "fraud-detection": "fraud detection",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "service-operation": "service operation",
+    "service-provision": "service provision",
+    "services": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention",
+     "fraud prevention and security"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "payment verification": [
+     "verification"
+    ],
+    "user authentication": [
+     "identity verification",
+     "verification"
+    ],
+    "legal process handling": [
+     "compliance"
+    ],
+    "safety": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "customer support and service updates": [
+     "customer support"
+    ],
+    "facilitate the Interoperable Interaction": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3898,
+  "completion_tokens": 1610,
+  "thinking_tokens": 0,
+  "seconds": 17.256850004196167,
+  "failures": 0
+ },
+ "seconds": 17.3
+}

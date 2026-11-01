@@ -1,0 +1,22 @@
+{
+ "policy": "pg-152",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "There are permissions to access your location, phone call contacts and device memory for internal use only and in conjunction with third parties to help us operate, analyze, and improve our app and service.",
+   "prohibit": "This information is for internal use only and can't be shared.",
+   "situation": "Sharing location, contacts, or device memory data with third parties to operate or analyze the app.",
+   "reason": "One sentence explicitly allows using accessed data in conjunction with third parties, while the very next sentence strictly states it cannot be shared.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1169,
+  "completion_tokens": 157,
+  "thinking_tokens": 0,
+  "seconds": 2.5782227516174316,
+  "failures": 0
+ }
+}

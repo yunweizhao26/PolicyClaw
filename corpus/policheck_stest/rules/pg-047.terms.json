@@ -1,0 +1,169 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "passwords": "password",
+    "personally identifiable information": "personal information",
+    "system logs": "log data",
+    "your data": "user data"
+   },
+   "parents": {
+    "DailyBalance data counts": [
+     "usage data",
+     "user data"
+    ],
+    "Passwords Plus data files": [
+     "user data files"
+    ],
+    "Passwords Plus data files data": [
+     "user data"
+    ],
+    "Passwords Plus password": [
+     "password"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "personal files": [
+     "user data",
+     "user data files"
+    ],
+    "email address": [
+     "personal information"
+    ],
+    "name": [
+     "personal information"
+    ],
+    "payment details": [
+     "personal information"
+    ],
+    "user data files": [
+     "user data"
+    ],
+    "personal information": [
+     "information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "log data": [
+     "information"
+    ],
+    "visitor preferences": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "your information": [
+     "information"
+    ],
+    "other information": [
+     "information"
+    ],
+    "this information": [
+     "information"
+    ],
+    "the information you have collected": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "other_party": [
+     "outside sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Docs To Go client apps": "Docs To Go app"
+   },
+   "parents": {
+    "FastSpring": [
+     "third party"
+    ],
+    "cloud provider": [
+     "third party"
+    ],
+    "third party ad service": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "product_improvement": "make the Services better",
+    "user_authentication": "authentication"
+   },
+   "parents": {
+    "account identifier so that we can store your encrypted data for backup and secure syncing across your devices": [
+     "account_management"
+    ],
+    "allow us to identify your account in the Cloud Sync service": [
+     "account_management"
+    ],
+    "backup": [
+     "service_provision"
+    ],
+    "delivering targeted ads": [
+     "advertising"
+    ],
+    "secure syncing across your devices": [
+     "service_provision"
+    ],
+    "service_provision": [
+     "provide the Services"
+    ],
+    "services": [
+     "provide the Services"
+    ],
+    "account_management": [
+     "provide the Services"
+    ],
+    "customer_support": [
+     "provide the Services"
+    ],
+    "user experience enhancement": [
+     "make the Services better"
+    ],
+    "connecting with our customers": [
+     "communicate with you"
+    ],
+    "understanding their needs": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1851,
+  "completion_tokens": 654,
+  "thinking_tokens": 0,
+  "seconds": 8.945390462875366,
+  "failures": 0
+ },
+ "seconds": 9.0
+}

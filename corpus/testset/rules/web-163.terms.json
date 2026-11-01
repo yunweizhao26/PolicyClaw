@@ -1,0 +1,128 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information through the Services": "information collected through the Services",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "unspecified personal data": "information"
+   },
+   "parents": {
+    "browser type": [
+     "server log data"
+    ],
+    "browsing activity": [
+     "service use information"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "online activities"
+    ],
+    "cookie data": [
+     "information collected through the Services"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device identifier": [
+     "server log data"
+    ],
+    "device location": [
+     "location"
+    ],
+    "email interaction information": [
+     "online activities",
+     "service use information"
+    ],
+    "IP address": [
+     "server log data"
+    ],
+    "login details": [
+     "personal data"
+    ],
+    "operating system": [
+     "server log data"
+    ],
+    "personally identifiable information": [
+     "personal data"
+    ],
+    "public area submissions": [
+     "user-generated content"
+    ],
+    "questions and answers": [
+     "user submissions"
+    ],
+    "search history": [
+     "browsing activity",
+     "service use information"
+    ],
+    "student data": [
+     "personal data"
+    ],
+    "user submissions": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "personal data"
+    ],
+    "username": [
+     "login details"
+    ],
+    "video interaction information": [
+     "service use information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "connections on third-party services": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social network": [
+     "third-party sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "for targeted advertising purposes": [
+     "advertising"
+    ],
+    "for the third parties' direct marketing purposes": [
+     "marketing"
+    ],
+    "user account and service provision": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2195,
+  "completion_tokens": 431,
+  "thinking_tokens": 0,
+  "seconds": 8.206972122192383,
+  "failures": 0
+ },
+ "seconds": 8.3
+}

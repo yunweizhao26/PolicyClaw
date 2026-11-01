@@ -1,0 +1,131 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "PII",
+    "personally identifiable information": "PII"
+   },
+   "parents": {
+    "persistent cookies": [
+     "cookies",
+     "tracking technology"
+    ],
+    "session cookies": [
+     "cookies",
+     "tracking technology"
+    ],
+    "cookies": [
+     "tracking technology"
+    ],
+    "cookie information": [
+     "information"
+    ],
+    "browsing activity": [
+     "information",
+     "website activity"
+    ],
+    "browser type": [
+     "information"
+    ],
+    "date and time": [
+     "information"
+    ],
+    "domain name": [
+     "information"
+    ],
+    "electronically submitted information": [
+     "information"
+    ],
+    "ip address": [
+     "information"
+    ],
+    "meeting notes": [
+     "information"
+    ],
+    "network traffic": [
+     "information"
+    ],
+    "operating system": [
+     "information"
+    ],
+    "PII": [
+     "information"
+    ],
+    "referrer url": [
+     "information"
+    ],
+    "user comment": [
+     "information"
+    ],
+    "website activity": [
+     "information"
+    ],
+    "photograph": [
+     "information"
+    ],
+    "audio": [
+     "information"
+    ],
+    "video": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "law enforcement": [
+     "government agency"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "non-federal entities": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication"
+   },
+   "parents": {
+    "customer support": [
+     "provide service"
+    ],
+    "respond to inquiries": [
+     "customer support",
+     "provide service"
+    ],
+    "dissemination": [
+     "communication"
+    ],
+    "streamlined navigation": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1582,
+  "completion_tokens": 470,
+  "thinking_tokens": 0,
+  "seconds": 8.553576707839966,
+  "failures": 0
+ },
+ "seconds": 8.6
+}

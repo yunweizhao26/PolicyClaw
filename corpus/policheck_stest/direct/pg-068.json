@@ -1,0 +1,22 @@
+{
+ "policy": "pg-068",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "In some cases RBL can automatically detect or infer your location using GPS, your IP address, watermarks and/or Bluetooth, but often your operating system will require you to grant RBL permission to access your GPS or Bluetooth settings; please refer to your device’s system settings regarding location services",
+   "prohibit": "RBL does not collect any personally identifiable information or audio/video/image/contact files from your mobile device.",
+   "situation": "When RBL collects GPS location data or IP address data from a user's mobile device, which constitutes personally identifiable information.",
+   "reason": "The policy flatly states RBL does not collect any personally identifiable information, yet explicitly states in the next paragraph that RBL can automatically detect or track location via GPS and IP address.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 3469,
+  "completion_tokens": 206,
+  "thinking_tokens": 0,
+  "seconds": 2.3400139808654785,
+  "failures": 0
+ }
+}

@@ -1,0 +1,252 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "author ORCID iD": "ORCID",
+    "demographic information": "demographic data",
+    "personal identifier": "ORCID",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "unspecified-data": "information",
+    "user profile information": "user profile"
+   },
+   "parents": {
+    "ORCID": [
+     "personal data"
+    ],
+    "account password": [
+     "personal data"
+    ],
+    "account username": [
+     "personal data"
+    ],
+    "affiliation": [
+     "user profile"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "author affiliation": [
+     "affiliation"
+    ],
+    "author email address": [
+     "email address"
+    ],
+    "author name": [
+     "name"
+    ],
+    "author role": [
+     "user profile"
+    ],
+    "biography": [
+     "user profile"
+    ],
+    "clickstream data": [
+     "browsing history"
+    ],
+    "communications": [
+     "user content"
+    ],
+    "competing interests": [
+     "user profile"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "editor affiliation": [
+     "affiliation"
+    ],
+    "editor name": [
+     "name"
+    ],
+    "education qualification": [
+     "user profile"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "email communications": [
+     "communications"
+    ],
+    "email content": [
+     "email communications"
+    ],
+    "ethnic origin": [
+     "demographic data",
+     "sensitive personal information"
+    ],
+    "fax number": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "job title": [
+     "user profile"
+    ],
+    "manuscript abstract": [
+     "manuscript"
+    ],
+    "manuscript revisions": [
+     "manuscript"
+    ],
+    "manuscript title": [
+     "metadata"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "organization": [
+     "affiliation"
+    ],
+    "peer review comments": [
+     "peer review data",
+     "user comments"
+    ],
+    "peer review communications": [
+     "communications",
+     "peer review data"
+    ],
+    "peer review data": [
+     "review information"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "photograph": [
+     "user profile"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "race": [
+     "demographic data",
+     "sensitive personal information"
+    ],
+    "referrer url": [
+     "browsing history"
+    ],
+    "review information": [
+     "personal data"
+    ],
+    "reviewer affiliation": [
+     "affiliation"
+    ],
+    "reviewer name": [
+     "name"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "state or province": [
+     "location"
+    ],
+    "url": [
+     "personal data"
+    ],
+    "user comments": [
+     "user content"
+    ],
+    "user profile": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "business partners": [
+     "third party"
+    ],
+    "buyer": [
+     "third party"
+    ],
+    "consortium": [
+     "institution"
+    ],
+    "consultant": [
+     "third party service providers"
+    ],
+    "contractor": [
+     "third party service providers"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "other organizations": [
+     "third party"
+    ],
+    "preprint partner": [
+     "business partners"
+    ],
+    "publisher": [
+     "third party"
+    ],
+    "recipient who has registered or signed up for PLOS services and did not opt out": [
+     "user"
+    ],
+    "support provider": [
+     "third party service providers"
+    ],
+    "third party service providers": [
+     "third party"
+    ],
+    "vendor": [
+     "third party service providers"
+    ],
+    "workflow service intermediary": [
+     "third party service providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "PLOS"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "payment processing": "payment facilitation"
+   },
+   "parents": {
+    "archiving scientific research": [
+     "research or analytics"
+    ],
+    "contact-opt-out-record": [
+     "communications"
+    ],
+    "site-analytics": [
+     "analytics"
+    ],
+    "tracking": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2601,
+  "completion_tokens": 967,
+  "thinking_tokens": 0,
+  "seconds": 38.939677715301514,
+  "failures": 0
+ },
+ "seconds": 39.0
+}

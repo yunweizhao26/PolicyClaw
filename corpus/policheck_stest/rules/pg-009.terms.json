@@ -1,0 +1,160 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device identifiers": "device identifier",
+    "ip address": "IP address",
+    "your data": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "device information"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "activities within the Service": [
+     "activity data"
+    ],
+    "in-game activities": [
+     "activities within the Service",
+     "activity data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "device ID": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone numbers": [
+     "contact details"
+    ],
+    "chat logs": [
+     "messages"
+    ],
+    "imprecise location": [
+     "demographic details"
+    ],
+    "profile photo": [
+     "profile data"
+    ],
+    "user name": [
+     "name",
+     "profile data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "ad partners"
+   },
+   "parents": {
+    "ad partners": [
+     "third party"
+    ],
+    "selected partners": [
+     "third party"
+    ],
+    "public authority": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "our partners": "The partners"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "The partners": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and security": "fraud detection and prevention",
+    "legal-compliance": "compliance",
+    "service provision": "provide-service",
+    "targeted advertising": "personalized advertising",
+    "targeted_advertising": "personalized advertising"
+   },
+   "parents": {
+    "attribution": [
+     "analytics"
+    ],
+    "frequency capping": [
+     "advertising"
+    ],
+    "personalized advertising": [
+     "advertising"
+    ],
+    "fraud-detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "customer support": [
+     "provide-service"
+    ],
+    "functionality": [
+     "provide-service"
+    ],
+    "service optimization": [
+     "service optimization and personalization"
+    ],
+    "personalization": [
+     "service optimization and personalization"
+    ],
+    "provide-service": [
+     "services"
+    ],
+    "operations": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2608,
+  "completion_tokens": 682,
+  "thinking_tokens": 0,
+  "seconds": 14.369923114776611,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

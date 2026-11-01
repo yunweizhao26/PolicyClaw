@@ -1,0 +1,81 @@
+{
+ "all": {
+  "policies": 200,
+  "policies_with_a_pair": 129,
+  "policies_with_an_overlap_candidate": 108,
+  "policies_with_a_same_scope_conflict": 1,
+  "same_scope_conflicts": 2,
+  "pairs": 2177,
+  "outcomes": {
+   "mutually_exclusive": 141,
+   "overlap_candidate": 1220,
+   "unresolved": 816
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 6.48,
+   "overlap_candidate": 56.04,
+   "unresolved": 37.48
+  },
+  "decided_share_pct": 62.52,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 108,
+    "exclusive guards": 33
+   },
+   "overlap_candidate": {
+    "incomparable": 1136,
+    "deny more specific": 67,
+    "allow more specific": 15,
+    "same scope": 2
+   },
+   "unresolved": {
+    "incomparable": 790,
+    "deny more specific": 22,
+    "allow more specific": 4
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 139,
+   "one true": 578,
+   "neither true": 503
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 33,
+   "neither true": 108
+  },
+  "overlap_same_section": 160,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 816,
+   "blocking_in": {
+    "deny": 392,
+    "allow": 288,
+    "allow+deny": 136
+   },
+   "a_guard_entirely_untranslated": 389,
+   "blocking_residuals_per_pair_median": 1.0
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 2177
+   },
+   "pairs_whose_outcome_changes": 957,
+   "relations": {
+    "incomparable": 1550,
+    "allow more specific": 257,
+    "deny more specific": 235,
+    "same scope": 135
+   }
+  }
+ },
+ "solver_wall_s": 5.2,
+ "run": {
+  "elapsed_s": 5.2,
+  "cpu_s": 17.6,
+  "peak_rss_mb_self": 25.2,
+  "peak_rss_mb_largest_child": 77.6,
+  "cpus": 16,
+  "slurm_job": "20508310",
+  "slurm_step": "525"
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "personal information": "personal data",
+    "security-related information": "security info",
+    "transaction history": "financial transaction details",
+    "user identifier": "openid"
+   },
+   "parents": {
+    "advertising id": [
+     "device information"
+    ],
+    "chat communications": [
+     "chat logs",
+     "communication history"
+    ],
+    "chat logs": [
+     "communication history"
+    ],
+    "cookies": [
+     "cookies and other similar technologies"
+    ],
+    "customer support inquiry": [
+     "communication history",
+     "support data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device id": [
+     "device information"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "gameplay statistics": [
+     "game data"
+    ],
+    "game data": [
+     "usage data"
+    ],
+    "nickname": [
+     "name"
+    ],
+    "openid": [
+     "account details"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photograph": [
+     "personal data"
+    ],
+    "physical address": [
+     "contact info"
+    ],
+    "profile picture": [
+     "photograph"
+    ],
+    "purchase history": [
+     "financial transaction details"
+    ],
+    "social connect information": [
+     "social media information"
+    ],
+    "support request identifier": [
+     "support data"
+    ],
+    "survey response": [
+     "personal data"
+    ],
+    "username": [
+     "account details"
+    ],
+    "marketing preferences": [
+     "communication preferences"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliated entities": "affiliate"
+   },
+   "parents": {
+    "affiliate": [
+     "any company, organization or individual"
+    ],
+    "authorized partners": [
+     "other third parties",
+     "third party"
+    ],
+    "new company or organization holding your personal information": [
+     "any company, organization or individual"
+    ],
+    "other parties": [
+     "any company, organization or individual"
+    ],
+    "other third parties": [
+     "third party"
+    ],
+    "other users": [
+     "public",
+     "user"
+    ],
+    "third party": [
+     "any company, organization or individual",
+     "other parties"
+    ],
+    "user": [
+     "any company, organization or individual"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "your social media account provider": "social media platform"
+   },
+   "parents": {
+    "social media platform": [
+     "partner"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud prevention",
+    "service improvement": "in order to provide you with improved, quality products and services",
+    "to provide the service": "service delivery"
+   },
+   "parents": {
+    "fraud prevention": [
+     "security"
+    ],
+    "service optimization": [
+     "in order to provide you with improved, quality products and services"
+    ],
+    "in order to provide better customer service and user experience": [
+     "in order to provide you with improved, quality products and services"
+    ],
+    "user-facing communication": [
+     "communication"
+    ],
+    "customer support": [
+     "customer relationship management"
+    ],
+    "account management": [
+     "customer relationship management",
+     "service provision"
+    ],
+    "security": [
+     "in order to protect us, its users or the public from harm to their interests, property or safety"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2450,
+  "completion_tokens": 726,
+  "thinking_tokens": 0,
+  "seconds": 57.46732711791992,
+  "failures": 0
+ },
+ "seconds": 57.5
+}

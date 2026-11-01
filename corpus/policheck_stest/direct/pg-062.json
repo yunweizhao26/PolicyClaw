@@ -1,0 +1,30 @@
+{
+ "policy": "pg-062",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "We may collect this information when you: register on our website or app; communicate with us through correspondence, chats, email, or when you share information with us from other social applications, services or websites; interact with our sites, services, content and advertising; or invest in our business or enquire as to a potential purchase in our business.",
+   "prohibit": "GameDivision (LabException) does not collect any user information.",
+   "situation": "A user registers on the app/website or interacts with content and services.",
+   "reason": "The policy flatly asserts that GameDivision does not collect any user information, but later explicitly states that it may collect user personal information upon registration or interaction without reconciling the two.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We may collect personal information about you when you use and access our website.",
+   "prohibit": "We do not collect any information about our users.",
+   "situation": "A user visits or accesses the company's website.",
+   "reason": "The policy states without qualification that it does not collect any information about users, yet directly states it may collect personal information when users access the website.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1975,
+  "completion_tokens": 305,
+  "thinking_tokens": 0,
+  "seconds": 2.9651997089385986,
+  "failures": 0
+ }
+}

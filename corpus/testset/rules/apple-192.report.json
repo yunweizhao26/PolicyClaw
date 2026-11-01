@@ -1,0 +1,145 @@
+{
+ "cleaned_sha256": "apple-192",
+ "text_sha256": "9aec0ccfa7b3895052c571be6dc445eded8ce72c76d7bf632a8d24b8a0d9c306",
+ "site_id": "apple-192",
+ "sections": 6,
+ "rules": 104,
+ "report": {
+  "sections": 6,
+  "raw_rules": 82,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "only for as long as we need it to fulfil the purpose we are using it for, as permitted by law"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "keep",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as we need it to fulfil the purpose we are using it for, as permitted by law"
+    ],
+    "section": "apple-192#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "targeted advertising on websites by",
+     "actor": {
+      "text": "third parties that participate in self-regulatory programs",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "targeted advertising",
+      "verb": "advertise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "targeted advertising on websites",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt out of targeted advertising on websites by third parties that participate in self-regulatory programs via the following links: Websites: The Digital Advertising Alliance (DAA) WebChoices ( https://optout.aboutads.info/ ) and Network Advertising Initiative (NAI) WebChoices ( https://www.networkadvertising.org/understanding-online-advertising/what-are-my-options ) Mobile: DAA AppChoices ( https://www.aboutads.info/appchoices ) and NAI Mobile Choices ( https://www.networkadvertising.org/mobile-choice ) CTV: NAI CTV Choices ( https://www.networkadvertising.org/mobile-choice )",
+      "privacy settings for the respective devices and systems to learn more about these features and how they apply to targeted advertisements"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-192#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 163,
+   "gap_words": 1696
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 44,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 0,
+  "cached": 16,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "thinking_tokens": 0,
+  "seconds": 0.0,
+  "failures": 1
+ },
+ "seconds": 0.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ },
+ "previous_usage": [
+  {
+   "calls": 16,
+   "cached": 0,
+   "prompt_tokens": 31250,
+   "completion_tokens": 32773,
+   "thinking_tokens": 0,
+   "seconds": 240.58941316604614,
+   "failures": 1
+  },
+  {
+   "calls": 0,
+   "cached": 16,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "thinking_tokens": 0,
+   "seconds": 0.0,
+   "failures": 1
+  }
+ ]
+}

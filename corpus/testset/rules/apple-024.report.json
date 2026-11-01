@@ -1,0 +1,45 @@
+{
+ "cleaned_sha256": "apple-024",
+ "text_sha256": "d69a0f5cdf8945e7e30fc6e581f0159f051569ef18514670cb757fa8d6a70413",
+ "site_id": "apple-024",
+ "sections": 20,
+ "rules": 192,
+ "report": {
+  "sections": 20,
+  "raw_rules": 178,
+  "rejected": [],
+  "residual_quotes": 18,
+  "quotes": 68,
+  "completeness": {
+   "gaps": 154,
+   "gap_words": 1508
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 68,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 53565,
+  "completion_tokens": 30350,
+  "thinking_tokens": 461,
+  "seconds": 602.0373537540436,
+  "failures": 0
+ },
+ "seconds": 603.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

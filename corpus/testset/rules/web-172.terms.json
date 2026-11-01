@@ -1,0 +1,163 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookie identifiers": "cookie identifier",
+    "ip address": "IP address",
+    "online identifiers": "online identifier",
+    "profile picture": "profile avatar",
+    "pseudonymized advertising identifiers": "pseudonymized advertising identifier",
+    "username": "user profile name"
+   },
+   "parents": {
+    "advertising identifier": [
+     "identifier",
+     "online identifier"
+    ],
+    "cookie identifier": [
+     "identifier",
+     "online identifier"
+    ],
+    "device identifier": [
+     "identifier",
+     "online identifier"
+    ],
+    "IP address": [
+     "identifier",
+     "online identifier"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "pseudonymized identifier": [
+     "identifier"
+    ],
+    "pseudonymized advertising identifier": [
+     "advertising identifier",
+     "pseudonymized identifier"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "browser type": [
+     "technical information"
+    ],
+    "operating system": [
+     "technical information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising and measurement partners": [
+     "third party"
+    ],
+    "advertising partner": [
+     "advertising and measurement partners",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google",
+     "third party"
+    ],
+    "Comscore": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Playwire LLC": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ],
+    "recipient of business transfer": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "ad performance measurement": "ad analytics",
+    "other": "anonymization",
+    "personalized advertising": "ad personalization"
+   },
+   "parents": {
+    "ad analytics": [
+     "ad measurement"
+    ],
+    "conversion tracking": [
+     "ad measurement"
+    ],
+    "audience measurement": [
+     "analytics"
+    ],
+    "frequency capping": [
+     "ad delivery"
+    ],
+    "ad personalization": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "ad measurement": [
+     "advertising and measurement purposes"
+    ],
+    "advertising": [
+     "advertising and measurement purposes",
+     "marketing"
+    ],
+    "account registration": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service customization": [
+     "personalization"
+    ],
+    "service functionality": [
+     "service provision"
+    ],
+    "user preferences": [
+     "service customization"
+    ],
+    "search history": [
+     "service customization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2006,
+  "completion_tokens": 655,
+  "thinking_tokens": 115,
+  "seconds": 10.310169458389282,
+  "failures": 0
+ },
+ "seconds": 10.4
+}

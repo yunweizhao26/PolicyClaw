@@ -1,0 +1,419 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Your Customers’ Data": "Your Customers' Data",
+    "bank account numbers": "bank account number",
+    "credit or debit card numbers": "credit card number",
+    "driver’s license numbers": "driver’s license",
+    "passport numbers": "passport number",
+    "precise location data": "precise geolocation information",
+    "this Usage Data": "Usage Data",
+    "your Square Account Data": "Square Account Data",
+    "your Usage Data": "Usage Data",
+    "your information": "Your information",
+    "your name": "name",
+    "your personal data": "Your personal information",
+    "your personal information": "Your personal information",
+    "your sensitive personal information": "sensitive personal information"
+   },
+   "parents": {
+    "Contacts Information, such as the sender or recipient’s email address or phone number": [
+     "Contacts Information"
+    ],
+    "phone contacts information": [
+     "Contacts Information"
+    ],
+    "bank account number": [
+     "Financial Information"
+    ],
+    "credit card number": [
+     "Financial Information"
+    ],
+    "Financial account log in credentials": [
+     "Financial Information"
+    ],
+    "other financial information": [
+     "Financial Information"
+    ],
+    "IP address": [
+     "site-use information\n(including IP address)"
+    ],
+    "site-use information\n(including IP address)": [
+     "internet activity information",
+     "internet and other electronic network activities"
+    ],
+    "driver’s license": [
+     "Identification Information",
+     "state issued identification numbers"
+    ],
+    "passport number": [
+     "Identification Information"
+    ],
+    "your social security number": [
+     "Identification Information"
+    ],
+    "state issued identification numbers": [
+     "Identification Information"
+    ],
+    "a photo": [
+     "your photo"
+    ],
+    "a facial scan of a selfie of your face and the picture from an identity card": [
+     "facial scan geometry"
+    ],
+    "age": [
+     "your demographics"
+    ],
+    "gender": [
+     "your demographics"
+    ],
+    "race": [
+     "your demographics"
+    ],
+    "email address": [
+     "contact details, such as the address, email address, or phone number of the intended recipient"
+    ],
+    "precise geolocation information": [
+     "location information"
+    ],
+    "the precise geolocation of your devices": [
+     "location information"
+    ],
+    "your location inferred from your IP address": [
+     "location information"
+    ],
+    "the date you activated your account": [
+     "information about you"
+    ],
+    "the volume of transactions you process through Square": [
+     "information about your transactions"
+    ],
+    "a description of the transactions which may include item-level data": [
+     "information about your transactions"
+    ],
+    "information about when and where the transactions occur": [
+     "information about your transactions"
+    ],
+    "the payment or transfer amounts": [
+     "information about your transactions"
+    ],
+    "the devices and payment methods used to complete the transactions": [
+     "information about your transactions"
+    ],
+    "the names of the transacting parties": [
+     "information about your transactions"
+    ],
+    "aggregated and deidentified transaction data": [
+     "deidentified information"
+    ],
+    "information about which compliance documents you've viewed": [
+     "information about your engagement with the Trust Center, including which documents you view and how you interact with the portal"
+    ],
+    "information about your engagement with the Trust Center, including which documents you view and how you interact with the portal": [
+     "Trust Center engagement data"
+    ],
+    "sensitive personal information": [
+     "personal information"
+    ],
+    "personal information": [
+     "information about you"
+    ],
+    "Your personal information": [
+     "information about you"
+    ],
+    "your personal data held by us": [
+     "Your personal information"
+    ],
+    "Personal Data of users of Square services in Japan": [
+     "Your personal information"
+    ],
+    "job title": [
+     "your Professional or employment-related information"
+    ],
+    "your place of employment": [
+     "your Professional or employment-related information"
+    ],
+    "company name": [
+     "your Professional or employment-related information"
+    ],
+    "Inferences drawn from any of the information above , including about your preferences": [
+     "inferences"
+    ],
+    "your browsing history": [
+     "internet activity information"
+    ],
+    "your online activities over time and across multiple websites": [
+     "internet activity information"
+    ],
+    "mobile phone number you provide for text messaging purposes": [
+     "contact details, such as the address, email address, or phone number of the intended recipient"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "our affiliates": "affiliates",
+    "third parties": "any third parties",
+    "third-party service providers": "service providers"
+   },
+   "parents": {
+    "Cuscal Limited, an Authorised Deposit-Taking Institution (ADI) supervised by the Australian Prudential Regulation Authority (APRA)": [
+     "any third parties"
+    ],
+    "Fee collection service providers": [
+     "service providers"
+    ],
+    "Financial partners, like financial institutions, payment networks, payment card associations, and credit bureaus": [
+     "partners"
+    ],
+    "Identity verification providers": [
+     "service providers"
+    ],
+    "Marketing or event providers": [
+     "service providers"
+    ],
+    "Technology providers or potential partners": [
+     "partners",
+     "service providers"
+    ],
+    "a third party outside of Japan, including, but not limited to, the United States, Canada, the EU, and in other countries": [
+     "any third parties"
+    ],
+    "certain third parties": [
+     "any third parties"
+    ],
+    "identity verification vendors, including credit reporting agencies, wireless carriers, and others": [
+     "Identity verification providers",
+     "service providers"
+    ],
+    "other business units, such as Cash App, and affiliates, including Afterpay/Clearpay and TIDAL and between wholly-owned subsidiaries of Block, Inc., such as Square Financial Services, Inc.": [
+     "affiliates"
+    ],
+    "other service providers": [
+     "service providers"
+    ],
+    "potential partners who may be able to provide a complementary or related service for your business": [
+     "partners"
+    ],
+    "the partner that referred you": [
+     "partners"
+    ],
+    "these analytics providers": [
+     "service providers"
+    ],
+    "third party identification verification services": [
+     "Identity verification providers",
+     "any third parties",
+     "service providers"
+    ],
+    "service providers": [
+     "any third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "your device": "the devices you use"
+   },
+   "parents": {
+    "directly from you": [
+     "you"
+    ],
+    "children under the age of 18": [
+     "you"
+    ],
+    "directly from your mobile phone": [
+     "from or about your mobile device",
+     "the devices you use"
+    ],
+    "from or about your mobile device": [
+     "the devices you use"
+    ],
+    "the devices you use when you interact with our systems": [
+     "the devices you use"
+    ],
+    "background check vendors": [
+     "from other sources"
+    ],
+    "companies that help us verify your identity, do a credit check, prevent fraud or assess risk": [
+     "from other sources"
+    ],
+    "from your customers": [
+     "from other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Square entity as indicated below (\"Square\", \"we\" and \"us\")": "Square",
+    "These third party ad services": "The ad services",
+    "We": "Square",
+    "our": "Square",
+    "our service providers": "Our vendors",
+    "our third party advertising partners": "our advertising partners",
+    "service providers": "Our vendors",
+    "third-party service providers": "Our vendors",
+    "us": "Square",
+    "we": "Square"
+   },
+   "parents": {
+    "our employees": [
+     "Square"
+    ],
+    "contractors": [
+     "Our vendors"
+    ],
+    "The ad services": [
+     "Our vendors"
+    ],
+    "other companies' web analytics services": [
+     "Our vendors"
+    ],
+    "our advertising partners": [
+     "Our vendors"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "for the purpose of interest-based advertising (or “targeted advertising”)": "for purposes of targeted advertising",
+    "for the purposes authorized under law": "for purposes authorized by law, such as to provide services you request from us or to verify your information",
+    "help us verify your identity, do a credit check, prevent fraud or assess risk": "This helps us verify your identity, do a credit check, prevent fraud and assess risk",
+    "in connection with artificial intelligence technologies to generate personalized features for your business": "in connection with artificial intelligence technologies to generate personalised features for your business",
+    "to debug, fix service errors": "to debug and fix errors that impair how our Services function",
+    "to improve our products and services": "improve our products and Services",
+    "to provide the Services you request to you": "so that we can provide you with the Services requested by you"
+   },
+   "parents": {
+    "To determine whether the Services are available in your country": [
+     "To respond to your request, including determining whether the Services are available in your country"
+    ],
+    "to send your customers digital receipts directly from Square": [
+     "so that we can provide you with the Services requested by you"
+    ],
+    "to provide services to you that you have requested including inventory, eCommerce and payments processing": [
+     "to do things like provide services to you that you have requested"
+    ],
+    "to do things like provide services to you that you have requested": [
+     "to provide our Services"
+    ],
+    "so that we can provide you with the Services requested by you": [
+     "to provide our Services"
+    ],
+    "to provide Services to you in compliance with regulatory obligations": [
+     "to comply with legal obligations"
+    ],
+    "to comply with applicable payment processor requirements, and other regulatory requirements": [
+     "to comply with legal obligations"
+    ],
+    "to meet our anti-money laundering (\"AML\"), know your customer (\"KYC\"), background checking (see further below) and other compliance requirements": [
+     "to comply with legal obligations"
+    ],
+    "fulfill our legal obligations (such as checking if payments are being made or received by you and that they are legally compliant)": [
+     "to comply with legal obligations"
+    ],
+    "to comply with legal obligations": [
+     "for legal reasons"
+    ],
+    "for purposes of targeted advertising": [
+     "for the purposes of serving online behavioral advertising to you"
+    ],
+    "for the purposes of serving online behavioral advertising to you": [
+     "to advertise to you"
+    ],
+    "for the purposes of advertising our services to you, including targeting our ads to you on our own websites, as well as websites and services operated by third parties": [
+     "to advertise to you"
+    ],
+    "to target our ads to you and others": [
+     "to advertise to you"
+    ],
+    "to show you Square ads that may be tailored to your individual interests": [
+     "to advertise to you"
+    ],
+    "to combat fraud": [
+     "investigate, detect, prevent, report or recover from fraud, misrepresentations, security breaches or incidents, other potentially prohibited, malicious, or illegal activities; or to otherwise help protect your account, including to dispute chargebacks on your behalf"
+    ],
+    "help protect your account from hackers and prevent fraud": [
+     "investigate, detect, prevent, report or recover from fraud, misrepresentations, security breaches or incidents, other potentially prohibited, malicious, or illegal activities; or to otherwise help protect your account, including to dispute chargebacks on your behalf"
+    ],
+    "to protect against fraudulent activity": [
+     "investigate, detect, prevent, report or recover from fraud, misrepresentations, security breaches or incidents, other potentially prohibited, malicious, or illegal activities; or to otherwise help protect your account, including to dispute chargebacks on your behalf"
+    ],
+    "to protect us, users of our Services or the public from harm, fraud, or potentially prohibited or illegal activities": [
+     "Issues relating to the safety, security and integrity of our Services and to protect rights, property and users"
+    ],
+    "to defend our legal rights, property and users": [
+     "Issues relating to the safety, security and integrity of our Services and to protect rights, property and users"
+    ],
+    "to protect the integrity of our Services": [
+     "Issues relating to the safety, security and integrity of our Services and to protect rights, property and users"
+    ],
+    "to protect the integrity of our Services and systems, and your, our, our customers', or your customers' rights or property": [
+     "Issues relating to the safety, security and integrity of our Services and to protect rights, property and users"
+    ],
+    "to confirm your identity": [
+     "to verify your identity"
+    ],
+    "to verify your identity both directly and through the use of third party identification verification services (so we can confirm you appear to be who you say you are)": [
+     "to verify your identity"
+    ],
+    "to verify your identity": [
+     "to verify information that we collect"
+    ],
+    "to follow up with relevant sales outreach": [
+     "to identify and prioritize sales opportunities"
+    ],
+    "to make our products and services better for you and others": [
+     "Otherwise manage and enhance our products and services"
+    ],
+    "to enhance our Services": [
+     "Otherwise manage and enhance our products and services"
+    ],
+    "improve our products and Services": [
+     "Otherwise manage and enhance our products and services"
+    ],
+    "To improve your customer experience": [
+     "to make our products and services better for you and others"
+    ],
+    "to help make our Services better for you and for everyone": [
+     "to make our products and services better for you and others"
+    ],
+    "to help us build Services tailored to your preferences": [
+     "to tailor our products and services to your interests"
+    ],
+    "to personalise your use of our Services": [
+     "to tailor our products and services to your interests"
+    ],
+    "to provide other personalized services": [
+     "to tailor our products and services to your interests"
+    ],
+    "to create your account with us": [
+     "To create and support your account with us, including displaying your transaction history including monthly account statements"
+    ],
+    "so that we can maintain your account": [
+     "To create and support your account with us, including displaying your transaction history including monthly account statements"
+    ],
+    "required for the running of your account": [
+     "To create and support your account with us, including displaying your transaction history including monthly account statements"
+    ],
+    "to help us evaluate how customers use our websites": [
+     "to help us figure out how you and others use our online services"
+    ],
+    "to help us figure out how you and others use our online services": [
+     "Track and understand how you use and interact with our online services and emails"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 12918,
+  "completion_tokens": 3804,
+  "thinking_tokens": 0,
+  "seconds": 26.233019590377808,
+  "failures": 0
+ },
+ "seconds": 26.4
+}

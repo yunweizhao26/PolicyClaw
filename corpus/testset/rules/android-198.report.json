@@ -1,0 +1,202 @@
+{
+ "cleaned_sha256": "android-198",
+ "text_sha256": "0e0740d0c16dd98b324d3de4b832efbd78892bd02238cbf68e5c4a8b3190b336",
+ "site_id": "android-198",
+ "sections": 37,
+ "rules": 221,
+ "report": {
+  "sections": 37,
+  "raw_rules": 180,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "directly collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "directly collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "I AM A DEVELOPER",
+      "when you: • send us a game project to analyse"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you: • send us a game project to analyse"
+    ],
+    "section": "android-198#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "directly collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "directly collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "I AM AN APPLICANT",
+      "when you apply for a job position at Homa: • by any other means (e.g., spontaneous application send by email or on LinkedIn)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you apply for a job position at Homa: • by any other means (e.g., spontaneous application send by email or on LinkedIn)"
+    ],
+    "section": "android-198#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access to",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "you always have the right to request access to"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Section 6 of this Policy “What are your rights?”",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-198#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "stop",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "Where the processing relates to optional features of the Services",
+      "specifically for such optional feature(s)",
+      "at any time by disabling the latter directly from the settings or parameters of the Game"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-198#s28"
+   }
+  ],
+  "residual_quotes": 26,
+  "quotes": 132,
+  "completeness": {
+   "gaps": 157,
+   "gap_words": 1328
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 132,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 65,
+  "cached": 1,
+  "prompt_tokens": 96426,
+  "completion_tokens": 41373,
+  "thinking_tokens": 0,
+  "seconds": 1159.2482631206512,
+  "failures": 0
+ },
+ "seconds": 1160.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

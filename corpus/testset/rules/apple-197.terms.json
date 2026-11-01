@@ -1,0 +1,213 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information about the user": "any data about you",
+    "online behavior": "online activity",
+    "payment information": "payment info",
+    "personal data": "Personal Data",
+    "user data": "any data about you"
+   },
+   "parents": {
+    "computer information": [
+     "device information"
+    ],
+    "credit card number": [
+     "payment info"
+    ],
+    "billing information": [
+     "payment info"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "browsing habits": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "online activity",
+     "usage data"
+    ],
+    "content engagement metrics": [
+     "usage data"
+    ],
+    "interaction details": [
+     "usage data"
+    ],
+    "service activity": [
+     "usage data"
+    ],
+    "online activity": [
+     "usage data"
+    ],
+    "behavioral data": [
+     "usage data"
+    ],
+    "user nickname": [
+     "name"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "phone number": [
+     "Personal Data"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "ip address": [
+     "device information",
+     "unique identifier"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "date of birth": [
+     "Personal Data"
+    ],
+    "profile picture": [
+     "user provided content"
+    ],
+    "passwords": [
+     "Personal Data"
+    ],
+    "social network user id": [
+     "unique identifier"
+    ],
+    "user provided content": [
+     "any data about you"
+    ],
+    "any data about you": [
+     "information"
+    ],
+    "Personal Data": [
+     "information"
+    ],
+    "outdated, unused information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "consultant": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party",
+     "third-party subcontractors"
+    ],
+    "third-party subcontractors": [
+     "third party"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Papaya",
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "comply with our legal obligations": "compliance",
+    "legal compliance": "compliance",
+    "prevention of fraud": "fraud_prevention",
+    "service provision": "provide our Services",
+    "services": "provide our Services",
+    "statistics": "analytics",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "ad frequency capping": [
+     "advertising"
+    ],
+    "ad measurement": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "tailored content and ads": [
+     "advertising",
+     "personalization"
+    ],
+    "analytics": [
+     "analytics or improvement"
+    ],
+    "service performance improvement": [
+     "analytics or improvement"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "user verification": [
+     "security"
+    ],
+    "fraud_prevention": [
+     "security"
+    ],
+    "enforce our policies": [
+     "compliance"
+    ],
+    "resolve disputes": [
+     "compliance"
+    ],
+    "payment facilitation": [
+     "provide our Services"
+    ],
+    "customer support": [
+     "provide our Services"
+    ],
+    "enhance navigation": [
+     "personalization"
+    ],
+    "service performance": [
+     "provide our Services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2339,
+  "completion_tokens": 1106,
+  "thinking_tokens": 0,
+  "seconds": 12.565405368804932,
+  "failures": 0
+ },
+ "seconds": 12.6
+}

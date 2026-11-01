@@ -1,0 +1,297 @@
+{
+ "cleaned_sha256": "web-157",
+ "text_sha256": "c6f8157a135e3d0e12b95b1c66334ff5c9ec9148a2069686e35bbde7daf2777d",
+ "site_id": "web-157",
+ "sections": 17,
+ "rules": 199,
+ "report": {
+  "sections": 17,
+  "raw_rules": 183,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "WebMD",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information you have previously submitted",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "by going back to the specific Service, logging-in and making the desired change"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-157#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can also request",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "by contacting us using the contact information listed below or through the\nContact Us\nlink provided at the bottom of every page of the WebMD Sites"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-157#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "actor": {
+      "text": "companies that WebMD uses",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "direct targeted advertisements to you",
+      "verb": "direct"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "to direct targeted advertisements to you on the WebMD Sites as well as on third-party websites",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "manage these advertisements through the choices in that window",
+      "opt-out of targeted advertising on a cookie basis using the DAA WebChoices tool\nhere",
+      "On iOS go to Settings > Privacy & Security > Tracking",
+      "On Android\ngo to Settings > Privacy > Ads and choose Delete or Reset Advertising ID"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-157#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "corrected",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "8. Additional Information for WebMD’s Visitors from the European Economic Area (\"EEA\")",
+      "If you are a WebMD user in the EEA",
+      "you can: (ii) have your personal information corrected"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Contact Us About Your Personal Information\nsection below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can: (ii) have your personal information corrected"
+    ],
+    "section": "web-157#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "8. Additional Information for WebMD’s Visitors from the European Economic Area (\"EEA\")",
+      "If you are a WebMD user in the EEA",
+      "you can: (ii) have your personal information deleted"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Contact Us About Your Personal Information\nsection below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can: (ii) have your personal information deleted"
+    ],
+    "section": "web-157#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sent to",
+      "verb": "send to"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to notify you by means of a notice on the WebMD Sites and/or by email to our registered users",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "If we make any material changes to this Privacy Policy",
+      "prior to the change becoming effective",
+      "to our registered users",
+      "specified when you register"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to notify you by means of a notice on the WebMD Sites and/or by email to our registered users"
+    ],
+    "section": "web-157#s16"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 240,
+   "gap_words": 2910
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 91,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 53180,
+  "completion_tokens": 36217,
+  "thinking_tokens": 0,
+  "seconds": 304.3720700740814,
+  "failures": 0
+ },
+ "seconds": 305.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,1354 @@
+{
+ "cleaned_sha256": "apple-053",
+ "text_sha256": "92f3fb7cbfc74efd62e256a0480c35ff61f3abbc8da4a0233acd3a7dfc5a13ab",
+ "site_id": "apple-053",
+ "sections": 26,
+ "rules": 499,
+ "report": {
+  "sections": 26,
+  "raw_rules": 426,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "grant access",
+      "verb": "grant access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "when you use our platform from your mobile device",
+      "you can decide to allow Booking.com to use your current location or grant us access to other details"
+     ],
+     "data": {
+      "name": "mobile device data",
+      "text": "other details"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "grant",
+     "purpose": [
+      {
+       "text": "to give you relevant suggestions, for example the nearest restaurants or attractions to your location, or make other recommendations",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "grant access"
+    ],
+    "section": "apple-053#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you have started but not finished a trip reservation"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "might",
+     "purpose": [
+      {
+       "text": "to invite you to continue with your reservation",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-053#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "To highlight relevant protection products you might need for your journey",
+       "name": "marketing"
+      },
+      {
+       "text": "with information about different available products that you didn’t include when you initially made your reservation",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-053#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "strategic partner",
+      "text": "them"
+     },
+     "conditions": [
+      "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+     ],
+     "data": {
+      "name": "name",
+      "text": "your name"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be forwarded",
+     "purpose": [
+      {
+       "text": "to finalize and manage your trip reservation",
+       "name": "fulfilment"
+      }
+     ],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+    ],
+    "section": "apple-053#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "strategic partner",
+      "text": "them"
+     },
+     "conditions": [
+      "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+     ],
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be forwarded",
+     "purpose": [
+      {
+       "text": "to finalize and manage your trip reservation",
+       "name": "fulfilment"
+      }
+     ],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+    ],
+    "section": "apple-053#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "strategic partner",
+      "text": "them"
+     },
+     "conditions": [
+      "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+     ],
+     "data": {
+      "name": "address",
+      "text": "your address"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be forwarded",
+     "purpose": [
+      {
+       "text": "to finalize and manage your trip reservation",
+       "name": "fulfilment"
+      }
+     ],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+    ],
+    "section": "apple-053#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "strategic partner",
+      "text": "them"
+     },
+     "conditions": [
+      "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+     ],
+     "data": {
+      "name": "payment details",
+      "text": "payment details"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be forwarded",
+     "purpose": [
+      {
+       "text": "to finalize and manage your trip reservation",
+       "name": "fulfilment"
+      }
+     ],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+    ],
+    "section": "apple-053#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "forwarded",
+      "verb": "forward"
+     },
+     "actor": {
+      "name": "strategic partner",
+      "text": "them"
+     },
+     "conditions": [
+      "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "other relevant information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be forwarded",
+     "purpose": [
+      {
+       "text": "to finalize and manage your trip reservation",
+       "name": "fulfilment"
+      }
+     ],
+     "recipient": {
+      "name": "first party",
+      "text": "us"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you may make your trip reservation through: Strategic partners’ websites or mobile apps"
+    ],
+    "section": "apple-053#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "service providers who assist us with delivering marketing messages or advertisements",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "assisting us with delivering marketing messages or advertisements",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "assisting us with delivering marketing messages or advertisements"
+    ],
+    "section": "apple-053#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Carry out due diligence, identity, credit reference, bankruptcy, sanctions, data validation, anti-money laundering, “Know Your Customer,” and other business acceptance, vetting, and risk management agency checks",
+       "name": "verification"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Carry out due diligence, identity, credit reference, bankruptcy, sanctions, data validation, anti-money laundering, “Know Your Customer,” and other business acceptance, vetting, and risk management agency checks"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Apply the insurer’s product-specific eligibility rules to allow them to evaluate risks relating to your prospective or existing insurance policy",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Apply the insurer’s product-specific eligibility rules to allow them to evaluate risks relating to your prospective or existing insurance policy"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Process payments, including your payments for the insurance premium and any adjustments",
+       "name": "payment processing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Process payments, including your payments for the insurance premium and any adjustments"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Support or assist the insurer to administer, investigate, and settle claims or complaints in relation to insurance policies and/or the services provided",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Support or assist the insurer to administer, investigate, and settle claims or complaints in relation to insurance policies and/or the services provided"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Facilitate the prevention, detection, and investigation of crime and the apprehension or prosecution of offenders",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Facilitate the prevention, detection, and investigation of crime and the apprehension or prosecution of offenders"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Enforce our agreements, trace debtors, and recover any outstanding debt in connection with the insurance products and services provided",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Enforce our agreements, trace debtors, and recover any outstanding debt in connection with the insurance products and services provided"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Fulfill legal and regulatory obligations, resolve disputes, and monitor compliance with same",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Fulfill legal and regulatory obligations, resolve disputes, and monitor compliance with same"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Support and/or assist insurers in performing analytics for risk modeling purposes and trends",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Support and/or assist insurers in performing analytics for risk modeling purposes and trends"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Conduct market research and canvas your views about the insurance products and services to develop and improve our products and services generally",
+       "name": "service improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Conduct market research and canvas your views about the insurance products and services to develop and improve our products and services generally"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Research, audit, report, and for other business operations purposes, including determining the effectiveness of our promotional campaigns and evaluating business performance",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Research, audit, report, and for other business operations purposes, including determining the effectiveness of our promotional campaigns and evaluating business performance"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "in connection with the insurance products and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information we collect about you"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "to: Perform benchmarking, modeling, market research, and data analyses associated with the development of new and existing processes, products, and services",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Purposes of collecting and processing your personal data",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to: Perform benchmarking, modeling, market research, and data analyses associated with the development of new and existing processes, products, and services"
+    ],
+    "section": "apple-053#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Generally",
+      "for as long as is necessary to: Prevent and detect online fraud attempts and/or other illegal activities"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "keep",
+     "purpose": [
+      {
+       "text": "Prevent and detect online fraud attempts and/or other illegal activities",
+       "name": "fraud prevention"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as is necessary to: Prevent and detect online fraud attempts and/or other illegal activities"
+    ],
+    "section": "apple-053#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Generally",
+      "for as long as is necessary to: Comply with legal obligations such as those from accounting and tax laws"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "keep",
+     "purpose": [
+      {
+       "text": "Comply with legal obligations such as those from accounting and tax laws",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "accounting and tax laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as is necessary to: Comply with legal obligations such as those from accounting and tax laws"
+    ],
+    "section": "apple-053#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Generally",
+      "for as long as is necessary to: Resolve any disputes and legal claims"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "keep",
+     "purpose": [
+      {
+       "text": "Resolve any disputes and legal claims",
+       "name": "dispute resolution"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as is necessary to: Resolve any disputes and legal claims"
+    ],
+    "section": "apple-053#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transcribe and summarize",
+      "verb": "transcribe"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "interaction",
+      "text": "your interactions with our customer service agents"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may use AI to",
+     "purpose": [
+      {
+       "text": "to improve the efficiency and speed of our customer services to help you with queries about your booking and our services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to improve the efficiency and speed of our customer services to help you with queries about your booking and our services"
+    ],
+    "section": "apple-053#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transcribe and summarize",
+      "verb": "summarize"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "interaction",
+      "text": "your interactions with our customer service agents"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may use AI to",
+     "purpose": [
+      {
+       "text": "to improve the efficiency and speed of our customer services to help you with queries about your booking and our services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to improve the efficiency and speed of our customer services to help you with queries about your booking and our services"
+    ],
+    "section": "apple-053#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Intelligent Voice Assistance"
+     },
+     "conditions": [
+      "Depending on your location",
+      "when you call us"
+     ],
+     "data": {
+      "name": "user data",
+      "text": "any data you share with it, including personal data"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "purpose": [
+      {
+       "text": "to help with your query",
+       "name": "service provision"
+      },
+      {
+       "text": "to provide relevant responses and help you with certain actions relating to your booking",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide relevant responses and help you with certain actions relating to your booking"
+    ],
+    "section": "apple-053#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The Intelligent Voice Assistance"
+     },
+     "conditions": [
+      "Depending on your location",
+      "when you call us"
+     ],
+     "data": {
+      "name": "order details",
+      "text": "your booking details"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will use",
+     "purpose": [
+      {
+       "text": "to help with your query",
+       "name": "service provision"
+      },
+      {
+       "text": "to provide relevant responses and help you with certain actions relating to your booking",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide relevant responses and help you with certain actions relating to your booking"
+    ],
+    "section": "apple-053#s23"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not currently",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to make a decision about you which would result in a legal or similarly significant effect on you",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-053#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "might need to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data of minors",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "parents or guardians",
+      "name": "parents or guardians"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "As part of a reservation, The purchase of other travel-related services, or In other exceptional circumstances (e.g. features addressed to families)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "As part of a reservation, The purchase of other travel-related services, or In other exceptional circumstances (e.g. features addressed to families)"
+    ],
+    "section": "apple-053#s24"
+   }
+  ],
+  "residual_quotes": 59,
+  "quotes": 172,
+  "completeness": {
+   "gaps": 685,
+   "gap_words": 8108
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 17,
+  "translated_quotes": 172,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 54,
+  "cached": 0,
+  "prompt_tokens": 108845,
+  "completion_tokens": 77123,
+  "thinking_tokens": 2626,
+  "seconds": 1178.0321288108826,
+  "failures": 0
+ },
+ "seconds": 1180.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

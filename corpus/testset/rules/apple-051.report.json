@@ -1,0 +1,749 @@
+{
+ "cleaned_sha256": "apple-051",
+ "text_sha256": "96374acc75719572931fca335a9406b0d8142170b8d1ae35dc2f3f1013361985",
+ "site_id": "apple-051",
+ "sections": 24,
+ "rules": 408,
+ "report": {
+  "sections": 24,
+  "raw_rules": 259,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "Versant",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Versant Affiliates",
+      "name": "affiliate"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to help better tailor services, products, marketing, and advertising for Versant and such Affiliates to you and to other existing and potential customers",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-051#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "discloses",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "as appropriate"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "discloses",
+     "purpose": [
+      {
+       "text": "in order to: protect and enforce the legal rights, privacy, and safety of ourselves and our visitors; protect against possible fraud or other illegal activity; respond to requests from government and other authorities; and otherwise comply with legal process",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "these third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In the event of a reorganization, merger, sale, joint venture, assignment, transfer, or other disposition of all or any portion of our business, assets, or stock (including in connection with a bankruptcy or similar proceeding)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "certain third parties, such as the acquiring entity and its advisers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "If you enter a contest or sweepstakes sponsored by a third party"
+     ],
+     "data": {
+      "name": "sweepstakes entry data",
+      "text": "entry data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "the sponsor"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "If services are offered on a co-branded basis with another business"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "that co-branded partner"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "When using GolfNow’s sites and services"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "will provide",
+     "purpose": [
+      {
+       "text": "to enable reservations or on-site amenities",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "golf clubs"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "When using SportsEngine"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "other users",
+      "text": "coaches"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "When using SportsEngine"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may be shared",
+     "purpose": [],
+     "recipient": {
+      "name": "other users",
+      "text": "sports teams you join"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "When booking travel packages that include goods or services from third-party partners, such as airlines, ground transportation providers, third-party hotels, and travel insurance providers"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "will provide",
+     "purpose": [
+      {
+       "text": "to provide the packages",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "those partners"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "If you access Versant content through Services by using a third party, such as a cable provider or device partner"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "data"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "for service authentication",
+       "name": "user authentication"
+      },
+      {
+       "text": "reporting",
+       "name": "analytics or research"
+      },
+      {
+       "text": "advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "those third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [
+      "If you purchase a third-party product in an online shop"
+     ],
+     "data": {
+      "name": "order fulfillment information",
+      "text": "information necessary to fulfill the order"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to fulfill the order",
+       "name": "order fulfillment"
+      }
+     ],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "third-party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "discloses",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Versant"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "discloses",
+     "purpose": [
+      {
+       "text": "for their own purposes, including marketing and advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "commercial partner",
+      "text": "Data Partners"
+     },
+     "references": [
+      {
+       "text": "certain privacy laws",
+       "name": "privacy law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "With your appropriate consent when required",
+      "consistent with applicable law"
+     ],
+     "data": {
+      "name": "video viewing behavior",
+      "text": "your video viewing behavior"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "applicable law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "With your appropriate consent when required",
+      "consistent with applicable law"
+     ],
+     "data": {
+      "name": "video viewing behavior",
+      "text": "your video viewing behavior"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "advertising network",
+      "text": "advertising companies"
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "applicable law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "With your appropriate consent when required",
+      "consistent with applicable law"
+     ],
+     "data": {
+      "name": "video viewing behavior",
+      "text": "your video viewing behavior"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "analytics partner",
+      "text": "analytic partners"
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "applicable law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "With your appropriate consent when required",
+      "consistent with applicable law"
+     ],
+     "data": {
+      "name": "video viewing behavior",
+      "text": "your video viewing behavior"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "social network",
+      "text": "social media sites"
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "applicable law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In the event that Versant or any Versant Affiliate is involved in a merger, acquisition, transfer of control, bankruptcy, reorganization or sale of assets"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the information described in this Privacy Policy"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "this Privacy Policy",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-051#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "granting access to",
+      "verb": "grant"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "granting access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "your"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-051#s14"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 373,
+   "gap_words": 4479
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 21,
+  "translated_quotes": 82,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 76510,
+  "completion_tokens": 60532,
+  "thinking_tokens": 99,
+  "seconds": 794.1825230121613,
+  "failures": 0
+ },
+ "seconds": 796.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

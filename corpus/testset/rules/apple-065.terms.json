@@ -1,0 +1,266 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising ID",
+    "advertising identifiers": "advertising ID",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising ID": [
+     "device identifier"
+    ],
+    "advertising metrics": [
+     "usage information"
+    ],
+    "analytics cookies": [
+     "cookies"
+    ],
+    "app version": [
+     "device data",
+     "technical information"
+    ],
+    "application performance data": [
+     "technical information"
+    ],
+    "birthdate": [
+     "demographic data"
+    ],
+    "browsing behavior": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "usage information"
+    ],
+    "connection type": [
+     "device data",
+     "technical information"
+    ],
+    "cookies": [
+     "cookies and tracking technologies",
+     "tracking technologies"
+    ],
+    "crash logs": [
+     "application performance data",
+     "technical information"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device data": [
+     "data",
+     "technical information"
+    ],
+    "device identifier": [
+     "device data"
+    ],
+    "device type": [
+     "device data",
+     "technical information"
+    ],
+    "email address": [
+     "identifying information",
+     "personal data"
+    ],
+    "general location": [
+     "personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "inaccurate personal information": [
+     "personal data"
+    ],
+    "IP address": [
+     "device identifier",
+     "technical information"
+    ],
+    "mobile device ID": [
+     "device identifier"
+    ],
+    "name": [
+     "identifying information",
+     "personal data"
+    ],
+    "network connection speed": [
+     "technical information"
+    ],
+    "operating system and version": [
+     "device data",
+     "technical information"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "picture": [
+     "media"
+    ],
+    "preferred language": [
+     "preferences"
+    ],
+    "publicly available personal data": [
+     "personal data"
+    ],
+    "screen resolution": [
+     "device data",
+     "technical information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "service usage": [
+     "usage information"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "social media handle": [
+     "identifying information"
+    ],
+    "time zone": [
+     "device data",
+     "technical information"
+    ],
+    "tracking technologies": [
+     "cookies and tracking technologies"
+    ],
+    "usage information": [
+     "data"
+    ],
+    "user ID": [
+     "device identifier",
+     "identifying information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user inquiry": [
+     "communications"
+    ],
+    "visitor data": [
+     "data"
+    ],
+    "voice audio": [
+     "media"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party advertising networks": "advertising network"
+   },
+   "parents": {
+    "Apple Game Center": [
+     "third party"
+    ],
+    "Google Play Games": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "user group": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "app stores": "app store",
+    "app stores and distribution platforms": "app store"
+   },
+   "parents": {
+    "app store": [
+     "third parties",
+     "third-party platforms"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "third-party platforms": [
+     "third parties"
+    ],
+    "third party distribution channel": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising networks": "advertising network",
+    "third-party advertising network": "advertising network"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "third-party analytics provider": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ],
+    "Cloudflare Inc.": [
+     "third party",
+     "third-party service provider"
+    ],
+    "Google Analytics": [
+     "third party",
+     "third-party analytics provider"
+    ],
+    "YouTube": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud prevention",
+    "legal enforcement": "enforce policy",
+    "security": "fraud prevention and security",
+    "service improvement": "product improvement",
+    "service-improvement": "product improvement",
+    "to fulfill the purposes outlined in this Notice": "other",
+    "user support": "customer support"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "troubleshooting": [
+     "customer support"
+    ],
+    "service customization": [
+     "personalisation"
+    ],
+    "service optimization": [
+     "product improvement"
+    ],
+    "user identification": [
+     "user account management",
+     "user identification and profile management"
+    ],
+    "user identification and profile management": [
+     "user account management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2860,
+  "completion_tokens": 1427,
+  "thinking_tokens": 0,
+  "seconds": 15.456000566482544,
+  "failures": 0
+ },
+ "seconds": 15.6
+}

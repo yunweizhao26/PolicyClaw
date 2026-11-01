@@ -1,0 +1,474 @@
+{
+ "cleaned_sha256": "android-191",
+ "text_sha256": "9b6e2e388b3c66a095736e087b28d1594e9124f631fc752f92e1687856978e3d",
+ "site_id": "android-191",
+ "sections": 27,
+ "rules": 307,
+ "report": {
+  "sections": 27,
+  "raw_rules": 230,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Storage",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "the controller"
+     },
+     "conditions": [
+      "if this has been provided for by legal regulations such as directives, laws or other regulations to which the controller is subject"
+     ],
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-191#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Storage",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "the controller"
+     },
+     "conditions": [
+      "if this has been provided for by legal regulations such as directives, laws or other regulations to which the controller is subject"
+     ],
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-191#s3"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "third party",
+      "text": "third party vendors"
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "conditions": [
+      "In the performance of these services",
+      "only authorized to process it strictly on our behalf and in accordance with our instructions"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-191#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to protect our rights, property, or the safety of our customers, employees or the general public.",
+       "name": "protection of rights and safety"
+      }
+     ],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o to protect our rights, property, or the safety of our customers, employees or the general public."
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(f) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o to protect our rights, property, or the safety of our customers, employees or the general public."
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to protect against fraudulent, malicious, abusive, unauthorized or unlawful use of our Services and to protect our network, services, devices and users from such use",
+       "name": "fraud prevention and security"
+      }
+     ],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o to protect against fraudulent, malicious, abusive, unauthorized or unlawful use of our Services and to protect our network, services, devices and users from such use"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(f) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o to protect against fraudulent, malicious, abusive, unauthorized or unlawful use of our Services and to protect our network, services, devices and users from such use"
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to advance or defend against complaints or legal claims",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o to advance or defend against complaints or legal claims"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(f) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o to advance or defend against complaints or legal claims"
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to determine credit risk",
+       "name": "fraud prevention and security"
+      }
+     ],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o to determine credit risk"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(f) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o to determine credit risk"
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to obtain payment for our Services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o or to obtain payment for our Services"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(b) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o or to obtain payment for our Services"
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "outside auditors and regulators",
+      "name": "auditors and regulators"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "if we reasonably believe that disclosure of such personal data is necessary: o to outside auditors and regulators in case of legal obligations"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Article 6(1)(c) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "if we reasonably believe that disclosure of such personal data is necessary: o to outside auditors and regulators in case of legal obligations"
+    ],
+    "section": "android-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use automated individual decision-making",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-191#s12"
+   }
+  ],
+  "residual_quotes": 43,
+  "quotes": 125,
+  "completeness": {
+   "gaps": 496,
+   "gap_words": 5244
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 125,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 52,
+  "cached": 0,
+  "prompt_tokens": 91029,
+  "completion_tokens": 44574,
+  "thinking_tokens": 0,
+  "seconds": 1072.8202240467072,
+  "failures": 0
+ },
+ "seconds": 1074.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

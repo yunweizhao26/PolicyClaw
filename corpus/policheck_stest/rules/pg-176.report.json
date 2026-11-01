@@ -1,0 +1,287 @@
+{
+ "cleaned_sha256": "pg-176",
+ "text_sha256": "2cad7b39ee7205a0957e52b94f89e45e8d04b6f8608e6bee137345dea387bcf2",
+ "site_id": "pg-176",
+ "sections": 19,
+ "rules": 205,
+ "report": {
+  "sections": 19,
+  "raw_rules": 198,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Demographic data",
+      "name": "demographic data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to determine the coarse location of your Ip address",
+       "name": "to determine the coarse location of your Ip address"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-176#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "platforms that the games run on",
+      "name": "platforms that the games run on"
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to verify payment",
+       "name": "payment processing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-176#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "for advertising and analytics purposes",
+       "name": "advertising"
+      },
+      {
+       "text": "so we can provide you a better Service",
+       "name": "service improvement"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-176#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to host",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "host",
+      "verb": "host"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "whether for disaster recovery or otherwise",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "whether within or outside of your jurisdiction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to host"
+    ],
+    "section": "pg-176#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information we hold about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "applies to users that are located in the European Economic Area only",
+      "You have the right to access personal information we hold about you",
+      "by logging into your Game account and by contacting service@lilith.com",
+      "If you believe we hold any other personal information about you, please email us at service@lilith.com"
+     ],
+     "exceptions": [
+      "providing it would interfere with another’s rights (e.g., where providing the personal information we hold about you would reveal information about another person or our trade secrets or intellectual property)"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-176#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will try to tell",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "any third party to whom we have disclosed the relevant personal information",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "tell",
+      "verb": "tell"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "so that they can stop processing it too",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "where we agree to stop processing the personal information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-176#s11"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 145,
+   "gap_words": 1489
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 102,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 55142,
+  "completion_tokens": 37428,
+  "thinking_tokens": 0,
+  "seconds": 232.13956379890442,
+  "failures": 0
+ },
+ "seconds": 233.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

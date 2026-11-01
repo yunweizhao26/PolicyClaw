@@ -1,0 +1,90 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "in-service chat texts": "chat message",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "app store identifier": [
+     "device identifier"
+    ],
+    "imei": [
+     "device identifier"
+    ],
+    "mac address": [
+     "device identifier"
+    ],
+    "country": [
+     "location"
+    ],
+    "game progress": [
+     "gameplay data"
+    ],
+    "chat message": [
+     "user-generated content"
+    ],
+    "forum post": [
+     "user-generated content"
+    ],
+    "photograph": [
+     "user-generated content"
+    ],
+    "purchase history": [
+     "transactions"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "anonymous data": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ],
+    "user profile": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "fraud detection and prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1365,
+  "completion_tokens": 298,
+  "thinking_tokens": 0,
+  "seconds": 6.094252586364746,
+  "failures": 0
+ },
+ "seconds": 6.2
+}

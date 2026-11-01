@@ -1,0 +1,70 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "payment info": "billing information",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account data": [
+     "personal data",
+     "user data"
+    ],
+    "billing information": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "profile information": [
+     "account data",
+     "personal data"
+    ],
+    "log data": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account registration": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 910,
+  "completion_tokens": 269,
+  "thinking_tokens": 0,
+  "seconds": 5.688064813613892,
+  "failures": 0
+ },
+ "seconds": 5.7
+}

@@ -1,0 +1,196 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "Data",
+    "sensitive data": "Special Categories of Data",
+    "user_data": "personal data"
+   },
+   "parents": {
+    "personal data": [
+     "Data"
+    ],
+    "Special Categories of Data": [
+     "personal data"
+    ],
+    "Tracking Data": [
+     "Data"
+    ],
+    "contact_information": [
+     "personal data"
+    ],
+    "email_address": [
+     "contact_information"
+    ],
+    "phone_number": [
+     "contact_information"
+    ],
+    "postal_address": [
+     "contact_information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "nationality": [
+     "personal data"
+    ],
+    "ethnicity": [
+     "Special Categories of Data",
+     "personal data"
+    ],
+    "authentication details": [
+     "personal data"
+    ],
+    "device preferences": [
+     "Data"
+    ],
+    "order_history": [
+     "personal data"
+    ],
+    "user activity": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "organisations or parties outside of PCCW": "organisations"
+   },
+   "parents": {
+    "affiliates, overseas offices, assignees, transferees and representatives": [
+     "PCCW Group"
+    ],
+    "banks": [
+     "financial institutions"
+    ],
+    "billing agents": [
+     "organisations providing support services"
+    ],
+    "charge or credit card issuing companies": [
+     "financial institutions"
+    ],
+    "collection agencies": [
+     "organisations providing support services"
+    ],
+    "credit bureau": [
+     "financial institutions"
+    ],
+    "credit providers": [
+     "financial institutions"
+    ],
+    "credit-reporting and fraud-checking agencies": [
+     "financial institutions"
+    ],
+    "insurance brokers": [
+     "financial institutions"
+    ],
+    "insurance companies": [
+     "financial institutions"
+    ],
+    "organisations managing business and corporate strategies": [
+     "organisations"
+    ],
+    "organisations providing support services": [
+     "organisations"
+    ],
+    "organisations": [
+     "third_party"
+    ],
+    "transferees or assignees of business operations": [
+     "affiliates, overseas offices, assignees, transferees and representatives"
+    ],
+    "underwriters": [
+     "financial institutions"
+    ],
+    "unspecified third party": [
+     "third_party"
+    ],
+    "user authorised representatives": [
+     "user"
+    ],
+    "user legal advisers": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "PCCW Group"
+   },
+   "parents": {
+    "Group Entity": [
+     "PCCW Group"
+    ],
+    "employees of such Group Entity": [
+     "Group Entity"
+    ],
+    "one or more Group Entity": [
+     "PCCW Group"
+    ],
+    "organisations or parties outside of PCCW": [
+     "unspecified third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalise user experience",
+    "purposes set out in policy": "for the purposes as set out in this Privacy Statement",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "administrative and operational support": [
+     "service provision"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "compliance",
+     "legal compliance"
+    ],
+    "prevention, detection or investigation of crime": [
+     "legal compliance"
+    ],
+    "maintain identity across sessions": [
+     "authentication"
+    ],
+    "service optimization": [
+     "analytics"
+    ],
+    "reward redemption and loyalty programme benefits": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "compliance": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2959,
+  "completion_tokens": 848,
+  "thinking_tokens": 0,
+  "seconds": 10.842907667160034,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

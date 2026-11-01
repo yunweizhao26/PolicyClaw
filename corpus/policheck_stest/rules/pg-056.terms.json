@@ -1,0 +1,154 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "data": "any information",
+    "information": "any information",
+    "location data": "location",
+    "payment data": "financial information",
+    "personally identifiable information": "personal data",
+    "usage details": "usage data",
+    "your information": "personal data"
+   },
+   "parents": {
+    "assistance request": [
+     "communications",
+     "user-provided information"
+    ],
+    "calendar events": [
+     "contacts and calendar events"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "contacts": [
+     "contacts and calendar events"
+    ],
+    "date and time stamp": [
+     "time"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "favorite routes": [
+     "preferences",
+     "routes interacted with"
+    ],
+    "latitude": [
+     "location"
+    ],
+    "longitude": [
+     "location"
+    ],
+    "name": [
+     "contact information",
+     "personal data"
+    ],
+    "financial information": [
+     "transaction details"
+    ],
+    "personal customizations": [
+     "preferences"
+    ],
+    "personal data": [
+     "any information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "physical address": [
+     "contact information",
+     "location"
+    ],
+    "postal code": [
+     "contact information",
+     "location"
+    ],
+    "saved locations": [
+     "location",
+     "preferences"
+    ],
+    "speed of travel": [
+     "movement"
+    ],
+    "tokenized payment card information": [
+     "financial information"
+    ],
+    "usage data": [
+     "any information"
+    ],
+    "user-provided information": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "mobility operators": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Transit"
+   },
+   "parents": {
+    "contractors": [
+     "third party"
+    ],
+    "employees": [
+     "Transit"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer-support",
+    "services": "service-provision"
+   },
+   "parents": {
+    "analytics": [
+     "in order to carry its business"
+    ],
+    "customer-support": [
+     "in order to carry its business"
+    ],
+    "for various needs": [
+     "in order to carry its business"
+    ],
+    "in order to ensure that no fraudulent tickets have been sold": [
+     "security"
+    ],
+    "to ascertain your lawful use of those services": [
+     "legal-compliance"
+    ],
+    "service-maintenance": [
+     "service-development"
+    ],
+    "personalization": [
+     "service-provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1899,
+  "completion_tokens": 666,
+  "thinking_tokens": 0,
+  "seconds": 23.85805892944336,
+  "failures": 0
+ },
+ "seconds": 23.9
+}

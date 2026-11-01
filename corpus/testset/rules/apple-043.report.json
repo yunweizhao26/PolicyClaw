@@ -1,0 +1,119 @@
+{
+ "cleaned_sha256": "apple-043",
+ "text_sha256": "a506fda3939cc3c40c3a77ae33fc69b92460d506c22440d0231c6dacf2c9dddc",
+ "site_id": "apple-043",
+ "sections": 6,
+ "rules": 445,
+ "report": {
+  "sections": 6,
+  "raw_rules": 229,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "your data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "at our\nPrivacy Center"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-043#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also send",
+     "purpose": [
+      {
+       "text": "marketing through text, email, our app, or social media, such as special offers, new products or features, and information about SONIC or our fellow brands",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-043#s2"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 48,
+  "completeness": {
+   "gaps": 145,
+   "gap_words": 1438
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 48,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24690,
+  "completion_tokens": 39645,
+  "thinking_tokens": 0,
+  "seconds": 288.3615427017212,
+  "failures": 0
+ },
+ "seconds": 289.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

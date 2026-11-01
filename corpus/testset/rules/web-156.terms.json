@@ -1,0 +1,246 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "student data": "Student Data",
+    "student personal data": "Student Data",
+    "user generated content": "user content"
+   },
+   "parents": {
+    "IP address": [
+     "device details",
+     "unique identifier"
+    ],
+    "account name": [
+     "log-in credentials"
+    ],
+    "actions on service": [
+     "activity within service"
+    ],
+    "activity within service": [
+     "service usage data"
+    ],
+    "aggregate or anonymized data": [
+     "de-identified data"
+    ],
+    "authenticated user data": [
+     "user profile"
+    ],
+    "authentication logs": [
+     "activity within service"
+    ],
+    "browser type": [
+     "browser and device information"
+    ],
+    "browsing and interaction data": [
+     "service usage data"
+    ],
+    "browsing history": [
+     "activity within service"
+    ],
+    "camera content": [
+     "user content"
+    ],
+    "camera image": [
+     "camera content"
+    ],
+    "clicks": [
+     "actions on service"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "content posted": [
+     "user content"
+    ],
+    "device ID": [
+     "unique device identifier"
+    ],
+    "device details": [
+     "device and software information"
+    ],
+    "device manufacturer": [
+     "device details"
+    ],
+    "device model": [
+     "device details"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email link clicks": [
+     "service usage data"
+    ],
+    "email opens": [
+     "service usage data"
+    ],
+    "exit URL": [
+     "browsing history"
+    ],
+    "files uploaded": [
+     "user content"
+    ],
+    "log-in credentials": [
+     "personal data"
+    ],
+    "message content": [
+     "messages"
+    ],
+    "messages": [
+     "user content"
+    ],
+    "mobile OS": [
+     "operating system"
+    ],
+    "operating system": [
+     "device and software information"
+    ],
+    "password": [
+     "log-in credentials"
+    ],
+    "personally identifiable Student Data": [
+     "Student Data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "product reviews or comments": [
+     "content posted"
+    ],
+    "referring URL": [
+     "browsing history"
+    ],
+    "school district": [
+     "school information"
+    ],
+    "school name": [
+     "school information"
+    ],
+    "tokens used for authentication": [
+     "log-in credentials"
+    ],
+    "unique device identifier": [
+     "unique identifier"
+    ],
+    "usage data": [
+     "service usage data"
+    ],
+    "user content": [
+     "information provided by user"
+    ],
+    "user-provided content": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "students": "student"
+   },
+   "parents": {
+    "child": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "student": [
+     "user"
+    ],
+    "school": [
+     "school or third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "ad network",
+    "first party": "Clever"
+   },
+   "parents": {
+    "ad network": [
+     "third party"
+    ],
+    "employee": [
+     "Clever"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "unauthorized third party": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "provide the service": "perform the Service",
+    "service improvement and analytics": "analytics",
+    "study and improve our Service, user functionality, and product offerings": "analytics"
+   },
+   "parents": {
+    "account management": [
+     "service operation"
+    ],
+    "archival": [
+     "service maintenance"
+    ],
+    "audit": [
+     "legal compliance"
+    ],
+    "backup": [
+     "service maintenance"
+    ],
+    "customer support": [
+     "communication",
+     "service operation"
+    ],
+    "license management": [
+     "service operation"
+    ],
+    "logging": [
+     "service maintenance"
+    ],
+    "perform the Service": [
+     "service operation"
+    ],
+    "analytics": [
+     "service optimization"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "user authentication": [
+     "security",
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2896,
+  "completion_tokens": 982,
+  "thinking_tokens": 0,
+  "seconds": 12.06767201423645,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

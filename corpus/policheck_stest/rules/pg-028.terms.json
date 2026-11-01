@@ -1,0 +1,309 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "chat text": "chat log",
+    "personal information": "personal data",
+    "precise location": "precise geographic location"
+   },
+   "parents": {
+    "ad interactions": [
+     "browsing activity",
+     "browsing history",
+     "interaction details",
+     "user activity"
+    ],
+    "billing information": [
+     "payment information"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browser type": [
+     "technical and usage information"
+    ],
+    "browsing activity": [
+     "technical and usage information",
+     "user activity",
+     "website usage"
+    ],
+    "browsing history": [
+     "technical and usage information",
+     "user activity",
+     "website usage"
+    ],
+    "chat log": [
+     "user profile content"
+    ],
+    "configuration details": [
+     "device and browser settings",
+     "technical and usage information"
+    ],
+    "contact details": [
+     "identifying information",
+     "personal data"
+    ],
+    "contacts": [
+     "user profile content"
+    ],
+    "cookies": [
+     "technical and usage information"
+    ],
+    "cross-site activity": [
+     "technical and usage information"
+    ],
+    "device and browser settings": [
+     "technical and usage information"
+    ],
+    "device identifier": [
+     "identifying information",
+     "technical and usage information"
+    ],
+    "device type": [
+     "technical and usage information"
+    ],
+    "email activity": [
+     "interaction details",
+     "technical and usage information",
+     "user activity"
+    ],
+    "email address": [
+     "contact details",
+     "identifying information"
+    ],
+    "facial scan": [
+     "biometric data"
+    ],
+    "fax number": [
+     "contact details",
+     "identifying information"
+    ],
+    "health data": [
+     "sensitive personal data"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "idfa or idfv": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "interaction details": [
+     "technical and usage information",
+     "user activity"
+    ],
+    "ip address": [
+     "identifying information",
+     "technical and usage information"
+    ],
+    "isp or mobile carrier": [
+     "technical and usage information"
+    ],
+    "keystrokes": [
+     "session recordings",
+     "user activity"
+    ],
+    "linked accounts": [
+     "user profile content"
+    ],
+    "mac address": [
+     "device identifier",
+     "unique device identifier"
+    ],
+    "mouse clicks": [
+     "session recordings",
+     "user activity"
+    ],
+    "mouse movements": [
+     "session recordings",
+     "user activity"
+    ],
+    "name": [
+     "contact details",
+     "identifying information"
+    ],
+    "operating system": [
+     "technical and usage information"
+    ],
+    "page scrolling": [
+     "session recordings",
+     "user activity"
+    ],
+    "pages and apps used": [
+     "technical and usage information",
+     "user activity"
+    ],
+    "payment information": [
+     "identifying information",
+     "personal data"
+    ],
+    "phone number": [
+     "contact details",
+     "identifying information"
+    ],
+    "photos": [
+     "user profile content"
+    ],
+    "political opinions": [
+     "sensitive personal data"
+    ],
+    "postal address": [
+     "contact details",
+     "identifying information",
+     "location"
+    ],
+    "precise geographic location": [
+     "location",
+     "sensitive personal data"
+    ],
+    "race or ethnic origin": [
+     "sensitive personal data"
+    ],
+    "religious or philosophical beliefs": [
+     "sensitive personal data"
+    ],
+    "search history": [
+     "browsing activity",
+     "browsing history",
+     "technical and usage information",
+     "user activity"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "session recordings": [
+     "technical and usage information",
+     "user activity"
+    ],
+    "sex life": [
+     "sensitive personal data"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "streaming and download duration and frequency": [
+     "streaming and download system performance",
+     "technical and usage information",
+     "user activity",
+     "video viewing activity"
+    ],
+    "streaming and download system performance": [
+     "technical and usage information"
+    ],
+    "trade union membership": [
+     "sensitive personal data"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "user activity": [
+     "technical and usage information"
+    ],
+    "user identifier": [
+     "identifying information"
+    ],
+    "user profile content": [
+     "identifying information",
+     "personal data"
+    ],
+    "username": [
+     "identifying information",
+     "user identifier"
+    ],
+    "video title and genre": [
+     "interaction details",
+     "video viewing activity"
+    ],
+    "video viewing activity": [
+     "interaction details",
+     "technical and usage information",
+     "user activity"
+    ],
+    "watchlists": [
+     "preferences",
+     "user profile content"
+    ],
+    "website usage": [
+     "technical and usage information",
+     "user activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "unaffiliated third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "website": "Sites"
+   },
+   "parents": {
+    "social media service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Adobe": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "Nielsen": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics_research": "analytics"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "legal compliance": [
+     "legal compliance or protection"
+    ],
+    "analytics": [
+     "research_development"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2698,
+  "completion_tokens": 1305,
+  "thinking_tokens": 0,
+  "seconds": 12.630033493041992,
+  "failures": 0
+ },
+ "seconds": 12.7
+}

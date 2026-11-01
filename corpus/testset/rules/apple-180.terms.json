@@ -1,0 +1,133 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "personal data"
+   },
+   "parents": {
+    "IP address": [
+     "personal data",
+     "technical information"
+    ],
+    "URL": [
+     "technical information"
+    ],
+    "account identifier": [
+     "personal data"
+    ],
+    "authentication tokens": [
+     "personal data"
+    ],
+    "browser type": [
+     "technical information"
+    ],
+    "company name": [
+     "personal data"
+    ],
+    "cookie data": [
+     "personal data"
+    ],
+    "country": [
+     "location",
+     "personal data",
+     "third-party profile information"
+    ],
+    "date and time of visit": [
+     "usage information"
+    ],
+    "email address": [
+     "personal data",
+     "third-party profile information"
+    ],
+    "first name": [
+     "personal data"
+    ],
+    "last name": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "operating system": [
+     "technical information"
+    ],
+    "passwords": [
+     "authentication tokens",
+     "personal data"
+    ],
+    "plugin usage data": [
+     "usage information"
+    ],
+    "postal address": [
+     "location",
+     "personal data"
+    ],
+    "tax identification number": [
+     "personal data"
+    ],
+    "technical information": [
+     "personal data"
+    ],
+    "third-party profile information": [
+     "personal data"
+    ],
+    "usage information": [
+     "personal data"
+    ],
+    "user-generated content": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party service": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "partner"
+    ],
+    "service provider": [
+     "partner"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service_provision"
+   },
+   "parents": {
+    "account_management": [
+     "service_provision"
+    ],
+    "personalization": [
+     "service_provision"
+    ],
+    "security": [
+     "legal_compliance",
+     "service_provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1785,
+  "completion_tokens": 680,
+  "thinking_tokens": 0,
+  "seconds": 10.068811655044556,
+  "failures": 0
+ },
+ "seconds": 10.2
+}

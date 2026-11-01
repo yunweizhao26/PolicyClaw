@@ -1,0 +1,382 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "Device Data",
+    "information": "data",
+    "location data": "Location Data",
+    "personal data": "information about you",
+    "personal information": "information about you",
+    "profiling data": "inferences",
+    "travel information": "travel details",
+    "user content": "content",
+    "user preferences": "preferences",
+    "user provided information": "user data",
+    "voice recordings": "voice recording",
+    "your information": "information about you"
+   },
+   "parents": {
+    "device identifier": [
+     "Device Data"
+    ],
+    "ip address": [
+     "device identifier"
+    ],
+    "browser type": [
+     "Device Data"
+    ],
+    "operating system": [
+     "Device Data"
+    ],
+    "browser language": [
+     "Device Data"
+    ],
+    "device type": [
+     "Device Data"
+    ],
+    "precise location": [
+     "Location Data"
+    ],
+    "billing address": [
+     "financial information",
+     "postal address"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "payment card number": [
+     "payment data"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "fingerprint scan": [
+     "biometric data"
+    ],
+    "facial recognition data": [
+     "biometric data"
+    ],
+    "digital photograph": [
+     "biometric data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "contact data": [
+     "information about you"
+    ],
+    "demographic data": [
+     "information about you"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "country of residence": [
+     "demographic data"
+    ],
+    "passport number": [
+     "personal identifier"
+    ],
+    "driver's license": [
+     "personal identifier"
+    ],
+    "redress number": [
+     "personal identifier"
+    ],
+    "account id": [
+     "personal identifier"
+    ],
+    "account name": [
+     "personal identifier"
+    ],
+    "name": [
+     "personal identifier"
+    ],
+    "personal identifier": [
+     "information about you"
+    ],
+    "cookie data": [
+     "internet activity data"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "internet activity data"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "pages viewed": [
+     "browsing activity"
+    ],
+    "search queries": [
+     "internet activity data"
+    ],
+    "access times": [
+     "usage data"
+    ],
+    "access and use patterns": [
+     "usage data"
+    ],
+    "Service Use Data": [
+     "usage data"
+    ],
+    "usage data": [
+     "internet activity data"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "commercial information": [
+     "information about you"
+    ],
+    "financial information": [
+     "information about you"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "sensitive personal data": [
+     "information about you"
+    ],
+    "job applicant data": [
+     "information about you"
+    ],
+    "employee data": [
+     "information about you"
+    ],
+    "education history": [
+     "job applicant data"
+    ],
+    "employment status": [
+     "job applicant data"
+    ],
+    "identity verification data": [
+     "information about you"
+    ],
+    "user account data": [
+     "information about you"
+    ],
+    "profile interest": [
+     "profile data"
+    ],
+    "favorites": [
+     "profile interest"
+    ],
+    "interests": [
+     "profile interest"
+    ],
+    "preferences": [
+     "profile data"
+    ],
+    "message content": [
+     "content"
+    ],
+    "post": [
+     "content"
+    ],
+    "social media post": [
+     "post"
+    ],
+    "voice recording": [
+     "biometric data"
+    ],
+    "push notification message": [
+     "message content"
+    ],
+    "email message": [
+     "message content"
+    ],
+    "SMS message": [
+     "message content"
+    ],
+    "voice call message": [
+     "message content"
+    ],
+    "analytics data": [
+     "usage data"
+    ],
+    "Log Information": [
+     "Device Data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "CBP": [
+     "governmental agencies",
+     "public authority"
+    ],
+    "TSA": [
+     "governmental agencies",
+     "public authority"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "governmental agencies": [
+     "public authority"
+    ],
+    "intelligence agency": [
+     "governmental agencies",
+     "public authority"
+    ],
+    "law enforcement": [
+     "governmental agencies",
+     "public authority"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party providers": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "TSA": [
+     "third party"
+    ],
+    "U.S. Customers and Border Protection": [
+     "third party"
+    ],
+    "authorized personnel": [
+     "first party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial purpose": "commercial",
+    "enforce terms": "enforce agreements",
+    "fraud_prevention_and_security": "fraud and security prevention",
+    "identity verification": "authentication",
+    "legal_compliance": "legal compliance",
+    "service improvement": "improve_service"
+   },
+   "parents": {
+    "administrative and support messaging": [
+     "operations"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "operations"
+    ],
+    "authentication": [
+     "user identity verification and fraud prevention"
+    ],
+    "business and commercial purposes": [
+     "any purpose"
+    ],
+    "commercial": [
+     "business and commercial purposes"
+    ],
+    "customer support": [
+     "operations"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "dispute resolution": [
+     "operations"
+    ],
+    "enforce agreements": [
+     "operations"
+    ],
+    "fraud and security prevention": [
+     "operations"
+    ],
+    "fraud_prevention": [
+     "fraud and security prevention",
+     "user identity verification and fraud prevention"
+    ],
+    "fulfill_contract": [
+     "operations"
+    ],
+    "improve_service": [
+     "service maintenance and optimization"
+    ],
+    "job application processing": [
+     "operations"
+    ],
+    "legal compliance": [
+     "operations"
+    ],
+    "marketing": [
+     "business and commercial purposes"
+    ],
+    "marketing promotions and offers": [
+     "marketing"
+    ],
+    "other business purposes": [
+     "business and commercial purposes"
+    ],
+    "personalization": [
+     "service maintenance and optimization"
+    ],
+    "security": [
+     "fraud and security prevention"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "third party marketing": [
+     "marketing"
+    ],
+    "transaction completion and request response": [
+     "service provision"
+    ],
+    "user identity verification and fraud prevention": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3633,
+  "completion_tokens": 1561,
+  "thinking_tokens": 0,
+  "seconds": 14.315173149108887,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

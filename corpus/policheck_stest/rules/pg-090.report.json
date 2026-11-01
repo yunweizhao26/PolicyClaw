@@ -1,0 +1,665 @@
+{
+ "cleaned_sha256": "pg-090",
+ "text_sha256": "ed704449d2b0f5e6e3fce266d820dd56769cb881bce058405cc553ec56ae3bf7",
+ "site_id": "pg-090",
+ "sections": 31,
+ "rules": 290,
+ "report": {
+  "sections": 31,
+  "raw_rules": 263,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "tracking",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Hugs N Hearts’ third parties' service providers"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "tracking activities",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can opt-out",
+     "actor": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Advertising Features",
+      "verb": "advertise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Advertising Features",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt-out of the Google Analytics Advertising Features, including through ads settings, ad settings for mobile apps, or any other available means (for example, the NAI's consumer opt-out) by going to the User's Google account settings on the User’s device and changing the User's preferences in accordance with the instructions of the device’s manufacturer and the operating system running on your device"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s24"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "user",
+      "text": "You or, as applicable, your legal guardian"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "give access",
+      "verb": "receive access",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "device identifier",
+      "text": "Kids’ Persistent Device Identifier"
+     },
+     "recipient": {
+      "name": "user",
+      "text": "You or, as applicable, your legal guardian"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "give access",
+      "verb": "receive access",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "as applicable",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "amend",
+      "verb": "amend",
+      "text": ""
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "device identifier",
+      "text": "Kids’ Persistent Device Identifier"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "amend",
+      "verb": "amend",
+      "text": ""
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "as applicable",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "delete",
+      "verb": "delete",
+      "text": ""
+     },
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "device identifier",
+      "text": "Kids’ Persistent Device Identifier"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "delete",
+      "verb": "delete",
+      "text": ""
+     },
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [],
+     "conditions": [
+      "by sending us an email to\ncontact@hugsnhearts.com",
+      "as applicable",
+      "that we may hold"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "cease collection",
+      "verb": "cease",
+      "text": ""
+     },
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "cease",
+     "purpose": [],
+     "conditions": [
+      "You or, as applicable, your legal guardian, may request, by sending us an email to\ncontact@hugsnhearts.com"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "cease use",
+      "verb": "cease",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "cease",
+     "purpose": [],
+     "conditions": [
+      "You or, as applicable, your legal guardian, may request, by sending us an email to\ncontact@hugsnhearts.com"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "User’s Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "retain",
+      "verb": "retain",
+      "text": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "to comply with our legal or business requirements",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to resolve disputes",
+       "name": "dispute resolution"
+      },
+      {
+       "text": "prevent fraud",
+       "name": "fraud prevention"
+      },
+      {
+       "text": "to enforce these Terms and our agreements",
+       "name": "enforce terms"
+      },
+      {
+       "text": "to enable Users to reinstate their Account",
+       "name": "account administration"
+      },
+      {
+       "text": "as is necessary to fulfill the purposes for which it was collected, as those are specified above",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "After you have stopped using the Apps and/or following the termination of your Account",
+      "collected through the use of the App",
+      "for a reasonable period",
+      "as permitted under applicable privacy laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "privacy law",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "device identifier",
+      "text": "Kids’ Persistent Device Identifier"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "retain",
+      "verb": "retain",
+      "text": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "to comply with our legal or business requirements",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to resolve disputes",
+       "name": "dispute resolution"
+      },
+      {
+       "text": "prevent fraud",
+       "name": "fraud prevention"
+      },
+      {
+       "text": "to enforce these Terms and our agreements",
+       "name": "enforce terms"
+      },
+      {
+       "text": "to enable Users to reinstate their Account",
+       "name": "account administration"
+      },
+      {
+       "text": "as is necessary to fulfill the purposes for which it was collected, as those are specified above",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "After you have stopped using the Apps and/or following the termination of your Account",
+      "as applicable",
+      "collected through the use of the App",
+      "for a reasonable period",
+      "all as permitted under applicable privacy laws"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "privacy law",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Hugs N Hearts"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information that a User has shared using our Apps for Everyone via any Social Network or third party Platform"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "amend",
+      "verb": "amend",
+      "text": ""
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "DENY",
+     "polarity_text": "cannot be amended",
+     "purpose": [],
+     "conditions": [
+      "where such information is in the control of that Social Network or third party Platform"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Hugs N Hearts"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information that a User has shared using our Apps for Everyone via any Social Network or third party Platform"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "delete",
+      "verb": "delete",
+      "text": ""
+     },
+     "operation": "erasure or destruction",
+     "polarity": "DENY",
+     "polarity_text": "cannot be deleted",
+     "purpose": [],
+     "conditions": [
+      "where such information is in the control of that Social Network or third party Platform"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "data": {
+      "name": "aggregated / de-identified data",
+      "text": "Aggregate and/or anonymous information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "remain",
+      "verb": "remain",
+      "text": ""
+     },
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may remain",
+     "purpose": [],
+     "conditions": [
+      "on our servers indefinitely"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-090#s28"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 265,
+   "gap_words": 3872
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 79,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 53,
+  "cached": 0,
+  "prompt_tokens": 85913,
+  "completion_tokens": 49260,
+  "thinking_tokens": 0,
+  "seconds": 356.6169693470001,
+  "failures": 0
+ },
+ "seconds": 358.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

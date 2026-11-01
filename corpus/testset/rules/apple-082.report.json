@@ -1,0 +1,144 @@
+{
+ "cleaned_sha256": "apple-082",
+ "text_sha256": "5566ba97bada7717070886de49f97ff88115cfe29369316c7b4ddb75613eea8a",
+ "site_id": "apple-082",
+ "sections": 26,
+ "rules": 283,
+ "report": {
+  "sections": 26,
+  "raw_rules": 258,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "Right Not to be Subject to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Automated Decision-Making",
+      "verb": "Automated Decision-Making"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "individual residents of those countries outside of the United States that have enacted comprehensive consumer privacy laws, including the European Union General Data Protection Regulation, the United Kingdom Data Protection Act, and each of their associated regulations, as well as amendments to those laws or additional consumer privacy laws that have been enacted or may be enacted in the future",
+      "Depending upon applicable law"
+     ],
+     "exceptions": [
+      "Subject to certain exemptions",
+      "these rights are not absolute, and in certain cases, we may decline your request as permitted by law",
+      "under certain conditions"
+     ],
+     "references": [
+      {
+       "text": "European Union General Data Protection Regulation",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "United Kingdom Data Protection Act",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-082#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make any material changes",
+      "prior to the change becoming effective",
+      "by reasonable means (such as posting a notice on the Services)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-082#s25"
+   }
+  ],
+  "residual_quotes": 35,
+  "quotes": 117,
+  "completeness": {
+   "gaps": 424,
+   "gap_words": 4441
+  },
+  "unsatisfiable_guards": 7,
+  "qualifiers_without_effect": 31,
+  "translated_quotes": 117,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 84518,
+  "completion_tokens": 49702,
+  "thinking_tokens": 0,
+  "seconds": 748.05286693573,
+  "failures": 0
+ },
+ "seconds": 749.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

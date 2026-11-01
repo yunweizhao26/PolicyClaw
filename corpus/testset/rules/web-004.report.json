@@ -1,0 +1,638 @@
+{
+ "cleaned_sha256": "web-004",
+ "text_sha256": "e718cede197d8d741c2b7a5ceb09248d9182b43dd76a69fc9fe93bc3f0e934e4",
+ "site_id": "web-004",
+ "sections": 13,
+ "rules": 224,
+ "report": {
+  "sections": 13,
+  "raw_rules": 202,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "name": "collect",
+      "verb": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "operation": "collection",
+     "data": {
+      "name": "data about you",
+      "text": "data about you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "it"
+     },
+     "action": {
+      "name": "used",
+      "verb": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "operation": "use",
+     "data": {
+      "name": "data about you",
+      "text": "it"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "it"
+     },
+     "action": {
+      "name": "shared",
+      "verb": "share",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is shared",
+     "operation": "disclosure",
+     "data": {
+      "name": "data about you",
+      "text": "it"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "name": "collect",
+      "verb": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "operation": "collection",
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "when you use our Services (described below)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "Cookie Policy",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "operation": "use",
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "when you use our Services (described below)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "Cookie Policy",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "name": "share",
+      "verb": "share",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "operation": "disclosure",
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "when you use our Services (described below)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "Cookie Policy",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "third party",
+      "text": "non-Members (“Visitors”)"
+     },
+     "action": {
+      "name": "viewable",
+      "verb": "view",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is viewable",
+     "operation": "consultation",
+     "data": {
+      "name": "Content",
+      "text": "Content"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "on some of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "third party",
+      "text": "non-Members (“Visitors”)"
+     },
+     "action": {
+      "name": "viewable",
+      "verb": "view",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is viewable",
+     "operation": "consultation",
+     "data": {
+      "name": "data",
+      "text": "data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "on some of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "LinkedIn Ireland Unlimited Company (“LinkedIn Ireland”)"
+     },
+     "action": {
+      "name": "collected",
+      "verb": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "will be the controller of",
+     "operation": "collection",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you are in the “Designated Countries”",
+      "provided to, or collected by or for, or processed in connection with our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "LinkedIn Ireland Unlimited Company (“LinkedIn Ireland”)"
+     },
+     "action": {
+      "name": "processed",
+      "verb": "process",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "will be the controller of",
+     "operation": "processing",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you are in the “Designated Countries”",
+      "provided to, or collected by or for, or processed in connection with our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "LinkedIn Corporation"
+     },
+     "action": {
+      "name": "collected",
+      "verb": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "will be the controller of (or business responsible for)",
+     "operation": "collection",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you are outside of the Designated Countries",
+      "provided to, or collected by or for, or processed in connection with our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "LinkedIn Corporation"
+     },
+     "action": {
+      "name": "processed",
+      "verb": "process",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "will be the controller of (or business responsible for)",
+     "operation": "processing",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "If you are outside of the Designated Countries",
+      "provided to, or collected by or for, or processed in connection with our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "name": "collection",
+      "verb": "collect",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "subject to",
+     "operation": "collection",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "As a Visitor or Member of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "verb": "use",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "subject to",
+     "operation": "use",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "As a Visitor or Member of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "name": "sharing",
+      "verb": "share",
+      "text": ""
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "subject to",
+     "operation": "disclosure",
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "As a Visitor or Member of our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-004#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "usage_information",
+      "text": "information about your engagement with their sites and services"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "affiliates",
+      "text": "Microsoft"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about your engagement with their sites and services"
+    ],
+    "section": "web-004#s2"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 100,
+  "completeness": {
+   "gaps": 331,
+   "gap_words": 3215
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 22,
+  "translated_quotes": 100,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 57304,
+  "completion_tokens": 47126,
+  "thinking_tokens": 0,
+  "seconds": 1045.6262121200562,
+  "failures": 0
+ },
+ "seconds": 1046.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

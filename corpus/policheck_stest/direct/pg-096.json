@@ -1,0 +1,22 @@
+{
+ "policy": "pg-096",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "When you visit our websites or apps, our servers might automatically log certain information about your use of our websites, such as your IP address, your browser type, operating system, browser language and service provider.",
+   "prohibit": "This policy does not apply to information collected by third party social networks (such as Facebook), mobile device manufacturers, third party \"mobile apps\", wireless service providers, internet service providers or the operators of any networks through which you may interact with us and we expressly disclaim any responsibility for the data collection, privacy or data security practices of those entities.",
+   "situation": "DriveFlow logging the subscriber's internet service provider when they visit DriveFlow's websites or apps.",
+   "reason": "One clause explicitly states the policy does not apply to and disclaims responsibility for information collected by internet service providers, while another states DriveFlow automatically logs the user's service provider.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 5491,
+  "completion_tokens": 228,
+  "thinking_tokens": 0,
+  "seconds": 3.29958176612854,
+  "failures": 0
+ }
+}

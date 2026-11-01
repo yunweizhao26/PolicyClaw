@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "web-151",
+ "text_sha256": "6205985ea7993367017f316c40d54776141b0a2593d3f46a14cc607e860836a6",
+ "site_id": "web-151",
+ "sections": 8,
+ "rules": 197,
+ "report": {
+  "sections": 8,
+  "raw_rules": 174,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "in connection with preventing fraud and other damage to the Platform and systems",
+       "name": "fraud prevention"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third-party services"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-151#s1"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 57,
+  "completeness": {
+   "gaps": 148,
+   "gap_words": 1995
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 57,
+  "compile_failures": 2,
+  "fixed_structurally": 2,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 30237,
+  "completion_tokens": 29143,
+  "thinking_tokens": 0,
+  "seconds": 218.6571488380432,
+  "failures": 0
+ },
+ "seconds": 219.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

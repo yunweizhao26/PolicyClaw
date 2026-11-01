@@ -1,0 +1,238 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user preferences": "preferences",
+    "user profile": "profile"
+   },
+   "parents": {
+    "credit card number": [
+     "payment information"
+    ],
+    "last four digits of credit card number": [
+     "credit card number"
+    ],
+    "email address": [
+     "contact info",
+     "personal data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "name": [
+     "basic information",
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "coarse geographic data": [
+     "location"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "activity preferences": [
+     "preferences"
+    ],
+    "workshop choices": [
+     "preferences"
+    ],
+    "comments": [
+     "public activities and comments",
+     "user content"
+    ],
+    "posts": [
+     "user content",
+     "user submissions"
+    ],
+    "photos": [
+     "user content"
+    ],
+    "user recordings": [
+     "user content"
+    ],
+    "feedback": [
+     "user submissions"
+    ],
+    "survey responses": [
+     "user submissions"
+    ],
+    "user submissions": [
+     "user-provided information"
+    ],
+    "browser language": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "unique device identifier": [
+     "device information"
+    ],
+    "IP address": [
+     "device information"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "site activity information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertisers",
+    "vendors": "third_party_vendor"
+   },
+   "parents": {
+    "CaptionHub": [
+     "partners",
+     "third party"
+    ],
+    "academic researchers": [
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "contractors": [
+     "third party"
+    ],
+    "future attendees": [
+     "event participants"
+    ],
+    "organizers": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "service provider": [
+     "partners",
+     "third party"
+    ],
+    "third_party_vendor": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party platform": "other_third_party"
+   },
+   "parents": {
+    "YouTube Courses": [
+     "other_third_party"
+    ],
+    "community user": [
+     "user"
+    ],
+    "device": [
+     "user or device"
+    ],
+    "user": [
+     "user or device"
+    ],
+    "other_third_party": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "TED"
+   },
+   "parents": {
+    "CleverTap": [
+     "third party"
+    ],
+    "Mighty Networks": [
+     "third party"
+    ],
+    "Sailthru": [
+     "third party"
+    ],
+    "YouTube Courses": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "evaluation": "evaluating applicants",
+    "partner services": "disclosure to partners",
+    "registration": "manage registration"
+   },
+   "parents": {
+    "analytics and improvement": [
+     "analytics"
+    ],
+    "gameplay evaluation": [
+     "evaluating applicants"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "event coordination": [
+     "events"
+    ],
+    "event organization": [
+     "events"
+    ],
+    "invitations to activities": [
+     "events"
+    ],
+    "send service communication": [
+     "communication"
+    ],
+    "contacting individuals": [
+     "communication"
+    ],
+    "surveys": [
+     "feedback"
+    ],
+    "sharing with partners": [
+     "disclosure to partners"
+    ],
+    "payment": [
+     "fulfill transaction"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3645,
+  "completion_tokens": 927,
+  "thinking_tokens": 0,
+  "seconds": 12.027985334396362,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

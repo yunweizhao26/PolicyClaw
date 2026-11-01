@@ -1,0 +1,264 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email_address": "email address",
+    "information": "all information collected through our Platform and Services",
+    "location data": "geographic location",
+    "payment information": "financial information",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "postal address": "address",
+    "your information": "user data"
+   },
+   "parents": {
+    "address": [
+     "identifiers"
+    ],
+    "age": [
+     "protected characteristics"
+    ],
+    "approximate location": [
+     "geographic location",
+     "location"
+    ],
+    "precise location": [
+     "geographic location",
+     "location",
+     "sensitive personal information"
+    ],
+    "browser_type": [
+     "device information"
+    ],
+    "hardware_model": [
+     "device information"
+    ],
+    "operating_system": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "ip_address": [
+     "device information",
+     "identifiers"
+    ],
+    "browsing history": [
+     "browsing behavior",
+     "internet usage information"
+    ],
+    "browsing behavior": [
+     "internet usage information"
+    ],
+    "campus dining card information": [
+     "financial information"
+    ],
+    "credit card information": [
+     "credit_or_debit_card",
+     "financial information"
+    ],
+    "credit_or_debit_card": [
+     "financial information"
+    ],
+    "chat logs": [
+     "communications"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "reward program data": [
+     "commercial information"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "student ID number": [
+     "identifiers"
+    ],
+    "user_id": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "unique identifier": [
+     "identifiers"
+    ],
+    "health information": [
+     "sensitive personal information"
+    ],
+    "sexual health and reproductive information": [
+     "health information",
+     "sensitive personal information"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "protected characteristics": [
+     "personal data"
+    ],
+    "education information": [
+     "personal data"
+    ],
+    "inferences on preferences": [
+     "personal data"
+    ],
+    "location": [
+     "geographic location"
+    ],
+    "text_messaging_opt_in_data": [
+     "consent_records"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising_network": "ad network",
+    "advertising_partner": "advertising partner",
+    "corporate affiliate": "affiliate",
+    "service_provider": "service provider",
+    "third_party": "third party"
+   },
+   "parents": {
+    "ad network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "commercial_partner": [
+     "partner"
+    ],
+    "delivery provider": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "third party online advertising and analytics partners": [
+     "advertising partner",
+     "third party"
+    ],
+    "third-party online advertising networks": [
+     "ad network",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "promotion co-sponsors": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google Maps": [
+     "service provider",
+     "third_party"
+    ],
+    "other_users": [
+     "user"
+    ],
+    "payment processor": [
+     "service provider",
+     "third_party"
+    ],
+    "school": [
+     "third_party"
+    ],
+    "service provider": [
+     "third_party"
+    ],
+    "social_network": [
+     "third_party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Grubhub",
+    "partner": "commercial_partner"
+   },
+   "parents": {
+    "Zendesk": [
+     "third party"
+    ],
+    "commercial_partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial-purpose": "commercial purpose",
+    "customer_support": "customer support",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "security": "fraud_prevention_and_security",
+    "service improvement": "product_improvement",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "user_communication": "communication"
+   },
+   "parents": {
+    "account_management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "admin and customer service",
+     "service provision"
+    ],
+    "legal claim": [
+     "legal compliance"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "personalisation": [
+     "advertising",
+     "personalization"
+    ],
+    "user account management": [
+     "account_management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3211,
+  "completion_tokens": 1452,
+  "thinking_tokens": 0,
+  "seconds": 13.283055782318115,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

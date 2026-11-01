@@ -1,0 +1,371 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "bank account information": "bank account details",
+    "contact information": "contact details",
+    "cookies and similar technologies": "cookies",
+    "government-issued identification number": "government identification number",
+    "identity documents": "identity document",
+    "information": "data",
+    "payment method details": "payment details",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personal_data": "Personal Data",
+    "postal address": "address",
+    "special categories of personal data": "sensitive personal data",
+    "telephone number": "phone number",
+    "transaction information": "transaction data",
+    "user_data": "user data",
+    "your data": "user data"
+   },
+   "parents": {
+    "Aadhaar number": [
+     "government identification number"
+    ],
+    "Social Security number": [
+     "government identification number"
+    ],
+    "bank account details": [
+     "financial information"
+    ],
+    "bank account number": [
+     "bank account details"
+    ],
+    "financial account balance": [
+     "financial account details"
+    ],
+    "financial account details": [
+     "financial information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "business contact details": [
+     "contact details"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "government identification number": [
+     "identity information"
+    ],
+    "name": [
+     "identity information"
+    ],
+    "date of birth": [
+     "identity information"
+    ],
+    "image of identity document": [
+     "identity document",
+     "images"
+    ],
+    "selfie": [
+     "images"
+    ],
+    "call audio": [
+     "audio-visual data",
+     "call data"
+    ],
+    "call recordings": [
+     "audio-visual data",
+     "call data"
+    ],
+    "calls": [
+     "call data"
+    ],
+    "chat transcripts": [
+     "messages"
+    ],
+    "cookie data": [
+     "cookies"
+    ],
+    "ip address": [
+     "device and browser information"
+    ],
+    "device and browser information": [
+     "device information"
+    ],
+    "order level details": [
+     "transaction data"
+    ],
+    "attempted transactions": [
+     "transaction data"
+    ],
+    "transaction history": [
+     "transaction data"
+    ],
+    "payment processing volume": [
+     "transaction data"
+    ],
+    "loan repayment data": [
+     "financial information"
+    ],
+    "credit report": [
+     "creditworthiness information"
+    ],
+    "creditworthiness information": [
+     "financial information"
+    ],
+    "credit card issuance data": [
+     "payment information"
+    ],
+    "payment details": [
+     "payment information"
+    ],
+    "transaction data": [
+     "payment information"
+    ],
+    "checkout form data": [
+     "form data"
+    ],
+    "activity indicators": [
+     "usage data"
+    ],
+    "online activity": [
+     "usage data"
+    ],
+    "engagement data": [
+     "usage data"
+    ],
+    "fraud detection data": [
+     "verification data"
+    ],
+    "history of fraud or misuse": [
+     "fraud detection data"
+    ],
+    "registration and profile data": [
+     "registration information"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user information": [
+     "data"
+    ],
+    "information about the user": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising_partners": "advertising partners",
+    "affiliates": "affiliate",
+    "analytics providers": "analytics provider",
+    "business user": "Business Users",
+    "business users": "Business Users",
+    "business_users": "Business Users",
+    "financial_partners": "financial partners",
+    "public authorities": "government authority",
+    "service providers": "service provider",
+    "social networks": "social network",
+    "third party": "third parties",
+    "third party partners": "partners",
+    "third_party": "third parties",
+    "third_party_service_providers": "third party service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partners"
+    ],
+    "advertising partners": [
+     "partners"
+    ],
+    "analytics provider": [
+     "partners"
+    ],
+    "social network": [
+     "partners"
+    ],
+    "authorized third parties": [
+     "third parties"
+    ],
+    "partners": [
+     "third parties"
+    ],
+    "business partner": [
+     "partners"
+    ],
+    "commercial partner": [
+     "partners"
+    ],
+    "financial partners": [
+     "partners"
+    ],
+    "third party service provider": [
+     "service provider",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "nonaffiliated third parties": [
+     "third parties"
+    ],
+    "courts": [
+     "government authority"
+    ],
+    "government agency": [
+     "government authority"
+    ],
+    "law enforcement": [
+     "government authority"
+    ],
+    "regulatory authorities": [
+     "government authority"
+    ],
+    "government authority": [
+     "public or private entities"
+    ],
+    "financial company": [
+     "another company"
+    ],
+    "user bank": [
+     "another company",
+     "financial company"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "other payment method provider": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "business users": "business partners",
+    "credit_bureaus": "credit bureau",
+    "publicly_available_sources": "public sources",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Representatives of Business Users": [
+     "business partners"
+    ],
+    "credit bureau": [
+     "third parties"
+    ],
+    "financial institutions": [
+     "third parties"
+    ],
+    "public sources": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "affiliate": [
+     "third parties"
+    ],
+    "commercial partner": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "via the Services we offer": [
+     "services"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Business Users": "Business User",
+    "business user": "Business User",
+    "first party": "Stripe"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ],
+    "third-party verification partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud detection and prevention",
+    "fraud_prevention": "fraud prevention",
+    "fraud_prevention_and_security": "fraud detection and prevention",
+    "identification or authentication": "authentication",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "personalization of services": "personalization",
+    "provide-service-or-feature": "provide-service",
+    "service provision": "provide-service",
+    "service_provision": "provide-service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing",
+     "marketing and communication"
+    ],
+    "marketing": [
+     "marketing and communication"
+    ],
+    "communication": [
+     "marketing and communication"
+    ],
+    "compliance_screening": [
+     "compliance"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention",
+     "fraud prevention and security"
+    ],
+    "fraud-detection": [
+     "fraud detection and prevention",
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "authentication",
+     "compliance"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "process-transactions": [
+     "provide-service",
+     "service delivery"
+    ],
+    "customer support": [
+     "provide-service"
+    ],
+    "personalization": [
+     "provide-service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4500,
+  "completion_tokens": 2119,
+  "thinking_tokens": 0,
+  "seconds": 17.06982183456421,
+  "failures": 0
+ },
+ "seconds": 17.2
+}

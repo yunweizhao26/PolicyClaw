@@ -1,0 +1,221 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "data": "Information",
+    "information": "Information",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "pii": "personal data",
+    "user input": "user data"
+   },
+   "parents": {
+    "account details": [
+     "user data"
+    ],
+    "account preferences": [
+     "account details"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "profession": [
+     "demographic data"
+    ],
+    "interests": [
+     "demographic data"
+    ],
+    "billing address": [
+     "contact details",
+     "postal address"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "browser type": [
+     "network connection details"
+    ],
+    "browsing activity": [
+     "browsing and interaction history"
+    ],
+    "browsing behavior": [
+     "browsing and interaction history"
+    ],
+    "browsing history": [
+     "browsing and interaction history"
+    ],
+    "credit card expiration date": [
+     "account details"
+    ],
+    "credit card number": [
+     "account details",
+     "sensitive personal information"
+    ],
+    "device hardware serial number": [
+     "hardware data"
+    ],
+    "device hardware specifications": [
+     "hardware data"
+    ],
+    "device name": [
+     "hardware data"
+    ],
+    "unique device identifier": [
+     "hardware data"
+    ],
+    "ip address": [
+     "network connection details"
+    ],
+    "network connection speed": [
+     "network connection details"
+    ],
+    "operating system": [
+     "hardware data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "user post contents": [
+     "user data"
+    ],
+    "residual copies of personal data": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookies": [
+     "information gathered on Site"
+    ],
+    "web beacons": [
+     "information gathered on Site"
+    ],
+    "complaint details": [
+     "user data"
+    ],
+    "statement of accuracy and ownership under penalty of perjury": [
+     "complaint details"
+    ],
+    "statement of good-faith belief of incorrect processing or unauthorized disclosure": [
+     "complaint details"
+    ],
+    "statement of information type": [
+     "complaint details"
+    ],
+    "identification of information": [
+     "complaint details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party",
+     "third party website"
+    ],
+    "third party website": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "service partner": [
+     "other sources"
+    ],
+    "social network": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising network": "advertising network"
+   },
+   "parents": {
+    "Google Analytics": [
+     "analytics provider"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "service provision": "provide service"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "legal compliance": [
+     "compliance and protection"
+    ],
+    "service improvement": [
+     "service operation or improvement"
+    ],
+    "provide service": [
+     "service operation or improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2530,
+  "completion_tokens": 1032,
+  "thinking_tokens": 0,
+  "seconds": 30.41834306716919,
+  "failures": 0
+ },
+ "seconds": 30.5
+}

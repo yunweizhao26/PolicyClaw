@@ -1,0 +1,155 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Google advertising ID": "GAID",
+    "children's personal information": "children's personal data",
+    "contact info": "contact details",
+    "device info": "device details",
+    "device information": "device details",
+    "installed apps": "installed applications",
+    "personal information": "personal data",
+    "running processes": "process information",
+    "screen name": "nickname",
+    "user name": "nickname"
+   },
+   "parents": {
+    "GAID": [
+     "device identifier"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "app usage frequency": [
+     "app usage data"
+    ],
+    "app usage statistics": [
+     "app usage data"
+    ],
+    "children's personal data": [
+     "personal data"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "device language": [
+     "device details"
+    ],
+    "device model": [
+     "device details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "payment history": [
+     "transaction log"
+    ],
+    "personal data involved in the breach": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "purchase history": [
+     "transaction log"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partners": "partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "business partner": [
+     "partner"
+    ],
+    "third party partner": [
+     "partner",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "data processor": [
+     "third parties"
+    ],
+    "accountants": [
+     "external recipients"
+    ],
+    "auditors": [
+     "external recipients"
+    ],
+    "consultants": [
+     "external recipients"
+    ],
+    "legal counsel": [
+     "external recipients"
+    ],
+    "regulatory authorities": [
+     "external recipients"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party partner": "partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "other": "for any purpose other than those stated in this Policy"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "provide service features": [
+     "service provision"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2885,
+  "completion_tokens": 738,
+  "thinking_tokens": 0,
+  "seconds": 12.325350522994995,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

@@ -1,0 +1,201 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "record of transferred files": "files transferred",
+    "user account name": "account name",
+    "user data": "information"
+   },
+   "parents": {
+    "IP address": [
+     "device data",
+     "online identifier"
+    ],
+    "ad clicks": [
+     "activity data",
+     "usage data"
+    ],
+    "cookie identifiers": [
+     "device data",
+     "online identifier",
+     "unique identifiers"
+    ],
+    "mac address": [
+     "device data",
+     "unique identifiers"
+    ],
+    "wallet address": [
+     "identifiers",
+     "unique personal identifier"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "payment card number": [
+     "financial details"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "precise location": [
+     "device data"
+    ],
+    "browsing history": [
+     "activity data",
+     "usage data"
+    ],
+    "links clicked": [
+     "activity data",
+     "usage data"
+    ],
+    "content interactions": [
+     "activity data",
+     "usage data"
+    ],
+    "usage frequency and duration": [
+     "activity data",
+     "usage data"
+    ],
+    "operating system": [
+     "device software information"
+    ],
+    "user content": [
+     "content"
+    ],
+    "email interaction data": [
+     "usage data"
+    ],
+    "email": [
+     "communication"
+    ],
+    "phone message": [
+     "communication"
+    ],
+    "push notification": [
+     "communication"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "unique personal identifier": [
+     "identifiers"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "contact information of peers": [
+     "information about your friends"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "third party"
+    ],
+    "third party service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "third party": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "BitTorrent"
+   },
+   "parents": {
+    "Google Analytics": [
+     "third party",
+     "third party service provider"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "third party service provider": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service improvement": "service enhancement",
+    "service provision": "provide our services",
+    "service-provision": "provide our services"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "provide our services": [
+     "services"
+    ],
+    "service communication": [
+     "services"
+    ],
+    "recruiting": [
+     "services"
+    ],
+    "service enhancement": [
+     "service operation and improvement"
+    ],
+    "auditing": [
+     "analytics"
+    ],
+    "user verification": [
+     "security"
+    ],
+    "security": [
+     "protect us or others"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2878,
+  "completion_tokens": 919,
+  "thinking_tokens": 0,
+  "seconds": 11.074017524719238,
+  "failures": 0
+ },
+ "seconds": 11.1
+}

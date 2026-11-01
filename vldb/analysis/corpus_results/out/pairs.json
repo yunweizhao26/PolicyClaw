@@ -1,0 +1,466 @@
+{
+ "rules": "reconciled",
+ "unstable_pages": [
+  "forums.speedlife.net/privacy",
+  "jansfoodsteps.com/disclosure-privacy-policy",
+  "skimlinks.com/privacy-policies"
+ ],
+ "stable_pages": {
+  "versions": 908,
+  "versions_with_rules": 899,
+  "pairs": 4169,
+  "outcomes": {
+   "mutually_exclusive": 453,
+   "overlap_candidate": 2609,
+   "unresolved": 1107
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 10.87,
+   "overlap_candidate": 62.58,
+   "unresolved": 26.55
+  },
+  "decided_share_pct": 73.45,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 370,
+    "exclusive guards": 83
+   },
+   "overlap_candidate": {
+    "incomparable": 2395,
+    "deny more specific": 144,
+    "allow more specific": 57,
+    "same scope": 13
+   },
+   "unresolved": {
+    "incomparable": 1013,
+    "deny more specific": 57,
+    "allow more specific": 37
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 351,
+   "one true": 1396,
+   "neither true": 862
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 83,
+   "neither true": 370
+  },
+  "overlap_same_section": 439,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 1107,
+   "blocking_in": {
+    "allow": 377,
+    "deny": 464,
+    "allow+deny": 266
+   },
+   "a_guard_entirely_untranslated": 678,
+   "blocking_residuals_per_pair_median": 1
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 4169
+   },
+   "pairs_whose_outcome_changes": 1560,
+   "relations": {
+    "incomparable": 2804,
+    "deny more specific": 535,
+    "allow more specific": 501,
+    "same scope": 329
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 135,
+   "overlap_candidate": 416,
+   "unresolved": 336
+  },
+  "versions_with_a_pair": 555,
+  "versions_with_a_same_scope_conflict": 13,
+  "pages_with_a_same_scope_conflict": 3,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 1414,
+   "use": 415,
+   "disclosure by transmission": 283,
+   "disclosure": 231,
+   "processing": 142,
+   "storage": 55,
+   "sale": 33,
+   "dissemination or otherwise making available": 15,
+   "profiling": 8,
+   "structuring": 4,
+   "consultation": 4,
+   "other": 3,
+   "erasure or destruction": 2
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 1064,
+   "use@use": 388,
+   "disclose@disclosure": 156,
+   "obtain@collection": 152,
+   "process@processing": 134,
+   "share@disclosure by transmission": 92,
+   "transfer@disclosure by transmission": 73,
+   "receive@collection": 68,
+   "share@disclosure": 58,
+   "collection": 41
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 89,
+    "rules_min": 1,
+    "rules_median": 13,
+    "rules_max": 18,
+    "pairs": 14,
+    "pairs_per_version": 0.1573,
+    "versions_with_pair_pct": 14.61,
+    "overlap_candidates": 11
+   },
+   {
+    "decile": 2,
+    "versions": 90,
+    "rules_min": 18,
+    "rules_median": 22.0,
+    "rules_max": 26,
+    "pairs": 83,
+    "pairs_per_version": 0.9222,
+    "versions_with_pair_pct": 46.67,
+    "overlap_candidates": 58
+   },
+   {
+    "decile": 3,
+    "versions": 90,
+    "rules_min": 26,
+    "rules_median": 31.0,
+    "rules_max": 35,
+    "pairs": 52,
+    "pairs_per_version": 0.5778,
+    "versions_with_pair_pct": 27.78,
+    "overlap_candidates": 18
+   },
+   {
+    "decile": 4,
+    "versions": 90,
+    "rules_min": 35,
+    "rules_median": 40.0,
+    "rules_max": 47,
+    "pairs": 210,
+    "pairs_per_version": 2.3333,
+    "versions_with_pair_pct": 55.56,
+    "overlap_candidates": 166
+   },
+   {
+    "decile": 5,
+    "versions": 90,
+    "rules_min": 47,
+    "rules_median": 52.0,
+    "rules_max": 60,
+    "pairs": 193,
+    "pairs_per_version": 2.1444,
+    "versions_with_pair_pct": 61.11,
+    "overlap_candidates": 120
+   },
+   {
+    "decile": 6,
+    "versions": 90,
+    "rules_min": 60,
+    "rules_median": 68.0,
+    "rules_max": 73,
+    "pairs": 365,
+    "pairs_per_version": 4.0556,
+    "versions_with_pair_pct": 76.67,
+    "overlap_candidates": 118
+   },
+   {
+    "decile": 7,
+    "versions": 90,
+    "rules_min": 74,
+    "rules_median": 81.0,
+    "rules_max": 89,
+    "pairs": 434,
+    "pairs_per_version": 4.8222,
+    "versions_with_pair_pct": 68.89,
+    "overlap_candidates": 221
+   },
+   {
+    "decile": 8,
+    "versions": 90,
+    "rules_min": 90,
+    "rules_median": 100.0,
+    "rules_max": 116,
+    "pairs": 432,
+    "pairs_per_version": 4.8,
+    "versions_with_pair_pct": 81.11,
+    "overlap_candidates": 220
+   },
+   {
+    "decile": 9,
+    "versions": 90,
+    "rules_min": 116,
+    "rules_median": 135.5,
+    "rules_max": 170,
+    "pairs": 1171,
+    "pairs_per_version": 13.0111,
+    "versions_with_pair_pct": 87.78,
+    "overlap_candidates": 797
+   },
+   {
+    "decile": 10,
+    "versions": 90,
+    "rules_min": 170,
+    "rules_median": 199.0,
+    "rules_max": 331,
+    "pairs": 1215,
+    "pairs_per_version": 13.5,
+    "versions_with_pair_pct": 96.67,
+    "overlap_candidates": 880
+   }
+  ]
+ },
+ "all_pages": {
+  "versions": 1021,
+  "versions_with_rules": 1006,
+  "pairs": 5273,
+  "outcomes": {
+   "mutually_exclusive": 453,
+   "overlap_candidate": 3529,
+   "unresolved": 1291
+  },
+  "outcome_shares_pct": {
+   "mutually_exclusive": 8.59,
+   "overlap_candidate": 66.93,
+   "unresolved": 24.48
+  },
+  "decided_share_pct": 75.52,
+  "relation_by_outcome": {
+   "mutually_exclusive": {
+    "policy exception": 370,
+    "exclusive guards": 83
+   },
+   "overlap_candidate": {
+    "incomparable": 2487,
+    "allow more specific": 885,
+    "deny more specific": 144,
+    "same scope": 13
+   },
+   "unresolved": {
+    "incomparable": 1105,
+    "allow more specific": 129,
+    "deny more specific": 57
+   }
+  },
+  "overlap_guard_placement": {
+   "both true": 627,
+   "one true": 2040,
+   "neither true": 862
+  },
+  "mutually_exclusive_guard_placement": {
+   "both true": 0,
+   "one true": 83,
+   "neither true": 370
+  },
+  "overlap_same_section": 439,
+  "unresolved_blocking": {
+   "pairs_with_blocking_residuals": 1291,
+   "blocking_in": {
+    "allow": 561,
+    "deny": 464,
+    "allow+deny": 266
+   },
+   "a_guard_entirely_untranslated": 678,
+   "blocking_residuals_per_pair_median": 1
+  },
+  "ablation_all_guards_true": {
+   "outcomes": {
+    "overlap_candidate": 5273
+   },
+   "pairs_whose_outcome_changes": 1744,
+   "relations": {
+    "incomparable": 2988,
+    "allow more specific": 1329,
+    "deny more specific": 535,
+    "same scope": 421
+   }
+  },
+  "versions_with": {
+   "mutually_exclusive": 135,
+   "overlap_candidate": 508,
+   "unresolved": 428
+  },
+  "versions_with_a_pair": 647,
+  "versions_with_a_same_scope_conflict": 13,
+  "pages_with_a_same_scope_conflict": 3,
+  "overlap_candidates_by_extractor_operation": {
+   "collection": 1414,
+   "disclosure by transmission": 1203,
+   "use": 415,
+   "disclosure": 231,
+   "processing": 142,
+   "storage": 55,
+   "sale": 33,
+   "dissemination or otherwise making available": 15,
+   "profiling": 8,
+   "structuring": 4,
+   "consultation": 4,
+   "other": 3,
+   "erasure or destruction": 2
+  },
+  "overlap_candidates_by_allow_action_top10": {
+   "collect@collection": 1064,
+   "disclose@disclosure by transmission": 755,
+   "use@use": 388,
+   "transfer@disclosure by transmission": 165,
+   "disclose@disclosure": 156,
+   "obtain@collection": 152,
+   "process@processing": 134,
+   "share@disclosure by transmission": 92,
+   "exchange@disclosure by transmission": 92,
+   "receive@collection": 68
+  },
+  "size_deciles": [
+   {
+    "decile": 1,
+    "versions": 100,
+    "rules_min": 1,
+    "rules_median": 12.5,
+    "rules_max": 19,
+    "pairs": 14,
+    "pairs_per_version": 0.14,
+    "versions_with_pair_pct": 13.0,
+    "overlap_candidates": 11
+   },
+   {
+    "decile": 2,
+    "versions": 101,
+    "rules_min": 19,
+    "rules_median": 23,
+    "rules_max": 27,
+    "pairs": 86,
+    "pairs_per_version": 0.8515,
+    "versions_with_pair_pct": 42.57,
+    "overlap_candidates": 58
+   },
+   {
+    "decile": 3,
+    "versions": 100,
+    "rules_min": 27,
+    "rules_median": 33.0,
+    "rules_max": 39,
+    "pairs": 67,
+    "pairs_per_version": 0.67,
+    "versions_with_pair_pct": 31.0,
+    "overlap_candidates": 32
+   },
+   {
+    "decile": 4,
+    "versions": 101,
+    "rules_min": 39,
+    "rules_median": 42,
+    "rules_max": 49,
+    "pairs": 242,
+    "pairs_per_version": 2.396,
+    "versions_with_pair_pct": 60.4,
+    "overlap_candidates": 176
+   },
+   {
+    "decile": 5,
+    "versions": 101,
+    "rules_min": 49,
+    "rules_median": 57,
+    "rules_max": 67,
+    "pairs": 236,
+    "pairs_per_version": 2.3366,
+    "versions_with_pair_pct": 65.35,
+    "overlap_candidates": 139
+   },
+   {
+    "decile": 6,
+    "versions": 100,
+    "rules_min": 67,
+    "rules_median": 73.0,
+    "rules_max": 82,
+    "pairs": 518,
+    "pairs_per_version": 5.18,
+    "versions_with_pair_pct": 74.0,
+    "overlap_candidates": 208
+   },
+   {
+    "decile": 7,
+    "versions": 101,
+    "rules_min": 82,
+    "rules_median": 91,
+    "rules_max": 102,
+    "pairs": 445,
+    "pairs_per_version": 4.4059,
+    "versions_with_pair_pct": 77.23,
+    "overlap_candidates": 241
+   },
+   {
+    "decile": 8,
+    "versions": 100,
+    "rules_min": 103,
+    "rules_median": 121.0,
+    "rules_max": 149,
+    "pairs": 1208,
+    "pairs_per_version": 12.08,
+    "versions_with_pair_pct": 84.0,
+    "overlap_candidates": 781
+   },
+   {
+    "decile": 9,
+    "versions": 101,
+    "rules_min": 149,
+    "rules_median": 186,
+    "rules_max": 201,
+    "pairs": 961,
+    "pairs_per_version": 9.5149,
+    "versions_with_pair_pct": 95.05,
+    "overlap_candidates": 731
+   },
+   {
+    "decile": 10,
+    "versions": 101,
+    "rules_min": 201,
+    "rules_median": 201,
+    "rules_max": 331,
+    "pairs": 1496,
+    "pairs_per_version": 14.8119,
+    "versions_with_pair_pct": 100.0,
+    "overlap_candidates": 1152
+   }
+  ]
+ },
+ "solver_time": {
+  "rule_sets": 1021,
+  "workers": 8,
+  "wall_s": 18.8,
+  "pair_outcome_ms": {
+   "pairs": 5273,
+   "median": 2.702,
+   "p95": 8.324,
+   "max": 15.957,
+   "total_s": 16.93
+  },
+  "relation_ms": {
+   "pairs": 4820,
+   "median": 0.615,
+   "p95": 4.173,
+   "max": 11.942,
+   "total_s": 6.45
+  }
+ },
+ "checks": {
+  "every_unresolved_pair_has_a_blocking_residual": true,
+  "ablation_makes_every_pair_an_overlap": true
+ },
+ "run": {
+  "elapsed_s": 18.9,
+  "cpu_s": 46.2,
+  "peak_rss_mb_self": 31.2,
+  "peak_rss_mb_largest_child": 72.0,
+  "cpus": 8,
+  "slurm_job": "19040077",
+  "slurm_step": "3"
+ }
+}

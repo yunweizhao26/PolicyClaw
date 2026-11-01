@@ -1,0 +1,459 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "aggregated information": "aggregated data",
+    "contact information": "contact details",
+    "contacts' data": "contacts",
+    "facial tracking and mapping information": "face model",
+    "ip address": "IP address",
+    "marketing communication": "direct marketing communications",
+    "personal information": "personal data",
+    "phonebook": "contact list",
+    "user content": "content",
+    "user-generated content": "content",
+    "username": "account identifier",
+    "videos": "video recordings",
+    "voice recordings": "voice audio"
+   },
+   "parents": {
+    "SIM serial number": [
+     "device identifier",
+     "device information"
+    ],
+    "account identifier": [
+     "account information"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "device information"
+    ],
+    "aggregate statistical information": [
+     "aggregated data"
+    ],
+    "anonymous aggregated data": [
+     "aggregated data",
+     "anonymous data"
+    ],
+    "audio recording": [
+     "content"
+    ],
+    "bank account number": [
+     "financial information",
+     "payment information"
+    ],
+    "billing information": [
+     "financial information",
+     "payment information"
+    ],
+    "browser type": [
+     "device information",
+     "technical information"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "card security code": [
+     "payment information"
+    ],
+    "communications date and time": [
+     "communication data",
+     "timestamp"
+    ],
+    "connection type": [
+     "device information",
+     "technical information"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact list": [
+     "contact details"
+    ],
+    "correspondence records and copies": [
+     "user data"
+    ],
+    "country": [
+     "location"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "de-identified information": [
+     "anonymous data"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "face model": [
+     "biometric data",
+     "facial data"
+    ],
+    "facial data": [
+     "biometric data"
+    ],
+    "files stored in cloud storage": [
+     "content"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "followed users and public group chats list": [
+     "account information"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "gps coordinates": [
+     "location"
+    ],
+    "images": [
+     "content"
+    ],
+    "imopay data": [
+     "payment information"
+    ],
+    "in-app message": [
+     "communication data"
+    ],
+    "incorporation documents": [
+     "business information"
+    ],
+    "information provided by user": [
+     "information"
+    ],
+    "IP address": [
+     "device information",
+     "technical information"
+    ],
+    "live audio feed": [
+     "audio recording"
+    ],
+    "live stream followers list": [
+     "account information"
+    ],
+    "live streams": [
+     "content"
+    ],
+    "message contents": [
+     "communication data",
+     "content"
+    ],
+    "message interactions": [
+     "usage data"
+    ],
+    "message recipients usernames": [
+     "account identifier",
+     "communication data"
+    ],
+    "message to translate": [
+     "message contents"
+    ],
+    "mobile advertising identifier": [
+     "advertising identifier",
+     "device identifier"
+    ],
+    "mobile carrier": [
+     "device information"
+    ],
+    "mobile device data": [
+     "device information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "national identification number": [
+     "personal data"
+    ],
+    "number of exchanged messages": [
+     "usage data"
+    ],
+    "operating system": [
+     "device information",
+     "technical information"
+    ],
+    "payment card number": [
+     "financial information",
+     "payment information"
+    ],
+    "payment information": [
+     "financial information",
+     "personal data"
+    ],
+    "personal data": [
+     "information",
+     "user data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "phone state": [
+     "device information"
+    ],
+    "photos": [
+     "content",
+     "images"
+    ],
+    "posts": [
+     "content"
+    ],
+    "profile photo": [
+     "photos",
+     "profile"
+    ],
+    "public group chats": [
+     "communication data"
+    ],
+    "purchase details": [
+     "transaction history"
+    ],
+    "push notification token": [
+     "device identifier"
+    ],
+    "referring url": [
+     "technical information"
+    ],
+    "registration details": [
+     "account information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "speech data": [
+     "voice audio"
+    ],
+    "stories": [
+     "content",
+     "posts"
+    ],
+    "time spent on service": [
+     "usage data"
+    ],
+    "timestamp": [
+     "usage data"
+    ],
+    "transaction history": [
+     "financial information"
+    ],
+    "used service features": [
+     "usage data"
+    ],
+    "content": [
+     "user data"
+    ],
+    "user-generated content metadata": [
+     "usage data"
+    ],
+    "video of facial expression and movement": [
+     "facial data",
+     "video recordings"
+    ],
+    "video recording": [
+     "video recordings"
+    ],
+    "video recordings": [
+     "content"
+    ],
+    "visit date and time": [
+     "timestamp"
+    ],
+    "voice audio": [
+     "audio recording"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other users": "other imo users",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "payment processor": [
+     "service provider",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "professional advisor": [
+     "third parties"
+    ],
+    "unaffiliated third parties": [
+     "third parties"
+    ],
+    "friends of friends": [
+     "friends of friends and other users",
+     "other imo users",
+     "user"
+    ],
+    "other imo users": [
+     "friends of friends and other users",
+     "user"
+    ],
+    "friends of friends and other users": [
+     "user"
+    ],
+    "servers": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "Google account": "Android account"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "mobile device": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertiser": "advertising partner"
+   },
+   "parents": {
+    "Google Translate": [
+     "service provider",
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance with legal obligation": "compliance",
+    "customer-support": "customer support",
+    "legal compliance": "compliance",
+    "marketing or promotion": "marketing",
+    "personalize": "personalization",
+    "service improvement": "quality improvement",
+    "service optimization": "optimize user experience",
+    "service personalization": "personalization",
+    "service quality improvement": "quality improvement",
+    "verify your identity": "authentication"
+   },
+   "parents": {
+    "administrative messaging": [
+     "communication"
+    ],
+    "answer questions": [
+     "customer support"
+    ],
+    "technical support": [
+     "customer support"
+    ],
+    "respond to feedback": [
+     "customer support"
+    ],
+    "conduct know-your-customer check": [
+     "authentication",
+     "compliance"
+    ],
+    "enforce terms of service": [
+     "legal enforcement"
+    ],
+    "legal action or defense": [
+     "compliance"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "deliver ads they believe are relevant to you in other third-party apps": [
+     "targeted advertising"
+    ],
+    "deliver content, including ads relevant to your interests, on the Service": [
+     "personalization",
+     "targeted advertising"
+    ],
+    "develop new tools": [
+     "product development or improvement"
+    ],
+    "enable you to access and use the service within imopay": [
+     "provision of imopay service"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "generate AI Avatar": [
+     "service provision"
+    ],
+    "service optimization and personalizing": [
+     "personalization",
+     "quality improvement"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "payment processing": [
+     "service operation"
+    ],
+    "track what Paid Features you purchase": [
+     "payment processing"
+    ],
+    "facilitate your purchases through a third-party application, such as the Apple App Store or Google Play App Store": [
+     "payment processing"
+    ],
+    "user identification": [
+     "account identification"
+    ],
+    "remembering preferences": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4800,
+  "completion_tokens": 2362,
+  "thinking_tokens": 0,
+  "seconds": 23.33502697944641,
+  "failures": 0
+ },
+ "seconds": 23.5
+}

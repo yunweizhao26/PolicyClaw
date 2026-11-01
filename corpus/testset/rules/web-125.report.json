@@ -1,0 +1,846 @@
+{
+ "cleaned_sha256": "web-125",
+ "text_sha256": "aa9edacf0b282262c6a717ff8029a56e6630c368efabf60a2c17dcf2969d27f4",
+ "site_id": "web-125",
+ "sections": 9,
+ "rules": 159,
+ "report": {
+  "sections": 9,
+  "raw_rules": 138,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "our service providers as third parties who assist us with the internal operations of the Website and Platform",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to assist us with the internal operations of the Website and Platform",
+       "name": "operate service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to assist us with the internal operations of the Website and Platform"
+    ],
+    "section": "web-125#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "over the past 12 months",
+      "when we operate as a “business” under the CPRA"
+     ],
+     "data": {
+      "name": "user_inquiries",
+      "text": "Subject of your inquiry expressing interest in our Platform"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "have collected",
+     "purpose": [],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third_party",
+      "text": "The consumer themselves or the Business they are associated with"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Subject of your inquiry expressing interest in our Platform"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "over the past 12 months",
+      "when we operate as a “business” under the CPRA"
+     ],
+     "data": {
+      "name": "commercial_information",
+      "text": "Information relating to the engagement between us and the Business which is made with the involvement of the consumer as a representative of the Business"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "have collected",
+     "purpose": [],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "third_party",
+      "text": "The consumer themselves or the Business they are associated with"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Information relating to the engagement between us and the Business which is made with the involvement of the consumer as a representative of the Business"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal_data",
+      "text": "Identifiers"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "Providing customer service",
+       "name": "customer_support"
+      },
+      {
+       "text": "processing or fulfilling orders and transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      },
+      {
+       "text": "Auditing related to a current interaction with the consumer who is a job applicant",
+       "name": "auditing"
+      },
+      {
+       "text": "Processing transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      }
+     ],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Policy’s section titled ‘HOW WE PROCESS PERSONAL DATA’",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Auditing related to a current interaction with the consumer who is a job applicant",
+     "Processing transactions"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "professional_or_employment_information",
+      "text": "Professional or employment-related information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "Providing customer service",
+       "name": "customer_support"
+      },
+      {
+       "text": "processing or fulfilling orders and transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      },
+      {
+       "text": "Auditing related to a current interaction with the consumer who is a job applicant",
+       "name": "auditing"
+      },
+      {
+       "text": "Processing transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      }
+     ],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Policy’s section titled ‘HOW WE PROCESS PERSONAL DATA’",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Auditing related to a current interaction with the consumer who is a job applicant",
+     "Processing transactions"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "commercial_information",
+      "text": "Commercial information, including products or services purchased, obtained, or considered"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "Providing customer service",
+       "name": "customer_support"
+      },
+      {
+       "text": "processing or fulfilling orders and transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      },
+      {
+       "text": "Auditing related to a current interaction with the consumer who is a job applicant",
+       "name": "auditing"
+      },
+      {
+       "text": "Processing transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      }
+     ],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Policy’s section titled ‘HOW WE PROCESS PERSONAL DATA’",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Auditing related to a current interaction with the consumer who is a job applicant",
+     "Processing transactions"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal_data",
+      "text": "Information that identifies, relates to, describes, or is capable of being associated with, a particular individual"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "Providing customer service",
+       "name": "customer_support"
+      },
+      {
+       "text": "processing or fulfilling orders and transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      },
+      {
+       "text": "Auditing related to a current interaction with the consumer who is a job applicant",
+       "name": "auditing"
+      },
+      {
+       "text": "Processing transactions",
+       "name": "order_fulfillment"
+      },
+      {
+       "text": "verifying customer information",
+       "name": "verification"
+      }
+     ],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Policy’s section titled ‘HOW WE PROCESS PERSONAL DATA’",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Auditing related to a current interaction with the consumer who is a job applicant",
+     "Processing transactions"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "internet_or_electronic_network_activity_information",
+      "text": "Internet or other electronic network activity information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "Detecting security incidents",
+       "name": "security"
+      },
+      {
+       "text": "protecting against malicious, deceptive, fraudulent or illegal activity",
+       "name": "security"
+      },
+      {
+       "text": "prosecuting those responsible for that activity",
+       "name": "legal_compliance"
+      },
+      {
+       "text": "Undertaking internal research for technological development and demonstration",
+       "name": "analytics"
+      },
+      {
+       "text": "Undertaking activities to verify or maintain the quality of the service and to improve, upgrade or enhance the service",
+       "name": "service_optimization"
+      },
+      {
+       "text": "Debugging to identify and repair errors",
+       "name": "service_optimization"
+      }
+     ],
+     "references": [
+      {
+       "text": "CPRA",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Privacy Policy’s section titled ‘HOW WE PROCESS PERSONAL DATA’",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "prosecuting those responsible for that activity",
+     "Undertaking internal research for technological development and demonstration",
+     "Undertaking activities to verify or maintain the quality of the service and to improve, upgrade or enhance the service",
+     "Debugging to identify and repair errors"
+    ],
+    "section": "web-125#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "facilitating",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "the target entity of our merger, acquisition or reorganization",
+      "name": "successor entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitating",
+      "verb": "facilitate"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for the purpose of facilitating the structural change in the operation of our business within a different framework, or through another legal structure or entity (such as due to a merger or acquisition)",
+       "name": "corporate-reorganization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "facilitating",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "legal counsels",
+      "name": "counsel"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitating",
+      "verb": "facilitate"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for the purpose of facilitating the structural change in the operation of our business within a different framework, or through another legal structure or entity (such as due to a merger or acquisition)",
+       "name": "corporate-reorganization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "facilitating",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "advisors",
+      "name": "advisors"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitating",
+      "verb": "facilitate"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for the purpose of facilitating the structural change in the operation of our business within a different framework, or through another legal structure or entity (such as due to a merger or acquisition)",
+       "name": "corporate-reorganization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "shared",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "mobile device advertising ID",
+      "name": "advertising identifier"
+     },
+     "recipient": {
+      "text": "Advertising networks",
+      "name": "advertising networks"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "online behaviorally targeted ads",
+       "name": "targeted-advertising"
+      },
+      {
+       "text": "to show you ads based on your visit to our Website",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "mobile device advertising ID"
+    ],
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "shared",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Internet or other electronic network activity information",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "Advertising networks",
+      "name": "advertising networks"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "online behaviorally targeted ads",
+       "name": "targeted-advertising"
+      },
+      {
+       "text": "to show you ads based on your visit to our Website",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Internet or other electronic network activity information"
+    ],
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "shared",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Location data",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "Advertising networks",
+      "name": "advertising networks"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "online behaviorally targeted ads",
+       "name": "targeted-advertising"
+      },
+      {
+       "text": "to show you ads based on your visit to our Website",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Location data"
+    ],
+    "section": "web-125#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "shared",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Inferences",
+      "name": "inferences"
+     },
+     "recipient": {
+      "text": "Advertising networks",
+      "name": "advertising networks"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "online behaviorally targeted ads",
+       "name": "targeted-advertising"
+      },
+      {
+       "text": "to show you ads based on your visit to our Website",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [
+      "in the preceding 12 months"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Inferences"
+    ],
+    "section": "web-125#s7"
+   }
+  ],
+  "residual_quotes": 40,
+  "quotes": 94,
+  "completeness": {
+   "gaps": 228,
+   "gap_words": 2623
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 94,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 40769,
+  "completion_tokens": 29648,
+  "thinking_tokens": 0,
+  "seconds": 230.27587866783142,
+  "failures": 0
+ },
+ "seconds": 231.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

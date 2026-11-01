@@ -1,0 +1,242 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "address": "Address",
+    "age": "Age",
+    "email address": "E-mail id",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "phone number": "Contact number/Mobile No."
+   },
+   "parents": {
+    "Address": [
+     "contact information",
+     "location"
+    ],
+    "City": [
+     "location"
+    ],
+    "Contact number/Mobile No.": [
+     "contact information"
+    ],
+    "E-mail id": [
+     "contact information"
+    ],
+    "First/Last Name": [
+     "name"
+    ],
+    "State": [
+     "location"
+    ],
+    "Wi-Fi connection": [
+     "network connection"
+    ],
+    "bank account details": [
+     "financial information"
+    ],
+    "billing address": [
+     "Address",
+     "billing information",
+     "postal address"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "clear GIFs": [
+     "cookies"
+    ],
+    "compensation details": [
+     "financial information"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "country": [
+     "location"
+    ],
+    "credit card details": [
+     "billing information",
+     "financial information"
+    ],
+    "credit card expiration date": [
+     "credit card details"
+    ],
+    "credit card number": [
+     "credit card details"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "forum posts": [
+     "user post content"
+    ],
+    "investment details": [
+     "financial information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "personal correspondence": [
+     "contact information"
+    ],
+    "personally identifiable information": [
+     "personal data"
+    ],
+    "postal address": [
+     "Address",
+     "contact information",
+     "location"
+    ],
+    "public profile information": [
+     "user information"
+    ],
+    "subscription fee": [
+     "financial information"
+    ],
+    "user ID": [
+     "account information"
+    ],
+    "user reviews": [
+     "user post content"
+    ],
+    "website activity": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "group company": "affiliate"
+   },
+   "parents": {
+    "customer support team": [
+     "first party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "advertiser": [
+     "advertising partner",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party vendor": [
+     "third party"
+    ],
+    "third-party sites": [
+     "online service"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Times Internet Limited",
+    "payment gateway provider": "payment gateway partner",
+    "third party payment gateway partner": "payment gateway partner"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "LinkedIn": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "payment gateway partner": [
+     "third party"
+    ],
+    "third party analytics service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "legal_compliance": "legal compliance",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "customer support": [
+     "administrative"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "dispute_resolution": [
+     "legal compliance"
+    ],
+    "legal enforcement": [
+     "legal compliance"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "service development": [
+     "service maintenance and improvement"
+    ],
+    "service improvement": [
+     "service maintenance and improvement"
+    ],
+    "delivery of services": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service maintenance and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2885,
+  "completion_tokens": 1033,
+  "thinking_tokens": 0,
+  "seconds": 12.463825941085815,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

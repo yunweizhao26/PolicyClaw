@@ -1,0 +1,268 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "facial image": "face photo",
+    "payment details": "payment data",
+    "phone number": "mobile number",
+    "profile picture URL": "profile picture",
+    "timezone": "time zone",
+    "user identifier": "user id"
+   },
+   "parents": {
+    "browser type and version": [
+     "browser information"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "device settings": [
+     "device information"
+    ],
+    "device capability details": [
+     "device information"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "device identifiers": [
+     "device information"
+    ],
+    "unique device identifiers": [
+     "device identifiers",
+     "unique identifiers"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "fonts": [
+     "device information"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "mobile number": [
+     "contact information"
+    ],
+    "card expiry date": [
+     "credit card details"
+    ],
+    "card holder name": [
+     "credit card details"
+    ],
+    "card number": [
+     "credit card details"
+    ],
+    "card type": [
+     "credit card details"
+    ],
+    "credit card number": [
+     "credit card details"
+    ],
+    "credit card code verification values": [
+     "credit card details"
+    ],
+    "credit card details": [
+     "payment data"
+    ],
+    "chat message": [
+     "chat content"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "browsing behavior"
+    ],
+    "clickstream data": [
+     "browsing activity"
+    ],
+    "interaction data": [
+     "browsing activity",
+     "user activity"
+    ],
+    "search queries": [
+     "browsing activity",
+     "user activity"
+    ],
+    "purchase history": [
+     "transaction data"
+    ],
+    "face photo": [
+     "images uploaded"
+    ],
+    "identity card photo": [
+     "government-issued id",
+     "images uploaded"
+    ],
+    "registration certificate photo": [
+     "images uploaded",
+     "vehicle registration"
+    ],
+    "registration certificate": [
+     "vehicle information"
+    ],
+    "vehicle registration": [
+     "vehicle information"
+    ],
+    "details of the car to be sold or bought": [
+     "vehicle information"
+    ],
+    "user id": [
+     "unique identifiers"
+    ],
+    "account identifier": [
+     "account credentials",
+     "unique identifiers"
+    ],
+    "username": [
+     "account credentials"
+    ],
+    "login date": [
+     "log data"
+    ],
+    "password change date": [
+     "log data"
+    ],
+    "session log": [
+     "log data"
+    ],
+    "visit duration": [
+     "log data"
+    ],
+    "date and time of visit": [
+     "log data"
+    ],
+    "referring url": [
+     "log data"
+    ],
+    "data about you": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "your data": [
+     "data"
+    ],
+    "the information we receive about you": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "payment service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "social login provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contract_performance": "contract performance",
+    "fraud prevention and detection": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligations",
+    "service-improvement": "improve service",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account-management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "improve service"
+    ],
+    "authentication": [
+     "user identification and access"
+    ],
+    "customer support": [
+     "operational activities"
+    ],
+    "develop service": [
+     "improve service"
+    ],
+    "fraud detection and prevention": [
+     "administer and protect platform",
+     "operational activities",
+     "security"
+    ],
+    "improve service": [
+     "operational activities"
+    ],
+    "payment_processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "service optimization": [
+     "improve service"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "surveys": [
+     "customer support"
+    ],
+    "user experience": [
+     "improve service"
+    ],
+    "user identification and access": [
+     "service provision"
+    ],
+    "verification": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2925,
+  "completion_tokens": 1132,
+  "thinking_tokens": 0,
+  "seconds": 13.044984340667725,
+  "failures": 0
+ },
+ "seconds": 13.1
+}

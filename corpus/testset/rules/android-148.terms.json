@@ -1,0 +1,163 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email_address": "email address",
+    "phone_number": "phone number",
+    "profile information": "profile data",
+    "your data": "data"
+   },
+   "parents": {
+    "account and game progress data": [
+     "data",
+     "service usage details"
+    ],
+    "address": [
+     "contact information"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "cookies": [
+     "identifier"
+    ],
+    "demographic data": [
+     "data"
+    ],
+    "device details": [
+     "data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "gaming platform data": [
+     "data"
+    ],
+    "in-game activities": [
+     "service usage details"
+    ],
+    "internal identifier": [
+     "identifier"
+    ],
+    "ip address": [
+     "device details",
+     "identifier"
+    ],
+    "location": [
+     "data"
+    ],
+    "messages to the service": [
+     "data"
+    ],
+    "mobile device identifiers": [
+     "device details",
+     "identifier"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "necessary data": [
+     "data"
+    ],
+    "other data user chooses to give": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "player name": [
+     "name"
+    ],
+    "profile data": [
+     "data"
+    ],
+    "resume": [
+     "data"
+    ],
+    "service usage details": [
+     "data"
+    ],
+    "unnecessary data": [
+     "data"
+    ],
+    "user messages": [
+     "messages to the service"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "public authority": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Advertising and Social Media partners": [
+     "others",
+     "third party"
+    ],
+    "service provider": [
+     "others",
+     "third party"
+    ],
+    "third party": [
+     "others"
+    ],
+    "user": [
+     "others"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud detection",
+    "fraud-prevention-and-security": "fraud prevention and security",
+    "service-optimization": "service optimization",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "customer-support": [
+     "communication"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1873,
+  "completion_tokens": 682,
+  "thinking_tokens": 0,
+  "seconds": 9.018640518188477,
+  "failures": 0
+ },
+ "seconds": 9.1
+}

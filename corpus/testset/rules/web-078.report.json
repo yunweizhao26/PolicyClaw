@@ -1,0 +1,88 @@
+{
+ "cleaned_sha256": "web-078",
+ "text_sha256": "e831cd0759e1251b0ed1ea20c3a8b096946be925cca1e73ff06645afd2306847",
+ "site_id": "web-078",
+ "sections": 21,
+ "rules": 184,
+ "report": {
+  "sections": 21,
+  "raw_rules": 155,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "persons located in the EEA or the United Kingdom",
+      "right to find out if we use your Personal Data, or to access your Personal Data"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "EEA and UK data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-078#s13"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 85,
+  "completeness": {
+   "gaps": 297,
+   "gap_words": 3118
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 17,
+  "translated_quotes": 85,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 39,
+  "cached": 0,
+  "prompt_tokens": 64673,
+  "completion_tokens": 32832,
+  "thinking_tokens": 0,
+  "seconds": 413.16939520835876,
+  "failures": 0
+ },
+ "seconds": 414.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

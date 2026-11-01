@@ -1,0 +1,308 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "advertising_id": "advertising id",
+    "contact_details": "contact information",
+    "customer_support": "customer service communication",
+    "device_identifier": "device identifier",
+    "device_information": "device information",
+    "email_address": "email address",
+    "gameplay data": "gameplay",
+    "gameplay history": "gameplay",
+    "gameplay information": "gameplay",
+    "hardware and software information": "device hardware",
+    "language settings": "language",
+    "non-personal identifier": "device identifier",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "physical_address": "address",
+    "postal address": "address",
+    "postal_code": "postal code",
+    "user data": "information",
+    "user device details": "device information",
+    "user identifier": "account name",
+    "user name": "account name",
+    "user-provided content": "submitted information",
+    "username": "account name",
+    "your Information": "information"
+   },
+   "parents": {
+    "account name": [
+     "account information",
+     "identifiers"
+    ],
+    "account information": [
+     "account and gameplay information"
+    ],
+    "gameplay": [
+     "account and gameplay information"
+    ],
+    "address": [
+     "contact information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal code": [
+     "address",
+     "contact information"
+    ],
+    "advertising id": [
+     "device identifier",
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "age": [
+     "protected classifications"
+    ],
+    "gender": [
+     "protected classifications"
+    ],
+    "date of birth": [
+     "protected classifications"
+    ],
+    "audio or video": [
+     "audio or visual sensory information"
+    ],
+    "browsing history": [
+     "network browsing and interaction data",
+     "usage data"
+    ],
+    "browser type": [
+     "device hardware"
+    ],
+    "device characteristics": [
+     "device hardware"
+    ],
+    "communication content": [
+     "communication",
+     "communications"
+    ],
+    "communication contents": [
+     "communication",
+     "communications"
+    ],
+    "communication": [
+     "communications"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "financial and billing information": [
+     "financial information"
+    ],
+    "financial data": [
+     "financial information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "language": [
+     "system settings"
+    ],
+    "marketing preferences": [
+     "interest and preference data"
+    ],
+    "personal interests": [
+     "interest and preference data"
+    ],
+    "device usage data": [
+     "usage data",
+     "user_activity"
+    ],
+    "user_activity": [
+     "usage data"
+    ],
+    "browsing data": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "advertising_partner": "advertising partner",
+    "affiliate": "Activision Blizzard group companies",
+    "affiliates": "Activision Blizzard group companies",
+    "business partners": "business partner",
+    "corporate affiliates": "Activision Blizzard group companies",
+    "licensees": "commercial partner",
+    "other users": "other user",
+    "service providers": "service provider",
+    "third party": "third parties",
+    "third party partner": "partners",
+    "third party partners": "partners",
+    "third-party partners": "partners"
+   },
+   "parents": {
+    "advertising partner": [
+     "business partner",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "commercial partner": [
+     "partners"
+    ],
+    "consultants": [
+     "service provider"
+    ],
+    "vendors": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "government bodies"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "partners": [
+     "third parties"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "analytics and advertising partners": "advertising and analytics partners",
+    "social network": "social media platform",
+    "user device": "device",
+    "user_device": "device"
+   },
+   "parents": {
+    "social media platform": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "business partners": "business partner",
+    "corporate affiliates": "Activision Blizzard group companies",
+    "first party": "Activision",
+    "our partners": "business partner",
+    "partners": "business partner"
+   },
+   "parents": {
+    "advertising_partner": [
+     "business partner",
+     "third party"
+    ],
+    "business partner": [
+     "Activision Blizzard group companies or other partners or vendors",
+     "third party"
+    ],
+    "Activision Blizzard group companies": [
+     "Activision Blizzard group companies or other partners or vendors"
+    ],
+    "third-party advertising network": [
+     "advertising_partner",
+     "third party"
+    ],
+    "third-party payment processor": [
+     "third party",
+     "vendors"
+    ],
+    "vendor or partner": [
+     "Activision Blizzard group companies or other partners or vendors",
+     "third party"
+    ],
+    "vendors": [
+     "Activision Blizzard group companies or other partners or vendors",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "advertising analytics": "ad analytics",
+    "customer_support": "customer support",
+    "unspecified": "other"
+   },
+   "parents": {
+    "account-creation": [
+     "account administration"
+    ],
+    "account verification": [
+     "account administration"
+    ],
+    "ad analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "ad personalization": [
+     "advertising",
+     "personalization"
+    ],
+    "targeted advertising": [
+     "ad personalization",
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "debugging": [
+     "service operation and improvement"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "fraud_prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "safety and security"
+    ],
+    "legal compliance": [
+     "legal compliance or protection"
+    ],
+    "enforce legal terms": [
+     "legal compliance or protection"
+    ],
+    "dispute resolution": [
+     "legal compliance or protection"
+    ],
+    "order fulfillment": [
+     "service provision",
+     "service_provision"
+    ],
+    "transaction fulfillment": [
+     "service provision"
+    ],
+    "user identification": [
+     "account verification"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "analytics or research": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4175,
+  "completion_tokens": 2020,
+  "thinking_tokens": 0,
+  "seconds": 27.223626852035522,
+  "failures": 0
+ },
+ "seconds": 27.4
+}

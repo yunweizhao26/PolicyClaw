@@ -1,0 +1,440 @@
+{
+ "cleaned_sha256": "web-052",
+ "text_sha256": "28380119ae36b13cfbbf48c9c7a858a2b933d35811ecfa795d513bcacb9a34d0",
+ "site_id": "web-052",
+ "sections": 11,
+ "rules": 262,
+ "report": {
+  "sections": 11,
+  "raw_rules": 228,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "publicly displayed",
+      "verb": "display"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email"
+     },
+     "operation": "dissemination or otherwiseチルmaking available",
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "recipient": {
+      "name": "public",
+      "text": "publicly"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "any personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "purpose": [],
+     "recipient": {
+      "name": "advertising network",
+      "text": "our advertisers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "advertising network",
+      "text": "They"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "general statistics that include the amount of impressions their ads have generated as well as clicks"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can only access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "video",
+      "text": "your chosen video ideas"
+     },
+     "exceptions": [
+      "revoking our access to your YouTube account at any time by visiting Google security settings page"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "use the YouTube API to share",
+     "purpose": [],
+     "recipient": {
+      "name": "YouTube",
+      "text": "your YouTube account"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "revoking our access to your YouTube account at any time by visiting Google security settings page"
+    ],
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "When you use this service",
+      "grant us permission to access your YouTube account"
+     ],
+     "data": {
+      "name": "video",
+      "text": "videos that you choose to share with us"
+     },
+     "exceptions": [
+      "revoking our access to your YouTube account at any time by visiting Google security settings page"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will only use this access to upload",
+     "purpose": [
+      {
+       "text": "to upload videos that you choose to share with us",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "YouTube",
+      "text": "your YouTube account"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "modify",
+      "verb": "modify"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "other data",
+      "text": "any other data from your YouTube account"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "DENY",
+     "polarity_text": "will not modify",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "YouTube",
+      "text": "your YouTube account"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not modify"
+    ],
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "other data",
+      "text": "any other data from your YouTube account"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "DENY",
+     "polarity_text": "will not delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "YouTube",
+      "text": "your YouTube account"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not delete"
+    ],
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "view",
+      "verb": "view"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "other data",
+      "text": "any other data from your YouTube account"
+     },
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "DENY",
+     "polarity_text": "will not view",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "YouTube",
+      "text": "your YouTube account"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not view"
+    ],
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "account credentials",
+      "text": "your Google account information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "will also not share",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "any third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "other users or visitors"
+     },
+     "conditions": [
+      "When you create your profile on our Service"
+     ],
+     "data": {
+      "name": "profile data",
+      "text": "your public profile"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-052#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "see",
+      "verb": "see"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "other users or visitors"
+     },
+     "conditions": [
+      "When you create your profile on our Service"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "any information you have made available about yourself"
+     },
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "may see",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may see"
+    ],
+    "section": "web-052#s7"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 119,
+  "completeness": {
+   "gaps": 313,
+   "gap_words": 3023
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 119,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 46906,
+  "completion_tokens": 42802,
+  "thinking_tokens": 0,
+  "seconds": 354.70679450035095,
+  "failures": 0
+ },
+ "seconds": 356.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,698 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "IMEI number": "IMEI",
+    "account information": "account details",
+    "account login details": "account credentials",
+    "advertising identifier": "ad identifier",
+    "app usage data": "app usage",
+    "application data": "app data",
+    "application usage": "app usage",
+    "coarse location": "approximate location",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "contacts": "contact list",
+    "crash reports": "crash data",
+    "device id": "device ID",
+    "hardware device serial number": "device serial number",
+    "hardware serial number": "device serial number",
+    "identifiers": "identifier",
+    "imei number": "IMEI",
+    "information": "data",
+    "installed applications": "applications",
+    "installed apps": "applications",
+    "ip address": "IP address",
+    "mac address": "MAC address",
+    "non-personal information": "non-personal data",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "product usage information": "product usage data",
+    "profile picture": "profile photo",
+    "screenshots": "screenshot",
+    "usage metrics": "usage data",
+    "user generated content": "user content",
+    "user profile information": "user profile",
+    "user-generated content": "user content",
+    "voice recordings": "voice audio"
+   },
+   "parents": {
+    "Google Advertising ID": [
+     "ad identifier"
+    ],
+    "IMEI": [
+     "hardware device identifier",
+     "hardware identifier"
+    ],
+    "IP address": [
+     "identifier"
+    ],
+    "Lenovo ID": [
+     "user account identifier"
+    ],
+    "Lenovo ID login status": [
+     "account details"
+    ],
+    "MAC address": [
+     "identifier"
+    ],
+    "Smart Feed interaction": [
+     "user interactions"
+    ],
+    "account credentials": [
+     "account data",
+     "account details"
+    ],
+    "account data": [
+     "user data"
+    ],
+    "account identifier": [
+     "identifier"
+    ],
+    "account number": [
+     "account data",
+     "account details"
+    ],
+    "ad identifier": [
+     "identifier"
+    ],
+    "age": [
+     "personal data",
+     "wellness profile details"
+    ],
+    "anonymous usage metrics": [
+     "usage data"
+    ],
+    "anonymous usage statistics": [
+     "usage data"
+    ],
+    "app activity": [
+     "app usage"
+    ],
+    "app data": [
+     "user data"
+    ],
+    "app interaction data": [
+     "app activity",
+     "user interactions"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "app version": [
+     "software version number"
+    ],
+    "application performance data": [
+     "performance metrics"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "barcode": [
+     "images"
+    ],
+    "battery usage": [
+     "device and software usage data"
+    ],
+    "behavioral data": [
+     "user activity"
+    ],
+    "biometric data": [
+     "sensitive personal information"
+    ],
+    "browsing history": [
+     "user activity"
+    ],
+    "calendar details": [
+     "personal data"
+    ],
+    "calendar entry": [
+     "calendar details"
+    ],
+    "call history": [
+     "user activity"
+    ],
+    "camera feed": [
+     "video"
+    ],
+    "cellular network usage": [
+     "usage data"
+    ],
+    "chat logs": [
+     "user content"
+    ],
+    "city": [
+     "coarse geographic location",
+     "geographic location"
+    ],
+    "coarse geographic location": [
+     "approximate location",
+     "geographic location"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact list": [
+     "contact details"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "crash data": [
+     "diagnostic log"
+    ],
+    "crash reporting content": [
+     "crash data"
+    ],
+    "debug information": [
+     "diagnostic log"
+    ],
+    "device analytics": [
+     "device data"
+    ],
+    "device brand": [
+     "device details"
+    ],
+    "device data": [
+     "data"
+    ],
+    "device ID": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device location": [
+     "location"
+    ],
+    "device manufacturer": [
+     "device details"
+    ],
+    "device model": [
+     "device details",
+     "hardware model"
+    ],
+    "device serial number": [
+     "device identifier",
+     "hardware device identifier",
+     "serial number"
+    ],
+    "device status": [
+     "device details"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "device usage data": [
+     "usage data"
+    ],
+    "diagnostic log": [
+     "log file"
+    ],
+    "documents": [
+     "files"
+    ],
+    "email address": [
+     "account data",
+     "contact details"
+    ],
+    "email contents": [
+     "user content"
+    ],
+    "error logs": [
+     "diagnostic log"
+    ],
+    "event and usage data": [
+     "usage data"
+    ],
+    "event data": [
+     "usage data"
+    ],
+    "face detection data": [
+     "biometric data"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "files stored in the cloud": [
+     "files"
+    ],
+    "function usage": [
+     "usage data"
+    ],
+    "game play frequency": [
+     "app usage",
+     "behavioral data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "hardware assets": [
+     "hardware model"
+    ],
+    "hardware device identifier": [
+     "device identifier"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "impression of icons": [
+     "app interaction data"
+    ],
+    "inferences": [
+     "profile data"
+    ],
+    "interactions with application installation workflows": [
+     "app interaction data"
+    ],
+    "interests": [
+     "profile data"
+    ],
+    "likes": [
+     "user interactions"
+    ],
+    "location history": [
+     "location"
+    ],
+    "microphone audio": [
+     "voice audio"
+    ],
+    "name": [
+     "contact details",
+     "personal data"
+    ],
+    "network connection information": [
+     "system information"
+    ],
+    "network disconnect information": [
+     "network connection information"
+    ],
+    "notes": [
+     "user content"
+    ],
+    "notification content": [
+     "user content"
+    ],
+    "operating system": [
+     "system information"
+    ],
+    "operating system activation data": [
+     "operating system"
+    ],
+    "operating system version": [
+     "operating system",
+     "software version number"
+    ],
+    "opinions": [
+     "user content"
+    ],
+    "organizational billing information": [
+     "payment information"
+    ],
+    "organizational location": [
+     "location"
+    ],
+    "organizational name": [
+     "name"
+    ],
+    "password": [
+     "account credentials"
+    ],
+    "performance information": [
+     "performance metrics"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photo metadata": [
+     "photos"
+    ],
+    "photos": [
+     "images",
+     "user content"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "product identifiers": [
+     "identifier"
+    ],
+    "product registration date": [
+     "product information"
+    ],
+    "product usage data": [
+     "usage data"
+    ],
+    "profile data": [
+     "user profile"
+    ],
+    "profile photo": [
+     "photos",
+     "user profile"
+    ],
+    "screen use time": [
+     "device usage data"
+    ],
+    "screenshot": [
+     "images"
+    ],
+    "search history": [
+     "user activity"
+    ],
+    "search query": [
+     "search history"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "sensor data": [
+     "device data"
+    ],
+    "serial number": [
+     "identifier"
+    ],
+    "social media profile": [
+     "user profile"
+    ],
+    "social security number": [
+     "sensitive personal information"
+    ],
+    "step count": [
+     "health metrics"
+    ],
+    "storage space": [
+     "system information"
+    ],
+    "survey response": [
+     "feedback"
+    ],
+    "system language": [
+     "language",
+     "system information"
+    ],
+    "telemetry data": [
+     "diagnostic log"
+    ],
+    "temporary device files": [
+     "files"
+    ],
+    "unique identifier": [
+     "identifier"
+    ],
+    "uptime": [
+     "device status"
+    ],
+    "user account identifier": [
+     "account identifier"
+    ],
+    "user activity": [
+     "user data"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "user input": [
+     "user activity"
+    ],
+    "user interactions": [
+     "user activity"
+    ],
+    "user profile content": [
+     "user profile"
+    ],
+    "user profile": [
+     "user data"
+    ],
+    "user role": [
+     "user profile"
+    ],
+    "user status": [
+     "user activity"
+    ],
+    "username": [
+     "account identifier",
+     "name"
+    ],
+    "video": [
+     "user content"
+    ],
+    "voice audio": [
+     "user content"
+    ],
+    "voiceprint": [
+     "biometric data"
+    ],
+    "wellness and activity data": [
+     "wellness data"
+    ],
+    "wellness data": [
+     "health metrics"
+    ],
+    "wellness profile details": [
+     "user profile",
+     "wellness data"
+    ],
+    "wellness profile, activity data, and exercise routines": [
+     "wellness data"
+    ],
+    "wi-fi frequency": [
+     "network connection information"
+    ],
+    "wi-fi network": [
+     "network connection information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Amazon AWS": "AWS",
+    "Amazon Web Services": "AWS",
+    "advertising provider": "advertising partner",
+    "others": "other users",
+    "partner": "business partners",
+    "third party": "third parties"
+   },
+   "parents": {
+    "AWS": [
+     "service provider",
+     "third parties"
+    ],
+    "AccuWeather": [
+     "service provider",
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "Google Firebase": [
+     "Google",
+     "service provider",
+     "third parties"
+    ],
+    "Lenovo Notepad": [
+     "Lenovo"
+    ],
+    "Microsoft": [
+     "third parties"
+    ],
+    "Moto Cloud": [
+     "first party"
+    ],
+    "Moto Watch": [
+     "first party"
+    ],
+    "Motorola": [
+     "first party"
+    ],
+    "Norton": [
+     "service provider",
+     "third parties"
+    ],
+    "Stability AI": [
+     "service provider",
+     "third parties"
+    ],
+    "Zoom": [
+     "third parties"
+    ],
+    "advertising partner": [
+     "business partners",
+     "commercial partner",
+     "service provider",
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "commercial partner": [
+     "business partners",
+     "third parties"
+    ],
+    "data processor": [
+     "service provider",
+     "third parties"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "other users": [
+     "third parties"
+    ],
+    "prospective or actual purchasers": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "sensor": "device sensor",
+    "user": "customers",
+    "user device": "device"
+   },
+   "parents": {
+    "Google Fit": [
+     "Google"
+    ],
+    "consumer research firms": [
+     "other sources"
+    ],
+    "microphone and sensor": [
+     "device sensor"
+    ],
+    "first party website": [
+     "first party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Amazon Web Services": "Amazon AWS",
+    "enterprise administrator": "IT Administrator",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google Photos": [
+     "Google"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "Datadog": [
+     "service provider"
+    ],
+    "Microsoft Azure": [
+     "service provider"
+    ],
+    "Amazon AWS": [
+     "service provider"
+    ],
+    "advertising partners": [
+     "partner",
+     "third parties"
+    ],
+    "reseller": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "IT Administrator": [
+     "third parties"
+    ],
+    "Motorola": [
+     "first party"
+    ],
+    "Lenovo": [
+     "first party"
+    ],
+    "Moto Cloud": [
+     "first party"
+    ],
+    "Moto Gametime": [
+     "first party"
+    ],
+    "Moto Watch": [
+     "first party"
+    ],
+    "Moto Widget": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account management": "account administration",
+    "customer-service": "customer support",
+    "customer_support": "customer support",
+    "service provision": "providing service",
+    "service-provision": "providing service",
+    "service_provision": "providing service",
+    "support": "customer support",
+    "unspecified": "other",
+    "user authentication": "authentication"
+   },
+   "parents": {
+    "account creation": [
+     "account administration"
+    ],
+    "targeted_advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "troubleshooting": [
+     "customer support"
+    ],
+    "user support": [
+     "customer support"
+    ],
+    "service functionality": [
+     "providing service"
+    ],
+    "product functionality": [
+     "providing service"
+    ],
+    "service development": [
+     "research and development"
+    ],
+    "product improvement": [
+     "quality and improvement"
+    ],
+    "service improvement": [
+     "quality and improvement"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "service security": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5634,
+  "completion_tokens": 3819,
+  "thinking_tokens": 0,
+  "seconds": 26.84323477745056,
+  "failures": 0
+ },
+ "seconds": 27.0
+}

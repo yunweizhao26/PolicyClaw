@@ -1,0 +1,434 @@
+{
+ "cleaned_sha256": "apple-181",
+ "text_sha256": "f2fcbcab274b9dc4c3a6304eac76521bde74d732df5e5302d501e254a50deb48",
+ "site_id": "apple-181",
+ "sections": 27,
+ "rules": 482,
+ "report": {
+  "sections": 27,
+  "raw_rules": 288,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "On occasion"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may contact",
+     "purpose": [
+      {
+       "text": "to ask you to participate in optional interviews, surveys, or qualitative research sessions",
+       "name": "research"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "exceptions": [
+      "without your consent"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "will never contact",
+     "purpose": [],
+     "recipient": {
+      "name": "child",
+      "text": "your child"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "if you access our services through a third-party login service such as your Apple ID"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information about you that you have made available via your privacy settings"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "that third-party application or service"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "personal information about you that you have made available via your privacy settings"
+    ],
+    "section": "apple-181#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you use an iOS operating system, you may be selected to take part in a free trial of any of our beta services via Apple TestFlight",
+      "In such cases",
+      "Additional information for EU residents: The legal basis for the above processing activities, if ever conducted, would be your consent, unless we may rely on our legitimate interests, as permitted by applicable laws"
+     ],
+     "data": {
+      "name": "data relating to you",
+      "text": "data relating to you"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Apple’s TestFlight Privacy Policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "Apple",
+      "text": "Apple"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "data relating to you"
+    ],
+    "section": "apple-181#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "maintain",
+      "verb": "maintain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "At any time"
+     ],
+     "data": {
+      "name": "child personal information",
+      "text": "the child’s Personal Information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "maintained",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "maintain"
+    ],
+    "section": "apple-181#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicate",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "regarding security, privacy, and administrative issues relating to your use of our Services",
+       "name": "administrative-purposes"
+      }
+     ],
+     "conditions": [
+      "By using our Services or providing personal information to us and to the extent permitted by law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "to the extent permitted by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "attempt to notify",
+      "verb": "attempt to notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we learn of a security system breach",
+      "by posting a notice on our Services, by mail, or by sending an email to you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sales",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "enable the GPC",
+      "contact us as set forth in “Contact Us” below"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "sales",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“Contact Us” below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "targeted advertising",
+      "verb": "advertise"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [
+      "enable the GPC",
+      "contact us as set forth in “Contact Us” below"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "targeted advertising",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“Contact Us” below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-181#s21"
+   }
+  ],
+  "residual_quotes": 39,
+  "quotes": 129,
+  "completeness": {
+   "gaps": 425,
+   "gap_words": 4254
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 129,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 0,
+  "cached": 51,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "thinking_tokens": 0,
+  "seconds": 0.0,
+  "failures": 1
+ },
+ "seconds": 3.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ },
+ "previous_usage": [
+  {
+   "calls": 51,
+   "cached": 0,
+   "prompt_tokens": 89648,
+   "completion_tokens": 75871,
+   "thinking_tokens": 0,
+   "seconds": 754.470228433609,
+   "failures": 1
+  },
+  {
+   "calls": 0,
+   "cached": 51,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "thinking_tokens": 0,
+   "seconds": 0.0,
+   "failures": 1
+  }
+ ]
+}

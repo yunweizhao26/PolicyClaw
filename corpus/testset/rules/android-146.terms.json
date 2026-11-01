@@ -1,0 +1,332 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "user profile": "profile data",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "AAID": [
+     "mobile advertising identifier"
+    ],
+    "IDFA": [
+     "mobile advertising identifier"
+    ],
+    "mobile advertising identifier": [
+     "advertising identifier"
+    ],
+    "advertising identifier": [
+     "device identifiers"
+    ],
+    "unique device identifier": [
+     "device identifiers"
+    ],
+    "device identifiers": [
+     "device information"
+    ],
+    "device model": [
+     "device characteristics"
+    ],
+    "screen size": [
+     "device characteristics"
+    ],
+    "operating system": [
+     "device characteristics"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "IP address": [
+     "traffic data"
+    ],
+    "traffic data": [
+     "log data"
+    ],
+    "ad clicks": [
+     "interaction data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "chats": [
+     "communications"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "user comment": [
+     "comments"
+    ],
+    "chat logs": [
+     "communications logs"
+    ],
+    "communications logs": [
+     "log data"
+    ],
+    "followees": [
+     "social network contacts"
+    ],
+    "followers": [
+     "social network contacts"
+    ],
+    "social network contacts": [
+     "social profile information"
+    ],
+    "user photo": [
+     "profile data"
+    ],
+    "user identifier": [
+     "user id"
+    ],
+    "gameplay history": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "service use information": [
+     "usage data"
+    ],
+    "usage data": [
+     "log data"
+    ],
+    "log data": [
+     "user information"
+    ],
+    "user-generated questions and answers": [
+     "user content"
+    ],
+    "user content": [
+     "user information"
+    ],
+    "profile data": [
+     "user information"
+    ],
+    "account and service data": [
+     "user information"
+    ],
+    "user-provided information": [
+     "user information"
+    ],
+    "user information": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "non-personal data": [
+     "information"
+    ],
+    "anonymized data": [
+     "non-personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "education information": [
+     "personal data"
+    ],
+    "professional and employment information": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "marketing communication data": [
+     "user-provided information"
+    ],
+    "correspondence": [
+     "communications"
+    ],
+    "installed applications": [
+     "device information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "others": "other users",
+    "public": "anyone",
+    "third party": "third parties"
+   },
+   "parents": {
+    "affiliates": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "competent agencies": [
+     "third parties"
+    ],
+    "government and public order officials": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "private bodies": [
+     "third parties"
+    ],
+    "selected associates": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties",
+     "third-party platforms"
+    ],
+    "suppliers": [
+     "service provider",
+     "third parties"
+    ],
+    "third-party platforms": [
+     "third parties"
+    ],
+    "other users": [
+     "user"
+    ],
+    "contacts": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social network": "social media"
+   },
+   "parents": {
+    "Facebook": [
+     "social media"
+    ],
+    "payment service provider": [
+     "third party"
+    ],
+    "social media": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network",
+    "advertising partners": "advertising network"
+   },
+   "parents": {
+    "Facebook": [
+     "social network",
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "business partners",
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "suppliers": [
+     "third party"
+    ],
+    "intended recipients": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising",
+    "unspecified": "other"
+   },
+   "parents": {
+    "contacting you as part of customer support": [
+     "customer-support"
+    ],
+    "creating reports, analysis or similar services for the purposes of research or business intelligence": [
+     "analytics"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "marketing and promotion of the Services or products": [
+     "advertising"
+    ],
+    "order-fulfillment": [
+     "service provision"
+    ],
+    "payment-processing": [
+     "finances",
+     "processing payments or preventing and detecting fraud"
+    ],
+    "personalization-customization": [
+     "personalization-personalizing-user-experience"
+    ],
+    "showing you advertising from our partners and others that might be of interest to you": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "to send you updates or information about the Services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3766,
+  "completion_tokens": 1312,
+  "thinking_tokens": 0,
+  "seconds": 12.219321250915527,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

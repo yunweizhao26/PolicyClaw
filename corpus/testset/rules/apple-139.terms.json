@@ -1,0 +1,209 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "interaction and feedback data": "Interaction and Feedback Data",
+    "marketing interactions": "Marketing Interaction Data",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "research data": "Research data",
+    "sensitive personal data": "sensitive information",
+    "sensitive personal information": "sensitive information",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "account log-in information": [
+     "sensitive information"
+    ],
+    "driver's license number": [
+     "sensitive information"
+    ],
+    "financial information": [
+     "sensitive information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "precise geolocation data": [
+     "location",
+     "sensitive information"
+    ],
+    "geo-location information": [
+     "location"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "city": [
+     "location"
+    ],
+    "postal address": [
+     "location"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "state or province": [
+     "location"
+    ],
+    "sensitive information": [
+     "Personal Information"
+    ],
+    "browsing activity": [
+     "Online Activity Data"
+    ],
+    "browsing history": [
+     "Online Activity Data"
+    ],
+    "de-identified information": [
+     "non-personal information"
+    ],
+    "usage data": [
+     "non-personal information"
+    ],
+    "vehicle interests": [
+     "interests"
+    ],
+    "website usage": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertiser": [
+     "partner"
+    ],
+    "parent company": [
+     "affiliate"
+    ],
+    "holding company": [
+     "affiliate"
+    ],
+    "sponsor": [
+     "partner"
+    ],
+    "third-party identity verification service": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "dealer": [
+     "third parties"
+    ],
+    "distributor": [
+     "third parties"
+    ],
+    "dealer association": [
+     "third parties"
+    ],
+    "other parties": [
+     "third parties"
+    ],
+    "other users": [
+     "third parties"
+    ],
+    "residents of California": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "other parties"
+   },
+   "parents": {
+    "affiliate": [
+     "other parties"
+    ],
+    "dealer": [
+     "other parties"
+    ],
+    "service provider": [
+     "other parties"
+    ],
+    "third party companies": [
+     "other parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Toyota"
+   },
+   "parents": {
+    "third-party advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "service delivery": "provide-service",
+    "service provision": "provide-service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "dispute-resolution": [
+     "legal compliance"
+    ],
+    "legal dispute": [
+     "legal compliance"
+    ],
+    "enforce terms of service": [
+     "legal compliance"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "security and debugging": [
+     "security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "provide-service": [
+     "service"
+    ],
+    "service administration": [
+     "operations"
+    ],
+    "service optimization": [
+     "service"
+    ],
+    "customer support": [
+     "provide-service"
+    ],
+    "user communication": [
+     "customer support"
+    ],
+    "commercial operations": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2857,
+  "completion_tokens": 795,
+  "thinking_tokens": 0,
+  "seconds": 9.99120044708252,
+  "failures": 0
+ },
+ "seconds": 10.1
+}

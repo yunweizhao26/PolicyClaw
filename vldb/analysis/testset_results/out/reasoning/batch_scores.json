@@ -1,0 +1,196 @@
+{
+ "tail": {
+  "exclusion/8": {
+   "queries": 30,
+   "truth_per_query": 0.7,
+   "precision": 100.0,
+   "recall": 100.0,
+   "policies": 30,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "exact_sets": 100.0,
+   "model_s": 5.0
+  },
+  "exclusion/16": {
+   "queries": 30,
+   "truth_per_query": 2.5,
+   "precision": 100.0,
+   "recall": 98.2,
+   "policies": 30,
+   "recall_ci": [
+    93.2,
+    100.0
+   ],
+   "exact_sets": 97.8,
+   "model_s": 5.6
+  },
+  "exclusion/32": {
+   "queries": 30,
+   "truth_per_query": 9.4,
+   "precision": 100.0,
+   "recall": 98.5,
+   "policies": 30,
+   "recall_ci": [
+    96.6,
+    99.7
+   ],
+   "exact_sets": 93.3,
+   "model_s": 7.5
+  },
+  "exclusion/64": {
+   "queries": 30,
+   "truth_per_query": 43.3,
+   "precision": 99.3,
+   "recall": 74.5,
+   "policies": 30,
+   "recall_ci": [
+    57.5,
+    89.5
+   ],
+   "exact_sets": 57.8,
+   "model_s": 17.2
+  },
+  "implication/8": {
+   "queries": 30,
+   "truth_per_query": 0.2,
+   "precision": 100.0,
+   "recall": 100.0,
+   "policies": 30,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "exact_sets": 100.0,
+   "model_s": 5.1
+  },
+  "implication/16": {
+   "queries": 30,
+   "truth_per_query": 1.5,
+   "precision": 97.8,
+   "recall": 98.5,
+   "policies": 30,
+   "recall_ci": [
+    96.2,
+    100.0
+   ],
+   "exact_sets": 94.4,
+   "model_s": 5.7
+  },
+  "implication/32": {
+   "queries": 30,
+   "truth_per_query": 4.4,
+   "precision": 99.0,
+   "recall": 95.0,
+   "policies": 30,
+   "recall_ci": [
+    89.4,
+    99.2
+   ],
+   "exact_sets": 85.6,
+   "model_s": 6.4
+  },
+  "implication/64": {
+   "queries": 30,
+   "truth_per_query": 17.9,
+   "precision": 96.1,
+   "recall": 74.7,
+   "policies": 30,
+   "recall_ci": [
+    65.7,
+    82.6
+   ],
+   "exact_sets": 28.9,
+   "model_s": 8.3
+  }
+ },
+ "batch": {
+  "exclusion/128": {
+   "queries": 20,
+   "truth_per_query": 197.2,
+   "precision": 99.3,
+   "recall": 99.3,
+   "policies": 20,
+   "recall_ci": [
+    98.8,
+    99.6
+   ],
+   "exact_sets": 35.0,
+   "model_s": 795.2
+  },
+  "implication/128": {
+   "queries": 20,
+   "truth_per_query": 73.8,
+   "precision": 99.2,
+   "recall": 98.0,
+   "policies": 20,
+   "recall_ci": [
+    96.7,
+    99.1
+   ],
+   "exact_sets": 40.0,
+   "model_s": 798.5
+  }
+ },
+ "single_LOW": {
+  "exclusion/128": {
+   "queries": 20,
+   "truth_per_query": 197.2,
+   "precision": 97.7,
+   "recall": 57.9,
+   "policies": 20,
+   "recall_ci": [
+    43.9,
+    70.2
+   ],
+   "exact_sets": 8.3,
+   "model_s": 29.6
+  },
+  "implication/128": {
+   "queries": 20,
+   "truth_per_query": 73.9,
+   "precision": 94.7,
+   "recall": 54.7,
+   "policies": 20,
+   "recall_ci": [
+    45.9,
+    63.7
+   ],
+   "exact_sets": 1.7,
+   "model_s": 11.6
+  }
+ },
+ "single_HIGH": {
+  "exclusion/128": {
+   "queries": 20,
+   "truth_per_query": 197.2,
+   "precision": 100.0,
+   "recall": 100.0,
+   "policies": 20,
+   "recall_ci": [
+    100.0,
+    100.0
+   ],
+   "exact_sets": 100.0,
+   "model_s": 238.2
+  },
+  "implication/128": {
+   "queries": 20,
+   "truth_per_query": 73.8,
+   "precision": 100.0,
+   "recall": 99.6,
+   "policies": 20,
+   "recall_ci": [
+    98.8,
+    100.0
+   ],
+   "exact_sets": 90.0,
+   "model_s": 211.8
+  }
+ },
+ "batch_calls": 4800,
+ "batch_failures": 0,
+ "batch_dollars": 22.806,
+ "batch_seconds": 31810.6
+}

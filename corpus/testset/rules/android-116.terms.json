@@ -1,0 +1,145 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "content displayed to you and whether you clicked on it": "advertisements displayed to you and whether you clicked on them",
+    "location": "geographic information",
+    "personal data": "information about you",
+    "personal information": "information about you",
+    "profile data": "player profile"
+   },
+   "parents": {
+    "IMEI": [
+     "device identifier"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "system information"
+    ],
+    "Wi-Fi connection information": [
+     "internet connection"
+    ],
+    "avatar": [
+     "player profile"
+    ],
+    "name": [
+     "player profile"
+    ],
+    "level and equipment information": [
+     "game activities"
+    ],
+    "personal data of children": [
+     "information about you"
+    ],
+    "system version": [
+     "operating system",
+     "system information"
+    ],
+    "operating system": [
+     "system information"
+    ],
+    "device brand": [
+     "system information"
+    ],
+    "device model": [
+     "system information"
+    ],
+    "random access memory": [
+     "system information"
+    ],
+    "bluetooth settings": [
+     "system information"
+    ],
+    "running apps": [
+     "installed apps"
+    ],
+    "links clicked": [
+     "browsing history"
+    ],
+    "posts": [
+     "information you provide"
+    ],
+    "problem description": [
+     "information you provide"
+    ],
+    "email address": [
+     "information about you",
+     "information you provide"
+    ],
+    "information you provide": [
+     "information collected from user"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "related information": [
+     "information"
+    ],
+    "information collected from user": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party data analysis service provider": [
+     "Service Providers",
+     "third party"
+    ],
+    "Service Providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "provide services": "perform services"
+   },
+   "parents": {
+    "customer support": [
+     "perform services"
+    ],
+    "service delivery": [
+     "perform services"
+    ],
+    "service improvement": [
+     "service personalization and improvement"
+    ],
+    "service administration": [
+     "perform services"
+    ],
+    "service safety": [
+     "perform services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1933,
+  "completion_tokens": 629,
+  "thinking_tokens": 0,
+  "seconds": 9.979227304458618,
+  "failures": 0
+ },
+ "seconds": 10.1
+}

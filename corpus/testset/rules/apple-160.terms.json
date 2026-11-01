@@ -1,0 +1,339 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "parking transactions": "parking transaction data",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personally identifiable information": "Personal Data",
+    "traffic data": "traffic and activity data",
+    "transaction details": "transaction data",
+    "vehicle entry and exit times": "parking facility entry and exit time",
+    "your information": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "device information"
+    ],
+    "MAC address": [
+     "device information"
+    ],
+    "account data": [
+     "data about you",
+     "user data"
+    ],
+    "account details": [
+     "account data"
+    ],
+    "aggregate data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "app installation details": [
+     "usage data"
+    ],
+    "app name and version": [
+     "device information"
+    ],
+    "billing information": [
+     "financial information"
+    ],
+    "browser type and version": [
+     "device information"
+    ],
+    "browsing session details": [
+     "usage data"
+    ],
+    "card information": [
+     "billing information",
+     "financial information"
+    ],
+    "card verification value": [
+     "card information",
+     "financial information"
+    ],
+    "communication preferences": [
+     "data about you"
+    ],
+    "contest or promotion or research participation information": [
+     "data about you"
+    ],
+    "credit card payment details": [
+     "billing information",
+     "financial information",
+     "transaction data"
+    ],
+    "customer support issue details": [
+     "user inquiry"
+    ],
+    "data about you": [
+     "data"
+    ],
+    "data request": [
+     "user inquiry"
+    ],
+    "derived data": [
+     "data"
+    ],
+    "device manufacturer and model": [
+     "device information"
+    ],
+    "device settings": [
+     "device information"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "job title": [
+     "Personal Data"
+    ],
+    "landing and exit page details": [
+     "usage data"
+    ],
+    "language preferences": [
+     "device settings"
+    ],
+    "length of stay": [
+     "parking session information"
+    ],
+    "license plate number": [
+     "vehicle identifier",
+     "vehicle information"
+    ],
+    "location": [
+     "Personal Data"
+    ],
+    "mobile device data": [
+     "device information"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "operating system name and version": [
+     "device information"
+    ],
+    "parking facility entry and exit time": [
+     "parking session information"
+    ],
+    "parking session cost": [
+     "parking session information",
+     "transaction data"
+    ],
+    "parking session information": [
+     "parking data"
+    ],
+    "parking ticket information": [
+     "parking data"
+    ],
+    "parking transaction data": [
+     "parking data",
+     "transaction data"
+    ],
+    "password": [
+     "credentials"
+    ],
+    "Personal Data": [
+     "data about you",
+     "information collected from user",
+     "user data"
+    ],
+    "phone number": [
+     "Personal Data"
+    ],
+    "physical address": [
+     "Personal Data"
+    ],
+    "postal code": [
+     "Personal Data"
+    ],
+    "traffic and activity data": [
+     "usage data"
+    ],
+    "transaction data": [
+     "Personal Data"
+    ],
+    "usage data": [
+     "data about you"
+    ],
+    "user data": [
+     "data about you"
+    ],
+    "user inquiry": [
+     "Personal Data"
+    ],
+    "username": [
+     "credentials"
+    ],
+    "vehicle identifier": [
+     "vehicle information"
+    ],
+    "vehicle photograph": [
+     "vehicle information"
+    ],
+    "vehicle type": [
+     "vehicle information"
+    ],
+    "work email address": [
+     "email address"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Chubb": [
+     "third parties"
+    ],
+    "PayByPhone": [
+     "first party"
+    ],
+    "Rokt": [
+     "advertising partners",
+     "business partner",
+     "third parties"
+    ],
+    "advertising partners": [
+     "business partner",
+     "third parties"
+    ],
+    "auditors": [
+     "service provider",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "financial partner": [
+     "business partner",
+     "third parties"
+    ],
+    "law enforcement agency": [
+     "government body"
+    ],
+    "parking enforcement agency": [
+     "third parties"
+    ],
+    "parking operator": [
+     "third parties"
+    ],
+    "payment processor": [
+     "service provider",
+     "third parties"
+    ],
+    "prospective acquirer": [
+     "third parties"
+    ],
+    "regulatory authority": [
+     "government body"
+    ],
+    "security forces": [
+     "government body"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third party suppliers": [
+     "service provider",
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "parking operators": "parking operator"
+   },
+   "parents": {
+    "parking enforcement agencies": [
+     "third party"
+    ],
+    "parking operator": [
+     "third party"
+    ],
+    "payment facilitators": [
+     "third party"
+    ],
+    "public records": [
+     "publicly available sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Chubb": [
+     "third party"
+    ],
+    "Facilities Operators": [
+     "third party"
+    ],
+    "Rokt": [
+     "third party"
+    ],
+    "app store": [
+     "third party"
+    ],
+    "auditors": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contact": "communication",
+    "legal-compliance": "legal compliance",
+    "service provision": "service delivery",
+    "service-provision": "service delivery"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "payment": [
+     "payment processing"
+    ],
+    "provide part of our Service to you": [
+     "service delivery"
+    ],
+    "service-access": [
+     "service delivery"
+    ],
+    "troubleshooting": [
+     "customer support"
+    ],
+    "user interface customisation": [
+     "service optimization"
+    ],
+    "user experience enhancement": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3179,
+  "completion_tokens": 1465,
+  "thinking_tokens": 0,
+  "seconds": 21.959710836410522,
+  "failures": 0
+ },
+ "seconds": 22.0
+}

@@ -1,0 +1,205 @@
+{
+ "cleaned_sha256": "pg-104",
+ "text_sha256": "e864a05e93aa1ce2e852153cf7a26b1bd85182548c2fa1e7aee8622e799aa200",
+ "site_id": "pg-104",
+ "sections": 23,
+ "rules": 149,
+ "report": {
+  "sections": 23,
+  "raw_rules": 136,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "When purchasing products at Beltone’s websites"
+     ],
+     "data": {
+      "name": "payment details",
+      "text": "your payment details"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "payment providers privacy policies",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-104#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Beltone"
+     },
+     "conditions": [
+      "Apps for use without a need of hearing aids:",
+      "Payment for subscription management apps is handled either through Apple Appstore and your iTunes account or through your Google Play Store account"
+     ],
+     "data": {
+      "name": "financial information",
+      "text": "your payment information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "will not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-104#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "actor": {
+      "text": "Beltone",
+      "name": "first party"
+     },
+     "data": {
+      "text": "specific pieces of personal information that we have collected about you in the previous 12 months",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "You have the right to request a copy of"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have the right to request a copy of"
+    ],
+    "section": "pg-104#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "exercise",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exercise",
+      "verb": "exercise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To exercise the access, data portability, deletion, and do-not-sell rights described above",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "described above",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-104#s19"
+   }
+  ],
+  "residual_quotes": 22,
+  "quotes": 76,
+  "completeness": {
+   "gaps": 206,
+   "gap_words": 2190
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 76,
+  "compile_failures": 5,
+  "fixed_structurally": 3,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 57929,
+  "completion_tokens": 26493,
+  "thinking_tokens": 0,
+  "seconds": 215.7469334602356,
+  "failures": 0
+ },
+ "seconds": 217.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

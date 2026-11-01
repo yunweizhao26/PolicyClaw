@@ -1,0 +1,315 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact and account registration details": "contact and account details",
+    "contact and account registration information": "contact and account details",
+    "demographic information": "demographic data",
+    "demographics": "demographic data",
+    "device information and identifiers": "device details",
+    "information about you": "information",
+    "photos": "photo",
+    "social media information": "social media data",
+    "transactional data": "transaction data",
+    "transactional information": "transaction data",
+    "unspecified": "information",
+    "unspecified data": "information"
+   },
+   "parents": {
+    "account registration information": [
+     "contact and account details"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "biometrics": [
+     "sensitive personal data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "city": [
+     "location"
+    ],
+    "comments": [
+     "user-generated content"
+    ],
+    "commercial transaction details": [
+     "commercial information",
+     "transaction data"
+    ],
+    "cookies": [
+     "device identifier"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "demographics and interests": [
+     "demographic data"
+    ],
+    "device identifier": [
+     "device identifiers"
+    ],
+    "device identifiers": [
+     "device details"
+    ],
+    "device information": [
+     "device details"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "imprecise geolocation": [
+     "geolocation data"
+    ],
+    "interest information": [
+     "interests"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "password": [
+     "account registration information"
+    ],
+    "payment card details": [
+     "financial and transaction details"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photo": [
+     "user-generated content"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "precise location data": [
+     "geolocation data",
+     "sensitive personal data"
+    ],
+    "purchase information": [
+     "commercial transaction details"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "social media handle": [
+     "unique identifier"
+    ],
+    "survey responses": [
+     "research and feedback"
+    ],
+    "transaction data": [
+     "financial and transaction details"
+    ],
+    "user ID": [
+     "unique identifier"
+    ],
+    "user comment": [
+     "comments"
+    ],
+    "user preferences": [
+     "inferences"
+    ],
+    "user profile": [
+     "inferences"
+    ],
+    "viewed content information": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "affiliate": "Affiliates",
+    "affiliates": "Affiliates",
+    "data partners": "Data Partners",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "ad network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertiser": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "analytics providers": [
+     "service provider",
+     "third party"
+    ],
+    "cable provider or device partner": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "co-branded partner": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "coaches": [
+     "other users"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "data broker": [
+     "Data Partners",
+     "third party"
+    ],
+    "Data Partners": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "golf clubs": [
+     "other users"
+    ],
+    "other third parties": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ],
+    "business partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media platforms": [
+     "third party"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "sports teams": [
+     "other users"
+    ],
+    "third-party travel partners": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "video measurement services": [
+     "analytics providers",
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social network": "social media",
+    "third party": "third parties"
+   },
+   "parents": {
+    "data broker": [
+     "third parties"
+    ],
+    "employer": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "Warner Bros. Discovery": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud detection and prevention",
+    "service provision": "service delivery",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "third-party advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing and advertising"
+    ],
+    "marketing": [
+     "marketing and advertising"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service authentication": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "book reservations or access on-site amenities": [
+     "service delivery"
+    ],
+    "provide travel packages": [
+     "service delivery"
+    ],
+    "provide our Services": [
+     "service delivery"
+    ],
+    "order fulfillment": [
+     "service delivery"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3017,
+  "completion_tokens": 1564,
+  "thinking_tokens": 0,
+  "seconds": 15.851910829544067,
+  "failures": 0
+ },
+ "seconds": 16.0
+}

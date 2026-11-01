@@ -1,0 +1,263 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "biometric information": "biometric data",
+    "financial information": "financial data",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "social security number": "Social Security number",
+    "transaction information": "transaction details"
+   },
+   "parents": {
+    "Social Security number": [
+     "government identification number"
+    ],
+    "driver's license number": [
+     "government identification number"
+    ],
+    "passport number": [
+     "government identification number"
+    ],
+    "state identification card number": [
+     "government identification number"
+    ],
+    "bank account number": [
+     "financial data",
+     "payment information"
+    ],
+    "credit card number": [
+     "financial data",
+     "payment information"
+    ],
+    "payment information": [
+     "financial data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "social media handle": [
+     "contact data"
+    ],
+    "document photo": [
+     "identity documents",
+     "photograph"
+    ],
+    "selfie photo and/or video": [
+     "biometric data",
+     "photograph"
+    ],
+    "marketing preference": [
+     "marketing and communications information"
+    ],
+    "communication preferences": [
+     "marketing and communications information"
+    ],
+    "email message": [
+     "communication"
+    ],
+    "service updates": [
+     "communication"
+    ],
+    "promotional offers": [
+     "communication"
+    ],
+    "customer support message": [
+     "customer support information"
+    ],
+    "voice recording": [
+     "customer support information"
+    ],
+    "transaction history": [
+     "transaction details"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "basic identifying information": [
+     "personal data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "name": [
+     "basic identifying information"
+    ],
+    "date of birth": [
+     "basic identifying information"
+    ],
+    "age": [
+     "basic identifying information"
+    ],
+    "gender": [
+     "basic identifying information"
+    ],
+    "username": [
+     "account details",
+     "basic identifying information"
+    ],
+    "identity documents": [
+     "government-issued identification"
+    ],
+    "identity verification results": [
+     "identity verification data"
+    ],
+    "credit report": [
+     "creditworthiness"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate affiliates": "affiliate",
+    "first party": "Remitly",
+    "service_provider": "service provider",
+    "third party": "external third parties",
+    "third_party": "third-party partners"
+   },
+   "parents": {
+    "Remitly family of products": [
+     "affiliate"
+    ],
+    "Onfido": [
+     "service provider"
+    ],
+    "advertising networks": [
+     "external third parties"
+    ],
+    "financial company": [
+     "external third parties"
+    ],
+    "public authorities": [
+     "external third parties"
+    ],
+    "service provider": [
+     "external third parties"
+    ],
+    "social media networks": [
+     "external third parties"
+    ],
+    "third-party agents": [
+     "external third parties",
+     "service provider"
+    ],
+    "third-party partners": [
+     "external third parties"
+    ],
+    "unaffiliated third party": [
+     "external third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "analytics provider": [
+     "other sources"
+    ],
+    "ad network": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Remitly",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Onfido": [
+     "identity verification provider",
+     "service provider",
+     "third party"
+    ],
+    "identity verification provider": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "employee": [
+     "Remitly"
+    ],
+    "affiliate": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contract-fulfillment": "contract performance",
+    "customer-support": "customer support",
+    "legal": "compliance",
+    "legal compliance": "compliance",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "promotional offers or rewards delivery": [
+     "marketing"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "finance",
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "service quality": [
+     "service improvement"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "identity verification": [
+     "compliance",
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3136,
+  "completion_tokens": 1336,
+  "thinking_tokens": 0,
+  "seconds": 15.086833715438843,
+  "failures": 0
+ },
+ "seconds": 15.2
+}

@@ -1,0 +1,328 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "genetic information": "genetic data",
+    "health information": "health data",
+    "login credentials": "account login credentials",
+    "personal information": "personal data",
+    "race or ethnicity": "race",
+    "religious beliefs": "religion",
+    "ssn": "social security number",
+    "state identification card number": "state id number",
+    "tracking data": "information collected via tracking technologies",
+    "union membership": "trade union membership"
+   },
+   "parents": {
+    "account login credentials": [
+     "sensitive personal data"
+    ],
+    "account name": [
+     "online identifier",
+     "other identifiers"
+    ],
+    "activity on, use of and access to our Sites": [
+     "internet activity"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "ancestry": [
+     "demographic data"
+    ],
+    "bank account number": [
+     "financial information"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browsing history": [
+     "internet activity"
+    ],
+    "citizenship": [
+     "demographic data"
+    ],
+    "communications": [
+     "message contents"
+    ],
+    "credit card number with credentials": [
+     "financial information",
+     "payment card number",
+     "sensitive personal data"
+    ],
+    "credit information": [
+     "financial information"
+    ],
+    "date of birth": [
+     "demographic data"
+    ],
+    "debit card number": [
+     "financial information",
+     "payment card number"
+    ],
+    "disability status": [
+     "health data"
+    ],
+    "drivers license number": [
+     "sensitive personal data"
+    ],
+    "email address": [
+     "online identifier",
+     "other identifiers"
+    ],
+    "email content": [
+     "message contents"
+    ],
+    "email data": [
+     "data accessed from email accounts"
+    ],
+    "email marketing communications": [
+     "communications"
+    ],
+    "fingerprint": [
+     "biometric data"
+    ],
+    "genetic data": [
+     "sensitive personal data"
+    ],
+    "grades or transcripts": [
+     "education records"
+    ],
+    "hand or facial geometry scan": [
+     "biometric data"
+    ],
+    "health data": [
+     "sensitive personal data"
+    ],
+    "health insurance information": [
+     "health data"
+    ],
+    "interaction with website, app, or ad": [
+     "internet activity"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "links clicked or pages viewed": [
+     "internet activity"
+    ],
+    "marital status": [
+     "demographic data"
+    ],
+    "medical condition": [
+     "health data"
+    ],
+    "medical history": [
+     "health data"
+    ],
+    "message contents": [
+     "sensitive personal data"
+    ],
+    "military status": [
+     "demographic data"
+    ],
+    "national origin": [
+     "demographic data"
+    ],
+    "non-marketing emails": [
+     "communications"
+    ],
+    "passport number": [
+     "sensitive personal data"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "payment history": [
+     "financial information"
+    ],
+    "postal address": [
+     "other identifiers"
+    ],
+    "postal address change": [
+     "postal address"
+    ],
+    "precise location": [
+     "location",
+     "sensitive personal data"
+    ],
+    "pregnancy status": [
+     "health data"
+    ],
+    "products or services purchased, obtained, or considered": [
+     "financial information"
+    ],
+    "purchasing habits": [
+     "financial information"
+    ],
+    "race": [
+     "demographic data",
+     "sensitive personal data"
+    ],
+    "religion": [
+     "sensitive personal data"
+    ],
+    "retinal print": [
+     "biometric data"
+    ],
+    "search history": [
+     "internet activity"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "sex": [
+     "demographic data"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "social security number": [
+     "sensitive personal data"
+    ],
+    "state id number": [
+     "sensitive personal data"
+    ],
+    "trade union membership": [
+     "sensitive personal data"
+    ],
+    "trip tracking information": [
+     "location"
+    ],
+    "unique personal identifier": [
+     "other identifiers"
+    ],
+    "visited pages": [
+     "internet activity",
+     "links clicked or pages viewed"
+    ],
+    "voice print": [
+     "biometric data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Allstate companies",
+    "affiliates": "Allstate companies",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising company": [
+     "marketing and advertising partners",
+     "third parties"
+    ],
+    "agents, dealers, or brokers": [
+     "third parties"
+    ],
+    "employer": [
+     "third parties"
+    ],
+    "financial institutions": [
+     "third parties"
+    ],
+    "insurance support organizations": [
+     "third parties"
+    ],
+    "joint marketing partners": [
+     "third parties"
+    ],
+    "marketing and advertising partners": [
+     "third parties"
+    ],
+    "other companies": [
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "children under 13": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children under 13": [
+     "user"
+    ],
+    "publicly available sources": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "marketing and advertising partners": "advertising partner"
+   },
+   "parents": {
+    "advertising company": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud and threat prevention",
+    "fulfill business or commercial purposes": "business operations",
+    "legal compliance": "compliance"
+   },
+   "parents": {
+    "advertising targeting": [
+     "advertising"
+    ],
+    "advertising": [
+     "personalization and advertising"
+    ],
+    "service personalization": [
+     "personalization and advertising"
+    ],
+    "user experience personalization": [
+     "personalization and advertising"
+    ],
+    "fraud and threat prevention": [
+     "security"
+    ],
+    "service monitoring": [
+     "service monitoring and improvement"
+    ],
+    "product development": [
+     "service monitoring and improvement"
+    ],
+    "accounting or billing": [
+     "business operations"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "technical support": [
+     "service provision"
+    ],
+    "service": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3682,
+  "completion_tokens": 1623,
+  "thinking_tokens": 0,
+  "seconds": 21.67521905899048,
+  "failures": 0
+ },
+ "seconds": 21.8
+}

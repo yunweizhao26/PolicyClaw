@@ -1,0 +1,252 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "audiovisual materials": "audio or video recording",
+    "communication contents": "communication content",
+    "event attendance information": "event attendance data",
+    "personal information": "personal data",
+    "security data": "premises security information",
+    "transactional information": "transaction details"
+   },
+   "parents": {
+    "CCTV footage": [
+     "video recordings"
+    ],
+    "survey recordings": [
+     "audio or video recording"
+    ],
+    "video recordings": [
+     "audio or video recording"
+    ],
+    "audio recordings": [
+     "audio or video recording"
+    ],
+    "still images": [
+     "audio or video recording"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "postal code": [
+     "address",
+     "location"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "IP address": [
+     "identifier"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "third-party advertising technologies": [
+     "tracking technologies"
+    ],
+    "card last four digits": [
+     "payment details"
+    ],
+    "payment details": [
+     "financial account information"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "user-generated content": [
+     "user-provided content"
+    ],
+    "feedback": [
+     "user-provided content"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "hardware profile": [
+     "device information"
+    ],
+    "mobile network information": [
+     "device information"
+    ],
+    "device information": [
+     "browser and device information"
+    ],
+    "browsing history": [
+     "browsing data"
+    ],
+    "browsing patterns": [
+     "browsing data"
+    ],
+    "browsing data": [
+     "usage data"
+    ],
+    "order details": [
+     "transaction details"
+    ],
+    "purchase details": [
+     "transaction details"
+    ],
+    "purchase and transaction history": [
+     "transaction details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service-provider": "service provider",
+    "third-party advertising provider": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "advertiser",
+     "marketing partner"
+    ],
+    "marketing partner": [
+     "business partner"
+    ],
+    "third party partner": [
+     "unaffiliated third party"
+    ],
+    "vendor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user": "interacted individuals"
+   },
+   "parents": {
+    "children": [
+     "interacted individuals"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "vendor": "service provider"
+   },
+   "parents": {
+    "technology partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party payment processor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_detection": "fraud prevention and detection",
+    "legal-compliance": "legal compliance",
+    "order-fulfillment": "order fulfillment",
+    "user authentication": "authentication"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "order fulfillment"
+    ],
+    "debugging": [
+     "service troubleshooting"
+    ],
+    "service troubleshooting": [
+     "service provision"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "safety": [
+     "security"
+    ],
+    "security": [
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "service-feature": [
+     "service provision"
+    ],
+    "service-improvement": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "user-experience": [
+     "service provision"
+    ],
+    "rewards": [
+     "commercial purpose"
+    ],
+    "administrative": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3344,
+  "completion_tokens": 964,
+  "thinking_tokens": 0,
+  "seconds": 25.12626075744629,
+  "failures": 0
+ },
+ "seconds": 25.2
+}

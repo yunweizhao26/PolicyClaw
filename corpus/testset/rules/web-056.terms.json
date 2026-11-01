@@ -1,0 +1,145 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "child personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "ip address": [
+     "telemetry",
+     "usage information"
+    ],
+    "mac address": [
+     "telemetry",
+     "usage information"
+    ],
+    "telemetry": [
+     "usage information"
+    ],
+    "user comments": [
+     "user-generated content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate affiliate": "affiliate",
+    "third-party agent": "third party agent"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "service vendor": [
+     "vendor"
+    ],
+    "affiliate": [
+     "first party"
+    ],
+    "law enforcement official": [
+     "competent authority",
+     "government authority",
+     "public authorities"
+    ],
+    "competent authority": [
+     "government authority",
+     "public authorities"
+    ],
+    "government authority": [
+     "public authorities"
+    ],
+    "third party agent": [
+     "third party"
+    ],
+    "contractor": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "operations": "operate business",
+    "other legitimate purposes permitted by law": "legal"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "marketing communications": [
+     "marketing"
+    ],
+    "share information about products or services": [
+     "marketing"
+    ],
+    "so that they may inform you about websites, programs, products, or services that may be of interest to you": [
+     "marketing"
+    ],
+    "legal compliance": [
+     "comply with business and legal obligations, dispute resolution, asset protection, and rights enforcement"
+    ],
+    "marketing": [
+     "data processing"
+    ],
+    "security": [
+     "data processing"
+    ],
+    "operate business": [
+     "data processing"
+    ],
+    "deliver, analyze, improve, secure, customize websites and solutions": [
+     "services"
+    ],
+    "provide requested website, solution, service, or transaction": [
+     "services"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "order fulfilment": [
+     "services"
+    ],
+    "analytics": [
+     "deliver, analyze, improve, secure, customize websites and solutions"
+    ],
+    "make visit easier, more efficient, and personalized": [
+     "deliver, analyze, improve, secure, customize websites and solutions"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2082,
+  "completion_tokens": 627,
+  "thinking_tokens": 0,
+  "seconds": 9.56934380531311,
+  "failures": 0
+ },
+ "seconds": 9.7
+}

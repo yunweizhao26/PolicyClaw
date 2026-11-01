@@ -1,0 +1,195 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "application usage details": "app usage information",
+    "clickstream": "clicks",
+    "contact information": "contact details",
+    "ip address": "IP address",
+    "name": "account name",
+    "personal information": "personal data",
+    "profile picture": "profile photo",
+    "server logs": "activity log",
+    "unique device identifier": "device identifier",
+    "videos": "video"
+   },
+   "parents": {
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "photos": [
+     "personal data"
+    ],
+    "video": [
+     "personal data"
+    ],
+    "profile photo": [
+     "photos"
+    ],
+    "network connection type": [
+     "network details"
+    ],
+    "network connection status": [
+     "network details"
+    ],
+    "network type": [
+     "network connection type"
+    ],
+    "order number": [
+     "purchase details"
+    ],
+    "product category": [
+     "purchase details"
+    ],
+    "product price": [
+     "purchase details"
+    ],
+    "transaction time": [
+     "purchase details"
+    ],
+    "purchase details": [
+     "payment and order information"
+    ],
+    "facial-recognition-data": [
+     "facial features"
+    ],
+    "device identifier": [
+     "unique-identifiers"
+    ],
+    "mac address": [
+     "device identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third parties": "external entity",
+    "third party": "external entity"
+   },
+   "parents": {
+    "AppsFlyer": [
+     "authorized partners",
+     "external entity"
+    ],
+    "Bugly": [
+     "authorized partners",
+     "external entity"
+    ],
+    "Fabric": [
+     "authorized partners",
+     "external entity"
+    ],
+    "GrowingIO": [
+     "authorized partners",
+     "external entity"
+    ],
+    "Mi Push": [
+     "authorized partners",
+     "external entity"
+    ],
+    "MobTech SDK": [
+     "authorized partners",
+     "external entity"
+    ],
+    "Umeng Push": [
+     "authorized partners",
+     "external entity"
+    ],
+    "advertising partners": [
+     "authorized partners",
+     "external entity"
+    ],
+    "third-party merchants": [
+     "authorized partners",
+     "external entity"
+    ],
+    "authorized partners": [
+     "external entity"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "authorized personnel": [
+     "first party"
+    ],
+    "affiliates": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide-service"
+   },
+   "parents": {
+    "For crash log collection": [
+     "debugging"
+    ],
+    "account registration": [
+     "provide-service"
+    ],
+    "account security": [
+     "security"
+    ],
+    "communication": [
+     "provide-service"
+    ],
+    "customer support": [
+     "provide-service"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "payment-processing": [
+     "provide-service"
+    ],
+    "personalization": [
+     "provide-service"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "protecting Camera360 and its users or the public interest, property or safety from damage": [
+     "security"
+    ],
+    "provide-service": [
+     "providing or accessing the above-mentioned functions"
+    ],
+    "service access": [
+     "provide-service"
+    ],
+    "service-core": [
+     "provide-service"
+    ],
+    "social-network integration": [
+     "provide-service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2403,
+  "completion_tokens": 813,
+  "thinking_tokens": 0,
+  "seconds": 10.258922338485718,
+  "failures": 0
+ },
+ "seconds": 10.3
+}

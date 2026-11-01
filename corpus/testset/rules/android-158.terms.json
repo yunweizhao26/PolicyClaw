@@ -1,0 +1,230 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "any information": "any data",
+    "data": "any data",
+    "identifiers": "account ID",
+    "information": "any data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "purchase history": "purchase and shopping history",
+    "search queries": "search history",
+    "user activity": "activities",
+    "user input": "text input",
+    "user text input": "text input",
+    "username": "account name"
+   },
+   "parents": {
+    "IP address": [
+     "account ID",
+     "device information"
+    ],
+    "account ID": [
+     "account information"
+    ],
+    "account name": [
+     "account information"
+    ],
+    "advertising ID": [
+     "account ID",
+     "device identifier"
+    ],
+    "app usage data": [
+     "activities"
+    ],
+    "application information": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing activity": [
+     "activities"
+    ],
+    "browsing history": [
+     "activities"
+    ],
+    "chat history": [
+     "user content"
+    ],
+    "crash logs": [
+     "device logs"
+    ],
+    "date and time stamp": [
+     "date and time"
+    ],
+    "device identifier": [
+     "account ID",
+     "device information"
+    ],
+    "device logs": [
+     "device information"
+    ],
+    "installed apps": [
+     "application information",
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "photos": [
+     "user content"
+    ],
+    "profile picture": [
+     "user profile"
+    ],
+    "search history": [
+     "activities",
+     "text input"
+    ],
+    "text input": [
+     "user content"
+    ],
+    "transcript": [
+     "text input"
+    ],
+    "user message": [
+     "user content"
+    ],
+    "voice recording": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising network": "ad network",
+    "social network": "social media",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "service provider",
+     "third parties"
+    ],
+    "Google": [
+     "service provider",
+     "third parties"
+    ],
+    "Microsoft": [
+     "service provider",
+     "third parties"
+    ],
+    "OpenAI": [
+     "service provider",
+     "third parties"
+    ],
+    "ad network": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "third parties"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social media": [
+     "third parties"
+    ],
+    "social network friends": [
+     "social media"
+    ],
+    "acquirer": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social network": "social media platform",
+    "user device": "device"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "data provider": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "third party software": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "Meta": [
+     "social media",
+     "third party"
+    ],
+    "social media": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service-provision": "service provision",
+    "unspecified": "other"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "verification": [
+     "authentication"
+    ],
+    "service improvement": [
+     "service development",
+     "service operation and improvement"
+    ],
+    "service development": [
+     "service operation and improvement"
+    ],
+    "service optimization and personalization": [
+     "personalization",
+     "service improvement",
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3210,
+  "completion_tokens": 1078,
+  "thinking_tokens": 0,
+  "seconds": 11.725116968154907,
+  "failures": 0
+ },
+ "seconds": 11.8
+}

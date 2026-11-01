@@ -1,0 +1,93 @@
+{
+ "cleaned_sha256": "android-024",
+ "text_sha256": "4856e74da3691c3c0451a60bb5eb3d3e13cb0dd753968c774af84b70d011fa63",
+ "site_id": "android-024",
+ "sections": 5,
+ "rules": 98,
+ "report": {
+  "sections": 5,
+  "raw_rules": 89,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "only for lawful, legitimate, necessary, specific and explicit purposes and only to the extent necessary to provide the service"
+     ],
+     "data": {
+      "name": "service-implementation information",
+      "text": "the information necessary to implement the functions or services"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "In order to ensure the implementation of COLORFUL POINT's relevant functions and the safe and stable operation of the application",
+       "name": "service operation and security"
+      },
+      {
+       "text": "to implement the relevant functions or services",
+       "name": "service operation and security"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "these third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for lawful, legitimate, necessary, specific and explicit purposes and only to the extent necessary to provide the service"
+    ],
+    "section": "android-024#s3"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 43,
+  "completeness": {
+   "gaps": 127,
+   "gap_words": 1667
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 43,
+  "compile_failures": 12,
+  "fixed_structurally": 12,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 19767,
+  "completion_tokens": 14781,
+  "thinking_tokens": 0,
+  "seconds": 118.41335916519165,
+  "failures": 0
+ },
+ "seconds": 118.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

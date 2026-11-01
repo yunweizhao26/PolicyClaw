@@ -1,0 +1,155 @@
+{
+ "cleaned_sha256": "pg-127",
+ "text_sha256": "1b0552134fce75f47e21c71787bd9e13e88ce3f71fe39db644a51cf9d2ed9501",
+ "site_id": "pg-127",
+ "sections": 10,
+ "rules": 116,
+ "report": {
+  "sections": 10,
+  "raw_rules": 87,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the information you provide about the gift recipients, including email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "When you send gift cards or subscriptions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "the information you provide about the gift recipients, including email address"
+    ],
+    "section": "pg-127#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may seek to",
+     "actor": {
+      "text": "Company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "In the unlikely event that Company believes that the security of your Personal Information in its possession or control may have been compromised"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-127#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "If notification is appropriate",
+      "by email, messaging to your device, or other means within 72 hours of data compromise"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-127#s7"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 39,
+  "completeness": {
+   "gaps": 74,
+   "gap_words": 893
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 39,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 30960,
+  "completion_tokens": 18868,
+  "thinking_tokens": 0,
+  "seconds": 133.18918752670288,
+  "failures": 0
+ },
+ "seconds": 133.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

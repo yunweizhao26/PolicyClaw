@@ -1,0 +1,173 @@
+{
+ "cleaned_sha256": "apple-008",
+ "text_sha256": "9fcf55f70c24136ce2ca982846900170f6002d45dbcfbd9b9aa80c32365d508b",
+ "site_id": "apple-008",
+ "sections": 12,
+ "rules": 168,
+ "report": {
+  "sections": 12,
+  "raw_rules": 124,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information about individuals who seek, apply for, or obtain Capital One financial products and services for personal, family, or household purposes, including “Discover by Capital One” products and services"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "U.S. Consumer Privacy Notice",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about individuals who seek, apply for, or obtain Capital One financial products and services for personal, family, or household purposes, including “Discover by Capital One” products and services"
+    ],
+    "section": "apple-008#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Depending on how you interact online with us",
+      "when using our travel, entertainment, or dining services"
+     ],
+     "data": {
+      "name": "preferences",
+      "text": "information you provide (e.g., dietary, seating, or other preferences)"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information you provide (e.g., dietary, seating, or other preferences)"
+    ],
+    "section": "apple-008#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide you with additional choices to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You may have additional rights under applicable law, such as the California Consumer Privacy Act for California residents, or we may provide you with additional choices to access, delete, correct, or otherwise manage certain personal information"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "California Consumer Privacy Act",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-008#s9"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 47,
+  "completeness": {
+   "gaps": 203,
+   "gap_words": 2308
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 47,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 40669,
+  "completion_tokens": 25047,
+  "thinking_tokens": 0,
+  "seconds": 442.5216522216797,
+  "failures": 0
+ },
+ "seconds": 443.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

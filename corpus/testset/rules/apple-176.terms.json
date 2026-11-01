@@ -1,0 +1,86 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account and interaction information",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user-provided information": "information you enter on our website, or give us in any other way"
+   },
+   "parents": {
+    "account and interaction information": [
+     "customer information"
+    ],
+    "credit history": [
+     "personal data"
+    ],
+    "device identifier": [
+     "unspecified data"
+    ],
+    "email read receipt": [
+     "unspecified data"
+    ],
+    "information you enter on our website, or give us in any other way": [
+     "personal data"
+    ],
+    "location data": [
+     "personal data"
+    ],
+    "cookies": [
+     "unspecified data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "other party": [
+     "other"
+    ],
+    "third party": [
+     "other"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "credit bureaus": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third-party service provider": [
+     "other party",
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud prevention"
+   },
+   "parents": {
+    "fraud prevention": [
+     "security"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1551,
+  "completion_tokens": 375,
+  "thinking_tokens": 0,
+  "seconds": 8.35050892829895,
+  "failures": 0
+ },
+ "seconds": 8.5
+}

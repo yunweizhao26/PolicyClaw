@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "pg-109",
+ "text_sha256": "52cd550d087ac377538f2995f7343c516989afd5a816e83d5265ecbe19bd6450",
+ "site_id": "pg-109",
+ "sections": 9,
+ "rules": 138,
+ "report": {
+  "sections": 9,
+  "raw_rules": 121,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "takes reasonable steps designed to protect",
+     "actor": {
+      "text": "Scribd",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Your Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "takes reasonable steps designed to protect",
+      "verb": "protect"
+     },
+     "operation": "security",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-109#s8"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 55,
+  "completeness": {
+   "gaps": 224,
+   "gap_words": 2560
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 55,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 17,
+  "cached": 0,
+  "prompt_tokens": 34783,
+  "completion_tokens": 24097,
+  "thinking_tokens": 0,
+  "seconds": 142.8797881603241,
+  "failures": 0
+ },
+ "seconds": 143.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

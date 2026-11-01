@@ -1,0 +1,188 @@
+{
+ "cleaned_sha256": "web-127",
+ "text_sha256": "b75334aa4488af8aac0b211cee0df49fdc16264ae166550a695a80084ccc5532",
+ "site_id": "web-127",
+ "sections": 11,
+ "rules": 190,
+ "report": {
+  "sections": 11,
+  "raw_rules": 168,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "You can request to exercise these rights by emailing us at\ncompliance@mixpanel.com\n."
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can request",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "You"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-127#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correction",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "You can request to exercise these rights by emailing us at\ncompliance@mixpanel.com\n."
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "can request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-127#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "You can request to exercise these rights by emailing us at\ncompliance@mixpanel.com\n."
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "can request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-127#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can ask to review",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "by sending a written request to compliance@mixpanel.com"
+     ],
+     "exceptions": [
+      "where providing such access is unreasonably burdensome, expensive under the circumstances, or as otherwise permitted by the Data Privacy Frameworks"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-127#s10"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 83,
+  "completeness": {
+   "gaps": 322,
+   "gap_words": 3389
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 83,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 43057,
+  "completion_tokens": 32146,
+  "thinking_tokens": 0,
+  "seconds": 271.5742919445038,
+  "failures": 0
+ },
+ "seconds": 272.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

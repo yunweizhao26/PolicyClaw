@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "android-125",
+ "text_sha256": "1d65d59dcdba0c38063017e4a9a7eb733be31498d500db790974e6292f9e76f2",
+ "site_id": "android-125",
+ "sections": 5,
+ "rules": 131,
+ "report": {
+  "sections": 5,
+  "raw_rules": 62,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "personal data which we may have collected"
+     },
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "You have the right to access"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-125#s4"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 40,
+  "completeness": {
+   "gaps": 87,
+   "gap_words": 1260
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 40,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 19491,
+  "completion_tokens": 13501,
+  "thinking_tokens": 0,
+  "seconds": 224.50703978538513,
+  "failures": 0
+ },
+ "seconds": 224.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

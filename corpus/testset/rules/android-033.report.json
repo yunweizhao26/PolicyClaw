@@ -1,0 +1,163 @@
+{
+ "cleaned_sha256": "android-033",
+ "text_sha256": "df4354941d8268aa543bf6643480b83a23e360b3d1da2d00efe38f6eb27eac50",
+ "site_id": "android-033",
+ "sections": 6,
+ "rules": 180,
+ "report": {
+  "sections": 6,
+  "raw_rules": 127,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "leveraging",
+      "verb": "leverage"
+     },
+     "actor": {
+      "name": "affiliate",
+      "text": "They"
+     },
+     "conditions": [
+      "either on our Platform or their own platforms"
+     ],
+     "data": {
+      "name": "browsing behavior",
+      "text": "these insights"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also leverage",
+     "purpose": [
+      {
+       "text": "to personalise your browsing experience and customise various aspects of the user journey such as the checkout flow, payment options, delivery recommendations",
+       "name": "personalization"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "leveraging"
+    ],
+    "section": "android-033#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will sell",
+     "actor": {
+      "text": "We and our affiliates",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "another business entity",
+      "name": "another business entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "should we (or our assets) plan to merge with, or be acquired by that business entity, or reorganization, amalgamation, restructuring of business"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will sell"
+    ],
+    "section": "android-033#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "children under the age of 18 years",
+      "name": "children"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly collect"
+    ],
+    "section": "android-033#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 42,
+  "completeness": {
+   "gaps": 112,
+   "gap_words": 1429
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 42,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 24112,
+  "completion_tokens": 24053,
+  "thinking_tokens": 0,
+  "seconds": 151.95773077011108,
+  "failures": 0
+ },
+ "seconds": 152.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

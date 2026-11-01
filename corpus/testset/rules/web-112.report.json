@@ -1,0 +1,214 @@
+{
+ "cleaned_sha256": "web-112",
+ "text_sha256": "abe850d721e3f0e11027d2653d9ced27720273a3f7648c63cb1c80bb2d4e17fd",
+ "site_id": "web-112",
+ "sections": 21,
+ "rules": 126,
+ "report": {
+  "sections": 21,
+  "raw_rules": 119,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "user data",
+      "text": "data"
+     },
+     "action": {
+      "name": "process",
+      "text": "process"
+     },
+     "operation": "processing",
+     "target": null,
+     "purpose": [
+      {
+       "text": "in order to maintain a secure environment and prevent fraud",
+       "name": "security"
+      },
+      {
+       "text": "deliver non-personalised ads",
+       "name": "ad serving"
+      }
+     ],
+     "source": null,
+     "conditions": [
+      "We rely on legitimate interests"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "IAB TCF framework",
+       "name": "IAB TCF framework",
+       "target": "other_document"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "rely on legitimate interests to process"
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-112#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "user data",
+      "text": "your data"
+     },
+     "action": {
+      "name": "use",
+      "text": "used"
+     },
+     "operation": "use",
+     "target": null,
+     "purpose": [
+      {
+       "text": "to monitor for and prevent unusual and possibly fraudulent activity",
+       "name": "security"
+      }
+     ],
+     "source": null,
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Special Purpose 1 in the IAB TCF framework",
+       "name": "IAB TCF framework Special Purpose 1",
+       "target": "other_document"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "can be"
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-112#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "first party"
+     },
+     "data": {
+      "name": "imprecise location",
+      "text": "your approximate and non-precise location"
+     },
+     "action": {
+      "name": "include",
+      "text": "include"
+     },
+     "operation": "use",
+     "target": null,
+     "purpose": [
+      {
+       "text": "to select an appropriate language of the content or advertisement",
+       "name": "personalization"
+      },
+      {
+       "text": "to ensure it is transmitted correctly to your device",
+       "name": "service operation"
+      }
+     ],
+     "source": null,
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Special Purpose 2 in the IAB TCF framework",
+       "name": "IAB TCF framework Special Purpose 2",
+       "target": "other_document"
+      }
+     ],
+     "polarity": "ALLOW",
+     "polarity_text": "may"
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "web-112#s6"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "expressly prohibit",
+     "actor": {
+      "text": "our media partners",
+      "name": "media partner"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "targeting",
+      "verb": "target"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "of children"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-112#s15"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 58,
+  "completeness": {
+   "gaps": 392,
+   "gap_words": 4510
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 58,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 63716,
+  "completion_tokens": 21714,
+  "thinking_tokens": 1830,
+  "seconds": 294.12023282051086,
+  "failures": 0
+ },
+ "seconds": 295.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

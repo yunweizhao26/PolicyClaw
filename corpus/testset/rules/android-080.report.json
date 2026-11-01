@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "android-080",
+ "text_sha256": "1d5981c8be9124a8d44235a82a455526e264c01e673f9cd425d5e7faa8a530b9",
+ "site_id": "android-080",
+ "sections": 13,
+ "rules": 126,
+ "report": {
+  "sections": 13,
+  "raw_rules": 121,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "does not limit Our ability to",
+     "actor": {
+      "text": "Our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "email",
+      "verb": "email"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "Your choice to opt out of ad tracking and analytics services does not limit Our ability to email You"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "subject to the terms of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-080#s4"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 47,
+  "completeness": {
+   "gaps": 160,
+   "gap_words": 1741
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 47,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 41500,
+  "completion_tokens": 21670,
+  "thinking_tokens": 1090,
+  "seconds": 169.71229362487793,
+  "failures": 0
+ },
+ "seconds": 170.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account data": "Customer Account Data",
+    "customer account data": "Customer Account Data",
+    "data enrichment services data": "data enrichment services",
+    "email engagement data": "email engagement",
+    "email tracking data": "email engagement",
+    "your data": "data"
+   },
+   "parents": {
+    "changes to phone number or email address": [
+     "Customer Account Data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "customer proprietary network information": [
+     "telecommunications data"
+    ],
+    "data within voice calls": [
+     "customer content"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "email address": [
+     "contact data",
+     "identifiers"
+    ],
+    "email engagement": [
+     "online activity data"
+    ],
+    "IP address": [
+     "identifiers",
+     "online activity data"
+    ],
+    "login timestamp": [
+     "online activity data"
+    ],
+    "personal data within voice calls": [
+     "data within voice calls",
+     "personal data"
+    ],
+    "phone number": [
+     "contact data",
+     "identifiers"
+    ],
+    "precise geolocation data": [
+     "geolocation data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "solution-provider sourced data": [
+     "partner-sourced data"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "corporate affiliate": "Twilio group companies"
+   },
+   "parents": {
+    "carriers": [
+     "telecommunications service providers"
+    ],
+    "consultant": [
+     "service provider"
+    ],
+    "corporate acquirer": [
+     "third party"
+    ],
+    "other communications service providers": [
+     "telecommunications service providers"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "telecommunications service providers": [
+     "service provider"
+    ],
+    "third party partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user in the EU": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "for anti-fraud purposes",
+    "operations": "business operations",
+    "research and development": "analytics or research",
+    "service provision": "providing the service",
+    "service-provision": "providing the service",
+    "to monitor for suspicious activity": "to detect suspicious activity"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "allows us to track email engagement, including whether a message was delivered, opened, or clicked, bounced, or marked as spam": [
+     "analytics"
+    ],
+    "analytics or performance metrics": [
+     "analytics"
+    ],
+    "as an additional data point to verify your identity in the event of a suspected account compromise": [
+     "fraud prevention and security",
+     "to verify your identity if we suspect your account may be compromised"
+    ],
+    "ensures we deliver the correct version of the app, as well as the appropriate technical support": [
+     "providing the service"
+    ],
+    "for anti-fraud purposes": [
+     "fraud prevention and security"
+    ],
+    "for identity verification and account recovery purposes": [
+     "security"
+    ],
+    "maintain security and anti-fraud logs": [
+     "fraud prevention and security"
+    ],
+    "provide 2FA services": [
+     "providing the service"
+    ],
+    "service operations": [
+     "business operations",
+     "providing the service"
+    ],
+    "service optimization and enhancement": [
+     "providing the service"
+    ],
+    "To translate voice calls into structured content": [
+     "providing the service"
+    ],
+    "to detect suspicious activity": [
+     "fraud prevention and security"
+    ],
+    "to ensure proper delivery, maintenance, and security of the Authy app": [
+     "providing the service"
+    ],
+    "to verify your identity if we suspect your account may be compromised": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2836,
+  "completion_tokens": 992,
+  "thinking_tokens": 0,
+  "seconds": 10.773059368133545,
+  "failures": 0
+ },
+ "seconds": 10.8
+}

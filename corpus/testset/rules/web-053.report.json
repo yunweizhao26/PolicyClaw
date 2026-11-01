@@ -1,0 +1,151 @@
+{
+ "cleaned_sha256": "web-053",
+ "text_sha256": "eefb52769dd1f1943aa1f4a07633826e78e62c4393752c4d0f4ccbb04e8e3184",
+ "site_id": "web-053",
+ "sections": 12,
+ "rules": 324,
+ "report": {
+  "sections": 12,
+  "raw_rules": 302,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You have the right to"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-053#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "GitLab",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data that GitLab has about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "request a copy",
+      "verb": "request"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You may request a copy"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-053#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "user profile information",
+      "name": "user profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you already have an account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-053#s10"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 95,
+  "completeness": {
+   "gaps": 262,
+   "gap_words": 2662
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 95,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 47738,
+  "completion_tokens": 51597,
+  "thinking_tokens": 0,
+  "seconds": 365.6171040534973,
+  "failures": 0
+ },
+ "seconds": 367.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

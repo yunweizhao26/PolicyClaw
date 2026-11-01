@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "android-071",
+ "text_sha256": "b40b49609777b31f95799d1e45773b096a4865dd64479d0b5fb07a3fdf809d5d",
+ "site_id": "android-071",
+ "sections": 18,
+ "rules": 242,
+ "report": {
+  "sections": 18,
+  "raw_rules": 230,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "a third party",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to assist us",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "in this regard"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-071#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "Beresnev Games",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your profile",
+      "name": "account profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "view",
+      "verb": "view"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "to change the settings in order to prevent others being able to add you as a friend",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "If you have an account with us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-071#s15"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 176,
+   "gap_words": 1903
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 82,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 56552,
+  "completion_tokens": 46289,
+  "thinking_tokens": 0,
+  "seconds": 383.50808668136597,
+  "failures": 0
+ },
+ "seconds": 384.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

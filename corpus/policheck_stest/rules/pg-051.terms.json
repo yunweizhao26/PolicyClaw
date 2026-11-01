@@ -1,0 +1,166 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device id": "device ID",
+    "information": "data",
+    "ip address": "IP address",
+    "local shared objects": "Flash cookies",
+    "personal information": "personal data",
+    "pixel tags": "clear GIFs",
+    "web beacons": "clear GIFs"
+   },
+   "parents": {
+    "Flash cookies": [
+     "cookie or other id",
+     "cookies"
+    ],
+    "HTML5 local storage": [
+     "cookie or other id"
+    ],
+    "IP address": [
+     "cookie or other id",
+     "personal data"
+    ],
+    "MAC address": [
+     "device ID",
+     "hardware-based device identifiers"
+    ],
+    "Operating System-based identifiers": [
+     "device ID"
+    ],
+    "app usage information": [
+     "user activity"
+    ],
+    "clear GIFs": [
+     "cookie or other id"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "cookies": [
+     "cookie or other id"
+    ],
+    "data about yourself": [
+     "personal data",
+     "user data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device ID": [
+     "cookie or other id"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "hardware type": [
+     "hardware profile"
+    ],
+    "hardware-based device identifiers": [
+     "device ID"
+    ],
+    "installed apps": [
+     "hardware profile"
+    ],
+    "operating system information": [
+     "hardware profile"
+    ],
+    "password": [
+     "personal data"
+    ],
+    "personal data": [
+     "collected data",
+     "data"
+    ],
+    "personally identifiable user and/or membership data": [
+     "personal data"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "social networking profile data": [
+     "personal data",
+     "user data"
+    ],
+    "usage of communication": [
+     "user activity"
+    ],
+    "user data": [
+     "data"
+    ],
+    "username": [
+     "contact information",
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "affiliates and partners",
+     "third party"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "ad network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide services"
+   },
+   "parents": {
+    "advertising": [
+     "advertising and analytics",
+     "marketing"
+    ],
+    "analytics": [
+     "advertising and analytics"
+    ],
+    "remember settings": [
+     "personalization"
+    ],
+    "business intelligence": [
+     "analytics"
+    ],
+    "product development": [
+     "service improvement"
+    ],
+    "activity participation": [
+     "provide services"
+    ],
+    "user account security": [
+     "legal and technical compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1975,
+  "completion_tokens": 934,
+  "thinking_tokens": 0,
+  "seconds": 10.104005098342896,
+  "failures": 0
+ },
+ "seconds": 10.2
+}

@@ -1,0 +1,128 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contacts": "contact info",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "profile photo": "photo"
+   },
+   "parents": {
+    "approximate location": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "device serial number": [
+     "device identifier"
+    ],
+    "advertising identifier": [
+     "unique device identifier"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "preferred language": [
+     "user preferences",
+     "user settings"
+    ],
+    "call timestamp": [
+     "transaction details"
+    ],
+    "text message content": [
+     "communication"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service provider": "other user"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "competent authority": [
+     "third party"
+    ],
+    "law enforcement": [
+     "competent authority",
+     "third party"
+    ],
+    "other user": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "user’s IP address": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "customization"
+   },
+   "parents": {
+    "identity verification": [
+     "account management"
+    ],
+    "research": [
+     "analytics"
+    ],
+    "service optimization": [
+     "analytics"
+    ],
+    "social networking": [
+     "service provision"
+    ],
+    "marketing": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2341,
+  "completion_tokens": 465,
+  "thinking_tokens": 0,
+  "seconds": 19.753429651260376,
+  "failures": 0
+ },
+ "seconds": 19.8
+}

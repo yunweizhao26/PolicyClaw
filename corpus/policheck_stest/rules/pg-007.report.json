@@ -1,0 +1,90 @@
+{
+ "cleaned_sha256": "pg-007",
+ "text_sha256": "9907789a5c9538b0392e6363410748780c9c1faf7d3a8d381dd714327f899e54",
+ "site_id": "pg-007",
+ "sections": 2,
+ "rules": 25,
+ "report": {
+  "sections": 2,
+  "raw_rules": 20,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not share",
+     "actor": {
+      "text": "I",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "anyone",
+      "name": "anyone"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "as described in this Privacy Policy"
+     ],
+     "references": [
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not share"
+    ],
+    "section": "pg-007#s1"
+   }
+  ],
+  "residual_quotes": 0,
+  "quotes": 9,
+  "completeness": {
+   "gaps": 48,
+   "gap_words": 468
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 9,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 6888,
+  "completion_tokens": 3369,
+  "thinking_tokens": 0,
+  "seconds": 34.218034744262695,
+  "failures": 0
+ },
+ "seconds": 34.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

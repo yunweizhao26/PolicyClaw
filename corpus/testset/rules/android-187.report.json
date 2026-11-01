@@ -1,0 +1,90 @@
+{
+ "cleaned_sha256": "android-187",
+ "text_sha256": "54cecccc6481515213fb8b453b25b4548e41d7675f4f7b51e4988203510103fe",
+ "site_id": "android-187",
+ "sections": 9,
+ "rules": 42,
+ "report": {
+  "sections": 9,
+  "raw_rules": 38,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not keep",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "keep",
+      "verb": "keep"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "for longer periods than what is necessary for the purposes outlined in this Privacy Policy"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not keep"
+    ],
+    "section": "android-187#s7"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 22,
+  "completeness": {
+   "gaps": 102,
+   "gap_words": 933
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 22,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 1,
+  "prompt_tokens": 22649,
+  "completion_tokens": 7099,
+  "thinking_tokens": 3551,
+  "seconds": 374.7964503765106,
+  "failures": 0
+ },
+ "seconds": 375.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

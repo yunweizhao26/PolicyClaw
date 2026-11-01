@@ -1,0 +1,170 @@
+{
+ "cleaned_sha256": "android-149",
+ "text_sha256": "2d5053c5131226f4fd95df8a69240472a63a791539f6613fdbaaf7d03cbf31a7",
+ "site_id": "android-149",
+ "sections": 9,
+ "rules": 61,
+ "report": {
+  "sections": 9,
+  "raw_rules": 48,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not intentionally",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "with your prior consent",
+      "otherwise stipulated herein"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your prior consent"
+    ],
+    "section": "android-149#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not intentionally",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "it",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "any third party",
+      "name": "third party"
+     },
+     "source": {
+      "text": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "with your prior consent",
+      "otherwise stipulated herein"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your prior consent"
+    ],
+    "section": "android-149#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If we are acquired by a third party or may re-organise our group structure"
+     ],
+     "data": {
+      "name": "information about you",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [
+      {
+       "text": "to continue to operate Parallel Space or similar services",
+       "name": "service operation"
+      }
+     ],
+     "recipient": {
+      "name": "acquirer",
+      "text": "a third party who will continue to operate Parallel Space or similar services"
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to continue to operate Parallel Space or similar services"
+    ],
+    "section": "android-149#s5"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 17,
+  "completeness": {
+   "gaps": 70,
+   "gap_words": 724
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 17,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 22771,
+  "completion_tokens": 8644,
+  "thinking_tokens": 0,
+  "seconds": 374.1604743003845,
+  "failures": 0
+ },
+ "seconds": 374.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

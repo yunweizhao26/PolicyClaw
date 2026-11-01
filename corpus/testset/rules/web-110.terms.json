@@ -1,0 +1,219 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "payment information": "payment details",
+    "personal data": "data about you",
+    "personal information": "data about you",
+    "sensitive personal data": "sensitive data",
+    "special categories of personal data": "sensitive data",
+    "username": "account username"
+   },
+   "parents": {
+    "account balance": [
+     "financial data"
+    ],
+    "account password": [
+     "account"
+    ],
+    "account username": [
+     "account"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "browser plug-in type": [
+     "device details"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browsing behavior": [
+     "data about you"
+    ],
+    "communication preferences": [
+     "preferences"
+    ],
+    "complaint": [
+     "communications"
+    ],
+    "direct messages": [
+     "communications",
+     "personal messages"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "financial data": [
+     "data about you"
+    ],
+    "identification document copy": [
+     "submitted data"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "payment date": [
+     "payment details"
+    ],
+    "payment details": [
+     "financial data"
+    ],
+    "payment method": [
+     "financial data",
+     "payment details"
+    ],
+    "payment provider": [
+     "payment details"
+    ],
+    "payment status": [
+     "payment details"
+    ],
+    "personal data contained in DMCA counter-notice": [
+     "DMCA counter-notice",
+     "data about you"
+    ],
+    "personal data contained in DMCA notice": [
+     "DMCA notice",
+     "data about you"
+    ],
+    "personal messages": [
+     "communications"
+    ],
+    "photo": [
+     "submitted data"
+    ],
+    "place of residence": [
+     "location"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "profile photo": [
+     "photo",
+     "profile details"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "smart device info": [
+     "device details"
+    ],
+    "user comment": [
+     "submitted data"
+    ],
+    "user-provided content": [
+     "submitted data"
+    ],
+    "video content": [
+     "submitted data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "legal counsel": [
+     "third party"
+    ],
+    "platform users": [
+     "public"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "user who uploaded allegedly infringing material": [
+     "platform users",
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "individuals who are considered minors": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "employee": [
+     "first party"
+    ],
+    "AgeVerif": [
+     "service provider",
+     "third party"
+    ],
+    "VerifyMy": [
+     "service provider",
+     "third party"
+    ],
+    "Yoti": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "service improvement": "improve service",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "billing": [
+     "payment processing"
+    ],
+    "commercial communication": [
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "for the purposes of confirming their legal age and identity and (if applicable) for the purpose of creating an account on third parties’ websites (including third-party service providers from the list specified in clause 8 of this Privacy Policy)": [
+     "identity verification"
+    ],
+    "legal assistance": [
+     "legal compliance"
+    ],
+    "send you important notifications about your account": [
+     "system notification"
+    ],
+    "service development": [
+     "research and development"
+    ],
+    "improve service": [
+     "functionality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2861,
+  "completion_tokens": 1064,
+  "thinking_tokens": 0,
+  "seconds": 12.011064052581787,
+  "failures": 0
+ },
+ "seconds": 12.1
+}

@@ -1,0 +1,282 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "date and time of access": "access timestamps",
+    "device ID": "Google advertising ID",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "personal information": "Personal Information",
+    "personal_data": "personal data",
+    "phone_number": "phone number",
+    "referring url": "referrer URL",
+    "sensitive data": "Sensitive Personal Information",
+    "unspecified": "data",
+    "web beacons": "beacons"
+   },
+   "parents": {
+    "Google advertising ID": [
+     "device identifier"
+    ],
+    "IP address": [
+     "device information"
+    ],
+    "MAC address": [
+     "device identifier"
+    ],
+    "Sensitive Personal Information": [
+     "Personal Information",
+     "personal data"
+    ],
+    "access timestamps": [
+     "browsing data"
+    ],
+    "ad performance data": [
+     "analytics data"
+    ],
+    "app usage data": [
+     "site usage data"
+    ],
+    "beacons": [
+     "cookies and device identifiers",
+     "tracking technologies"
+    ],
+    "billing_address": [
+     "postal address"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing behavior": [
+     "browsing data"
+    ],
+    "browsing history": [
+     "browsing data"
+    ],
+    "clickstream data": [
+     "browsing data"
+    ],
+    "contact details": [
+     "Personal Information",
+     "personal data"
+    ],
+    "cookie ID": [
+     "unique identifier"
+    ],
+    "cookies": [
+     "cookies and device identifiers",
+     "tracking technologies"
+    ],
+    "date of birth": [
+     "Personal Information",
+     "personal data"
+    ],
+    "device id": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "cookies and device identifiers"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "financial transaction records": [
+     "purchase history"
+    ],
+    "forum posts": [
+     "posts"
+    ],
+    "game comments": [
+     "posts"
+    ],
+    "gameplay": [
+     "game play data"
+    ],
+    "gameplay preferences": [
+     "game play data"
+    ],
+    "gender": [
+     "Personal Information",
+     "personal data"
+    ],
+    "imprecise location": [
+     "geolocation"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "payment_card_details": [
+     "financial transaction records"
+    ],
+    "personal data": [
+     "data of users"
+    ],
+    "Personal Information": [
+     "data of users"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "post content": [
+     "posts"
+    ],
+    "post date": [
+     "posts"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "pseudonymous user profile": [
+     "user account"
+    ],
+    "push notification token": [
+     "device identifier"
+    ],
+    "scripts": [
+     "tracking technologies"
+    ],
+    "search terms": [
+     "browsing data"
+    ],
+    "social media interaction information": [
+     "social media information"
+    ],
+    "social network id": [
+     "user identifier"
+    ],
+    "tags": [
+     "tracking technologies"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ],
+    "user identifier": [
+     "unique identifier"
+    ],
+    "username": [
+     "user identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "internal employee": [
+     "first party"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "facebook": [
+     "third parties"
+    ],
+    "vendors outside EU": [
+     "recipient outside EEA EU",
+     "recipients outside EU"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social media platform": "social media",
+    "third-party": "third party",
+    "users": "user"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertiser",
+    "first party": "Kongregate",
+    "third party analytics companies": "analytics services",
+    "third-party advertising companies": "advertiser"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "analytics services": [
+     "third party"
+    ],
+    "backend system vendors": [
+     "data processor",
+     "third party",
+     "third party service provider"
+    ],
+    "third party developers": [
+     "third party"
+    ],
+    "third party service provider": [
+     "third party"
+    ],
+    "data processor": [
+     "third party",
+     "third party service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contractual necessity": "contract performance",
+    "customer_support": "customer support",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "ad measurement": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "contract negotiation": [
+     "contract"
+    ],
+    "contract performance": [
+     "contract"
+    ],
+    "bug fixing": [
+     "service improvement"
+    ],
+    "demographic research": [
+     "analytics"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "legal defense": [
+     "legal compliance"
+    ],
+    "order_fulfillment": [
+     "service provision"
+    ],
+    "site administration": [
+     "service provision"
+    ],
+    "operational business purposes": [
+     "for a business purpose"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4034,
+  "completion_tokens": 1338,
+  "thinking_tokens": 0,
+  "seconds": 13.301783561706543,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

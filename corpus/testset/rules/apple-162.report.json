@@ -1,0 +1,1980 @@
+{
+ "cleaned_sha256": "apple-162",
+ "text_sha256": "c454e9819cb9f27632d6ab6c6a09f4943665b684d693e0b340f0ecf6e3bd606a",
+ "site_id": "apple-162",
+ "sections": 27,
+ "rules": 375,
+ "report": {
+  "sections": 27,
+  "raw_rules": 223,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "after one year at the latest"
+     ],
+     "exceptions": [
+      "specified in the information on the applicable research study or project"
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "purpose": [
+      {
+       "text": "this purpose",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "anonymize",
+      "verb": "anonymize"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "after one year at the latest"
+     ],
+     "exceptions": [
+      "specified in the information on the applicable research study or project"
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "anonymize",
+     "purpose": [
+      {
+       "text": "this purpose",
+       "name": ""
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "pseudonymized information about how you behave on the Toucan by Babbel add-on",
+      "name": "pseudonymized information about how you behave on the Toucan by Babbel add-on"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Provision of the service and displaying the translations",
+       "name": "service provision"
+      },
+      {
+       "text": "Ensuring the security, operability, and stability of our services, including defense against cyber attacks",
+       "name": "security"
+      },
+      {
+       "text": "To measure our reach and analyze user behavior to optimize our products, increase customer satisfaction and improve error analysis",
+       "name": "analytics"
+      },
+      {
+       "text": "To tailor features and content and to market and provide offers or promotions",
+       "name": "personalization"
+      },
+      {
+       "text": "Tracking and conversion tracking to measure our reach and conversion rate tracking of our business affiliate partners",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "consent (in situations where we have obtained consent from you); legitimate interest in acquiring new customers, promoting sales, improving the user experience, increasing customer satisfaction and calculating commissions in all other cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data you provide to us in contact forms about yourself or the company you work for",
+      "name": "data you provide to us in contact forms about yourself or the company you work for"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Customer acquisition",
+       "name": "marketing"
+      },
+      {
+       "text": "Support and communication: storing and answering inquiries, which can reach us in various ways (e.g. via email or contact form)",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "legitimate interest in acquiring new B2B customers, communicating efficiently and increasing customer satisfaction"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Pseudonymized information about the device and browser you are using",
+      "name": "Pseudonymized information about the device and browser you are using"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Ensuring the security, operability and stability of our services, including defense against cyber-attacks",
+       "name": "security"
+      },
+      {
+       "text": "Integration of third-party content (e.g. ratings, questionnaires)",
+       "name": "service provision"
+      },
+      {
+       "text": "Technical provision of the functions in our interface for employer admins of B2B customers",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "legitimate interest in ensuring the security, functionality and stability of our services, including defense against cyber attacks and the appealing design of our website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "server log files",
+      "name": "server log files"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Ensuring the security, operability and stability of our services, including defense against cyber-attacks",
+       "name": "security"
+      },
+      {
+       "text": "Integration of third-party content (e.g. ratings, questionnaires)",
+       "name": "service provision"
+      },
+      {
+       "text": "Technical provision of the functions in our interface for employer admins of B2B customers",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "legitimate interest in ensuring the security, functionality and stability of our services, including defense against cyber attacks and the appealing design of our website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your network connection",
+      "name": "network connection"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Ensuring the security, operability and stability of our services, including defense against cyber-attacks",
+       "name": "security"
+      },
+      {
+       "text": "Integration of third-party content (e.g. ratings, questionnaires)",
+       "name": "service provision"
+      },
+      {
+       "text": "Technical provision of the functions in our interface for employer admins of B2B customers",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "legitimate interest in ensuring the security, functionality and stability of our services, including defense against cyber attacks and the appealing design of our website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your IP address",
+      "name": "IP address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [
+      {
+       "text": "Ensuring the security, operability and stability of our services, including defense against cyber-attacks",
+       "name": "security"
+      },
+      {
+       "text": "Integration of third-party content (e.g. ratings, questionnaires)",
+       "name": "service provision"
+      },
+      {
+       "text": "Technical provision of the functions in our interface for employer admins of B2B customers",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "legitimate interest in ensuring the security, functionality and stability of our services, including defense against cyber attacks and the appealing design of our website"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s6"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "user behavior",
+      "text": "Information about how you behave on our websites"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "as described in 2.3.3",
+      "as a joint controller with several partners under the following conditions and for the following purposes"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "2.3.3",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "event data",
+      "text": "event data"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "action": {
+      "name": "collect",
+      "verb": "collect",
+      "text": ""
+     },
+     "operation": "collection",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [
+      {
+       "text": "for targeting our advertisements",
+       "name": "targeting advertisements"
+      },
+      {
+       "text": "improving ad delivery on third-party platforms (particularly social media platforms)",
+       "name": "improving ad delivery"
+      },
+      {
+       "text": "personalizing features and content",
+       "name": "personalizing features and content"
+      },
+      {
+       "text": "enhancing the advertisements of our products on third-party platforms",
+       "name": "enhancing advertisements"
+      }
+     ],
+     "conditions": [
+      "via pixel tracking as part of conversion tracking"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "data": {
+      "name": "event data",
+      "text": "the event data collected on our website via the pixel"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "is transmitted",
+     "action": {
+      "name": "transmit",
+      "verb": "transmit",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "platform providers",
+      "text": "the providers of these platforms (particularly social media platforms)"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "platform providers",
+      "text": "the providers of these platforms (particularly social media platforms)"
+     },
+     "data": {
+      "name": "event data",
+      "text": "the event data collected on our website via the pixel"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "analyzed",
+     "action": {
+      "name": "analyze",
+      "verb": "analyze",
+      "text": ""
+     },
+     "operation": "use",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "data": {
+      "name": "event data",
+      "text": "event data"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "carried out",
+     "action": {
+      "name": "collection",
+      "verb": "collect",
+      "text": ""
+     },
+     "operation": "collection",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "jointly by us and the platform providers as joint controllers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "platform providers",
+      "text": "the platform providers"
+     },
+     "data": {
+      "name": "event data",
+      "text": "event data"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "carried out",
+     "action": {
+      "name": "collection",
+      "verb": "collect",
+      "text": ""
+     },
+     "operation": "collection",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "jointly by us and the platform providers as joint controllers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "data": {
+      "name": "event data",
+      "text": "event data"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "carried out",
+     "action": {
+      "name": "transmission",
+      "verb": "transmit",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "jointly by us and the platform providers as joint controllers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "platform providers",
+      "text": "the platform providers"
+     },
+     "data": {
+      "name": "event data",
+      "text": "event data"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "carried out",
+     "action": {
+      "name": "transmission",
+      "verb": "transmit",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "jointly by us and the platform providers as joint controllers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your personal data collected on our websites"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "transfer",
+     "action": {
+      "name": "transfer",
+      "verb": "transfer",
+      "text": ""
+     },
+     "operation": "disclosure by transmission",
+     "recipient": {
+      "name": "advertising partners",
+      "text": "our advertising partners"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "In those cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "name",
+      "text": "your name"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [
+      {
+       "text": "Fulfillment of the contract with your company (e.g. to manage your account, for invoicing, following up on invoices)",
+       "name": "fulfillment of contract"
+      },
+      {
+       "text": "Registration on our admin portal",
+       "name": "registration"
+      },
+      {
+       "text": "Support and communication: answering requests",
+       "name": "support and communication"
+      },
+      {
+       "text": "Communication regarding product updates and new features, as well as information to motivate the users at your company",
+       "name": "communication regarding product updates"
+      },
+      {
+       "text": "Conducting product and satisfaction surveys",
+       "name": "conducting product and satisfaction surveys"
+      },
+      {
+       "text": "Advertising of products and services of Babbel and business affiliates",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Contact persons at (prospective) B2B customers who enable their own employees to use Babbel",
+      "legitimate interest in the fulfilment of the contract we have concluded with the company you work for, as well as promoting the use of our services and efficient communication."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "email address",
+      "text": "email address"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [
+      {
+       "text": "Fulfillment of the contract with your company (e.g. to manage your account, for invoicing, following up on invoices)",
+       "name": "fulfillment of contract"
+      },
+      {
+       "text": "Registration on our admin portal",
+       "name": "registration"
+      },
+      {
+       "text": "Support and communication: answering requests",
+       "name": "support and communication"
+      },
+      {
+       "text": "Communication regarding product updates and new features, as well as information to motivate the users at your company",
+       "name": "communication regarding product updates"
+      },
+      {
+       "text": "Conducting product and satisfaction surveys",
+       "name": "conducting product and satisfaction surveys"
+      },
+      {
+       "text": "Advertising of products and services of Babbel and business affiliates",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Contact persons at (prospective) B2B customers who enable their own employees to use Babbel",
+      "legitimate interest in the fulfilment of the contract we have concluded with the company you work for, as well as promoting the use of our services and efficient communication."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "telephone number",
+      "text": "telephone number"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "action": {
+      "name": "process",
+      "verb": "process",
+      "text": ""
+     },
+     "operation": "processing",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "purpose": [
+      {
+       "text": "Fulfillment of the contract with your company (e.g. to manage your account, for invoicing, following up on invoices)",
+       "name": "fulfillment of contract"
+      },
+      {
+       "text": "Registration on our admin portal",
+       "name": "registration"
+      },
+      {
+       "text": "Support and communication: answering requests",
+       "name": "support and communication"
+      },
+      {
+       "text": "Communication regarding product updates and new features, as well as information to motivate the users at your company",
+       "name": "communication regarding product updates"
+      },
+      {
+       "text": "Conducting product and satisfaction surveys",
+       "name": "conducting product and satisfaction surveys"
+      },
+      {
+       "text": "Advertising of products and services of Babbel and business affiliates",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Contact persons at (prospective) B2B customers who enable their own employees to use Babbel",
+      "legitimate interest in the fulfilment of the contract we have concluded with the company you work for, as well as promoting the use of our services and efficient communication."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will otherwise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-162#s10"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Babbel"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "data": {
+      "name": "user input",
+      "text": "data that you input"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "user",
+      "text": "you"
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "in order to generate content and to provide our speech assessment services to you",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "when using our features that are provided with the help of AI tools"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "data that you input"
+    ],
+    "section": "apple-162#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "identifying information",
+      "text": "Identifiers"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Directly from consumers when interacting with our services"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "identifying information",
+      "text": "Identifiers"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Directly from consumers when interacting with our services"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "identifying information",
+      "text": "Identifiers"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "other third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Directly from consumers when interacting with our services"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Share(d)",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "identifying information",
+      "text": "Identifiers"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Share(d) with",
+     "purpose": [
+      {
+       "text": "helping with retargeting advertising to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "Third parties (such as advertising or social media partners)"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "Directly from consumers when interacting with our services"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“shared”",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "commercial information",
+      "text": "Commercial information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "Not “shared”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as defined under the CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "Internet or other similar network activity information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "Internet or other similar network activity information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "Internet or other similar network activity information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "other third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Share(d)",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "Internet or other similar network activity information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Share(d) with",
+     "purpose": [
+      {
+       "text": "helping with retargeting advertising to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "Third parties (such as advertising or social media partners)"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "employment information",
+      "text": "Professional or employment-related information, including education information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "employment information",
+      "text": "Professional or employment-related information, including education information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“shared”",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "employment information",
+      "text": "Professional or employment-related information, including education information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "Not “shared”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as defined under the CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "audio data",
+      "text": "Audio or similar information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "audio data",
+      "text": "Audio or similar information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“shared”",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "audio data",
+      "text": "Audio or similar information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "Not “shared”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as defined under the CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "inferences",
+      "text": "Inferences"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "inferences",
+      "text": "Inferences"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "inferences",
+      "text": "Inferences"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "other third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Share(d)",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "inferences",
+      "text": "Inferences"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Share(d) with",
+     "purpose": [
+      {
+       "text": "helping with retargeting advertising to you",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "Third parties (such as advertising or social media partners)"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensitive data",
+      "text": "Sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "vendor",
+      "text": "Vendors"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Disclose(d)",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensitive data",
+      "text": "Sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Disclose(d)",
+     "purpose": [],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "“shared”",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensitive data",
+      "text": "Sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "Not “shared”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as defined under the CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be accessible",
+     "actor": {
+      "text": "regulatory authorities",
+      "name": "regulatory authorities"
+     },
+     "data": {
+      "text": "Personal Data under our custody or control",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "our custody or control",
+      "name": "first party"
+     },
+     "action": {
+      "text": "be accessible",
+      "verb": "be"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "15. ADDITIONAL INFORMATION FOR RESIDENTS OF CANADA",
+      "We may use service providers that are located outside of Canada",
+      "in accordance with the laws of these jurisdictions"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws of these jurisdictions",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be accessible",
+     "actor": {
+      "text": "courts",
+      "name": "court"
+     },
+     "data": {
+      "text": "Personal Data under our custody or control",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "our custody or control",
+      "name": "first party"
+     },
+     "action": {
+      "text": "be accessible",
+      "verb": "be"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "15. ADDITIONAL INFORMATION FOR RESIDENTS OF CANADA",
+      "We may use service providers that are located outside of Canada",
+      "in accordance with the laws of these jurisdictions"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws of these jurisdictions",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s26"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be accessible",
+     "actor": {
+      "text": "law enforcement outside of Canada",
+      "name": "law enforcement"
+     },
+     "data": {
+      "text": "Personal Data under our custody or control",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "our custody or control",
+      "name": "first party"
+     },
+     "action": {
+      "text": "be accessible",
+      "verb": "be"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "15. ADDITIONAL INFORMATION FOR RESIDENTS OF CANADA",
+      "We may use service providers that are located outside of Canada",
+      "in accordance with the laws of these jurisdictions"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws of these jurisdictions",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-162#s26"
+   }
+  ],
+  "residual_quotes": 43,
+  "quotes": 137,
+  "completeness": {
+   "gaps": 533,
+   "gap_words": 5253
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 20,
+  "translated_quotes": 137,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 48,
+  "cached": 0,
+  "prompt_tokens": 86702,
+  "completion_tokens": 56829,
+  "thinking_tokens": 0,
+  "seconds": 882.0960319042206,
+  "failures": 0
+ },
+ "seconds": 883.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,329 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "coarse location": "approximate location",
+    "cookies": "cookie",
+    "deidentified information": "de-identified information",
+    "device identifier": "device id",
+    "information": "data",
+    "personal information": "personal data",
+    "pet information": "pet data",
+    "user data": "information about you"
+   },
+   "parents": {
+    "account login": [
+     "account details"
+    ],
+    "password": [
+     "account details"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "bank account details": [
+     "financial information"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "debit card number": [
+     "payment card number"
+    ],
+    "payment card number": [
+     "financial information"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "street address": [
+     "postal address"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "city": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "postal address": [
+     "contact information",
+     "identifiers"
+    ],
+    "email address": [
+     "contact information",
+     "identifiers"
+    ],
+    "phone number": [
+     "contact information",
+     "identifiers"
+    ],
+    "name": [
+     "contact information",
+     "identifiers"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "children's personal information": [
+     "personal data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "device id": [
+     "identifiers"
+    ],
+    "cookie": [
+     "identifiers"
+    ],
+    "browsing behavior": [
+     "electronic network activity"
+    ],
+    "browsing history": [
+     "electronic network activity"
+    ],
+    "browsing patterns": [
+     "electronic network activity"
+    ],
+    "browsing timestamp": [
+     "electronic network activity"
+    ],
+    "visited pages": [
+     "browsing history"
+    ],
+    "referrer url": [
+     "electronic network activity"
+    ],
+    "chat logs": [
+     "communications"
+    ],
+    "communications about promotions or offers": [
+     "communications"
+    ],
+    "opt-out preference signal": [
+     "do not track signal"
+    ],
+    "pet disease or condition": [
+     "pet health information"
+    ],
+    "pet prescription": [
+     "pet health information"
+    ],
+    "pet treatment": [
+     "pet health information"
+    ],
+    "pet health information": [
+     "pet data"
+    ],
+    "pet profile": [
+     "pet data"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "profile inferences": [
+     "inferences"
+    ],
+    "text messaging originator opt-in data": [
+     "Data obtained through the Pet RX SMS messaging program"
+    ],
+    "information about you": [
+     "personal data"
+    ],
+    "information we collect about you": [
+     "collected information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "affiliate": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "successor entity": [
+     "third party"
+    ],
+    "the government": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "data_broker": "data broker",
+    "third-party ad network": "third party ad tech company",
+    "third_party": "third party"
+   },
+   "parents": {
+    "advertising_network": [
+     "third party"
+    ],
+    "veterinarian": [
+     "business_partner"
+    ],
+    "insurance company": [
+     "business_partner"
+    ],
+    "shelter": [
+     "business_partner"
+    ],
+    "pet service provider": [
+     "business_partner"
+    ],
+    "offline and online sources": [
+     "other sources"
+    ],
+    "third party ad tech company": [
+     "advertising_network"
+    ],
+    "payment processor": [
+     "service_provider"
+    ],
+    "shipping carrier": [
+     "service_provider"
+    ],
+    "analytics_provider": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "business_partner": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party"
+    ],
+    "social_network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party ad tech provider": "third party ad tech company",
+    "third_party": "third party"
+   },
+   "parents": {
+    "analytics provider": [
+     "service provider"
+    ],
+    "third party ad tech company": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "account authentication": [
+     "account management",
+     "security"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "in connection with our marketing efforts to promote our Services": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "in order process certain prescriptions": [
+     "service provision"
+    ],
+    "to validate prescriptions or provide other advice": [
+     "service provision"
+    ],
+    "to facilitate transactions and payment, including as needed to meet regulatory obligations": [
+     "service provision"
+    ],
+    "service communication": [
+     "service provision"
+    ],
+    "product improvement": [
+     "business operations"
+    ],
+    "service optimization": [
+     "product improvement"
+    ],
+    "analytics": [
+     "business operations"
+    ],
+    "research_and_development": [
+     "business operations"
+    ],
+    "quality_maintenance": [
+     "business operations"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "business operations": [
+     "business purposes",
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy",
+     "in order to conduct our business"
+    ],
+    "in order to conduct our business": [
+     "business purposes"
+    ],
+    "business purposes": [
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy"
+    ],
+    "marketing": [
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4096,
+  "completion_tokens": 1526,
+  "thinking_tokens": 0,
+  "seconds": 14.791692972183228,
+  "failures": 0
+ },
+ "seconds": 14.9
+}

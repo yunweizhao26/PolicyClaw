@@ -1,0 +1,84 @@
+{
+ "cleaned_sha256": "android-110",
+ "text_sha256": "9d147e0ce641163df31805b8d8d2e7002a801e148642e0b487e56177ce923fad",
+ "site_id": "android-110",
+ "sections": 1,
+ "rules": 32,
+ "report": {
+  "sections": 1,
+  "raw_rules": 26,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "at the users request"
+     ],
+     "data": {
+      "name": "user account data",
+      "text": "Accounts on this site"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "can be deleted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "can be deleted"
+    ],
+    "section": "android-110#s1"
+   }
+  ],
+  "residual_quotes": 0,
+  "quotes": 6,
+  "completeness": {
+   "gaps": 27,
+   "gap_words": 231
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 6,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3888,
+  "completion_tokens": 3659,
+  "thinking_tokens": 0,
+  "seconds": 22.683546543121338,
+  "failures": 0
+ },
+ "seconds": 22.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "hardware device id": "device identifier",
+    "password": "credentials",
+    "personal information": "personal data",
+    "unspecified-data": "data",
+    "web beacons": "pixel tags",
+    "your data": "data"
+   },
+   "parents": {
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "minors' data": [
+     "personal data"
+    ],
+    "website visits": [
+     "browsing activity"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "app and service usage"
+    ],
+    "interaction data": [
+     "app and service usage"
+    ],
+    "email account data": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "username": [
+     "credentials"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party email service providers": "third-party email servers"
+   },
+   "parents": {
+    "third-party service providers": [
+     "service providers",
+     "third parties"
+    ],
+    "third-party email servers": [
+     "third parties",
+     "third-party service providers"
+    ],
+    "third-party Exchange email server": [
+     "third parties",
+     "third-party email servers"
+    ],
+    "developers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "other individuals": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "administrator": [
+     "authorized personnel"
+    ],
+    "third-party email service provider": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "user-experience": "service-improvement"
+   },
+   "parents": {
+    "authentication": [
+     "security"
+    ],
+    "completion of transaction": [
+     "service provision"
+    ],
+    "device identification": [
+     "security"
+    ],
+    "manage accounts and emails": [
+     "service provision"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "respond to your Do Not Track request": [
+     "legal compliance"
+    ],
+    "risk management": [
+     "security"
+    ],
+    "security": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "service-improvement": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2123,
+  "completion_tokens": 766,
+  "thinking_tokens": 0,
+  "seconds": 9.83862566947937,
+  "failures": 0
+ },
+ "seconds": 9.9
+}

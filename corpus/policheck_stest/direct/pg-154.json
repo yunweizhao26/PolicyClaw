@@ -1,0 +1,30 @@
+{
+ "policy": "pg-154",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "We may share personally identifiable information (such as name, address, email or phone) with trusted partners in order to provide you with relevant advertising, offers or services.",
+   "prohibit": "We do not collect personally identifiable information about you.",
+   "situation": "When handling personally identifiable information such as a user's name, address, phone number, or email address.",
+   "reason": "Section II(2) explicitly denies collecting PII, but Section IV(1) permits sharing collected PII with trusted partners without reconciling the contradiction.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "You can sign into your account to see or delete any personally identifiable information we have stored, such as your name, address, email or phone number.",
+   "prohibit": "In other words, we do not collect information such as your name, address, phone number or email address.",
+   "situation": "When managing or retaining user account data like name, address, email, or phone number.",
+   "reason": "The policy unequivocally states it does not collect such PII, yet later states it stores it in connection with user accounts.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1643,
+  "completion_tokens": 298,
+  "thinking_tokens": 0,
+  "seconds": 52.3480327129364,
+  "failures": 0
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "cleaned_sha256": "pg-102",
+ "text_sha256": "d1c60d7bfa151bbcd4d1e6e37cb38f694c138a3f8b59e4f85aab5c3d9bc03364",
+ "site_id": "pg-102",
+ "sections": 19,
+ "rules": 112,
+ "report": {
+  "sections": 19,
+  "raw_rules": 107,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "data transmission",
+      "verb": "transmit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [
+      "different configuration options",
+      "These applications"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "data transmission to Facebook",
+     "purpose": [],
+     "recipient": {
+      "name": "Facebook",
+      "text": "Facebook"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-102#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have access to",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "location data",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "opt-out from further allowing us to have access to your location data by: Following the third party instructions directly: For Google (AdMob) please visit https://www.google.com/ads/preferences/html/mobile-about.html ; For AppLovin please visit https://www.applovin.com/optout . Activating “Do Not Track Settings” in mobile phone"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-102#s8"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use automatic decision-making",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "As a responsible company"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-102#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "As a responsible company"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-102#s13"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 49,
+  "completeness": {
+   "gaps": 157,
+   "gap_words": 1717
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 49,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 32,
+  "cached": 0,
+  "prompt_tokens": 47812,
+  "completion_tokens": 22189,
+  "thinking_tokens": 0,
+  "seconds": 193.0324091911316,
+  "failures": 0
+ },
+ "seconds": 194.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

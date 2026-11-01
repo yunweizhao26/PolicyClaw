@@ -1,0 +1,297 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email_address": "email address",
+    "location": "geolocation information",
+    "log-in credentials": "account login credentials",
+    "personal information": "personal data",
+    "personal_identifiers": "identifiers",
+    "personal_information": "personal data",
+    "points-earning activities": "point-earning activities",
+    "postal address": "billing address",
+    "precise geolocation data": "precise geolocation",
+    "profile picture": "profile photo",
+    "sensitive personal information": "sensitive personal data",
+    "username": "user name"
+   },
+   "parents": {
+    "FAM account and billing information": [
+     "billing information"
+    ],
+    "Fetch user ID": [
+     "identifiers"
+    ],
+    "GoodRx Card Member ID": [
+     "GoodRx Card information",
+     "identifiers"
+    ],
+    "IP address": [
+     "identifiers",
+     "internet and network activity"
+    ],
+    "billing address": [
+     "billing information",
+     "contact info",
+     "identifiers"
+    ],
+    "billing information": [
+     "financial info"
+    ],
+    "browsing activity": [
+     "internet and network activity"
+    ],
+    "browsing history": [
+     "browsing activity",
+     "internet and network activity"
+    ],
+    "consent details": [
+     "consent"
+    ],
+    "consumer health data": [
+     "sensitive personal data"
+    ],
+    "contents of your electronic receipts": [
+     "receipt information"
+    ],
+    "cookies": [
+     "tracking technology data"
+    ],
+    "date of activity": [
+     "activity info"
+    ],
+    "device characteristics": [
+     "device location"
+    ],
+    "digital receipt information": [
+     "receipt information"
+    ],
+    "email address": [
+     "contact info",
+     "identifiers"
+    ],
+    "financial info": [
+     "personal data"
+    ],
+    "fitness tracking data": [
+     "consumer health data"
+    ],
+    "general geolocation": [
+     "geolocation information"
+    ],
+    "geo-location": [
+     "geolocation information"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "payment card details": [
+     "financial info"
+    ],
+    "phone number": [
+     "contact info",
+     "identifiers"
+    ],
+    "physical location": [
+     "geolocation information"
+    ],
+    "pixel tags": [
+     "tracking technology data"
+    ],
+    "points earned": [
+     "rewards redeemed"
+    ],
+    "precise geolocation": [
+     "geolocation information",
+     "sensitive personal data"
+    ],
+    "profile photo": [
+     "profile data"
+    ],
+    "purchase information": [
+     "receipt information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "state": [
+     "geolocation information"
+    ],
+    "total dollars spent": [
+     "purchase information"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "unique device identifier": [
+     "identifiers"
+    ],
+    "user name": [
+     "identifiers"
+    ],
+    "website_usage_frequency": [
+     "internet and network activity"
+    ],
+    "website_usage_manner": [
+     "internet and network activity"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "advertising platforms": "advertising platform",
+    "analytics providers": "analytics provider",
+    "brand partners": "brand partner",
+    "service providers": "service provider",
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "GoodRx": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "advertising platform": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "brand partner": [
+     "third party"
+    ],
+    "friend": [
+     "Fetch member"
+    ],
+    "referrer": [
+     "Fetch member"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party payment processor": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third parties"
+    ],
+    "Google APIs": [
+     "Google"
+    ],
+    "apps_partnering_with_google": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "GoodRx": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "brand partners": [
+     "third party"
+    ],
+    "third-party payment processor": [
+     "third party"
+    ],
+    "friend": [
+     "user"
+    ],
+    "friends of friends": [
+     "user"
+    ],
+    "unconnected user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "facilitate relationship with GoodRx": "enable engagement with GoodRx",
+    "legal_compliance": "legal compliance",
+    "provide support": "customer support",
+    "service_optimization": "service_improvement",
+    "service_provision": "service provision",
+    "targeted advertising": "cross-context behavioral advertising",
+    "targeted_advertising": "cross-context behavioral advertising",
+    "user_authentication": "authentication"
+   },
+   "parents": {
+    "create and administer account": [
+     "account administration"
+    ],
+    "account security and fraud prevention": [
+     "fraud detection and prevention",
+     "fraud_prevention_and_security"
+    ],
+    "cross-context behavioral advertising": [
+     "advertising"
+    ],
+    "analytics and site improvement": [
+     "analytics",
+     "service_improvement"
+    ],
+    "marketing analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "send and manage messages": [
+     "communication"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "process billing": [
+     "payment processing"
+    ],
+    "provide points": [
+     "perform services"
+    ],
+    "perform services": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3586,
+  "completion_tokens": 1489,
+  "thinking_tokens": 0,
+  "seconds": 19.501412391662598,
+  "failures": 0
+ },
+ "seconds": 19.6
+}

@@ -1,0 +1,122 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personally identifiable information": "Personal Data"
+   },
+   "parents": {
+    "advertising cookies": [
+     "cookies"
+    ],
+    "strictly necessary cookies": [
+     "cookies"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "web beacons": [
+     "tracking technologies"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "photos": [
+     "files"
+    ],
+    "service usage duration": [
+     "service use information"
+    ],
+    "IP address": [
+     "information"
+    ],
+    "Personal Data": [
+     "information"
+    ],
+    "contact information": [
+     "information"
+    ],
+    "device platform details": [
+     "information"
+    ],
+    "service use information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "customer care providers": [
+     "service provider"
+    ],
+    "technology assistants": [
+     "service provider"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other trusted businesses or persons": [
+     "third party"
+    ],
+    "affiliates": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party vendor": "service provider"
+   },
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services improvement": "service optimization"
+   },
+   "parents": {
+    "customer support": [
+     "service provision"
+    ],
+    "target rewards or promotions": [
+     "marketing"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ],
+    "security": [
+     "service provision"
+    ],
+    "verifying identity": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1859,
+  "completion_tokens": 505,
+  "thinking_tokens": 0,
+  "seconds": 14.749062061309814,
+  "failures": 0
+ },
+ "seconds": 14.8
+}

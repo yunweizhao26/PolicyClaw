@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "android-196",
+ "text_sha256": "c73b12f3c5bf8a1445a711ce231ffaf17eedf1c58acd6fc7090e87d8dc0f962e",
+ "site_id": "android-196",
+ "sections": 14,
+ "rules": 88,
+ "report": {
+  "sections": 14,
+  "raw_rules": 83,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "actor": {
+      "text": "Psiphon",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third parties such as Google AdMob, Amazon Web Services, and Cloudflare",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-196#s7"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 41,
+  "completeness": {
+   "gaps": 96,
+   "gap_words": 951
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 41,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 36301,
+  "completion_tokens": 15468,
+  "thinking_tokens": 0,
+  "seconds": 580.8594515323639,
+  "failures": 0
+ },
+ "seconds": 581.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

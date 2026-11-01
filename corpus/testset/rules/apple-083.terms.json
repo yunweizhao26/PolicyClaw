@@ -1,0 +1,208 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device data",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device ID"
+    ],
+    "device ID": [
+     "device data"
+    ],
+    "ip address": [
+     "device data"
+    ],
+    "location": [
+     "device data"
+    ],
+    "country": [
+     "location"
+    ],
+    "region": [
+     "location"
+    ],
+    "email address": [
+     "information you provide",
+     "personal data"
+    ],
+    "phone number": [
+     "information you provide",
+     "personal data"
+    ],
+    "name": [
+     "personal data",
+     "profile data"
+    ],
+    "profile photo": [
+     "profile data"
+    ],
+    "profile data": [
+     "information you provide",
+     "user data"
+    ],
+    "friends": [
+     "profile data",
+     "user data"
+    ],
+    "user ID": [
+     "personal data"
+    ],
+    "user activity": [
+     "user data"
+    ],
+    "purchased items": [
+     "financial information",
+     "purchase and customer service records"
+    ],
+    "transaction details": [
+     "financial information",
+     "purchase and customer service records"
+    ],
+    "purchase and customer service records": [
+     "financial information"
+    ],
+    "user inquiry": [
+     "information you provide",
+     "user data"
+    ],
+    "publicly shared data": [
+     "information you provide",
+     "user data"
+    ],
+    "push notification tokens": [
+     "device data"
+    ],
+    "personal data": [
+     "data we have in our systems"
+    ],
+    "user data": [
+     "data",
+     "data we have in our systems"
+    ],
+    "information you provide": [
+     "user data"
+    ],
+    "incomplete or inaccurate information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "public authority": [
+     "third party"
+    ],
+    "third party service provider": [
+     "third party"
+    ],
+    "user": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "marketing partner": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party",
+     "third party partner"
+    ],
+    "third party advertising network": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide services",
+    "user verification": "user account management"
+   },
+   "parents": {
+    "ad personalization": [
+     "advertising",
+     "marketing",
+     "personalization"
+    ],
+    "profiling": [
+     "advertising",
+     "personalization"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service optimization": [
+     "service operation"
+    ],
+    "service quality": [
+     "service operation"
+    ],
+    "order fulfillment": [
+     "provide services"
+    ],
+    "customer support": [
+     "provide services"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service operation": [
+     "provide services"
+    ],
+    "provide services": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "marketing": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "legal compliance": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "legal defense": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "security": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "dispute resolution": [
+     "for the purposes outlined in this Privacy Policy"
+    ],
+    "enforce agreements": [
+     "legal compliance"
+    ],
+    "public safety": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2213,
+  "completion_tokens": 978,
+  "thinking_tokens": 0,
+  "seconds": 14.720277786254883,
+  "failures": 0
+ },
+ "seconds": 14.8
+}

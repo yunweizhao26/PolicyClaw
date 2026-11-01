@@ -1,0 +1,117 @@
+{
+ "cleaned_sha256": "pg-131",
+ "text_sha256": "17d5225ab9770724c0bf4ddb8a02e7573d075b3d89b58ef71d89148f21b60cba",
+ "site_id": "pg-131",
+ "sections": 14,
+ "rules": 98,
+ "report": {
+  "sections": 14,
+  "raw_rules": 81,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have access to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you choose to register or log in to our services using a social media account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-131#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make material changes to this privacy notice",
+      "either by prominently posting a notice of such changes or by directly sending you a notification"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-131#s12"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 47,
+  "completeness": {
+   "gaps": 113,
+   "gap_words": 1098
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 47,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 40465,
+  "completion_tokens": 17792,
+  "thinking_tokens": 0,
+  "seconds": 155.76239371299744,
+  "failures": 0
+ },
+ "seconds": 156.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

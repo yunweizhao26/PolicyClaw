@@ -1,0 +1,581 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "account number": "account identifier",
+    "aggregated consumer information": "aggregate information",
+    "browsing behavior": "browsing activity",
+    "browsing history": "browsing activity",
+    "images": "image",
+    "information": "data",
+    "order number": "confirmation number",
+    "personal information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "telephone number": "phone number",
+    "your information": "your data"
+   },
+   "parents": {
+    "account identifier": [
+     "account details"
+    ],
+    "hilton honors number": [
+     "account identifier"
+    ],
+    "hilton honors tier": [
+     "account details"
+    ],
+    "account linkage": [
+     "account details"
+    ],
+    "airline partner name and number": [
+     "account details"
+    ],
+    "frequent flyer number": [
+     "account identifier"
+    ],
+    "travel agent name and number": [
+     "account details"
+    ],
+    "corporate name and number": [
+     "account details"
+    ],
+    "additional personal information": [
+     "personal data"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "address type": [
+     "address"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "telephone and fax numbers": [
+     "contact details"
+    ],
+    "advertising data": [
+     "data"
+    ],
+    "ad impressions": [
+     "advertising data"
+    ],
+    "age": [
+     "personal data"
+    ],
+    "arrival time": [
+     "stay details"
+    ],
+    "departure date": [
+     "stay details"
+    ],
+    "behavioral information": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "internet or network activity information"
+    ],
+    "website activity": [
+     "internet or network activity information"
+    ],
+    "interaction information with hilton websites, apps, emails or ads": [
+     "internet or network activity information"
+    ],
+    "activity on service": [
+     "internet or network activity information"
+    ],
+    "complaint descriptions": [
+     "user inquiries"
+    ],
+    "confidential personal information": [
+     "personal data"
+    ],
+    "customer ratings and survey responses": [
+     "survey responses"
+    ],
+    "free form textual feedback": [
+     "survey responses"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "device information",
+     "unique identifier"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "operating system version": [
+     "device information",
+     "operating system"
+    ],
+    "ip address": [
+     "device identifier",
+     "unique identifier"
+    ],
+    "session id": [
+     "unique identifier"
+    ],
+    "wechat open id": [
+     "unique identifier"
+    ],
+    "wechat union id": [
+     "unique identifier"
+    ],
+    "cookies": [
+     "other technologies"
+    ],
+    "opt-out signal": [
+     "do not track signals"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "guest information": [
+     "personal data"
+    ],
+    "additional guest names": [
+     "guest information",
+     "name"
+    ],
+    "hashed identifiers": [
+     "unique identifier"
+    ],
+    "inferred data": [
+     "personal data"
+    ],
+    "information that originates in Brazil": [
+     "data"
+    ],
+    "information you provided to us at the time of enrollment": [
+     "data"
+    ],
+    "nationality": [
+     "personal data"
+    ],
+    "non-cookie based personal information": [
+     "personal data"
+    ],
+    "non-personal information": [
+     "data"
+    ],
+    "passport or ID information": [
+     "personal data"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "personal data of children": [
+     "personal data"
+    ],
+    "room preferences": [
+     "stay details"
+    ],
+    "room selection and assignment": [
+     "stay details"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social media information": [
+     "personal data"
+    ],
+    "spending amount": [
+     "stay details"
+    ],
+    "stay details and contact information": [
+     "personal data"
+    ],
+    "stay details": [
+     "booking information",
+     "reservation information"
+    ],
+    "user inquiries": [
+     "personal data"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "video recording": [
+     "image"
+    ],
+    "work information": [
+     "personal data"
+    ],
+    "your data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "booking information": [
+     "personal data"
+    ],
+    "reservation information": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Hilton group entities": "Hilton Group of Companies",
+    "advertising network": "ad network",
+    "partners": "partner",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "Hilton Domestic Operating Company Inc.": [
+     "Hilton Worldwide Holdings",
+     "Hilton affiliates",
+     "Hilton affiliates outside Turkey"
+    ],
+    "Hilton affiliates outside Turkey": [
+     "Hilton affiliates"
+    ],
+    "Hilton affiliates": [
+     "affiliate"
+    ],
+    "Hilton Group of Companies": [
+     "Hilton Worldwide Holdings",
+     "affiliate"
+    ],
+    "in-country suppliers": [
+     "suppliers",
+     "third party"
+    ],
+    "suppliers": [
+     "service provider",
+     "third party"
+    ],
+    "subcontractors": [
+     "service provider",
+     "third party"
+    ],
+    "ad network": [
+     "service provider",
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "Invex": [
+     "third party"
+    ],
+    "AutoCamp": [
+     "partner"
+    ],
+    "BRE Hotels and Resorts": [
+     "partner"
+    ],
+    "Evermore Resort – Orlando": [
+     "partner"
+    ],
+    "Genting": [
+     "partner"
+    ],
+    "Hilton Grand Vacations": [
+     "partner"
+    ],
+    "Placemakr": [
+     "partner"
+    ],
+    "Shenzhen Tencent Computer Systems Company Limited": [
+     "partner"
+    ],
+    "Small Luxury Hotels of the World": [
+     "partner"
+    ],
+    "YOTEL": [
+     "partner"
+    ],
+    "business partner": [
+     "partner",
+     "third party"
+    ],
+    "credit card company": [
+     "partner"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "advertising network",
+    "advertising partners": "advertising network",
+    "first party": "Hilton"
+   },
+   "parents": {
+    "advertising network": [
+     "partner",
+     "third party"
+    ],
+    "BRE Hotels and Resorts": [
+     "partner"
+    ],
+    "Genting": [
+     "partner"
+    ],
+    "Hilton Grand Vacations": [
+     "partner"
+    ],
+    "Placemakr": [
+     "partner"
+    ],
+    "YOTEL": [
+     "partner"
+    ],
+    "other Hilton entities": [
+     "Hilton"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business purposes": "business interests",
+    "for the purposes indicated in the main body of the Global Privacy Statement": "for the purposes indicated in the Global Privacy Statement",
+    "fraud prevention": "fraud detection",
+    "fulfill your bookings": "fulfill reservation",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "service improvements": "service improvement",
+    "service-provision": "service provision",
+    "social media sharing": "social media integration",
+    "to fulfill the purpose for which that information was collected": "fulfillment of purposes",
+    "website optimization": "service optimization"
+   },
+   "parents": {
+    "administer Hilton Honors membership and activity": [
+     "process Hilton Honors memberships"
+    ],
+    "administer contests and sweepstakes": [
+     "promotional activities"
+    ],
+    "administer the offering": [
+     "service provision"
+    ],
+    "administration of e-Folio program": [
+     "business interests"
+    ],
+    "ad performance": [
+     "advertising",
+     "analytics"
+    ],
+    "analytics and service personalization": [
+     "analytics",
+     "personalization"
+    ],
+    "attribute points to airline loyalty participants": [
+     "service provision"
+    ],
+    "attribute reservations to travel agents": [
+     "fulfillment"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "better serve guests": [
+     "service improvement"
+    ],
+    "communicate news and promotional items": [
+     "communication",
+     "marketing"
+    ],
+    "complete reservations": [
+     "fulfill reservation",
+     "fulfillment"
+    ],
+    "contact the media and social influencers": [
+     "communication",
+     "marketing"
+    ],
+    "content customization": [
+     "personalization"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "deliver personalized advertising and content": [
+     "personalization",
+     "targeted advertising"
+    ],
+    "determine guests eligibility for special or promotional rates": [
+     "pricing"
+    ],
+    "enable access to hotel room and facilities": [
+     "service provision"
+    ],
+    "enable parking at properties": [
+     "service provision"
+    ],
+    "enable you to participate in the Hilton Honors program": [
+     "service provision"
+    ],
+    "error reporting": [
+     "troubleshooting"
+    ],
+    "evaluate streaming services use": [
+     "analytics"
+    ],
+    "facilitate Amazon's Shop with Points": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "fulfill corporate travel reservations": [
+     "fulfill reservation"
+    ],
+    "fulfill digital key sharing": [
+     "service provision"
+    ],
+    "fulfill guest reservations": [
+     "fulfill reservation",
+     "fulfillment"
+    ],
+    "fulfill reservation": [
+     "fulfillment",
+     "service provision"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "link with customer information on file": [
+     "account-management"
+    ],
+    "maintain books and records for business reporting, auditing, tax, and income reconciliation": [
+     "compliance"
+    ],
+    "payment processing": [
+     "payment"
+    ],
+    "performance monitoring": [
+     "analytics"
+    ],
+    "personalize use of services and applications": [
+     "personalization"
+    ],
+    "process Hilton Honors memberships": [
+     "process memberships"
+    ],
+    "process memberships": [
+     "service provision"
+    ],
+    "process transactions with partners": [
+     "payment"
+    ],
+    "promotional activities": [
+     "marketing"
+    ],
+    "provide co-branded card benefits": [
+     "service provision"
+    ],
+    "provide services": [
+     "service provision"
+    ],
+    "provide superior guest experience": [
+     "service improvement"
+    ],
+    "sales activity for group booking, meetings, and events": [
+     "marketing"
+    ],
+    "send Hilton Honors communications": [
+     "communication"
+    ],
+    "send guests communications about reservations": [
+     "communication"
+    ],
+    "send requested communications": [
+     "communication"
+    ],
+    "send service-related SMS communications": [
+     "communication"
+    ],
+    "service improvement": [
+     "business interests"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "share data with personalized ad networks": [
+     "targeted advertising"
+    ],
+    "support promotions": [
+     "promotional activities"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "to direct you to the appropriate APP store to download our mobile apps": [
+     "service operation"
+    ],
+    "to provide you with our application features and services": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service operation"
+    ],
+    "user preferences": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5223,
+  "completion_tokens": 2655,
+  "thinking_tokens": 0,
+  "seconds": 19.842437982559204,
+  "failures": 0
+ },
+ "seconds": 20.0
+}

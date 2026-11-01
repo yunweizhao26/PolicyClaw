@@ -1,0 +1,592 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "EXIF information": "EXIF data",
+    "account information": "account details",
+    "aggregated information": "aggregated data",
+    "biometric identifier": "biometric data",
+    "child name": "child full name",
+    "child's name": "child full name",
+    "class_roster": "class_information",
+    "classroom audio": "audio",
+    "comments": "comment",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "crash reports": "crash log information",
+    "crashes": "crash log information",
+    "de-identified information": "de-identified data",
+    "device identifiers": "device identifier",
+    "email address": "Email",
+    "facial recognition data": "biometric data",
+    "generated content": "AI output",
+    "ip address": "IP address",
+    "marketing email": "marketing communication",
+    "messages": "message content",
+    "name": "first and last name",
+    "parents_names": "parent name",
+    "parents_phone_number": "SMS",
+    "password": "login details",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "phone number": "SMS",
+    "photograph": "photo",
+    "photos": "photo",
+    "pictures": "photo",
+    "portfolio comments": "comment",
+    "post content": "post",
+    "precise geolocation data": "precise geolocation",
+    "precise location data": "precise geolocation",
+    "profile information": "profile data",
+    "profile picture": "profile photo",
+    "profiles": "profile",
+    "prompts": "inputs and prompts",
+    "reward points": "points",
+    "school_address": "school address",
+    "sensitive personal information": "sensitive personal data",
+    "telephone number": "SMS",
+    "transcript": "speech recognition results",
+    "transcription text": "speech recognition results",
+    "user comment": "comment",
+    "user profile": "profile",
+    "user profile information": "user data",
+    "user-generated content": "user content",
+    "user_content": "user content",
+    "videos": "video",
+    "voice audio": "recording",
+    "voice recording": "recording",
+    "voice transcript": "speech recognition results"
+   },
+   "parents": {
+    "SMS routing information": [
+     "SMS"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "activity logs": [
+     "product events"
+    ],
+    "attendance records": [
+     "education records"
+    ],
+    "automated speech recognition analysis": [
+     "service provider audio processing data"
+    ],
+    "avatar customization data": [
+     "user activity"
+    ],
+    "battery and signal strength": [
+     "what the device sends us"
+    ],
+    "biometric data": [
+     "identifier",
+     "personal data"
+    ],
+    "browser identifier": [
+     "identifier"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "chat message": [
+     "message content"
+    ],
+    "child first name and last initial": [
+     "child full name"
+    ],
+    "child full name": [
+     "first and last name"
+    ],
+    "child information": [
+     "personal data"
+    ],
+    "children's personal information": [
+     "personal data"
+    ],
+    "classroom audio transcript": [
+     "speech recognition results"
+    ],
+    "coarse location data": [
+     "location"
+    ],
+    "comment": [
+     "user content"
+    ],
+    "content of communications": [
+     "communication data"
+    ],
+    "content sent with messages": [
+     "message content"
+    ],
+    "crash log information": [
+     "system activity"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "date and time of your request": [
+     "system activity"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device token": [
+     "device identifier"
+    ],
+    "Email": [
+     "contact details"
+    ],
+    "email read receipt": [
+     "interaction details"
+    ],
+    "email update": [
+     "communications"
+    ],
+    "event details": [
+     "user content"
+    ],
+    "feedback comments": [
+     "comment"
+    ],
+    "feedback points": [
+     "points"
+    ],
+    "first name": [
+     "first and last name"
+    ],
+    "flagged reports": [
+     "abuse reports"
+    ],
+    "grade": [
+     "education records"
+    ],
+    "grade_level": [
+     "education records"
+    ],
+    "home points": [
+     "points"
+    ],
+    "last name initial": [
+     "first and last name"
+    ],
+    "marketing communication": [
+     "communications"
+    ],
+    "microphone audio": [
+     "audio"
+    ],
+    "parent name": [
+     "first and last name"
+    ],
+    "parental verification": [
+     "personal data"
+    ],
+    "parents_email_address": [
+     "Email"
+    ],
+    "login details": [
+     "log-in credentials"
+    ],
+    "persistent identifier": [
+     "identifier"
+    ],
+    "SMS": [
+     "contact details"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "product events": [
+     "product usage events"
+    ],
+    "profile photo": [
+     "photo"
+    ],
+    "inputs and prompts": [
+     "input data"
+    ],
+    "pseudonymized data": [
+     "de-identified data"
+    ],
+    "push notification": [
+     "communications"
+    ],
+    "recognized spoken words": [
+     "voice commands"
+    ],
+    "school attendance": [
+     "attendance records"
+    ],
+    "school id card": [
+     "education records"
+    ],
+    "school photos": [
+     "photo"
+    ],
+    "school address": [
+     "contact details"
+    ],
+    "school_name": [
+     "class or school name"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "service provider audio processing data": [
+     "audio"
+    ],
+    "some content within a Student Account, such as Student Activity Responses and other content uploaded by the student and/or teacher": [
+     "user content"
+    ],
+    "stickers": [
+     "user content"
+    ],
+    "student accounts": [
+     "user account"
+    ],
+    "student and parent contact information": [
+     "contact details"
+    ],
+    "student data": [
+     "education records"
+    ],
+    "student grade or score": [
+     "points"
+    ],
+    "student personal data": [
+     "personal data"
+    ],
+    "student portfolio": [
+     "user content"
+    ],
+    "students_names": [
+     "first and last name"
+    ],
+    "test responses": [
+     "user content"
+    ],
+    "transactional communications": [
+     "communications"
+    ],
+    "speech recognition results": [
+     "text"
+    ],
+    "user message": [
+     "message content"
+    ],
+    "user submission text": [
+     "input data"
+    ],
+    "voice commands": [
+     "audio"
+    ],
+    "recording": [
+     "audio"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "other users": "other user",
+    "parents": "parent",
+    "public authorities": "government authorities",
+    "third party": "third parties",
+    "third-party": "third parties"
+   },
+   "parents": {
+    "LLM Service Providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "agents": [
+     "third parties"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "District Admins": [
+     "school personnel"
+    ],
+    "school personnel": [
+     "school staff"
+    ],
+    "school staff": [
+     "school staff and students"
+    ],
+    "teacher": [
+     "school personnel"
+    ],
+    "tutor": [
+     "school staff"
+    ],
+    "other users in the school": [
+     "other user"
+    ],
+    "logged-in users": [
+     "other user"
+    ],
+    "other ClassDojo teachers, School Leaders, students, or parents": [
+     "other user"
+    ],
+    "recipient of user communications": [
+     "other user"
+    ],
+    "children": [
+     "user"
+    ],
+    "parent": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "Apple": [
+     "third parties"
+    ],
+    "social media service": [
+     "third parties"
+    ],
+    "National Center for Missing and Exploited Children": [
+     "third parties"
+    ],
+    "potential investor or purchaser (or their advisors)": [
+     "third parties"
+    ],
+    "other companies and organizations": [
+     "third parties"
+    ],
+    "United States": [
+     "outside home jurisdiction"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child",
+    "service providers": "service provider",
+    "student": "Students",
+    "third party authentication service": "Authentication Service"
+   },
+   "parents": {
+    "Switzerland": [
+     "EU, UK, Switzerland"
+    ],
+    "the European Union and from the UK": [
+     "EU, UK, Switzerland"
+    ],
+    "SurveyMonkey": [
+     "third party"
+    ],
+    "Zoom": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "Authentication Service": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "parents": [
+     "user"
+    ],
+    "other user": [
+     "user"
+    ],
+    "Students": [
+     "user"
+    ],
+    "child": [
+     "user"
+    ],
+    "school staff": [
+     "user"
+    ],
+    "school admin": [
+     "school staff"
+    ],
+    "teacher": [
+     "school staff"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "other users": "other user",
+    "school leader": "school admin",
+    "school or district": "school",
+    "service providers": "service provider",
+    "the company": "first party"
+   },
+   "parents": {
+    "Apple": [
+     "integrated third-party service",
+     "third party"
+    ],
+    "LLM Service Providers": [
+     "service provider",
+     "third party"
+    ],
+    "Outside School Child Users": [
+     "student",
+     "user"
+    ],
+    "YouTube": [
+     "integrated third-party service",
+     "third party"
+    ],
+    "Zoom": [
+     "integrated third-party service",
+     "third party"
+    ],
+    "acquirer": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider",
+     "third party"
+    ],
+    "authorized ClassDojo employees, agents or independent contractors": [
+     "first party"
+    ],
+    "district user": [
+     "school user",
+     "user"
+    ],
+    "integrated third-party service": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "parent": [
+     "user"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "school admin": [
+     "school staff",
+     "school user"
+    ],
+    "school staff": [
+     "school user",
+     "user"
+    ],
+    "school user": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media service": [
+     "third party"
+    ],
+    "student": [
+     "school user",
+     "user"
+    ],
+    "teacher": [
+     "school staff",
+     "school user"
+    ],
+    "third party authentication service": [
+     "integrated third-party service",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business purpose": "business operations",
+    "compliance with legal obligations": "compliance",
+    "fraud-prevention": "fraud prevention",
+    "fraud_prevention": "fraud prevention",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "operations": "business operations",
+    "security and safety": "safety",
+    "service improvement": "improve service",
+    "service provision": "provide the Service",
+    "service-operation": "service operation",
+    "service-provision": "provide the Service",
+    "services": "provide the Service",
+    "verification": "user-verification"
+   },
+   "parents": {
+    "cross-context behavioral advertising": [
+     "targeted advertising"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "retargeting": [
+     "advertising"
+    ],
+    "improve service": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "improve service"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security",
+     "safety"
+    ],
+    "safety": [
+     "protection of rights and safety"
+    ],
+    "personalize-content": [
+     "personalization"
+    ],
+    "account-creation": [
+     "user account management"
+    ],
+    "send notifications": [
+     "communication"
+    ],
+    "contact user": [
+     "communication"
+    ],
+    "product development": [
+     "service development"
+    ],
+    "analytics": [
+     "research or analytics"
+    ],
+    "research": [
+     "research or analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 7963,
+  "completion_tokens": 2739,
+  "thinking_tokens": 0,
+  "seconds": 19.91613006591797,
+  "failures": 0
+ },
+ "seconds": 20.1
+}

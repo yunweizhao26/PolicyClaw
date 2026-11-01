@@ -1,0 +1,169 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "account profile": "account",
+    "personal info": "personal data",
+    "personally identifiable information": "personal data",
+    "profile": "account",
+    "profile information": "account data",
+    "your information": "account data"
+   },
+   "parents": {
+    "account identifiers": [
+     "account data",
+     "personal data"
+    ],
+    "account name": [
+     "account identifiers"
+    ],
+    "email address": [
+     "account identifiers",
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "avatar": [
+     "account data",
+     "photos"
+    ],
+    "photos": [
+     "content",
+     "profile verification information"
+    ],
+    "group messages": [
+     "content"
+    ],
+    "wiki edits and comments": [
+     "content"
+    ],
+    "customer support communications": [
+     "personal data"
+    ],
+    "survey responses": [
+     "personal data"
+    ],
+    "profile verification information": [
+     "personal data"
+    ],
+    "IP address": [
+     "basic information that most websites do"
+    ],
+    "browser type": [
+     "basic information that most websites do",
+     "browser and device characteristics"
+    ],
+    "language preference": [
+     "basic information that most websites do"
+    ],
+    "referrer URL": [
+     "basic information that most websites do"
+    ],
+    "date and time": [
+     "basic information that most websites do"
+    ],
+    "operating system": [
+     "browser and device characteristics"
+    ],
+    "interaction patterns with the page": [
+     "user activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "user activity"
+    ],
+    "backups": [
+     "data"
+    ],
+    "web server logs": [
+     "data"
+    ],
+    "potentially identifying metadata": [
+     "personal data"
+    ],
+    "author identity": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertisers": [
+     "third party"
+    ],
+    "marketers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "entity acquiring or merging with the company": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party",
+     "third-party services"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance"
+   },
+   "parents": {
+    "analytics": [
+     "service operation and improvement"
+    ],
+    "compliance": [
+     "legal compliance and prevention of harm"
+    ],
+    "security": [
+     "legal compliance and prevention of harm"
+    ],
+    "service_improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement",
+     "services"
+    ],
+    "service operation and improvement": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1586,
+  "completion_tokens": 672,
+  "thinking_tokens": 0,
+  "seconds": 9.1982741355896,
+  "failures": 0
+ },
+ "seconds": 9.3
+}

@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "web-137",
+ "text_sha256": "7a75e67460486d6ec97aef3e8ba7e35e54d9e0e1b00e2b536f4c596e505a25bb",
+ "site_id": "web-137",
+ "sections": 26,
+ "rules": 493,
+ "report": {
+  "sections": 26,
+  "raw_rules": 266,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To provide",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To provide you with marketing communications",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "Advertising and Marketing:"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-137#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To measure",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "measure",
+      "verb": "measure"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To measure the effectiveness of our advertising",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "Advertising and Marketing:"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-137#s7"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 224,
+   "gap_words": 2597
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 91,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 50,
+  "cached": 0,
+  "prompt_tokens": 78103,
+  "completion_tokens": 54841,
+  "thinking_tokens": 448,
+  "seconds": 458.32433247566223,
+  "failures": 0
+ },
+ "seconds": 460.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

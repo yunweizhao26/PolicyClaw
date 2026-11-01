@@ -1,0 +1,259 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "telephone number": "phone number",
+    "user account information": "account information",
+    "users' information": "user information"
+   },
+   "parents": {
+    "IP address": [
+     "hardware and network info",
+     "online identifier"
+    ],
+    "bank account information": [
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "inferred location": [
+     "location"
+    ],
+    "language preferences": [
+     "preferences",
+     "user preferences"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "unique personal identifier": [
+     "identifier"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "visited pages": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "usage data",
+     "usage details",
+     "usage information"
+    ],
+    "interaction data": [
+     "usage data",
+     "usage details",
+     "usage information"
+    ],
+    "user activity": [
+     "usage data",
+     "usage details",
+     "usage information"
+    ],
+    "app usage and open apps": [
+     "usage data",
+     "usage information"
+    ],
+    "cookies": [
+     "tracking technology data"
+    ],
+    "web beacons": [
+     "tracking technology data"
+    ],
+    "email address": [
+     "identifier"
+    ],
+    "phone number": [
+     "identifier"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "user ID": [
+     "identifier",
+     "online identifier"
+    ],
+    "profile picture": [
+     "profile"
+    ],
+    "interests": [
+     "profile"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "medical and health information": [
+     "sensitive personal data"
+    ],
+    "sexual orientation": [
+     "sensitive personal data"
+    ],
+    "hardware and network info": [
+     "device information"
+    ],
+    "user data": [
+     "user information"
+    ],
+    "user information": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "usage information": [
+     "information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "tracking technology data": [
+     "information"
+    ],
+    "third party data": [
+     "information"
+    ],
+    "data obtained by Glance": [
+     "information"
+    ],
+    "identifying information": [
+     "information"
+    ],
+    "physical address": [
+     "identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "the Group": "Group",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "third parties"
+    ],
+    "brands": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "buyer or other successor": [
+     "third parties"
+    ],
+    "contractors": [
+     "service provider",
+     "third parties"
+    ],
+    "customers": [
+     "third parties"
+    ],
+    "data partners": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "measurement companies": [
+     "third parties"
+    ],
+    "OEM": [
+     "third parties"
+    ],
+    "other third parties": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "subsidiaries": [
+     "affiliate"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "data partners, advertisers and/or advertisers' partners": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "other sources",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "to count users who have visited those pages, clicked on a particular advertisement, or for other related statistics (for example, recording the popularity of certain application content and verifying system and server integrity)": [
+     "analytics"
+    ],
+    "to estimate the city where your device is in order to provide locally relevant weather, information and advertisements": [
+     "personalization"
+    ],
+    "user experience optimization": [
+     "service improvement"
+    ],
+    "verification": [
+     "security"
+    ],
+    "performance": [
+     "analytics"
+    ],
+    "internal operations": [
+     "business operations"
+    ],
+    "operational": [
+     "business operations"
+    ],
+    "operations": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2653,
+  "completion_tokens": 953,
+  "thinking_tokens": 0,
+  "seconds": 12.653319597244263,
+  "failures": 0
+ },
+ "seconds": 12.8
+}

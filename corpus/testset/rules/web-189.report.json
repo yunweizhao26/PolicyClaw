@@ -1,0 +1,166 @@
+{
+ "cleaned_sha256": "web-189",
+ "text_sha256": "636eb3e1d36131f0d6b3470e38c4cc083cad84f462b2bee294b7aefb9a5b4936",
+ "site_id": "web-189",
+ "sections": 3,
+ "rules": 80,
+ "report": {
+  "sections": 3,
+  "raw_rules": 66,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "members' personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not rent",
+     "purpose": [
+      {
+       "text": "for their commercial purposes",
+       "name": "commercial purpose"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not rent"
+    ],
+    "section": "web-189#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "trade",
+      "verb": "trade"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "members' personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not trade",
+     "purpose": [
+      {
+       "text": "for their commercial purposes",
+       "name": "commercial purpose"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not trade"
+    ],
+    "section": "web-189#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "hand over",
+      "verb": "hand over"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "FetLife"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your data"
+     },
+     "exceptions": [
+      "a court order says we have to"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "won't hand",
+     "purpose": [],
+     "recipient": {
+      "name": "unspecified recipient",
+      "text": "anyone"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "hand over"
+    ],
+    "section": "web-189#s1"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 39,
+  "completeness": {
+   "gaps": 70,
+   "gap_words": 716
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 39,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 7,
+  "cached": 0,
+  "prompt_tokens": 13458,
+  "completion_tokens": 12729,
+  "thinking_tokens": 0,
+  "seconds": 82.52993440628052,
+  "failures": 0
+ },
+ "seconds": 82.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

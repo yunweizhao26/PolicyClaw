@@ -1,0 +1,1027 @@
+{
+ "cleaned_sha256": "android-152",
+ "text_sha256": "6e818748b34792cdb95c9c92f3b2de7d57fb2548e3f87d0b3b302b4fbad44bcd",
+ "site_id": "android-152",
+ "sections": 11,
+ "rules": 148,
+ "report": {
+  "sections": 11,
+  "raw_rules": 132,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "this Application",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available"
+    ],
+    "section": "android-152#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "this Application",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other tracking tools",
+      "name": "tracking technologies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available"
+    ],
+    "section": "android-152#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "owners of third-party services used by this Application",
+      "name": "third party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available"
+    ],
+    "section": "android-152#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "owners of third-party services used by this Application",
+      "name": "third party"
+     },
+     "data": {
+      "text": "other tracking tools",
+      "name": "tracking technologies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Cookie Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "serving the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available"
+    ],
+    "section": "android-152#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Provides access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [
+      "require explicit authorization by the User"
+     ],
+     "data": {
+      "name": "user photos",
+      "text": "photos the friends have uploaded, and photos the friends have been tagged in"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "Provides access to",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "references": [],
+     "source": {
+      "name": "Facebook",
+      "text": "Facebook"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Provides read access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [
+      "for pages, applications, and domains the user owns",
+      "require explicit authorization by the User"
+     ],
+     "data": {
+      "name": "website or app usage",
+      "text": "Insights data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "Provides read access to",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "references": [],
+     "source": {
+      "name": "Facebook",
+      "text": "Facebook"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "this Application"
+     },
+     "conditions": [
+      "These services are not activated automatically, but require explicit authorization by the User"
+     ],
+     "data": {
+      "name": "account data",
+      "text": "Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third party",
+      "text": "your account on a third party service"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Some of the services listed below"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to identify Users",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Bidstack Ltd",
+      "text": "Bidstack"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Bidstack Ltd",
+      "text": "Bidstack"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Bidstack Ltd",
+      "text": "Bidstack"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Jirbo, Inc.",
+      "text": "AdColony"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Jirbo, Inc.",
+      "text": "AdColony"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "AdMob Google Inc.",
+      "text": "AdMob"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt Out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "AdMob Google Inc.",
+      "text": "AdMob"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt Out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "AdMob Google Inc.",
+      "text": "AdMob"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt Out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Amazon.com, Inc.",
+      "text": "Amazon Mobile Ads"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Amazon.com, Inc.",
+      "text": "Amazon Mobile Ads"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Apple Inc.",
+      "text": "Apple iAd"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Apple Inc.",
+      "text": "Apple iAd"
+     },
+     "conditions": [],
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Chartboost Inc.",
+      "text": "Chartboost"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Chartboost Inc.",
+      "text": "Chartboost"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "purpose": [
+      {
+       "text": "advertising service",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "Google Inc.",
+      "text": "This service"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "tracks",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "Google Inc.",
+      "text": "The “Doubleclick” Cookie"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "tracks",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "tracks",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "Google Inc.",
+      "text": "The “Doubleclick” Cookie"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "tracks",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-152#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "actor": {
+      "text": "first party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "disable all the Doubleclick Cookies by clicking on: google.com/settings/ads/onweb/optout"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "android-152#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "actor": {
+      "text": "first party",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Usage Data",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "disable all the Doubleclick Cookies by clicking on: google.com/settings/ads/onweb/optout"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "first party"
+    ],
+    "section": "android-152#s4"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 52,
+  "completeness": {
+   "gaps": 241,
+   "gap_words": 3637
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 52,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 40381,
+  "completion_tokens": 27559,
+  "thinking_tokens": 0,
+  "seconds": 689.7681448459625,
+  "failures": 0
+ },
+ "seconds": 690.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "advertising id": "ad identifier",
+    "data available to us": "data at our disposal",
+    "location information": "location",
+    "personal data": "Personal data",
+    "user identifier": "user id",
+    "user name": "name"
+   },
+   "parents": {
+    "children's personal data": [
+     "Personal data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "ad identifier": [
+     "device information"
+    ],
+    "ip address": [
+     "device information"
+    ],
+    "payment history": [
+     "payment details"
+    ],
+    "login details": [
+     "account data"
+    ],
+    "Personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "information you provide": [
+     "information collected from you"
+    ],
+    "chat logs": [
+     "information you provide"
+    ],
+    "user id": [
+     "account data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "data at our disposal": [
+     "data"
+    ],
+    "your information": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Apple": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party processor": [
+     "third party"
+    ],
+    "another controller": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Axlebolt"
+   },
+   "parents": {
+    "Google": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "third-party service provider"
+    ],
+    "analytics provider": [
+     "third-party service provider"
+    ],
+    "app store": [
+     "third party"
+    ],
+    "payment processor": [
+     "third-party service provider"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance with legal obligation",
+    "to process refund requests": "order fulfillment",
+    "user service": "customer support"
+   },
+   "parents": {
+    "In order to serve you ads that may be of interest to you": [
+     "advertising"
+    ],
+    "advertising": [
+     "commercial purpose"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "in-game communications": [
+     "communications"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention",
+     "fraud prevention and security"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security and fraud prevention"
+    ],
+    "debugging": [
+     "service operations and improvement"
+    ],
+    "infrastructure maintenance": [
+     "service operations and improvement"
+    ],
+    "authentication and authorization": [
+     "service provision"
+    ],
+    "verification and recovery": [
+     "security"
+    ],
+    "legal assertion": [
+     "protection of rights or property"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2148,
+  "completion_tokens": 690,
+  "thinking_tokens": 0,
+  "seconds": 11.528268814086914,
+  "failures": 0
+ },
+ "seconds": 11.6
+}

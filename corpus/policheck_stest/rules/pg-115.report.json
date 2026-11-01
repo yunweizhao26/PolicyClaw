@@ -1,0 +1,127 @@
+{
+ "cleaned_sha256": "pg-115",
+ "text_sha256": "85ced9df00ada1d290d4185030555458682901696f8dcf3b850488dcb6413a1a",
+ "site_id": "pg-115",
+ "sections": 17,
+ "rules": 228,
+ "report": {
+  "sections": 17,
+  "raw_rules": 184,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information... about what programs our subscribers watch",
+      "name": "viewing history"
+     },
+     "recipient": {
+      "text": "networks and other providers of programming",
+      "name": "programming providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "This information is de-identified and/or aggregated",
+      "we will not tell the programmer which individuals or households watched the program"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information... about what programs our subscribers watch"
+    ],
+    "section": "pg-115#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "of any material changes",
+      "through written, electronic, or other means as permitted by law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as permitted by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-115#s17"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 120,
+   "gap_words": 1173
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 44,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 48147,
+  "completion_tokens": 33615,
+  "thinking_tokens": 233,
+  "seconds": 277.49240612983704,
+  "failures": 0
+ },
+ "seconds": 278.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

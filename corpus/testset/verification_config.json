@@ -1,0 +1,22 @@
+{
+  "environment": {
+    "LLM_BACKEND": "gemini",
+    "LLM_MODEL_NAME": "gemini-3.8-flash",
+    "GEMINI_THINKING_LEVEL": "MEDIUM",
+    "GOOGLE_CLOUD_PROJECT": "project-21073ade-77cc-47de-979",
+    "GOOGLE_CLOUD_LOCATION": "global",
+    "GCLOUD_BIN": "/scratch/yz5944/opt/google-cloud-sdk/bin/gcloud",
+    "LLM_CACHE": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/collect/llm_cache",
+    "CLOUDSDK_CORE_DISABLE_FILE_LOGGING": "true",
+    "CLOUDSDK_COMPONENT_MANAGER_DISABLE_UPDATE_CHECK": "true"
+  },
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=MEDIUM",
+  "prompt": "v1",
+  "prompt_sha256": "75a75d7593776d5694188ef6f95df8651585625087fbd1687d3bf95a2fb7de4c",
+  "rubric_sha256": "8a4b4e8adcdcac76e8a041d638de23de2d0953a51f5424a2a15021af0b3e5d69",
+  "verifier_sha256": "94b432cfd56ca859aae76366cce0df91cf748e51e53eb2dbb83fabd7d9919ea1",
+  "shared_cache_read_only": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/collect/llm_cache",
+  "new_cache_write_directory": "/scratch/yz5944/nlp+privacy/PolicyClaw/corpus/testset/llm_cache",
+  "reuse": "Exact rendered v1 prompt, model, and MEDIUM variant; stable URL fetch identities"
+}

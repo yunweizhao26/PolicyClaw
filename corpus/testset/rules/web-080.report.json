@@ -1,0 +1,226 @@
+{
+ "cleaned_sha256": "web-080",
+ "text_sha256": "0a4fb842bc1c9d1f51dbf54b8fa1b5e088bd181373e499bb13812190986bed8f",
+ "site_id": "web-080",
+ "sections": 17,
+ "rules": 289,
+ "report": {
+  "sections": 17,
+  "raw_rules": 221,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Certain Company Services",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Nielsen",
+      "name": "Nielsen"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to allow you to contribute to market research",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Nielsen Digital Measurement Privacy Policy\nhttps://www.nielsen.com/legal/privacy-principles/digital-measurement-privacy-statement/?lang=en-us",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-080#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will try to comply with your request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information that you have previously provided directly to us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you would like to delete",
+      "please visit https://privacy.fox.com/main/web/consumer and submit a request",
+      "we will ask you to verify your identity in order to proceed with your request",
+      "consistent with applicable law"
+     ],
+     "exceptions": [
+      "where we may require your information in order to comply with applicable law, or to protect, enforce or defend our rights or employee rights, or those of a Company Affiliate"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you would like to delete"
+    ],
+    "section": "web-080#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will try to comply with your request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information that you have previously provided directly to us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you would like to correct",
+      "please visit https://privacy.fox.com/main/web/consumer and submit a request",
+      "we will ask you to verify your identity in order to proceed with your request",
+      "consistent with applicable law"
+     ],
+     "exceptions": [
+      "where we may require your information in order to comply with applicable law, or to protect, enforce or defend our rights or employee rights, or those of a Company Affiliate"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you would like to correct"
+    ],
+    "section": "web-080#s7"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "\"profiling\"",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce a legal or similarly significant effect",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-080#s16"
+   }
+  ],
+  "residual_quotes": 39,
+  "quotes": 108,
+  "completeness": {
+   "gaps": 454,
+   "gap_words": 4904
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 26,
+  "translated_quotes": 108,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 66557,
+  "completion_tokens": 48289,
+  "thinking_tokens": 0,
+  "seconds": 591.8820748329163,
+  "failures": 0
+ },
+ "seconds": 593.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

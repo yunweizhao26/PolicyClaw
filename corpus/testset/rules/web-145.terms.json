@@ -1,0 +1,106 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personally identifying information": "personally identifiable information"
+   },
+   "parents": {
+    "age": [
+     "account details"
+    ],
+    "name": [
+     "account details",
+     "personally identifiable information"
+    ],
+    "geographic location": [
+     "account details"
+    ],
+    "browser": [
+     "automatically collected information",
+     "server log"
+    ],
+    "browsing history": [
+     "automatically collected information",
+     "server log"
+    ],
+    "date and time": [
+     "automatically collected information",
+     "server log"
+    ],
+    "ip address": [
+     "automatically collected information",
+     "server log"
+    ],
+    "network status": [
+     "automatically collected information",
+     "server log"
+    ],
+    "operating system": [
+     "automatically collected information",
+     "server log"
+    ],
+    "referrer url": [
+     "automatically collected information",
+     "server log"
+    ],
+    "search queries": [
+     "automatically collected information",
+     "server log"
+    ],
+    "server log": [
+     "automatically collected information"
+    ],
+    "inquiry": [
+     "feedback"
+    ],
+    "problem description": [
+     "feedback"
+    ],
+    "survey responses": [
+     "non-personally identifiable information"
+    ],
+    "traffic statistics": [
+     "automatically collected information",
+     "non-personally identifiable information"
+    ],
+    "usage patterns": [
+     "automatically collected information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "other third parties": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "analytics": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1426,
+  "completion_tokens": 425,
+  "thinking_tokens": 0,
+  "seconds": 9.518636226654053,
+  "failures": 0
+ },
+ "seconds": 9.6
+}

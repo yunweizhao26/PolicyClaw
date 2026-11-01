@@ -1,0 +1,280 @@
+{
+ "cleaned_sha256": "web-077",
+ "text_sha256": "6f28d4955e7e20082e4ea7874889c4f44d577afd93abaaa43c4024b32d4cff9c",
+ "site_id": "web-077",
+ "sections": 12,
+ "rules": 355,
+ "report": {
+  "sections": 12,
+  "raw_rules": 256,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "capture",
+      "verb": "capture"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you receive email from us",
+      "using certain analytics tools, such as clear GIFs"
+     ],
+     "data": {
+      "name": "email opening and click data",
+      "text": "data such as when you open the email or click on any links or banners in the email"
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "ALLOW",
+     "polarity_text": "may use certain analytics tools, such as clear GIFs, to capture",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using certain analytics tools, such as clear GIFs"
+    ],
+    "section": "web-077#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "select third-party sponsorship technology partners"
+     },
+     "conditions": [
+      "through cookies or other tracking technologies on the browser of your device"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information about you"
+     },
+     "exceptions": [
+      "visit the Digital Advertising Alliance's Consumer Opt-Out link to opt out of receiving tailored sponsorship from companies that participate in that program"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "to collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "through cookies or other tracking technologies on the browser of your device"
+    ],
+    "section": "web-077#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "collected data",
+      "text": "any information we collect"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to provide us with specialized services or otherwise help us operate our Services including, without limitation, service providers that provide customer support, email deployment, account sign-in services, subscription services, payment processing, order fulfillment, analytics, marketing, sponsorship, suppression list management, travel program, contest/sweepstakes/promotion/giveaway management, and data processing services",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to provide us with specialized services or otherwise help us operate our Services including, without limitation, service providers that provide customer support, email deployment, account sign-in services, subscription services, payment processing, order fulfillment, analytics, marketing, sponsorship, suppression list management, travel program, contest/sweepstakes/promotion/giveaway management, and data processing services"
+    ],
+    "section": "web-077#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "name": "first party",
+      "text": "NPR"
+     },
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "verb": "serve",
+      "text": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to serve personalized or \"interest-based\" sponsorship credits or marketing messages to you",
+       "name": "personalized sponsorship"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-077#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "name": "service providers",
+      "text": "our authorized service providers"
+     },
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "verb": "serve",
+      "text": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to serve personalized or \"interest-based\" sponsorship credits or marketing messages to you",
+       "name": "personalized sponsorship"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-077#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "name": "sponsorship and marketing vendors",
+      "text": "sponsorship and marketing vendors"
+     },
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "verb": "serve",
+      "text": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to serve personalized or \"interest-based\" sponsorship credits or marketing messages to you",
+       "name": "personalized sponsorship"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-077#s10"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 79,
+  "completeness": {
+   "gaps": 300,
+   "gap_words": 3413
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 79,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 48869,
+  "completion_tokens": 47290,
+  "thinking_tokens": 0,
+  "seconds": 390.5708155632019,
+  "failures": 0
+ },
+ "seconds": 391.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

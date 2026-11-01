@@ -1,0 +1,551 @@
+{
+ "cleaned_sha256": "android-039",
+ "text_sha256": "e28bc8905d363bc8ec3d1f965dceee075fda244083f33bebb30384ea0b3c7382",
+ "site_id": "android-039",
+ "sections": 46,
+ "rules": 182,
+ "report": {
+  "sections": 46,
+  "raw_rules": 156,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Operation data",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Operation data",
+      "name": "operation data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "",
+      "verb": ""
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-039#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sent",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "mobile advertising identifiers such as iOS IDFAs and Android Advertising IDs",
+      "name": "mobile advertising identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "your mobile device",
+      "name": "user mobile device"
+     },
+     "action": {
+      "text": "sent",
+      "verb": "send"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you use our Services"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "mobile advertising identifiers such as iOS IDFAs and Android Advertising IDs"
+    ],
+    "section": "android-039#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Collected",
+     "actor": {
+      "text": "third-party tracking tools, S\nuch as individual cookies, APIs\n(application programming interface\ns\n) and SDKs (software development kit\ns\n)",
+      "name": "third-party tracking tools"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Collected",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-039#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Information about ads served, viewed, or clicked on, such as the type of ad, where the ad was served, whether you clicked on it, and whether you visited the advertiser’s website or downloaded the advertiser’s app",
+      "name": "ad interaction data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "We"
+    ],
+    "section": "android-039#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "To provide technical support for you when using our Services and to keep in touch with you for updating you on the progress",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "mobile advertising identifiers such as iOS IDFAs and Android Advertising IDs",
+      "name": "ad identifiers"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide technical support for you when using our Services and to keep in touch with you for updating you on the progress",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Necessary for the performance of the contract between us",
+       "name": "contract-performance"
+      },
+      {
+       "text": "To provide technical support for you when using our Services and to keep in touch with you for updating you on the progress",
+       "name": "customer-support"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "mobile advertising identifiers such as iOS IDFAs and Android Advertising IDs"
+    ],
+    "section": "android-039#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Information about ads served, viewed, or clicked on, such as the type of ad, where the ad was served, whether you clicked on it, and whether you visited the advertiser’s website or downloaded the advertiser’s app",
+      "name": "ad interaction data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "We"
+    ],
+    "section": "android-039#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information",
+      "name": "certain information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "using automated data collection tools such as Cookies and Web Beacons"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "using automated data collection tools such as Cookies and Web Beacons"
+    ],
+    "section": "android-039#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "SDK providers",
+      "name": "SDK developer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to realize the corresponding functions and/or features so that we can provide our Services to you",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "we will share only necessary information on the minimum basis"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to realize the corresponding functions and/or features so that we can provide our Services to you"
+    ],
+    "section": "android-039#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "a third party acquirer",
+      "name": "third party acquirer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "If we are engaged with a third party in a transaction such as merger, acquisition or sales of assets or if our assets are acquired by a third party in the event we go out of business or enter bankruptcy",
+      "in connection with such transaction",
+      "we will share only necessary information on the minimum basis"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If we are engaged with a third party in a transaction such as merger, acquisition or sales of assets or if our assets are acquired by a third party in the event we go out of business or enter bankruptcy"
+    ],
+    "section": "android-039#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "your information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "a third party acquirer",
+      "name": "third party acquirer"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If we are engaged with a third party in a transaction such as merger, acquisition or sales of assets or if our assets are acquired by a third party in the event we go out of business or enter bankruptcy",
+      "in connection with such transaction",
+      "we will share only necessary information on the minimum basis"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If we are engaged with a third party in a transaction such as merger, acquisition or sales of assets or if our assets are acquired by a third party in the event we go out of business or enter bankruptcy"
+    ],
+    "section": "android-039#s17"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "no longer allowed to continue",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "As a result",
+      "based on this consent in the future"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-039#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "Necessary for the performance of a task carried out in the public interest or in the exercise of official authority vetsed in us",
+      "In limited circumstances and to the extent the legal bases for processing set out above do not apply",
+      "with your consent"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art 6(1)(e) of the GDPR",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "Art 6(1)(a) of the GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-039#s35"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data\nwe have collected about them in the prior 12 months",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "them",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to user",
+     "purpose": [],
+     "conditions": [
+      "In general, California residents have the following rights with respect to their\npersonal data :",
+      "to require that we disclose the following to them",
+      "up to twice per year"
+     ],
+     "exceptions": [
+      "certain exemptions"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-039#s39"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 77,
+  "completeness": {
+   "gaps": 342,
+   "gap_words": 3065
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 77,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 71,
+  "cached": 2,
+  "prompt_tokens": 103169,
+  "completion_tokens": 34125,
+  "thinking_tokens": 437,
+  "seconds": 364.6914007663727,
+  "failures": 0
+ },
+ "seconds": 366.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

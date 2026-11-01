@@ -1,0 +1,324 @@
+{
+ "cleaned_sha256": "apple-012",
+ "text_sha256": "a0c8698949af46c113327b0554b83649260c753ee282c997e0b306181e3abafe",
+ "site_id": "apple-012",
+ "sections": 29,
+ "rules": 208,
+ "report": {
+  "sections": 29,
+  "raw_rules": 158,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "of material changes to this Notice",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-012#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provided",
+     "actor": {
+      "text": "each organization’s respective participating companies",
+      "name": "participating companies"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provided",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "website interest-based advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "visit the DAA’s opt-out portal available at\nhttp://optout.aboutads.info/\n, the DAA of Canada’s opt-out portal available at\nhttps://youradchoices.ca/en/tools\n, or visit the NAI’s opt-out portal available at\nhttp://optout.networkadvertising.org/?c=1"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-012#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "served",
+     "actor": {
+      "text": "the European Interactive Digital Advertising Alliance’s participating member organizations",
+      "name": "EDAA participating member organizations"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "served",
+      "verb": "serve"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "online behavioral advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Residents of the European Union"
+     ],
+     "exceptions": [
+      "visiting\nhttps://www.youronlinechoices.eu/"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-012#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "correction",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "for Data Subjects in the EEA, the U.K., and Switzerland",
+      "Under certain circumstances, by law you have the right to",
+      "Request correction of the personal information that we hold about you",
+      "We must verify your identity in order to honor your request"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information that we hold about you"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "right to: Request correction",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to: Request correction"
+    ],
+    "section": "apple-012#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "for Data Subjects in the EEA, the U.K., and Switzerland",
+      "Under certain circumstances, by law you have the right to",
+      "Object to processing of your personal information where we are relying on a legitimate interest (or those of a third party), or where we are processing your personal information for direct marketing purposes",
+      "We must verify your identity in order to honor your request"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "right to: Object to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to: Object to"
+    ],
+    "section": "apple-012#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "for Data Subjects in the EEA, the U.K., and Switzerland",
+      "Under certain circumstances, by law you have the right to",
+      "Request the transfer of your personal information to another party, when possible",
+      "We must verify your identity in order to honor your request"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "right to: Request the transfer",
+     "purpose": [],
+     "recipient": {
+      "name": "another party",
+      "text": "another party"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to: Request the transfer"
+    ],
+    "section": "apple-012#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "automated decision-making producing legal or significant effects on an individual",
+      "verb": "make"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "for Data Subjects in the EEA, the U.K., and Switzerland"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-012#s25"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 85,
+  "completeness": {
+   "gaps": 331,
+   "gap_words": 3705
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 18,
+  "translated_quotes": 85,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 51,
+  "cached": 0,
+  "prompt_tokens": 83309,
+  "completion_tokens": 35310,
+  "thinking_tokens": 0,
+  "seconds": 895.7254881858826,
+  "failures": 0
+ },
+ "seconds": 897.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

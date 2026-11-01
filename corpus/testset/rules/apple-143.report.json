@@ -1,0 +1,794 @@
+{
+ "cleaned_sha256": "apple-143",
+ "text_sha256": "71f48d447e0ac19061e80dbf571f18cd8a75096a87d8e37856e1c8106afa20a4",
+ "site_id": "apple-143",
+ "sections": 21,
+ "rules": 420,
+ "report": {
+  "sections": 21,
+  "raw_rules": 270,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information that we receive"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also use",
+     "purpose": [
+      {
+       "text": "to enhance, expand, and check the accuracy of our records",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third parties",
+      "text": "third-party sources"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information that we receive"
+    ],
+    "section": "apple-143#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "combine",
+      "verb": "combine"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "information that we receive"
+     },
+     "exceptions": [],
+     "operation": "alignment or combination",
+     "polarity": "ALLOW",
+     "polarity_text": "may also",
+     "purpose": [
+      {
+       "text": "to enhance, expand, and check the accuracy of our records",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "third parties",
+      "text": "third-party sources"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information that we receive"
+    ],
+    "section": "apple-143#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have",
+     "actor": {
+      "text": "These third parties",
+      "name": "third party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "to perform their functions",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "when needed to perform their functions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information that personally identifies you",
+      "name": "identifying data"
+     },
+     "recipient": {
+      "text": "third parties who provide products and services that we think you may be interested in",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to make available complimentary or discounted products, incentives and other special offers as part of the Dutch Rewards program",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "others",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [
+      "As directed or authorized by you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "give us permission to share",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [
+      "From time to time, we may get your permission to share your personal information with third parties",
+      "By participating in the sharing activity"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "lenders",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "as part of due diligence",
+       "name": "due diligence"
+      },
+      {
+       "text": "as necessary to plan for the transfer",
+       "name": "merger or acquisition"
+      }
+     ],
+     "conditions": [
+      "as necessary prior to the completion of such a transfer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "auditors",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "as part of due diligence",
+       "name": "due diligence"
+      },
+      {
+       "text": "as necessary to plan for the transfer",
+       "name": "merger or acquisition"
+      }
+     ],
+     "conditions": [
+      "as necessary prior to the completion of such a transfer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third-party advisors, including attorneys and consultants",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "as part of due diligence",
+       "name": "due diligence"
+      },
+      {
+       "text": "as necessary to plan for the transfer",
+       "name": "merger or acquisition"
+      }
+     ],
+     "conditions": [
+      "as necessary prior to the completion of such a transfer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to comply with our legal and compliance obligations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to respond to legal process",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "regulators",
+      "name": "regulator"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "in response to subpoenas, court orders, and other lawful requests by regulators and law enforcement, including responding to national security or law enforcement disclosure requirements",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "law enforcement",
+      "name": "law enforcement"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "in response to subpoenas, court orders, and other lawful requests by regulators and law enforcement, including responding to national security or law enforcement disclosure requirements",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "government entities",
+      "name": "government entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [
+      "as required by law or legal process"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s7"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "action": {
+      "name": "target advertise",
+      "text": "targeted advertising"
+     },
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "rights",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Residents of certain U.S. states (including Colorado, Connecticut, Montana, Oregon, Texas Utah, and Virginia)"
+     ],
+     "exceptions": [
+      "subject to certain limitations",
+      "to opt out of targeted advertising by us",
+      "adjust your cookies settings here or on your device"
+     ],
+     "references": [
+      {
+       "text": "applicable privacy laws",
+       "name": "applicable privacy laws"
+      },
+      {
+       "text": "Section 6. Cookies, Analytics and Targeted Advertising",
+       "name": "Section 6. Cookies, Analytics and Targeted Advertising"
+      },
+      {
+       "text": "Section 8. Your Privacy Choices",
+       "name": "Section 8. Your Privacy Choices"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-143#s18"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "only as reasonably necessary (i) to perform our services requested by you, (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents, (iii) to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct, (iv) to verify or maintain the quality and safety of our services, (v) for compliance with our legal obligations, (vi) to our service providers who perform services on our behalf, and (vii) for purposes other than inferring characteristics about you"
+     ],
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "only use",
+     "purpose": [
+      {
+       "text": "to perform our services requested by you",
+       "name": "service provision"
+      },
+      {
+       "text": "to help ensure security and integrity, including to prevent, detect, and investigate security incidents",
+       "name": "security"
+      },
+      {
+       "text": "to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct",
+       "name": "security"
+      },
+      {
+       "text": "to verify or maintain the quality and safety of our services",
+       "name": "service provision"
+      },
+      {
+       "text": "for compliance with our legal obligations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to our service providers who perform services on our behalf",
+       "name": "service provision"
+      },
+      {
+       "text": "for purposes other than inferring characteristics about you",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only as reasonably necessary (i) to perform our services requested by you, (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents, (iii) to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct, (iv) to verify or maintain the quality and safety of our services, (v) for compliance with our legal obligations, (vi) to our service providers who perform services on our behalf, and (vii) for purposes other than inferring characteristics about you"
+    ],
+    "section": "apple-143#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "only as reasonably necessary (i) to perform our services requested by you, (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents, (iii) to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct, (iv) to verify or maintain the quality and safety of our services, (v) for compliance with our legal obligations, (vi) to our service providers who perform services on our behalf, and (vii) for purposes other than inferring characteristics about you"
+     ],
+     "data": {
+      "name": "sensitive personal data",
+      "text": "sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "purpose": [
+      {
+       "text": "to perform our services requested by you",
+       "name": "service provision"
+      },
+      {
+       "text": "to help ensure security and integrity, including to prevent, detect, and investigate security incidents",
+       "name": "security"
+      },
+      {
+       "text": "to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct",
+       "name": "security"
+      },
+      {
+       "text": "to verify or maintain the quality and safety of our services",
+       "name": "service provision"
+      },
+      {
+       "text": "for compliance with our legal obligations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to our service providers who perform services on our behalf",
+       "name": "service provision"
+      },
+      {
+       "text": "for purposes other than inferring characteristics about you",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only as reasonably necessary (i) to perform our services requested by you, (ii) to help ensure security and integrity, including to prevent, detect, and investigate security incidents, (iii) to detect, prevent and respond to malicious, fraudulent, deceptive, or illegal conduct, (iv) to verify or maintain the quality and safety of our services, (v) for compliance with our legal obligations, (vi) to our service providers who perform services on our behalf, and (vii) for purposes other than inferring characteristics about you"
+    ],
+    "section": "apple-143#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "know/access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "California residents may exercise their rights to know/access, correct and delete their personal information by:\nSubmitting a request through our\nwebform\n.\nCalling us at\n+1-833-539-4700\n(toll free)"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "If we are unable to verify your identity after a good faith attempt, we may deny the request"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may exercise their rights to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-143#s21"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 101,
+  "completeness": {
+   "gaps": 342,
+   "gap_words": 3549
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 101,
+  "compile_failures": 3,
+  "fixed_structurally": 2,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 70408,
+  "completion_tokens": 57455,
+  "thinking_tokens": 0,
+  "seconds": 838.9422800540924,
+  "failures": 0
+ },
+ "seconds": 840.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

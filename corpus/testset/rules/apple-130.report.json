@@ -1,0 +1,652 @@
+{
+ "cleaned_sha256": "apple-130",
+ "text_sha256": "d365e9684f8348cc06de71916343b341987592d07b8ff7c04a6e60661fd0466e",
+ "site_id": "apple-130",
+ "sections": 38,
+ "rules": 443,
+ "report": {
+  "sections": 38,
+  "raw_rules": 398,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "their personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Such privacy rights, granted under various privacy laws globally"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "various privacy laws globally",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-130#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal data about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "rights granted in applicable laws in certain data which are exercisable, in most cases, by the data subject against a data controller"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-130#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the responsibility to obtain voluntary and informed consent from data subjects to",
+     "actor": {
+      "text": "Our customers",
+      "name": "third party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "data subjects",
+      "name": "user"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "with voluntary and informed consent from data subjects"
+     ],
+     "exceptions": [
+      "excepted under applicable law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with voluntary and informed consent from data subjects"
+    ],
+    "section": "apple-130#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the responsibility to obtain voluntary and informed consent from data subjects to",
+     "actor": {
+      "text": "Our customers",
+      "name": "third party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "with voluntary and informed consent from data subjects"
+     ],
+     "exceptions": [
+      "excepted under applicable law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with voluntary and informed consent from data subjects"
+    ],
+    "section": "apple-130#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PowerSchool"
+     },
+     "conditions": [],
+     "data": {
+      "name": "Transaction Data",
+      "text": "Transaction Data"
+     },
+     "exceptions": [
+      "Service Providers acting as data subprocessors supporting our applications who are granted secure access to Transaction Data"
+     ],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "does not disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not disclose"
+    ],
+    "section": "apple-130#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PowerSchool"
+     },
+     "conditions": [],
+     "data": {
+      "name": "Transaction Data",
+      "text": "Transaction Data"
+     },
+     "exceptions": [
+      "Service Providers acting as data subprocessors supporting our applications who are granted secure access to Transaction Data"
+     ],
+     "operation": "sale",
+     "polarity": "DENY",
+     "polarity_text": "does not sell",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not sell"
+    ],
+    "section": "apple-130#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PowerSchool"
+     },
+     "conditions": [],
+     "data": {
+      "name": "Transaction Data",
+      "text": "Transaction Data"
+     },
+     "exceptions": [
+      "Service Providers acting as data subprocessors supporting our applications who are granted secure access to Transaction Data"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "does not transfer",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not transfer"
+    ],
+    "section": "apple-130#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "connect with",
+      "verb": "connect with"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "conditions": [
+      "your educational institution may elect to allow third parties to connect with PowerSchool’s Schoology Learning Management application"
+     ],
+     "data": {
+      "name": "unspecified-data-category",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may elect to allow",
+     "purpose": [
+      {
+       "text": "to take advantage of a functionality offered by the third party",
+       "name": "service-provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-130#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allowing",
+     "actor": {
+      "text": "higher education (or postsecondary) institutional customers",
+      "name": "higher education institutional customers"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "PowerSchool CCLR",
+      "name": "PowerSchool CCLR"
+     },
+     "action": {
+      "text": "engage with",
+      "verb": "engage"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for educational purposes",
+       "name": "educational purposes"
+      }
+     ],
+     "conditions": [
+      "only when students make an affirmative decision to connect with selected higher education institution(s)"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-130#s22"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not sold",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Such information",
+      "name": "information generated through product experience and performance monitoring activities"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "for any purpose other than internal product development and customer support"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "not sold"
+    ],
+    "section": "apple-130#s31"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "works with",
+     "actor": {
+      "text": "PowerSchool",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "service providers",
+      "name": "service providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "works with",
+      "verb": "work with"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to fulfill our obligations to our Customers",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-130#s31"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "works with",
+     "actor": {
+      "text": "PowerSchool",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "partners",
+      "name": "partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "works with",
+      "verb": "work with"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to fulfill our obligations to our Customers",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-130#s31"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosures",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "required by law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-130#s31"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PowerSchool"
+     },
+     "conditions": [
+      "Subject to certain limitations, including that PowerSchool cannot delete Customer Data where it is acting as a data processor under legal agreements with the data controller (our customers)",
+      "California residents have the right to request deletion of their personal information",
+      "These rights may be exercised via our PowerSchool Products or by contacting your respective educational institutions who are licensed to the applicable PowerSchool Product(s)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "certain limitations, including that PowerSchool cannot delete Customer Data where it is acting as a data processor under legal agreements with the data controller (our customers)"
+     ],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "right to request deletion",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "California residents have the right to request deletion of their personal information"
+    ],
+    "section": "apple-130#s33"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sales",
+      "verb": "sell"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PowerSchool"
+     },
+     "conditions": [
+      "California residents have the right to opt out of any sales of personal information that may be occurring",
+      "These rights may be exercised via our PowerSchool Products or by contacting your respective educational institutions who are licensed to the applicable PowerSchool Product(s)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [
+      "right to opt out of any sales of personal information that may be occurring"
+     ],
+     "operation": "sale",
+     "polarity": "ALLOW",
+     "polarity_text": "may be occurring",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "California residents have the right to opt out of any sales of personal information that may be occurring"
+    ],
+    "section": "apple-130#s33"
+   }
+  ],
+  "residual_quotes": 64,
+  "quotes": 174,
+  "completeness": {
+   "gaps": 815,
+   "gap_words": 9258
+  },
+  "unsatisfiable_guards": 7,
+  "qualifiers_without_effect": 27,
+  "translated_quotes": 174,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 71,
+  "cached": 0,
+  "prompt_tokens": 129492,
+  "completion_tokens": 70939,
+  "thinking_tokens": 0,
+  "seconds": 1326.8641657829285,
+  "failures": 0
+ },
+ "seconds": 1329.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

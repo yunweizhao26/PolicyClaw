@@ -1,0 +1,157 @@
+{
+ "cleaned_sha256": "web-171",
+ "text_sha256": "439f6938045caa147154456aa2da1614fbd86e2b2049e3ceb8fb2597f1725340",
+ "site_id": "web-171",
+ "sections": 11,
+ "rules": 76,
+ "report": {
+  "sections": 11,
+  "raw_rules": 71,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not track",
+     "actor": {
+      "text": "The Company",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "when a “do not track” mechanism is in place"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-171#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "entitled under data protection laws to access and review",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the Company",
+      "name": "first party"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "related to you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "under data protection laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-171#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "Information we collected",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "by editing your profile or controlling the content that you share at any time"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-171#s5"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 42,
+  "completeness": {
+   "gaps": 101,
+   "gap_words": 1011
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 42,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 20,
+  "cached": 0,
+  "prompt_tokens": 31558,
+  "completion_tokens": 14245,
+  "thinking_tokens": 0,
+  "seconds": 107.64378547668457,
+  "failures": 0
+ },
+ "seconds": 108.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

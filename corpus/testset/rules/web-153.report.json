@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "web-153",
+ "text_sha256": "9cf75a82437e144aa5c48331df6335b1396ff6d312e2cd142989a612ff457f42",
+ "site_id": "web-153",
+ "sections": 15,
+ "rules": 137,
+ "report": {
+  "sections": 15,
+  "raw_rules": 117,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may access and update",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "some of your information",
+      "name": "some of your information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access and update",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "through your account settings"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-153#s9"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 70,
+  "completeness": {
+   "gaps": 172,
+   "gap_words": 1879
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 70,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 42559,
+  "completion_tokens": 28256,
+  "thinking_tokens": 0,
+  "seconds": 195.45344257354736,
+  "failures": 0
+ },
+ "seconds": 196.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

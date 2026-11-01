@@ -1,0 +1,85 @@
+{
+ "cleaned_sha256": "android-189",
+ "text_sha256": "8465eb675fe0bfd96fe460b0e2a25f614db2fb2378d2ec794223be9a00ec509a",
+ "site_id": "android-189",
+ "sections": 12,
+ "rules": 135,
+ "report": {
+  "sections": 12,
+  "raw_rules": 120,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to:\nRequest deletion of",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are a California resident",
+      "Request deletion"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right to:\nRequest deletion of"
+    ],
+    "section": "android-189#s6"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 69,
+  "completeness": {
+   "gaps": 112,
+   "gap_words": 1047
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 74,
+  "translated_quotes": 69,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 40321,
+  "completion_tokens": 25211,
+  "thinking_tokens": 0,
+  "seconds": 526.7227232456207,
+  "failures": 0
+ },
+ "seconds": 527.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

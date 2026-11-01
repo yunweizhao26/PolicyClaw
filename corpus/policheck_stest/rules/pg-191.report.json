@@ -1,0 +1,157 @@
+{
+ "cleaned_sha256": "pg-191",
+ "text_sha256": "bd5e0f6109d19f63a1b5fd1f51245dc37ee70ca5746a5d4b634294c7d9eb86bf",
+ "site_id": "pg-191",
+ "sections": 19,
+ "rules": 143,
+ "report": {
+  "sections": 19,
+  "raw_rules": 134,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "collects",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "Google Analytics",
+      "text": "Google Analytics"
+     },
+     "conditions": [
+      "assigned to you on the date you visit the Site"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collects",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-191#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosures",
+     "actor": {
+      "text": "Everseat",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosures",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "CALIFORNIA USERS",
+      "California residents using the Site and Services have certain privacy rights under California law and Everseat will abide by California’s privacy and disclosure requirements"
+     ],
+     "exceptions": [
+      "opt-out of these disclosures"
+     ],
+     "references": [
+      {
+       "text": "California law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-191#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make any changes",
+      "in other ways"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-191#s18"
+   }
+  ],
+  "residual_quotes": 11,
+  "quotes": 48,
+  "completeness": {
+   "gaps": 113,
+   "gap_words": 1311
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 48,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 34,
+  "cached": 0,
+  "prompt_tokens": 51180,
+  "completion_tokens": 24031,
+  "thinking_tokens": 0,
+  "seconds": 168.6253342628479,
+  "failures": 0
+ },
+ "seconds": 169.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

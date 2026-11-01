@@ -1,0 +1,198 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "complaint information": "complaint",
+    "complaints": "complaint",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "review": "customer review",
+    "user complaint": "complaint",
+    "user-submitted data": "user-provided information"
+   },
+   "parents": {
+    "BBB Scam Tracker information": [
+     "information"
+    ],
+    "aggregate data": [
+     "information"
+    ],
+    "browsing history": [
+     "information",
+     "website arrival and usage information"
+    ],
+    "business information": [
+     "information"
+    ],
+    "business-provided information": [
+     "business information",
+     "information"
+    ],
+    "complaint": [
+     "information",
+     "user-provided information"
+    ],
+    "contact details": [
+     "contact information",
+     "personal data"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "customer review": [
+     "user-provided information"
+    ],
+    "email address": [
+     "contact details",
+     "contact information"
+    ],
+    "identifying information of third party": [
+     "information"
+    ],
+    "information contained in your BBB Business Profile": [
+     "business information"
+    ],
+    "location": [
+     "information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "other information submitted": [
+     "user-provided information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "contact details",
+     "contact information"
+    ],
+    "postal address": [
+     "contact details",
+     "contact information"
+    ],
+    "postal code": [
+     "location",
+     "postal address"
+    ],
+    "qualifications": [
+     "information"
+    ],
+    "scam description": [
+     "BBB Scam Tracker information",
+     "user-provided information"
+    ],
+    "search query": [
+     "user-provided information"
+    ],
+    "state or province": [
+     "location"
+    ],
+    "submitted scam tracker information": [
+     "BBB Scam Tracker information"
+    ],
+    "user information": [
+     "information"
+    ],
+    "user-provided information": [
+     "user information"
+    ],
+    "website arrival and usage information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "governmental agency": "governmental agencies",
+    "governmental authorities": "governmental agencies",
+    "subject business": "business complained about",
+    "third party": "third parties",
+    "third-party business": "business complained about"
+   },
+   "parents": {
+    "appropriate BBB office": [
+     "first party"
+    ],
+    "other BBBs": [
+     "first party"
+    ],
+    "Federal Trade Commission": [
+     "governmental agencies"
+    ],
+    "law enforcement": [
+     "governmental agencies"
+    ],
+    "governmental agencies": [
+     "appropriate organizations"
+    ],
+    "private organization": [
+     "appropriate organizations",
+     "third parties"
+    ],
+    "appropriate organizations": [
+     "appropriate persons",
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "business complained about": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "content recommendation": [
+     "personalization"
+    ],
+    "enhance user experience": [
+     "provide best content and online experience"
+    ],
+    "improve website performance": [
+     "provide best content and online experience"
+    ],
+    "remember preferences": [
+     "personalization"
+    ],
+    "profiling": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2233,
+  "completion_tokens": 1076,
+  "thinking_tokens": 0,
+  "seconds": 11.659018516540527,
+  "failures": 0
+ },
+ "seconds": 11.7
+}

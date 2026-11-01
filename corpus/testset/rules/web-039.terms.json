@@ -1,0 +1,306 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_history": "browsing history",
+    "commercial_information": "commercial information",
+    "education_information": "education records",
+    "email_address": "email address",
+    "ip_address": "ip address",
+    "job_title": "job title",
+    "personal data": "Personal Data",
+    "personal_data": "Personal Data",
+    "phone numbers": "phone number",
+    "phone_number": "phone number",
+    "postal_address": "postal address",
+    "professional or employment-related information": "professional information",
+    "professional_information": "professional information",
+    "publicly_available_information": "publicly available information",
+    "social_media_profile": "social media handle",
+    "special category data": "sensitive personal data",
+    "special_category_data": "sensitive personal data",
+    "usage_data": "usage data"
+   },
+   "parents": {
+    "account name": [
+     "account details"
+    ],
+    "account username": [
+     "account name"
+    ],
+    "account_identifier": [
+     "identifiers"
+    ],
+    "bank account details": [
+     "financial account information",
+     "financial information"
+    ],
+    "credit card number": [
+     "financial information"
+    ],
+    "financial account information": [
+     "financial information"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browser language": [
+     "browsing preferences"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "browsing behavior": [
+     "internet activity information"
+    ],
+    "browsing history": [
+     "internet activity information"
+    ],
+    "call audio": [
+     "audio and visual information"
+    ],
+    "video": [
+     "audio and visual information"
+    ],
+    "voice recording": [
+     "audio and visual information"
+    ],
+    "image": [
+     "audio and visual information"
+    ],
+    "photo": [
+     "image"
+    ],
+    "certifications": [
+     "professional information"
+    ],
+    "country": [
+     "geographic location",
+     "location"
+    ],
+    "crash logs": [
+     "device and usage data",
+     "system activity"
+    ],
+    "duration of calls": [
+     "device and usage data"
+    ],
+    "time and date of calls": [
+     "device and usage data"
+    ],
+    "types of calls": [
+     "device and usage data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "hardware settings": [
+     "device information"
+    ],
+    "health information": [
+     "sensitive personal data"
+    ],
+    "identifier": [
+     "identifiers"
+    ],
+    "unique_identifier": [
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "password": [
+     "account details"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "cookie": [
+     "cookies"
+    ],
+    "cookies": [
+     "tools for collecting data",
+     "tracking technologies"
+    ],
+    "pixel tags": [
+     "tools for collecting data",
+     "tracking technologies"
+    ],
+    "web beacons": [
+     "tools for collecting data",
+     "tracking technologies"
+    ],
+    "sensitive personal data": [
+     "Personal Data"
+    ],
+    "social media handle": [
+     "identifiers"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "news_articles": [
+     "publicly available information"
+    ],
+    "travel records": [
+     "Personal Data"
+    ],
+    "identity verification data": [
+     "Personal Data"
+    ],
+    "device information": [
+     "device and usage data"
+    ],
+    "usage data": [
+     "device and usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "event_sponsor": "event sponsor",
+    "professional_advisor": "professional advisor",
+    "service_provider": "service provider",
+    "third_party": "third party"
+   },
+   "parents": {
+    "customer": [
+     "other customer"
+    ],
+    "employer": [
+     "customer"
+    ],
+    "event sponsor": [
+     "sponsor",
+     "third party"
+    ],
+    "government agency": [
+     "legal_authority",
+     "public and government authorities, courts or regulators"
+    ],
+    "legal_authority": [
+     "public and government authorities, courts or regulators"
+    ],
+    "sponsor": [
+     "third party"
+    ],
+    "third party advertisers": [
+     "advertising_network"
+    ],
+    "third_party_network": [
+     "third party"
+    ],
+    "third_party_website": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "partner",
+    "third_party": "partner"
+   },
+   "parents": {
+    "first party": [
+     "first party sites or services"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "authorized partners": [
+     "partner"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business-operations": "business operations",
+    "legal_compliance": "legal compliance",
+    "research_and_development": "research and development",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "account administration": [
+     "account management"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud_prevention_and_security": [
+     "security"
+    ],
+    "fulfill user request": [
+     "service provision"
+    ],
+    "payment administration": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service-operation-and-improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "tracking": [
+     "analytics"
+    ],
+    "user service provision": [
+     "service provision"
+    ],
+    "events": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3912,
+  "completion_tokens": 1772,
+  "thinking_tokens": 0,
+  "seconds": 17.138516426086426,
+  "failures": 0
+ },
+ "seconds": 17.3
+}

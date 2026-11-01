@@ -1,0 +1,207 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "financial info": "billing information",
+    "information": "data",
+    "location": "geographic location",
+    "opt-in status": "opt-in choices",
+    "personal information": "personal data",
+    "precise location": "precise GPS-derived geolocation data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "billing address": [
+     "billing information",
+     "postal address"
+    ],
+    "credit card number": [
+     "billing information"
+    ],
+    "browser version": [
+     "device information",
+     "software version"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "hardware": [
+     "device information"
+    ],
+    "operating system": [
+     "device information",
+     "software version"
+    ],
+    "coarse location": [
+     "geographic location"
+    ],
+    "precise GPS-derived geolocation data": [
+     "geographic location"
+    ],
+    "geographic location": [
+     "data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "signal strength": [
+     "network metrics"
+    ],
+    "ip address": [
+     "device information",
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personal data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "device information": [
+     "data"
+    ],
+    "analytical information": [
+     "data"
+    ],
+    "advertising information": [
+     "data"
+    ],
+    "diagnostic data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third party": "service provider"
+   },
+   "parents": {
+    "Amplitude": [
+     "service provider"
+    ],
+    "Facebook": [
+     "service provider"
+    ],
+    "G2": [
+     "service provider"
+    ],
+    "Google Ads": [
+     "service provider"
+    ],
+    "Google Analytics": [
+     "service provider"
+    ],
+    "Google Tag Manager": [
+     "service provider"
+    ],
+    "Google reCAPTCHA": [
+     "service provider"
+    ],
+    "Hubspot": [
+     "service provider"
+    ],
+    "LinkedIn": [
+     "service provider"
+    ],
+    "Microsoft Advertising": [
+     "service provider"
+    ],
+    "Microsoft Clarity": [
+     "service provider"
+    ],
+    "OpenAI": [
+     "service provider"
+    ],
+    "PostHog": [
+     "service provider"
+    ],
+    "Quora": [
+     "service provider"
+    ],
+    "Reddit": [
+     "service provider"
+    ],
+    "Stripe": [
+     "service provider"
+    ],
+    "Twitter": [
+     "service provider"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account management": [
+     "administration",
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "customer support": [
+     "communication",
+     "service provision"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "fraud-prevention": [
+     "security"
+    ],
+    "user-interface customization": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2231,
+  "completion_tokens": 1000,
+  "thinking_tokens": 0,
+  "seconds": 16.81916379928589,
+  "failures": 0
+ },
+ "seconds": 16.9
+}

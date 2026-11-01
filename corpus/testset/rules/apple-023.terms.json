@@ -1,0 +1,127 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_history": "browsing history",
+    "device_id": "device identifier",
+    "information": "data",
+    "personally identifiable information": "personal information",
+    "user data": "unspecified user data"
+   },
+   "parents": {
+    "account details": [
+     "unspecified user data"
+    ],
+    "browsing activity": [
+     "interaction_data"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "child identifying information": [
+     "personal information"
+    ],
+    "device identifier": [
+     "device_information"
+    ],
+    "device activity": [
+     "device_information"
+    ],
+    "device_setting": [
+     "device_information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "email content": [
+     "content"
+    ],
+    "personal information": [
+     "unspecified user data"
+    ],
+    "payment_card_data": [
+     "user_provided_data"
+    ],
+    "user_provided_data": [
+     "unspecified user data"
+    ],
+    "unspecified user data": [
+     "data"
+    ],
+    "information related to individuals in the EU/EEA/UK/Switzerland": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "trusted partner": [
+     "partner"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "retailer": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Yahoo"
+   },
+   "parents": {
+    "other companies": [
+     "third party"
+    ],
+    "trusted partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "analytics": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "security": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1937,
+  "completion_tokens": 573,
+  "thinking_tokens": 0,
+  "seconds": 8.878440380096436,
+  "failures": 0
+ },
+ "seconds": 9.0
+}

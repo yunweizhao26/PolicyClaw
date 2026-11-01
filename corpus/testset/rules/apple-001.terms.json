@@ -1,0 +1,283 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "data about you": "data",
+    "identity verification data": "age verification data",
+    "message data": "Message Data",
+    "messages": "message",
+    "payment details": "payment data",
+    "postal address": "Street Address Data",
+    "profile information": "profile data",
+    "support data": "customer service data",
+    "survey responses": "survey response",
+    "usage data": "Usage Data",
+    "user data": "User Data",
+    "user message": "Message Data",
+    "user profile": "profile data",
+    "user survey responses": "survey response",
+    "username": "user name",
+    "voice": "Voice Data",
+    "voice data": "Voice Data",
+    "voice recording": "Voice Data"
+   },
+   "parents": {
+    "account data": [
+     "personal data"
+    ],
+    "age": [
+     "age verification data"
+    ],
+    "age verification data": [
+     "personal data"
+    ],
+    "browsing history": [
+     "Usage Data"
+    ],
+    "city": [
+     "Street Address Data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "content description": [
+     "user-generated content details"
+    ],
+    "content images": [
+     "user-generated content details"
+    ],
+    "content title": [
+     "user-generated content details"
+    ],
+    "country": [
+     "Street Address Data"
+    ],
+    "credit card number": [
+     "payment data"
+    ],
+    "customer service data": [
+     "personal data"
+    ],
+    "date of birth": [
+     "account data"
+    ],
+    "device identifier": [
+     "Usage Data"
+    ],
+    "device notification token": [
+     "Usage Data"
+    ],
+    "display name": [
+     "account data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "facial image": [
+     "age verification data"
+    ],
+    "gender": [
+     "account data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "Message Data": [
+     "personal data"
+    ],
+    "name": [
+     "account data"
+    ],
+    "password": [
+     "account data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photo of identity document": [
+     "age verification data"
+    ],
+    "playlist": [
+     "user-generated content"
+    ],
+    "playlist description": [
+     "content description"
+    ],
+    "playlist image": [
+     "content images"
+    ],
+    "playlist title": [
+     "content title"
+    ],
+    "Street Address Data": [
+     "personal data"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "profile data": [
+     "User Data"
+    ],
+    "profile photo": [
+     "profile data"
+    ],
+    "region": [
+     "Street Address Data"
+    ],
+    "sensor data": [
+     "Usage Data"
+    ],
+    "social connections": [
+     "profile data"
+    ],
+    "state": [
+     "Street Address Data"
+    ],
+    "street address": [
+     "Street Address Data"
+    ],
+    "university": [
+     "User Data"
+    ],
+    "Usage Data": [
+     "personal data"
+    ],
+    "User Data": [
+     "personal data"
+    ],
+    "user interest": [
+     "inferences"
+    ],
+    "user-generated content": [
+     "personal data"
+    ],
+    "user-generated content details": [
+     "user-generated content"
+    ],
+    "user name": [
+     "account data"
+    ],
+    "Voice Data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "Spotify group companies": "Other Spotify group companies, including companies that Spotify acquires"
+   },
+   "parents": {
+    "Other Spotify group companies, including companies that Spotify acquires": [
+     "affiliate"
+    ],
+    "courts": [
+     "authorities"
+    ],
+    "commercial partner": [
+     "partners"
+    ],
+    "technical service partner": [
+     "partners",
+     "service provider"
+    ],
+    "subcontractors": [
+     "service provider"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "children under the applicable Age Limit": [
+     "user"
+    ],
+    "merchant": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "third party application": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Spotify USA Inc."
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "technical service partners": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud_prevention_and_security": "fraud-detection",
+    "legal_compliance": "legal compliance",
+    "payment-processing": "payment processing",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account registration": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "promotions": [
+     "marketing"
+    ],
+    "payment administration": [
+     "payment"
+    ],
+    "payment processing": [
+     "payment"
+    ],
+    "troubleshooting": [
+     "customer support"
+    ],
+    "service development": [
+     "service improvement"
+    ],
+    "fraud-detection": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "legal compliance": [
+     "essential business purposes"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2880,
+  "completion_tokens": 1308,
+  "thinking_tokens": 0,
+  "seconds": 16.85646343231201,
+  "failures": 0
+ },
+ "seconds": 17.0
+}

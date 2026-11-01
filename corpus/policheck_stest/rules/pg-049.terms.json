@@ -1,0 +1,119 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "profile information": "profile data",
+    "user data": "information"
+   },
+   "parents": {
+    "email address": [
+     "account identifiers",
+     "contact details"
+    ],
+    "password": [
+     "authentication credentials"
+    ],
+    "biography": [
+     "profile data"
+    ],
+    "profile picture": [
+     "profile data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "exact location": [
+     "location"
+    ],
+    "link interaction data": [
+     "service and website usage data"
+    ],
+    "website usage data": [
+     "service and website usage data"
+    ],
+    "public profile information": [
+     "profile data",
+     "public information"
+    ],
+    "user content": [
+     "public information"
+    ],
+    "private personal data": [
+     "personal data"
+    ],
+    "aggregate non-personal data": [
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "public information": [
+     "information"
+    ],
+    "user-provided information": [
+     "information"
+    ],
+    "log data": [
+     "service and website usage data"
+    ],
+    "address book": [
+     "user-provided information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account registration": [
+     "service provision"
+    ],
+    "analytics": [
+     "service improvement"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "profile creation": [
+     "account registration",
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "social networking": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1716,
+  "completion_tokens": 406,
+  "thinking_tokens": 0,
+  "seconds": 7.877531051635742,
+  "failures": 0
+ },
+ "seconds": 8.0
+}

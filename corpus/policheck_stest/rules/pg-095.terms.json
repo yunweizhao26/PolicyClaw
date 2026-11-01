@@ -1,0 +1,74 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "anonymous information": [
+     "data"
+    ],
+    "browsing history": [
+     "personal data"
+    ],
+    "coarse location": [
+     "personal data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "email address": [
+     "contact data",
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "profile data": [
+     "personal data"
+    ],
+    "software application installation and usage information": [
+     "personal data"
+    ],
+    "user name": [
+     "personal data",
+     "profile data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {}
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 964,
+  "completion_tokens": 226,
+  "thinking_tokens": 0,
+  "seconds": 6.714006185531616,
+  "failures": 0
+ },
+ "seconds": 6.8
+}

@@ -1,0 +1,616 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Your information": "Your Information",
+    "anonymized or aggregate data": "aggregate / anonymized data",
+    "audiovisual information": "audio or visual recording",
+    "audiovisual_information": "audio or visual recording",
+    "bank account number": "bank account details",
+    "biometric information": "biometric data",
+    "browsing behavior": "browsing activity",
+    "browsing history": "browsing activity",
+    "browsing_activity": "browsing activity",
+    "clothing size": "body measurements",
+    "commercial_information": "commercial information",
+    "contact details": "contact data",
+    "contact information": "contact data",
+    "cookies": "cookie / tracking token",
+    "customer ID": "account identifier",
+    "customer support query": "customer support inquiry",
+    "customer-support data": "customer support inquiry",
+    "date of birth": "age",
+    "device details": "device data",
+    "device identifiers": "device identifier",
+    "device information": "device data",
+    "do not track signals": "DNT signals",
+    "do-not-track signal": "DNT signals",
+    "do-not-track signals": "DNT signals",
+    "driver's license number": "driver's license",
+    "drivers license details": "driver's license",
+    "drivers license number": "driver's license",
+    "education data": "education",
+    "education history": "education",
+    "education information": "education",
+    "email_address": "email address",
+    "facial geometry": "biometric data",
+    "features used": "feature usage details",
+    "feedback you send to us": "feedback",
+    "financial account number": "account numbers",
+    "financial details": "financial data",
+    "financial information": "financial data",
+    "friend lists": "contacts",
+    "hardware id": "device identifier",
+    "hashed email address": "hashed email",
+    "identifier": "Identifiers",
+    "identifiers": "Identifiers",
+    "identifying information": "Identifiers",
+    "ip address": "IP address",
+    "links clicked": "interaction data",
+    "merchandise sizing": "body measurements",
+    "national identification numbers": "government identification number",
+    "national identity number": "government identification number",
+    "online activity data": "online activity",
+    "online identifier": "advertising id",
+    "online identifiers": "Identifiers",
+    "online_activity": "online activity",
+    "pages viewed": "page views",
+    "payment card number": "payment card information",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data",
+    "personal records": "Personal Data",
+    "personal_records": "Personal Data",
+    "photos": "photo",
+    "physical address": "address",
+    "physical description": "physical characteristics",
+    "picture": "photo",
+    "postal address": "address",
+    "problem summary": "customer support inquiry",
+    "profile data": "profile",
+    "profile information": "profile",
+    "protected classifications": "protected classification characteristics",
+    "protected_classification": "protected classification characteristics",
+    "protected_classifications": "protected classification characteristics",
+    "pseudonym": "alias",
+    "purchase history": "consumer tendencies",
+    "purchases and products viewed": "consumer tendencies",
+    "purchasing histories and tendencies": "consumer tendencies",
+    "real name": "name",
+    "search queries": "search history",
+    "search query": "search history",
+    "search term": "search history",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "sensitive_personal_information": "sensitive data",
+    "social connections": "contacts",
+    "social media account details": "social media account",
+    "social media account info": "social media account",
+    "social media interaction": "interaction details",
+    "social network profile": "social media account",
+    "social security number": "social security",
+    "state identification card number": "government identification number",
+    "telephone number": "phone number",
+    "third-party information": "third party information",
+    "tracking data": "cookie data",
+    "transaction details": "transaction data",
+    "transaction history": "transaction data",
+    "usage data": "service usage information",
+    "usage details": "service usage information",
+    "user alias": "alias",
+    "user data": "Your Information",
+    "user feedback": "feedback",
+    "user identifier": "account name",
+    "user information": "Your Information",
+    "user post": "posts",
+    "user profile content": "closet description",
+    "user-generated content": "user content",
+    "user_information": "Your Information",
+    "username": "account name",
+    "video": "user-generated video",
+    "video clip": "user-generated video",
+    "year of graduation": "education date"
+   },
+   "parents": {
+    "IP address": [
+     "advertising id"
+    ],
+    "account identifier": [
+     "Identifiers"
+    ],
+    "account name": [
+     "account identifier"
+    ],
+    "account numbers": [
+     "financial data"
+    ],
+    "ad interaction data": [
+     "online activity"
+    ],
+    "address": [
+     "contact data"
+    ],
+    "age": [
+     "protected classification characteristics"
+    ],
+    "analytics data": [
+     "service usage information"
+    ],
+    "audio content regarding your uploads": [
+     "user content"
+    ],
+    "audio or visual recording": [
+     "sensory data"
+    ],
+    "audiovisual media": [
+     "audio or visual recording"
+    ],
+    "bank account details": [
+     "financial data"
+    ],
+    "biometric data": [
+     "sensitive data"
+    ],
+    "body measurements": [
+     "physical characteristics"
+    ],
+    "coarse location": [
+     "location"
+    ],
+    "college": [
+     "education",
+     "school name"
+    ],
+    "credit card number": [
+     "payment card information"
+    ],
+    "customer support communications": [
+     "communications"
+    ],
+    "customer support inquiry": [
+     "customer support communications"
+    ],
+    "debit card number": [
+     "payment card information"
+    ],
+    "demographic data": [
+     "demographic information"
+    ],
+    "device identifier": [
+     "advertising id"
+    ],
+    "driver's license": [
+     "government identification number",
+     "identification details"
+    ],
+    "education date": [
+     "education"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "emails": [
+     "communications"
+    ],
+    "feature usage details": [
+     "service usage information"
+    ],
+    "financial data": [
+     "Personal Data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "gender": [
+     "protected classification characteristics"
+    ],
+    "hashed email": [
+     "email address"
+    ],
+    "home city": [
+     "location"
+    ],
+    "identification details": [
+     "Identifiers"
+    ],
+    "interests": [
+     "profile"
+    ],
+    "internet and network activity": [
+     "online activity"
+    ],
+    "likes": [
+     "interaction details"
+    ],
+    "interaction data": [
+     "online activity"
+    ],
+    "metadata content regarding your uploads": [
+     "user content"
+    ],
+    "page views": [
+     "online activity"
+    ],
+    "passport number": [
+     "government identification number",
+     "identification details"
+    ],
+    "password": [
+     "sensitive data"
+    ],
+    "payment card information": [
+     "financial data"
+    ],
+    "payment details connected your purchases": [
+     "transaction data"
+    ],
+    "Personal Data": [
+     "Your Information"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "photo": [
+     "user content"
+    ],
+    "postal code": [
+     "address"
+    ],
+    "preferences": [
+     "user preferences"
+    ],
+    "profile picture": [
+     "photo"
+    ],
+    "consumer tendencies": [
+     "commercial information"
+    ],
+    "questions you send to us": [
+     "feedback"
+    ],
+    "referring and exit pages": [
+     "online activity"
+    ],
+    "referring url": [
+     "referring and exit pages"
+    ],
+    "search history": [
+     "online activity"
+    ],
+    "sensitive data": [
+     "Personal Data"
+    ],
+    "shipping address": [
+     "address",
+     "contact and shipping information"
+    ],
+    "social security": [
+     "government identification number",
+     "identification details"
+    ],
+    "text content regarding your uploads": [
+     "user content"
+    ],
+    "third-party personal data": [
+     "third party information"
+    ],
+    "transaction data": [
+     "commercial information"
+    ],
+    "user listings": [
+     "user content"
+    ],
+    "user photo": [
+     "photo"
+    ],
+    "posts": [
+     "user content"
+    ],
+    "user profile": [
+     "profile"
+    ],
+    "user-generated audio": [
+     "user content"
+    ],
+    "video content regarding your uploads": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising_network": "advertising networks",
+    "affiliates": "affiliate",
+    "business_partners": "business partners",
+    "law_enforcement_regulators_government": "government authorities",
+    "other users": "other user",
+    "other_users": "other user",
+    "professional_services_organizations": "professional services organizations",
+    "sellers": "seller",
+    "service providers": "service provider",
+    "shipping partners": "shipping partner",
+    "third_party": "third party",
+    "users": "other user"
+   },
+   "parents": {
+    "Uber": [
+     "business partners",
+     "shipping partner"
+    ],
+    "advertising networks": [
+     "advertising partners",
+     "commercial partner",
+     "online_advertising_services_and_marketing_partners"
+    ],
+    "affiliate": [
+     "commercial partner"
+    ],
+    "business partner": [
+     "partners"
+    ],
+    "business partners": [
+     "partners"
+    ],
+    "commercial partner": [
+     "partners"
+    ],
+    "law enforcement": [
+     "government authorities"
+    ],
+    "online_advertising_services_and_marketing_partners": [
+     "partners"
+    ],
+    "other user": [
+     "user"
+    ],
+    "parent company": [
+     "affiliate"
+    ],
+    "professional services organizations": [
+     "professional advisor"
+    ],
+    "public authority": [
+     "government authorities"
+    ],
+    "seller": [
+     "other user"
+    ],
+    "shipping partner": [
+     "business partners"
+    ],
+    "subsidiary": [
+     "affiliate"
+    ],
+    "unspecified third party": [
+     "third party"
+    ],
+    "vendors": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "customers": "commercial partners",
+    "data analytics provider": "analytics provider",
+    "isp": "ISP",
+    "operating system provider": "operating system",
+    "publicly available sources": "public sources",
+    "social network": "social media platforms",
+    "third party": "third parties",
+    "user device": "device"
+   },
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ],
+    "analytics provider": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "commercial partners": [
+     "third parties"
+    ],
+    "data broker": [
+     "third parties"
+    ],
+    "government entity": [
+     "third parties"
+    ],
+    "ISP": [
+     "third parties"
+    ],
+    "marketing partner": [
+     "third parties"
+    ],
+    "operating system": [
+     "third parties"
+    ],
+    "social media platforms": [
+     "third-party service or platform"
+    ],
+    "third-party service or platform": [
+     "third parties"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "cloud service infrastructure providers": "cloud provider",
+    "fraud vendors": "fraud vendor",
+    "service providers": "service provider",
+    "third party": "parties other than Poshmark",
+    "third party identity verification vendor": "identity verification vendor",
+    "third-party cloud service infrastructure providers": "cloud provider",
+    "third-party partners": "third-party partner"
+   },
+   "parents": {
+    "Connexity": [
+     "parties other than Poshmark"
+    ],
+    "Google": [
+     "parties other than Poshmark"
+    ],
+    "Taboola": [
+     "parties other than Poshmark"
+    ],
+    "Uber": [
+     "parties other than Poshmark"
+    ],
+    "business partner": [
+     "parties other than Poshmark"
+    ],
+    "cloud provider": [
+     "parties other than Poshmark",
+     "service provider"
+    ],
+    "fraud vendor": [
+     "parties other than Poshmark",
+     "service provider"
+    ],
+    "identity verification vendor": [
+     "parties other than Poshmark",
+     "service provider"
+    ],
+    "service provider": [
+     "parties other than Poshmark"
+    ],
+    "third-party partner": [
+     "parties other than Poshmark"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "ad_auditing": "ad measurement",
+    "advertising": "Advertising",
+    "delivery": "Service delivery",
+    "fraud prevention and detection": "fraud detection and prevention",
+    "fraud-detection": "fraud detection",
+    "fraud-prevention": "fraud prevention",
+    "legal and compliance": "legal",
+    "preferences": "gather preferences and actions",
+    "research": "analytics or research",
+    "service optimization": "Services functionality",
+    "terms-enforcement": "enforce terms of service",
+    "user identification": "identifying users"
+   },
+   "parents": {
+    "ad measurement": [
+     "Advertising"
+    ],
+    "ad optimization": [
+     "Advertising"
+    ],
+    "advertising_targeted": [
+     "Advertising"
+    ],
+    "marketing_first_party": [
+     "Marketing"
+    ],
+    "cross_context_behavioral_advertising": [
+     "Advertising"
+    ],
+    "targeted advertising": [
+     "Advertising"
+    ],
+    "Advertising": [
+     "Marketing",
+     "marketing"
+    ],
+    "financial transactions and anti-money laundering compliance": [
+     "compliance"
+    ],
+    "backup, audit, legal, tax, accounting, or compliance": [
+     "legal"
+    ],
+    "legal and regulatory compliance": [
+     "legal"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "compliance with legal obligations": [
+     "legal"
+    ],
+    "complete transactions": [
+     "fulfill transactions"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "account-verification": [
+     "security"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "customer support": [
+     "support_and_communication"
+    ],
+    "service development": [
+     "Research & Development"
+    ],
+    "analytics or research": [
+     "Research & Development"
+    ],
+    "analytics and improvement": [
+     "analytics",
+     "service improvement"
+    ],
+    "Services functionality": [
+     "service improvement"
+    ],
+    "services improvement and personalization": [
+     "personalization",
+     "service improvement"
+    ],
+    "service provision and enhancement": [
+     "service provision"
+    ],
+    "service provision and improvement": [
+     "service improvement",
+     "service provision"
+    ],
+    "fulfill transactions": [
+     "service provision"
+    ],
+    "Service delivery": [
+     "service provision"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "identifying users": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 7541,
+  "completion_tokens": 3858,
+  "thinking_tokens": 0,
+  "seconds": 26.351890087127686,
+  "failures": 0
+ },
+ "seconds": 26.5
+}

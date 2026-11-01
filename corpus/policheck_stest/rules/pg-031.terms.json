@@ -1,0 +1,333 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Social Security number": "SSN",
+    "contact-info": "contact details",
+    "cookies and similar tracking technologies": "cookies",
+    "date of birth": "birth date",
+    "email-address": "email address",
+    "ip_address": "ip address",
+    "location": "geographic location",
+    "personal information": "personal data",
+    "personal-data": "personal data",
+    "referring_url": "referring_exit_pages",
+    "social security number": "SSN",
+    "unique device identifier": "device ID",
+    "unique_device_id": "device ID"
+   },
+   "parents": {
+    "Apple IDFA": [
+     "device ID"
+    ],
+    "SSN": [
+     "government identification number",
+     "sensitive personal information"
+    ],
+    "drivers license number": [
+     "government identification number"
+    ],
+    "passport number": [
+     "government identification number"
+    ],
+    "state ID number": [
+     "government identification number"
+    ],
+    "financial account login": [
+     "financial information",
+     "sensitive personal information"
+    ],
+    "health information": [
+     "sensitive personal information",
+     "special category data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "special category data": [
+     "personal data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "friend-contact-details": [
+     "contact details",
+     "friend-information"
+    ],
+    "friend-name": [
+     "friend-information",
+     "name"
+    ],
+    "friend-information": [
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "birth date": [
+     "demographic data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "education qualification": [
+     "personal data"
+    ],
+    "employment status": [
+     "personal data"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "payment data": [
+     "financial information"
+    ],
+    "financial transaction data": [
+     "financial information"
+    ],
+    "tax return": [
+     "financial information"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "browser_type": [
+     "device characteristics"
+    ],
+    "operating_system": [
+     "device characteristics"
+    ],
+    "screen_resolution": [
+     "device characteristics"
+    ],
+    "language": [
+     "device characteristics"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device ID": [
+     "device information"
+    ],
+    "device information": [
+     "personal data"
+    ],
+    "ip address": [
+     "personal data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing_activity": [
+     "usage data"
+    ],
+    "pages_visited": [
+     "usage data"
+    ],
+    "files_viewed": [
+     "usage data"
+    ],
+    "number_of_clicks": [
+     "usage data"
+    ],
+    "mouse_movements_and_clicks": [
+     "usage data"
+    ],
+    "scrolling_activity": [
+     "usage data"
+    ],
+    "keystroke_data": [
+     "usage data"
+    ],
+    "in-app events": [
+     "usage data"
+    ],
+    "app usage frequency": [
+     "usage data"
+    ],
+    "email_opens": [
+     "usage data"
+    ],
+    "aggregate app usage": [
+     "aggregated data",
+     "usage data"
+    ],
+    "aggregated data": [
+     "non-identifiable-data"
+    ],
+    "state": [
+     "geographic location"
+    ],
+    "user-documents": [
+     "user data"
+    ],
+    "account-data": [
+     "user data"
+    ],
+    "log-in credentials": [
+     "personal data"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "user data": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "Internal Revenue Service": [
+     "government agency",
+     "government-entity",
+     "public authority"
+    ],
+    "government agency": [
+     "government-entity",
+     "public authority"
+    ],
+    "public authority": [
+     "government-entity"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "third-party-contractors": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "professional-advisor": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "acquirer": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "browser": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "business partner"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party companies": [
+     "other companies",
+     "third party"
+    ],
+    "government entities": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "compliance with legal obligations": "compliance",
+    "fraud-protection": "fraud detection",
+    "legal compliance": "compliance",
+    "legal-compliance": "compliance",
+    "manage business": "business operations",
+    "product improvement": "improve_service",
+    "service": "provide_service",
+    "service delivery": "provide_service",
+    "service improvement": "improve_service",
+    "service provision": "provide_service",
+    "service-fulfillment": "provide_service",
+    "service-provision": "provide_service",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud detection": [
+     "compliance",
+     "legitimate interests",
+     "security"
+    ],
+    "verify user identity": [
+     "security"
+    ],
+    "enforcing terms": [
+     "compliance"
+    ],
+    "legal dispute resolution": [
+     "compliance"
+    ],
+    "service-functionality": [
+     "provide_service"
+    ],
+    "process transactions": [
+     "provide_service"
+    ],
+    "account management": [
+     "provide_service"
+    ],
+    "troubleshooting": [
+     "administration",
+     "improve_service",
+     "site operation"
+    ],
+    "site operation": [
+     "administration"
+    ],
+    "product development": [
+     "business operations"
+    ],
+    "marketing": [
+     "business operations",
+     "legitimate interests"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "improve_service": [
+     "legitimate interests"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3227,
+  "completion_tokens": 2267,
+  "thinking_tokens": 0,
+  "seconds": 18.165181875228882,
+  "failures": 0
+ },
+ "seconds": 18.2
+}

@@ -1,0 +1,184 @@
+{
+ "cleaned_sha256": "web-041",
+ "text_sha256": "7ae9da62f336f1976904dabfc7ae5ede0345e40e8c7f33278dec78944936cb8f",
+ "site_id": "web-041",
+ "sections": 14,
+ "rules": 148,
+ "report": {
+  "sections": 14,
+  "raw_rules": 135,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will review",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you exercise a right to object to the processing of your Personal Data"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-041#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "our third party service providers that provide customer support services in connection with goods, Content and Services distributed via Steam",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-041#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your IP address",
+      "name": "IP address"
+     },
+     "recipient": {
+      "text": "our third party network providers that provide content delivery network services and game server services in connection with Steam",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [
+      "In accordance with internet standards"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-041#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the identification of Steam content you wish to access",
+      "name": "browsing history"
+     },
+     "recipient": {
+      "text": "our third party network providers that provide content delivery network services and game server services in connection with Steam",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [],
+     "conditions": [
+      "In accordance with internet standards"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-041#s7"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 101,
+  "completeness": {
+   "gaps": 205,
+   "gap_words": 2145
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 101,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 47603,
+  "completion_tokens": 29618,
+  "thinking_tokens": 0,
+  "seconds": 289.37555289268494,
+  "failures": 0
+ },
+ "seconds": 290.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

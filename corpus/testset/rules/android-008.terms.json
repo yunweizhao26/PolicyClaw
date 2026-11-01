@@ -1,0 +1,106 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "installed applications": "app inventory"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "search history": [
+     "browsing behavior"
+    ],
+    "user feedback": [
+     "browsing behavior",
+     "customer support inquiry"
+    ],
+    "crash logs": [
+     "diagnostic information",
+     "system logs"
+    ],
+    "performance data": [
+     "diagnostic information"
+    ],
+    "images": [
+     "files stored on device",
+     "user content"
+    ],
+    "videos": [
+     "files stored on device",
+     "user content"
+    ],
+    "coarse location": [
+     "region"
+    ],
+    "browsing history": [
+     "usage information"
+    ],
+    "browsing behavior": [
+     "usage information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "law enforcement": [
+     "government agency"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "user identification and authentication": "authentication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or development"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service security": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "analytics or development": [
+     "service operation and improvement"
+    ],
+    "service performance": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1995,
+  "completion_tokens": 378,
+  "thinking_tokens": 0,
+  "seconds": 9.815327405929565,
+  "failures": 0
+ },
+ "seconds": 9.9
+}

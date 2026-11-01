@@ -1,0 +1,267 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifiers": "advertising identifier",
+    "information": "data",
+    "messages": "message",
+    "mobile advertising identifier": "advertising identifier",
+    "non-identifiable, de-identified, or aggregated data": "non-identifiable, de-identified and/or aggregated information from or about you",
+    "personal information": "personal data",
+    "phone numbers": "phone number",
+    "transaction information": "transaction details",
+    "user posts": "posts",
+    "user-submitted content": "user content"
+   },
+   "parents": {
+    "IP address": [
+     "device information"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "carrier": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "advertising identifier": [
+     "device information"
+    ],
+    "precise geolocation": [
+     "location",
+     "sensitive data"
+    ],
+    "profile picture": [
+     "profile information",
+     "user content"
+    ],
+    "user-submitted photos": [
+     "content",
+     "user content"
+    ],
+    "video": [
+     "content",
+     "user content"
+    ],
+    "reviews": [
+     "user content"
+    ],
+    "ratings": [
+     "user content"
+    ],
+    "posts": [
+     "user content"
+    ],
+    "public posts": [
+     "posts",
+     "public activity"
+    ],
+    "bookmarks": [
+     "user activity"
+    ],
+    "user interactions": [
+     "user activity"
+    ],
+    "user activity details": [
+     "user activity"
+    ],
+    "browsing behavior": [
+     "user activity"
+    ],
+    "browsing activity": [
+     "user activity"
+    ],
+    "date and time of call": [
+     "information about your call"
+    ],
+    "phone number": [
+     "contact details",
+     "information about your call"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "business name": [
+     "business-information"
+    ],
+    "search preferences": [
+     "user preferences"
+    ],
+    "user lists": [
+     "user content"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "message data": [
+     "communications",
+     "message"
+    ],
+    "complaints": [
+     "communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "businesses": "business",
+    "entities under common control": "companies under common control",
+    "other users": "other user",
+    "third-parties": "third party"
+   },
+   "parents": {
+    "advertisers on Yelp": [
+     "advertisers",
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "business transacted with": [
+     "business"
+    ],
+    "businesses on Yelp": [
+     "business"
+    ],
+    "restaurant": [
+     "business",
+     "business transacted with"
+    ],
+    "commercial partners": [
+     "third party"
+    ],
+    "content and data partners": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "service providers",
+     "third party"
+    ],
+    "third-party platforms": [
+     "third party"
+    ],
+    "third-party websites": [
+     "third party"
+    ],
+    "affiliates": [
+     "companies under common control"
+    ],
+    "subsidiaries": [
+     "companies under common control"
+    ],
+    "joint ventures": [
+     "companies under common control"
+    ],
+    "other user": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "businesses and their representatives": [
+     "user"
+    ],
+    "children": [
+     "user"
+    ],
+    "third-party platforms": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party service providers": "service providers"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "service providers": [
+     "third party",
+     "third party provider"
+    ],
+    "third party provider": [
+     "third party"
+    ],
+    "third-party partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "legal-compliance": "legal compliance",
+    "research-and-development": "research and development"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "contact": [
+     "communication"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud-detection": [
+     "security"
+    ],
+    "in order to process and deliver them and allow you to manage them": [
+     "fulfillment"
+    ],
+    "product development": [
+     "research and development"
+    ],
+    "recommendations": [
+     "personalization"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "service quality": [
+     "service improvement"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "to allow the business to respond to your request": [
+     "communication",
+     "fulfillment"
+    ],
+    "to let them know if you have viewed their message": [
+     "communication"
+    ],
+    "to process your invitations or friend requests": [
+     "fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3718,
+  "completion_tokens": 1265,
+  "thinking_tokens": 0,
+  "seconds": 13.11682915687561,
+  "failures": 0
+ },
+ "seconds": 13.2
+}

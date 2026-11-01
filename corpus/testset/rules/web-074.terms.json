@@ -1,0 +1,295 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account info",
+    "billing information": "billing details",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "featured customer stories": "customer stories",
+    "ip address": "IP address",
+    "personal data": "information about you",
+    "personal information": "information about you",
+    "user-provided content": "user content",
+    "your information": "information about you"
+   },
+   "parents": {
+    "account usage history": [
+     "account info"
+    ],
+    "billing details": [
+     "payment information"
+    ],
+    "payment card details": [
+     "payment information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "name": [
+     "contact details",
+     "profile info"
+    ],
+    "profile picture": [
+     "profile info"
+    ],
+    "job title": [
+     "profile info"
+    ],
+    "social media profile": [
+     "profile info"
+    ],
+    "profile info": [
+     "account info"
+    ],
+    "account info": [
+     "information about you",
+     "user data"
+    ],
+    "cookie data": [
+     "cookies and tracking technologies"
+    ],
+    "cookies": [
+     "cookies and tracking technologies"
+    ],
+    "browser type": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "crash data": [
+     "usage data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "product interaction": [
+     "usage data"
+    ],
+    "service usage details": [
+     "usage data"
+    ],
+    "service use info": [
+     "usage data"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "referring and exit pages": [
+     "usage data"
+    ],
+    "software feature usage": [
+     "service usage details"
+    ],
+    "post content": [
+     "user content"
+    ],
+    "messages": [
+     "user content"
+    ],
+    "customer stories": [
+     "testimonials"
+    ],
+    "testimonials": [
+     "user content"
+    ],
+    "feedback": [
+     "user content"
+    ],
+    "de-identified aggregated content": [
+     "content"
+    ],
+    "user content": [
+     "content"
+    ],
+    "customer support inquiry": [
+     "inquiries",
+     "support requests"
+    ],
+    "support requests": [
+     "inquiries"
+    ],
+    "country preference": [
+     "preferences"
+    ],
+    "marketing preferences": [
+     "preferences"
+    ],
+    "sensitive data": [
+     "information about you"
+    ],
+    "text messaging originator opt-in data": [
+     "consent records"
+    ],
+    "written permission": [
+     "consent records"
+    ],
+    "purchases": [
+     "order information"
+    ],
+    "IP address": [
+     "device information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Atlassian corporate affiliates",
+    "users": "user",
+    "you": "user"
+   },
+   "parents": {
+    "administrator": [
+     "user"
+    ],
+    "other users": [
+     "user"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party expert": [
+     "third party"
+    ],
+    "third-party provider of services": [
+     "service provider",
+     "third party"
+    ],
+    "third-party service": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "commercial partners": "business partner"
+   },
+   "parents": {
+    "third-party providers": [
+     "third party"
+    ],
+    "third-party service": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party",
+     "third-party providers"
+    ],
+    "child": [
+     "user"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "personalization": "personalisation",
+    "providing you the Services": "provide service",
+    "record maintenance": "record keeping",
+    "user authentication": "authentication"
+   },
+   "parents": {
+    "ad personalisation": [
+     "marketing",
+     "personalisation"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service feedback": [
+     "communication"
+    ],
+    "customer support": [
+     "communication",
+     "provide service"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "user identification": [
+     "security"
+    ],
+    "service troubleshooting": [
+     "service improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "product development": [
+     "service improvement"
+    ],
+    "facilitate our global operations": [
+     "operations"
+    ],
+    "service operation and management": [
+     "operations"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "transaction processing": [
+     "provide service"
+    ],
+    "service provision": [
+     "provide service"
+    ],
+    "service performance": [
+     "provide service"
+    ],
+    "provide service": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3204,
+  "completion_tokens": 1338,
+  "thinking_tokens": 0,
+  "seconds": 13.929676532745361,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

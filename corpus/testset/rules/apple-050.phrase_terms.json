@@ -1,0 +1,86 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information about you": "personal information",
+    "your personal information": "personal information"
+   },
+   "parents": {
+    "Social Security number": [
+     "personal information"
+    ],
+    "account balances": [
+     "personal information"
+    ],
+    "account transactions": [
+     "information about your transactions and experiences",
+     "personal information"
+    ],
+    "credit history": [
+     "information about your creditworthiness",
+     "personal information"
+    ],
+    "income": [
+     "information about your creditworthiness",
+     "personal information"
+    ],
+    "information about your creditworthiness": [
+     "personal information"
+    ],
+    "information about your transactions and experiences": [
+     "personal information"
+    ],
+    "insurance claim history": [
+     "information about your transactions and experiences",
+     "personal information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "our affiliates'": "our affiliates"
+   },
+   "parents": {
+    "other financial companies": [
+     "nonaffiliates"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "affiliates": [
+     "other companies"
+    ],
+    "credit bureaus": [
+     "other companies"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "We": "USAA",
+    "we": "USAA"
+   },
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "to process your transactions": [
+     "For our everyday business purposes — such as to process your transactions, maintain your accounts, respond to court orders and legal investigations, or report to credit bureaus"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1957,
+  "completion_tokens": 603,
+  "thinking_tokens": 0,
+  "seconds": 9.180105924606323,
+  "failures": 0
+ },
+ "seconds": 9.3
+}

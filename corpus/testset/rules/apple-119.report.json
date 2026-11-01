@@ -1,0 +1,161 @@
+{
+ "cleaned_sha256": "apple-119",
+ "text_sha256": "75d532722f8f8be5aea6322ac6dd3c705cfc1d8b0cd46eeea3893fa8b52aba9b",
+ "site_id": "apple-119",
+ "sections": 17,
+ "rules": 209,
+ "report": {
+  "sections": 17,
+  "raw_rules": 177,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "Dollar General",
+      "text": "Dollar General"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to help us provide a particular operation and its services (e.g., electronic commerce, digital coupon platform)",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service providers",
+      "text": "Service providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us provide a particular operation and its services (e.g., electronic commerce, digital coupon platform)"
+    ],
+    "section": "apple-119#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "You may request to know whether we process your Personal Information, and to access such Personal Information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-119#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sales",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sales",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "offline"
+     ],
+     "exceptions": [
+      "Requests to Opt Out of “Sale”",
+      "If you are also currently logged into your Dollar General account, you will also be automatically opted out of offline targeted advertising, including “sharing,” and offline sales",
+      "complete and submit the form available at the “Your Privacy Choices” link on the homepage of the Websites"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-119#s14"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 70,
+  "completeness": {
+   "gaps": 289,
+   "gap_words": 3587
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 17,
+  "translated_quotes": 70,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 65817,
+  "completion_tokens": 39140,
+  "thinking_tokens": 0,
+  "seconds": 670.2109801769257,
+  "failures": 0
+ },
+ "seconds": 671.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

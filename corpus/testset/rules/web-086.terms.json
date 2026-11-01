@@ -1,0 +1,367 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "de-identified data": "anonymized data",
+    "device and activity information": "activity and device information",
+    "payment information": "payment details",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "CCTV footage": [
+     "video recording"
+    ],
+    "video recording": [
+     "audio electronic visual and similar information"
+    ],
+    "photograph": [
+     "audio electronic visual and similar information"
+    ],
+    "voice recording": [
+     "audio electronic visual and similar information"
+    ],
+    "IP address": [
+     "online identifier"
+    ],
+    "online identifier": [
+     "identifiers"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "social media handle": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "ad views": [
+     "online activity"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "browsing history": [
+     "online activity"
+    ],
+    "clickstream data": [
+     "online activity"
+    ],
+    "online activity": [
+     "activity and device information",
+     "usage data"
+    ],
+    "user activity": [
+     "usage data"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "debit card number": [
+     "payment details"
+    ],
+    "payment details": [
+     "financial account number"
+    ],
+    "payment records": [
+     "commercial information"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device settings": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "device information": [
+     "activity and device information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "postal code": [
+     "postal address"
+    ],
+    "imprecise geolocation": [
+     "geolocation"
+    ],
+    "precise geolocation": [
+     "geolocation"
+    ],
+    "inferences about interests": [
+     "inferences"
+    ],
+    "job title": [
+     "professional information"
+    ],
+    "work history": [
+     "professional information"
+    ],
+    "education history": [
+     "professional information"
+    ],
+    "password": [
+     "login credentials"
+    ],
+    "sensitive data": [
+     "Personal Information"
+    ],
+    "personal information of minors": [
+     "Personal Information"
+    ],
+    "user content": [
+     "content"
+    ],
+    "cookie data": [
+     "tracking technologies"
+    ],
+    "login credentials": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "identity resolution partner": "Identity Resolution Partners",
+    "identity resolution partners": "Identity Resolution Partners",
+    "order fulfillment providers": "delivery service",
+    "payment processors": "payment processor",
+    "product recommendation providers": "product and recommendation partners",
+    "professional advisors": "professional advisor",
+    "service providers": "service provider",
+    "social network": "social media companies"
+   },
+   "parents": {
+    "accountant": [
+     "professional advisor"
+    ],
+    "advertising facilitate companies": [
+     "advertising, marketing, social media and advertising facilitating companies",
+     "advertising, marketing, social media, subscription sales and advertising facilitating companies"
+    ],
+    "advertising partner": [
+     "commercial partners"
+    ],
+    "advertising, marketing, social media and advertising facilitating companies": [
+     "advertising partner"
+    ],
+    "advertising, marketing, social media, subscription sales and advertising facilitating companies": [
+     "advertising partner"
+    ],
+    "affiliate": [
+     "related entities"
+    ],
+    "subsidiaries": [
+     "affiliate",
+     "related entities"
+    ],
+    "parent company": [
+     "related entities"
+    ],
+    "auditor": [
+     "professional advisor"
+    ],
+    "consultant": [
+     "professional advisor"
+    ],
+    "legal counsel": [
+     "professional advisor"
+    ],
+    "data aggregators": [
+     "data co-ops, suppliers, providers, and aggregators"
+    ],
+    "data co-ops": [
+     "data co-ops, suppliers, providers, and aggregators"
+    ],
+    "security provider": [
+     "data storage and security providers"
+    ],
+    "law enforcement": [
+     "governmental authorities and legal parties",
+     "public authorities"
+    ],
+    "social media platforms": [
+     "social media companies"
+    ],
+    "social media companies": [
+     "advertising, marketing, social media and advertising facilitating companies",
+     "advertising, marketing, social media, subscription sales and advertising facilitating companies"
+    ],
+    "commercial partners": [
+     "third-party business partners"
+    ],
+    "corporate acquirers": [
+     "acquirer"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Identity Resolution Partners": [
+     "other sources"
+    ],
+    "child under the age of 13": [
+     "user"
+    ],
+    "social network": [
+     "other sources",
+     "third parties"
+    ],
+    "third-party business partners": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Condé Nast",
+    "identity resolution partner": "Identity Resolution Partners",
+    "social media platforms": "social media network",
+    "social network": "social media network",
+    "third-party partner": "third-party business partners"
+   },
+   "parents": {
+    "LiveRamp": [
+     "Identity Resolution Partners",
+     "third party"
+    ],
+    "third-party advertising partner": [
+     "advertising partners",
+     "third party",
+     "third-party business partners"
+    ],
+    "advertising partners": [
+     "partners"
+    ],
+    "Identity Resolution Partners": [
+     "partners"
+    ],
+    "third-party business partners": [
+     "partners",
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "social media network": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "business purpose": "business operations",
+    "personalization": "personalisation",
+    "product improvement": "improve service",
+    "service improvement": "improve service",
+    "service provision": "provide service",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "cross-context behavioral advertising and targeted advertising": [
+     "advertising"
+    ],
+    "personalized advertising": [
+     "advertising",
+     "personalisation"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "targeted advertising, analytics, and measurement": [
+     "advertising"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "verify user authentication": [
+     "authentication"
+    ],
+    "business administration": [
+     "internal operations"
+    ],
+    "dispute resolution": [
+     "audit or dispute resolution"
+    ],
+    "fraud prevention": [
+     "fraud detection and security"
+    ],
+    "fraud detection and security": [
+     "security"
+    ],
+    "physical security": [
+     "compliance and security",
+     "security"
+    ],
+    "compliance and security": [
+     "security"
+    ],
+    "marketing communications": [
+     "marketing"
+    ],
+    "promotional purposes": [
+     "marketing"
+    ],
+    "personalize service": [
+     "personalisation"
+    ],
+    "predict preferences and interests": [
+     "profiling"
+    ],
+    "recognize your device": [
+     "identification"
+    ],
+    "generate an online identifier": [
+     "identification"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "customer support": [
+     "provide service"
+    ],
+    "fulfillment": [
+     "provide service"
+    ],
+    "services": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4545,
+  "completion_tokens": 1822,
+  "thinking_tokens": 0,
+  "seconds": 31.77379083633423,
+  "failures": 0
+ },
+ "seconds": 31.9
+}

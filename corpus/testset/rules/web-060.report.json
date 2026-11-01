@@ -1,0 +1,206 @@
+{
+ "cleaned_sha256": "web-060",
+ "text_sha256": "d6d7f4ace098a6357ab7eebb0c1fe5ce560f0b4f820257b50e9ab43f5be8f18a",
+ "site_id": "web-060",
+ "sections": 11,
+ "rules": 194,
+ "report": {
+  "sections": 11,
+  "raw_rules": 157,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will store",
+     "actor": {
+      "text": "our third party payment processors",
+      "name": "payment processor"
+     },
+     "data": {
+      "text": "billing address",
+      "name": "billing address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "Billing Information",
+      "If you purchase a paid version of Calendly"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will store"
+    ],
+    "section": "web-060#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will store",
+     "actor": {
+      "text": "our third party payment processors",
+      "name": "payment processor"
+     },
+     "data": {
+      "text": "credit card information",
+      "name": "credit card number"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "Billing Information",
+      "If you purchase a paid version of Calendly"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will store"
+    ],
+    "section": "web-060#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "email",
+      "verb": "email"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "For EU/UK purposes, our legal basis for processing is performance of a contract"
+     ],
+     "data": {
+      "name": "information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [
+      {
+       "text": "regarding your calendar appointments",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-060#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you do not have an account with us"
+     ],
+     "data": {
+      "name": "information to verify user identity",
+      "text": "additional information about you to verify your identity"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "purpose": [
+      {
+       "text": "to verify your identity",
+       "name": "user account management"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "collect"
+    ],
+    "section": "web-060#s7"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 82,
+  "completeness": {
+   "gaps": 271,
+   "gap_words": 3304
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 31,
+  "translated_quotes": 82,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 50947,
+  "completion_tokens": 43759,
+  "thinking_tokens": 0,
+  "seconds": 316.15475392341614,
+  "failures": 0
+ },
+ "seconds": 317.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

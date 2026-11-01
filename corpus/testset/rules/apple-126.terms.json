@@ -1,0 +1,254 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "date_of_birth": "date of birth",
+    "device_id": "device identifier",
+    "government_id": "government identification",
+    "ip_address": "IP address",
+    "location data": "location",
+    "personal information": "personal data",
+    "phone_number": "phone number",
+    "user_profile": "score profiles"
+   },
+   "parents": {
+    "IP address": [
+     "traffic data"
+    ],
+    "accessed resources": [
+     "usage details"
+    ],
+    "application input data": [
+     "gameplay data"
+    ],
+    "application output images": [
+     "gameplay visual data"
+    ],
+    "application performance data": [
+     "usage data"
+    ],
+    "application use results and outputs": [
+     "gameplay data"
+    ],
+    "bank account details": [
+     "financial"
+    ],
+    "biometric data": [
+     "sensitive personal data"
+    ],
+    "browser type": [
+     "browser or software data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "confirmation message": [
+     "transactional messages"
+    ],
+    "cookies": [
+     "usage data"
+    ],
+    "customer support communications": [
+     "communications"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "deposit history": [
+     "financial"
+    ],
+    "device identifier": [
+     "browser or software data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "game scores": [
+     "gameplay data"
+    ],
+    "gameplay data": [
+     "usage data"
+    ],
+    "gameplay visual data": [
+     "gameplay data"
+    ],
+    "government identification": [
+     "personal data"
+    ],
+    "location of access": [
+     "location"
+    ],
+    "mobile phone number": [
+     "phone number"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "network information": [
+     "browser or software data"
+    ],
+    "operating system": [
+     "browser or software data"
+    ],
+    "opt-in consent": [
+     "opt-in data"
+    ],
+    "payment card information": [
+     "financial"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "prize outcomes": [
+     "gameplay data"
+    ],
+    "profile picture": [
+     "public account data"
+    ],
+    "promotional SMS messages": [
+     "SMS"
+    ],
+    "responsible gaming requests": [
+     "communications"
+    ],
+    "score profiles": [
+     "gameplay data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "skill rankings": [
+     "score profiles"
+    ],
+    "spending amounts": [
+     "financial"
+    ],
+    "ssn": [
+     "sensitive personal data"
+    ],
+    "survey responses": [
+     "user data"
+    ],
+    "time of access": [
+     "traffic data"
+    ],
+    "traffic data": [
+     "usage details"
+    ],
+    "transaction details": [
+     "financial"
+    ],
+    "transaction fulfillment details": [
+     "transaction details"
+    ],
+    "transactional messages": [
+     "communications"
+    ],
+    "usage details": [
+     "usage data"
+    ],
+    "user profile": [
+     "gameplay data"
+    ],
+    "username": [
+     "public account data"
+    ],
+    "video recording of face": [
+     "biometric data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "marketer": "advertising partner"
+   },
+   "parents": {
+    "Meta Platforms, Inc.": [
+     "third party"
+    ],
+    "advertising partner": [
+     "service provider",
+     "third party"
+    ],
+    "authentication provider": [
+     "service provider"
+    ],
+    "communication service provider": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention": "fraud detection",
+    "service improvement": "service enhancement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "fraud detection": [
+     "fraud_security",
+     "security"
+    ],
+    "fraud_security": [
+     "security"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "service fulfillment": [
+     "service provision"
+    ],
+    "service performance": [
+     "service provision"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "user requested purpose": [
+     "service fulfillment"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 2588,
+  "completion_tokens": 1085,
+  "thinking_tokens": 0,
+  "seconds": 11.338449954986572,
+  "failures": 0
+ },
+ "seconds": 11.4
+}

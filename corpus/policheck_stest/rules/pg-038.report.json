@@ -1,0 +1,178 @@
+{
+ "cleaned_sha256": "pg-038",
+ "text_sha256": "d81484252f3184b8726a55464008bf25dc70f9ee31ee06f457e9ca4c0189edbf",
+ "site_id": "pg-038",
+ "sections": 4,
+ "rules": 61,
+ "report": {
+  "sections": 4,
+  "raw_rules": 47,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "aims to take reasonable steps to allow you to amend",
+     "actor": {
+      "text": "Tank Battle",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "amend",
+      "verb": "amend"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of the European Economic Area (EEA)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "aims to take reasonable steps to allow you to amend"
+    ],
+    "section": "pg-038#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "aims to take reasonable steps to allow you to delete",
+     "actor": {
+      "text": "Tank Battle",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of the European Economic Area (EEA)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "aims to take reasonable steps to allow you to delete"
+    ],
+    "section": "pg-038#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "aims to take reasonable steps to allow you to limit the use",
+     "actor": {
+      "text": "Tank Battle",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "limit the use",
+      "verb": "limit"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of the European Economic Area (EEA)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "aims to take reasonable steps to allow you to limit the use"
+    ],
+    "section": "pg-038#s3"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 33,
+  "completeness": {
+   "gaps": 134,
+   "gap_words": 1470
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 33,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16723,
+  "completion_tokens": 11948,
+  "thinking_tokens": 0,
+  "seconds": 71.09637808799744,
+  "failures": 0
+ },
+ "seconds": 71.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

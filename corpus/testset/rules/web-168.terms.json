@@ -1,0 +1,415 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "payment report data": "payment report",
+    "session identifier": "session ID",
+    "use of websites": "use of website",
+    "user bug reports": "bug report",
+    "user support data": "customer support data"
+   },
+   "parents": {
+    "DNS requests related to domains that are blocked": [
+     "DNS request data"
+    ],
+    "abbreviated ip address": [
+     "IP address"
+    ],
+    "full ip address": [
+     "IP address"
+    ],
+    "app version": [
+     "software version"
+    ],
+    "browser extension version": [
+     "extension version",
+     "software version"
+    ],
+    "browser version": [
+     "software version"
+    ],
+    "country": [
+     "location data"
+    ],
+    "location data": [
+     "location"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "tracking cookies": [
+     "cookies"
+    ],
+    "necessary cookies": [
+     "cookies"
+    ],
+    "cookie settings": [
+     "browser settings"
+    ],
+    "device ID": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "identifier",
+     "identifiers"
+    ],
+    "instance id": [
+     "identifiers"
+    ],
+    "report id": [
+     "identifiers"
+    ],
+    "session ID": [
+     "identifier",
+     "identifiers"
+    ],
+    "transaction identifier": [
+     "identifiers"
+    ],
+    "UUID": [
+     "identifier",
+     "identifiers"
+    ],
+    "browser extension identifier": [
+     "identifiers"
+    ],
+    "application id": [
+     "identifiers"
+    ],
+    "crash data": [
+     "crash reporting data"
+    ],
+    "crash reports": [
+     "crash reporting data"
+    ],
+    "crash traces": [
+     "crash reporting data"
+    ],
+    "date and time of crash": [
+     "date and time stamp"
+    ],
+    "free memory": [
+     "device parameters"
+    ],
+    "free storage space": [
+     "device parameters"
+    ],
+    "device parameters": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "operating system": [
+     "device and system information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "user comment": [
+     "comments",
+     "feedback"
+    ],
+    "comments": [
+     "user-submitted content"
+    ],
+    "cover letter": [
+     "job application data"
+    ],
+    "resume": [
+     "job application data"
+    ],
+    "written permission": [
+     "documentation"
+    ],
+    "credentials": [
+     "documentation"
+    ],
+    "payment records": [
+     "payment data"
+    ],
+    "payment data": [
+     "financial data"
+    ],
+    "reviews": [
+     "feedback"
+    ],
+    "user feedback": [
+     "feedback"
+    ],
+    "ad-filtering usage data": [
+     "aggregated usage statistics"
+    ],
+    "aggregated analytics data": [
+     "aggregated usage statistics"
+    ],
+    "analytics data": [
+     "aggregated usage statistics"
+    ],
+    "filter lists usage data": [
+     "aggregated usage statistics"
+    ],
+    "server log data": [
+     "log data"
+    ],
+    "website logs": [
+     "log data"
+    ],
+    "server logs": [
+     "log data"
+    ],
+    "detailed logs": [
+     "log data"
+    ],
+    "HTTP request details": [
+     "HTTP request"
+    ],
+    "HTTP response details": [
+     "HTTP request"
+    ],
+    "visited url": [
+     "browsing activity"
+    ],
+    "referrer url": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "subscription downloads data": [
+     "data related to subscription downloads, extension update checks, emergency notifications"
+    ],
+    "extension update checks data": [
+     "data related to subscription downloads, extension update checks, emergency notifications"
+    ],
+    "emergency notifications data": [
+     "data related to subscription downloads, extension update checks, emergency notifications"
+    ],
+    "uninstallation reason": [
+     "uninstallation data"
+    ],
+    "username": [
+     "name"
+    ],
+    "user name": [
+     "name"
+    ],
+    "number of ads and cookie banners blocked in Safari": [
+     "ad blocking metrics"
+    ],
+    "ad blocking metrics": [
+     "ad blocking statistics"
+    ],
+    "bug report": [
+     "issue report data"
+    ],
+    "issue reports": [
+     "issue report data"
+    ],
+    "event tracking with IDs": [
+     "event tracking data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "other controller": "another controller",
+    "third party": "third parties",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Firebase": [
+     "Google",
+     "service provider",
+     "third parties"
+    ],
+    "German finance authorities": [
+     "public authorities which prosecute administrative offences entailing fines"
+    ],
+    "Google": [
+     "service provider",
+     "third parties"
+    ],
+    "HockeyApp": [
+     "service provider"
+    ],
+    "RevenueCat": [
+     "service provider",
+     "third parties"
+    ],
+    "Whalebone s.r.o.": [
+     "service provider",
+     "third parties"
+    ],
+    "criminal investigation authorities": [
+     "law enforcement"
+    ],
+    "first party employees": [
+     "first party"
+    ],
+    "injured third parties": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third party filter list maintainers": [
+     "third parties"
+    ],
+    "visitors": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Firebase Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "uninstallation and/or payment webpage": [
+     "website"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Firebase": [
+     "Google"
+    ],
+    "Google Tag Manager": [
+     "Google"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Stripe": [
+     "payment processor"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "Whalebone s.r.o.": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "hosting website": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account creation": "account administration",
+    "account management": "account administration",
+    "account-management": "account administration",
+    "fraud prevention": "fraud detection and prevention",
+    "legal compliance": "compliance with legal obligation",
+    "payment processing": "payment handling",
+    "recruitment": "human resources",
+    "recruitment-and-hiring": "human resources",
+    "service improvement": "product improvement",
+    "service_provision": "service provision",
+    "troubleshooting": "debugging"
+   },
+   "parents": {
+    "authentication": [
+     "account administration"
+    ],
+    "business communication": [
+     "communication"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "customer-support-communication": [
+     "communication",
+     "customer support"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "evaluate applications": [
+     "human resources"
+    ],
+    "payment handling": [
+     "financial"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "preferences": [
+     "personalization"
+    ],
+    "product improvement": [
+     "service operation and improvement"
+    ],
+    "service functionality": [
+     "service operation"
+    ],
+    "website operation": [
+     "service operation"
+    ],
+    "service registration": [
+     "service provision"
+    ],
+    "service management": [
+     "service provision"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "service performance display": [
+     "service functionality"
+    ],
+    "user-experience optimization": [
+     "product improvement"
+    ],
+    "debugging": [
+     "product improvement"
+    ],
+    "technical operations": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5071,
+  "completion_tokens": 1694,
+  "thinking_tokens": 0,
+  "seconds": 15.698806524276733,
+  "failures": 0
+ },
+ "seconds": 15.8
+}

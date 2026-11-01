@@ -1,0 +1,257 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "financial information": "financial info",
+    "movement data": "movement",
+    "personal information": "personal data",
+    "personal_information": "personal data",
+    "photos": "photo",
+    "precise geolocation data": "precise geolocation",
+    "sensitive_data": "sensitive personal data",
+    "transaction details": "financial transaction history",
+    "user name": "name",
+    "user profile": "profile"
+   },
+   "parents": {
+    "cookies": [
+     "tracking technologies"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "hashed email address": [
+     "hashed contact information"
+    ],
+    "financial account details": [
+     "financial info"
+    ],
+    "financial transaction history": [
+     "financial info"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "tracker location": [
+     "location"
+    ],
+    "location and movement data": [
+     "location",
+     "movement"
+    ],
+    "gyroscope and accelerometer data": [
+     "movement"
+    ],
+    "driving event data": [
+     "driving data"
+    ],
+    "driving_behavior": [
+     "driving data"
+    ],
+    "driving data": [
+     "user movement data"
+    ],
+    "movement": [
+     "user movement data"
+    ],
+    "tiles": [
+     "tracker data"
+    ],
+    "ssn": [
+     "government ID number"
+    ],
+    "government ID number": [
+     "government-issued ID"
+    ],
+    "image": [
+     "photo"
+    ],
+    "account activation date": [
+     "account information"
+    ],
+    "account id": [
+     "account information"
+    ],
+    "account profile": [
+     "account information"
+    ],
+    "membership status": [
+     "account information"
+    ],
+    "subscription cancellation details": [
+     "account information"
+    ],
+    "subscription duration": [
+     "account information"
+    ],
+    "account information": [
+     "account"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "mobile and watch device information": [
+     "device details"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "health_condition": [
+     "sensitive personal data"
+    ],
+    "race": [
+     "sensitive personal data"
+    ],
+    "ethnicity": [
+     "sensitive personal data"
+    ],
+    "service use information": [
+     "service usage data"
+    ],
+    "profile": [
+     "user profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business partners": "business partner",
+    "commercial partner": "business partner",
+    "other user": "another user",
+    "other users": "another user",
+    "partner": "business partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising partners": [
+     "business partner",
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "non-agent third party": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "another user": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "business partners": "business partner",
+    "other user": "another user",
+    "third party": "third parties"
+   },
+   "parents": {
+    "another user": [
+     "user"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "identity provider": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "payment processor": "billing and payment processor"
+   },
+   "parents": {
+    "billing and payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "identity verification vendor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "commercial partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "law enforcement agency": [
+     "public authority"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "provide service",
+    "service-provision": "provide service",
+    "service_provision": "provide service",
+    "user account management": "account administration"
+   },
+   "parents": {
+    "account administration": [
+     "service operations"
+    ],
+    "customer support": [
+     "provide service",
+     "service operations"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "user identification": [
+     "verification"
+    ],
+    "service improvement": [
+     "provide service",
+     "service operation and improvement"
+    ],
+    "service operation and improvement": [
+     "provide service"
+    ],
+    "personalization": [
+     "provide service"
+    ],
+    "payment processing": [
+     "provide service"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3784,
+  "completion_tokens": 1593,
+  "thinking_tokens": 0,
+  "seconds": 14.335309028625488,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

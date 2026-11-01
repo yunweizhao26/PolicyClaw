@@ -1,0 +1,92 @@
+{
+ "cleaned_sha256": "pg-039",
+ "text_sha256": "d9629e525c61031904f71c725afce390215d2b0e8d431084005fddc44bbfc8ec",
+ "site_id": "pg-039",
+ "sections": 21,
+ "rules": 282,
+ "report": {
+  "sections": 21,
+  "raw_rules": 251,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will delete",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you wish to change or delete your profile and Personal Data, you can contact us at privacy@genius.com",
+      "within a reasonable time after your request",
+      "if feasible, or if you reside in the EU, as set forth in Section 8 below"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Section 8 below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will delete"
+    ],
+    "section": "pg-039#s12"
+   }
+  ],
+  "residual_quotes": 37,
+  "quotes": 129,
+  "completeness": {
+   "gaps": 308,
+   "gap_words": 3511
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 22,
+  "translated_quotes": 129,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 41,
+  "cached": 0,
+  "prompt_tokens": 72524,
+  "completion_tokens": 45983,
+  "thinking_tokens": 205,
+  "seconds": 297.06696224212646,
+  "failures": 0
+ },
+ "seconds": 298.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

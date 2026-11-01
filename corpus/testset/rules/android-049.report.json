@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "android-049",
+ "text_sha256": "eb7e5e2977c322e31acb13d5153d2a195dfb9063f54bfb4411330bfec6549213",
+ "site_id": "android-049",
+ "sections": 10,
+ "rules": 197,
+ "report": {
+  "sections": 10,
+  "raw_rules": 191,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can contact us using the contact details provided in Section 11 to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Parents or guardians who believe we may have unintentionally collected data from their child can contact us using the contact details provided in Section 11 to request access"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Section 11",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-049#s8"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 56,
+  "completeness": {
+   "gaps": 127,
+   "gap_words": 1201
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 56,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 19,
+  "cached": 0,
+  "prompt_tokens": 32874,
+  "completion_tokens": 34781,
+  "thinking_tokens": 0,
+  "seconds": 242.66897630691528,
+  "failures": 0
+ },
+ "seconds": 243.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

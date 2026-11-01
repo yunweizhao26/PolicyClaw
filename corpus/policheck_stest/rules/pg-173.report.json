@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "pg-173",
+ "text_sha256": "b7bbf5b7fa37cefe8595db1f0719f9d5d55b19c2c4573b9de849ad73b888e36c",
+ "site_id": "pg-173",
+ "sections": 1,
+ "rules": 18,
+ "report": {
+  "sections": 1,
+  "raw_rules": 18,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is only processing",
+     "actor": {
+      "text": "Owner of this application",
+      "name": "first party"
+     },
+     "data": {
+      "text": "anonymous information (number of downloads)",
+      "name": "anonymous information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "for statistical purposes",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [
+      "only"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "anonymous information (number of downloads)"
+    ],
+    "section": "pg-173#s1"
+   }
+  ],
+  "residual_quotes": 1,
+  "quotes": 5,
+  "completeness": {
+   "gaps": 14,
+   "gap_words": 111
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 5,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 3211,
+  "completion_tokens": 3073,
+  "thinking_tokens": 0,
+  "seconds": 17.646241664886475,
+  "failures": 0
+ },
+ "seconds": 17.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

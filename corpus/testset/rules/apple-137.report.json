@@ -1,0 +1,114 @@
+{
+ "cleaned_sha256": "apple-137",
+ "text_sha256": "5c14d587ff3976a9f569d5b8f254023afb5ccab5ca4df394a8eab36b2117d65c",
+ "site_id": "apple-137",
+ "sections": 23,
+ "rules": 212,
+ "report": {
+  "sections": 23,
+  "raw_rules": 171,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "engage in",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "with respect to Users"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-137#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "offer",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "offer manual cookie opt-out",
+      "verb": "offer"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-137#s21"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 120,
+  "completeness": {
+   "gaps": 284,
+   "gap_words": 3432
+  },
+  "unsatisfiable_guards": 5,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 120,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 42,
+  "cached": 0,
+  "prompt_tokens": 70607,
+  "completion_tokens": 35280,
+  "thinking_tokens": 0,
+  "seconds": 737.0103549957275,
+  "failures": 0
+ },
+ "seconds": 738.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

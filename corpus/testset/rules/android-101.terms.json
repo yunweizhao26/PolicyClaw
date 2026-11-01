@@ -1,0 +1,119 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personal data": "Non-Personal Information",
+    "personal data": "Personal Information",
+    "your information": "information"
+   },
+   "parents": {
+    "Session and Usage Data": [
+     "Non-Personal Information"
+    ],
+    "aggregate data": [
+     "Non-Personal Information"
+    ],
+    "browser": [
+     "Session and Usage Data"
+    ],
+    "browsing history": [
+     "Session and Usage Data"
+    ],
+    "criminal history": [
+     "sensitive personal information"
+    ],
+    "device identifier": [
+     "Non-Personal Information"
+    ],
+    "health information": [
+     "sensitive personal information"
+    ],
+    "ip address": [
+     "Session and Usage Data"
+    ],
+    "location": [
+     "Session and Usage Data"
+    ],
+    "membership in past organizations": [
+     "sensitive personal information"
+    ],
+    "operating system": [
+     "Session and Usage Data"
+    ],
+    "political opinions": [
+     "sensitive personal information"
+    ],
+    "racial or ethnic origin": [
+     "sensitive personal information"
+    ],
+    "religious or other beliefs": [
+     "sensitive personal information"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "sexual orientation": [
+     "sensitive personal information"
+    ],
+    "timestamp": [
+     "Session and Usage Data"
+    ],
+    "Personal Information": [
+     "information about you"
+    ],
+    "information about you": [
+     "information"
+    ],
+    "Non-Personal Information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "marketing": [
+     "other"
+    ],
+    "service provision": [
+     "other"
+    ],
+    "security": [
+     "other"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1567,
+  "completion_tokens": 426,
+  "thinking_tokens": 0,
+  "seconds": 9.565722465515137,
+  "failures": 0
+ },
+ "seconds": 9.6
+}

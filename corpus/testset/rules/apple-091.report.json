@@ -1,0 +1,177 @@
+{
+ "cleaned_sha256": "apple-091",
+ "text_sha256": "3ee9cc45bd20ae8e809ab2e10a1778373c8675a4cda3bf15e8b80ba54b5f8eca",
+ "site_id": "apple-091",
+ "sections": 24,
+ "rules": 346,
+ "report": {
+  "sections": 24,
+  "raw_rules": 278,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to understand how you and other visitors engage with MLB Properties",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "install the Google Analytics browser add-on"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-091#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may enable",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "enable",
+      "verb": "enable"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to tailor certain advertisements and content delivered within the MLB Properties and/or third-party websites to you",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "install the Google Analytics browser add-on"
+     ],
+     "references": [
+      {
+       "text": "in accordance with the relevant sections of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-091#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of California, Colorado or Texas and you participate in a loyalty, rewards, premium feature, discount, or club card program established by an MLB Entity for the purpose of providing discounts, rewards, or other value to you in connection with your participation (each, if any, a “Loyalty Program”)",
+      "pursuant to any separate consent you may provide in connection with your participation in the Loyalty Program"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as set forth in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may share"
+    ],
+    "section": "apple-091#s22"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 130,
+  "completeness": {
+   "gaps": 639,
+   "gap_words": 6733
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 26,
+  "translated_quotes": 130,
+  "compile_failures": 6,
+  "fixed_structurally": 1,
+  "fixed_by_call": 5
+ },
+ "usage": {
+  "calls": 46,
+  "cached": 0,
+  "prompt_tokens": 87488,
+  "completion_tokens": 53856,
+  "thinking_tokens": 0,
+  "seconds": 937.0543444156647,
+  "failures": 0
+ },
+ "seconds": 938.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

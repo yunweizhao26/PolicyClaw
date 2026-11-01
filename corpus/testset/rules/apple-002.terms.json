@@ -1,0 +1,196 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "health data": "consumer health data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "SMS": [
+     "user communication"
+    ],
+    "account credentials": [
+     "account information"
+    ],
+    "account registration details": [
+     "account information"
+    ],
+    "account username": [
+     "account credentials",
+     "user identifier"
+    ],
+    "approximate location": [
+     "location"
+    ],
+    "authenticating information": [
+     "account credentials"
+    ],
+    "call audio": [
+     "user communication"
+    ],
+    "communication preferences": [
+     "user profile information"
+    ],
+    "consumer health data": [
+     "sensitive personal information"
+    ],
+    "credit or debit card number": [
+     "payment details"
+    ],
+    "customer support inquiry": [
+     "user communication"
+    ],
+    "driver's license": [
+     "government-issued ID"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email content": [
+     "user communication"
+    ],
+    "government-issued ID": [
+     "sensitive personal information"
+    ],
+    "health information": [
+     "consumer health data"
+    ],
+    "instant message": [
+     "user communication"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "partial payment card number": [
+     "credit or debit card number",
+     "payment details"
+    ],
+    "payment details": [
+     "financial details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "user-generated content"
+    ],
+    "postal address": [
+     "contact details",
+     "location"
+    ],
+    "precise location": [
+     "location",
+     "sensitive personal information"
+    ],
+    "reviews and feedback": [
+     "user-generated content"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "subscription details": [
+     "account information"
+    ],
+    "user profile": [
+     "user profile information"
+    ],
+    "user-generated content": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "dashers": "courier",
+    "merchants": "merchant"
+   },
+   "parents": {
+    "advertising partner": [
+     "service provider"
+    ],
+    "courier": [
+     "third party"
+    ],
+    "merchant": [
+     "commercial partner"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "the sources described in Section III (\nHow does DoorDash collect or receive Personal Information\n) of this Policy": "the following sources"
+   },
+   "parents": {
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "merchant": "commercial partner"
+   },
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "legal compliance": "compliance",
+    "operations": "business operations",
+    "service improvement": "analytics"
+   },
+   "parents": {
+    "delivery": [
+     "fulfillment",
+     "service provision"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "fraud prevention",
+     "security"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "marketing": [
+     "advertising"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "social or community features": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3263,
+  "completion_tokens": 771,
+  "thinking_tokens": 0,
+  "seconds": 18.046589851379395,
+  "failures": 0
+ },
+ "seconds": 18.3
+}

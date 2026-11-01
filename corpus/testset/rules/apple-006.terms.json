@@ -1,0 +1,235 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial data",
+    "information": "data",
+    "personal data": "identifying information",
+    "personal information": "identifying information",
+    "personally identifiable information": "identifying information",
+    "usage_data": "service usage",
+    "user content": "User Contributions",
+    "user data": "data about the user",
+    "user-generated content": "User Contributions",
+    "your data": "data about the user"
+   },
+   "parents": {
+    "account identifier": [
+     "personal identifier"
+    ],
+    "bank account details": [
+     "financial data"
+    ],
+    "credit card number": [
+     "financial data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "personal identifier"
+    ],
+    "pseudonym": [
+     "personal identifier"
+    ],
+    "social security number": [
+     "government identifier"
+    ],
+    "passport number": [
+     "government identifier"
+    ],
+    "driver license number": [
+     "government identifier"
+    ],
+    "government identifier": [
+     "personal identifier"
+    ],
+    "email address": [
+     "personal identifier"
+    ],
+    "phone number": [
+     "personal identifier"
+    ],
+    "postal address": [
+     "personal identifier"
+    ],
+    "device identifier": [
+     "personal identifier"
+    ],
+    "ip address": [
+     "personal identifier"
+    ],
+    "latitude and longitude": [
+     "precise location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "information about online activities"
+    ],
+    "interaction data": [
+     "service usage"
+    ],
+    "user interactions": [
+     "interaction data"
+    ],
+    "user activity": [
+     "service usage"
+    ],
+    "religious_beliefs": [
+     "sensitive data"
+    ],
+    "philosophical_beliefs": [
+     "sensitive data"
+    ],
+    "race_ethnicity": [
+     "sensitive data"
+    ],
+    "health_data": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "identifying information"
+    ],
+    "posts": [
+     "User Contributions"
+    ],
+    "feedback": [
+     "User Contributions"
+    ],
+    "profile photo": [
+     "user profile"
+    ],
+    "biographical information": [
+     "user profile"
+    ],
+    "identifying information": [
+     "data about the user"
+    ],
+    "automatically collected data": [
+     "data"
+    ],
+    "log data": [
+     "automatically collected data"
+    ],
+    "traffic data": [
+     "communications data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "YouVersion Bible Providers": "YouVersion Bible Provider"
+   },
+   "parents": {
+    "YouVersion Bible Provider": [
+     "third party"
+    ],
+    "third-party application providers": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ],
+    "government enforcement agencies": [
+     "third party"
+    ],
+    "other users": [
+     "public"
+    ],
+    "user specified group": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "device": [
+     "devices and networks"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "SDK service providers": [
+     "third party"
+    ],
+    "third-party application providers": [
+     "third party"
+    ],
+    "third-party sites": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account administration",
+    "personalization": "personalisation",
+    "service-provision": "service provision",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account administration": [
+     "service provision"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "customer support": [
+     "communication"
+    ],
+    "marketing communication": [
+     "communication",
+     "marketing"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "recommendation": [
+     "personalisation"
+    ],
+    "product development": [
+     "research_and_development"
+    ],
+    "service improvement": [
+     "analytics"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "service operation"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "enforce legal rights": [
+     "legal compliance"
+    ],
+    "user choice fulfillment": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3294,
+  "completion_tokens": 944,
+  "thinking_tokens": 0,
+  "seconds": 12.243019342422485,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

@@ -1,0 +1,305 @@
+{
+ "cleaned_sha256": "android-158",
+ "text_sha256": "459d82db48567abe44a2ea8a54150aa0f5335abcfa43e61aaaf78a306664c4f4",
+ "site_id": "android-158",
+ "sections": 40,
+ "rules": 255,
+ "report": {
+  "sections": 40,
+  "raw_rules": 220,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "only for a period of 7 days on our server"
+     ],
+     "data": {
+      "name": "user input",
+      "text": "Such data"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will only be",
+     "purpose": [],
+     "references": [],
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for a period of 7 days on our server"
+    ],
+    "section": "android-158#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be collected",
+     "actor": {
+      "text": "Appsflyer",
+      "name": "AppsFlyer"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "As a result of the use of such software",
+      "in accordance with their own policies regarding privacy which you can access below"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Appsflyer’s privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Appsflyer’s privacy policy"
+    ],
+    "section": "android-158#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be ... processed",
+     "actor": {
+      "text": "Appsflyer",
+      "name": "AppsFlyer"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "As a result of the use of such software",
+      "in accordance with their own policies regarding privacy which you can access below"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Appsflyer’s privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Appsflyer’s privacy policy"
+    ],
+    "section": "android-158#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third party advertising companies",
+      "name": "advertising network"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to serve you targeted advertisements based on your use of the Facemoji App and Facemoji Keyboard",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-158#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "users based in EEA",
+      "with your consent",
+      "obtain your consent"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Google’s EU user consent policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "“Your Choices Regarding Your Information” section of our Privacy Notice",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "android-158#s35"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "automated processing",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "automated decision-making",
+      "verb": "make decision"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "As a user in the European Economic Area",
+      "under GDPR"
+     ],
+     "exceptions": [
+      "The Right not to be subject to a decision based solely on automated processing: Individuals have the right to avoid automated decision-making"
+     ],
+     "references": [
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-158#s39"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 279,
+   "gap_words": 2997
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 92,
+  "compile_failures": 4,
+  "fixed_structurally": 0,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 57,
+  "cached": 8,
+  "prompt_tokens": 90212,
+  "completion_tokens": 42908,
+  "thinking_tokens": 0,
+  "seconds": 1293.938009262085,
+  "failures": 0
+ },
+ "seconds": 1295.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

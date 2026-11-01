@@ -1,0 +1,125 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "canonical.initialUrl": "URL",
+    "email address": "email",
+    "organization name": "organization",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "canonical.initialReferrer": [
+     "referrer URL"
+    ],
+    "credit card number": [
+     "order information"
+    ],
+    "customer personal data": [
+     "personal data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "full name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "links clicked": [
+     "page interaction details"
+    ],
+    "organization": [
+     "firmographic data"
+    ],
+    "organization profile": [
+     "firmographic data"
+    ],
+    "page load time": [
+     "session data"
+    ],
+    "session duration": [
+     "session data"
+    ],
+    "referrer URL": [
+     "URL"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Facebook Conversions API": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "prospective seller or buyer": [
+     "third party"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "affiliate": [
+     "anyone"
+    ],
+    "third party": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "third party partners": [
+     "other sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Crazy Egg": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance"
+   },
+   "parents": {
+    "ad targeting": [
+     "marketing"
+    ],
+    "order fulfillment": [
+     "contract fulfillment",
+     "service provision"
+    ],
+    "contract fulfillment": [
+     "service provision"
+    ],
+    "personalization": [
+     "marketing"
+    ],
+    "service optimization": [
+     "service quality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2167,
+  "completion_tokens": 446,
+  "thinking_tokens": 0,
+  "seconds": 8.698590993881226,
+  "failures": 0
+ },
+ "seconds": 8.8
+}

@@ -1,0 +1,161 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "usage data": "Usage information"
+   },
+   "parents": {
+    "Usage information": [
+     "information"
+    ],
+    "account data": [
+     "information"
+    ],
+    "browser and device information": [
+     "Usage information",
+     "information"
+    ],
+    "credit card number": [
+     "account data",
+     "information",
+     "personal data"
+    ],
+    "device identifier": [
+     "Usage information",
+     "browser and device information",
+     "information"
+    ],
+    "email address": [
+     "account data",
+     "information",
+     "personal data"
+    ],
+    "industry": [
+     "account data",
+     "information"
+    ],
+    "information it receives": [
+     "information"
+    ],
+    "ip address": [
+     "Usage information",
+     "information"
+    ],
+    "location": [
+     "Usage information",
+     "information"
+    ],
+    "name": [
+     "account data",
+     "information",
+     "personal data"
+    ],
+    "number of employees": [
+     "account data",
+     "information"
+    ],
+    "organization name": [
+     "account data",
+     "information"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "phone number": [
+     "account data",
+     "information",
+     "personal data"
+    ],
+    "postal address": [
+     "account data",
+     "information",
+     "personal data"
+    ],
+    "referrer url": [
+     "Usage information",
+     "information"
+    ],
+    "revenue": [
+     "account data",
+     "information"
+    ],
+    "user content": [
+     "information"
+    ],
+    "user content metadata": [
+     "information",
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Flywire": [
+     "third party"
+    ],
+    "Stripe": [
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "Hubspot": [
+     "service provider",
+     "third party"
+    ],
+    "Kissmetrics": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service operation"
+   },
+   "parents": {
+    "analytics": [
+     "service improvement"
+    ],
+    "service improvement": [
+     "service operation"
+    ],
+    "customer support": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1297,
+  "completion_tokens": 832,
+  "thinking_tokens": 0,
+  "seconds": 20.019695520401,
+  "failures": 0
+ },
+ "seconds": 20.1
+}

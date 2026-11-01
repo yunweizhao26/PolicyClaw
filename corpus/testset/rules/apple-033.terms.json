@@ -1,0 +1,126 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "messages posted": "messages",
+    "your data": "data"
+   },
+   "parents": {
+    "account name and password": [
+     "account data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "coarse location": [
+     "demographic data"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "in-game activities": [
+     "activities"
+    ],
+    "ip address": [
+     "device details",
+     "device identifier"
+    ],
+    "vendor identifier": [
+     "device identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "other companies",
+     "partner"
+    ],
+    "vendor": [
+     "other companies"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "platform and payment provider": [
+     "third party"
+    ],
+    "third-party partner": [
+     "third party"
+    ],
+    "unaffiliated websites and applications": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "partner": "our partners"
+   },
+   "parents": {
+    "advertising partner": [
+     "our partners"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "other players": [
+     "others"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "provide-service": "provide service",
+    "verify your identity": "authentication and identity validation"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "fraud_detection": [
+     "fraud prevention and security"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "service_improvement": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "service operation and improvement"
+    ],
+    "service performance": [
+     "provide service"
+    ],
+    "service_provision": [
+     "provide service"
+    ],
+    "authentication and identity validation": [
+     "fraud prevention and security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2432,
+  "completion_tokens": 442,
+  "thinking_tokens": 0,
+  "seconds": 8.438246965408325,
+  "failures": 0
+ },
+ "seconds": 8.6
+}

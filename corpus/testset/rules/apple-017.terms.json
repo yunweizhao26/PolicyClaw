@@ -1,0 +1,135 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal data": "Personal Data"
+   },
+   "parents": {
+    "account information": [
+     "Personal Data"
+    ],
+    "browser and device privacy settings": [
+     "device information"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "browsing history": [
+     "app and service use information"
+    ],
+    "cookie IDs": [
+     "device identifiers",
+     "unique identifiers"
+    ],
+    "credit card expiration date": [
+     "payment information"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "device identifiers": [
+     "device information",
+     "unique identifiers"
+    ],
+    "device information": [
+     "Personal Data"
+    ],
+    "email address": [
+     "contact or other account profile information"
+    ],
+    "email message information from connected inboxes": [
+     "information from email messages"
+    ],
+    "email message information transferred to Shop": [
+     "information from email messages"
+    ],
+    "information about your interactions with merchants": [
+     "app and service use information"
+    ],
+    "information from email messages": [
+     "communications information"
+    ],
+    "interactions on Shop and other Shopify Consumer Services": [
+     "app and service use information"
+    ],
+    "IP address": [
+     "network connection information"
+    ],
+    "name": [
+     "contact or other account profile information"
+    ],
+    "payment information": [
+     "Merchant site activity information"
+    ],
+    "profile picture": [
+     "profile information"
+    ],
+    "shipping address": [
+     "Merchant site activity information",
+     "contact or other account profile information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "acquirers": [
+     "third parties"
+    ],
+    "advertising networks": [
+     "third parties"
+    ],
+    "third-party service providers": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "merchants": "Merchants"
+   },
+   "parents": {
+    "email messages you transfer to Shop": [
+     "inboxes that you connect to your Shop account"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "advertising or marketing": "advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service improvement": [
+     "research and development"
+    ],
+    "customer support": [
+     "communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2245,
+  "completion_tokens": 565,
+  "thinking_tokens": 0,
+  "seconds": 22.769490480422974,
+  "failures": 0
+ },
+ "seconds": 22.9
+}

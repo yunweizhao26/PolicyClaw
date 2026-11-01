@@ -1,0 +1,255 @@
+{
+ "cleaned_sha256": "pg-031",
+ "text_sha256": "09c8ec4d0f73292ced6bffdc47bfc33908a1114144cb9f8f19d574357d23db01",
+ "site_id": "pg-031",
+ "sections": 12,
+ "rules": 296,
+ "report": {
+  "sections": 12,
+  "raw_rules": 235,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "to perform business functions on our behalf, such as data processing and analysis, contest supervision, and direct mail or email production",
+       "name": "operations"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers who perform business functions on our behalf"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to perform business functions on our behalf, such as data processing and analysis, contest supervision, and direct mail or email production"
+    ],
+    "section": "pg-031#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to comply with our policies",
+       "name": "compliance"
+      },
+      {
+       "text": "legal obligations",
+       "name": "compliance"
+      },
+      {
+       "text": "resolve disputes",
+       "name": "legal dispute resolution"
+      },
+      {
+       "text": "enforce our agreements",
+       "name": "enforcing terms"
+      }
+     ],
+     "conditions": [
+      "as necessary to comply with our policies, legal obligations, resolve disputes, and enforce our agreements"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use"
+    ],
+    "section": "pg-031#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are a user of our online tax return preparation products or MyBlock℠"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-031#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "sensitive personal information",
+      "text": "sensitive personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not “share”",
+     "purpose": [
+      {
+       "text": "for purposes of cross-context behavioral advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not “share”"
+    ],
+    "section": "pg-031#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you are a California resident",
+      "For the period covering the 12 months preceding your request, you may request that we disclose to you",
+      "In some cases, we may limit or deny your request because the law permits or requires us to do so, or if we are unable to adequately verify your identity"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "the categories and specific pieces of information collected about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure to user",
+     "polarity": "ALLOW",
+     "polarity_text": "may request that we disclose",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-031#s11"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 366,
+   "gap_words": 3747
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 102,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 26,
+  "cached": 0,
+  "prompt_tokens": 52735,
+  "completion_tokens": 45080,
+  "thinking_tokens": 0,
+  "seconds": 269.74846029281616,
+  "failures": 0
+ },
+ "seconds": 271.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

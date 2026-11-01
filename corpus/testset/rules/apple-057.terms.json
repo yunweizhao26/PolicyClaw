@@ -1,0 +1,272 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "biometrics": "biometric data",
+    "device identifier": "device id",
+    "identity documents": "identity document",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "photographs": "images",
+    "purchase order": "order information",
+    "sensitive personal data": "sensitive data",
+    "this information": "such information",
+    "tracking technologies": "cookies",
+    "tracking technology": "cookies",
+    "user opinions": "opinions"
+   },
+   "parents": {
+    "credit card number": [
+     "credit or debit card number"
+    ],
+    "first name": [
+     "name"
+    ],
+    "general location information": [
+     "location"
+    ],
+    "last name": [
+     "name"
+    ],
+    "images": [
+     "video or images"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "tracking pixels": [
+     "cookies"
+    ],
+    "username": [
+     "account credentials"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "email marketing providers": "email marketing provider",
+    "email marketing services": "email marketing provider",
+    "payment processors": "payment processor",
+    "shipping partner": "shipping and delivery partners",
+    "third party service providers": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "service provider",
+     "third party"
+    ],
+    "analytics providers": [
+     "service provider",
+     "third party"
+    ],
+    "authorized third parties": [
+     "third party"
+    ],
+    "cloud storage providers": [
+     "service provider",
+     "third party"
+    ],
+    "customer support platforms": [
+     "service provider",
+     "third party"
+    ],
+    "email marketing provider": [
+     "service provider",
+     "third party"
+    ],
+    "fraud prevention vendors": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "shipping and delivery partners": [
+     "service provider",
+     "third party"
+    ],
+    "shipping carrier": [
+     "service provider",
+     "shipping and delivery partners",
+     "third party"
+    ],
+    "referral partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "local authorities": [
+     "public authority"
+    ],
+    "tax authorities": [
+     "government agency",
+     "local authorities",
+     "public authority"
+    ],
+    "government agency": [
+     "public authority"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "Persona": [
+     "third party"
+    ],
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party data providers": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising network": "ad network",
+    "other users": "other user",
+    "third-party partner": "third party partner"
+   },
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "Persona": [
+     "service provider",
+     "third party"
+    ],
+    "ad network": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "referral partner": [
+     "third party",
+     "third party partner"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "shipping partner": [
+     "third party",
+     "third party partner"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer support": "customer service",
+    "customer_support": "customer service",
+    "fraud prevention and detection": "fraud detection and prevention",
+    "legal_compliance": "legal compliance",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "targeted advertising": "advertising"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "measure marketing email campaign effectiveness": [
+     "analytics"
+    ],
+    "personalize emails": [
+     "customization",
+     "personalization"
+    ],
+    "remember preferences": [
+     "personalization",
+     "user preferences or customization"
+    ],
+    "remember user details for correspondence": [
+     "remember preferences"
+    ],
+    "delivery updates": [
+     "order fulfillment",
+     "service communication"
+    ],
+    "customer communication": [
+     "communication"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "customer service": [
+     "customer communication"
+    ],
+    "technical and administrative notifications": [
+     "communication"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "fraud_detection": [
+     "fraud detection and prevention",
+     "security"
+    ],
+    "security-and-fraud-prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "user identification",
+     "verification"
+    ],
+    "dispute resolution": [
+     "enforcing terms and dispute resolution"
+    ],
+    "process order": [
+     "order fulfillment"
+    ],
+    "service_optimization": [
+     "service improvement"
+    ],
+    "track email interaction": [
+     "analytics"
+    ],
+    "understand browsing activities": [
+     "analytics"
+    ],
+    "monitor online usage and activities": [
+     "analytics"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5315,
+  "completion_tokens": 1460,
+  "thinking_tokens": 0,
+  "seconds": 16.55106496810913,
+  "failures": 0
+ },
+ "seconds": 16.7
+}

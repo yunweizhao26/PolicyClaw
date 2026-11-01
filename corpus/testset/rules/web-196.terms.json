@@ -1,0 +1,62 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {},
+   "parents": {
+    "email address": [
+     "contact details",
+     "personal data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "browsing history": [
+     "personal data"
+    ],
+    "IP address": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "targeted advertising": [
+     "marketing"
+    ],
+    "user account management": [
+     "service delivery"
+    ],
+    "customer support": [
+     "service delivery"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1068,
+  "completion_tokens": 164,
+  "thinking_tokens": 0,
+  "seconds": 5.306281328201294,
+  "failures": 0
+ },
+ "seconds": 5.4
+}

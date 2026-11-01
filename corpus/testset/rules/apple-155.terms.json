@@ -1,0 +1,457 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account credentials": "account access information",
+    "contact information": "contact details",
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "survey response": "survey data",
+    "survey responses": "survey data",
+    "user-generated content": "user content",
+    "user-provided content": "user content",
+    "username": "account name"
+   },
+   "parents": {
+    "GPS location": [
+     "precise geolocation"
+    ],
+    "account access information": [
+     "account information"
+    ],
+    "account activity": [
+     "account information"
+    ],
+    "account name": [
+     "account information",
+     "name"
+    ],
+    "ad interactions": [
+     "usage data"
+    ],
+    "advertising identifier": [
+     "device identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "billing address": [
+     "contact details",
+     "postal address"
+    ],
+    "browser language": [
+     "browser"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "chat logs": [
+     "message contents"
+    ],
+    "chat message content": [
+     "message contents"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "commercial emails": [
+     "email communications"
+    ],
+    "contact list information": [
+     "contact details"
+    ],
+    "contacts' names": [
+     "contact list information",
+     "name"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "dietary information": [
+     "sensitive personal information"
+    ],
+    "direct message chat": [
+     "messages"
+    ],
+    "display name": [
+     "account name"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "friends' names": [
+     "friends and family data",
+     "name"
+    ],
+    "game performance": [
+     "gameplay data"
+    ],
+    "game scores": [
+     "gameplay data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "hardware device ID": [
+     "device identifier"
+    ],
+    "household income": [
+     "demographic data"
+    ],
+    "identity verification email": [
+     "email communications"
+    ],
+    "imprecise location": [
+     "personal data"
+    ],
+    "match outcome statistics": [
+     "gameplay data"
+    ],
+    "message contents": [
+     "messages",
+     "user content"
+    ],
+    "newsletter subscription": [
+     "subscription details"
+    ],
+    "nonmarketing notices": [
+     "email communications"
+    ],
+    "organization name": [
+     "name"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "postal code": [
+     "imprecise location"
+    ],
+    "posts": [
+     "public activities",
+     "user content"
+    ],
+    "precise geolocation": [
+     "personal data"
+    ],
+    "profile picture": [
+     "public profile content",
+     "user content"
+    ],
+    "pseudonymized email address": [
+     "email address",
+     "pseudonymous identifier"
+    ],
+    "public activities": [
+     "usage data"
+    ],
+    "public profile content": [
+     "public information",
+     "user content"
+    ],
+    "purchase history": [
+     "transaction records"
+    ],
+    "reported content": [
+     "content"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "search queries": [
+     "search history"
+    ],
+    "selected picture": [
+     "user content"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "social media awareness data": [
+     "advertising data"
+    ],
+    "social media engagement data": [
+     "advertising data"
+    ],
+    "survey data": [
+     "user content"
+    ],
+    "time spent on page": [
+     "usage data"
+    ],
+    "transaction records": [
+     "financial information"
+    ],
+    "unique user identifier": [
+     "user account ID"
+    ],
+    "user account ID": [
+     "account information"
+    ],
+    "user profile information": [
+     "account information"
+    ],
+    "visited page URLs": [
+     "browsing history"
+    ],
+    "words played on a gameboard": [
+     "gameplay data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertisers": "advertiser",
+    "agency": "advertising agencies",
+    "other users": "other user"
+   },
+   "parents": {
+    "ad server": [
+     "service provider",
+     "third party"
+    ],
+    "advertiser": [
+     "advertising companies",
+     "third party"
+    ],
+    "advertising agencies": [
+     "advertising companies",
+     "third party"
+    ],
+    "advertising companies": [
+     "third party"
+    ],
+    "advertising platforms": [
+     "technology platform providers",
+     "third party"
+    ],
+    "advertising technology vendors": [
+     "service provider",
+     "third party"
+    ],
+    "the United States": [
+     "another country in which we (or our affiliates or service providers) operate"
+    ],
+    "call centers": [
+     "service provider"
+    ],
+    "data analytics providers": [
+     "third party"
+    ],
+    "event sponsors": [
+     "third party"
+    ],
+    "promotions sponsors": [
+     "third party"
+    ],
+    "external services": [
+     "third party"
+    ],
+    "friends": [
+     "other user"
+    ],
+    "game opponents": [
+     "other user"
+    ],
+    "other user": [
+     "others"
+    ],
+    "partner": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "service provider platforms": [
+     "service provider"
+    ],
+    "social media platforms": [
+     "technology platform providers",
+     "third party"
+    ],
+    "technology platform providers": [
+     "third party"
+    ],
+    "third party payment service": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "LiveRamp Inc.": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "public user profile": [
+     "user profile"
+    ],
+    "marketing, data analytic and social media-owned databases": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "The New York Times Company",
+    "vendor": "service provider"
+   },
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "The Athletic": [
+     "The New York Times Company",
+     "affiliate"
+    ],
+    "Wirecutter": [
+     "The New York Times Company",
+     "affiliate"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate link vendors": [
+     "service provider",
+     "third party"
+    ],
+    "law enforcement agencies": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ],
+    "regulatory agencies": [
+     "third party"
+    ],
+    "security authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "the courts": [
+     "third party"
+    ],
+    "third party payment service": [
+     "service provider",
+     "third party"
+    ],
+    "third-party advertising technology vendors": [
+     "service provider",
+     "third party"
+    ],
+    "user": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "enforcing terms and agreements": "compliance with terms and policies",
+    "marketing or advertising": "marketing",
+    "other purposes": "other",
+    "payment administration": "payment",
+    "payment processing": "payment",
+    "survey": "serve surveys",
+    "terms enforcement": "compliance with terms and policies",
+    "unspecified": "other"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "create audiences": [
+     "advertising",
+     "targeted advertising"
+    ],
+    "service analytics": [
+     "analytics"
+    ],
+    "market research": [
+     "research"
+    ],
+    "artificial intelligence development": [
+     "research and development",
+     "service development"
+    ],
+    "personalize content": [
+     "personalization"
+    ],
+    "personalize experiences": [
+     "personalization"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "service communication": [
+     "commercial communication"
+    ],
+    "service improvement": [
+     "service development"
+    ],
+    "compliance with terms and policies": [
+     "compliance with legal obligations",
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "payment": [
+     "service provision",
+     "services"
+    ],
+    "account management": [
+     "service provision",
+     "services"
+    ],
+    "order fulfilment": [
+     "service provision",
+     "services"
+    ],
+    "customer support": [
+     "service provision",
+     "services"
+    ],
+    "serve surveys": [
+     "research"
+    ],
+    "service quality, security, and integrity": [
+     "security"
+    ],
+    "maintain system": [
+     "internal operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4628,
+  "completion_tokens": 2092,
+  "thinking_tokens": 0,
+  "seconds": 17.012187480926514,
+  "failures": 0
+ },
+ "seconds": 17.1
+}

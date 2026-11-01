@@ -1,0 +1,302 @@
+{
+ "cleaned_sha256": "pg-092",
+ "text_sha256": "4797e4747e1081c1a6056216323895626074ab63f644ec1c0ee880b32525e742",
+ "site_id": "pg-092",
+ "sections": 24,
+ "rules": 276,
+ "report": {
+  "sections": 24,
+  "raw_rules": 210,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may transmit",
+     "actor": {
+      "text": "software development kits (SDKs) from third parties",
+      "name": "third-party software development kits"
+     },
+     "data": {
+      "text": "data",
+      "name": "data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmit",
+      "verb": "transmit"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to enable various features in the App",
+       "name": "service operation"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may transmit"
+    ],
+    "section": "pg-092#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "communicating",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "communicating",
+      "verb": "communicate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing, Promotions, Contests & Third Party Products",
+       "name": "Marketing, Promotions, Contests & Third Party Products"
+      },
+      {
+       "text": "communicating about products and services that may be of interest to guests",
+       "name": "communicating about products and services that may be of interest to guests"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-092#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "providing",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "providing",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing, Promotions, Contests & Third Party Products",
+       "name": "Marketing, Promotions, Contests & Third Party Products"
+      },
+      {
+       "text": "providing personalized advertisements for products and services on selected websites",
+       "name": "providing personalized advertisements for products and services on selected websites"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-092#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "facilitating",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "facilitating",
+      "verb": "facilitate"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Marketing, Promotions, Contests & Third Party Products",
+       "name": "Marketing, Promotions, Contests & Third Party Products"
+      },
+      {
+       "text": "facilitating participation in sweepstakes, contests and other promotions (such as best vacation photo contests on social media)",
+       "name": "facilitating participation in sweepstakes, contests and other promotions (such as best vacation photo contests on social media)"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-092#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request to access",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data that you have previously provided to us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you or your authorized agent would like to request to access, change, delete, restrict or confirm the use or object to the processing of your Personal Data that you have previously provided to us",
+      "to the extent these rights are provided to you by law",
+      "associated with the email address and/or loyalty account number that you identify in your request",
+      "we may need to verify your identity before fulfilling certain requests"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "provided to you by law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "consistent with applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "available under applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-092#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is",
+     "actor": {
+      "text": "Luxury Reservations Limited",
+      "name": "Luxury Reservations Limited"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "data controller",
+      "verb": "control"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "If you live in the European Economic Area, the United Kingdom, or Switzerland"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-092#s23"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 96,
+  "completeness": {
+   "gaps": 344,
+   "gap_words": 4208
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 96,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 77514,
+  "completion_tokens": 46744,
+  "thinking_tokens": 0,
+  "seconds": 342.974657535553,
+  "failures": 0
+ },
+ "seconds": 344.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "cleaned_sha256": "pg-058",
+ "text_sha256": "8654202757dd4e0fb4ed97bba413dac74bca503a601e202c69491f67fcd0659f",
+ "site_id": "pg-058",
+ "sections": 6,
+ "rules": 107,
+ "report": {
+  "sections": 6,
+  "raw_rules": 97,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "RealDating"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "client data loaded into our system"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "will not rent",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not rent"
+    ],
+    "section": "pg-058#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right ... to update",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the information we have on you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "update",
+      "verb": "update"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a resident of the European Economic Area (EEA)",
+      "In certain circumstances",
+      "The right to access, update or to delete the information we have on you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right ... to update"
+    ],
+    "section": "pg-058#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have access to",
+     "actor": {
+      "text": "third party companies and individuals",
+      "name": "Service Providers"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "to facilitate our Service",
+       "name": "service-performance"
+      },
+      {
+       "text": "to provide the Service on our behalf",
+       "name": "service-performance"
+      },
+      {
+       "text": "to perform Service-related services",
+       "name": "service-performance"
+      },
+      {
+       "text": "to assist us in analyzing how our Service is used",
+       "name": "analytics"
+      },
+      {
+       "text": "only to perform these tasks on our behalf",
+       "name": "service-performance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-058#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 44,
+  "completeness": {
+   "gaps": 173,
+   "gap_words": 1666
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 44,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23839,
+  "completion_tokens": 15880,
+  "thinking_tokens": 0,
+  "seconds": 94.25918531417847,
+  "failures": 0
+ },
+ "seconds": 94.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

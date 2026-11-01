@@ -1,0 +1,170 @@
+{
+ "cleaned_sha256": "web-195",
+ "text_sha256": "57bc96658e5a842b5cc7f31cb08c3738f7d5dab96aaf3debc0013dc24a5e55f1",
+ "site_id": "web-195",
+ "sections": 24,
+ "rules": 325,
+ "report": {
+  "sections": 24,
+  "raw_rules": 265,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "in the following situations:"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "Share",
+     "purpose": [
+      {
+       "text": "for services like:\nCustomer Support: Provide assistance with account and service issues",
+       "name": "customer-service"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third-party providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for services like:\nCustomer Support: Provide assistance with account and service issues"
+    ],
+    "section": "web-195#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "in the following situations:"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "personal data"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "Share",
+     "purpose": [
+      {
+       "text": "for services like:\nAnalytics: Monitor website performance and user interactions",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third-party providers"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for services like:\nAnalytics: Monitor website performance and user interactions"
+    ],
+    "section": "web-195#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to enhance or operate certain functions of the site, such as chat and customer service features",
+       "name": "service-provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-195#s5"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 126,
+  "completeness": {
+   "gaps": 407,
+   "gap_words": 3579
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 19,
+  "translated_quotes": 126,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 45,
+  "cached": 0,
+  "prompt_tokens": 76660,
+  "completion_tokens": 52944,
+  "thinking_tokens": 2416,
+  "seconds": 416.76085662841797,
+  "failures": 0
+ },
+ "seconds": 418.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

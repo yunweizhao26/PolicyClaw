@@ -1,0 +1,191 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device details",
+    "information": "data",
+    "personal information": "personal data",
+    "usage information": "usage data",
+    "user files": "files",
+    "your information": "user information"
+   },
+   "parents": {
+    "personal data": [
+     "data"
+    ],
+    "user information": [
+     "data"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "user provided info": [
+     "data"
+    ],
+    "account data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "device details": [
+     "data"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "payment details": [
+     "personal data"
+    ],
+    "user profile": [
+     "account data",
+     "user information"
+    ],
+    "profile picture": [
+     "user profile"
+    ],
+    "contacts": [
+     "user information"
+    ],
+    "potential collaborator": [
+     "collaborators"
+    ],
+    "files": [
+     "user content"
+    ],
+    "user content": [
+     "data"
+    ],
+    "shared stuff": [
+     "user content"
+    ],
+    "file properties": [
+     "data"
+    ],
+    "viewed content": [
+     "usage data"
+    ],
+    "content portion viewed": [
+     "viewed content"
+    ],
+    "view duration": [
+     "usage data"
+    ],
+    "interaction date and time": [
+     "usage data"
+    ],
+    "interaction frequency": [
+     "usage data"
+    ],
+    "referrer URL": [
+     "usage data"
+    ],
+    "location": [
+     "data"
+    ],
+    "information received from google apis": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third parties": "advertisers or other third parties"
+   },
+   "parents": {
+    "advertisers": [
+     "advertisers or other third parties"
+    ],
+    "other third parties": [
+     "advertisers or other third parties"
+    ],
+    "trusted third parties": [
+     "advertisers or other third parties"
+    ],
+    "file viewers": [
+     "other users"
+    ],
+    "owner of the file or folder": [
+     "other users"
+    ],
+    "other applications": [
+     "advertisers or other third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "trusted third parties": [
+     "third parties"
+    ],
+    "team administrator": [
+     "organization members"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "services": "service provision"
+   },
+   "parents": {
+    "detect abuse": [
+     "fraud detection and prevention"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "troubleshoot": [
+     "provide service"
+    ],
+    "collaboration": [
+     "provide service"
+    ],
+    "provide service": [
+     "service provision"
+    ],
+    "security": [
+     "service provision"
+    ],
+    "marketing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1990,
+  "completion_tokens": 913,
+  "thinking_tokens": 0,
+  "seconds": 14.135302066802979,
+  "failures": 0
+ },
+ "seconds": 14.3
+}

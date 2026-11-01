@@ -1,0 +1,738 @@
+{
+ "cleaned_sha256": "android-171",
+ "text_sha256": "de852a6e245ecc8365aae6f0168ad7a75561e1bc574e0aeb6000b9ed56d6d461",
+ "site_id": "android-171",
+ "sections": 44,
+ "rules": 449,
+ "report": {
+  "sections": 44,
+  "raw_rules": 373,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "process",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Information",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "Where we process your Information, we do so lawfully based on one of the following legal bases: Contract performance. Legitimate interests. Legal obligation."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Where we process your Information, we do so lawfully based on one of the following legal bases: Contract performance. Legitimate interests. Legal obligation."
+    ],
+    "section": "android-171#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "perform",
+      "verb": "perform"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not perform",
+     "purpose": [
+      {
+       "text": "behavioral advertising",
+       "name": "targeted advertising"
+      },
+      {
+       "text": "user profiling",
+       "name": "profiling"
+      },
+      {
+       "text": "cross-app tracking",
+       "name": "targeted advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "track",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "CHILDREN’S DATA"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "DENY",
+     "polarity_text": "do not track",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "perform",
+      "verb": "perform"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "CHILDREN’S DATA"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not perform",
+     "purpose": [
+      {
+       "text": "behavioral advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "conducting",
+      "verb": "conduct"
+     },
+     "actor": {
+      "name": "Advertising Providers",
+      "text": "they"
+     },
+     "conditions": [
+      "CHILDREN’S DATA"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "are prohibited from",
+     "purpose": [
+      {
+       "text": "behavioral advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "Advertising Providers",
+      "text": "they"
+     },
+     "conditions": [
+      "CHILDREN’S DATA"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "are prohibited from",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "Bubadu",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "If we are required to do so by law or legal process, such as to comply with any court order or subpoena or to respond to any government or regulatory request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "Bubadu",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to protect the rights, property, or safety of Bubadu, our customers or others, including to:\nprotect the safety of a child;\nprotect the safety and security of the App/Service; or\nenable us to take precautions against liability",
+       "name": "security"
+      }
+     ],
+     "conditions": [
+      "If we believe disclosure is necessary or appropriate"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "disclosure",
+     "actor": {
+      "text": "Bubadu",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "law enforcement agencies",
+      "name": "law enforcement"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for an investigation related to public safety",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "You can",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [
+      {
+       "text": "for contextual advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "by choosing the ’Remove Ads’’ option within your in-App settings and buying the ‘No ads’ subscription or by buying the App feature that includes the ‘Remove ads’ option’ or subscribing to a VIP subscription"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s16"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "receive",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "local notifications",
+      "name": "local notifications"
+     },
+     "recipient": {
+      "text": "You",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "iOS:",
+      "if you accept"
+     ],
+     "exceptions": [
+      "If you do not accept, you will not receive local notifications",
+      "changing notification preferences within your App, by clicking the settings icon and toggling/untoggling the button within the ‘Notifications’ option",
+      "changing the notification settings in accordance with the instructions of the operating system running on your device",
+      "disable notifications later on by using the settings on your mobile phone",
+      "Open your Settings menu and tap “Notifications”; Find the Application; Tap on the icon of Application; Manage the “Notifications” option by sliding it OFF"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "changing notification preferences within your App, by clicking the settings icon and toggling/untoggling the button within the ‘Notifications’ option"
+    ],
+    "section": "android-171#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "automatically receive",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "local notifications",
+      "name": "local notifications"
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "Android:",
+      "After an Application is downloaded"
+     ],
+     "exceptions": [
+      "changing notification preferences within your App, by clicking the settings icon and toggling/untoggling the button within the ‘Notifications’ option",
+      "changing the notification settings in accordance with the instructions of the operating system running on your device",
+      "entering the homepage of the App and choosing the “Settings” option. Here, local notifications can be disabled by choosing the uncheck option ‘’0’’",
+      "within your mobile phone settings"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "changing notification preferences within your App, by clicking the settings icon and toggling/untoggling the button within the ‘Notifications’ option"
+    ],
+    "section": "android-171#s28"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "tracking",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "conditions": [],
+     "data": {
+      "name": "data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "DENY",
+     "polarity_text": "don’t allow",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s36"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you are a Virginia resident"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Data"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [
+      {
+       "text": "perfrom Internal Analytics as described within the “How We Use Your Data” section",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“How We Use Your Data” section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "perfrom Internal Analytics as described within the “How We Use Your Data” section"
+    ],
+    "section": "android-171#s36"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not perform",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "targeted advertising",
+      "verb": "perform"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s37"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not perform",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Profiling",
+      "verb": "perform"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s37"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-171#s38"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "write to",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "write to",
+      "verb": "write"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "Should you have any privacy-related questions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-171#s44"
+   }
+  ],
+  "residual_quotes": 59,
+  "quotes": 162,
+  "completeness": {
+   "gaps": 534,
+   "gap_words": 5916
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 162,
+  "compile_failures": 5,
+  "fixed_structurally": 0,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 85,
+  "cached": 0,
+  "prompt_tokens": 137020,
+  "completion_tokens": 70433,
+  "thinking_tokens": 837,
+  "seconds": 2205.986001968384,
+  "failures": 0
+ },
+ "seconds": 2208.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

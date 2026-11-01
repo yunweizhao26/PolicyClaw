@@ -1,0 +1,118 @@
+{
+ "cleaned_sha256": "apple-185",
+ "text_sha256": "ec9af55c8b5e74073483299294059688e143ceb1d1ffa79f7ed8265ad5c25a62",
+ "site_id": "apple-185",
+ "sections": 3,
+ "rules": 38,
+ "report": {
+  "sections": 3,
+  "raw_rules": 30,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not transmit",
+     "actor": {
+      "text": "MPC",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any of this information",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "CBP",
+      "name": "first party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmit",
+      "verb": "transmit"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not transmit"
+    ],
+    "section": "apple-185#s1"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "is not maintained",
+     "actor": {
+      "text": "CBP",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Your specific location information",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "maintained",
+      "verb": "maintain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "is not maintained"
+    ],
+    "section": "apple-185#s1"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 11,
+  "completeness": {
+   "gaps": 58,
+   "gap_words": 522
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 11,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 13392,
+  "completion_tokens": 9497,
+  "thinking_tokens": 142,
+  "seconds": 128.33450436592102,
+  "failures": 0
+ },
+ "seconds": 128.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "BBC account information",
+    "account identifier": "account ID",
+    "advertising id": "advertising ID",
+    "advertising identifier": "advertising ID",
+    "contact-info": "contact details",
+    "date of birth": "birthday",
+    "demographics": "demographic data",
+    "device identifier": "device ID",
+    "page url": "URL",
+    "personal information": "personal data",
+    "server logs": "log data",
+    "social-handle": "social media handle",
+    "usage information": "usage data",
+    "user profile": "profile",
+    "user-content": "user content",
+    "your information": "personal data"
+   },
+   "parents": {
+    "BBC account information": [
+     "account data",
+     "account information"
+    ],
+    "account ID": [
+     "BBC account information",
+     "account information"
+    ],
+    "account data": [
+     "data"
+    ],
+    "account information": [
+     "personal data"
+    ],
+    "ad interaction data": [
+     "usage data"
+    ],
+    "advertising ID": [
+     "device ID",
+     "unique device identifier"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "age range": [
+     "demographic data"
+    ],
+    "aggregated usage data": [
+     "aggregated data",
+     "usage data"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "birthday": [
+     "demographic data"
+    ],
+    "broad location": [
+     "demographic data"
+    ],
+    "browser preferences": [
+     "device characteristics"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "browser version": [
+     "device characteristics"
+    ],
+    "browsing activity": [
+     "browsing and interaction data",
+     "usage data"
+    ],
+    "browsing and interaction data": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "communication history": [
+     "usage data"
+    ],
+    "communication preferences": [
+     "marketing preferences"
+    ],
+    "connection details": [
+     "device information"
+    ],
+    "content consumption data": [
+     "browsing and interaction data",
+     "usage data"
+    ],
+    "content preferences": [
+     "profile"
+    ],
+    "cookie ID": [
+     "device ID",
+     "unique device identifier"
+    ],
+    "country": [
+     "broad location"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "data about how you've used the BBC online": [
+     "usage data"
+    ],
+    "data about your use of our services": [
+     "usage data"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device ID": [
+     "device characteristics",
+     "device information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device information": [
+     "data"
+    ],
+    "device manufacturer": [
+     "device characteristics"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email interaction data": [
+     "usage data"
+    ],
+    "financial transactional data": [
+     "transaction history"
+    ],
+    "hardware model": [
+     "device characteristics"
+    ],
+    "hashed email address": [
+     "pseudonymous identifier"
+    ],
+    "inferred personal data": [
+     "personal data"
+    ],
+    "log data": [
+     "usage data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "non-identifiable data": [
+     "data"
+    ],
+    "offline data": [
+     "data"
+    ],
+    "operating system": [
+     "device characteristics"
+    ],
+    "URL": [
+     "browsing and interaction data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "postal code": [
+     "broad location"
+    ],
+    "profile": [
+     "personal data"
+    ],
+    "public opinion information": [
+     "data"
+    ],
+    "public opinions and perceptions": [
+     "public opinion information"
+    ],
+    "referrer url": [
+     "URL",
+     "browsing and interaction data"
+    ],
+    "registration information": [
+     "account information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social media data": [
+     "data"
+    ],
+    "social media handle": [
+     "contact details"
+    ],
+    "social media post": [
+     "user content"
+    ],
+    "transaction and usage history": [
+     "usage data"
+    ],
+    "transaction history": [
+     "transaction and usage history",
+     "usage data"
+    ],
+    "unique device identifier": [
+     "device ID",
+     "device information"
+    ],
+    "usage behaviour": [
+     "usage data"
+    ],
+    "usage history": [
+     "usage data"
+    ],
+    "user behaviour": [
+     "usage data"
+    ],
+    "user content": [
+     "personal data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising platforms": "advertising platform",
+    "internal organization": "affiliates"
+   },
+   "parents": {
+    "advertising platform": [
+     "service provider",
+     "third party"
+    ],
+    "buyer": [
+     "third party"
+    ],
+    "content protection organisation": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "internet service provider": [
+     "third party"
+    ],
+    "law enforcement agency": [
+     "government agency",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "data broker": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "social network": "social media platform",
+    "third-party partner": "partner"
+   },
+   "parents": {
+    "Stripe": [
+     "service provider",
+     "third party"
+    ],
+    "advertising clients": [
+     "third party"
+    ],
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "market research firm": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "third-party supplier": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "ad analytics and reporting": [
+     "advertising and measurement"
+    ],
+    "advertising": [
+     "commercial communications",
+     "commercial purpose"
+    ],
+    "advertising and measurement": [
+     "advertising",
+     "analytics",
+     "analytics or performance measurement"
+    ],
+    "age verification": [
+     "age verification and parental consent"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "personalisation": [
+     "personalization of content and experience"
+    ],
+    "recommend content": [
+     "personalisation"
+    ],
+    "targeted advertising and marketing": [
+     "advertising",
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3475,
+  "completion_tokens": 1748,
+  "thinking_tokens": 0,
+  "seconds": 40.54193568229675,
+  "failures": 0
+ },
+ "seconds": 40.7
+}

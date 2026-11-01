@@ -1,0 +1,289 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Social Security number": "SSN",
+    "biometric_data": "biometric data",
+    "drivers_license_number": "driver's license number",
+    "financial_account_number": "financial account number",
+    "health information": "health data",
+    "health_data": "health data",
+    "passport_number": "passport number",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "protected classifications": "characteristics of protected classifications",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "social security number": "SSN",
+    "ssn": "SSN",
+    "state_id_card_number": "state identification card number"
+   },
+   "parents": {
+    "SSN": [
+     "identifiers"
+    ],
+    "account balance": [
+     "financial information"
+    ],
+    "account information": [
+     "financial information"
+    ],
+    "activity details": [
+     "browsing data"
+    ],
+    "app activity": [
+     "browsing data"
+    ],
+    "authentication data": [
+     "account_login"
+    ],
+    "biometric signal": [
+     "biometric data"
+    ],
+    "browser type": [
+     "device settings"
+    ],
+    "browsing history": [
+     "browsing data"
+    ],
+    "browsing interaction information": [
+     "browsing data"
+    ],
+    "children's personal information": [
+     "childrens_data",
+     "personal data"
+    ],
+    "childrens_data": [
+     "personal data"
+    ],
+    "citizenship": [
+     "characteristics of protected classifications"
+    ],
+    "company email replies": [
+     "email content"
+    ],
+    "credit history": [
+     "credit information"
+    ],
+    "credit report": [
+     "credit information"
+    ],
+    "creditworthiness": [
+     "credit information"
+    ],
+    "debit_card_number": [
+     "financial account number"
+    ],
+    "device settings": [
+     "device details"
+    ],
+    "device software info": [
+     "device details"
+    ],
+    "driver's license": [
+     "identifiers"
+    ],
+    "driver's license number": [
+     "driver's license"
+    ],
+    "facial image": [
+     "biometric data",
+     "photos"
+    ],
+    "financial account details": [
+     "financial information"
+    ],
+    "financial account number": [
+     "financial information"
+    ],
+    "financial transaction history": [
+     "transaction history"
+    ],
+    "fingerprint": [
+     "biometric data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "passport number": [
+     "identifiers"
+    ],
+    "password": [
+     "authentication data"
+    ],
+    "payment history": [
+     "transaction history"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "precise_location": [
+     "location",
+     "sensitive data"
+    ],
+    "search history": [
+     "browsing data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "state identification card number": [
+     "identifiers"
+    ],
+    "transaction history": [
+     "financial information"
+    ],
+    "username": [
+     "account_login",
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "credit reporting agencies": "credit bureau",
+    "service providers": "service provider",
+    "third party": "third parties",
+    "third_party": "third parties"
+   },
+   "parents": {
+    "a counterparty": [
+     "third parties"
+    ],
+    "business partners": [
+     "the categories of recipients described below",
+     "third parties"
+    ],
+    "credit bureau": [
+     "third parties"
+    ],
+    "government entities": [
+     "the categories of recipients described below",
+     "third parties"
+    ],
+    "nonaffiliated third parties": [
+     "third parties"
+    ],
+    "service provider": [
+     "the categories of recipients described below",
+     "third parties"
+    ],
+    "affiliate": [
+     "the categories of recipients described below"
+    ],
+    "other parties": [
+     "the categories of recipients described below"
+    ],
+    "third parties": [
+     "other parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "government entity": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "Adobe": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud prevention and detection": "fraud prevention",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "operations": "business operations",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "services": "service provision"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "transaction processing": [
+     "account management",
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "auditing": [
+     "compliance"
+    ],
+    "compliance": [
+     "business operations"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud detection": [
+     "fraud prevention",
+     "fraud_security"
+    ],
+    "fraud prevention": [
+     "fraud_security"
+    ],
+    "identity verification": [
+     "fraud_security",
+     "security"
+    ],
+    "security": [
+     "fraud_security"
+    ],
+    "product development": [
+     "service improvement"
+    ],
+    "troubleshooting": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3585,
+  "completion_tokens": 1606,
+  "thinking_tokens": 0,
+  "seconds": 14.256220817565918,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

@@ -1,0 +1,267 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact details": "contact data",
+    "contact information": "contact data",
+    "cookie IDs": "cookie ID",
+    "geolocation data": "geographic location",
+    "information we collect": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "sensitive personal data": "sensitive data",
+    "user-provided info": "user-provided data",
+    "username": "user name"
+   },
+   "parents": {
+    "IP address": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "MAC address": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "cookie ID": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "device IDs": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "device identifier": [
+     "identifiers",
+     "unique identifier"
+    ],
+    "mobile identifier": [
+     "device identifier",
+     "identifiers",
+     "unique identifier"
+    ],
+    "email address": [
+     "contact data",
+     "identifiers"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "social media handle": [
+     "identifiers"
+    ],
+    "user name": [
+     "account credentials",
+     "identifiers"
+    ],
+    "credit card number": [
+     "financial account information",
+     "payment data",
+     "payment details",
+     "sensitive data"
+    ],
+    "payment details": [
+     "payment data"
+    ],
+    "driver's license number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "passport number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "social security number": [
+     "identifiers",
+     "sensitive data"
+    ],
+    "race": [
+     "demographic data",
+     "sensitive data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "income": [
+     "demographic data"
+    ],
+    "geographic location": [
+     "location",
+     "sensitive data"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "clicks": [
+     "usage data"
+    ],
+    "clickstream data": [
+     "usage data"
+    ],
+    "duration of visit": [
+     "usage data"
+    ],
+    "access timestamp": [
+     "usage data"
+    ],
+    "website visit logs": [
+     "usage data"
+    ],
+    "referrer URL": [
+     "referral information"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "user prompts": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "content"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "third-party personal data": [
+     "personal data"
+    ],
+    "inferences based on and associated with that data": [
+     "derived data"
+    ],
+    "purchasing history": [
+     "commercial information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "marketing partners": "marketing partner",
+    "third party": "third parties"
+   },
+   "parents": {
+    "marketing partner": [
+     "partner",
+     "third parties"
+    ],
+    "government agencies": [
+     "third parties"
+    ],
+    "marketers": [
+     "third parties"
+    ],
+    "non-profit organizations": [
+     "third parties"
+    ],
+    "other magazine publishers": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "retailers": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "other sources": "different sources",
+    "website and apps": "first party"
+   },
+   "parents": {
+    "third party": [
+     "different sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising provider": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party",
+     "third party analytics and advertising companies"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party analytics and advertising companies": [
+     "third party"
+    ],
+    "third party vendors": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance with legal obligations": "compliance",
+    "legal compliance": "compliance",
+    "provide services": "provide service",
+    "service provision": "provide service",
+    "targeted advertising": "personalized advertising"
+   },
+   "parents": {
+    "administrative operations": [
+     "operations"
+    ],
+    "internal operations": [
+     "operations"
+    ],
+    "advertising": [
+     "commercial purpose"
+    ],
+    "marketing": [
+     "commercial purpose"
+    ],
+    "personalized advertising": [
+     "advertising"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "protect security": [
+     "security"
+    ],
+    "fulfill requested transactions": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3383,
+  "completion_tokens": 1680,
+  "thinking_tokens": 0,
+  "seconds": 23.156983613967896,
+  "failures": 0
+ },
+ "seconds": 23.2
+}

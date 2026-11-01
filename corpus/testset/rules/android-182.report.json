@@ -1,0 +1,122 @@
+{
+ "cleaned_sha256": "android-182",
+ "text_sha256": "081b22f1c965fb77c43f9c70826df60040d19449f2cacae7d7cc453b8643d191",
+ "site_id": "android-182",
+ "sections": 4,
+ "rules": 112,
+ "report": {
+  "sections": 4,
+  "raw_rules": 82,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "third-party SDKs",
+      "name": "third party"
+     },
+     "data": {
+      "text": "non-personal information",
+      "name": "non-personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the use of the Kids Apps",
+      "name": "user"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "in Our Kids Apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in Our Kids Apps"
+    ],
+    "section": "android-182#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "third-party SDKs",
+      "name": "third party"
+     },
+     "data": {
+      "text": "Kids’ Persistent Device Identifier",
+      "name": "persistent device identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the use of the Kids Apps",
+      "name": "user"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "in Our Kids Apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in Our Kids Apps"
+    ],
+    "section": "android-182#s4"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 30,
+  "completeness": {
+   "gaps": 82,
+   "gap_words": 766
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 30,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16180,
+  "completion_tokens": 16070,
+  "thinking_tokens": 0,
+  "seconds": 260.71581768989563,
+  "failures": 0
+ },
+ "seconds": 261.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

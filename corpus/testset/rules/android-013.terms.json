@@ -1,0 +1,524 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "account username": "account name",
+    "audio recording": "audio",
+    "communications": "communication content",
+    "contact identifiers": "contact details",
+    "contact information": "contact details",
+    "content of communication": "communication content",
+    "cookie settings": "cookie choice",
+    "date of birth": "birth date",
+    "demographics": "demographic data",
+    "device identifier": "device ID",
+    "device identifiers": "device ID",
+    "device information": "device details",
+    "financial information": "financial details",
+    "financial transaction history": "financial transaction details",
+    "hobbies and interests": "habits and interests",
+    "information": "data",
+    "job application details": "job applicant information",
+    "lifestyle preferences": "lifestyle information and preferences",
+    "location": "geographic location",
+    "login details": "log-in details",
+    "messages": "message",
+    "password": "account password",
+    "payment card number": "credit card number",
+    "personal information": "personal data",
+    "physical movement": "movement",
+    "postal address": "address",
+    "precise location": "geolocation",
+    "purchase and payment history": "financial transaction details",
+    "purchase details": "financial transaction details",
+    "purchase history": "financial transaction details",
+    "service usage data": "service interaction information",
+    "service usage details": "service interaction information",
+    "service use data": "service interaction information",
+    "social media account information": "social media account details",
+    "social media information": "social media account details",
+    "spatial activity": "immersive space interactions",
+    "support requests": "customer support inquiries",
+    "transaction details": "financial transaction details",
+    "transaction history": "financial transaction details",
+    "user account name": "account name",
+    "user account password": "account password",
+    "user account username": "account name",
+    "user id": "user ID",
+    "user identifier": "user ID",
+    "user inquiry details": "customer support inquiries",
+    "user messages": "message",
+    "user post": "user comment",
+    "user postings": "user comment",
+    "user uploaded content": "user content",
+    "user-provided information": "information you provide",
+    "user_content": "user content",
+    "user_profile_information": "user profile",
+    "username": "account name",
+    "voice recording": "audio"
+   },
+   "parents": {
+    "account details": [
+     "personal data",
+     "user profile"
+    ],
+    "account name": [
+     "account details"
+    ],
+    "account password": [
+     "account details"
+    ],
+    "account settings": [
+     "account details"
+    ],
+    "address book information": [
+     "personal data"
+    ],
+    "advertising identifiers": [
+     "device ID"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "audio": [
+     "multimedia content"
+    ],
+    "behavioral data": [
+     "usage data"
+    ],
+    "billing address": [
+     "address",
+     "billing information"
+    ],
+    "billing information": [
+     "financial details"
+    ],
+    "birth date": [
+     "demographic data"
+    ],
+    "browser type": [
+     "device details"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "business or tax information": [
+     "business information"
+    ],
+    "characteristics": [
+     "demographic data"
+    ],
+    "communication content": [
+     "user content"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "contact first name": [
+     "contacts' names",
+     "name"
+    ],
+    "contact phone number": [
+     "contacts' phone numbers",
+     "phone number"
+    ],
+    "contacts' names": [
+     "address book information",
+     "name"
+    ],
+    "contacts' phone numbers": [
+     "address book information",
+     "phone number"
+    ],
+    "contest entry details": [
+     "information you provide"
+    ],
+    "contest winner information": [
+     "personal data"
+    ],
+    "credit card number": [
+     "billing information",
+     "financial details"
+    ],
+    "customer support inquiries": [
+     "communication content"
+    ],
+    "demographic data": [
+     "personal data"
+    ],
+    "device ID": [
+     "device details",
+     "persistent identifier"
+    ],
+    "device details": [
+     "personal data"
+    ],
+    "device interaction behavior": [
+     "behavioral data"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "email address hash": [
+     "personal data"
+    ],
+    "employment details": [
+     "job applicant information"
+    ],
+    "feature usage data": [
+     "usage data"
+    ],
+    "financial details": [
+     "personal data"
+    ],
+    "financial transaction details": [
+     "financial details"
+    ],
+    "game state information": [
+     "usage data"
+    ],
+    "gameplay history": [
+     "usage data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "geographic location": [
+     "demographic data"
+    ],
+    "geolocation": [
+     "geographic location"
+    ],
+    "government-issued photo id": [
+     "personal data"
+    ],
+    "habits and interests": [
+     "preferences"
+    ],
+    "immersive space interactions": [
+     "behavioral data"
+    ],
+    "ip address": [
+     "device ID",
+     "persistent identifier"
+    ],
+    "job applicant information": [
+     "personal data"
+    ],
+    "lifestyle information and preferences": [
+     "preferences"
+    ],
+    "likes and dislikes": [
+     "preferences"
+    ],
+    "log-in details": [
+     "account details"
+    ],
+    "message": [
+     "communication content"
+    ],
+    "multimedia content": [
+     "user content"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "opt-out cookie": [
+     "cookies"
+    ],
+    "parent email address": [
+     "email address"
+    ],
+    "persistent identifier": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "referring URL": [
+     "browsing behavior"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "service interaction information": [
+     "usage data"
+    ],
+    "social media account details": [
+     "personal data"
+    ],
+    "tax form": [
+     "business or tax information"
+    ],
+    "transaction identifier": [
+     "persistent identifier"
+    ],
+    "uploaded content with personal information": [
+     "user content"
+    ],
+    "usage data": [
+     "personal data"
+    ],
+    "user ID": [
+     "persistent identifier"
+    ],
+    "user account history": [
+     "account details"
+    ],
+    "user comment": [
+     "communication content"
+    ],
+    "user content": [
+     "personal data"
+    ],
+    "user display name": [
+     "user name"
+    ],
+    "user name": [
+     "name"
+    ],
+    "user photo": [
+     "multimedia content"
+    ],
+    "user speech": [
+     "audio"
+    ],
+    "information you provide": [
+     "personal data"
+    ],
+    "video": [
+     "multimedia content"
+    ],
+    "virtual items": [
+     "account details"
+    ],
+    "w-8 form": [
+     "tax form"
+    ],
+    "w-9 form": [
+     "tax form"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "creator": "content provider",
+    "public authority": "public agency",
+    "regulator": "government agency",
+    "third party agent": "agent",
+    "ugc creator": "content provider"
+   },
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "commerce provider": [
+     "third party"
+    ],
+    "commercial partners": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "event host": [
+     "third party"
+    ],
+    "judicial authorities": [
+     "public agency"
+    ],
+    "law enforcement": [
+     "public agency"
+    ],
+    "other users": [
+     "anyone",
+     "public",
+     "user"
+    ],
+    "government agency": [
+     "public agency"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "third-party advertising company": [
+     "advertiser",
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ],
+    "third-party provider": [
+     "third party"
+    ],
+    "content provider": [
+     "user"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "partner": "commercial partners"
+   },
+   "parents": {
+    "mobile phone address book": [
+     "address book"
+    ],
+    "contacts": [
+     "address book",
+     "mobile phone address book"
+    ],
+    "user device": [
+     "device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "other users": "other user",
+    "telecommunications provider": "telecommunications carrier",
+    "third-party partner": "third party partner"
+   },
+   "parents": {
+    "commerce provider": [
+     "third party"
+    ],
+    "content provider": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "telecommunications carrier": [
+     "third party"
+    ],
+    "third party partner": [
+     "third party"
+    ],
+    "third-party platform": [
+     "third party"
+    ],
+    "third-party provider": [
+     "third party"
+    ],
+    "third-party vendor": [
+     "service provider",
+     "third party"
+    ],
+    "user": [
+     "public"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "customer-support": "customer support",
+    "customer_support": "customer support",
+    "fraud-detection": "fraud detection",
+    "fraud_detection": "fraud detection",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "social networking features": "social networking",
+    "social-features": "social networking"
+   },
+   "parents": {
+    "ad performance": [
+     "advertising"
+    ],
+    "ad serving": [
+     "advertising"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "personalization"
+    ],
+    "internal analytics": [
+     "analytics"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "compliance": [
+     "compliance and dispute resolution"
+    ],
+    "dispute resolution": [
+     "compliance and dispute resolution"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "order fulfillment": [
+     "fulfillment"
+    ],
+    "legal dispute": [
+     "dispute resolution"
+    ],
+    "legal enforcement": [
+     "compliance"
+    ],
+    "machine-learning-training": [
+     "research and development",
+     "service improvement"
+    ],
+    "registration and login": [
+     "account management"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service optimization": [
+     "service improvement"
+    ],
+    "service provision": [
+     "service operation and improvement"
+    ],
+    "service-feature": [
+     "service provision"
+    ],
+    "social communication": [
+     "communication"
+    ],
+    "social networking": [
+     "social communication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4988,
+  "completion_tokens": 2949,
+  "thinking_tokens": 0,
+  "seconds": 25.19633388519287,
+  "failures": 0
+ },
+ "seconds": 25.4
+}

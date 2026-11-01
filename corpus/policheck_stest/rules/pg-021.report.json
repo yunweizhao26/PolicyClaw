@@ -1,0 +1,381 @@
+{
+ "cleaned_sha256": "pg-021",
+ "text_sha256": "08a85d2c9077be2624039e4cbd485b9eeda482b34d9ba4d04c24a5cf65441354",
+ "site_id": "pg-021",
+ "sections": 36,
+ "rules": 77,
+ "report": {
+  "sections": 36,
+  "raw_rules": 63,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "APPSTARSTUDIOS",
+      "name": "first party"
+     },
+     "action": {
+      "text": "take",
+      "verb": "take"
+     },
+     "data": {
+      "text": "photos",
+      "name": "photos"
+     },
+     "operations": [
+      "collection"
+     ],
+     "source": {
+      "text": "your device’s camera",
+      "name": "user device"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "APPSTARSTUDIOS",
+      "name": "first party"
+     },
+     "action": {
+      "text": "take",
+      "verb": "take"
+     },
+     "data": {
+      "text": "videos",
+      "name": "videos"
+     },
+     "operations": [
+      "collection"
+     ],
+     "source": {
+      "text": "your device’s camera",
+      "name": "user device"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "action": {
+      "text": "save",
+      "verb": "save"
+     },
+     "data": {
+      "text": "photos",
+      "name": "photos"
+     },
+     "operations": [
+      "storage"
+     ],
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "action": {
+      "text": "save",
+      "verb": "save"
+     },
+     "data": {
+      "text": "videos",
+      "name": "videos"
+     },
+     "operations": [
+      "storage"
+     ],
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "action": {
+      "text": "upload",
+      "verb": "upload"
+     },
+     "data": {
+      "text": "photos",
+      "name": "photos"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "action": {
+      "text": "upload",
+      "verb": "upload"
+     },
+     "data": {
+      "text": "videos",
+      "name": "videos"
+     },
+     "operations": [
+      "disclosure by transmission"
+     ],
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": [],
+     "operation": ""
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-021#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the device’s network",
+      "name": "network connection"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for certain functions including accessing app classification labels",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for certain functions including accessing app classification labels"
+    ],
+    "section": "pg-021#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "APPSTARSTUDIOS",
+      "name": "APPSTARSTUDIOS"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "run as startup",
+      "verb": "run"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to provide users with a launcher service",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-021#s22"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "install shortcuts",
+      "verb": "install"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "so users can continue to use APPSTARSTUDIOS related functions",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "on other launchers"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-021#s30"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 24,
+  "completeness": {
+   "gaps": 46,
+   "gap_words": 364
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 24,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 58,
+  "cached": 0,
+  "prompt_tokens": 74970,
+  "completion_tokens": 15476,
+  "thinking_tokens": 0,
+  "seconds": 206.89162945747375,
+  "failures": 0
+ },
+ "seconds": 208.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

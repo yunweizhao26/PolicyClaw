@@ -1,0 +1,124 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "other user data"
+   },
+   "parents": {
+    "account name": [
+     "user profile"
+    ],
+    "password": [
+     "user profile"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "contact data": [
+     "other user data"
+    ],
+    "name": [
+     "contact data",
+     "user profile"
+    ],
+    "credit card number": [
+     "financial or transactional data"
+    ],
+    "credit information": [
+     "financial or transactional data"
+    ],
+    "third-party cookies": [
+     "cookies"
+    ],
+    "financial or transactional data": [
+     "other user data"
+    ],
+    "device identifier": [
+     "other user data"
+    ],
+    "ip address": [
+     "other user data"
+    ],
+    "precise location": [
+     "other user data"
+    ],
+    "user profile": [
+     "other user data"
+    ],
+    "child information": [
+     "other user data"
+    ],
+    "browsing activity": [
+     "other user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "outside parties"
+   },
+   "parents": {
+    "business partner": [
+     "outside parties"
+    ],
+    "service provider": [
+     "outside parties"
+    ],
+    "other users": [
+     "outside parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "children": "child"
+   },
+   "parents": {
+    "child": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third-party vendors",
+     "trusted third-parties"
+    ],
+    "employee": [
+     "first party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-service": "customer support"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "direct marketing": [
+     "marketing"
+    ],
+    "service optimization": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1623,
+  "completion_tokens": 457,
+  "thinking_tokens": 0,
+  "seconds": 10.766644477844238,
+  "failures": 0
+ },
+ "seconds": 10.8
+}

@@ -1,0 +1,238 @@
+{
+ "cleaned_sha256": "apple-063",
+ "text_sha256": "0d9001d2020f32f42052bf4f83e9a4b73da047e5576d11d08fb3ae56ae3f2937",
+ "site_id": "apple-063",
+ "sections": 9,
+ "rules": 315,
+ "report": {
+  "sections": 9,
+  "raw_rules": 134,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "shares",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Workday"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "DENY",
+     "polarity_text": "does not have actual knowledge that it “shares”",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "children",
+      "text": "individuals under 16 years of age"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not have actual knowledge that it “shares”"
+    ],
+    "section": "apple-063#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also ask for your consent to disclose",
+     "actor": {
+      "text": "Workday",
+      "name": "Workday"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "other unaffiliated third parties that are not described elsewhere in this statement",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this statement",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "apple-063#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Workday"
+     },
+     "conditions": [],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [
+      "Opt out"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "Opt out",
+     "purpose": [
+      {
+       "text": "to support such marketing",
+       "name": "marketing"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-063#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "make decisions",
+      "verb": "make"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Workday"
+     },
+     "conditions": [
+      "based solely on automated processing that produces legal or similarly significant effects as part of the processing activities covered by this Privacy Statement"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "purpose": [],
+     "references": [
+      {
+       "text": "this Privacy Statement",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-063#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "will notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we plan to make any major changes",
+      "on this page",
+      "before those changes take effect"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-063#s9"
+   }
+  ],
+  "residual_quotes": 19,
+  "quotes": 65,
+  "completeness": {
+   "gaps": 266,
+   "gap_words": 2058
+  },
+  "unsatisfiable_guards": 10,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 65,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 32222,
+  "completion_tokens": 30769,
+  "thinking_tokens": 0,
+  "seconds": 353.95272636413574,
+  "failures": 0
+ },
+ "seconds": 354.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

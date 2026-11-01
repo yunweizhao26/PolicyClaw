@@ -1,0 +1,287 @@
+{
+ "cleaned_sha256": "web-007",
+ "text_sha256": "cff685b554555276819b198c0aee0e5c15d8b3a3f59cfc9074b5ff3fc4c28f53",
+ "site_id": "web-007",
+ "sections": 4,
+ "rules": 54,
+ "report": {
+  "sections": 4,
+  "raw_rules": 54,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not sell",
+     "actor": {
+      "text": "WordPress.org",
+      "name": "first party"
+     },
+     "data": {
+      "text": "potentially personally-identifying and personally-identifying information",
+      "name": "identifying information"
+     },
+     "recipient": {
+      "text": "anyone",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not sell"
+    ],
+    "section": "web-007#s1"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "Some AI-assisted workflows",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-007#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not lease",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third parties"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "lease",
+      "verb": "lease"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "we have your permission or are required by law to do so"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not lease"
+    ],
+    "section": "web-007#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can be changed",
+     "actor": {
+      "text": "the attendee",
+      "name": "user"
+     },
+     "data": {
+      "text": "WordCamp attendee-provided data",
+      "name": "WordCamp attendee-provided data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "changed",
+      "verb": "change"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "via the Access Token URL that is emailed to confirm a successful ticket purchase"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "can be changed"
+    ],
+    "section": "web-007#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "update",
+      "verb": "update"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "You may have certain rights under data protection law in relation to the personal information we hold about you",
+      "ask that we update the personal information we hold about you"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information we hold about you"
+     },
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "may have a right to: ask that we update",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "data protection law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have a right to: ask that we update"
+    ],
+    "section": "web-007#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "You may have certain rights under data protection law in relation to the personal information we hold about you",
+      "ask that we delete personal information that we hold about you from live systems",
+      "from live systems"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information that we hold about you"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may have a right to: ask that we delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "data protection law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "“Retention of personal information” section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may have a right to: ask that we delete"
+    ],
+    "section": "web-007#s3"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 45,
+  "completeness": {
+   "gaps": 73,
+   "gap_words": 838
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 45,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 15794,
+  "completion_tokens": 13511,
+  "thinking_tokens": 50,
+  "seconds": 152.54269361495972,
+  "failures": 0
+ },
+ "seconds": 152.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

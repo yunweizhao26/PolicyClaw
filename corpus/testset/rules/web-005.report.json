@@ -1,0 +1,244 @@
+{
+ "cleaned_sha256": "web-005",
+ "text_sha256": "8a75b7e6c25ad62c54315765e7f85a491d258915a3ace4a1069980af04b5d5c1",
+ "site_id": "web-005",
+ "sections": 13,
+ "rules": 326,
+ "report": {
+  "sections": 13,
+  "raw_rules": 206,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "required",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to fulfill our contractual duties to you",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Applicable to EEA and UK End Users",
+      "in accordance with the GitHub Terms of Service"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "GitHub Terms of Service",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-005#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data collected about you",
+      "name": "data collected about you"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your residence location",
+      "The right to access the data collected about you"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-005#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "detailed information about the specific types of Personal Data we've collected over the past 12 months, including data disclosed for business purposes",
+      "name": "detailed information about the specific types of Personal Data we've collected over the past 12 months, including data disclosed for business purposes"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "request detailed information",
+      "verb": "request"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your residence location",
+      "The right to request detailed information about the specific types of Personal Data we've collected over the past 12 months, including data disclosed for business purposes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-005#s5"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not intentionally gather",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from such individuals",
+      "name": "user"
+     },
+     "action": {
+      "text": "gather",
+      "verb": "gather"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "from individuals under the age of 13"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from individuals under the age of 13"
+    ],
+    "section": "web-005#s6"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not engage",
+     "actor": {
+      "text": "GitHub",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in such profiling",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [
+      "in furtherance of decisions that produce legal or similarly significant effects concerning the consumer"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as defined by Colorado law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-005#s13"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 75,
+  "completeness": {
+   "gaps": 312,
+   "gap_words": 3377
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 75,
+  "compile_failures": 3,
+  "fixed_structurally": 1,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 52211,
+  "completion_tokens": 41959,
+  "thinking_tokens": 0,
+  "seconds": 446.63066601753235,
+  "failures": 0
+ },
+ "seconds": 447.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

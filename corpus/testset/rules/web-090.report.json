@@ -1,0 +1,277 @@
+{
+ "cleaned_sha256": "web-090",
+ "text_sha256": "b084dfdeafaea1dad689444ddb4d5d34e8dfd356ebde3177d25acf119831e9da",
+ "site_id": "web-090",
+ "sections": 18,
+ "rules": 197,
+ "report": {
+  "sections": 18,
+  "raw_rules": 145,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "with important information regarding our Services, or your use thereof",
+       "name": "service communication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "you are no longer a DeviantArt User (which can be done by deactivating your Account)"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-090#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "taking reasonable steps in order to enable you to access, receive a copy of, update, amend, delete, or limit the use of your Information"
+     ],
+     "data": {
+      "name": "Information",
+      "text": "Information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "enable you to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-090#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive a copy of",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "taking reasonable steps in order to enable you to access, receive a copy of, update, amend, delete, or limit the use of your Information"
+     ],
+     "data": {
+      "name": "Information",
+      "text": "Information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "enable you to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-090#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "actor": {
+      "name": "user",
+      "text": "you"
+     },
+     "conditions": [
+      "For all DeviantArt Users",
+      "by logging in and navigating to your\nSettings page\non the website"
+     ],
+     "data": {
+      "name": "Information",
+      "text": "Information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-090#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "DeviantArt"
+     },
+     "conditions": [
+      "For all DeviantArt Users",
+      "if you wish to\npermanently delete your DeviantArt data",
+      "please follow the instructions provided\nhere"
+     ],
+     "data": {
+      "name": "DeviantArt data",
+      "text": "DeviantArt data"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "wish to\npermanently delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "wish to\npermanently delete",
+     "if you wish to\npermanently delete your DeviantArt data"
+    ],
+    "section": "web-090#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "update",
+      "verb": "update"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to reflect changes to our information collection, usage and storage practices",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-090#s16"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 75,
+  "completeness": {
+   "gaps": 299,
+   "gap_words": 2656
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 75,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 59047,
+  "completion_tokens": 29913,
+  "thinking_tokens": 229,
+  "seconds": 326.86210775375366,
+  "failures": 0
+ },
+ "seconds": 328.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

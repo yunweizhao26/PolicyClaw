@@ -1,0 +1,89 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "non-personal identification": "non-personal data",
+    "non-personally identifiable information": "non-personal data",
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "advertising identifier": [
+     "device details",
+     "identifiers",
+     "unique device identifier"
+    ],
+    "imei": [
+     "device details",
+     "identifiers",
+     "unique device identifier"
+    ],
+    "unique device identifier": [
+     "device details",
+     "identifiers"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "cookies": [
+     "identifiers"
+    ],
+    "hardware model": [
+     "device details"
+    ],
+    "device manufacturer": [
+     "device details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "date and time of visit": [
+     "app usage data"
+    ],
+    "aggregate information": [
+     "non-personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "advertising": [
+     "marketing and advertising"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing and advertising"
+    ],
+    "security": [
+     "legal compliance"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 1070,
+  "completion_tokens": 320,
+  "thinking_tokens": 0,
+  "seconds": 32.7479522228241,
+  "failures": 0
+ },
+ "seconds": 32.8
+}

@@ -1,0 +1,534 @@
+{
+ "cleaned_sha256": "web-040",
+ "text_sha256": "0af0c0b0c586ba3065e9733eb684f91a46ddbb12ed7af585827b29bd33d1fecb",
+ "site_id": "web-040",
+ "sections": 30,
+ "rules": 419,
+ "report": {
+  "sections": 30,
+  "raw_rules": 348,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "actor": {
+      "text": "our",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to subscribe to our newsletters that provide you with the latest news about our products and services",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "if you consent to receiving such newsletters"
+     ],
+     "exceptions": [
+      "opting out via the link provided in each newsletter"
+     ],
+     "references": [
+      {
+       "text": "Article 6 sec. 1 sent. 1 lit. a GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to subscribe to our newsletters that provide you with the latest news about our products and services"
+    ],
+    "section": "web-040#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "retained",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "personal account registration data",
+      "name": "account registration details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "is retained",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "for as long as your account is used",
+      "The need for legal actions within the services or payment problems can lead to a longer retention of your personal data."
+     ],
+     "exceptions": [
+      "exceptions within the specific services mentioned"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "is retained"
+    ],
+    "section": "web-040#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will contact",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about the journal(s) and content that you have worked on",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "As a Peer Reviewer or external Editorial Board Member"
+     ],
+     "exceptions": [
+      "If you do not wish to be contacted any longer, you can contact us via our\nsupport portal"
+     ],
+     "references": [
+      {
+       "text": "Art. 6 (1) sent. 1 lit. f",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-040#s8"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to support us in providing the response or service requested",
+       "name": "customer support"
+      }
+     ],
+     "conditions": [
+      "any output is subject to human oversight before being used"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-040#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not",
+     "actor": {
+      "text": "Third party large language models (LLMs), such as from OpenAI",
+      "name": "third party LLMs"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "train",
+      "verb": "train"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-040#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "contractors who assist us in providing the services we offer through the website",
+      "name": "contractor"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to assist us in providing the services we offer through the website",
+       "name": "provide-service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art. 28 GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to assist us in providing the services we offer through the website"
+    ],
+    "section": "web-040#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "our contractors",
+      "name": "contractor"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to perform their functions",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "only to the extent necessary to perform their functions",
+      "only on our behalf and in compliance with our requests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only to the extent necessary to perform their functions"
+    ],
+    "section": "web-040#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will only use",
+     "actor": {
+      "text": "our Contractors",
+      "name": "third party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to perform their functions",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [
+      "Nature Plus:",
+      "only to the extent necessary to perform their functions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only to the extent necessary to perform their functions"
+    ],
+    "section": "web-040#s28"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may work with",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third parties with expertise in data analysis",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "work with",
+      "verb": "work with"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "In these cases, the third-party acts as a data processor on our behalf with a data processing agreement in place to support this relationship"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-040#s29"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "user information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you would like to access your user information, such as I.P address or BPIDs, then please click the following link"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-040#s30"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "I.P address",
+      "name": "ip address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you would like to access your user information, such as I.P address or BPIDs, then please click the following link"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-040#s30"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "to access",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "BPIDs",
+      "name": "user identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you would like to access your user information, such as I.P address or BPIDs, then please click the following link"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-040#s30"
+   }
+  ],
+  "residual_quotes": 58,
+  "quotes": 209,
+  "completeness": {
+   "gaps": 519,
+   "gap_words": 5683
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 209,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 59,
+  "cached": 0,
+  "prompt_tokens": 109184,
+  "completion_tokens": 75844,
+  "thinking_tokens": 0,
+  "seconds": 679.2397272586823,
+  "failures": 0
+ },
+ "seconds": 681.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

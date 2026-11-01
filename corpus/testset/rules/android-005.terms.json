@@ -1,0 +1,379 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "Netflix account information",
+    "account information": "Netflix account information",
+    "chat logs": "chat log",
+    "contact information": "contact details",
+    "content of communication": "communication contents",
+    "device and network information": "device and network data",
+    "imprecise location": "general location information",
+    "inferences": "inference",
+    "personal information": "personal data",
+    "resettable device identifiers": "hardware identifier",
+    "usage information": "usage data",
+    "user data": "information about user",
+    "voice recordings": "voice recording"
+   },
+   "parents": {
+    "Netflix account information": [
+     "information about user",
+     "personal data"
+    ],
+    "account profile": [
+     "profile information"
+    ],
+    "advertisement views and interactions": [
+     "usage data"
+    ],
+    "advertising data": [
+     "advertising information"
+    ],
+    "chat log": [
+     "communication contents"
+    ],
+    "children's personal information": [
+     "personal data"
+    ],
+    "commercial information": [
+     "purchase information"
+    ],
+    "communication contents": [
+     "communications"
+    ],
+    "communication details": [
+     "communications"
+    ],
+    "cookie": [
+     "online identifier"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "date of birth": [
+     "demographic information and other information"
+    ],
+    "device characteristics": [
+     "device information"
+    ],
+    "device identifier": [
+     "identifier",
+     "unique identifiers"
+    ],
+    "device information": [
+     "device and network data"
+    ],
+    "device sensor data": [
+     "device information"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "game information": [
+     "information about user"
+    ],
+    "gameplay data": [
+     "gaming activity"
+    ],
+    "gaming activity": [
+     "usage data"
+    ],
+    "gaming history": [
+     "gaming activity"
+    ],
+    "gender": [
+     "demographic information and other information"
+    ],
+    "general location information": [
+     "location"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "hashed identifiers": [
+     "identifier",
+     "pseudonymous identifiers"
+    ],
+    "image": [
+     "user-generated content"
+    ],
+    "interaction information": [
+     "usage data"
+    ],
+    "interaction with communications": [
+     "interaction information"
+    ],
+    "interest information": [
+     "advertising data"
+    ],
+    "ip address": [
+     "network information",
+     "online identifier"
+    ],
+    "likely interests": [
+     "inference",
+     "interest information"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "login credentials": [
+     "Netflix account information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "network device information": [
+     "network information"
+    ],
+    "network information": [
+     "device and network data"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "online status": [
+     "user status"
+    ],
+    "order details": [
+     "purchase information"
+    ],
+    "other personal information": [
+     "personal data"
+    ],
+    "password": [
+     "login credentials"
+    ],
+    "payment details": [
+     "payment or balance information"
+    ],
+    "payment or balance information": [
+     "financial details"
+    ],
+    "personal details": [
+     "personal data"
+    ],
+    "personal identifiers": [
+     "identifier"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "profile information": [
+     "Netflix account information"
+    ],
+    "pseudonymous identifiers": [
+     "unique identifiers"
+    ],
+    "purchase history": [
+     "purchase information"
+    ],
+    "push notification content": [
+     "communication contents"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "search queries and commands": [
+     "search history"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "unique identifiers": [
+     "identifier"
+    ],
+    "usage details": [
+     "usage data"
+    ],
+    "user activity history": [
+     "usage data"
+    ],
+    "user choices": [
+     "usage data"
+    ],
+    "information about user": [
+     "information"
+    ],
+    "user handle": [
+     "online identifier",
+     "username"
+    ],
+    "user profile": [
+     "profile information"
+    ],
+    "user reported content": [
+     "user-generated content"
+    ],
+    "user status": [
+     "usage data"
+    ],
+    "user-generated content": [
+     "information about user"
+    ],
+    "username": [
+     "identifier"
+    ],
+    "viewing history": [
+     "viewing information"
+    ],
+    "viewing information": [
+     "usage data"
+    ],
+    "voice recording": [
+     "user-generated content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Netflix family of companies",
+    "other_users": "other users",
+    "third party": "third parties"
+   },
+   "parents": {
+    "advertising network": [
+     "third parties"
+    ],
+    "other players": [
+     "other users"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "advertising partner": "advertising company"
+   },
+   "parents": {
+    "Advertisers": [
+     "third party"
+    ],
+    "advertising company": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "marketing provider": [
+     "service provider",
+     "third party"
+    ],
+    "publicly available source": [
+     "other sources"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising network": "Advertising Companies",
+    "marketing provider": "Netflix Marketing Providers",
+    "service provider": "Service Providers"
+   },
+   "parents": {
+    "Netflix Marketing Providers": [
+     "Service Providers"
+    ],
+    "vendors, agents, and contractors": [
+     "Service Providers"
+    ],
+    "Advertisers": [
+     "third party"
+    ],
+    "Advertising Companies": [
+     "third party"
+    ],
+    "Partners": [
+     "third party"
+    ],
+    "Service Providers": [
+     "third party"
+    ],
+    "online and offline information providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics and improvement": "analytics",
+    "billing and records": "billing",
+    "business administration": "administration",
+    "business administration and operation": "administration",
+    "business_administration": "administration",
+    "fraud prevention and security": "fraud detection and prevention",
+    "legal compliance": "compliance with law",
+    "legal_compliance": "compliance with law",
+    "marketing and communications": "marketing",
+    "operations": "administration",
+    "other": "fulfill purposes described in Privacy Statement",
+    "research, analysis, and improvement": "analytics",
+    "safety, security, and fraud prevention": "fraud detection and prevention",
+    "service provision": "service delivery",
+    "service-provision": "service delivery",
+    "service_provision": "service delivery",
+    "unspecified": "fulfill purposes described in Privacy Statement"
+   },
+   "parents": {
+    "enforce terms of service": [
+     "compliance with law"
+    ],
+    "enforce policy and safety": [
+     "compliance with law"
+    ],
+    "legal response": [
+     "compliance with law"
+    ],
+    "fraud-prevention": [
+     "fraud detection and prevention"
+    ],
+    "security": [
+     "fraud detection and prevention"
+    ],
+    "research": [
+     "analytics"
+    ],
+    "service development": [
+     "analytics"
+    ],
+    "billing": [
+     "service delivery"
+    ],
+    "interact with the service": [
+     "service delivery"
+    ],
+    "troubleshooting": [
+     "service delivery"
+    ],
+    "display user-generated content": [
+     "service delivery"
+    ],
+    "personalization": [
+     "service delivery"
+    ],
+    "honor choices": [
+     "fulfill purposes described in Privacy Statement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4595,
+  "completion_tokens": 1955,
+  "thinking_tokens": 0,
+  "seconds": 22.2416672706604,
+  "failures": 0
+ },
+ "seconds": 22.5
+}

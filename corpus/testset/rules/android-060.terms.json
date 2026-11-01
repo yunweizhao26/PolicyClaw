@@ -1,0 +1,245 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "contact info": "contact details",
+    "hashed email address": "email address",
+    "ip address": "IP address",
+    "personal_data": "personal data",
+    "personal_information": "personal data",
+    "support content": "help requests and feedback content",
+    "third-party login information": "third-party account information",
+    "uploaded documents": "files",
+    "user files": "files",
+    "user input": "user content",
+    "user name": "name",
+    "your data": "data"
+   },
+   "parents": {
+    "IP address": [
+     "device details"
+    ],
+    "PDF settings": [
+     "display settings"
+    ],
+    "account logs": [
+     "logs"
+    ],
+    "account name": [
+     "account profile"
+    ],
+    "account registration details": [
+     "account_data"
+    ],
+    "account status": [
+     "account profile"
+    ],
+    "advertising id": [
+     "device details"
+    ],
+    "android id": [
+     "device details"
+    ],
+    "authentication tokens": [
+     "login credentials"
+    ],
+    "call records": [
+     "communication records"
+    ],
+    "communication records": [
+     "records"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "device model": [
+     "device details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "in-app purchase information": [
+     "financial or transaction details"
+    ],
+    "network type": [
+     "device details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "order details": [
+     "transaction details"
+    ],
+    "password": [
+     "login credentials"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photos": [
+     "files"
+    ],
+    "purchase history": [
+     "transaction history"
+    ],
+    "purchased service details": [
+     "transaction details"
+    ],
+    "recipient contact details": [
+     "contact details"
+    ],
+    "subscription information": [
+     "transaction details"
+    ],
+    "telecom carrier": [
+     "device details"
+    ],
+    "third-party account information": [
+     "third-party data"
+    ],
+    "time zone": [
+     "device details"
+    ],
+    "transaction details": [
+     "financial or transaction details"
+    ],
+    "transaction history": [
+     "records"
+    ],
+    "files": [
+     "documents",
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partner": "advertisement provider",
+    "third_party": "third party"
+   },
+   "parents": {
+    "Apple Pay": [
+     "third party"
+    ],
+    "Box": [
+     "third party"
+    ],
+    "Dropbox": [
+     "third party"
+    ],
+    "Evernote": [
+     "third party"
+    ],
+    "Google Drive": [
+     "third party"
+    ],
+    "Google Firebase": [
+     "service provider",
+     "software development kit providers"
+    ],
+    "Google Pay": [
+     "third party"
+    ],
+    "OneDrive": [
+     "third party"
+    ],
+    "advertisement provider": [
+     "third party"
+    ],
+    "affiliates": [
+     "companies, organizations, and individuals"
+    ],
+    "government authorities": [
+     "third party"
+    ],
+    "other service provider": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "software development kit providers": [
+     "service provider"
+    ],
+    "third party": [
+     "companies, organizations, and individuals"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google APIs": [
+     "partners or other third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "companies, organizations, and individuals",
+     "third party"
+    ],
+    "third party": [
+     "companies, organizations, and individuals"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention-and-security": "fraud prevention and security",
+    "legal_compliance": "legal compliance",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "customer support": [
+     "communication",
+     "service provision"
+    ],
+    "fraud prevention and detection": [
+     "fraud prevention and security",
+     "security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "human resources": [
+     "administration"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "service use": [
+     "service provision"
+    ],
+    "services": [
+     "service provision"
+    ],
+    "services facilitate": [
+     "service provision"
+    ],
+    "user account security": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3165,
+  "completion_tokens": 1049,
+  "thinking_tokens": 0,
+  "seconds": 11.846779823303223,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

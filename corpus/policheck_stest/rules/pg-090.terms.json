@@ -1,0 +1,224 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising_identifier": "advertising identifier",
+    "browsing_history": "browsing history",
+    "contacts": "contact list",
+    "email address": "email",
+    "email_address": "email",
+    "financial_information": "financial information",
+    "government_identifier": "government identification number",
+    "ip address": "IP address",
+    "non-personal information": "non-personal data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "postal address": "address",
+    "sensitive device data": "device_information",
+    "sensor_data": "microphone and camera sensor data",
+    "user_generated_content": "user-generated content"
+   },
+   "parents": {
+    "Kids Non-personal Information": [
+     "non-personal data"
+    ],
+    "ad interactions": [
+     "browsing and interaction data"
+    ],
+    "ad_views_or_clicks": [
+     "ad interactions"
+    ],
+    "ad performance data": [
+     "browsing and interaction data"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "device_identifier",
+     "persistent identifier"
+    ],
+    "age": [
+     "user information"
+    ],
+    "birthday": [
+     "personal data"
+    ],
+    "city": [
+     "coarse geographic location",
+     "location"
+    ],
+    "coarse geographic location": [
+     "location"
+    ],
+    "gps_location": [
+     "location"
+    ],
+    "email": [
+     "contact details"
+    ],
+    "address": [
+     "contact details"
+    ],
+    "contact list": [
+     "user information"
+    ],
+    "persistent cookies": [
+     "cookies"
+    ],
+    "session cookies": [
+     "cookies"
+    ],
+    "cookies": [
+     "local storage data"
+    ],
+    "device ID": [
+     "device identifier",
+     "persistent device identifier",
+     "unique device identifier"
+    ],
+    "device_identifier": [
+     "device identifier"
+    ],
+    "facebook account id": [
+     "user id"
+    ],
+    "gaming_service_account_id": [
+     "user id"
+    ],
+    "game progress": [
+     "in_app_activity"
+    ],
+    "in_app_activity": [
+     "browsing and interaction data"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "IP address": [
+     "device identifier",
+     "device_identifier"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "persistent device identifier": [
+     "device identifier",
+     "persistent identifier"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "pseudonymous identifier": [
+     "user id"
+    ],
+    "profile picture": [
+     "profile_information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "device_information": [
+     "user information"
+    ],
+    "social connections": [
+     "social_media_profile_link"
+    ],
+    "user interests": [
+     "user information"
+    ],
+    "uploaded content": [
+     "content",
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "social connections": "contacts"
+   },
+   "parents": {
+    "applicable Third Party": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "third party"
+    ],
+    "friends": [
+     "contacts"
+    ],
+    "contacts": [
+     "other users",
+     "other_users"
+    ],
+    "other users": [
+     "public"
+    ],
+    "other_users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "third-party ad network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "social networking": [
+     "service functionality"
+    ],
+    "service-improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3806,
+  "completion_tokens": 1235,
+  "thinking_tokens": 0,
+  "seconds": 12.091314315795898,
+  "failures": 0
+ },
+ "seconds": 12.2
+}

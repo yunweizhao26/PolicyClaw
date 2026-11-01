@@ -1,0 +1,213 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "app interaction details": "app interaction data",
+    "app usage data": "app interaction data",
+    "data": "collected data",
+    "electronic network activity": "browsing activity",
+    "facial data": "face data",
+    "facial geometry": "face geometry",
+    "images": "image",
+    "imprecise location": "approximate geolocation",
+    "interaction data": "app interaction data",
+    "internet and network activity information": "browsing activity",
+    "mobile identifier": "device identifier",
+    "mobile identifiers": "device identifier",
+    "multimedia": "audio visual",
+    "personal data processing information": "information about the processing of personal data",
+    "personal information": "personal data",
+    "protected classifications": "protected characteristics",
+    "source datasets": "datasets",
+    "subscription information": "subscription details",
+    "unspecified data": "collected data",
+    "user identifiers": "user identifier",
+    "user photos": "photos",
+    "user photos and videos": "user media"
+   },
+   "parents": {
+    "aggregate interaction data": [
+     "app usage information"
+    ],
+    "app behavioral patterns": [
+     "app interaction data"
+    ],
+    "app interaction data": [
+     "app usage"
+    ],
+    "app usage": [
+     "app usage information"
+    ],
+    "approximate geolocation": [
+     "location"
+    ],
+    "camera": [
+     "device information"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "communication content": [
+     "personal data"
+    ],
+    "data included in these datasets": [
+     "datasets"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "device information": [
+     "network and device data"
+    ],
+    "diagnostic information": [
+     "personal data"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "face data": [
+     "biometric data"
+    ],
+    "face geometry": [
+     "face data"
+    ],
+    "gender": [
+     "personal characteristics",
+     "protected characteristics"
+    ],
+    "generated media": [
+     "audio visual"
+    ],
+    "image metadata": [
+     "metadata"
+    ],
+    "images in gallery": [
+     "photo library"
+    ],
+    "image": [
+     "audio visual"
+    ],
+    "items in shopping cart": [
+     "commercial information"
+    ],
+    "metadata": [
+     "personal data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "photos": [
+     "image"
+    ],
+    "profile inferences": [
+     "inferences"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "session data": [
+     "app usage information"
+    ],
+    "subscription details": [
+     "commercial information"
+    ],
+    "survey response": [
+     "personal data"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "user uploaded media": [
+     "user media"
+    ],
+    "videos": [
+     "audio visual"
+    ],
+    "whether you used the purchase": [
+     "purchase history"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising and marketing partners": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "cloud storage provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service improvement": "improve_service",
+    "service operation or improvement": "service operation and improvement",
+    "user authentication or identification": "security"
+   },
+   "parents": {
+    "AI development": [
+     "development",
+     "improve_service"
+    ],
+    "advertising analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "marketing personalization": [
+     "marketing",
+     "personalization"
+    ],
+    "service quality and bug fixing": [
+     "service quality"
+    ],
+    "troubleshooting": [
+     "service quality and bug fixing"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "improve_service": [
+     "service operation and improvement"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "provide_service": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3164,
+  "completion_tokens": 946,
+  "thinking_tokens": 0,
+  "seconds": 13.58597183227539,
+  "failures": 0
+ },
+ "seconds": 13.8
+}

@@ -1,0 +1,239 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "commercial_information": "commercial information",
+    "identifying_information": "identifiers",
+    "location": "geolocation",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "precise location": "precise geolocation"
+   },
+   "parents": {
+    "account name": [
+     "identifiers"
+    ],
+    "ad performance data": [
+     "usage data"
+    ],
+    "address": [
+     "contact info"
+    ],
+    "alias": [
+     "name"
+    ],
+    "billing information": [
+     "commercial information"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing_history": [
+     "browsing activity"
+    ],
+    "business contact information": [
+     "contact info"
+    ],
+    "coarse geolocation": [
+     "geolocation"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "cookies": [
+     "identifiers"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device location": [
+     "geolocation"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "file names and types": [
+     "device information"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "government ID card": [
+     "identifiers"
+    ],
+    "inferences about personal aspects": [
+     "derived_data"
+    ],
+    "job title": [
+     "professional and employment information"
+    ],
+    "legal name": [
+     "name"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "occupation": [
+     "professional and employment information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "organization name": [
+     "name"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "photos and videos": [
+     "user content"
+    ],
+    "postal address": [
+     "address"
+    ],
+    "precise geolocation": [
+     "geolocation"
+    ],
+    "profile picture": [
+     "photos and videos"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "service performance data": [
+     "usage data"
+    ],
+    "software version": [
+     "device information"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "unique personal identifier": [
+     "identifiers"
+    ],
+    "usage frequency": [
+     "usage data"
+    ],
+    "user-generated content": [
+     "user-provided content"
+    ],
+    "user content": [
+     "user-provided content"
+    ],
+    "user preferences": [
+     "personal data"
+    ],
+    "user-provided content": [
+     "personal data"
+    ],
+    "website usage data": [
+     "usage data"
+    ],
+    "browsing activity": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service_provider": "service provider",
+    "third_party": "third party"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "advertising_network": [
+     "service provider",
+     "third party"
+    ],
+    "analytics partner": [
+     "service provider",
+     "third party"
+    ],
+    "marketing_partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Advertising Partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial_use": "commercial",
+    "legal_compliance": "legal compliance",
+    "service_provision": "service provision",
+    "unspecified": "fulfill purpose of collection"
+   },
+   "parents": {
+    "advertising customization": [
+     "advertising"
+    ],
+    "targeted_advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "communications"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "enforce legal terms": [
+     "legal compliance"
+    ],
+    "legal defense": [
+     "legal compliance"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "research and development": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2786,
+  "completion_tokens": 1006,
+  "thinking_tokens": 0,
+  "seconds": 15.223867177963257,
+  "failures": 0
+ },
+ "seconds": 15.3
+}

@@ -1,0 +1,248 @@
+{
+ "cleaned_sha256": "apple-048",
+ "text_sha256": "c65e8fd2ed19fc63d63d426f3890ac0db103ee6dd7f8e6bcade5b5010d22980b",
+ "site_id": "apple-048",
+ "sections": 17,
+ "rules": 337,
+ "report": {
+  "sections": 17,
+  "raw_rules": 318,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "processes",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "MyFitnessPal, Inc., (“MyFitnessPal,” “we,” bodily “our,” or “us”)"
+     },
+     "conditions": [
+      "when you use our Services (use of our Site, Mobile App, and other interactions you may have with us)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processes",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "MyFitnessPal, Inc., (“MyFitnessPal,” “we,” bodily “our,” or “us”)"
+    ],
+    "section": "apple-048#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "aggregate",
+      "verb": "aggregate"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "organisation",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "so that it will no longer be considered personal information under applicable law",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-048#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "de-identify",
+      "verb": "de-identify"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "so that it will no longer be considered personal information under applicable law",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-048#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "anonymize",
+      "verb": "anonymize"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "so that it will no longer be considered personal information under applicable law",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-048#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may transfer",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "other company",
+      "name": "other company"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transfer",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If we or our affiliates are or may be acquired by, merged with, or invested in by another company, or if any of our assets are or may be transferred to another company, whether as part of a bankruptcy or insolvency proceeding or otherwise"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "in accordance with applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may transfer"
+    ],
+    "section": "apple-048#s6"
+   }
+  ],
+  "residual_quotes": 33,
+  "quotes": 129,
+  "completeness": {
+   "gaps": 504,
+   "gap_words": 4172
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 13,
+  "translated_quotes": 129,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 33,
+  "cached": 0,
+  "prompt_tokens": 66527,
+  "completion_tokens": 62542,
+  "thinking_tokens": 0,
+  "seconds": 647.7892603874207,
+  "failures": 0
+ },
+ "seconds": 649.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

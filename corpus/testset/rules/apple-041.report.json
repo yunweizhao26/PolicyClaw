@@ -1,0 +1,475 @@
+{
+ "cleaned_sha256": "apple-041",
+ "text_sha256": "c8b5baca2faa5186769c6c6eef9764926860ecb206dfb8e20bdd21dac7463cc7",
+ "site_id": "apple-041",
+ "sections": 26,
+ "rules": 239,
+ "report": {
+  "sections": 26,
+  "raw_rules": 200,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "For us to process some requests, we will need to verify your identity to confirm that the request came from you"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may contact",
+     "purpose": [
+      {
+       "text": "to verify your request",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can complain",
+     "actor": {
+      "text": "you",
+      "name": "user"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "any supervisory authority or other public body with responsibility for enforcing privacy laws, as listed in the section entitled \"Our Relationship with You\" section",
+      "name": "supervisory authority"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "complain",
+      "verb": "complain"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you feel that we have not addressed your questions or concerns adequately, or you believe that your data protection or privacy rights have been infringed"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as listed in the section entitled \"Our Relationship with You\" section",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Market",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Market",
+      "verb": "market"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "provided your marketing and communication preferences in your Account allow us to do this"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "conduct",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "conduct",
+      "verb": "conduct"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "conduct market research",
+       "name": "research"
+      }
+     ],
+     "conditions": [
+      "provided your marketing and communication preferences in your Account allow us to do this"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Exercise",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Exercise",
+      "verb": "exercise"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Exercise legal rights",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "defend",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "defend",
+      "verb": "defend"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "defend claims",
+       "name": "legal compliance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s20"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "For California, Tennessee, Minnesota, Maryland, Indiana, Kentucky and, Rhode Island residents",
+      "to the extent required by California, Tennessee, Minnesota, Maryland, Indiana, Kentucky and, Rhode Island laws"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "limit sharing",
+     "purpose": [],
+     "recipient": {
+      "name": "affiliate",
+      "text": "affiliates"
+     },
+     "references": [
+      {
+       "text": "California, Tennessee, Minnesota, Maryland, Indiana, Kentucky and, Rhode Island laws",
+       "name": "California, Tennessee, Minnesota, Maryland, Indiana, Kentucky and, Rhode Island laws",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s21"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in \"targeted advertising\"",
+      "verb": "engage"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "If you are a resident of Virginia"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [
+      "right to opt-out of such sales or targeted advertising"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may engage in",
+     "purpose": [
+      {
+       "text": "\"targeted advertising\"",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Virginia law",
+       "name": "Virginia law",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "actor": {
+      "text": "Usage Information",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "Third Party Partners",
+      "name": "third-party partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "for business or commercial purposes",
+       "name": "business or commercial"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-041#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "The following Consumer Privacy Notice applies to you if you are an individual who resides in the United States and uses any of Remitly’s Services for your own personal, family, or household purposes.",
+      "when you:\ngive us your contact information"
+     ],
+     "data": {
+      "name": "contact details",
+      "text": "contact information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\ngive us your contact information"
+    ],
+    "section": "apple-041#s25"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "The following Consumer Privacy Notice applies to you if you are an individual who resides in the United States and uses any of Remitly’s Services for your own personal, family, or household purposes.",
+      "when you:\nuse Remitly to send or receive funds"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you:\nuse Remitly to send or receive funds"
+    ],
+    "section": "apple-041#s25"
+   }
+  ],
+  "residual_quotes": 28,
+  "quotes": 91,
+  "completeness": {
+   "gaps": 392,
+   "gap_words": 3758
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 91,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 46,
+  "cached": 0,
+  "prompt_tokens": 78106,
+  "completion_tokens": 42331,
+  "thinking_tokens": 190,
+  "seconds": 842.8761537075043,
+  "failures": 0
+ },
+ "seconds": 844.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "cleaned_sha256": "web-190",
+ "text_sha256": "a6695fa6cf4d129e91e4d00e6c1810fe35e1cc16d8bb27e5079258133fb775e7",
+ "site_id": "web-190",
+ "sections": 16,
+ "rules": 209,
+ "report": {
+  "sections": 16,
+  "raw_rules": 146,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Processing",
+     "actor": {
+      "text": "Sectigo",
+      "name": "Sectigo"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "To process your application",
+       "name": "applicant evaluation"
+      },
+      {
+       "text": "to identify your capabilities and qualifications to determine your suitability for a position with Sectigo",
+       "name": "applicant evaluation"
+      },
+      {
+       "text": "to conduct reference checks",
+       "name": "background checks"
+      },
+      {
+       "text": "to respond to your inquiries and communicate with you about your application",
+       "name": "customer support"
+      },
+      {
+       "text": "also to conduct background checks, as allowed by local law",
+       "name": "background checks"
+      },
+      {
+       "text": "for employment-related purposes",
+       "name": "hr"
+      }
+     ],
+     "conditions": [
+      "When you apply for a job at Sectigo",
+      "If we offer you a position, and you accept",
+      "If you become an employee",
+      "Four (4) years following the conclusion of the hiring process for the position for which you apply"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "When You Apply for a Job",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "employee privacy notice",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-190#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "safeguard",
+     "actor": {
+      "text": "Sectigo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information it collects and stores",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "safeguard",
+      "verb": "safeguard"
+     },
+     "operation": "security",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-190#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "protects",
+     "actor": {
+      "text": "Sectigo",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "protects",
+      "verb": "protect"
+     },
+     "operation": "security",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-190#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "would like to collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "for any unrelated purposes that are not disclosed in this Privacy Policy",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [
+      "using the opt-out link",
+      "by emailing [email protected]",
+      "by emailing [email protected]"
+     ],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "web-190#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "would like to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for any unrelated purposes that are not disclosed in this Privacy Policy",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [
+      "using the opt-out link",
+      "by emailing [email protected]",
+      "by emailing [email protected]"
+     ],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "web-190#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "would like to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "user information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "for any unrelated purposes that are not disclosed in this Privacy Policy",
+       "name": "unspecified"
+      }
+     ],
+     "conditions": [
+      "with your consent"
+     ],
+     "exceptions": [
+      "using the opt-out link",
+      "by emailing [email protected]",
+      "by emailing [email protected]"
+     ],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "web-190#s11"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 81,
+  "completeness": {
+   "gaps": 336,
+   "gap_words": 3685
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 81,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 51823,
+  "completion_tokens": 29521,
+  "thinking_tokens": 0,
+  "seconds": 234.6533534526825,
+  "failures": 0
+ },
+ "seconds": 235.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

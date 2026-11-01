@@ -1,0 +1,218 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "timezone": "time zone"
+   },
+   "parents": {
+    "account details": [
+     "account information"
+    ],
+    "account password": [
+     "account information"
+    ],
+    "account username": [
+     "account information",
+     "identifiers"
+    ],
+    "credit card expiration date": [
+     "payment information"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "credit card type": [
+     "payment information"
+    ],
+    "billing address": [
+     "payment information"
+    ],
+    "email address": [
+     "user contact information"
+    ],
+    "phone number": [
+     "user contact information"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "email marketing": [
+     "email message"
+    ],
+    "service emails": [
+     "email message"
+    ],
+    "employer": [
+     "employer (and related company details)"
+    ],
+    "location of business": [
+     "employer (and related company details)"
+    ],
+    "imprecise location": [
+     "location"
+    ],
+    "job title": [
+     "employment status"
+    ],
+    "employment seniority": [
+     "employment status"
+    ],
+    "social media avatars": [
+     "social media activity details"
+    ],
+    "social media usernames": [
+     "identifiers",
+     "social media activity details"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "hardware-based device identifier": [
+     "identifiers"
+    ],
+    "cookies": [
+     "data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "log run-time data": [
+     "usage data"
+    ],
+    "device hardware model": [
+     "data"
+    ],
+    "operating system": [
+     "data"
+    ],
+    "browser type": [
+     "data"
+    ],
+    "mobile network carrier": [
+     "data"
+    ],
+    "customer records": [
+     "customer data"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "user contact information": [
+     "personal data"
+    ],
+    "information requested": [
+     "information"
+    ],
+    "unspecified personal data": [
+     "personal data"
+    ],
+    "records of user requests": [
+     "customer data"
+    ],
+    "identity": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "public authorities": "government agency"
+   },
+   "parents": {
+    "agent": [
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "financial service provider": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "service provider",
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "security": "fraud prevention and security",
+    "service_improvement": "service improvement",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "account management": [
+     "operations",
+     "user account management"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "dispute resolution": [
+     "compliance"
+    ],
+    "fraud_prevention": [
+     "fraud prevention and security"
+    ],
+    "internal operations": [
+     "operations"
+    ],
+    "legal defense": [
+     "compliance"
+    ],
+    "profiling": [
+     "analytics"
+    ],
+    "system maintenance": [
+     "service provision",
+     "website operation"
+    ],
+    "tracking": [
+     "analytics"
+    ],
+    "website operation": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2650,
+  "completion_tokens": 737,
+  "thinking_tokens": 0,
+  "seconds": 22.581413984298706,
+  "failures": 0
+ },
+ "seconds": 22.7
+}

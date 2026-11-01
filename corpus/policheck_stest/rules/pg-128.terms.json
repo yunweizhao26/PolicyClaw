@@ -1,0 +1,243 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "financial information": "financial info",
+    "information": "data",
+    "log and event data": "event data",
+    "messages": "message",
+    "personal information": "personal data",
+    "user information": "user data",
+    "username": "user name"
+   },
+   "parents": {
+    "account information": [
+     "user data"
+    ],
+    "advertising data": [
+     "data"
+    ],
+    "anonymized data": [
+     "data"
+    ],
+    "audio": [
+     "content"
+    ],
+    "billing details": [
+     "payment details"
+    ],
+    "browsing behavior": [
+     "user activity"
+    ],
+    "contact info": [
+     "personal identifier"
+    ],
+    "cookies and similar technologies data": [
+     "data"
+    ],
+    "current activity": [
+     "user activity"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device details": [
+     "data"
+    ],
+    "direct messages": [
+     "message"
+    ],
+    "files": [
+     "content"
+    ],
+    "financial info": [
+     "personal data"
+    ],
+    "government-issued id": [
+     "identifying information"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "images": [
+     "content"
+    ],
+    "inferred data": [
+     "data"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "information you provide": [
+     "data"
+    ],
+    "location": [
+     "data"
+    ],
+    "event data": [
+     "user activity"
+    ],
+    "message": [
+     "content"
+    ],
+    "name": [
+     "personal identifier"
+    ],
+    "password": [
+     "account information"
+    ],
+    "payment details": [
+     "financial info"
+    ],
+    "performance cookies": [
+     "cookies and similar technologies data"
+    ],
+    "personal identifier": [
+     "identifying information"
+    ],
+    "personal data": [
+     "information about you"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "platform data": [
+     "data"
+    ],
+    "purchases": [
+     "financial info"
+    ],
+    "referral information": [
+     "data"
+    ],
+    "reported content": [
+     "user content"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "strictly necessary cookies": [
+     "cookies and similar technologies data"
+    ],
+    "survey response": [
+     "information you provide"
+    ],
+    "user activity": [
+     "user data"
+    ],
+    "user content": [
+     "content",
+     "information you provide"
+    ],
+    "user inquiry": [
+     "information you provide"
+    ],
+    "user name": [
+     "personal identifier"
+    ],
+    "voice recording": [
+     "audio"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "other users": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social media platform": "social media"
+   },
+   "parents": {
+    "third party": [
+     "other sources"
+    ],
+    "user": [
+     "other sources"
+    ],
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "third party": [
+     "anyone"
+    ],
+    "user": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics and improvement": "analytics",
+    "legal_requirement": "compliance"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "purchases and transactions": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "service provision"
+    ],
+    "provide our services": [
+     "service provision"
+    ],
+    "service optimization": [
+     "analytics"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "fraud_detection_security": [
+     "security"
+    ],
+    "security": [
+     "protection",
+     "security and enforcement"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2619,
+  "completion_tokens": 863,
+  "thinking_tokens": 0,
+  "seconds": 22.527843475341797,
+  "failures": 0
+ },
+ "seconds": 22.6
+}

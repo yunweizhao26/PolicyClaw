@@ -1,0 +1,243 @@
+{
+ "cleaned_sha256": "web-178",
+ "text_sha256": "4be994cdd78f6cc16baff1fed0cd934307f56e3dae29d14b016a0bcf6b43c3a5",
+ "site_id": "web-178",
+ "sections": 12,
+ "rules": 136,
+ "report": {
+  "sections": 12,
+  "raw_rules": 122,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "it",
+      "name": "personal info"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the company you work for",
+      "name": "user employer"
+     },
+     "action": {
+      "text": "obtain",
+      "verb": "obtain"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "in connection with: B2B relationships",
+       "name": "b2b business"
+      }
+     ],
+     "conditions": [
+      "like where you are a contact for services being provided to us"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in connection with: B2B relationships"
+    ],
+    "section": "web-178#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "could be transferred",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Info",
+      "name": "personal info"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "to the US, UK, or other locations outside your country of residence"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to the US, UK, or other locations outside your country of residence"
+    ],
+    "section": "web-178#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "could be stored",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Info",
+      "name": "personal info"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stored",
+      "verb": "store"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "in the US, UK, or other locations outside your country of residence"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "could be stored"
+    ],
+    "section": "web-178#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "service providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to support our recruitment efforts and B2B relationships",
+       "name": "services"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-178#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also utilize",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "artificial intelligence tool service provider",
+      "name": "artificial intelligence tool service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "utilize",
+      "verb": "utilize"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for real-time transcription and note-taking during interviews, so that our interviewers can give you their full attention",
+       "name": "services"
+      }
+     ],
+     "conditions": [
+      "With your consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-178#s5"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 133,
+   "gap_words": 1386
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 38,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 23,
+  "cached": 0,
+  "prompt_tokens": 36208,
+  "completion_tokens": 24233,
+  "thinking_tokens": 0,
+  "seconds": 200.28398299217224,
+  "failures": 0
+ },
+ "seconds": 201.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "apple-097",
+ "text_sha256": "fa1a3f8981708af665284aa7496d45b87d40320ae83e86a95961d1ece64f9dbc",
+ "site_id": "apple-097",
+ "sections": 28,
+ "rules": 293,
+ "report": {
+  "sections": 28,
+  "raw_rules": 239,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "You may authorize a natural person or a business entity to act on your behalf to make a request to know or to delete your personal information",
+      "we must verify that the agent is authorized, by you, to make the request on your behalf",
+      "We must verify that you are the person shown in the request and we must verify your identity as our customer"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "unspecified",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-097#s27"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 71,
+  "completeness": {
+   "gaps": 213,
+   "gap_words": 2685
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 12,
+  "translated_quotes": 71,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 76443,
+  "completion_tokens": 45051,
+  "thinking_tokens": 0,
+  "seconds": 735.6134042739868,
+  "failures": 0
+ },
+ "seconds": 737.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

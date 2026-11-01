@@ -1,0 +1,341 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "email",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "photograph": "photo",
+    "preferences": "preference",
+    "references": "reference",
+    "video recording": "video"
+   },
+   "parents": {
+    "Personal Information": [
+     "data",
+     "information"
+    ],
+    "account credentials": [
+     "credentials"
+    ],
+    "account information": [
+     "Personal Information",
+     "information"
+    ],
+    "address": [
+     "contact information"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "audio recordings": [
+     "data"
+    ],
+    "billing name": [
+     "name"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "call log": [
+     "data"
+    ],
+    "chat transcript": [
+     "communication content"
+    ],
+    "communication content": [
+     "data"
+    ],
+    "company name": [
+     "contact information",
+     "name"
+    ],
+    "contact information": [
+     "Personal Information",
+     "account information"
+    ],
+    "cookie": [
+     "device identifier",
+     "identifier"
+    ],
+    "credentials": [
+     "account information"
+    ],
+    "device details": [
+     "data"
+    ],
+    "device identifier": [
+     "identifier"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email": [
+     "contact information"
+    ],
+    "generated text": [
+     "communication content"
+    ],
+    "hardware identifier": [
+     "device identifier",
+     "identifier"
+    ],
+    "hardware specification": [
+     "device details"
+    ],
+    "industry": [
+     "user characteristics"
+    ],
+    "interaction": [
+     "browsing and interaction data"
+    ],
+    "ip address": [
+     "device identifier",
+     "identifier",
+     "network details"
+    ],
+    "job application details": [
+     "Personal Information"
+    ],
+    "message": [
+     "communication content"
+    ],
+    "name": [
+     "Personal Information",
+     "account information",
+     "contact information"
+    ],
+    "network details": [
+     "device details"
+    ],
+    "network type": [
+     "network details"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "pages visited": [
+     "browsing and interaction data",
+     "browsing history"
+    ],
+    "password": [
+     "account credentials",
+     "credentials"
+    ],
+    "payment card details": [
+     "account information"
+    ],
+    "payment card number": [
+     "payment card details"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "photo": [
+     "user-generated content"
+    ],
+    "postal address": [
+     "address",
+     "contact information"
+    ],
+    "postal code": [
+     "address",
+     "postal address"
+    ],
+    "preference": [
+     "account information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "purchase history": [
+     "account information",
+     "data"
+    ],
+    "reference": [
+     "job application details"
+    ],
+    "resume": [
+     "job application details"
+    ],
+    "sensitive personal information": [
+     "Personal Information"
+    ],
+    "session data": [
+     "browsing and interaction data"
+    ],
+    "user characteristics": [
+     "Personal Information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "user-generated content": [
+     "data"
+    ],
+    "video": [
+     "communication content"
+    ],
+    "voice audio data": [
+     "audio recordings"
+    ],
+    "voice message transcript": [
+     "communication content"
+    ],
+    "voice recording": [
+     "audio recordings"
+    ],
+    "wi-fi status": [
+     "network details"
+    ],
+    "work history": [
+     "job application details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "affiliates": "Agora affiliates and subsidiaries",
+    "client-business": "Enterprise Customer",
+    "customer": "Enterprise Customer",
+    "unspecified third party": "third party"
+   },
+   "parents": {
+    "acquirer": [
+     "acquirer, successor, or assignee"
+    ],
+    "acquirer, successor, or assignee": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "large language model providers, speech recognition and synthesis providers, cloud storage platforms, and telephony infrastructure providers": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "law enforcement": [
+     "law enforcement or other governmental agencies"
+    ],
+    "law enforcement or other governmental agencies": [
+     "third party"
+    ],
+    "event organizer": [
+     "third party"
+    ],
+    "adequate protection countries": [
+     "other countries or regions"
+    ],
+    "non-adequate protection regions": [
+     "other countries or regions"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "user": [
+     "public"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal-compliance": "legal compliance",
+    "payment-processing": "payment processing",
+    "service-improvement": "service improvement",
+    "service-provision": "service provision",
+    "targeted-advertising": "targeted advertising"
+   },
+   "parents": {
+    "account-management": [
+     "service provision"
+    ],
+    "administrative": [
+     "communication"
+    ],
+    "customer support": [
+     "communication",
+     "service operations and request fulfillment",
+     "service provision"
+    ],
+    "data processing and storage": [
+     "service operations and request fulfillment"
+    ],
+    "event organization": [
+     "service provision"
+    ],
+    "financial-record-keeping": [
+     "legal compliance"
+    ],
+    "fraud-prevention": [
+     "security"
+    ],
+    "job application management": [
+     "recruitment"
+    ],
+    "payment processing": [
+     "service operations and request fulfillment"
+    ],
+    "personalization": [
+     "service customization"
+    ],
+    "product updates": [
+     "communication"
+    ],
+    "quality-assurance": [
+     "service improvement"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "service customization": [
+     "service provision"
+    ],
+    "service-delivery": [
+     "service provision"
+    ],
+    "service-optimization": [
+     "service improvement"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2805,
+  "completion_tokens": 1401,
+  "thinking_tokens": 0,
+  "seconds": 13.309849977493286,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

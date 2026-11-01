@@ -1,0 +1,62 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "name": [
+     "basic information",
+     "contact information",
+     "personal data"
+    ],
+    "basic information": [
+     "personal data"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "email content": [
+     "information transmitted to us"
+    ],
+    "SMS content": [
+     "information transmitted to us"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "data processor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "communication": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1102,
+  "completion_tokens": 193,
+  "thinking_tokens": 0,
+  "seconds": 8.058527708053589,
+  "failures": 0
+ },
+ "seconds": 8.1
+}

@@ -1,0 +1,104 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "browsing and interaction data": [
+     "data"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data",
+     "data"
+    ],
+    "business data": [
+     "data"
+    ],
+    "device identifiers": [
+     "data"
+    ],
+    "employment history": [
+     "data",
+     "personal data"
+    ],
+    "information provided voluntarily": [
+     "data"
+    ],
+    "ip address": [
+     "data",
+     "device identifiers"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "resumes": [
+     "data",
+     "employment history",
+     "personal data"
+    ],
+    "sensitive data": [
+     "data",
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "cloud-based service providers": [
+     "service providers",
+     "third party"
+    ],
+    "corporate acquirers": [
+     "third party"
+    ],
+    "data analysis partners": [
+     "third party"
+    ],
+    "event organizers": [
+     "third party"
+    ],
+    "fraud prevention partners": [
+     "third party"
+    ],
+    "fulfillment service providers": [
+     "service providers",
+     "third party"
+    ],
+    "recruiters": [
+     "third party"
+    ],
+    "service providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "fraud detection and prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1353,
+  "completion_tokens": 407,
+  "thinking_tokens": 0,
+  "seconds": 8.212007761001587,
+  "failures": 0
+ },
+ "seconds": 8.3
+}

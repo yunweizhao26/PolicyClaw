@@ -1,0 +1,338 @@
+{
+ "cleaned_sha256": "apple-002",
+ "text_sha256": "669a7e9c6e6a2a9427ff465ef0ea265c89cb97eb672fa9a0f166cbf84516828c",
+ "site_id": "apple-002",
+ "sections": 16,
+ "rules": 181,
+ "report": {
+  "sections": 16,
+  "raw_rules": 173,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Unless otherwise stated above, if you have a DoorDash or Caviar account",
+      "through your account"
+     ],
+     "exceptions": [
+      "if we cannot verify your identity or if an exemption or exception applies"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-002#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "DoorDash",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you have a DoorDash account",
+      "directly through your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-002#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "DoorDash",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you have a DoorDash account",
+      "directly through your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-002#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "DoorDash",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correction",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you have a DoorDash account",
+      "directly through your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-002#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "retain",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to provide our Services to you",
+       "name": "provide service"
+      },
+      {
+       "text": "engage in the uses described in this Policy",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "only for as long as required to provide our Services to you and engage in the uses described in this Policy, unless a different retention period is required by applicable law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Policy",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "only for as long as required to provide our Services to you and engage in the uses described in this Policy, unless a different retention period is required by applicable law"
+    ],
+    "section": "apple-002#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be processed",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "The Personal Information processed in connection with this Policy",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "on systems and servers and accessed by persons and parties, located outside of the jurisdiction where you live (including, without limitation, outside of Australia, Canada (including outside of the province in which you live), New Zealand and the United States), including storing, accessing, and processing the Personal Information in the United States and other global locations whose data protection laws may differ from those where you live"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be processed"
+    ],
+    "section": "apple-002#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be processed",
+     "actor": {
+      "text": "our third-party service providers",
+      "name": "service provider"
+     },
+     "data": {
+      "text": "The Personal Information processed in connection with this Policy",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "on systems and servers and accessed by persons and parties, located outside of the jurisdiction where you live (including, without limitation, outside of Australia, Canada (including outside of the province in which you live), New Zealand and the United States), including storing, accessing, and processing the Personal Information in the United States and other global locations whose data protection laws may differ from those where you live"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be processed"
+    ],
+    "section": "apple-002#s15"
+   }
+  ],
+  "residual_quotes": 33,
+  "quotes": 83,
+  "completeness": {
+   "gaps": 257,
+   "gap_words": 3184
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 83,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 54900,
+  "completion_tokens": 37412,
+  "thinking_tokens": 0,
+  "seconds": 672.6562910079956,
+  "failures": 0
+ },
+ "seconds": 673.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

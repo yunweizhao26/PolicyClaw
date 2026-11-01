@@ -1,0 +1,291 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "de-identified information": "de-identified data",
+    "information": "data",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "EU, UK and Swiss Personal Information": [
+     "personal data"
+    ],
+    "SessionID": [
+     "identifiers"
+    ],
+    "aggregated usage data": [
+     "data"
+    ],
+    "app download status": [
+     "mobile device information"
+    ],
+    "app usage activity": [
+     "service usage information"
+    ],
+    "app usage frequency": [
+     "service usage information"
+    ],
+    "browser type": [
+     "system information"
+    ],
+    "browsing activity metadata": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "service usage information"
+    ],
+    "child personal data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "de-identified data": [
+     "data"
+    ],
+    "derived data": [
+     "data"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "device model": [
+     "mobile device information"
+    ],
+    "device type": [
+     "system information"
+    ],
+    "download source": [
+     "mobile device information"
+    ],
+    "email address": [
+     "identifiers",
+     "personal data"
+    ],
+    "email tracking data": [
+     "performance data"
+    ],
+    "first app open timestamp": [
+     "service usage information"
+    ],
+    "in-app events": [
+     "app usage activity"
+    ],
+    "ip address": [
+     "identifiers"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "login credentials": [
+     "personal data"
+    ],
+    "mobile device information": [
+     "system information"
+    ],
+    "mobile network provider": [
+     "mobile device information"
+    ],
+    "name": [
+     "identifiers",
+     "personal data"
+    ],
+    "os": [
+     "system information"
+    ],
+    "os type": [
+     "os"
+    ],
+    "os version": [
+     "os"
+    ],
+    "page views": [
+     "browsing history"
+    ],
+    "password": [
+     "login credentials"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "performance data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "phone number": [
+     "identifiers",
+     "personal data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "preferences": [
+     "derived data"
+    ],
+    "purchase history": [
+     "service usage information"
+    ],
+    "referring url": [
+     "browsing history"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "service usage information": [
+     "data"
+    ],
+    "system information": [
+     "data"
+    ],
+    "system language": [
+     "system information"
+    ],
+    "user identifier": [
+     "identifiers"
+    ],
+    "user profile": [
+     "personal data"
+    ],
+    "user state changes": [
+     "app usage activity"
+    ],
+    "visit duration": [
+     "browsing history"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business transferee": "acquirer",
+    "public authorities": "authority",
+    "public authority": "authority"
+   },
+   "parents": {
+    "acquirer": [
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate": [
+     "third party"
+    ],
+    "auditor": [
+     "third party"
+    ],
+    "authority": [
+     "third party"
+    ],
+    "bank": [
+     "third party"
+    ],
+    "external (sub-)processors": [
+     "service provider",
+     "third party"
+    ],
+    "insurance company": [
+     "third party"
+    ],
+    "legal counsel": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party agents": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Mixpanel"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "third-party agents": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "To comply with laws or to respond to lawful requests and legal process",
+    "service-provision": "service provision",
+    "unspecified": "for the purposes described in this Privacy Statement"
+   },
+   "parents": {
+    "authentication": [
+     "account management"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "service communication": [
+     "communications"
+    ],
+    "enforce agreements": [
+     "To protect the rights and property of Mixpanel, our agents, customers, and others, including to enforce our agreements and policies"
+    ],
+    "debugging": [
+     "service improvement"
+    ],
+    "performance optimization": [
+     "service performance"
+    ],
+    "service performance": [
+     "service operation"
+    ],
+    "website functionality": [
+     "service operation"
+    ],
+    "service-development": [
+     "service improvement"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "for payment processing, fraud prevention, or other related financial services": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service provision": [
+     "as needed to provide our products and operate our business"
+    ],
+    "business operations": [
+     "as needed to provide our products and operate our business"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3136,
+  "completion_tokens": 1180,
+  "thinking_tokens": 0,
+  "seconds": 12.421816349029541,
+  "failures": 0
+ },
+ "seconds": 12.5
+}

@@ -1,0 +1,324 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "biographical information": "biographical data",
+    "biography": "biographical data",
+    "contact information": "contact details",
+    "email_address": "email address",
+    "other information": "other data",
+    "password": "account passwords",
+    "personal information": "personal data",
+    "phone number hash": "hashed phone number",
+    "phone numbers": "phone number",
+    "phone_number": "phone number",
+    "profile picture": "profile photo",
+    "profile_photo": "profile photo",
+    "recordings": "recording",
+    "short recording of conversation": "clips",
+    "telephone number hash": "hashed phone number",
+    "unspecified-data": "information",
+    "user image": "profile photo",
+    "user_profile_information": "profile information",
+    "video clip": "clips",
+    "voice samples": "voice sample"
+   },
+   "parents": {
+    "account passwords": [
+     "account data"
+    ],
+    "contact email addresses": [
+     "contact details",
+     "email address"
+    ],
+    "contact names": [
+     "contact details",
+     "name"
+    ],
+    "contact list": [
+     "contact details"
+    ],
+    "contacts": [
+     "contact details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "hashed phone number": [
+     "phone number"
+    ],
+    "clips": [
+     "recording"
+    ],
+    "voice recording": [
+     "recording"
+    ],
+    "replays": [
+     "recording"
+    ],
+    "transcripts": [
+     "recording"
+    ],
+    "chat content": [
+     "communications content"
+    ],
+    "conversation content": [
+     "communications content"
+    ],
+    "message content": [
+     "communications content"
+    ],
+    "voice message content": [
+     "communications content"
+    ],
+    "text messages": [
+     "messages"
+    ],
+    "direct messages": [
+     "messages"
+    ],
+    "chat logs": [
+     "messages"
+    ],
+    "chat conversation": [
+     "conversations"
+    ],
+    "server logs": [
+     "log data"
+    ],
+    "audio comment": [
+     "audio data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "purchase_history": [
+     "financial information"
+    ],
+    "date of birth": [
+     "age"
+    ],
+    "viewed profiles": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "usage and activity data"
+    ],
+    "browsing and interaction data": [
+     "usage and activity data"
+    ],
+    "activity details": [
+     "usage and activity data"
+    ],
+    "usage information": [
+     "usage and activity data"
+    ],
+    "other activity": [
+     "usage and activity data"
+    ],
+    "links in profile": [
+     "profile information"
+    ],
+    "biographical data": [
+     "profile information"
+    ],
+    "profile photo": [
+     "profile information"
+    ],
+    "social media profile": [
+     "social media information"
+    ],
+    "social media information": [
+     "profile information"
+    ],
+    "identity verification codes": [
+     "verification information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "regulatory_authority": "government-agency",
+    "service_provider": "service provider",
+    "third_party_entities": "third_party",
+    "users": "other users"
+   },
+   "parents": {
+    "friends": [
+     "other users"
+    ],
+    "subscribed users": [
+     "other users"
+    ],
+    "other users": [
+     "user"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "government-agency": [
+     "government agency"
+    ],
+    "marketing service": [
+     "third_party"
+    ],
+    "social media platform": [
+     "third_party"
+    ],
+    "service provider": [
+     "third_party"
+    ],
+    "third parties": [
+     "third_party"
+    ],
+    "third_party": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "service provider"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "cloud storage service provider": "cloud service provider",
+    "cloud_storage_provider": "cloud service provider",
+    "first party": "Clubhouse",
+    "third_party_service_providers": "service provider",
+    "users": "user"
+   },
+   "parents": {
+    "Zendesk": [
+     "service provider"
+    ],
+    "cloud service provider": [
+     "service provider"
+    ],
+    "third-party verification services": [
+     "service provider"
+    ],
+    "non-anonymous participant": [
+     "user"
+    ],
+    "other users": [
+     "user"
+    ],
+    "user who shared it": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "public authority": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "communications": "communication",
+    "customer-support": "customer support",
+    "customer_support": "customer support",
+    "identity-verification": "identity verification",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "personalization": "personalisation",
+    "social networking": "social network features",
+    "verify identity": "identity verification"
+   },
+   "parents": {
+    "account administration": [
+     "account management"
+    ],
+    "account registration and verification": [
+     "account management",
+     "identity verification"
+    ],
+    "advertising analytics": [
+     "advertising",
+     "analytics"
+    ],
+    "analyze content and personalize products": [
+     "personalisation"
+    ],
+    "content personalization": [
+     "personalisation"
+    ],
+    "personalization of services": [
+     "personalisation"
+    ],
+    "fraud detection and prevention": [
+     "fraud prevention",
+     "fraud_prevention_and_security"
+    ],
+    "fraud prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "fraud_prevention_and_security": [
+     "security"
+    ],
+    "handle rights requests": [
+     "compliance",
+     "customer support"
+    ],
+    "identity verification": [
+     "authentication"
+    ],
+    "improve service": [
+     "maintain and improve service",
+     "service improvement"
+    ],
+    "investigate complaints / combat illegal activity": [
+     "enforce policies"
+    ],
+    "enforce policies": [
+     "legal enforcement"
+    ],
+    "safety and security": [
+     "security"
+    ],
+    "safety": [
+     "safety and security"
+    ],
+    "provide a safe space": [
+     "safety"
+    ],
+    "user account management": [
+     "account management"
+    ],
+    "social or communication sharing": [
+     "social network features"
+    ],
+    "profile administration": [
+     "account management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4346,
+  "completion_tokens": 1589,
+  "thinking_tokens": 0,
+  "seconds": 25.077946424484253,
+  "failures": 0
+ },
+ "seconds": 25.2
+}

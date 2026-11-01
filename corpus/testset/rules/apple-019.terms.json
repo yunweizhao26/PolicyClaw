@@ -1,0 +1,124 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "account details": [
+     "financial data"
+    ],
+    "alias": [
+     "identifiers"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "card security code": [
+     "financial data"
+    ],
+    "credit history": [
+     "financial data"
+    ],
+    "driver's license number": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "financial account number": [
+     "account details",
+     "financial data",
+     "identifiers"
+    ],
+    "income": [
+     "financial data"
+    ],
+    "information that requires special accommodations": [
+     "health information"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "password": [
+     "identifiers"
+    ],
+    "payment card expiration date": [
+     "financial data"
+    ],
+    "payment card number": [
+     "account details",
+     "financial account number",
+     "financial data",
+     "identifiers"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "pin": [
+     "identifiers"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "security questions and answers": [
+     "identifiers"
+    ],
+    "social security number": [
+     "identifiers"
+    ],
+    "user id": [
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service delivery": "provide-service-or-product"
+   },
+   "parents": {
+    "marketing": [
+     "advertising"
+    ],
+    "personalization": [
+     "advertising"
+    ],
+    "provide service": [
+     "provide-service-or-product"
+    ],
+    "service provision": [
+     "provide-service-or-product"
+    ],
+    "provide-service-or-product": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1832,
+  "completion_tokens": 429,
+  "thinking_tokens": 0,
+  "seconds": 10.233661651611328,
+  "failures": 0
+ },
+ "seconds": 10.4
+}

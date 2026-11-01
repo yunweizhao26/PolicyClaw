@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "pg-030",
+ "text_sha256": "10d8b98cd4e502c261da4e125226bb445e4103f6f73dcee7ad8cd65de592db5a",
+ "site_id": "pg-030",
+ "sections": 2,
+ "rules": 60,
+ "report": {
+  "sections": 2,
+  "raw_rules": 32,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "from time to time",
+      "through the general operation of the Service"
+     ],
+     "data": {
+      "name": "contact information",
+      "text": ""
+     },
+     "exceptions": [
+      "opt out of such emails",
+      "opt out of all voluntary email notifications"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may also send",
+     "purpose": [
+      {
+       "text": "service-related announcements",
+       "name": "service communications"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-030#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "even if you opt out of all voluntary email notifications"
+     ],
+     "data": {
+      "name": "contact information",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "reserves the right to send",
+     "purpose": [
+      {
+       "text": "notices about your account",
+       "name": "service communications"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-030#s1"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 21,
+  "completeness": {
+   "gaps": 27,
+   "gap_words": 353
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 21,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 7339,
+  "completion_tokens": 7877,
+  "thinking_tokens": 0,
+  "seconds": 41.448469400405884,
+  "failures": 0
+ },
+ "seconds": 41.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

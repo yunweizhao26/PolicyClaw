@@ -1,0 +1,362 @@
+{
+ "cleaned_sha256": "web-003",
+ "text_sha256": "881f857fe7f71daae733390a927258633db503fe56447ab344fbb621889f2c3a",
+ "site_id": "web-003",
+ "sections": 15,
+ "rules": 213,
+ "report": {
+  "sections": 15,
+  "raw_rules": 201,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Based on your consent"
+     ],
+     "data": {
+      "name": "biometric data",
+      "text": "your biometric information"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "for safety, security, and identification purposes",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use"
+    ],
+    "section": "web-003#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information (such as your biographical information, employment history, educational history, employment preferences, skills and abilities, and job search activity and engagement, in addition to the information we already collect as disclosed in the “Information we collect when you use X” section of our Privacy Policy below)"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to recommend potential jobs to you",
+       "name": "personalization"
+      },
+      {
+       "text": "to share with potential employers when you apply for a job",
+       "name": "service provision"
+      },
+      {
+       "text": "to enable connections for professional opportunities",
+       "name": "service provision"
+      },
+      {
+       "text": "to show you more relevant advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "“Information we collect when you use X” section of our Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may use"
+    ],
+    "section": "web-003#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "by editing your profile and adjusting your account\nsettings",
+      "before granting you access to your personal information",
+      "where you are unable to verify your identity"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information you provided to us"
+     },
+     "exceptions": [
+      "where you are unable to verify your identity"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "you"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-003#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "request access to",
+      "verb": "request"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "before granting you access to your personal information",
+      "where you are unable to verify your identity"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "additional information"
+     },
+     "exceptions": [
+      "where you are unable to verify your identity"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-003#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "queued for deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "If you follow the instructions\nhere",
+      "before complying with a deletion, portability, or other related request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your data"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "before complying with a deletion, portability, or other related request"
+    ],
+    "section": "web-003#s9"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "complies with the DPF Principles for all its",
+     "actor": {
+      "text": "X",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Switzerland",
+      "name": "Switzerland"
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "in reliance on the Swiss-US DPF"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Swiss-US DPF",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "DPF Principles",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in reliance on the Swiss-US DPF"
+    ],
+    "section": "web-003#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "complies with the DPF Principles for all its",
+     "actor": {
+      "text": "X",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the UK",
+      "name": "the UK"
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [
+      "in reliance on the UK Extension to the EU-US DPF"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "UK Extension to the EU-US DPF",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "DPF Principles",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in reliance on the UK Extension to the EU-US DPF"
+    ],
+    "section": "web-003#s10"
+   }
+  ],
+  "residual_quotes": 14,
+  "quotes": 97,
+  "completeness": {
+   "gaps": 218,
+   "gap_words": 2103
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 97,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 49342,
+  "completion_tokens": 38339,
+  "thinking_tokens": 0,
+  "seconds": 434.9528486728668,
+  "failures": 0
+ },
+ "seconds": 436.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

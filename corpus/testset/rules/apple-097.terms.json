@@ -1,0 +1,214 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "personal information": "personal data",
+    "transaction information": "transaction details",
+    "usage information": "usage data"
+   },
+   "parents": {
+    "billing address": [
+     "postal address"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "country": [
+     "location"
+    ],
+    "date of birth": [
+     "protected classification characteristics"
+    ],
+    "dietary preferences": [
+     "preference"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "employment history": [
+     "employment information"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "flight history": [
+     "purchase history"
+    ],
+    "gender": [
+     "protected classification characteristics"
+    ],
+    "gender identity": [
+     "protected classification characteristics"
+    ],
+    "government-issued id": [
+     "identifier"
+    ],
+    "gps coordinates": [
+     "location"
+    ],
+    "health information": [
+     "health or medical information"
+    ],
+    "health or medical information": [
+     "sensitive data"
+    ],
+    "language preferences": [
+     "user preferences"
+    ],
+    "military status": [
+     "protected classification characteristics"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "nationality": [
+     "protected classification characteristics"
+    ],
+    "passport number": [
+     "government-issued id",
+     "identifier"
+    ],
+    "payment card number": [
+     "financial details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details",
+     "location"
+    ],
+    "purchase history": [
+     "commercial information",
+     "transaction details"
+    ],
+    "rewards program data": [
+     "commercial information"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "student name": [
+     "education records",
+     "name"
+    ],
+    "targeting cookies": [
+     "cookies"
+    ],
+    "time spent on site": [
+     "browsing activity",
+     "browsing behavior"
+    ],
+    "user identifier": [
+     "identifier"
+    ],
+    "username": [
+     "identifier"
+    ],
+    "website performance data": [
+     "diagnostic information"
+    ],
+    "website usage details": [
+     "browsing activity",
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "credit card issuer": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Frontier Airlines"
+   },
+   "parents": {
+    "Cognigy": [
+     "third party"
+    ],
+    "marketing company": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "reward": "benefits",
+    "service-improvement": "service improvement",
+    "service-optimization": "service optimization",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "facilitate transaction": [
+     "service provision"
+    ],
+    "fulfill purchases": [
+     "service provision"
+    ],
+    "fulfilment": [
+     "service provision"
+    ],
+    "services requested": [
+     "service provision"
+    ],
+    "service provision": [
+     "service"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "service improvement": [
+     "service optimization"
+    ],
+    "user-experience optimization": [
+     "service optimization"
+    ],
+    "service performance": [
+     "website-operation"
+    ],
+    "website-operation": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3293,
+  "completion_tokens": 838,
+  "thinking_tokens": 0,
+  "seconds": 10.881723165512085,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

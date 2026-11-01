@@ -1,0 +1,189 @@
+{
+ "cleaned_sha256": "apple-086",
+ "text_sha256": "efc3ad6fa62f3cfb96dd98847201b4267b5785c584f277f053e3034e934772e4",
+ "site_id": "apple-086",
+ "sections": 30,
+ "rules": 375,
+ "report": {
+  "sections": 30,
+  "raw_rules": 289,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "The User’s persistent device identifier such as advertising identifier (IDFA, Android Advertising ID, IDFV)",
+      "name": "advertising identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "The User’s persistent device identifier such as advertising identifier (IDFA, Android Advertising ID, IDFV)"
+    ],
+    "section": "apple-086#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "The User’s persistent device identifier such as advertising identifier (IDFA, Android Advertising ID, IDFV)",
+      "name": "advertising identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "The User’s persistent device identifier such as advertising identifier (IDFA, Android Advertising ID, IDFV)"
+    ],
+    "section": "apple-086#s10"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "reserve\nthe right to change",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "change",
+      "verb": "change"
+     },
+     "operation": "other",
+     "purpose": [],
+     "conditions": [
+      "at any time"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-086#s29"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "reply",
+      "verb": "reply"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you have any questions (or comments) concerning this Privacy Policy",
+      "within a reasonable timeframe"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-086#s30"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 405,
+   "gap_words": 4388
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 92,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 56,
+  "cached": 0,
+  "prompt_tokens": 91611,
+  "completion_tokens": 52425,
+  "thinking_tokens": 0,
+  "seconds": 1019.5216147899628,
+  "failures": 0
+ },
+ "seconds": 1021.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "policy": "pg-047",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "We include a third party ad service that can access some amount of information about you from your device for the purpose of delivering targeted ads.",
+   "prohibit": "No personal information is retained by the Docs To Go client apps and no personal information is communicated back to DataViz’s servers.",
+   "situation": "When using ad-supported versions of Docs To Go and the third-party ad service accesses information from the user's device.",
+   "reason": "The policy asserts that no personal information is retained or communicated, yet simultaneously notes a third-party ad service can access user information from the device.",
+   "confidence": "low"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We include a third party ad service that can access some amount of information about you from your device for the purpose of delivering targeted ads.",
+   "prohibit": "Do any third-parties collect personal information or have access to the information you have collected? No.",
+   "situation": "A user uses an ad-supported version of Docs To Go on their device.",
+   "reason": "The FAQ flatly denies that any third-parties collect personal information, directly contradicting the inclusion of a third-party ad service accessing device information.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 2758,
+  "completion_tokens": 309,
+  "thinking_tokens": 0,
+  "seconds": 2.6348769664764404,
+  "failures": 0
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "cleaned_sha256": "apple-110",
+ "text_sha256": "d2ef84daceb4cbb1f5816b1245443fbe18f09f0e5e42ba47c65cedd67efd69f2",
+ "site_id": "apple-110",
+ "sections": 5,
+ "rules": 61,
+ "report": {
+  "sections": 5,
+  "raw_rules": 49,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "enable",
+      "verb": "enable"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [
+      "choices about whether or not to use our advertising supported free application option",
+      "Your Right to Object - Please note that you have a right to object to processing of your personal information where that processing is carried out for our legitimate interest"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "enable",
+     "purpose": [
+      {
+       "text": "To market our products and services as well as enable third parties to provide advertisements to you via the Application",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-110#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "to existing customers/users",
+      "provided that customers/users have been properly informed beforehand"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [
+      "can cancel such messages/notifications at any time",
+      "Your Right to Object - Please note that you have a right to object to processing of your personal information where that processing is carried out for our legitimate interest"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "To send",
+     "purpose": [
+      {
+       "text": "for own similar goods and services",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-110#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "respond",
+      "verb": "respond"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "where we have a legal obligation, including complying with legal demands and complying with production and court orders"
+     ],
+     "data": {
+      "text": ""
+     },
+     "exceptions": [
+      "Your Right to Object - Please note that you have a right to object to processing of your personal information where that processing is carried out for our legitimate interest"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "To respond",
+     "purpose": [
+      {
+       "text": "To respond to law enforcement organization, or other government officials where we have a legal obligation, including complying with legal demands and complying with production and court orders",
+       "name": "legal requirement"
+      }
+     ],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "law enforcement organization, or other government officials"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-110#s3"
+   }
+  ],
+  "residual_quotes": 7,
+  "quotes": 27,
+  "completeness": {
+   "gaps": 117,
+   "gap_words": 1443
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 27,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 9,
+  "cached": 0,
+  "prompt_tokens": 17066,
+  "completion_tokens": 9156,
+  "thinking_tokens": 0,
+  "seconds": 172.24890851974487,
+  "failures": 0
+ },
+ "seconds": 172.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

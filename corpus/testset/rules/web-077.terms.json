@@ -1,0 +1,262 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising ID",
+    "coarse location": "coarse geolocation",
+    "contact details": "contact data",
+    "contact-info": "contact data",
+    "demographic-data": "demographic data",
+    "device-information": "device details",
+    "donations": "donation details",
+    "email_address": "email address",
+    "information": "data",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal information": "personal data",
+    "personal-information": "personal data",
+    "personal_information": "personal data",
+    "precise location": "precise geolocation",
+    "survey-response": "survey responses",
+    "travel-information": "travel details",
+    "usage-data": "usage data",
+    "user submission": "User Materials",
+    "user-provided info": "user data"
+   },
+   "parents": {
+    "advertising ID": [
+     "device identifier"
+    ],
+    "billing address": [
+     "contact data"
+    ],
+    "coarse geolocation": [
+     "location"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "business contact information": [
+     "contact data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "audio listening history": [
+     "listening data",
+     "usage data"
+    ],
+    "listening data": [
+     "usage data"
+    ],
+    "search history": [
+     "usage data"
+    ],
+    "interaction details": [
+     "usage data"
+    ],
+    "favorite stations": [
+     "user preferences"
+    ],
+    "communication preferences": [
+     "user preferences"
+    ],
+    "account registration details": [
+     "registration information"
+    ],
+    "password": [
+     "account registration details",
+     "registration information"
+    ],
+    "payment card number": [
+     "financial details",
+     "payment-data"
+    ],
+    "payment-data": [
+     "financial details"
+    ],
+    "donation details": [
+     "financial details"
+    ],
+    "donor information": [
+     "financial details"
+    ],
+    "benefit details": [
+     "user profile"
+    ],
+    "resume": [
+     "job application details"
+    ],
+    "education history": [
+     "job application details",
+     "resume"
+    ],
+    "professional credentials": [
+     "job application details",
+     "resume"
+    ],
+    "IP address": [
+     "device details"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "device properties": [
+     "device details"
+    ],
+    "browser_information": [
+     "device details"
+    ],
+    "operating_system_information": [
+     "device details"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "analytics-and-sponsorship-vendors": "Analytics & Sponsorship vendors",
+    "member stations": "Member stations",
+    "service-provider": "service provider"
+   },
+   "parents": {
+    "Analytics & Sponsorship vendors": [
+     "vendor"
+    ],
+    "LiveRamp": [
+     "sponsorship vendors",
+     "vendor"
+    ],
+    "analytics vendor": [
+     "Analytics & Sponsorship vendors"
+    ],
+    "newsletter sponsorship vendor": [
+     "sponsorship vendors",
+     "vendor"
+    ],
+    "sponsorship vendors": [
+     "Analytics & Sponsorship vendors",
+     "vendor"
+    ],
+    "vendor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "child under 18": [
+     "user"
+    ],
+    "SSO_provider": [
+     "third_party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service providers": "service provider",
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "Analytics & Sponsorship vendors": [
+     "third party"
+    ],
+    "Bitly": [
+     "third party"
+    ],
+    "NPR Member station": [
+     "third party"
+    ],
+    "SSO_provider": [
+     "third party"
+    ],
+    "court": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "sponsorship and marketing vendors": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "advertising": "Advertising",
+    "legal-compliance": "legal compliance",
+    "research-and-development": "research and development",
+    "service-provision": "service provision",
+    "service_optimization": "service improvement",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "targeted advertising": [
+     "Advertising",
+     "marketing"
+    ],
+    "targeted sponsorship": [
+     "Advertising"
+    ],
+    "Advertising": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics or research"
+    ],
+    "surveys": [
+     "communications"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "enforcement": [
+     "legal compliance"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "service administration": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service provision"
+    ],
+    "user preferences": [
+     "personalization"
+    ],
+    "profiling": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3443,
+  "completion_tokens": 1728,
+  "thinking_tokens": 0,
+  "seconds": 19.157623767852783,
+  "failures": 0
+ },
+ "seconds": 19.2
+}

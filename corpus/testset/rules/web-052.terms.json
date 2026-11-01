@@ -1,0 +1,256 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "account data",
+    "contact information": "contact details",
+    "ip address": "IP address",
+    "payment account information": "financial account number",
+    "request metadata": "metadata",
+    "user prompt": "input prompt",
+    "user prompts": "input prompt",
+    "user-generated content": "user content"
+   },
+   "parents": {
+    "AI feature output": [
+     "AI data",
+     "generated text"
+    ],
+    "account identifier": [
+     "account data",
+     "account information"
+    ],
+    "account registration date": [
+     "account data"
+    ],
+    "ad clicks": [
+     "analytics data",
+     "interaction data",
+     "usage data"
+    ],
+    "credit card number": [
+     "financial and payment card details",
+     "payment info"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "first name": [
+     "name"
+    ],
+    "input prompt": [
+     "AI data"
+    ],
+    "last name": [
+     "name"
+    ],
+    "operating system": [
+     "device details",
+     "technical information"
+    ],
+    "financial account number": [
+     "payment info"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "profile avatar": [
+     "profile information"
+    ],
+    "request content": [
+     "request details"
+    ],
+    "metadata": [
+     "technical information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "server logs": [
+     "logs"
+    ],
+    "social media handle": [
+     "social media data"
+    ],
+    "social media link": [
+     "social media data"
+    ],
+    "social media profile link": [
+     "social media data"
+    ],
+    "software version": [
+     "device details",
+     "technical information"
+    ],
+    "transaction logs": [
+     "logs"
+    ],
+    "user messages": [
+     "user content"
+    ],
+    "user settings": [
+     "account data"
+    ],
+    "username": [
+     "account data",
+     "contact details",
+     "user identifier"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliated businesses": "affiliate",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Google": [
+     "service provider",
+     "third parties"
+    ],
+    "Langfuse": [
+     "service provider",
+     "third parties"
+    ],
+    "OpenMeter": [
+     "service provider",
+     "third parties"
+    ],
+    "police": [
+     "government agency",
+     "law enforcement"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "agents": [
+     "service provider"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "business partners": [
+     "third parties"
+    ],
+    "court": [
+     "government agency"
+    ],
+    "other third party": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "search engines": "search engine",
+    "third party payment processor": "payment processor"
+   },
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "third-party model provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "search engine": [
+     "third party"
+    ],
+    "employee": [
+     "first party"
+    ],
+    "other users": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "internal business purposes": "business operations",
+    "model training": "ai training",
+    "payment handling": "billing"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "ai training": [
+     "product development"
+    ],
+    "authentication": [
+     "account management",
+     "security"
+    ],
+    "billing": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "debugging": [
+     "service quality"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "legal compliance": [
+     "compliance"
+    ],
+    "marketing": [
+     "marketing and sales"
+    ],
+    "monitor and improve AI features": [
+     "service quality"
+    ],
+    "operate AI features": [
+     "service provision"
+    ],
+    "personalized marketing": [
+     "marketing",
+     "personalization"
+    ],
+    "prevent abuse": [
+     "security"
+    ],
+    "product development": [
+     "service quality"
+    ],
+    "service announcements": [
+     "communications"
+    ],
+    "social notifications": [
+     "communications"
+    ],
+    "terms enforcement": [
+     "compliance"
+    ],
+    "verification": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3317,
+  "completion_tokens": 1145,
+  "thinking_tokens": 0,
+  "seconds": 12.858940362930298,
+  "failures": 0
+ },
+ "seconds": 13.0
+}

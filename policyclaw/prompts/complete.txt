@@ -1,0 +1,24 @@
+You check that the rules extracted from one section of a website privacy policy account for everything the section says.
+
+Rules already extracted from the section:
+{rules}
+
+Passages of the section that no rule quotes:
+{passages}
+
+Decide what each passage does. A passage may do more than one of these:
+- "limits": it limits one or more of the rules above, that is, when, for whom, or in which circumstances the practice applies, why it happens, which cases are excepted, or how the user can stop or refuse it. Attach its exact words to every rule it limits, in the field where they belong. A passage can limit rules that come from another sentence, such as an opt-out that applies to practices described earlier.
+- "practice": it states a data practice that no rule above describes. Return the new rules in the format below.
+- "none": it states no practice and limits no rule, such as a heading that does not limit the practices under it, a definition, contact details, or a statement about the policy itself.
+
+Then check the qualifiers already attached to the rules above. When a qualifier of one rule also limits another rule, attach it to that rule as well, under the passage id "q".
+
+Fields of a rule, as in the extraction:
+<<FIELDS>>
+
+Section:
+<<<
+{section}
+>>>
+
+Return only JSON: {{"passages": {{"<passage id>": {{"does": [...], "attach": [{{"rule": "<rule id>", "field": "conditions" or "exceptions" or "purpose" or "references", "text": verbatim quote, "target": "law" or "policy_section" or "other_document", for references only}}], "rules": [new rules]}}}}}}

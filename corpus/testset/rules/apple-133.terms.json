@@ -1,0 +1,228 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "precise location": "precise geolocation",
+    "service usage information": "information related to your use of the services",
+    "unspecified": "information",
+    "user activity": "usage data",
+    "user preferences": "preferences"
+   },
+   "parents": {
+    "GPS coordinates": [
+     "precise geolocation"
+    ],
+    "precise geolocation": [
+     "location"
+    ],
+    "city and state": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "advertising ID": [
+     "device identifier"
+    ],
+    "hardware identifier": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device information",
+     "unique identifier"
+    ],
+    "cookie identifier": [
+     "cookies",
+     "unique identifier"
+    ],
+    "app version": [
+     "device and software characteristics"
+    ],
+    "device model": [
+     "device and software characteristics"
+    ],
+    "operating system": [
+     "device and software characteristics"
+    ],
+    "device and software characteristics": [
+     "device information"
+    ],
+    "browsing activity": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "browsing time": [
+     "usage data"
+    ],
+    "link clicks": [
+     "usage data"
+    ],
+    "page views": [
+     "usage data"
+    ],
+    "engagement data": [
+     "usage data"
+    ],
+    "payment card number": [
+     "payment information"
+    ],
+    "payment information": [
+     "billing information"
+    ],
+    "transaction identifiers": [
+     "payment information"
+    ],
+    "purchase history": [
+     "payment transactions"
+    ],
+    "subscription details": [
+     "purchase history"
+    ],
+    "interests": [
+     "inferences"
+    ],
+    "signature": [
+     "government-issued identification"
+    ],
+    "account name": [
+     "name"
+    ],
+    "profile picture": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliated companies": "affiliate",
+    "media partners": "media partner"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner",
+     "third party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "media partner": [
+     "third party"
+    ],
+    "contractor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "law enforcement officials": [
+     "government-entities"
+    ],
+    "another company": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "our partners",
+     "third party"
+    ],
+    "our partners": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertisers that participate in self-regulatory programs": [
+     "advertising network"
+    ],
+    "advertising network": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "compliance": "administrative-legal",
+    "customer-support": "customer support",
+    "dispute-resolution": "dispute resolution",
+    "enforce-agreements": "enforce our agreements",
+    "fraud-prevention": "fraud detection and prevention",
+    "legal compliance": "administrative-legal",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "audit": [
+     "business operations"
+    ],
+    "dispute resolution": [
+     "administrative-legal"
+    ],
+    "enforce our agreements": [
+     "administrative-legal"
+    ],
+    "legal defense": [
+     "administrative-legal"
+    ],
+    "identity-verification": [
+     "security",
+     "security and safety"
+    ],
+    "user authentication": [
+     "security",
+     "service provision"
+    ],
+    "fraud detection and prevention": [
+     "security",
+     "security and safety"
+    ],
+    "quality-control-safety": [
+     "security and safety"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "service-operations": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2724,
+  "completion_tokens": 1138,
+  "thinking_tokens": 0,
+  "seconds": 28.3907573223114,
+  "failures": 0
+ },
+ "seconds": 28.5
+}

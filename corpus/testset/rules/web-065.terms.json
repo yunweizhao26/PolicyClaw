@@ -1,0 +1,308 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie data",
+    "de-identified information": "de-identified data",
+    "deidentified personal data": "de-identified data",
+    "inferences drawn from personal data": "inferences",
+    "information": "data",
+    "personal information": "personal data",
+    "user data": "information about you"
+   },
+   "parents": {
+    "age": [
+     "demographic data"
+    ],
+    "card security code": [
+     "payment card data",
+     "payment information"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "clicks": [
+     "interaction data",
+     "usage data"
+    ],
+    "clickstream data": [
+     "usage data"
+    ],
+    "cookie data": [
+     "tracking technology data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "inquiries to chatbots": [
+     "communications"
+    ],
+    "local storage data": [
+     "tracking technology data"
+    ],
+    "password hints": [
+     "account credentials"
+    ],
+    "passwords": [
+     "account credentials"
+    ],
+    "payment card data": [
+     "payment information"
+    ],
+    "payment card number": [
+     "payment card data",
+     "payment information"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "profile description": [
+     "profile information"
+    ],
+    "responses to chatbots": [
+     "communications"
+    ],
+    "search history": [
+     "browsing history"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "unique identifiers": [
+     "online identifier"
+    ],
+    "user post": [
+     "user content"
+    ],
+    "user questions": [
+     "communications"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising partners": "ad partner",
+    "affiliates": "affiliate",
+    "clients": "client"
+   },
+   "parents": {
+    "subsidiary": [
+     "affiliate"
+    ],
+    "parent company": [
+     "affiliate"
+    ],
+    "joint venture": [
+     "affiliate"
+    ],
+    "related vendors": [
+     "vendors and other parties"
+    ],
+    "service provider": [
+     "vendors and other parties"
+    ],
+    "ad partner": [
+     "business partners"
+    ],
+    "Identity Resolution Partners": [
+     "business partners"
+    ],
+    "participating sponsors": [
+     "business partners"
+    ],
+    "content providers": [
+     "third party"
+    ],
+    "government authorities": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "vendors and other parties": [
+     "third party"
+    ],
+    "client": [
+     "third party"
+    ],
+    "SNSs": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "commercial partner": "business partners",
+    "social network": "social media services"
+   },
+   "parents": {
+    "Google Analytics": [
+     "analytics and advertising technology companies",
+     "third party"
+    ],
+    "advertisers": [
+     "analytics and advertising technology companies",
+     "business partners",
+     "third party"
+    ],
+    "Identity Resolution Partners": [
+     "third party"
+    ],
+    "analytics and advertising technology companies": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "other third party": [
+     "third party"
+    ],
+    "social media services": [
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "Company Affiliates": [
+     "other sources"
+    ],
+    "commercially available sources": [
+     "other sources"
+    ],
+    "third party": [
+     "other sources"
+    ],
+    "other sources": [
+     "any source"
+    ],
+    "service": [
+     "any source"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partner": "ad partner",
+    "payment processor": "Payment Service provider"
+   },
+   "parents": {
+    "Business Insider": [
+     "first party"
+    ],
+    "EMARKETER": [
+     "first party"
+    ],
+    "Payment Service provider": [
+     "service provider"
+    ],
+    "ad network": [
+     "third party"
+    ],
+    "ad partner": [
+     "third party"
+    ],
+    "Identity Resolution Partners": [
+     "third party"
+    ],
+    "other user": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "vendor": [
+     "third party"
+    ],
+    "courts, law enforcement agencies, regulatory agencies or security authorities in the United States": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics and research",
+    "fraud prevention and detection": "fraud detection",
+    "legal-compliance": "legal compliance",
+    "legal_compliance": "legal compliance",
+    "market research and quality assurance": "market research",
+    "user identification": "user account management"
+   },
+   "parents": {
+    "direct marketing": [
+     "marketing"
+    ],
+    "marketing communications": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "fraud and illegal activity prevention",
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "business security": [
+     "security"
+    ],
+    "debugging and security": [
+     "security"
+    ],
+    "analytics and advertising effectiveness": [
+     "analytics"
+    ],
+    "service analytics": [
+     "analytics"
+    ],
+    "analytics": [
+     "analytics and research"
+    ],
+    "market research": [
+     "analytics and research"
+    ],
+    "enforce-terms": [
+     "legal compliance"
+    ],
+    "compliance and investigation": [
+     "legal compliance"
+    ],
+    "compliance and legal defense": [
+     "legal compliance"
+    ],
+    "legal and security protection": [
+     "legal compliance"
+    ],
+    "payment processing": [
+     "transaction processing"
+    ],
+    "tailoring services": [
+     "personalization"
+    ],
+    "deliver personalized content, offers, discounts, and value": [
+     "personalization"
+    ],
+    "enhancement and personalization": [
+     "personalization"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4123,
+  "completion_tokens": 1392,
+  "thinking_tokens": 0,
+  "seconds": 14.936222314834595,
+  "failures": 0
+ },
+ "seconds": 15.0
+}

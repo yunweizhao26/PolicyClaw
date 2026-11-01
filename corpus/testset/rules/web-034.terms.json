@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "communication data": "Communication Data",
+    "contact details": "contact data",
+    "contact info": "contact data",
+    "credentials": "account credentials",
+    "device data": "Device Data",
+    "device details": "Device Data",
+    "device information": "Device Data",
+    "information": "data",
+    "personal information": "personal data",
+    "transaction details": "transaction data",
+    "usage data": "Usage Data",
+    "user preferences": "preferences",
+    "user profile": "profile data"
+   },
+   "parents": {
+    "ad identifier": [
+     "device identifier"
+    ],
+    "browser": [
+     "device info"
+    ],
+    "browsing activity": [
+     "activity data"
+    ],
+    "browsing history": [
+     "Usage Data"
+    ],
+    "communication content": [
+     "Communication Data"
+    ],
+    "consent preferences": [
+     "preferences"
+    ],
+    "cookies": [
+     "cookies and similar tracking technologies"
+    ],
+    "device hardware type": [
+     "device info"
+    ],
+    "device identifier": [
+     "device info"
+    ],
+    "device info": [
+     "Device Data"
+    ],
+    "financial information": [
+     "personal data"
+    ],
+    "identification data": [
+     "personal data"
+    ],
+    "interaction data": [
+     "activity data"
+    ],
+    "ip address": [
+     "device info"
+    ],
+    "isp": [
+     "device info"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "marketing data": [
+     "advertising data"
+    ],
+    "name": [
+     "identification data"
+    ],
+    "operating system": [
+     "device info"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "user activity": [
+     "activity data"
+    ],
+    "profile data": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliated business",
+    "third parties": "others",
+    "third party": "others"
+   },
+   "parents": {
+    "affiliated business": [
+     "anyone"
+    ],
+    "independent third party": [
+     "others"
+    ],
+    "law enforcement": [
+     "public authorities"
+    ],
+    "public authorities": [
+     "anyone"
+    ],
+    "others": [
+     "anyone"
+    ],
+    "third party agent": [
+     "others"
+    ],
+    "third party companies and people": [
+     "others"
+    ],
+    "third party provider of services": [
+     "third-party service providers"
+    ],
+    "third-party digital advertising partners": [
+     "others"
+    ],
+    "third-party service providers": [
+     "others"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Indirectly from you": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "third party agent": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "communications": "communication",
+    "improve-service": "improve service",
+    "legal compliance": "compliance with legal obligations",
+    "service improvement": "improve service",
+    "service provision": "provide service"
+   },
+   "parents": {
+    "service communication": [
+     "communication"
+    ],
+    "personalize advertising": [
+     "advertising",
+     "personalization"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "targeting"
+    ],
+    "power targeting rules": [
+     "targeting"
+    ],
+    "exclude existing users": [
+     "marketing",
+     "targeting"
+    ],
+    "fraud detection": [
+     "fraud_prevention_security",
+     "security"
+    ],
+    "personalize services": [
+     "personalization"
+    ],
+    "personalize-content": [
+     "personalization"
+    ],
+    "enforce agreements": [
+     "compliance with legal obligations",
+     "legal compliance and protection"
+    ],
+    "compliance with legal obligations": [
+     "legal compliance and protection"
+    ],
+    "resolve disputes": [
+     "legal compliance and protection"
+    ],
+    "protect rights or safety": [
+     "legal compliance and protection"
+    ],
+    "service maintenance": [
+     "service operation and management"
+    ],
+    "account management": [
+     "service operation and management"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2706,
+  "completion_tokens": 983,
+  "thinking_tokens": 0,
+  "seconds": 15.269479513168335,
+  "failures": 0
+ },
+ "seconds": 15.4
+}

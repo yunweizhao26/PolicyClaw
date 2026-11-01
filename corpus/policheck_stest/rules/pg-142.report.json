@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "pg-142",
+ "text_sha256": "261b235d6bd34dbee527df0b7efaa2cb56e4603f7795f798be41a79da728d8bd",
+ "site_id": "pg-142",
+ "sections": 3,
+ "rules": 84,
+ "report": {
+  "sections": 3,
+  "raw_rules": 60,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "reading",
+      "verb": "read"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [
+      "Storage permission",
+      "If User grants any of the permissions listed below"
+     ],
+     "data": {
+      "name": "external storage items",
+      "text": "items"
+     },
+     "exceptions": [
+      "device settings"
+     ],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "including",
+     "purpose": [
+      {
+       "text": "so he can save a picture to his phone when necessary",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "so he can save a picture to his phone when necessary"
+    ],
+    "section": "pg-142#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "adding",
+      "verb": "add"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "This Application"
+     },
+     "conditions": [
+      "Storage permission",
+      "If User grants any of the permissions listed below"
+     ],
+     "data": {
+      "name": "external storage items",
+      "text": "items"
+     },
+     "exceptions": [
+      "device settings"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "including",
+     "purpose": [
+      {
+       "text": "so he can save a picture to his phone when necessary",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "so he can save a picture to his phone when necessary"
+    ],
+    "section": "pg-142#s2"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 20,
+  "completeness": {
+   "gaps": 47,
+   "gap_words": 435
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 21,
+  "translated_quotes": 20,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 6,
+  "cached": 0,
+  "prompt_tokens": 10843,
+  "completion_tokens": 10729,
+  "thinking_tokens": 0,
+  "seconds": 65.73008346557617,
+  "failures": 0
+ },
+ "seconds": 66.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

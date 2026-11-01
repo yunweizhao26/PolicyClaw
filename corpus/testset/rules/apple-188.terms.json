@@ -1,0 +1,302 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "technical information": "technical data",
+    "the data": "data",
+    "user id": "user ID"
+   },
+   "parents": {
+    "Apple account details": [
+     "account data"
+    ],
+    "Google account details": [
+     "account data"
+    ],
+    "IP address": [
+     "device info",
+     "identifiers"
+    ],
+    "account data": [
+     "personal data"
+    ],
+    "analytics ID": [
+     "identifiers"
+    ],
+    "app interaction data": [
+     "usage data"
+    ],
+    "app launch events": [
+     "event data"
+    ],
+    "audio stream extracted from the video file": [
+     "audio stream"
+    ],
+    "audio stream of the audio file": [
+     "audio stream"
+    ],
+    "chat interactions": [
+     "interaction with app"
+    ],
+    "chat messages": [
+     "communications",
+     "messages"
+    ],
+    "chosen payment plan": [
+     "payment details",
+     "payment information",
+     "subscription details"
+    ],
+    "communications": [
+     "user content"
+    ],
+    "crash logs": [
+     "diagnostics",
+     "log files"
+    ],
+    "data about you": [
+     "personal data"
+    ],
+    "data provided by user": [
+     "user data"
+    ],
+    "detailed log files": [
+     "log files"
+    ],
+    "diagnostics": [
+     "technical data"
+    ],
+    "display name": [
+     "name"
+    ],
+    "email address": [
+     "account data",
+     "personal data"
+    ],
+    "event data": [
+     "data"
+    ],
+    "feedback attached files": [
+     "feedback",
+     "files"
+    ],
+    "feedback categories analytics": [
+     "feedback"
+    ],
+    "feedback text": [
+     "feedback"
+    ],
+    "file metadata": [
+     "file",
+     "files"
+    ],
+    "file preferences": [
+     "files"
+    ],
+    "file summary on thumb down feedback": [
+     "files summary"
+    ],
+    "files": [
+     "user content"
+    ],
+    "files summary": [
+     "files"
+    ],
+    "identifier for advertising": [
+     "device info",
+     "identifiers"
+    ],
+    "log files": [
+     "diagnostics",
+     "technical data"
+    ],
+    "meeting records": [
+     "user content"
+    ],
+    "messages": [
+     "user content"
+    ],
+    "name": [
+     "user identity"
+    ],
+    "payment details": [
+     "payment information"
+    ],
+    "payment history": [
+     "payment details",
+     "payment information"
+    ],
+    "payment information": [
+     "personal data"
+    ],
+    "phone settings": [
+     "device info"
+    ],
+    "photos": [
+     "files",
+     "user uploaded content"
+    ],
+    "profile information": [
+     "user profile"
+    ],
+    "profile picture": [
+     "profile information",
+     "user profile"
+    ],
+    "purchase events": [
+     "event data"
+    ],
+    "subscription autorenewal status": [
+     "subscription details",
+     "subscription status"
+    ],
+    "subscription dates": [
+     "subscription details"
+    ],
+    "subscription status": [
+     "subscription details"
+    ],
+    "support request analytics": [
+     "support request information"
+    ],
+    "support request information": [
+     "support requests"
+    ],
+    "support requests": [
+     "user request"
+    ],
+    "text transcription of the audio stream": [
+     "audio stream"
+    ],
+    "trial initiation events": [
+     "event data"
+    ],
+    "trial status": [
+     "subscription status"
+    ],
+    "usage data": [
+     "technical data"
+    ],
+    "user ID": [
+     "identifiers"
+    ],
+    "user content": [
+     "user data"
+    ],
+    "user identity": [
+     "profile information",
+     "user profile"
+    ],
+    "user inputs": [
+     "user content"
+    ],
+    "user profile": [
+     "account data",
+     "personal data"
+    ],
+    "user uploaded content": [
+     "user content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "trusted AI providers": "ai provider"
+   },
+   "parents": {
+    "another controller": [
+     "controller"
+    ],
+    "controller": [
+     "recipient"
+    ],
+    "court": [
+     "public authority"
+    ],
+    "law enforcement agency": [
+     "public authority"
+    ],
+    "public authority": [
+     "recipient"
+    ],
+    "tax authority": [
+     "public authority"
+    ],
+    "third party": [
+     "recipient"
+    ],
+    "ai provider": [
+     "third party"
+    ],
+    "Meta": [
+     "third party"
+    ],
+    "Spark Mail": [
+     "third party"
+    ],
+    "recipients in the USA and other countries": [
+     "recipient"
+    ],
+    "recipient": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "ai training": "AI training",
+    "legal compliance": "compliance",
+    "legal requirement": "compliance",
+    "providing the service": "Service delivery",
+    "service improvement": "improving the service",
+    "service provision": "Service delivery",
+    "service_provision": "Service delivery"
+   },
+   "parents": {
+    "App functionality": [
+     "Service delivery"
+    ],
+    "abuse and misuse monitoring": [
+     "security"
+    ],
+    "fraud_detection": [
+     "fraud prevention and security"
+    ],
+    "fraud prevention and security": [
+     "security"
+    ],
+    "compliance": [
+     "legal"
+    ],
+    "customer support": [
+     "support and feedback"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "payment handling": [
+     "Service delivery"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2825,
+  "completion_tokens": 1313,
+  "thinking_tokens": 0,
+  "seconds": 16.666733264923096,
+  "failures": 0
+ },
+ "seconds": 16.8
+}

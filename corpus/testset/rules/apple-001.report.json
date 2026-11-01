@@ -1,0 +1,197 @@
+{
+ "cleaned_sha256": "apple-001",
+ "text_sha256": "09e0f4dbe24557d3f7589595f38d74e3600e359e18470d0ceda5a0ad67589171",
+ "site_id": "apple-001",
+ "sections": 20,
+ "rules": 281,
+ "report": {
+  "sections": 20,
+  "raw_rules": 247,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Complied",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "users",
+      "name": "user"
+     },
+     "action": {
+      "text": "Complied",
+      "verb": "comply"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Right to Know / Access",
+      "global requests we received from users between 1 January and 31 December 2025"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-001#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Complied",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "users",
+      "name": "user"
+     },
+     "action": {
+      "text": "Delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Request to Delete",
+      "global requests we received from users between 1 January and 31 December 2025"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-001#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Complied",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "users",
+      "name": "user"
+     },
+     "action": {
+      "text": "Correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Request to Correct*",
+      "global requests we received from users between 1 January and 31 December 2025"
+     ],
+     "exceptions": [
+      "Adjustments in the user account within the Service made either by the user themselves or aided by customer services are not counted as correction requests (e.g., user updated their display name)"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-001#s18"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Complied",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "users",
+      "name": "user"
+     },
+     "action": {
+      "text": "Opt-Out of Data Sharing",
+      "verb": "opt-out"
+     },
+     "operation": "restriction",
+     "purpose": [
+      {
+       "text": "for Tailored Ads",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "Request to Opt-Out of Data Sharing for Tailored Ads",
+      "global requests we received from users between 1 January and 31 December 2025"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-001#s18"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 86,
+  "completeness": {
+   "gaps": 416,
+   "gap_words": 3489
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 86,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 37,
+  "cached": 0,
+  "prompt_tokens": 63659,
+  "completion_tokens": 42144,
+  "thinking_tokens": 0,
+  "seconds": 877.2427985668182,
+  "failures": 0
+ },
+ "seconds": 878.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

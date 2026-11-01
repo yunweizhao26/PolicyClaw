@@ -1,0 +1,119 @@
+{
+ "cleaned_sha256": "web-057",
+ "text_sha256": "5f86e6ee8e49447100bff9fb2481ed9b29155440ef5275b8c1d8370626452a27",
+ "site_id": "web-057",
+ "sections": 8,
+ "rules": 295,
+ "report": {
+  "sections": 8,
+  "raw_rules": 243,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "NVIDIA"
+     },
+     "data": {
+      "name": "anonymized data",
+      "text": "it"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "re-identify",
+      "text": "re-identify"
+     },
+     "operation": "identification",
+     "polarity": "DENY",
+     "polarity_text": "will not attempt",
+     "purpose": [],
+     "conditions": [
+      "For Autonomous Vehicle (AV) and Artificial Intelligence (AI) Research and Development",
+      "if anonymized"
+     ],
+     "exceptions": [
+      "permitted by law"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-057#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also exercise your right to erasure at any time",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "exercise your right to erasure at any time"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-057#s8"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 83,
+  "completeness": {
+   "gaps": 134,
+   "gap_words": 1189
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 83,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 16,
+  "cached": 0,
+  "prompt_tokens": 32679,
+  "completion_tokens": 40191,
+  "thinking_tokens": 0,
+  "seconds": 250.03439116477966,
+  "failures": 0
+ },
+ "seconds": 251.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

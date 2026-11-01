@@ -1,0 +1,165 @@
+{
+ "cleaned_sha256": "pg-040",
+ "text_sha256": "141d2e6480eaaf278b65d555f9aacef797837f54688fd0c3667a562e8a6d71c3",
+ "site_id": "pg-040",
+ "sections": 9,
+ "rules": 122,
+ "report": {
+  "sections": 9,
+  "raw_rules": 117,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "To fulfil your travel arrangements and deliver the services you have asked for",
+       "name": "service-provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "To fulfil your travel arrangements and deliver the services you have asked for"
+    ],
+    "section": "pg-040#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "carry out",
+      "verb": "carry out"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Credit and charge card companies, credit reference agencies and anti-fraud screening service providers"
+     },
+     "conditions": [
+      "where necessary"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "to carry out",
+     "purpose": [
+      {
+       "text": "to carry out fraud-screening",
+       "name": "fraud prevention"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-040#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "work with",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "approved partners",
+      "name": "approved partners"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "work with",
+      "verb": "work with"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to deliver relevant content and measure the effectiveness of these advertisements",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-040#s9"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 64,
+  "completeness": {
+   "gaps": 245,
+   "gap_words": 2814
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 64,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 36962,
+  "completion_tokens": 21411,
+  "thinking_tokens": 775,
+  "seconds": 132.31899070739746,
+  "failures": 0
+ },
+ "seconds": 133.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

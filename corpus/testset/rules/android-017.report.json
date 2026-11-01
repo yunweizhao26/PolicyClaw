@@ -1,0 +1,79 @@
+{
+ "cleaned_sha256": "android-017",
+ "text_sha256": "199882208b34ea522d9397a24160caa48616dd7c904b22ec9ca6b3f0b67f01aa",
+ "site_id": "android-017",
+ "sections": 11,
+ "rules": 153,
+ "report": {
+  "sections": 11,
+  "raw_rules": 140,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-017#s6"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 55,
+  "completeness": {
+   "gaps": 159,
+   "gap_words": 1701
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 55,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 36326,
+  "completion_tokens": 24895,
+  "thinking_tokens": 0,
+  "seconds": 188.09169173240662,
+  "failures": 0
+ },
+ "seconds": 188.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

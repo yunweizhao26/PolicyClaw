@@ -1,0 +1,67 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "user data": "communications"
+   },
+   "parents": {
+    "browsing history": [
+     "traffic logs"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "financial details"
+    ],
+    "ip address": [
+     "connection logs"
+    ],
+    "service usage": [
+     "aggregate data"
+    ],
+    "software version": [
+     "system information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service optimization": "service operation and improvement"
+   },
+   "parents": {
+    "analytics": [
+     "service operation and improvement"
+    ],
+    "troubleshooting": [
+     "service operation and improvement"
+    ],
+    "dispute resolution": [
+     "legal assertion or defence"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 3,
+  "cached": 0,
+  "prompt_tokens": 1019,
+  "completion_tokens": 194,
+  "thinking_tokens": 0,
+  "seconds": 4.643488168716431,
+  "failures": 0
+ },
+ "seconds": 4.7
+}

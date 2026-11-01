@@ -1,0 +1,316 @@
+{
+ "cleaned_sha256": "apple-056",
+ "text_sha256": "6d87b5dc583c8718e39fe78bab45c9b59d1edb513ea15abaa47f2d758591dea5",
+ "site_id": "apple-056",
+ "sections": 14,
+ "rules": 391,
+ "report": {
+  "sections": 14,
+  "raw_rules": 301,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "When you close your account"
+     ],
+     "exceptions": [
+      "prohibited by law"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may retain",
+     "purpose": [
+      {
+       "text": "for the purposes authorized under this Privacy Policy and consistent with our data retention policy",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "our data retention policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-056#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may engage in",
+     "actor": {
+      "text": "Yelp",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in “targeted advertising”",
+      "verb": "engage"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "“targeted advertising”",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "UNITED STATES RESIDENTS: YOUR PRIVACY RIGHTS:"
+     ],
+     "exceptions": [
+      "opt-out of targeted behavioral advertising",
+      "Global Privacy Control opt-out signals enabled through your browser in states where we are required to do so by law"
+     ],
+     "references": [
+      {
+       "text": "as that term is defined by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-056#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you are a Quebec resident",
+      "subject to limitations based on applicable law",
+      "the right to access information"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-056#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are a Quebec resident",
+      "subject to limitations based on applicable law",
+      "the right to rectification"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-056#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right of",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are a Quebec resident",
+      "subject to limitations based on applicable law",
+      "the right of erasure"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-056#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are a Quebec resident",
+      "subject to limitations based on applicable law",
+      "the right to restrict processing"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-056#s14"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 120,
+  "completeness": {
+   "gaps": 259,
+   "gap_words": 2773
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 41,
+  "translated_quotes": 120,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 27,
+  "cached": 0,
+  "prompt_tokens": 52562,
+  "completion_tokens": 53757,
+  "thinking_tokens": 0,
+  "seconds": 589.471045255661,
+  "failures": 0
+ },
+ "seconds": 591.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

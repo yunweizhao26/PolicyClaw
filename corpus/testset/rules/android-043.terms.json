@@ -1,0 +1,173 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data"
+   },
+   "parents": {
+    "biometric data": [
+     "sensitive data"
+    ],
+    "child data": [
+     "personal data"
+    ],
+    "contact info": [
+     "personal data"
+    ],
+    "criminal convictions or offences": [
+     "sensitive data"
+    ],
+    "device details": [
+     "device characteristics",
+     "technical data"
+    ],
+    "device identifier": [
+     "device details"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "game data": [
+     "app activity"
+    ],
+    "genetic data": [
+     "sensitive data"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "mobile advertising ID": [
+     "device identifier"
+    ],
+    "name": [
+     "contact info",
+     "personal data"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "political opinions": [
+     "sensitive data"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "racial or ethnic origin": [
+     "sensitive data"
+    ],
+    "religious beliefs": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "sexual orientation": [
+     "sensitive data"
+    ],
+    "trade union membership": [
+     "sensitive data"
+    ],
+    "user id": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "commercial partner": [
+     "partners",
+     "third party"
+    ],
+    "data broker": [
+     "third party"
+    ],
+    "marketing partners": [
+     "commercial partner",
+     "partners",
+     "third party"
+    ],
+    "partners": [
+     "third party",
+     "third-party service providers and partners"
+    ],
+    "third-party service provider": [
+     "third party",
+     "third-party service providers and partners"
+    ],
+    "third-party service providers and partners": [
+     "third party"
+    ],
+    "third-party service providers outside of the UK and the EEA": [
+     "third party",
+     "third-party service provider",
+     "third-party service providers and partners"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "partners": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "advertising networks": [
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party",
+     "third-party service providers and partners"
+    ],
+    "third-party service providers and partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service provision": "provide service",
+    "service_provision": "provide service"
+   },
+   "parents": {
+    "advertising": [
+     "commercial",
+     "marketing"
+    ],
+    "identity verification": [
+     "verification"
+    ],
+    "marketing": [
+     "commercial"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "service optimization": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2499,
+  "completion_tokens": 716,
+  "thinking_tokens": 0,
+  "seconds": 10.321613550186157,
+  "failures": 0
+ },
+ "seconds": 10.4
+}

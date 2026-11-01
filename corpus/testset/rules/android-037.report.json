@@ -1,0 +1,1449 @@
+{
+ "cleaned_sha256": "android-037",
+ "text_sha256": "6ad9b2bce9ba90481d1833359e36ba3dd33ef8bc3038f2bb42db3f9945373c48",
+ "site_id": "android-037",
+ "sections": 19,
+ "rules": 255,
+ "report": {
+  "sections": 19,
+  "raw_rules": 248,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "photos",
+      "text": "photographs"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [
+      {
+       "text": "for the purpose of inviting friends to use the Application",
+       "name": "social networking"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-037#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "contacts",
+      "text": "contacts"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [
+      {
+       "text": "for the purpose of inviting friends to use the Application",
+       "name": "social networking"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-037#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "third-party service providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to help us provide the Application including business analytics, marketing, and other services",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "non-personally identifiable information",
+      "name": "non-personal data"
+     },
+     "recipient": {
+      "text": "unaffiliated partners and third parties (e.g., advertising networks)",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "that wish to market products",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "aggregated, usage information",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "unaffiliated partners and third parties (e.g., advertising networks)",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "that wish to market products",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "geolocation information",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "unaffiliated partners and third parties (e.g., advertising networks)",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "that wish to market products",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "disable the use of location services for the Application in the device’s settings menu"
+     ],
+     "references": [
+      {
+       "text": "Section 6 “Your Choices About Your Information” of this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "device-level information",
+      "name": "device-level information"
+     },
+     "recipient": {
+      "text": "unaffiliated partners and third parties (e.g., advertising networks)",
+      "name": "partner"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "that wish to market products",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to comply with a law, regulation, legal process, or governmental request",
+       "name": "legal compliance"
+      },
+      {
+       "text": "to protect the safety of any person",
+       "name": "protection of rights"
+      },
+      {
+       "text": "to address fraud, security or technical issues",
+       "name": "fraud and risk management"
+      },
+      {
+       "text": "to protect our or our users’ rights or property",
+       "name": "protection of rights"
+      }
+     ],
+     "conditions": [
+      "if we believe that it is reasonably necessary"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-037#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "real name",
+      "name": "name"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "alias",
+      "name": "alias"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "postal address",
+      "name": "postal address"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "device identifier",
+      "name": "device identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "cookies",
+      "name": "cookie data"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "beacons",
+      "name": "web beacon data"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "pixel tags",
+      "name": "pixel tag data"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "mobile ad identifiers",
+      "name": "advertising identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "customer number",
+      "name": "account identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "unique pseudonym",
+      "name": "pseudonym"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "user alias",
+      "name": "alias"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "telephone number",
+      "name": "phone number"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other forms of persistent or probabilistic identifiers",
+      "name": "device identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "online identifier",
+      "name": "online identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Internet Protocol address",
+      "name": "ip address"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "account name",
+      "name": "account identifier"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other similar identifiers",
+      "name": "other"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Internet and other electronic network activity information",
+      "name": "browsing history"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "browsing history",
+      "name": "browsing history"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "search history",
+      "name": "search history"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information regarding your interaction with websites, applications or advertisements",
+      "name": "interaction data"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "audio, electronic, visual, and similar information",
+      "name": "audio video data"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "have disclosed",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "inferences drawn from any of the information identified above to create a profile about you reflecting your preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes",
+      "name": "inferences"
+     },
+     "recipient": {
+      "text": "one or more third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "FOR A BUSINESS PURPOSE",
+       "name": "business purpose"
+      }
+     ],
+     "conditions": [
+      "In the preceding 12 months",
+      "personal information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have disclosed"
+    ],
+    "section": "android-037#s8"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 72,
+  "completeness": {
+   "gaps": 171,
+   "gap_words": 1699
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 72,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 55320,
+  "completion_tokens": 49055,
+  "thinking_tokens": 0,
+  "seconds": 322.85142493247986,
+  "failures": 0
+ },
+ "seconds": 324.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

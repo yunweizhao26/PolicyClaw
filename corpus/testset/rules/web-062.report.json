@@ -1,0 +1,482 @@
+{
+ "cleaned_sha256": "web-062",
+ "text_sha256": "47b01e9773b32141e77daa26a3ae27ba3bdb2469f071f6ecd83ac08a6405cb77",
+ "site_id": "web-062",
+ "sections": 37,
+ "rules": 610,
+ "report": {
+  "sections": 37,
+  "raw_rules": 513,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "assisting us in delivering our contests, sweepstakes, or survey offerings and processing the responses",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "third parties who assist us in delivering our contests, sweepstakes, or survey offerings and processing the responses"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "assisting us in delivering our contests, sweepstakes, or survey offerings and processing the responses"
+    ],
+    "section": "web-062#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "assisting us in providing our customer services and facilitating our communications with individuals that submit inquiries",
+       "name": "customer support"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "third parties who assist us in providing our customer services and facilitating our communications with individuals that submit inquiries"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "assisting us in providing our customer services and facilitating our communications with individuals that submit inquiries"
+    ],
+    "section": "web-062#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "lifecycle deletion",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "after up to 180 days"
+     ],
+     "data": {
+      "name": "transcript",
+      "text": "Full-Text Transcripts"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "automated lifecycle deletion",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "after up to 180 days"
+    ],
+    "section": "web-062#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "actor": {
+      "text": "Palo Alto Networks",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [
+      {
+       "text": "to comply with applicable law",
+       "name": "legal compliance"
+      },
+      {
+       "text": "for the purposes for which it was collected or authorized by individuals",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "for a reasonable period of time necessary to comply with applicable law, in accordance with our document retention practice, and in a manner that is compatible with and relevant to the purposes for which it was collected or authorized by individuals"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "in accordance with our document retention practice",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for the purposes for which it was collected or authorized by individuals"
+    ],
+    "section": "web-062#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosures we provide",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "will only cover the 12-month period preceding the verifiable consumer request’s receipt"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "if you specifically request disclosure beyond such 12-month period"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "disclosures we provide",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s19"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage in profiling",
+      "verb": "profile"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "in furtherance of decisions that produce legal or similarly significant effects concerning a consumer",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "tracking",
+     "actor": {
+      "text": "mobile advertising companies and other similar entities",
+      "name": "advertising networks"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "tracking",
+      "verb": "track"
+     },
+     "operation": "recording",
+     "purpose": [],
+     "conditions": [
+      "on your mobile device"
+     ],
+     "exceptions": [
+      "downloading the App Choices app at www.aboutads.info/appchoices or use the DAA’s CCPA App-based Opt-Out Tool"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Creates",
+     "actor": {
+      "text": "Adobe Launch",
+      "name": "Adobe Launch"
+     },
+     "data": {
+      "text": "interim session ID",
+      "name": "session id"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Creates",
+      "verb": "create"
+     },
+     "operation": "creation",
+     "purpose": [
+      {
+       "text": "used as an in-session user ID",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-062#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Delivers",
+     "actor": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "individuals who visit our websites",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "Delivers",
+      "verb": "deliver"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "Delivers targeted advertisements to individuals who visit our websites",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "where prohibited"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "Allows",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "engage with",
+      "verb": "engage with"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "with a user that has previously visited our site"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s36"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "enables",
+     "actor": {
+      "text": "ShareThis",
+      "name": "ShareThis"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "social media sites",
+      "name": "social network"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "dissemination or otherwise making available",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-062#s36"
+   }
+  ],
+  "residual_quotes": 61,
+  "quotes": 216,
+  "completeness": {
+   "gaps": 654,
+   "gap_words": 6404
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 18,
+  "translated_quotes": 216,
+  "compile_failures": 14,
+  "fixed_structurally": 3,
+  "fixed_by_call": 11
+ },
+ "usage": {
+  "calls": 75,
+  "cached": 0,
+  "prompt_tokens": 132977,
+  "completion_tokens": 96206,
+  "thinking_tokens": 576,
+  "seconds": 929.4801054000854,
+  "failures": 0
+ },
+ "seconds": 932.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

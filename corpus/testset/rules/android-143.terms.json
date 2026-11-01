@@ -1,0 +1,263 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account identifier": "account id",
+    "crash-reporting information": "crash data",
+    "other installed apps": "other installed applications",
+    "payment amount": "amount paid",
+    "payment data": "billing information",
+    "payment details": "billing information",
+    "payment information": "billing information",
+    "personally identifiable information": "personal data",
+    "postal address": "billing address",
+    "single sign on information": "authentication data",
+    "single sign-on credentials": "authentication data",
+    "sso credential": "authentication data",
+    "transaction amount": "amount paid",
+    "unique device identifier": "device unique identifiers",
+    "unique identifiers": "unique identifier",
+    "user activity data": "user activity"
+   },
+   "parents": {
+    "account id": [
+     "account details",
+     "crm identifier",
+     "user identifier"
+    ],
+    "amount paid": [
+     "billing information"
+    ],
+    "app interactions": [
+     "app usage data"
+    ],
+    "app usage data": [
+     "usage data"
+    ],
+    "authentication data": [
+     "account details"
+    ],
+    "billing address": [
+     "billing information"
+    ],
+    "camera data": [
+     "microphone and camera and speech recognition data"
+    ],
+    "child age": [
+     "your or your child's information"
+    ],
+    "child first name": [
+     "first name",
+     "your or your child's information"
+    ],
+    "contact email": [
+     "contact information",
+     "email address",
+     "parent email address"
+    ],
+    "contact information": [
+     "customer information",
+     "user information",
+     "your or your child's information"
+    ],
+    "crm identifier": [
+     "unique identifier"
+    ],
+    "customer information": [
+     "information",
+     "personal data"
+    ],
+    "customer service communication": [
+     "customer information"
+    ],
+    "date of birth": [
+     "your or your child's information"
+    ],
+    "device information": [
+     "information"
+    ],
+    "device unique identifiers": [
+     "device information",
+     "persistent identifiers",
+     "unique identifier"
+    ],
+    "disability info": [
+     "health information"
+    ],
+    "email address": [
+     "account details",
+     "contact information",
+     "customer service communication"
+    ],
+    "first name": [
+     "customer service communication",
+     "name"
+    ],
+    "gender": [
+     "your or your child's information"
+    ],
+    "health information": [
+     "your or your child's information"
+    ],
+    "last name": [
+     "customer service communication",
+     "name"
+    ],
+    "name": [
+     "contact information",
+     "customer service communication"
+    ],
+    "parent email address": [
+     "account details",
+     "contact information",
+     "email address"
+    ],
+    "password": [
+     "account details"
+    ],
+    "payment card number": [
+     "billing information"
+    ],
+    "billing information": [
+     "customer information",
+     "purchase history"
+    ],
+    "personal data": [
+     "information"
+    ],
+    "purchase history": [
+     "app usage data",
+     "user activity"
+    ],
+    "race": [
+     "your or your child's information"
+    ],
+    "screenshot": [
+     "photo"
+    ],
+    "social media post": [
+     "social media data"
+    ],
+    "subscription details": [
+     "purchase history"
+    ],
+    "unique identifier": [
+     "device information"
+    ],
+    "usage data": [
+     "information"
+    ],
+    "user activity": [
+     "app usage data"
+    ],
+    "user identifier": [
+     "unique identifier"
+    ],
+    "user information": [
+     "information",
+     "personal data"
+    ],
+    "user name": [
+     "name",
+     "social media data"
+    ],
+    "your or your child's information": [
+     "information",
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "service providers": "service provider",
+    "third party networks": "third party advertising network",
+    "third-party ad network": "third party advertising network"
+   },
+   "parents": {
+    "Originator Inc": [
+     "affiliates"
+    ],
+    "Spin Master Ltd.": [
+     "affiliates"
+    ],
+    "Spin Master Toys UK Limited": [
+     "affiliates"
+    ],
+    "Toca Boca AB": [
+     "affiliates"
+    ],
+    "Swedish Authority for Privacy Protection": [
+     "authorities"
+    ],
+    "third party advertising network": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "partner": [
+     "third parties"
+    ],
+    "contractors": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "AppsFlyer": [
+     "service providers"
+    ],
+    "Google": [
+     "service providers"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "contractual service delivery": "contractual necessity",
+    "debugging": "app performance",
+    "service provision": "provide service",
+    "technical operations": "ensure technical functionality",
+    "troubleshooting": "app performance",
+    "user profiling": "profiling"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "marketing analytics": [
+     "analytics",
+     "marketing"
+    ],
+    "performance monitoring": [
+     "analytics"
+    ],
+    "app performance": [
+     "service operation"
+    ],
+    "ensure technical functionality": [
+     "service operation"
+    ],
+    "contractual necessity": [
+     "provide service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2648,
+  "completion_tokens": 1469,
+  "thinking_tokens": 0,
+  "seconds": 13.898411989212036,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

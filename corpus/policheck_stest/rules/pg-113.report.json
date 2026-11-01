@@ -1,0 +1,201 @@
+{
+ "cleaned_sha256": "pg-113",
+ "text_sha256": "a1ea0adadfcb4d165d8617e3662b0a93064670b8543551885dd47ee9a04dcc24",
+ "site_id": "pg-113",
+ "sections": 14,
+ "rules": 418,
+ "report": {
+  "sections": 14,
+  "raw_rules": 350,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Analytics & Sponsorship Services"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may include",
+     "purpose": [
+      {
+       "text": "to enable interest-based sponsorship",
+       "name": "ad-targeting"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "supply-side platforms or services (working with us)"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-113#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "third party",
+      "text": "Analytics & Sponsorship Services"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "information"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may include",
+     "purpose": [
+      {
+       "text": "to enable interest-based sponsorship",
+       "name": "ad-targeting"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "demand-side platforms or services (working with us and sponsors)"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-113#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [],
+     "data": {
+      "name": "aggregated or non-personally identifiable information",
+      "text": "such information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "to help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "service providers or vendors that help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content"
+    ],
+    "section": "pg-113#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collection",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "service provider",
+      "text": "service providers or vendors that help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content"
+     },
+     "conditions": [],
+     "data": {
+      "name": "aggregated or non-personally identifiable information",
+      "text": "such information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "authorize",
+     "purpose": [
+      {
+       "text": "to help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content",
+       "name": "analytics"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help us analyze and improve our Services, provide us and other digital media organizations with ratings and ranking data, or help us to create personalized content"
+    ],
+    "section": "pg-113#s10"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 105,
+  "completeness": {
+   "gaps": 297,
+   "gap_words": 3412
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 105,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 56956,
+  "completion_tokens": 62429,
+  "thinking_tokens": 0,
+  "seconds": 344.2873854637146,
+  "failures": 0
+ },
+ "seconds": 346.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

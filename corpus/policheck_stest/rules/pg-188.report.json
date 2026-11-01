@@ -1,0 +1,1773 @@
+{
+ "cleaned_sha256": "pg-188",
+ "text_sha256": "6114ddaebadfd9a7ec953a7231ae5f820096ad16fb9acc6fbc6de58ca2ec7ed7",
+ "site_id": "pg-188",
+ "sections": 5,
+ "rules": 47,
+ "report": {
+  "sections": 5,
+  "raw_rules": 36,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are able to access",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information about you",
+      "name": "certain information about you"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "that social network",
+      "name": "social network"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "{'text': 'consultation', 'verb': 'consult'}",
+     "purpose": [],
+     "conditions": [
+      "If you sign into one of our Apps through a social network and your privacy features on your social network allow it"
+     ],
+     "exceptions": [
+      "do not sign into any of our Apps through your social network"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "types of data that are necessary for our Apps to provide the requested functionality, like the Facebook ID",
+      "name": "Facebook ID"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "for our Apps to provide the requested functionality",
+       "name": "provide requested functionality"
+      }
+     ],
+     "conditions": [
+      "only"
+     ],
+     "exceptions": [
+      "do not sign into any of our Apps through your social network"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will determine",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your geographical location on a country and city level",
+      "name": "geographical location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "determine",
+      "verb": "determine"
+     },
+     "operation": "{'text': 'profiling', 'verb': 'profile'}",
+     "purpose": [],
+     "conditions": [
+      "Based on the IP-address"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is used",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "This",
+      "name": "geographical location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "to provide you with localized game experiences",
+       "name": "provide localized game experiences"
+      }
+     ],
+     "conditions": [
+      "in Games"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be transferred to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "companies inside and outside the EU that we engaged with to provide services to us",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'verb': 'disclose'}",
+     "purpose": [
+      {
+       "text": "to provide services to us",
+       "name": "provide services to first party"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'verb': 'collect'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Usage Data",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'verb': 'collect'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "unique device identifiers for advertising (Google Advertiser ID or IDFA, for example)",
+      "name": "device identifier for advertising"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'verb': 'collect'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Geographical location on a country and city level",
+      "name": "geographical location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'verb': 'collect'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collected",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Usage Data",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'verb': 'collect'}",
+     "purpose": [],
+     "conditions": [
+      "automatically when using our apps"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "our Apps",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "providing the Service required by the User",
+       "name": "provide requested service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "in addition to any other purposes described in the present document",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "our Apps",
+      "name": "first party"
+     },
+     "data": {
+      "text": "other tracking tools",
+      "name": "tracking technologies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "providing the Service required by the User",
+       "name": "provide requested service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "in addition to any other purposes described in the present document",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "the owners of third-party services used by our Apps",
+      "name": "third party"
+     },
+     "data": {
+      "text": "Cookies",
+      "name": "cookies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "providing the Service required by the User",
+       "name": "provide requested service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "in addition to any other purposes described in the present document",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "the owners of third-party services used by our Apps",
+      "name": "third party"
+     },
+     "data": {
+      "text": "other tracking tools",
+      "name": "tracking technologies"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'verb': 'use'}",
+     "purpose": [
+      {
+       "text": "providing the Service required by the User",
+       "name": "provide requested service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "in addition to any other purposes described in the present document",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be accessible to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "certain types of persons in charge, involved with the operation of the Apps (administration, sales, marketing, legal, system administration)",
+      "name": "employee"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "accessible",
+      "verb": "access"
+     },
+     "operation": "{'text': 'consultation', 'verb': 'consult'}",
+     "purpose": [],
+     "conditions": [
+      "in some cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be accessible to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "the Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner",
+      "name": "data processor"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "accessible",
+      "verb": "access"
+     },
+     "operation": "{'text': 'consultation', 'verb': 'consult'}",
+     "purpose": [],
+     "conditions": [
+      "in some cases"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may process",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data relating to Users",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'verb': 'process'}",
+     "purpose": [],
+     "conditions": [
+      "Users have given their consent for one or more specific purposes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-188#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "asked",
+      "verb": "ask"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "By default"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "asked",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Facebook permissions documentation",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Facebook privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "User’s"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "asked",
+      "verb": "ask"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "By default"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "asked",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Facebook permissions documentation",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Facebook privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "User’s"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "asked",
+      "verb": "ask"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "By default"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "asked",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Facebook permissions documentation",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Facebook privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "Provides access to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "consultation",
+     "polarity": "ALLOW",
+     "polarity_text": "Provides access",
+     "purpose": [],
+     "recipient": {
+      "name": "first party",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Facebook permissions documentation",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Facebook privacy policy",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "User's"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Access to third-party accounts",
+       "name": "Access to third-party accounts"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Advertising",
+       "name": "Advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Analytics",
+       "name": "Analytics"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Content performance and features testing (A/B testing)",
+       "name": "Content performance and features testing (A/B testing)"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Hosting and backend infrastructure",
+       "name": "Hosting and backend infrastructure"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Infrastructure monitoring",
+       "name": "Infrastructure monitoring"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Managing contacts and sending messages",
+       "name": "Managing contacts and sending messages"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [
+      {
+       "text": "Registration and authentication",
+       "name": "Registration and authentication"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "where they have previously given their consent to the processing of their Personal Data"
+     ],
+     "exceptions": [
+      "Withdraw their consent at any time"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "if the processing is carried out on a legal basis other than consent"
+     ],
+     "exceptions": [
+      "Object to processing of their Data"
+     ],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "dedicated section below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "Users have the right to learn if Data is being processed by the Owner"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "is being processed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "obtain disclosure regarding certain aspects of the processing"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "Users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "copy",
+      "verb": "copy"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "obtain a copy of the Data undergoing processing"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "Users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "updated",
+      "verb": "update"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "ask for it to be updated"
+     ],
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "ask for it to be updated",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "corrected",
+      "verb": "correct"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "corrected"
+     ],
+     "exceptions": [],
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "ask for it to be corrected",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "restrict the processing of",
+      "verb": "restrict"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "Users have the right, under certain circumstances, to restrict the processing of their Data"
+     ],
+     "exceptions": [],
+     "operation": "restriction",
+     "polarity": "ALLOW",
+     "polarity_text": "restrict",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "In this case"
+     ],
+     "exceptions": [
+      "storing it"
+     ],
+     "operation": "processing",
+     "polarity": "DENY",
+     "polarity_text": "will not process",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "storing",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "In this case"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "storing",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "it"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "Users have the right, under certain circumstances, to obtain the erasure of their Data from the Owner"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "obtain",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "provided that the Data is processed by automated means and that the processing is based on the User's consent, on a contract which the User is part of or on pre-contractual obligations thereof"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to receive",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "Users"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transmitted",
+      "verb": "transmit"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "if technically feasible",
+      "provided that the Data is processed by automated means and that the processing is based on the User's consent, on a contract which the User is part of or on pre-contractual obligations thereof"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to",
+     "purpose": [],
+     "recipient": {
+      "name": "another controller",
+      "text": "another controller"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Owner"
+     },
+     "conditions": [
+      "Users may instruct the Owner to delete their personal data either by contacting them through the contact details provided in this document or by following these steps:\nOpen the game,\nAccess the settings menu by tapping the settings icon (Usually a gear icon or three horizontal lines on the top of the screen),\nAccess the privacy settings by tapping the privacy button,\nTap on \"Change Consent\" and \"Delete Data\", then confirm the action"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "their"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Tap on \"Change Consent\" and \"Delete Data\", then confirm the action"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will be deleted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "your"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "deleted",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "Tap on \"Change Consent\" and \"Delete Data\", then confirm the action"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will be deleted",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "your"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "under the minimum age requirements below"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "do not to our knowledge collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "ask for",
+      "verb": "ask for"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "under the minimum age requirements below"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "do not to our knowledge",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "serve",
+      "verb": "serve"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "under the minimum age requirements below"
+     ],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "do not to our knowledge",
+     "purpose": [],
+     "recipient": {
+      "name": "any person",
+      "text": "any person"
+     },
+     "references": [
+      {
+       "text": "below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-188#s4"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 33,
+  "completeness": {
+   "gaps": 161,
+   "gap_words": 2162
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 33,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16037,
+  "completion_tokens": 13035,
+  "thinking_tokens": 0,
+  "seconds": 75.10917067527771,
+  "failures": 0
+ },
+ "seconds": 75.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

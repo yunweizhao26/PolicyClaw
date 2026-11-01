@@ -1,0 +1,170 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data"
+   },
+   "parents": {
+    "IP address": [
+     "Personal Data"
+    ],
+    "credit card number": [
+     "credit card data",
+     "payment card number"
+    ],
+    "credit card data": [
+     "Personal Data"
+    ],
+    "email address": [
+     "Personal Data"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "phone number": [
+     "Personal Data"
+    ],
+    "postal address": [
+     "Personal Data"
+    ],
+    "social media account identifier": [
+     "Personal Data"
+    ],
+    "comments": [
+     "user reviews",
+     "user-generated content"
+    ],
+    "testimonial": [
+     "user reviews"
+    ],
+    "user reviews": [
+     "Personal Data",
+     "user-generated content"
+    ],
+    "browsing activity": [
+     "browsing history"
+    ],
+    "click-stream data": [
+     "data"
+    ],
+    "content data": [
+     "data"
+    ],
+    "Personal Data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user-generated content": [
+     "content data"
+    ],
+    "user inquiry": [
+     "data"
+    ],
+    "information related to how the Customer Contact interacts with the Certain Services they choose to use": [
+     "data"
+    ],
+    "other information provided by the Customer Contact": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "our Customer": "customers",
+    "third party": "third parties"
+   },
+   "parents": {
+    "credit card processor": [
+     "service providers",
+     "third parties",
+     "third party payment processors"
+    ],
+    "third party payment processors": [
+     "service providers",
+     "third parties"
+    ],
+    "service providers": [
+     "third parties"
+    ],
+    "business partner": [
+     "third parties"
+    ],
+    "public authorities": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Customer Contact": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "customers": "customer",
+    "our Customer": "customer"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "social media features": [
+     "third party"
+    ],
+    "suppliers, service providers, and other third parties": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service delivery": "providing service",
+    "service provision": "providing service"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "order fulfillment": [
+     "services"
+    ],
+    "payment processing": [
+     "processing"
+    ],
+    "providing service": [
+     "services"
+    ],
+    "service improving": [
+     "service operation"
+    ],
+    "service personalising": [
+     "service operation"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2050,
+  "completion_tokens": 897,
+  "thinking_tokens": 0,
+  "seconds": 11.016112565994263,
+  "failures": 0
+ },
+ "seconds": 11.1
+}

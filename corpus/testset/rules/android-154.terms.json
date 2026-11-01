@@ -1,0 +1,98 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "website submitted information": "customer provided information"
+   },
+   "parents": {
+    "account information": [
+     "customer information",
+     "user data"
+    ],
+    "cookies": [
+     "visitor information"
+    ],
+    "customer information": [
+     "user data"
+    ],
+    "customer provided information": [
+     "customer information",
+     "user data"
+    ],
+    "email address": [
+     "personally identifiable data",
+     "user data"
+    ],
+    "financial information": [
+     "customer information",
+     "user data"
+    ],
+    "income": [
+     "financial information",
+     "personally identifiable data",
+     "user data"
+    ],
+    "name": [
+     "personally identifiable data",
+     "user data"
+    ],
+    "nominee details": [
+     "customer information",
+     "user data"
+    ],
+    "passport number": [
+     "personally identifiable data",
+     "user data"
+    ],
+    "personally identifiable data": [
+     "user data"
+    ],
+    "postal address": [
+     "personally identifiable data",
+     "user data"
+    ],
+    "tax identification number": [
+     "financial information",
+     "personally identifiable data",
+     "user data"
+    ],
+    "visitor information": [
+     "user data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "product improvement": [
+     "operations"
+    ],
+    "security": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 639,
+  "completion_tokens": 367,
+  "thinking_tokens": 0,
+  "seconds": 4.774954080581665,
+  "failures": 0
+ },
+ "seconds": 4.8
+}

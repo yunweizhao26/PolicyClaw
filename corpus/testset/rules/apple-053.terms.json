@@ -1,0 +1,591 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "claim status information": "claim status",
+    "contact information": "contact details",
+    "device details": "Device details",
+    "information": "data",
+    "payment information": "payment details",
+    "photos": "photograph",
+    "preferences": "preference",
+    "reviews": "review",
+    "screen name": "display name",
+    "sensitive personal data": "sensitive data",
+    "telephone number": "phone number"
+   },
+   "parents": {
+    "account activity data": [
+     "account details"
+    ],
+    "account details": [
+     "personal data"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "online identifier"
+    ],
+    "age": [
+     "protected classifications"
+    ],
+    "alias": [
+     "name"
+    ],
+    "application performance data": [
+     "electronic network activity"
+    ],
+    "associated payment information": [
+     "payment details"
+    ],
+    "audience insights": [
+     "profile or inferred information"
+    ],
+    "authentication credential": [
+     "log-in details"
+    ],
+    "avatar": [
+     "photograph"
+    ],
+    "bank account number": [
+     "financial details"
+    ],
+    "behavioral data": [
+     "electronic network activity"
+    ],
+    "behavioral data gathered through cookies and other tracking technologies when travelers engage with our platform": [
+     "behavioral data"
+    ],
+    "billing address": [
+     "postal address"
+    ],
+    "booking details": [
+     "personal data"
+    ],
+    "browsing activity": [
+     "electronic network activity"
+    ],
+    "browsing behavior": [
+     "behavioral data"
+    ],
+    "browsing history": [
+     "browsing behavior"
+    ],
+    "call audio": [
+     "communications data"
+    ],
+    "call recordings": [
+     "call audio"
+    ],
+    "call transcript": [
+     "communications data"
+    ],
+    "claim status": [
+     "insurance claim details"
+    ],
+    "clickstream data": [
+     "electronic network activity"
+    ],
+    "communication contents": [
+     "communications data"
+    ],
+    "communications data": [
+     "personal data"
+    ],
+    "consumer report": [
+     "financial data"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "cookie data": [
+     "electronic network activity"
+    ],
+    "cookies": [
+     "cookie data"
+    ],
+    "credit card details": [
+     "payment details"
+    ],
+    "credit card number": [
+     "credit card details"
+    ],
+    "customer or claimant records": [
+     "personal data"
+    ],
+    "date of birth": [
+     "date and place of birth"
+    ],
+    "date and time stamp": [
+     "metadata"
+    ],
+    "device identifier": [
+     "identifier",
+     "online identifier"
+    ],
+    "Device details": [
+     "personal data"
+    ],
+    "driver's license information": [
+     "identification document details"
+    ],
+    "driver's license number": [
+     "driver's license information",
+     "government identification number"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "family structure": [
+     "personal data"
+    ],
+    "financial data": [
+     "personal data"
+    ],
+    "financial details": [
+     "financial data"
+    ],
+    "financial transaction": [
+     "financial data"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "first name": [
+     "name"
+    ],
+    "gender": [
+     "protected classifications"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "government identification number": [
+     "identifier"
+    ],
+    "government identifiers": [
+     "identifier"
+    ],
+    "government-issued identification number": [
+     "government identification number"
+    ],
+    "health or medical information": [
+     "sensitive data"
+    ],
+    "home address": [
+     "postal address"
+    ],
+    "identification document details": [
+     "identification document",
+     "identity and verification information"
+    ],
+    "identity and verification information": [
+     "personal data"
+    ],
+    "insurance claim details": [
+     "insurance information"
+    ],
+    "insurance purchase information": [
+     "insurance information"
+    ],
+    "interaction data": [
+     "electronic network activity"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "job title": [
+     "professional and employment information"
+    ],
+    "language settings": [
+     "personal settings"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "marital status": [
+     "protected classifications"
+    ],
+    "metadata": [
+     "data"
+    ],
+    "motor vehicle record": [
+     "customer or claimant records"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "name of family member": [
+     "name"
+    ],
+    "name of other person": [
+     "name"
+    ],
+    "national id number": [
+     "government identification number"
+    ],
+    "online identifier": [
+     "identifier"
+    ],
+    "operating system": [
+     "Device details"
+    ],
+    "order history": [
+     "purchase history"
+    ],
+    "passport": [
+     "identification document"
+    ],
+    "passport information": [
+     "identification document details"
+    ],
+    "passport number": [
+     "government identification number",
+     "passport information"
+    ],
+    "payment details": [
+     "financial details"
+    ],
+    "personal settings": [
+     "preference"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "user-provided content"
+    ],
+    "physical address": [
+     "location"
+    ],
+    "place of birth": [
+     "date and place of birth"
+    ],
+    "policy number": [
+     "insurance information"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "precise location": [
+     "geographic location"
+    ],
+    "profile or inferred information": [
+     "personal data"
+    ],
+    "public posts": [
+     "user-provided content"
+    ],
+    "purchase history": [
+     "personal data"
+    ],
+    "ratings and reviews": [
+     "review"
+    ],
+    "referrer URL": [
+     "browsing activity"
+    ],
+    "relationship to policyholder": [
+     "insurance information"
+    ],
+    "reservation confirmation": [
+     "reservation details"
+    ],
+    "reservation history": [
+     "travel history"
+    ],
+    "review": [
+     "user-provided content"
+    ],
+    "reviews travelers shared with us about their trip experience": [
+     "review"
+    ],
+    "salary": [
+     "financial data",
+     "professional and employment information"
+    ],
+    "saved items": [
+     "user data"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "search queries": [
+     "search history"
+    ],
+    "searches travelers made on our websites and mobile apps": [
+     "search history"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "social media account": [
+     "online identifier"
+    ],
+    "social security number": [
+     "government identification number"
+    ],
+    "tax identification number": [
+     "government identification number"
+    ],
+    "the details of one or more of these reservations": [
+     "reservation details"
+    ],
+    "transaction details from completed trips": [
+     "financial transaction"
+    ],
+    "travel companions": [
+     "travel history"
+    ],
+    "travel dates": [
+     "reservation details"
+    ],
+    "travel history": [
+     "personal data"
+    ],
+    "travel preferences": [
+     "preference"
+    ],
+    "travel purpose": [
+     "reservation details"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "unique identifiers": [
+     "identifier"
+    ],
+    "unique personal identifier": [
+     "identifier"
+    ],
+    "user preferences": [
+     "preference"
+    ],
+    "user reviews": [
+     "review"
+    ],
+    "user submitted content": [
+     "user-provided content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "law enforcement bodies": "law enforcement",
+    "public authorities regulators and government bodies": "government agency",
+    "social network": "social media platform"
+   },
+   "parents": {
+    "BDIS": [
+     "Booking.com entities"
+    ],
+    "Booking.com Distribution B.V.": [
+     "Booking.com entities"
+    ],
+    "Booking.com entities": [
+     "affiliate"
+    ],
+    "car rental company": [
+     "trip provider"
+    ],
+    "trip provider": [
+     "business partner"
+    ],
+    "internal staff": [
+     "first party"
+    ],
+    "advertising network": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "business partner",
+     "third party"
+    ],
+    "strategic partner": [
+     "business partner",
+     "third party"
+    ],
+    "insurer providing the policy": [
+     "insurance provider"
+    ],
+    "insurance provider": [
+     "business partner",
+     "third party"
+    ],
+    "Imprint Payments": [
+     "service provider"
+    ],
+    "analytics provider": [
+     "service provider"
+    ],
+    "agent or broker": [
+     "service provider"
+    ],
+    "third-party administrators of claims": [
+     "service provider"
+    ],
+    "vetting and risk management agencies": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "government agency"
+    ],
+    "regulatory authorities": [
+     "government agency"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "legal advisers claims adjusters and claims investigators": [
+     "third party"
+    ],
+    "medical professionals": [
+     "third party"
+    ],
+    "parties related to the provider": [
+     "third party"
+    ],
+    "other parties retained by Booking.com": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "public sources": "from publicly available sources (such as media reports or social media platforms)",
+    "third party": "third parties"
+   },
+   "parents": {
+    "from publicly available sources (such as media reports or social media platforms)": [
+     "other sources"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social media and marketing partners": [
+     "third parties"
+    ],
+    "the insurer": [
+     "third parties"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Booking.com Distribution B.V.": "BDBV"
+   },
+   "parents": {
+    "BDBV": [
+     "first party"
+    ],
+    "BDIS": [
+     "first party"
+    ],
+    "car rental companies": [
+     "car rental, private, or public transportation companies",
+     "company/companies supplying your car and/or related products",
+     "suppliers"
+    ],
+    "car rental, private, or public transportation companies": [
+     "trip providers"
+    ],
+    "company/companies supplying your car and/or related products": [
+     "suppliers"
+    ],
+    "strategic partner": [
+     "business partners",
+     "partner"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "payment service provider": [
+     "third party"
+    ],
+    "claims adjuster": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "suppliers": [
+     "third party"
+    ],
+    "trip providers": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "dispute_resolution": "dispute resolution",
+    "fraud prevention and detection": "fraud prevention",
+    "fraud-detection": "fraud prevention",
+    "legal compliance": "legal",
+    "legal-requirement": "legal",
+    "marketing or advertising": "marketing",
+    "operations": "business operations",
+    "security": "safety and security",
+    "service-provision": "service provision",
+    "service_provision": "service provision",
+    "verification": "identity verification"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "internal analytics": [
+     "analytics"
+    ],
+    "service optimization and analytics": [
+     "analytics"
+    ],
+    "service_improvement": [
+     "product development"
+    ],
+    "product development": [
+     "research and development"
+    ],
+    "service customization": [
+     "personalization"
+    ],
+    "account-management": [
+     "service provision"
+    ],
+    "fulfilment": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "payment processing": [
+     "payment-billing"
+    ],
+    "identity verification": [
+     "safety and security"
+    ],
+    "fraud prevention": [
+     "safety and security"
+    ],
+    "law enforcement": [
+     "legal"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 5152,
+  "completion_tokens": 2556,
+  "thinking_tokens": 0,
+  "seconds": 19.72490382194519,
+  "failures": 0
+ },
+ "seconds": 19.8
+}

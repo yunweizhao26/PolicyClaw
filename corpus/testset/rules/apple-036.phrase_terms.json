@@ -1,0 +1,244 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Contact information (e.g. email, name)": "Contact information",
+    "Device identifiers (e.g. advertising ID)": "Device identifiers",
+    "Device identifiers (e.g. advertising ID, device ID)": "Device identifiers",
+    "Device identifiers (e.g. device ID, advertising ID)": "Device identifiers",
+    "IP addresses": "IP address",
+    "Third-party ID (e.g. Firebase ID)": "Third-party ID",
+    "Third-party ID (e.g. Firebase ID, Adjust ID)": "Third-party ID",
+    "Usage data": "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)",
+    "device & ads identifiers": "Device identifiers",
+    "email": "e-mail",
+    "email address": "e-mail",
+    "information": "data",
+    "operating system name and its version": "operating system",
+    "personal information": "personal data",
+    "push notifications token": "push notification token",
+    "user id": "User ID",
+    "your name": "name",
+    "your personal data": "personal data",
+    "your personal information": "personal data"
+   },
+   "parents": {
+    "Adjust ID": [
+     "Device identifiers",
+     "Third-party ID"
+    ],
+    "Firebase ID": [
+     "Device identifiers",
+     "Third-party ID"
+    ],
+    "IDFV": [
+     "Device identifiers"
+    ],
+    "device ID": [
+     "Device identifiers"
+    ],
+    "advertising ID (IDFA, AAID)": [
+     "Device identifiers"
+    ],
+    "e-mail": [
+     "Contact information"
+    ],
+    "name": [
+     "Contact information"
+    ],
+    "country or city-level location inferred from your IP address": [
+     "Approximate location data"
+    ],
+    "RAM": [
+     "Non-identifying data about your device"
+    ],
+    "browser type": [
+     "Non-identifying data about your device"
+    ],
+    "device manufacturer": [
+     "Non-identifying data about your device"
+    ],
+    "device model": [
+     "Non-identifying data about your device"
+    ],
+    "device performance information": [
+     "Non-identifying data about your device"
+    ],
+    "device type": [
+     "Non-identifying data about your device"
+    ],
+    "language": [
+     "Non-identifying data about your device"
+    ],
+    "locale": [
+     "Non-identifying data about your device"
+    ],
+    "operating system": [
+     "Non-identifying data about your device"
+    ],
+    "platform": [
+     "Non-identifying data about your device"
+    ],
+    "screen size": [
+     "Non-identifying data about your device"
+    ],
+    "time zone": [
+     "Non-identifying data about your device"
+    ],
+    "app version": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "crash logs (errors, bugs)": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "features you have used": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "session length": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "your game progress": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "your in-app purchase history": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "your interaction with advertisements (including clicks, views, impressions)": [
+     "Usage Data (e.g. game progress, the date and time you used a Service, session length, features you have used, app version, crash logs)"
+    ],
+    "currency": [
+     "Purchase data"
+    ],
+    "list of purchased items": [
+     "Purchase data"
+    ],
+    "purchase date and time": [
+     "Purchase data"
+    ],
+    "transaction ID": [
+     "Purchase data"
+    ],
+    "non-financial data relating to the in-app purchase": [
+     "Purchase data"
+    ],
+    "personal data from or about children": [
+     "personal data"
+    ],
+    "data concerning health": [
+     "personal data"
+    ],
+    "biometric data": [
+     "personal data"
+    ],
+    "genetic data": [
+     "personal data"
+    ],
+    "political opinion": [
+     "personal data"
+    ],
+    "trade union membership": [
+     "personal data"
+    ],
+    "religious or philosophical beliefs": [
+     "personal data"
+    ],
+    "data concerning a natural person’s sex life or sexual orientation": [
+     "personal data"
+    ],
+    "data revealing racial or ethnic origin": [
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {
+    "such third-party tool": "a third-party tool"
+   },
+   "parents": {
+    "children": [
+     "you"
+    ],
+    "a third-party tool": [
+     "any of these third-party tools"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "X-FLOW": "We",
+    "X-FLOW’s": "We",
+    "first party": "We",
+    "our": "We",
+    "our partners’": "our partners",
+    "us": "We",
+    "we": "We"
+   },
+   "parents": {
+    "Our analytics providers": [
+     "our partners"
+    ],
+    "third-party advertising networks": [
+     "our partners"
+    ],
+    "Meta": [
+     "our partners",
+     "third-party advertising networks"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "in order to be able to log in with the same account on multiple devices and synchronise progress across those devices": "To allow you to syncronise progress in the Services across multiple devices",
+    "to comply with our legal or regulatory obligations": "To comply with the applicable laws",
+    "to send you Services-related communications": "To send you Services-related communications, such as updates and security alerts"
+   },
+   "parents": {
+    "Promote and cross-promote our Services (meaning to promote one of our games while you are playing a different game of ours)": [
+     "To advertise and promote our Services"
+    ],
+    "detect and prevent fraud in our Services": [
+     "To keep the Services and its social features safe and fair, to fight fraud and ensure acceptable use",
+     "prevent fraud"
+    ],
+    "prevent fraud": [
+     "To keep the Services and its social features safe and fair, to fight fraud and ensure acceptable use"
+    ],
+    "target advertisements": [
+     "Deliver, target/personalise and improve advertising in our Services"
+    ],
+    "so that we could improve our Services": [
+     "Develop and improve the Services and player experience"
+    ],
+    "conducting effective social media promotions": [
+     "To manage our Fanpage in social media, including communication with the Fanpage members and analyzing the Fanpage activity"
+    ],
+    "enhancing the Fanpage user experience": [
+     "To manage our Fanpage in social media, including communication with the Fanpage members and analyzing the Fanpage activity"
+    ],
+    "measuring and adjusting these activities": [
+     "To manage our Fanpage in social media, including communication with the Fanpage members and analyzing the Fanpage activity"
+    ],
+    "communicating about Services": [
+     "To manage our Fanpage in social media, including communication with the Fanpage members and analyzing the Fanpage activity"
+    ],
+    "for us to respond": [
+     "To provide player support and respond to your comments and requests"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 7855,
+  "completion_tokens": 2149,
+  "thinking_tokens": 0,
+  "seconds": 18.038989782333374,
+  "failures": 0
+ },
+ "seconds": 18.2
+}

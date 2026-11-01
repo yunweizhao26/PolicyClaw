@@ -1,0 +1,277 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "email_address": "email address",
+    "form responses": "form response data",
+    "form submissions": "form submission data",
+    "page tags information": "information from page tags",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "personally identifying information": "personal data",
+    "question and response data": "form questions and responses",
+    "your information": "information"
+   },
+   "parents": {
+    "registration IP address": [
+     "ip_address"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "postal_address": [
+     "contact details"
+    ],
+    "payment_card_number": [
+     "financial_information"
+    ],
+    "financial_information": [
+     "billing information"
+    ],
+    "form metadata statistics": [
+     "form metadata"
+    ],
+    "observations about form metadata statistics": [
+     "form metadata statistics"
+    ],
+    "form response data": [
+     "form data"
+    ],
+    "form submission data": [
+     "form data"
+    ],
+    "form questions and responses": [
+     "form data"
+    ],
+    "form metadata": [
+     "form data"
+    ],
+    "form creation information": [
+     "form data"
+    ],
+    "form data": [
+     "customer data",
+     "user_content"
+    ],
+    "user_content": [
+     "content"
+    ],
+    "browser_type": [
+     "device data"
+    ],
+    "device_settings": [
+     "device data"
+    ],
+    "device_type": [
+     "device data"
+    ],
+    "os_version": [
+     "device data"
+    ],
+    "ip_address": [
+     "device data"
+    ],
+    "referral_url": [
+     "referral data"
+    ],
+    "referral data": [
+     "usage data"
+    ],
+    "browsing_history": [
+     "usage data"
+    ],
+    "non-personal browsing activity": [
+     "usage data"
+    ],
+    "email opening and link clicking information": [
+     "usage data"
+    ],
+    "time_stamp": [
+     "usage data"
+    ],
+    "cookies": [
+     "usage data"
+    ],
+    "information from page tags": [
+     "usage data"
+    ],
+    "aggregated and anonymized data": [
+     "aggregate data"
+    ],
+    "mobile device personal information": [
+     "personal data"
+    ],
+    "identity details": [
+     "personal data"
+    ],
+    "name": [
+     "identity details"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "ethnic origin": [
+     "demographic data"
+    ],
+    "password": [
+     "account details"
+    ],
+    "username": [
+     "account details"
+    ],
+    "subscription inception date": [
+     "account details"
+    ],
+    "third-party account information": [
+     "account details"
+    ],
+    "billing information": [
+     "account details"
+    ],
+    "account details": [
+     "customer data"
+    ],
+    "customer data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "usage data": [
+     "data"
+    ],
+    "customer provided and gathered information": [
+     "information"
+    ],
+    "user information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {
+    "Amazon Web Services": [
+     "cloud providers based in the United States of America",
+     "service provider"
+    ],
+    "Google Cloud Platform": [
+     "cloud providers based in the United States of America",
+     "service provider"
+    ],
+    "cloud providers based in the United States of America": [
+     "service provider"
+    ],
+    "law enforcement": [
+     "government authorities",
+     "public authorities"
+    ],
+    "government authorities": [
+     "public authorities"
+    ],
+    "advertiser": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "affiliate": [
+     "other_parties"
+    ],
+    "partner": [
+     "other_parties"
+    ],
+    "other users": [
+     "other_parties"
+    ],
+    "third parties": [
+     "other_parties"
+    ],
+    "other_parties": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third_party": "third party",
+    "user": "customer"
+   },
+   "parents": {
+    "advertising networks": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "marketing by third parties": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "identity verification": [
+     "identification"
+    ],
+    "technical troubleshooting": [
+     "security"
+    ],
+    "customer support": [
+     "services and technical support"
+    ],
+    "service improvement": [
+     "service maintenance and improvement",
+     "service operation and improvement"
+    ],
+    "service maintenance and improvement": [
+     "service operation and improvement"
+    ],
+    "legal compliance": [
+     "legal compliance and protection of rights"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "form design and creation": [
+     "service provision"
+    ],
+    "continue providing our services": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2912,
+  "completion_tokens": 1126,
+  "thinking_tokens": 0,
+  "seconds": 13.522634029388428,
+  "failures": 0
+ },
+ "seconds": 13.6
+}

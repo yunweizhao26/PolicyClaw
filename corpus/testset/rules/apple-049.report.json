@@ -1,0 +1,86 @@
+{
+ "cleaned_sha256": "apple-049",
+ "text_sha256": "e5bbc1bad82f51385d42bc79444996566821801562d6dbbf410ec486675f9de5",
+ "site_id": "apple-049",
+ "sections": 16,
+ "rules": 269,
+ "report": {
+  "sections": 16,
+  "raw_rules": 210,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "processing",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "purposes of targeted advertising",
+       "name": "targeted advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt out"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-049#s10"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 85,
+  "completeness": {
+   "gaps": 391,
+   "gap_words": 4390
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 23,
+  "translated_quotes": 85,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 57985,
+  "completion_tokens": 42983,
+  "thinking_tokens": 0,
+  "seconds": 565.4434304237366,
+  "failures": 0
+ },
+ "seconds": 566.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

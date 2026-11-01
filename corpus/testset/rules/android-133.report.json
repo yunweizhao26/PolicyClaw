@@ -1,0 +1,153 @@
+{
+ "cleaned_sha256": "android-133",
+ "text_sha256": "9993f68ed6d20d1ced2a2d0e5a7561b190ec2115bb0bdc31bc159410e1f248df",
+ "site_id": "android-133",
+ "sections": 14,
+ "rules": 360,
+ "report": {
+  "sections": 14,
+  "raw_rules": 299,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about your computer or device",
+      "name": "device details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about your computer or device"
+    ],
+    "section": "android-133#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "service provider",
+      "text": "These agents and service providers"
+     },
+     "conditions": [
+      "in connection with the performance of services for Crazy Maple Studio"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may have access to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-133#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information we hold about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "If you would like to access or view the personal information we hold about you",
+      "send your request to us at reelshort.support@crazymaplestudio.com"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-133#s8"
+   }
+  ],
+  "residual_quotes": 10,
+  "quotes": 90,
+  "completeness": {
+   "gaps": 267,
+   "gap_words": 2873
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 90,
+  "compile_failures": 5,
+  "fixed_structurally": 1,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 59292,
+  "completion_tokens": 60109,
+  "thinking_tokens": 0,
+  "seconds": 958.3095788955688,
+  "failures": 0
+ },
+ "seconds": 959.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

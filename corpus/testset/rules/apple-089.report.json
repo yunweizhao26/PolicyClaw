@@ -1,0 +1,245 @@
+{
+ "cleaned_sha256": "apple-089",
+ "text_sha256": "b065d3bbbb5985e75710591f6fb028f64740d6eb345a44141e7788e38fad96cf",
+ "site_id": "apple-089",
+ "sections": 25,
+ "rules": 461,
+ "report": {
+  "sections": 25,
+  "raw_rules": 321,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information we have collected about you"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "Provide access to and/or a copy of",
+      "verb": "provide"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "request that we",
+     "operation": "access or consultation",
+     "purpose": [],
+     "conditions": [
+      "California law may permit you to request that we",
+      "Provide access to and/or a copy of the Personal Information we have collected about you",
+      "When you submit a request to know or a request to delete, we will take steps to verify your identity by matching the information you provide with the information we have in our records. You must provide all requested information so that we can process and verify your request. In some cases, we may request additional information to verify your request or, as necessary, to process it",
+      "Authorized agents may initiate a request on behalf of another individual by contacting us via email or phone. To do so, they will be required to provide proof of their authorization. Additionally, we may also require the relevant consumer to directly verify their identity and the authority of the authorized agent"
+     ],
+     "exceptions": [
+      "Certain information is exempt from such requests under applicable law"
+     ],
+     "references": [
+      {
+       "text": "California law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-089#s22"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information of consumers under 16 years of age"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "polarity": "DENY",
+     "polarity_text": "do not knowingly share",
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Minors"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not knowingly share"
+    ],
+    "section": "apple-089#s22"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sharing",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sharing",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "request to opt out"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-089#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "sales",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sales",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "request to opt out"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-089#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request rectification",
+     "actor": {
+      "text": "Midwest Tape",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information Midwest Tape holds related to you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "You have the right to request",
+      "rectification",
+      "by contacting Midwest Tape’s Privacy Officer at privacy@hoopladigital.com"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "request rectification"
+    ],
+    "section": "apple-089#s24"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 129,
+  "completeness": {
+   "gaps": 400,
+   "gap_words": 4497
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 49,
+  "translated_quotes": 129,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 49,
+  "cached": 0,
+  "prompt_tokens": 86158,
+  "completion_tokens": 64213,
+  "thinking_tokens": 0,
+  "seconds": 1126.8572793006897,
+  "failures": 0
+ },
+ "seconds": 1128.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

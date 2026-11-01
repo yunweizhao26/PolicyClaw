@@ -1,0 +1,224 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "information": "data",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "user information": "user data",
+    "your information": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "computer information"
+    ],
+    "MAC address": [
+     "device identifier",
+     "mobile device info"
+    ],
+    "account information": [
+     "user data"
+    ],
+    "ad interactions": [
+     "clickstream"
+    ],
+    "browser type": [
+     "computer information",
+     "software"
+    ],
+    "clickstream": [
+     "data we collect"
+    ],
+    "contact list": [
+     "contact information"
+    ],
+    "credit card number": [
+     "account information",
+     "personal data"
+    ],
+    "date of birth": [
+     "personal data"
+    ],
+    "device identifier": [
+     "hardware info",
+     "mobile device info"
+    ],
+    "email address": [
+     "contact information",
+     "personal data"
+    ],
+    "game activity": [
+     "user data"
+    ],
+    "gender": [
+     "personal data"
+    ],
+    "hardware info": [
+     "computer information"
+    ],
+    "home address": [
+     "contact information",
+     "personal data"
+    ],
+    "information about you": [
+     "data"
+    ],
+    "information that you agreed the mobile platform could provide": [
+     "information about you"
+    ],
+    "mobile device info": [
+     "hardware info"
+    ],
+    "name": [
+     "contact information",
+     "personal data"
+    ],
+    "pages visited": [
+     "clickstream"
+    ],
+    "phone information": [
+     "mobile device info"
+    ],
+    "phone number": [
+     "contact information",
+     "personal data"
+    ],
+    "platform profile data": [
+     "account information"
+    ],
+    "postal code": [
+     "contact information"
+    ],
+    "profile": [
+     "user profile"
+    ],
+    "profile photo": [
+     "profile"
+    ],
+    "search terms": [
+     "clickstream"
+    ],
+    "sensitive data": [
+     "data",
+     "personal data"
+    ],
+    "social contacts": [
+     "contact list"
+    ],
+    "social media account profile": [
+     "profile"
+    ],
+    "social media profile data": [
+     "social media account profile",
+     "social network data"
+    ],
+    "social network data": [
+     "user data"
+    ],
+    "time spent on page": [
+     "clickstream"
+    ],
+    "tracking technologies": [
+     "software"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "url requested": [
+     "clickstream"
+    ],
+    "user profile": [
+     "user data"
+    ],
+    "user data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliate": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "social network": "SNS"
+   },
+   "parents": {
+    "mobile platform store": [
+     "mobile platform",
+     "third party"
+    ],
+    "SNS": [
+     "third party"
+    ],
+    "mobile platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "contractor": [
+     "third party"
+    ],
+    "social network friends": [
+     "third party"
+    ],
+    "staff operating outside the US and the EU who works for one of our suppliers": [
+     "contractor",
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "providing service": "provide the service",
+    "service provision": "provide the service"
+   },
+   "parents": {
+    "debugging": [
+     "service improvement"
+    ],
+    "improve app features": [
+     "service improvement"
+    ],
+    "enhance user experience": [
+     "service improvement"
+    ],
+    "remember user preferences": [
+     "enhance user experience"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "user-to-user communication": [
+     "provide the service"
+    ],
+    "customer-service": [
+     "provide the service"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2384,
+  "completion_tokens": 934,
+  "thinking_tokens": 0,
+  "seconds": 29.887044429779053,
+  "failures": 0
+ },
+ "seconds": 30.0
+}

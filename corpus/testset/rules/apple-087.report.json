@@ -1,0 +1,339 @@
+{
+ "cleaned_sha256": "apple-087",
+ "text_sha256": "6284440e877c53862b7a4d62bfa7823e7391434d4eb0fb7ea65a553a1ec0108a",
+ "site_id": "apple-087",
+ "sections": 20,
+ "rules": 276,
+ "report": {
+  "sections": 20,
+  "raw_rules": 236,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "ConvertAPI, UAB",
+      "text": "ConvertAPI service provider"
+     },
+     "conditions": [
+      "while such files are processed"
+     ],
+     "data": {
+      "name": "contents of files",
+      "text": "contents of your files"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "DENY",
+     "polarity_text": "does not access",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-087#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you use any iScanner App designed for iOS devices",
+      "at the first launch of such App you’ll be asked for permission to access your Identifier for Advertisers (IDFA) for tracking purposes via special App Tracking Transparency (ATT) alert demonstrated to you"
+     ],
+     "data": {
+      "name": "Identifier for Advertisers",
+      "text": "Identifier for Advertisers (IDFA)"
+     },
+     "exceptions": [
+      "turn off or turn on permission to track your activity across other companies’ apps and websites at any time via Privacy & Security settings on your device"
+     ],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "permission to access",
+     "purpose": [
+      {
+       "text": "tracking purposes",
+       "name": "tracking"
+      }
+     ],
+     "recipient": {
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Section VIII of this Privacy policy",
+       "name": "Section VIII",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-087#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "only in aggregated form"
+     ],
+     "data": {
+      "name": "device details",
+      "text": "All this information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-087#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "When you use the App"
+     ],
+     "data": {
+      "name": "cookies",
+      "text": "cookies and similar technologies (pixels, web beacons, scripts)"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "cookies and similar technologies (pixels, web beacons, scripts)"
+    ],
+    "section": "apple-087#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "reported",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "ad performance data",
+      "text": "The following data: the date and time a particular ad is served; a record if that ad was “clicked” or if it was shown as a “conversion” event; what the ad offer is about; what type of ad it is (e.g., text, image, or video); which ad placement is involved (where the ad offer is displayed within the App); whether you respond to the ad"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "might be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "The following data: the date and time a particular ad is served; a record if that ad was “clicked” or if it was shown as a “conversion” event; what the ad offer is about; what type of ad it is (e.g., text, image, or video); which ad placement is involved (where the ad offer is displayed within the App); whether you respond to the ad"
+    ],
+    "section": "apple-087#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "Apps",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "show you personalized ads",
+      "verb": "show"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you choose to “Reset advertising ID”"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-087#s19"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "Apps",
+      "name": "third party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "show you ads",
+      "verb": "show"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If you choose to ”Delete advertising ID”"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-087#s19"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "from children",
+      "name": "user"
+     },
+     "action": {
+      "text": "knowingly or intentionally solicit",
+      "verb": "solicit"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "knowingly or intentionally solicit"
+    ],
+    "section": "apple-087#s20"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 113,
+  "completeness": {
+   "gaps": 509,
+   "gap_words": 4942
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 113,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 40,
+  "cached": 0,
+  "prompt_tokens": 75980,
+  "completion_tokens": 46732,
+  "thinking_tokens": 0,
+  "seconds": 818.1229231357574,
+  "failures": 0
+ },
+ "seconds": 819.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

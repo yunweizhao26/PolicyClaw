@@ -1,0 +1,212 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "email address": "email",
+    "information about you": "information about user",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "GPS accuracy": [
+     "location data"
+    ],
+    "IP address": [
+     "location"
+    ],
+    "anonymous outage reports": [
+     "Downdetector data"
+    ],
+    "bundle ID": [
+     "app names and identifiers"
+    ],
+    "carrier code": [
+     "mobile network parameters"
+    ],
+    "carrier name": [
+     "mobile network parameters"
+    ],
+    "comments": [
+     "Downdetector data",
+     "user generated content"
+    ],
+    "contact details": [
+     "account information"
+    ],
+    "country": [
+     "location data"
+    ],
+    "email": [
+     "account information",
+     "contact details"
+    ],
+    "feedback": [
+     "user generated content"
+    ],
+    "forum comments": [
+     "user generated content"
+    ],
+    "iccid": [
+     "network identifiers"
+    ],
+    "imei": [
+     "device identifiers",
+     "network identifiers"
+    ],
+    "imsi": [
+     "network identifiers"
+    ],
+    "installed apps list": [
+     "installed applications"
+    ],
+    "latitude": [
+     "precise location"
+    ],
+    "longitude": [
+     "precise location"
+    ],
+    "mobile advertising id": [
+     "advertising identifier"
+    ],
+    "name": [
+     "account information"
+    ],
+    "network BSSID": [
+     "network identifiers"
+    ],
+    "network SSID": [
+     "network identifiers"
+    ],
+    "password": [
+     "account information"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "precise location": [
+     "location data",
+     "personal data",
+     "sensitive data"
+    ],
+    "profile name": [
+     "account information"
+    ],
+    "pseudonymized device identifier": [
+     "device identifiers"
+    ],
+    "social media posts": [
+     "Downdetector data"
+    ],
+    "speedtest results": [
+     "information from tests run through Ookla"
+    ],
+    "username": [
+     "account information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "business partners": "business partner",
+    "hardware manufacturer": "equipment manufacturer",
+    "recipients located outside the EEA": "recipient outside the EEA"
+   },
+   "parents": {
+    "industry regulator": [
+     "legal and regulatory authority"
+    ],
+    "law enforcement": [
+     "legal and regulatory authority"
+    ],
+    "recipient outside the EEA": [
+     "recipient in another country"
+    ],
+    "relevant third party provider": [
+     "relevant third party",
+     "third party"
+    ],
+    "relevant third party": [
+     "third party"
+    ],
+    "contractors": [
+     "third party"
+    ],
+    "data processor": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third party": "third parties"
+   },
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Downdetector": [
+     "third party"
+    ],
+    "HUQ": [
+     "third party"
+    ],
+    "Ogury": [
+     "third party"
+    ],
+    "Ookla": [
+     "third party"
+    ],
+    "Outlogic": [
+     "third party"
+    ],
+    "Placer Labs Inc.": [
+     "third party"
+    ],
+    "SpeedChecker": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "legal defense": "legal compliance or protection"
+   },
+   "parents": {
+    "targeted advertising": [
+     "advertising"
+    ],
+    "legal compliance or protection": [
+     "compliance"
+    ],
+    "for network research purposes": [
+     "research"
+    ],
+    "prevention and detection of crime": [
+     "compliance",
+     "legal compliance or protection",
+     "security"
+    ],
+    "advertising": [
+     "marketing"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3136,
+  "completion_tokens": 853,
+  "thinking_tokens": 0,
+  "seconds": 10.933269739151001,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

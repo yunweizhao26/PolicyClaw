@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "web-096",
+ "text_sha256": "4360ee424751030194d8a2f70867a0f25e6f760aae09faa9a2d7ce060a9ae769",
+ "site_id": "web-096",
+ "sections": 5,
+ "rules": 45,
+ "report": {
+  "sections": 5,
+  "raw_rules": 40,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "You may request",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "in order to verify its accuracy",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "You may request",
+      "in connection with your use of this website please contact info@unesco.org"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-096#s5"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 27,
+  "completeness": {
+   "gaps": 66,
+   "gap_words": 382
+  },
+  "unsatisfiable_guards": 3,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 27,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 15025,
+  "completion_tokens": 7106,
+  "thinking_tokens": 0,
+  "seconds": 99.86202049255371,
+  "failures": 0
+ },
+ "seconds": 100.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

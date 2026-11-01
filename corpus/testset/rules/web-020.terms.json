@@ -1,0 +1,189 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "payment information": "financial details",
+    "personal information": "personal data",
+    "user content": "content",
+    "user-generated content": "content",
+    "your information": "user data"
+   },
+   "parents": {
+    "ad engagement data": [
+     "activity data"
+    ],
+    "age verification info": [
+     "identifying information"
+    ],
+    "bank account details": [
+     "financial details"
+    ],
+    "billing information": [
+     "financial details"
+    ],
+    "call contents": [
+     "content"
+    ],
+    "content posted in larger spaces": [
+     "content",
+     "public content"
+    ],
+    "date of birth": [
+     "identifying information"
+    ],
+    "display name": [
+     "identifying information"
+    ],
+    "email address": [
+     "identifying information"
+    ],
+    "government-issued ID": [
+     "identifying information"
+    ],
+    "images": [
+     "content"
+    ],
+    "messages": [
+     "content"
+    ],
+    "name": [
+     "identifying information"
+    ],
+    "password": [
+     "account details"
+    ],
+    "payment method details": [
+     "financial details"
+    ],
+    "phone number": [
+     "identifying information"
+    ],
+    "profile information": [
+     "account details"
+    ],
+    "public content": [
+     "content"
+    ],
+    "sent messages": [
+     "messages"
+    ],
+    "stream thumbnail": [
+     "images",
+     "streaming content"
+    ],
+    "streaming content": [
+     "content"
+    ],
+    "tax identification number": [
+     "identifying information"
+    ],
+    "user files": [
+     "content"
+    ],
+    "user identifier": [
+     "identifying information"
+    ],
+    "user-generated text": [
+     "content"
+    ],
+    "username": [
+     "account details",
+     "identifying information"
+    ],
+    "voice messages": [
+     "messages"
+    ],
+    "voice or audio recordings": [
+     "content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "advertising network": [
+     "third party"
+    ],
+    "analytics and measurement partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other users": [
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third parties"
+    ],
+    "many people, including people you do not know": [
+     "anyone"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision": "service delivery",
+    "verification": "authentication and identity verification"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "enforce policies and rights": [
+     "legal compliance"
+    ],
+    "legal dispute": [
+     "legal compliance"
+    ],
+    "order fulfillment": [
+     "service delivery"
+    ],
+    "personalization": [
+     "services"
+    ],
+    "security": [
+     "service operation"
+    ],
+    "service delivery": [
+     "services"
+    ],
+    "service improvement": [
+     "services"
+    ],
+    "service operation": [
+     "services"
+    ],
+    "authentication and identity verification": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2594,
+  "completion_tokens": 712,
+  "thinking_tokens": 0,
+  "seconds": 11.805410861968994,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

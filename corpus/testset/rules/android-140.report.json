@@ -1,0 +1,89 @@
+{
+ "cleaned_sha256": "android-140",
+ "text_sha256": "865c483a404c29bf86002c1944f3ec7079893054ea3150e7d23bbbf2a5c75203",
+ "site_id": "android-140",
+ "sections": 15,
+ "rules": 168,
+ "report": {
+  "sections": 15,
+  "raw_rules": 154,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can access",
+     "actor": {
+      "text": "You",
+      "name": "user"
+     },
+     "data": {
+      "text": "account information",
+      "name": "account information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "in accordance with the terms of use",
+      "right on our Platform",
+      "we will ask you to verify your identity"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "terms of use",
+       "name": "",
+       "target": "other_document"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "android-140#s8"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 56,
+  "completeness": {
+   "gaps": 142,
+   "gap_words": 1936
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 56,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 28,
+  "cached": 0,
+  "prompt_tokens": 46174,
+  "completion_tokens": 29008,
+  "thinking_tokens": 0,
+  "seconds": 691.5840673446655,
+  "failures": 0
+ },
+ "seconds": 692.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

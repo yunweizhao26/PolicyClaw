@@ -1,0 +1,122 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "clickstream data": "clickstream",
+    "date and time stamp": "date and time",
+    "information": "data",
+    "ip address": "IP address",
+    "payment card number": "credit card number",
+    "personal information": "personal data",
+    "physical address": "address"
+   },
+   "parents": {
+    "flash cookie": [
+     "cookies"
+    ],
+    "persistent cookie": [
+     "cookies"
+    ],
+    "session cookie": [
+     "cookies"
+    ],
+    "email address": [
+     "email"
+    ],
+    "credit card number": [
+     "personal data"
+    ],
+    "user interests": [
+     "user profile"
+    ],
+    "browser type": [
+     "hardware or software information"
+    ],
+    "operating system": [
+     "hardware or software information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "service administration": "administration"
+   },
+   "parents": {
+    "contest administration": [
+     "marketing"
+    ],
+    "targeted advertising": [
+     "enhance user experience",
+     "marketing"
+    ],
+    "order fulfillment": [
+     "provide online shopping",
+     "services"
+    ],
+    "billing": [
+     "services"
+    ],
+    "customer support": [
+     "services"
+    ],
+    "provide online shopping": [
+     "services"
+    ],
+    "provide service": [
+     "services"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "security and authenticity": [
+     "security"
+    ],
+    "traffic monitoring": [
+     "analytics"
+    ],
+    "service analytics": [
+     "analytics"
+    ],
+    "profiling": [
+     "personalization"
+    ],
+    "simplification of logging on process": [
+     "enhance user experience"
+    ],
+    "user navigation": [
+     "enhance user experience"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2112,
+  "completion_tokens": 472,
+  "thinking_tokens": 0,
+  "seconds": 8.264076471328735,
+  "failures": 0
+ },
+ "seconds": 8.4
+}

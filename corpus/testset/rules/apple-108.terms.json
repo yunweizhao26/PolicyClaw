@@ -1,0 +1,95 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal_and_non_personal_information": "information"
+   },
+   "parents": {
+    "carrier_provider": [
+     "information"
+    ],
+    "device_type": [
+     "information"
+    ],
+    "facebook_account_data": [
+     "information",
+     "personal_data"
+    ],
+    "game_version": [
+     "information"
+    ],
+    "gameplay_and_interaction_data": [
+     "information"
+    ],
+    "imei": [
+     "information",
+     "unique_device_id"
+    ],
+    "ip_address": [
+     "information"
+    ],
+    "language_settings": [
+     "information"
+    ],
+    "mac_address": [
+     "information",
+     "unique_device_id"
+    ],
+    "operating_system_and_version": [
+     "information"
+    ],
+    "personal_data": [
+     "information"
+    ],
+    "point_package_status": [
+     "information"
+    ],
+    "precise_geolocation": [
+     "information"
+    ],
+    "unique_device_id": [
+     "information"
+    ],
+    "unique_user_id": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {
+    "account_linking": [
+     "account_management"
+    ],
+    "account_management": [
+     "service_provision"
+    ],
+    "service_optimization": [
+     "service_provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 2,
+  "cached": 0,
+  "prompt_tokens": 707,
+  "completion_tokens": 300,
+  "thinking_tokens": 0,
+  "seconds": 5.007228851318359,
+  "failures": 0
+ },
+ "seconds": 5.0
+}

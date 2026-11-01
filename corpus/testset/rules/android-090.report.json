@@ -1,0 +1,126 @@
+{
+ "cleaned_sha256": "android-090",
+ "text_sha256": "ac6a79ad5fcb163bff9fe073a5e3295139382389db1beb2dbb67814d81474682",
+ "site_id": "android-090",
+ "sections": 9,
+ "rules": 147,
+ "report": {
+  "sections": 9,
+  "raw_rules": 136,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "providing SMS and E-mail related services such as marketing newsletters, promotions and offers",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "service provider",
+      "text": "our service providers"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-090#s5"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal information",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "purpose": [
+      {
+       "text": "providing SMS and E-mail related services such as marketing newsletters, promotions and offers",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "business partner",
+      "text": "partners"
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may disclose"
+    ],
+    "section": "android-090#s5"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 43,
+  "completeness": {
+   "gaps": 107,
+   "gap_words": 1531
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 5,
+  "translated_quotes": 43,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 31667,
+  "completion_tokens": 24322,
+  "thinking_tokens": 0,
+  "seconds": 181.15477776527405,
+  "failures": 0
+ },
+ "seconds": 181.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

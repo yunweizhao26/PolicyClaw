@@ -1,0 +1,94 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "personal information": "personal data",
+    "personally identifiable information": "personal data"
+   },
+   "parents": {
+    "postal code": [
+     "address"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "phone number": [
+     "personal data"
+    ],
+    "address": [
+     "personal data"
+    ],
+    "identities of users": [
+     "personal data"
+    ],
+    "user account information": [
+     "personal data"
+    ],
+    "interaction duration": [
+     "app interaction"
+    ],
+    "interaction frequency": [
+     "app interaction"
+    ],
+    "app interaction": [
+     "interaction data"
+    ],
+    "visitor behaviour patterns": [
+     "interaction data"
+    ],
+    "browsing history": [
+     "visitor behaviour patterns"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "third party"
+    ],
+    "other companies and businesses": [
+     "third party"
+    ],
+    "other organizations": [
+     "third party"
+    ],
+    "publisher": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Apple": [
+     "app store"
+    ],
+    "Google": [
+     "app store"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {},
+   "parents": {}
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1293,
+  "completion_tokens": 292,
+  "thinking_tokens": 0,
+  "seconds": 10.956162452697754,
+  "failures": 0
+ },
+ "seconds": 11.0
+}

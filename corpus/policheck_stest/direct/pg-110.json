@@ -1,0 +1,30 @@
+{
+ "policy": "pg-110",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "We may also share anonymized data, such as statistical or demographic information in aggregate form, with third parties for research or marketing purposes.",
+   "prohibit": "We do not sell or disclose deidentified Personal Information to third parties.",
+   "situation": "Sharing deidentified or anonymized consumer data with third parties.",
+   "reason": "One provision explicitly permits sharing anonymized data with third parties for research or marketing, while another categorically denies disclosing deidentified personal information to third parties without reconciliation.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We collect the above categories of Personal Information from the following categories of sources: Directly and indirectly from you in the course of providing products and services to you; Directly and indirectly from activity on our website and applications including, but not limited to, submissions through our website portals and website usage details; and Third-parties that interact with us in connection with the services we provide.",
+   "prohibit": "We only obtain Personal Information that you provide to us, such as when you request information from DrFirst.",
+   "situation": "Collecting personal information indirectly or from third parties.",
+   "reason": "The policy states it *only* obtains personal information that the user provides, but later states it collects personal information indirectly from website activity and from third parties.",
+   "confidence": "high"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 4973,
+  "completion_tokens": 328,
+  "thinking_tokens": 0,
+  "seconds": 73.39094376564026,
+  "failures": 0
+ }
+}

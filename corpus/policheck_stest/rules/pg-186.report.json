@@ -1,0 +1,124 @@
+{
+ "cleaned_sha256": "pg-186",
+ "text_sha256": "d62fa7edb4005cfbbcf14a98d46477ea23ebb4e2ea4f7b38acd20abc08f3e1ce",
+ "site_id": "pg-186",
+ "sections": 15,
+ "rules": 188,
+ "report": {
+  "sections": 15,
+  "raw_rules": 170,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Haystack"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "verb": "correct",
+      "text": "corrections"
+     },
+     "operation": "adaptation or alteration",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "purpose": [],
+     "conditions": [
+      "As a Haystack User",
+      "to request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right to request"
+    ],
+    "section": "pg-186#s5"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "Haystack"
+     },
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Information"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "verb": "delete",
+      "text": "deletion"
+     },
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "have the right to request",
+     "purpose": [],
+     "conditions": [
+      "As a Haystack User",
+      "to request"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "have the right to request"
+    ],
+    "section": "pg-186#s5"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 77,
+  "completeness": {
+   "gaps": 196,
+   "gap_words": 2330
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 77,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 29,
+  "cached": 0,
+  "prompt_tokens": 50335,
+  "completion_tokens": 31467,
+  "thinking_tokens": 0,
+  "seconds": 255.88804268836975,
+  "failures": 0
+ },
+ "seconds": 257.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,498 @@
+{
+ "cleaned_sha256": "pg-082",
+ "text_sha256": "cc8c5d233e19a7fe1b7f6e417c58552948e95823067ff4a898c085a74b4d0da5",
+ "site_id": "pg-082",
+ "sections": 15,
+ "rules": 185,
+ "report": {
+  "sections": 15,
+  "raw_rules": 171,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "making available",
+      "verb": "make available"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "BNEA"
+     },
+     "conditions": [
+      "in some cases"
+     ],
+     "data": {
+      "name": "screen name",
+      "text": "such information"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "making",
+     "purpose": [],
+     "recipient": {
+      "name": "public",
+      "text": "the general public"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "making available"
+    ],
+    "section": "pg-082#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may be processed",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data covered by this Mobile Privacy Policy",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "processed",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "for the purposes described herein",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "in the United States or any other country in which BNEA or its third-party service providers operate, including through the use of cloud storage"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may be processed"
+    ],
+    "section": "pg-082#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "payment processor",
+      "text": "third-party service provider"
+     },
+     "conditions": [],
+     "data": {
+      "name": "user data",
+      "text": "information a user shares with such third-party service provider"
+     },
+     "exceptions": [
+      "Except as otherwise set forth in such privacy policies",
+      "certain Non-Personal Data and/or a unique “tokenized” identifier"
+     ],
+     "operation": "disclosure to third party",
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "purpose": [],
+     "recipient": {
+      "name": "BNEA",
+      "text": "BNEA"
+     },
+     "references": [
+      {
+       "text": "such privacy policies",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "user"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-082#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "payment processor",
+      "text": "third-party service provider"
+     },
+     "conditions": [],
+     "data": {
+      "name": "pseudonymous identifier",
+      "text": "unique “tokenized” identifier"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "Except",
+     "purpose": [
+      {
+       "text": "to confirm the completion of such purchase and ensure that purchased virtual items are properly associated with such user’s Mobile Application account",
+       "name": "customer support"
+      }
+     ],
+     "recipient": {
+      "name": "BNEA",
+      "text": "BNEA"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-082#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "social network",
+      "text": "third party social network"
+     },
+     "conditions": [
+      "The Mobile Application may enable a user to connect their account with their account on a third party social network platform",
+      "In doing so"
+     ],
+     "data": {
+      "name": "user data",
+      "text": "certain information collected from or about such user or such user’s device"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "BNEA",
+      "text": "BNEA"
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from or about such user or such user’s device"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-082#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "BNEA",
+      "text": "BNEA"
+     },
+     "conditions": [],
+     "data": {
+      "name": "pseudonymous identifier",
+      "text": "unique “tokenized” identifier that BNEA has collected"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third party",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [],
+     "recipient": {
+      "name": "social network",
+      "text": "such third party social network"
+     },
+     "references": [
+      {
+       "text": "this Mobile Application Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-082#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not knowingly collect",
+     "actor": {
+      "text": "BNEA",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "such users",
+      "name": "user"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "from children under thirteen (13) (or other age as required by local law)"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as required by local law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "from children under thirteen (13) (or other age as required by local law)"
+    ],
+    "section": "pg-082#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "being tracked",
+      "verb": "track"
+     },
+     "actor": {
+      "name": "advertising network",
+      "text": "Ad Networks"
+     },
+     "conditions": [
+      "in this Mobile Application"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [
+      "following the instructions presented: (i) within such ads; or (ii) in each Ad Networks privacy policy (as listed in the Addendum below)"
+     ],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "may opt-in or opt-out",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Addendum below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-082#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "being served",
+      "verb": "serve"
+     },
+     "actor": {
+      "name": "advertising network",
+      "text": "the Ad Networks"
+     },
+     "conditions": [
+      "in this Mobile Application"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [
+      "following the instructions presented: (i) within such ads; or (ii) in each Ad Networks privacy policy (as listed in the Addendum below)"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may opt-in or opt-out",
+     "purpose": [
+      {
+       "text": "targeted ads",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Addendum below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-082#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In certain regions",
+      "by default"
+     ],
+     "data": {
+      "name": "user data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may receive",
+     "purpose": [
+      {
+       "text": "non-targeted “contextual” ads",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "users of the Mobile Application"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-082#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "receiving",
+      "verb": "receive"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "data": {
+      "name": "email address",
+      "text": ""
+     },
+     "exceptions": [
+      "clicking the “unsubscribe” button (or similarly worded button) located within the marketing email and confirming their selection"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "can opt-out of",
+     "purpose": [
+      {
+       "text": "marketing emails",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "user",
+      "text": "Users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-082#s14"
+   }
+  ],
+  "residual_quotes": 20,
+  "quotes": 87,
+  "completeness": {
+   "gaps": 329,
+   "gap_words": 3434
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 7,
+  "translated_quotes": 87,
+  "compile_failures": 3,
+  "fixed_structurally": 0,
+  "fixed_by_call": 3
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 58444,
+  "completion_tokens": 34897,
+  "thinking_tokens": 0,
+  "seconds": 223.97221755981445,
+  "failures": 0
+ },
+ "seconds": 225.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

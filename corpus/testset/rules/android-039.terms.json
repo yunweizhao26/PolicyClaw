@@ -1,0 +1,184 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "android id": "Android ID",
+    "device count and type": "device characteristics",
+    "device storage capacity": "device storage",
+    "dialogue contents": "communication contents",
+    "hardware device id": "HDID",
+    "information": "data",
+    "ip address": "IP address",
+    "links clicked on": "links clicked",
+    "pages or features browsed": "browsing activity",
+    "service use data": "service usage data"
+   },
+   "parents": {
+    "Android ID": [
+     "device identifier"
+    ],
+    "HDID": [
+     "device identifier"
+    ],
+    "IP address": [
+     "rough geo-location converted from IP address"
+    ],
+    "rough geo-location converted from IP address": [
+     "location"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "user data": [
+     "data"
+    ],
+    "operation data": [
+     "service usage data"
+    ],
+    "activity of use": [
+     "service usage data"
+    ],
+    "browsing activity": [
+     "service usage data"
+    ],
+    "links clicked": [
+     "service usage data"
+    ],
+    "time spent on pages or features": [
+     "service usage data"
+    ],
+    "search terms": [
+     "service usage data"
+    ],
+    "frequency of use": [
+     "operation data"
+    ],
+    "exact date": [
+     "metadata"
+    ],
+    "place": [
+     "metadata"
+    ],
+    "time": [
+     "metadata"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "affiliates": [
+     "affiliate or business partner"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "affiliate or business partner": [
+     "third party"
+    ],
+    "law enforcement or government agencies": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial": "business operations",
+    "operations": "internal operations",
+    "security": "fraud prevention and security",
+    "service delivery": "provide-service",
+    "service provision": "provide-service",
+    "service-provision": "provide-service",
+    "service_provision": "provide-service",
+    "technical support": "customer-support"
+   },
+   "parents": {
+    "account creation or service use": [
+     "services"
+    ],
+    "account-management": [
+     "account creation or service use",
+     "services"
+    ],
+    "advertising": [
+     "business operations",
+     "services"
+    ],
+    "analytics": [
+     "service-improvement"
+    ],
+    "customer-support": [
+     "services"
+    ],
+    "provide-service": [
+     "provide and legally justify services",
+     "services"
+    ],
+    "service operation and maintenance": [
+     "internal operations",
+     "services"
+    ],
+    "service-improvement": [
+     "services"
+    ],
+    "personalization": [
+     "service-improvement"
+    ],
+    "fraud prevention and security": [
+     "strictly necessary for fulfilling the purposes outlined in this Privacy Policy"
+    ],
+    "legal compliance": [
+     "compliance",
+     "legal requirement"
+    ],
+    "contract-performance": [
+     "legal requirement"
+    ],
+    "provide and legally justify services": [
+     "services"
+    ],
+    "verification": [
+     "fraud prevention and security",
+     "provide-service"
+    ],
+    "internal operations": [
+     "business operations"
+    ],
+    "other": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2441,
+  "completion_tokens": 995,
+  "thinking_tokens": 0,
+  "seconds": 14.319545030593872,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

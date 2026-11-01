@@ -1,0 +1,385 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact info": "contact details",
+    "cookies": "cookie data",
+    "email address": "email",
+    "email_address": "email",
+    "financial info": "financial",
+    "financial information": "financial",
+    "personal correspondence": "correspondence",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "personally identifiable information": "personal data",
+    "phone_number": "phone number"
+   },
+   "parents": {
+    "Aadhaar card": [
+     "government_issued_identification_card"
+    ],
+    "PAN card": [
+     "government_issued_identification_card"
+    ],
+    "voter ID": [
+     "government_issued_identification_card"
+    ],
+    "driving license": [
+     "government_issued_identification_card"
+    ],
+    "national_identification_number": [
+     "personal data"
+    ],
+    "bank_account_holder_name": [
+     "bank account info"
+    ],
+    "bank_account_number": [
+     "bank account info"
+    ],
+    "financial_routing_number": [
+     "bank account info"
+    ],
+    "bank_account_details": [
+     "bank account info"
+    ],
+    "bank account info": [
+     "financial"
+    ],
+    "credit card number": [
+     "payment_card_information"
+    ],
+    "debit card number": [
+     "payment_card_information"
+    ],
+    "payment_card_information": [
+     "payment_details"
+    ],
+    "payment_details": [
+     "financial"
+    ],
+    "account_balance": [
+     "financial"
+    ],
+    "income": [
+     "financial"
+    ],
+    "purchase_order": [
+     "order details"
+    ],
+    "order details": [
+     "transaction details"
+    ],
+    "purchases": [
+     "transaction details"
+    ],
+    "transaction_history": [
+     "transaction details"
+    ],
+    "transaction details": [
+     "financial"
+    ],
+    "advertising identifiers": [
+     "device identifier"
+    ],
+    "device identifier": [
+     "device information",
+     "unique identifier"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device details": [
+     "device information"
+    ],
+    "cookie data": [
+     "cookie or similar tracker"
+    ],
+    "ip address": [
+     "device information",
+     "location data"
+    ],
+    "location data": [
+     "location"
+    ],
+    "city": [
+     "location"
+    ],
+    "country": [
+     "location"
+    ],
+    "postal_code": [
+     "postal address"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "contact address": [
+     "contact details"
+    ],
+    "physical_address": [
+     "contact details"
+    ],
+    "email": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "contact details": [
+     "personal data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "last name": [
+     "name"
+    ],
+    "name": [
+     "personal data"
+    ],
+    "date of birth": [
+     "demographic info"
+    ],
+    "gender": [
+     "demographic info"
+    ],
+    "occupation": [
+     "demographic info"
+    ],
+    "industry": [
+     "demographic info"
+    ],
+    "demographic": [
+     "demographic info"
+    ],
+    "demographic info": [
+     "personal data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "non-personally identifiable information": [
+     "information"
+    ],
+    "user data": [
+     "data"
+    ],
+    "user_identifier": [
+     "unique identifier"
+    ],
+    "search history": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "browsing history"
+    ],
+    "browsing history": [
+     "service use data"
+    ],
+    "service use data": [
+     "user interaction data"
+    ],
+    "user interactions": [
+     "user interaction data"
+    ],
+    "SMS": [
+     "sms details"
+    ],
+    "sms details": [
+     "communication data"
+    ],
+    "social contacts": [
+     "contacts"
+    ],
+    "customer support inquiry": [
+     "user inquiry"
+    ],
+    "grievances": [
+     "user inquiry"
+    ],
+    "user inquiry": [
+     "communication data"
+    ],
+    "correspondence": [
+     "communication data"
+    ],
+    "communication data": [
+     "user interaction data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "IT service provider": [
+     "service provider",
+     "third-party service provider"
+    ],
+    "Network18 Media & Investments Limited affiliate": [
+     "affiliate"
+    ],
+    "ad network": [
+     "third party"
+    ],
+    "advertiser": [
+     "partners",
+     "third party"
+    ],
+    "affiliate": [
+     "anyone"
+    ],
+    "business partner": [
+     "partners"
+    ],
+    "commercial partner": [
+     "partners"
+    ],
+    "courier": [
+     "service provider"
+    ],
+    "custodian": [
+     "service provider"
+    ],
+    "first party": [
+     "anyone"
+    ],
+    "payment_partner": [
+     "partners"
+    ],
+    "public authority": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "strategic partner": [
+     "partners"
+    ],
+    "third party": [
+     "anyone"
+    ],
+    "third-party service provider": [
+     "service provider",
+     "third party"
+    ],
+    "trustee": [
+     "service provider"
+    ],
+    "user": [
+     "anyone"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "phone": [
+     "device"
+    ],
+    "facebook": [
+     "social media platform",
+     "third party"
+    ],
+    "google": [
+     "third party"
+    ],
+    "other users": [
+     "third party",
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "business partner": [
+     "partner"
+    ],
+    "commercial partner": [
+     "partner"
+    ],
+    "payment processor": [
+     "partner",
+     "third-party service provider"
+    ],
+    "service partner": [
+     "partner"
+    ],
+    "third-party service provider": [
+     "third party"
+    ],
+    "third party website": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "customer_support": "customer support",
+    "fraud prevention and detection": "fraud detection and prevention",
+    "identity-verification": "identification",
+    "research and analytics": "analytics and research"
+   },
+   "parents": {
+    "For example, providing SMS and E-mail related services such as marketing newsletters, promotions and offers": [
+     "marketing"
+    ],
+    "analytics": [
+     "analytics and research"
+    ],
+    "to show trends about the general use of our services": [
+     "analytics",
+     "analytics and research"
+    ],
+    "fraud detection": [
+     "fraud detection and prevention"
+    ],
+    "fraud prevention": [
+     "fraud detection and prevention"
+    ],
+    "compliance": [
+     "legal compliance"
+    ],
+    "dispute resolution": [
+     "legal compliance"
+    ],
+    "service improvement": [
+     "service operation"
+    ],
+    "troubleshooting": [
+     "service operation"
+    ],
+    "service provision": [
+     "services"
+    ],
+    "service-provision": [
+     "services"
+    ],
+    "service_provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4007,
+  "completion_tokens": 1599,
+  "thinking_tokens": 0,
+  "seconds": 15.392249345779419,
+  "failures": 0
+ },
+ "seconds": 15.5
+}

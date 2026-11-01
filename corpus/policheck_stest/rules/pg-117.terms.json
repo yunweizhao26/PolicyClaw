@@ -1,0 +1,205 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing_history": "browsing history",
+    "email address": "email",
+    "personal info": "personal data",
+    "personal information": "personal data",
+    "personal_data": "personal data",
+    "photos": "photo",
+    "survey responses": "survey response"
+   },
+   "parents": {
+    "credit card number": [
+     "financial information",
+     "payment info"
+    ],
+    "email": [
+     "contact details",
+     "contact_info"
+    ],
+    "phone number": [
+     "contact details",
+     "contact_info"
+    ],
+    "postal address": [
+     "contact details",
+     "contact_info"
+    ],
+    "precise_location": [
+     "location"
+    ],
+    "comments": [
+     "user public activities",
+     "user-generated content"
+    ],
+    "user-generated audio": [
+     "recording",
+     "user-generated content"
+    ],
+    "user-generated video": [
+     "recording",
+     "user-generated content"
+    ],
+    "postings": [
+     "user public activities"
+    ],
+    "user preferences": [
+     "preferences"
+    ],
+    "ip address": [
+     "device details",
+     "device_data"
+    ],
+    "data from cookies": [
+     "tracking data"
+    ],
+    "cookies": [
+     "tracking data"
+    ],
+    "pixels": [
+     "tracking data"
+    ],
+    "tracking and demographic data": [
+     "data"
+    ],
+    "personal data": [
+     "data",
+     "information",
+     "user data"
+    ],
+    "non-personal information": [
+     "data",
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "commercial partner"
+   },
+   "parents": {
+    "academic researchers": [
+     "third party"
+    ],
+    "business partners": [
+     "commercial partner",
+     "third party"
+    ],
+    "contractors": [
+     "service provider",
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "the platform provider for TED Masterclass for consumers": [
+     "service provider",
+     "third party"
+    ],
+    "the platform provider for TED subscriptions": [
+     "service provider",
+     "third party"
+    ],
+    "third-party partners": [
+     "commercial partner",
+     "third party"
+    ],
+    "third-party vendors": [
+     "service provider",
+     "third party"
+    ],
+    "advertisers": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ],
+    "event organizers": [
+     "third party"
+    ],
+    "Mixpanel": [
+     "service provider",
+     "third party"
+    ],
+    "Sailthru": [
+     "service provider",
+     "third party"
+    ],
+    "other users": [
+     "all users",
+     "public"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "subscribers": [
+     "user"
+    ],
+    "Mighty Network": [
+     "social network"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "other community members": [
+     "others"
+    ],
+    "third party": [
+     "others"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "reporting to advertisers": [
+     "advertising"
+    ],
+    "customer_support": [
+     "communication"
+    ],
+    "feedback": [
+     "communication"
+    ],
+    "service-feature": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service operation and improvement"
+    ],
+    "website_optimization": [
+     "service optimization"
+    ],
+    "service administration": [
+     "service operation and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2547,
+  "completion_tokens": 980,
+  "thinking_tokens": 0,
+  "seconds": 12.981526851654053,
+  "failures": 0
+ },
+ "seconds": 13.1
+}

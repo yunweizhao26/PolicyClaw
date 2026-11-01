@@ -1,0 +1,207 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing history": "browsing behavior",
+    "health information": "health characteristics",
+    "information": "data",
+    "ip address": "IP address",
+    "job information": "employment information",
+    "payment details": "financial information",
+    "personal data": "information about you",
+    "visited pages": "browsing behavior"
+   },
+   "parents": {
+    "IP address": [
+     "identifiers",
+     "network information"
+    ],
+    "account identifier": [
+     "identifiers"
+    ],
+    "call recording": [
+     "communication content"
+    ],
+    "clicks": [
+     "browsing and interaction data",
+     "electronic network activity",
+     "usage data"
+    ],
+    "conversion information": [
+     "usage data"
+    ],
+    "cookie data": [
+     "cookies and similar tracking technologies"
+    ],
+    "device identifier": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "health characteristics": [
+     "health data",
+     "health or medical data",
+     "sensitive personal information"
+    ],
+    "health data": [
+     "sensitive personal information"
+    ],
+    "health or medical data": [
+     "sensitive personal information"
+    ],
+    "inferred data": [
+     "derived data"
+    ],
+    "lifestyle information": [
+     "user profile"
+    ],
+    "mood": [
+     "health data"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "non-promotional email": [
+     "communication content"
+    ],
+    "password": [
+     "account identifier"
+    ],
+    "financial information": [
+     "transaction details"
+    ],
+    "personal interests": [
+     "user profile"
+    ],
+    "phone number": [
+     "identifiers"
+    ],
+    "photo": [
+     "user profile"
+    ],
+    "postal address": [
+     "identifiers"
+    ],
+    "preference": [
+     "user preferences"
+    ],
+    "promotional email": [
+     "communication content"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "push notification": [
+     "communication content"
+    ],
+    "referrer url": [
+     "electronic network activity",
+     "usage data"
+    ],
+    "sensitive personal information": [
+     "information about you"
+    ],
+    "service usage details": [
+     "usage data"
+    ],
+    "sleep goals": [
+     "lifestyle information",
+     "personal interests"
+    ],
+    "sleep hours": [
+     "lifestyle information"
+    ],
+    "social media account details": [
+     "social media account data"
+    ],
+    "social media handle": [
+     "identifiers",
+     "social media account details"
+    ],
+    "survey responses": [
+     "user content"
+    ],
+    "time spent on page": [
+     "browsing and interaction data",
+     "usage data"
+    ],
+    "user preferences": [
+     "user profile"
+    ],
+    "video viewing history": [
+     "browsing and interaction data",
+     "usage data"
+    ],
+    "browsing behavior": [
+     "browsing and interaction data",
+     "electronic network activity",
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party service": [
+     "third party"
+    ],
+    "vendor": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "public source": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "security": "fraud prevention and security"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2613,
+  "completion_tokens": 816,
+  "thinking_tokens": 0,
+  "seconds": 11.078580141067505,
+  "failures": 0
+ },
+ "seconds": 11.2
+}

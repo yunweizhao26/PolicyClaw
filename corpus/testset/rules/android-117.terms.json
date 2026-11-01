@@ -1,0 +1,314 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contacts": "contact list",
+    "data collected": "collected data",
+    "hardware model": "device model",
+    "information": "data",
+    "operating system name": "operating system",
+    "photos": "photo",
+    "system language": "language",
+    "user activities": "in-app activity",
+    "weight": "body weight"
+   },
+   "parents": {
+    "account data": [
+     "personal data"
+    ],
+    "activity description": [
+     "in-app activity"
+    ],
+    "analytics data": [
+     "usage data"
+    ],
+    "app build": [
+     "app version"
+    ],
+    "app usage": [
+     "usage data"
+    ],
+    "body height": [
+     "health data"
+    ],
+    "body temperature": [
+     "health data"
+    ],
+    "body weight": [
+     "health data"
+    ],
+    "browser version": [
+     "browser type"
+    ],
+    "browsing activity": [
+     "usage data"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "bug report": [
+     "diagnostic data"
+    ],
+    "calories burned": [
+     "physical activity"
+    ],
+    "carrier country": [
+     "country"
+    ],
+    "carrier name": [
+     "device information"
+    ],
+    "contact list": [
+     "personal data"
+    ],
+    "cookies": [
+     "unique device identifier"
+    ],
+    "country": [
+     "geographic area"
+    ],
+    "date and time": [
+     "usage data"
+    ],
+    "device model": [
+     "device information"
+    ],
+    "device type": [
+     "device information"
+    ],
+    "diagnostic data": [
+     "usage data"
+    ],
+    "email address": [
+     "account data"
+    ],
+    "email content": [
+     "user-generated content"
+    ],
+    "feedback": [
+     "user-generated content"
+    ],
+    "first and last name": [
+     "name"
+    ],
+    "gender": [
+     "profile information"
+    ],
+    "geographic area": [
+     "location"
+    ],
+    "hardware manufacturer": [
+     "device information"
+    ],
+    "health and activity data": [
+     "personal data"
+    ],
+    "health and sexual activity information": [
+     "health and activity data"
+    ],
+    "health data": [
+     "health and activity data"
+    ],
+    "heart rate": [
+     "health data"
+    ],
+    "in-app activity": [
+     "usage data"
+    ],
+    "interaction time": [
+     "usage data"
+    ],
+    "ip address": [
+     "unique device identifier"
+    ],
+    "local media content": [
+     "local media"
+    ],
+    "menstrual cycle": [
+     "health and sexual activity information"
+    ],
+    "name": [
+     "profile information"
+    ],
+    "operating system and version": [
+     "device information"
+    ],
+    "operating system build": [
+     "operating system version"
+    ],
+    "operating system": [
+     "operating system and version"
+    ],
+    "operating system version": [
+     "operating system and version"
+    ],
+    "password": [
+     "account data"
+    ],
+    "payment card details": [
+     "personal data"
+    ],
+    "phone number": [
+     "account data"
+    ],
+    "photo": [
+     "local media"
+    ],
+    "physical activity": [
+     "health and activity data"
+    ],
+    "privacy data": [
+     "personal data"
+    ],
+    "profile information": [
+     "account data"
+    ],
+    "screen size": [
+     "screen size and density"
+    ],
+    "sdk version": [
+     "diagnostic data"
+    ],
+    "step count": [
+     "steps and distance"
+    ],
+    "steps and distance": [
+     "physical activity"
+    ],
+    "symptoms": [
+     "health data"
+    ],
+    "time zone": [
+     "location"
+    ],
+    "unique device identifier": [
+     "device information"
+    ],
+    "usage data": [
+     "collected data"
+    ],
+    "user requests": [
+     "user-generated content"
+    ],
+    "user-generated content": [
+     "collected data"
+    ],
+    "videos": [
+     "local media"
+    ],
+    "website traffic": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third-party services"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party services": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party services": "third party"
+   },
+   "parents": {
+    "Google Fit": [
+     "third party"
+    ],
+    "Google Analytics": [
+     "third party"
+    ],
+    "Third-Party Social Media Service": [
+     "third party"
+    ],
+    "browser": [
+     "user device"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google Analytics": [
+     "Google",
+     "data statistics tools"
+    ],
+    "advertising network": [
+     "service provider"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "contact": [
+     "other user"
+    ],
+    "other user": [
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "error-monitoring": [
+     "analytics"
+    ],
+    "feature-development": [
+     "provide and improve the Service"
+    ],
+    "identity verification": [
+     "account-management"
+    ],
+    "payment fulfillment": [
+     "contract-fulfillment",
+     "service provision"
+    ],
+    "service optimization": [
+     "provide and improve the Service"
+    ],
+    "service provision": [
+     "provide and improve the Service"
+    ],
+    "customer support": [
+     "service-operation-and-support"
+    ],
+    "security": [
+     "safety"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2769,
+  "completion_tokens": 1250,
+  "thinking_tokens": 0,
+  "seconds": 12.945369005203247,
+  "failures": 0
+ },
+ "seconds": 13.0
+}

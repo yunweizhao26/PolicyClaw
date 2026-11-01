@@ -1,0 +1,180 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "application identifier": "app bundle identifier",
+    "children's information": "children's data",
+    "children's personal information": "children's data",
+    "information": "data",
+    "personal information": "personal data",
+    "product identifier": "product SKU",
+    "purchase receipts": "purchase receipt",
+    "user profile": "profiles",
+    "verification code": "pin code"
+   },
+   "parents": {
+    "child's age": [
+     "age"
+    ],
+    "child profile": [
+     "profiles"
+    ],
+    "child's name": [
+     "name",
+     "user name"
+    ],
+    "child's personal information": [
+     "children's data",
+     "personal data"
+    ],
+    "children's data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "payment details"
+    ],
+    "credit card security code": [
+     "payment details"
+    ],
+    "date of birth": [
+     "age"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "hardware device identifier": [
+     "device identifier"
+    ],
+    "in-app purchase event data": [
+     "game event data"
+    ],
+    "learning achievements": [
+     "learning progress"
+    ],
+    "login credentials": [
+     "account details"
+    ],
+    "photos": [
+     "photos, videos, or audio files"
+    ],
+    "videos": [
+     "photos, videos, or audio files"
+    ],
+    "audio files": [
+     "photos, videos, or audio files"
+    ],
+    "purchase receipt": [
+     "purchase details"
+    ],
+    "purchase history": [
+     "purchase details"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "user name": [
+     "name"
+    ],
+    "vendor ID": [
+     "device identifier"
+    ],
+    "AppsFlyer ID": [
+     "device identifier"
+    ],
+    "transaction identifier": [
+     "transaction information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "government": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "platform": "app store",
+    "user device": "device"
+   },
+   "parents": {
+    "parent or guardian": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "AppsFlyer": [
+     "service provider"
+    ],
+    "Bimi Boo Kids Inc.": [
+     "first party"
+    ],
+    "other recipients": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "other": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer support": "customer service",
+    "dispute-resolution": "dispute resolution",
+    "fraud prevention and detection": "fraud detection",
+    "legal compliance": "compliance",
+    "provide-services": "provide-service"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "complete transaction": [
+     "fulfillment"
+    ],
+    "fraud detection": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "troubleshooting": [
+     "service operation"
+    ],
+    "unlock content on Amazon devices": [
+     "service delivery"
+    ],
+    "service delivery": [
+     "provide-service"
+    ],
+    "service provision": [
+     "provide-service"
+    ],
+    "user-experience": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3312,
+  "completion_tokens": 635,
+  "thinking_tokens": 0,
+  "seconds": 11.840113401412964,
+  "failures": 0
+ },
+ "seconds": 11.9
+}

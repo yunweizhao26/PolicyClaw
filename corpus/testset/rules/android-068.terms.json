@@ -1,0 +1,218 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account data": "Account Data",
+    "biometric data": "Face Data",
+    "content": "Content",
+    "customer support data": "Customer Support Data",
+    "facial geometry": "Face Data",
+    "geolocation data": "Geolocation Data",
+    "government-issued id": "government-issued ID",
+    "inferences": "Insights and Inferences",
+    "profile data": "Profile Data",
+    "profile information": "Profile Data",
+    "purchase data": "Purchase Data",
+    "sensitive data": "data deemed sensitive or special",
+    "social media data": "Social Media Data",
+    "technical data": "Technical Data",
+    "third-party data": "Third Party Data",
+    "usage data": "Usage Data",
+    "your data": "data"
+   },
+   "parents": {
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "coarse location": [
+     "Geolocation Data"
+    ],
+    "geographic location": [
+     "Geolocation Data"
+    ],
+    "credit card number": [
+     "financial info",
+     "payment card number"
+    ],
+    "payment card number": [
+     "financial info"
+    ],
+    "financial transaction details": [
+     "Purchase Data"
+    ],
+    "purchase history": [
+     "Purchase Data"
+    ],
+    "chat message content": [
+     "Content",
+     "user content"
+    ],
+    "user content": [
+     "Content"
+    ],
+    "advertising ID": [
+     "Technical Data"
+    ],
+    "pseudonymous identifier": [
+     "Technical Data"
+    ],
+    "customer service communication content": [
+     "Customer Support Data"
+    ],
+    "customer service records": [
+     "Customer Support Data"
+    ],
+    "customer support inquiry data": [
+     "Customer Support Data"
+    ],
+    "survey responses": [
+     "Marketing, Survey and Research Data",
+     "survey participation data"
+    ],
+    "survey participation data": [
+     "Marketing, Survey and Research Data"
+    ],
+    "ad interaction data": [
+     "Usage Data"
+    ],
+    "browsing and interaction data": [
+     "Usage Data"
+    ],
+    "service usage data": [
+     "Usage Data"
+    ],
+    "preferences": [
+     "Insights and Inferences"
+    ],
+    "interests": [
+     "Profile Data"
+    ],
+    "gender": [
+     "Profile Data"
+    ],
+    "date of birth": [
+     "Profile Data"
+    ],
+    "account history": [
+     "Account Data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "law enforcement": [
+     "public authority"
+    ],
+    "public authority": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "third party websites or apps": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "MG Japan Services GK": [
+     "first party"
+    ],
+    "MTCH Technology Services Limited": [
+     "first party"
+    ],
+    "Tinder, LLC": [
+     "first party"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "commercial partner": [
+     "third party"
+    ],
+    "other user": [
+     "third party",
+     "user"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer-support": "customer support",
+    "personalization": "personalisation",
+    "service-provision": "service provision",
+    "services": "service provision"
+   },
+   "parents": {
+    "account-creation": [
+     "service provision"
+    ],
+    "targeted advertising": [
+     "advertising"
+    ],
+    "marketing": [
+     "advertising"
+    ],
+    "research and development": [
+     "analytics"
+    ],
+    "service improvement": [
+     "analytics",
+     "service provision and improvement"
+    ],
+    "crime prevention": [
+     "legal compliance"
+    ],
+    "legal compliance": [
+     "legal"
+    ],
+    "fraud detection and prevention": [
+     "security"
+    ],
+    "identity verification": [
+     "security"
+    ],
+    "user safety": [
+     "security"
+    ],
+    "social networking service": [
+     "service provision"
+    ],
+    "service provision": [
+     "service provision and improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3091,
+  "completion_tokens": 917,
+  "thinking_tokens": 0,
+  "seconds": 12.127060890197754,
+  "failures": 0
+ },
+ "seconds": 12.3
+}

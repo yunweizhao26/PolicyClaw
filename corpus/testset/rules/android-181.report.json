@@ -1,0 +1,278 @@
+{
+ "cleaned_sha256": "android-181",
+ "text_sha256": "50412f31b6bfe330b34b6b845b818bc42a0fb52dc0c9e8b4d5c988c9fcda2c6e",
+ "site_id": "android-181",
+ "sections": 10,
+ "rules": 214,
+ "report": {
+  "sections": 10,
+  "raw_rules": 141,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "always in compliance with the applicable legal bases"
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "share",
+     "purpose": [
+      {
+       "text": "to enable personalized ads",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "advertising partner",
+      "text": "advertising partners"
+     },
+     "references": [
+      {
+       "text": "this policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-181#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PSafe"
+     },
+     "conditions": [
+      "intentionally"
+     ],
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "does not intentionally collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "individuals under 16 years of age"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-181#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If PSafe discovers that it has inadvertently collected Personal Information from someone under the age of 16"
+     ],
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "will take steps to delete",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-181#s1"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "protected classification characteristics",
+      "text": "this information"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "polarity": "DENY",
+     "polarity_text": "do not intentionally collect",
+     "purpose": [],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "conditions": [
+      "Legal category of personal information (PI) Protected classification characteristics"
+     ],
+     "exceptions": [
+      "it may be inferred or revealed in identity data or other information we collect"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Legal category of personal information (PI) Protected classification characteristics"
+    ],
+    "section": "android-181#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may request",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restriction of processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "You may request the restriction of processing",
+      "in specific situations, such as when you contest the accuracy of the data, the processing is unlawful, or you need the data for legal claims"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art. 18",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-181#s8"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "action": {
+      "text": "decision based solely on automated processing, including profiling",
+      "verb": "base"
+     },
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "right not to be subject to",
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "purpose": [],
+     "conditions": [
+      "that produces legal effects concerning you or similarly significantly affects you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Art. 22",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-181#s9"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 68,
+  "completeness": {
+   "gaps": 279,
+   "gap_words": 3123
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 68,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 18,
+  "cached": 0,
+  "prompt_tokens": 35705,
+  "completion_tokens": 29333,
+  "thinking_tokens": 0,
+  "seconds": 606.8696193695068,
+  "failures": 0
+ },
+ "seconds": 607.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

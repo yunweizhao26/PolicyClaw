@@ -1,0 +1,125 @@
+{
+ "cleaned_sha256": "web-025",
+ "text_sha256": "e7bc7628114ef13eeff3cbf1f2b91b8f8ebad65ba0cefc18a42390f77cf025d4",
+ "site_id": "web-025",
+ "sections": 23,
+ "rules": 292,
+ "report": {
+  "sections": 23,
+  "raw_rules": 240,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "specialist agencies",
+      "name": "specialist agencies"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to carry out market research on our behalf",
+       "name": "market-research"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-025#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "maintaining",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information we hold about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "maintain appropriate organisational and technological safeguards",
+      "verb": "maintain"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "to help protect against loss, misuse or unauthorised access, disclosure, alteration or destruction of the information we hold about you",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "maintaining"
+    ],
+    "section": "web-025#s16"
+   }
+  ],
+  "residual_quotes": 38,
+  "quotes": 120,
+  "completeness": {
+   "gaps": 415,
+   "gap_words": 4559
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 120,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 44,
+  "cached": 0,
+  "prompt_tokens": 77642,
+  "completion_tokens": 46348,
+  "thinking_tokens": 0,
+  "seconds": 705.3030488491058,
+  "failures": 0
+ },
+ "seconds": 706.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

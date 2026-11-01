@@ -1,0 +1,541 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account details",
+    "android id": "Android ID",
+    "bank account information": "bank account details",
+    "clipboard data": "clipboard content",
+    "contact info": "contact details",
+    "contact information": "contact details",
+    "cookies": "cookie or similar tracking technology identifier",
+    "hardware model": "device model",
+    "identifying information": "identifiable personal data",
+    "imei": "IMEI",
+    "installed apps": "installed applications",
+    "interaction information": "interaction data",
+    "ip address": "IP address",
+    "mac address": "MAC address",
+    "network connection information": "network connection details",
+    "network performance data": "network performance",
+    "network type": "network connection type",
+    "personal data": "identifiable personal data",
+    "personal information": "identifiable personal data",
+    "profile picture": "profile photo",
+    "telecommunications carrier": "carrier name",
+    "user name": "user account name",
+    "username": "user account name",
+    "voice recordings": "voice recording"
+   },
+   "parents": {
+    "account identifier": [
+     "account details",
+     "identifiers"
+    ],
+    "account registration date": [
+     "account details"
+    ],
+    "account settings": [
+     "account details"
+    ],
+    "advertising id": [
+     "device identifier",
+     "identifiers"
+    ],
+    "Android ID": [
+     "device identifier"
+    ],
+    "app set id": [
+     "device identifier",
+     "identifiers"
+    ],
+    "app version": [
+     "device information"
+    ],
+    "application version": [
+     "device information"
+    ],
+    "audio": [
+     "multimedia"
+    ],
+    "audio and video information": [
+     "multimedia"
+    ],
+    "audio bit rate": [
+     "audio and video information"
+    ],
+    "audio sample rate": [
+     "audio and video information"
+    ],
+    "authentication credential": [
+     "account details"
+    ],
+    "bank account details": [
+     "financial info"
+    ],
+    "battery level": [
+     "device status"
+    ],
+    "battery status": [
+     "device status"
+    ],
+    "bit rate": [
+     "audio and video information"
+    ],
+    "bluetooth data": [
+     "device information"
+    ],
+    "brand": [
+     "device characteristics"
+    ],
+    "browser settings": [
+     "device settings"
+    ],
+    "browser type": [
+     "device characteristics"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "chat logs": [
+     "message contents"
+    ],
+    "clipboard content": [
+     "device information"
+    ],
+    "communication data": [
+     "usage data"
+    ],
+    "contact list": [
+     "contact details"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "cpu information": [
+     "hardware configuration"
+    ],
+    "customer service communications": [
+     "communication data"
+    ],
+    "date of birth": [
+     "protected classifications"
+    ],
+    "device ID": [
+     "device identifier",
+     "identifiers"
+    ],
+    "device environment": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information",
+     "identifiers"
+    ],
+    "device manufacturer": [
+     "device characteristics"
+    ],
+    "device model": [
+     "device characteristics"
+    ],
+    "device name": [
+     "device characteristics"
+    ],
+    "device settings": [
+     "device characteristics"
+    ],
+    "device status": [
+     "device information"
+    ],
+    "device storage capacity": [
+     "hardware configuration"
+    ],
+    "discount information": [
+     "transaction details"
+    ],
+    "email address": [
+     "contact details",
+     "identifiers"
+    ],
+    "financial info": [
+     "identifiable personal data"
+    ],
+    "gender": [
+     "protected classifications"
+    ],
+    "geographic location": [
+     "location"
+    ],
+    "hardware configuration": [
+     "device information"
+    ],
+    "identifiers": [
+     "identifiable personal data"
+    ],
+    "idfa": [
+     "advertising id",
+     "device identifier"
+    ],
+    "IMEI": [
+     "device identifier"
+    ],
+    "IMSI": [
+     "device identifier"
+    ],
+    "indirect user profiles": [
+     "profile",
+     "user profile"
+    ],
+    "installed applications": [
+     "device information"
+    ],
+    "interaction data": [
+     "usage data"
+    ],
+    "internet connection information": [
+     "network information"
+    ],
+    "IP address": [
+     "identifiers",
+     "network connection details"
+    ],
+    "language settings": [
+     "device settings"
+    ],
+    "likes": [
+     "interaction data"
+    ],
+    "login details": [
+     "usage data"
+    ],
+    "MAC address": [
+     "device identifier"
+    ],
+    "memory information": [
+     "hardware configuration"
+    ],
+    "message contents": [
+     "communication data"
+    ],
+    "mobile network information": [
+     "network information"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "network base station info": [
+     "network information"
+    ],
+    "network connection details": [
+     "network information"
+    ],
+    "network connection type": [
+     "network connection details"
+    ],
+    "network connectivity status": [
+     "network connection details"
+    ],
+    "network latency": [
+     "network performance"
+    ],
+    "network performance": [
+     "network information"
+    ],
+    "network routing information": [
+     "network information"
+    ],
+    "oaid": [
+     "advertising id",
+     "device identifier"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "operating system version": [
+     "operating system"
+    ],
+    "packet loss rate": [
+     "network performance"
+    ],
+    "password": [
+     "account details",
+     "authentication credential"
+    ],
+    "phone number": [
+     "contact details",
+     "identifiers"
+    ],
+    "phone status": [
+     "device status"
+    ],
+    "photos": [
+     "multimedia",
+     "user-submitted media"
+    ],
+    "playlists": [
+     "usage data"
+    ],
+    "postal address": [
+     "contact details",
+     "identifiers"
+    ],
+    "product interaction": [
+     "interaction data",
+     "usage data"
+    ],
+    "product version number": [
+     "device information"
+    ],
+    "profile photo": [
+     "profile"
+    ],
+    "protected classifications": [
+     "identifiable personal data"
+    ],
+    "purchase history": [
+     "transaction details"
+    ],
+    "purchases": [
+     "transaction details"
+    ],
+    "screen resolution": [
+     "device characteristics"
+    ],
+    "sdk version": [
+     "device information"
+    ],
+    "sensitive personal data": [
+     "identifiable personal data"
+    ],
+    "signal strength": [
+     "network connectivity status"
+    ],
+    "social media contacts": [
+     "social network activity"
+    ],
+    "social media posts": [
+     "user-submitted media"
+    ],
+    "social network activity": [
+     "usage data"
+    ],
+    "storage permissions": [
+     "system permissions"
+    ],
+    "subscription details": [
+     "account details"
+    ],
+    "system log": [
+     "log data"
+    ],
+    "carrier name": [
+     "mobile network information"
+    ],
+    "timestamp": [
+     "usage data"
+    ],
+    "transaction details": [
+     "financial info"
+    ],
+    "transaction history": [
+     "transaction details"
+    ],
+    "user account name": [
+     "account identifier"
+    ],
+    "user comments": [
+     "user-submitted media"
+    ],
+    "user id": [
+     "account identifier",
+     "identifiers"
+    ],
+    "user profile": [
+     "profile"
+    ],
+    "user-submitted media": [
+     "multimedia"
+    ],
+    "video": [
+     "multimedia"
+    ],
+    "video frame rate": [
+     "audio and video information"
+    ],
+    "video recordings": [
+     "multimedia"
+    ],
+    "video viewing history": [
+     "browsing history",
+     "usage data"
+    ],
+    "voice recording": [
+     "audio",
+     "biometric data",
+     "multimedia"
+    ],
+    "wi-fi signal strength": [
+     "signal strength"
+    ],
+    "wi-fi status": [
+     "network connectivity status"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner"
+    ],
+    "content audit service provider": [
+     "third party"
+    ],
+    "the public": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "user device": "device"
+   },
+   "parents": {
+    "third-party platform": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "Google LLC": "Google",
+    "first party": "Yalla Technology FZ-LLC"
+   },
+   "parents": {
+    "Agora Lab, Inc.": [
+     "third party"
+    ],
+    "Amazon Web Services, Inc.": [
+     "third party"
+    ],
+    "Apple Inc.": [
+     "third party"
+    ],
+    "AppsFlyer Ltd.": [
+     "third party"
+    ],
+    "Beijing Shumei Shidai Technology Co., Ltd.": [
+     "third party"
+    ],
+    "Google": [
+     "third party"
+    ],
+    "Honor Device Co., Ltd.": [
+     "third party"
+    ],
+    "Huawei Device Co., Ltd.": [
+     "third party"
+    ],
+    "Infobip ltd.": [
+     "third party"
+    ],
+    "Meta Platforms, Inc.": [
+     "third party"
+    ],
+    "NXCLOUD ASIA PTE. LTD.": [
+     "third party"
+    ],
+    "Qiniu Information Technology Co, Ltd": [
+     "third party"
+    ],
+    "WUHAN JIYI NETWORK TECHNOLOGY CO., LTD.": [
+     "third party"
+    ],
+    "X Corp.": [
+     "third party"
+    ],
+    "YouTube": [
+     "Google",
+     "third party"
+    ],
+    "YunPian Technology Limited": [
+     "third party"
+    ],
+    "ZEGOCLOUD PTE. LTD.": [
+     "third party"
+    ],
+    "advertising service provider": [
+     "third party"
+    ],
+    "push notification provider": [
+     "third party"
+    ],
+    "sdk provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "enforcing terms and legal rights": "enforcement",
+    "legal compliance": "compliance",
+    "sign-in-management": "sign-in"
+   },
+   "parents": {
+    "advertising": [
+     "advertising and marketing"
+    ],
+    "advertising and marketing": [
+     "commercial"
+    ],
+    "content-moderation": [
+     "enforcement"
+    ],
+    "fraud prevention": [
+     "fraud prevention and security"
+    ],
+    "security": [
+     "fraud prevention and security"
+    ],
+    "research": [
+     "internal operations"
+    ],
+    "analytics": [
+     "internal operations"
+    ],
+    "service improvement": [
+     "service performance and improvement"
+    ],
+    "service performance": [
+     "provide-service",
+     "service performance and improvement"
+    ],
+    "communications-management": [
+     "service performance and communication"
+    ],
+    "service provision": [
+     "provide-service"
+    ],
+    "services": [
+     "provide-service"
+    ],
+    "sign-in": [
+     "functionality"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4111,
+  "completion_tokens": 2461,
+  "thinking_tokens": 0,
+  "seconds": 18.9005343914032,
+  "failures": 0
+ },
+ "seconds": 19.0
+}

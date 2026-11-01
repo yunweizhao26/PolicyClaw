@@ -1,0 +1,153 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "kyc information": "KYC information",
+    "nominee details": "beneficiary details",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "address": [
+     "contact information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "financial history": [
+     "financial data",
+     "financial information"
+    ],
+    "income": [
+     "financial data",
+     "financial information"
+    ],
+    "national identification number": [
+     "KYC information"
+    ],
+    "tax identifier": [
+     "KYC information",
+     "financial data",
+     "financial information"
+    ],
+    "verification documents": [
+     "KYC information"
+    ],
+    "photograph": [
+     "KYC information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "financial institutions": "financial institution",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "commercial partner": [
+     "third party"
+    ],
+    "financial institution": [
+     "third party"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third-party-credit-reporting-agency": "credit bureau"
+   },
+   "parents": {
+    "children": [
+     "user"
+    ],
+    "credit bureau": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "merchant": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "communications": "communication",
+    "customer_support": "customer support and disputes",
+    "service provision": "provide-service-or-fulfill-request",
+    "service-provision": "provide-service-or-fulfill-request"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "research": [
+     "analytics or research"
+    ],
+    "authentication": [
+     "verification"
+    ],
+    "compliance with legal obligations": [
+     "legal compliance"
+    ],
+    "legal-compliance": [
+     "legal compliance"
+    ],
+    "legal_compliance": [
+     "legal compliance"
+    ],
+    "legal compliance and prevention of harm": [
+     "legal compliance"
+    ],
+    "fraud-detection": [
+     "fraud_prevention_and_security"
+    ],
+    "fraud_prevention_and_security": [
+     "security"
+    ],
+    "improve-service-or-product": [
+     "service improvement"
+    ],
+    "third-party marketing or advertising": [
+     "marketing"
+    ],
+    "personalization": [
+     "personalization of services"
+    ],
+    "payment processing": [
+     "provide-service-or-fulfill-request"
+    ],
+    "user account management": [
+     "provide-service-or-fulfill-request"
+    ],
+    "offer-services-or-products": [
+     "provide-service-or-fulfill-request"
+    ],
+    "storage": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2442,
+  "completion_tokens": 700,
+  "thinking_tokens": 0,
+  "seconds": 9.643855333328247,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

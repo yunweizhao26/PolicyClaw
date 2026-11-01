@@ -1,0 +1,221 @@
+{
+ "cleaned_sha256": "web-021",
+ "text_sha256": "edc1544775643351e3639720820e0b3e4efd64220676fe1a8147c2e0ccfe5a16",
+ "site_id": "web-021",
+ "sections": 11,
+ "rules": 169,
+ "report": {
+  "sections": 11,
+  "raw_rules": 157,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "conduct",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "conduct",
+      "verb": "conduct"
+     },
+     "operation": "other",
+     "purpose": [
+      {
+       "text": "marketing-related activities",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [
+      "on the basis of consent"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-021#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Additional Privacy Details for California Residents",
+      "The sections below apply to “personal information” about California residents, as that term is defined in the California Consumer Privacy Act (CCPA)",
+      "to the extent that any of the following are personally identifiable"
+     ],
+     "exceptions": [
+      "Photographer Personal Data (defined further above as user-uploaded images, videos and certain content relating to such images and videos), even when such data is about a resident of California, because Flickr is a “service provider” for such data under the CCPA"
+     ],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "California Consumer Privacy Act (CCPA)",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "user",
+      "text": "from and about California residents"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-021#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Additional Privacy Details for California Residents",
+      "The sections below apply to “personal information” about California residents, as that term is defined in the California Consumer Privacy Act (CCPA)",
+      "In CCPA terms",
+      "in the past 12 months"
+     ],
+     "exceptions": [
+      "Photographer Personal Data (defined further above as user-uploaded images, videos and certain content relating to such images and videos), even when such data is about a resident of California, because Flickr is a “service provider” for such data under the CCPA"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "have used",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Use of Information section of our Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "California Consumer Privacy Act (CCPA)",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-021#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Additional Privacy Details for California Residents",
+      "The sections below apply to “personal information” about California residents, as that term is defined in the California Consumer Privacy Act (CCPA)",
+      "In CCPA terms",
+      "in the past 12 months"
+     ],
+     "exceptions": [
+      "Photographer Personal Data (defined further above as user-uploaded images, videos and certain content relating to such images and videos), even when such data is about a resident of California, because Flickr is a “service provider” for such data under the CCPA"
+     ],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "disclosed",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Use of Information section of our Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "California Consumer Privacy Act (CCPA)",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-021#s8"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 92,
+  "completeness": {
+   "gaps": 263,
+   "gap_words": 3038
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 92,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 22,
+  "cached": 0,
+  "prompt_tokens": 44446,
+  "completion_tokens": 31047,
+  "thinking_tokens": 0,
+  "seconds": 338.6200623512268,
+  "failures": 0
+ },
+ "seconds": 339.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

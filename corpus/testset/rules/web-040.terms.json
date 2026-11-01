@@ -1,0 +1,415 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "browsing behavior": "behaviour online",
+    "browsing_history": "browsing history",
+    "contact details": "contact data",
+    "cookie data": "cookie / tracking information",
+    "demographic information": "demographic data",
+    "demographic_information": "demographic data",
+    "device_information": "device information",
+    "email_address": "email address",
+    "financial details": "financial data",
+    "financial_information": "financial data",
+    "information on your web behaviour": "behaviour online",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "log in details": "account sign-in details",
+    "log-in and password details": "account sign-in details",
+    "personal_data": "personal data",
+    "the data": "data",
+    "this data": "data",
+    "user communications": "communications",
+    "user_data": "user data",
+    "video viewing history": "video content viewed",
+    "your data": "user data"
+   },
+   "parents": {
+    "IP address": [
+     "device information"
+    ],
+    "browser information": [
+     "device information"
+    ],
+    "browser version": [
+     "browser information"
+    ],
+    "operating system": [
+     "device information"
+    ],
+    "mobile operating system": [
+     "operating system"
+    ],
+    "hardware model": [
+     "device information"
+    ],
+    "device identifier": [
+     "device information"
+    ],
+    "unique device identifier": [
+     "device identifier"
+    ],
+    "screen resolution": [
+     "device information"
+    ],
+    "screen size": [
+     "device information"
+    ],
+    "device name": [
+     "device information"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "phone_number": [
+     "contact data"
+    ],
+    "address": [
+     "contact data"
+    ],
+    "passwords": [
+     "account sign-in details"
+    ],
+    "country": [
+     "geographic location"
+    ],
+    "date and time": [
+     "time"
+    ],
+    "time of visit": [
+     "date and time",
+     "time"
+    ],
+    "email message": [
+     "communications"
+    ],
+    "messages with assistant": [
+     "communications"
+    ],
+    "order information": [
+     "financial data"
+    ],
+    "payment data": [
+     "financial data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "registered personal data": [
+     "personal data"
+    ],
+    "manuscript": [
+     "content"
+    ],
+    "research papers": [
+     "content",
+     "manuscript"
+    ],
+    "user submitted content": [
+     "content"
+    ],
+    "documents worked on": [
+     "content"
+    ],
+    "click data": [
+     "usage data"
+    ],
+    "page accessed": [
+     "usage data"
+    ],
+    "downloads": [
+     "usage data"
+    ],
+    "website usage": [
+     "usage data"
+    ],
+    "video content viewed": [
+     "usage data",
+     "user activity"
+    ],
+    "browsing history": [
+     "usage data"
+    ],
+    "behaviour online": [
+     "usage data"
+    ],
+    "interaction_patterns": [
+     "user behavior"
+    ],
+    "orcid id": [
+     "unique identifier"
+    ],
+    "pseudonymized user id": [
+     "unique identifier"
+    ],
+    "institutional affiliation": [
+     "affiliation and entity type"
+    ],
+    "reviewer reports": [
+     "content"
+    ],
+    "customer support tickets": [
+     "communications"
+    ],
+    "cookies": [
+     "cookie / tracking information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "authority": "authorities",
+    "third party": "externally",
+    "third party providers": "externally"
+   },
+   "parents": {
+    "Braze": [
+     "service provider"
+    ],
+    "Cambey & West": [
+     "service provider"
+    ],
+    "Facebook": [
+     "third party advertising platforms"
+    ],
+    "Freshworks GmbH": [
+     "service provider"
+    ],
+    "Google": [
+     "externally"
+    ],
+    "Google Cloud Platform": [
+     "service provider"
+    ],
+    "Research Square R&D LLC": [
+     "Research Square"
+    ],
+    "Retool": [
+     "service provider"
+    ],
+    "Springer Nature Customer Service team": [
+     "internal team"
+    ],
+    "Twilio": [
+     "service provider"
+    ],
+    "academic institution": [
+     "licensee under whose license user accesses service"
+    ],
+    "employer": [
+     "licensee under whose license user accesses service"
+    ],
+    "contractor": [
+     "service provider"
+    ],
+    "service provider": [
+     "externally"
+    ],
+    "third party advertising platforms": [
+     "externally"
+    ],
+    "publishing society": [
+     "business partner"
+    ],
+    "internal team": [
+     "first party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "third_party": "third party"
+   },
+   "parents": {
+    "Facebook": [
+     "third party"
+    ],
+    "ORCID": [
+     "third party"
+    ],
+    "ResearchGate": [
+     "third party"
+    ],
+    "reCAPTCHA": [
+     "third party"
+    ],
+    "research data aggregators": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "publishing society": [
+     "business partner",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service provider": "provider"
+   },
+   "parents": {
+    "Braze": [
+     "provider",
+     "third party"
+    ],
+    "Facebook": [
+     "social network provider",
+     "third party"
+    ],
+    "Freshworks GmbH": [
+     "provider",
+     "third party"
+    ],
+    "Google": [
+     "provider",
+     "third party"
+    ],
+    "Google Analytics": [
+     "Google",
+     "provider",
+     "third party"
+    ],
+    "reCAPTCHA": [
+     "Google",
+     "provider",
+     "third party"
+    ],
+    "Hotjar": [
+     "provider",
+     "third party"
+    ],
+    "HubSpot": [
+     "provider",
+     "third party"
+    ],
+    "Langfuse and OpenAI": [
+     "third party"
+    ],
+    "Madgex": [
+     "provider",
+     "third party"
+    ],
+    "Permutive": [
+     "provider",
+     "third party"
+    ],
+    "Research Square": [
+     "provider",
+     "third party"
+    ],
+    "SpeedCurve": [
+     "provider",
+     "third party"
+    ],
+    "X": [
+     "social network provider",
+     "third party"
+    ],
+    "contractor": [
+     "provider",
+     "third party"
+    ],
+    "editorial team": [
+     "first party"
+    ],
+    "publishing society": [
+     "third party"
+    ],
+    "provider": [
+     "third party"
+    ],
+    "social network provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account management": "account administration",
+    "customer-service": "customer support",
+    "personalization": "personalisation",
+    "user identification": "authentication"
+   },
+   "parents": {
+    "aggregate user behaviour on the website and in emails in order to personalize the content that is provided to newsletter subscribers": [
+     "personalisation"
+    ],
+    "better understand our users’ experience and build and maintain our service with user feedback": [
+     "service improvement"
+    ],
+    "better understand our users’ needs and to optimize our service and experience": [
+     "service improvement"
+    ],
+    "better understand the touchpoints our customers have across the Springer Nature landscape": [
+     "analytics"
+    ],
+    "event facilitation": [
+     "event organization"
+    ],
+    "manage unsubscribe preferences": [
+     "communication"
+    ],
+    "optimise service": [
+     "service improvement"
+    ],
+    "optimizing our services and extending the reach of our content": [
+     "service improvement"
+    ],
+    "personalize content and services": [
+     "personalisation"
+    ],
+    "personalize the content that is provided to newsletter subscribers": [
+     "personalisation"
+    ],
+    "personalized marketing": [
+     "marketing",
+     "personalisation"
+    ],
+    "populate the peer review timeline in the private author dashboard": [
+     "manuscript management"
+    ],
+    "post the manuscript as a public preprint and populate the public peer review timeline": [
+     "manuscript management"
+    ],
+    "protect our website from misuse": [
+     "security"
+    ],
+    "provide AI-assisted features": [
+     "service provision"
+    ],
+    "provide content syndication services": [
+     "service provision"
+    ],
+    "support marketing operations": [
+     "marketing"
+    ],
+    "surface free and paid for services that are appropriate to the author depending on where their manuscript is within the peer-review process": [
+     "personalisation"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "personalisation"
+    ],
+    "website improvement": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4929,
+  "completion_tokens": 1932,
+  "thinking_tokens": 0,
+  "seconds": 17.79938316345215,
+  "failures": 0
+ },
+ "seconds": 17.9
+}

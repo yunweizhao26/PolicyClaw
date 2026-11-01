@@ -1,0 +1,30 @@
+{
+ "policy": "pg-048",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Where you choose to do this, we will receive certain profile information about you from your social media provider.",
+   "prohibit": "We do not receive any information from third parties.",
+   "situation": "When a user chooses to register or log in to the Services using a third-party social media account.",
+   "reason": "The summary explicitly states that the company does not receive any information from third parties, directly contradicting Section 7 which states profile information is received from social media providers.",
+   "confidence": "high"
+  },
+  {
+   "kind": "contradiction",
+   "permit": "We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services.",
+   "prohibit": "G. Geolocation data Device location NO",
+   "situation": "Collecting device location data from a user's mobile device while using the mobile applications.",
+   "reason": "The CCPA table asserts that Geolocation data (device location) was not collected in the past 12 months, contradicting Section 1 where the policy states it tracks location-based information.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 7836,
+  "completion_tokens": 296,
+  "thinking_tokens": 0,
+  "seconds": 3.411961793899536,
+  "failures": 0
+ }
+}

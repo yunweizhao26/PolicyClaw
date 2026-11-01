@@ -1,0 +1,252 @@
+{
+ "cleaned_sha256": "web-121",
+ "text_sha256": "d97735928f6d8afa88c575a401cdf1e43fac1e4b736448fe3701bf0ddb8d3d73",
+ "site_id": "web-121",
+ "sections": 6,
+ "rules": 130,
+ "report": {
+  "sections": 6,
+  "raw_rules": 116,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "save",
+      "verb": "save"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "with your consent"
+     ],
+     "data": {
+      "name": "financial details",
+      "text": "payment method data"
+     },
+     "exceptions": [
+      "withdraw your consent at any time"
+     ],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "may save",
+     "purpose": [
+      {
+       "text": "for your future use by displaying it to you during the checkout process for future purchases",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Article 6(1)(a) of GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "web-121#s1"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Oxylabs.io"
+     },
+     "conditions": [],
+     "exceptions": [
+      "clicking an unsubscribe button in our emails",
+      "contacting us at privacy@oxylabs.io"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to inform you about our services",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-121#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Oxylabs"
+     },
+     "conditions": [
+      "We rely on your consent as the legal basis to provide you with information on newly developed exclusive products"
+     ],
+     "exceptions": [
+      "clicking an unsubscribe button in our emails",
+      "contacting us at privacy@oxylabs.io"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to inform you about new products developed and launched by Oxylabs",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "filling out the waitlist form"
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-121#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "contact",
+      "verb": "contact"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "In cases where applicable law permits us to contact you without a separate consent",
+      "under the legal basis of our legitimate interests"
+     ],
+     "exceptions": [
+      "clicking an unsubscribe button in our emails",
+      "contacting us at privacy@oxylabs.io"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "will contact",
+     "purpose": [
+      {
+       "text": "to make you an offer of our services",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-121#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "If you would like to delete it",
+      "you can email us at\nprivacy@oxylabs.io"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "it"
+     },
+     "exceptions": [],
+     "operation": "erasure or destruction",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "If you would like to delete it"
+    ],
+    "section": "web-121#s5"
+   }
+  ],
+  "residual_quotes": 6,
+  "quotes": 59,
+  "completeness": {
+   "gaps": 137,
+   "gap_words": 1277
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 59,
+  "compile_failures": 3,
+  "fixed_structurally": 3,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23391,
+  "completion_tokens": 20758,
+  "thinking_tokens": 0,
+  "seconds": 178.94572687149048,
+  "failures": 0
+ },
+ "seconds": 179.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "insurance claim history": "claims data"
+   },
+   "parents": {
+    "IP address": [
+     "information"
+    ],
+    "OS type and version": [
+     "information"
+    ],
+    "claims data": [
+     "customer transaction details",
+     "information"
+    ],
+    "credit information": [
+     "customer information",
+     "information"
+    ],
+    "customer information": [
+     "information"
+    ],
+    "customer medical information": [
+     "customer information",
+     "information",
+     "other personal or privileged information"
+    ],
+    "customer transaction details": [
+     "customer information",
+     "information"
+    ],
+    "driving history": [
+     "information"
+    ],
+    "hardware type": [
+     "information"
+    ],
+    "installed fonts": [
+     "information"
+    ],
+    "insurance coverage details": [
+     "customer information",
+     "information"
+    ],
+    "language and time zone settings": [
+     "information"
+    ],
+    "name": [
+     "customer information",
+     "information"
+    ],
+    "other personal or privileged information": [
+     "customer information",
+     "information"
+    ],
+    "phone number": [
+     "customer information",
+     "information"
+    ],
+    "postal address": [
+     "customer information",
+     "information"
+    ],
+    "precise location data": [
+     "information"
+    ],
+    "time stamp": [
+     "information"
+    ],
+    "transaction history": [
+     "customer transaction details",
+     "information"
+    ],
+    "user-agent": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate"
+   },
+   "parents": {
+    "affiliate": [
+     "inside or outside our family of companies"
+    ],
+    "an auto body shop": [
+     "third parties"
+    ],
+    "consumer reporting agencies": [
+     "third parties"
+    ],
+    "marketing partners": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "third parties": [
+     "inside or outside our family of companies"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-detection": "fraud detection",
+    "legal and regulatory compliance": "compliance"
+   },
+   "parents": {
+    "commercial-communication": [
+     "marketing"
+    ],
+    "fraud detection": [
+     "operations"
+    ],
+    "fulfill-transaction": [
+     "service provision"
+    ],
+    "legal": [
+     "compliance"
+    ],
+    "service improvement": [
+     "operations"
+    ],
+    "service provision": [
+     "operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 1658,
+  "completion_tokens": 643,
+  "thinking_tokens": 0,
+  "seconds": 10.081122159957886,
+  "failures": 0
+ },
+ "seconds": 10.2
+}

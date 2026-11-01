@@ -1,0 +1,963 @@
+{
+ "cleaned_sha256": "web-018",
+ "text_sha256": "45b632edfdea616e0e809fe998d9a5375ca7bc3d14dd5e715840b712adc7cf24",
+ "site_id": "web-018",
+ "sections": 35,
+ "rules": 737,
+ "report": {
+  "sections": 35,
+  "raw_rules": 426,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "PayPal"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "purpose": [
+      {
+       "text": "to provide our products and Services",
+       "name": "services"
+      },
+      {
+       "text": "conduct risk analysis, fraud prevention and risk management to protect our customers and business, including to prevent fraud against our Partners and Merchants and strategic ventures",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "AI and Automated Decision Making",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-018#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "service providers that operate at our direction and on our behalf to perform services we outsource to them, such as AI providers, fraud prevention, bill collection, shipping, processing payments, marketing, research, compliance, audits, corporate governance, communications, technical and/or design services, IT development, maintenance, hosting and support customer service operations",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to perform services we outsource to them, such as AI providers, fraud prevention, bill collection, shipping, processing payments, marketing, research, compliance, audits, corporate governance, communications, technical and/or design services, IT development, maintenance, hosting and support customer service operations",
+       "name": "service performance"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "Members of the PayPal corporate group from time to time, such as the PayPal family of companies listed in Our Contact Information",
+      "name": "affiliate"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "for purposes including (but not limited to) providing the Services you have requested or authorized",
+       "name": "provide-service"
+      },
+      {
+       "text": "managing risk",
+       "name": "security"
+      },
+      {
+       "text": "helping us to detect and prevent potentially illegal and fraudulent acts and other violations of our policies and agreements",
+       "name": "fraud-detection"
+      },
+      {
+       "text": "helping us to manage the availability and connectivity of PayPal products, services, and communications",
+       "name": "service-operation"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Our Contact Information",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "Excluded Services (as defined below), including Venmo",
+      "name": "recipient group"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to provide you with the Services",
+       "name": "provide-service"
+      },
+      {
+       "text": "personalize your use of the Services",
+       "name": "personalization"
+      },
+      {
+       "text": "to manage our business",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "PayPal Honey",
+      "name": "recipient group"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to manage our Rewards program",
+       "name": "service-operation"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "authorities",
+      "name": "public-authority"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "when necessary to comply with law",
+       "name": "legal-requirement"
+      },
+      {
+       "text": "where the disclosure of Personal Information is reasonably necessary to prevent physical harm or financial loss",
+       "name": "security"
+      },
+      {
+       "text": "report suspected illegal activity",
+       "name": "fraud-detection"
+      },
+      {
+       "text": "investigate violations of the relevant agreement",
+       "name": "enforce-terms"
+      }
+     ],
+     "conditions": [
+      "if compelled by a subpoena, court order, or similar legal procedure, when necessary to comply with law, or where the disclosure of Personal Information is reasonably necessary to prevent physical harm or financial loss, report suspected illegal activity, or investigate violations of the relevant agreement, or as otherwise required by law"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may also be required to provide",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about your use of our Services",
+      "name": "service usage information"
+     },
+     "recipient": {
+      "text": "other third parties",
+      "name": "third-party entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to comply with card association rules",
+       "name": "compliance"
+      },
+      {
+       "text": "to investigate or enforce violations of our user agreement",
+       "name": "enforce-terms"
+      },
+      {
+       "text": "to prevent physical harm or illegal activity",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "financial institutions",
+      "name": "financial institution"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to jointly offer a product, such as PayPal Credit, PayPal Savings, PayPal Cashback Mastercard and PayPal Extra Mastercard",
+       "name": "joint-marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "payment networks and processors",
+      "name": "financial institution"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to facilitate payment processing",
+       "name": "payment-processing"
+      },
+      {
+       "text": "to add cards to your electronic wallet",
+       "name": "provide-service"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will be shared",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "provider of the payment services for the participating Partner and Merchant",
+      "name": "financial institution"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared",
+      "verb": "share"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to enable the processing of the payment transaction",
+       "name": "payment-processing"
+      }
+     ],
+     "conditions": [
+      "For payment transactions"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "fraud prevention and identity verification agencies and other companies across industries",
+      "name": "third-party entity"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure to third party",
+     "purpose": [
+      {
+       "text": "to assist in detecting activities suggestive of fraud",
+       "name": "fraud-detection"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "account information",
+      "name": "account details"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you\nprovide account information"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you\nprovide account information"
+    ],
+    "section": "web-018#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "when you\nuse your credit or debit card"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "when you\nuse your credit or debit card"
+    ],
+    "section": "web-018#s23"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "report",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "report",
+     "purpose": [],
+     "recipient": {
+      "name": "tax authority",
+      "text": "tax authorities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-018#s33"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "report",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "report",
+     "purpose": [],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "police enforcement authorities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-018#s33"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "report",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "report",
+     "purpose": [],
+     "recipient": {
+      "name": "law enforcement",
+      "text": "enforcement authorities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-018#s33"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "report",
+      "verb": "report"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "report",
+     "purpose": [],
+     "recipient": {
+      "name": "regulatory authority",
+      "text": "supervisory authorities"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-018#s33"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "you can exercise your rights to access (right to know)",
+      "If you have an Account you can exercise your ARCO Rights by accessing “Data and Privacy” from Account Settings in the PayPal Website or mobile app, or you can ﬁle your request by calling our Customer Services line",
+      "We will verify your identity by (i) a security code via text message; (ii) a phone call to the phone number registered in the platform; or (iii) by requesting you to access to your Account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Protection Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-018#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectiﬁcation (correction or update)",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "you can exercise your rights to rectiﬁcation (correction or update)",
+      "If you have an Account you can exercise your ARCO Rights by accessing “Data and Privacy” from Account Settings in the PayPal Website or mobile app, or you can ﬁle your request by calling our Customer Services line",
+      "We will verify your identity by (i) a security code via text message; (ii) a phone call to the phone number registered in the platform; or (iii) by requesting you to access to your Account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Protection Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can exercise your rights to rectiﬁcation (correction or update)"
+    ],
+    "section": "web-018#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "deletion (cancellation and erasure)",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "you can exercise your rights to deletion (cancellation and erasure)",
+      "If you have an Account you can exercise your ARCO Rights by accessing “Data and Privacy” from Account Settings in the PayPal Website or mobile app, or you can ﬁle your request by calling our Customer Services line",
+      "We will verify your identity by (i) a security code via text message; (ii) a phone call to the phone number registered in the platform; or (iii) by requesting you to access to your Account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Protection Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can exercise your rights to deletion (cancellation and erasure)"
+    ],
+    "section": "web-018#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "portability (transferring)",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "you can exercise your rights to portability (transferring)",
+      "If you have an Account you can exercise your ARCO Rights by accessing “Data and Privacy” from Account Settings in the PayPal Website or mobile app, or you can ﬁle your request by calling our Customer Services line",
+      "We will verify your identity by (i) a security code via text message; (ii) a phone call to the phone number registered in the platform; or (iii) by requesting you to access to your Account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Protection Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can exercise your rights to portability (transferring)"
+    ],
+    "section": "web-018#s34"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can exercise",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict process in whole or in part",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "you can exercise your rights to restrict process in whole or in part",
+      "If you have an Account you can exercise your ARCO Rights by accessing “Data and Privacy” from Account Settings in the PayPal Website or mobile app, or you can ﬁle your request by calling our Customer Services line",
+      "We will verify your identity by (i) a security code via text message; (ii) a phone call to the phone number registered in the platform; or (iii) by requesting you to access to your Account"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "Your Data Protection Rights",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "you can exercise your rights to restrict process in whole or in part"
+    ],
+    "section": "web-018#s34"
+   }
+  ],
+  "residual_quotes": 32,
+  "quotes": 219,
+  "completeness": {
+   "gaps": 888,
+   "gap_words": 8694
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 31,
+  "translated_quotes": 219,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 68,
+  "cached": 0,
+  "prompt_tokens": 133373,
+  "completion_tokens": 98921,
+  "thinking_tokens": 0,
+  "seconds": 1116.1601431369781,
+  "failures": 0
+ },
+ "seconds": 1118.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

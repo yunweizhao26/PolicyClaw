@@ -1,0 +1,161 @@
+{
+ "cleaned_sha256": "pg-051",
+ "text_sha256": "7d9584b0c1bcf914c54719687a35d162744b32d166d1412d647ed08684405dd8",
+ "site_id": "pg-051",
+ "sections": 4,
+ "rules": 147,
+ "report": {
+  "sections": 4,
+  "raw_rules": 132,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "used",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may be used",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "the privacy policy of the company providing the ad serving technology",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-051#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclosed",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "may be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      },
+      {
+       "text": "the privacy policy of the company providing the ad serving technology",
+       "name": "",
+       "target": "other_document"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-051#s2"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "review",
+      "verb": "review"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Parents can review, edit, request the deletion, or prevent further collection or use of their children's personal information or make inquiries regarding this policy by sending an email to privacy@mobivio.com"
+     ],
+     "data": {
+      "name": "personal information",
+      "text": "personal information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "purpose": [],
+     "recipient": {
+      "name": "parents",
+      "text": "Parents"
+     },
+     "references": [],
+     "source": {
+      "name": "children",
+      "text": "their children's"
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-051#s4"
+   }
+  ],
+  "residual_quotes": 16,
+  "quotes": 38,
+  "completeness": {
+   "gaps": 99,
+   "gap_words": 1111
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 38,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 8,
+  "cached": 0,
+  "prompt_tokens": 16951,
+  "completion_tokens": 19862,
+  "thinking_tokens": 0,
+  "seconds": 117.69005417823792,
+  "failures": 0
+ },
+ "seconds": 118.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

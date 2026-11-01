@@ -1,0 +1,170 @@
+{
+ "cleaned_sha256": "web-110",
+ "text_sha256": "9adf5cb4f0ee518a4f68529cf8a9892ea974225e7454fc71ae1bec10048c435e",
+ "site_id": "web-110",
+ "sections": 11,
+ "rules": 165,
+ "report": {
+  "sections": 11,
+  "raw_rules": 159,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "Making available",
+      "verb": "make available"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "Where it is necessary for the performance of a contract (Article 6(1)(b) of the GDPR)"
+     ],
+     "data": {
+      "name": "video content",
+      "text": "your video content"
+     },
+     "exceptions": [],
+     "operation": "dissemination or otherwise making available",
+     "polarity": "ALLOW",
+     "polarity_text": "Making ... available",
+     "purpose": [],
+     "recipient": {
+      "name": "public",
+      "text": "the general public"
+     },
+     "references": [
+      {
+       "text": "Article 6(1)(b) of the GDPR",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "Making available"
+    ],
+    "section": "web-110#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "request",
+      "verb": "request"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "To fulfill your request"
+     ],
+     "data": {
+      "name": "unspecified user data",
+      "text": "additional information"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "may need to",
+     "purpose": [
+      {
+       "text": "to verify your identity",
+       "name": "user verification"
+      },
+      {
+       "text": "as a security measure to ensure that we are acting upon the request of the correct natural person and in order to protect the privacy and security of your personal data",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "from you"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as a security measure to ensure that we are acting upon the request of the correct natural person and in order to protect the privacy and security of your personal data"
+    ],
+    "section": "web-110#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "You"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "the personal data associated with your account"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "have the ability to",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-110#s9"
+   }
+  ],
+  "residual_quotes": 30,
+  "quotes": 102,
+  "completeness": {
+   "gaps": 253,
+   "gap_words": 3135
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 102,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 22,
+  "cached": 0,
+  "prompt_tokens": 44533,
+  "completion_tokens": 32021,
+  "thinking_tokens": 0,
+  "seconds": 238.74906420707703,
+  "failures": 0
+ },
+ "seconds": 239.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,364 @@
+{
+ "cleaned_sha256": "pg-064",
+ "text_sha256": "8495681621c29983c86ab2d30f5b317702967c3ed0cefb0c2a8762057983ac95",
+ "site_id": "pg-064",
+ "sections": 15,
+ "rules": 202,
+ "report": {
+  "sections": 15,
+  "raw_rules": 188,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "the website",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "identify",
+      "verb": "identify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-064#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "the website",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide enhanced functionality and personalisation",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "provide enhanced functionality and personalisation",
+       "name": "personalization"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-064#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you choose to contact us, for example by phone, email, fax, or letter"
+     ],
+     "data": {
+      "name": "fax content",
+      "text": "contents of the fax"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "that contact"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "contents of the fax"
+    ],
+    "section": "pg-064#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "If you choose to contact us, for example by phone, email, fax, or letter"
+     ],
+     "data": {
+      "name": "letter content",
+      "text": "contents of the letter"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "user",
+      "text": "that contact"
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "contents of the letter"
+    ],
+    "section": "pg-064#s9"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not trade",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "trade",
+      "verb": "trade"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "Except as otherwise stated in this Privacy Policy",
+      "you ask or authorize us to do so"
+     ],
+     "references": [
+      {
+       "text": "stated in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not trade"
+    ],
+    "section": "pg-064#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not rent",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "Except as otherwise stated in this Privacy Policy",
+      "you ask or authorize us to do so"
+     ],
+     "references": [
+      {
+       "text": "stated in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not rent"
+    ],
+    "section": "pg-064#s10"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [
+      "Except as otherwise stated in this Privacy Policy",
+      "you ask or authorize us to do so"
+     ],
+     "references": [
+      {
+       "text": "stated in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not share"
+    ],
+    "section": "pg-064#s10"
+   },
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "data": {
+      "name": "aggregated anonymous data",
+      "text": "aggregated Anonymous Information, such as the number of people from a Distribution Partner who have registered for our Apps"
+     },
+     "recipient": {
+      "name": "distribution partner",
+      "text": "such organizations"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "disclose",
+      "text": "disclose"
+     },
+     "polarity": "ALLOW",
+     "polarity_text": "may disclose",
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "aggregated Anonymous Information, such as the number of people from a Distribution Partner who have registered for our Apps"
+    ],
+    "section": "pg-064#s11"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 93,
+  "completeness": {
+   "gaps": 364,
+   "gap_words": 3270
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 93,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 31,
+  "cached": 0,
+  "prompt_tokens": 60060,
+  "completion_tokens": 34990,
+  "thinking_tokens": 0,
+  "seconds": 228.08851218223572,
+  "failures": 0
+ },
+ "seconds": 229.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

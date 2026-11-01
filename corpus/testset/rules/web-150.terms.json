@@ -1,0 +1,169 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "PAM session activity data": "PAM Activity Data",
+    "audit_records": "audit records",
+    "customer_ai_content": "AI requests and responses",
+    "ip address": "IP address",
+    "personal information": "personal data",
+    "session_recordings": "session recordings",
+    "usage information": "browsing and usage data",
+    "username": "user account name"
+   },
+   "parents": {
+    "IP address": [
+     "browsing and device data"
+    ],
+    "PAM Activity Data": [
+     "information"
+    ],
+    "access_decisions": [
+     "PAM Activity Data"
+    ],
+    "comments": [
+     "user content"
+    ],
+    "concerns": [
+     "information provided to us"
+    ],
+    "connection logs": [
+     "logs"
+    ],
+    "AI requests and responses": [
+     "Customer Content"
+    ],
+    "device identifier": [
+     "browsing and device data"
+    ],
+    "email address": [
+     "personal data"
+    ],
+    "email clicks": [
+     "browsing and usage data"
+    ],
+    "email read status": [
+     "browsing and usage data"
+    ],
+    "login name": [
+     "user account records"
+    ],
+    "operating system": [
+     "browsing and device data"
+    ],
+    "postal address": [
+     "personal data"
+    ],
+    "questions": [
+     "information provided to us"
+    ],
+    "transcripts": [
+     "session recordings"
+    ],
+    "usage metrics": [
+     "browsing and usage data"
+    ],
+    "user account name": [
+     "personal data"
+    ],
+    "user traffic content": [
+     "traffic data"
+    ],
+    "user_information": [
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "law_enforcement": "law enforcement",
+    "unspecified third parties": "third party"
+   },
+   "parents": {
+    "advertising partners": [
+     "partners",
+     "service_provider",
+     "third party",
+     "third-party providers"
+    ],
+    "ai_llm_provider": [
+     "third party",
+     "third-party providers"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "service_provider": [
+     "third party",
+     "third-party providers"
+    ],
+    "third-party providers": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Customer": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics or research": "analytics",
+    "legal_compliance": "legal compliance",
+    "service provision": "provide-service-or-feature",
+    "service_provision": "provide-service-or-feature"
+   },
+   "parents": {
+    "account-management": [
+     "provide-service-or-feature"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "authentication": [
+     "security"
+    ],
+    "customer support": [
+     "provide-service-or-feature"
+    ],
+    "fraud-prevention": [
+     "security"
+    ],
+    "service-feature": [
+     "provide-service-or-feature"
+    ],
+    "service operation or delivery": [
+     "provide-service-or-feature"
+    ],
+    "verification": [
+     "authentication"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3359,
+  "completion_tokens": 741,
+  "thinking_tokens": 0,
+  "seconds": 26.389838695526123,
+  "failures": 0
+ },
+ "seconds": 26.5
+}

@@ -1,0 +1,216 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account_information": "account information",
+    "personal information": "personal data",
+    "user content": "content"
+   },
+   "parents": {
+    "access level": [
+     "account information"
+    ],
+    "account details": [
+     "account information"
+    ],
+    "account settings": [
+     "account information"
+    ],
+    "advertising identifier": [
+     "identifiers"
+    ],
+    "billing address": [
+     "contact information"
+    ],
+    "billing name": [
+     "name"
+    ],
+    "business email": [
+     "email address"
+    ],
+    "business name": [
+     "name"
+    ],
+    "contact information": [
+     "personal data"
+    ],
+    "content_submitted": [
+     "content"
+    ],
+    "cookies": [
+     "device information"
+    ],
+    "credit card number": [
+     "commercial information"
+    ],
+    "email address": [
+     "contact information"
+    ],
+    "follows": [
+     "activity"
+    ],
+    "general location": [
+     "location"
+    ],
+    "geolocation": [
+     "location"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "inferences": [
+     "personal data"
+    ],
+    "invoice details": [
+     "transaction details"
+    ],
+    "name": [
+     "contact information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "precise location": [
+     "geolocation",
+     "location"
+    ],
+    "profile photo": [
+     "content",
+     "user audio visual"
+    ],
+    "searches": [
+     "activity"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "text": [
+     "content"
+    ],
+    "transaction details": [
+     "commercial information"
+    ],
+    "transaction_records": [
+     "commercial information"
+    ],
+    "user audio visual": [
+     "content"
+    ],
+    "username": [
+     "account information",
+     "identifiers"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "app store": [
+     "partner",
+     "third party"
+    ],
+    "business partners": [
+     "partner"
+    ],
+    "payment processor": [
+     "partner",
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "service_provider": "service provider"
+   },
+   "parents": {
+    "third party partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account_management": "account management",
+    "customer_support": "customer support",
+    "enforcing terms": "enforce_terms",
+    "fraud_detection": "fraud detection",
+    "fraud_prevention": "fraud prevention",
+    "legal_compliance": "legal compliance",
+    "payment_processing": "payment processing",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "authentication": [
+     "account management"
+    ],
+    "customization": [
+     "personalization"
+    ],
+    "dispute_resolution": [
+     "legal compliance"
+    ],
+    "enforce_terms": [
+     "legal compliance",
+     "security"
+    ],
+    "fraud detection": [
+     "security"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "order fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "service provision"
+    ],
+    "record_keeping": [
+     "legal compliance"
+    ],
+    "rights_management": [
+     "legal compliance",
+     "security"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service_optimization": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2539,
+  "completion_tokens": 1019,
+  "thinking_tokens": 0,
+  "seconds": 17.76807737350464,
+  "failures": 0
+ },
+ "seconds": 17.9
+}

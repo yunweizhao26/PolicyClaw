@@ -1,0 +1,241 @@
+{
+ "cleaned_sha256": "apple-126",
+ "text_sha256": "3c4a74daa7214ed3f11dcce469dfd416edcb6f3f9fc0babf84b5f129a6f59dd1",
+ "site_id": "apple-126",
+ "sections": 11,
+ "rules": 208,
+ "report": {
+  "sections": 11,
+  "raw_rules": 183,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The App"
+     },
+     "conditions": [
+      "that you provide access to"
+     ],
+     "data": {
+      "name": "metadata",
+      "text": "metadata"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-126#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The App"
+     },
+     "conditions": [
+      "that you provide access to"
+     ],
+     "data": {
+      "name": "stored files information",
+      "text": "other information associated with other files stored on your device"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-126#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The App"
+     },
+     "conditions": [
+      "that you provide access to",
+      "which you select for upload as a user image"
+     ],
+     "data": {
+      "name": "photographs",
+      "text": "photographs"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "may access",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-126#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage in targeted advertising",
+      "verb": "engage in"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "the Company"
+     },
+     "conditions": [
+      "At this time"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [
+      "a change in this Privacy Policy and your consent to such advertising"
+     ],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "does not engage",
+     "purpose": [
+      {
+       "text": "targeted advertising",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-126#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "mobile information",
+      "name": "mobile phone number"
+     },
+     "recipient": {
+      "text": "service providers that help us deliver SMS messages on our behalf — including our SMS platform provider, message aggregators, and mobile carriers responsible for transmitting messages",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to deliver SMS messages on our behalf",
+       "name": "communications"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to deliver SMS messages on our behalf"
+    ],
+    "section": "apple-126#s9"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 62,
+  "completeness": {
+   "gaps": 236,
+   "gap_words": 2659
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 10,
+  "translated_quotes": 62,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 21,
+  "cached": 0,
+  "prompt_tokens": 39657,
+  "completion_tokens": 30974,
+  "thinking_tokens": 0,
+  "seconds": 459.4690008163452,
+  "failures": 0
+ },
+ "seconds": 460.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

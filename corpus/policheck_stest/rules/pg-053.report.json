@@ -1,0 +1,87 @@
+{
+ "cleaned_sha256": "pg-053",
+ "text_sha256": "65c308224864a0ece3b93c50d17fad4624bd57cfbc7392dd53fe45651ce9eb3c",
+ "site_id": "pg-053",
+ "sections": 2,
+ "rules": 45,
+ "report": {
+  "sections": 2,
+  "raw_rules": 29,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may email",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Visitors and Authorized Customers",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "email",
+      "verb": "email"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "about research or purchase on the Site or information related to the subject matter of the Site",
+       "name": "commercial communication"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "opt out",
+      "opt out of receiving unsolicited information from or being contacted by us and/or our vendors and affiliated agencies by responding to emails as instructed, or by contacting us at 6417 N. Beechwood Street, Philadelphia, PA 19138"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-053#s1"
+   }
+  ],
+  "residual_quotes": 3,
+  "quotes": 9,
+  "completeness": {
+   "gaps": 48,
+   "gap_words": 672
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 9,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 7908,
+  "completion_tokens": 5641,
+  "thinking_tokens": 0,
+  "seconds": 34.98419523239136,
+  "failures": 0
+ },
+ "seconds": 35.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

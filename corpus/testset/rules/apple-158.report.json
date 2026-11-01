@@ -1,0 +1,164 @@
+{
+ "cleaned_sha256": "apple-158",
+ "text_sha256": "bba4a4c7f4e5f7666645fb59d235b2eeb351bb6c4bf9b2f2772d761e25397a40",
+ "site_id": "apple-158",
+ "sections": 16,
+ "rules": 374,
+ "report": {
+  "sections": 16,
+  "raw_rules": 329,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "Lose It!",
+      "text": "Lose It!"
+     },
+     "conditions": [
+      "when you interact with the Services"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to serve advertisements, for OBA or otherwise, and perform related services",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "advertising service companies",
+      "text": "third party advertising service companies"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-158#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "advertiser",
+      "text": "some of our advertisers"
+     },
+     "conditions": [
+      "when you interact with the Services"
+     ],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "purpose": [
+      {
+       "text": "to serve advertisements, for OBA or otherwise, and perform related services",
+       "name": "advertising"
+      }
+     ],
+     "recipient": {
+      "name": "advertising service companies",
+      "text": "third party advertising service companies"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-158#s9"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "engage",
+      "verb": "engage"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "other",
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "purpose": [
+      {
+       "text": "for the purpose of recognizing our users and delivering interest-based content and advertisements to them",
+       "name": "advertising"
+      }
+     ],
+     "references": [],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-158#s10"
+   }
+  ],
+  "residual_quotes": 49,
+  "quotes": 132,
+  "completeness": {
+   "gaps": 398,
+   "gap_words": 4142
+  },
+  "unsatisfiable_guards": 1,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 132,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 32,
+  "cached": 0,
+  "prompt_tokens": 65628,
+  "completion_tokens": 58431,
+  "thinking_tokens": 0,
+  "seconds": 570.1848030090332,
+  "failures": 0
+ },
+ "seconds": 571.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "cleaned_sha256": "apple-069",
+ "text_sha256": "e70f56d94da1e0081e5e8a0025aeb20e3851cf6a2407cd9205f8500bb0e50074",
+ "site_id": "apple-069",
+ "sections": 20,
+ "rules": 170,
+ "report": {
+  "sections": 20,
+  "raw_rules": 145,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to exercise",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "You",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "under certain circumstances",
+      "You may request confirmation whether or not Personal Data is processed and, if that is the case"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-069#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "entitled to receive",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "a copy of the Personal Data undergoing processing",
+      "name": "Personal Data"
+     },
+     "recipient": {
+      "text": "You",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "under certain circumstances"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-069#s13"
+   }
+  ],
+  "residual_quotes": 29,
+  "quotes": 85,
+  "completeness": {
+   "gaps": 250,
+   "gap_words": 1967
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 16,
+  "translated_quotes": 85,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 36,
+  "cached": 0,
+  "prompt_tokens": 57579,
+  "completion_tokens": 31297,
+  "thinking_tokens": 0,
+  "seconds": 655.9375600814819,
+  "failures": 0
+ },
+ "seconds": 656.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,971 @@
+{
+ "cleaned_sha256": "android-021",
+ "text_sha256": "09c53fecaf12c4c53e6f18e7855314f907f3d3d5e4858a308195a56f31b71681",
+ "site_id": "android-021",
+ "sections": 26,
+ "rules": 584,
+ "report": {
+  "sections": 26,
+  "raw_rules": 528,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "uses",
+     "actor": {
+      "text": "Lenovo",
+      "name": "Lenovo"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "data hosting and processing services providers",
+      "name": "data hosting and processing services providers"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "uses",
+      "verb": "use"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "to support Lenovo in these “Enhanced Device Support” , “Help Improve” , and related activities",
+       "name": "service provision"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-021#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "collected",
+      "verb": "collect"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Lenovo"
+     },
+     "conditions": [
+      "Lenovo Learning Zone",
+      "To use this product"
+     ],
+     "data": {
+      "name": "images",
+      "text": "images you upload to the application"
+     },
+     "exceptions": [],
+     "operation": "collection",
+     "polarity": "ALLOW",
+     "polarity_text": "is collected",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "images you upload to the application"
+    ],
+    "section": "android-021#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will need to",
+     "actor": {
+      "text": "the device",
+      "name": "first party"
+     },
+     "data": {
+      "text": "fingerprint detection information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "“enroll”",
+      "verb": "enroll"
+     },
+     "operation": "{'text': 'collection', 'name': 'collection'}",
+     "purpose": [
+      {
+       "text": "To function",
+       "name": "functionality"
+      }
+     ],
+     "conditions": [
+      "when enabled on certain Motorola devices"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is",
+     "actor": {
+      "text": "the device",
+      "name": "first party"
+     },
+     "data": {
+      "text": "fingerprint detection information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "encrypted",
+      "verb": "encrypt"
+     },
+     "operation": "{'text': 'adaptation or alteration', 'name': 'adaptation or alteration'}",
+     "purpose": [],
+     "conditions": [
+      "when enabled on certain Motorola devices"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "is",
+     "actor": {
+      "text": "the device",
+      "name": "first party"
+     },
+     "data": {
+      "text": "fingerprint detection information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "stored in a secure area of the device",
+      "verb": "store"
+     },
+     "operation": "{'text': 'storage', 'name': 'storage'}",
+     "purpose": [],
+     "conditions": [
+      "when enabled on certain Motorola devices"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "fingerprint enrollment information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "outside your device",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transmitted outside your device",
+      "verb": "transmit"
+     },
+     "operation": "{'text': 'disclosure by transmission', 'name': 'disclosure by transmission'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not be",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "fingerprint enrollment information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "shared with",
+      "verb": "share"
+     },
+     "operation": "{'text': 'disclosure', 'name': 'disclosure'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "fingerprint enrollment information",
+      "name": "fingerprint"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "{'text': 'erasure or destruction', 'name': 'erasure or destruction'}",
+     "purpose": [],
+     "conditions": [
+      "later",
+      "via device “Settings”"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "how many Spaces are used",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Family Space",
+      "name": "Family Space"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'name': 'collection'}",
+     "purpose": [],
+     "conditions": [
+      "If you have enabled Enhanced Device Support or Help Improve functionality on your Motorola Products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "number of apps used inside each Space",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Family Space",
+      "name": "Family Space"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'name': 'collection'}",
+     "purpose": [],
+     "conditions": [
+      "If you have enabled Enhanced Device Support or Help Improve functionality on your Motorola Products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "which grid layout is used",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Family Space",
+      "name": "Family Space"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'name': 'collection'}",
+     "purpose": [],
+     "conditions": [
+      "If you have enabled Enhanced Device Support or Help Improve functionality on your Motorola Products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "how long the Space is in use",
+      "name": "usage data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Family Space",
+      "name": "Family Space"
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "{'text': 'collection', 'name': 'collection'}",
+     "purpose": [],
+     "conditions": [
+      "If you have enabled Enhanced Device Support or Help Improve functionality on your Motorola Products"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "The Account Owner and other family members who are entitled to use remote device management features",
+      "name": "Family Space Administrators"
+     },
+     "data": {
+      "text": "managed devices",
+      "name": "device identifier"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "monitor",
+      "verb": "monitor"
+     },
+     "operation": "{'text': 'consultation', 'name': 'consultation'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "All the individuals connected to the Account Owner’s Family Space account",
+      "name": "Family Members"
+     },
+     "data": {
+      "text": "profiles",
+      "name": "user profile"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "see a simplified view of",
+      "verb": "see"
+     },
+     "operation": "{'text': 'consultation', 'name': 'consultation'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "All the individuals connected to the Account Owner’s Family Space account",
+      "name": "Family Members"
+     },
+     "data": {
+      "text": "locations",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "see",
+      "verb": "see"
+     },
+     "operation": "{'text': 'consultation', 'name': 'consultation'}",
+     "purpose": [],
+     "conditions": [
+      "on a map"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "Motorola",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the email address",
+      "name": "email address"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "the application",
+      "name": "the application"
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "{'text': 'use', 'name': 'use'}",
+     "purpose": [
+      {
+       "text": "to transmit the invitation",
+       "name": "communication"
+      },
+      {
+       "text": "connect the individual’s device to the Account Owner’s Family Space account",
+       "name": "functionality"
+      }
+     ],
+     "conditions": [
+      "Before submitting an individual’s email address, the Account Owner must obtain the individual’s consent to share their email address for the purpose of using Family Space"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "are",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "Profile pictures",
+      "name": "profile picture"
+     },
+     "recipient": {
+      "text": "all Family Members",
+      "name": "Family Members"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "displayed to",
+      "verb": "display"
+     },
+     "operation": "{'text': 'dissemination or otherwise making available', 'name': 'dissemination or otherwise making available'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "actor": {
+      "text": "Family Space",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the list of installed applications on managed devices",
+      "name": "software application installed"
+     },
+     "recipient": {
+      "text": "Admins",
+      "name": "Admins"
+     },
+     "source": {
+      "text": "managed devices",
+      "name": "managed devices"
+     },
+     "action": {
+      "text": "make available to",
+      "verb": "make available"
+     },
+     "operation": "{'text': 'dissemination or otherwise making available', 'name': 'dissemination or otherwise making available'}",
+     "purpose": [
+      {
+       "text": "so they can set rules about which applications can be used on those devices",
+       "name": "functionality"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not",
+     "actor": {
+      "text": "Family Space",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the list of installed applications on non-managed devices",
+      "name": "software application installed"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "{'text': 'processing', 'name': 'processing'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s13"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Motorola"
+     },
+     "conditions": [],
+     "data": {
+      "name": "unspecified",
+      "text": "information collected through Mototalk"
+     },
+     "exceptions": [],
+     "operation": "disclosure to third parties",
+     "polarity": "ALLOW",
+     "polarity_text": "will share",
+     "purpose": [
+      {
+       "text": "to enable the operation of Mototalk",
+       "name": "service provision"
+      },
+      {
+       "text": "to provide you with technical support for Mototalk",
+       "name": "customer support"
+      },
+      {
+       "text": "support Motorola's consumer relations",
+       "name": "customer support"
+      },
+      {
+       "text": "first-party marketing efforts",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Motorola"
+     },
+     "conditions": [
+      "This personal information is only used within the mobile application and made available only to other Mototalk users"
+     ],
+     "data": {
+      "name": "user profile",
+      "text": "your public profile information (which includes the profile picture, UFMI numbers, phone number, and email address)"
+     },
+     "exceptions": [],
+     "operation": "disclosure to other users",
+     "polarity": "ALLOW",
+     "polarity_text": "will also share",
+     "purpose": [],
+     "recipient": {
+      "name": "other users",
+      "text": "other Mototalk users"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "android-021#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "for as long as any of the following circumstances apply: To provide you with services or support that you may have requested"
+     ],
+     "data": {
+      "name": "data",
+      "text": "your information, including personal information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "To provide you with services or support that you may have requested",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as any of the following circumstances apply: To provide you with services or support that you may have requested"
+    ],
+    "section": "android-021#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "for as long as any of the following circumstances apply: To ensure required functionality and performance of Our Products and websites, including responsibilities under Our product warranties"
+     ],
+     "data": {
+      "name": "data",
+      "text": "your information, including personal information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "To ensure required functionality and performance of Our Products and websites, including responsibilities under Our product warranties",
+       "name": "service provision"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as any of the following circumstances apply: To ensure required functionality and performance of Our Products and websites, including responsibilities under Our product warranties"
+    ],
+    "section": "android-021#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "for as long as any of the following circumstances apply: To comply with applicable laws, including for tax and audit purposes"
+     ],
+     "data": {
+      "name": "data",
+      "text": "your information, including personal information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "To comply with applicable laws, including for tax and audit purposes",
+       "name": "compliance"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as any of the following circumstances apply: To comply with applicable laws, including for tax and audit purposes"
+    ],
+    "section": "android-021#s24"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "for as long as any of the following circumstances apply: To enforce Our rights, including litigation and debt collection"
+     ],
+     "data": {
+      "name": "data",
+      "text": "your information, including personal information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will retain",
+     "purpose": [
+      {
+       "text": "To enforce Our rights, including litigation and debt collection",
+       "name": "legal enforcement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "for as long as any of the following circumstances apply: To enforce Our rights, including litigation and debt collection"
+    ],
+    "section": "android-021#s24"
+   }
+  ],
+  "residual_quotes": 45,
+  "quotes": 167,
+  "completeness": {
+   "gaps": 671,
+   "gap_words": 8797
+  },
+  "unsatisfiable_guards": 2,
+  "qualifiers_without_effect": 36,
+  "translated_quotes": 167,
+  "compile_failures": 9,
+  "fixed_structurally": 4,
+  "fixed_by_call": 5
+ },
+ "usage": {
+  "calls": 52,
+  "cached": 0,
+  "prompt_tokens": 103880,
+  "completion_tokens": 84919,
+  "thinking_tokens": 0,
+  "seconds": 573.238306760788,
+  "failures": 0
+ },
+ "seconds": 575.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookies": "cookie",
+    "device identifiers": "device identifier",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "device identifier": [
+     "identifiers"
+    ],
+    "email address": [
+     "identifiers"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "browsing and network behavior": [
+     "personal data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "purchases": [
+     "commercial information"
+    ],
+    "limited commerce-related events": [
+     "commercial information"
+    ],
+    "precise location": [
+     "location",
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "sensitive personal information": [
+     "personal data"
+    ],
+    "pseudonymized, technical information": [
+     "data"
+    ],
+    "personal data": [
+     "data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "recipients"
+   },
+   "parents": {
+    "SSPs": [
+     "recipients"
+    ],
+    "advertisers": [
+     "recipients"
+    ],
+    "data platforms and audience partners": [
+     "recipients"
+    ],
+    "demand-side platforms": [
+     "recipients"
+    ],
+    "publishers": [
+     "recipients"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertiser": [
+     "third party"
+    ],
+    "publisher": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service provision and improvement": "service improvement"
+   },
+   "parents": {
+    "ad display and revenue measurement": [
+     "advertising"
+    ],
+    "ad serving": [
+     "advertising"
+    ],
+    "advertising continuity and reporting": [
+     "advertising"
+    ],
+    "advertising optimization": [
+     "advertising"
+    ],
+    "audit": [
+     "operate services"
+    ],
+    "debugging": [
+     "operate services"
+    ],
+    "defend legal rights": [
+     "legal compliance"
+    ],
+    "enrich audience understanding": [
+     "analytics"
+    ],
+    "facilitate real-time bidding transactions": [
+     "programmatic advertising auctions"
+    ],
+    "improve ad relevance": [
+     "advertising optimization"
+    ],
+    "programmatic advertising auctions": [
+     "advertising"
+    ],
+    "research and development": [
+     "service improvement"
+    ],
+    "security": [
+     "operate services"
+    ],
+    "segment audiences": [
+     "advertising optimization"
+    ],
+    "service improvement": [
+     "operate services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1457,
+  "completion_tokens": 613,
+  "thinking_tokens": 0,
+  "seconds": 9.599600791931152,
+  "failures": 0
+ },
+ "seconds": 9.8
+}

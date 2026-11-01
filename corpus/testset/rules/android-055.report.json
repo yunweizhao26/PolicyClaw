@@ -1,0 +1,430 @@
+{
+ "cleaned_sha256": "android-055",
+ "text_sha256": "687179c055280ed9be56d6a00fd08d551cd1ef93ccf373aa56f2537445f3ab13",
+ "site_id": "android-055",
+ "sections": 35,
+ "rules": 412,
+ "report": {
+  "sections": 35,
+  "raw_rules": 312,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can choose at any time to withdraw your consent or object to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "data processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "receiving newsletters or promotional emails",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "withdraw your consent or object",
+      "Privacy Center - Manage your choices",
+      "“Set Cookies” on Ubisoft websites",
+      "For mobile games, adjust privacy settings within the game",
+      "Device settings",
+      "on iOS, you can manage your preferences by refusing the App Tracking Transparency permission when prompted, or at any time under\nSettings > Privacy & Security > Tracking",
+      "on Android: you can manage your ad personalization preferences under\nSettings > Google > Ads > Ads settings"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-055#s27"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can choose at any time to withdraw your consent or object to",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "data processing",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "seeing personalized advertising",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "withdraw your consent or object",
+      "Privacy Center - Manage your choices",
+      "“Set Cookies” on Ubisoft websites",
+      "For mobile games, adjust privacy settings within the game",
+      "Device settings",
+      "on iOS, you can manage your preferences by refusing the App Tracking Transparency permission when prompted, or at any time under\nSettings > Privacy & Security > Tracking",
+      "on Android: you can manage your ad personalization preferences under\nSettings > Google > Ads > Ads settings"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-055#s27"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not share",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Minors between the ages of 13-18"
+     ],
+     "exceptions": [
+      "you opt-in to the sale or sharing of your personal information by visiting this\nlink"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not share"
+    ],
+    "section": "android-055#s32"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not use",
+     "actor": {
+      "text": "Ubisoft",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "Children under the age of 13 in the U.S.",
+      "from children under the age of 13"
+     ],
+     "exceptions": [
+      "first obtaining verifiable parental consent from their parent or legal guardian"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not use"
+    ],
+    "section": "android-055#s32"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not disclosure",
+     "actor": {
+      "text": "Ubisoft",
+      "name": "first party"
+     },
+     "data": {
+      "text": "any personal information",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Children under the age of 13 in the U.S.",
+      "from children under the age of 13"
+     ],
+     "exceptions": [
+      "first obtaining verifiable parental consent from their parent or legal guardian"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not disclosure"
+    ],
+    "section": "android-055#s32"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not share",
+     "actor": {
+      "text": "Ubisoft",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the personal information collected from children",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "any third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "Children under the age of 13 in the U.S."
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "does not share"
+    ],
+    "section": "android-055#s32"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permits you",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information publicly posted by you",
+      "name": "information publicly posted by user"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "view",
+      "verb": "view"
+     },
+     "operation": "consultation",
+     "purpose": [],
+     "conditions": [
+      "California Business and Professions Code Section 22581 permits you, if you are a California resident under the age of 18, to view, correct, or remove information provided by you or publicly posted by you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Business and Professions Code Section 22581",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information publicly posted by you"
+    ],
+    "section": "android-055#s35"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permits you",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information publicly posted by you",
+      "name": "information publicly posted by user"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "California Business and Professions Code Section 22581 permits you, if you are a California resident under the age of 18, to view, correct, or remove information provided by you or publicly posted by you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Business and Professions Code Section 22581",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information publicly posted by you"
+    ],
+    "section": "android-055#s35"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permits you",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "information publicly posted by you",
+      "name": "information publicly posted by user"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "remove",
+      "verb": "remove"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "California Business and Professions Code Section 22581 permits you, if you are a California resident under the age of 18, to view, correct, or remove information provided by you or publicly posted by you"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "California Business and Professions Code Section 22581",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information publicly posted by you"
+    ],
+    "section": "android-055#s35"
+   }
+  ],
+  "residual_quotes": 41,
+  "quotes": 171,
+  "completeness": {
+   "gaps": 411,
+   "gap_words": 3782
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 9,
+  "translated_quotes": 171,
+  "compile_failures": 3,
+  "fixed_structurally": 1,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 66,
+  "cached": 0,
+  "prompt_tokens": 107788,
+  "completion_tokens": 68401,
+  "thinking_tokens": 0,
+  "seconds": 498.2942838668823,
+  "failures": 0
+ },
+ "seconds": 500.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,449 @@
+{
+ "cleaned_sha256": "android-008",
+ "text_sha256": "3d4183e1d760bf894f6c92b8c9f1d668287625818b40ff4b31467961311fee74",
+ "site_id": "android-008",
+ "sections": 26,
+ "rules": 140,
+ "report": {
+  "sections": 26,
+  "raw_rules": 116,
+  "rejected": [
+   {
+    "rule": {
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "app inventory",
+      "text": "any such data"
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "text": "upload",
+      "verb": "upload"
+     },
+     "polarity": "DENY",
+     "polarity_text": "will not upload",
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not upload"
+    ],
+    "section": "android-008#s3"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "inform",
+      "verb": "inform"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "It is necessary for our legitimate interests"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "necessary",
+     "purpose": [
+      {
+       "text": "to inform you about changes to our terms and conditions, updates to our Services",
+       "name": "service operation and improvement"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide customer support to",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "our"
+     },
+     "conditions": [
+      "It is necessary for our legitimate interests",
+      "also necessary for performance of our contract with you"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": ""
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "necessary",
+     "purpose": [
+      {
+       "text": "to provide customer support to you in connection with our Services",
+       "name": "customer support"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will destroy",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "destroy",
+      "verb": "destroy"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "when: (i) the relevant service/feature/function for which the personal data was collected or used, is no longer available or removed; (ii) it is no longer necessary to retain the personal data for the purpose for which that personal data was collected; (iii) it is no longer necessary to retain the personal data for legal or business purposes; and (iv) it is not necessary to retain the personal data for other legitimate interests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will destroy"
+    ],
+    "section": "android-008#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will anonymize",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "anonymize",
+      "verb": "anonymize"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "when: (i) the relevant service/feature/function for which the personal data was collected or used, is no longer available or removed; (ii) it is no longer necessary to retain the personal data for the purpose for which that personal data was collected; (iii) it is no longer necessary to retain the personal data for legal or business purposes; and (iv) it is not necessary to retain the personal data for other legitimate interests"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will anonymize"
+    ],
+    "section": "android-008#s11"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "You",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you are using our\nServices\nin Philippines",
+      "We may need to verify your identity or your account details before we respond to your request to exercise one or more of the rights as data subjects under the laws, rules and regulations issued by NPC"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws, rules and regulations issued by NPC",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are using our\nServices\nin Philippines",
+      "We may need to verify your identity or your account details before we respond to your request to exercise one or more of the rights as data subjects under the laws, rules and regulations issued by NPC"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws, rules and regulations issued by NPC",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are using our\nServices\nin Philippines",
+      "We may need to verify your identity or your account details before we respond to your request to exercise one or more of the rights as data subjects under the laws, rules and regulations issued by NPC"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws, rules and regulations issued by NPC",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "blocking",
+      "verb": "block"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are using our\nServices\nin Philippines",
+      "We may need to verify your identity or your account details before we respond to your request to exercise one or more of the rights as data subjects under the laws, rules and regulations issued by NPC"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws, rules and regulations issued by NPC",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s24"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "data portability",
+      "verb": "port"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "If you are using our\nServices\nin Philippines",
+      "We may need to verify your identity or your account details before we respond to your request to exercise one or more of the rights as data subjects under the laws, rules and regulations issued by NPC"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "laws, rules and regulations issued by NPC",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "android-008#s24"
+   }
+  ],
+  "residual_quotes": 23,
+  "quotes": 77,
+  "completeness": {
+   "gaps": 165,
+   "gap_words": 1712
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 77,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 38,
+  "cached": 0,
+  "prompt_tokens": 58506,
+  "completion_tokens": 24190,
+  "thinking_tokens": 0,
+  "seconds": 228.88818359375,
+  "failures": 0
+ },
+ "seconds": 230.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

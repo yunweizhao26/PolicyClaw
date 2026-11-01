@@ -1,0 +1,183 @@
+{
+ "cleaned_sha256": "pg-056",
+ "text_sha256": "138cc6ee441eadc4f8b7367eaf045d1bff6b02862c9f39a268b9a1c17fd0d3cf",
+ "site_id": "pg-056",
+ "sections": 16,
+ "rules": 103,
+ "report": {
+  "sections": 16,
+  "raw_rules": 103,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "inaccurate personal data about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rectification",
+      "verb": "rectify"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "If you are in one of the EU/EEA countries",
+      "You have a right to: Demand"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have a right to: Demand"
+    ],
+    "section": "pg-056#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "past data about you",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erasure",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "If you are in one of the EU/EEA countries",
+      "You have a right to: Require",
+      "under certain conditions"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have a right to: Require"
+    ],
+    "section": "pg-056#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "right to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict processing of",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "If you are in one of the EU/EEA countries",
+      "You have a right to: Demand that",
+      "under certain conditions, if you believe we have exceeded the legitimate basis for processing, processing is no longer necessary, are processing, or believe your personal data is inaccurate"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "General Data Protection Regulation (GDPR)",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You have a right to: Demand that"
+    ],
+    "section": "pg-056#s14"
+   }
+  ],
+  "residual_quotes": 12,
+  "quotes": 50,
+  "completeness": {
+   "gaps": 69,
+   "gap_words": 790
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 4,
+  "translated_quotes": 50,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 44672,
+  "completion_tokens": 25253,
+  "thinking_tokens": 0,
+  "seconds": 181.4278383255005,
+  "failures": 0
+ },
+ "seconds": 182.2,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,699 @@
+{
+ "cleaned_sha256": "apple-013",
+ "text_sha256": "2f9bf902c89ac4d0c7eda4a1ab1ead6ecb6a79756546194dce14a6f4a66a7201",
+ "site_id": "apple-013",
+ "sections": 14,
+ "rules": 276,
+ "report": {
+  "sections": 14,
+  "raw_rules": 247,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "will not be sold",
+     "actor": {
+      "text": "",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Information obtained through the browser extension",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "any third party",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sold",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "For Fetch Shop Extension Users"
+     ],
+     "exceptions": [
+      "as necessary to perform the services"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will not be sold"
+    ],
+    "section": "apple-013#s5"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "name": "first party",
+      "text": "Fetch"
+     },
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": "use"
+     },
+     "operation": "profiling",
+     "purpose": [
+      {
+       "text": "to estimate certain measurements relating to our App or campaigns",
+       "name": "analytics"
+      },
+      {
+       "text": "to reward you for earning activities you initiate that require off-platform confirmation, such as Fetch Play offers",
+       "name": "service_provision"
+      }
+     ],
+     "conditions": [
+      "In certain instances",
+      "either directly or through third-party technologies"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "use",
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "data": {
+      "name": "unspecified",
+      "text": ""
+     },
+     "recipient": {
+      "name": "Google",
+      "text": "Google Analytics, a web analytics service provided by Google, Inc. (\"Google\")"
+     },
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "action": {
+      "name": "use",
+      "text": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "For analytics",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s8"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if we reasonably believe that disclosing the information is needed to:\ninvestigate, remedy, or enforce potential violations of our Terms of User or Privacy Policy"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "to:\ninvestigate, remedy, or enforce potential violations of our Terms of User or Privacy Policy",
+       "name": "legal compliance"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [
+      {
+       "text": "Terms of User",
+       "name": "",
+       "target": "other_document"
+      },
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\ninvestigate, remedy, or enforce potential violations of our Terms of User or Privacy Policy",
+     "if we reasonably believe that disclosing the information is needed to:\ninvestigate, remedy, or enforce potential violations of our Terms of User or Privacy Policy"
+    ],
+    "section": "apple-013#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if we reasonably believe that disclosing the information is needed to:\nprotect the rights, property, and safety of us, our users, or others"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "to:\nprotect the rights, property, and safety of us, our users, or others",
+       "name": "security"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nprotect the rights, property, and safety of us, our users, or others",
+     "if we reasonably believe that disclosing the information is needed to:\nprotect the rights, property, and safety of us, our users, or others"
+    ],
+    "section": "apple-013#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "if we reasonably believe that disclosing the information is needed to:\nDetect and resolve any fraud or security concerns"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "information about you"
+     },
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "may share",
+     "purpose": [
+      {
+       "text": "to:\nDetect and resolve any fraud or security concerns",
+       "name": "fraud prevention and security"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to:\nDetect and resolve any fraud or security concerns",
+     "if we reasonably believe that disclosing the information is needed to:\nDetect and resolve any fraud or security concerns"
+    ],
+    "section": "apple-013#s10"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "The response to a request to know"
+     },
+     "conditions": [
+      "submitting a verified consumer request to know information (and to receive your personal information in a portable format)"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "the personal information we have collected and maintained about you"
+     },
+     "exceptions": [
+      "an exception under applicable state law applies"
+     ],
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "you"
+     },
+     "references": [
+      {
+       "text": "applicable state law",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     },
+     "polarity_text": ""
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s12"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Under the CCPA, because your participation in our Program enables you to earn points, it is considered a financial incentive program",
+      "when you register"
+     ],
+     "exceptions": [
+      "withdraw or opt-out at any time"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "direct us to",
+     "purpose": [
+      {
+       "text": "In order to provide you points",
+       "name": "loyalty program"
+      },
+      {
+       "text": "so that you can interact with them and earn points",
+       "name": "loyalty program"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Under the CCPA, because your participation in our Program enables you to earn points, it is considered a financial incentive program"
+     ],
+     "exceptions": [
+      "withdraw or opt-out at any time"
+     ],
+     "operation": "use",
+     "polarity": "ALLOW",
+     "polarity_text": "direct us to",
+     "purpose": [
+      {
+       "text": "In order to provide you points",
+       "name": "loyalty program"
+      },
+      {
+       "text": "so that you can interact with them and earn points",
+       "name": "loyalty program"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Under the CCPA, because your participation in our Program enables you to earn points, it is considered a financial incentive program",
+      "when you register"
+     ],
+     "exceptions": [
+      "withdraw or opt-out at any time"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "direct us to",
+     "purpose": [
+      {
+       "text": "In order to provide you points",
+       "name": "loyalty program"
+      },
+      {
+       "text": "so that you can interact with them and earn points",
+       "name": "loyalty program"
+      }
+     ],
+     "recipient": {
+      "name": "participating brands",
+      "text": "all our participating brands"
+     },
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "us"
+     },
+     "conditions": [
+      "Under the CCPA, because your participation in our Program enables you to earn points, it is considered a financial incentive program"
+     ],
+     "exceptions": [
+      "withdraw or opt-out at any time"
+     ],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "direct us to",
+     "purpose": [
+      {
+       "text": "In order to provide you points",
+       "name": "loyalty program"
+      },
+      {
+       "text": "so that you can interact with them and earn points",
+       "name": "loyalty program"
+      }
+     ],
+     "recipient": {
+      "name": "participating brands",
+      "text": "all our participating brands"
+     },
+     "references": [
+      {
+       "text": "CCPA",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "transferred",
+      "verb": "transfer"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In using the Services"
+     ],
+     "exceptions": [],
+     "operation": "disclosure by transmission",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [
+      {
+       "text": "for storage",
+       "name": "storage"
+      },
+      {
+       "text": "processing",
+       "name": "processing"
+      }
+     ],
+     "recipient": {
+      "name": "United States recipient",
+      "text": "the United States"
+     },
+     "references": [
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "storage",
+      "verb": "store"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In using the Services"
+     ],
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "processing",
+      "verb": "process"
+     },
+     "actor": {
+      "name": "first party",
+      "text": ""
+     },
+     "conditions": [
+      "In using the Services"
+     ],
+     "exceptions": [],
+     "operation": "processing",
+     "polarity": "ALLOW",
+     "polarity_text": "will be",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "profiling",
+      "verb": "profile"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "when used to make decisions that produce a legal or similarly significant effect concerning you or your interactions with us"
+     ],
+     "exceptions": [],
+     "operation": "profiling",
+     "polarity": "DENY",
+     "polarity_text": "do not engage in",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-013#s14"
+   }
+  ],
+  "residual_quotes": 24,
+  "quotes": 100,
+  "completeness": {
+   "gaps": 412,
+   "gap_words": 5097
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 40,
+  "translated_quotes": 100,
+  "compile_failures": 5,
+  "fixed_structurally": 3,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 60858,
+  "completion_tokens": 50182,
+  "thinking_tokens": 0,
+  "seconds": 700.1195616722107,
+  "failures": 0
+ },
+ "seconds": 701.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

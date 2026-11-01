@@ -1,0 +1,226 @@
+{
+ "cleaned_sha256": "pg-174",
+ "text_sha256": "54be72135bb818b19da4589bcba7a4ec987577b5a227aca287ba941d174609dc",
+ "site_id": "pg-174",
+ "sections": 2,
+ "rules": 75,
+ "report": {
+  "sections": 2,
+  "raw_rules": 55,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "actor": {
+      "text": "others",
+      "name": "third party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "information about you"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to provide you with tailored advertisements, offers and other content",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "with your opt-in consent"
+     ],
+     "exceptions": [
+      "adjusting the settings of your mobile device"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your opt-in consent"
+    ],
+    "section": "pg-174#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "actor": {
+      "text": "others",
+      "name": "third party"
+     },
+     "data": {
+      "text": "information about you",
+      "name": "information about you"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to provide you with tailored advertisements, offers and other content",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "with your opt-in consent"
+     ],
+     "exceptions": [
+      "adjusting the settings of your mobile device"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your opt-in consent"
+    ],
+    "section": "pg-174#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "actor": {
+      "text": "others",
+      "name": "third party"
+     },
+     "data": {
+      "text": "geo-location information",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to provide you with tailored advertisements, offers and other content",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "with your opt-in consent"
+     ],
+     "exceptions": [
+      "adjusting the settings of your mobile device"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your opt-in consent"
+    ],
+    "section": "pg-174#s2"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allow",
+     "actor": {
+      "text": "others",
+      "name": "third party"
+     },
+     "data": {
+      "text": "geo-location information",
+      "name": "location"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "process",
+      "verb": "process"
+     },
+     "operation": "processing",
+     "purpose": [
+      {
+       "text": "to provide you with tailored advertisements, offers and other content",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "with your opt-in consent"
+     ],
+     "exceptions": [
+      "adjusting the settings of your mobile device"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your opt-in consent"
+    ],
+    "section": "pg-174#s2"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 19,
+  "completeness": {
+   "gaps": 44,
+   "gap_words": 432
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 14,
+  "translated_quotes": 19,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 8294,
+  "completion_tokens": 11299,
+  "thinking_tokens": 0,
+  "seconds": 66.82544326782227,
+  "failures": 0
+ },
+ "seconds": 67.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

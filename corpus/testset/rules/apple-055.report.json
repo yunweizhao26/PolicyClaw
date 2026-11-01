@@ -1,0 +1,538 @@
+{
+ "cleaned_sha256": "apple-055",
+ "text_sha256": "f00b9dd600da07712fd71bcff059dd6338a18450484933b62a8b70afdafd05b2",
+ "site_id": "apple-055",
+ "sections": 19,
+ "rules": 264,
+ "report": {
+  "sections": 19,
+  "raw_rules": 201,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "browsing history",
+      "text": "your VPN browsing activity"
+     },
+     "exceptions": [],
+     "operation": "use",
+     "polarity": "DENY",
+     "polarity_text": "nor use it",
+     "purpose": [
+      {
+       "text": "for these (or any other) purposes",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "nor use it"
+    ],
+    "section": "apple-055#s4"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "record",
+      "verb": "record"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "For our VPN products",
+      "in any way that can be tied back to you"
+     ],
+     "data": {
+      "name": "browsing history",
+      "text": "online activities that you conduct over a VPN connection"
+     },
+     "exceptions": [],
+     "operation": "recording",
+     "polarity": "DENY",
+     "polarity_text": "do not record",
+     "purpose": [],
+     "recipient": {
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not record"
+    ],
+    "section": "apple-055#s6"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "advertising partner",
+      "text": "the entities"
+     },
+     "conditions": [
+      "For users of our free VPN products",
+      "as with any online advertising service"
+     ],
+     "data": {
+      "name": "browsing history",
+      "text": "which website or app the ad was delivered to"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-055#s7"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "actor": {
+      "name": "advertising partner",
+      "text": "the entities"
+     },
+     "conditions": [
+      "For users of our free VPN products",
+      "as with any online advertising service"
+     ],
+     "data": {
+      "name": "device information",
+      "text": "certain device-specific information"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "will",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-055#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have certain legal rights",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location of residence",
+      "right to:\ncorrect"
+     ],
+     "exceptions": [
+      "exceptions and limitations provided by applicable law",
+      "some information may be exempt from certain requests under applicable law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to:\ncorrect"
+    ],
+    "section": "apple-055#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have certain legal rights",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict the processing of",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location of residence",
+      "right to:\nrestrict the processing of"
+     ],
+     "exceptions": [
+      "exceptions and limitations provided by applicable law",
+      "some information may be exempt from certain requests under applicable law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to:\nrestrict the processing of"
+    ],
+    "section": "apple-055#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may have certain legal rights",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "erased",
+      "verb": "erase"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location of residence",
+      "right to:\nhave your personal data erased"
+     ],
+     "exceptions": [
+      "exceptions and limitations provided by applicable law",
+      "some information may be exempt from certain requests under applicable law"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "right to:\nhave your personal data erased"
+    ],
+    "section": "apple-055#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "’ll retain",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information about when you accepted our terms of service",
+      "name": "terms acceptance timestamp"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "operation": "storage",
+     "purpose": [],
+     "conditions": [
+      "If you want to delete your account"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "information about when you accepted our terms of service"
+    ],
+    "section": "apple-055#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will also make reasonable efforts to provide",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide you with advance notice, such as via email or through the services",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make updates that materially alter your privacy rights"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-055#s15"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "This Section applies solely to California residents."
+     ],
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not currently disclose",
+     "purpose": [
+      {
+       "text": "for their own direct marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-055#s17"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "we"
+     },
+     "conditions": [
+      "This Section applies solely to California residents."
+     ],
+     "exceptions": [
+      "without your prior consent"
+     ],
+     "operation": "disclosure",
+     "polarity": "DENY",
+     "polarity_text": "do not share",
+     "purpose": [
+      {
+       "text": "for their own direct marketing purposes",
+       "name": "marketing"
+      }
+     ],
+     "recipient": {
+      "name": "third party",
+      "text": "third parties"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-055#s17"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "permit you to request that we:\ndelete",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "certain information we have about you",
+      "name": "user data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "California law may permit you to request that we"
+     ],
+     "exceptions": [
+      "Certain information may be exempt from such requests under applicable law"
+     ],
+     "references": [
+      {
+       "text": "California law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "permit you to request that we:\ndelete"
+    ],
+    "section": "apple-055#s18"
+   }
+  ],
+  "residual_quotes": 27,
+  "quotes": 99,
+  "completeness": {
+   "gaps": 313,
+   "gap_words": 3332
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 8,
+  "translated_quotes": 99,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 38,
+  "cached": 0,
+  "prompt_tokens": 65231,
+  "completion_tokens": 40212,
+  "thinking_tokens": 0,
+  "seconds": 790.6429352760315,
+  "failures": 0
+ },
+ "seconds": 792.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "cleaned_sha256": "apple-197",
+ "text_sha256": "15dcc1ff344142737c38360fdb9a636f8a225baab7d7e0873a9c91a2db60bd68",
+ "site_id": "apple-197",
+ "sections": 17,
+ "rules": 158,
+ "report": {
+  "sections": 17,
+  "raw_rules": 101,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "personalized advertising experience on your device",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "personalized advertising experience",
+       "name": "targeted-advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "using your device settings as follows:\nOn iOS, depending on the applicable iOS version, you may withdraw consent across all apps by either enabling the “Limit Ad Tracking” setting or disabling the “Allow Apps to Request to Track” permission in your iOS device settings. Depending on the applicable iOS version, instead of withdrawing consent on a device-wide basis, you may also have the option of withdrawing consent on a per-app basis by disabling tracking permissions for specific apps that appear under the “Allow Apps to Request to Track” setting in your iOS device settings (precise directions may differ depending on the applicable iOS version)",
+      "On Android devices, you may withdraw your consent in the Google Ads settings within your Android settings by enabling the “Opt out of Ads Personalization” setting (precise directions and the name of the setting may differ depending on the applicable Android versions and device manufacturer)"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-197#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on the jurisdiction in which you reside",
+      "To the extent these rights apply and concern you, you can contact us via the contact details available below and ask to exercise the following rights",
+      "Rights of access to your Personal Data:\nYou have the right to receive confirmation as to whether or not Personal Data concerning you is being processed, and access your stored Personal Data, together with supplementary information"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "relevant applicable laws",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-197#s9"
+   }
+  ],
+  "residual_quotes": 15,
+  "quotes": 57,
+  "completeness": {
+   "gaps": 197,
+   "gap_words": 2052
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 57,
+  "compile_failures": 2,
+  "fixed_structurally": 1,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 30,
+  "cached": 0,
+  "prompt_tokens": 47620,
+  "completion_tokens": 24309,
+  "thinking_tokens": 0,
+  "seconds": 327.04250288009644,
+  "failures": 0
+ },
+ "seconds": 327.9,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

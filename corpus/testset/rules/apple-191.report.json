@@ -1,0 +1,125 @@
+{
+ "cleaned_sha256": "apple-191",
+ "text_sha256": "cf52f65c794c5207e410a1e569c7654aa9fede61d4a02c919e4d6a73bb0d3a0a",
+ "site_id": "apple-191",
+ "sections": 11,
+ "rules": 214,
+ "report": {
+  "sections": 11,
+  "raw_rules": 143,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "allows",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "data linked to your Google account",
+      "name": "Google account data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "Google Signals",
+      "name": "Google Signals"
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [
+      {
+       "text": "for advertising reports, remarketing, cross-device reporting, and interest and demographic reports",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "In some Apps",
+      "If you have enabled personalized ads in your Google account"
+     ],
+     "exceptions": [
+      "opt out of Google Analytics and Google Signals"
+     ],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-191#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can contact us",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information we have that was collected from you",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "would like to access the Personal Information we have that was collected from you",
+      "you can contact us using the contact information provided below"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-191#s4"
+   }
+  ],
+  "residual_quotes": 18,
+  "quotes": 68,
+  "completeness": {
+   "gaps": 240,
+   "gap_words": 2876
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 3,
+  "translated_quotes": 68,
+  "compile_failures": 2,
+  "fixed_structurally": 0,
+  "fixed_by_call": 2
+ },
+ "usage": {
+  "calls": 24,
+  "cached": 0,
+  "prompt_tokens": 45524,
+  "completion_tokens": 30772,
+  "thinking_tokens": 0,
+  "seconds": 406.16382360458374,
+  "failures": 0
+ },
+ "seconds": 407.0,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

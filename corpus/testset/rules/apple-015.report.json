@@ -1,0 +1,596 @@
+{
+ "cleaned_sha256": "apple-015",
+ "text_sha256": "f16368dcaa8e4595f04db8f55f8baa7285edcf80c250638fb6cd674269d0ec12",
+ "site_id": "apple-015",
+ "sections": 27,
+ "rules": 307,
+ "report": {
+  "sections": 27,
+  "raw_rules": 251,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "to assist with this",
+       "name": "other"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may use",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Google Analytics",
+      "name": "Google Analytics"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "use",
+      "verb": "use"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "for analytics services",
+       "name": "analytics"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "Google Analytics' currently available opt-outs"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s12"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "does not alter",
+     "actor": {
+      "text": "Southwest",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "alter its practices",
+      "verb": "alter"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "when it receives a “Do Not Track” signal from a visitor’s browser"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s12"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "Southwest",
+      "name": "Southwest"
+     },
+     "data": {
+      "text": "certain information about you and your use of our Services and the third party site or service",
+      "name": "information about you and your use of our Services and the third party site or service"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-015#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "the third party",
+      "name": "third party"
+     },
+     "data": {
+      "text": "certain information about you and your use of our Services and the third party site or service",
+      "name": "information about you and your use of our Services and the third party site or service"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "have access to",
+      "verb": "have access to"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "apple-015#s14"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information that we have about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "delete",
+      "verb": "delete"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [],
+     "conditions": [
+      "You may make the following requests with respect to your Personal Information: request that we delete Personal Information that we have about you"
+     ],
+     "exceptions": [
+      "several exceptions"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You may make the following requests with respect to your Personal Information: request that we delete Personal Information that we have about you"
+    ],
+    "section": "apple-015#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "request",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "inaccurate Personal Information we maintain about you",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "correct",
+      "verb": "correct"
+     },
+     "operation": "adaptation or alteration",
+     "purpose": [],
+     "conditions": [
+      "You may make the following requests with respect to your Personal Information: request that we correct inaccurate Personal Information we maintain about you"
+     ],
+     "exceptions": [
+      "certain exceptions"
+     ],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You may make the following requests with respect to your Personal Information: request that we correct inaccurate Personal Information we maintain about you"
+    ],
+    "section": "apple-015#s20"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not share",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "share",
+      "verb": "share"
+     },
+     "operation": "disclosure",
+     "purpose": [
+      {
+       "text": "for certain behavioral or targeted advertising purposes",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "You may make the following requests with respect to your Personal Information: request that we not share your Personal Information with third parties for certain behavioral or targeted advertising purposes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You may make the following requests with respect to your Personal Information: request that we not share your Personal Information with third parties for certain behavioral or targeted advertising purposes"
+    ],
+    "section": "apple-015#s20"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "not sell",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your Personal Information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "third parties",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "sell",
+      "verb": "sell"
+     },
+     "operation": "sale",
+     "purpose": [],
+     "conditions": [
+      "for valuable consideration",
+      "You may make the following requests with respect to your Personal Information: request that we not sell your Personal Information to third parties for valuable consideration"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "You may make the following requests with respect to your Personal Information: request that we not sell your Personal Information to third parties for valuable consideration"
+    ],
+    "section": "apple-015#s20"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will make reasonable good faith efforts to endeavor to anonymize",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "the post",
+      "name": "the post"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "anonymize",
+      "verb": "anonymize"
+     },
+     "operation": "erasure or destruction",
+     "purpose": [
+      {
+       "text": "so the minor cannot be individually identified",
+       "name": "other"
+      }
+     ],
+     "conditions": [
+      "If you have registered to use the Services, and have posted content or information on the Services",
+      "you can request that such information be removed from the Services by contacting us by e-mail as detailed\nhere\nor by sending a letter to Southwest Airlines Co., P.O. Box 36647 TOP-1CR, Dallas, Texas 75235 (Attention: Legal Counsel), stating that you personally posted such content or information and detailing where the content or information is posted"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "will make reasonable good faith efforts to endeavor to anonymize"
+    ],
+    "section": "apple-015#s21"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will notify",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make changes to this Privacy Policy",
+      "by revising the date at the top of this Privacy Policy"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If we make changes to this Privacy Policy",
+      "in some cases, at our discretion or as required under applicable law",
+      "such as by adding a statement to the homepages of our Services or sending you an e-mail notification"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "use",
+     "purpose": [],
+     "conditions": [
+      "If the changes are material"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "apple-015#s23"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may need to request",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "specific information",
+      "name": "specific information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "you",
+      "name": "user"
+     },
+     "action": {
+      "text": "request",
+      "verb": "request"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to help us confirm your identity and ensure your right to access your Personal Information (or to exercise any of your other rights)",
+       "name": "verification"
+      },
+      {
+       "text": "as a security measure to ensure that Personal Information is not disclosed to an unauthorized person",
+       "name": "security"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as permitted by applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as a security measure to ensure that Personal Information is not disclosed to an unauthorized person"
+    ],
+    "section": "apple-015#s27"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 94,
+  "completeness": {
+   "gaps": 298,
+   "gap_words": 4354
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 6,
+  "translated_quotes": 94,
+  "compile_failures": 1,
+  "fixed_structurally": 1,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 52,
+  "cached": 0,
+  "prompt_tokens": 87698,
+  "completion_tokens": 56185,
+  "thinking_tokens": 0,
+  "seconds": 932.098813533783,
+  "failures": 0
+ },
+ "seconds": 933.6,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

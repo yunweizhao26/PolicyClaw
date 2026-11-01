@@ -1,0 +1,223 @@
+{
+ "cleaned_sha256": "web-013",
+ "text_sha256": "24c9297ae7dab2ef48c4d258afaf89907d715bfc1e9f6e2051b898c4cc8785cf",
+ "site_id": "web-013",
+ "sections": 7,
+ "rules": 123,
+ "report": {
+  "sections": 7,
+  "raw_rules": 101,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [],
+     "data": {
+      "name": "personal data",
+      "text": "your personal information"
+     },
+     "exceptions": [],
+     "operation": "disclosure",
+     "polarity": "ALLOW",
+     "polarity_text": "disclose",
+     "purpose": [
+      {
+       "text": "to help operate and improve our Site and Service (including to support the delivery of, provide functionality on, or help to enhance the security of our Site and Service)",
+       "name": "operate website or service"
+      },
+      {
+       "text": "offer other Sentry affiliated services to you",
+       "name": "marketing"
+      },
+      {
+       "text": "otherwise process personal information for the purposes described in this policy",
+       "name": "other"
+      }
+     ],
+     "recipient": {
+      "name": "affiliate",
+      "text": "Affiliate companies"
+     },
+     "references": [
+      {
+       "text": "described in this policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to help operate and improve our Site and Service (including to support the delivery of, provide functionality on, or help to enhance the security of our Site and Service)"
+    ],
+    "section": "web-013#s3"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "with",
+     "actor": {
+      "text": "",
+      "name": ""
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "Any other person",
+      "name": "other person"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclosure",
+      "verb": "disclose"
+     },
+     "operation": "disclosure",
+     "purpose": [],
+     "conditions": [
+      "with your consent to the disclosure"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-013#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "operation": "access",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location",
+      "by submitting a request at https://sentry.io/contact/gdpr/"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "“How to contact us” heading below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "operation not in the schema",
+    "section": "web-013#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "can",
+     "actor": {
+      "text": "us",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "restrict processing",
+      "verb": "restrict"
+     },
+     "operation": "restriction",
+     "purpose": [],
+     "conditions": [
+      "Depending on your location",
+      "ask us to restrict processing of your personal information by submitting a request at https://sentry.io/contact/gdpr/"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "“How to contact us” heading below",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "ask us to restrict processing of your personal information by submitting a request at https://sentry.io/contact/gdpr/"
+    ],
+    "section": "web-013#s6"
+   }
+  ],
+  "residual_quotes": 13,
+  "quotes": 46,
+  "completeness": {
+   "gaps": 185,
+   "gap_words": 1980
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 46,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 15,
+  "cached": 0,
+  "prompt_tokens": 30745,
+  "completion_tokens": 26929,
+  "thinking_tokens": 0,
+  "seconds": 382.7945659160614,
+  "failures": 0
+ },
+ "seconds": 383.3,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

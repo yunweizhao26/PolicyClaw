@@ -1,0 +1,157 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "background check info": "background check",
+    "curriculum vitae": "CV",
+    "cv": "CV",
+    "disability status": "disabilities",
+    "immigration status": "immigration or visa status",
+    "interview info": "interview and screening info",
+    "job application history": "application history",
+    "personal data": "Personal Info",
+    "personal info": "Personal Info",
+    "personal information": "Personal Info",
+    "photographs": "photograph",
+    "racial or ethnic origin": "race or ethnicity",
+    "references": "reference info",
+    "sensitive personal information": "sensitive data",
+    "telephone number": "phone number",
+    "transcripts": "transcript",
+    "work samples": "work sample"
+   },
+   "parents": {
+    "CV": [
+     "resume"
+    ],
+    "Personal Info about your application process": [
+     "Personal Info"
+    ],
+    "Personal Info you provide": [
+     "Personal Info"
+    ],
+    "age": [
+     "Personal Info"
+    ],
+    "application history": [
+     "Personal Info"
+    ],
+    "bank account number": [
+     "Personal Info"
+    ],
+    "contact info": [
+     "Personal Info"
+    ],
+    "date of birth": [
+     "Personal Info"
+    ],
+    "disabilities": [
+     "medical condition",
+     "sensitive data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "gender": [
+     "Personal Info"
+    ],
+    "immigration or visa status": [
+     "sensitive data"
+    ],
+    "legal name": [
+     "name"
+    ],
+    "name": [
+     "Personal Info",
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "race or ethnicity": [
+     "sensitive data"
+    ],
+    "sensitive data": [
+     "Personal Info"
+    ],
+    "social security number": [
+     "sensitive data",
+     "tax identification number"
+    ],
+    "tax identification number": [
+     "sensitive data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third party": "external parties"
+   },
+   "parents": {
+    "subsidiaries": [
+     "affiliates"
+    ],
+    "hiring managers": [
+     "those directly involved in the recruitment process"
+    ],
+    "interviewers": [
+     "those directly involved in the recruitment process"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {}
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance",
+    "services": "service delivery",
+    "targeted advertising": "advertising",
+    "verification": "authentication"
+   },
+   "parents": {
+    "recruitment": [
+     "human resources management",
+     "recruiting and business operations"
+    ],
+    "recruitment and staffing": [
+     "human resources management",
+     "recruiting and business operations"
+    ],
+    "employee records": [
+     "human resources management"
+    ],
+    "diversity initiatives": [
+     "recruitment"
+    ],
+    "risk assessment": [
+     "legal compliance"
+    ],
+    "business operations": [
+     "business purpose"
+    ],
+    "recruiting and business operations": [
+     "business purpose"
+    ],
+    "contract performance": [
+     "business operations"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 2073,
+  "completion_tokens": 1315,
+  "thinking_tokens": 0,
+  "seconds": 22.48417592048645,
+  "failures": 0
+ },
+ "seconds": 22.6
+}

@@ -1,0 +1,22 @@
+{
+ "policy": "pg-044",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "Only information that we collect is user location and phone state to know whether the phone is turned on or not.",
+   "prohibit": "We don’t collect any personal information regarding our users.",
+   "situation": "When a user uses the apps and their location or phone state data (which constitutes user information) is collected.",
+   "reason": "The policy explicitly states it collects user location and phone state, while also claiming it does not collect any personal information, without clarifying definitions or exceptions.",
+   "confidence": "medium"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 794,
+  "completion_tokens": 146,
+  "thinking_tokens": 0,
+  "seconds": 2.2478115558624268,
+  "failures": 0
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account information": "account data",
+    "advertising identifier": "ad identifier",
+    "communication interaction data": "communication data",
+    "contact details": "contact data",
+    "online activity data": "online activity",
+    "payment information": "payment data",
+    "personal information": "personal data",
+    "transactional data": "transaction data"
+   },
+   "parents": {
+    "ad identifier": [
+     "unique identifier"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "browsing activity": [
+     "online activity"
+    ],
+    "browsing history": [
+     "online activity"
+    ],
+    "camera data": [
+     "device data"
+    ],
+    "carrier": [
+     "device data"
+    ],
+    "coarse location": [
+     "personal data"
+    ],
+    "communication data": [
+     "interaction data"
+    ],
+    "computer cpu usage": [
+     "device data"
+    ],
+    "computer memory size": [
+     "device data"
+    ],
+    "contact data": [
+     "personal data"
+    ],
+    "credit card number": [
+     "payment card information"
+    ],
+    "device data": [
+     "personal data"
+    ],
+    "device type": [
+     "device data"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "hardware model": [
+     "device data"
+    ],
+    "interaction data": [
+     "online activity"
+    ],
+    "ip address": [
+     "device data"
+    ],
+    "language setting": [
+     "device data"
+    ],
+    "name": [
+     "contact data"
+    ],
+    "network type": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "other personal data": [
+     "personal data"
+    ],
+    "payment card information": [
+     "payment data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "postal address": [
+     "contact data"
+    ],
+    "screen resolution": [
+     "device data"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "session replay data": [
+     "online activity"
+    ],
+    "timestamp": [
+     "online activity"
+    ],
+    "unique identifier": [
+     "device data"
+    ],
+    "video recording of your screen": [
+     "audiovisual data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "third-party advertising partner": "advertising partner"
+   },
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "business acquirer": [
+     "third party"
+    ],
+    "counterparty advisor": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "prospective counterparty": [
+     "third party"
+    ],
+    "public authorities": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "business transaction partners": [
+     "third party"
+    ],
+    "customers": [
+     "third party"
+    ],
+    "data providers": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ],
+    "third party services": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "Pendo"
+   },
+   "parents": {
+    "Stripe": [
+     "payment processor"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party advertising partner": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service_provision": "service provision",
+    "user account management": "authentication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud prevention": [
+     "security"
+    ],
+    "legal claims": [
+     "legal compliance"
+    ],
+    "service communication": [
+     "communication"
+    ],
+    "customer support": [
+     "service operation"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "service optimization": [
+     "service provision"
+    ],
+    "payment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2820,
+  "completion_tokens": 928,
+  "thinking_tokens": 0,
+  "seconds": 11.366984128952026,
+  "failures": 0
+ },
+ "seconds": 11.5
+}

@@ -1,0 +1,190 @@
+{
+ "cleaned_sha256": "web-029",
+ "text_sha256": "fcc42f5ca7ca7c57574330b7207df544c9902daee788c429abecfb2e30a81030",
+ "site_id": "web-029",
+ "sections": 3,
+ "rules": 46,
+ "report": {
+  "sections": 3,
+  "raw_rules": 40,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not rent",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "our list subscribers",
+      "name": "email subscriber list"
+     },
+     "recipient": {
+      "text": "persons or organizations outside of NIST",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not rent"
+    ],
+    "section": "web-029#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not exchange",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "our list subscribers",
+      "name": "email subscriber list"
+     },
+     "recipient": {
+      "text": "persons or organizations outside of NIST",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exchange",
+      "verb": "exchange"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not exchange"
+    ],
+    "section": "web-029#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not rent",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "engagement information",
+      "name": "engagement information"
+     },
+     "recipient": {
+      "text": "persons or organizations outside of NIST",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "rent",
+      "verb": "rent"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not rent"
+    ],
+    "section": "web-029#s2"
+   },
+   {
+    "rule": {
+     "polarity": "DENY",
+     "polarity_text": "do not exchange",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "engagement information",
+      "name": "engagement information"
+     },
+     "recipient": {
+      "text": "persons or organizations outside of NIST",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "exchange",
+      "verb": "exchange"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "do not exchange"
+    ],
+    "section": "web-029#s2"
+   }
+  ],
+  "residual_quotes": 1,
+  "quotes": 17,
+  "completeness": {
+   "gaps": 61,
+   "gap_words": 862
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 17,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 6,
+  "cached": 0,
+  "prompt_tokens": 11517,
+  "completion_tokens": 8996,
+  "thinking_tokens": 0,
+  "seconds": 98.49444103240967,
+  "failures": 0
+ },
+ "seconds": 98.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

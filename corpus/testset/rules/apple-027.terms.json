@@ -1,0 +1,200 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "government identifier": "government ID number",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal data": "identifiable data",
+    "unique device identifier": "device identifier",
+    "user reviews": "reviews",
+    "user_data": "user data"
+   },
+   "parents": {
+    "access timestamp": [
+     "timestamp"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "postal address": [
+     "address",
+     "contact details"
+    ],
+    "city": [
+     "location information"
+    ],
+    "precise location": [
+     "location information"
+    ],
+    "network-level location": [
+     "location information"
+    ],
+    "pages viewed": [
+     "browsing activity"
+    ],
+    "browsing activity": [
+     "browsing behavior"
+    ],
+    "links clicked": [
+     "interaction data"
+    ],
+    "conversion information": [
+     "interaction data"
+    ],
+    "hardware model": [
+     "hardware information"
+    ],
+    "carrier": [
+     "hardware information"
+    ],
+    "bank account number": [
+     "account information"
+    ],
+    "password": [
+     "account information"
+    ],
+    "profile information": [
+     "account information"
+    ],
+    "social security number": [
+     "government ID number"
+    ],
+    "photos": [
+     "user-provided content"
+    ],
+    "item descriptions": [
+     "user-provided content"
+    ],
+    "forum postings": [
+     "user-provided content"
+    ],
+    "messages": [
+     "user-provided content"
+    ],
+    "bids": [
+     "user-provided content"
+    ],
+    "reviews": [
+     "user-provided content"
+    ],
+    "interest": [
+     "interest and favorites information"
+    ],
+    "purchase history": [
+     "interest and favorites information"
+    ],
+    "interest and favorites information": [
+     "inferences"
+    ],
+    "IP address": [
+     "network-level location"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "partner": "advertising partner"
+   },
+   "parents": {
+    "Stripe": [
+     "third party"
+    ],
+    "advertising partner": [
+     "business partner",
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "other users": [
+     "public",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "third party"
+    ],
+    "social network": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Stripe": [
+     "service provider",
+     "third party"
+    ],
+    "advertising partner": [
+     "business partner",
+     "partner",
+     "third party"
+    ],
+    "business partner": [
+     "partner",
+     "third party"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud prevention": "fraud detection",
+    "fraud_prevention": "fraud detection",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "service_provision": "service provision",
+    "targeted_advertising": "targeted advertising"
+   },
+   "parents": {
+    "fraud detection": [
+     "security"
+    ],
+    "legal_dispute_resolution": [
+     "compliance"
+    ],
+    "targeted advertising": [
+     "advertising",
+     "marketing"
+    ],
+    "verification": [
+     "security"
+    ],
+    "hosting": [
+     "service provision"
+    ],
+    "payment_processing": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2622,
+  "completion_tokens": 982,
+  "thinking_tokens": 0,
+  "seconds": 10.723519325256348,
+  "failures": 0
+ },
+ "seconds": 10.9
+}

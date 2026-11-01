@@ -1,0 +1,248 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact details",
+    "device identifiers": "device identifier",
+    "device information": "device details",
+    "information concerning you": "data about you",
+    "location data": "location",
+    "personal information": "personal data"
+   },
+   "parents": {
+    "Android ID": [
+     "advertising identifier",
+     "device identifier"
+    ],
+    "advertising identifier": [
+     "device identifier",
+     "online identifier"
+    ],
+    "API key": [
+     "online identifier"
+    ],
+    "access log": [
+     "log data"
+    ],
+    "ad views": [
+     "ad interaction"
+    ],
+    "ad interaction": [
+     "advertising data"
+    ],
+    "additional personal information": [
+     "personal data"
+    ],
+    "address": [
+     "contact details",
+     "location"
+    ],
+    "city": [
+     "location"
+    ],
+    "state": [
+     "location"
+    ],
+    "postal code": [
+     "location"
+    ],
+    "precise location": [
+     "location"
+    ],
+    "geolocation data": [
+     "location"
+    ],
+    "app interaction data": [
+     "app usage"
+    ],
+    "application usage": [
+     "app usage"
+    ],
+    "app name": [
+     "app properties"
+    ],
+    "app version": [
+     "app properties"
+    ],
+    "cookie data": [
+     "cookies and similar technologies"
+    ],
+    "criminal conviction data": [
+     "sensitive data"
+    ],
+    "display name": [
+     "name"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "in-app activity data": [
+     "app usage"
+    ],
+    "installed applications": [
+     "device details"
+    ],
+    "ip address": [
+     "online identifier"
+    ],
+    "log file": [
+     "log data"
+    ],
+    "payment card number": [
+     "commercial information"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "usage timestamp": [
+     "app usage"
+    ],
+    "user identifier": [
+     "online identifier"
+    ],
+    "user and device data": [
+     "personal data"
+    ],
+    "user behavior": [
+     "user data"
+    ],
+    "profile image": [
+     "profile information"
+    ],
+    "physical movement": [
+     "user behavior"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "hosting organization": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third party processor": [
+     "service provider",
+     "third party"
+    ],
+    "third-party identity verification service": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party service provider": "service provider"
+   },
+   "parents": {
+    "advertising partner": [
+     "partner",
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party provider"
+    ],
+    "Google": [
+     "service provider"
+    ],
+    "third party ad network": [
+     "third party"
+    ],
+    "third party provider": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "integrated advertising or analytics tools": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal compliance": "compliance",
+    "service provision": "provide service",
+    "targeted advertising": "personalized advertising"
+   },
+   "parents": {
+    "advertising": [
+     "each business purpose described above",
+     "marketing"
+    ],
+    "personalized advertising": [
+     "advertising",
+     "each business purpose described above"
+    ],
+    "security": [
+     "each business purpose described above",
+     "fraud prevention and security"
+    ],
+    "analytics": [
+     "each business purpose described above"
+    ],
+    "communication": [
+     "each business purpose described above"
+    ],
+    "compliance": [
+     "each business purpose described above"
+    ],
+    "customer support": [
+     "each business purpose described above"
+    ],
+    "fraud prevention and security": [
+     "each business purpose described above"
+    ],
+    "marketing": [
+     "each business purpose described above"
+    ],
+    "personalization": [
+     "each business purpose described above"
+    ],
+    "profiling": [
+     "each business purpose described above"
+    ],
+    "provide service": [
+     "each business purpose described above"
+    ],
+    "service improvement": [
+     "each business purpose described above"
+    ],
+    "storage": [
+     "each business purpose described above"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2563,
+  "completion_tokens": 1031,
+  "thinking_tokens": 0,
+  "seconds": 14.205885171890259,
+  "failures": 0
+ },
+ "seconds": 14.3
+}

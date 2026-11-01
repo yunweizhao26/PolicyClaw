@@ -1,0 +1,268 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cloud services backup data": "backup data",
+    "credit-card-number": "credit card number",
+    "industry sector": "business sector",
+    "national identification number": "government ID number",
+    "oauth token": "OAuth token",
+    "order amount": "amount",
+    "order description": "description",
+    "organization name": "company name",
+    "passwords": "password",
+    "personal data": "account and contact data",
+    "personal information": "account and contact data",
+    "production data from Odoo.com and affiliate services": "production data",
+    "project repository contents": "project repository content",
+    "reference": "order reference"
+   },
+   "parents": {
+    "Github account data": [
+     "github data"
+    ],
+    "OAuth token": [
+     "Github account data"
+    ],
+    "ad campaign interaction": [
+     "ad campaign data"
+    ],
+    "amount": [
+     "order details"
+    ],
+    "browser language": [
+     "browser details"
+    ],
+    "browser type": [
+     "browser details"
+    ],
+    "browsing behavior": [
+     "browsing activity"
+    ],
+    "browsing history": [
+     "browsing activity"
+    ],
+    "company revenue": [
+     "data about you and your business"
+    ],
+    "company size": [
+     "data about you and your business"
+    ],
+    "contact information": [
+     "account and contact data"
+    ],
+    "cover letter": [
+     "job application"
+    ],
+    "customer database": [
+     "customer data"
+    ],
+    "description": [
+     "order details"
+    ],
+    "email": [
+     "contact information"
+    ],
+    "executive contact details": [
+     "contact information"
+    ],
+    "order reference": [
+     "order details"
+    ],
+    "passport number": [
+     "government ID number"
+    ],
+    "phone number": [
+     "contact information"
+    ],
+    "political opinions": [
+     "sensitive data"
+    ],
+    "postal address": [
+     "contact information"
+    ],
+    "production data from Odoo Online and Odoo.SH Customer Databases for non-EU hosting regions": [
+     "production data"
+    ],
+    "project repository content": [
+     "repository data"
+    ],
+    "racial or ethnic origin": [
+     "sensitive data"
+    ],
+    "religious beliefs": [
+     "sensitive data"
+    ],
+    "repository data": [
+     "github data"
+    ],
+    "resume or curriculum vitae": [
+     "job application"
+    ],
+    "sexual orientation or life": [
+     "sensitive data"
+    ],
+    "social media details": [
+     "contact information"
+    ],
+    "trade union membership": [
+     "sensitive data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Adyen": [
+     "service provider",
+     "third party"
+    ],
+    "French tax authority": [
+     "third party"
+    ],
+    "FullStory": [
+     "service provider",
+     "third party"
+    ],
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "Ingenico": [
+     "service provider",
+     "third party"
+    ],
+    "Paypal": [
+     "service provider",
+     "third party"
+    ],
+    "Stripe": [
+     "service provider",
+     "third party"
+    ],
+    "event sponsors": [
+     "third party"
+    ],
+    "local event organizer": [
+     "third party"
+    ],
+    "official partners": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {
+    "third-party service providers": "service provider"
+   },
+   "parents": {
+    "AWS": [
+     "service provider",
+     "third party"
+    ],
+    "Adyen": [
+     "service provider",
+     "third party"
+    ],
+    "Cloudflare": [
+     "service provider",
+     "third party"
+    ],
+    "FullStory": [
+     "service provider",
+     "third party"
+    ],
+    "Google": [
+     "service provider",
+     "third party"
+    ],
+    "Google reCAPTCHA": [
+     "Google",
+     "service provider",
+     "third party"
+    ],
+    "Ingenico": [
+     "service provider",
+     "third party"
+    ],
+    "OVH S.A.S.": [
+     "service provider",
+     "third party"
+    ],
+    "Outscale": [
+     "service provider",
+     "third party"
+    ],
+    "Paypal": [
+     "service provider",
+     "third party"
+    ],
+    "Scaleway": [
+     "service provider",
+     "third party"
+    ],
+    "Stripe": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "customer_support": "customer support",
+    "fraud_detection": "fraud prevention and detection",
+    "legal compliance": "compliance with legal obligations",
+    "legal_compliance": "compliance with legal obligations",
+    "payment-processing": "payment",
+    "service_provision": "service provision"
+   },
+   "parents": {
+    "analytics": [
+     "analytics or research"
+    ],
+    "caching": [
+     "services"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fraud prevention and detection": [
+     "security"
+    ],
+    "payment": [
+     "billing"
+    ],
+    "product_improvement": [
+     "analytics",
+     "analytics or research"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service provision": [
+     "services"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3145,
+  "completion_tokens": 1414,
+  "thinking_tokens": 0,
+  "seconds": 13.914297103881836,
+  "failures": 0
+ },
+ "seconds": 14.0
+}

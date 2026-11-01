@@ -1,0 +1,245 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "cookie identifiers": "cookie id",
+    "inferences": "derived data",
+    "ip address": "IP address",
+    "personal data": "Personal Data",
+    "personal information": "Personal Data"
+   },
+   "parents": {
+    "browser details": [
+     "browser information",
+     "device and browser information"
+    ],
+    "browser information": [
+     "device and browser information"
+    ],
+    "browsing history": [
+     "browsing and interaction data"
+    ],
+    "content interactions": [
+     "browsing and interaction data"
+    ],
+    "cookie id": [
+     "cookies or other tracking identifiers",
+     "online identifiers"
+    ],
+    "cookies": [
+     "cookies or other tracking identifiers"
+    ],
+    "crash-related personal data": [
+     "Personal Data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "feature usage data": [
+     "service usage data"
+    ],
+    "feedback": [
+     "user-generated content"
+    ],
+    "health data": [
+     "sensitive data"
+    ],
+    "IP address": [
+     "identifiers",
+     "online identifiers"
+    ],
+    "links clicked": [
+     "browsing and interaction data"
+    ],
+    "mac address": [
+     "identifiers"
+    ],
+    "mobile advertising identifier": [
+     "online identifiers"
+    ],
+    "name": [
+     "Personal Data"
+    ],
+    "online identifiers": [
+     "identifiers"
+    ],
+    "page viewed": [
+     "browsing history"
+    ],
+    "password": [
+     "account information"
+    ],
+    "payment information": [
+     "Personal Data"
+    ],
+    "phone number": [
+     "contact details"
+    ],
+    "photograph": [
+     "Personal Data"
+    ],
+    "postal address": [
+     "contact details"
+    ],
+    "sensitive data": [
+     "Personal Data"
+    ],
+    "service usage data": [
+     "user data"
+    ],
+    "service use information": [
+     "service usage data"
+    ],
+    "student records": [
+     "Personal Data"
+    ],
+    "tax ID": [
+     "Personal Data",
+     "identifiers"
+    ],
+    "unique identifiers": [
+     "identifiers"
+    ],
+    "user settings": [
+     "account information"
+    ],
+    "username": [
+     "account information",
+     "identifiers"
+    ],
+    "video viewing history": [
+     "browsing and interaction data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "advertising networks": "advertising network",
+    "affiliates": "affiliate",
+    "analytics providers": "analytics provider"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partner"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "analytics provider": [
+     "third party"
+    ],
+    "tax authority": [
+     "government agency"
+    ],
+    "government agency": [
+     "third party"
+    ],
+    "law enforcement": [
+     "third party"
+    ],
+    "subprocessor": [
+     "data processor"
+    ],
+    "data processor": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "children": [
+     "user"
+    ],
+    "agents": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "YouTube API Services": [
+     "third party application"
+    ],
+    "third party application": [
+     "other source",
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "LLM providers": [
+     "third party",
+     "third-party service provider"
+    ],
+    "partner": [
+     "third party"
+    ],
+    "social media platform": [
+     "third party"
+    ],
+    "third-party advertising partners": [
+     "partner",
+     "third party"
+    ],
+    "third-party service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "analytics and service improvement": "analytics",
+    "legal compliance and protection of rights": "legal and regulatory compliance",
+    "legal_compliance": "legal compliance",
+    "marketing and advertising": "marketing",
+    "operational activities": "commercial purpose",
+    "operational purpose": "commercial purpose",
+    "research_development": "research and development",
+    "security": "fraud prevention and security",
+    "service-operation": "service operation",
+    "service-provision": "service provision",
+    "unspecified purpose": "unspecified",
+    "verification": "identity verification"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "dispute resolution": [
+     "legal and regulatory compliance",
+     "legal protection"
+    ],
+    "legal compliance": [
+     "legal and regulatory compliance"
+    ],
+    "legal protection": [
+     "legal and regulatory compliance"
+    ],
+    "service operation": [
+     "service provision"
+    ],
+    "user request fulfillment": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3147,
+  "completion_tokens": 1114,
+  "thinking_tokens": 0,
+  "seconds": 13.316174507141113,
+  "failures": 0
+ },
+ "seconds": 13.4
+}

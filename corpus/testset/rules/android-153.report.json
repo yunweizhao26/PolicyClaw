@@ -1,0 +1,182 @@
+{
+ "cleaned_sha256": "android-153",
+ "text_sha256": "e9425fffc837f158f7fdd5f09694c475087c500872d590875ddd986e163ba9d1",
+ "site_id": "android-153",
+ "sections": 9,
+ "rules": 60,
+ "report": {
+  "sections": 9,
+  "raw_rules": 44,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "receive",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "{'text': 'receive', 'verb': 'collection'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-153#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "receive",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "SPDI",
+      "name": "SPDI"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "receive",
+      "verb": "receive"
+     },
+     "operation": "{'text': 'receive', 'verb': 'collection'}",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-153#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "make best possible efforts to store",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Information",
+      "name": "Personal Information"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "{'text': 'store', 'verb': 'storage'}",
+     "purpose": [],
+     "conditions": [
+      "in a secure operating environment that is not open to the public"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-153#s7"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "make best possible efforts to store",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your SPDI",
+      "name": "SPDI"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "store",
+      "verb": "store"
+     },
+     "operation": "{'text': 'store', 'verb': 'storage'}",
+     "purpose": [],
+     "conditions": [
+      "in a secure operating environment that is not open to the public"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "operation not in the schema",
+    "section": "android-153#s7"
+   }
+  ],
+  "residual_quotes": 4,
+  "quotes": 20,
+  "completeness": {
+   "gaps": 70,
+   "gap_words": 979
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 20,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 13,
+  "cached": 1,
+  "prompt_tokens": 20478,
+  "completion_tokens": 9934,
+  "thinking_tokens": 0,
+  "seconds": 309.4706389904022,
+  "failures": 0
+ },
+ "seconds": 309.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

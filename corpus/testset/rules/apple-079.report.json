@@ -1,0 +1,82 @@
+{
+ "cleaned_sha256": "apple-079",
+ "text_sha256": "9f426f634f3dcb51a6eec5d9e9b2edde13d7aee40a1e8ffe1ff7f65758d9767c",
+ "site_id": "apple-079",
+ "sections": 5,
+ "rules": 143,
+ "report": {
+  "sections": 5,
+  "raw_rules": 122,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may develop",
+     "actor": {
+      "text": "Iconic Hearts (and any vendors we hire to perform business functions on our behalf)",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Inferences",
+      "name": "inferences"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "develop",
+      "verb": "develop"
+     },
+     "operation": "profiling",
+     "purpose": [],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may develop"
+    ],
+    "section": "apple-079#s1"
+   }
+  ],
+  "residual_quotes": 5,
+  "quotes": 35,
+  "completeness": {
+   "gaps": 111,
+   "gap_words": 1064
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 1,
+  "translated_quotes": 35,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 10,
+  "cached": 0,
+  "prompt_tokens": 19756,
+  "completion_tokens": 20125,
+  "thinking_tokens": 0,
+  "seconds": 205.27493500709534,
+  "failures": 0
+ },
+ "seconds": 205.7,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

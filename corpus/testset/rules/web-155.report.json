@@ -1,0 +1,81 @@
+{
+ "cleaned_sha256": "web-155",
+ "text_sha256": "6374afda8aa7e6fa40e96386e07ef982811ff45a851ad64f351ea4bbb7d4c2ff",
+ "site_id": "web-155",
+ "sections": 12,
+ "rules": 236,
+ "report": {
+  "sections": 12,
+  "raw_rules": 209,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "You have the right to"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your Personal Data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right to access",
+     "purpose": [],
+     "recipient": {
+      "name": "user",
+      "text": "You"
+     },
+     "references": [],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "web-155#s11"
+   }
+  ],
+  "residual_quotes": 25,
+  "quotes": 96,
+  "completeness": {
+   "gaps": 366,
+   "gap_words": 3128
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 108,
+  "translated_quotes": 96,
+  "compile_failures": 4,
+  "fixed_structurally": 0,
+  "fixed_by_call": 4
+ },
+ "usage": {
+  "calls": 25,
+  "cached": 0,
+  "prompt_tokens": 51620,
+  "completion_tokens": 43604,
+  "thinking_tokens": 0,
+  "seconds": 273.3223910331726,
+  "failures": 0
+ },
+ "seconds": 274.8,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

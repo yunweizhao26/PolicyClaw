@@ -1,0 +1,285 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising identifier": "advertising id",
+    "coarse location": "approximate location",
+    "cookies": "cookie data",
+    "device identifier": "device id",
+    "information": "data",
+    "ip address": "IP address",
+    "language settings": "language preference",
+    "personal information": "personal data",
+    "software bugs and errors": "crash logs",
+    "user identifier": "user id",
+    "user messages": "chat logs",
+    "user-provided content": "other data",
+    "your information": "personal data"
+   },
+   "parents": {
+    "advertising id": [
+     "device id"
+    ],
+    "app version": [
+     "device details"
+    ],
+    "approximate location": [
+     "data"
+    ],
+    "bank account number": [
+     "personal data"
+    ],
+    "biometric data": [
+     "personal data"
+    ],
+    "browser type": [
+     "device details",
+     "technical information"
+    ],
+    "chat logs": [
+     "other data"
+    ],
+    "email address": [
+     "contact details"
+    ],
+    "name": [
+     "contact details"
+    ],
+    "content viewed or interacted with": [
+     "usage data"
+    ],
+    "crash logs": [
+     "technical information"
+    ],
+    "credit card number": [
+     "purchase details"
+    ],
+    "currency": [
+     "purchase details"
+    ],
+    "data of visitors to our Fanpage": [
+     "data"
+    ],
+    "device details": [
+     "technical information"
+    ],
+    "device id": [
+     "technical information"
+    ],
+    "device model": [
+     "device details",
+     "hardware specification"
+    ],
+    "device performance": [
+     "device details"
+    ],
+    "device-fingerprint": [
+     "technical information"
+    ],
+    "game progress": [
+     "usage data"
+    ],
+    "genetic data": [
+     "personal data"
+    ],
+    "hardware specification": [
+     "device details"
+    ],
+    "health information": [
+     "personal data"
+    ],
+    "http headers": [
+     "technical information"
+    ],
+    "in-app purchase information": [
+     "purchase details"
+    ],
+    "in-game events": [
+     "usage data"
+    ],
+    "insights": [
+     "usage data"
+    ],
+    "interaction with in-game advertisements": [
+     "ad engagement data"
+    ],
+    "interaction with the Services": [
+     "usage data"
+    ],
+    "IP address": [
+     "device details",
+     "technical information"
+    ],
+    "language preference": [
+     "device details"
+    ],
+    "locale": [
+     "device details"
+    ],
+    "logins": [
+     "usage data"
+    ],
+    "operating system": [
+     "device details"
+    ],
+    "opt-out choice": [
+     "privacy preferences"
+    ],
+    "passwords": [
+     "account information"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "personal information printed on paper": [
+     "personal data"
+    ],
+    "platform": [
+     "device details"
+    ],
+    "political opinions": [
+     "personal data"
+    ],
+    "precise location": [
+     "personal data"
+    ],
+    "profile picture": [
+     "profile data"
+    ],
+    "purchase date and time": [
+     "purchase details"
+    ],
+    "purchased items": [
+     "purchase details"
+    ],
+    "push notification token": [
+     "device id"
+    ],
+    "racial or ethnic origin": [
+     "personal data"
+    ],
+    "religious or philosophical beliefs": [
+     "personal data"
+    ],
+    "screen size": [
+     "device details",
+     "hardware specification"
+    ],
+    "session duration": [
+     "usage data"
+    ],
+    "sexual orientation": [
+     "personal data"
+    ],
+    "social network contacts": [
+     "contact details"
+    ],
+    "support requests": [
+     "other data"
+    ],
+    "survey response": [
+     "other data"
+    ],
+    "third party identifier": [
+     "user id"
+    ],
+    "time zone": [
+     "device details"
+    ],
+    "timestamp": [
+     "usage data"
+    ],
+    "trade union membership": [
+     "personal data"
+    ],
+    "transaction identifier": [
+     "purchase details"
+    ],
+    "user interaction": [
+     "usage data"
+    ],
+    "user token of the relevant tool": [
+     "user id"
+    ],
+    "username": [
+     "account information",
+     "profile data"
+    ],
+    "ad engagement data": [
+     "usage data"
+    ],
+    "ad performance data": [
+     "usage data"
+    ],
+    "actions taken": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {}
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "children": [
+     "user"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third party": "our partners"
+   },
+   "parents": {
+    "Meta Platforms Ireland Limited": [
+     "our partners"
+    ],
+    "advertising network": [
+     "our partners"
+    ],
+    "third party analytics provider": [
+     "our partners"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "fraud-prevention": "fraud detection and prevention",
+    "legal-compliance": "legal compliance",
+    "services": "Services"
+   },
+   "parents": {
+    "Services-related communications": [
+     "communication"
+    ],
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "service-improvement": [
+     "service provision"
+    ],
+    "service-operation": [
+     "service operation"
+    ],
+    "user experience enhancement": [
+     "service-improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2989,
+  "completion_tokens": 1156,
+  "thinking_tokens": 0,
+  "seconds": 13.800583839416504,
+  "failures": 0
+ },
+ "seconds": 13.9
+}

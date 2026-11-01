@@ -1,0 +1,273 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact details": "contact data",
+    "device information": "device data",
+    "financial information": "financial data",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "precise location": "precise geolocation",
+    "sensitive personal data": "sensitive data",
+    "sensitive personal information": "sensitive data",
+    "usage data": "online activity data"
+   },
+   "parents": {
+    "account balance": [
+     "financial data"
+    ],
+    "account number": [
+     "financial data"
+    ],
+    "account transaction details": [
+     "transaction details"
+    ],
+    "account transaction history": [
+     "account transaction details"
+    ],
+    "advertising id": [
+     "device data"
+    ],
+    "bank account details": [
+     "financial data"
+    ],
+    "billing address": [
+     "contact data"
+    ],
+    "biographical details": [
+     "personal data"
+    ],
+    "browsing behavior": [
+     "online activity data"
+    ],
+    "chat content": [
+     "communications data"
+    ],
+    "citizenship": [
+     "citizenship or immigration status"
+    ],
+    "citizenship or immigration status": [
+     "government-issued identifiers"
+    ],
+    "credit card number": [
+     "payment card number"
+    ],
+    "credit history": [
+     "financial data"
+    ],
+    "display name": [
+     "name"
+    ],
+    "email address": [
+     "contact data"
+    ],
+    "first name": [
+     "name"
+    ],
+    "income": [
+     "financial data"
+    ],
+    "ip address": [
+     "device data"
+    ],
+    "national identification number": [
+     "government-issued identifiers"
+    ],
+    "net worth": [
+     "financial data"
+    ],
+    "password": [
+     "sensitive data"
+    ],
+    "payment card number": [
+     "financial data"
+    ],
+    "phone number": [
+     "contact data"
+    ],
+    "precise geolocation": [
+     "geographic information",
+     "geographic location"
+    ],
+    "public tip profile": [
+     "public profile"
+    ],
+    "social security number": [
+     "national identification number"
+    ],
+    "state or local identification number": [
+     "government-issued identifiers"
+    ],
+    "transfer amount": [
+     "transaction details"
+    ],
+    "user interactions": [
+     "online activity data"
+    ],
+    "webpages visited": [
+     "browsing behavior"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "service providers": "service provider",
+    "third party": "non-affiliates"
+   },
+   "parents": {
+    "advertising network": [
+     "advertising partners"
+    ],
+    "payment processor": [
+     "service provider"
+    ],
+    "recipient Acorns account holder": [
+     "other users"
+    ],
+    "advertising partners": [
+     "non-affiliates"
+    ],
+    "affiliate brand partner": [
+     "non-affiliates"
+    ],
+    "business transferees": [
+     "non-affiliates"
+    ],
+    "financial company partners": [
+     "non-affiliates"
+    ],
+    "professional advisors": [
+     "non-affiliates"
+    ],
+    "service provider": [
+     "non-affiliates"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "commercial partners": [
+     "the sources\n... described above in the Privacy Policy",
+     "third party"
+    ],
+    "data provider": [
+     "the sources\n... described above in the Privacy Policy",
+     "third party"
+    ],
+    "financial institution": [
+     "the sources\n... described above in the Privacy Policy",
+     "third party"
+    ],
+    "gift contributor": [
+     "the sources\n... described above in the Privacy Policy",
+     "third party"
+    ],
+    "identity provider": [
+     "the sources\n... described above in the Privacy Policy",
+     "third party"
+    ],
+    "other users": [
+     "the sources\n... described above in the Privacy Policy"
+    ],
+    "publicly available sources": [
+     "the sources\n... described above in the Privacy Policy"
+    ],
+    "third party": [
+     "the sources\n... described above in the Privacy Policy"
+    ],
+    "user": [
+     "the sources\n... described above in the Privacy Policy"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "third-party advertising partner": "advertising partner"
+   },
+   "parents": {
+    "Google Analytics": [
+     "Google"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-management": "account management",
+    "service-provision": "service provision"
+   },
+   "parents": {
+    "To verify your identity": [
+     "legal compliance",
+     "security"
+    ],
+    "access control": [
+     "account management"
+    ],
+    "account management": [
+     "service provision"
+    ],
+    "advertising": [
+     "marketing"
+    ],
+    "ai training": [
+     "training"
+    ],
+    "communication": [
+     "service provision"
+    ],
+    "customer support": [
+     "service provision"
+    ],
+    "fulfillment": [
+     "service provision"
+    ],
+    "payment processing": [
+     "service provision"
+    ],
+    "personalization": [
+     "user experience enhancement"
+    ],
+    "promotional program operation": [
+     "marketing"
+    ],
+    "service improvement": [
+     "service quality"
+    ],
+    "service-operation": [
+     "service provision"
+    ],
+    "social or community features": [
+     "service provision"
+    ],
+    "troubleshooting": [
+     "customer support",
+     "service improvement"
+    ],
+    "user experience enhancement": [
+     "service improvement"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3510,
+  "completion_tokens": 1330,
+  "thinking_tokens": 0,
+  "seconds": 11.912053346633911,
+  "failures": 0
+ },
+ "seconds": 12.0
+}

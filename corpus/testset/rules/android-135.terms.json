@@ -1,0 +1,122 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device details",
+    "location data": "location",
+    "personal information": "personal data",
+    "personally identifiable information": "personal data",
+    "user interactions": "interactions"
+   },
+   "parents": {
+    "advertising id": [
+     "device details",
+     "device id"
+    ],
+    "instance id": [
+     "device id"
+    ],
+    "device id": [
+     "device details"
+    ],
+    "device status": [
+     "device details"
+    ],
+    "device type": [
+     "device details"
+    ],
+    "user agent": [
+     "device details"
+    ],
+    "email address": [
+     "identifying information"
+    ],
+    "name": [
+     "identifying information"
+    ],
+    "phone number": [
+     "identifying information"
+    ],
+    "ip address": [
+     "identifying information"
+    ],
+    "identifying information": [
+     "personal data"
+    ],
+    "browsing behavior": [
+     "usage data"
+    ],
+    "interactions": [
+     "usage data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "Firebase Hosting": [
+     "third party"
+    ],
+    "Google Analytics for Firebase": [
+     "third party"
+    ],
+    "advertiser": [
+     "third party"
+    ],
+    "advertising network": [
+     "third party"
+    ],
+    "linked websites": [
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {}
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Crashlytics": [
+     "third party"
+    ],
+    "Firebase Hosting": [
+     "third party"
+    ],
+    "Firebase Remote Config": [
+     "third party"
+    ],
+    "Google AdSense": [
+     "third party"
+    ],
+    "Google Analytics for Firebase": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "personalization": "personalisation"
+   },
+   "parents": {
+    "billing": [
+     "advertising"
+    ],
+    "service operation": [
+     "service provision"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 4,
+  "cached": 0,
+  "prompt_tokens": 1295,
+  "completion_tokens": 433,
+  "thinking_tokens": 0,
+  "seconds": 6.536127805709839,
+  "failures": 0
+ },
+ "seconds": 6.6
+}

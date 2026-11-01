@@ -1,0 +1,178 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "device information": "device data",
+    "email_address": "email address",
+    "identifiers": "identifier",
+    "personal_data": "personal data",
+    "sensitive personal information": "sensitive personal data"
+   },
+   "parents": {
+    "Do Not Track preferences": [
+     "user preferences"
+    ],
+    "IP address": [
+     "identifier"
+    ],
+    "advertising identifier": [
+     "identifier"
+    ],
+    "browsing history": [
+     "device activity"
+    ],
+    "coarse geolocation": [
+     "location"
+    ],
+    "complaint details": [
+     "complaint data"
+    ],
+    "cookies": [
+     "tracking technologies"
+    ],
+    "email address": [
+     "contact information",
+     "identifier"
+    ],
+    "health_data": [
+     "sensitive personal data"
+    ],
+    "name": [
+     "identifier"
+    ],
+    "online personal data": [
+     "personal data"
+    ],
+    "phone number": [
+     "contact information",
+     "identifier"
+    ],
+    "postal address": [
+     "contact information",
+     "identifier"
+    ],
+    "purchase history": [
+     "commercial information"
+    ],
+    "search history": [
+     "device activity"
+    ],
+    "sensitive personal data": [
+     "personal data"
+    ],
+    "signed declaration": [
+     "information to locate you in records or verify identity"
+    ],
+    "personal data": [
+     "data",
+     "information"
+    ],
+    "device data": [
+     "data",
+     "information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliates": "affiliate",
+    "commercial partner": "business partner",
+    "service providers": "service provider"
+   },
+   "parents": {
+    "affiliate": [
+     "Zendesk Group"
+    ],
+    "advertising partner": [
+     "third party"
+    ],
+    "agent": [
+     "third party"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "third-party service providers": [
+     "service provider",
+     "third party"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "friends": "friend"
+   },
+   "parents": {
+    "public sources": [
+     "third-party sources and public sources"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "legal_compliance": "legal compliance"
+   },
+   "parents": {
+    "analytics": [
+     "for the purposes described in this Notice",
+     "internal_operations"
+    ],
+    "communication": [
+     "for the purposes described in this Notice",
+     "service_provision"
+    ],
+    "fraud prevention and security": [
+     "for the purposes described in this Notice",
+     "legal compliance"
+    ],
+    "service-related": [
+     "for the purposes described in this Notice",
+     "service_provision"
+    ],
+    "services": [
+     "for the purposes described in this Notice",
+     "service_provision"
+    ],
+    "corporate_event": [
+     "for the purposes described in this Notice"
+    ],
+    "internal_operations": [
+     "for the purposes described in this Notice"
+    ],
+    "legal compliance": [
+     "for the purposes described in this Notice"
+    ],
+    "marketing": [
+     "for the purposes described in this Notice"
+    ],
+    "profiling": [
+     "for the purposes described in this Notice"
+    ],
+    "service_provision": [
+     "for the purposes described in this Notice"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2769,
+  "completion_tokens": 883,
+  "thinking_tokens": 0,
+  "seconds": 11.893437385559082,
+  "failures": 0
+ },
+ "seconds": 12.0
+}

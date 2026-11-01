@@ -1,0 +1,396 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "Internet Protocol (“IP”) address": "IP addresses",
+    "Internet or other electronic network activity information (including cookies and mobile device IDs, and related browsing information)": "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements",
+    "Online Activity": "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements",
+    "Transactional information such as information you provide to us via customer care calls, emails, SMS and chats": "This information",
+    "approximate geolocation data": "Approximate Geolocation Data",
+    "commercial information, including records of personal property, products or services purchased, obtained, or considered, and other purchasing or consuming histories or tendencies": "Commercial Information",
+    "email address specified in your account": "email address",
+    "email address(es)": "email address",
+    "inferences drawn from any of the information identified above to create a profile about you reflecting your preferences, characteristics, predispositions, behavior, and attitudes": "Inferences",
+    "your IP address": "IP addresses",
+    "your personal information": "personal information",
+    "your sensitive ... personal information": "sensitive personal information"
+   },
+   "parents": {
+    "Approximate Geolocation Data": [
+     "Location information (approximate geolocation)"
+    ],
+    "Commercial information (including products and services purchased, products and services you are considering purchasing that are placed in your virtual shopping cart, information about products that you have returned, product orders you have cancelled, and product reviews)": [
+     "Commercial Information"
+    ],
+    "purchase/return/exchange data": [
+     "Commercial Information"
+    ],
+    "HIPAA-covered data": [
+     "personal information"
+    ],
+    "IP addresses": [
+     "Identifiers",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "cookies": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "mobile device identifiers": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers",
+     "other device identifiers"
+    ],
+    "other device identifiers": [
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "account login information": [
+     "sensitive personal information"
+    ],
+    "bank account": [
+     "other financial information",
+     "payment information (e.g., credit card number, debit card number, bank account and other financial information)",
+     "signature, pet insurance policy number, credit card number, debit card number, and other financial information such as bank account numbers, pet medical information, and pet health insurance information"
+    ],
+    "billing address": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "shipping address": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "street address": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "city": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "country": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "zip code": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information"
+    ],
+    "email address": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information",
+     "Identifiers",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "name": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information",
+     "Identifiers",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "first and last name": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information",
+     "Identifiers",
+     "name"
+    ],
+    "telephone number(s)": [
+     "Contact information and other information about you, your household and your pet (including your name, email address, physical address, shipping address, telephone number) and other demographic information",
+     "Identifiers",
+     "identifiers such as a real name, alias, postal address, unique personal identifier (such as a device identifier; cookies, beacons, pixel tags, mobile ad identifiers and similar technology; customer number; telephone number and other forms of persistent or probabilistic identifiers), pet name and other identifying information (including pet health and health condition data), online identifier, IP address, email address, account name, and other similar identifiers"
+    ],
+    "credit card number": [
+     "payment card information",
+     "payment information (e.g., credit card number, debit card number, bank account and other financial information)",
+     "signature, pet insurance policy number, credit card number, debit card number, and other financial information such as bank account numbers, pet medical information, and pet health insurance information"
+    ],
+    "debit card number": [
+     "payment card information",
+     "payment information (e.g., credit card number, debit card number, bank account and other financial information)",
+     "signature, pet insurance policy number, credit card number, debit card number, and other financial information such as bank account numbers, pet medical information, and pet health insurance information"
+    ],
+    "payment card information": [
+     "payment information (e.g., credit card number, debit card number, bank account and other financial information)"
+    ],
+    "payment information (e.g., credit card number, debit card number, bank account and other financial information)": [
+     "sensitive personal information"
+    ],
+    "biometric personal information": [
+     "personal information"
+    ],
+    "sensitive personal information": [
+     "personal information"
+    ],
+    "personal information of minors under 16 years of age": [
+     "personal information"
+    ],
+    "inaccurate personal information": [
+     "personal information"
+    ],
+    "inaccurate personal information we hold about you": [
+     "personal information"
+    ],
+    "certain personal information we collected from you": [
+     "personal information"
+    ],
+    "specific pet health information": [
+     "pet information"
+    ],
+    "diseases or conditions": [
+     "specific pet health information"
+    ],
+    "prescriptions": [
+     "pet information"
+    ],
+    "treatments": [
+     "pet information"
+    ],
+    "Your pet information such as information you provided to us while filling a pharmacy prescription, pet conditions, pet health information, insurance information and other such information": [
+     "pet information"
+    ],
+    "information about your pet(s), including name, breed, gender, birthdate, size, weight, prescriptions, veterinary and pet health information (e.g., specific disease or condition information, diagnostic and therapeutic information, and information about recommended prescriptions, treatments, special diets, or exercise regimens), pet insurance information, and photos": [
+     "pet information"
+    ],
+    "your and/or your pet’s information (including information related to pet health condition, diagnosis, and treatment)": [
+     "your and your pet’s information"
+    ],
+    "your pet profile": [
+     "pet information"
+    ],
+    "browsing actions": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "usage patterns": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "users’ interactions with our Sites and Apps, including users’ clicks, mouse movements and scrolls": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "specific pages accessed": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "the date, time and length of your stay on our Sites and Apps": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "the referring website": [
+     "Internet and other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with websites, applications or advertisements"
+    ],
+    "transcripts of chat communications": [
+     "This information",
+     "your chats, phone/video calls and other interactions"
+    ],
+    "text messaging originator opt-in data": [
+     "Data obtained through the Pet RX SMS messaging program"
+    ],
+    "your password": [
+     "account login information"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "one or more third parties": "any third parties",
+    "third parties": "any third parties"
+   },
+   "parents": {
+    "a successor": [
+     "any third parties"
+    ],
+    "a third party that purchases all or a portion of our assets arising from such circumstances": [
+     "any third parties"
+    ],
+    "categories of third parties listed in the Information We Disclose section of our Privacy Policy": [
+     "any third parties"
+    ],
+    "certain third parties (such as online advertising services)": [
+     "any third parties"
+    ],
+    "other third parties": [
+     "any third parties"
+    ],
+    "our business partners (such as veterinarians, pet insurers, and animal shelters)": [
+     "any third parties"
+    ],
+    "our social media, data analytics, online advertising services, advertising networks and similar third parties": [
+     "any third parties"
+    ],
+    "payment processing providers": [
+     "any third parties"
+    ],
+    "pharmaceutical manufacturers": [
+     "any third parties"
+    ],
+    "social media networks": [
+     "any third parties"
+    ],
+    "specific third parties": [
+     "any third parties"
+    ],
+    "subsidiaries": [
+     "our affiliates"
+    ],
+    "third party online advertising and data analytics services providers": [
+     "any third parties"
+    ],
+    "veterinary care providers": [
+     "any third parties"
+    ],
+    "your veterinarian": [
+     "any third parties",
+     "our business partners (such as veterinarians, pet insurers, and animal shelters)",
+     "veterinary care providers"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "data brokers": "Data brokers",
+    "third-party ad technology companies": "some third-party ad technology companies"
+   },
+   "parents": {
+    "veterinarians": [
+     "Our business partners, such as veterinarians, pharmacies, groomers, insurance companies, and animal shelters"
+    ],
+    "your veterinarian": [
+     "Our business partners, such as veterinarians, pharmacies, groomers, insurance companies, and animal shelters",
+     "veterinarians"
+    ],
+    "insurance companies": [
+     "Our business partners, such as veterinarians, pharmacies, groomers, insurance companies, and animal shelters"
+    ],
+    "other pet service providers (such as groomers)": [
+     "Our business partners, such as veterinarians, pharmacies, groomers, insurance companies, and animal shelters"
+    ],
+    "shelters": [
+     "Our business partners, such as veterinarians, pharmacies, groomers, insurance companies, and animal shelters"
+    ],
+    "payment processors": [
+     "Service providers and contractors"
+    ],
+    "shipping carriers": [
+     "Service providers and contractors"
+    ],
+    "some third-party ad technology companies": [
+     "Online advertising services and advertising networks"
+    ],
+    "children under the age of 18": [
+     "you",
+     "you (or your pet)"
+    ],
+    "you": [
+     "you (or your pet)"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "first party": "We",
+    "our": "We",
+    "the clinic and/or pharmacy": "The pharmacy",
+    "third-party ad technology providers": "third-party ad technology companies",
+    "we": "We"
+   },
+   "parents": {
+    "The service providers that administer these services": [
+     "Our service providers, contractors and processors"
+    ],
+    "a third-party session replay service": [
+     "Our service providers, contractors and processors"
+    ],
+    "third-party ad technology companies working on their behalf": [
+     "third-party ad technology companies"
+    ],
+    "our pharmacists": [
+     "Pharmacists subject to the Health Insurance Portability and Accountability Act (“HIPAA”)",
+     "We"
+    ],
+    "our Sites and Apps": [
+     "We"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "for cross-context behavioral advertising purposes": "cross-context behavioral advertising purposes",
+    "to achieve the purposes described in this Privacy Policy, or any other notice provided at the time of collection": "for the purposes described in our Chewy Privacy Policy",
+    "to analyze the way you use our Sites and Apps and understand your interests, including by combining information we receive from you and your devices with other information about you that we receive from other sources": "to analyze the way you use our Sites and Apps and understand your interests",
+    "to create and maintain your Chewy account or maintain your membership in one of our programs such as Chewy+, including, where applicable, by updating your pet profile with information provided by your veterinarian about your pet": "to create and maintain your Chewy account or maintain your membership in one of our programs such as Chewy+"
+   },
+   "parents": {
+    "Auditing related to counting ad impressions to unique visitors, verifying positioning and quality of ad impressions, and auditing compliance": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "Debugging to identify and repair errors that impair existing intended functionality": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "Helping to ensure security and integrity": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "Performing services, including maintaining or servicing accounts, providing customer care, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing advertising or marketing services, providing analytics services, or providing similar services, receiving services or products, making payments or other similar activities": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "Short-term, transient use, including, but not limited to, non-personalized advertising shown as part of your same interaction with us": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "Undertaking internal research for technological development and demonstration": [
+     "permitted purposes under the CCPA (as described in Section 7027(m) of the CCPA regulations)"
+    ],
+    "cross-context behavioral advertising purposes": [
+     "targeted advertising"
+    ],
+    "targeted advertising": [
+     "marketing"
+    ],
+    "for marketing purposes": [
+     "for marketing and analytics purposes"
+    ],
+    "analytics": [
+     "for marketing and analytics purposes"
+    ],
+    "Sending and improving marketing communications": [
+     "for marketing purposes"
+    ],
+    "in connection with our marketing efforts to promote our Services": [
+     "for marketing purposes"
+    ],
+    "to promote our products and Services": [
+     "for marketing purposes"
+    ],
+    "for their marketing purposes": [
+     "for marketing purposes"
+    ],
+    "providing you with customer and technical support": [
+     "Performing services, including maintaining or servicing accounts, providing customer care, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing advertising or marketing services, providing analytics services, or providing similar services, receiving services or products, making payments or other similar activities"
+    ],
+    "to facilitate transactions and payment, including as needed to meet regulatory obligations": [
+     "Performing services, including maintaining or servicing accounts, providing customer care, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing advertising or marketing services, providing analytics services, or providing similar services, receiving services or products, making payments or other similar activities"
+    ],
+    "to evaluate the use of our Services": [
+     "analytics"
+    ],
+    "to verify your identity": [
+     "Helping to ensure security and integrity"
+    ],
+    "authenticate your account": [
+     "Helping to ensure security and integrity"
+    ],
+    "to make improvements to our products and Services": [
+     "to operate, evaluate, develop, manage and improve our business (including operating, administering, analyzing, and improving our Services; developing new products and services; managing and evaluating the effectiveness of our communications; conducting market research, aggregating or anonymizing data, and performing data analytics; facilitating the provision of services to Chewy; and performing accounting, auditing, and other internal functions)"
+    ],
+    "for our business purposes": [
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy"
+    ],
+    "in order to conduct our business": [
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy"
+    ],
+    "for commercial purposes": [
+     "for business, operational, promotional, marketing or other purposes consistent with this Privacy Policy"
+    ],
+    "to provide Services to you or your pet, such as providing veterinary services, making treatment recommendations or treating your pets": [
+     "Performing services, including maintaining or servicing accounts, providing customer care, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing advertising or marketing services, providing analytics services, or providing similar services, receiving services or products, making payments or other similar activities"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 10896,
+  "completion_tokens": 5423,
+  "thinking_tokens": 0,
+  "seconds": 56.28160858154297,
+  "failures": 0
+ },
+ "seconds": 56.4
+}

@@ -1,0 +1,382 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "contact information": "contact info",
+    "email_address": "email address",
+    "ip address": "IP address",
+    "ip_address": "IP address",
+    "personal data": "Personal Information",
+    "personal information": "Personal Information",
+    "personal_information": "Personal Information",
+    "postal_address": "postal address",
+    "sensitive personal information": "SPI",
+    "server logs": "log files"
+   },
+   "parents": {
+    "IP address": [
+     "device identifiers",
+     "identifiers",
+     "online_identifier"
+    ],
+    "app instance IDs": [
+     "device identifiers",
+     "identifiers",
+     "online_identifier"
+    ],
+    "ad identifier": [
+     "device identifiers",
+     "identifiers",
+     "online_identifier"
+    ],
+    "cookies": [
+     "technologies described in this section"
+    ],
+    "web beacons": [
+     "technologies described in this section"
+    ],
+    "UID2 tokens": [
+     "identifiers",
+     "online_identifier"
+    ],
+    "credit card number": [
+     "payment card information",
+     "payment data"
+    ],
+    "payment card information": [
+     "payment data"
+    ],
+    "payment data": [
+     "financial and transaction data"
+    ],
+    "purchase history": [
+     "financial and transaction data"
+    ],
+    "email address": [
+     "contact info"
+    ],
+    "phone number": [
+     "contact info"
+    ],
+    "postal address": [
+     "contact info"
+    ],
+    "name": [
+     "identifiers"
+    ],
+    "account_name": [
+     "identifiers"
+    ],
+    "SSN": [
+     "SPI",
+     "identifiers"
+    ],
+    "racial or ethnic origin": [
+     "SPI"
+    ],
+    "nationality or immigration status information": [
+     "SPI"
+    ],
+    "SPI": [
+     "Personal Information"
+    ],
+    "identifiers": [
+     "Personal Information"
+    ],
+    "demographic data": [
+     "Personal Information"
+    ],
+    "age": [
+     "demographic data"
+    ],
+    "age range": [
+     "demographic data"
+    ],
+    "gender": [
+     "demographic data"
+    ],
+    "job title": [
+     "employment information"
+    ],
+    "employer name": [
+     "employment information"
+    ],
+    "industry": [
+     "employment information"
+    ],
+    "employment information": [
+     "Personal Information"
+    ],
+    "education history": [
+     "education information"
+    ],
+    "education information": [
+     "Personal Information"
+    ],
+    "financial and transaction data": [
+     "Personal Information"
+    ],
+    "network activity information": [
+     "Personal Information"
+    ],
+    "browsing history": [
+     "network activity information"
+    ],
+    "search history": [
+     "network activity information"
+    ],
+    "interaction data": [
+     "network activity information"
+    ],
+    "ad interaction data": [
+     "interaction data"
+    ],
+    "website usage data": [
+     "usage data"
+    ],
+    "clickstream data": [
+     "network activity information"
+    ],
+    "clicks": [
+     "interaction data",
+     "network activity information"
+    ],
+    "approximate location": [
+     "geographic data"
+    ],
+    "geographic data": [
+     "Personal Information"
+    ],
+    "commercial preferences": [
+     "preferences"
+    ],
+    "privacy and marketing preferences": [
+     "preferences"
+    ],
+    "subscription preferences": [
+     "preferences"
+    ],
+    "server preferences": [
+     "user preferences and choices"
+    ],
+    "preferences": [
+     "user preferences and choices"
+    ],
+    "inferences": [
+     "Personal Information"
+    ],
+    "profile photo": [
+     "photos"
+    ],
+    "photos": [
+     "Personal Information"
+    ],
+    "videos": [
+     "Personal Information"
+    ],
+    "game statistics": [
+     "usage data"
+    ],
+    "proof of agent authorization": [
+     "verification_data"
+    ],
+    "identifying information": [
+     "Personal Information",
+     "verification_data"
+    ],
+    "social media profile link": [
+     "social media info"
+    ],
+    "social media content": [
+     "social media info"
+    ],
+    "opt-out preference signals": [
+     "user choices"
+    ],
+    "DNT signals": [
+     "user choices"
+    ],
+    "Google Analytics data": [
+     "tracking technologies data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {
+    "affiliate": "Forbes affiliates",
+    "public authorities": "Authority",
+    "service providers": "service provider",
+    "sponsors": "sponsor",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Authority": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "agent third party": [
+     "third parties"
+    ],
+    "business and advertising partners": [
+     "business partner"
+    ],
+    "event partners": [
+     "business partner"
+    ],
+    "event sponsors": [
+     "sponsor"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "sponsor": [
+     "third parties"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {
+    "partners": "business partner"
+   },
+   "parents": {
+    "Switzerland": [
+     "European Union, the UK, Gibraltar, and Switzerland"
+    ],
+    "the European Union": [
+     "European Union, the UK, Gibraltar, and Switzerland"
+    ],
+    "the United Kingdom": [
+     "European Union, the UK, Gibraltar, and Switzerland"
+    ],
+    "children": [
+     "user"
+    ],
+    "event registrants": [
+     "user"
+    ],
+    "business partner": [
+     "third party"
+    ],
+    "public sources": [
+     "third party"
+    ],
+    "social media platforms": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "advertising partners": "advertising partner",
+    "first party": "Forbes",
+    "third party": "third parties"
+   },
+   "parents": {
+    "Forbes Advisor": [
+     "third parties"
+    ],
+    "ForbesPredict": [
+     "third parties"
+    ],
+    "advertising partner": [
+     "third parties"
+    ],
+    "agent third party": [
+     "third parties"
+    ],
+    "law enforcement": [
+     "third parties"
+    ],
+    "service provider": [
+     "third parties"
+    ],
+    "social network": [
+     "third parties"
+    ],
+    "third-party vendors": [
+     "third parties"
+    ],
+    "Google": [
+     "third parties"
+    ],
+    "The Trade Desk": [
+     "third parties"
+    ],
+    "Apple": [
+     "third parties"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "commercial purposes": "commercial",
+    "commercial_activity": "commercial purpose",
+    "compliance with legal obligation": "compliance",
+    "customer_support": "customer support",
+    "legal compliance": "compliance",
+    "legal_compliance": "compliance",
+    "order_fulfillment": "order fulfillment",
+    "service-provision": "service provision",
+    "service_optimization": "service optimization",
+    "service_provision": "service provision",
+    "troubleshooting": "debugging",
+    "user account management": "account management",
+    "user verification": "identity_verification",
+    "verification": "identity_verification"
+   },
+   "parents": {
+    "targeted-advertising": [
+     "advertising"
+    ],
+    "ad_serving": [
+     "advertising"
+    ],
+    "internal analysis of traffic patterns": [
+     "analytics"
+    ],
+    "contact user": [
+     "communication"
+    ],
+    "fraud_prevention": [
+     "fraud_prevention_and_security"
+    ],
+    "security": [
+     "fraud_prevention_and_security"
+    ],
+    "opt-out management": [
+     "consent management"
+    ],
+    "order fulfillment": [
+     "fulfill, process and manage transactions, services, and subscriptions"
+    ],
+    "service delivery": [
+     "service provision"
+    ],
+    "service improvement": [
+     "service operation and improvement"
+    ],
+    "service operation": [
+     "service operation and improvement"
+    ],
+    "debugging": [
+     "service optimization"
+    ],
+    "service performance": [
+     "service operation"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 4236,
+  "completion_tokens": 1616,
+  "thinking_tokens": 0,
+  "seconds": 14.196322679519653,
+  "failures": 0
+ },
+ "seconds": 14.4
+}

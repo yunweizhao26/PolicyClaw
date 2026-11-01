@@ -1,0 +1,250 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "account details": "Account data",
+    "account information": "Account data",
+    "contact information": "Contact data",
+    "cookies": "Cookies and tracking information",
+    "identity data": "Identity data",
+    "information": "data",
+    "payment information": "Payment data",
+    "personal information": "personal data",
+    "preferences": "Preferences data",
+    "sensitive personal information": "sensitive data",
+    "transaction data": "Transaction data",
+    "usage data": "Usage data"
+   },
+   "parents": {
+    "bank account information": [
+     "Payment data",
+     "financial information"
+    ],
+    "credit card number": [
+     "Payment data",
+     "financial information"
+    ],
+    "email address": [
+     "Contact data",
+     "identifiers"
+    ],
+    "first name": [
+     "Identity data",
+     "identifiers"
+    ],
+    "last name": [
+     "Identity data",
+     "identifiers"
+    ],
+    "phone number": [
+     "Contact data"
+    ],
+    "postal address": [
+     "Contact data"
+    ],
+    "date of birth": [
+     "Identity data"
+    ],
+    "gender": [
+     "Identity data"
+    ],
+    "job title": [
+     "Identity data"
+    ],
+    "government-issued identification number": [
+     "Identity data",
+     "identifiers"
+    ],
+    "purchases": [
+     "Transaction data",
+     "commercial information"
+    ],
+    "phone call logs": [
+     "Call and/or communication recordings or records"
+    ],
+    "chat logs": [
+     "Call and/or communication recordings or records"
+    ],
+    "Cookies and tracking information": [
+     "tracking data"
+    ],
+    "dietary preferences": [
+     "Preferences data"
+    ],
+    "interests": [
+     "Preferences data"
+    ],
+    "browser plugin data": [
+     "device data"
+    ],
+    "browser type": [
+     "device data"
+    ],
+    "operating system": [
+     "device data"
+    ],
+    "device identifier": [
+     "device data",
+     "identifiers",
+     "unique identifier"
+    ],
+    "ip address": [
+     "device data",
+     "identifiers"
+    ],
+    "user account credentials": [
+     "Account data",
+     "identifiers"
+    ],
+    "username": [
+     "identifiers",
+     "user account credentials"
+    ],
+    "password": [
+     "authentication credential",
+     "user account credentials"
+    ],
+    "authentication credential": [
+     "user account credentials"
+    ],
+    "browsing behavior": [
+     "Usage data"
+    ],
+    "browsing history": [
+     "Usage data"
+    ],
+    "browsing and interaction data": [
+     "Usage data"
+    ],
+    "date and time stamp": [
+     "Usage data"
+    ],
+    "survey response": [
+     "feedback"
+    ],
+    "sensitive data": [
+     "personal data"
+    ],
+    "Inferred data": [
+     "personal data"
+    ],
+    "profile": [
+     "Inferred data"
+    ],
+    "commercial information": [
+     "personal data"
+    ],
+    "Identity data": [
+     "personal data"
+    ],
+    "Contact data": [
+     "personal data"
+    ],
+    "Payment data": [
+     "personal data"
+    ],
+    "Transaction data": [
+     "personal data"
+    ],
+    "Usage data": [
+     "personal data"
+    ],
+    "Preferences data": [
+     "personal data"
+    ],
+    "Marketing and Communications data": [
+     "personal data"
+    ],
+    "identifiers": [
+     "personal data"
+    ],
+    "location": [
+     "personal data"
+    ],
+    "personal data": [
+     "data"
+    ],
+    "customer data": [
+     "data",
+     "personal data"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "online advertising providers": [
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "external auditors or professional advisors": [
+     "third party"
+    ],
+    "law enforcement agencies": [
+     "third party"
+    ],
+    "business partners": [
+     "third party"
+    ],
+    "Dell group companies": [
+     "another organization"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "minors under 16": [
+     "user"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {
+    "online advertising providers": "advertising companies"
+   },
+   "parents": {
+    "advertising companies": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "service_provision": "service provision",
+    "user authentication": "authentication"
+   },
+   "parents": {
+    "advertising": [
+     "marketing"
+    ],
+    "fraud_detection": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 2541,
+  "completion_tokens": 1326,
+  "thinking_tokens": 0,
+  "seconds": 14.976354122161865,
+  "failures": 0
+ },
+ "seconds": 15.1
+}

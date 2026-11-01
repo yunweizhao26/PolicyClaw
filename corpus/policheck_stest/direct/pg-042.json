@@ -1,0 +1,22 @@
+{
+ "policy": "pg-042",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "When you install our Application, we automatically collect your email address and phone number.",
+   "prohibit": "Registration with us is optional.",
+   "situation": "A user downloads and installs the application without registering.",
+   "reason": "The policy claims registration is optional, yet automatically collects personal identifiers (email address and phone number) immediately upon installation regardless of registration.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1625,
+  "completion_tokens": 119,
+  "thinking_tokens": 0,
+  "seconds": 1.9742944240570068,
+  "failures": 0
+ }
+}

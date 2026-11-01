@@ -1,0 +1,22 @@
+{
+ "policy": "pg-161",
+ "conflicts": [
+  {
+   "kind": "contradiction",
+   "permit": "The only situation we may get access to your PII is when you personally email us your feedback to provide us any bug report to increase performances of particular App.",
+   "prohibit": "we even don't have a Server to store such PII.",
+   "situation": "A user sends feedback or a bug report via email containing their name and email address.",
+   "reason": "The policy claims the company does not have a server to store PII, yet states it accesses and retains PII received via email.",
+   "confidence": "low"
+  }
+ ],
+ "usage": {
+  "calls": 1,
+  "cached": 0,
+  "prompt_tokens": 1064,
+  "completion_tokens": 151,
+  "thinking_tokens": 0,
+  "seconds": 2.107659101486206,
+  "failures": 0
+ }
+}

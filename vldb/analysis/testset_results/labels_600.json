@@ -1,0 +1,2215 @@
+{
+ "A_fidelity": {
+  "all": {
+   "rules": 1200,
+   "fidelity": {
+    "full": {
+     "count": 818,
+     "of": 1200,
+     "share": 0.6817,
+     "ci95": [
+      0.655,
+      0.7067
+     ]
+    },
+    "minor": {
+     "count": 235,
+     "of": 1200,
+     "share": 0.1958,
+     "ci95": [
+      0.1742,
+      0.2175
+     ]
+    },
+    "substantial": {
+     "count": 145,
+     "of": 1200,
+     "share": 0.1208,
+     "ci95": [
+      0.1025,
+      0.1383
+     ]
+    },
+    "source_ambiguous": {
+     "count": 2,
+     "of": 1200,
+     "share": 0.0017,
+     "ci95": [
+      0.0,
+      0.0042
+     ]
+    }
+   },
+   "substantial_by_polarity": {
+    "ALLOW": {
+     "count": 132,
+     "of": 1116,
+     "share": 0.1183,
+     "ci95": [
+      0.1006,
+      0.1368
+     ]
+    },
+    "DENY": {
+     "count": 13,
+     "of": 84,
+     "share": 0.1548,
+     "ci95": [
+      0.0833,
+      0.2346
+     ]
+    }
+   },
+   "error_types_share_of_all_rules": {
+    "actor_entity_extraction": {
+     "count": 24,
+     "of": 1200,
+     "share": 0.02,
+     "ci95": [
+      0.0125,
+      0.0275
+     ]
+    },
+    "allow_deny_polarity": {
+     "count": 1,
+     "of": 1200,
+     "share": 0.0008,
+     "ci95": [
+      0.0,
+      0.0025
+     ]
+    },
+    "condition_polarity": {
+     "count": 13,
+     "of": 1200,
+     "share": 0.0108,
+     "ci95": [
+      0.005,
+      0.0167
+     ]
+    },
+    "data_type_extraction": {
+     "count": 7,
+     "of": 1200,
+     "share": 0.0058,
+     "ci95": [
+      0.0017,
+      0.01
+     ]
+    },
+    "hallucinated_condition": {
+     "count": 59,
+     "of": 1200,
+     "share": 0.0492,
+     "ci95": [
+      0.0375,
+      0.0608
+     ]
+    },
+    "missing_condition": {
+     "count": 45,
+     "of": 1200,
+     "share": 0.0375,
+     "ci95": [
+      0.0275,
+      0.0483
+     ]
+    },
+    "none": {
+     "count": 0,
+     "of": 1200,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "operation_extraction": {
+     "count": 9,
+     "of": 1200,
+     "share": 0.0075,
+     "ci95": [
+      0.0033,
+      0.0125
+     ]
+    },
+    "other": {
+     "count": 15,
+     "of": 1200,
+     "share": 0.0125,
+     "ci95": [
+      0.0067,
+      0.0192
+     ]
+    },
+    "recipient_extraction": {
+     "count": 7,
+     "of": 1200,
+     "share": 0.0058,
+     "ci95": [
+      0.0017,
+      0.0108
+     ]
+    },
+    "referential_ambiguity": {
+     "count": 8,
+     "of": 1200,
+     "share": 0.0067,
+     "ci95": [
+      0.0025,
+      0.0117
+     ]
+    },
+    "segmentation_context_loss": {
+     "count": 7,
+     "of": 1200,
+     "share": 0.0058,
+     "ci95": [
+      0.0017,
+      0.0108
+     ]
+    },
+    "source_ambiguity_or_underspecification": {
+     "count": 0,
+     "of": 1200,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "error_types_by_polarity_share_of_polarity_rules": {
+    "ALLOW": {
+     "actor_entity_extraction": {
+      "count": 21,
+      "of": 1116,
+      "share": 0.0188,
+      "ci95": [
+       0.0117,
+       0.0267
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 1116,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 10,
+      "of": 1116,
+      "share": 0.009,
+      "ci95": [
+       0.0036,
+       0.0152
+      ]
+     },
+     "data_type_extraction": {
+      "count": 7,
+      "of": 1116,
+      "share": 0.0063,
+      "ci95": [
+       0.0018,
+       0.0115
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 58,
+      "of": 1116,
+      "share": 0.052,
+      "ci95": [
+       0.0397,
+       0.0647
+      ]
+     },
+     "missing_condition": {
+      "count": 38,
+      "of": 1116,
+      "share": 0.0341,
+      "ci95": [
+       0.0234,
+       0.0453
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 1116,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 8,
+      "of": 1116,
+      "share": 0.0072,
+      "ci95": [
+       0.0027,
+       0.0126
+      ]
+     },
+     "other": {
+      "count": 14,
+      "of": 1116,
+      "share": 0.0125,
+      "ci95": [
+       0.0064,
+       0.019
+      ]
+     },
+     "recipient_extraction": {
+      "count": 6,
+      "of": 1116,
+      "share": 0.0054,
+      "ci95": [
+       0.0018,
+       0.01
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 7,
+      "of": 1116,
+      "share": 0.0063,
+      "ci95": [
+       0.0027,
+       0.0109
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 7,
+      "of": 1116,
+      "share": 0.0063,
+      "ci95": [
+       0.0027,
+       0.0109
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 1116,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "DENY": {
+     "actor_entity_extraction": {
+      "count": 3,
+      "of": 84,
+      "share": 0.0357,
+      "ci95": [
+       0.0,
+       0.0778
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.037
+      ]
+     },
+     "condition_polarity": {
+      "count": 3,
+      "of": 84,
+      "share": 0.0357,
+      "ci95": [
+       0.0,
+       0.0795
+      ]
+     },
+     "data_type_extraction": {
+      "count": 0,
+      "of": 84,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.039
+      ]
+     },
+     "missing_condition": {
+      "count": 7,
+      "of": 84,
+      "share": 0.0833,
+      "ci95": [
+       0.0316,
+       0.1493
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 84,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.04
+      ]
+     },
+     "other": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.0405
+      ]
+     },
+     "recipient_extraction": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.0385
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 1,
+      "of": 84,
+      "share": 0.0119,
+      "ci95": [
+       0.0,
+       0.0405
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 0,
+      "of": 84,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 84,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "error_types_count_among_substantial": {
+    "hallucinated_condition": 59,
+    "missing_condition": 45,
+    "actor_entity_extraction": 24,
+    "other": 15,
+    "condition_polarity": 13,
+    "operation_extraction": 9,
+    "referential_ambiguity": 8,
+    "segmentation_context_loss": 7,
+    "data_type_extraction": 7,
+    "recipient_extraction": 7,
+    "allow_deny_polarity": 1
+   },
+   "error_types_count_among_substantial_by_polarity": {
+    "ALLOW": {
+     "hallucinated_condition": 58,
+     "missing_condition": 38,
+     "actor_entity_extraction": 21,
+     "other": 14,
+     "condition_polarity": 10,
+     "operation_extraction": 8,
+     "segmentation_context_loss": 7,
+     "data_type_extraction": 7,
+     "referential_ambiguity": 7,
+     "recipient_extraction": 6
+    },
+    "DENY": {
+     "missing_condition": 7,
+     "actor_entity_extraction": 3,
+     "condition_polarity": 3,
+     "operation_extraction": 1,
+     "other": 1,
+     "allow_deny_polarity": 1,
+     "recipient_extraction": 1,
+     "hallucinated_condition": 1,
+     "referential_ambiguity": 1
+    }
+   },
+   "substantial_by_fields_wrong": {
+    "condition fields only": 94,
+    "flow fields only": 32,
+    "flow and condition fields": 19
+   },
+   "substantial_involving_condition_field": {
+    "count": 113,
+    "of_substantial": 145,
+    "share": 0.7793
+   }
+  },
+  "web": {
+   "rules": 400,
+   "fidelity": {
+    "full": {
+     "count": 280,
+     "of": 400,
+     "share": 0.7,
+     "ci95": [
+      0.65,
+      0.7475
+     ]
+    },
+    "minor": {
+     "count": 75,
+     "of": 400,
+     "share": 0.1875,
+     "ci95": [
+      0.15,
+      0.2275
+     ]
+    },
+    "substantial": {
+     "count": 43,
+     "of": 400,
+     "share": 0.1075,
+     "ci95": [
+      0.08,
+      0.1375
+     ]
+    },
+    "source_ambiguous": {
+     "count": 2,
+     "of": 400,
+     "share": 0.005,
+     "ci95": [
+      0.0,
+      0.0125
+     ]
+    }
+   },
+   "substantial_by_polarity": {
+    "ALLOW": {
+     "count": 41,
+     "of": 382,
+     "share": 0.1073,
+     "ci95": [
+      0.0787,
+      0.1395
+     ]
+    },
+    "DENY": {
+     "count": 2,
+     "of": 18,
+     "share": 0.1111,
+     "ci95": [
+      0.0,
+      0.2778
+     ]
+    }
+   },
+   "error_types_share_of_all_rules": {
+    "actor_entity_extraction": {
+     "count": 8,
+     "of": 400,
+     "share": 0.02,
+     "ci95": [
+      0.0075,
+      0.035
+     ]
+    },
+    "allow_deny_polarity": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "condition_polarity": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.025
+     ]
+    },
+    "data_type_extraction": {
+     "count": 3,
+     "of": 400,
+     "share": 0.0075,
+     "ci95": [
+      0.0,
+      0.0175
+     ]
+    },
+    "hallucinated_condition": {
+     "count": 19,
+     "of": 400,
+     "share": 0.0475,
+     "ci95": [
+      0.0275,
+      0.0675
+     ]
+    },
+    "missing_condition": {
+     "count": 13,
+     "of": 400,
+     "share": 0.0325,
+     "ci95": [
+      0.0175,
+      0.05
+     ]
+    },
+    "none": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "operation_extraction": {
+     "count": 2,
+     "of": 400,
+     "share": 0.005,
+     "ci95": [
+      0.0,
+      0.0125
+     ]
+    },
+    "other": {
+     "count": 2,
+     "of": 400,
+     "share": 0.005,
+     "ci95": [
+      0.0,
+      0.0125
+     ]
+    },
+    "recipient_extraction": {
+     "count": 2,
+     "of": 400,
+     "share": 0.005,
+     "ci95": [
+      0.0,
+      0.0125
+     ]
+    },
+    "referential_ambiguity": {
+     "count": 1,
+     "of": 400,
+     "share": 0.0025,
+     "ci95": [
+      0.0,
+      0.0075
+     ]
+    },
+    "segmentation_context_loss": {
+     "count": 1,
+     "of": 400,
+     "share": 0.0025,
+     "ci95": [
+      0.0,
+      0.0075
+     ]
+    },
+    "source_ambiguity_or_underspecification": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "error_types_by_polarity_share_of_polarity_rules": {
+    "ALLOW": {
+     "actor_entity_extraction": {
+      "count": 8,
+      "of": 382,
+      "share": 0.0209,
+      "ci95": [
+       0.0078,
+       0.0346
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 382,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 4,
+      "of": 382,
+      "share": 0.0105,
+      "ci95": [
+       0.0026,
+       0.0211
+      ]
+     },
+     "data_type_extraction": {
+      "count": 3,
+      "of": 382,
+      "share": 0.0079,
+      "ci95": [
+       0.0,
+       0.0182
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 19,
+      "of": 382,
+      "share": 0.0497,
+      "ci95": [
+       0.029,
+       0.0727
+      ]
+     },
+     "missing_condition": {
+      "count": 12,
+      "of": 382,
+      "share": 0.0314,
+      "ci95": [
+       0.0156,
+       0.0503
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 382,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 2,
+      "of": 382,
+      "share": 0.0052,
+      "ci95": [
+       0.0,
+       0.0131
+      ]
+     },
+     "other": {
+      "count": 2,
+      "of": 382,
+      "share": 0.0052,
+      "ci95": [
+       0.0,
+       0.0132
+      ]
+     },
+     "recipient_extraction": {
+      "count": 2,
+      "of": 382,
+      "share": 0.0052,
+      "ci95": [
+       0.0,
+       0.0132
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 1,
+      "of": 382,
+      "share": 0.0026,
+      "ci95": [
+       0.0,
+       0.0079
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 1,
+      "of": 382,
+      "share": 0.0026,
+      "ci95": [
+       0.0,
+       0.0079
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 382,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "DENY": {
+     "actor_entity_extraction": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 1,
+      "of": 18,
+      "share": 0.0556,
+      "ci95": [
+       0.0,
+       0.1875
+      ]
+     },
+     "data_type_extraction": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "missing_condition": {
+      "count": 1,
+      "of": 18,
+      "share": 0.0556,
+      "ci95": [
+       0.0,
+       0.1818
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "other": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "recipient_extraction": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 18,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "error_types_count_among_substantial": {
+    "hallucinated_condition": 19,
+    "missing_condition": 13,
+    "actor_entity_extraction": 8,
+    "condition_polarity": 5,
+    "data_type_extraction": 3,
+    "recipient_extraction": 2,
+    "operation_extraction": 2,
+    "other": 2,
+    "segmentation_context_loss": 1,
+    "referential_ambiguity": 1
+   },
+   "error_types_count_among_substantial_by_polarity": {
+    "ALLOW": {
+     "hallucinated_condition": 19,
+     "missing_condition": 12,
+     "actor_entity_extraction": 8,
+     "condition_polarity": 4,
+     "data_type_extraction": 3,
+     "recipient_extraction": 2,
+     "operation_extraction": 2,
+     "other": 2,
+     "segmentation_context_loss": 1,
+     "referential_ambiguity": 1
+    },
+    "DENY": {
+     "missing_condition": 1,
+     "condition_polarity": 1
+    }
+   },
+   "substantial_by_fields_wrong": {
+    "condition fields only": 29,
+    "flow and condition fields": 6,
+    "flow fields only": 8
+   },
+   "substantial_involving_condition_field": {
+    "count": 35,
+    "of_substantial": 43,
+    "share": 0.814
+   }
+  },
+  "android": {
+   "rules": 400,
+   "fidelity": {
+    "full": {
+     "count": 272,
+     "of": 400,
+     "share": 0.68,
+     "ci95": [
+      0.6375,
+      0.725
+     ]
+    },
+    "minor": {
+     "count": 78,
+     "of": 400,
+     "share": 0.195,
+     "ci95": [
+      0.1575,
+      0.2325
+     ]
+    },
+    "substantial": {
+     "count": 50,
+     "of": 400,
+     "share": 0.125,
+     "ci95": [
+      0.095,
+      0.1575
+     ]
+    },
+    "source_ambiguous": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "substantial_by_polarity": {
+    "ALLOW": {
+     "count": 45,
+     "of": 356,
+     "share": 0.1264,
+     "ci95": [
+      0.0937,
+      0.1598
+     ]
+    },
+    "DENY": {
+     "count": 5,
+     "of": 44,
+     "share": 0.1136,
+     "ci95": [
+      0.0294,
+      0.2083
+     ]
+    }
+   },
+   "error_types_share_of_all_rules": {
+    "actor_entity_extraction": {
+     "count": 11,
+     "of": 400,
+     "share": 0.0275,
+     "ci95": [
+      0.0125,
+      0.045
+     ]
+    },
+    "allow_deny_polarity": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "condition_polarity": {
+     "count": 3,
+     "of": 400,
+     "share": 0.0075,
+     "ci95": [
+      0.0,
+      0.0175
+     ]
+    },
+    "data_type_extraction": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "hallucinated_condition": {
+     "count": 17,
+     "of": 400,
+     "share": 0.0425,
+     "ci95": [
+      0.025,
+      0.0625
+     ]
+    },
+    "missing_condition": {
+     "count": 16,
+     "of": 400,
+     "share": 0.04,
+     "ci95": [
+      0.0225,
+      0.06
+     ]
+    },
+    "none": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "operation_extraction": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.025
+     ]
+    },
+    "other": {
+     "count": 8,
+     "of": 400,
+     "share": 0.02,
+     "ci95": [
+      0.0075,
+      0.035
+     ]
+    },
+    "recipient_extraction": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "referential_ambiguity": {
+     "count": 1,
+     "of": 400,
+     "share": 0.0025,
+     "ci95": [
+      0.0,
+      0.0075
+     ]
+    },
+    "segmentation_context_loss": {
+     "count": 3,
+     "of": 400,
+     "share": 0.0075,
+     "ci95": [
+      0.0,
+      0.0175
+     ]
+    },
+    "source_ambiguity_or_underspecification": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "error_types_by_polarity_share_of_polarity_rules": {
+    "ALLOW": {
+     "actor_entity_extraction": {
+      "count": 9,
+      "of": 356,
+      "share": 0.0253,
+      "ci95": [
+       0.011,
+       0.0426
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 356,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 3,
+      "of": 356,
+      "share": 0.0084,
+      "ci95": [
+       0.0,
+       0.0194
+      ]
+     },
+     "data_type_extraction": {
+      "count": 0,
+      "of": 356,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 17,
+      "of": 356,
+      "share": 0.0478,
+      "ci95": [
+       0.0279,
+       0.07
+      ]
+     },
+     "missing_condition": {
+      "count": 13,
+      "of": 356,
+      "share": 0.0365,
+      "ci95": [
+       0.019,
+       0.058
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 356,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 4,
+      "of": 356,
+      "share": 0.0112,
+      "ci95": [
+       0.0027,
+       0.0226
+      ]
+     },
+     "other": {
+      "count": 8,
+      "of": 356,
+      "share": 0.0225,
+      "ci95": [
+       0.0085,
+       0.0388
+      ]
+     },
+     "recipient_extraction": {
+      "count": 0,
+      "of": 356,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 1,
+      "of": 356,
+      "share": 0.0028,
+      "ci95": [
+       0.0,
+       0.0086
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 3,
+      "of": 356,
+      "share": 0.0084,
+      "ci95": [
+       0.0,
+       0.0196
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 356,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "DENY": {
+     "actor_entity_extraction": {
+      "count": 2,
+      "of": 44,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1111
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "data_type_extraction": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "missing_condition": {
+      "count": 3,
+      "of": 44,
+      "share": 0.0682,
+      "ci95": [
+       0.0,
+       0.1471
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 1,
+      "of": 44,
+      "share": 0.0227,
+      "ci95": [
+       0.0,
+       0.0769
+      ]
+     },
+     "other": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "recipient_extraction": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 44,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "error_types_count_among_substantial": {
+    "hallucinated_condition": 17,
+    "missing_condition": 16,
+    "actor_entity_extraction": 11,
+    "other": 8,
+    "operation_extraction": 5,
+    "condition_polarity": 3,
+    "segmentation_context_loss": 3,
+    "referential_ambiguity": 1
+   },
+   "error_types_count_among_substantial_by_polarity": {
+    "ALLOW": {
+     "hallucinated_condition": 17,
+     "missing_condition": 13,
+     "actor_entity_extraction": 9,
+     "other": 8,
+     "operation_extraction": 4,
+     "condition_polarity": 3,
+     "segmentation_context_loss": 3,
+     "referential_ambiguity": 1
+    },
+    "DENY": {
+     "missing_condition": 3,
+     "actor_entity_extraction": 2,
+     "operation_extraction": 1
+    }
+   },
+   "substantial_by_fields_wrong": {
+    "condition fields only": 34,
+    "flow fields only": 14,
+    "flow and condition fields": 2
+   },
+   "substantial_involving_condition_field": {
+    "count": 36,
+    "of_substantial": 50,
+    "share": 0.72
+   }
+  },
+  "apple": {
+   "rules": 400,
+   "fidelity": {
+    "full": {
+     "count": 266,
+     "of": 400,
+     "share": 0.665,
+     "ci95": [
+      0.62,
+      0.71
+     ]
+    },
+    "minor": {
+     "count": 82,
+     "of": 400,
+     "share": 0.205,
+     "ci95": [
+      0.1675,
+      0.2425
+     ]
+    },
+    "substantial": {
+     "count": 52,
+     "of": 400,
+     "share": 0.13,
+     "ci95": [
+      0.1,
+      0.1625
+     ]
+    },
+    "source_ambiguous": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "substantial_by_polarity": {
+    "ALLOW": {
+     "count": 46,
+     "of": 378,
+     "share": 0.1217,
+     "ci95": [
+      0.0899,
+      0.1549
+     ]
+    },
+    "DENY": {
+     "count": 6,
+     "of": 22,
+     "share": 0.2727,
+     "ci95": [
+      0.1053,
+      0.4545
+     ]
+    }
+   },
+   "error_types_share_of_all_rules": {
+    "actor_entity_extraction": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.025
+     ]
+    },
+    "allow_deny_polarity": {
+     "count": 1,
+     "of": 400,
+     "share": 0.0025,
+     "ci95": [
+      0.0,
+      0.0075
+     ]
+    },
+    "condition_polarity": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.025
+     ]
+    },
+    "data_type_extraction": {
+     "count": 4,
+     "of": 400,
+     "share": 0.01,
+     "ci95": [
+      0.0025,
+      0.02
+     ]
+    },
+    "hallucinated_condition": {
+     "count": 23,
+     "of": 400,
+     "share": 0.0575,
+     "ci95": [
+      0.035,
+      0.08
+     ]
+    },
+    "missing_condition": {
+     "count": 16,
+     "of": 400,
+     "share": 0.04,
+     "ci95": [
+      0.0225,
+      0.06
+     ]
+    },
+    "none": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "operation_extraction": {
+     "count": 2,
+     "of": 400,
+     "share": 0.005,
+     "ci95": [
+      0.0,
+      0.0125
+     ]
+    },
+    "other": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.025
+     ]
+    },
+    "recipient_extraction": {
+     "count": 5,
+     "of": 400,
+     "share": 0.0125,
+     "ci95": [
+      0.0025,
+      0.0225
+     ]
+    },
+    "referential_ambiguity": {
+     "count": 6,
+     "of": 400,
+     "share": 0.015,
+     "ci95": [
+      0.005,
+      0.0275
+     ]
+    },
+    "segmentation_context_loss": {
+     "count": 3,
+     "of": 400,
+     "share": 0.0075,
+     "ci95": [
+      0.0,
+      0.0175
+     ]
+    },
+    "source_ambiguity_or_underspecification": {
+     "count": 0,
+     "of": 400,
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "error_types_by_polarity_share_of_polarity_rules": {
+    "ALLOW": {
+     "actor_entity_extraction": {
+      "count": 4,
+      "of": 378,
+      "share": 0.0106,
+      "ci95": [
+       0.0026,
+       0.0213
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 0,
+      "of": 378,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "condition_polarity": {
+      "count": 3,
+      "of": 378,
+      "share": 0.0079,
+      "ci95": [
+       0.0,
+       0.0184
+      ]
+     },
+     "data_type_extraction": {
+      "count": 4,
+      "of": 378,
+      "share": 0.0106,
+      "ci95": [
+       0.0026,
+       0.022
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 22,
+      "of": 378,
+      "share": 0.0582,
+      "ci95": [
+       0.0369,
+       0.0824
+      ]
+     },
+     "missing_condition": {
+      "count": 13,
+      "of": 378,
+      "share": 0.0344,
+      "ci95": [
+       0.0182,
+       0.055
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 378,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 2,
+      "of": 378,
+      "share": 0.0053,
+      "ci95": [
+       0.0,
+       0.0135
+      ]
+     },
+     "other": {
+      "count": 4,
+      "of": 378,
+      "share": 0.0106,
+      "ci95": [
+       0.0026,
+       0.0213
+      ]
+     },
+     "recipient_extraction": {
+      "count": 4,
+      "of": 378,
+      "share": 0.0106,
+      "ci95": [
+       0.0026,
+       0.0212
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 5,
+      "of": 378,
+      "share": 0.0132,
+      "ci95": [
+       0.0027,
+       0.0263
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 3,
+      "of": 378,
+      "share": 0.0079,
+      "ci95": [
+       0.0,
+       0.0182
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 378,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "DENY": {
+     "actor_entity_extraction": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1379
+      ]
+     },
+     "allow_deny_polarity": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1333
+      ]
+     },
+     "condition_polarity": {
+      "count": 2,
+      "of": 22,
+      "share": 0.0909,
+      "ci95": [
+       0.0,
+       0.2381
+      ]
+     },
+     "data_type_extraction": {
+      "count": 0,
+      "of": 22,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "hallucinated_condition": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1364
+      ]
+     },
+     "missing_condition": {
+      "count": 3,
+      "of": 22,
+      "share": 0.1364,
+      "ci95": [
+       0.0,
+       0.3
+      ]
+     },
+     "none": {
+      "count": 0,
+      "of": 22,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "operation_extraction": {
+      "count": 0,
+      "of": 22,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "other": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.15
+      ]
+     },
+     "recipient_extraction": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1304
+      ]
+     },
+     "referential_ambiguity": {
+      "count": 1,
+      "of": 22,
+      "share": 0.0455,
+      "ci95": [
+       0.0,
+       0.1538
+      ]
+     },
+     "segmentation_context_loss": {
+      "count": 0,
+      "of": 22,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "source_ambiguity_or_underspecification": {
+      "count": 0,
+      "of": 22,
+      "share": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "error_types_count_among_substantial": {
+    "hallucinated_condition": 23,
+    "missing_condition": 16,
+    "referential_ambiguity": 6,
+    "other": 5,
+    "actor_entity_extraction": 5,
+    "condition_polarity": 5,
+    "recipient_extraction": 5,
+    "data_type_extraction": 4,
+    "segmentation_context_loss": 3,
+    "operation_extraction": 2,
+    "allow_deny_polarity": 1
+   },
+   "error_types_count_among_substantial_by_polarity": {
+    "ALLOW": {
+     "hallucinated_condition": 22,
+     "missing_condition": 13,
+     "referential_ambiguity": 5,
+     "actor_entity_extraction": 4,
+     "data_type_extraction": 4,
+     "recipient_extraction": 4,
+     "other": 4,
+     "segmentation_context_loss": 3,
+     "condition_polarity": 3,
+     "operation_extraction": 2
+    },
+    "DENY": {
+     "missing_condition": 3,
+     "condition_polarity": 2,
+     "other": 1,
+     "allow_deny_polarity": 1,
+     "actor_entity_extraction": 1,
+     "recipient_extraction": 1,
+     "hallucinated_condition": 1,
+     "referential_ambiguity": 1
+    }
+   },
+   "substantial_by_fields_wrong": {
+    "condition fields only": 31,
+    "flow fields only": 10,
+    "flow and condition fields": 11
+   },
+   "substantial_involving_condition_field": {
+    "count": 42,
+    "of_substantial": 52,
+    "share": 0.8077
+   }
+  }
+ },
+ "B_pairs": {
+  "strata": {
+   "same_scope": {
+    "pairs": 19,
+    "labeled": 19,
+    "counts": {
+     "different_practice": 3,
+     "deny": 14,
+     "contradiction": 2
+    }
+   },
+   "allow_specific": {
+    "pairs": 185,
+    "labeled": 50,
+    "counts": {
+     "contradiction": 6,
+     "deny": 15,
+     "extraction_error": 7,
+     "allow": 8,
+     "different_practice": 10,
+     "no_overlap": 2,
+     "unresolved": 2
+    }
+   },
+   "deny_specific": {
+    "pairs": 469,
+    "labeled": 50,
+    "counts": {
+     "deny": 48,
+     "no_overlap": 1,
+     "different_practice": 1
+    }
+   },
+   "incomparable": {
+    "pairs": 8623,
+    "labeled": 50,
+    "counts": {
+     "deny": 31,
+     "allow": 3,
+     "different_practice": 13,
+     "extraction_error": 3
+    }
+   },
+   "exclusive": {
+    "pairs": 1043,
+    "labeled": 50,
+    "counts": {
+     "deny": 16,
+     "different_practice": 7,
+     "allow": 17,
+     "no_overlap": 10
+    }
+   },
+   "unresolved": {
+    "pairs": 7579,
+    "labeled": 50,
+    "counts": {
+     "deny": 29,
+     "different_practice": 13,
+     "allow": 4,
+     "no_overlap": 4
+    }
+   }
+  },
+  "classes": {
+   "overlap_candidate": {
+    "pairs": 9296,
+    "allow": {
+     "share": 0.0588,
+     "ci95": [
+      0.0032,
+      0.1323
+     ]
+    },
+    "contradiction": {
+     "share": 0.0026,
+     "ci95": [
+      0.0009,
+      0.0046
+     ]
+    },
+    "deny": {
+     "share": 0.631,
+     "ci95": [
+      0.5021,
+      0.7446
+     ]
+    },
+    "different_practice": {
+     "share": 0.2465,
+     "ci95": [
+      0.1347,
+      0.3578
+     ]
+    },
+    "extraction_error": {
+     "share": 0.0584,
+     "ci95": [
+      0.0028,
+      0.1319
+     ]
+    },
+    "no_overlap": {
+     "share": 0.0018,
+     "ci95": [
+      0.0,
+      0.0042
+     ]
+    },
+    "unresolved": {
+     "share": 0.0008,
+     "ci95": [
+      0.0,
+      0.002
+     ]
+    },
+    "real_conflict (contradiction or unresolved)": {
+     "share": 0.0034,
+     "ci95": [
+      0.0015,
+      0.0056
+     ]
+    },
+    "should_not_be_paired (different_practice)": {
+     "share": 0.2465,
+     "ci95": [
+      0.1357,
+      0.3589
+     ]
+    },
+    "extraction_error (misread)": {
+     "share": 0.0584,
+     "ci95": [
+      0.0032,
+      0.1161
+     ]
+    }
+   },
+   "mutually_exclusive": {
+    "pairs": 1043,
+    "allow": {
+     "share": 0.34,
+     "ci95": [
+      0.22,
+      0.46
+     ]
+    },
+    "contradiction": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "deny": {
+     "share": 0.32,
+     "ci95": [
+      0.2,
+      0.46
+     ]
+    },
+    "different_practice": {
+     "share": 0.14,
+     "ci95": [
+      0.04,
+      0.24
+     ]
+    },
+    "extraction_error": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "no_overlap": {
+     "share": 0.2,
+     "ci95": [
+      0.1,
+      0.32
+     ]
+    },
+    "unresolved": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "real_conflict (contradiction or unresolved)": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "should_not_be_paired (different_practice)": {
+     "share": 0.14,
+     "ci95": [
+      0.06,
+      0.24
+     ]
+    },
+    "extraction_error (misread)": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "unresolved": {
+    "pairs": 7579,
+    "allow": {
+     "share": 0.08,
+     "ci95": [
+      0.02,
+      0.16
+     ]
+    },
+    "contradiction": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "deny": {
+     "share": 0.58,
+     "ci95": [
+      0.44,
+      0.7
+     ]
+    },
+    "different_practice": {
+     "share": 0.26,
+     "ci95": [
+      0.14,
+      0.38
+     ]
+    },
+    "extraction_error": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "no_overlap": {
+     "share": 0.08,
+     "ci95": [
+      0.02,
+      0.16
+     ]
+    },
+    "unresolved": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "real_conflict (contradiction or unresolved)": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "should_not_be_paired (different_practice)": {
+     "share": 0.26,
+     "ci95": [
+      0.14,
+      0.38
+     ]
+    },
+    "extraction_error (misread)": {
+     "share": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "all_pairs": {
+    "pairs": 17918,
+    "allow": {
+     "share": 0.0842,
+     "ci95": [
+      0.042,
+      0.1306
+     ]
+    },
+    "contradiction": {
+     "share": 0.0014,
+     "ci95": [
+      0.0005,
+      0.0024
+     ]
+    },
+    "deny": {
+     "share": 0.5913,
+     "ci95": [
+      0.5037,
+      0.6794
+     ]
+    },
+    "different_practice": {
+     "share": 0.246,
+     "ci95": [
+      0.1729,
+      0.3242
+     ]
+    },
+    "extraction_error": {
+     "share": 0.0303,
+     "ci95": [
+      0.0014,
+      0.0686
+     ]
+    },
+    "no_overlap": {
+     "share": 0.0464,
+     "ci95": [
+      0.0173,
+      0.0811
+     ]
+    },
+    "unresolved": {
+     "share": 0.0004,
+     "ci95": [
+      0.0,
+      0.001
+     ]
+    },
+    "real_conflict (contradiction or unresolved)": {
+     "share": 0.0018,
+     "ci95": [
+      0.0008,
+      0.0029
+     ]
+    },
+    "should_not_be_paired (different_practice)": {
+     "share": 0.246,
+     "ci95": [
+      0.1699,
+      0.324
+     ]
+    },
+    "extraction_error (misread)": {
+     "share": 0.0303,
+     "ci95": [
+      0.0014,
+      0.0686
+     ]
+    }
+   }
+  }
+ }
+}

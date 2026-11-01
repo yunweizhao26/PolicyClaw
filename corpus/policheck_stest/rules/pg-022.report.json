@@ -1,0 +1,175 @@
+{
+ "cleaned_sha256": "pg-022",
+ "text_sha256": "f7c461fdb1e46cdc7bbd53336286cc49d98e47212e4405d61922223c69508e7f",
+ "site_id": "pg-022",
+ "sections": 20,
+ "rules": 178,
+ "report": {
+  "sections": 20,
+  "raw_rules": 154,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "notify",
+      "verb": "notify"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "In the event that we are required by law to inform you of a breach to your personal information",
+      "electronically, in writing, or by telephone",
+      "if permitted to do so by law"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "required by law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "permitted to do so by law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "pg-022#s11"
+   },
+   {
+    "rule": {
+     "action": {
+      "text": "access",
+      "verb": "access"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "Us"
+     },
+     "conditions": [
+      "This section only applies to users located in the European Economic Area, United Kingdom, and Switzerland",
+      "you have the right to request"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "your personal data"
+     },
+     "exceptions": [],
+     "operation": "access",
+     "polarity": "ALLOW",
+     "polarity_text": "right to request",
+     "purpose": [],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "General Data Protection Regulation",
+       "name": "",
+       "target": "law"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "operation not in the schema",
+    "section": "pg-022#s15"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "provide",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your personal information",
+      "name": "personal information"
+     },
+     "recipient": {
+      "text": "you",
+      "name": "user"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "provide",
+      "verb": "provide"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "For data portability requests",
+      "in a format to provide your personal information that is readily useable and should allow you to transmit the information from one entity to another entity without hindrance"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "in a format to provide your personal information that is readily useable and should allow you to transmit the information from one entity to another entity without hindrance"
+    ],
+    "section": "pg-022#s20"
+   }
+  ],
+  "residual_quotes": 8,
+  "quotes": 52,
+  "completeness": {
+   "gaps": 222,
+   "gap_words": 2748
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 2,
+  "translated_quotes": 52,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 32,
+  "cached": 0,
+  "prompt_tokens": 53324,
+  "completion_tokens": 28030,
+  "thinking_tokens": 0,
+  "seconds": 181.4425754547119,
+  "failures": 0
+ },
+ "seconds": 182.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

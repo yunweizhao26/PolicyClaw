@@ -1,0 +1,214 @@
+{
+ "relations": {
+  "data": {
+   "aliases": {
+    "advertising-id": "advertising id",
+    "chess service identifiers": "chess service identifier",
+    "coarse_geolocation": "approximate location",
+    "email-address": "email address",
+    "email_address": "email address",
+    "facial images": "facial image",
+    "fingerprints": "fingerprint",
+    "government-id": "government ID number",
+    "government-issued id number": "government ID number",
+    "imprecise location": "coarse geolocation",
+    "ip-address": "ip address",
+    "language preferences": "language preference",
+    "personal data": "PI",
+    "personal_data": "PI",
+    "phone-number": "phone number",
+    "player information": "gameplay and performance data",
+    "postal-address": "postal address",
+    "preferred language": "language preference",
+    "pseudonym": "alias",
+    "push-token": "push notification token",
+    "screen captures": "device screen image",
+    "social security number": "SSN",
+    "social-media-identifier": "social media handle",
+    "social-security-number": "SSN",
+    "telephone number": "phone number",
+    "user name": "account username",
+    "user picture": "photos",
+    "username": "account username",
+    "video recording": "game play video and visual image",
+    "voice recording": "device audio"
+   },
+   "parents": {
+    "account password": [
+     "account-login",
+     "password"
+    ],
+    "account username": [
+     "account-login"
+    ],
+    "account-login": [
+     "account information"
+    ],
+    "advertising id": [
+     "personal identifiers"
+    ],
+    "push notification token": [
+     "personal identifiers"
+    ],
+    "ip address": [
+     "personal identifiers"
+    ],
+    "driver's license": [
+     "government ID number"
+    ],
+    "driver's license number": [
+     "government ID number"
+    ],
+    "SSN": [
+     "government ID number"
+    ],
+    "credit card number": [
+     "payment information"
+    ],
+    "payment information": [
+     "financial information"
+    ],
+    "fingerprint": [
+     "biometric data"
+    ],
+    "facial image": [
+     "biometric data"
+    ],
+    "biometric data": [
+     "sensitive or special category personal information"
+    ],
+    "customer review": [
+     "customer service communication",
+     "reviews-and-ratings"
+    ],
+    "customer service call recording": [
+     "customer service communication"
+    ],
+    "browser type": [
+     "browser details"
+    ],
+    "browser version": [
+     "browser details"
+    ],
+    "profile_photo": [
+     "photos"
+    ],
+    "photos": [
+     "photograph"
+    ],
+    "blog information": [
+     "user-generated content"
+    ],
+    "order history": [
+     "financial information"
+    ],
+    "user inquiry or complaint": [
+     "user-generated content"
+    ]
+   }
+  },
+  "recipient": {
+   "aliases": {},
+   "parents": {
+    "advertising network": [
+     "advertising company"
+    ],
+    "cloud storage provider": [
+     "service provider"
+    ]
+   }
+  },
+  "source": {
+   "aliases": {},
+   "parents": {
+    "advertising partner": [
+     "third party"
+    ],
+    "social_media_platform": [
+     "third party"
+    ],
+    "vendors and suppliers": [
+     "third party"
+    ]
+   }
+  },
+  "actor": {
+   "aliases": {},
+   "parents": {
+    "Google": [
+     "third party"
+    ],
+    "courts": [
+     "third party"
+    ],
+    "governments": [
+     "third party"
+    ],
+    "law enforcement officials": [
+     "third party"
+    ],
+    "payment processor": [
+     "service provider",
+     "third party"
+    ],
+    "service provider": [
+     "third party"
+    ],
+    "partners": [
+     "third party"
+    ]
+   }
+  },
+  "purpose": {
+   "aliases": {
+    "account-administration": "account management",
+    "customer-support": "customer support",
+    "targeted advertising": "personalized advertising",
+    "user account management": "account management"
+   },
+   "parents": {
+    "account management": [
+     "service provision"
+    ],
+    "account-management": [
+     "service provision"
+    ],
+    "customer support": [
+     "support"
+    ],
+    "order fulfillment": [
+     "fulfillment"
+    ],
+    "payments": [
+     "fulfillment"
+    ],
+    "personalized advertising": [
+     "advertising"
+    ],
+    "legal compliance": [
+     "legal",
+     "legal compliance or proceedings"
+    ],
+    "legal-compliance": [
+     "legal compliance"
+    ],
+    "to create profiles about individuals that are used in furtherance of decisions with legal or other similarly significant effects, such as the provision or denial of financial or lending services, housing, insurance, or access to essential goods or services": [
+     "profiling"
+    ],
+    "fraud_prevention": [
+     "security"
+    ]
+   }
+  }
+ },
+ "usage": {
+  "calls": 5,
+  "cached": 0,
+  "prompt_tokens": 3890,
+  "completion_tokens": 966,
+  "thinking_tokens": 0,
+  "seconds": 10.958075523376465,
+  "failures": 0
+ },
+ "seconds": 11.1
+}

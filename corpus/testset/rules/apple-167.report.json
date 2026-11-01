@@ -1,0 +1,117 @@
+{
+ "cleaned_sha256": "apple-167",
+ "text_sha256": "13fee6765ed1c5c1647b2a38b3d8786cd645f5b101bfe0ba7a0ebba901449e23",
+ "site_id": "apple-167",
+ "sections": 6,
+ "rules": 110,
+ "report": {
+  "sections": 6,
+  "raw_rules": 103,
+  "rejected": [
+   {
+    "rule": {
+     "action": {
+      "text": "retain",
+      "verb": "retain"
+     },
+     "actor": {
+      "name": "first party",
+      "text": "We"
+     },
+     "conditions": [
+      "only for as long as necessary to fulfill the purposes described in this General Privacy Policy",
+      "Where specific retention periods are required by law, we comply with those timeframes; otherwise, we apply the criteria above to determine how long to retain the information"
+     ],
+     "data": {
+      "name": "personal data",
+      "text": "Personal Information"
+     },
+     "exceptions": [],
+     "operation": "storage",
+     "polarity": "ALLOW",
+     "polarity_text": "retain",
+     "purpose": [
+      {
+       "text": "including to provide Websites",
+       "name": "service provision"
+      },
+      {
+       "text": "maintain business operations",
+       "name": "operations"
+      },
+      {
+       "text": "comply with legal and regulatory obligations",
+       "name": "legal compliance"
+      },
+      {
+       "text": "resolve disputes",
+       "name": "dispute resolution"
+      },
+      {
+       "text": "enforce our agreements",
+       "name": "enforcing terms"
+      }
+     ],
+     "recipient": {
+      "name": "",
+      "text": ""
+     },
+     "references": [
+      {
+       "text": "as required by law",
+       "name": "",
+       "target": "law"
+      },
+      {
+       "text": "described in this General Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ],
+     "source": {
+      "name": "",
+      "text": ""
+     }
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "as required by law"
+    ],
+    "section": "apple-167#s4"
+   }
+  ],
+  "residual_quotes": 9,
+  "quotes": 43,
+  "completeness": {
+   "gaps": 214,
+   "gap_words": 1976
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 43,
+  "compile_failures": 0,
+  "fixed_structurally": 0,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 12,
+  "cached": 0,
+  "prompt_tokens": 23672,
+  "completion_tokens": 19924,
+  "thinking_tokens": 0,
+  "seconds": 305.76270723342896,
+  "failures": 0
+ },
+ "seconds": 306.4,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

@@ -1,0 +1,223 @@
+{
+ "cleaned_sha256": "web-143",
+ "text_sha256": "69c1d5aa36cfa765e3a2f93385f21629e781cb217a8167fe865c732be6c767d2",
+ "site_id": "web-143",
+ "sections": 27,
+ "rules": 301,
+ "report": {
+  "sections": 27,
+  "raw_rules": 219,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "information you have provided to us",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "service providers",
+      "name": "service provider"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "disclose",
+      "verb": "disclose"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [
+      {
+       "text": "to target ads to you through ‘onboarded’ audiences",
+       "name": "advertising"
+      },
+      {
+       "text": "to reach you with display media",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [
+      "sometimes"
+     ],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "to target ads to you through ‘onboarded’ audiences"
+    ],
+    "section": "web-143#s4"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may send",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "",
+      "name": ""
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "send",
+      "verb": "send"
+     },
+     "operation": "use",
+     "purpose": [
+      {
+       "text": "commercial emails on behalf of ourselves, our Affiliates, and advertisers",
+       "name": "marketing"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [
+      "an opt-out that you can use to stop receiving such communications"
+     ],
+     "references": []
+    },
+    "reason": "missing polarity, action, or data",
+    "section": "web-143#s6"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "may collect",
+     "actor": {
+      "text": "third parties, including without limitation those whose products or services are accessible or advertised via the Services",
+      "name": "third party"
+     },
+     "data": {
+      "text": "information about your use of the Services",
+      "name": "browsing activity"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [
+      {
+       "text": "to (i) inform, optimize, and serve ads based on past visits to our websites and other sites and mobile applications",
+       "name": "advertising"
+      },
+      {
+       "text": "(ii) report how our ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to our websites, mobile applications, and use of our Services",
+       "name": "advertising"
+      }
+     ],
+     "conditions": [],
+     "exceptions": [],
+     "references": []
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "may collect"
+    ],
+    "section": "web-143#s8"
+   },
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "consent to",
+     "actor": {
+      "text": "we",
+      "name": "first party"
+     },
+     "data": {
+      "text": "your information",
+      "name": "information"
+     },
+     "recipient": {
+      "text": "those third parties to whom we disclose it as described in this Privacy Policy",
+      "name": "third party"
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "transferred to the facilities of",
+      "verb": "transfer"
+     },
+     "operation": "disclosure by transmission",
+     "purpose": [],
+     "conditions": [
+      "11. Use of the Services by users from outside the United States",
+      "By using the Services"
+     ],
+     "exceptions": [],
+     "references": [
+      {
+       "text": "as described in this Privacy Policy",
+       "name": "",
+       "target": "policy_section"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "transferred to the facilities of"
+    ],
+    "section": "web-143#s16"
+   }
+  ],
+  "residual_quotes": 17,
+  "quotes": 87,
+  "completeness": {
+   "gaps": 418,
+   "gap_words": 4546
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 18,
+  "translated_quotes": 87,
+  "compile_failures": 2,
+  "fixed_structurally": 2,
+  "fixed_by_call": 0
+ },
+ "usage": {
+  "calls": 47,
+  "cached": 0,
+  "prompt_tokens": 80482,
+  "completion_tokens": 45395,
+  "thinking_tokens": 0,
+  "seconds": 388.65505504608154,
+  "failures": 0
+ },
+ "seconds": 390.1,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}

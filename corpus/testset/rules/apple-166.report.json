@@ -1,0 +1,93 @@
+{
+ "cleaned_sha256": "apple-166",
+ "text_sha256": "19afa520edd46ee6b6dc52ad7c3d20e8e3605bb7722cdbd3906acc28fcf33650",
+ "site_id": "apple-166",
+ "sections": 20,
+ "rules": 172,
+ "report": {
+  "sections": 20,
+  "raw_rules": 144,
+  "rejected": [
+   {
+    "rule": {
+     "polarity": "ALLOW",
+     "polarity_text": "will ask for your consent to collect",
+     "actor": {
+      "text": "We",
+      "name": "first party"
+     },
+     "data": {
+      "text": "Personal Data",
+      "name": "personal data"
+     },
+     "recipient": {
+      "text": "",
+      "name": ""
+     },
+     "source": {
+      "text": "",
+      "name": ""
+     },
+     "action": {
+      "text": "collect",
+      "verb": "collect"
+     },
+     "operation": "collection",
+     "purpose": [],
+     "conditions": [
+      "with your consent",
+      "if we are required to do so in accordance with applicable law"
+     ],
+     "exceptions": [
+      "the choice to opt-out of such collection"
+     ],
+     "references": [
+      {
+       "text": "applicable law",
+       "name": "",
+       "target": "law"
+      }
+     ]
+    },
+    "reason": "quote not in section",
+    "quotes": [
+     "with your consent"
+    ],
+    "section": "apple-166#s7"
+   }
+  ],
+  "residual_quotes": 21,
+  "quotes": 78,
+  "completeness": {
+   "gaps": 245,
+   "gap_words": 2459
+  },
+  "unsatisfiable_guards": 0,
+  "qualifiers_without_effect": 0,
+  "translated_quotes": 78,
+  "compile_failures": 1,
+  "fixed_structurally": 0,
+  "fixed_by_call": 1
+ },
+ "usage": {
+  "calls": 35,
+  "cached": 0,
+  "prompt_tokens": 58603,
+  "completion_tokens": 28100,
+  "thinking_tokens": 0,
+  "seconds": 447.4052097797394,
+  "failures": 0
+ },
+ "seconds": 448.5,
+ "config": {
+  "model": "gemini-3.8-flash",
+  "variant": "thinking=LOW",
+  "seed": 42,
+  "prompts": "/scratch/yz5944/nlp+privacy/PolicyClaw/policyclaw/prompts",
+  "env": {
+   "LLM_BACKEND": "gemini",
+   "LLM_MODEL_NAME": "gemini-3.8-flash",
+   "GEMINI_THINKING_LEVEL": "LOW"
+  }
+ }
+}
